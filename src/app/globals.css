@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  --bg-start: #F6F3EA;
+  --bg-end: #EEF6FF;
+  --card: #FFFDF8;
+  --primary: #3B82F6;
+  --secondary: #06B6D4;
+  --warm: #F6C76E;
+  --pink: #F9A8D4;
+  --success: #22C55E;
+  --warning: #F59E0B;
+  --text: #1E293B;
+  --text-secondary: #64748B;
+  --text-muted: #94A3B8;
+  --border: #E8E4DC;
+}
+
+@theme inline {
+  --color-background: var(--bg-start);
+  --color-foreground: var(--text);
+  --font-sans: "Inter", "SF Pro Display", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "SF Mono", "JetBrains Mono", "Consolas", monospace;
+}
+
+body {
+  background: linear-gradient(180deg, #F6F3EA 0%, #EEF6FF 100%);
+  color: var(--text);
+  font-family: "Inter", "SF Pro Display", -apple-system, BlinkMacSystemFont, sans-serif;
+  min-height: 100vh;
+}
+
+* { box-sizing: border-box; }
+
+/* 卡片 */
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
+.card:hover { box-shadow: 0 4px 12px rgba(59,130,246,0.08); }
+
+/* 滚动条 */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 3px; }
+
+/* 动画 */
+@keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+.dot-live { animation: blink 2s infinite; }
+
+/* 选中态光晕 */
+.glow-active { box-shadow: 0 0 0 2px #3B82F6, 0 0 16px rgba(59,130,246,0.3); }
+
+/* 渐变标题 */
+.gradient-title {
+  background: linear-gradient(135deg, #3B82F6 0%, #06B6D4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

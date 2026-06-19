@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#3B82F6" flood-opacity="0.3"/></filter>
+  </defs>
+
+  <rect x="32" y="32" width="448" height="448" rx="96" fill="url(#bg)" filter="url(#s)"/>
+
+  <!-- 装饰光晕 -->
+  <circle cx="120" cy="120" r="80" fill="white" opacity="0.06"/>
+  <circle cx="400" cy="400" r="60" fill="#F9A8D4" opacity="0.12"/>
+
+  <!-- 眼睛轮廓 -->
+  <path d="M 100 256 Q 100 160 256 160 Q 412 160 412 256 Q 412 352 256 352 Q 100 352 100 256 Z"
+        fill="none" stroke="white" stroke-width="14" stroke-linecap="round" opacity="0.5"/>
+  <path d="M 120 256 Q 120 330 256 330 Q 392 330 392 256"
+        fill="none" stroke="white" stroke-width="10" stroke-linecap="round" opacity="0.25"/>
+  <ellipse cx="256" cy="252" rx="140" ry="88" fill="white" opacity="0.12"/>
+
+  <!-- 芯片 -->
+  <rect x="196" y="204" width="120" height="96" rx="18" fill="#0B4F6C" opacity="0.85"/>
+  <rect x="196" y="204" width="120" height="96" rx="18" fill="none" stroke="#E0F2FE" stroke-width="2.5" opacity="0.8"/>
+
+  <!-- 电路线 -->
+  <line x1="206" y1="252" x2="306" y2="252" stroke="#E0F2FE" stroke-width="2" opacity="0.7"/>
+  <line x1="256" y1="214" x2="256" y2="290" stroke="#E0F2FE" stroke-width="2" opacity="0.7"/>
+  <line x1="226" y1="240" x2="206" y2="240" stroke="#E0F2FE" stroke-width="1.5" opacity="0.5"/>
+  <line x1="226" y1="264" x2="206" y2="264" stroke="#E0F2FE" stroke-width="1.5" opacity="0.5"/>
+  <line x1="286" y1="240" x2="306" y2="240" stroke="#E0F2FE" stroke-width="1.5" opacity="0.5"/>
+  <line x1="286" y1="264" x2="306" y2="264" stroke="#E0F2FE" stroke-width="1.5" opacity="0.5"/>
+  <line x1="244" y1="238" x2="244" y2="214" stroke="#E0F2FE" stroke-width="1.5" opacity="0.5"/>
+  <line x1="268" y1="238" x2="268" y2="214" stroke="#E0F2FE" stroke-width="1.5" opacity="0.5"/>
+  <line x1="244" y1="266" x2="244" y2="290" stroke="#E0F2FE" stroke-width="1.5" opacity="0.5"/>
+  <line x1="268" y1="266" x2="268" y2="290" stroke="#E0F2FE" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- 发光节点 -->
+  <circle cx="256" cy="252" r="5" fill="#F6C76E"/>
+  <circle cx="226" cy="240" r="3.5" fill="#22C55E"/>
+  <circle cx="286" cy="240" r="3.5" fill="#F6C76E"/>
+  <circle cx="226" cy="264" r="3.5" fill="#F9A8D4"/>
+  <circle cx="286" cy="264" r="3.5" fill="#22C55E"/>
+  <circle cx="316" cy="204" r="2.5" fill="#F9A8D4" opacity="0.7"/>
+  <circle cx="196" cy="300" r="2" fill="#22C55E" opacity="0.5"/>
+
+  <!-- 眼角高光 -->
+  <circle cx="280" cy="230" r="3" fill="white" opacity="0.5"/>
+</svg>

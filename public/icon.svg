@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- 背景渐变 -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <!-- 芯片微光 -->
+    <radialGradient id="chipGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E0F2FE" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0B4F6C" stop-opacity="0"/>
+    </radialGradient>
+    <!-- 阴影 -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#3B82F6" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- 圆角方形背景 -->
+  <rect x="32" y="32" width="448" height="448" rx="96" ry="96" fill="url(#bg)" filter="url(#shadow)"/>
+
+  <!-- 光晕装饰（左上） -->
+  <circle cx="120" cy="120" r="80" fill="white" opacity="0.06"/>
+  <!-- 光晕装饰（右下） -->
+  <circle cx="400" cy="400" r="60" fill="#F9A8D4" opacity="0.12"/>
+
+  <!-- === 眼睛轮廓 === -->
+  <!-- 上眼睑 -->
+  <path d="M 100 256 Q 100 160 256 160 Q 412 160 412 256 Q 412 352 256 352 Q 100 352 100 256 Z"
+        fill="none" stroke="white" stroke-width="14" stroke-linecap="round"
+        opacity="0.5"/>
+
+  <!-- 下眼睑（更淡） -->
+  <path d="M 120 256 Q 120 330 256 330 Q 392 330 392 256"
+        fill="none" stroke="white" stroke-width="10" stroke-linecap="round"
+        opacity="0.25"/>
+
+  <!-- 眼白 -->
+  <ellipse cx="256" cy="252" rx="140" ry="88" fill="white" opacity="0.15"/>
+
+  <!-- === 芯片（眼球） === -->
+  <!-- 芯片主体 -->
+  <rect x="196" y="204" width="120" height="96" rx="18" ry="18"
+        fill="#0B4F6C" opacity="0.85"/>
+
+  <!-- 芯片内光晕 -->
+  <rect x="196" y="204" width="120" height="96" rx="18" ry="18"
+        fill="url(#chipGlow)" opacity="0.4"/>
+
+  <!-- 芯片边框 -->
+  <rect x="196" y="204" width="120" height="96" rx="18" ry="18"
+        fill="none" stroke="#E0F2FE" stroke-width="2.5" opacity="0.8"/>
+
+  <!-- === 电路线 === -->
+  <!-- 水平中线 -->
+  <line x1="206" y1="252" x2="306" y2="252" stroke="#E0F2FE" stroke-width="2" opacity="0.7"/>
+  <!-- 垂直中线 -->
+  <line x1="256" y1="214" x2="256" y2="290" stroke="#E0F2FE" stroke-width="2" opacity="0.7"/>
+
+  <!-- 左分支 -->
+  <line x1="226" y1="240" x2="206" y2="240" stroke="#E0F2FE" stroke-width="1.5" opacity="0.5"/>
+  <line x1="226" y1="264" x2="206" y2="264" stroke="#E0F2FE" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- 右分支 -->
+  <line x1="286" y1="240" x2="306" y2="240" stroke="#E0F2FE" stroke-width="1.5" opacity="0.5"/>
+  <line x1="286" y1="264" x2="306" y2="264" stroke="#E0F2FE" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- 上分支 -->
+  <line x1="244" y1="238" x2="244" y2="214" stroke="#E0F2FE" stroke-width="1.5" opacity="0.5"/>
+  <line x1="268" y1="238" x2="268" y2="214" stroke="#E0F2FE" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- 下分支 -->
+  <line x1="244" y1="266" x2="244" y2="290" stroke="#E0F2FE" stroke-width="1.5" opacity="0.5"/>
+  <line x1="268" y1="266" x2="268" y2="290" stroke="#E0F2FE" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- === 发光节点 === -->
+  <!-- 中心节点（大） -->
+  <circle cx="256" cy="252" r="5" fill="#F6C76E">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="256" cy="252" r="10" fill="none" stroke="#F6C76E" stroke-width="1" opacity="0.4">
+    <animate attributeName="r" values="8;13;8" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.1;0.5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- 左上节点 -->
+  <circle cx="226" cy="240" r="3.5" fill="#22C55E">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- 右上节点 -->
+  <circle cx="286" cy="240" r="3.5" fill="#F6C76E">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- 左下节点 -->
+  <circle cx="226" cy="264" r="3.5" fill="#F9A8D4">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- 右下节点 -->
+  <circle cx="286" cy="264" r="3.5" fill="#22C55E">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- 底部点缀点 -->
+  <circle cx="316" cy="204" r="2.5" fill="#F9A8D4" opacity="0.7"/>
+  <circle cx="196" cy="300" r="2" fill="#22C55E" opacity="0.5"/>
+
+  <!-- === 眼角光点（二次元风格）=== -->
+  <circle cx="280" cy="230" r="3" fill="white" opacity="0.6"/>
+</svg>
