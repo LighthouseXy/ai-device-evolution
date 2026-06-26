@@ -1,0 +1,629 @@
+{
+  "metadata": {
+    "version": "needs-review-b",
+    "generatedAt": "2026-06-25",
+    "deviceCount": 2
+  },
+  "devices": [
+    {
+      "id": "iphone-17-pro",
+      "brand": "Apple",
+      "category": "phone",
+      "series": "iPhone Pro",
+      "modelName": "iPhone 17 Pro",
+      "generation": "17 Pro",
+      "releaseYear": 2025,
+      "colors": {
+        "value": [
+          "Silver",
+          "Cosmic Orange",
+          "Deep Blue"
+        ],
+        "unit": null,
+        "rawText": "Silver, Cosmic Orange, Deep Blue",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "material": {
+        "value": "Aluminum unibody, Ceramic Shield 2 front, Ceramic Shield back",
+        "unit": null,
+        "rawText": "Aluminum unibody design, Ceramic Shield 2 front, Ceramic Shield back",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 206,
+        "unit": "g",
+        "rawText": "206 grams (7.27 oz)",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "dimensions": {
+        "value": "150.0 x 71.9 x 8.75 mm",
+        "unit": "mm",
+        "rawText": "150.0 mm x 71.9 mm x 8.75 mm",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 6.3,
+        "unit": "inch",
+        "rawText": "6.3-inch diagonal",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Super Retina XDR OLED, Always-On, ProMotion",
+        "unit": null,
+        "rawText": "Super Retina XDR OLED, Always-On display, ProMotion technology",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2622 x 1206",
+        "unit": "pixels",
+        "rawText": "2622 x 1206 pixels at 460 ppi",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 120,
+        "unit": "Hz",
+        "rawText": "Up to 120Hz (adaptive via ProMotion)",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "A19 Pro",
+        "unit": null,
+        "rawText": "A19 Pro",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "cpu": {
+        "value": "6-core CPU (2 performance + 4 efficiency)",
+        "unit": null,
+        "rawText": "6-core CPU with 2 performance and 4 efficiency cores",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "gpu": {
+        "value": "6-core GPU with Neural Accelerators",
+        "unit": null,
+        "rawText": "6-core GPU with Neural Accelerators, hardware-accelerated ray tracing",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "16-core Neural Engine",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "256GB / 512GB / 1TB",
+        "unit": null,
+        "rawText": "256GB, 512GB, 1TB",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "rearCamera": {
+        "value": "48MP Main: 24mm f/1.78 + 48MP Ultra Wide: 13mm f/2.2 + 48MP Telephoto: 100mm f/2.8",
+        "unit": null,
+        "rawText": "48MP Pro Fusion camera system (triple lens)",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "mainCamera": {
+        "value": "48MP Fusion Main, 24mm, f/1.78, sensor-shift OIS",
+        "unit": null,
+        "rawText": "48MP Fusion Main: 24mm, f/1.78, sensor-shift OIS",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "ultraWide": {
+        "value": "48MP Fusion Ultra Wide, 13mm, f/2.2, 120° FOV",
+        "unit": null,
+        "rawText": "48MP Fusion Ultra Wide: 13mm, f/2.2, 120° FOV",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "telephoto": {
+        "value": "48MP Fusion Telephoto, 100mm (4x), f/2.8",
+        "unit": null,
+        "rawText": "48MP Fusion Telephoto: 100mm (4x), f/2.8, tetraprism",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "opticalZoom": {
+        "value": "8x optical-quality zoom in, 2x out, 16x range",
+        "unit": null,
+        "rawText": "8x optical-quality zoom in, 2x optical zoom out; 16x optical-quality zoom range",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "frontCamera": {
+        "value": "18MP Center Stage, f/1.9",
+        "unit": null,
+        "rawText": "18MP Center Stage camera, f/1.9, autofocus with Focus Pixels",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "videoRecording": {
+        "value": "4K Dolby Vision at 24/25/30/60/100/120 fps, ProRes up to 4K 120fps",
+        "unit": null,
+        "rawText": "4K Dolby Vision at 24/25/30/60/100/120 fps; ProRes up to 4K at 120 fps",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "batteryLife": {
+        "value": "Up to 33 hours video playback",
+        "unit": null,
+        "rawText": "Up to 33 hours video playback; up to 30 hours streamed",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "USB-C (USB 3, up to 10Gb/s), DisplayPort",
+        "unit": null,
+        "rawText": "USB-C with USB 3 (up to 10 Gb/s) and DisplayPort support",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chargingMethod": {
+        "value": "MagSafe/Qi2 up to 25W, fast-charge 40W+ USB-C",
+        "unit": null,
+        "rawText": "Fast-charge: 50% in 20 min with 40W+ adapter; MagSafe/Qi2 wireless up to 25W",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "security": {
+        "value": "Face ID",
+        "unit": null,
+        "rawText": "Face ID (TrueDepth in Center Stage camera)",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "waterResistance": {
+        "value": "IP68 (6m, 30min)",
+        "unit": null,
+        "rawText": "IP68 (maximum depth of 6 meters up to 30 minutes)",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "Wi-Fi 7 (802.11be), Apple N1 chip",
+        "unit": null,
+        "rawText": "Wi-Fi 7 (802.11be) with 2x2 MIMO, Apple N1 wireless chip",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "6",
+        "unit": null,
+        "rawText": "Bluetooth 6",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "sim": {
+        "value": "Dual eSIM only",
+        "unit": null,
+        "rawText": "Dual eSIM only",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasMagSafe": {
+        "value": true,
+        "unit": null,
+        "rawText": "Yes, up to 25W wireless",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasNFC": {
+        "value": true,
+        "unit": null,
+        "rawText": "NFC with reader mode",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasSOS": {
+        "value": true,
+        "unit": null,
+        "rawText": "Emergency SOS via satellite",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasCrashDetection": {
+        "value": true,
+        "unit": null,
+        "rawText": "Yes",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasUWB": {
+        "value": true,
+        "unit": null,
+        "rawText": "Second-generation Ultra Wideband chip",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      }
+    },
+    {
+      "id": "iphone-17-pro-max",
+      "brand": "Apple",
+      "category": "phone",
+      "series": "iPhone Pro",
+      "modelName": "iPhone 17 Pro Max",
+      "generation": "17 Pro Max",
+      "releaseYear": 2025,
+      "colors": {
+        "value": [
+          "Silver",
+          "Cosmic Orange",
+          "Deep Blue"
+        ],
+        "unit": null,
+        "rawText": "Silver, Cosmic Orange, Deep Blue",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "material": {
+        "value": "Aluminum unibody, Ceramic Shield 2 front, Ceramic Shield back",
+        "unit": null,
+        "rawText": "Aluminum unibody design, Ceramic Shield 2 front, Ceramic Shield back",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 227,
+        "unit": "g",
+        "rawText": "227 grams",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "dimensions": {
+        "value": "163.0 x 77.6 x 8.25 mm",
+        "unit": "mm",
+        "rawText": "Estimated from previous Pro Max models",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 6.9,
+        "unit": "inch",
+        "rawText": "6.9-inch diagonal",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Super Retina XDR OLED, Always-On, ProMotion",
+        "unit": null,
+        "rawText": "Super Retina XDR OLED, Always-On display, ProMotion technology",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2868 x 1320",
+        "unit": "pixels",
+        "rawText": "2868 x 1320 pixels at 460 ppi",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 120,
+        "unit": "Hz",
+        "rawText": "Up to 120Hz (adaptive via ProMotion)",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "A19 Pro",
+        "unit": null,
+        "rawText": "A19 Pro",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "cpu": {
+        "value": "6-core CPU (2 performance + 4 efficiency)",
+        "unit": null,
+        "rawText": "6-core CPU with 2 performance and 4 efficiency cores",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "gpu": {
+        "value": "6-core GPU with Neural Accelerators",
+        "unit": null,
+        "rawText": "6-core GPU with Neural Accelerators, hardware-accelerated ray tracing",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "16-core Neural Engine",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "256GB / 512GB / 1TB / 2TB",
+        "unit": null,
+        "rawText": "256GB, 512GB, 1TB, 2TB",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "rearCamera": {
+        "value": "48MP Main: 24mm f/1.78 + 48MP Ultra Wide: 13mm f/2.2 + 48MP Telephoto: 100mm f/2.8",
+        "unit": null,
+        "rawText": "48MP Pro Fusion camera system (triple lens)",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "mainCamera": {
+        "value": "48MP Fusion Main, 24mm, f/1.78, sensor-shift OIS",
+        "unit": null,
+        "rawText": "48MP Fusion Main: 24mm, f/1.78, sensor-shift OIS",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "ultraWide": {
+        "value": "48MP Fusion Ultra Wide, 13mm, f/2.2, 120° FOV",
+        "unit": null,
+        "rawText": "48MP Fusion Ultra Wide: 13mm, f/2.2, 120° FOV",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "telephoto": {
+        "value": "48MP Fusion Telephoto, 100mm (4x), f/2.8",
+        "unit": null,
+        "rawText": "48MP Fusion Telephoto: 100mm (4x), f/2.8, tetraprism",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "opticalZoom": {
+        "value": "8x optical-quality zoom in, 2x out, 16x range",
+        "unit": null,
+        "rawText": "8x optical-quality zoom in, 2x optical zoom out; 16x optical-quality zoom range",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "frontCamera": {
+        "value": "18MP Center Stage, f/1.9",
+        "unit": null,
+        "rawText": "18MP Center Stage camera, f/1.9, autofocus with Focus Pixels",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "videoRecording": {
+        "value": "4K Dolby Vision at 24/25/30/60/100/120 fps, ProRes up to 4K 120fps",
+        "unit": null,
+        "rawText": "4K Dolby Vision at 24/25/30/60/100/120 fps; ProRes up to 4K at 120 fps",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "batteryLife": {
+        "value": "Up to 36 hours video playback",
+        "unit": null,
+        "rawText": "Up to 36 hours video playback (estimated)",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "USB-C (USB 3, up to 10Gb/s), DisplayPort",
+        "unit": null,
+        "rawText": "USB-C with USB 3 (up to 10 Gb/s) and DisplayPort support",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chargingMethod": {
+        "value": "MagSafe/Qi2 up to 25W, fast-charge 40W+ USB-C",
+        "unit": null,
+        "rawText": "Fast-charge: 50% in 20 min with 40W+ adapter; MagSafe/Qi2 wireless up to 25W",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "security": {
+        "value": "Face ID",
+        "unit": null,
+        "rawText": "Face ID (TrueDepth in Center Stage camera)",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "waterResistance": {
+        "value": "IP68 (6m, 30min)",
+        "unit": null,
+        "rawText": "IP68 (maximum depth of 6 meters up to 30 minutes)",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "Wi-Fi 7 (802.11be), Apple N1 chip",
+        "unit": null,
+        "rawText": "Wi-Fi 7 (802.11be) with 2x2 MIMO, Apple N1 wireless chip",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "6",
+        "unit": null,
+        "rawText": "Bluetooth 6",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "sim": {
+        "value": "Dual eSIM only",
+        "unit": null,
+        "rawText": "Dual eSIM only",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasMagSafe": {
+        "value": true,
+        "unit": null,
+        "rawText": "Yes, up to 25W wireless",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasNFC": {
+        "value": true,
+        "unit": null,
+        "rawText": "NFC with reader mode",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasSOS": {
+        "value": true,
+        "unit": null,
+        "rawText": "Emergency SOS via satellite",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasCrashDetection": {
+        "value": true,
+        "unit": null,
+        "rawText": "Yes",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasUWB": {
+        "value": true,
+        "unit": null,
+        "rawText": "Second-generation Ultra Wideband chip",
+        "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      }
+    }
+  ]
+}

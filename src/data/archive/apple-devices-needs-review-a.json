@@ -1,0 +1,596 @@
+{
+  "metadata": {
+    "version": "needs-review-a",
+    "generatedAt": "2026-06-25",
+    "deviceCount": 2
+  },
+  "devices": [
+    {
+      "id": "iphone-17",
+      "brand": "Apple",
+      "category": "phone",
+      "series": "iPhone",
+      "modelName": "iPhone 17",
+      "generation": "17",
+      "releaseYear": 2025,
+      "colors": {
+        "value": [
+          "Black",
+          "White",
+          "Mist Blue",
+          "Sage",
+          "Lavender"
+        ],
+        "unit": null,
+        "rawText": "Black, White, Mist Blue, Sage, Lavender",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "material": {
+        "value": "Aluminum design, Ceramic Shield 2 front, Color-infused glass back",
+        "unit": null,
+        "rawText": "Aluminum design, Ceramic Shield 2 front, Color-infused glass back",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 177,
+        "unit": "g",
+        "rawText": "177 grams",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "dimensions": {
+        "value": "149.6 x 71.5 x 7.95 mm",
+        "unit": "mm",
+        "rawText": "71.5 mm x 149.6 mm x 7.95 mm",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 6.3,
+        "unit": "inch",
+        "rawText": "6.3-inch diagonal",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Super Retina XDR OLED",
+        "unit": null,
+        "rawText": "Super Retina XDR OLED",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2622 x 1206",
+        "unit": "pixels",
+        "rawText": "2622 by 1206 pixels at 460 ppi",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 120,
+        "unit": "Hz",
+        "rawText": "ProMotion adaptive up to 120Hz",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "A19",
+        "unit": null,
+        "rawText": "A19",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "cpu": {
+        "value": "6-core CPU (2 performance + 4 efficiency)",
+        "unit": null,
+        "rawText": "6-core (2 performance, 4 efficiency)",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "gpu": {
+        "value": "5-core GPU with Neural Accelerators",
+        "unit": null,
+        "rawText": "5-core GPU with Neural Accelerators, hardware-accelerated ray tracing",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "16-core Neural Engine",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "256GB / 512GB",
+        "unit": null,
+        "rawText": "256GB, 512GB",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "rearCamera": {
+        "value": "48MP Dual Fusion: Main 26mm f/1.6 + Ultra Wide 13mm f/2.2",
+        "unit": null,
+        "rawText": "48MP Dual Fusion camera system",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "mainCamera": {
+        "value": "48MP Fusion Main, 26mm, f/1.6, sensor-shift OIS",
+        "unit": null,
+        "rawText": "48MP Fusion Main — 26mm, f/1.6, sensor-shift OIS",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "ultraWide": {
+        "value": "48MP Fusion Ultra Wide, 13mm, f/2.2, 120° FOV",
+        "unit": null,
+        "rawText": "48MP Fusion Ultra Wide — 13mm, f/2.2, 120° field of view",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "frontCamera": {
+        "value": "18MP Center Stage, f/1.9",
+        "unit": null,
+        "rawText": "18MP Center Stage — f/1.9, autofocus with Focus Pixels",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "videoRecording": {
+        "value": "4K Dolby Vision at 24/25/30/60 fps",
+        "unit": null,
+        "rawText": "Up to 4K Dolby Vision at 24/25/30/60 fps",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "batteryLife": {
+        "value": "Up to 30 hours video playback",
+        "unit": null,
+        "rawText": "Up to 30 hours video playback; 27 hours streamed",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "USB-C (USB 2)",
+        "unit": null,
+        "rawText": "USB-C (USB 2, up to 480Mb/s)",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chargingMethod": {
+        "value": "MagSafe/Qi2 up to 25W, fast-charge 40W+",
+        "unit": null,
+        "rawText": "Fast-charge via 40W+ USB-C adapter; MagSafe/Qi2 wireless up to 25W",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "security": {
+        "value": "Face ID",
+        "unit": null,
+        "rawText": "Face ID (TrueDepth)",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "waterResistance": {
+        "value": "IP68 (6m, 30min)",
+        "unit": null,
+        "rawText": "IP68 (6 meters, up to 30 minutes)",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "Wi-Fi 7 (802.11be), Apple N1 chip",
+        "unit": null,
+        "rawText": "Wi-Fi 7 (802.11be) 2x2 MIMO, Apple N1 chip",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "6",
+        "unit": null,
+        "rawText": "Bluetooth 6",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "sim": {
+        "value": "Dual eSIM only",
+        "unit": null,
+        "rawText": "Dual eSIM only",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasMagSafe": {
+        "value": true,
+        "unit": null,
+        "rawText": "Yes, 25W wireless charging",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasNFC": {
+        "value": true,
+        "unit": null,
+        "rawText": "NFC with reader mode",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasSOS": {
+        "value": true,
+        "unit": null,
+        "rawText": "Emergency SOS, Roadside Assistance, Messages, Find My via satellite",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasCrashDetection": {
+        "value": true,
+        "unit": null,
+        "rawText": "Yes",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasUWB": {
+        "value": true,
+        "unit": null,
+        "rawText": "Second-generation Ultra Wideband chip",
+        "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      }
+    },
+    {
+      "id": "iphone-air",
+      "brand": "Apple",
+      "category": "phone",
+      "series": "iPhone",
+      "modelName": "iPhone Air",
+      "generation": "Air",
+      "releaseYear": 2025,
+      "colors": {
+        "value": [
+          "Space Black",
+          "Cloud White",
+          "Light Gold",
+          "Sky Blue"
+        ],
+        "unit": null,
+        "rawText": "Space Black, Cloud White, Light Gold, Sky Blue",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "material": {
+        "value": "Titanium design, Ceramic Shield 2 front, Ceramic Shield back",
+        "unit": null,
+        "rawText": "Titanium design, Ceramic Shield 2 front, Ceramic Shield back",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 165,
+        "unit": "g",
+        "rawText": "165 grams (5.82 oz)",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "dimensions": {
+        "value": "156.2 x 74.7 x 5.64 mm",
+        "unit": "mm",
+        "rawText": "156.2 mm x 74.7 mm x 5.64 mm",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 6.5,
+        "unit": "inch",
+        "rawText": "6.5-inch diagonal OLED",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Super Retina XDR OLED, Always-On, Anti-reflective coating",
+        "unit": null,
+        "rawText": "Super Retina XDR OLED, HDR, True Tone, P3 wide color, Always-On, Anti-reflective coating",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2736 x 1260",
+        "unit": "pixels",
+        "rawText": "2736 x 1260 pixels at 460 ppi",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 120,
+        "unit": "Hz",
+        "rawText": "ProMotion adaptive up to 120Hz",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "A19 Pro",
+        "unit": null,
+        "rawText": "A19 Pro",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "cpu": {
+        "value": "6-core CPU (2 performance + 4 efficiency)",
+        "unit": null,
+        "rawText": "6-core (2 performance, 4 efficiency)",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "gpu": {
+        "value": "5-core GPU with Neural Accelerators",
+        "unit": null,
+        "rawText": "5-core GPU with Neural Accelerators, hardware-accelerated ray tracing",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "16-core Neural Engine",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "256GB / 512GB / 1TB",
+        "unit": null,
+        "rawText": "256GB, 512GB, 1TB",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "rearCamera": {
+        "value": "48MP Fusion Main: 26mm, f/1.6, sensor-shift OIS; 12MP 2x Telephoto: 52mm",
+        "unit": null,
+        "rawText": "48MP Fusion Main (26mm, f/1.6, sensor-shift OIS); 12MP optical-quality 2x Telephoto (52mm)",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "mainCamera": {
+        "value": "48MP Fusion Main, 26mm, f/1.6, sensor-shift OIS",
+        "unit": null,
+        "rawText": "48MP Fusion Main — 26mm, f/1.6, sensor-shift OIS",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "telephoto": {
+        "value": "12MP optical-quality 2x, 52mm, f/1.6",
+        "unit": null,
+        "rawText": "12MP optical-quality 2x Telephoto (52mm, f/1.6)",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "frontCamera": {
+        "value": "18MP Center Stage, f/1.9",
+        "unit": null,
+        "rawText": "18MP Center Stage, f/1.9, autofocus with Focus Pixels",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "videoRecording": {
+        "value": "4K Dolby Vision at 24/25/30/60 fps, Dual Capture up to 4K@30fps",
+        "unit": null,
+        "rawText": "4K Dolby Vision at 24/25/30/60 fps; Dual Capture up to 4K@30fps",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "batteryLife": {
+        "value": "Up to 27 hours video playback",
+        "unit": null,
+        "rawText": "Up to 27 hrs video playback; up to 22 hrs streamed",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "USB-C (USB 2)",
+        "unit": null,
+        "rawText": "USB-C (USB 2, up to 480Mb/s)",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chargingMethod": {
+        "value": "MagSafe/Qi2 up to 20W, fast-charge 20W+",
+        "unit": null,
+        "rawText": "Fast charge 50% in 30 min (20W+ adapter); MagSafe/Qi2 wireless up to 20W",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "security": {
+        "value": "Face ID",
+        "unit": null,
+        "rawText": "Face ID (TrueDepth via Center Stage camera)",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "waterResistance": {
+        "value": "IP68 (6m, 30min)",
+        "unit": null,
+        "rawText": "IP68 (6m max depth, up to 30 min)",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "Wi-Fi 7 (802.11be), Apple N1 chip",
+        "unit": null,
+        "rawText": "Wi-Fi 7 (802.11be) 2x2 MIMO (Apple N1 chip)",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "6",
+        "unit": null,
+        "rawText": "Bluetooth 6",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "sim": {
+        "value": "Dual eSIM only",
+        "unit": null,
+        "rawText": "Dual eSIM only (no physical SIM support)",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasMagSafe": {
+        "value": true,
+        "unit": null,
+        "rawText": "Yes, up to 20W wireless",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasNFC": {
+        "value": true,
+        "unit": null,
+        "rawText": "NFC with reader mode",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasSOS": {
+        "value": true,
+        "unit": null,
+        "rawText": "Emergency SOS via satellite",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasCrashDetection": {
+        "value": true,
+        "unit": null,
+        "rawText": "Yes",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasUWB": {
+        "value": true,
+        "unit": null,
+        "rawText": "Second-generation Ultra Wideband chip",
+        "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      }
+    }
+  ]
+}

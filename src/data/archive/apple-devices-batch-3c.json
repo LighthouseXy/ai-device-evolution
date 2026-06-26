@@ -1,0 +1,2354 @@
+{
+  "metadata": {
+    "version": "batch-3c",
+    "generatedAt": "2026-06-25",
+    "deviceCount": 8
+  },
+  "devices": [
+    {
+      "id": "ipad-mini-a17-pro-2024",
+      "brand": "Apple",
+      "category": "tablet",
+      "series": "iPad mini",
+      "modelName": "iPad mini (A17 Pro)",
+      "generation": "A17 Pro",
+      "releaseYear": 2024,
+      "colors": {
+        "value": [
+          "Blue",
+          "Purple",
+          "Starlight",
+          "Space Gray"
+        ],
+        "unit": null,
+        "rawText": "Blue, Purple, Starlight, Space Gray",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "material": {
+        "value": "100% recycled aluminum",
+        "unit": null,
+        "rawText": "100% recycled aluminum",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 293,
+        "unit": "g",
+        "rawText": "293g (Wi-Fi) / 297g (Wi-Fi + Cellular)",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "dimensions": {
+        "value": "195.4 x 134.8 x 6.3 mm",
+        "unit": "mm",
+        "rawText": "195.4 x 134.8 x 6.3 mm",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 8.3,
+        "unit": "inch",
+        "rawText": "8.3 inches diagonal",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Liquid Retina, LED backlit IPS, fully laminated",
+        "unit": null,
+        "rawText": "Liquid Retina display, LED backlit Multi-Touch with IPS, fully laminated, antireflective coating",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2266 x 1488",
+        "unit": "pixels",
+        "rawText": "2266 x 1488 at 326 ppi",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 60,
+        "unit": "Hz",
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "A17 Pro",
+        "unit": null,
+        "rawText": "A17 Pro",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "cpu": {
+        "value": "6-core CPU (2 performance + 4 efficiency)",
+        "unit": null,
+        "rawText": "6-core CPU with 2 performance cores and 4 efficiency cores",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "gpu": {
+        "value": "5-core GPU",
+        "unit": null,
+        "rawText": "5-core GPU",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "16-core Neural Engine",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "128GB / 256GB / 512GB",
+        "unit": null,
+        "rawText": "128GB, 256GB, 512GB",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "rearCamera": {
+        "value": "12MP Wide, f/1.8, 5-element lens, True Tone flash",
+        "unit": null,
+        "rawText": "12MP Wide, f/1.8, 5-element lens, True Tone flash, autofocus with Focus Pixels, Smart HDR 4",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "frontCamera": {
+        "value": "12MP Center Stage, f/2.4",
+        "unit": null,
+        "rawText": "12MP Center Stage, f/2.4, Smart HDR 4, Retina Flash with True Tone",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "videoRecording": {
+        "value": "4K at 24/25/30/60fps, 1080p at 25/30/60fps, Slo-mo 1080p at 120/240fps",
+        "unit": null,
+        "rawText": "4K at 24/25/30/60fps; 1080p at 25/30/60fps; Slo-mo 1080p at 120/240fps",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "speakers": {
+        "value": "Landscape stereo speakers",
+        "unit": null,
+        "rawText": "Landscape stereo speakers",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "microphone": {
+        "value": "Dual microphones",
+        "unit": null,
+        "rawText": "Dual microphones",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "pencilSupport": {
+        "value": "Apple Pencil Pro, Apple Pencil (USB-C), hover",
+        "unit": null,
+        "rawText": "Apple Pencil Pro, Apple Pencil (USB-C), Apple Pencil hover",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "magicKeyboard": {
+        "value": false,
+        "unit": null,
+        "rawText": "Not listed/supported",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "USB-C (USB 3, up to 10Gb/s), DisplayPort",
+        "unit": null,
+        "rawText": "USB-C — Charging, DisplayPort, USB 3 (up to 10Gb/s)",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chargingMethod": {
+        "value": "USB-C (20W adapter included)",
+        "unit": null,
+        "rawText": "USB-C (20W adapter included)",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "security": {
+        "value": "Touch ID (top button)",
+        "unit": null,
+        "rawText": "Touch ID (top button)",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "waterResistance": {
+        "value": null,
+        "unit": null,
+        "rawText": "Not specified/not rated",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "Wi-Fi 6E (802.11ax)",
+        "unit": null,
+        "rawText": "Wi-Fi 6E (802.11ax) with 2x2 MIMO, simultaneous dual band",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "5.3",
+        "unit": null,
+        "rawText": "Bluetooth 5.3",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "sim": {
+        "value": "eSIM only (no physical SIM)",
+        "unit": null,
+        "rawText": "eSIM only (no physical SIM)",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "externalDisplay": {
+        "value": "One display up to 4K @ 60Hz via USB-C",
+        "unit": null,
+        "rawText": "One display up to 4K @ 60Hz via USB-C (DisplayPort)",
+        "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      }
+    },
+    {
+      "id": "ipad-pro-m5-11-2025",
+      "brand": "Apple",
+      "category": "tablet",
+      "series": "iPad Pro",
+      "modelName": "iPad Pro 11-inch (M5)",
+      "generation": "M5 11-inch",
+      "releaseYear": 2025,
+      "colors": {
+        "value": [
+          "Silver",
+          "Space Black"
+        ],
+        "unit": null,
+        "rawText": "Silver, Space Black",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "material": {
+        "value": "100% recycled aluminum",
+        "unit": null,
+        "rawText": "100% recycled aluminum in the enclosure",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 444,
+        "unit": "g",
+        "rawText": "444g (Wi-Fi) / 446g (Wi-Fi + Cellular)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "dimensions": {
+        "value": "249.7 x 177.5 x 5.3 mm",
+        "unit": "mm",
+        "rawText": "Height: 249.7mm, Width: 177.5mm, Depth: 5.3mm",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 11,
+        "unit": "inch",
+        "rawText": "11 inches diagonal (11.1 inches as rectangle)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Ultra Retina XDR, Tandem OLED, fully laminated",
+        "unit": null,
+        "rawText": "Ultra Retina XDR — Tandem OLED, fully laminated, antireflective coating, oleophobic coating",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2420 x 1668",
+        "unit": "pixels",
+        "rawText": "2420 x 1668 pixels at 264 ppi",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 120,
+        "unit": "Hz",
+        "rawText": "ProMotion adaptive 10Hz-120Hz",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "Apple M5",
+        "unit": null,
+        "rawText": "Apple M5",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "cpu": {
+        "value": "9-core or 10-core (storage dependent)",
+        "unit": null,
+        "rawText": "256/512GB: 9-core (3 super + 6 efficiency); 1/2TB: 10-core (4 super + 6 efficiency)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "gpu": {
+        "value": "10-core GPU with hardware-accelerated ray tracing",
+        "unit": null,
+        "rawText": "10-core GPU with hardware-accelerated ray tracing",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine with Neural Accelerators",
+        "unit": null,
+        "rawText": "16-core Neural Engine with Neural Accelerators",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "256GB / 512GB / 1TB / 2TB",
+        "unit": null,
+        "rawText": "256GB, 512GB, 1TB, 2TB",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "rearCamera": {
+        "value": "12MP Wide, f/1.8, five-element lens, digital zoom to 5x",
+        "unit": null,
+        "rawText": "12MP Wide, f/1.8, five-element lens, digital zoom to 5x, Adaptive True Tone flash, Smart HDR 4",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "frontCamera": {
+        "value": "12MP Center Stage (landscape), f/2.0",
+        "unit": null,
+        "rawText": "12MP Center Stage (landscape), f/2.0, Portrait mode, Retina Flash with True Tone",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "videoRecording": {
+        "value": "4K at 24/25/30/60fps, ProRes up to 4K 30fps, Slo-mo 1080p at 120/240fps",
+        "unit": null,
+        "rawText": "4K at 24/25/30/60 fps; ProRes up to 4K 30fps; slo-mo 1080p at 120/240 fps",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "speakers": {
+        "value": "Four-speaker audio",
+        "unit": null,
+        "rawText": "Four-speaker audio",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "microphone": {
+        "value": "Studio-quality four-mic array",
+        "unit": null,
+        "rawText": "Studio-quality four-mic array for calls, video recording, and audio recording",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "pencilSupport": {
+        "value": "Apple Pencil Pro, Apple Pencil (USB-C), hover",
+        "unit": null,
+        "rawText": "Apple Pencil Pro, Apple Pencil (USB-C), Apple Pencil hover",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "magicKeyboard": {
+        "value": true,
+        "unit": null,
+        "rawText": "Supported (via Smart Connector)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "Thunderbolt / USB 4 (up to 40Gb/s), DisplayPort",
+        "unit": null,
+        "rawText": "Thunderbolt / USB 4 (up to 40Gb/s), also USB 3 (up to 10Gb/s), DisplayPort output",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chargingMethod": {
+        "value": "USB-C, fast-charge with 60W+ adapter",
+        "unit": null,
+        "rawText": "USB-C; fast-charge capable: up to 50% in ~30 min with 60W+ adapter",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "security": {
+        "value": "Face ID",
+        "unit": null,
+        "rawText": "Face ID",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "waterResistance": {
+        "value": null,
+        "unit": null,
+        "rawText": "Not listed",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "Wi-Fi 7 (802.11be), Apple N1 chip",
+        "unit": null,
+        "rawText": "Wi-Fi 7 (802.11be) 2x2 MIMO, Apple N1 chip, simultaneous dual band",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "6",
+        "unit": null,
+        "rawText": "Bluetooth 6",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "sim": {
+        "value": "eSIM only (no physical SIM)",
+        "unit": null,
+        "rawText": "eSIM only (no physical SIM support)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "externalDisplay": {
+        "value": "One display up to 6K@60Hz or 5K@120Hz",
+        "unit": null,
+        "rawText": "One external display up to 6K@60Hz or 5K@120Hz",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301270",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      }
+    },
+    {
+      "id": "ipad-pro-m5-13-2025",
+      "brand": "Apple",
+      "category": "tablet",
+      "series": "iPad Pro",
+      "modelName": "iPad Pro 13-inch (M5)",
+      "generation": "M5 13-inch",
+      "releaseYear": 2025,
+      "colors": {
+        "value": [
+          "Silver",
+          "Space Black"
+        ],
+        "unit": null,
+        "rawText": "Silver, Space Black",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "material": {
+        "value": "100% recycled aluminum",
+        "unit": null,
+        "rawText": "100% recycled aluminum",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 579,
+        "unit": "g",
+        "rawText": "579g (Wi-Fi) / 582g (Wi-Fi + Cellular)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "dimensions": {
+        "value": "281.6 x 215.5 x 5.1 mm",
+        "unit": "mm",
+        "rawText": "281.6 x 215.5 x 5.1 mm",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 13,
+        "unit": "inch",
+        "rawText": "13-inch diagonal",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Ultra Retina XDR, Tandem OLED",
+        "unit": null,
+        "rawText": "Ultra Retina XDR (tandem OLED)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2752 x 2064",
+        "unit": "pixels",
+        "rawText": "2752 x 2064 pixels at 264 ppi",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 120,
+        "unit": "Hz",
+        "rawText": "ProMotion adaptive up to 120Hz",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "Apple M5",
+        "unit": null,
+        "rawText": "Apple M5",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "cpu": {
+        "value": "9-core or 10-core (storage dependent)",
+        "unit": null,
+        "rawText": "9-core or 10-core CPU",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "gpu": {
+        "value": "10-core GPU",
+        "unit": null,
+        "rawText": "10-core GPU",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "16-core Neural Engine",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "256GB / 512GB / 1TB / 2TB",
+        "unit": null,
+        "rawText": "256GB, 512GB, 1TB, 2TB",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "rearCamera": {
+        "value": "12MP Wide, f/1.8",
+        "unit": null,
+        "rawText": "12MP Wide (f/1.8 aperture)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "frontCamera": {
+        "value": "12MP TrueDepth, f/2.4",
+        "unit": null,
+        "rawText": "12MP TrueDepth (f/2.4 aperture)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "videoRecording": {
+        "value": "4K at 24/25/30/60fps, ProRes, Cinematic mode",
+        "unit": null,
+        "rawText": "4K (24/25/30/60fps), ProRes, Slo-mo (1080p at 120/240fps), Cinematic mode",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "speakers": {
+        "value": "Four-speaker audio system",
+        "unit": null,
+        "rawText": "Four-speaker audio system",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "microphone": {
+        "value": "Five studio-quality microphones",
+        "unit": null,
+        "rawText": "Five studio-quality microphones",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "pencilSupport": {
+        "value": "Apple Pencil Pro, hover",
+        "unit": null,
+        "rawText": "Supports Apple Pencil Pro and Apple Pencil hover",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "magicKeyboard": {
+        "value": true,
+        "unit": null,
+        "rawText": "Supports Magic Keyboard for iPad Pro",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "Thunderbolt / USB 4 (USB-C)",
+        "unit": null,
+        "rawText": "Thunderbolt / USB 4 (USB-C)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chargingMethod": {
+        "value": "USB-C / Thunderbolt",
+        "unit": null,
+        "rawText": "Via USB-C / Thunderbolt port",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "security": {
+        "value": "Face ID",
+        "unit": null,
+        "rawText": "Face ID",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "waterResistance": {
+        "value": null,
+        "unit": null,
+        "rawText": "Not rated (no official IP rating)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "Wi-Fi 6E (802.11ax)",
+        "unit": null,
+        "rawText": "Wi-Fi 6E (802.11ax) — dual-band",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "5.3",
+        "unit": null,
+        "rawText": "Bluetooth 5.3",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "sim": {
+        "value": "Nano-SIM + eSIM (Cellular models)",
+        "unit": null,
+        "rawText": "nano-SIM and eSIM (Cellular)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "externalDisplay": {
+        "value": "Supports external display up to 6K",
+        "unit": null,
+        "rawText": "Supports external display up to 6K resolution",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301272",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      }
+    },
+    {
+      "id": "macbook-pro-13-m2-2022",
+      "brand": "Apple",
+      "category": "laptop",
+      "series": "MacBook Pro",
+      "modelName": "MacBook Pro 13-inch (M2)",
+      "generation": "M2",
+      "releaseYear": 2022,
+      "colors": {
+        "value": [
+          "Space Gray",
+          "Silver"
+        ],
+        "unit": null,
+        "rawText": "Space Gray, Silver",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "material": {
+        "value": "Aluminum enclosure",
+        "unit": null,
+        "rawText": "Aluminum enclosure",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 1390,
+        "unit": "g",
+        "rawText": "1,390 grams (3.0 pounds)",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "dimensions": {
+        "value": "304.1 x 212.4 x 15.6 mm",
+        "unit": "mm",
+        "rawText": "1.56 cm x 30.41 cm x 21.24 cm",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 13.3,
+        "unit": "inch",
+        "rawText": "13.3 inches diagonal",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Retina, 500 nits, P3 wide color, True Tone",
+        "unit": null,
+        "rawText": "Retina display with 500 nits brightness, P3 wide color, True Tone",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2560 x 1600",
+        "unit": "pixels",
+        "rawText": "2560 x 1600 pixels at 227 ppi",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 60,
+        "unit": "Hz",
+        "rawText": "60 Hz (standard)",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "Apple M2",
+        "unit": null,
+        "rawText": "Apple M2",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "cpu": {
+        "value": "8-core CPU",
+        "unit": null,
+        "rawText": "8-core CPU",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "gpu": {
+        "value": "10-core GPU",
+        "unit": null,
+        "rawText": "10-core GPU",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "16-core Neural Engine",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "memory": {
+        "value": "8GB / 16GB / 24GB unified memory",
+        "unit": null,
+        "rawText": "8GB or 16GB or 24GB unified memory",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "256GB / 512GB / 1TB / 2TB SSD",
+        "unit": null,
+        "rawText": "256GB, 512GB, 1TB, or 2TB SSD",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "thickness": {
+        "value": 15.6,
+        "unit": "mm",
+        "rawText": "1.56 cm (0.61 inches)",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "webcam": {
+        "value": "720p FaceTime HD camera",
+        "unit": null,
+        "rawText": "720p FaceTime HD camera",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "speakers": {
+        "value": "High-fidelity six-speaker system with force-cancelling woofers, Spatial Audio, Dolby Atmos",
+        "unit": null,
+        "rawText": "High-fidelity six-speaker sound system with force-cancelling woofers, Spatial Audio and Dolby Atmos",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "microphone": {
+        "value": "Studio-quality three-mic array with directional beamforming",
+        "unit": null,
+        "rawText": "Studio-quality three-mic array with high signal-to-noise ratio and directional beamforming",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "keyboard": {
+        "value": "Backlit Magic Keyboard with Touch Bar and Touch ID",
+        "unit": null,
+        "rawText": "Backlit Magic Keyboard with Touch Bar and Touch ID",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "trackpad": {
+        "value": "Force Touch trackpad",
+        "unit": null,
+        "rawText": "Force Touch trackpad",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "batteryLife": {
+        "value": "Up to 20 hours Apple TV movie playback",
+        "unit": null,
+        "rawText": "Up to 20 hours Apple TV app movie playback; up to 17 hours wireless web",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wirelessWebBrowsing": {
+        "value": "Up to 17 hours",
+        "unit": null,
+        "rawText": "Up to 17 hours wireless web",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "2x Thunderbolt / USB 4, 3.5mm headphone jack",
+        "unit": null,
+        "rawText": "Two Thunderbolt / USB 4 ports, 3.5 mm headphone jack",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chargingMethod": {
+        "value": "USB-C / Thunderbolt (no MagSafe)",
+        "unit": null,
+        "rawText": "USB-C / Thunderbolt (no MagSafe on this model)",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "Wi-Fi 6 (802.11ax)",
+        "unit": null,
+        "rawText": "Wi-Fi 6 (802.11ax)",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "5.0",
+        "unit": null,
+        "rawText": "Bluetooth 5.0",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "thunderbolt": {
+        "value": "2x Thunderbolt / USB 4 (up to 40Gb/s)",
+        "unit": null,
+        "rawText": "2 x Thunderbolt / USB 4 ports (up to 40Gb/s)",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "usbC": {
+        "value": "Via Thunderbolt / USB 4 ports",
+        "unit": null,
+        "rawText": "Via Thunderbolt / USB 4 ports",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hdmi": {
+        "value": false,
+        "unit": null,
+        "rawText": "None",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "sdxc": {
+        "value": false,
+        "unit": null,
+        "rawText": "None",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "magsafe": {
+        "value": false,
+        "unit": null,
+        "rawText": "Not available on this model",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "externalDisplay": {
+        "value": "One display up to 6K at 60Hz",
+        "unit": null,
+        "rawText": "One external display with up to 6K resolution at 60Hz",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "powerAdapter": {
+        "value": "67W USB-C",
+        "unit": null,
+        "rawText": "67W USB-C Power Adapter (included)",
+        "sourceUrl": "https://support.apple.com/en-us/111869",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      }
+    },
+    {
+      "id": "macbook-air-13-m3-2024",
+      "brand": "Apple",
+      "category": "laptop",
+      "series": "MacBook Air",
+      "modelName": "MacBook Air 13-inch (M3)",
+      "generation": "M3",
+      "releaseYear": 2024,
+      "colors": {
+        "value": [
+          "Midnight",
+          "Starlight",
+          "Space Gray",
+          "Silver"
+        ],
+        "unit": null,
+        "rawText": "Midnight, Starlight, Space Gray, Silver",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "material": {
+        "value": "Aluminum unibody enclosure",
+        "unit": null,
+        "rawText": "Aluminum unibody enclosure",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 1240,
+        "unit": "g",
+        "rawText": "1,240 grams (2.7 lbs)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "dimensions": {
+        "value": "304.1 x 215.0 x 11.3 mm",
+        "unit": "mm",
+        "rawText": "30.41 x 21.5 x 1.13 cm",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 13.6,
+        "unit": "inch",
+        "rawText": "13.6 inches diagonal",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Liquid Retina IPS display",
+        "unit": null,
+        "rawText": "Liquid Retina IPS display",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2560 x 1664",
+        "unit": "pixels",
+        "rawText": "2560 x 1664 pixels",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 60,
+        "unit": "Hz",
+        "rawText": "60 Hz",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "Apple M3",
+        "unit": null,
+        "rawText": "Apple M3",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "cpu": {
+        "value": "8-core CPU",
+        "unit": null,
+        "rawText": "8-core CPU",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "gpu": {
+        "value": "8-core or 10-core GPU",
+        "unit": null,
+        "rawText": "8-core or 10-core GPU (config dependent)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "16-core Neural Engine",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "memory": {
+        "value": "8GB / 16GB / 24GB unified memory",
+        "unit": null,
+        "rawText": "8GB, 16GB, or 24GB unified memory",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "256GB / 512GB / 1TB / 2TB SSD",
+        "unit": null,
+        "rawText": "256GB, 512GB, 1TB, or 2TB SSD",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "thickness": {
+        "value": 11.3,
+        "unit": "mm",
+        "rawText": "1.13 cm (0.44 inches)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "webcam": {
+        "value": "1080p FaceTime HD camera",
+        "unit": null,
+        "rawText": "1080p FaceTime HD camera",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "speakers": {
+        "value": "Stereo speakers with spatial audio",
+        "unit": null,
+        "rawText": "Stereo speakers with spatial audio",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "microphone": {
+        "value": "Three-microphone array",
+        "unit": null,
+        "rawText": "Three-microphone array",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "keyboard": {
+        "value": "Backlit Magic Keyboard with Touch ID",
+        "unit": null,
+        "rawText": "Backlit Magic Keyboard with Touch ID",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "trackpad": {
+        "value": "Force Touch trackpad",
+        "unit": null,
+        "rawText": "Force Touch trackpad",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "batteryLife": {
+        "value": "Up to 18 hours Apple TV movie playback",
+        "unit": null,
+        "rawText": "Up to 18 hours (Apple TV app/movie playback), up to 15 hours wireless web",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wirelessWebBrowsing": {
+        "value": "Up to 15 hours",
+        "unit": null,
+        "rawText": "Up to 15 hours wireless web",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "2x Thunderbolt / USB 4, MagSafe 3, 3.5mm headphone jack",
+        "unit": null,
+        "rawText": "Two Thunderbolt/USB 4 ports, MagSafe 3, 3.5mm headphone jack",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chargingMethod": {
+        "value": "USB-C / MagSafe 3",
+        "unit": null,
+        "rawText": "USB-C / MagSafe 3",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "Wi-Fi 6E (802.11ax)",
+        "unit": null,
+        "rawText": "Wi-Fi 6E (802.11ax)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "5.3",
+        "unit": null,
+        "rawText": "Bluetooth 5.3",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "thunderbolt": {
+        "value": "2x Thunderbolt / USB 4",
+        "unit": null,
+        "rawText": "2x Thunderbolt / USB 4",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "usbC": {
+        "value": "2x (shared with Thunderbolt ports)",
+        "unit": null,
+        "rawText": "2x (shared with Thunderbolt ports)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hdmi": {
+        "value": false,
+        "unit": null,
+        "rawText": "None",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "sdxc": {
+        "value": false,
+        "unit": null,
+        "rawText": "None",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "magsafe": {
+        "value": true,
+        "unit": null,
+        "rawText": "Yes (MagSafe 3 charging port)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "externalDisplay": {
+        "value": "One display up to 6K at 60Hz",
+        "unit": null,
+        "rawText": "Supports one external display up to 6K at 60Hz",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "powerAdapter": {
+        "value": "30W or 35W (dual USB-C)",
+        "unit": null,
+        "rawText": "30W or 35W (dual USB-C) depending on configuration",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301019",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      }
+    },
+    {
+      "id": "macbook-air-13-m5-2026",
+      "brand": "Apple",
+      "category": "laptop",
+      "series": "MacBook Air",
+      "modelName": "MacBook Air 13-inch (M5)",
+      "generation": "M5",
+      "releaseYear": 2026,
+      "colors": {
+        "value": [
+          "Sky Blue",
+          "Starlight",
+          "Midnight",
+          "Silver"
+        ],
+        "unit": null,
+        "rawText": "Sky Blue, Starlight, Midnight, Silver",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "material": {
+        "value": "Aluminum enclosure",
+        "unit": null,
+        "rawText": "Aluminum enclosure",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 1225,
+        "unit": "g",
+        "rawText": "2.7 pounds (~1,225 g)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "dimensions": {
+        "value": "304.1 x 214.9 x 11.2 mm",
+        "unit": "mm",
+        "rawText": "11.97 x 8.46 x 0.44 inches (30.41 x 21.49 x 1.12 cm)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 13.6,
+        "unit": "inch",
+        "rawText": "13.6 inches diagonal",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Liquid Retina IPS, LED backlighting",
+        "unit": null,
+        "rawText": "Liquid Retina display, LED backlighting with IPS technology",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2560 x 1664",
+        "unit": "pixels",
+        "rawText": "2560 x 1664 native at 224 pixels per inch",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 60,
+        "unit": "Hz",
+        "rawText": "60Hz",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "Apple M5",
+        "unit": null,
+        "rawText": "Apple M5",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "cpu": {
+        "value": "10-core CPU (4 performance + 6 efficiency)",
+        "unit": null,
+        "rawText": "10-core CPU (4 performance + 6 efficiency cores)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "gpu": {
+        "value": "10-core GPU",
+        "unit": null,
+        "rawText": "10-core GPU",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "16-core Neural Engine",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "memory": {
+        "value": "16GB / 32GB unified memory",
+        "unit": null,
+        "rawText": "16GB or 32GB unified memory",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "256GB / 512GB / 1TB / 2TB SSD",
+        "unit": null,
+        "rawText": "256GB, 512GB, 1TB, or 2TB SSD",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "thickness": {
+        "value": 11.2,
+        "unit": "mm",
+        "rawText": "0.44 inches (1.12 cm)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "webcam": {
+        "value": "12MP Center Stage camera with 1080p video",
+        "unit": null,
+        "rawText": "12MP Center Stage camera with 1080p video",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "speakers": {
+        "value": "Four-speaker sound system with Spatial Audio",
+        "unit": null,
+        "rawText": "Four-speaker sound system with support for Spatial Audio",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "microphone": {
+        "value": "Three-microphone array with directional beamforming",
+        "unit": null,
+        "rawText": "Three-microphone array with directional beamforming",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "keyboard": {
+        "value": "Backlit Magic Keyboard with Touch ID",
+        "unit": null,
+        "rawText": "Backlit Magic Keyboard with Touch ID",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "trackpad": {
+        "value": "Force Touch trackpad",
+        "unit": null,
+        "rawText": "Force Touch trackpad",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "batteryLife": {
+        "value": "Up to 18 hours Apple TV movie playback",
+        "unit": null,
+        "rawText": "Up to 18 hours (Apple TV app movie playback), up to 15 hours wireless web",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wirelessWebBrowsing": {
+        "value": "Up to 15 hours",
+        "unit": null,
+        "rawText": "Up to 15 hours wireless web",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "2x Thunderbolt / USB 4, MagSafe 3, 3.5mm headphone jack",
+        "unit": null,
+        "rawText": "2 Thunderbolt/USB 4 ports, MagSafe 3, 3.5mm headphone jack",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chargingMethod": {
+        "value": "MagSafe 3 or USB-C (via Thunderbolt ports)",
+        "unit": null,
+        "rawText": "MagSafe 3 or USB-C (via Thunderbolt ports)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "Wi-Fi 7 (802.11be)",
+        "unit": null,
+        "rawText": "Wi-Fi 7 (802.11be), 2.4/5/6GHz",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "5.4",
+        "unit": null,
+        "rawText": "Bluetooth 5.4",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "thunderbolt": {
+        "value": "2x Thunderbolt / USB 4 (up to 40Gb/s)",
+        "unit": null,
+        "rawText": "2x Thunderbolt/USB 4 (up to 40Gb/s)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "usbC": {
+        "value": "Via Thunderbolt / USB 4 ports",
+        "unit": null,
+        "rawText": "Included via Thunderbolt/USB 4 ports",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hdmi": {
+        "value": false,
+        "unit": null,
+        "rawText": "Not available",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "sdxc": {
+        "value": false,
+        "unit": null,
+        "rawText": "Not available",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "magsafe": {
+        "value": true,
+        "unit": null,
+        "rawText": "MagSafe 3 charging port",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "externalDisplay": {
+        "value": "One display up to 6K at 60Hz",
+        "unit": null,
+        "rawText": "Supports one external display with up to 6K resolution at 60Hz",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "powerAdapter": {
+        "value": "30W or 35W USB-C, USB-C to MagSafe 3 cable",
+        "unit": null,
+        "rawText": "30W or 35W (configurable), USB-C to MagSafe 3 cable",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301288",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      }
+    },
+    {
+      "id": "macbook-air-15-m5-2026",
+      "brand": "Apple",
+      "category": "laptop",
+      "series": "MacBook Air",
+      "modelName": "MacBook Air 15-inch (M5)",
+      "generation": "M5 15-inch",
+      "releaseYear": 2026,
+      "colors": {
+        "value": [
+          "Midnight",
+          "Sky Blue",
+          "Starlight",
+          "Space Gray"
+        ],
+        "unit": null,
+        "rawText": "Midnight, Sky Blue, Starlight, Space Gray",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "material": {
+        "value": "Aluminum enclosure",
+        "unit": null,
+        "rawText": "Aluminum enclosure",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 1510,
+        "unit": "g",
+        "rawText": "3.3 pounds (1,510 grams)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "dimensions": {
+        "value": "340.4 x 237.6 x 11.5 mm",
+        "unit": "mm",
+        "rawText": "13.40 x 9.35 x 0.45 inches (34.04 x 23.76 x 1.15 cm)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 15.3,
+        "unit": "inch",
+        "rawText": "15.3-inch diagonal",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Liquid Retina IPS, LED-backlit, P3 wide color, True Tone",
+        "unit": null,
+        "rawText": "Liquid Retina display, LED-backlit display with IPS technology; 500 nits brightness; P3 wide color; True Tone",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2880 x 1864",
+        "unit": "pixels",
+        "rawText": "2880 x 1864 pixels at 224 ppi",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 60,
+        "unit": "Hz",
+        "rawText": "60Hz (standard; no ProMotion)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "Apple M5",
+        "unit": null,
+        "rawText": "Apple M5",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "cpu": {
+        "value": "10-core CPU",
+        "unit": null,
+        "rawText": "10-core CPU",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "gpu": {
+        "value": "10-core GPU",
+        "unit": null,
+        "rawText": "10-core GPU",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "16-core Neural Engine",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "memory": {
+        "value": "16GB / 24GB / 32GB unified memory",
+        "unit": null,
+        "rawText": "16GB unified memory; configurable to 24GB or 32GB",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "256GB / 512GB / 1TB / 2TB SSD",
+        "unit": null,
+        "rawText": "256GB SSD; configurable to 512GB, 1TB, or 2TB",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "thickness": {
+        "value": 11.5,
+        "unit": "mm",
+        "rawText": "0.45 inch (1.15 cm)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "webcam": {
+        "value": "12MP Center Stage camera, 1080p HD video",
+        "unit": null,
+        "rawText": "12MP Center Stage camera; 1080p HD video recording",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "speakers": {
+        "value": "Six-speaker sound system with force-cancelling woofers, Spatial Audio with Dolby Atmos",
+        "unit": null,
+        "rawText": "Six-speaker sound system with force-cancelling woofers; support for Spatial Audio with Dolby Atmos",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "microphone": {
+        "value": "Three-mic array with directional beamforming",
+        "unit": null,
+        "rawText": "Three-mic array with directional beamforming",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "keyboard": {
+        "value": "Backlit Magic Keyboard with full-height function keys and Touch ID",
+        "unit": null,
+        "rawText": "Backlit Magic Keyboard with full-height function key row and Touch ID",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "trackpad": {
+        "value": "Force Touch trackpad",
+        "unit": null,
+        "rawText": "Force Touch trackpad",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "batteryLife": {
+        "value": "Up to 18 hours Apple TV movie playback",
+        "unit": null,
+        "rawText": "Up to 18 hours movie playback (Apple TV app); up to 15 hours wireless web",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wirelessWebBrowsing": {
+        "value": "Up to 15 hours",
+        "unit": null,
+        "rawText": "Up to 15 hours wireless web",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "2x Thunderbolt / USB 4, MagSafe 3, 3.5mm headphone jack",
+        "unit": null,
+        "rawText": "Two Thunderbolt/USB 4 ports, MagSafe 3, 3.5 mm headphone jack",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chargingMethod": {
+        "value": "MagSafe 3",
+        "unit": null,
+        "rawText": "MagSafe 3",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "Wi-Fi 6E (802.11ax)",
+        "unit": null,
+        "rawText": "Wi-Fi 6E (802.11ax)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "5.3",
+        "unit": null,
+        "rawText": "Bluetooth 5.3",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "thunderbolt": {
+        "value": "2x Thunderbolt / USB 4 (up to 40Gb/s)",
+        "unit": null,
+        "rawText": "Two Thunderbolt / USB 4 ports (up to 40Gb/s)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "usbC": {
+        "value": "Via Thunderbolt / USB 4 ports",
+        "unit": null,
+        "rawText": "Via Thunderbolt / USB 4 ports",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hdmi": {
+        "value": false,
+        "unit": null,
+        "rawText": "Not available",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "sdxc": {
+        "value": false,
+        "unit": null,
+        "rawText": "Not available",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "magsafe": {
+        "value": true,
+        "unit": null,
+        "rawText": "MagSafe 3 charging port",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "externalDisplay": {
+        "value": "One display up to 6K at 60Hz",
+        "unit": null,
+        "rawText": "Support for one external display up to 6K at 60Hz",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "powerAdapter": {
+        "value": "35W Dual USB-C or 70W USB-C",
+        "unit": null,
+        "rawText": "35W Dual USB-C Port Compact Power Adapter (70W USB-C optional)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301287",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      }
+    },
+    {
+      "id": "macbook-pro-14-m5-pro-2026",
+      "brand": "Apple",
+      "category": "laptop",
+      "series": "MacBook Pro",
+      "modelName": "MacBook Pro 14-inch (M5 Pro/Max)",
+      "generation": "M5 Pro/Max 14-inch",
+      "releaseYear": 2026,
+      "colors": {
+        "value": [
+          "Black",
+          "Silver"
+        ],
+        "unit": null,
+        "rawText": "Black, Silver",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "material": {
+        "value": "Aluminum enclosure (recycled)",
+        "unit": null,
+        "rawText": "Aluminum enclosure (recycled)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 1550,
+        "unit": "g",
+        "rawText": "~1,550 g (M5 Pro) / ~1,620 g (M5 Max)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "dimensions": {
+        "value": "312.6 x 221.2 x 15.5 mm",
+        "unit": "mm",
+        "rawText": "31.26 cm x 22.12 cm x ~1.55 cm",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 14.2,
+        "unit": "inch",
+        "rawText": "14.2-inch diagonal",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Liquid Retina XDR, mini-LED, ProMotion",
+        "unit": null,
+        "rawText": "Liquid Retina XDR display, mini-LED, ProMotion",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "3024 x 1964",
+        "unit": "pixels",
+        "rawText": "3024 x 1964 pixels",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 120,
+        "unit": "Hz",
+        "rawText": "Up to 120Hz (ProMotion)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "Apple M5 Pro or M5 Max",
+        "unit": null,
+        "rawText": "Apple M5 Pro or M5 Max",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "cpu": {
+        "value": "Up to 14-core (M5 Pro) / 16-core (M5 Max)",
+        "unit": null,
+        "rawText": "Up to 14-core (M5 Pro) / 16-core (M5 Max)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "gpu": {
+        "value": "Up to 20-core (M5 Pro) / 40-core (M5 Max)",
+        "unit": null,
+        "rawText": "Up to 20-core (M5 Pro) / 40-core (M5 Max)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "16-core Neural Engine",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "memory": {
+        "value": "Up to 48GB (M5 Pro) / 128GB (M5 Max) unified",
+        "unit": null,
+        "rawText": "Up to 48 GB (M5 Pro) / 128 GB (M5 Max) unified",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "Up to 8TB SSD",
+        "unit": null,
+        "rawText": "Up to 8 TB SSD",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "thickness": {
+        "value": 15.5,
+        "unit": "mm",
+        "rawText": "~1.55 cm",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "webcam": {
+        "value": "12MP Center Stage camera",
+        "unit": null,
+        "rawText": "12MP Center Stage camera",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "speakers": {
+        "value": "Six-speaker sound system with force-cancelling woofers, Spatial Audio",
+        "unit": null,
+        "rawText": "Six-speaker sound system with force-cancelling woofers, Spatial Audio",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "microphone": {
+        "value": "Studio-quality three-mic array with directional beamforming",
+        "unit": null,
+        "rawText": "Studio-quality three-mic array with directional beamforming",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "keyboard": {
+        "value": "Backlit Magic Keyboard with Touch ID, full-height function row",
+        "unit": null,
+        "rawText": "Backlit Magic Keyboard with Touch ID, full-height function row",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "trackpad": {
+        "value": "Force Touch trackpad",
+        "unit": null,
+        "rawText": "Force Touch trackpad",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "batteryLife": {
+        "value": "Up to 18 hours Apple TV movie playback",
+        "unit": null,
+        "rawText": "Up to 18 hours (Apple TV app movie playback)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wirelessWebBrowsing": {
+        "value": "Up to 14 hours",
+        "unit": null,
+        "rawText": "Up to 14 hours wireless web",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "Thunderbolt 5, HDMI, SDXC, MagSafe 3, 3.5mm headphone jack",
+        "unit": null,
+        "rawText": "Thunderbolt 5, HDMI, SDXC card slot, MagSafe 3, 3.5mm headphone jack",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chargingMethod": {
+        "value": "MagSafe 3 / USB-C",
+        "unit": null,
+        "rawText": "MagSafe 3 / USB-C",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "Wi-Fi 7 (802.11be)",
+        "unit": null,
+        "rawText": "Wi-Fi 7 (802.11ax)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "5.3",
+        "unit": null,
+        "rawText": "Bluetooth 5.3",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "thunderbolt": {
+        "value": "Thunderbolt 5 (up to 4 ports)",
+        "unit": null,
+        "rawText": "Thunderbolt 5 (up to 4 ports depending on config)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "usbC": {
+        "value": "Via Thunderbolt ports",
+        "unit": null,
+        "rawText": "Via Thunderbolt ports",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hdmi": {
+        "value": true,
+        "unit": null,
+        "rawText": "1 x HDMI port (supports up to 8K)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "sdxc": {
+        "value": true,
+        "unit": null,
+        "rawText": "SDXC card slot",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "magsafe": {
+        "value": true,
+        "unit": null,
+        "rawText": "MagSafe 3 charging port",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "externalDisplay": {
+        "value": "Up to 2 external displays (M5 Pro) / 4+ (M5 Max)",
+        "unit": null,
+        "rawText": "Supports up to 2 external displays (M5 Pro) / 4+ (M5 Max)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "powerAdapter": {
+        "value": "70W or 96W USB-C",
+        "unit": null,
+        "rawText": "70W or 96W USB-C (included, varies by config)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301289",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      }
+    }
+  ]
+}

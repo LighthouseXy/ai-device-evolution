@@ -73,13 +73,13 @@ type ComparisonCategory = {
   specs: SpecItem[];         // 该分类下的所有规格项
 };
 
-// 待补充数据的占位符
-const pending = "待补充";
+// 缺失数据的统一占位符
+const pending = "—";
 
 // ==================== 数据处理工具函数 ====================
 
 // 从设备的 specs 对象中获取指定字段的文本值
-// 如果字段不存在或类型不对，返回"待补充"
+// 如果字段不存在或类型不对，返回"—"
 const specText = (device: Device, key: string) => {
   const value = device.specs?.[key];
 
@@ -94,7 +94,7 @@ const specText = (device: Device, key: string) => {
   return pending;
 };
 
-// 从 specs 中获取可选字段，不存在时返回 undefined（不返回"待补充"）
+// 从 specs 中获取可选字段，不存在时返回 undefined
 const specOptional = (device: Device, key: string): string | undefined => {
   const value = device.specs?.[key];
   if (typeof value === "string" && value.length > 0) return value;
@@ -245,8 +245,8 @@ const phoneCategories: ComparisonCategory[] = [
     trendMetric: "price",
     specs: [
       { label: "首发价格", sourceLabel: "首发价格", getValue: (device) => formatMaybeCurrency(device.launchPrice) },
-      { label: "实时价格", sourceLabel: "实时价格", getValue: (device) => specOptional(device, "currentPrice") || "待查询" },
-      { label: "二手价格", sourceLabel: "二手价格", getValue: (device) => specOptional(device, "usedPrice") || "待查询" },
+      { label: "实时价格", sourceLabel: "实时价格", getValue: (device) => specOptional(device, "currentPrice") || "—" },
+      { label: "二手价格", sourceLabel: "二手价格", getValue: (device) => specOptional(device, "usedPrice") || "—" },
     ],
   },
   {
@@ -359,8 +359,8 @@ const tabletCategories: ComparisonCategory[] = [
     trendMetric: "price",
     specs: [
       { label: "首发价格", sourceLabel: "首发价格", getValue: (device) => formatMaybeCurrency(device.launchPrice) },
-      { label: "实时价格", sourceLabel: "实时价格", getValue: (device) => specOptional(device, "currentPrice") || "待查询" },
-      { label: "二手价格", sourceLabel: "二手价格", getValue: (device) => specOptional(device, "usedPrice") || "待查询" },
+      { label: "实时价格", sourceLabel: "实时价格", getValue: (device) => specOptional(device, "currentPrice") || "—" },
+      { label: "二手价格", sourceLabel: "二手价格", getValue: (device) => specOptional(device, "usedPrice") || "—" },
     ],
   },
   {
@@ -471,8 +471,8 @@ const laptopCategories: ComparisonCategory[] = [
     trendMetric: "price",
     specs: [
       { label: "首发价格", sourceLabel: "首发价格", getValue: (device) => formatMaybeCurrency(device.launchPrice) },
-      { label: "实时价格", sourceLabel: "实时价格", getValue: (device) => specOptional(device, "currentPrice") || "待查询" },
-      { label: "二手价格", sourceLabel: "二手价格", getValue: (device) => specOptional(device, "usedPrice") || "待查询" },
+      { label: "实时价格", sourceLabel: "实时价格", getValue: (device) => specOptional(device, "currentPrice") || "—" },
+      { label: "二手价格", sourceLabel: "二手价格", getValue: (device) => specOptional(device, "usedPrice") || "—" },
     ],
   },
   {
@@ -652,7 +652,7 @@ export default function DeviceWorkbench() {
     <main className="min-h-screen text-[#1E293B]">
       {/* 顶部横幅 */}
       <div className="border-b border-[#E8E4DC] bg-gradient-to-b from-[#FDFBF7] to-[#F5F4FB]">
-        <div className="mx-auto w-full max-w-7xl px-5 py-5 md:px-8 lg:px-10">
+        <div className="mx-auto w-full max-w-7xl px-3 py-4 md:px-8 lg:px-10">
           <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
             {/* 左侧：Logo + 标题 + 统计 */}
             <div className="shrink-0">
@@ -717,48 +717,31 @@ export default function DeviceWorkbench() {
                 </div>
               </div>
 
-              {/* AI 摘要卡片 */}
-              <div className="grid grid-cols-3 gap-2">
-                {/* 今日观察 */}
-                <div className="rounded-xl bg-[#FFFDF8] p-3 shadow-sm ring-1 ring-[#E8E4DC]">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">⭐ 今日观察</p>
-                  <ul className="mt-1.5 space-y-0.5 text-[11px] text-[#64748B]">
-                    <li>· 芯片性能持续提升</li>
-                    <li>· AI 能力加速增强</li>
-                    <li>· 接口统一为 USB-C</li>
-                  </ul>
-                </div>
-                {/* 下一代替换预测 */}
-                <div className="rounded-xl bg-[#FFFDF8] p-3 shadow-sm ring-1 ring-[#E8E4DC]">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">🔮 下一代替换</p>
-                  <div className="mt-1.5 space-y-0.5 text-[11px]">
-                    <div className="flex justify-between">
-                      <span className="text-[#94A3B8]">芯片</span>
-                      <span className="font-semibold text-[#3B82F6]">
-                        {(() => { const c = latestDevice?.chip || ""; const m = c.match(/([AM])(\d+)/); return m ? `${m[1]}${parseInt(m[2])+1}` : "—"; })()}
-                      </span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-[#94A3B8]">AI 能力</span>
-                      <span className="font-semibold text-[#06B6D4]">{latestDevice?.aiFeatureLevel ? `${Math.min(latestDevice.aiFeatureLevel+1,10)}/10` : "—"}</span>
-                    </div>
-                    <div className="mt-1 flex items-center gap-1.5 text-[10px] text-[#94A3B8]">
-                      <span className="h-1 w-1 rounded-full bg-[#22C55E]" /> 置信度 中
-                    </div>
+              {/* AI 观察 — 紧凑单区块 */}
+              <div className="rounded-xl bg-[#FFFDF8] px-4 py-3 shadow-sm ring-1 ring-[#E8E4DC]">
+                <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">🔮 AI 观察</p>
+                <div className="mt-2 space-y-1.5 text-[11px]">
+                  <div className="flex items-center justify-between gap-4">
+                    <span className="text-[#94A3B8] shrink-0">下一代芯片</span>
+                    <span className="font-semibold text-[#3B82F6]">
+                      {(() => { const c = latestDevice?.chip || ""; const m = c.match(/([AM])(\d+)/); return m ? `${m[1]}${parseInt(m[2])+1}` : "—"; })()}
+                    </span>
+                  </div>
+                  <div className="flex items-center justify-between gap-4">
+                    <span className="text-[#94A3B8] shrink-0">AI 能力</span>
+                    <span className="font-semibold text-[#06B6D4]">{latestDevice?.aiFeatureLevel ? `${Math.min(latestDevice.aiFeatureLevel+1,10)}/10` : "—"}</span>
+                  </div>
+                  <div className="flex items-center justify-between gap-4">
+                    <span className="text-[#94A3B8] shrink-0">购买建议</span>
+                    <span className="font-semibold text-[#1E293B] text-right">
+                      {(() => {
+                        const count = changedSpecs.length;
+                        return count > 5 ? "升级幅度大，建议等待" : count > 2 ? "现在入手，升级明显" : "暂无显著升级，观望";
+                      })()}
+                    </span>
                   </div>
                 </div>
-                {/* 快速入口 */}
-                <div className="flex flex-col gap-1.5">
-                  <button className="w-full rounded-lg bg-[#EEF2FF] px-3 py-2 text-left text-[11px] font-medium text-[#3B82F6] transition hover:bg-[#3B82F6] hover:text-white">
-                    📊 开始对比
-                  </button>
-                  <button className="w-full rounded-lg bg-[#E0FAFC] px-3 py-2 text-left text-[11px] font-medium text-[#0891B2] transition hover:bg-[#06B6D4] hover:text-white">
-                    🔮 查看预测
-                  </button>
-                  <button className="w-full rounded-lg bg-[#FDF2F8] px-3 py-2 text-left text-[11px] font-medium text-[#EC4899] transition hover:bg-[#F9A8D4] hover:text-white">
-                    🎯 设备推荐
-                  </button>
-                </div>
+                <p className="mt-2 border-t border-[#E8E4DC] pt-1.5 text-[10px] text-[#94A3B8]">AI 结论基于已收录数据生成，仅供参考</p>
               </div>
             </div>
           </div>
@@ -766,7 +749,7 @@ export default function DeviceWorkbench() {
       </div>
 
       {/* 主内容 */}
-      <div className="mx-auto w-full max-w-7xl px-5 py-5 md:px-8 lg:px-10">
+      <div className="mx-auto w-full max-w-7xl px-3 py-4 md:px-8 lg:px-10">
         <section className="grid gap-5 lg:grid-cols-[248px_1fr]">
           {/* 统一侧边栏 */}
           <aside className="lg:sticky lg:top-6 lg:self-start lg:max-h-[calc(100vh-3rem)] lg:overflow-y-auto">
@@ -866,11 +849,32 @@ export default function DeviceWorkbench() {
                   ⚡ AI 分析就绪
                 </div>
               </div>
+
+              {/* 当前分类字段数 */}
+              <div className="border-t border-[#E8E4DC] px-4 py-3.5">
+                <p className="text-[10px] font-semibold uppercase tracking-[0.15em] text-[#94A3B8]">当前分类</p>
+                <p className="mt-1.5 text-[11px] text-[#64748B]">
+                  <span className="font-medium text-[#1E293B]">{activeCategory.specs.length}</span> 个对比项
+                </p>
+              </div>
+
+              {/* 当前系列设备列表 */}
+              <div className="border-t border-[#E8E4DC] px-4 py-3.5">
+                <p className="text-[10px] font-semibold uppercase tracking-[0.15em] text-[#94A3B8]">系列设备</p>
+                <div className="mt-2 space-y-1">
+                  {seriesDevices.map((device) => (
+                    <p key={device.id} className="text-[11px] text-[#64748B]">
+                      <span className="font-medium text-[#1E293B]">{device.model}</span>
+                      <span className="ml-1 text-[#94A3B8]">· {device.releaseYear}</span>
+                    </p>
+                  ))}
+                </div>
+              </div>
             </div>
           </aside>
 
           {/* 右侧：仅两个大模块 */}
-          <div className="min-w-0 space-y-5">
+          <div className="min-w-0 space-y-3">
             {/* 趋势对比（含 AI 观察摘要 + 关键变化） */}
             <section className="card overflow-hidden">
               {/* 标题栏 */}
@@ -904,69 +908,28 @@ export default function DeviceWorkbench() {
                 </div>
               </div>
 
-              {/* AI 观察摘要：三小块 */}
-              <div className="mx-5 mt-4 rounded-xl bg-gradient-to-r from-[#FFF7ED] via-[#FFFDF8] to-[#F5F0FF] px-4 py-3 ring-1 ring-[#E8DED0]">
-                <div className="grid grid-cols-3 gap-4">
-                  {/* 核心变化 */}
-                  <div>
-                    <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">📊 核心变化</p>
-                    {changedSpecs.length > 0 ? (
-                      <div className="mt-1 space-y-0.5">
-                        {changedSpecs.slice(0, 3).map((s, i) => (
-                          <p key={i} className="text-[11px] text-[#64748B]">
-                            <span className="font-medium text-[#1E293B]">{s.label}</span> → {latestDevice ? s.getValue(latestDevice) : "—"}
-                          </p>
-                        ))}
-                      </div>
-                    ) : (
-                      <p className="mt-1 text-[11px] text-[#94A3B8]">近两代无明显变化</p>
-                    )}
-                  </div>
-                  {/* 下一代预测 */}
-                  <div>
-                    <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">🔮 下一代预测</p>
-                    <div className="mt-1 flex items-baseline gap-2">
-                      <span className="font-mono text-sm font-bold text-[#3B82F6]">
-                        {(() => { const c = latestDevice?.chip || ""; const m = c.match(/([AM])(\d+)/); return m ? `${m[1]}${parseInt(m[2])+1}` : "—"; })()}
-                      </span>
-                      <span className="text-[10px] text-[#94A3B8]">AI {latestDevice?.aiFeatureLevel ? `${Math.min(latestDevice.aiFeatureLevel+1,10)}/10` : "—"}</span>
-                      <span className="ml-auto rounded bg-[#FDF2F8] px-1.5 py-0.5 text-[10px] font-medium text-[#EC4899]">中置信</span>
-                    </div>
-                  </div>
-                  {/* 购买建议 */}
-                  <div>
-                    <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">🎯 购买建议</p>
-                    <p className="mt-1 text-[11px] text-[#64748B]">
-                      {changedSpecs.length > 3 ? "升级幅度大，建议等待" : changedSpecs.length > 0 ? "现在入手，升级明显" : "暂无显著升级，观望"}
-                    </p>
-                    <span className={`mt-1 inline-block rounded px-1.5 py-0.5 text-[10px] font-medium ${changedSpecs.length > 0 ? "bg-[#F0FDF0] text-[#22C55E]" : "bg-[#FEFCE8] text-[#EAB308]"}`}>
-                      {latestDevice?.model || "—"}
-                    </span>
-                  </div>
-                </div>
+
+              {/* 折线图（全宽） */}
+              <div className="mt-4 min-w-0 overflow-x-auto px-3 pb-5 lg:px-5">
+                <TrendChart devices={seriesDevices} metric={metricByKey(quickMetricKey)} />
               </div>
 
-              {/* 折线图 + 关键变化 */}
-              <div className="mt-4 flex flex-col lg:flex-row">
-                <div className="min-w-0 flex-1 px-5 pb-5">
-                  <TrendChart devices={seriesDevices} metric={metricByKey(quickMetricKey)} />
-                </div>
-                <div className="shrink-0 border-t border-[#E8E4DC] bg-[#F8FAFE] p-4 lg:w-52 lg:border-l lg:border-t-0">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">关键变化</p>
-                  <div className="mt-3 space-y-3">
-                    {changedSpecs.slice(0, 5).length === 0 ? (
-                      <p className="text-[11px] text-[#94A3B8]">暂无变化</p>
-                    ) : (
-                      changedSpecs.slice(0, 5).map((spec, i) => (
-                        <div key={i}>
-                          <p className="text-[10px] text-[#94A3B8]">{spec.label}</p>
-                          <p className="mt-0.5 text-xs font-semibold text-[#1E293B]">{latestDevice ? spec.getValue(latestDevice) : "—"}</p>
-                          <p className="text-[10px] text-[#3B82F6]">{previousDevice ? `← ${spec.getValue(previousDevice)}` : ""}</p>
-                        </div>
-                      ))
-                    )}
+              {/* 关键变化 — 折线图下方横向列表 */}
+              <div className="overflow-x-auto border-t border-[#E8E4DC] bg-[#F8FAFE] px-3 py-4 lg:px-5">
+                <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">关键变化</p>
+                {changedSpecs.slice(0, 5).length === 0 ? (
+                  <p className="mt-2 text-[11px] text-[#94A3B8]">暂无变化</p>
+                ) : (
+                  <div className="mt-3 flex flex-nowrap gap-4 lg:flex-wrap">
+                    {changedSpecs.slice(0, 5).map((spec, i) => (
+                      <div key={i} className="min-w-[140px] shrink-0 lg:shrink">
+                        <p className="text-[10px] text-[#94A3B8]">{spec.label}</p>
+                        <p className="mt-0.5 text-xs font-semibold text-[#1E293B]">{latestDevice ? spec.getValue(latestDevice) : "—"}</p>
+                        <p className="text-[10px] text-[#3B82F6]">{previousDevice ? `← ${spec.getValue(previousDevice)}` : ""}</p>
+                      </div>
+                    ))}
                   </div>
-                </div>
+                )}
               </div>
             </section>
 
@@ -1074,7 +1037,7 @@ function TrendChart({
       <div className="min-w-[700px]">
         <svg
           aria-label={`${metric.label}趋势图`}
-          className="h-[400px] w-full"
+          className="h-[320px] w-full"
           viewBox="0 0 100 80"
         >
           <line
@@ -1244,7 +1207,7 @@ function ComparisonMatrix({
             const values = devices.map(spec.getValue);
             const newValue = values[0];      // 最新一代的值（左边第一列）
             const prevValue = values.length >= 2 ? values[1] : undefined;  // 上一代的值（左边第二列）
-            // 判断最新一代是否有升级（值不同且不是"待补充"）
+            // 判断最新一代是否有升级（值不同且不是"—"）
             const hasUpgrade = newValue !== pending && prevValue !== pending && newValue !== prevValue;
 
             return (
@@ -1259,36 +1222,24 @@ function ComparisonMatrix({
                   const value = spec.getValue(device);
                   const isPending = value === pending;
                   const isFirst = index === 0;
-                  const showBlue = isFirst && hasUpgrade;
-                  // 变化标签：仅最新一代显示
-                  const isPriceDown = spec.label.includes("价格") && prevValue !== undefined && prevValue !== pending && parseFloat(value) < parseFloat(prevValue);
-                  const changeTag = isFirst ? (isPending ? "待补充" : hasUpgrade ? (isPriceDown ? "↓降价" : "升级") : "保持") : null;
+                  const isChanged = isFirst && hasUpgrade;
 
                   return (
                     <td className="px-5 py-3.5 align-top" key={device.id}>
-                      <div className="flex items-center gap-1.5">
-                        <span
-                          className={`inline-flex rounded-lg px-2.5 py-1 text-sm font-medium ${
-                            isPending
-                              ? "bg-[#F5F0E8] text-[#94a3b8]"
-                              : showBlue
-                                ? "bg-[#EEF2FF] text-[#3B82F6]"
-                                : "text-[#475569]"
-                          }`}
-                        >
-                          {value}
-                        </span>
-                        {changeTag && (
-                          <span className={`shrink-0 rounded px-1.5 py-0.5 text-[9px] font-semibold ${
-                            changeTag === "升级" ? "bg-[#EEF2FF] text-[#3B82F6]" :
-                            changeTag === "↓降价" ? "bg-[#F0FDF0] text-[#22C55E]" :
-                            changeTag === "保持" ? "bg-[#F5F0E8] text-[#94a3b8]" :
-                            "bg-[#fef3c7] text-[#b45309]"
-                          }`}>
-                            {changeTag}
-                          </span>
+                      <span
+                        className={`text-sm ${
+                          isPending
+                            ? "text-slate-400"
+                            : isChanged
+                              ? "font-semibold text-slate-900"
+                              : "text-slate-600"
+                        }`}
+                      >
+                        {value}
+                        {isChanged && !isPending && (
+                          <span className="ml-1.5 text-[10px] font-normal text-slate-400">↑</span>
                         )}
-                      </div>
+                      </span>
                     </td>
                   );
                 })}

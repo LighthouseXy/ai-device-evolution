@@ -1,0 +1,1515 @@
+{
+  "metadata": {
+    "version": "batch-3a",
+    "generatedAt": "2026-06-25",
+    "source": "Apple official sources",
+    "deviceCount": 5,
+    "status": "batch-3a"
+  },
+  "devices": [
+    {
+      "id": "iphone-16-plus",
+      "brand": "Apple",
+      "category": "phone",
+      "series": "iPhone",
+      "modelName": "iPhone 16 Plus",
+      "generation": "16 Plus",
+      "releaseYear": 2024,
+      "colors": {
+        "value": [
+          "Black",
+          "White",
+          "Pink",
+          "Teal",
+          "Ultramarine"
+        ],
+        "unit": null,
+        "rawText": "Black, White, Pink, Teal, Ultramarine",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "material": {
+        "value": "Aluminum design, Ceramic Shield front, Color-infused glass back",
+        "unit": null,
+        "rawText": "Aluminum design, Ceramic Shield front, Color-infused glass back",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 199,
+        "unit": "g",
+        "rawText": "199 grams (7.03 ounces)",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "dimensions": {
+        "value": "160.9 x 77.8 x 7.80 mm",
+        "unit": "mm",
+        "rawText": "160.9 mm x 77.8 mm x 7.80 mm",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 6.7,
+        "unit": "inch",
+        "rawText": "6.7-inch diagonal all-screen OLED display",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Super Retina XDR OLED",
+        "unit": null,
+        "rawText": "Super Retina XDR OLED with Dynamic Island, True Tone, HDR",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2796 x 1290",
+        "unit": "pixels",
+        "rawText": "2796-by-1290 pixel resolution at 460 ppi",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 60,
+        "unit": "Hz",
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "A18",
+        "unit": null,
+        "rawText": "A18 chip",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "cpu": {
+        "value": "6-core CPU (2 performance + 4 efficiency cores)",
+        "unit": null,
+        "rawText": "6-core CPU (2 performance + 4 efficiency cores)",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "gpu": {
+        "value": "5-core GPU",
+        "unit": null,
+        "rawText": "5-core GPU",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "16-core Neural Engine",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "128GB / 256GB",
+        "unit": null,
+        "rawText": "128GB, 256GB",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "rearCamera": {
+        "value": "48MP Fusion Main: 26mm, f/1.6; 12MP Ultra Wide: 13mm, f/2.2",
+        "unit": null,
+        "rawText": "48MP Fusion 26mm f/1.6 + 12MP Ultra Wide 13mm f/2.2",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "mainCamera": {
+        "value": "48MP Fusion, 26mm, f/1.6, sensor-shift OIS",
+        "unit": null,
+        "rawText": "48MP Fusion, 26mm, f/1.6, sensor-shift OIS",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "ultraWide": {
+        "value": "12MP, 13mm, f/2.2, 120° FOV",
+        "unit": null,
+        "rawText": "12MP, 13mm, f/2.2, 120° field of view",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "frontCamera": {
+        "value": "12MP TrueDepth, f/1.9",
+        "unit": null,
+        "rawText": "12MP TrueDepth, f/1.9, autofocus",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "videoRecording": {
+        "value": "4K Dolby Vision at 24/25/30/60 fps",
+        "unit": null,
+        "rawText": "4K Dolby Vision video recording at 24/25/30/60 fps",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "batteryLife": {
+        "value": "Up to 27 hours video playback",
+        "unit": null,
+        "rawText": "Video playback up to 27 hours",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "USB-C (USB 2)",
+        "unit": null,
+        "rawText": "USB-C (USB 2, up to 480Mb/s, supports DisplayPort)",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chargingMethod": {
+        "value": "MagSafe up to 25W, Qi2, USB-C wired",
+        "unit": null,
+        "rawText": "MagSafe wireless up to 25W, Qi2 up to 25W",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "security": {
+        "value": "Face ID",
+        "unit": null,
+        "rawText": "Face ID via TrueDepth camera",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "waterResistance": {
+        "value": "IP68 (6m, 30min)",
+        "unit": null,
+        "rawText": "IP68 maximum depth 6 meters up to 30 minutes",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "Wi-Fi 7 (802.11be)",
+        "unit": null,
+        "rawText": "Wi-Fi 7 (802.11be) with 2x2 MIMO",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "5.3",
+        "unit": null,
+        "rawText": "Bluetooth 5.3",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "sim": {
+        "value": "Dual eSIM",
+        "unit": null,
+        "rawText": "Dual eSIM only",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasMagSafe": {
+        "value": true,
+        "unit": null,
+        "rawText": "Yes",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasNFC": {
+        "value": true,
+        "unit": null,
+        "rawText": "NFC with reader mode",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasSOS": {
+        "value": true,
+        "unit": null,
+        "rawText": "Emergency SOS via satellite",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasCrashDetection": {
+        "value": true,
+        "unit": null,
+        "rawText": "Yes",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasUWB": {
+        "value": true,
+        "unit": null,
+        "rawText": "Second-generation Ultra Wideband chip",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      }
+    },
+    {
+      "id": "iphone-16-pro-max",
+      "brand": "Apple",
+      "category": "phone",
+      "series": "iPhone Pro",
+      "modelName": "iPhone 16 Pro Max",
+      "generation": "16 Pro Max",
+      "releaseYear": 2024,
+      "colors": {
+        "value": [
+          "Black Titanium",
+          "White Titanium",
+          "Natural Titanium",
+          "Desert Titanium"
+        ],
+        "unit": null,
+        "rawText": "Black Titanium, White Titanium, Natural Titanium, Desert Titanium",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "material": {
+        "value": "Grade 5 titanium, Ceramic Shield front, Textured matte glass back",
+        "unit": null,
+        "rawText": "Grade 5 titanium, Ceramic Shield front, Textured matte glass back",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 227,
+        "unit": "g",
+        "rawText": "227 grams (7.99 ounces)",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "dimensions": {
+        "value": "163.0 x 78.1 x 8.25 mm",
+        "unit": "mm",
+        "rawText": "163.0 mm x 78.1 mm x 8.25 mm",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 6.9,
+        "unit": "inch",
+        "rawText": "6.9-inch display",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Super Retina XDR OLED, ProMotion, Always-On",
+        "unit": null,
+        "rawText": "Super Retina XDR display with ProMotion and Always-On",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2868 x 1320",
+        "unit": "pixels",
+        "rawText": "2868 x 1320 pixel resolution at 460 ppi",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 120,
+        "unit": "Hz",
+        "rawText": "Adaptive 1-120Hz ProMotion",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "A18 Pro",
+        "unit": null,
+        "rawText": "A18 Pro chip",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "cpu": {
+        "value": "6-core CPU",
+        "unit": null,
+        "rawText": "6-core CPU",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "gpu": {
+        "value": "6-core GPU",
+        "unit": null,
+        "rawText": "6-core GPU",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "16-core Neural Engine",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "256GB / 512GB / 1TB",
+        "unit": null,
+        "rawText": "256GB, 512GB, 1TB",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "rearCamera": {
+        "value": "48MP Main: 24mm, f/1.78; 48MP Ultra Wide: 13mm, f/2.2; 12MP Telephoto: 120mm, f/2.8",
+        "unit": null,
+        "rawText": "48MP Main 24mm f/1.78 + 48MP Ultra Wide 13mm f/2.2 + 12MP Telephoto 120mm f/2.8",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "mainCamera": {
+        "value": "48MP, 24mm, f/1.78, sensor-shift OIS",
+        "unit": null,
+        "rawText": "48MP, f/1.78, 24mm, sensor-shift OIS, quad-pixel",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "ultraWide": {
+        "value": "48MP, 13mm, f/2.2, 120° FOV",
+        "unit": null,
+        "rawText": "48MP, f/2.2, 13mm, 120° FOV",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "telephoto": {
+        "value": "12MP, 120mm, f/2.8, 5x optical zoom",
+        "unit": null,
+        "rawText": "12MP, f/2.8, 120mm, 5x optical zoom",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "opticalZoom": {
+        "value": "5x optical zoom in",
+        "unit": null,
+        "rawText": "5x optical zoom in",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "frontCamera": {
+        "value": "12MP TrueDepth, f/1.9",
+        "unit": null,
+        "rawText": "12MP TrueDepth, f/1.9, autofocus",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "videoRecording": {
+        "value": "4K Dolby Vision at 24/25/30/60/120 fps, ProRes",
+        "unit": null,
+        "rawText": "4K Dolby Vision up to 120fps, ProRes up to 4K 120fps",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "batteryLife": {
+        "value": "Up to 33 hours video playback",
+        "unit": null,
+        "rawText": "Video playback up to 33 hours",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "USB-C (USB 3, up to 10Gb/s)",
+        "unit": null,
+        "rawText": "USB-C with USB 3 up to 10Gb/s",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chargingMethod": {
+        "value": "MagSafe up to 25W, Qi2, USB-C wired",
+        "unit": null,
+        "rawText": "MagSafe wireless up to 25W, Qi2 up to 15W",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "security": {
+        "value": "Face ID",
+        "unit": null,
+        "rawText": "Face ID",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "waterResistance": {
+        "value": "IP68 (6m, 30min)",
+        "unit": null,
+        "rawText": "IP68 maximum depth 6 meters up to 30 minutes",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "Wi-Fi 7 (802.11be)",
+        "unit": null,
+        "rawText": "Wi-Fi 7 (802.11be)",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "5.3",
+        "unit": null,
+        "rawText": "Bluetooth 5.3",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "sim": {
+        "value": "eSIM only",
+        "unit": null,
+        "rawText": "Advanced eSIM, no physical SIM",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasMagSafe": {
+        "value": true,
+        "unit": null,
+        "rawText": "Yes",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasNFC": {
+        "value": true,
+        "unit": null,
+        "rawText": "Yes",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasSOS": {
+        "value": true,
+        "unit": null,
+        "rawText": "Emergency SOS via satellite",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasCrashDetection": {
+        "value": true,
+        "unit": null,
+        "rawText": "Yes",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasUWB": {
+        "value": true,
+        "unit": null,
+        "rawText": "Second-generation Ultra Wideband chip",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      }
+    },
+    {
+      "id": "iphone-15-plus",
+      "brand": "Apple",
+      "category": "phone",
+      "series": "iPhone",
+      "modelName": "iPhone 15 Plus",
+      "generation": "15 Plus",
+      "releaseYear": 2023,
+      "colors": {
+        "value": [
+          "Black",
+          "Blue",
+          "Green",
+          "Yellow",
+          "Pink"
+        ],
+        "unit": null,
+        "rawText": "Black, Blue, Green, Yellow, Pink",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "material": {
+        "value": "Color-infused glass back, aluminum frame, Ceramic Shield front",
+        "unit": null,
+        "rawText": "Color-infused glass back, aerospace-grade aluminum frame",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 201,
+        "unit": "g",
+        "rawText": "201 grams",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "dimensions": {
+        "value": "160.9 x 77.6 x 7.80 mm",
+        "unit": "mm",
+        "rawText": "160.9 x 77.6 x 7.80 mm",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 6.7,
+        "unit": "inch",
+        "rawText": "6.7-inch diagonal all-screen OLED",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Super Retina XDR OLED",
+        "unit": null,
+        "rawText": "Super Retina XDR (OLED)",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2796 x 1290",
+        "unit": "pixels",
+        "rawText": "2796-by-1290 pixels at 460 ppi",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 60,
+        "unit": "Hz",
+        "rawText": "60Hz",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "A16 Bionic",
+        "unit": null,
+        "rawText": "A16 Bionic chip",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "cpu": {
+        "value": "6-core CPU (2 performance + 4 efficiency)",
+        "unit": null,
+        "rawText": "6-core CPU (2 performance, 4 efficiency)",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "gpu": {
+        "value": "5-core GPU",
+        "unit": null,
+        "rawText": "5-core GPU",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "16-core Neural Engine",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "128GB / 256GB / 512GB",
+        "unit": null,
+        "rawText": "128GB, 256GB, 512GB",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "rearCamera": {
+        "value": "48MP Main: 26mm, f/1.6; 12MP Ultra Wide: 13mm, f/2.4",
+        "unit": null,
+        "rawText": "48MP Main 26mm f/1.6 + 12MP Ultra Wide 13mm f/2.4",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "mainCamera": {
+        "value": "48MP, 26mm, f/1.6, sensor-shift OIS",
+        "unit": null,
+        "rawText": "48MP, 26mm, f/1.6, sensor-shift OIS",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "ultraWide": {
+        "value": "12MP, 13mm, f/2.4, 120° FOV",
+        "unit": null,
+        "rawText": "12MP, 13mm, f/2.4, 120° FOV",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "frontCamera": {
+        "value": "12MP TrueDepth, 23mm, f/1.9",
+        "unit": null,
+        "rawText": "12MP TrueDepth, 23mm, f/1.9",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "videoRecording": {
+        "value": "4K at 24/25/30/60 fps, Cinematic mode",
+        "unit": null,
+        "rawText": "Up to 4K at 60fps, Cinematic mode, Action mode",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "batteryLife": {
+        "value": "Up to 26 hours video playback",
+        "unit": null,
+        "rawText": "Video playback up to 26 hours",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "USB-C (USB 2)",
+        "unit": null,
+        "rawText": "USB-C (supports USB 2)",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chargingMethod": {
+        "value": "USB-C, MagSafe, Qi2",
+        "unit": null,
+        "rawText": "USB-C, MagSafe wireless, Qi2 wireless",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "security": {
+        "value": "Face ID",
+        "unit": null,
+        "rawText": "Face ID",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "waterResistance": {
+        "value": "IP68 (6m, 30min)",
+        "unit": null,
+        "rawText": "IP68 maximum depth 6 meters up to 30 minutes",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "Wi-Fi 6 (802.11ax)",
+        "unit": null,
+        "rawText": "Wi-Fi 6 (802.11ax) with MIMO",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "5.3",
+        "unit": null,
+        "rawText": "Bluetooth 5.3",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "sim": {
+        "value": "Nano-SIM + eSIM",
+        "unit": null,
+        "rawText": "Nano-SIM and eSIM",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasMagSafe": {
+        "value": true,
+        "unit": null,
+        "rawText": "Yes",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasNFC": {
+        "value": true,
+        "unit": null,
+        "rawText": "Yes",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasSOS": {
+        "value": true,
+        "unit": null,
+        "rawText": "Emergency SOS via satellite, Crash Detection",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasCrashDetection": {
+        "value": true,
+        "unit": null,
+        "rawText": "Yes",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasUWB": {
+        "value": true,
+        "unit": null,
+        "rawText": "Second-generation Ultra Wideband chip",
+        "sourceUrl": "https://support.apple.com/en-us/111830",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      }
+    },
+    {
+      "id": "iphone-15-pro-max",
+      "brand": "Apple",
+      "category": "phone",
+      "series": "iPhone Pro",
+      "modelName": "iPhone 15 Pro Max",
+      "generation": "15 Pro Max",
+      "releaseYear": 2023,
+      "colors": {
+        "value": [
+          "Black Titanium",
+          "White Titanium",
+          "Blue Titanium",
+          "Natural Titanium"
+        ],
+        "unit": null,
+        "rawText": "Black Titanium, White Titanium, Blue Titanium, Natural Titanium",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "material": {
+        "value": "Titanium design, Ceramic Shield front, Textured matte glass back",
+        "unit": null,
+        "rawText": "Titanium design with textured matte-glass back, ceramic shield front",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 221,
+        "unit": "g",
+        "rawText": "221 grams",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "dimensions": {
+        "value": "159.9 x 76.7 x 8.25 mm",
+        "unit": "mm",
+        "rawText": "159.9 x 76.7 x 8.25 mm",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 6.7,
+        "unit": "inch",
+        "rawText": "6.7-inch diagonal all-screen OLED",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Super Retina XDR OLED, ProMotion, Always-On",
+        "unit": null,
+        "rawText": "Super Retina XDR display (OLED, HDR, ProMotion, Always-On)",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2796 x 1290",
+        "unit": "pixels",
+        "rawText": "2796 x 1290 pixels at 460 ppi",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 120,
+        "unit": "Hz",
+        "rawText": "1-120Hz ProMotion adaptive",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "A17 Pro",
+        "unit": null,
+        "rawText": "A17 Pro chip",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "cpu": {
+        "value": "6-core CPU (2 performance + 4 efficiency)",
+        "unit": null,
+        "rawText": "6-core CPU (2 performance and 4 efficiency cores)",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "gpu": {
+        "value": "6-core GPU",
+        "unit": null,
+        "rawText": "6-core GPU",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "16-core Neural Engine",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "256GB / 512GB / 1TB",
+        "unit": null,
+        "rawText": "256GB, 512GB, 1TB",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "rearCamera": {
+        "value": "48MP Main: 24mm, f/1.78; 12MP Ultra Wide: 13mm, f/2.2; 12MP Telephoto: 120mm, f/2.8",
+        "unit": null,
+        "rawText": "48MP Main 24mm f/1.78 + 12MP Ultra Wide 13mm f/2.2 + 12MP Telephoto 120mm f/2.8",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "mainCamera": {
+        "value": "48MP, 24mm, f/1.78, sensor-shift OIS",
+        "unit": null,
+        "rawText": "48MP, f/1.78, 24mm, sensor-shift OIS, quad-pixel",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "ultraWide": {
+        "value": "12MP, 13mm, f/2.2, 120° FOV",
+        "unit": null,
+        "rawText": "12MP, f/2.2, 13mm, 120° FOV",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "telephoto": {
+        "value": "12MP, 120mm, f/2.8, 5x optical zoom",
+        "unit": null,
+        "rawText": "12MP, f/2.8, 120mm, sensor-shift OIS",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "opticalZoom": {
+        "value": "5x optical zoom in",
+        "unit": null,
+        "rawText": "5x optical zoom in",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "frontCamera": {
+        "value": "12MP TrueDepth, f/1.9",
+        "unit": null,
+        "rawText": "12MP, f/1.9, TrueDepth, autofocus",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "videoRecording": {
+        "value": "4K at 24/25/30/60 fps, ProRes, Cinematic mode",
+        "unit": null,
+        "rawText": "4K at 24/25/30/60 fps, ProRes up to 4K 60fps, Cinematic mode, Action mode",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "batteryLife": {
+        "value": "Up to 29 hours video playback",
+        "unit": null,
+        "rawText": "Video playback up to 29 hours",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "USB-C (USB 3, up to 10Gb/s)",
+        "unit": null,
+        "rawText": "USB-C (USB 3, up to 10Gb/s)",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chargingMethod": {
+        "value": "MagSafe, Qi2, USB-C wired",
+        "unit": null,
+        "rawText": "MagSafe up to 15W, Qi2 up to 15W, Qi up to 7.5W",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "security": {
+        "value": "Face ID",
+        "unit": null,
+        "rawText": "Face ID",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "waterResistance": {
+        "value": "IP68 (6m, 30min)",
+        "unit": null,
+        "rawText": "IP68 maximum depth 6 meters up to 30 minutes",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "Wi-Fi 6E (802.11ax)",
+        "unit": null,
+        "rawText": "Wi-Fi 6E (802.11ax) with 2x2 MIMO",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "5.3",
+        "unit": null,
+        "rawText": "Bluetooth 5.3",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "sim": {
+        "value": "eSIM only, Dual eSIM",
+        "unit": null,
+        "rawText": "eSIM, no physical SIM tray, Dual eSIM support",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasMagSafe": {
+        "value": true,
+        "unit": null,
+        "rawText": "Yes, MagSafe magnet array",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasNFC": {
+        "value": true,
+        "unit": null,
+        "rawText": "NFC with reader mode",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasSOS": {
+        "value": true,
+        "unit": null,
+        "rawText": "Emergency SOS via satellite",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasCrashDetection": {
+        "value": true,
+        "unit": null,
+        "rawText": "Yes",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasUWB": {
+        "value": true,
+        "unit": null,
+        "rawText": "Ultra Wideband chip, Thread-enabled",
+        "sourceUrl": "https://support.apple.com/en-us/111828",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      }
+    },
+    {
+      "id": "iphone-14-plus",
+      "brand": "Apple",
+      "category": "phone",
+      "series": "iPhone",
+      "modelName": "iPhone 14 Plus",
+      "generation": "14 Plus",
+      "releaseYear": 2022,
+      "colors": {
+        "value": [
+          "Purple",
+          "Blue",
+          "Midnight",
+          "Starlight",
+          "(PRODUCT)RED"
+        ],
+        "unit": null,
+        "rawText": "Purple, Blue, Midnight, Starlight, Product(RED)",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "material": {
+        "value": "Ceramic Shield front, color-infused glass back, aluminum frame",
+        "unit": null,
+        "rawText": "Ceramic Shield front, color-infused glass back, aerospace-grade aluminum frame",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 203,
+        "unit": "g",
+        "rawText": "203 grams",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "dimensions": {
+        "value": "160.8 x 77.6 x 7.8 mm",
+        "unit": "mm",
+        "rawText": "160.8 x 77.6 x 7.8 mm",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 6.7,
+        "unit": "inch",
+        "rawText": "6.7 inches diagonal",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Super Retina XDR OLED",
+        "unit": null,
+        "rawText": "Super Retina XDR OLED, HDR, True Tone, wide color (P3)",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2796 x 1290",
+        "unit": "pixels",
+        "rawText": "2796 x 1290 pixels at 460 ppi",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 60,
+        "unit": "Hz",
+        "rawText": "60Hz",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "A15 Bionic",
+        "unit": null,
+        "rawText": "A15 Bionic chip",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "cpu": {
+        "value": "6-core CPU (2 performance + 4 efficiency)",
+        "unit": null,
+        "rawText": "6-core CPU (2 performance + 4 efficiency cores)",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "gpu": {
+        "value": "5-core GPU",
+        "unit": null,
+        "rawText": "5-core GPU",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "16-core Neural Engine",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "128GB / 256GB / 512GB",
+        "unit": null,
+        "rawText": "128GB, 256GB, 512GB",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "rearCamera": {
+        "value": "12MP Main: f/1.5, sensor-shift OIS; 12MP Ultra Wide: f/2.4, 120° FOV",
+        "unit": null,
+        "rawText": "12MP Main f/1.5 sensor-shift OIS + 12MP Ultra Wide f/2.4 120° FOV",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "mainCamera": {
+        "value": "12MP, f/1.5, sensor-shift OIS",
+        "unit": null,
+        "rawText": "12MP, f/1.5, sensor-shift OIS",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "ultraWide": {
+        "value": "12MP, f/2.4, 120° FOV",
+        "unit": null,
+        "rawText": "12MP, f/2.4, 120° FOV",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "frontCamera": {
+        "value": "12MP TrueDepth, f/1.9",
+        "unit": null,
+        "rawText": "12MP TrueDepth, f/1.9, autofocus",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "videoRecording": {
+        "value": "4K at 24/25/30/60 fps, Cinematic mode, Action mode",
+        "unit": null,
+        "rawText": "4K at 24/25/30/60 fps, Cinematic mode, Action mode, HDR Dolby Vision",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "batteryLife": {
+        "value": "Up to 26 hours video playback",
+        "unit": null,
+        "rawText": "Video playback up to 26 hours",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "Lightning",
+        "unit": null,
+        "rawText": "Lightning connector",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chargingMethod": {
+        "value": "Lightning, MagSafe up to 15W, Qi up to 7.5W",
+        "unit": null,
+        "rawText": "Lightning, MagSafe wireless up to 15W, Qi wireless up to 7.5W",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "security": {
+        "value": "Face ID",
+        "unit": null,
+        "rawText": "Face ID",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "waterResistance": {
+        "value": "IP68 (6m, 30min)",
+        "unit": null,
+        "rawText": "IP68 maximum depth 6 meters up to 30 minutes",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "Wi-Fi 6 (802.11ax)",
+        "unit": null,
+        "rawText": "Wi-Fi 6 (802.11ax) with 2x2 MIMO",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "5.3",
+        "unit": null,
+        "rawText": "Bluetooth 5.3",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "sim": {
+        "value": "Nano-SIM + eSIM",
+        "unit": null,
+        "rawText": "Nano-SIM and eSIM, dual eSIM support",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasMagSafe": {
+        "value": true,
+        "unit": null,
+        "rawText": "Yes, MagSafe up to 15W",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasNFC": {
+        "value": true,
+        "unit": null,
+        "rawText": "NFC with reader mode",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasSOS": {
+        "value": true,
+        "unit": null,
+        "rawText": "Emergency SOS via satellite",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasCrashDetection": {
+        "value": true,
+        "unit": null,
+        "rawText": "Yes",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasUWB": {
+        "value": true,
+        "unit": null,
+        "rawText": "U1 Ultra Wideband chip",
+        "sourceUrl": "https://support.apple.com/en-us/111854",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      }
+    }
+  ]
+}

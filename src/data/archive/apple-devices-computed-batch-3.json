@@ -1,0 +1,415 @@
+{
+  "metadata": {
+    "version": "computed-batch-3",
+    "generatedAt": "2026-06-25",
+    "description": "基于 apple-devices-batch-3.json 的计算字段",
+    "deviceCount": 15
+  },
+  "devices": [
+    {
+      "id": "iphone-14-plus",
+      "category": "phone",
+      "modelName": "iPhone 14 Plus",
+      "computedFields": {
+        "aiCapabilityLevel": {
+          "value": 2,
+          "scoreBreakdown": "芯片 A15 Bionic chip=2分 → 2",
+          "confidence": 0.85,
+          "computedAt": "2026-06-25"
+        },
+        "generationUpgradeMagnitude": {
+          "value": 6,
+          "comparedTo": "iphone-13",
+          "changeSummary": "屏幕+1 (6.06→6.68), 主摄+2, 新增SOS+1, 新增车祸检测+1, 外观+1",
+          "scoreBreakdown": "屏幕+1 (6.06→6.68) + 主摄+2 + 新增SOS+1 + 新增车祸检测+1 + 外观+1 → 6",
+          "confidence": 0.9,
+          "computedAt": "2026-06-25"
+        },
+        "recommendationLevel": {
+          "value": 1,
+          "scoreBreakdown": "4年=-4 → 1",
+          "confidence": 0.8,
+          "computedAt": "2026-06-25"
+        }
+      }
+    },
+    {
+      "id": "iphone-14-pro-max",
+      "category": "phone",
+      "modelName": "iPhone 14 Pro Max",
+      "computedFields": {
+        "aiCapabilityLevel": {
+          "value": 4,
+          "scoreBreakdown": "芯片 A16 Bionic chip=3分, 16核NE=+1 → 4",
+          "confidence": 0.85,
+          "computedAt": "2026-06-25"
+        },
+        "generationUpgradeMagnitude": {
+          "value": 8,
+          "comparedTo": "iphone-13-pro-max",
+          "changeSummary": "芯片+3 (A15 Bionic chip→A16 Bionic chip), 主摄+2, 新增SOS+1, 新增车祸检测+1, 外观+1",
+          "scoreBreakdown": "芯片+3 (A15 Bionic chip→A16 Bionic chip) + 主摄+2 + 新增SOS+1 + 新增车祸检测+1 + 外观+1 → 8",
+          "confidence": 0.9,
+          "computedAt": "2026-06-25"
+        },
+        "recommendationLevel": {
+          "value": 2,
+          "scoreBreakdown": "4年=-4, AI4级=+1 → 2",
+          "confidence": 0.8,
+          "computedAt": "2026-06-25"
+        }
+      }
+    },
+    {
+      "id": "iphone-15-plus",
+      "category": "phone",
+      "modelName": "iPhone 15 Plus",
+      "computedFields": {
+        "aiCapabilityLevel": {
+          "value": 4,
+          "scoreBreakdown": "芯片 A16 Bionic chip=3分, 16核NE=+1 → 4",
+          "confidence": 0.85,
+          "computedAt": "2026-06-25"
+        },
+        "generationUpgradeMagnitude": {
+          "value": 4,
+          "comparedTo": "iphone-14-plus",
+          "changeSummary": "芯片+3 (A15 Bionic chip→A16 Bionic chip), 外观+1",
+          "scoreBreakdown": "芯片+3 (A15 Bionic chip→A16 Bionic chip) + 外观+1 → 4",
+          "confidence": 0.9,
+          "computedAt": "2026-06-25"
+        },
+        "recommendationLevel": {
+          "value": 3,
+          "scoreBreakdown": "3年=-3, AI4级=+1 → 3",
+          "confidence": 0.8,
+          "computedAt": "2026-06-25"
+        }
+      }
+    },
+    {
+      "id": "iphone-15-pro-max",
+      "category": "phone",
+      "modelName": "iPhone 15 Pro Max",
+      "computedFields": {
+        "aiCapabilityLevel": {
+          "value": 4,
+          "scoreBreakdown": "芯片 A17 Pro chip=4分 → 4",
+          "confidence": 0.85,
+          "computedAt": "2026-06-25"
+        },
+        "generationUpgradeMagnitude": {
+          "value": 7,
+          "comparedTo": "iphone-14-pro-max",
+          "changeSummary": "芯片+3 (A16 Bionic chip→A17 Pro chip), 主摄+2, 防水等级+1, 外观+1",
+          "scoreBreakdown": "芯片+3 (A16 Bionic chip→A17 Pro chip) + 主摄+2 + 防水等级+1 + 外观+1 → 7",
+          "confidence": 0.9,
+          "computedAt": "2026-06-25"
+        },
+        "recommendationLevel": {
+          "value": 3,
+          "scoreBreakdown": "3年=-3, AI4级=+1 → 3",
+          "confidence": 0.8,
+          "computedAt": "2026-06-25"
+        }
+      }
+    },
+    {
+      "id": "iphone-16-plus",
+      "category": "phone",
+      "modelName": "iPhone 16 Plus",
+      "computedFields": {
+        "aiCapabilityLevel": {
+          "value": 4,
+          "scoreBreakdown": "芯片 A18 chip=4分 → 4",
+          "confidence": 0.85,
+          "computedAt": "2026-06-25"
+        },
+        "generationUpgradeMagnitude": {
+          "value": 7,
+          "comparedTo": "iphone-15-plus",
+          "changeSummary": "芯片+3 (A16 Bionic chip→A18 chip), 主摄+2, 防水等级+1, 外观+1",
+          "scoreBreakdown": "芯片+3 (A16 Bionic chip→A18 chip) + 主摄+2 + 防水等级+1 + 外观+1 → 7",
+          "confidence": 0.9,
+          "computedAt": "2026-06-25"
+        },
+        "recommendationLevel": {
+          "value": 4,
+          "scoreBreakdown": "2年=-2, AI4级=+1 → 4",
+          "confidence": 0.8,
+          "computedAt": "2026-06-25"
+        }
+      }
+    },
+    {
+      "id": "iphone-16-pro-max",
+      "category": "phone",
+      "modelName": "iPhone 16 Pro Max",
+      "computedFields": {
+        "aiCapabilityLevel": {
+          "value": 5,
+          "scoreBreakdown": "芯片 A18 Pro=4分, 16核NE=+1 → 5",
+          "confidence": 0.85,
+          "computedAt": "2026-06-25"
+        },
+        "generationUpgradeMagnitude": {
+          "value": 8,
+          "comparedTo": "iphone-15-pro-max",
+          "changeSummary": "芯片+3 (A17 Pro chip→A18 Pro), 屏幕+1 (6.69→6.9), 主摄+2, 防水等级+1, 外观+1",
+          "scoreBreakdown": "芯片+3 (A17 Pro chip→A18 Pro) + 屏幕+1 (6.69→6.9) + 主摄+2 + 防水等级+1 + 外观+1 → 8",
+          "confidence": 0.9,
+          "computedAt": "2026-06-25"
+        },
+        "recommendationLevel": {
+          "value": 5,
+          "scoreBreakdown": "2年=-2, 最新代=+1, AI5级=+1 → 5",
+          "confidence": 0.8,
+          "computedAt": "2026-06-25"
+        }
+      }
+    },
+    {
+      "id": "iphone-se-3-2022",
+      "category": "phone",
+      "modelName": "iPhone SE (3rd generation)",
+      "computedFields": {
+        "aiCapabilityLevel": {
+          "value": 2,
+          "scoreBreakdown": "芯片 A15 Bionic chip=2分 → 2",
+          "confidence": 0.85,
+          "computedAt": "2026-06-25"
+        },
+        "generationUpgradeMagnitude": {
+          "value": 6,
+          "comparedTo": "iphone-se-2-2020",
+          "changeSummary": "芯片+3 (A13 Bionic chip→A15 Bionic chip), 主摄+2, 防水等级+1",
+          "scoreBreakdown": "芯片+3 (A13 Bionic chip→A15 Bionic chip) + 主摄+2 + 防水等级+1 → 6",
+          "confidence": 0.9,
+          "computedAt": "2026-06-25"
+        },
+        "recommendationLevel": {
+          "value": 2,
+          "scoreBreakdown": "4年=-4, 最新代=+1 → 2",
+          "confidence": 0.8,
+          "computedAt": "2026-06-25"
+        }
+      }
+    },
+    {
+      "id": "iphone-se-2-2020",
+      "category": "phone",
+      "modelName": "iPhone SE (2nd generation)",
+      "computedFields": {
+        "aiCapabilityLevel": {
+          "value": 3,
+          "scoreBreakdown": "芯片 A13 Bionic chip=3分 → 3",
+          "confidence": 0.85,
+          "computedAt": "2026-06-25"
+        },
+        "generationUpgradeMagnitude": {
+          "value": null,
+          "comparedTo": null,
+          "changeSummary": "该设备为该系列第一代，无可对比前代",
+          "scoreBreakdown": "无对比前代",
+          "confidence": 0.0,
+          "computedAt": "2026-06-25"
+        },
+        "recommendationLevel": {
+          "value": 1,
+          "scoreBreakdown": "6年=-6 → 1",
+          "confidence": 0.8,
+          "computedAt": "2026-06-25"
+        }
+      }
+    },
+    {
+      "id": "ipad-pro-m2-13-2022",
+      "category": "tablet",
+      "modelName": "iPad Pro 13-inch (M2)",
+      "computedFields": {
+        "aiCapabilityLevel": {
+          "value": 3,
+          "scoreBreakdown": "芯片 =3分 → 3",
+          "confidence": 0.85,
+          "computedAt": "2026-06-25"
+        },
+        "generationUpgradeMagnitude": {
+          "value": 4,
+          "comparedTo": "ipad-pro-m2-2022",
+          "changeSummary": "屏幕+1 (11.0→12.9), 分辨率+1, 主摄+2",
+          "scoreBreakdown": "屏幕+1 (11.0→12.9) + 分辨率+1 + 主摄+2 → 4",
+          "confidence": 0.9,
+          "computedAt": "2026-06-25"
+        },
+        "recommendationLevel": {
+          "value": 1,
+          "scoreBreakdown": "4年=-4 → 1",
+          "confidence": 0.8,
+          "computedAt": "2026-06-25"
+        }
+      }
+    },
+    {
+      "id": "ipad-10th-2022",
+      "category": "tablet",
+      "modelName": "iPad (10th generation)",
+      "computedFields": {
+        "aiCapabilityLevel": {
+          "value": 3,
+          "scoreBreakdown": "芯片 =3分 → 3",
+          "confidence": 0.85,
+          "computedAt": "2026-06-25"
+        },
+        "generationUpgradeMagnitude": {
+          "value": 4,
+          "comparedTo": "ipad-9th-2021",
+          "changeSummary": "屏幕+1 (10.2→10.86), 分辨率+1, 主摄+2",
+          "scoreBreakdown": "屏幕+1 (10.2→10.86) + 分辨率+1 + 主摄+2 → 4",
+          "confidence": 0.9,
+          "computedAt": "2026-06-25"
+        },
+        "recommendationLevel": {
+          "value": 2,
+          "scoreBreakdown": "4年=-4, 最新代=+1 → 2",
+          "confidence": 0.8,
+          "computedAt": "2026-06-25"
+        }
+      }
+    },
+    {
+      "id": "ipad-mini-a17-pro-2024",
+      "category": "tablet",
+      "modelName": "iPad mini (A17 Pro)",
+      "computedFields": {
+        "aiCapabilityLevel": {
+          "value": 4,
+          "scoreBreakdown": "芯片 A17 Pro=4分 → 4",
+          "confidence": 0.85,
+          "computedAt": "2026-06-25"
+        },
+        "generationUpgradeMagnitude": {
+          "value": 5,
+          "comparedTo": "ipad-mini-6th-2021",
+          "changeSummary": "芯片+3 (A15 Bionic chip→A17 Pro), 主摄+2",
+          "scoreBreakdown": "芯片+3 (A15 Bionic chip→A17 Pro) + 主摄+2 → 5",
+          "confidence": 0.9,
+          "computedAt": "2026-06-25"
+        },
+        "recommendationLevel": {
+          "value": 5,
+          "scoreBreakdown": "2年=-2, 最新代=+1, AI4级=+1 → 5",
+          "confidence": 0.8,
+          "computedAt": "2026-06-25"
+        }
+      }
+    },
+    {
+      "id": "ipad-pro-m5-11-2025",
+      "category": "tablet",
+      "modelName": "iPad Pro 11-inch (M5)",
+      "computedFields": {
+        "aiCapabilityLevel": {
+          "value": 5,
+          "scoreBreakdown": "芯片 Apple M5=5分, 16核NE=+1 → 5",
+          "confidence": 0.85,
+          "computedAt": "2026-06-25"
+        },
+        "generationUpgradeMagnitude": {
+          "value": 5,
+          "comparedTo": "ipad-pro-m4-11-2024",
+          "changeSummary": "芯片+3 (Apple M4→Apple M5), 主摄+2",
+          "scoreBreakdown": "芯片+3 (Apple M4→Apple M5) + 主摄+2 → 5",
+          "confidence": 0.9,
+          "computedAt": "2026-06-25"
+        },
+        "recommendationLevel": {
+          "value": 5,
+          "scoreBreakdown": "1年=-1, 最新代=+1, AI5级=+1 → 5",
+          "confidence": 0.8,
+          "computedAt": "2026-06-25"
+        }
+      }
+    },
+    {
+      "id": "ipad-pro-m5-13-2025",
+      "category": "tablet",
+      "modelName": "iPad Pro 13-inch (M5)",
+      "computedFields": {
+        "aiCapabilityLevel": {
+          "value": 5,
+          "scoreBreakdown": "芯片 Apple M5=5分, 16核NE=+1 → 5",
+          "confidence": 0.85,
+          "computedAt": "2026-06-25"
+        },
+        "generationUpgradeMagnitude": {
+          "value": 6,
+          "comparedTo": "ipad-pro-m4-13-2024",
+          "changeSummary": "芯片+3 (Apple M4→Apple M5), 分辨率+1, 主摄+2",
+          "scoreBreakdown": "芯片+3 (Apple M4→Apple M5) + 分辨率+1 + 主摄+2 → 6",
+          "confidence": 0.9,
+          "computedAt": "2026-06-25"
+        },
+        "recommendationLevel": {
+          "value": 5,
+          "scoreBreakdown": "1年=-1, 最新代=+1, AI5级=+1 → 5",
+          "confidence": 0.8,
+          "computedAt": "2026-06-25"
+        }
+      }
+    },
+    {
+      "id": "macbook-pro-13-m2-2022",
+      "category": "laptop",
+      "modelName": "MacBook Pro 13-inch (M2)",
+      "computedFields": {
+        "aiCapabilityLevel": {
+          "value": 3,
+          "scoreBreakdown": "芯片 Apple M2 chip=2分, 16核NE=+1 → 3",
+          "confidence": 0.85,
+          "computedAt": "2026-06-25"
+        },
+        "generationUpgradeMagnitude": {
+          "value": 3,
+          "comparedTo": "macbook-pro-13-m1-2020",
+          "changeSummary": "芯片+3 (Apple M1 chip→Apple M2 chip)",
+          "scoreBreakdown": "芯片+3 (Apple M1 chip→Apple M2 chip) → 3",
+          "confidence": 0.9,
+          "computedAt": "2026-06-25"
+        },
+        "recommendationLevel": {
+          "value": 1,
+          "scoreBreakdown": "4年=-4 → 1",
+          "confidence": 0.8,
+          "computedAt": "2026-06-25"
+        }
+      }
+    },
+    {
+      "id": "macbook-air-13-m3-2024",
+      "category": "laptop",
+      "modelName": "MacBook Air 13-inch (M3)",
+      "computedFields": {
+        "aiCapabilityLevel": {
+          "value": 4,
+          "scoreBreakdown": "芯片 Apple M3=3分, 16核NE=+1 → 4",
+          "confidence": 0.85,
+          "computedAt": "2026-06-25"
+        },
+        "generationUpgradeMagnitude": {
+          "value": 3,
+          "comparedTo": "macbook-air-13-m2-2022",
+          "changeSummary": "芯片+3 (Apple M2 chip→Apple M3)",
+          "scoreBreakdown": "芯片+3 (Apple M2 chip→Apple M3) → 3",
+          "confidence": 0.9,
+          "computedAt": "2026-06-25"
+        },
+        "recommendationLevel": {
+          "value": 4,
+          "scoreBreakdown": "2年=-2, AI4级=+1 → 4",
+          "confidence": 0.8,
+          "computedAt": "2026-06-25"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "metadata": {
+    "version": "needs-review-c",
+    "generatedAt": "2026-06-25",
+    "deviceCount": 1
+  },
+  "devices": [
+    {
+      "id": "ipad-a16-2025",
+      "brand": "Apple",
+      "category": "tablet",
+      "series": "iPad",
+      "modelName": "iPad (A16)",
+      "generation": "A16",
+      "releaseYear": 2025,
+      "colors": {
+        "value": [
+          "Silver",
+          "Blue",
+          "Pink",
+          "Yellow"
+        ],
+        "unit": null,
+        "rawText": "Silver, Blue, Pink, Yellow",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "material": {
+        "value": "100% recycled aluminum enclosure",
+        "unit": null,
+        "rawText": "100% recycled aluminum enclosure and metal chassis",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 477,
+        "unit": "g",
+        "rawText": "477g (Wi-Fi) / 481g (Wi-Fi + Cellular)",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "dimensions": {
+        "value": "248.6 x 179.5 x 7.0 mm",
+        "unit": "mm",
+        "rawText": "248.6 x 179.5 x 7.0 mm",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 11,
+        "unit": "inch",
+        "rawText": "11-inch diagonal; 10.86 inches actual viewable rectangle",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Liquid Retina, LED backlit IPS",
+        "unit": null,
+        "rawText": "Liquid Retina — LED backlit Multi-Touch with IPS technology",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2360 x 1640",
+        "unit": "pixels",
+        "rawText": "2360 x 1640 pixels at 264 ppi",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 60,
+        "unit": "Hz",
+        "rawText": "60Hz (no ProMotion)",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "A16",
+        "unit": null,
+        "rawText": "A16",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "cpu": {
+        "value": "5-core CPU",
+        "unit": null,
+        "rawText": "5-core CPU",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "gpu": {
+        "value": "4-core GPU",
+        "unit": null,
+        "rawText": "4-core GPU",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "16-core Neural Engine",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "128GB / 256GB / 512GB",
+        "unit": null,
+        "rawText": "128GB, 256GB, 512GB",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "rearCamera": {
+        "value": "12MP Wide, f/1.8, 5x digital zoom",
+        "unit": null,
+        "rawText": "12MP Wide, f/1.8, 5-element lens, Smart HDR 4",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "frontCamera": {
+        "value": "Landscape 12MP Center Stage, f/2.4",
+        "unit": null,
+        "rawText": "Landscape 12MP Center Stage, f/2.4, Smart HDR 4",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "videoRecording": {
+        "value": "4K at 24/25/30/60 fps, 1080p at 25/30/60 fps",
+        "unit": null,
+        "rawText": "4K at 24/25/30/60 fps; 1080p at 25/30/60 fps; slo-mo 1080p at 120/240 fps",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "speakers": {
+        "value": "Landscape stereo speakers",
+        "unit": null,
+        "rawText": "Landscape stereo speakers",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "microphone": {
+        "value": "Dual microphones",
+        "unit": null,
+        "rawText": "Dual microphones for calls, video recording, and audio recording",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "pencilSupport": {
+        "value": "Apple Pencil (USB-C), Apple Pencil (1st gen) with adapter",
+        "unit": null,
+        "rawText": "Apple Pencil (USB-C) and Apple Pencil (1st gen) via USB-C to Apple Pencil Adapter",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "magicKeyboard": {
+        "value": null,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "USB-C (DisplayPort, USB 2)",
+        "unit": null,
+        "rawText": "USB-C with DisplayPort and USB 2.0 (480Mb/s)",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chargingMethod": {
+        "value": "USB-C, 20W adapter included",
+        "unit": null,
+        "rawText": "USB-C via power adapter or computer; 20W adapter included",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "security": {
+        "value": "Touch ID (top button)",
+        "unit": null,
+        "rawText": "Touch ID (top button)",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "waterResistance": {
+        "value": null,
+        "unit": null,
+        "rawText": "None listed",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "Wi-Fi 6 (802.11ax)",
+        "unit": null,
+        "rawText": "Wi-Fi 6 (802.11ax) with 2x2 MIMO",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "5.3",
+        "unit": null,
+        "rawText": "Bluetooth 5.3",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "sim": {
+        "value": "eSIM only",
+        "unit": null,
+        "rawText": "eSIM only (not compatible with physical SIM cards)",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "externalDisplay": {
+        "value": "One display up to 4K at 60Hz via USB-C",
+        "unit": null,
+        "rawText": "Supports one external display up to 4K at 60Hz via DisplayPort over USB-C",
+        "sourceUrl": "https://www.apple.com/ipad/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3533 @@
+{
+  "metadata": {
+    "version": "batch-1",
+    "generatedAt": "2026-06-25",
+    "source": "Apple official sources",
+    "deviceCount": 15,
+    "status": "batch-1"
+  },
+  "devices": [
+    {
+      "id": "iphone-15",
+      "brand": "Apple",
+      "category": "phone",
+      "series": "iPhone",
+      "modelName": "iPhone 15",
+      "generation": "15",
+      "releaseYear": 2023,
+      "colors": {
+        "value": [
+          "Black",
+          "Blue",
+          "Green",
+          "Yellow",
+          "Pink"
+        ],
+        "unit": null,
+        "rawText": "Black, Blue, Green, Yellow, Pink",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "material": {
+        "value": "Aluminum design, Ceramic Shield front, Color-infused glass back",
+        "unit": null,
+        "rawText": "Aluminum design, Ceramic Shield front, Color-infused glass back",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "weight": {
+        "value": 171,
+        "unit": "g",
+        "rawText": "6.02 ounces (171 grams)",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "dimensions": {
+        "value": "147.6 x 71.6 x 7.80 mm",
+        "unit": "mm",
+        "rawText": "Width: 2.82 inches (71.6 mm), Height: 5.81 inches (147.6 mm), Depth: 0.31 inch (7.80 mm)",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "screenSize": {
+        "value": 6.1,
+        "unit": "inch",
+        "rawText": "6.1-inch (diagonal) all-screen OLED display",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "displayType": {
+        "value": "Super Retina XDR display",
+        "unit": null,
+        "rawText": "Super Retina XDR display",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "resolution": {
+        "value": "2556 x 1179",
+        "unit": "pixels",
+        "rawText": "2556-by-1179-pixel resolution at 460 ppi",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "refreshRate": {
+        "value": 60,
+        "unit": "Hz",
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "chip": {
+        "value": "A16 Bionic",
+        "unit": null,
+        "rawText": "A16 Bionic chip",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "cpu": {
+        "value": "6-core CPU with 2 performance and 4 efficiency cores",
+        "unit": null,
+        "rawText": "6-core CPU with 2 performance and 4 efficiency cores",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "gpu": {
+        "value": "5-core GPU",
+        "unit": null,
+        "rawText": "5-core GPU",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "16-core Neural Engine",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "storage": {
+        "value": "128GB / 256GB / 512GB",
+        "unit": null,
+        "rawText": "128GB, 256GB, 512GB",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "rearCamera": {
+        "value": "48MP Main: 26mm, f/1.6, sensor-shift OIS; 12MP Ultra Wide: 13mm, f/2.4",
+        "unit": null,
+        "rawText": "Dual-camera system: 48MP Main: 26 mm, f/1.6 aperture, sensor-shift optical image stabilization; 12MP Ultra Wide: 13 mm, f/2.4 aperture",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "mainCamera": {
+        "value": "48MP, 26mm, f/1.6, sensor-shift OIS",
+        "unit": null,
+        "rawText": "48MP Main: 26 mm, f/1.6 aperture, sensor-shift optical image stabilization, 100% Focus Pixels",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "ultraWide": {
+        "value": "12MP, 13mm, f/2.4",
+        "unit": null,
+        "rawText": "12MP Ultra Wide: 13 mm, f/2.4 aperture",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "frontCamera": {
+        "value": "12MP TrueDepth camera, f/1.9, autofocus",
+        "unit": null,
+        "rawText": "12MP camera, f/1.9 aperture, Autofocus with Focus Pixels",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "videoRecording": {
+        "value": "4K at 24/25/30/60 fps, 1080p HD at 25/30/60 fps",
+        "unit": null,
+        "rawText": "4K video recording at 24 fps, 25 fps, 30 fps, or 60 fps; 1080p HD video recording at 25 fps, 30 fps, or 60 fps",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "videoPlayback": {
+        "value": "Up to 20 hours",
+        "unit": null,
+        "rawText": "Video playback: Up to 20 hours",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "batteryLife": {
+        "value": "Video playback up to 20 hours, streamed up to 16 hours, audio up to 80 hours",
+        "unit": null,
+        "rawText": "Video playback: Up to 20 hours, Video playback (streamed): Up to 16 hours, Audio playback: Up to 80 hours",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "port": {
+        "value": "USB-C (USB 2, up to 480Mb/s)",
+        "unit": null,
+        "rawText": "USB-C connector with support for: Charging, DisplayPort, USB 2 (up to 480Mb/s)",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "chargingMethod": {
+        "value": "MagSafe wireless, Qi2, USB-C wired",
+        "unit": null,
+        "rawText": "MagSafe wireless charging up to 15W, Qi2 wireless charging up to 15W, Qi wireless charging up to 7.5W",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "security": {
+        "value": "Face ID",
+        "unit": null,
+        "rawText": "Face ID",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "waterResistance": {
+        "value": "IP68 (max depth 6m, up to 30 min)",
+        "unit": null,
+        "rawText": "Rated IP68 (maximum depth of 6 meters up to 30 minutes) under IEC standard 60529",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "wifi": {
+        "value": "802.11ax Wi-Fi 6",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "bluetooth": {
+        "value": "Bluetooth 5.3",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "sim": {
+        "value": "Dual eSIM",
+        "unit": null,
+        "rawText": "Dual eSIM (two active eSIMs; stores eight or more eSIMs)",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "hasNFC": {
+        "value": true,
+        "unit": null,
+        "rawText": "NFC with reader mode",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "hasMagSafe": {
+        "value": true,
+        "unit": null,
+        "rawText": "MagSafe wireless charging up to 15W",
+        "sourceUrl": "https://support.apple.com/en-us/111831",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      }
+    },
+    {
+      "id": "iphone-15-pro",
+      "brand": "Apple",
+      "category": "phone",
+      "series": "iPhone Pro",
+      "modelName": "iPhone 15 Pro",
+      "generation": "15 Pro",
+      "releaseYear": 2023,
+      "colors": {
+        "value": [
+          "Black Titanium",
+          "White Titanium",
+          "Blue Titanium",
+          "Natural Titanium"
+        ],
+        "unit": null,
+        "rawText": "Black Titanium, White Titanium, Blue Titanium, Natural Titanium",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "material": {
+        "value": "Titanium design, Ceramic Shield front, Textured matte glass back",
+        "unit": null,
+        "rawText": "Titanium design, Ceramic Shield front, Textured matte glass back",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "weight": {
+        "value": 187,
+        "unit": "g",
+        "rawText": "6.60 ounces (187 grams)",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "dimensions": {
+        "value": "146.6 x 70.6 x 8.25 mm",
+        "unit": "mm",
+        "rawText": "Width: 2.78 inches (70.6 mm), Height: 5.77 inches (146.6 mm), Depth: 0.32 inch (8.25 mm)",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "screenSize": {
+        "value": 6.1,
+        "unit": "inch",
+        "rawText": "6.1-inch (diagonal) all-screen OLED display",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "displayType": {
+        "value": "Super Retina XDR display, ProMotion, Always-On",
+        "unit": null,
+        "rawText": "Super Retina XDR display, ProMotion technology with adaptive refresh rates up to 120Hz, Always-On display",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "resolution": {
+        "value": "2556 x 1179",
+        "unit": "pixels",
+        "rawText": "2556-by-1179-pixel resolution at 460 ppi",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "refreshRate": {
+        "value": 120,
+        "unit": "Hz",
+        "rawText": "ProMotion technology with adaptive refresh rates up to 120Hz",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "chip": {
+        "value": "A17 Pro",
+        "unit": null,
+        "rawText": "A17 Pro chip",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "cpu": {
+        "value": "6-core CPU with 2 performance and 4 efficiency cores",
+        "unit": null,
+        "rawText": "New 6-core CPU with 2 performance and 4 efficiency cores",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "gpu": {
+        "value": "6-core GPU",
+        "unit": null,
+        "rawText": "New 6-core GPU",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "New 16-core Neural Engine",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "storage": {
+        "value": "128GB / 256GB / 512GB / 1TB",
+        "unit": null,
+        "rawText": "128GB, 256GB, 512GB, 1TB",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "rearCamera": {
+        "value": "48MP Main: 24mm, f/1.78, 2nd-gen sensor-shift OIS; 12MP Ultra Wide: 13mm, f/2.2; 12MP 3x Telephoto: 77mm, f/2.8",
+        "unit": null,
+        "rawText": "Pro camera system: 48MP Main: 24 mm, f/1.78 aperture, second-generation sensor-shift optical image stabilization; 12MP Ultra Wide: 13 mm, f/2.2 aperture; 12MP 3x Telephoto: 77 mm, f/2.8 aperture",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "mainCamera": {
+        "value": "48MP, 24mm, f/1.78, 2nd-gen sensor-shift OIS",
+        "unit": null,
+        "rawText": "48MP Main: 24 mm, f/1.78 aperture, second-generation sensor-shift optical image stabilization, 100% Focus Pixels",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "ultraWide": {
+        "value": "12MP, 13mm, f/2.2",
+        "unit": null,
+        "rawText": "12MP Ultra Wide: 13 mm, f/2.2 aperture",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "telephoto": {
+        "value": "12MP, 77mm, f/2.8, 3x optical zoom",
+        "unit": null,
+        "rawText": "12MP 3x Telephoto: 77 mm, f/2.8 aperture",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "opticalZoom": {
+        "value": "3x optical zoom in, 2x optical zoom out; 6x optical zoom range",
+        "unit": null,
+        "rawText": "3x optical zoom in, 2x optical zoom out; 6x optical zoom range",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "frontCamera": {
+        "value": "12MP TrueDepth camera, f/1.9, autofocus",
+        "unit": null,
+        "rawText": "12MP camera, f/1.9 aperture, Autofocus with Focus Pixels",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "videoRecording": {
+        "value": "4K at 24/25/30/60 fps, 1080p HD at 25/30/60 fps, ProRes, Cinematic mode",
+        "unit": null,
+        "rawText": "4K video recording at 24 fps, 25 fps, 30 fps, or 60 fps; 1080p HD video recording at 25 fps, 30 fps, or 60 fps; ProRes video recording up to 4K at 30 fps; Cinematic mode up to 4K HDR at 30 fps",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "videoPlayback": {
+        "value": "Up to 23 hours",
+        "unit": null,
+        "rawText": "Video playback: Up to 23 hours",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "batteryLife": {
+        "value": "Video playback up to 23 hours, streamed up to 20 hours, audio up to 75 hours",
+        "unit": null,
+        "rawText": "Video playback: Up to 23 hours, Video playback (streamed): Up to 20 hours, Audio playback: Up to 75 hours",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "port": {
+        "value": "USB-C (USB 3, up to 10Gb/s)",
+        "unit": null,
+        "rawText": "USB-C connector with support for: Charging, DisplayPort, USB 3 (up to 10Gb/s)",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "chargingMethod": {
+        "value": "MagSafe wireless, Qi2, USB-C wired",
+        "unit": null,
+        "rawText": "MagSafe wireless charging up to 15W, Qi2 wireless charging up to 15W, Qi wireless charging up to 7.5W",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "security": {
+        "value": "Face ID",
+        "unit": null,
+        "rawText": "Face ID",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "waterResistance": {
+        "value": "IP68 (max depth 6m, up to 30 min)",
+        "unit": null,
+        "rawText": "Rated IP68 (maximum depth of 6 meters up to 30 minutes) under IEC standard 60529",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "wifi": {
+        "value": "802.11ax Wi-Fi 6",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "bluetooth": {
+        "value": "Bluetooth 5.3",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "sim": {
+        "value": "Dual eSIM",
+        "unit": null,
+        "rawText": "Dual eSIM (two active eSIMs; stores eight or more eSIMs)",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "hasNFC": {
+        "value": true,
+        "unit": null,
+        "rawText": "NFC with reader mode",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "hasMagSafe": {
+        "value": true,
+        "unit": null,
+        "rawText": "MagSafe wireless charging up to 15W",
+        "sourceUrl": "https://support.apple.com/en-us/111829",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      }
+    },
+    {
+      "id": "ipad-air-m4-2025",
+      "brand": "Apple",
+      "category": "tablet",
+      "series": "iPad Air",
+      "modelName": "iPad Air 11-inch (M4)",
+      "generation": "M4",
+      "releaseYear": 2025,
+      "colors": {
+        "value": null,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301281",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "material": {
+        "value": null,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301281",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "screenSize": {
+        "value": 11,
+        "unit": "inch",
+        "rawText": "The display has rounded corners. When measured diagonally as a rectangle, the 11-inch iPad Air is 10.86 inches.",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301281",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "displayType": {
+        "value": "Liquid Retina display, LED backlit, IPS technology",
+        "unit": null,
+        "rawText": "Liquid Retina display, LED backlit Multi-Touch display with IPS technology",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301281",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "resolution": {
+        "value": "2360 x 1640",
+        "unit": "pixels",
+        "rawText": "2360-by-1640-pixel resolution at 264 ppi",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301281",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "refreshRate": {
+        "value": 60,
+        "unit": "Hz",
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301281",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "chip": {
+        "value": "Apple M4",
+        "unit": null,
+        "rawText": "Apple M4 chip",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301281",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "16-core Neural Engine",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301281",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "storage": {
+        "value": "128GB / 256GB / 512GB / 1TB",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301281",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "rearCamera": {
+        "value": "12MP Wide camera, f/1.8 aperture",
+        "unit": null,
+        "rawText": "12MP Wide camera, f/1.8 aperture, Wide color capture for photos and Live Photos",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301281",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "frontCamera": {
+        "value": "Landscape 12MP Center Stage camera",
+        "unit": null,
+        "rawText": "Landscape 12MP Center Stage camera, Wide color capture for photos and Live Photos",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301281",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "speakers": {
+        "value": "Landscape stereo speakers",
+        "unit": null,
+        "rawText": "Landscape stereo speakers",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301281",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "microphone": {
+        "value": "Dual microphones for calls, video recording, and audio recording",
+        "unit": null,
+        "rawText": "Dual microphones for calls, video recording, and audio recording",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301281",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "pencilSupport": {
+        "value": "Apple Pencil Pro, Apple Pencil (USB-C)",
+        "unit": null,
+        "rawText": "Supports Apple Pencil Pro, Supports Apple Pencil (USB-C), Apple Pencil hover",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301281",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "port": {
+        "value": "USB-C (USB 3, up to 10Gb/s), DisplayPort",
+        "unit": null,
+        "rawText": "USB-C port with support for: DisplayPort, USB 3 (up to 10Gb/s)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301281",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "security": {
+        "value": "Touch ID",
+        "unit": null,
+        "rawText": "Touch ID sensor",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301281",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "wifi": {
+        "value": "Wi-Fi 6E (802.11ax)",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301281",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "bluetooth": {
+        "value": "Bluetooth 5.3",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301281",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "externalDisplay": {
+        "value": "Supports one external display up to 6K at 60Hz",
+        "unit": null,
+        "rawText": "Supports one external display with up to 6K resolution at 60Hz",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301281",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      }
+    },
+    {
+      "id": "macbook-air-13-m4-2025",
+      "brand": "Apple",
+      "category": "laptop",
+      "series": "MacBook Air",
+      "modelName": "MacBook Air 13-inch (M4)",
+      "generation": "M4 13-inch",
+      "releaseYear": 2025,
+      "screenSize": {
+        "value": 13.6,
+        "unit": "inch",
+        "rawText": "13.6-inch (diagonal) LED-backlit display with IPS technology",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301086",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "displayType": {
+        "value": "Liquid Retina display, LED-backlit, IPS technology",
+        "unit": null,
+        "rawText": "Liquid Retina display, 13.6-inch (diagonal) LED-backlit display with IPS technology",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301086",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "resolution": {
+        "value": "2560 x 1664",
+        "unit": "pixels",
+        "rawText": "2560-by-1664 native resolution at 224 pixels per inch",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301086",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "chip": {
+        "value": "Apple M4",
+        "unit": null,
+        "rawText": "Apple M4 chip",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301086",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "16-core Neural Engine",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301086",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "weight": {
+        "value": 1240,
+        "unit": "g",
+        "rawText": "Weight: 2.7 pounds (1.23 kg)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301086",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "webcam": {
+        "value": "12MP Center Stage camera with support for Desk View",
+        "unit": null,
+        "rawText": "12MP Center Stage camera with support for Desk View",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301086",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "speakers": {
+        "value": "Four-speaker sound system with Spatial Audio support",
+        "unit": null,
+        "rawText": "Four-speaker sound system, Support for Spatial Audio when playing music or video with Dolby Atmos on built-in speakers",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301086",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "microphone": {
+        "value": "Voice Isolation and Wide Spectrum microphone modes",
+        "unit": null,
+        "rawText": "Voice Isolation and Wide Spectrum microphone modes for enhanced voice clarity in audio and video calls",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301086",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "keyboard": {
+        "value": "Backlit Magic Keyboard",
+        "unit": null,
+        "rawText": "Backlit Magic Keyboard",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301086",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "trackpad": {
+        "value": "Force Touch trackpad",
+        "unit": null,
+        "rawText": "Force Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing, and Multi-Touch gestures",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301086",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "thunderbolt": {
+        "value": "Thunderbolt 4 (up to 40Gb/s)",
+        "unit": null,
+        "rawText": "Two Thunderbolt 4 (USB-C) ports with support for: DisplayPort, Thunderbolt 4 (up to 40Gb/s), USB 4 (up to 40Gb/s)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301086",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "usbC": {
+        "value": "Two Thunderbolt 4 (USB-C) ports",
+        "unit": null,
+        "rawText": "Two Thunderbolt 4 (USB-C) ports",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301086",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "hasMagSafe": {
+        "value": true,
+        "unit": null,
+        "rawText": "USB-C to MagSafe 3 Cable (2 m)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301086",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "wifi": {
+        "value": "Wi-Fi 6E (802.11ax)",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301086",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "bluetooth": {
+        "value": "Bluetooth 5.3",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301086",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "externalDisplay": {
+        "value": "Supports up to two external displays: two 6K at 60Hz or one 8K at 60Hz",
+        "unit": null,
+        "rawText": "Supports up to two external displays: Two displays up to a native resolution of 6K at 60Hz or 4K at 144Hz; One display up to a native resolution of 8K at 60Hz or 5K at 120Hz or 4K at 240Hz",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301086",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      },
+      "powerAdapter": {
+        "value": "35W Dual USB-C Port Compact Power Adapter or 70W USB-C Power Adapter",
+        "unit": null,
+        "rawText": "35W Dual USB-C Port Compact Power Adapter or 70W USB-C Power Adapter",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301086",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-23"
+      }
+    },
+    {
+      "id": "iphone-14",
+      "brand": "Apple",
+      "category": "phone",
+      "series": "iPhone",
+      "modelName": "iPhone 14",
+      "generation": "14",
+      "releaseYear": 2022,
+      "colors": {
+        "value": [
+          "Midnight",
+          "Purple",
+          "Starlight",
+          "(PRODUCT) RED",
+          "Blue",
+          "Yellow"
+        ],
+        "unit": null,
+        "rawText": "Finish    Midnight    Purple    Starlight    (PRODUCT) RED     Blue    Yellow     Ceramic Shield front, Glass back and aluminum design",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "material": {
+        "value": "Ceramic Shield front, Glass back and aluminum design",
+        "unit": null,
+        "rawText": "Finish    Midnight    Purple    Starlight    (PRODUCT) RED     Blue    Yellow     Ceramic Shield front, Glass back and aluminum design",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 172,
+        "unit": "g",
+        "rawText": "Size and Weight 2      Width:  2.82 inches (71.5 mm)     Height:  5.78 inches (146.7 mm)     Depth:  0.31 inch (7.80 mm)     Weight:  6.07 ounces (172 grams)",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "dimensions": {
+        "value": "146.7 x 71.5 x 7.80 mm",
+        "unit": null,
+        "rawText": "Size and Weight 2      Width:  2.82 inches (71.5 mm)     Height:  5.78 inches (146.7 mm)     Depth:  0.31 inch (7.80 mm)     Weight:  6.07 ounces (172 grams)",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 6.1,
+        "unit": "inch",
+        "rawText": "Display    Super Retina XDR display    6.1‑inch (diagonal) all‑screen OLED display    2532‑by‑1170-pixel resolution at 460 ppi    HDR display    True Tone    Wide color (P3)    Haptic Touch    2,000,000:1 contrast ratio (typical)    800 nits max brightness (typical); 1200 nits peak brightness (HDR)    Fingerprint-resistant oleophobic coating    Support for display of multiple languages and characters simultaneously     The iPhone 14 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.06 inches diagonally (actual viewable area is less).",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Super Retina XDR display",
+        "unit": null,
+        "rawText": "Display    Super Retina XDR display    6.1‑inch (diagonal) all‑screen OLED display    2532‑by‑1170-pixel resolution at 460 ppi    HDR display    True Tone    Wide color (P3)    Haptic Touch    2,000,000:1 contrast ratio (typical)    800 nits max brightness (typical); 1200 nits peak brightness (HDR)    Fingerprint-resistant oleophobic coating    Support for display of multiple languages and characters simultaneously     The iPhone 14 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.06 inches diagonally (actual viewable area is less).",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2532 x 1170",
+        "unit": null,
+        "rawText": "Display    Super Retina XDR display    6.1‑inch (diagonal) all‑screen OLED display    2532‑by‑1170-pixel resolution at 460 ppi    HDR display    True Tone    Wide color (P3)    Haptic Touch    2,000,000:1 contrast ratio (typical)    800 nits max brightness (typical); 1200 nits peak brightness (HDR)    Fingerprint-resistant oleophobic coating    Support for display of multiple languages and characters simultaneously     The iPhone 14 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.06 inches diagonally (actual viewable area is less).",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 60,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "A15 Bionic",
+        "unit": null,
+        "rawText": "Chip    A15 Bionic chip    6‑core CPU with 2 performance and 4 efficiency cores    5‑core GPU    16‑core Neural Engine",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "cpu": {
+        "value": "6-core CPU with 2 performance and 4 efficiency cores",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "gpu": {
+        "value": "5-core GPU",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "128GB / 256GB / 512GB",
+        "unit": null,
+        "rawText": "Capacity 1     128GB    256GB    512GB",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "rearCamera": {
+        "value": "12MP Main: 26mm, f/1.5, sensor-shift OIS; 12MP Ultra Wide: 13mm, f/2.4",
+        "unit": null,
+        "rawText": "Camera   Dual-camera system     12MP Main: 26 mm, ƒ/1.5 aperture, sensor‑shift optical image stabilization, 100% Focus Pixels    12MP Ultra Wide: 13 mm, ƒ/2.4 aperture and 120° field of view    2x optical zoom out; digital zoom up to 5x    Sapphire crystal lens cover    True Tone flash    Photonic Engine    Deep Fusion    Smart HDR 4    Portrait mode with Focus and Depth Control    Portrait Lighting with six effects    Night mode    Panorama (up to 63MP)    Photographic Styles    Wide color capture for photos and Live Photos    Lens correction (Ultra Wide)    Advanced red‑eye correction    Auto image stabilization    Burst mode    Photo geotagging    Image formats captured: HEIF and JPEG",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "mainCamera": {
+        "value": "12MP, 26mm, f/1.5, sensor-shift OIS",
+        "unit": null,
+        "rawText": "Camera   Dual-camera system     12MP Main: 26 mm, ƒ/1.5 aperture, sensor‑shift optical image stabilization, 100% Focus Pixels    12MP Ultra Wide: 13 mm, ƒ/2.4 aperture and 120° field of view    2x optical zoom out; digital zoom up to 5x    Sapphire crystal lens cover    True Tone flash    Photonic Engine    Deep Fusion    Smart HDR 4    Portrait mode with Focus and Depth Control    Portrait Lighting with six effects    Night mode    Panorama (up to 63MP)    Photographic Styles    Wide color capture for photos and Live Photos    Lens correction (Ultra Wide)    Advanced red‑eye correction    Auto image stabilization    Burst mode    Photo geotagging    Image formats captured: HEIF and JPEG",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "ultraWide": {
+        "value": "12MP, 13mm, f/2.4",
+        "unit": null,
+        "rawText": "Camera   Dual-camera system     12MP Main: 26 mm, ƒ/1.5 aperture, sensor‑shift optical image stabilization, 100% Focus Pixels    12MP Ultra Wide: 13 mm, ƒ/2.4 aperture and 120° field of view    2x optical zoom out; digital zoom up to 5x    Sapphire crystal lens cover    True Tone flash    Photonic Engine    Deep Fusion    Smart HDR 4    Portrait mode with Focus and Depth Control    Portrait Lighting with six effects    Night mode    Panorama (up to 63MP)    Photographic Styles    Wide color capture for photos and Live Photos    Lens correction (Ultra Wide)    Advanced red‑eye correction    Auto image stabilization    Burst mode    Photo geotagging    Image formats captured: HEIF and JPEG",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "frontCamera": {
+        "value": "12MP TrueDepth camera, f/1.9",
+        "unit": null,
+        "rawText": "TrueDepth Camera    12MP camera    ƒ/1.9 aperture    Autofocus with Focus Pixels    Retina Flash    Photonic Engine    Deep Fusion    Smart HDR 4    Portrait mode with Focus and Depth Control    Portrait Lighting with six effects    Animoji and Memoji    Night mode    Photographic Styles    Wide color capture for photos and Live Photos    Lens correction    Auto image stabilization    Burst mode    4K Dolby Vision video recording at 24 fps, 25 fps, 30 fps, or 60 fps    1080p HD video recording at 25 fps, 30 fps, or 60 fps    Cinematic mode up to 4K HDR at 30 fps    HDR video recording with Dolby Vision up to 4K at 60 fps    Slo-mo video support for 1080p at 120 fps    Time‑lapse video with stabilization    Night mode Time-lapse    QuickTake video    Cinematic video stabilization (4K, 1080p, and 720p)",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "videoRecording": {
+        "value": "4K at 24/25/30/60 fps, 1080p HD at 25/30/60 fps",
+        "unit": null,
+        "rawText": "Video Recording    4K Dolby Vision video recording at 24 fps, 25 fps, 30 fps, or 60 fps    1080p HD video recording at 25 fps, 30 fps, or 60 fps    720p HD video recording at 30 fps    Cinematic mode up to 4K HDR at 30 fps    Action mode up to 2.8K at 60 fps    HDR video recording with Dolby Vision up to 4K at 60 fps    Slo‑mo video support for 1080p at 120 fps or 240 fps    Time‑lapse video with stabilization    Night mode Time-lapse    QuickTake video    Sensor-shift optical image stabilization for video (Main)    2x optical zoom out    Digital zoom up to 3x    Audio zoom    True Tone flash    Cinematic video stabilization (4K, 1080p, and 720p)    Continuous autofocus video    Take 8MP still photos while recording 4K video    Playback zoom    Video formats recorded: HEVC and H.264    Stereo recording",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "videoPlayback": {
+        "value": "Up to 20 hours",
+        "unit": null,
+        "rawText": "Power and Battery 13      Video playback:  Up to 20 hours     Video playback (streamed):  Up to 16 hours     Audio playback:  Up to 80 hours    Built-in rechargeable lithium-ion battery    MagSafe wireless charging up to 15W 14     Qi wireless charging up to 7.5W 14     Fast-charge capable: Up to 50% charge in around 30 minutes 15  with  20W adapter  or higher paired with USB-C charging cable (available separately)",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "batteryLife": {
+        "value": "Video playback up to 20 hours",
+        "unit": null,
+        "rawText": "Video Playback    Supported formats include HEVC, H.264, and ProRes    HDR with Dolby Vision, HDR10+/HDR10, and HLG    Up to 4K HDR AirPlay for mirroring, photos, and video out to Apple TV (2nd generation or later) or AirPlay‑enabled smart TV    Video mirroring and video out support: Up to 1080p through Lightning Digital AV Adapter and Lightning to VGA Adapter (adapters sold separately) 11",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "Lightning",
+        "unit": null,
+        "rawText": "External Buttons and Connectors       Front camera    Side button    Lightning connector    SIM tray (available on models purchased outside the U.S.)    Volume buttons    Ring/Silent switch    Rear cameras    Flash",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chargingMethod": {
+        "value": "Lightning, MagSafe wireless, Qi wireless",
+        "unit": null,
+        "rawText": "Power and Battery 13      Video playback:  Up to 20 hours     Video playback (streamed):  Up to 16 hours     Audio playback:  Up to 80 hours    Built-in rechargeable lithium-ion battery    MagSafe wireless charging up to 15W 14     Qi wireless charging up to 7.5W 14     Fast-charge capable: Up to 50% charge in around 30 minutes 15  with  20W adapter  or higher paired with USB-C charging cable (available separately)",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "security": {
+        "value": "Face ID",
+        "unit": null,
+        "rawText": "Face ID  Enabled by TrueDepth camera for facial recognition",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "waterResistance": {
+        "value": "IP68 (max depth 6m, up to 30 min)",
+        "unit": null,
+        "rawText": "Splash, Water, and Dust Resistant 3   Rated IP68 (maximum depth of 6 meters up to 30 minutes) under IEC standard 60529",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "802.11ax Wi-Fi 6",
+        "unit": null,
+        "rawText": "Video Calling 10     FaceTime video calling over cellular or Wi‑Fi    FaceTime HD (1080p) video calling over 5G or Wi-Fi    Share experiences like movies, TV, music, and other apps in a FaceTime call with SharePlay    Screen sharing    Portrait mode in FaceTime video    Spatial Audio    Voice Isolation and Wide Spectrum microphone modes    Zoom with rear-facing camera",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "Bluetooth 5.3",
+        "unit": null,
+        "rawText": "Cellular and Wireless    Model A2649   *    Model A2632   *      5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n53, n66, n70, n71, n77, n78, n79)    5G NR mmWave (Bands n258, n260, n261)    FDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)    TD‑LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48, 53)    UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)    GSM/EDGE (850, 900, 1800, 1900 MHz)       All models     5G (sub‑6 GHz and mmWave) with 4x4 MIMO 8     Gigabit LTE with 4x4 MIMO and LAA 8     Wi‑Fi 6 (802.11ax) with 2x2 MIMO    Bluetooth 5.3    Ultra Wideband chip for spatial awareness 9     NFC with reader mode    Express Cards with power reserve      For details on 5G and LTE support, contact your carrier and see  apple.com/iphone/cellular .",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "sim": {
+        "value": "Dual eSIM",
+        "unit": null,
+        "rawText": "SIM Card    Dual eSIM (two active eSIMs; stores eight or more eSIMs) 16     iPhone 14 and iPhone 14 Plus use eSIM technology and are not compatible with physical SIM cards.      Learn more about eSIM on iPhone .     Learn more about traveling with eSIM",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasNFC": {
+        "value": true,
+        "unit": "mm",
+        "rawText": "Cellular and Wireless    Model A2649   *    Model A2632   *      5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n53, n66, n70, n71, n77, n78, n79)    5G NR mmWave (Bands n258, n260, n261)    FDD‑LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)    TD‑LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48, 53)    UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)    GSM/EDGE (850, 900, 1800, 1900 MHz)       All models     5G (sub‑6 GHz and mmWave) with 4x4 MIMO 8     Gigabit LTE with 4x4 MIMO and LAA 8     Wi‑Fi 6 (802.11ax) with 2x2 MIMO    Bluetooth 5.3    Ultra Wideband chip for spatial awareness 9     NFC with reader mode    Express Cards with power reserve      For details on 5G and LTE support, contact your carrier and see  apple.com/iphone/cellular .",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasMagSafe": {
+        "value": true,
+        "unit": null,
+        "rawText": "Power and Battery 13      Video playback:  Up to 20 hours     Video playback (streamed):  Up to 16 hours     Audio playback:  Up to 80 hours    Built-in rechargeable lithium-ion battery    MagSafe wireless charging up to 15W 14     Qi wireless charging up to 7.5W 14     Fast-charge capable: Up to 50% charge in around 30 minutes 15  with  20W adapter  or higher paired with USB-C charging cable (available separately)",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasSOS": {
+        "value": true,
+        "unit": null,
+        "rawText": "Peace of Mind    Emergency SOS via satellite 6     Crash Detection 7     Roadside Assistance via satellite 6     Messages via satellite 6     Find My via satellite 6",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasCrashDetection": {
+        "value": true,
+        "unit": null,
+        "rawText": "Peace of Mind    Emergency SOS via satellite 6     Crash Detection 7     Roadside Assistance via satellite 6     Messages via satellite 6     Find My via satellite 6",
+        "sourceUrl": "https://support.apple.com/en-us/111850",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      }
+    },
+    {
+      "id": "iphone-14-pro",
+      "brand": "Apple",
+      "category": "phone",
+      "series": "iPhone Pro",
+      "modelName": "iPhone 14 Pro",
+      "generation": "14 Pro",
+      "releaseYear": 2022,
+      "colors": {
+        "value": [
+          "Space Black",
+          "Silver",
+          "Gold",
+          "Deep Purple"
+        ],
+        "unit": null,
+        "rawText": "Finish    Space Black    Silver    Gold    Deep Purple     Ceramic Shield front, Textured matte glass back and stainless steel design",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "material": {
+        "value": "Ceramic Shield front, Textured matte glass back and stainless steel design",
+        "unit": null,
+        "rawText": "Finish    Space Black    Silver    Gold    Deep Purple     Ceramic Shield front, Textured matte glass back and stainless steel design",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 206,
+        "unit": "g",
+        "rawText": "Size and Weight 2     Width: 2.81 inches (71.5 mm)    Height: 5.81 inches (147.5 mm)    Depth: 0.31 inch (7.85 mm)    Weight: 7.27 ounces (206 grams)",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "dimensions": {
+        "value": "147.5 x 71.5 x 7.85 mm",
+        "unit": null,
+        "rawText": "Size and Weight 2     Width: 2.81 inches (71.5 mm)    Height: 5.81 inches (147.5 mm)    Depth: 0.31 inch (7.85 mm)    Weight: 7.27 ounces (206 grams)",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 6.1,
+        "unit": "inch",
+        "rawText": "Display    Super Retina XDR display    6.1‑inch (diagonal) all‑screen OLED display    2556‑by‑1179-pixel resolution at 460 ppi    Dynamic Island    Always-On display    ProMotion technology with adaptive refresh rates up to 120Hz    HDR display    True Tone    Wide color (P3)    Haptic Touch    2,000,000:1 contrast ratio (typical)    1000 nits max brightness (typical); 1600 nits peak brightness (HDR); 2000 nits peak brightness (outdoor)    Fingerprint-resistant oleophobic coating    Support for display of multiple languages and characters simultaneously     The iPhone 14 Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Super Retina XDR display, ProMotion, Always-On",
+        "unit": null,
+        "rawText": "Display    Super Retina XDR display    6.1‑inch (diagonal) all‑screen OLED display    2556‑by‑1179-pixel resolution at 460 ppi    Dynamic Island    Always-On display    ProMotion technology with adaptive refresh rates up to 120Hz    HDR display    True Tone    Wide color (P3)    Haptic Touch    2,000,000:1 contrast ratio (typical)    1000 nits max brightness (typical); 1600 nits peak brightness (HDR); 2000 nits peak brightness (outdoor)    Fingerprint-resistant oleophobic coating    Support for display of multiple languages and characters simultaneously     The iPhone 14 Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2556 x 1179",
+        "unit": null,
+        "rawText": "Display    Super Retina XDR display    6.1‑inch (diagonal) all‑screen OLED display    2556‑by‑1179-pixel resolution at 460 ppi    Dynamic Island    Always-On display    ProMotion technology with adaptive refresh rates up to 120Hz    HDR display    True Tone    Wide color (P3)    Haptic Touch    2,000,000:1 contrast ratio (typical)    1000 nits max brightness (typical); 1600 nits peak brightness (HDR); 2000 nits peak brightness (outdoor)    Fingerprint-resistant oleophobic coating    Support for display of multiple languages and characters simultaneously     The iPhone 14 Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.12 inches diagonally (actual viewable area is less).",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 120,
+        "unit": null,
+        "rawText": ":root{--sk-body-text-color: rgb(29, 29, 31);--sk-headline-text-color: rgb(29, 29, 31);--sk-body-background-color: rgb(255, 255, 255);--sk-body-link-color: rgb(0, 102, 204);--sk-focus-color: #0071e3;--sk-focus-offset: 1px}body{margin:0;padding:0;font-size:17px;line-height:1.4705882353;font-weight:400;letter-spacing:-.022em;font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;color:var(--sk-body-text-color);background-color:var(--sk-body-background-color);font-synthesis:none;-moz-font-feature-settings:\"kern\";-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;min-width:320px}h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-weight:600;color:var(--sk-headline-text-color)}a{color:var(--sk-body-link-color);letter-spacing:inherit;text-decoration:none}a:hover{text-decoration:underline}#app{width:100%}#content{min-height:350px;font-size:17px;line-height:1.4705882353;font-weight:400;letter-spacing:-.022em;font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif}#content p{}#content h1{font-size:48px;line-height:1.0834933333;font-weight:600;letter-spacing:-.003em;font-family:SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif}@media (max-width:1068px){#content h1{font-size:40px;line-height:1.1;letter-spacing:0em}}@media (max-width:734px){#content h1{font-size:32px;line-height:1.125;letter-spacing:.004em}}#content h2{font-size:40px;line-height:1.1;font-weight:600;letter-spacing:0em;font-family:SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif}@media (max-width:1068px){#content h2{font-size:32px;line-height:1.125;letter-spacing:.004em}}@media (max-width:734px){#content h2{font-size:28px;line-height:1.1428571429;letter-spacing:.007em}}#content h3{font-size:21px;line-height:1.1904761905;font-weight:600;letter-spacing:.011em;font-family:SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif}@media (max-width:734px){#content h3{font-size:19px;line-height:1.2105263158;letter-spacing:.012em}}#content #sections{width:83.33333%;position:relative;margin:64px auto}@media (max-width:1068px){#content #sections{width:100%;margin:56px auto}}@media (max-width:734px){#content #sections{width:100%;margin:48px auto}}#content img{max-width:100%;height:auto;display:inline;max-height:700px;object-fit:contain}#content #sections>.has-image:first-child>img{max-height:180px;height:180px!important}#content li img{display:block}#content br+img{display:block}#content .horizontal-align-center{text-align:center}#content .horizontal-align-left{text-align:left}#content .horizontal-align-right{text-align:right}#content div.has-image:has(img:not(.inactive)){display:block}#content div.has-image:has(img:not(.inactive)) img{display:block}#content div.has-image:has(img:not(.inactive)).horizontal-align-center img{margin-left:auto;margin-right:auto}#content div.has-image:has(img:not(.inactive)).horizontal-align-left img{margin-left:0}#content div.has-image:has(img:not(.inactive)).horizontal-align-right img{margin-left:auto;margin-right:0}.viewport-content{margin-inline-start:auto;margin-inline-end:auto;width:980px}@media (max-width:1068px){.viewport-content{width:692px}}@media (max-width:734px){.viewport-content{width:87.5%}}body.js .oberon-content .inactive{display:none!important}body.no-js .oberon-tabnav{display:none}.oberon-tabnav{margin:52px auto!important}@media (max-width:1068px){.oberon-tabnav{margin:48px auto!important}}@media (max-width:734px){.oberon-tabnav{margin:40px auto!important}}.oberon-tabnav .tabnav-items{margin-left:0!important;margin-right:0!important;margin-top:0!important}.oberon-tabnav .form-tabnav-label{visibility:hidden}.tabnav ul,.tabnav ol,.tabnav li{margin:0;padding:0;list-style:none}.tabnav button{margin:0;padding:0;border:0;background:none;font-family:inherit;box-sizing:border-box;color:inherit;font:inherit;line-height:inherit;cursor:pointer}.tabnav{font-size:14px;line-height:1.2857742857;font-weight:400;letter-spacing:-.016em;font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;--tabnav-line-height:18px;--tabnav-height:44px;--tabnav-scale:1;--tabnav-inner-height:36px;--tabnav-platter-padding:4px;--tabnav-platter-background:rgb(232, 232, 237);--tabnav-platter-blur:20px;--tabnav-mask-gradient-width:22px;--tabnav-mask-opaque-width:calc(var(--tabnav-paddle-width) - var(--tabnav-platter-padding));--tabnav-mask-offset:calc(var(--tabnav-mask-opaque-width) + var(--tabnav-mask-gradient-width));--tabnav-mask-color-left:transparent;--tabnav-mask-color-right:transparent;--tabnav-mask-gradient:linear-gradient(to right, var(--tabnav-mask-color-left) 0, var(--tabnav-mask-color-left) var(--tabnav-mask-opaque-width), black calc(var(--tabnav-mask-opaque-width) + var(--tabnav-mask-gradient-width)), black calc(100% - (var(--tabnav-mask-opaque-width) + var(--tabnav-mask-gradient-width))), var(--tabnav-mask-color-right) calc(100% - var(--tabnav-mask-opaque-width)), var(--tabnav-mask-color-right) 100%);--tabnav-items-offset:0px;--tabnav-item-padding:16px;--tabnav-item-color:rgb(0, 0, 0);--tabnav-item-color-active:rgb(255, 255, 255);--tabnav-paddle-width:calc(var(--tabnav-inner-height) + var(--tabnav-platter-padding));--tabnav-paddle-height:var(--tabnav-inner-height);--tabnav-paddle-color:rgba(0, 0, 0, .56);--tabnav-paddle-color-hover:rgba(0, 0, 0, .64);--tabnav-paddle-icon-opacity-disabled:0.42;--tabnav-indicator-background:rgb(29, 29, 31);--tabnav-indicator-start:var(--tabnav-platter-padding);--tabnav-indicator-width:0px;--tabnav-focus-color:var(--sk-focus-color, #0071e3);--tabnav-motion-scroll-duration:320ms;--tabnav-motion-indicator-transform-duration:320ms;--r-tabnav-scaling-font-size:14px;position:relative;width:fit-content;max-width:100%;box-sizing:border-box}.tabnav *{box-sizing:border-box;user-select:none;-webkit-tap-highlight-color:transparent}.tabnav-platter{height:calc(var(--tabnav-height));padding:var(--tabnav-platter-padding);background-color:var(--tabnav-platter-background);border-radius:999px;overflow:hidden;position:relative;-webkit-backdrop-filter:blur(var(--tabnav-platter-blur));backdrop-filter:blur(var(--tabnav-platter-blur))}.tabnav-mask{position:relative;height:100%;z-index:1;width:100%;overflow-x:hidden;-webkit-mask-image:var(--tabnav-mask-gradient);mask-image:var(--tabnav-mask-gradient)}.tabnav-items{display:flex;align-items:center;white-space:nowrap;position:relative;margin:0;width:fit-content;height:100%;list-style:none;z-index:1}.tabnav-item{position:relative;height:100%;color:var(--tabnav-item-color);white-space:nowrap;transition-duration:120ms;transition-property:color;transition-timing-function:ease-out}.tabnav-item .tabnav-link{display:flex;align-items:center;height:100%;padding:0 var(--tabnav-item-padding);background:transparent;border:none;color:inherit;text-decoration:none;letter-spacing:inherit;opacity:.8;border-radius:999px;transition-property:opacity;transition-duration:100ms;transition-timing-function:ease-in-out}.tabnav-item .tabnav-link:hover{opacity:1}.tabnav-item.tabnav-item-active{color:var(--tabnav-item-color-active);transition-delay:160ms;transition-duration:160ms;transition-timing-function:ease-in}.tabnav-item.tabnav-item-active .tabnav-link{opacity:1;cursor:auto}.tabnav-label{display:block}.tabnav-indicator{position:absolute;top:var(--tabnav-platter-padding);left:var(--tabnav-indicator-start);bottom:var(--tabnav-platter-padding);width:calc(var(--tabnav-indicator-width) - 1px);height:calc(100% - var(--tabnav-platter-padding)*2);background-color:var(--tabnav-indicator-background);border-radius:999px;pointer-events:none;z-index:0;transition-property:left,width;transition-duration:var(--tabnav-motion-indicator-transform-duration);transition-timing-function:ease-out}.oberon-tabnav .tabnav-link:focus{outline:none}.tabnav:focus-within:has(.tabnav-link:focus-visible) .tabnav-indicator{outline:2px solid var(--sk-focus-color, #0071e3);outline-offset:2px}@media (prefers-color-scheme: dark){:root{--sk-body-text-color: rgb(245, 245, 247);--sk-headline-text-color: rgb(245, 245, 247);--sk-body-background-color: rgb(0, 0, 0);--sk-body-link-color: rgb(41, 151, 255)}body{--sk-glyph: rgb(255, 255, 255);--sk-glyph-gray: rgb(245, 245, 247);--sk-glyph-gray-alpha: rgba(255, 255, 255, .92);--sk-glyph-gray-secondary: rgb(134, 134, 139);--sk-glyph-gray-secondary-alpha: rgba(255, 255, 255, .56);--sk-glyph-blue: rgb(41, 151, 255);--sk-fill: rgb(0, 0, 0);--sk-fill-secondary: rgb(22, 22, 23);--sk-fill-tertiary: rgb(29, 29, 31);--sk-fill-gray: rgb(245, 245, 247);--sk-fill-gray-quaternary: rgb(51, 51, 54)}.tabnav{--tabnav-platter-background:rgb(51, 51, 54);--tabnav-item-color:rgb(255, 255, 255);--tabnav-item-color-active:rgb(0, 0, 0);--tabnav-paddle-color:rgba(255, 255, 255, .8);--tabnav-paddle-color-hover:rgb(255, 255, 255);--tabnav-paddle-icon-opacity-disabled:0.36;--tabnav-indicator-background:rgb(245, 245, 247);--tabnav-focus-color:rgb(255, 255, 255)}}",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "A16 Bionic",
+        "unit": null,
+        "rawText": "Chip    A16 Bionic chip    6‑core CPU with 2 performance and 4 efficiency cores    5‑core GPU    16‑core Neural Engine",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "cpu": {
+        "value": "6-core CPU with 2 performance and 4 efficiency cores",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "gpu": {
+        "value": "5-core GPU",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "128GB / 256GB / 512GB / 1TB",
+        "unit": null,
+        "rawText": "Capacity 1     128GB    256GB    512GB    1TB",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "rearCamera": {
+        "value": "48MP Main: 24mm, f/1.78, 2nd-gen sensor-shift OIS; 12MP Ultra Wide: 13mm, f/2.2; 12MP 3x Telephoto: 77mm, f/2.8",
+        "unit": null,
+        "rawText": "Camera  Pro camera system    48MP Main: 24 mm, ƒ/1.78 aperture, second-generation sensor-shift optical image stabilization, seven‑element lens, 100% Focus Pixels    12MP Ultra Wide: 13 mm, ƒ/2.2 aperture and 120° field of view, six‑element lens, 100% Focus Pixels    12MP 2x Telephoto (enabled by quad-pixel sensor): 48 mm, ƒ/1.78 aperture, second-generation sensor-shift optical image stabilization, seven‑element lens, 100% Focus Pixels    12MP 3x Telephoto: 77 mm, ƒ/2.8 aperture, optical image stabilization, six-element lens    3x optical zoom in, 2x optical zoom out; 6x optical zoom range; digital zoom up to 15x    Sapphire crystal lens cover    Adaptive True Tone flash    Photonic Engine    Deep Fusion    Smart HDR 4    Portrait mode with advanced bokeh and Depth Control    Portrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High‑Key Mono)    Night mode    Night mode portraits enabled by LiDAR Scanner    Panorama (up to 63MP)    Photographic Styles    Macro photography    Apple ProRAW    Wide color capture for photos and Live Photos    Lens correction (Ultra Wide)    Advanced red‑eye correction    Auto image stabilization    Burst mode    Photo geotagging    Image formats captured: HEIF, JPEG, and DNG",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "mainCamera": {
+        "value": "48MP, 24mm, f/1.78, 2nd-gen sensor-shift OIS",
+        "unit": null,
+        "rawText": "Camera  Pro camera system    48MP Main: 24 mm, ƒ/1.78 aperture, second-generation sensor-shift optical image stabilization, seven‑element lens, 100% Focus Pixels    12MP Ultra Wide: 13 mm, ƒ/2.2 aperture and 120° field of view, six‑element lens, 100% Focus Pixels    12MP 2x Telephoto (enabled by quad-pixel sensor): 48 mm, ƒ/1.78 aperture, second-generation sensor-shift optical image stabilization, seven‑element lens, 100% Focus Pixels    12MP 3x Telephoto: 77 mm, ƒ/2.8 aperture, optical image stabilization, six-element lens    3x optical zoom in, 2x optical zoom out; 6x optical zoom range; digital zoom up to 15x    Sapphire crystal lens cover    Adaptive True Tone flash    Photonic Engine    Deep Fusion    Smart HDR 4    Portrait mode with advanced bokeh and Depth Control    Portrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High‑Key Mono)    Night mode    Night mode portraits enabled by LiDAR Scanner    Panorama (up to 63MP)    Photographic Styles    Macro photography    Apple ProRAW    Wide color capture for photos and Live Photos    Lens correction (Ultra Wide)    Advanced red‑eye correction    Auto image stabilization    Burst mode    Photo geotagging    Image formats captured: HEIF, JPEG, and DNG",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "ultraWide": {
+        "value": "12MP, 13mm, f/2.2",
+        "unit": null,
+        "rawText": "Camera  Pro camera system    48MP Main: 24 mm, ƒ/1.78 aperture, second-generation sensor-shift optical image stabilization, seven‑element lens, 100% Focus Pixels    12MP Ultra Wide: 13 mm, ƒ/2.2 aperture and 120° field of view, six‑element lens, 100% Focus Pixels    12MP 2x Telephoto (enabled by quad-pixel sensor): 48 mm, ƒ/1.78 aperture, second-generation sensor-shift optical image stabilization, seven‑element lens, 100% Focus Pixels    12MP 3x Telephoto: 77 mm, ƒ/2.8 aperture, optical image stabilization, six-element lens    3x optical zoom in, 2x optical zoom out; 6x optical zoom range; digital zoom up to 15x    Sapphire crystal lens cover    Adaptive True Tone flash    Photonic Engine    Deep Fusion    Smart HDR 4    Portrait mode with advanced bokeh and Depth Control    Portrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High‑Key Mono)    Night mode    Night mode portraits enabled by LiDAR Scanner    Panorama (up to 63MP)    Photographic Styles    Macro photography    Apple ProRAW    Wide color capture for photos and Live Photos    Lens correction (Ultra Wide)    Advanced red‑eye correction    Auto image stabilization    Burst mode    Photo geotagging    Image formats captured: HEIF, JPEG, and DNG",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "telephoto": {
+        "value": "12MP, 77mm, f/2.8, 3x optical zoom",
+        "unit": null,
+        "rawText": "Camera  Pro camera system    48MP Main: 24 mm, ƒ/1.78 aperture, second-generation sensor-shift optical image stabilization, seven‑element lens, 100% Focus Pixels    12MP Ultra Wide: 13 mm, ƒ/2.2 aperture and 120° field of view, six‑element lens, 100% Focus Pixels    12MP 2x Telephoto (enabled by quad-pixel sensor): 48 mm, ƒ/1.78 aperture, second-generation sensor-shift optical image stabilization, seven‑element lens, 100% Focus Pixels    12MP 3x Telephoto: 77 mm, ƒ/2.8 aperture, optical image stabilization, six-element lens    3x optical zoom in, 2x optical zoom out; 6x optical zoom range; digital zoom up to 15x    Sapphire crystal lens cover    Adaptive True Tone flash    Photonic Engine    Deep Fusion    Smart HDR 4    Portrait mode with advanced bokeh and Depth Control    Portrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High‑Key Mono)    Night mode    Night mode portraits enabled by LiDAR Scanner    Panorama (up to 63MP)    Photographic Styles    Macro photography    Apple ProRAW    Wide color capture for photos and Live Photos    Lens correction (Ultra Wide)    Advanced red‑eye correction    Auto image stabilization    Burst mode    Photo geotagging    Image formats captured: HEIF, JPEG, and DNG",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "opticalZoom": {
+        "value": "3x optical zoom in, 2x optical zoom out; 6x optical zoom range",
+        "unit": null,
+        "rawText": "Camera  Pro camera system    48MP Main: 24 mm, ƒ/1.78 aperture, second-generation sensor-shift optical image stabilization, seven‑element lens, 100% Focus Pixels    12MP Ultra Wide: 13 mm, ƒ/2.2 aperture and 120° field of view, six‑element lens, 100% Focus Pixels    12MP 2x Telephoto (enabled by quad-pixel sensor): 48 mm, ƒ/1.78 aperture, second-generation sensor-shift optical image stabilization, seven‑element lens, 100% Focus Pixels    12MP 3x Telephoto: 77 mm, ƒ/2.8 aperture, optical image stabilization, six-element lens    3x optical zoom in, 2x optical zoom out; 6x optical zoom range; digital zoom up to 15x    Sapphire crystal lens cover    Adaptive True Tone flash    Photonic Engine    Deep Fusion    Smart HDR 4    Portrait mode with advanced bokeh and Depth Control    Portrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High‑Key Mono)    Night mode    Night mode portraits enabled by LiDAR Scanner    Panorama (up to 63MP)    Photographic Styles    Macro photography    Apple ProRAW    Wide color capture for photos and Live Photos    Lens correction (Ultra Wide)    Advanced red‑eye correction    Auto image stabilization    Burst mode    Photo geotagging    Image formats captured: HEIF, JPEG, and DNG",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "frontCamera": {
+        "value": "12MP TrueDepth camera, f/1.9",
+        "unit": null,
+        "rawText": "TrueDepth Camera    12MP camera    ƒ/1.9 aperture    Autofocus with Focus Pixels    Six‑element lens    Retina Flash    Photonic Engine    Deep Fusion    Smart HDR 4    Portrait mode with advanced bokeh and Depth Control    Portrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High‑Key Mono)    Animoji and Memoji    Night mode    Photographic Styles    Apple ProRAW    Wide color capture for photos and Live Photos    Lens correction    Auto image stabilization    Burst mode    4K video recording at 24 fps, 25 fps, 30 fps, or 60 fps    1080p HD video recording at 25 fps, 30 fps, or 60 fps    Cinematic mode up to 4K HDR at 30 fps    HDR video recording with Dolby Vision up to 4K at 60 fps    ProRes video recording up to 4K at 30 fps (1080p at 30 fps for 128GB storage)    Slo‑mo video support for 1080p at 120 fps    Time‑lapse video with stabilization    Night mode Time-lapse    QuickTake video    Cinematic video stabilization (4K, 1080p, and 720p)",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "videoRecording": {
+        "value": "4K at 24/25/30/60 fps, ProRes, Cinematic mode",
+        "unit": null,
+        "rawText": "Video Recording    4K video recording at 24 fps, 25 fps, 30 fps, or 60 fps    1080p HD video recording at 25 fps, 30 fps, or 60 fps    720p HD video recording at 30 fps    Cinematic mode up to 4K HDR at 30 fps    Action mode up to 2.8K at 60 fps    HDR video recording with Dolby Vision up to 4K at 60 fps    ProRes video recording up to 4K at 30 fps (1080p at 30 fps for 128GB storage)    Macro video recording, including slo-mo and time-lapse    Slo‑mo video support for 1080p at 120 fps or 240 fps    Time‑lapse video with stabilization    Night mode Time-lapse    QuickTake video    Second‑generation sensor‑shift optical image stabilization for video (Main)    Dual optical image stabilization for video (Main and Telephoto)    3x optical zoom in, 2x optical zoom out; 6x optical zoom range    Digital zoom up to 9x    Audio zoom    True Tone flash    Cinematic video stabilization (4K, 1080p, and 720p)    Continuous autofocus video    Take 8MP still photos while recording 4K video    Playback zoom    Video formats recorded: HEVC, H.264, and ProRes    Stereo recording",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "videoPlayback": {
+        "value": "Up to 23 hours",
+        "unit": null,
+        "rawText": "Power and Battery 13     Video playback: Up to 23 hours    Video playback (streamed): Up to 20 hours    Audio playback: Up to 75 hours    Built‑in rechargeable lithium‑ion battery    MagSafe wireless charging up to 15W 14     Qi wireless charging up to 7.5W 14     Charging via USB to computer system or power adapter    Fast-charge capable: Up to 50% charge in around 30 minutes 15  with 20W adapter or higher (available separately)",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "batteryLife": {
+        "value": "Video playback up to 23 hours",
+        "unit": null,
+        "rawText": "Video Playback    Supported formats include HEVC, H.264, and ProRes    HDR with Dolby Vision, HDR10, and HLG    Up to 4K HDR AirPlay for mirroring, photos, and video out to Apple TV (2nd generation or later) or AirPlay‑enabled smart TV    Video mirroring and video out support: Up to 1080p through Lightning Digital AV Adapter and Lightning to VGA Adapter (adapters sold separately) 11",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "Lightning",
+        "unit": null,
+        "rawText": "External Buttons and Connectors       Front camera    Side button    Lightning connector    SIM tray (available on models purchased outside the U.S.)    Volume buttons    Ring/Silent switch    Rear cameras    Flash    LiDAR Scanner",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chargingMethod": {
+        "value": "Lightning, MagSafe wireless, Qi wireless",
+        "unit": null,
+        "rawText": "Power and Battery 13     Video playback: Up to 23 hours    Video playback (streamed): Up to 20 hours    Audio playback: Up to 75 hours    Built‑in rechargeable lithium‑ion battery    MagSafe wireless charging up to 15W 14     Qi wireless charging up to 7.5W 14     Charging via USB to computer system or power adapter    Fast-charge capable: Up to 50% charge in around 30 minutes 15  with 20W adapter or higher (available separately)",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "security": {
+        "value": "Face ID",
+        "unit": null,
+        "rawText": "Face ID    Enabled by TrueDepth camera for facial recognition",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "waterResistance": {
+        "value": "IP68 (max depth 6m, up to 30 min)",
+        "unit": null,
+        "rawText": "Splash, Water, and Dust Resistant 3     Rated IP68 (maximum depth of 6 meters up to 30 minutes) under IEC standard 60529",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "802.11ax Wi-Fi 6",
+        "unit": null,
+        "rawText": "Location    Precision dual-frequency GPS (GPS, GLONASS, Galileo, QZSS, and BeiDou)    Digital compass    Wi-Fi    Cellular    iBeacon microlocation",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "Bluetooth 5.3",
+        "unit": null,
+        "rawText": "Cellular and Wireless    Model A2650 *     5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n53, n66, n70, n71, n77, n78 n79)    5G NR mmWave (Bands n258, n260, n261)    FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)    TD-LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48, 53)    UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)    GSM/EDGE (850, 900, 1800, 1900 MHz)      Model A2651 *     5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n53, n66, n70, n71, n77, n78 n79)    5G NR mmWave (Bands n258, n260, n261)    FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)    TD-LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48, 53)    UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)    GSM/EDGE (850, 900, 1800, 1900 MHz)      All models    5G (sub‑6 GHz and mmWave) with 4x4 MIMO 8     Gigabit LTE with 4x4 MIMO and LAA 8     Wi‑Fi 6 (802.11ax) with 2x2 MIMO    Bluetooth 5.3    Ultra Wideband chip for spatial awareness 9     NFC with reader mode    Express Cards with power reserve      For details on 5G and LTE support, contact your carrier and see  apple.com/iphone/cellular .",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "sim": {
+        "value": "Dual eSIM",
+        "unit": null,
+        "rawText": "SIM Card    Dual eSIM (two active eSIMs, stores eight or more eSIMs) 16     iPhone 14 Pro and iPhone 14 Pro Max use eSIM technology and are not compatible with physical SIM cards.     Learn more about eSIM on iPhone .   Learn more about traveling with eSIM",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasNFC": {
+        "value": true,
+        "unit": "mm",
+        "rawText": "Cellular and Wireless    Model A2650 *     5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n53, n66, n70, n71, n77, n78 n79)    5G NR mmWave (Bands n258, n260, n261)    FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)    TD-LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48, 53)    UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)    GSM/EDGE (850, 900, 1800, 1900 MHz)      Model A2651 *     5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n53, n66, n70, n71, n77, n78 n79)    5G NR mmWave (Bands n258, n260, n261)    FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 66, 71)    TD-LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48, 53)    UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)    GSM/EDGE (850, 900, 1800, 1900 MHz)      All models    5G (sub‑6 GHz and mmWave) with 4x4 MIMO 8     Gigabit LTE with 4x4 MIMO and LAA 8     Wi‑Fi 6 (802.11ax) with 2x2 MIMO    Bluetooth 5.3    Ultra Wideband chip for spatial awareness 9     NFC with reader mode    Express Cards with power reserve      For details on 5G and LTE support, contact your carrier and see  apple.com/iphone/cellular .",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasMagSafe": {
+        "value": true,
+        "unit": null,
+        "rawText": "Power and Battery 13     Video playback: Up to 23 hours    Video playback (streamed): Up to 20 hours    Audio playback: Up to 75 hours    Built‑in rechargeable lithium‑ion battery    MagSafe wireless charging up to 15W 14     Qi wireless charging up to 7.5W 14     Charging via USB to computer system or power adapter    Fast-charge capable: Up to 50% charge in around 30 minutes 15  with 20W adapter or higher (available separately)",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasSOS": {
+        "value": true,
+        "unit": null,
+        "rawText": "Safety    Emergency SOS via satellite 6     Crash Detection 7",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasCrashDetection": {
+        "value": true,
+        "unit": null,
+        "rawText": "Safety    Emergency SOS via satellite 6     Crash Detection 7",
+        "sourceUrl": "https://support.apple.com/en-us/111849",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      }
+    },
+    {
+      "id": "iphone-16",
+      "brand": "Apple",
+      "category": "phone",
+      "series": "iPhone",
+      "modelName": "iPhone 16",
+      "generation": "16",
+      "releaseYear": 2024,
+      "colors": {
+        "value": [
+          "Black",
+          "White",
+          "Pink",
+          "Teal",
+          "Ultramarine"
+        ],
+        "unit": null,
+        "rawText": "Black, White, Pink, Teal, Ultramarine",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "material": {
+        "value": "Aluminum design, Ceramic Shield front, Color-infused glass back",
+        "unit": null,
+        "rawText": "Aluminum design Ceramic Shield front Color-infused glass back (Black, Pink, Teal, Ultramarine)",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 170,
+        "unit": "g",
+        "rawText": "6.00 ounces (170 grams)",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "dimensions": {
+        "value": "147.6 x 71.6 x 7.80 mm",
+        "unit": null,
+        "rawText": "5.81 inches (147.6 mm)",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 6.1,
+        "unit": "inch",
+        "rawText": "6.1‑inch (diagonal) all‑screen OLED display",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Super Retina XDR display",
+        "unit": null,
+        "rawText": "Super Retina XDR display",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2556 x 1179",
+        "unit": null,
+        "rawText": "2556‑by‑1179-pixel resolution at 460 ppi",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 60,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "peakBrightness": {
+        "value": 2000,
+        "unit": "nits",
+        "rawText": "1000 nits max brightness (typical); 1600 nits peak brightness (HDR); 2000 nits peak brightness (outdoor); 1 nit minimum brightness",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "A18",
+        "unit": null,
+        "rawText": "A18 chip",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "cpu": {
+        "value": "6-core CPU with 2 performance and 4 efficiency cores",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "gpu": {
+        "value": "5-core GPU",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "128GB / 256GB / 512GB",
+        "unit": null,
+        "rawText": "We estimate the percentage of electricity-related emissions in our manufacturing that is sourced from low-carbon electricity by attributing to our carbon model low-carbon energy procured by our suppliers in the prior fiscal year, based on the supplier manufacturing allocations at time of product launch. This calculation assesses the suppliers for iPhone 16 Plus with 128GB. Included in this number is only low-carbon electricity that Apple or its suppliers have procured as part of Apple’s Supplier Clean Energy Program.",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "rearCamera": {
+        "value": "48MP Fusion Main: 26mm, f/1.6, sensor-shift OIS; 12MP Ultra Wide: 13mm, f/2.2",
+        "unit": null,
+        "rawText": "48MP Fusion Main: 26 mm, ƒ/1.6 aperture, sensor‑shift optical image stabilization, 100% Focus Pixels, support for super-high-resolution photos (24MP and 48MP)",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "mainCamera": {
+        "value": "48MP Fusion, 26mm, f/1.6, sensor-shift OIS",
+        "unit": null,
+        "rawText": "48MP Fusion Main: 26 mm, ƒ/1.6 aperture, sensor‑shift optical image stabilization, 100% Focus Pixels, support for super-high-resolution photos (24MP and 48MP)",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "ultraWide": {
+        "value": "12MP, 13mm, f/2.2",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "frontCamera": {
+        "value": "12MP TrueDepth camera, f/1.9",
+        "unit": null,
+        "rawText": "TrueDepth Camera",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "videoRecording": {
+        "value": "4K at 24/25/30/60 fps, 1080p HD at 25/30/60 fps",
+        "unit": null,
+        "rawText": "4K Dolby Vision video recording at 24 fps, 25 fps, 30 fps, or 60 fps",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "videoPlayback": {
+        "value": "Up to 22 hours",
+        "unit": null,
+        "rawText": "Video playback   Up to 22 hours",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "batteryLife": {
+        "value": "Video playback up to 22 hours",
+        "unit": null,
+        "rawText": "Video playback   Up to 22 hours",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "USB-C (USB 2)",
+        "unit": null,
+        "rawText": "USB-C connector",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "chargingMethod": {
+        "value": "USB-C, MagSafe wireless, Qi2",
+        "unit": null,
+        "rawText": "Fast-charge capable:   Up to 50% charge in around 30 minutes  6   with  20W adapter  or higher (available separately) paired with USB‑C charging cable, or 30W adapter or higher paired with MagSafe Charger (both available separately)",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "security": {
+        "value": "Face ID",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "waterResistance": {
+        "value": "IP68 (max depth 6m, up to 30 min)",
+        "unit": null,
+        "rawText": "Rated IP68 (maximum depth of 6 meters up to 30 minutes) under IEC standard 60529",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "802.11be Wi-Fi 7",
+        "unit": null,
+        "rawText": "FaceTime HD (1080p) video calling over 5G or Wi-Fi",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "Bluetooth 5.3",
+        "unit": null,
+        "rawText": "Bluetooth 5.3",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "sim": {
+        "value": "Dual eSIM",
+        "unit": null,
+        "rawText": "Dual eSIM (two active eSIMs; stores eight or more eSIMs)  13",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasNFC": {
+        "value": true,
+        "unit": null,
+        "rawText": "NFC with reader mode",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasMagSafe": {
+        "value": true,
+        "unit": null,
+        "rawText": "Fast-charge capable:   Up to 50% charge in around 30 minutes  6   with  20W adapter  or higher (available separately) paired with USB‑C charging cable, or 30W adapter or higher paired with MagSafe Charger (both available separately)",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasSOS": {
+        "value": true,
+        "unit": null,
+        "rawText": "Emergency SOS via satellite  7",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasCrashDetection": {
+        "value": true,
+        "unit": null,
+        "rawText": "Crash Detection  8",
+        "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      }
+    },
+    {
+      "id": "iphone-16-pro",
+      "brand": "Apple",
+      "category": "phone",
+      "series": "iPhone Pro",
+      "modelName": "iPhone 16 Pro",
+      "generation": "16 Pro",
+      "releaseYear": 2024,
+      "colors": {
+        "value": [
+          "Desert Titanium",
+          "Natural Titanium",
+          "White Titanium",
+          "Black Titanium"
+        ],
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "material": {
+        "value": "Titanium design, Ceramic Shield front, Textured matte glass back",
+        "unit": null,
+        "rawText": "iPhone is protected by Ceramic Shield, which is tougher than any smartphone glass or glass ceramic. Our latest iPhone models have Ceramic Shield 2 on the front, with 3x better scratch resistance.  1   iPhone 17 Pro and iPhone Air also have Ceramic Shield on the back for added durability. Little spill? No biggie — iPhone stands up to splashes from everyday liquids like water, coffee, and soda.  2",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 199,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "dimensions": {
+        "value": "149.6 x 71.5 x 8.25 mm",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 6.3,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Super Retina XDR display, ProMotion, Always-On",
+        "unit": null,
+        "rawText": "Get personalized product recommendations, compare models, access Your Saves, and track your orders. And opt in today to get updates on new products, promotions, flexible payment options, and store events.",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2622 x 1206",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 120,
+        "unit": null,
+        "rawText": "Get pro-level videos using 4K 60 fps Dolby Vision and up to 4K 120 fps on the latest Pro models. Use Action mode to steady shaky scenes as you shoot. Boost the voices of the people in your video with Audio Mix. Quickly access camera tools with Camera Control. And with the Center Stage front camera, use Dual Capture to record on front and rear cameras simultaneously.  7",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "peakBrightness": {
+        "value": 2000,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "A18 Pro",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "cpu": {
+        "value": "6-core CPU with 2 performance and 4 efficiency cores",
+        "unit": null,
+        "rawText": "!function(){\"use strict\";var e,r,n,t,o,a,i,s,c,d,u,p,f,l,m,g,h,S,v,y,b,w,E,k,z,x,T,D,P,R,B,M,q,F,I,N,O,j,A,C,_,G;function H(){if(r)return e;r=1;var n=!1,t={};\"undefined\"!=typeof window&&(t=window||self);try{n=!!t.localStorage.getItem(\"f7c9180f-5c45-47b4-8de4-428015f096c0\")}catch(e){}return e=n}function J(){if(t)return n;t=1;var e=H();return n=function(r){return function(){if(e&&\"object\"==typeof window.console&&\"function\"==typeof console[r])return console[r].apply(console,Array.prototype.slice.call(arguments,0))}},n}var K,L,Q,U,V=G?_:(G=1,_={assert:a?o:(a=1,o=J()(\"assert\")),count:s?i:(s=1,i=J()(\"count\")),countReset:d?c:(d=1,c=J()(\"countReset\")),dir:p?u:(p=1,u=J()(\"dir\")),dirxml:l?f:(l=1,f=J()(\"dirxml\")),enabled:H(),error:g?m:(g=1,m=J()(\"error\")),group:S?h:(S=1,h=J()(\"group\")),groupCollapsed:y?v:(y=1,v=J()(\"groupCollapsed\")),groupEnd:w?b:(w=1,b=J()(\"groupEnd\")),info:k?E:(k=1,E=J()(\"info\")),log:x?z:(x=1,z=J()(\"log\")),profile:D?T:(D=1,T=J()(\"profile\")),profileEnd:R?P:(R=1,P=J()(\"profileEnd\")),table:M?B:(M=1,B=J()(\"table\")),time:F?q:(F=1,q=J()(\"time\")),timeEnd:N?I:(N=1,I=J()(\"timeEnd\")),trace:j?O:(j=1,O=J()(\"trace\")),warn:C?A:(C=1,A=J()(\"warn\"))}),W={cookieName:\"ac_bnd\",minSamples:1,idealSamples:5,minTransferSize:1e4,minDuration:5,thresholds:[.5,1.5,3,5,10,18,30,45,60],cookieDomain:\"\",timeout:4e3};function X(e,r){var n=e.cookieName+\"=\"+r+\"; path=/; Secure\";e.cookieDomain&&(n+=\"; domain=\"+e.cookieDomain),document.cookie=n}(K=W.idealSamples,L=W.minTransferSize,Q=W.minDuration,U=W.timeout,new Promise(function(e){var r=0,n=!1;function t(){n||(n=!0,V.log(\"[ac-bandwidth] waitForResources resolved — seen: \"+r+\", needed: \"+K),e())}try{if(\"undefined\"!=typeof performance&&performance.getEntriesByType){for(var o=performance.getEntriesByType(\"resource\"),a=0;a =L&&o[a].responseStart>0&&o[a].responseEnd>o[a].responseStart&&i>=Q&&r++}if(r>=K)return void t()}if(\"undefined\"!=typeof PerformanceObserver){var s=new PerformanceObserver(function(e){try{for(var n=e.getEntries(),o=0;o =L&&n[o].responseStart>0&&n[o].responseEnd>n[o].responseStart&&a>=Q&&r++}r>=K&&(s.disconnect(),t())}catch(e){t()}});s.observe({type:\"resource\",buffered:!1})}}catch(e){t()}setTimeout(t,U||15e3)})).then(function(e){try{var r=Object.assign({},W,e);if(document.querySelector('meta[property=\"analytics-track\"][content*=\"404\"]'))return void V.log(\"[ac-bandwidth] skipping — 404 page detected\");if(\"undefined\"==typeof performance||\"function\"!=typeof performance.getEntriesByType)return void V.log(\"[ac-bandwidth] skipping — Performance API unavailable\");var n=performance.getEntriesByType(\"resource\");if(!n.some(function(e){return e.transferSize>0}))return void V.log(\"[ac-bandwidth] skipping — transferSize not supported\");V.log(\"[ac-bandwidth] total resources found: \"+n.length);var t=n.filter(function(e){var n=e.responseEnd-e.responseStart;return e.transferSize>=r.minTransferSize&&e.responseStart>0&&e.responseEnd>e.responseStart&&n>=r.minDuration});if(V.log(\"[ac-bandwidth] qualifying resources: \"+t.length+\" (need \"+r.minSamples+\")\"),t.forEach(function(e){var r=e.responseEnd-e.responseStart,n=8*e.transferSize/(r/1e3)/1e6;V.log(\"[ac-bandwidth]   \"+e.name.split(\"/\").pop()+\" — transferSize: \"+e.transferSize+\", duration: \"+Math.round(r)+\"ms, throughput: \"+n.toFixed(2)+\" Mbps\")}),t.length =r.minSamples){var a=(u=r.cookieName,(p=document.cookie.match(new RegExp(\"(?:^|; )\"+u+\"=(\\\\d+)\")))?parseInt(p[1],10):null);return V.log(\"[ac-bandwidth] cache-load detected, existing cookie score: \"+a),null!==a?a:void V.log(\"[ac-bandwidth] skipping — cache load with no prior cookie\")}return V.log(\"[ac-bandwidth] defaulting to score 1 (not enough samples, not a cache load)\"),X(r,1),1}for(var i=t.map(function(e){var r=(e.responseEnd-e.responseStart)/1e3;return 8*e.transferSize/r/1e6}),s=Math.max.apply(null,i),c=r.thresholds.length+1,d=0;d",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "gpu": {
+        "value": "6-core GPU",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "128GB / 256GB / 512GB / 1TB",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "rearCamera": {
+        "value": "48MP Fusion Main: 24mm, f/1.78, 2nd-gen sensor-shift OIS; 48MP Ultra Wide: 13mm, f/2.2; 12MP 5x Telephoto: 120mm, f/2.8",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "mainCamera": {
+        "value": "48MP Fusion, 24mm, f/1.78, 2nd-gen sensor-shift OIS",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "ultraWide": {
+        "value": "48MP, 13mm, f/2.2",
+        "unit": null,
+        "rawText": "Requires an iPhone and Apple Watch with second-generation Ultra Wideband chip. Ultra Wideband availability varies by region.",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "telephoto": {
+        "value": "12MP, 120mm, f/2.8, 5x optical zoom",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "opticalZoom": {
+        "value": "5x optical zoom in, 2x optical zoom out; 10x optical zoom range",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "frontCamera": {
+        "value": "12MP TrueDepth camera, f/1.9",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "videoRecording": {
+        "value": "4K at 24/25/30/60/120 fps, ProRes, Cinematic mode",
+        "unit": null,
+        "rawText": "Get pro-level videos using 4K 60 fps Dolby Vision and up to 4K 120 fps on the latest Pro models. Use Action mode to steady shaky scenes as you shoot. Boost the voices of the people in your video with Audio Mix. Quickly access camera tools with Camera Control. And with the Center Stage front camera, use Dual Capture to record on front and rear cameras simultaneously.  7",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "videoPlayback": {
+        "value": "Up to 27 hours",
+        "unit": null,
+        "rawText": "Our hardware and software are designed to work together efficiently, so you can do more on a single charge — like getting up to 33 hours of video playback on iPhone 17 Pro and 39 hours on iPhone 17 Pro Max.  13",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "batteryLife": {
+        "value": "Video playback up to 27 hours",
+        "unit": null,
+        "rawText": "Our hardware and software are designed to work together efficiently, so you can do more on a single charge — like getting up to 33 hours of video playback on iPhone 17 Pro and 39 hours on iPhone 17 Pro Max.  13",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "USB-C (USB 3, up to 10Gb/s)",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "chargingMethod": {
+        "value": "USB-C, MagSafe wireless, Qi2",
+        "unit": null,
+        "rawText": "Snap on a MagSafe Charger for faster wireless charging.  15   Or plug in a USB‑C Power Adapter. And with a USB‑C port, you can charge your iPhone with the same cable as your Mac and iPad.",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "security": {
+        "value": "Face ID",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "waterResistance": {
+        "value": "IP68 (max depth 6m, up to 30 min)",
+        "unit": null,
+        "rawText": "iPhone 17e, iPhone 17, iPhone Air, and iPhone 17 Pro are splash, water, and dust resistant and were tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529 (maximum depth of 6 meters up to 30 minutes). Splash, water, and dust resistance are not permanent conditions. Resistance might decrease as a result of normal wear. Do not attempt to charge a wet iPhone; refer to the user guide for cleaning and drying instructions. Liquid damage not covered under warranty.",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "802.11be Wi-Fi 7",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "Bluetooth 5.3",
+        "unit": null,
+        "rawText": "Testing conducted by Apple in July 2025 using preproduction iPhone 17, iPhone Air, iPhone 17 Pro, and iPhone 17 Pro Max units and software, subscribed to LTE and 5G carrier networks. Additional iPhone Air testing conducted while paired with preproduction iPhone Air MagSafe Battery units and software. Video playback consisted of a repeated 2‑hour 23‑minute HDR movie purchased from the iTunes Store. Video playback (streamed) consisted of a repeated 3‑hour 1‑minute HDR movie purchased from the iTunes Store. All settings were default except: Bluetooth was paired with headphones; Wi‑Fi was associated with a network; the Wi‑Fi feature Ask to Join Networks, Auto‑Brightness, and True Tone were turned off.",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "sim": {
+        "value": "Dual eSIM",
+        "unit": null,
+        "rawText": "Switching from Android to iPhone is simple.",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasNFC": {
+        "value": true,
+        "unit": null,
+        "rawText": "NFC",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasMagSafe": {
+        "value": true,
+        "unit": null,
+        "rawText": "Snap on a MagSafe Charger for faster wireless charging.  15   Or plug in a USB‑C Power Adapter. And with a USB‑C port, you can charge your iPhone with the same cable as your Mac and iPad.",
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasSOS": {
+        "value": true,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasCrashDetection": {
+        "value": true,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      }
+    },
+    {
+      "id": "iphone-16e-2025",
+      "brand": "Apple",
+      "category": "phone",
+      "series": "iPhone",
+      "modelName": "iPhone 16e",
+      "generation": "16e",
+      "releaseYear": 2025,
+      "colors": {
+        "value": [
+          "Black",
+          "White"
+        ],
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "material": {
+        "value": "Aluminum design, Ceramic Shield front, Glass back",
+        "unit": null,
+        "rawText": "iPhone is known for its iconic design and advanced materials — like iPhone 17 Pro, which has a heat-forged aluminum unibody and is built to deliver exceptional performance. And our thinnest iPhone ever, iPhone Air. Hardware and software are designed in tandem — like Dynamic Island, Camera Control, and the Action button.",
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": null,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "dimensions": {
+        "value": null,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 6.1,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Super Retina XDR display",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": null,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 60,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "A18",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "cpu": {
+        "value": null,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "gpu": {
+        "value": null,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": null,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "128GB / 256GB / 512GB",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "rearCamera": {
+        "value": "48MP Fusion camera",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "mainCamera": {
+        "value": "48MP Fusion",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "frontCamera": {
+        "value": "12MP TrueDepth camera",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "videoRecording": {
+        "value": "4K at 24/25/30/60 fps",
+        "unit": null,
+        "rawText": "Get pro-level videos using 4K 60 fps Dolby Vision and up to 4K 120 fps on the latest Pro models. Use Action mode to steady shaky scenes as you shoot. Boost the voices of the people in your video with Audio Mix. Quickly access camera tools with Camera Control. And with the Center Stage front camera, use Dual Capture to record on front and rear cameras simultaneously.  7",
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "videoPlayback": {
+        "value": null,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "batteryLife": {
+        "value": null,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "USB-C",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "security": {
+        "value": "Face ID",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "waterResistance": {
+        "value": "IP68 (max depth 6m, up to 30 min)",
+        "unit": null,
+        "rawText": "iPhone 17e, iPhone 17, iPhone Air, and iPhone 17 Pro are splash, water, and dust resistant and were tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529 (maximum depth of 6 meters up to 30 minutes). Splash, water, and dust resistance are not permanent conditions. Resistance might decrease as a result of normal wear. Do not attempt to charge a wet iPhone; refer to the user guide for cleaning and drying instructions. Liquid damage not covered under warranty.",
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": null,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": null,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "sim": {
+        "value": "eSIM",
+        "unit": null,
+        "rawText": "Switching from Android to iPhone is simple.",
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasNFC": {
+        "value": true,
+        "unit": null,
+        "rawText": "NFC",
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasMagSafe": {
+        "value": true,
+        "unit": null,
+        "rawText": "Snap on a MagSafe Charger for faster wireless charging.  15   Or plug in a USB‑C Power Adapter. And with a USB‑C port, you can charge your iPhone with the same cable as your Mac and iPad.",
+        "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      }
+    },
+    {
+      "id": "ipad-air-m3-2025",
+      "brand": "Apple",
+      "category": "tablet",
+      "series": "iPad Air",
+      "modelName": "iPad Air 11-inch (M3)",
+      "generation": "M3",
+      "releaseYear": 2025,
+      "colors": {
+        "value": [
+          "Space Gray",
+          "Starlight",
+          "Blue",
+          "Purple"
+        ],
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301081",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 11,
+        "unit": "inch",
+        "rawText": "11-inch iPad Air and 13-inch iPad Air Technical Specifications",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301081",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Liquid Retina display, LED backlit, IPS technology",
+        "unit": null,
+        "rawText": "LED backlit Multi‑Touch display with IPS technology",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301081",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2360 x 1640",
+        "unit": null,
+        "rawText": "2360-by-1640-pixel resolution at 264  ppi",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301081",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 60,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301081",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "Apple M3",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301081",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "16-core Neural Engine",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301081",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "128GB / 256GB / 512GB / 1TB",
+        "unit": null,
+        "rawText": "Capacity  1",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301081",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "rearCamera": {
+        "value": "12MP Wide camera, f/1.8",
+        "unit": null,
+        "rawText": "12MP Wide camera, ƒ/1.8 aperture",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301081",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "frontCamera": {
+        "value": "Landscape 12MP Center Stage camera",
+        "unit": null,
+        "rawText": "Landscape 12MP Center Stage camera",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301081",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "speakers": {
+        "value": "Landscape stereo speakers",
+        "unit": null,
+        "rawText": "Landscape stereo speakers",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301081",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "microphone": {
+        "value": "Dual microphones",
+        "unit": null,
+        "rawText": "Dual microphones for calls, video recording, and audio recording",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301081",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "pencilSupport": {
+        "value": "Apple Pencil Pro, Apple Pencil (USB-C)",
+        "unit": null,
+        "rawText": "Supports Apple Pencil Pro",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301081",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "USB-C (USB 3, up to 10Gb/s)",
+        "unit": null,
+        "rawText": "USB-C port with support for:",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301081",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "security": {
+        "value": "Touch ID",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301081",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "Wi-Fi 6E (802.11ax)",
+        "unit": null,
+        "rawText": "Wi-Fi models :",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301081",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "Bluetooth 5.3",
+        "unit": null,
+        "rawText": "Bluetooth 6",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301081",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "externalDisplay": {
+        "value": "Supports one external display up to 6K at 60Hz",
+        "unit": null,
+        "rawText": "Supports one external display with up to 6K resolution at 60Hz",
+        "sourceUrl": "https://support.apple.com/en-us/docs/ipad/301081",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      }
+    },
+    {
+      "id": "ipad-pro-m4-11-2024",
+      "brand": "Apple",
+      "category": "tablet",
+      "series": "iPad Pro",
+      "modelName": "iPad Pro 11-inch (M4)",
+      "generation": "M4 11-inch",
+      "releaseYear": 2024,
+      "colors": {
+        "value": [
+          "Silver",
+          "Space Gray"
+        ],
+        "unit": null,
+        "rawText": "Finish    Silver    Space Gray",
+        "sourceUrl": "https://support.apple.com/en-us/111842",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 11,
+        "unit": "inch",
+        "rawText": "iPad Pro 11-inch (4th generation) - Technical Specifications - Apple Support",
+        "sourceUrl": "https://support.apple.com/en-us/111842",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Ultra Retina XDR display, OLED, ProMotion",
+        "unit": null,
+        "rawText": "Display  Liquid Retina display    11-inch (diagonal) LED backlit Multi‑Touch display with IPS technology    2388-by-1668-pixel resolution at 264 pixels per inch (ppi)    ProMotion technology    Wide color display (P3)    True Tone display    Fingerprint-resistant oleophobic coating    Fully laminated display    Antireflective coating    1.8% reflectivity    SDR brightness: 600 nits max    Supports  Apple Pencil (2nd generation) ,  Apple Pencil (USB-C)     Apple Pencil hover     The 11-inch iPad Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 11 inches diagonally (actual viewable area is less).",
+        "sourceUrl": "https://support.apple.com/en-us/111842",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2420 x 1668",
+        "unit": null,
+        "rawText": "Display  Liquid Retina display    11-inch (diagonal) LED backlit Multi‑Touch display with IPS technology    2388-by-1668-pixel resolution at 264 pixels per inch (ppi)    ProMotion technology    Wide color display (P3)    True Tone display    Fingerprint-resistant oleophobic coating    Fully laminated display    Antireflective coating    1.8% reflectivity    SDR brightness: 600 nits max    Supports  Apple Pencil (2nd generation) ,  Apple Pencil (USB-C)     Apple Pencil hover     The 11-inch iPad Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 11 inches diagonally (actual viewable area is less).",
+        "sourceUrl": "https://support.apple.com/en-us/111842",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 120,
+        "unit": null,
+        "rawText": ":root{--sk-body-text-color: rgb(29, 29, 31);--sk-headline-text-color: rgb(29, 29, 31);--sk-body-background-color: rgb(255, 255, 255);--sk-body-link-color: rgb(0, 102, 204);--sk-focus-color: #0071e3;--sk-focus-offset: 1px}body{margin:0;padding:0;font-size:17px;line-height:1.4705882353;font-weight:400;letter-spacing:-.022em;font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;color:var(--sk-body-text-color);background-color:var(--sk-body-background-color);font-synthesis:none;-moz-font-feature-settings:\"kern\";-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;min-width:320px}h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-weight:600;color:var(--sk-headline-text-color)}a{color:var(--sk-body-link-color);letter-spacing:inherit;text-decoration:none}a:hover{text-decoration:underline}#app{width:100%}#content{min-height:350px;font-size:17px;line-height:1.4705882353;font-weight:400;letter-spacing:-.022em;font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif}#content p{}#content h1{font-size:48px;line-height:1.0834933333;font-weight:600;letter-spacing:-.003em;font-family:SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif}@media (max-width:1068px){#content h1{font-size:40px;line-height:1.1;letter-spacing:0em}}@media (max-width:734px){#content h1{font-size:32px;line-height:1.125;letter-spacing:.004em}}#content h2{font-size:40px;line-height:1.1;font-weight:600;letter-spacing:0em;font-family:SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif}@media (max-width:1068px){#content h2{font-size:32px;line-height:1.125;letter-spacing:.004em}}@media (max-width:734px){#content h2{font-size:28px;line-height:1.1428571429;letter-spacing:.007em}}#content h3{font-size:21px;line-height:1.1904761905;font-weight:600;letter-spacing:.011em;font-family:SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif}@media (max-width:734px){#content h3{font-size:19px;line-height:1.2105263158;letter-spacing:.012em}}#content #sections{width:83.33333%;position:relative;margin:64px auto}@media (max-width:1068px){#content #sections{width:100%;margin:56px auto}}@media (max-width:734px){#content #sections{width:100%;margin:48px auto}}#content img{max-width:100%;height:auto;display:inline;max-height:700px;object-fit:contain}#content #sections>.has-image:first-child>img{max-height:180px;height:180px!important}#content li img{display:block}#content br+img{display:block}#content .horizontal-align-center{text-align:center}#content .horizontal-align-left{text-align:left}#content .horizontal-align-right{text-align:right}#content div.has-image:has(img:not(.inactive)){display:block}#content div.has-image:has(img:not(.inactive)) img{display:block}#content div.has-image:has(img:not(.inactive)).horizontal-align-center img{margin-left:auto;margin-right:auto}#content div.has-image:has(img:not(.inactive)).horizontal-align-left img{margin-left:0}#content div.has-image:has(img:not(.inactive)).horizontal-align-right img{margin-left:auto;margin-right:0}.viewport-content{margin-inline-start:auto;margin-inline-end:auto;width:980px}@media (max-width:1068px){.viewport-content{width:692px}}@media (max-width:734px){.viewport-content{width:87.5%}}body.js .oberon-content .inactive{display:none!important}body.no-js .oberon-tabnav{display:none}.oberon-tabnav{margin:52px auto!important}@media (max-width:1068px){.oberon-tabnav{margin:48px auto!important}}@media (max-width:734px){.oberon-tabnav{margin:40px auto!important}}.oberon-tabnav .tabnav-items{margin-left:0!important;margin-right:0!important;margin-top:0!important}.oberon-tabnav .form-tabnav-label{visibility:hidden}.tabnav ul,.tabnav ol,.tabnav li{margin:0;padding:0;list-style:none}.tabnav button{margin:0;padding:0;border:0;background:none;font-family:inherit;box-sizing:border-box;color:inherit;font:inherit;line-height:inherit;cursor:pointer}.tabnav{font-size:14px;line-height:1.2857742857;font-weight:400;letter-spacing:-.016em;font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;--tabnav-line-height:18px;--tabnav-height:44px;--tabnav-scale:1;--tabnav-inner-height:36px;--tabnav-platter-padding:4px;--tabnav-platter-background:rgb(232, 232, 237);--tabnav-platter-blur:20px;--tabnav-mask-gradient-width:22px;--tabnav-mask-opaque-width:calc(var(--tabnav-paddle-width) - var(--tabnav-platter-padding));--tabnav-mask-offset:calc(var(--tabnav-mask-opaque-width) + var(--tabnav-mask-gradient-width));--tabnav-mask-color-left:transparent;--tabnav-mask-color-right:transparent;--tabnav-mask-gradient:linear-gradient(to right, var(--tabnav-mask-color-left) 0, var(--tabnav-mask-color-left) var(--tabnav-mask-opaque-width), black calc(var(--tabnav-mask-opaque-width) + var(--tabnav-mask-gradient-width)), black calc(100% - (var(--tabnav-mask-opaque-width) + var(--tabnav-mask-gradient-width))), var(--tabnav-mask-color-right) calc(100% - var(--tabnav-mask-opaque-width)), var(--tabnav-mask-color-right) 100%);--tabnav-items-offset:0px;--tabnav-item-padding:16px;--tabnav-item-color:rgb(0, 0, 0);--tabnav-item-color-active:rgb(255, 255, 255);--tabnav-paddle-width:calc(var(--tabnav-inner-height) + var(--tabnav-platter-padding));--tabnav-paddle-height:var(--tabnav-inner-height);--tabnav-paddle-color:rgba(0, 0, 0, .56);--tabnav-paddle-color-hover:rgba(0, 0, 0, .64);--tabnav-paddle-icon-opacity-disabled:0.42;--tabnav-indicator-background:rgb(29, 29, 31);--tabnav-indicator-start:var(--tabnav-platter-padding);--tabnav-indicator-width:0px;--tabnav-focus-color:var(--sk-focus-color, #0071e3);--tabnav-motion-scroll-duration:320ms;--tabnav-motion-indicator-transform-duration:320ms;--r-tabnav-scaling-font-size:14px;position:relative;width:fit-content;max-width:100%;box-sizing:border-box}.tabnav *{box-sizing:border-box;user-select:none;-webkit-tap-highlight-color:transparent}.tabnav-platter{height:calc(var(--tabnav-height));padding:var(--tabnav-platter-padding);background-color:var(--tabnav-platter-background);border-radius:999px;overflow:hidden;position:relative;-webkit-backdrop-filter:blur(var(--tabnav-platter-blur));backdrop-filter:blur(var(--tabnav-platter-blur))}.tabnav-mask{position:relative;height:100%;z-index:1;width:100%;overflow-x:hidden;-webkit-mask-image:var(--tabnav-mask-gradient);mask-image:var(--tabnav-mask-gradient)}.tabnav-items{display:flex;align-items:center;white-space:nowrap;position:relative;margin:0;width:fit-content;height:100%;list-style:none;z-index:1}.tabnav-item{position:relative;height:100%;color:var(--tabnav-item-color);white-space:nowrap;transition-duration:120ms;transition-property:color;transition-timing-function:ease-out}.tabnav-item .tabnav-link{display:flex;align-items:center;height:100%;padding:0 var(--tabnav-item-padding);background:transparent;border:none;color:inherit;text-decoration:none;letter-spacing:inherit;opacity:.8;border-radius:999px;transition-property:opacity;transition-duration:100ms;transition-timing-function:ease-in-out}.tabnav-item .tabnav-link:hover{opacity:1}.tabnav-item.tabnav-item-active{color:var(--tabnav-item-color-active);transition-delay:160ms;transition-duration:160ms;transition-timing-function:ease-in}.tabnav-item.tabnav-item-active .tabnav-link{opacity:1;cursor:auto}.tabnav-label{display:block}.tabnav-indicator{position:absolute;top:var(--tabnav-platter-padding);left:var(--tabnav-indicator-start);bottom:var(--tabnav-platter-padding);width:calc(var(--tabnav-indicator-width) - 1px);height:calc(100% - var(--tabnav-platter-padding)*2);background-color:var(--tabnav-indicator-background);border-radius:999px;pointer-events:none;z-index:0;transition-property:left,width;transition-duration:var(--tabnav-motion-indicator-transform-duration);transition-timing-function:ease-out}.oberon-tabnav .tabnav-link:focus{outline:none}.tabnav:focus-within:has(.tabnav-link:focus-visible) .tabnav-indicator{outline:2px solid var(--sk-focus-color, #0071e3);outline-offset:2px}@media (prefers-color-scheme: dark){:root{--sk-body-text-color: rgb(245, 245, 247);--sk-headline-text-color: rgb(245, 245, 247);--sk-body-background-color: rgb(0, 0, 0);--sk-body-link-color: rgb(41, 151, 255)}body{--sk-glyph: rgb(255, 255, 255);--sk-glyph-gray: rgb(245, 245, 247);--sk-glyph-gray-alpha: rgba(255, 255, 255, .92);--sk-glyph-gray-secondary: rgb(134, 134, 139);--sk-glyph-gray-secondary-alpha: rgba(255, 255, 255, .56);--sk-glyph-blue: rgb(41, 151, 255);--sk-fill: rgb(0, 0, 0);--sk-fill-secondary: rgb(22, 22, 23);--sk-fill-tertiary: rgb(29, 29, 31);--sk-fill-gray: rgb(245, 245, 247);--sk-fill-gray-quaternary: rgb(51, 51, 54)}.tabnav{--tabnav-platter-background:rgb(51, 51, 54);--tabnav-item-color:rgb(255, 255, 255);--tabnav-item-color-active:rgb(0, 0, 0);--tabnav-paddle-color:rgba(255, 255, 255, .8);--tabnav-paddle-color-hover:rgb(255, 255, 255);--tabnav-paddle-icon-opacity-disabled:0.36;--tabnav-indicator-background:rgb(245, 245, 247);--tabnav-focus-color:rgb(255, 255, 255)}}",
+        "sourceUrl": "https://support.apple.com/en-us/111842",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "Apple M4",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/111842",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "Chip   Apple M2 chip     8-core CPU with 4 performance cores and 4 efficiency cores    10-core GPU    16-core Neural Engine    100GB/s memory bandwidth    8GB RAM on models with 128GB, 256GB, or 512GB storage    16GB RAM on models with 1TB or 2TB storage     Media engine     Hardware-accelerated H.264, HEVC, ProRes, and ProRes RAW    Video decode engine    Video encode engine    ProRes encode and decode engine",
+        "sourceUrl": "https://support.apple.com/en-us/111842",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "256GB / 512GB / 1TB / 2TB",
+        "unit": null,
+        "rawText": "Capacity 1     128GB    256GB    512GB    1TB    2TB",
+        "sourceUrl": "https://support.apple.com/en-us/111842",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "rearCamera": {
+        "value": "12MP Wide camera, f/1.8",
+        "unit": null,
+        "rawText": "Camera    Pro camera system: Wide and Ultra Wide cameras    Wide: 12MP, ƒ/1.8 aperture    Ultra Wide: 10MP, ƒ/2.4 aperture, and 125° field of view    2x optical zoom out    Digital zoom up to 5x    Five‑element lens (Wide and Ultra Wide)    Brighter True Tone flash    Panorama (up to 63MP)    Sapphire crystal lens cover    Autofocus with Focus Pixels (Wide)    Smart HDR 4    Wide color capture for photos and Live Photos    Lens correction (Ultra Wide)    Advanced red-eye correction    Photo geotagging    Auto image stabilization    Burst mode    Image formats captured: HEIF and JPEG",
+        "sourceUrl": "https://support.apple.com/en-us/111842",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "frontCamera": {
+        "value": "TrueDepth camera with Face ID",
+        "unit": null,
+        "rawText": "TrueDepth Camera    12MP Ultra Wide camera, 122° field of view    ƒ/2.4 aperture    Portrait mode with advanced bokeh and Depth Control    Portrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High‑Key Mono)    Animoji and Memoji    Smart HDR 4    1080p HD video recording at 25 fps, 30 fps, or 60 fps    Time‑lapse video with stabilization    Extended dynamic range for video up to 30 fps    Cinematic video stabilization (1080p and 720p)    Wide color capture for photos and Live Photos    Lens correction    Retina Flash    Auto image stabilization    Burst mode",
+        "sourceUrl": "https://support.apple.com/en-us/111842",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "speakers": {
+        "value": "Four speaker audio",
+        "unit": null,
+        "rawText": "Speakers    Four speaker audio",
+        "sourceUrl": "https://support.apple.com/en-us/111842",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "microphone": {
+        "value": "Five studio-quality microphones",
+        "unit": null,
+        "rawText": "Microphones    Five studio-quality microphones for calls, video recording, and audio recording",
+        "sourceUrl": "https://support.apple.com/en-us/111842",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "pencilSupport": {
+        "value": "Apple Pencil Pro, Apple Pencil (USB-C)",
+        "unit": null,
+        "rawText": "Buttons and Connectors       Front camera    Top button    Volume buttons    Rear cameras    Flash    LiDAR Scanner    Smart Connector    Thunderbolt / USB 4 connector    SIM tray (Wi-Fi + Cellular)    Magnetic connector for Apple Pencil",
+        "sourceUrl": "https://support.apple.com/en-us/111842",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "Thunderbolt / USB 4",
+        "unit": null,
+        "rawText": "Buttons and Connectors       Front camera    Top button    Volume buttons    Rear cameras    Flash    LiDAR Scanner    Smart Connector    Thunderbolt / USB 4 connector    SIM tray (Wi-Fi + Cellular)    Magnetic connector for Apple Pencil",
+        "sourceUrl": "https://support.apple.com/en-us/111842",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "security": {
+        "value": "Face ID",
+        "unit": null,
+        "rawText": "Sensors    Face ID    LiDAR Scanner    Three-axis gyro    Accelerometer    Barometer    Ambient light sensor",
+        "sourceUrl": "https://support.apple.com/en-us/111842",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "Wi-Fi 6E (802.11ax)",
+        "unit": null,
+        "rawText": "Size and Weight 2      Wi-Fi models     Width: 7.02 inches (178.5 mm)    Height: 9.74 inches (247.6 mm)    Depth: 0.23 inch (5.9 mm)    Weight: 1.03 pounds (466 grams)       Wi-Fi + Cellular models     Width: 7.02 inches (178.5 mm)    Height: 9.74 inches (247.6 mm)    Depth: 0.23 inch (5.9 mm)    Weight: 1.04 pounds (470 grams)",
+        "sourceUrl": "https://support.apple.com/en-us/111842",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "Bluetooth 5.3",
+        "unit": null,
+        "rawText": "Cellular and Wireless     All models     Wi‑Fi 6E (802.11ax) with 2x2 MIMO; speeds up to 2.4 Gbps 4     Simultaneous dual band    Bluetooth 5.3       Wi-Fi + Cellular models     5G (sub‑6 GHz and mmWave) with 4x4 MIMO    Gigabit LTE with 4x4 MIMO and LAA       Model A2435 and A2764:     5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n66, n70, n71, n77, n78, n79) 5     5G NR mmWave (Bands n258, n260, n261)    FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 66, 71)    TD-LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48)    UMTS/HSPA/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)    Data only 6     Wi-Fi calling 5     eSIM 7        Learn more about cellular   For details on 5G and LTE support, contact your carrier and see  apple.com/ipad/cellular/networks .",
+        "sourceUrl": "https://support.apple.com/en-us/111842",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "externalDisplay": {
+        "value": "Supports one external display up to 6K at 60Hz",
+        "unit": null,
+        "rawText": "Display Support     Supports full native resolution on the built-in display at millions of colors     Supports one external display with up to 6K resolution at 60Hz       Thunderbolt 3 digital video output     Native DisplayPort output over USB-C    VGA, HDMI, DVI, and Thunderbolt 2 output supported using adapters (sold separately) 9        Video mirroring     Up to 4K AirPlay for mirroring, photos, and video out to Apple TV (2nd generation or later) or AirPlay‑enabled smart TV    Video mirroring and video out support through USB-C Digital AV Multiport Adapter and USB-C VGA Multiport Adapter (adapters sold separately) 9",
+        "sourceUrl": "https://support.apple.com/en-us/111842",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      }
+    },
+    {
+      "id": "ipad-pro-m4-13-2024",
+      "brand": "Apple",
+      "category": "tablet",
+      "series": "iPad Pro",
+      "modelName": "iPad Pro 13-inch (M4)",
+      "generation": "M4 13-inch",
+      "releaseYear": 2024,
+      "colors": {
+        "value": [
+          "Silver",
+          "Space Gray"
+        ],
+        "unit": null,
+        "rawText": "Finish    Silver    Space Gray",
+        "sourceUrl": "https://support.apple.com/en-us/111841",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "screenSize": {
+        "value": 13,
+        "unit": "inch",
+        "rawText": "iPad Pro 12.9-inch (6th generation) - Technical Specifications - Apple Support",
+        "sourceUrl": "https://support.apple.com/en-us/111841",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Ultra Retina XDR display, OLED, ProMotion",
+        "unit": null,
+        "rawText": "Display  Liquid Retina XDR display    12.9-inch (diagonal) mini-LED backlit Multi‑Touch display with IPS technology    2D backlighting system with 2596 full‑array local dimming zones    2732-by-2048-pixel resolution at 264 pixels per inch (ppi)    ProMotion technology    Wide color display (P3)    True Tone display    Fingerprint-resistant oleophobic coating    Fully laminated display    Antireflective coating    1.8% reflectivity    SDR brightness: 600 nits max    XDR brightness: 1000 nits max full screen, 1600 nits peak (HDR content only)    1,000,000:1 contrast ratio    Supports  Apple Pencil (2nd generation) ,  Apple Pencil (USB-C)     Apple Pencil hover     The 12.9-inch iPad Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 12.9 inches diagonally (actual viewable area is less).",
+        "sourceUrl": "https://support.apple.com/en-us/111841",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2732 x 2048",
+        "unit": null,
+        "rawText": "Display  Liquid Retina XDR display    12.9-inch (diagonal) mini-LED backlit Multi‑Touch display with IPS technology    2D backlighting system with 2596 full‑array local dimming zones    2732-by-2048-pixel resolution at 264 pixels per inch (ppi)    ProMotion technology    Wide color display (P3)    True Tone display    Fingerprint-resistant oleophobic coating    Fully laminated display    Antireflective coating    1.8% reflectivity    SDR brightness: 600 nits max    XDR brightness: 1000 nits max full screen, 1600 nits peak (HDR content only)    1,000,000:1 contrast ratio    Supports  Apple Pencil (2nd generation) ,  Apple Pencil (USB-C)     Apple Pencil hover     The 12.9-inch iPad Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 12.9 inches diagonally (actual viewable area is less).",
+        "sourceUrl": "https://support.apple.com/en-us/111841",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 120,
+        "unit": null,
+        "rawText": ":root{--sk-body-text-color: rgb(29, 29, 31);--sk-headline-text-color: rgb(29, 29, 31);--sk-body-background-color: rgb(255, 255, 255);--sk-body-link-color: rgb(0, 102, 204);--sk-focus-color: #0071e3;--sk-focus-offset: 1px}body{margin:0;padding:0;font-size:17px;line-height:1.4705882353;font-weight:400;letter-spacing:-.022em;font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;color:var(--sk-body-text-color);background-color:var(--sk-body-background-color);font-synthesis:none;-moz-font-feature-settings:\"kern\";-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;min-width:320px}h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-weight:600;color:var(--sk-headline-text-color)}a{color:var(--sk-body-link-color);letter-spacing:inherit;text-decoration:none}a:hover{text-decoration:underline}#app{width:100%}#content{min-height:350px;font-size:17px;line-height:1.4705882353;font-weight:400;letter-spacing:-.022em;font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif}#content p{}#content h1{font-size:48px;line-height:1.0834933333;font-weight:600;letter-spacing:-.003em;font-family:SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif}@media (max-width:1068px){#content h1{font-size:40px;line-height:1.1;letter-spacing:0em}}@media (max-width:734px){#content h1{font-size:32px;line-height:1.125;letter-spacing:.004em}}#content h2{font-size:40px;line-height:1.1;font-weight:600;letter-spacing:0em;font-family:SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif}@media (max-width:1068px){#content h2{font-size:32px;line-height:1.125;letter-spacing:.004em}}@media (max-width:734px){#content h2{font-size:28px;line-height:1.1428571429;letter-spacing:.007em}}#content h3{font-size:21px;line-height:1.1904761905;font-weight:600;letter-spacing:.011em;font-family:SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif}@media (max-width:734px){#content h3{font-size:19px;line-height:1.2105263158;letter-spacing:.012em}}#content #sections{width:83.33333%;position:relative;margin:64px auto}@media (max-width:1068px){#content #sections{width:100%;margin:56px auto}}@media (max-width:734px){#content #sections{width:100%;margin:48px auto}}#content img{max-width:100%;height:auto;display:inline;max-height:700px;object-fit:contain}#content #sections>.has-image:first-child>img{max-height:180px;height:180px!important}#content li img{display:block}#content br+img{display:block}#content .horizontal-align-center{text-align:center}#content .horizontal-align-left{text-align:left}#content .horizontal-align-right{text-align:right}#content div.has-image:has(img:not(.inactive)){display:block}#content div.has-image:has(img:not(.inactive)) img{display:block}#content div.has-image:has(img:not(.inactive)).horizontal-align-center img{margin-left:auto;margin-right:auto}#content div.has-image:has(img:not(.inactive)).horizontal-align-left img{margin-left:0}#content div.has-image:has(img:not(.inactive)).horizontal-align-right img{margin-left:auto;margin-right:0}.viewport-content{margin-inline-start:auto;margin-inline-end:auto;width:980px}@media (max-width:1068px){.viewport-content{width:692px}}@media (max-width:734px){.viewport-content{width:87.5%}}body.js .oberon-content .inactive{display:none!important}body.no-js .oberon-tabnav{display:none}.oberon-tabnav{margin:52px auto!important}@media (max-width:1068px){.oberon-tabnav{margin:48px auto!important}}@media (max-width:734px){.oberon-tabnav{margin:40px auto!important}}.oberon-tabnav .tabnav-items{margin-left:0!important;margin-right:0!important;margin-top:0!important}.oberon-tabnav .form-tabnav-label{visibility:hidden}.tabnav ul,.tabnav ol,.tabnav li{margin:0;padding:0;list-style:none}.tabnav button{margin:0;padding:0;border:0;background:none;font-family:inherit;box-sizing:border-box;color:inherit;font:inherit;line-height:inherit;cursor:pointer}.tabnav{font-size:14px;line-height:1.2857742857;font-weight:400;letter-spacing:-.016em;font-family:SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;--tabnav-line-height:18px;--tabnav-height:44px;--tabnav-scale:1;--tabnav-inner-height:36px;--tabnav-platter-padding:4px;--tabnav-platter-background:rgb(232, 232, 237);--tabnav-platter-blur:20px;--tabnav-mask-gradient-width:22px;--tabnav-mask-opaque-width:calc(var(--tabnav-paddle-width) - var(--tabnav-platter-padding));--tabnav-mask-offset:calc(var(--tabnav-mask-opaque-width) + var(--tabnav-mask-gradient-width));--tabnav-mask-color-left:transparent;--tabnav-mask-color-right:transparent;--tabnav-mask-gradient:linear-gradient(to right, var(--tabnav-mask-color-left) 0, var(--tabnav-mask-color-left) var(--tabnav-mask-opaque-width), black calc(var(--tabnav-mask-opaque-width) + var(--tabnav-mask-gradient-width)), black calc(100% - (var(--tabnav-mask-opaque-width) + var(--tabnav-mask-gradient-width))), var(--tabnav-mask-color-right) calc(100% - var(--tabnav-mask-opaque-width)), var(--tabnav-mask-color-right) 100%);--tabnav-items-offset:0px;--tabnav-item-padding:16px;--tabnav-item-color:rgb(0, 0, 0);--tabnav-item-color-active:rgb(255, 255, 255);--tabnav-paddle-width:calc(var(--tabnav-inner-height) + var(--tabnav-platter-padding));--tabnav-paddle-height:var(--tabnav-inner-height);--tabnav-paddle-color:rgba(0, 0, 0, .56);--tabnav-paddle-color-hover:rgba(0, 0, 0, .64);--tabnav-paddle-icon-opacity-disabled:0.42;--tabnav-indicator-background:rgb(29, 29, 31);--tabnav-indicator-start:var(--tabnav-platter-padding);--tabnav-indicator-width:0px;--tabnav-focus-color:var(--sk-focus-color, #0071e3);--tabnav-motion-scroll-duration:320ms;--tabnav-motion-indicator-transform-duration:320ms;--r-tabnav-scaling-font-size:14px;position:relative;width:fit-content;max-width:100%;box-sizing:border-box}.tabnav *{box-sizing:border-box;user-select:none;-webkit-tap-highlight-color:transparent}.tabnav-platter{height:calc(var(--tabnav-height));padding:var(--tabnav-platter-padding);background-color:var(--tabnav-platter-background);border-radius:999px;overflow:hidden;position:relative;-webkit-backdrop-filter:blur(var(--tabnav-platter-blur));backdrop-filter:blur(var(--tabnav-platter-blur))}.tabnav-mask{position:relative;height:100%;z-index:1;width:100%;overflow-x:hidden;-webkit-mask-image:var(--tabnav-mask-gradient);mask-image:var(--tabnav-mask-gradient)}.tabnav-items{display:flex;align-items:center;white-space:nowrap;position:relative;margin:0;width:fit-content;height:100%;list-style:none;z-index:1}.tabnav-item{position:relative;height:100%;color:var(--tabnav-item-color);white-space:nowrap;transition-duration:120ms;transition-property:color;transition-timing-function:ease-out}.tabnav-item .tabnav-link{display:flex;align-items:center;height:100%;padding:0 var(--tabnav-item-padding);background:transparent;border:none;color:inherit;text-decoration:none;letter-spacing:inherit;opacity:.8;border-radius:999px;transition-property:opacity;transition-duration:100ms;transition-timing-function:ease-in-out}.tabnav-item .tabnav-link:hover{opacity:1}.tabnav-item.tabnav-item-active{color:var(--tabnav-item-color-active);transition-delay:160ms;transition-duration:160ms;transition-timing-function:ease-in}.tabnav-item.tabnav-item-active .tabnav-link{opacity:1;cursor:auto}.tabnav-label{display:block}.tabnav-indicator{position:absolute;top:var(--tabnav-platter-padding);left:var(--tabnav-indicator-start);bottom:var(--tabnav-platter-padding);width:calc(var(--tabnav-indicator-width) - 1px);height:calc(100% - var(--tabnav-platter-padding)*2);background-color:var(--tabnav-indicator-background);border-radius:999px;pointer-events:none;z-index:0;transition-property:left,width;transition-duration:var(--tabnav-motion-indicator-transform-duration);transition-timing-function:ease-out}.oberon-tabnav .tabnav-link:focus{outline:none}.tabnav:focus-within:has(.tabnav-link:focus-visible) .tabnav-indicator{outline:2px solid var(--sk-focus-color, #0071e3);outline-offset:2px}@media (prefers-color-scheme: dark){:root{--sk-body-text-color: rgb(245, 245, 247);--sk-headline-text-color: rgb(245, 245, 247);--sk-body-background-color: rgb(0, 0, 0);--sk-body-link-color: rgb(41, 151, 255)}body{--sk-glyph: rgb(255, 255, 255);--sk-glyph-gray: rgb(245, 245, 247);--sk-glyph-gray-alpha: rgba(255, 255, 255, .92);--sk-glyph-gray-secondary: rgb(134, 134, 139);--sk-glyph-gray-secondary-alpha: rgba(255, 255, 255, .56);--sk-glyph-blue: rgb(41, 151, 255);--sk-fill: rgb(0, 0, 0);--sk-fill-secondary: rgb(22, 22, 23);--sk-fill-tertiary: rgb(29, 29, 31);--sk-fill-gray: rgb(245, 245, 247);--sk-fill-gray-quaternary: rgb(51, 51, 54)}.tabnav{--tabnav-platter-background:rgb(51, 51, 54);--tabnav-item-color:rgb(255, 255, 255);--tabnav-item-color-active:rgb(0, 0, 0);--tabnav-paddle-color:rgba(255, 255, 255, .8);--tabnav-paddle-color-hover:rgb(255, 255, 255);--tabnav-paddle-icon-opacity-disabled:0.36;--tabnav-indicator-background:rgb(245, 245, 247);--tabnav-focus-color:rgb(255, 255, 255)}}",
+        "sourceUrl": "https://support.apple.com/en-us/111841",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "Apple M4",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/111841",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "Chip   Apple M2 chip     8-core CPU with 4 performance cores and 4 efficiency cores    10-core GPU    16-core Neural Engine    100GB/s memory bandwidth    8GB RAM on models with 128GB, 256GB, or 512GB storage    16GB RAM on models with 1TB or 2TB storage     Media engine     Hardware-accelerated H.264, HEVC, ProRes, and ProRes RAW    Video decode engine    Video encode engine    ProRes encode and decode engine",
+        "sourceUrl": "https://support.apple.com/en-us/111841",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "storage": {
+        "value": "256GB / 512GB / 1TB / 2TB",
+        "unit": null,
+        "rawText": "Capacity 1     128GB    256GB    512GB    1TB    2TB",
+        "sourceUrl": "https://support.apple.com/en-us/111841",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "rearCamera": {
+        "value": "12MP Wide camera, f/1.8",
+        "unit": null,
+        "rawText": "Camera    Pro camera system: Wide and Ultra Wide cameras    Wide: 12MP, ƒ/1.8 aperture    Ultra Wide: 10MP, ƒ/2.4 aperture, and 125° field of view    2x optical zoom out    Digital zoom up to 5x    Five‑element lens (Wide and Ultra Wide)    Brighter True Tone flash    Panorama (up to 63MP)    Sapphire crystal lens cover    Autofocus with Focus Pixels (Wide)    Smart HDR 4    Wide color capture for photos and Live Photos    Lens correction (Ultra Wide)    Advanced red-eye correction    Photo geotagging    Auto image stabilization    Burst mode    Image formats captured: HEIF and JPEG",
+        "sourceUrl": "https://support.apple.com/en-us/111841",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "frontCamera": {
+        "value": "TrueDepth camera with Face ID",
+        "unit": null,
+        "rawText": "TrueDepth Camera    12MP Ultra Wide camera, 122° field of view    ƒ/2.4 aperture    Portrait mode with advanced bokeh and Depth Control    Portrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High‑Key Mono)    Animoji and Memoji    Smart HDR 4    1080p HD video recording at 25 fps, 30 fps, or 60 fps    Time‑lapse video with stabilization    Extended dynamic range for video up to 30 fps    Cinematic video stabilization (1080p and 720p)    Wide color capture for photos and Live Photos    Lens correction    Retina Flash    Auto image stabilization    Burst mode",
+        "sourceUrl": "https://support.apple.com/en-us/111841",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "speakers": {
+        "value": "Four speaker audio",
+        "unit": null,
+        "rawText": "Speakers    Four speaker audio",
+        "sourceUrl": "https://support.apple.com/en-us/111841",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "microphone": {
+        "value": "Five studio-quality microphones",
+        "unit": null,
+        "rawText": "Microphones    Five studio-quality microphones for calls, video recording, and audio recording",
+        "sourceUrl": "https://support.apple.com/en-us/111841",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "pencilSupport": {
+        "value": "Apple Pencil Pro, Apple Pencil (USB-C)",
+        "unit": null,
+        "rawText": "Buttons and Connectors       Front camera    Top button    Volume buttons    Rear cameras    Flash    LiDAR Scanner    Smart Connector    Thunderbolt / USB 4 connector    SIM tray (Wi-Fi + Cellular)    Magnetic connector for Apple Pencil",
+        "sourceUrl": "https://support.apple.com/en-us/111841",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "port": {
+        "value": "Thunderbolt / USB 4",
+        "unit": null,
+        "rawText": "Buttons and Connectors       Front camera    Top button    Volume buttons    Rear cameras    Flash    LiDAR Scanner    Smart Connector    Thunderbolt / USB 4 connector    SIM tray (Wi-Fi + Cellular)    Magnetic connector for Apple Pencil",
+        "sourceUrl": "https://support.apple.com/en-us/111841",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "security": {
+        "value": "Face ID",
+        "unit": null,
+        "rawText": "Sensors    Face ID    LiDAR Scanner    Three-axis gyro    Accelerometer    Barometer    Ambient light sensor",
+        "sourceUrl": "https://support.apple.com/en-us/111841",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "Wi-Fi 6E (802.11ax)",
+        "unit": null,
+        "rawText": "Size and Weight 2      Wi-Fi models     Width: 8.46 inches (214.9 mm)    Height: 11.04 inches (280.6 mm)    Depth: 0.25 inch (6.4 mm)    Weight: 1.5 pounds (682 grams)       Wi-Fi + Cellular models     Width: 8.46 inches (214.9 mm)    Height: 11.04 inches (280.6 mm)    Depth: 0.25 inch (6.4 mm)    Weight: 1.51 pounds (685 grams)",
+        "sourceUrl": "https://support.apple.com/en-us/111841",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "Bluetooth 5.3",
+        "unit": null,
+        "rawText": "Cellular and Wireless     All models     Wi‑Fi 6E (802.11ax) with 2x2 MIMO; speeds up to 2.4 Gbps 4     Simultaneous dual band    Bluetooth 5.3       Wi-Fi + Cellular models     5G (sub‑6 GHz and mmWave) with 4x4 MIMO    Gigabit LTE with 4x4 MIMO and LAA       Model A2435 and A2764:     5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n66, n70, n71, n77, n78, n79) 5     5G NR mmWave (Bands n258, n260, n261)    FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 66, 71)    TD-LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48)    UMTS/HSPA/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)    Data only 6     Wi-Fi calling 5     eSIM 7        Learn more about cellular   For details on 5G and LTE support, contact your carrier and see  apple.com/ipad/cellular/networks.",
+        "sourceUrl": "https://support.apple.com/en-us/111841",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "externalDisplay": {
+        "value": "Supports one external display up to 6K at 60Hz",
+        "unit": null,
+        "rawText": "Display Support     Supports full native resolution on the built-in display at millions of colors     Supports one external display with up to 6K resolution at 60Hz       Thunderbolt 3 digital video output     Native DisplayPort output over USB-C    VGA, HDMI, DVI, and Thunderbolt 2 output supported using adapters (sold separately) 9        Video mirroring     Up to 4K AirPlay for mirroring, photos, and video out to Apple TV (2nd generation or later) or AirPlay‑enabled smart TV    Video mirroring and video out support through USB-C Digital AV Multiport Adapter and USB-C VGA Multiport Adapter (adapters sold separately) 9",
+        "sourceUrl": "https://support.apple.com/en-us/111841",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      }
+    },
+    {
+      "id": "macbook-air-15-m4-2025",
+      "brand": "Apple",
+      "category": "laptop",
+      "series": "MacBook Air",
+      "modelName": "MacBook Air 15-inch (M4)",
+      "generation": "M4 15-inch",
+      "releaseYear": 2025,
+      "screenSize": {
+        "value": 15.3,
+        "unit": "inch",
+        "rawText": "15.3-inch (diagonal) LED-backlit display with IPS technology;  2    2880-by-1864 native resolution at 224 pixels per inch",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301087",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Liquid Retina display, LED-backlit, IPS technology",
+        "unit": null,
+        "rawText": "Liquid Retina display",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301087",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "2880 x 1864",
+        "unit": null,
+        "rawText": "15.3-inch (diagonal) LED-backlit display with IPS technology;  2    2880-by-1864 native resolution at 224 pixels per inch",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301087",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "Apple M4",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301087",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "16-core Neural Engine",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301087",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 1510,
+        "unit": null,
+        "rawText": "Weight:  3.3 pounds (1.51 kg)  6",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301087",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "webcam": {
+        "value": "12MP Center Stage camera with support for Desk View",
+        "unit": null,
+        "rawText": "12MP Center Stage camera with support for Desk View",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301087",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "speakers": {
+        "value": "Six-speaker sound system with Spatial Audio",
+        "unit": null,
+        "rawText": "Six-speaker sound system with force-cancelling woofers",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301087",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "microphone": {
+        "value": "Three-mic array with directional beamforming",
+        "unit": null,
+        "rawText": "Three-mic array with directional beamforming",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301087",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "keyboard": {
+        "value": "Backlit Magic Keyboard",
+        "unit": null,
+        "rawText": "Backlit Magic Keyboard with:",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301087",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "trackpad": {
+        "value": "Force Touch trackpad",
+        "unit": null,
+        "rawText": "Force Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing, and Multi‑Touch gestures",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301087",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "thunderbolt": {
+        "value": "Thunderbolt 4 (up to 40Gb/s)",
+        "unit": null,
+        "rawText": "Two Thunderbolt 4 (USB-C) ports with support for:",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301087",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "usbC": {
+        "value": "Two Thunderbolt 4 (USB-C) ports",
+        "unit": null,
+        "rawText": "Two Thunderbolt 4 (USB-C) ports with support for:",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301087",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasMagSafe": {
+        "value": true,
+        "unit": null,
+        "rawText": "USB-C to MagSafe 3 Cable (2 m)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301087",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasTouchId": {
+        "value": true,
+        "unit": null,
+        "rawText": "Touch ID",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301087",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "Wi-Fi 6E (802.11ax)",
+        "unit": null,
+        "rawText": "Wi-Fi 7 (802.11be)  4",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301087",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "Bluetooth 5.3",
+        "unit": null,
+        "rawText": "Bluetooth 6",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301087",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "externalDisplay": {
+        "value": "Supports up to two external displays",
+        "unit": null,
+        "rawText": "External Display Support",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301087",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "powerAdapter": {
+        "value": "35W Dual USB-C Port Compact Power Adapter or 70W USB-C Power Adapter",
+        "unit": null,
+        "rawText": "35W Dual USB‑C Port Compact Power Adapter or",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301087",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      }
+    },
+    {
+      "id": "macbook-pro-14-m4-2024",
+      "brand": "Apple",
+      "category": "laptop",
+      "series": "MacBook Pro",
+      "modelName": "MacBook Pro 14-inch (M4)",
+      "generation": "M4 14-inch",
+      "releaseYear": 2024,
+      "screenSize": {
+        "value": 14.2,
+        "unit": "inch",
+        "rawText": "14.2-inch (diagonal) Liquid Retina XDR display;  2   3024-by-1964 native resolution at 254 pixels per inch",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301068",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Liquid Retina XDR display, ProMotion",
+        "unit": null,
+        "rawText": "Liquid Retina XDR display",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301068",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "3024 x 1964",
+        "unit": null,
+        "rawText": "14.2-inch (diagonal) Liquid Retina XDR display;  2   3024-by-1964 native resolution at 254 pixels per inch",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301068",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 120,
+        "unit": "Hz",
+        "rawText": "ProMotion technology for adaptive refresh rates up to 120Hz",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301068",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "Apple M4",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301068",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "16-core Neural Engine",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301068",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 1550,
+        "unit": null,
+        "rawText": "Weight (M5):  3.4 pounds (1.55 kg)  8",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301068",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "webcam": {
+        "value": "12MP Center Stage camera with support for Desk View",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301068",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "speakers": {
+        "value": "Six-speaker sound system with Spatial Audio",
+        "unit": null,
+        "rawText": "High-fidelity six-speaker sound system with force-cancelling woofers",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301068",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "microphone": {
+        "value": "Studio-quality three-mic array",
+        "unit": null,
+        "rawText": "Studio-quality three-mic array with high signal-to-noise ratio and directional beamforming",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301068",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "keyboard": {
+        "value": "Backlit Magic Keyboard",
+        "unit": null,
+        "rawText": "Keyboard and Trackpad",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301068",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "trackpad": {
+        "value": "Force Touch trackpad",
+        "unit": null,
+        "rawText": "Keyboard and Trackpad",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301068",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "thunderbolt": {
+        "value": "Thunderbolt 4 (up to 40Gb/s)",
+        "unit": null,
+        "rawText": "Three Thunderbolt 4 (USB-C) ports with support for:",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301068",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "usbC": {
+        "value": "Three Thunderbolt 4 (USB-C) ports",
+        "unit": null,
+        "rawText": "Three Thunderbolt 4 (USB-C) ports with support for:",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301068",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasHDMI": {
+        "value": true,
+        "unit": null,
+        "rawText": "HDMI port",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301068",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasSDXC": {
+        "value": true,
+        "unit": null,
+        "rawText": "SDXC card slot",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301068",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasMagSafe": {
+        "value": true,
+        "unit": null,
+        "rawText": "USB-C to MagSafe 3 Cable (2 m)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301068",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasTouchId": {
+        "value": true,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301068",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "Wi-Fi 6E (802.11ax)",
+        "unit": null,
+        "rawText": "Wi-Fi 6E (802.11ax)  6",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301068",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "Bluetooth 5.3",
+        "unit": null,
+        "rawText": "Bluetooth 5.3",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301068",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "externalDisplay": {
+        "value": "Supports up to two external displays",
+        "unit": null,
+        "rawText": "External Display Support",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301068",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "powerAdapter": {
+        "value": "70W USB-C Power Adapter",
+        "unit": null,
+        "rawText": "70W USB-C Power Adapter",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301068",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      }
+    },
+    {
+      "id": "macbook-pro-16-m4-pro-max-2024",
+      "brand": "Apple",
+      "category": "laptop",
+      "series": "MacBook Pro",
+      "modelName": "MacBook Pro 16-inch (M4 Pro/Max)",
+      "generation": "M4 Pro/Max 16-inch",
+      "releaseYear": 2024,
+      "screenSize": {
+        "value": 16.2,
+        "unit": "inch",
+        "rawText": "16.2-inch (diagonal) Liquid Retina XDR display;  2   3456-by-2234 native resolution at 254 pixels per inch",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301070",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "displayType": {
+        "value": "Liquid Retina XDR display, ProMotion",
+        "unit": null,
+        "rawText": "Liquid Retina XDR display",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301070",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "resolution": {
+        "value": "3456 x 2234",
+        "unit": null,
+        "rawText": "16.2-inch (diagonal) Liquid Retina XDR display;  2   3456-by-2234 native resolution at 254 pixels per inch",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301070",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "refreshRate": {
+        "value": 120,
+        "unit": "Hz",
+        "rawText": "ProMotion technology for adaptive refresh rates up to 120Hz",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301070",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "chip": {
+        "value": "Apple M4 Pro or M4 Max",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301070",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "neuralEngine": {
+        "value": "16-core Neural Engine",
+        "unit": null,
+        "rawText": "16-core Neural Engine",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301070",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "weight": {
+        "value": 2140,
+        "unit": null,
+        "rawText": "Weight (M5 Pro):  4.7 pounds (2.14 kg)  8",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301070",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "webcam": {
+        "value": "12MP Center Stage camera with support for Desk View",
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301070",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "speakers": {
+        "value": "Six-speaker sound system with Spatial Audio",
+        "unit": null,
+        "rawText": "High-fidelity six-speaker sound system with force-cancelling woofers",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301070",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "microphone": {
+        "value": "Studio-quality three-mic array",
+        "unit": null,
+        "rawText": "Studio-quality three-mic array with high signal-to-noise ratio and directional beamforming",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301070",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "keyboard": {
+        "value": "Backlit Magic Keyboard",
+        "unit": null,
+        "rawText": "Keyboard and Trackpad",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301070",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "trackpad": {
+        "value": "Force Touch trackpad",
+        "unit": null,
+        "rawText": "Keyboard and Trackpad",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301070",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "thunderbolt": {
+        "value": "Thunderbolt 5 (up to 120Gb/s)",
+        "unit": null,
+        "rawText": "Thunderbolt 5 (USB-C) ports support native DisplayPort 2.1 speeds",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301070",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "usbC": {
+        "value": "Three Thunderbolt 5 (USB-C) ports",
+        "unit": null,
+        "rawText": "Three Thunderbolt 4 (USB-C) ports with support for:",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301070",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasHDMI": {
+        "value": true,
+        "unit": null,
+        "rawText": "HDMI port",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301070",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasSDXC": {
+        "value": true,
+        "unit": null,
+        "rawText": "SDXC card slot",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301070",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasMagSafe": {
+        "value": true,
+        "unit": null,
+        "rawText": "USB-C to MagSafe 3 Cable (2 m)",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301070",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "hasTouchId": {
+        "value": true,
+        "unit": null,
+        "rawText": null,
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301070",
+        "sourceType": "apple",
+        "confidence": 1,
+        "verifiedAt": "2026-06-25"
+      },
+      "wifi": {
+        "value": "Wi-Fi 6E (802.11ax)",
+        "unit": null,
+        "rawText": "Wi-Fi 6E (802.11ax)  6",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301070",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "bluetooth": {
+        "value": "Bluetooth 5.3",
+        "unit": null,
+        "rawText": "Bluetooth 5.3",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301070",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "externalDisplay": {
+        "value": "Supports up to four external displays",
+        "unit": null,
+        "rawText": "External Display Support",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301070",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      },
+      "powerAdapter": {
+        "value": "140W USB-C Power Adapter",
+        "unit": null,
+        "rawText": "140W USB-C Power Adapter",
+        "sourceUrl": "https://support.apple.com/en-us/docs/mac/301070",
+        "sourceType": "apple",
+        "confidence": 0.9,
+        "verifiedAt": "2026-06-25"
+      }
+    }
+  ]
+}
