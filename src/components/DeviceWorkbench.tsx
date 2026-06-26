@@ -933,6 +933,76 @@ export default function DeviceWorkbench() {
               </div>
             </section>
 
+            {/* AI 分析 */}
+            <section className="card overflow-hidden">
+              <div className="border-b border-[#E8E4DC] p-5">
+                <div className="flex items-center gap-2">
+                  <p className="text-sm font-semibold text-[#1E293B]">AI 分析</p>
+                  <span className="rounded-full bg-[#EEF2FF] px-2 py-0.5 text-[10px] font-medium text-[#3B82F6]">基于规则</span>
+                </div>
+              </div>
+
+              <div className="grid gap-5 p-5 sm:grid-cols-3">
+                {/* 配置升级预测 */}
+                <div>
+                  <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">配置升级预测</p>
+                  <div className="mt-2">
+                    <p className="text-xs text-[#64748B]">下一代芯片</p>
+                    <p className="mt-0.5 text-sm font-semibold text-[#3B82F6]">
+                      {(() => {
+                        const c = latestDevice?.chip || previousDevice?.chip || "";
+                        const m = c.match(/([AM])(\d+)/);
+                        return m ? `${m[1]}${parseInt(m[2]) + 1}` : "暂无法预测芯片代际";
+                      })()}
+                    </p>
+                    {latestDevice?.model && (
+                      <p className="mt-1 text-[11px] text-[#94A3B8]">基于 {latestDevice.model} 推断</p>
+                    )}
+                  </div>
+                </div>
+
+                {/* 购买建议 */}
+                <div>
+                  <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">购买建议</p>
+                  <p className="mt-2 text-xs leading-relaxed text-[#64748B]">
+                    {changedSpecs.length >= 4
+                      ? "升级幅度较大，适合关注新款或等待下一代。"
+                      : changedSpecs.length >= 1
+                        ? "已有明确升级，适合按预算选择当前代。"
+                        : "近两代变化有限，建议优先关注价格。"}
+                  </p>
+                  {latestDevice?.model && (
+                    <p className="mt-1 text-[11px] text-[#94A3B8]">基于 {latestDevice.model} 当前信息</p>
+                  )}
+                </div>
+
+                {/* 代际变化总结 */}
+                <div>
+                  <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">代际变化总结</p>
+                  <div className="mt-2 space-y-1.5">
+                    {changedSpecs.length === 0 ? (
+                      <p className="text-xs text-[#94A3B8]">近两代暂无明显参数变化。</p>
+                    ) : (
+                      changedSpecs.slice(0, 3).map((spec, i) => (
+                        <p key={i} className="text-xs text-[#64748B]">
+                          <span className="font-medium text-[#1E293B]">{spec.label}</span>
+                          {previousDevice && latestDevice ? (
+                            <span>：{spec.getValue(previousDevice)} → {spec.getValue(latestDevice)}</span>
+                          ) : (
+                            <span>：—</span>
+                          )}
+                        </p>
+                      ))
+                    )}
+                  </div>
+                </div>
+              </div>
+
+              <div className="border-t border-[#E8E4DC] px-5 py-2.5">
+                <p className="text-[10px] text-[#94A3B8]">AI 分析基于已收录设备的结构化数据生成，结论仅供参考。</p>
+              </div>
+            </section>
+
             {/* 详细对比 */}
             <section className="card overflow-hidden">
               <div className="flex items-center justify-between border-b border-[#E8E4DC] p-5">
