@@ -1,7 +1,8 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { Device, DeviceCategory } from "@/lib/devices-db";
+import type { AiAnalysisOutput, AnalysisType } from "@/lib/ai-analysis";
 import {
   categoryLabels,
   categoryNames,
@@ -37,6 +38,11 @@ type QuickMetric = {
   label: string;
 };
 
+type AnalysisMode = {
+  key: AnalysisType;
+  label: string;
+};
+
 // 折线图下方显示的快捷切换按钮列表
 const quickMetrics: QuickMetric[] = [
   { key: "chip", label: "芯片" },
@@ -44,6 +50,13 @@ const quickMetrics: QuickMetric[] = [
   { key: "weight", label: "重量" },
   { key: "price", label: "价格" },
   { key: "ai", label: "AI 能力" },
+];
+
+const analysisModes: AnalysisMode[] = [
+  { key: "generation_summary", label: "总结" },
+  { key: "trend_prediction", label: "预测" },
+  { key: "buying_advice", label: "建议" },
+  { key: "comparison_explanation", label: "解释" },
 ];
 
 // ==================== 折线图指标配置 ====================
@@ -602,6 +615,10 @@ export default function DeviceWorkbench() {
   const [range, setRange] = useState<RangeKey>("recent3");  // 对比范围：近3代/近4代/全部
   const [activeCategoryKey, setActiveCategoryKey] = useState<CategoryKey>("display");  // 当前选中的功能分类
   const [quickMetricKey, setQuickMetricKey] = useState<MetricKey>("chip");  // 折线图当前显示的指标
+  const [analysisType, setAnalysisType] = useState<AnalysisType>("generation_summary");
+  const [aiAnalysis, setAiAnalysis] = useState<AiAnalysisOutput | null>(null);
+  const [aiAnalysisLoading, setAiAnalysisLoading] = useState(false);
+  const [aiAnalysisError, setAiAnalysisError] = useState<string | null>(null);
 
   // ---- 数据计算 ----
   // 获取当前系列的所有设备，按代际排序
@@ -628,15 +645,95 @@ export default function DeviceWorkbench() {
   const latestDevice = seriesDevices[seriesDevices.length - 1];
   const previousDevice = seriesDevices[seriesDevices.length - 2];
   // 计算最新两代之间发生变化的规格项
-  const changedSpecs = latestDevice
-    ? activeCategory.specs.filter((spec) => {
+  const changedSpecs = useMemo(
+    () => latestDevice
+      ? activeCategory.specs.filter((spec) => {
         if (!previousDevice) {
           return false;
         }
 
         return spec.getValue(previousDevice) !== spec.getValue(latestDevice);
       })
-    : [];
+      : [],
+    [activeCategory, latestDevice, previousDevice],
+  );
+
+  const changedFields = useMemo(
+    () => changedSpecs.map((spec) => ({
+      label: spec.label,
+      currentValue: latestDevice ? spec.getValue(latestDevice) : pending,
+      previousValue: previousDevice ? spec.getValue(previousDevice) : pending,
+    })),
+    [changedSpecs, latestDevice, previousDevice],
+  );
+
+  useEffect(() => {
+    if (!selectedSeries || seriesDevices.length === 0) {
+      return;
+    }
+
+    const controller = new AbortController();
+    let isActive = true;
+
+    queueMicrotask(() => {
+      if (!isActive) return;
+      setAiAnalysisLoading(true);
+      setAiAnalysisError(null);
+    });
+
+    fetch("/api/ai-analysis", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        seriesName: selectedSeries,
+        category: selectedCategory,
+        analysisType,
+        categoryLabel: activeCategory.label,
+        devices: seriesDevices,
+        latestDevice: latestDevice ?? null,
+        previousDevice: previousDevice ?? null,
+        changedFields,
+      }),
+      signal: controller.signal,
+    })
+      .then(async (response) => {
+        if (!response.ok) {
+          const error = await response.json().catch(() => null) as { error?: string } | null;
+          throw new Error(error?.error ?? "AI 分析请求失败");
+        }
+
+        return response.json() as Promise<AiAnalysisOutput>;
+      })
+      .then((result) => {
+        if (!isActive) return;
+        setAiAnalysis(result);
+      })
+      .catch((error) => {
+        if (!isActive || error instanceof DOMException && error.name === "AbortError") return;
+        setAiAnalysis(null);
+        setAiAnalysisError(error instanceof Error ? error.message : "AI 分析请求失败");
+      })
+      .finally(() => {
+        if (!isActive) return;
+        setAiAnalysisLoading(false);
+      });
+
+    return () => {
+      isActive = false;
+      controller.abort();
+    };
+  }, [
+    activeCategory.label,
+    analysisType,
+    changedFields,
+    latestDevice,
+    previousDevice,
+    selectedCategory,
+    selectedSeries,
+    seriesDevices,
+  ]);
 
   // 切换产品类别时，自动选择该类别的第一个系列，并重置功能分类为第一个
   const handleCategoryChange = (category: DeviceCategory) => {
@@ -646,6 +743,22 @@ export default function DeviceWorkbench() {
     setSelectedSeries(nextSeries);
     setActiveCategoryKey(nextCategories[0]?.key ?? "design");
   };
+
+  const aiSourceLabel = aiAnalysisLoading
+    ? "生成中"
+    : aiAnalysis?.source === "ai"
+      ? "AI API"
+      : aiAnalysis?.source === "rules"
+        ? "规则 fallback"
+        : "待生成";
+  const aiSummary = aiAnalysisLoading
+    ? "正在根据当前系列和维度生成观察结论。"
+    : aiAnalysis?.summary ?? "选择设备系列和对比维度后生成观察结论。";
+  const aiPrediction = aiAnalysis?.prediction ?? "当前数据不足，暂无法给出趋势预测。";
+  const aiBuyingAdvice = aiAnalysis?.buyingAdvice ?? "等待当前维度分析完成后再给出购买建议。";
+  const aiConfidence = typeof aiAnalysis?.confidence === "number"
+    ? `${Math.round(aiAnalysis.confidence * 100)}%`
+    : "—";
 
   return (
     <main className="min-h-screen text-[#1E293B]">
@@ -718,29 +831,37 @@ export default function DeviceWorkbench() {
 
               {/* AI 观察 — 紧凑单区块 */}
               <div className="rounded-xl bg-[#FFFDF8] px-4 py-3 shadow-sm ring-1 ring-[#E8E4DC]">
-                <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">🔮 AI 观察</p>
+                <div className="flex items-center justify-between gap-3">
+                  <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">🔮 AI 观察</p>
+                  <span className={`rounded-full px-2 py-0.5 text-[10px] font-medium ${
+                    aiAnalysisLoading
+                      ? "bg-[#FFF7ED] text-[#D97706]"
+                      : aiAnalysis?.source === "ai"
+                        ? "bg-[#EEF2FF] text-[#3B82F6]"
+                        : "bg-[#F0FDF4] text-[#16A34A]"
+                  }`}>
+                    {aiSourceLabel}
+                  </span>
+                </div>
                 <div className="mt-2 space-y-1.5 text-[11px]">
                   <div className="flex items-center justify-between gap-4">
-                    <span className="text-[#94A3B8] shrink-0">下一代芯片</span>
+                    <span className="shrink-0 text-[#94A3B8]">分析模式</span>
                     <span className="font-semibold text-[#3B82F6]">
-                      {(() => { const c = latestDevice?.chip || ""; const m = c.match(/([AM])(\d+)/); return m ? `${m[1]}${parseInt(m[2])+1}` : "—"; })()}
+                      {analysisModes.find((mode) => mode.key === analysisType)?.label ?? "总结"}
                     </span>
                   </div>
                   <div className="flex items-center justify-between gap-4">
-                    <span className="text-[#94A3B8] shrink-0">AI 能力</span>
-                    <span className="font-semibold text-[#06B6D4]">{latestDevice?.aiFeatureLevel ? `${Math.min(latestDevice.aiFeatureLevel+1,10)}/10` : "—"}</span>
+                    <span className="shrink-0 text-[#94A3B8]">可信度</span>
+                    <span className="font-semibold text-[#06B6D4]">{aiConfidence}</span>
                   </div>
-                  <div className="flex items-center justify-between gap-4">
-                    <span className="text-[#94A3B8] shrink-0">购买建议</span>
-                    <span className="font-semibold text-[#1E293B] text-right">
-                      {(() => {
-                        const count = changedSpecs.length;
-                        return count > 5 ? "升级幅度大，建议等待" : count > 2 ? "现在入手，升级明显" : "暂无显著升级，观望";
-                      })()}
-                    </span>
+                  <div>
+                    <span className="text-[#94A3B8]">摘要</span>
+                    <p className="mt-0.5 line-clamp-2 font-semibold leading-relaxed text-[#1E293B]">{aiSummary}</p>
                   </div>
                 </div>
-                <p className="mt-2 border-t border-[#E8E4DC] pt-1.5 text-[10px] text-[#94A3B8]">AI 结论基于已收录数据生成，仅供参考</p>
+                <p className="mt-2 border-t border-[#E8E4DC] pt-1.5 text-[10px] text-[#94A3B8]">
+                  {aiAnalysis?.disclaimer ?? "AI 结论基于已收录数据生成，仅供参考"}
+                </p>
               </div>
             </div>
           </div>
@@ -934,71 +1055,99 @@ export default function DeviceWorkbench() {
 
             {/* AI 分析 */}
             <section className="card overflow-hidden">
-              <div className="border-b border-[#E8E4DC] p-5">
-                <div className="flex items-center gap-2">
-                  <p className="text-sm font-semibold text-[#1E293B]">AI 分析</p>
-                  <span className="rounded-full bg-[#EEF2FF] px-2 py-0.5 text-[10px] font-medium text-[#3B82F6]">基于规则</span>
+              <div className="flex flex-col gap-3 border-b border-[#E8E4DC] p-5 lg:flex-row lg:items-center lg:justify-between">
+                <div>
+                  <div className="flex items-center gap-2">
+                    <p className="text-sm font-semibold text-[#1E293B]">AI 分析</p>
+                    <span className={`rounded-full px-2 py-0.5 text-[10px] font-medium ${
+                      aiAnalysisLoading
+                        ? "bg-[#FFF7ED] text-[#D97706]"
+                        : aiAnalysis?.source === "ai"
+                          ? "bg-[#EEF2FF] text-[#3B82F6]"
+                          : "bg-[#F0FDF4] text-[#16A34A]"
+                    }`}>
+                      {aiSourceLabel}
+                    </span>
+                  </div>
+                  <p className="mt-1 text-xs text-[#94A3B8]">{selectedSeries} · {activeCategory.label}</p>
+                </div>
+                <div className="grid grid-cols-4 gap-1 rounded-lg bg-[#F5F0E8] p-1">
+                  {analysisModes.map((mode) => (
+                    <button
+                      key={mode.key}
+                      className={`h-8 rounded-md px-2 text-xs font-medium transition ${
+                        analysisType === mode.key
+                          ? "bg-white text-[#3B82F6] shadow-sm"
+                          : "text-[#64748B] hover:text-[#1E293B]"
+                      }`}
+                      type="button"
+                      onClick={() => setAnalysisType(mode.key)}
+                    >
+                      {mode.label}
+                    </button>
+                  ))}
                 </div>
               </div>
 
-              <div className="grid gap-5 p-5 sm:grid-cols-3">
-                {/* 配置升级预测 */}
+              <div className="grid gap-6 p-5 lg:grid-cols-[1.05fr_0.95fr]">
                 <div>
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">配置升级预测</p>
-                  <div className="mt-2">
-                    <p className="text-xs text-[#64748B]">下一代芯片</p>
-                    <p className="mt-0.5 text-sm font-semibold text-[#3B82F6]">
-                      {(() => {
-                        const c = latestDevice?.chip || previousDevice?.chip || "";
-                        const m = c.match(/([AM])(\d+)/);
-                        return m ? `${m[1]}${parseInt(m[2]) + 1}` : "暂无法预测芯片代际";
-                      })()}
-                    </p>
-                    {latestDevice?.model && (
-                      <p className="mt-1 text-[11px] text-[#94A3B8]">基于 {latestDevice.model} 推断</p>
-                    )}
+                  <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">观察摘要</p>
+                  <p className="mt-2 text-sm font-semibold leading-6 text-[#1E293B]">{aiSummary}</p>
+                  {aiAnalysisError && (
+                    <p className="mt-2 rounded-lg bg-[#FEF2F2] px-3 py-2 text-xs text-[#DC2626]">{aiAnalysisError}</p>
+                  )}
+
+                  <div className="mt-4 grid gap-4 sm:grid-cols-2">
+                    <div>
+                      <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">事实依据</p>
+                      <div className="mt-2 space-y-1.5">
+                        {(aiAnalysis?.facts.length ? aiAnalysis.facts : ["等待 AI 分析返回结构化事实。"]).map((fact, index) => (
+                          <p key={`${fact}-${index}`} className="text-xs leading-relaxed text-[#64748B]">
+                            <span className="mr-1 font-semibold text-[#3B82F6]">{index + 1}.</span>{fact}
+                          </p>
+                        ))}
+                      </div>
+                    </div>
+
+                    <div>
+                      <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">观察洞察</p>
+                      <div className="mt-2 space-y-1.5">
+                        {(aiAnalysis?.insights.length ? aiAnalysis.insights : ["正在把事实转换为观察结论。"]).map((insight, index) => (
+                          <p key={`${insight}-${index}`} className="text-xs leading-relaxed text-[#64748B]">
+                            <span className="mr-1 font-semibold text-[#06B6D4]">{index + 1}.</span>{insight}
+                          </p>
+                        ))}
+                      </div>
+                    </div>
                   </div>
                 </div>
 
-                {/* 购买建议 */}
-                <div>
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">购买建议</p>
-                  <p className="mt-2 text-xs leading-relaxed text-[#64748B]">
-                    {changedSpecs.length >= 4
-                      ? "升级幅度较大，适合关注新款或等待下一代。"
-                      : changedSpecs.length >= 1
-                        ? "已有明确升级，适合按预算选择当前代。"
-                        : "近两代变化有限，建议优先关注价格。"}
-                  </p>
-                  {latestDevice?.model && (
-                    <p className="mt-1 text-[11px] text-[#94A3B8]">基于 {latestDevice.model} 当前信息</p>
-                  )}
-                </div>
+                <div className="space-y-4">
+                  <div>
+                    <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">趋势预测</p>
+                    <p className="mt-2 text-xs leading-relaxed text-[#64748B]">{aiPrediction}</p>
+                  </div>
 
-                {/* 代际变化总结 */}
-                <div>
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">代际变化总结</p>
-                  <div className="mt-2 space-y-1.5">
-                    {changedSpecs.length === 0 ? (
-                      <p className="text-xs text-[#94A3B8]">近两代暂无明显参数变化。</p>
+                  <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">购买建议</p>
+                  <p className="text-xs leading-relaxed text-[#64748B]">{aiBuyingAdvice}</p>
+
+                  <div>
+                    <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">缺失数据</p>
+                    {aiAnalysis?.missingData.length ? (
+                      <div className="mt-2 flex flex-wrap gap-1.5">
+                        {aiAnalysis.missingData.map((item) => (
+                          <span key={item} className="rounded-full bg-[#F5F0E8] px-2 py-1 text-[11px] text-[#64748B]">{item}</span>
+                        ))}
+                      </div>
                     ) : (
-                      changedSpecs.slice(0, 3).map((spec, i) => (
-                        <p key={i} className="text-xs text-[#64748B]">
-                          <span className="font-medium text-[#1E293B]">{spec.label}</span>
-                          {previousDevice && latestDevice ? (
-                            <span>：{spec.getValue(previousDevice)} → {spec.getValue(latestDevice)}</span>
-                          ) : (
-                            <span>：—</span>
-                          )}
-                        </p>
-                      ))
+                      <p className="mt-2 text-xs text-[#94A3B8]">暂无缺失数据提示。</p>
                     )}
                   </div>
                 </div>
               </div>
 
               <div className="border-t border-[#E8E4DC] px-5 py-2.5">
-                <p className="text-[10px] text-[#94A3B8]">AI 分析基于已收录设备的结构化数据生成，结论仅供参考。</p>
+                <p className="text-[10px] text-[#94A3B8]">{aiAnalysis?.disclaimer ?? "AI 分析基于已收录设备的结构化数据生成，结论仅供参考。"}</p>
               </div>
             </section>
 
