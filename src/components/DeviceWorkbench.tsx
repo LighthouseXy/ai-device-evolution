@@ -1,17 +1,16 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import type { Device, DeviceCategory } from "@/lib/devices-db";
 import {
-  Device,
-  DeviceCategory,
   categoryLabels,
   categoryNames,
   formatCompactCurrency,
   formatMaybeCurrency,
-  getDevicesBySeries,
-  getSeriesByCategory,
-  summaryStats,
-} from "@/lib/devices";
+  getDevicesBySeriesFlat as getDevicesBySeries,
+  getSeriesByCategoryFlat as getSeriesByCategory,
+  summaryStatsFlat as summaryStats,
+} from "@/lib/devices-db";
 
 // ==================== 类型定义 ====================
 // 折线图可切换的指标类型：价格、屏幕尺寸、处理器、摄像头、接口、重量、AI能力
@@ -195,8 +194,8 @@ const metricConfigs: MetricConfig[] = [
   {
     key: "screen",
     label: "尺寸",
-    getValue: (device) => `${device.screenSize} 英寸`,  // 显示为"6.1 英寸"
-    getChartValue: (device) => device.screenSize,       // 数值用于折线图
+    getValue: (device) => typeof device.screenSize === "number" ? `${device.screenSize} 英寸` : "—",
+    getChartValue: (device) => typeof device.screenSize === "number" ? device.screenSize : undefined,
   },
   {
     key: "chip",
@@ -259,7 +258,7 @@ const phoneCategories: ComparisonCategory[] = [
       { label: "颜色", sourceLabel: "外观：颜色", getValue: (device) => specText(device, "colors") },
       { label: "材料", sourceLabel: "外观：材料", getValue: (device) => specText(device, "material") },
       { label: "重量", sourceLabel: "重量", getValue: (device) => specOptional(device, "weightNote") || weightValue(device) },
-      { label: "屏幕尺寸", getValue: (device) => specOptional(device, "screenSizeNote") || `${device.screenSize} 英寸` },
+      { label: "屏幕尺寸", getValue: (device) => specOptional(device, "screenSizeNote") || (typeof device.screenSize === "number" ? `${device.screenSize} 英寸` : "—") },
       { label: "尺寸", sourceLabel: "尺寸与重量", getValue: (device) => specOptional(device, "dimensionsNote") || specText(device, "dimensions") },
     ],
   },
@@ -270,7 +269,7 @@ const phoneCategories: ComparisonCategory[] = [
     description: "屏幕尺寸、显示类型、刷新率、ProMotion 和特殊涂层。",
     trendMetric: "screen",
     specs: [
-      { label: "屏幕尺寸", sourceLabel: "显示屏：屏幕尺寸", getValue: (device) => specOptional(device, "screenSizeNote") || `${device.screenSize} 英寸` },
+      { label: "屏幕尺寸", sourceLabel: "显示屏：屏幕尺寸", getValue: (device) => specOptional(device, "screenSizeNote") || (typeof device.screenSize === "number" ? `${device.screenSize} 英寸` : "—") },
       { label: "显示类型", sourceLabel: "显示屏", getValue: (device) => specText(device, "displayType") },
       {
         label: "刷新率",
@@ -373,7 +372,7 @@ const tabletCategories: ComparisonCategory[] = [
       { label: "颜色", sourceLabel: "外观：颜色", getValue: (device) => specText(device, "colors") },
       { label: "材料", sourceLabel: "外观：材料", getValue: (device) => specText(device, "material") },
       { label: "重量", sourceLabel: "重量", getValue: (device) => specOptional(device, "weightNote") || weightValue(device) },
-      { label: "屏幕尺寸", getValue: (device) => specOptional(device, "screenSizeNote") || `${device.screenSize} 英寸` },
+      { label: "屏幕尺寸", getValue: (device) => specOptional(device, "screenSizeNote") || (typeof device.screenSize === "number" ? `${device.screenSize} 英寸` : "—") },
       { label: "尺寸", sourceLabel: "尺寸与重量", getValue: (device) => specOptional(device, "dimensionsNote") || specText(device, "dimensions") },
     ],
   },
@@ -384,7 +383,7 @@ const tabletCategories: ComparisonCategory[] = [
     description: "屏幕尺寸、显示类型、刷新率、ProMotion 和特殊涂层。",
     trendMetric: "screen",
     specs: [
-      { label: "屏幕尺寸", sourceLabel: "显示屏：屏幕尺寸", getValue: (device) => specOptional(device, "screenSizeNote") || `${device.screenSize} 英寸` },
+      { label: "屏幕尺寸", sourceLabel: "显示屏：屏幕尺寸", getValue: (device) => specOptional(device, "screenSizeNote") || (typeof device.screenSize === "number" ? `${device.screenSize} 英寸` : "—") },
       { label: "显示类型", sourceLabel: "显示屏", getValue: (device) => specText(device, "displayType") },
       {
         label: "刷新率",
@@ -485,7 +484,7 @@ const laptopCategories: ComparisonCategory[] = [
       { label: "颜色", sourceLabel: "外观：颜色", getValue: (device) => specText(device, "colors") },
       { label: "材料", sourceLabel: "外观：材料", getValue: (device) => specText(device, "material") },
       { label: "重量", sourceLabel: "重量", getValue: (device) => specOptional(device, "weightNote") || weightValue(device) },
-      { label: "屏幕尺寸", getValue: (device) => specOptional(device, "screenSizeNote") || `${device.screenSize} 英寸` },
+      { label: "屏幕尺寸", getValue: (device) => specOptional(device, "screenSizeNote") || (typeof device.screenSize === "number" ? `${device.screenSize} 英寸` : "—") },
       { label: "尺寸", sourceLabel: "尺寸与重量", getValue: (device) => specOptional(device, "dimensionsNote") || specText(device, "dimensions") },
     ],
   },
@@ -496,7 +495,7 @@ const laptopCategories: ComparisonCategory[] = [
     description: "屏幕尺寸、显示类型、刷新率、ProMotion 和特殊涂层。",
     trendMetric: "screen",
     specs: [
-      { label: "屏幕尺寸", sourceLabel: "显示屏：屏幕尺寸", getValue: (device) => specOptional(device, "screenSizeNote") || `${device.screenSize} 英寸` },
+      { label: "屏幕尺寸", sourceLabel: "显示屏：屏幕尺寸", getValue: (device) => specOptional(device, "screenSizeNote") || (typeof device.screenSize === "number" ? `${device.screenSize} 英寸` : "—") },
       { label: "显示类型", sourceLabel: "显示屏", getValue: (device) => specText(device, "displayType") },
       {
         label: "刷新率",
@@ -662,17 +661,17 @@ export default function DeviceWorkbench() {
                   <svg className="h-11 w-11" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <defs>
                       <linearGradient id="logoBg" x1="0%" y1="0%" x2="100%" y2="100%">
-                        <stop offset="0%" stop-color="#3B82F6"/>
-                        <stop offset="100%" stop-color="#06B6D4"/>
+                        <stop offset="0%" stopColor="#3B82F6"/>
+                        <stop offset="100%" stopColor="#06B6D4"/>
                       </linearGradient>
                     </defs>
                     <rect x="0" y="0" width="48" height="48" rx="12" fill="url(#logoBg)"/>
-                    <path d="M 6 24 Q 6 14 24 14 Q 42 14 42 24 Q 42 34 24 34 Q 6 34 6 24 Z" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
-                    <path d="M 9 24 Q 9 31 24 31 Q 39 31 39 24" fill="none" stroke="white" stroke-width="1.2" stroke-linecap="round" opacity="0.3"/>
+                    <path d="M 6 24 Q 6 14 24 14 Q 42 14 42 24 Q 42 34 24 34 Q 6 34 6 24 Z" fill="none" stroke="white" strokeWidth="1.8" strokeLinecap="round" opacity="0.55"/>
+                    <path d="M 9 24 Q 9 31 24 31 Q 39 31 39 24" fill="none" stroke="white" strokeWidth="1.2" strokeLinecap="round" opacity="0.3"/>
                     <rect x="17" y="18" width="14" height="12" rx="3" fill="#0B4F6C" opacity="0.85"/>
-                    <rect x="17" y="18" width="14" height="12" rx="3" fill="none" stroke="#E0F2FE" stroke-width="0.8" opacity="0.8"/>
-                    <line x1="19" y1="24" x2="29" y2="24" stroke="#E0F2FE" stroke-width="0.7" opacity="0.7"/>
-                    <line x1="24" y1="19" x2="24" y2="29" stroke="#E0F2FE" stroke-width="0.7" opacity="0.7"/>
+                    <rect x="17" y="18" width="14" height="12" rx="3" fill="none" stroke="#E0F2FE" strokeWidth="0.8" opacity="0.8"/>
+                    <line x1="19" y1="24" x2="29" y2="24" stroke="#E0F2FE" strokeWidth="0.7" opacity="0.7"/>
+                    <line x1="24" y1="19" x2="24" y2="29" stroke="#E0F2FE" strokeWidth="0.7" opacity="0.7"/>
                     <circle cx="24" cy="24" r="1.2" fill="#F6C76E"/>
                     <circle cx="22" cy="22" r="0.8" fill="#22C55E"/>
                     <circle cx="26" cy="22" r="0.8" fill="#F6C76E"/>

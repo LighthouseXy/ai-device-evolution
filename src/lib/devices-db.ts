@@ -195,3 +195,100 @@ export const summaryStats = {
   endYear: Math.max(...allDevices.map((d) => d.releaseYear)),
   fieldsTracked: 45,
 };
+
+// ==================== 向后兼容适配层 ====================
+// 将 DbDevice 展平为旧版 Device 形状，供 DeviceWorkbench 迁移使用
+
+import type { DeviceCategory as DC } from "@/lib/devices-db";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+type _DC = DC; // re-export guard
+
+export type FlattenedDevice = {
+  id: string;
+  brand: string;
+  category: DeviceCategory;
+  series: string;
+  tier?: string;
+  model: string;
+  generation: number;
+  releaseYear: number;
+  chip: string;
+  screenSize?: number;
+  refreshRate?: number;
+  mainCameraMp?: number;
+  telephoto?: string;
+  port?: string;
+  weight?: number;
+  launchPrice?: number;
+  aiFeatureLevel?: number;
+  sourceUrl: string;
+  specs?: Record<string, string | number | boolean | undefined>;
+};
+
+/** 将 DbDevice 转为旧版扁平 Device 形状 */
+export function flattenDevice(db: DbDevice): FlattenedDevice {
+  // specs 展平为 Record<string, string|number|boolean|undefined>
+  const flatSpecs: Record<string, string | number | boolean | undefined> = {};
+  const s = db.specs;
+  for (const key of Object.keys(s)) {
+    const field = (s as Record<string, { value: unknown } | undefined>)[key];
+    if (field && typeof field === "object" && "value" in field) {
+      const v = field.value;
+      if (Array.isArray(v)) flatSpecs[key] = v.join(", ");
+      else if (typeof v === "string" || typeof v === "number" || typeof v === "boolean")
+        flatSpecs[key] = v;
+    }
+  }
+
+  // 解析 mainCameraMp
+  const mainCam = specStr(db.specs?.mainCamera, "") || specStr(db.specs?.rearCamera, "");
+  const mpMatch = mainCam.match(/(\d+)MP/);
+  const mainCameraMp = mpMatch ? parseInt(mpMatch[1]) : undefined;
+
+  return {
+    id: db.id,
+    brand: db.brand,
+    category: db.category,
+    series: db.series,
+    model: db.modelName,
+    generation: db.releaseYear,
+    releaseYear: db.releaseYear,
+    chip: specStr(db.specs?.chip),
+    screenSize: specNum(db.specs?.screenSize) ?? undefined,
+    refreshRate: specNum(db.specs?.refreshRate),
+    mainCameraMp,
+    telephoto: specStr(db.specs?.telephoto) || undefined,
+    port: specStr(db.specs?.port) || undefined,
+    weight: specNum(db.specs?.weight),
+    launchPrice: specNum(db.specs?.launchPrice),
+    aiFeatureLevel: computedVal(db.computed?.aiCapabilityLevel),
+    sourceUrl: db.specs?.chip?.sourceUrl ?? "",
+    specs: flatSpecs,
+  };
+}
+
+/** 预展平的全部设备列表 */
+export const allDevicesFlat: FlattenedDevice[] = allDevices.map(flattenDevice);
+
+/** 展平版 summaryStats */
+export const summaryStatsFlat = {
+  ...summaryStats,
+  modelCount: allDevicesFlat.length,
+};
+
+/** 展平版 getDevicesBySeries */
+export const getDevicesBySeriesFlat = (series: string) =>
+  allDevicesFlat
+    .filter((d) => d.series === series)
+    .sort((a, b) => a.generation - b.generation);
+
+/** 展平版 getSeriesByCategory */
+export const getSeriesByCategoryFlat = (category: DeviceCategory) =>
+  Array.from(
+    new Set(
+      allDevicesFlat.filter((d) => d.category === category).map((d) => d.series),
+    ),
+  );
+
+// Device 类型别名，方便旧代码迁移
+export type Device = FlattenedDevice;
