@@ -23,11 +23,11 @@ DeviceScope / 数码观察站是一个 Apple 设备代际演进分析平台。�
 - 设备顾问体验优化：预算校验、错误提示、四态结果区、推荐层级、场景快捷项、输入摘要。
 - 设备顾问回归：fallback 场景、API 错误路径和 `maxResults` 边界已覆盖。
 - 本地 dev server 修复：开发服务切换到 Webpack + polling，规避当前环境 `EMFILE` watcher 问题。
-- 线程协作规则沉淀：已开始在 `.codex/THREAD_RULES.md` 中整理主控、代码、审查、文档线程职责。
+- 线程协作规则沉淀：已开始在 `THREAD_RULES.md` 中整理主控、代码、审查、文档线程职责。
 
 ### 进行中
 
-- 线程规则与技术点文档整理：需要继续精修 `.codex/THREAD_RULES.md`，并把技术点文件从 `.codex/TECH_NOTES.md` 移到项目根目录或 `docs/`。
+- 线程规则与技术点文档整理：需要继续精修 `THREAD_RULES.md`，并维护 `README.md` 中的技术亮点。
 - 设备顾问前端体验收口：输入体验与结果展示已经多轮优化，后续应避免继续零碎小修，转向阶段性验收或更明确的新能力。
 - 真实模型效果联调：OpenAI / DeepSeek 调用框架已具备，仍需用真实 key 验证端到端输出质量。
 
@@ -110,8 +110,8 @@ DeviceScope / 数码观察站是一个 Apple 设备代际演进分析平台。�
 
 - 更新 README，突出项目内容、技术亮点和已实现功能
 - 更新 Project Plan，说明进度和下一步
-- 整理 `TECH_NOTES.md`，沉淀技术点、亮点和有价值问题的解决方法
-- 精修 `.codex/THREAD_RULES.md`，减少后续协作上下文负担
+- 整理 `README.md` 的技术亮点，沉淀技术点、亮点和有价值问题的解决方法
+- 精修 `THREAD_RULES.md`，减少后续协作上下文负担
 
 后续包装建议：
 

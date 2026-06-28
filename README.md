@@ -130,3 +130,9 @@ scripts/
 ## 当前阶段
 
 项目已完成结构化数据、前端观察工作台、AI 观察 API、设备顾问 MVP、规则 fallback、设备顾问前端体验和回归脚本。下一步重点是继续做真实模型联调、设备顾问推荐质量样例扩展、项目技术点沉淀和展示包装。
+
+## 相关文档
+
+- [PROJECT_PLAN.md](/Users/xyu/Job/Program/ai-device-evolution/PROJECT_PLAN.md)
+- [PROJECT_BRIEF.md](/Users/xyu/Job/Program/ai-device-evolution/PROJECT_BRIEF.md)
+- [THREAD_RULES.md](/Users/xyu/Job/Program/ai-device-evolution/THREAD_RULES.md)
