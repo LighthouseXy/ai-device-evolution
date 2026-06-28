@@ -76,6 +76,13 @@ type DeepSeekExtraction = {
   reasoningContent?: string;
 };
 
+type DeepSeekPromptPayload = {
+  userProfile?: Record<string, unknown>;
+  candidateShortlist?: unknown[];
+};
+
+const DEEPSEEK_SHORTLIST_LIMIT = 8;
+
 function extractDeepSeekText(data: DeepSeekResponsePayload): DeepSeekExtraction {
   const choices = Array.isArray(data.choices) ? data.choices : [];
   for (const choice of choices) {
@@ -180,6 +187,14 @@ function normalizeDeepSeekOutput(
   }
 
   const record = repaired as Record<string, unknown>;
+  const aiNoMatch = normalizeDeepSeekNoMatchOutput(record);
+  if (aiNoMatch) {
+    return {
+      output: aiNoMatch,
+      usedRuleScaffold: false,
+    };
+  }
+
   const fallback = runFallbackDeviceAdvisor(input);
   const scaffold = {
     summary:
@@ -216,6 +231,79 @@ function normalizeDeepSeekOutput(
   return {
     output: scaffolded,
     usedRuleScaffold: true,
+  };
+}
+
+function buildDeepSeekPrompt(input: DeviceAdvisorInput): string {
+  const prompt = buildDeviceAdvisorPrompt(input);
+  const marker = "输入数据：\n";
+  const suffix = "\n\n请直接返回 JSON。";
+  const start = prompt.indexOf(marker);
+  const end = prompt.lastIndexOf(suffix);
+
+  if (start === -1 || end === -1 || end <= start + marker.length) {
+    return prompt;
+  }
+
+  const prefix = prompt.slice(0, start + marker.length);
+  const payloadText = prompt.slice(start + marker.length, end);
+  const postfix = prompt.slice(end);
+
+  let payload: DeepSeekPromptPayload;
+  try {
+    payload = JSON.parse(payloadText) as DeepSeekPromptPayload;
+  } catch {
+    return prompt;
+  }
+
+  const shortlist = Array.isArray(payload.candidateShortlist) ? payload.candidateShortlist : [];
+  const trimmedPayload = {
+    ...payload,
+    candidateShortlist: shortlist.slice(0, DEEPSEEK_SHORTLIST_LIMIT),
+  };
+
+  return [
+    prefix.trimEnd(),
+    JSON.stringify(trimmedPayload, null, 2),
+    "额外要求：如果候选列表里没有预算内可接受方案，可以返回 recommendations: [] 和 alternatives: []，但必须在 summary、tradeoffs、notSuitableFor 中明确说明预算无解或候选全部超预算。",
+    postfix.trimStart(),
+  ].join("\n\n");
+}
+
+function normalizeDeepSeekNoMatchOutput(record: Record<string, unknown>): DeviceAdvisorOutput | null {
+  const summary = typeof record.summary === "string" ? record.summary.trim() : "";
+  const tradeoffs = normalizeDeepSeekStringArray(record.tradeoffs);
+  const notSuitableFor = normalizeDeepSeekStringArray(record.notSuitableFor);
+  const suitableFor = normalizeDeepSeekStringArray(record.suitableFor);
+  const recommendations = Array.isArray(record.recommendations) ? record.recommendations : null;
+  const alternatives = Array.isArray(record.alternatives) ? record.alternatives : null;
+  const confidence = normalizeDeepSeekConfidence(record.confidence);
+
+  if (!summary || !tradeoffs || !tradeoffs.length || !notSuitableFor || !notSuitableFor.length) {
+    return null;
+  }
+
+  if (!recommendations || !alternatives || recommendations.length !== 0 || alternatives.length !== 0) {
+    return null;
+  }
+
+  if (confidence === undefined) {
+    return null;
+  }
+
+  return {
+    summary,
+    recommendations: [],
+    tradeoffs,
+    suitableFor: suitableFor?.length ? suitableFor : ["预算无解判断"],
+    notSuitableFor,
+    alternatives: [],
+    confidence: Math.max(0, Math.min(1, confidence)),
+    source: "ai",
+    disclaimer:
+      typeof record.disclaimer === "string" && record.disclaimer.trim().length > 0
+        ? record.disclaimer.trim()
+        : DEFAULT_DISCLAIMER,
   };
 }
 
@@ -289,7 +377,7 @@ function buildDeepSeekRequest(input: DeviceAdvisorInput) {
       },
       {
         role: "user",
-        content: buildDeviceAdvisorPrompt(input),
+        content: buildDeepSeekPrompt(input),
       },
     ],
     temperature: 0.2,
@@ -328,7 +416,7 @@ function buildDeepSeekRetryRequest(
               "Convert the following analysis into the final DeviceScope device-advisor JSON object.",
               "Keep only the schema fields summary, recommendations, tradeoffs, suitableFor, notSuitableFor, alternatives, confidence, source, disclaimer.",
               "Stay grounded in the candidate shortlist discussed below.",
-              "Do not leave recommendations or alternatives empty; always choose the closest candidate devices even if all are over budget.",
+              "If every candidate is over budget or unsuitable, recommendations and alternatives may be empty arrays, but summary, tradeoffs, and notSuitableFor must clearly explain that no acceptable option fits the budget.",
               "Do not repeat the analysis or add prose.",
               "",
               compactContext,
