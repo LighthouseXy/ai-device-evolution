@@ -47,12 +47,38 @@ const interfaceNeedOptions = [
   { value: "pencil", label: "Apple Pencil" },
 ] as const;
 
+const useCaseSuggestionOptions = [
+  "学习",
+  "办公",
+  "剪辑",
+  "游戏",
+  "拍照",
+  "通勤",
+  "追剧",
+] as const;
+
 function normalizeUseCases(text: string): string[] {
   return text
     .split(/[,\n/|，、]/g)
     .map((item) => item.trim())
     .filter(Boolean)
     .slice(0, 8);
+}
+
+function appendUseCaseSuggestion(currentText: string, suggestion: string) {
+  const items = normalizeUseCases(currentText);
+  if (items.includes(suggestion)) {
+    return items.join(" / ");
+  }
+
+  return [...items, suggestion].join(" / ");
+}
+
+function getOptionLabel<T extends string>(
+  options: readonly { value: T; label: string }[],
+  value: T,
+) {
+  return options.find((item) => item.value === value)?.label ?? value;
 }
 
 type BudgetState = {
@@ -173,6 +199,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
   const [result, setResult] = useState<DeviceAdvisorOutput | null>(null);
 
   const budgetState = useMemo(() => resolveBudgetState(budgetMin, budgetMax), [budgetMax, budgetMin]);
+  const useCasePreview = useMemo(() => normalizeUseCases(useCasesText), [useCasesText]);
   const clearError = () => {
     if (error) {
       setError("");
@@ -185,6 +212,18 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
       : result
         ? `设备顾问已生成推荐，主推荐为 ${result.recommendations[0]?.model ?? "未知"}`
         : "设备顾问尚未生成推荐";
+  const handleUseCaseSuggestion = (suggestion: string) => {
+    clearError();
+    setUseCasesText((current) => appendUseCaseSuggestion(current, suggestion));
+  };
+  const summaryTags = [
+    `预算：${budgetState.preview}`,
+    `类别：${category === "all" ? "全品类" : categoryLabels[category]}`,
+    `性能：${getOptionLabel(performancePreferenceOptions, performancePreference)}`,
+    `成色：${getOptionLabel(conditionPreferenceOptions, conditionPreference)}`,
+    `续航：${getOptionLabel(batteryPriorityOptions, batteryPriority)}`,
+    `接口：${getOptionLabel(interfaceNeedOptions, interfaceNeed)}`,
+  ];
 
   const submit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -391,25 +430,61 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
           <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">使用场景</span>
           <textarea
             className="mt-1 min-h-24 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 py-2 text-sm leading-6 text-[#1E293B] outline-none transition focus:border-[#3B82F6]"
-            placeholder="例如：通勤办公、视频剪辑、追剧、轻度游戏"
+            placeholder="例如：学习 / 办公 / 剪辑 / 游戏 / 拍照"
             value={useCasesText}
             onChange={(event) => {
               clearError();
               setUseCasesText(event.target.value);
             }}
           />
+          <div className="mt-2">
+            <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">快捷场景</p>
+            <div className="mt-2 flex flex-wrap gap-2">
+              {useCaseSuggestionOptions.map((item) => (
+                <button
+                  key={item}
+                  className="inline-flex h-8 items-center rounded-full border border-[#E8E4DC] bg-white px-3 text-xs text-[#475569] transition hover:border-[#BFDBFE] hover:bg-[#EFF6FF] hover:text-[#1D4ED8]"
+                  type="button"
+                  onClick={() => handleUseCaseSuggestion(item)}
+                >
+                  + {item}
+                </button>
+              ))}
+            </div>
+            <p className="mt-2 text-[10px] leading-relaxed text-[#94A3B8]">点击可追加场景；重复项会自动去重。</p>
+          </div>
         </label>
 
-        <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-          <p className="text-[10px] text-[#94A3B8]">当前预算：{budgetState.preview}</p>
-          <button
-            className="inline-flex h-10 items-center justify-center rounded-lg bg-[#3B82F6] px-4 text-sm font-medium text-white transition hover:bg-[#2563EB] disabled:cursor-not-allowed disabled:opacity-60"
-            type="submit"
-            disabled={loading}
-            aria-busy={loading}
-          >
-            {loading ? "生成中..." : "生成推荐"}
-          </button>
+        <div className="rounded-xl border border-[#E8E4DC] bg-white p-3">
+          <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">提交前摘要</p>
+              <p className="mt-1 text-xs text-[#64748B]">
+                场景已整理为 {useCasePreview.length || 0} 项，提交前快速确认即可。
+              </p>
+            </div>
+            <button
+              className="inline-flex h-10 items-center justify-center rounded-lg bg-[#3B82F6] px-4 text-sm font-medium text-white transition hover:bg-[#2563EB] disabled:cursor-not-allowed disabled:opacity-60"
+              type="submit"
+              disabled={loading}
+              aria-busy={loading}
+            >
+              {loading ? "生成中..." : "生成推荐"}
+            </button>
+          </div>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {summaryTags.map((item) => (
+              <span
+                className="rounded-full bg-[#F8FAFE] px-2.5 py-1 text-[11px] text-[#475569]"
+                key={item}
+              >
+                {item}
+              </span>
+            ))}
+          </div>
+          <p className="mt-2 text-[10px] leading-relaxed text-[#94A3B8]">
+            场景：{useCasePreview.length ? useCasePreview.join(" · ") : "未填写"}
+          </p>
         </div>
         </fieldset>
       </form>
