@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { Device, DeviceCategory } from "@/lib/devices-db";
 import type { AiAnalysisOutput, AnalysisType } from "@/lib/ai-analysis";
+import DeviceAdvisorPanel from "@/components/DeviceAdvisorPanel";
 import {
   categoryLabels,
   categoryNames,
@@ -744,55 +745,21 @@ export default function DeviceWorkbench() {
     setActiveCategoryKey(nextCategories[0]?.key ?? "design");
   };
 
-  const aiStatus = aiAnalysisLoading
-    ? {
-        label: "生成中",
-        description: "正在根据当前系列和分析模式生成观察结论。",
-        tone: "loading",
-      }
-    : aiAnalysisError
-      ? {
-          label: "出错兜底",
-          description: "模型暂时不可用，已切换到规则分析。",
-          tone: "error",
-        }
-      : aiAnalysis?.source === "ai"
-        ? {
-            label: "模型生成",
-            description: "由 AI 模型根据当前数据生成。",
-            tone: "model",
-          }
-        : aiAnalysis?.source === "rules"
-          ? {
-              label: "规则兜底",
-              description: "当前结果由本地规则整理，不是模型输出。",
-              tone: "rules",
-            }
-          : {
-              label: "待生成",
-              description: "切换系列或分析模式后会自动更新。",
-              tone: "idle",
-            };
+  const aiSourceLabel = aiAnalysisLoading
+    ? "生成中"
+    : aiAnalysis?.source === "ai"
+      ? "AI API"
+      : aiAnalysis?.source === "rules"
+        ? "规则 fallback"
+        : "待生成";
   const aiSummary = aiAnalysisLoading
-    ? "正在根据当前系列和分析模式生成观察结论。"
-    : aiAnalysisError
-      ? "模型暂时不可用，已切换到规则兜底。"
-      : aiAnalysis?.summary ?? "切换系列或分析模式后，这里会自动刷新观察结论。";
+    ? "正在根据当前系列和维度生成观察结论。"
+    : aiAnalysis?.summary ?? "选择设备系列和对比维度后生成观察结论。";
+  const aiPrediction = aiAnalysis?.prediction ?? "当前数据不足，暂无法给出趋势预测。";
   const aiBuyingAdvice = aiAnalysis?.buyingAdvice ?? "等待当前维度分析完成后再给出购买建议。";
   const aiConfidence = typeof aiAnalysis?.confidence === "number"
     ? `${Math.round(aiAnalysis.confidence * 100)}%`
     : "—";
-
-  const aiStatusClass =
-    aiStatus.tone === "loading"
-      ? "bg-[#FFF7ED] text-[#D97706]"
-      : aiStatus.tone === "model"
-        ? "bg-[#EEF2FF] text-[#3B82F6]"
-        : aiStatus.tone === "rules"
-          ? "bg-[#F0FDF4] text-[#16A34A]"
-          : aiStatus.tone === "error"
-            ? "bg-[#FFF7ED] text-[#C2410C]"
-            : "bg-[#F5F0E8] text-[#64748B]";
 
   return (
     <main className="min-h-screen text-[#1E293B]">
@@ -867,19 +834,34 @@ export default function DeviceWorkbench() {
               <div className="rounded-xl bg-[#FFFDF8] px-4 py-3 shadow-sm ring-1 ring-[#E8E4DC]">
                 <div className="flex items-center justify-between gap-3">
                   <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">🔮 AI 观察</p>
-                  <span className={`rounded-full px-2 py-0.5 text-[10px] font-medium ${aiStatusClass}`}>
-                    {aiStatus.label}
+                  <span className={`rounded-full px-2 py-0.5 text-[10px] font-medium ${
+                    aiAnalysisLoading
+                      ? "bg-[#FFF7ED] text-[#D97706]"
+                      : aiAnalysis?.source === "ai"
+                        ? "bg-[#EEF2FF] text-[#3B82F6]"
+                        : "bg-[#F0FDF4] text-[#16A34A]"
+                  }`}>
+                    {aiSourceLabel}
                   </span>
                 </div>
-                <div className="mt-2 flex items-center justify-between gap-3 text-[10px]">
-                  <span className="text-[#94A3B8]">可信度</span>
-                  <span className="font-semibold text-[#06B6D4]">{aiConfidence}</span>
+                <div className="mt-2 space-y-1.5 text-[11px]">
+                  <div className="flex items-center justify-between gap-4">
+                    <span className="shrink-0 text-[#94A3B8]">分析模式</span>
+                    <span className="font-semibold text-[#3B82F6]">
+                      {analysisModes.find((mode) => mode.key === analysisType)?.label ?? "总结"}
+                    </span>
+                  </div>
+                  <div className="flex items-center justify-between gap-4">
+                    <span className="shrink-0 text-[#94A3B8]">可信度</span>
+                    <span className="font-semibold text-[#06B6D4]">{aiConfidence}</span>
+                  </div>
+                  <div>
+                    <span className="text-[#94A3B8]">摘要</span>
+                    <p className="mt-0.5 line-clamp-2 font-semibold leading-relaxed text-[#1E293B]">{aiSummary}</p>
+                  </div>
                 </div>
-                <p className="mt-2 line-clamp-2 text-xs font-semibold leading-6 text-[#1E293B]">
-                  {aiSummary}
-                </p>
-                <p className="mt-1 text-[10px] leading-relaxed text-[#94A3B8]">
-                  {aiStatus.description}
+                <p className="mt-2 border-t border-[#E8E4DC] pt-1.5 text-[10px] text-[#94A3B8]">
+                  {aiAnalysis?.disclaimer ?? "AI 结论基于已收录数据生成，仅供参考"}
                 </p>
               </div>
             </div>
@@ -1078,17 +1060,23 @@ export default function DeviceWorkbench() {
                 <div>
                   <div className="flex items-center gap-2">
                     <p className="text-sm font-semibold text-[#1E293B]">AI 分析</p>
-                    <span className={`rounded-full px-2 py-0.5 text-[10px] font-medium ${aiStatusClass}`}>
-                      {aiStatus.label}
+                    <span className={`rounded-full px-2 py-0.5 text-[10px] font-medium ${
+                      aiAnalysisLoading
+                        ? "bg-[#FFF7ED] text-[#D97706]"
+                        : aiAnalysis?.source === "ai"
+                          ? "bg-[#EEF2FF] text-[#3B82F6]"
+                          : "bg-[#F0FDF4] text-[#16A34A]"
+                    }`}>
+                      {aiSourceLabel}
                     </span>
                   </div>
-                  <p className="mt-1 text-xs text-[#94A3B8]">{aiStatus.description}</p>
+                  <p className="mt-1 text-xs text-[#94A3B8]">{selectedSeries} · {activeCategory.label}</p>
                 </div>
-                <div className="grid grid-cols-2 gap-1 rounded-lg bg-[#F5F0E8] p-1 sm:grid-cols-4">
+                <div className="grid grid-cols-4 gap-1 rounded-lg bg-[#F5F0E8] p-1">
                   {analysisModes.map((mode) => (
                     <button
                       key={mode.key}
-                      className={`h-8 whitespace-nowrap rounded-md px-2 text-[11px] font-medium transition sm:text-xs ${
+                      className={`h-8 rounded-md px-2 text-xs font-medium transition ${
                         analysisType === mode.key
                           ? "bg-white text-[#3B82F6] shadow-sm"
                           : "text-[#64748B] hover:text-[#1E293B]"
@@ -1104,19 +1092,17 @@ export default function DeviceWorkbench() {
 
               <div className="grid gap-6 p-5 lg:grid-cols-[1.05fr_0.95fr]">
                 <div>
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">结构化摘要</p>
+                  <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">观察摘要</p>
                   <p className="mt-2 text-sm font-semibold leading-6 text-[#1E293B]">{aiSummary}</p>
                   {aiAnalysisError && (
-                    <p className="mt-2 rounded-lg bg-[#FFF7ED] px-3 py-2 text-xs text-[#C2410C]">
-                      已切换到规则兜底。{aiAnalysisError}
-                    </p>
+                    <p className="mt-2 rounded-lg bg-[#FEF2F2] px-3 py-2 text-xs text-[#DC2626]">{aiAnalysisError}</p>
                   )}
 
                   <div className="mt-4 grid gap-4 sm:grid-cols-2">
                     <div>
                       <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">事实依据</p>
                       <div className="mt-2 space-y-1.5">
-                        {(aiAnalysis?.facts.length ? aiAnalysis.facts : [aiAnalysisLoading ? "正在整理事实依据。" : aiAnalysisError ? "规则兜底结果尚未返回结构化事实。" : "等待分析返回结构化事实。"]).map((fact, index) => (
+                        {(aiAnalysis?.facts.length ? aiAnalysis.facts : ["等待 AI 分析返回结构化事实。"]).map((fact, index) => (
                           <p key={`${fact}-${index}`} className="text-xs leading-relaxed text-[#64748B]">
                             <span className="mr-1 font-semibold text-[#3B82F6]">{index + 1}.</span>{fact}
                           </p>
@@ -1127,7 +1113,7 @@ export default function DeviceWorkbench() {
                     <div>
                       <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">观察洞察</p>
                       <div className="mt-2 space-y-1.5">
-                        {(aiAnalysis?.insights.length ? aiAnalysis.insights : [aiAnalysisLoading ? "正在把事实整理成观察结论。" : aiAnalysisError ? "规则兜底结果尚未返回洞察结论。" : "等待分析完成后，这里会展示观察结论。"]).map((insight, index) => (
+                        {(aiAnalysis?.insights.length ? aiAnalysis.insights : ["正在把事实转换为观察结论。"]).map((insight, index) => (
                           <p key={`${insight}-${index}`} className="text-xs leading-relaxed text-[#64748B]">
                             <span className="mr-1 font-semibold text-[#06B6D4]">{index + 1}.</span>{insight}
                           </p>
@@ -1140,15 +1126,11 @@ export default function DeviceWorkbench() {
                 <div className="space-y-4">
                   <div>
                     <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">趋势预测</p>
-                    <p className="mt-2 text-xs leading-relaxed text-[#64748B]">
-                      {aiAnalysis?.prediction ?? (aiAnalysisLoading ? "正在生成趋势预测。" : aiAnalysisError ? "规则兜底结果尚未返回趋势预测。" : "等待分析完成后，这里会给出趋势预测。")}
-                    </p>
+                    <p className="mt-2 text-xs leading-relaxed text-[#64748B]">{aiPrediction}</p>
                   </div>
 
-                  <div>
-                    <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">购买建议</p>
-                    <p className="mt-2 text-xs leading-relaxed text-[#64748B]">{aiBuyingAdvice}</p>
-                  </div>
+                  <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">购买建议</p>
+                  <p className="text-xs leading-relaxed text-[#64748B]">{aiBuyingAdvice}</p>
 
                   <div>
                     <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">缺失数据</p>
@@ -1159,13 +1141,7 @@ export default function DeviceWorkbench() {
                         ))}
                       </div>
                     ) : (
-                      <p className="mt-2 text-xs text-[#94A3B8]">
-                        {aiAnalysisLoading
-                          ? "正在检查当前分析还缺哪些信息。"
-                          : aiAnalysisError
-                            ? "规则兜底结果尚未返回缺失数据提示。"
-                            : "当前没有明显缺失数据提示。"}
-                      </p>
+                      <p className="mt-2 text-xs text-[#94A3B8]">暂无缺失数据提示。</p>
                     )}
                   </div>
                 </div>
@@ -1175,6 +1151,8 @@ export default function DeviceWorkbench() {
                 <p className="text-[10px] text-[#94A3B8]">{aiAnalysis?.disclaimer ?? "AI 分析基于已收录设备的结构化数据生成，结论仅供参考。"}</p>
               </div>
             </section>
+
+            <DeviceAdvisorPanel key={selectedCategory} initialCategory={selectedCategory} />
 
             {/* 详细对比 */}
             <section className="card overflow-hidden">

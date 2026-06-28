@@ -12,9 +12,7 @@ import {
 type OpenAIResponsesPayload = {
   output_text?: string;
   output?: Array<{
-    type?: string;
     content?: Array<{
-      type?: string;
       text?: string;
       output_text?: string;
     }>;
@@ -29,8 +27,15 @@ const DEFAULT_DISCLAIMER = "基于已收录设备数据生成，仅供参考";
 
 type Provider = "openai" | "deepseek";
 
-function parseRequestBody(body: unknown): DeviceAdvisorInput | null {
-  return normalizeDeviceAdvisorInput(body);
+function resolveProvider(): Provider | null {
+  const configured = process.env.AI_PROVIDER?.trim().toLowerCase();
+
+  if (configured === "openai" && process.env.OPENAI_API_KEY) return "openai";
+  if (configured === "deepseek" && process.env.DEEPSEEK_API_KEY) return "deepseek";
+  if (process.env.OPENAI_API_KEY) return "openai";
+  if (process.env.DEEPSEEK_API_KEY) return "deepseek";
+
+  return null;
 }
 
 function extractOpenAIText(data: OpenAIResponsesPayload): string {
@@ -63,17 +68,6 @@ function extractDeepSeekText(data: { choices?: Array<{ message?: { content?: str
     }
   }
   return "";
-}
-
-function resolveProvider(): Provider | null {
-  const configured = process.env.AI_PROVIDER?.trim().toLowerCase();
-
-  if (configured === "openai" && process.env.OPENAI_API_KEY) return "openai";
-  if (configured === "deepseek" && process.env.DEEPSEEK_API_KEY) return "deepseek";
-  if (process.env.OPENAI_API_KEY) return "openai";
-  if (process.env.DEEPSEEK_API_KEY) return "deepseek";
-
-  return null;
 }
 
 function buildOpenAIRequest(input: DeviceAdvisorInput) {
@@ -127,9 +121,7 @@ function buildDeepSeekRequest(input: DeviceAdvisorInput) {
 
 async function fetchOpenAIAdvisor(input: DeviceAdvisorInput): Promise<DeviceAdvisorOutput> {
   const apiKey = process.env.OPENAI_API_KEY;
-  if (!apiKey) {
-    return runFallbackDeviceAdvisor(input);
-  }
+  if (!apiKey) return runFallbackDeviceAdvisor(input);
 
   const response = await fetch(OPENAI_API_URL, {
     method: "POST",
@@ -177,9 +169,7 @@ async function fetchOpenAIAdvisor(input: DeviceAdvisorInput): Promise<DeviceAdvi
 
 async function fetchDeepSeekAdvisor(input: DeviceAdvisorInput): Promise<DeviceAdvisorOutput> {
   const apiKey = process.env.DEEPSEEK_API_KEY;
-  if (!apiKey) {
-    return runFallbackDeviceAdvisor(input);
-  }
+  if (!apiKey) return runFallbackDeviceAdvisor(input);
 
   const response = await fetch(DEEPSEEK_API_URL, {
     method: "POST",
@@ -225,20 +215,6 @@ async function fetchDeepSeekAdvisor(input: DeviceAdvisorInput): Promise<DeviceAd
   };
 }
 
-async function fetchAdvisor(input: DeviceAdvisorInput): Promise<DeviceAdvisorOutput> {
-  const provider = resolveProvider();
-
-  if (provider === "openai") {
-    return fetchOpenAIAdvisor(input);
-  }
-
-  if (provider === "deepseek") {
-    return fetchDeepSeekAdvisor(input);
-  }
-
-  return runFallbackDeviceAdvisor(input);
-}
-
 export async function POST(request: Request) {
   let body: unknown;
   try {
@@ -247,23 +223,26 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "请求体必须为合法 JSON" }, { status: 400 });
   }
 
-  const input = parseRequestBody(body);
+  const input = normalizeDeviceAdvisorInput(body);
   if (!input) {
     return NextResponse.json(
       {
         error:
-          "缺少必要字段或字段格式不正确：budget, category, intent, performancePreference, useCases, preferences, ownedDevice, replacementIntent, maxResults",
+          "缺少必要字段或字段格式不正确：budget, category, performancePreference, useCases, intent, replacementIntent, maxResults",
       },
       { status: 400 },
     );
   }
 
-  if (!resolveProvider()) {
+  const provider = resolveProvider();
+  if (!provider) {
     return NextResponse.json(runFallbackDeviceAdvisor(input));
   }
 
   try {
-    const result = await fetchAdvisor(input);
+    const result = await (provider === "deepseek"
+      ? fetchDeepSeekAdvisor(input)
+      : fetchOpenAIAdvisor(input));
     return NextResponse.json(result);
   } catch (error) {
     console.error("Device advisor failed, using fallback:", error);
