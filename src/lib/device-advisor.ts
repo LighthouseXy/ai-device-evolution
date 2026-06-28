@@ -32,6 +32,9 @@ export type DeviceAdvisorInput = {
   performancePreference?: DeviceAdvisorPerformancePreference;
   useCases?: string[] | string;
   intent?: string;
+  conditionPreference?: "new_only" | "used_ok" | "refurbished_ok";
+  batteryPriority?: "balanced" | "high";
+  interfaceNeed?: "any" | "usb_c" | "magsafe" | "pencil";
   replacementIntent?: "upgrade" | "replace" | "first_device";
   maxResults?: number;
 };
@@ -78,6 +81,7 @@ type Candidate = {
   batteryHours: number;
   storageGb: number;
   cameraScore: number;
+  priceAvailability: "new_only" | "used_ok" | "refurbished_ok";
   totalScore: number;
   budgetScore: number;
   scoreBreakdown: string[];
@@ -145,6 +149,29 @@ function normalizePerformancePreference(
   return undefined;
 }
 
+function normalizeConditionPreference(
+  value: unknown,
+): DeviceAdvisorInput["conditionPreference"] | undefined {
+  if (value === "new_only" || value === "used_ok" || value === "refurbished_ok") {
+    return value;
+  }
+  return undefined;
+}
+
+function normalizeBatteryPriority(value: unknown): DeviceAdvisorInput["batteryPriority"] | undefined {
+  if (value === "balanced" || value === "high") {
+    return value;
+  }
+  return undefined;
+}
+
+function normalizeInterfaceNeed(value: unknown): DeviceAdvisorInput["interfaceNeed"] | undefined {
+  if (value === "any" || value === "usb_c" || value === "magsafe" || value === "pencil") {
+    return value;
+  }
+  return undefined;
+}
+
 function normalizeUseCases(value: unknown): string[] {
   if (typeof value === "string") {
     return value
@@ -178,6 +205,15 @@ function normalizeBudget(value: unknown): DeviceAdvisorBudget | undefined {
   }
 
   return { min: normalizedMin, max: normalizedMax, currency };
+}
+
+function normalizePriceAvailability(candidate: DbDevice): "new_only" | "used_ok" | "refurbished_ok" {
+  const hasUsed = typeof specNum(candidate.specs?.usedPrice) === "number";
+  const hasCurrent = typeof specNum(candidate.specs?.currentPrice) === "number";
+
+  if (hasUsed && !hasCurrent) return "refurbished_ok";
+  if (hasUsed) return "used_ok";
+  return "new_only";
 }
 
 function summarizeBudget(budget: DeviceAdvisorBudget | null): string {
@@ -278,6 +314,7 @@ function normalizeCandidate(candidate: DbDevice): Candidate {
   const batteryHours = parseBatteryHours(specStr(candidate.specs?.batteryLife, ""));
   const storageGb = parseStorageGb(specStr(candidate.specs?.storage, ""));
   const cameraScore = parseCameraScore(candidate);
+  const priceAvailability = normalizePriceAvailability(candidate);
   const currentPrice = specNum(candidate.specs?.currentPrice) ?? specNum(candidate.specs?.usedPrice) ?? specNum(candidate.specs?.launchPrice) ?? null;
 
   return {
@@ -296,6 +333,7 @@ function normalizeCandidate(candidate: DbDevice): Candidate {
     batteryHours,
     storageGb,
     cameraScore,
+    priceAvailability,
     totalScore: 0,
     budgetScore: 0,
     scoreBreakdown: [],
@@ -362,6 +400,8 @@ function scoreCandidates(
     screen: 0.9,
     storage: 0.8,
     camera: 0.7,
+    condition: input.conditionPreference && input.conditionPreference !== "new_only" ? 0.4 : 0,
+    interface: input.interfaceNeed && input.interfaceNeed !== "any" ? 0.4 : 0,
   };
 
   const perfPref = input.performancePreference ?? "balanced";
@@ -371,6 +411,7 @@ function scoreCandidates(
   if (perfPref === "screen") weights.screen += 0.8;
   if (perfPref === "camera") weights.camera += 0.8;
   if (perfPref === "storage") weights.storage += 0.8;
+  if (input.batteryPriority === "high") weights.battery += 0.5;
 
   const useCaseText = [intent, ...useCases].join(" ").toLowerCase();
   if (PERFORMANCE_KEYWORDS.some((keyword) => useCaseText.includes(keyword))) weights.performance += 0.4;
@@ -390,6 +431,42 @@ function scoreCandidates(
     const batteryScore = normalizeRange(candidate.batteryHours, batteryMin, batteryMax);
     const storageScore = normalizeRange(candidate.storageGb, storageMin, storageMax);
     const cameraScore = normalizeRange(candidate.cameraScore, cameraMin, cameraMax);
+    const conditionScore =
+      input.conditionPreference === "used_ok"
+        ? candidate.priceAvailability === "used_ok" || candidate.priceAvailability === "refurbished_ok"
+          ? 1
+          : 0.45
+        : input.conditionPreference === "refurbished_ok"
+          ? candidate.priceAvailability === "refurbished_ok"
+            ? 1
+            : candidate.priceAvailability === "used_ok"
+              ? 0.8
+              : 0.55
+          : candidate.priceAvailability === "new_only"
+            ? 1
+            : 0.7;
+    const interfaceScore =
+      input.interfaceNeed === "any"
+        ? 0.5
+        : input.interfaceNeed === "usb_c"
+          ? specStr(candidate.device.specs?.port, "").toLowerCase().includes("usb-c") || specStr(candidate.device.specs?.port, "").toLowerCase().includes("type-c")
+            ? 1
+            : candidate.device.category === "laptop"
+              ? 0.8
+              : 0.4
+          : input.interfaceNeed === "magsafe"
+            ? specStr(candidate.device.specs?.chargingMethod, "").toLowerCase().includes("magsafe")
+              ? 1
+              : candidate.device.category === "laptop"
+                ? 0.75
+                : 0.35
+            : input.interfaceNeed === "pencil"
+              ? candidate.device.specs?.pencilSupport
+                ? 1
+                : candidate.device.category === "tablet"
+                  ? 0.65
+                  : 0.25
+              : 0.5;
     const totalScore = (
       budgetScore * weights.budget +
       performanceScore * weights.performance +
@@ -397,7 +474,9 @@ function scoreCandidates(
       portabilityScore * weights.portability +
       screenScore * weights.screen +
       storageScore * weights.storage +
-      cameraScore * weights.camera
+      cameraScore * weights.camera +
+      conditionScore * weights.condition +
+      interfaceScore * weights.interface
     ) / totalWeight;
 
     return {
@@ -412,6 +491,8 @@ function scoreCandidates(
         `电池 ${Math.round(batteryScore * 100)}%`,
         `存储 ${Math.round(storageScore * 100)}%`,
         `拍照 ${Math.round(cameraScore * 100)}%`,
+        input.conditionPreference ? `成色 ${Math.round(conditionScore * 100)}%` : null,
+        input.interfaceNeed && input.interfaceNeed !== "any" ? `接口 ${Math.round(interfaceScore * 100)}%` : null,
       ].filter(Boolean) as string[],
     };
   });
@@ -450,6 +531,14 @@ function buildRecommendationNotes(
   const text = [intent, ...useCases].join(" ").toLowerCase();
   const budget = input.budget ? normalizeBudget(input.budget) ?? null : null;
   const budgetText = summarizeBudget(budget);
+  const interfaceLabel =
+    input.interfaceNeed === "usb_c"
+      ? "USB-C"
+      : input.interfaceNeed === "magsafe"
+        ? "MagSafe"
+      : input.interfaceNeed === "pencil"
+        ? "Apple Pencil"
+        : "通用接口";
 
   if (budget && candidate.referencePrice !== null) {
     if (candidate.budgetScore >= 0.9) {
@@ -478,6 +567,15 @@ function buildRecommendationNotes(
     suitableFor.push("外出 / 长时间使用");
   } else if (input.performancePreference === "battery") {
     tradeoffs.push("续航不是最突出优势");
+  }
+
+  if (input.batteryPriority === "high") {
+    if (candidate.batteryHours >= 0.65 * 20) {
+      reasons.push("高续航优先条件下更稳妥");
+    } else {
+      tradeoffs.push("高续航优先时不是最优选");
+      notSuitableFor.push("重度外出使用");
+    }
   }
 
   if (candidate.weight > 0 && (input.performancePreference === "portable" || PORTABLE_KEYWORDS.some((keyword) => text.includes(keyword)))) {
@@ -512,6 +610,35 @@ function buildRecommendationNotes(
   } else if (input.performancePreference === "camera") {
     tradeoffs.push("影像不是主打项");
     notSuitableFor.push("拍照创作优先");
+  }
+
+  if (input.interfaceNeed && input.interfaceNeed !== "any") {
+    const hasUsbC = specStr(candidate.device.specs?.port, "").toLowerCase().includes("usb-c") || specStr(candidate.device.specs?.port, "").toLowerCase().includes("type-c");
+    const hasMagSafe = specStr(candidate.device.specs?.chargingMethod, "").toLowerCase().includes("magsafe");
+    const hasPencil = Boolean(candidate.device.specs?.pencilSupport);
+
+    if (
+      (input.interfaceNeed === "usb_c" && hasUsbC) ||
+      (input.interfaceNeed === "magsafe" && hasMagSafe) ||
+      (input.interfaceNeed === "pencil" && hasPencil)
+    ) {
+      reasons.push(`接口/生态需求与 ${interfaceLabel} 匹配`);
+      if (input.interfaceNeed === "pencil") suitableFor.push("手写 / 笔记 / 绘画");
+    } else {
+      tradeoffs.push(`接口/生态与 ${interfaceLabel} 不完全一致`);
+      notSuitableFor.push(`强依赖 ${interfaceLabel} 生态`);
+    }
+  }
+
+  if (input.conditionPreference && input.conditionPreference !== "new_only") {
+    if (candidate.priceAvailability !== "new_only") {
+      reasons.push(input.conditionPreference === "used_ok" ? "接受二手后性价比更灵活" : "接受翻新后性价比更高");
+      suitableFor.push("预算敏感 / 性价比优先");
+    } else {
+      tradeoffs.push("想要二手/翻新，但这台可选成色空间有限");
+    }
+  } else if (input.conditionPreference === "new_only" && candidate.priceAvailability !== "new_only") {
+    tradeoffs.push("虽然有二手价格，但你当前偏好只买全新");
   }
 
   if (!reasons.length) reasons.push(`综合得分 ${Math.round(candidate.totalScore * 100)}%`);
@@ -718,6 +845,9 @@ export function buildDeviceAdvisorPrompt(input: DeviceAdvisorInput): string {
   const intent = normalizeText(input.intent);
   const category = inferCategory(input, useCases, intent);
   const budget = normalizeBudget(input.budget) ?? null;
+  const conditionPreference = normalizeConditionPreference(input.conditionPreference);
+  const batteryPriority = normalizeBatteryPriority(input.batteryPriority);
+  const interfaceNeed = normalizeInterfaceNeed(input.interfaceNeed);
   const candidates = allDevices
     .filter((device) => category === "all" || device.category === category)
     .map((device) => normalizeCandidate(device));
@@ -739,6 +869,9 @@ export function buildDeviceAdvisorPrompt(input: DeviceAdvisorInput): string {
       intent: intent || null,
       useCases,
       performancePreference: input.performancePreference ?? "balanced",
+      conditionPreference: conditionPreference ?? "new_only",
+      batteryPriority: batteryPriority ?? "balanced",
+      interfaceNeed: interfaceNeed ?? "any",
       replacementIntent: input.replacementIntent ?? "replace",
       maxResults: clamp(normalizeNumber(input.maxResults) ?? MAX_RECOMMENDATIONS, 1, MAX_RECOMMENDATIONS),
     },
@@ -768,6 +901,9 @@ export function normalizeDeviceAdvisorInput(value: unknown): DeviceAdvisorInput 
   const performancePreference = normalizePerformancePreference(value.performancePreference);
   const useCases = normalizeUseCases(value.useCases);
   const intent = normalizeText(value.intent);
+  const conditionPreference = normalizeConditionPreference(value.conditionPreference);
+  const batteryPriority = normalizeBatteryPriority(value.batteryPriority);
+  const interfaceNeed = normalizeInterfaceNeed(value.interfaceNeed);
   const replacementIntent =
     value.replacementIntent === "upgrade" ||
     value.replacementIntent === "replace" ||
@@ -776,7 +912,7 @@ export function normalizeDeviceAdvisorInput(value: unknown): DeviceAdvisorInput 
       : undefined;
   const maxResults = normalizeNumber(value.maxResults);
 
-  if (!budget && !category && !performancePreference && !useCases.length && !intent && !replacementIntent && maxResults === undefined) {
+  if (!budget && !category && !performancePreference && !useCases.length && !intent && !conditionPreference && !batteryPriority && !interfaceNeed && !replacementIntent && maxResults === undefined) {
     return null;
   }
 
@@ -786,6 +922,9 @@ export function normalizeDeviceAdvisorInput(value: unknown): DeviceAdvisorInput 
     performancePreference,
     useCases,
     intent,
+    conditionPreference,
+    batteryPriority,
+    interfaceNeed,
     replacementIntent,
     maxResults,
   };

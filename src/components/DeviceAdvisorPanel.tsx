@@ -29,6 +29,24 @@ const performancePreferenceOptions: Array<{
   { value: "storage", label: "存储优先" },
 ];
 
+const conditionPreferenceOptions = [
+  { value: "new_only", label: "只看全新" },
+  { value: "used_ok", label: "接受二手" },
+  { value: "refurbished_ok", label: "接受翻新" },
+] as const;
+
+const batteryPriorityOptions = [
+  { value: "balanced", label: "均衡" },
+  { value: "high", label: "优先续航" },
+] as const;
+
+const interfaceNeedOptions = [
+  { value: "any", label: "无特殊要求" },
+  { value: "usb_c", label: "USB-C" },
+  { value: "magsafe", label: "MagSafe" },
+  { value: "pencil", label: "Apple Pencil" },
+] as const;
+
 function normalizeUseCases(text: string): string[] {
   return text
     .split(/[,\n/|，、]/g)
@@ -43,6 +61,9 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
   const [category, setCategory] = useState<DeviceAdvisorCategory>(initialCategory);
   const [performancePreference, setPerformancePreference] =
     useState<DeviceAdvisorPerformancePreference>("balanced");
+  const [conditionPreference, setConditionPreference] = useState<(typeof conditionPreferenceOptions)[number]["value"]>("new_only");
+  const [batteryPriority, setBatteryPriority] = useState<(typeof batteryPriorityOptions)[number]["value"]>("balanced");
+  const [interfaceNeed, setInterfaceNeed] = useState<(typeof interfaceNeedOptions)[number]["value"]>("any");
   const [useCasesText, setUseCasesText] = useState("办公 / 追剧");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -83,6 +104,9 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
           performancePreference,
           useCases: normalizedUseCases,
           intent: useCasesText.trim() || undefined,
+          conditionPreference,
+          batteryPriority,
+          interfaceNeed,
         }),
       });
 
@@ -173,6 +197,59 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
             </select>
           </label>
         </div>
+
+        <div className="grid gap-3 sm:grid-cols-2">
+          <label className="block">
+            <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">成色偏好</span>
+            <select
+              className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[#3B82F6]"
+              value={conditionPreference}
+              onChange={(event) =>
+                setConditionPreference(event.target.value as (typeof conditionPreferenceOptions)[number]["value"])
+              }
+            >
+              {conditionPreferenceOptions.map((item) => (
+                <option key={item.value} value={item.value}>
+                  {item.label}
+                </option>
+              ))}
+            </select>
+          </label>
+
+          <label className="block">
+            <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">续航优先级</span>
+            <select
+              className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[#3B82F6]"
+              value={batteryPriority}
+              onChange={(event) =>
+                setBatteryPriority(event.target.value as (typeof batteryPriorityOptions)[number]["value"])
+              }
+            >
+              {batteryPriorityOptions.map((item) => (
+                <option key={item.value} value={item.value}>
+                  {item.label}
+                </option>
+              ))}
+            </select>
+          </label>
+        </div>
+
+        <label className="block">
+          <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">接口 / 生态需求</span>
+          <select
+            className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[#3B82F6]"
+            value={interfaceNeed}
+            onChange={(event) =>
+              setInterfaceNeed(event.target.value as (typeof interfaceNeedOptions)[number]["value"])
+            }
+          >
+            {interfaceNeedOptions.map((item) => (
+              <option key={item.value} value={item.value}>
+                {item.label}
+              </option>
+            ))}
+          </select>
+        </label>
 
         <label className="block">
           <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">使用场景</span>
