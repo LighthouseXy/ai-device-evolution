@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test:device-advisor": "node scripts/device-advisor-regression.mjs"
+    "test:device-advisor": "node scripts/device-advisor-regression.mjs",
+    "test:device-advisor-api": "node scripts/device-advisor-api-regression.mjs"
   },
   "dependencies": {
     "next": "16.2.9",
