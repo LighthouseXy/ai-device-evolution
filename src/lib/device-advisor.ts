@@ -82,6 +82,8 @@ type Candidate = {
   storageGb: number;
   cameraScore: number;
   priceAvailability: "new_only" | "used_ok" | "refurbished_ok";
+  conditionScore: number;
+  interfaceScore: number;
   totalScore: number;
   budgetScore: number;
   scoreBreakdown: string[];
@@ -334,6 +336,8 @@ function normalizeCandidate(candidate: DbDevice): Candidate {
     storageGb,
     cameraScore,
     priceAvailability,
+    conditionScore: 0,
+    interfaceScore: 0,
     totalScore: 0,
     budgetScore: 0,
     scoreBreakdown: [],
@@ -482,6 +486,8 @@ function scoreCandidates(
     return {
       ...candidate,
       budgetScore,
+      conditionScore,
+      interfaceScore,
       totalScore: clamp(totalScore, 0, 1),
       scoreBreakdown: [
         candidate.referencePrice !== null && budget ? `预算 ${Math.round(budgetScore * 100)}%` : null,
@@ -498,11 +504,21 @@ function scoreCandidates(
   });
 }
 
-function pickCandidates(candidates: Candidate[], maxResults: number) {
+function pickCandidates(candidates: Candidate[], maxResults: number, input: DeviceAdvisorInput) {
   const sorted = [...candidates].sort((a, b) => {
     if (b.totalScore !== a.totalScore) return b.totalScore - a.totalScore;
+    if (b.budgetScore !== a.budgetScore) return b.budgetScore - a.budgetScore;
+    if (input.conditionPreference && input.conditionPreference !== "new_only" && b.conditionScore !== a.conditionScore) {
+      return b.conditionScore - a.conditionScore;
+    }
+    if (input.interfaceNeed && input.interfaceNeed !== "any" && b.interfaceScore !== a.interfaceScore) {
+      return b.interfaceScore - a.interfaceScore;
+    }
     if (b.releaseYear !== a.releaseYear) return b.releaseYear - a.releaseYear;
-    return (b.referencePrice ?? 0) - (a.referencePrice ?? 0);
+    const aPrice = a.referencePrice ?? Number.POSITIVE_INFINITY;
+    const bPrice = b.referencePrice ?? Number.POSITIVE_INFINITY;
+    if (aPrice !== bPrice) return aPrice - bPrice;
+    return a.deviceId.localeCompare(b.deviceId, "en-US");
   });
 
   return {
@@ -518,14 +534,63 @@ function collectUnique(target: string[], values: string[]) {
   }
 }
 
+function formatNumber(value: number, maximumFractionDigits = 1): string {
+  return new Intl.NumberFormat("zh-CN", { maximumFractionDigits }).format(value);
+}
+
+function formatWeight(candidate: Candidate): string | null {
+  if (!candidate.weight) return null;
+  return candidate.category === "laptop"
+    ? `${formatNumber(candidate.weight, 2)} kg`
+    : `${formatNumber(candidate.weight, 0)} g`;
+}
+
+function formatScreenSize(candidate: Candidate): string | null {
+  return candidate.screenSize > 0 ? `${formatNumber(candidate.screenSize, 1)} 英寸` : null;
+}
+
+function formatBatteryHours(candidate: Candidate): string | null {
+  return candidate.batteryHours > 0 ? `${formatNumber(candidate.batteryHours, 0)} 小时` : null;
+}
+
+function formatStorage(candidate: Candidate): string | null {
+  if (!candidate.storageGb) return null;
+  return candidate.storageGb >= 1024
+    ? `${formatNumber(candidate.storageGb / 1024, 1)} TB`
+    : `${formatNumber(candidate.storageGb, 0)} GB`;
+}
+
+function addSignal(target: Array<{ score: number; text: string }>, score: number, text: string) {
+  if (text) target.push({ score: clamp(score, 0, 1), text });
+}
+
+function pickSignals(signals: Array<{ score: number; text: string }>, limit: number): string[] {
+  const sorted = [...signals].sort((a, b) => {
+    if (b.score !== a.score) return b.score - a.score;
+    return a.text.localeCompare(b.text, "zh-Hans-CN");
+  });
+
+  const picked: string[] = [];
+  const seen = new Set<string>();
+  for (const signal of sorted) {
+    const text = normalizeText(signal.text);
+    if (!text || seen.has(text)) continue;
+    seen.add(text);
+    picked.push(text);
+    if (picked.length >= limit) break;
+  }
+
+  return picked;
+}
+
 function buildRecommendationNotes(
   candidate: Candidate,
   input: DeviceAdvisorInput,
   useCases: string[],
   intent: string,
 ) {
-  const reasons: string[] = [];
-  const tradeoffs: string[] = [];
+  const reasons: Array<{ score: number; text: string }> = [];
+  const tradeoffs: Array<{ score: number; text: string }> = [];
   const suitableFor: string[] = [];
   const notSuitableFor: string[] = [];
   const text = [intent, ...useCases].join(" ").toLowerCase();
@@ -536,79 +601,90 @@ function buildRecommendationNotes(
       ? "USB-C"
       : input.interfaceNeed === "magsafe"
         ? "MagSafe"
-      : input.interfaceNeed === "pencil"
-        ? "Apple Pencil"
-        : "通用接口";
+        : input.interfaceNeed === "pencil"
+          ? "Apple Pencil"
+          : "通用接口";
+  const priceAvailabilityLabel =
+    candidate.priceAvailability === "used_ok"
+      ? "二手"
+      : candidate.priceAvailability === "refurbished_ok"
+        ? "翻新"
+        : "全新";
+  const screenSize = formatScreenSize(candidate);
+  const weight = formatWeight(candidate);
+  const batteryHours = formatBatteryHours(candidate);
+  const storage = formatStorage(candidate);
+  const performanceValue = candidate.recommendationLevel + candidate.aiCapabilityLevel / 10;
 
   if (budget && candidate.referencePrice !== null) {
-    if (candidate.budgetScore >= 0.9) {
-      reasons.push(`价格和 ${budgetText} 匹配度高`);
-    } else if (candidate.budgetScore >= 0.7) {
-      reasons.push(`价格基本落在 ${budgetText} 范围内`);
+    if (candidate.budgetScore >= 0.95) {
+      addSignal(reasons, candidate.budgetScore, `价格 ${candidate.priceText} 基本落在 ${budgetText} 内`);
+    } else if (candidate.budgetScore >= 0.75) {
+      addSignal(reasons, candidate.budgetScore, `价格 ${candidate.priceText} 和 ${budgetText} 匹配度较高`);
     } else {
-      tradeoffs.push(`价格与 ${budgetText} 有一定偏差`);
+      addSignal(tradeoffs, 1 - candidate.budgetScore, `价格 ${candidate.priceText} 和 ${budgetText} 偏差较大`);
     }
+  } else if (budget) {
+    addSignal(tradeoffs, 0.35, "价格信息不完整，预算只能粗略参考");
   }
 
-  if (candidate.totalScore >= 0.7) {
-    reasons.push("综合匹配度较高");
-  }
-
-  if (candidate.recommendationLevel >= 6 || candidate.aiCapabilityLevel >= 6) {
-    reasons.push("性能和智能基础更稳");
+  if (performanceValue >= 7.2) {
+    addSignal(reasons, performanceValue / 10, "性能和 AI 基础更稳，适合多任务");
     suitableFor.push("重度办公 / 多任务");
   } else if (input.performancePreference === "performance") {
-    tradeoffs.push("极限性能不是最强项");
+    addSignal(tradeoffs, 0.8, "性能不是这一组里最强的一台，重负载要保守");
     notSuitableFor.push("重度负载优先");
   }
 
-  if (candidate.batteryHours >= 0.65 * 20 || (input.performancePreference === "battery" && candidate.batteryHours > 0)) {
-    reasons.push("续航更适合长时间使用");
-    suitableFor.push("外出 / 长时间使用");
-  } else if (input.performancePreference === "battery") {
-    tradeoffs.push("续航不是最突出优势");
-  }
-
-  if (input.batteryPriority === "high") {
-    if (candidate.batteryHours >= 0.65 * 20) {
-      reasons.push("高续航优先条件下更稳妥");
-    } else {
-      tradeoffs.push("高续航优先时不是最优选");
-      notSuitableFor.push("重度外出使用");
+  if (candidate.batteryHours > 0) {
+    if (candidate.batteryHours >= 16 || (input.batteryPriority === "high" && candidate.batteryHours >= 12)) {
+      addSignal(reasons, candidate.batteryHours / 20, `续航约 ${batteryHours ?? formatNumber(candidate.batteryHours, 0)}，外出使用更踏实`);
+      suitableFor.push("外出 / 长时间使用");
+    } else if (input.batteryPriority === "high" || input.performancePreference === "battery") {
+      addSignal(tradeoffs, 0.8, `续航约 ${batteryHours ?? formatNumber(candidate.batteryHours, 0)}，和优先续航相比不算最强`);
+      notSuitableFor.push("长时间外出");
     }
   }
 
   if (candidate.weight > 0 && (input.performancePreference === "portable" || PORTABLE_KEYWORDS.some((keyword) => text.includes(keyword)))) {
-    const portableScore = candidate.weight <= 1 ? "更轻便" : "便携性一般";
-    if (candidate.weight <= 1) {
-      reasons.push(portableScore);
+    const isLightweight =
+      (candidate.category === "laptop" && candidate.weight <= 1.4) ||
+      (candidate.category === "tablet" && candidate.weight <= 500) ||
+      (candidate.category === "phone" && candidate.weight <= 190);
+    if (isLightweight) {
+      addSignal(reasons, 0.8, `重量约 ${weight ?? formatNumber(candidate.weight, 0)}，通勤携带更轻松`);
       suitableFor.push("通勤 / 随身携带");
     } else {
-      tradeoffs.push("机身不算最轻便");
+      addSignal(tradeoffs, 0.7, `重量约 ${weight ?? formatNumber(candidate.weight, 0)}，随身携带不算最轻便`);
       notSuitableFor.push("高频随身携带");
     }
   }
 
-  if (input.performancePreference === "screen" || SCREEN_KEYWORDS.some((keyword) => text.includes(keyword))) {
-    if (candidate.screenSize >= 0) {
-      reasons.push("屏幕条件更适合观影和阅读");
+  if (candidate.screenSize > 0 && (input.performancePreference === "screen" || SCREEN_KEYWORDS.some((keyword) => text.includes(keyword)))) {
+    if (candidate.screenSize >= 6.5 || candidate.category !== "phone") {
+      addSignal(reasons, candidate.screenSize / 14, `屏幕约 ${screenSize ?? formatNumber(candidate.screenSize, 1)}，阅读和分屏更顺手`);
       suitableFor.push("追剧 / 阅读 / 分屏");
+    } else {
+      addSignal(tradeoffs, 0.6, `屏幕约 ${screenSize ?? formatNumber(candidate.screenSize, 1)}，长时间阅读和分屏不占优`);
+      notSuitableFor.push("大屏分屏优先");
     }
   }
 
-  if (candidate.storageGb >= 256 || (input.performancePreference === "storage" && candidate.storageGb > 0)) {
-    reasons.push("存储余量更宽裕");
-    suitableFor.push("素材 / 离线文件较多");
-  } else if (input.performancePreference === "storage") {
-    tradeoffs.push("存储余量需要留意");
-    notSuitableFor.push("海量素材长期保存");
+  if (storage && (candidate.storageGb >= 256 || input.performancePreference === "storage" || STORAGE_KEYWORDS.some((keyword) => text.includes(keyword)))) {
+    if (candidate.storageGb >= 256) {
+      addSignal(reasons, Math.min(candidate.storageGb / 512, 1), `存储约 ${storage}，离线文件和素材更从容`);
+      suitableFor.push("素材 / 离线文件较多");
+    } else {
+      addSignal(tradeoffs, 0.6, `存储约 ${storage}，长期放大量素材要留意空间`);
+      notSuitableFor.push("海量素材长期保存");
+    }
   }
 
   if (candidate.cameraScore >= 12 || (input.performancePreference === "camera" && CAMERA_KEYWORDS.some((keyword) => text.includes(keyword)))) {
-    reasons.push("影像能力更贴合创作需求");
+    addSignal(reasons, Math.min(candidate.cameraScore / 20, 1), "影像能力更贴合拍照和视频创作");
     suitableFor.push("拍照 / 视频创作");
   } else if (input.performancePreference === "camera") {
-    tradeoffs.push("影像不是主打项");
+    addSignal(tradeoffs, 0.7, "影像不是主打项");
     notSuitableFor.push("拍照创作优先");
   }
 
@@ -622,39 +698,73 @@ function buildRecommendationNotes(
       (input.interfaceNeed === "magsafe" && hasMagSafe) ||
       (input.interfaceNeed === "pencil" && hasPencil)
     ) {
-      reasons.push(`接口/生态需求与 ${interfaceLabel} 匹配`);
-      if (input.interfaceNeed === "pencil") suitableFor.push("手写 / 笔记 / 绘画");
+      if (input.interfaceNeed === "usb_c") {
+        addSignal(reasons, candidate.interfaceScore, "USB-C 生态统一，充电和外设更省心");
+      } else if (input.interfaceNeed === "magsafe") {
+        addSignal(reasons, candidate.interfaceScore, "MagSafe 充电更方便，桌面使用更顺手");
+      } else {
+        addSignal(reasons, candidate.interfaceScore, "支持 Apple Pencil，记笔记和绘画更顺手");
+        suitableFor.push("手写 / 笔记 / 绘画");
+      }
     } else {
-      tradeoffs.push(`接口/生态与 ${interfaceLabel} 不完全一致`);
+      addSignal(tradeoffs, 1 - candidate.interfaceScore, `接口/生态与 ${interfaceLabel} 不完全一致`);
       notSuitableFor.push(`强依赖 ${interfaceLabel} 生态`);
     }
   }
 
   if (input.conditionPreference && input.conditionPreference !== "new_only") {
     if (candidate.priceAvailability !== "new_only") {
-      reasons.push(input.conditionPreference === "used_ok" ? "接受二手后性价比更灵活" : "接受翻新后性价比更高");
+      addSignal(
+        reasons,
+        candidate.conditionScore,
+        input.conditionPreference === "used_ok"
+          ? `可走 ${priceAvailabilityLabel} 路线，预算弹性更大`
+          : `可走 ${priceAvailabilityLabel} 路线，性价比更灵活`,
+      );
       suitableFor.push("预算敏感 / 性价比优先");
     } else {
-      tradeoffs.push("想要二手/翻新，但这台可选成色空间有限");
+      addSignal(tradeoffs, 0.8, `当前更偏全新渠道，和你想接受的 ${priceAvailabilityLabel} 偏好不完全一致`);
     }
   } else if (input.conditionPreference === "new_only" && candidate.priceAvailability !== "new_only") {
-    tradeoffs.push("虽然有二手价格，但你当前偏好只买全新");
+    addSignal(tradeoffs, 0.6, "虽然有二手或翻新价格，但你当前偏好只买全新");
   }
 
-  if (!reasons.length) reasons.push(`综合得分 ${Math.round(candidate.totalScore * 100)}%`);
-  if (!tradeoffs.length) tradeoffs.push("没有明显短板，但仍需结合价格和使用习惯判断");
+  if (!reasons.length) {
+    if (performanceValue >= 7.2) {
+      addSignal(reasons, performanceValue / 10, "性能基础更稳");
+    } else if (candidate.batteryHours >= 16) {
+      addSignal(reasons, candidate.batteryHours / 20, `续航约 ${batteryHours ?? formatNumber(candidate.batteryHours, 0)}，更适合长时间使用`);
+    } else if (candidate.screenSize >= 6.5 || candidate.category !== "phone") {
+      addSignal(reasons, candidate.screenSize / 14, `屏幕约 ${screenSize ?? formatNumber(candidate.screenSize, 1)}，阅读和分屏更顺手`);
+    } else if (candidate.storageGb >= 256) {
+      addSignal(reasons, Math.min(candidate.storageGb / 512, 1), `存储约 ${storage}，离线文件更从容`);
+    } else if (candidate.cameraScore >= 12) {
+      addSignal(reasons, Math.min(candidate.cameraScore / 20, 1), "影像能力更适合创作");
+    } else {
+      addSignal(reasons, candidate.totalScore, `综合匹配度 ${Math.round(candidate.totalScore * 100)}%`);
+    }
+  }
+
+  if (!tradeoffs.length) {
+    addSignal(tradeoffs, 0.2, "没有明显短板，但仍需结合价格和使用习惯判断");
+  }
   if (!suitableFor.length) suitableFor.push("日常使用");
   if (!notSuitableFor.length) notSuitableFor.push("极端偏科需求");
 
   return {
-    reasons: reasons.slice(0, 3),
-    tradeoffs: tradeoffs.slice(0, 3),
+    reasons: pickSignals(reasons, 3),
+    tradeoffs: pickSignals(tradeoffs, 3),
     suitableFor: [...new Set(suitableFor)].slice(0, 3),
     notSuitableFor: [...new Set(notSuitableFor)].slice(0, 3),
   };
 }
 
-function toRecommendation(candidate: Candidate, input: DeviceAdvisorInput, useCases: string[], intent: string): DeviceAdvisorRecommendation {
+function toRecommendation(
+  candidate: Candidate,
+  input: DeviceAdvisorInput,
+  useCases: string[],
+  intent: string,
+): DeviceAdvisorRecommendation {
   const notes = buildRecommendationNotes(candidate, input, useCases, intent);
   return {
     deviceId: candidate.deviceId,
@@ -697,7 +807,10 @@ function buildConfidence(recommendations: DeviceAdvisorRecommendation[], input: 
     (input.category && input.category !== "all" ? 0.08 : 0) +
     (input.performancePreference ? 0.08 : 0) +
     (input.useCases && normalizeUseCases(input.useCases).length ? 0.08 : 0) +
-    (input.intent ? 0.06 : 0);
+    (input.intent ? 0.06 : 0) +
+    (input.conditionPreference && input.conditionPreference !== "new_only" ? 0.04 : 0) +
+    (input.batteryPriority === "high" ? 0.04 : 0) +
+    (input.interfaceNeed && input.interfaceNeed !== "any" ? 0.04 : 0);
   const spread = Math.max(topScore - secondScore, 0);
   const shortlistBonus = shortlistCount >= 3 ? 0.05 : 0;
 
@@ -714,7 +827,7 @@ function buildFallbackOutput(input: DeviceAdvisorInput): DeviceAdvisorOutput {
     .filter((device) => category === "all" || device.category === category)
     .map((device) => normalizeCandidate(device));
   const scored = scoreCandidates(candidates, input, useCases, intent, budget).sort((a, b) => b.totalScore - a.totalScore).slice(0, MAX_SHORTLIST);
-  const picked = pickCandidates(scored, maxResults);
+  const picked = pickCandidates(scored, maxResults, input);
   const recommendations = picked.recommendations.map((candidate) => toRecommendation(candidate, input, useCases, intent));
   const alternatives = picked.alternatives.map((candidate) => toRecommendation(candidate, input, useCases, intent));
   const topLists = buildTopLists(recommendations);
