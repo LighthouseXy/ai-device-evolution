@@ -425,6 +425,44 @@ const scenarios = [
             assert.equal(data.confidence, 0.78);
           })),
   },
+  {
+    name: "deepseek_partial_repair_uses_rules_source",
+    run: () =>
+      withDeepSeekProviderEnv(() =>
+        withMockedFetch(async () =>
+          makeJsonResponse({
+            choices: [
+              {
+                finish_reason: "stop",
+                message: {
+                  content: JSON.stringify({
+                    summary: "预算偏紧，模型未能完整给出可用候选。",
+                    recommendations: [],
+                    tradeoffs: "预算严格，现有候选都偏贵",
+                    suitableFor: "了解苹果设备价格带的用户",
+                    notSuitableFor: "要求严格控制在预算内的用户",
+                    alternatives: [],
+                    confidence: "low",
+                    source: "ai",
+                    disclaimer: "模型原始输出",
+                  }),
+                },
+              },
+            ],
+          }), () => callRoute({
+            category: "phone",
+            useCases: ["通勤"],
+            replacementIntent: "replace",
+            maxResults: 3,
+          })).then(async (response) => {
+            assert.equal(response.status, 200);
+            const data = await response.json();
+            assert.equal(data.source, "rules");
+            assert.match(data.disclaimer, /AI 输出不完整/);
+            assert.ok(Array.isArray(data.recommendations));
+            assert.ok(data.recommendations.length > 0);
+          })),
+  },
 ];
 
 await withDisabledProviderEnv(async () => {

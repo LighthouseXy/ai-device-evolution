@@ -34,6 +34,7 @@ const DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions";
 const DEFAULT_OPENAI_MODEL = "gpt-4.1-mini";
 const DEFAULT_DEEPSEEK_MODEL = "deepseek-chat";
 const DEFAULT_DISCLAIMER = "基于已收录设备数据生成，仅供参考";
+const PARTIAL_AI_REPAIR_DISCLAIMER = "AI 输出不完整，已结合规则结果补齐，仅供参考";
 
 type Provider = "openai" | "deepseek";
 
@@ -164,11 +165,14 @@ function repairDeepSeekOutput(value: unknown): unknown {
 function normalizeDeepSeekOutput(
   input: DeviceAdvisorInput,
   value: unknown,
-): DeviceAdvisorOutput | null {
+): { output: DeviceAdvisorOutput; usedRuleScaffold: boolean } | null {
   const repaired = repairDeepSeekOutput(value);
   const normalized = normalizeDeviceAdvisorOutput(repaired);
   if (normalized) {
-    return normalized;
+    return {
+      output: normalized,
+      usedRuleScaffold: false,
+    };
   }
 
   if (!repaired || typeof repaired !== "object" || Array.isArray(repaired)) {
@@ -200,11 +204,19 @@ function normalizeDeepSeekOutput(
         ? record.alternatives
         : fallback.alternatives,
     confidence: normalizeDeepSeekConfidence(record.confidence) ?? fallback.confidence,
-    source: "ai",
-    disclaimer: DEFAULT_DISCLAIMER,
+    source: "rules",
+    disclaimer: PARTIAL_AI_REPAIR_DISCLAIMER,
   };
 
-  return normalizeDeviceAdvisorOutput(scaffold);
+  const scaffolded = normalizeDeviceAdvisorOutput(scaffold);
+  if (!scaffolded) {
+    return null;
+  }
+
+  return {
+    output: scaffolded,
+    usedRuleScaffold: true,
+  };
 }
 
 function truncateText(value: string, maxLength: number): string {
@@ -441,9 +453,11 @@ async function callDeepSeek(
 
   return {
     output: {
-      ...normalized,
-      source: "ai",
-      disclaimer: DEFAULT_DISCLAIMER,
+      ...normalized.output,
+      source: normalized.usedRuleScaffold ? "rules" : "ai",
+      disclaimer: normalized.usedRuleScaffold
+        ? PARTIAL_AI_REPAIR_DISCLAIMER
+        : DEFAULT_DISCLAIMER,
     },
   };
 }
