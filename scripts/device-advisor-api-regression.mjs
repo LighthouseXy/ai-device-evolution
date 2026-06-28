@@ -97,6 +97,7 @@ function loadTsModule(relativePath) {
 }
 
 const { POST } = loadTsModule("./src/app/api/device-advisor/route.ts");
+const originalFetch = globalThis.fetch;
 
 function makeJsonRequest(body, { raw = false } = {}) {
   const init = {
@@ -146,6 +147,41 @@ function withDisabledProviderEnv(run) {
         }
       }
     });
+}
+
+function withDeepSeekProviderEnv(run) {
+  const snapshot = new Map(envKeys.map((key) => [key, process.env[key]]));
+  process.env.AI_PROVIDER = "deepseek";
+  process.env.DEEPSEEK_API_KEY = "dummy-deepseek-key";
+  delete process.env.OPENAI_API_KEY;
+
+  return Promise.resolve()
+    .then(run)
+    .finally(() => {
+      for (const [key, value] of snapshot) {
+        if (value === undefined) {
+          delete process.env[key];
+        } else {
+          process.env[key] = value;
+        }
+      }
+    });
+}
+
+function withMockedFetch(mockFetch, run) {
+  globalThis.fetch = mockFetch;
+  return Promise.resolve()
+    .then(run)
+    .finally(() => {
+      globalThis.fetch = originalFetch;
+    });
+}
+
+function makeJsonResponse(body, status = 200) {
+  return new Response(JSON.stringify(body), {
+    status,
+    headers: { "Content-Type": "application/json" },
+  });
 }
 
 const scenarios = [
@@ -239,6 +275,156 @@ const scenarios = [
       });
     },
   },
+  {
+    name: "deepseek_retry_length_then_valid",
+    run: () =>
+      withDeepSeekProviderEnv(() =>
+        withMockedFetch(async (inputUrl, init) => {
+          const requestBody = JSON.parse(init.body);
+          const messages = Array.isArray(requestBody.messages) ? requestBody.messages : [];
+          const isRetry = messages.some((message) => {
+            return typeof message.content === "string" && message.content.includes("This is a retry after an invalid or truncated answer.");
+          });
+
+          if (!isRetry) {
+            return makeJsonResponse({
+              choices: [
+                {
+                  finish_reason: "length",
+                  message: {
+                    content: "",
+                    reasoning_content: "truncated",
+                  },
+                },
+              ],
+            });
+          }
+
+          return makeJsonResponse({
+            choices: [
+              {
+                finish_reason: "stop",
+                message: {
+                  content: JSON.stringify({
+                    summary: "修复后返回的推荐结果。",
+                    recommendations: [
+                      {
+                        deviceId: "iphone-15",
+                        model: "iPhone 15",
+                        series: "iPhone",
+                        category: "phone",
+                        releaseYear: 2023,
+                        priceText: "首发价 ¥5,999",
+                        matchScore: 0.7,
+                        reasons: ["电池表现稳定"],
+                        tradeoffs: ["价格高于预算"],
+                        suitableFor: ["通勤"],
+                        notSuitableFor: ["严格预算"],
+                      },
+                    ],
+                    tradeoffs: ["价格高于预算"],
+                    suitableFor: ["通勤"],
+                    notSuitableFor: ["严格预算"],
+                    alternatives: [
+                      {
+                        deviceId: "iphone-15-pro",
+                        model: "iPhone 15 Pro",
+                        series: "iPhone",
+                        category: "phone",
+                        releaseYear: 2023,
+                        priceText: "首发价 ¥7,999",
+                        matchScore: 0.6,
+                        reasons: ["性能更强"],
+                        tradeoffs: ["更贵"],
+                        suitableFor: ["性能需求"],
+                        notSuitableFor: ["低预算"],
+                      },
+                    ],
+                    confidence: 0.66,
+                    source: "ai",
+                    disclaimer: "基于已收录设备数据生成，仅供参考",
+                  }),
+                },
+              },
+            ],
+          });
+        }, () => callRoute({
+          category: "phone",
+          useCases: ["通勤"],
+          replacementIntent: "replace",
+          maxResults: 3,
+        })).then(async (response) => {
+          assert.equal(response.status, 200);
+          const data = await response.json();
+          assert.equal(data.source, "ai");
+          assert.equal(data.recommendations[0].model, "iPhone 15");
+          assert.equal(data.alternatives[0].model, "iPhone 15 Pro");
+        })),
+  },
+  {
+    name: "deepseek_type_drift_repair",
+    run: () =>
+      withDeepSeekProviderEnv(() =>
+        withMockedFetch(async () =>
+          makeJsonResponse({
+            choices: [
+              {
+                finish_reason: "stop",
+                message: {
+                  content: JSON.stringify({
+                    summary: "类型漂移但可修复。",
+                    recommendations: [
+                      {
+                        deviceId: "iphone-15",
+                        model: "iPhone 15",
+                        series: "iPhone",
+                        category: "phone",
+                        releaseYear: 2023,
+                        priceText: "首发价 ¥5,999",
+                        matchScore: 0.7,
+                        reasons: "续航稳定",
+                        tradeoffs: "价格偏高",
+                        suitableFor: "通勤",
+                        notSuitableFor: "严格预算",
+                      },
+                    ],
+                    tradeoffs: "价格偏高",
+                    suitableFor: "通勤",
+                    notSuitableFor: "严格预算",
+                    alternatives: {
+                      deviceId: "iphone-15-pro",
+                      model: "iPhone 15 Pro",
+                      series: "iPhone",
+                      category: "phone",
+                      releaseYear: 2023,
+                      priceText: "首发价 ¥7,999",
+                      matchScore: 0.6,
+                      reasons: "性能更强",
+                      tradeoffs: "更贵",
+                      suitableFor: "性能需求",
+                      notSuitableFor: "低预算",
+                    },
+                    confidence: "0.78",
+                    source: "ai",
+                    disclaimer: "",
+                  }),
+                },
+              },
+            ],
+          }), () => callRoute({
+            category: "phone",
+            useCases: ["通勤"],
+            replacementIntent: "replace",
+            maxResults: 3,
+          })).then(async (response) => {
+            assert.equal(response.status, 200);
+            const data = await response.json();
+            assert.equal(data.source, "ai");
+            assert.equal(data.recommendations[0].tradeoffs[0], "价格偏高");
+            assert.equal(data.alternatives[0].model, "iPhone 15 Pro");
+            assert.equal(data.confidence, 0.78);
+          })),
+  },
 ];
 
 await withDisabledProviderEnv(async () => {
@@ -246,7 +432,9 @@ await withDisabledProviderEnv(async () => {
 
   for (const scenario of scenarios) {
     const response = await scenario.run();
-    await scenario.expect(response);
+    if (typeof scenario.expect === "function") {
+      await scenario.expect(response);
+    }
     console.log(`✓ ${scenario.name}`);
   }
 
