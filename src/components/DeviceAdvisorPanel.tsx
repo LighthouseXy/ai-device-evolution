@@ -55,6 +55,109 @@ function normalizeUseCases(text: string): string[] {
     .slice(0, 8);
 }
 
+type BudgetState = {
+  budget?: {
+    min?: number;
+    max?: number;
+    currency: "CNY";
+  };
+  preview: string;
+  message: string;
+  isError: boolean;
+};
+
+function formatBudgetAmount(value: number) {
+  return new Intl.NumberFormat("zh-CN", { maximumFractionDigits: 0 }).format(value);
+}
+
+function parseBudgetValue(raw: string, label: string) {
+  const text = raw.trim();
+  if (!text) return { value: undefined as number | undefined, error: "" };
+
+  const value = Number(text);
+  if (!Number.isFinite(value)) {
+    return { value: undefined, error: `${label}必须是数字` };
+  }
+
+  if (value < 0) {
+    return { value: undefined, error: `${label}不能是负数` };
+  }
+
+  return { value, error: "" };
+}
+
+function resolveBudgetState(minText: string, maxText: string): BudgetState {
+  const min = parseBudgetValue(minText, "预算下限");
+  const max = parseBudgetValue(maxText, "预算上限");
+
+  if (min.error) {
+    return {
+      preview: "预算待完善",
+      message: min.error,
+      isError: true,
+    };
+  }
+
+  if (max.error) {
+    return {
+      preview: "预算待完善",
+      message: max.error,
+      isError: true,
+    };
+  }
+
+  if (min.value === undefined && max.value === undefined) {
+    return {
+      preview: "未设置",
+      message: "支持输入非负数字；最小值大于最大值时会自动交换。",
+      isError: false,
+    };
+  }
+
+  if (min.value !== undefined && max.value !== undefined) {
+    const lower = Math.min(min.value, max.value);
+    const upper = Math.max(min.value, max.value);
+
+    return {
+      budget: { min: lower, max: upper, currency: "CNY" },
+      preview: `¥${formatBudgetAmount(lower)} - ¥${formatBudgetAmount(upper)}`,
+      message:
+        min.value > max.value
+          ? `已自动交换预算上下限：¥${formatBudgetAmount(lower)} - ¥${formatBudgetAmount(upper)}`
+          : "预算区间已就绪。",
+      isError: false,
+    };
+  }
+
+  if (min.value !== undefined) {
+    return {
+      budget: { min: min.value, currency: "CNY" },
+      preview: `≥ ¥${formatBudgetAmount(min.value)}`,
+      message: "已填写预算下限。",
+      isError: false,
+    };
+  }
+
+  return {
+    budget: { max: max.value, currency: "CNY" },
+    preview: `≤ ¥${formatBudgetAmount(max.value ?? 0)}`,
+    message: "已填写预算上限。",
+    isError: false,
+  };
+}
+
+function getReadableAdvisorError(status: number, payload: { error?: string } | null) {
+  const text = payload?.error ?? "";
+
+  if (status === 400) {
+    if (/合法 JSON/.test(text)) return "请求内容格式不正确，请检查后重试。";
+    if (/缺少必要字段|字段格式不正确/.test(text)) return "输入有误，请检查预算和偏好后重试。";
+    return "输入有误，请检查后重试。";
+  }
+
+  return "设备顾问请求失败，请稍后重试。";
+}
+
 export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPanelProps) {
   const [budgetMin, setBudgetMin] = useState("");
   const [budgetMax, setBudgetMax] = useState("");
@@ -69,21 +172,20 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
   const [error, setError] = useState("");
   const [result, setResult] = useState<DeviceAdvisorOutput | null>(null);
 
-  const budgetLabel = useMemo(() => {
-    if (budgetMin && budgetMax) return `¥${budgetMin} - ¥${budgetMax}`;
-    if (budgetMax) return `≤ ¥${budgetMax}`;
-    if (budgetMin) return `≥ ¥${budgetMin}`;
-    return "未设置";
-  }, [budgetMax, budgetMin]);
+  const budgetState = useMemo(() => resolveBudgetState(budgetMin, budgetMax), [budgetMax, budgetMin]);
 
   const submit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    const normalizedUseCases = normalizeUseCases(useCasesText);
+
+    if (budgetState.isError) {
+      setResult(null);
+      setError(budgetState.message);
+      return;
+    }
+
     setLoading(true);
     setError("");
-
-    const min = budgetMin.trim() ? Number(budgetMin) : undefined;
-    const max = budgetMax.trim() ? Number(budgetMax) : undefined;
-    const normalizedUseCases = normalizeUseCases(useCasesText);
 
     try {
       const response = await fetch("/api/device-advisor", {
@@ -92,14 +194,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          budget:
-            min !== undefined || max !== undefined
-              ? {
-                  min: Number.isFinite(min) ? min : undefined,
-                  max: Number.isFinite(max) ? max : undefined,
-                  currency: "CNY",
-                }
-              : undefined,
+          budget: budgetState.budget,
           category,
           performancePreference,
           useCases: normalizedUseCases,
@@ -112,7 +207,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
 
       if (!response.ok) {
         const payload = (await response.json().catch(() => null)) as { error?: string } | null;
-        throw new Error(payload?.error ?? "设备顾问请求失败");
+        throw new Error(getReadableAdvisorError(response.status, payload));
       }
 
       const data = (await response.json()) as DeviceAdvisorOutput;
@@ -146,22 +241,25 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
             <input
               className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[#3B82F6]"
               inputMode="numeric"
-              placeholder="例如 6000"
-              value={budgetMin}
-              onChange={(event) => setBudgetMin(event.target.value)}
-            />
-          </label>
+            placeholder="例如 6000"
+            value={budgetMin}
+            onChange={(event) => setBudgetMin(event.target.value)}
+          />
+        </label>
           <label className="block">
             <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">预算上限</span>
             <input
               className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[#3B82F6]"
               inputMode="numeric"
-              placeholder="例如 9000"
-              value={budgetMax}
-              onChange={(event) => setBudgetMax(event.target.value)}
-            />
-          </label>
-        </div>
+            placeholder="例如 9000"
+            value={budgetMax}
+            onChange={(event) => setBudgetMax(event.target.value)}
+          />
+        </label>
+        <p className={`col-span-full text-[10px] ${budgetState.isError ? "text-[#DC2626]" : "text-[#94A3B8]"}`}>
+          {budgetState.message}
+        </p>
+      </div>
 
         <div className="grid gap-3 sm:grid-cols-2">
           <label className="block">
@@ -262,7 +360,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
         </label>
 
         <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-          <p className="text-[10px] text-[#94A3B8]">当前预算：{budgetLabel}</p>
+          <p className="text-[10px] text-[#94A3B8]">当前预算：{budgetState.preview}</p>
           <button
             className="inline-flex h-10 items-center justify-center rounded-lg bg-[#3B82F6] px-4 text-sm font-medium text-white transition hover:bg-[#2563EB] disabled:cursor-not-allowed disabled:opacity-60"
             type="submit"
@@ -275,7 +373,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
 
       <div className="border-t border-[#E8E4DC] bg-[#FFFDF8] p-5">
         {error ? (
-          <p className="rounded-lg bg-[#FFF7ED] px-3 py-2 text-sm text-[#C2410C]">已切换到规则结果：{error}</p>
+          <p className="rounded-lg bg-[#FFF7ED] px-3 py-2 text-sm text-[#C2410C]">{error}</p>
         ) : null}
 
         {result ? (
