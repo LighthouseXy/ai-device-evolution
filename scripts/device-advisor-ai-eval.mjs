@@ -11,6 +11,67 @@ const routeUrl = "http://localhost/api/device-advisor";
 const fixturePath = path.join(projectRoot, "scripts/fixtures/device-advisor-ai-eval.json");
 const envKeys = ["AI_PROVIDER", "OPENAI_API_KEY", "DEEPSEEK_API_KEY"];
 
+function parseArgs(argv) {
+  const options = {
+    provider: "offline",
+    runs: 1,
+    out: null,
+    limit: null,
+  };
+
+  for (const arg of argv) {
+    if (arg.startsWith("--provider=")) {
+      options.provider = arg.slice("--provider=".length);
+    } else if (arg.startsWith("--runs=")) {
+      options.runs = Number(arg.slice("--runs=".length));
+    } else if (arg.startsWith("--out=")) {
+      options.out = arg.slice("--out=".length);
+    } else if (arg.startsWith("--limit=")) {
+      options.limit = Number(arg.slice("--limit=".length));
+    } else {
+      throw new Error(`Unknown argument: ${arg}`);
+    }
+  }
+
+  if (options.provider !== "offline" && options.provider !== "deepseek") {
+    throw new Error("--provider must be offline or deepseek");
+  }
+
+  if (!Number.isInteger(options.runs) || options.runs < 1) {
+    throw new Error("--runs must be a positive integer");
+  }
+
+  if (options.limit !== null && (!Number.isInteger(options.limit) || options.limit < 1)) {
+    throw new Error("--limit must be a positive integer");
+  }
+
+  return options;
+}
+
+function loadLocalEnvFile() {
+  const envPath = path.join(projectRoot, ".env.local");
+  if (!fileExists(envPath)) return;
+
+  const lines = fs.readFileSync(envPath, "utf8").split(/\r?\n/);
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith("#")) continue;
+
+    const separator = trimmed.indexOf("=");
+    if (separator === -1) continue;
+
+    const key = trimmed.slice(0, separator).trim();
+    const value = trimmed
+      .slice(separator + 1)
+      .trim()
+      .replace(/^["']|["']$/g, "");
+
+    if (key && process.env[key] === undefined) {
+      process.env[key] = value;
+    }
+  }
+}
+
 function fileExists(filePath) {
   try {
     return fs.statSync(filePath).isFile();
@@ -130,6 +191,33 @@ function withOfflineProviderEnv(run) {
     });
 }
 
+function withProviderEnv(provider, run) {
+  if (provider === "offline") {
+    return withOfflineProviderEnv(run);
+  }
+
+  loadLocalEnvFile();
+  if (!process.env.DEEPSEEK_API_KEY) {
+    throw new Error("DEEPSEEK_API_KEY is required for --provider=deepseek");
+  }
+
+  const snapshot = new Map(envKeys.map((key) => [key, process.env[key]]));
+  process.env.AI_PROVIDER = "deepseek";
+  delete process.env.OPENAI_API_KEY;
+
+  return Promise.resolve()
+    .then(run)
+    .finally(() => {
+      for (const [key, value] of snapshot) {
+        if (value === undefined) {
+          delete process.env[key];
+        } else {
+          process.env[key] = value;
+        }
+      }
+    });
+}
+
 function emptySummary() {
   return {
     total: 0,
@@ -211,49 +299,78 @@ function classifyResult(sample, status, data, latencyMs) {
   };
 }
 
-function printSummary(label, summary) {
-  console.log(`${label}:`);
-  console.log(JSON.stringify(finalizeSummary(summary), null, 2));
-}
-
 async function main() {
-  const samples = JSON.parse(fs.readFileSync(fixturePath, "utf8"));
+  const options = parseArgs(process.argv.slice(2));
+  const loadedSamples = JSON.parse(fs.readFileSync(fixturePath, "utf8"));
+  const samples = options.limit === null ? loadedSamples : loadedSamples.slice(0, options.limit);
   const { POST } = loadTsModule("./src/app/api/device-advisor/route.ts");
   const total = emptySummary();
   const byGroup = new Map();
+  const bySample = new Map();
   const results = [];
 
-  await withOfflineProviderEnv(async () => {
+  await withProviderEnv(options.provider, async () => {
     for (const sample of samples) {
-      const start = performance.now();
-      let response;
-      let data;
+      for (let run = 1; run <= options.runs; run += 1) {
+        const start = performance.now();
+        let response;
+        let data;
 
-      try {
-        response = await POST(makeJsonRequest(sample.input));
-        data = await readJsonResponse(response);
-      } catch (error) {
-        data = { error: error instanceof Error ? error.message : String(error) };
-        response = { status: 500 };
+        try {
+          response = await POST(makeJsonRequest(sample.input));
+          data = await readJsonResponse(response);
+        } catch (error) {
+          data = { error: error instanceof Error ? error.message : String(error) };
+          response = { status: 500 };
+        }
+
+        const latencyMs = Number((performance.now() - start).toFixed(1));
+        const result = {
+          run,
+          ...classifyResult(sample, response.status, data, latencyMs),
+        };
+
+        results.push(result);
+        updateSummary(total, result);
+
+        const groupSummary = byGroup.get(sample.group) ?? emptySummary();
+        byGroup.set(sample.group, groupSummary);
+        updateSummary(groupSummary, result);
+
+        const sampleSummary = bySample.get(sample.id) ?? emptySummary();
+        bySample.set(sample.id, sampleSummary);
+        updateSummary(sampleSummary, result);
       }
-
-      const latencyMs = Number((performance.now() - start).toFixed(1));
-      const result = classifyResult(sample, response.status, data, latencyMs);
-      results.push(result);
-      updateSummary(total, result);
-
-      const groupSummary = byGroup.get(sample.group) ?? emptySummary();
-      byGroup.set(sample.group, groupSummary);
-      updateSummary(groupSummary, result);
     }
   });
 
-  console.log(`Device advisor AI eval: ${samples.length} offline samples`);
-  printSummary("Overall", total);
+  const output = {
+    metadata: {
+      provider: options.provider,
+      runs: options.runs,
+      sampleCount: samples.length,
+      totalCalls: results.length,
+      generatedAt: new Date().toISOString(),
+    },
+    summary: finalizeSummary(total),
+    byGroup: Object.fromEntries(
+      Array.from(byGroup.entries()).map(([group, summary]) => [group, finalizeSummary(summary)]),
+    ),
+    bySample: Object.fromEntries(
+      Array.from(bySample.entries()).map(([sampleId, summary]) => [sampleId, finalizeSummary(summary)]),
+    ),
+    runs: results,
+  };
+
+  console.log(
+    `Device advisor AI eval: ${samples.length} ${options.provider} samples x ${options.runs} run(s)`,
+  );
+  console.log("Overall:");
+  console.log(JSON.stringify(output.summary, null, 2));
 
   console.log("By group:");
-  for (const [group, summary] of byGroup.entries()) {
-    console.log(`- ${group}: ${JSON.stringify(finalizeSummary(summary))}`);
+  for (const [group, summary] of Object.entries(output.byGroup)) {
+    console.log(`- ${group}: ${JSON.stringify(summary)}`);
   }
 
   console.log("Cases:");
@@ -261,6 +378,7 @@ async function main() {
     console.log(
       [
         result.id,
+        `run=${result.run}`,
         `group=${result.group}`,
         `source=${result.source}`,
         `confidence=${result.confidence ?? "n/a"}`,
@@ -270,6 +388,13 @@ async function main() {
         `noMatchEmptyAi=${result.noMatchEmptyAi}`,
       ].join(" | "),
     );
+  }
+
+  if (options.out) {
+    const outPath = path.resolve(projectRoot, options.out);
+    fs.mkdirSync(path.dirname(outPath), { recursive: true });
+    fs.writeFileSync(outPath, `${JSON.stringify(output, null, 2)}\n`);
+    console.log(`Wrote result file: ${path.relative(projectRoot, outPath)}`);
   }
 }
 
