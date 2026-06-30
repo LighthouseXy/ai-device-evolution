@@ -1,0 +1,201 @@
+[
+  {
+    "id": "no-match-phone-budget-4500-usbc",
+    "group": "budget_no_match",
+    "description": "iPhone budget below USB-C candidate floor",
+    "input": {
+      "budget": { "max": 4500, "currency": "CNY" },
+      "category": "phone",
+      "performancePreference": "battery",
+      "useCases": ["通勤", "长时间使用"],
+      "interfaceNeed": "usb_c",
+      "replacementIntent": "replace",
+      "maxResults": 3
+    }
+  },
+  {
+    "id": "no-match-laptop-budget-5000",
+    "group": "budget_no_match",
+    "description": "MacBook budget below likely available floor",
+    "input": {
+      "budget": { "max": 5000, "currency": "CNY" },
+      "category": "laptop",
+      "performancePreference": "performance",
+      "useCases": ["开发", "多任务"],
+      "conditionPreference": "new_only",
+      "replacementIntent": "replace",
+      "maxResults": 3
+    }
+  },
+  {
+    "id": "no-match-tablet-budget-2000-pencil",
+    "group": "budget_no_match",
+    "description": "iPad budget below Pencil-focused candidate floor",
+    "input": {
+      "budget": { "max": 2000, "currency": "CNY" },
+      "category": "tablet",
+      "performancePreference": "portable",
+      "useCases": ["手写", "上课笔记"],
+      "interfaceNeed": "pencil",
+      "replacementIntent": "first_device",
+      "maxResults": 3
+    }
+  },
+  {
+    "id": "recommend-phone-balanced-7000",
+    "group": "recommendable",
+    "description": "Normal iPhone recommendation with reasonable budget",
+    "input": {
+      "budget": { "max": 7000, "currency": "CNY" },
+      "category": "phone",
+      "performancePreference": "balanced",
+      "useCases": ["日常", "拍照"],
+      "interfaceNeed": "usb_c",
+      "replacementIntent": "upgrade",
+      "maxResults": 3
+    }
+  },
+  {
+    "id": "recommend-tablet-study-5000",
+    "group": "recommendable",
+    "description": "iPad study scenario with enough budget",
+    "input": {
+      "budget": { "max": 5000, "currency": "CNY" },
+      "category": "tablet",
+      "performancePreference": "screen",
+      "useCases": ["阅读", "笔记", "追剧"],
+      "interfaceNeed": "pencil",
+      "replacementIntent": "first_device",
+      "maxResults": 3
+    }
+  },
+  {
+    "id": "recommend-laptop-office-12000",
+    "group": "recommendable",
+    "description": "MacBook office and travel scenario",
+    "input": {
+      "budget": { "max": 12000, "currency": "CNY" },
+      "category": "laptop",
+      "performancePreference": "portable",
+      "useCases": ["办公", "出差", "轻度开发"],
+      "replacementIntent": "upgrade",
+      "maxResults": 3
+    }
+  },
+  {
+    "id": "boundary-phone-6000",
+    "group": "boundary_budget",
+    "description": "iPhone budget near entry candidate",
+    "input": {
+      "budget": { "max": 6000, "currency": "CNY" },
+      "category": "phone",
+      "performancePreference": "battery",
+      "useCases": ["通勤", "拍照"],
+      "interfaceNeed": "usb_c",
+      "replacementIntent": "replace",
+      "maxResults": 3
+    }
+  },
+  {
+    "id": "boundary-tablet-3500",
+    "group": "boundary_budget",
+    "description": "iPad budget near basic candidates",
+    "input": {
+      "budget": { "max": 3500, "currency": "CNY" },
+      "category": "tablet",
+      "performancePreference": "balanced",
+      "useCases": ["上课", "阅读"],
+      "replacementIntent": "first_device",
+      "maxResults": 3
+    }
+  },
+  {
+    "id": "boundary-laptop-8500",
+    "group": "boundary_budget",
+    "description": "MacBook budget near lower current options",
+    "input": {
+      "budget": { "max": 8500, "currency": "CNY" },
+      "category": "laptop",
+      "performancePreference": "portable",
+      "useCases": ["办公", "出差"],
+      "replacementIntent": "replace",
+      "maxResults": 3
+    }
+  },
+  {
+    "id": "ambiguous-all-daily",
+    "group": "ambiguous_input",
+    "description": "Broad daily-use request without category",
+    "input": {
+      "budget": { "max": 8000, "currency": "CNY" },
+      "performancePreference": "balanced",
+      "useCases": ["日常使用", "偶尔出差"],
+      "replacementIntent": "first_device",
+      "maxResults": 3
+    }
+  },
+  {
+    "id": "ambiguous-intent-short",
+    "group": "ambiguous_input",
+    "description": "Short natural intent with limited structured hints",
+    "input": {
+      "budget": { "max": 6000, "currency": "CNY" },
+      "intent": "想买一个用久一点的苹果设备",
+      "useCases": "日常、学习、看视频",
+      "maxResults": 3
+    }
+  },
+  {
+    "id": "ambiguous-no-budget-phone",
+    "group": "ambiguous_input",
+    "description": "Phone request without explicit budget",
+    "input": {
+      "category": "phone",
+      "performancePreference": "camera",
+      "useCases": ["拍照", "旅行"],
+      "replacementIntent": "upgrade",
+      "maxResults": 3
+    }
+  },
+  {
+    "id": "conflict-phone-low-budget-performance",
+    "group": "preference_conflict",
+    "description": "Low phone budget with performance preference",
+    "input": {
+      "budget": { "max": 5000, "currency": "CNY" },
+      "category": "phone",
+      "performancePreference": "performance",
+      "useCases": ["游戏", "视频剪辑"],
+      "interfaceNeed": "usb_c",
+      "replacementIntent": "replace",
+      "maxResults": 3
+    }
+  },
+  {
+    "id": "conflict-tablet-portable-screen",
+    "group": "preference_conflict",
+    "description": "Tablet request balancing portability and screen-heavy use",
+    "input": {
+      "budget": { "max": 4500, "currency": "CNY" },
+      "category": "tablet",
+      "performancePreference": "portable",
+      "useCases": ["追剧", "分屏", "手写"],
+      "interfaceNeed": "pencil",
+      "replacementIntent": "first_device",
+      "maxResults": 3
+    }
+  },
+  {
+    "id": "conflict-laptop-budget-heavy-creative",
+    "group": "preference_conflict",
+    "description": "Laptop budget under heavy creative workload expectations",
+    "input": {
+      "budget": { "max": 9000, "currency": "CNY" },
+      "category": "laptop",
+      "performancePreference": "performance",
+      "useCases": ["剪辑", "多任务", "开发"],
+      "replacementIntent": "upgrade",
+      "maxResults": 3
+    }
+  }
+]
