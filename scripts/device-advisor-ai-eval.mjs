@@ -228,7 +228,31 @@ function emptySummary() {
     confidenceTotal: 0,
     confidenceCount: 0,
     latencyTotalMs: 0,
+    latenciesMs: [],
+    initialLatencyTotalMs: 0,
+    initialLatencyCount: 0,
+    retryLatencyTotalMs: 0,
+    retryLatencyCount: 0,
+    retryUsed: 0,
+    retryReasons: new Map(),
+    missingFields: new Map(),
   };
+}
+
+function percentile(values, percentileValue) {
+  if (values.length === 0) return null;
+
+  const sorted = [...values].sort((left, right) => left - right);
+  const index = Math.ceil((percentileValue / 100) * sorted.length) - 1;
+  return sorted[Math.min(Math.max(index, 0), sorted.length - 1)];
+}
+
+function mapTopN(map, limit = 10) {
+  return Object.fromEntries(
+    Array.from(map.entries())
+      .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]))
+      .slice(0, limit),
+  );
 }
 
 function finalizeSummary(summary) {
@@ -242,6 +266,23 @@ function finalizeSummary(summary) {
       summary.confidenceCount > 0 ? Number((summary.confidenceTotal / summary.confidenceCount).toFixed(3)) : null,
     averageLatencyMs:
       summary.total > 0 ? Number((summary.latencyTotalMs / summary.total).toFixed(1)) : null,
+    latencyP50Ms:
+      summary.latenciesMs.length > 0 ? Number(percentile(summary.latenciesMs, 50).toFixed(1)) : null,
+    latencyP95Ms:
+      summary.latenciesMs.length > 0 ? Number(percentile(summary.latenciesMs, 95).toFixed(1)) : null,
+    averageInitialLatencyMs:
+      summary.initialLatencyCount > 0
+        ? Number((summary.initialLatencyTotalMs / summary.initialLatencyCount).toFixed(1))
+        : null,
+    averageRetryLatencyMs:
+      summary.retryLatencyCount > 0
+        ? Number((summary.retryLatencyTotalMs / summary.retryLatencyCount).toFixed(1))
+        : null,
+    retryUsed: summary.retryUsed,
+    retryRate:
+      summary.total > 0 ? Number((summary.retryUsed / summary.total).toFixed(3)) : null,
+    retryReasons: mapTopN(summary.retryReasons),
+    missingFieldsTopN: mapTopN(summary.missingFields),
   };
 }
 
@@ -249,6 +290,7 @@ function updateSummary(summary, result) {
   summary.total += 1;
   summary.source[result.source] = (summary.source[result.source] ?? 0) + 1;
   summary.latencyTotalMs += result.latencyMs;
+  summary.latenciesMs.push(result.latencyMs);
 
   if (result.partialRepair) summary.partialRepair += 1;
   if (result.finalFallback) summary.finalFallback += 1;
@@ -257,10 +299,82 @@ function updateSummary(summary, result) {
     summary.confidenceTotal += result.confidence;
     summary.confidenceCount += 1;
   }
+
+  if (typeof result.initialLatencyMs === "number") {
+    summary.initialLatencyTotalMs += result.initialLatencyMs;
+    summary.initialLatencyCount += 1;
+  }
+
+  if (typeof result.retryLatencyMs === "number") {
+    summary.retryLatencyTotalMs += result.retryLatencyMs;
+    summary.retryLatencyCount += 1;
+  }
+
+  if (result.retryUsed) {
+    summary.retryUsed += 1;
+    if (result.retryReason) {
+      summary.retryReasons.set(result.retryReason, (summary.retryReasons.get(result.retryReason) ?? 0) + 1);
+    }
+  }
+
+  for (const field of result.missingFields) {
+    summary.missingFields.set(field, (summary.missingFields.get(field) ?? 0) + 1);
+  }
+}
+
+function normalizeAttemptDiagnostics(value) {
+  if (!value || typeof value !== "object") return null;
+
+  const missingFields = Array.isArray(value.missingFields)
+    ? value.missingFields.filter((item) => typeof item === "string")
+    : [];
+
+  return {
+    phase: typeof value.phase === "string" ? value.phase : null,
+    latencyMs: typeof value.latencyMs === "number" ? value.latencyMs : null,
+    finishReason: typeof value.finishReason === "string" ? value.finishReason : null,
+    retryReason: typeof value.retryReason === "string" ? value.retryReason : null,
+    hasReasoningContent: value.hasReasoningContent === true,
+    rawTextEmpty: value.rawTextEmpty === true,
+    parseError: typeof value.parseError === "string" ? value.parseError : null,
+    missingFields,
+    outputSource: value.outputSource === "ai" || value.outputSource === "rules" ? value.outputSource : null,
+    partialRepair: value.partialRepair === true,
+  };
+}
+
+function normalizeDiagnostics(data, source, latencyMs, partialRepair, finalFallback) {
+  const diagnostics = data && typeof data === "object" ? data._diagnostics : null;
+  const attempts = Array.isArray(diagnostics?.attempts)
+    ? diagnostics.attempts.map((item) => normalizeAttemptDiagnostics(item)).filter(Boolean)
+    : [];
+  const initial = attempts.find((item) => item.phase === "initial") ?? null;
+  const retry = attempts.find((item) => item.phase === "retry") ?? null;
+  const retryUsed = diagnostics?.retryUsed === true || Boolean(retry);
+  const retryReason =
+    typeof diagnostics?.retryReason === "string"
+      ? diagnostics.retryReason
+      : initial?.retryReason ?? null;
+
+  return {
+    initial,
+    retry,
+    final: {
+      source,
+      confidence: typeof data?.confidence === "number" ? data.confidence : null,
+      latencyMs,
+      partialRepair,
+      finalFallback,
+    },
+    retryUsed,
+    retryReason,
+    missingFields: Array.from(new Set(attempts.flatMap((item) => item.missingFields))),
+  };
 }
 
 function classifyResult(sample, status, data, latencyMs) {
   if (!data || typeof data !== "object" || status >= 400) {
+    const diagnostics = normalizeDiagnostics(data, "error", latencyMs, false, false);
     return {
       id: sample.id,
       group: sample.group,
@@ -274,6 +388,12 @@ function classifyResult(sample, status, data, latencyMs) {
       recommendationCount: null,
       alternativeCount: null,
       summary: data?.error ?? null,
+      stages: diagnostics,
+      retryUsed: diagnostics.retryUsed,
+      retryReason: diagnostics.retryReason,
+      missingFields: diagnostics.missingFields,
+      initialLatencyMs: diagnostics.initial?.latencyMs ?? null,
+      retryLatencyMs: diagnostics.retry?.latencyMs ?? null,
     };
   }
 
@@ -282,6 +402,8 @@ function classifyResult(sample, status, data, latencyMs) {
   const alternatives = Array.isArray(data.alternatives) ? data.alternatives : [];
   const disclaimer = typeof data.disclaimer === "string" ? data.disclaimer : "";
   const partialRepair = source === "rules" && disclaimer.includes("AI 输出不完整");
+  const finalFallback = source === "rules" && !partialRepair;
+  const diagnostics = normalizeDiagnostics(data, source, latencyMs, partialRepair, finalFallback);
 
   return {
     id: sample.id,
@@ -291,11 +413,17 @@ function classifyResult(sample, status, data, latencyMs) {
     confidence: typeof data.confidence === "number" ? data.confidence : null,
     latencyMs,
     partialRepair,
-    finalFallback: source === "rules" && !partialRepair,
+    finalFallback,
     noMatchEmptyAi: source === "ai" && recommendations.length === 0 && alternatives.length === 0,
     recommendationCount: recommendations.length,
     alternativeCount: alternatives.length,
     summary: typeof data.summary === "string" ? data.summary : null,
+    stages: diagnostics,
+    retryUsed: diagnostics.retryUsed,
+    retryReason: diagnostics.retryReason,
+    missingFields: diagnostics.missingFields,
+    initialLatencyMs: diagnostics.initial?.latencyMs ?? null,
+    retryLatencyMs: diagnostics.retry?.latencyMs ?? null,
   };
 }
 

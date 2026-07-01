@@ -81,9 +81,45 @@ type DeepSeekPromptPayload = {
   candidateShortlist?: unknown[];
 };
 
+type DeepSeekAttemptDiagnostics = {
+  phase: "initial" | "retry";
+  latencyMs: number;
+  finishReason?: string;
+  retryReason?: string;
+  hasReasoningContent: boolean;
+  rawTextEmpty: boolean;
+  parseError?: string;
+  missingFields: string[];
+  outputSource?: "ai" | "rules";
+  partialRepair: boolean;
+};
+
+type DeepSeekDiagnostics = {
+  provider: "deepseek";
+  retryUsed: boolean;
+  retryReason?: string;
+  attempts: DeepSeekAttemptDiagnostics[];
+  final: {
+    source: "ai" | "rules";
+    partialRepair: boolean;
+    finalFallback: boolean;
+  };
+};
+
 const DEEPSEEK_SHORTLIST_LIMIT = 8;
 const DEEPSEEK_MAX_TOKENS = 1600;
 const DEEPSEEK_RETRY_MAX_TOKENS = 2400;
+const DEEPSEEK_REQUIRED_FIELDS = [
+  "summary",
+  "recommendations",
+  "tradeoffs",
+  "suitableFor",
+  "notSuitableFor",
+  "alternatives",
+  "confidence",
+  "source",
+  "disclaimer",
+] as const;
 
 function extractDeepSeekText(data: DeepSeekResponsePayload): DeepSeekExtraction {
   const choices = Array.isArray(data.choices) ? data.choices : [];
@@ -169,6 +205,38 @@ function repairDeepSeekOutput(value: unknown): unknown {
         ? record.disclaimer
         : DEFAULT_DISCLAIMER,
   };
+}
+
+function getDeepSeekMissingFields(value: unknown): string[] {
+  if (!value || typeof value !== "object" || Array.isArray(value)) {
+    return ["rootObject"];
+  }
+
+  const record = value as Record<string, unknown>;
+  const missing: string[] = [];
+  for (const field of DEEPSEEK_REQUIRED_FIELDS) {
+    const item = record[field];
+    if (item === undefined || item === null) {
+      missing.push(field);
+      continue;
+    }
+
+    if (field === "summary" || field === "source" || field === "disclaimer") {
+      if (typeof item !== "string" || item.trim().length === 0) missing.push(field);
+    } else if (
+      field === "recommendations" ||
+      field === "alternatives" ||
+      field === "tradeoffs" ||
+      field === "suitableFor" ||
+      field === "notSuitableFor"
+    ) {
+      if (!Array.isArray(item)) missing.push(field);
+    } else if (field === "confidence" && typeof normalizeDeepSeekConfidence(item) !== "number") {
+      missing.push(field);
+    }
+  }
+
+  return missing;
 }
 
 function normalizeDeepSeekOutput(
@@ -593,7 +661,23 @@ async function fetchOpenAIAdvisor(input: DeviceAdvisorInput): Promise<DeviceAdvi
 async function callDeepSeek(
   input: DeviceAdvisorInput,
   requestBody: Record<string, unknown>,
-): Promise<{ output?: DeviceAdvisorOutput; retryReason?: string; reasoningContent?: string }> {
+  phase: DeepSeekAttemptDiagnostics["phase"],
+): Promise<{
+  output?: DeviceAdvisorOutput;
+  retryReason?: string;
+  reasoningContent?: string;
+  diagnostics: DeepSeekAttemptDiagnostics;
+}> {
+  const startedAt = Date.now();
+  const baseDiagnostics = (): DeepSeekAttemptDiagnostics => ({
+    phase,
+    latencyMs: Date.now() - startedAt,
+    hasReasoningContent: false,
+    rawTextEmpty: false,
+    missingFields: [],
+    partialRepair: false,
+  });
+
   const response = await fetch(DEEPSEEK_API_URL, {
     method: "POST",
     headers: {
@@ -616,14 +700,22 @@ async function callDeepSeek(
 
   const { rawText, finishReason, reasoningContent } = extractDeepSeekText(payload);
   if (!rawText) {
+    const retryReason =
+      finishReason === "length"
+        ? "DeepSeek response was truncated"
+        : reasoningContent
+          ? "DeepSeek response did not include usable text output"
+          : "DeepSeek response did not include text output";
     return {
-      retryReason:
-        finishReason === "length"
-          ? "DeepSeek response was truncated"
-          : reasoningContent
-            ? "DeepSeek response did not include usable text output"
-            : "DeepSeek response did not include text output",
+      retryReason,
       reasoningContent,
+      diagnostics: {
+        ...baseDiagnostics(),
+        finishReason,
+        retryReason,
+        hasReasoningContent: typeof reasoningContent === "string" && reasoningContent.trim().length > 0,
+        rawTextEmpty: true,
+      },
     };
   }
 
@@ -631,44 +723,102 @@ async function callDeepSeek(
   try {
     parsed = JSON.parse(rawText);
   } catch {
+    const retryReason =
+      finishReason === "length"
+        ? "DeepSeek response text was truncated"
+        : "DeepSeek response text was not valid JSON";
     return {
-      retryReason:
-        finishReason === "length"
-          ? "DeepSeek response text was truncated"
-          : "DeepSeek response text was not valid JSON",
+      retryReason,
       reasoningContent,
+      diagnostics: {
+        ...baseDiagnostics(),
+        finishReason,
+        retryReason,
+        hasReasoningContent: typeof reasoningContent === "string" && reasoningContent.trim().length > 0,
+        parseError: "invalidJson",
+        missingFields: ["json"],
+      },
     };
   }
 
+  const missingFields = getDeepSeekMissingFields(parsed);
   const normalized = normalizeDeepSeekOutput(input, parsed);
   if (!normalized) {
+    const retryReason =
+      finishReason === "length"
+        ? "DeepSeek response JSON was truncated or missing required fields"
+        : "DeepSeek response JSON was missing required fields";
     return {
-      retryReason:
-        finishReason === "length"
-          ? "DeepSeek response JSON was truncated or missing required fields"
-          : "DeepSeek response JSON was missing required fields",
+      retryReason,
       reasoningContent,
+      diagnostics: {
+        ...baseDiagnostics(),
+        finishReason,
+        retryReason,
+        hasReasoningContent: typeof reasoningContent === "string" && reasoningContent.trim().length > 0,
+        missingFields,
+      },
     };
   }
 
+  const outputSource = normalized.usedRuleScaffold ? "rules" : "ai";
   return {
     output: {
       ...normalized.output,
-      source: normalized.usedRuleScaffold ? "rules" : "ai",
+      source: outputSource,
       disclaimer: normalized.usedRuleScaffold
         ? PARTIAL_AI_REPAIR_DISCLAIMER
         : DEFAULT_DISCLAIMER,
     },
+    diagnostics: {
+      ...baseDiagnostics(),
+      finishReason,
+      hasReasoningContent: typeof reasoningContent === "string" && reasoningContent.trim().length > 0,
+      missingFields,
+      outputSource,
+      partialRepair: normalized.usedRuleScaffold,
+    },
   };
 }
 
-async function fetchDeepSeekAdvisor(input: DeviceAdvisorInput): Promise<DeviceAdvisorOutput> {
+class DeepSeekAdvisorError extends Error {
+  diagnostics: DeepSeekDiagnostics;
+
+  constructor(message: string, diagnostics: DeepSeekDiagnostics) {
+    super(message);
+    this.name = "DeepSeekAdvisorError";
+    this.diagnostics = diagnostics;
+  }
+}
+
+function withDeepSeekDiagnostics(
+  output: DeviceAdvisorOutput,
+  diagnostics: DeepSeekDiagnostics,
+): DeviceAdvisorOutput & { _diagnostics: DeepSeekDiagnostics } {
+  return {
+    ...output,
+    _diagnostics: diagnostics,
+  };
+}
+
+async function fetchDeepSeekAdvisor(
+  input: DeviceAdvisorInput,
+): Promise<DeviceAdvisorOutput & { _diagnostics?: DeepSeekDiagnostics }> {
   const apiKey = process.env.DEEPSEEK_API_KEY;
   if (!apiKey) return runFallbackDeviceAdvisor(input);
 
-  const initial = await callDeepSeek(input, buildDeepSeekRequest(input));
+  const initial = await callDeepSeek(input, buildDeepSeekRequest(input), "initial");
   if (initial.output) {
-    return initial.output;
+    return withDeepSeekDiagnostics(initial.output, {
+      provider: "deepseek",
+      retryUsed: false,
+      attempts: [initial.diagnostics],
+      final: {
+        source: initial.output.source,
+        partialRepair: initial.diagnostics.partialRepair,
+        finalFallback: false,
+      },
+    });
   }
 
   if (!initial.retryReason) {
@@ -678,12 +828,33 @@ async function fetchDeepSeekAdvisor(input: DeviceAdvisorInput): Promise<DeviceAd
   const retry = await callDeepSeek(
     input,
     buildDeepSeekRetryRequest(input, initial.retryReason, initial.reasoningContent),
+    "retry",
   );
   if (retry.output) {
-    return retry.output;
+    return withDeepSeekDiagnostics(retry.output, {
+      provider: "deepseek",
+      retryUsed: true,
+      retryReason: initial.retryReason,
+      attempts: [initial.diagnostics, retry.diagnostics],
+      final: {
+        source: retry.output.source,
+        partialRepair: retry.diagnostics.partialRepair,
+        finalFallback: false,
+      },
+    });
   }
 
-  throw new Error(retry.retryReason ?? initial.retryReason);
+  throw new DeepSeekAdvisorError(retry.retryReason ?? initial.retryReason, {
+    provider: "deepseek",
+    retryUsed: true,
+    retryReason: initial.retryReason,
+    attempts: [initial.diagnostics, retry.diagnostics],
+    final: {
+      source: "rules",
+      partialRepair: false,
+      finalFallback: true,
+    },
+  });
 }
 
 export async function POST(request: Request) {
@@ -717,6 +888,11 @@ export async function POST(request: Request) {
     return NextResponse.json(result);
   } catch (error) {
     console.error("Device advisor failed, using fallback:", error);
-    return NextResponse.json(runFallbackDeviceAdvisor(input));
+    const fallback = runFallbackDeviceAdvisor(input);
+    if (provider === "deepseek" && error instanceof DeepSeekAdvisorError) {
+      return NextResponse.json(withDeepSeekDiagnostics(fallback, error.diagnostics));
+    }
+
+    return NextResponse.json(fallback);
   }
 }
