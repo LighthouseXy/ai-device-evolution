@@ -82,6 +82,8 @@ type DeepSeekPromptPayload = {
 };
 
 const DEEPSEEK_SHORTLIST_LIMIT = 8;
+const DEEPSEEK_MAX_TOKENS = 1600;
+const DEEPSEEK_RETRY_MAX_TOKENS = 2400;
 
 function extractDeepSeekText(data: DeepSeekResponsePayload): DeepSeekExtraction {
   const choices = Array.isArray(data.choices) ? data.choices : [];
@@ -187,7 +189,7 @@ function normalizeDeepSeekOutput(
   }
 
   const record = repaired as Record<string, unknown>;
-  const aiNoMatch = normalizeDeepSeekNoMatchOutput(record);
+  const aiNoMatch = normalizeDeepSeekNoMatchOutput(input, record);
   if (aiNoMatch) {
     return {
       output: aiNoMatch,
@@ -259,18 +261,76 @@ function buildDeepSeekPrompt(input: DeviceAdvisorInput): string {
   const shortlist = Array.isArray(payload.candidateShortlist) ? payload.candidateShortlist : [];
   const trimmedPayload = {
     ...payload,
-    candidateShortlist: shortlist.slice(0, DEEPSEEK_SHORTLIST_LIMIT),
+    candidateShortlist: prioritizeDeepSeekShortlist(payload).slice(0, DEEPSEEK_SHORTLIST_LIMIT),
   };
 
   return [
     prefix.trimEnd(),
     JSON.stringify(trimmedPayload, null, 2),
-    "额外要求：如果候选列表里没有预算内可接受方案，可以返回 recommendations: [] 和 alternatives: []，但必须在 summary、tradeoffs、notSuitableFor 中明确说明预算无解或候选全部超预算。",
+    "额外要求：优先推荐 candidateShortlist 中价格明确且预算内或最接近预算的候选。",
+    "只有在用户提供预算上限、所有候选都有 numeric referencePrice、且所有 referencePrice 都高于预算时，才允许返回 recommendations: [] 和 alternatives: []。",
+    "如果候选价格缺失或无法判断预算内外，不要返回空数组；必须选择最接近的候选，并在 tradeoffs 中说明价格信息不足。",
     postfix.trimStart(),
   ].join("\n\n");
 }
 
-function normalizeDeepSeekNoMatchOutput(record: Record<string, unknown>): DeviceAdvisorOutput | null {
+function prioritizeDeepSeekShortlist(payload: DeepSeekPromptPayload): unknown[] {
+  const shortlist = Array.isArray(payload.candidateShortlist) ? payload.candidateShortlist : [];
+  const budgetMax = getDeepSeekBudgetMax(payload);
+
+  if (budgetMax === undefined) {
+    return shortlist;
+  }
+
+  return [...shortlist].sort((left, right) => {
+    const leftPrice = getDeepSeekNumber((left as Record<string, unknown>)?.referencePrice);
+    const rightPrice = getDeepSeekNumber((right as Record<string, unknown>)?.referencePrice);
+    const leftHasPrice = leftPrice !== undefined ? 0 : 1;
+    const rightHasPrice = rightPrice !== undefined ? 0 : 1;
+    if (leftHasPrice !== rightHasPrice) return leftHasPrice - rightHasPrice;
+
+    if (leftPrice !== undefined && rightPrice !== undefined) {
+      const leftOverBudget = leftPrice > budgetMax ? 1 : 0;
+      const rightOverBudget = rightPrice > budgetMax ? 1 : 0;
+      if (leftOverBudget !== rightOverBudget) return leftOverBudget - rightOverBudget;
+
+      const leftDistance = Math.abs(leftPrice - budgetMax);
+      const rightDistance = Math.abs(rightPrice - budgetMax);
+      if (leftDistance !== rightDistance) return leftDistance - rightDistance;
+    }
+
+    const leftScore = getDeepSeekNumber((left as Record<string, unknown>)?.totalScore) ?? 0;
+    const rightScore = getDeepSeekNumber((right as Record<string, unknown>)?.totalScore) ?? 0;
+    return rightScore - leftScore;
+  });
+}
+
+function getDeepSeekBudgetMax(payload: DeepSeekPromptPayload): number | undefined {
+  const budget = payload.userProfile?.budget;
+  if (!budget || typeof budget !== "object" || Array.isArray(budget)) {
+    return undefined;
+  }
+
+  return getDeepSeekNumber((budget as Record<string, unknown>).max);
+}
+
+function getDeepSeekNumber(value: unknown): number | undefined {
+  if (typeof value === "number" && Number.isFinite(value)) {
+    return value;
+  }
+
+  if (typeof value === "string" && value.trim().length > 0) {
+    const parsed = Number(value);
+    return Number.isFinite(parsed) ? parsed : undefined;
+  }
+
+  return undefined;
+}
+
+function normalizeDeepSeekNoMatchOutput(
+  input: DeviceAdvisorInput,
+  record: Record<string, unknown>,
+): DeviceAdvisorOutput | null {
   const summary = typeof record.summary === "string" ? record.summary.trim() : "";
   const tradeoffs = normalizeDeepSeekStringArray(record.tradeoffs);
   const notSuitableFor = normalizeDeepSeekStringArray(record.notSuitableFor);
@@ -291,6 +351,13 @@ function normalizeDeepSeekNoMatchOutput(record: Record<string, unknown>): Device
     return null;
   }
 
+  if (
+    !deepSeekInputAllowsNoMatch(input) ||
+    !summaryMentionsBudgetNoMatch(summary, tradeoffs, notSuitableFor)
+  ) {
+    return null;
+  }
+
   return {
     summary,
     recommendations: [],
@@ -305,6 +372,49 @@ function normalizeDeepSeekNoMatchOutput(record: Record<string, unknown>): Device
         ? record.disclaimer.trim()
         : DEFAULT_DISCLAIMER,
   };
+}
+
+function deepSeekInputAllowsNoMatch(input: DeviceAdvisorInput): boolean {
+  const prompt = buildDeviceAdvisorPrompt(input);
+  const marker = "输入数据：\n";
+  const suffix = "\n\n请直接返回 JSON。";
+  const start = prompt.indexOf(marker);
+  const end = prompt.lastIndexOf(suffix);
+
+  if (start === -1 || end === -1 || end <= start + marker.length) {
+    return false;
+  }
+
+  let payload: DeepSeekPromptPayload;
+  try {
+    payload = JSON.parse(prompt.slice(start + marker.length, end)) as DeepSeekPromptPayload;
+  } catch {
+    return false;
+  }
+
+  const budgetMax = getDeepSeekBudgetMax(payload);
+  if (budgetMax === undefined) {
+    return false;
+  }
+
+  const shortlist = prioritizeDeepSeekShortlist(payload).slice(0, DEEPSEEK_SHORTLIST_LIMIT);
+  if (!shortlist.length) {
+    return false;
+  }
+
+  const prices = shortlist.map((item) =>
+    getDeepSeekNumber((item as Record<string, unknown>)?.referencePrice),
+  );
+  return prices.every((price) => price !== undefined && price > budgetMax);
+}
+
+function summaryMentionsBudgetNoMatch(
+  summary: string,
+  tradeoffs: string[],
+  notSuitableFor: string[],
+): boolean {
+  const text = [summary, ...tradeoffs, ...notSuitableFor].join(" ");
+  return /预算|超出|高于|无法|没有|无符合|不符合/.test(text);
 }
 
 function truncateText(value: string, maxLength: number): string {
@@ -381,7 +491,7 @@ function buildDeepSeekRequest(input: DeviceAdvisorInput) {
       },
     ],
     temperature: 0.2,
-    max_tokens: 900,
+    max_tokens: DEEPSEEK_MAX_TOKENS,
     response_format: { type: "json_object" },
   };
 }
@@ -411,21 +521,23 @@ function buildDeepSeekRetryRequest(
       },
       {
         role: "user",
-        content: compactContext
-          ? [
-              "Convert the following analysis into the final DeviceScope device-advisor JSON object.",
-              "Keep only the schema fields summary, recommendations, tradeoffs, suitableFor, notSuitableFor, alternatives, confidence, source, disclaimer.",
-              "Stay grounded in the candidate shortlist discussed below.",
-              "If every candidate is over budget or unsuitable, recommendations and alternatives may be empty arrays, but summary, tradeoffs, and notSuitableFor must clearly explain that no acceptable option fits the budget.",
-              "Do not repeat the analysis or add prose.",
-              "",
-              compactContext,
-            ].join("\n")
-          : buildDeviceAdvisorPrompt(input),
+        content: [
+          "Repair the previous answer into a valid DeviceScope device-advisor JSON object.",
+          "Use the candidate data and rules below as the source of truth.",
+          "Every recommendation and alternative must copy all required item fields from candidateShortlist: deviceId, model, series, category, releaseYear, priceText, matchScore, reasons, tradeoffs, suitableFor, notSuitableFor.",
+          "Keep recommendations and alternatives empty only when the no-match rule in the prompt is satisfied.",
+          "If prices are missing or budget fit is unclear, choose the closest candidates and explain the uncertainty in tradeoffs.",
+          "Return JSON only.",
+          "",
+          buildDeepSeekPrompt(input),
+          compactContext ? ["", "Previous analysis context:", compactContext].join("\n") : "",
+        ]
+          .filter(Boolean)
+          .join("\n"),
       },
     ],
     temperature: 0,
-    max_tokens: compactContext ? 1600 : 1200,
+    max_tokens: compactContext ? DEEPSEEK_RETRY_MAX_TOKENS : DEEPSEEK_MAX_TOKENS,
     response_format: { type: "json_object" },
   };
 }

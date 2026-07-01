@@ -470,7 +470,8 @@ const scenarios = [
           const requestBody = JSON.parse(init.body);
           const messages = Array.isArray(requestBody.messages) ? requestBody.messages : [];
           const userMessage = messages.find((message) => message.role === "user");
-          assert.match(userMessage?.content ?? "", /recommendations: \[\] 和 alternatives: \[\]/);
+          assert.match(userMessage?.content ?? "", /只有在用户提供预算上限/);
+          assert.match(userMessage?.content ?? "", /referencePrice/);
 
           return makeJsonResponse({
             choices: [
@@ -508,6 +509,46 @@ const scenarios = [
           assert.equal(data.alternatives.length, 0);
           assert.match(data.summary, /高于预算|没有可接受/);
         })),
+  },
+  {
+    name: "deepseek_no_match_rejects_unknown_prices",
+    run: () =>
+      withDeepSeekProviderEnv(() =>
+        withMockedFetch(async () =>
+          makeJsonResponse({
+            choices: [
+              {
+                finish_reason: "stop",
+                message: {
+                  content: JSON.stringify({
+                    summary: "所有候选价格待补充，无法确认是否符合预算，因此不推荐任何设备。",
+                    recommendations: [],
+                    tradeoffs: ["价格信息缺失，无法判断预算内外"],
+                    suitableFor: ["愿意等待价格明确的用户"],
+                    notSuitableFor: ["需要立即得到明确推荐的用户"],
+                    alternatives: [],
+                    confidence: 0.25,
+                    source: "ai",
+                    disclaimer: "基于已收录设备数据生成，仅供参考",
+                  }),
+                },
+              },
+            ],
+          }), () => callRoute({
+            budget: { max: 5000, currency: "CNY" },
+            category: "tablet",
+            performancePreference: "screen",
+            useCases: ["阅读", "笔记", "追剧"],
+            interfaceNeed: "pencil",
+            replacementIntent: "first_device",
+            maxResults: 3,
+          })).then(async (response) => {
+            assert.equal(response.status, 200);
+            const data = await response.json();
+            assert.equal(data.source, "rules");
+            assert.match(data.disclaimer, /AI 输出不完整/);
+            assert.ok(data.recommendations.length > 0);
+          })),
   },
 ];
 
