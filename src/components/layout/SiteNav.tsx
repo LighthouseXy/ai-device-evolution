@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 
 const links = [
   { href: "/", label: "首页" },
+  { href: "/devices", label: "设备库" },
   { href: "/dev/device-advisor-eval", label: "AI 评测" },
 ];
 

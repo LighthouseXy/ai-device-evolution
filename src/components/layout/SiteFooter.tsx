@@ -1,6 +1,8 @@
 import Link from "next/link";
 
 export default function SiteFooter() {
+  const isDev = process.env.NODE_ENV !== "production";
+
   return (
     <footer className="site-footer">
       <div className="site-footer-inner">
@@ -21,7 +23,8 @@ export default function SiteFooter() {
               <div className="site-footer-col">
                 <div className="site-footer-col-title">导航</div>
                 <Link className="site-footer-link" href="/">首页</Link>
-                <Link className="site-footer-link" href="/dev/device-advisor-eval">AI 评测</Link>
+                <Link className="site-footer-link" href="/devices">设备库</Link>
+                {isDev ? <Link className="site-footer-link" href="/dev/device-advisor-eval">AI 评测</Link> : null}
               </div>
               <div className="site-footer-col">
                 <div className="site-footer-col-title">定位</div>
