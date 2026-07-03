@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import SiteFooter from "@/components/layout/SiteFooter";
+import SiteNav from "@/components/layout/SiteNav";
 
-// 页面元信息会显示在浏览器标签和搜索摘要中，后续打磨项目时可以继续补充。
 export const metadata: Metadata = {
-  title: "数码观察站 - DeviceScope",
-  description: "多品牌数码设备规格对比、代际演进分析与下一代配置预测",
+  title: "数码观察站｜电子设备代际演进分析平台",
+  description: "聚焦电子设备代际演进、规格对比与 AI 辅助分析，Apple 仅作为第一阶段样本范围。",
   icons: { icon: "/icon.svg" },
 };
 
-// App Router 的根布局，所有页面都会被包在这个 html/body 结构里。
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -16,7 +16,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN" className="h-full antialiased">
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full">
+        <div className="site-shell">
+          <SiteNav />
+          {children}
+          <SiteFooter />
+        </div>
+      </body>
     </html>
   );
 }
