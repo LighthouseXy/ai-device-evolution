@@ -279,7 +279,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
             <p className="text-sm font-semibold text-[#1E293B]">设备顾问</p>
             <p className="mt-1 text-xs text-[#94A3B8]">预算、机型类型、性能偏好、使用场景</p>
           </div>
-          <span className="inline-flex rounded-full bg-[#EEF2FF] px-2 py-0.5 text-[10px] font-medium text-[#3B82F6]">
+          <span className="inline-flex rounded-full bg-[var(--primary-soft)] px-2 py-0.5 text-[10px] font-medium text-[var(--primary)]">
             API 调用
           </span>
         </div>
@@ -295,7 +295,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
           <label className="block">
             <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">预算下限</span>
             <input
-              className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[#3B82F6]"
+              className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
               inputMode="numeric"
               placeholder="例如 6000"
               value={budgetMin}
@@ -308,7 +308,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
           <label className="block">
             <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">预算上限</span>
             <input
-              className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[#3B82F6]"
+              className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
               inputMode="numeric"
               placeholder="例如 9000"
               value={budgetMax}
@@ -327,7 +327,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
           <label className="block">
             <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">设备类型</span>
             <select
-              className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[#3B82F6]"
+              className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
               value={category}
               onChange={(event) => {
                 clearError();
@@ -346,7 +346,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
           <label className="block">
             <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">性能偏好</span>
             <select
-              className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[#3B82F6]"
+              className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
               value={performancePreference}
               onChange={(event) =>
                 {
@@ -368,7 +368,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
           <label className="block">
             <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">成色偏好</span>
             <select
-              className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[#3B82F6]"
+              className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
               value={conditionPreference}
               onChange={(event) =>
                 {
@@ -388,7 +388,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
           <label className="block">
             <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">续航优先级</span>
             <select
-              className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[#3B82F6]"
+              className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
               value={batteryPriority}
               onChange={(event) =>
                 {
@@ -409,7 +409,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
         <label className="block">
           <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">接口 / 生态需求</span>
           <select
-            className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[#3B82F6]"
+            className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
             value={interfaceNeed}
             onChange={(event) =>
               {
@@ -429,7 +429,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
         <label className="block">
           <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">使用场景</span>
           <textarea
-            className="mt-1 min-h-24 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 py-2 text-sm leading-6 text-[#1E293B] outline-none transition focus:border-[#3B82F6]"
+            className="mt-1 min-h-24 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 py-2 text-sm leading-6 text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
             placeholder="例如：学习 / 办公 / 剪辑 / 游戏 / 拍照"
             value={useCasesText}
             onChange={(event) => {
@@ -443,7 +443,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
               {useCaseSuggestionOptions.map((item) => (
                 <button
                   key={item}
-                  className="inline-flex h-8 items-center rounded-full border border-[#E8E4DC] bg-white px-3 text-xs text-[#475569] transition hover:border-[#BFDBFE] hover:bg-[#EFF6FF] hover:text-[#1D4ED8]"
+                  className="inline-flex h-8 items-center rounded-full border border-[#E8E4DC] bg-white px-3 text-xs text-[#475569] transition hover:border-[rgba(45,90,61,0.24)] hover:bg-[var(--primary-soft)] hover:text-[var(--primary-strong)]"
                   type="button"
                   onClick={() => handleUseCaseSuggestion(item)}
                 >
@@ -464,7 +464,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
               </p>
             </div>
             <button
-              className="inline-flex h-10 items-center justify-center rounded-lg bg-[#3B82F6] px-4 text-sm font-medium text-white transition hover:bg-[#2563EB] disabled:cursor-not-allowed disabled:opacity-60"
+              className="inline-flex h-10 items-center justify-center rounded-lg bg-[var(--primary)] px-4 text-sm font-medium text-white transition hover:bg-[var(--primary-strong)] disabled:cursor-not-allowed disabled:opacity-60"
               type="submit"
               disabled={loading}
               aria-busy={loading}
@@ -475,7 +475,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
           <div className="mt-3 flex flex-wrap gap-2">
             {summaryTags.map((item) => (
               <span
-                className="rounded-full bg-[#F8FAFE] px-2.5 py-1 text-[11px] text-[#475569]"
+                className="rounded-full bg-[var(--primary-soft)] px-2.5 py-1 text-[11px] text-[var(--primary-strong)]"
                 key={item}
               >
                 {item}
@@ -491,18 +491,18 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
 
       <div className="border-t border-[#E8E4DC] bg-[#FFFDF8] p-5" aria-live="polite" aria-atomic="true">
         {loading ? (
-          <div className="rounded-2xl border border-[#DBEAFE] bg-[#EFF6FF] p-4" role="status">
+          <div className="rounded-2xl border border-[rgba(45,90,61,0.16)] bg-[var(--primary-soft)] p-4" role="status">
             <div className="flex items-center gap-2">
-              <p className="text-sm font-semibold text-[#1D4ED8]">正在生成推荐</p>
-              <span className="rounded-full bg-white px-2 py-0.5 text-[10px] font-medium text-[#3B82F6]">
+              <p className="text-sm font-semibold text-[var(--primary-strong)]">正在生成推荐</p>
+              <span className="rounded-full bg-white px-2 py-0.5 text-[10px] font-medium text-[var(--primary)]">
                 API 调用
               </span>
             </div>
             <p className="mt-2 text-sm leading-6 text-[#1E293B]">正在整理预算、成色、续航和接口偏好，请稍等。</p>
             <div className="mt-4 space-y-2 animate-pulse">
-              <div className="h-4 w-2/3 rounded bg-[#DBEAFE]" />
-              <div className="h-4 w-full rounded bg-[#DBEAFE]" />
-              <div className="h-4 w-5/6 rounded bg-[#DBEAFE]" />
+              <div className="h-4 w-2/3 rounded bg-[rgba(45,90,61,0.16)]" />
+              <div className="h-4 w-full rounded bg-[rgba(45,90,61,0.16)]" />
+              <div className="h-4 w-5/6 rounded bg-[rgba(232,168,56,0.18)]" />
             </div>
           </div>
         ) : error ? (
@@ -513,10 +513,10 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
           </div>
         ) : result ? (
           <div className="space-y-4">
-            <div className="rounded-2xl border border-[#BFDBFE] bg-[#EFF6FF] p-4">
+            <div className="rounded-2xl border border-[rgba(45,90,61,0.18)] bg-[var(--primary-soft)] p-4">
               <div className="flex flex-wrap items-center gap-2">
                 <p className="text-sm font-semibold text-[#1E293B]">推荐结果</p>
-                <span className="rounded-full bg-white px-2 py-0.5 text-[10px] font-medium text-[#3B82F6]">
+                <span className="rounded-full bg-white px-2 py-0.5 text-[10px] font-medium text-[var(--primary)]">
                   可信度 {Math.round(result.confidence * 100)}%
                 </span>
                 <span className="rounded-full bg-[#F0FDF4] px-2 py-0.5 text-[10px] font-medium text-[#16A34A]">
@@ -531,7 +531,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
                   {result.tradeoffs.length ? (
                     <div className="mt-2 flex flex-wrap gap-1.5">
                       {result.tradeoffs.map((item) => (
-                        <span key={item} className="rounded-full bg-white px-2 py-0.5 text-[11px] text-[#64748B]">
+                        <span key={item} className="rounded-full bg-white px-2 py-0.5 text-[11px] text-[var(--primary-strong)]">
                           {item}
                         </span>
                       ))}
@@ -544,7 +544,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
                   <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">适合人群</p>
                   <div className="mt-2 flex flex-wrap gap-1.5">
                     {result.suitableFor.map((item) => (
-                      <span key={item} className="rounded-full bg-[#F8FAFE] px-2 py-0.5 text-[11px] text-[#64748B]">
+                      <span key={item} className="rounded-full bg-[var(--primary-soft)] px-2 py-0.5 text-[11px] text-[var(--primary-strong)]">
                         {item}
                       </span>
                     ))}
@@ -572,7 +572,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
                 return (
                   <article
                     className={`rounded-2xl border p-4 shadow-sm ${
-                      isPrimary ? "border-[#BFDBFE] bg-white" : "border-[#E8E4DC] bg-white"
+                      isPrimary ? "border-[rgba(45,90,61,0.18)] bg-white" : "border-[#E8E4DC] bg-white"
                     }`}
                     key={item.deviceId}
                   >
@@ -581,7 +581,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
                         <div className="flex flex-wrap items-center gap-2">
                           <span
                             className={`rounded-full px-2 py-0.5 text-[10px] font-medium ${
-                              isPrimary ? "bg-[#DBEAFE] text-[#1D4ED8]" : "bg-[#F5F0E8] text-[#64748B]"
+                              isPrimary ? "bg-[var(--primary-soft)] text-[var(--primary-strong)]" : "bg-[#F5F0E8] text-[#64748B]"
                             }`}
                           >
                             {isPrimary ? "主推荐" : `备选 ${index}`}
@@ -598,7 +598,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
                     </div>
 
                     <div className="mt-4 grid gap-3 lg:grid-cols-2">
-                      <div className="rounded-xl bg-[#F8FAFE] p-3">
+                      <div className="rounded-xl bg-[#F4F9F5] p-3">
                         <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">推荐理由</p>
                         <ul className="mt-2 space-y-1">
                           {item.reasons.map((reason) => (
@@ -609,11 +609,11 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
                           ))}
                         </ul>
                       </div>
-                      <div className="rounded-xl bg-[#FFF7ED] p-3">
+                      <div className="rounded-xl bg-[#F4F9F5] p-3">
                         <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">注意事项 / 权衡点</p>
                         <ul className="mt-2 space-y-1">
                           {item.tradeoffs.map((tradeoff) => (
-                            <li className="flex gap-2 text-sm leading-6 text-[#7C2D12]" key={tradeoff}>
+                            <li className="flex gap-2 text-sm leading-6 text-[var(--primary-strong)]" key={tradeoff}>
                               <span className="shrink-0">•</span>
                               <span>{tradeoff}</span>
                             </li>

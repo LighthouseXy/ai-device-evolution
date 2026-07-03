@@ -31,9 +31,9 @@
   --radius-md: 14px;
   --radius-lg: 20px;
   --radius-xl: 28px;
-  --font-sans-stack: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC",
-    -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-display-stack: "PingFang SC", "Hiragino Sans GB", "Songti SC", "STSong", Georgia, serif;
+  --font-sans-stack: "Source Han Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display-stack: "Source Han Serif SC", "Songti SC", "STSong", Georgia, serif;
   --font-mono-stack: "SF Mono", "JetBrains Mono", "Cascadia Code", "Consolas", monospace;
 }
 
@@ -496,6 +496,7 @@ p {
 }
 
 .site-nav-link {
+  position: relative;
   display: inline-flex;
   align-items: center;
   min-height: 2.5rem;
@@ -516,8 +517,42 @@ p {
 }
 
 .site-nav-link-active {
-  background: rgba(45, 90, 61, 0.12);
-  color: var(--primary);
+  color: var(--primary-strong);
+  background: rgba(45, 90, 61, 0.05);
+}
+
+.site-nav-link-active::after {
+  content: "";
+  position: absolute;
+  left: 0.8rem;
+  right: 0.8rem;
+  bottom: 0.25rem;
+  height: 0.36rem;
+  border-radius: 999px;
+  background:
+    linear-gradient(
+      90deg,
+      transparent 0%,
+      transparent 14%,
+      var(--primary) 14%,
+      var(--primary) 21%,
+      transparent 21%,
+      transparent 36%,
+      var(--primary) 36%,
+      var(--primary) 43%,
+      transparent 43%,
+      transparent 58%,
+      var(--accent) 58%,
+      var(--accent) 65%,
+      transparent 65%,
+      transparent 80%,
+      var(--primary) 80%,
+      var(--primary) 87%,
+      transparent 87%,
+      transparent 100%
+    );
+  opacity: 0.85;
+  pointer-events: none;
 }
 
 .site-nav-pill {
