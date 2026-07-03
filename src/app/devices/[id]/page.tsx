@@ -10,7 +10,9 @@ import PageHeader from "@/components/layout/PageHeader";
 import SectionHeader from "@/components/layout/SectionHeader";
 import TickDivider from "@/components/layout/TickDivider";
 
-function getSpecValue(device: (typeof allDevicesFlat)[number], key: string) {
+type Device = (typeof allDevicesFlat)[number];
+
+function getSpecValue(device: Device, key: string) {
   const value = device.specs?.[key];
   if (value === undefined || value === null || value === "") return null;
   if (typeof value === "boolean") return value ? "支持" : "不支持";
@@ -18,12 +20,24 @@ function getSpecValue(device: (typeof allDevicesFlat)[number], key: string) {
   return String(value);
 }
 
-function buildRows(device: (typeof allDevicesFlat)[number], keys: Array<[string, string]>) {
-  return keys
-    .map(([label, key]) => {
-      const value = getSpecValue(device, key);
-      return { label, value: value ?? "待补充" };
-    });
+function buildRows(device: Device, keys: Array<[string, string]>) {
+  return keys.map(([label, key]) => {
+    const value = getSpecValue(device, key);
+    return { label, value: value ?? "待补充" };
+  });
+}
+
+function formatNumber(value: number) {
+  return new Intl.NumberFormat("zh-CN", { maximumFractionDigits: 2 }).format(value);
+}
+
+function parseChipRank(chip: string) {
+  const normalized = chip.replace(/\s+/g, " ");
+  const match = normalized.match(/\b(?:Apple\s+)?([AM])\s?(\d{1,2})\b/i) ?? normalized.match(/\b(\d{1,2})\b/);
+  if (!match) return null;
+  const raw = match.length > 2 ? match[2] : match[1];
+  const value = Number(raw);
+  return Number.isFinite(value) ? value : null;
 }
 
 function InfoRow({ label, value }: { label: string; value: string }) {
@@ -54,46 +68,209 @@ function SpecGroup({
   );
 }
 
-function DeviceTimelineCard({
-  device,
-  active,
+type TrendMetric = {
+  key: string;
+  label: string;
+  note: string;
+  format: (value: number) => string;
+  getValue: (device: Device) => number | null;
+};
+
+const trendMetrics: TrendMetric[] = [
+  {
+    key: "launchPrice",
+    label: "首发价格",
+    note: "按真实首发价排位，位置越高代表价格越高。",
+    format: (value) => formatMaybeCurrency(value),
+    getValue: (device) => device.launchPrice ?? null,
+  },
+  {
+    key: "screenSize",
+    label: "屏幕尺寸",
+    note: "按英寸值直接对比，屏幕越大位置越高。",
+    format: (value) => `${formatNumber(value)} 英寸`,
+    getValue: (device) => device.screenSize ?? null,
+  },
+  {
+    key: "weight",
+    label: "重量",
+    note: "按克数对比，数值越小越轻。",
+    format: (value) => `${formatNumber(value)} g`,
+    getValue: (device) => device.weight ?? null,
+  },
+  {
+    key: "aiFeatureLevel",
+    label: "AI 能力",
+    note: "来自本地 computed 字段，按 0-10 分级。",
+    format: (value) => `${formatNumber(value)}/10`,
+    getValue: (device) => device.aiFeatureLevel ?? null,
+  },
+  {
+    key: "chipRank",
+    label: "芯片代际",
+    note: "从芯片编号提取的可比较序列，保留真实芯片文本。",
+    format: (value) => `${formatNumber(value)} 代`,
+    getValue: (device) => parseChipRank(device.chip),
+  },
+];
+
+function MetricTrendCard({
+  metric,
+  devices,
+  activeId,
 }: {
-  device: (typeof allDevicesFlat)[number];
-  active?: boolean;
+  metric: TrendMetric;
+  devices: Device[];
+  activeId: string;
 }) {
+  const entries = devices.map((device) => {
+    const value = metric.getValue(device);
+    return { device, value };
+  });
+  const validValues = entries.flatMap((entry) => (typeof entry.value === "number" ? [entry.value] : []));
+  const currentEntry = entries.find((entry) => entry.device.id === activeId) ?? null;
+  const currentValue = currentEntry?.value ?? null;
+  const min = validValues.length ? Math.min(...validValues) : null;
+  const max = validValues.length ? Math.max(...validValues) : null;
+  const span = min !== null && max !== null ? Math.max(max - min, 1) : 1;
+  const width = 640;
+  const height = 180;
+  const paddingX = 24;
+  const paddingTop = 18;
+  const paddingBottom = 42;
+  const usableWidth = width - paddingX * 2;
+  const usableHeight = height - paddingTop - paddingBottom;
+
+  const points = entries.map((entry, index) => {
+    const hasValue = typeof entry.value === "number" && min !== null && max !== null;
+    const x = devices.length <= 1 ? width / 2 : paddingX + (index / (devices.length - 1)) * usableWidth;
+    const y = hasValue ? paddingTop + (1 - ((entry.value as number) - min) / span) * usableHeight : null;
+    return { ...entry, x, y };
+  });
+
+  const pathSegments: string[] = [];
+  let started = false;
+  for (const point of points) {
+    if (point.y === null) {
+      started = false;
+      continue;
+    }
+    const command = started ? "L" : "M";
+    pathSegments.push(`${command} ${point.x.toFixed(1)} ${point.y.toFixed(1)}`);
+    started = true;
+  }
+  const path = pathSegments.join(" ");
+
+  const currentPosition =
+    currentValue !== null && min !== null && max !== null ? (currentValue - min) / span : null;
+  const rangeLabel =
+    min !== null && max !== null ? `${metric.format(min)} - ${metric.format(max)}` : "暂无可比数据";
+
   return (
-    <Link
-      href={`/devices/${device.id}`}
-      className={`card group flex h-full flex-col p-4 transition ${active ? "border-[rgba(45,90,61,0.35)] shadow-[0_10px_30px_rgba(45,90,61,0.12)]" : ""}`}
-      aria-current={active ? "page" : undefined}
-    >
-      <div className="flex items-start justify-between gap-3">
+    <article className="card p-4">
+      <div className="flex items-start justify-between gap-4">
         <div className="grid gap-1">
-          <span className="tag tag-neutral w-fit">{device.releaseYear}</span>
-          <h3 className="text-lg leading-tight text-[var(--text-strong)] group-hover:text-[var(--primary)]">
-            {device.model}
-          </h3>
+          <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">{metric.label}</div>
+          <div className="text-2xl font-semibold text-[var(--text-strong)]">
+            {currentValue !== null ? metric.format(currentValue) : "待补充"}
+          </div>
+          <p className="text-xs leading-6 text-[var(--text-muted)]">{metric.note}</p>
         </div>
-        {active ? <span className="tag tag-green">当前</span> : null}
+        <span className="tag tag-green">{devices.length} 台</span>
       </div>
 
-      <div className="mt-4 grid gap-2 text-sm text-[var(--text-muted)]">
-        <div className="flex items-center justify-between gap-4">
-          <span>芯片</span>
-          <span className="font-medium text-[var(--text-strong)]">{device.chip || "待补充"}</span>
-        </div>
-        <div className="flex items-center justify-between gap-4">
-          <span>屏幕</span>
-          <span className="font-medium text-[var(--text-strong)]">
-            {typeof device.screenSize === "number" ? `${device.screenSize}"` : "待补充"}
-          </span>
-        </div>
-        <div className="flex items-center justify-between gap-4">
-          <span>起售价</span>
-          <span className="font-medium text-[var(--text-strong)]">{formatMaybeCurrency(device.launchPrice)}</span>
-        </div>
+      <div className="mt-4 rounded-2xl border border-[rgba(221,213,199,0.72)] bg-[var(--bg-soft)] p-3">
+        {path ? (
+          <>
+            <svg
+              aria-label={`${metric.label} 同系列位置图`}
+              className="h-[180px] w-full"
+              preserveAspectRatio="none"
+              role="img"
+              viewBox={`0 0 ${width} ${height}`}
+            >
+              <defs>
+                <linearGradient id={`${metric.key}-line`} x1="0%" x2="100%" y1="0%" y2="0%">
+                  <stop offset="0%" stopColor="rgba(45,90,61,0.18)" />
+                  <stop offset="100%" stopColor="rgba(45,90,61,0.42)" />
+                </linearGradient>
+              </defs>
+              <line
+                stroke="rgba(221,213,199,0.72)"
+                strokeDasharray="4 6"
+                x1={paddingX}
+                x2={width - paddingX}
+                y1={paddingTop + usableHeight / 2}
+                y2={paddingTop + usableHeight / 2}
+              />
+              <path d={path} fill="none" stroke={`url(#${metric.key}-line)`} strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" />
+              {points.map((point) => {
+                if (point.y === null) return null;
+                const isActive = point.device.id === activeId;
+                return (
+                  <g key={`${metric.key}-${point.device.id}`}>
+                    <circle
+                      cx={point.x}
+                      cy={point.y}
+                      fill={isActive ? "var(--primary-strong)" : "rgba(221,213,199,0.96)"}
+                      r={isActive ? 6.5 : 4.4}
+                      stroke={isActive ? "rgba(247,245,240,1)" : "rgba(45,90,61,0.16)"}
+                      strokeWidth={isActive ? 3 : 2}
+                    />
+                    <text
+                      fill={isActive ? "var(--primary-strong)" : "var(--text-soft)"}
+                      fontSize="10"
+                      fontWeight={isActive ? 700 : 500}
+                      textAnchor="middle"
+                      x={point.x}
+                      y={height - 16}
+                    >
+                      {point.device.releaseYear}
+                    </text>
+                  </g>
+                );
+              })}
+              {points.map((point) => {
+                if (point.y === null || point.device.id !== activeId) return null;
+                return (
+                  <text
+                    fill="var(--primary-strong)"
+                    fontSize="10"
+                    fontWeight="700"
+                    textAnchor="middle"
+                    x={point.x}
+                    y={Math.max(point.y - 12, 12)}
+                    key={`${metric.key}-${point.device.id}-label`}
+                  >
+                    {point.device.model}
+                  </text>
+                );
+              })}
+            </svg>
+
+            <div className="mt-2 flex items-center justify-between gap-3 text-[10px] text-[var(--text-soft)]">
+              {points.map((point) => (
+                <span
+                  className={point.device.id === activeId ? "font-semibold text-[var(--primary-strong)]" : ""}
+                  key={`${metric.key}-${point.device.id}-axis`}
+                >
+                  {point.device.releaseYear}
+                </span>
+              ))}
+            </div>
+          </>
+        ) : (
+          <div className="flex h-[180px] items-center justify-center rounded-2xl border border-dashed border-[rgba(221,213,199,0.7)] bg-white/70 text-sm text-[var(--text-muted)]">
+            该指标暂无足够数据
+          </div>
+        )}
       </div>
-    </Link>
+
+      <div className="mt-3 flex items-center justify-between gap-3 text-xs text-[var(--text-muted)]">
+        <span>系列范围 {rangeLabel}</span>
+        <span>{currentPosition !== null ? `当前位置 ${Math.round(currentPosition * 100)}%` : "当前位置 —"}</span>
+      </div>
+    </article>
   );
 }
 
@@ -131,9 +308,6 @@ export default async function DeviceDetailPage({
 
   const seriesDevices = getDevicesBySeriesFlat(device.series);
   const currentIndex = seriesDevices.findIndex((item) => item.id === device.id);
-  const previousDevice = currentIndex > 0 ? seriesDevices[currentIndex - 1] : null;
-  const nextDevice = currentIndex >= 0 && currentIndex < seriesDevices.length - 1 ? seriesDevices[currentIndex + 1] : null;
-
   const performanceRows = buildRows(device, [
     ["芯片", "chip"],
     ["CPU", "cpu"],
@@ -209,73 +383,65 @@ export default async function DeviceDetailPage({
       />
 
       <section className="section pt-0">
-        <div className="section-inner grid gap-5 lg:grid-cols-[0.9fr_1.1fr]">
-          <div className="card p-6">
-            <div className="flex items-start justify-between gap-4">
-              <div className="grid gap-2">
-                <span className="tag tag-green w-fit">{device.brand}</span>
-                <h2 className="text-2xl leading-tight text-[var(--text-strong)]">{device.model}</h2>
-                <p className="text-sm leading-7 text-[var(--text-muted)]">
-                  {device.series} · {device.category} · {device.releaseYear}
-                </p>
-              </div>
-              <div className="rounded-full bg-[var(--accent-soft)] px-4 py-3 text-right">
-                <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--accent-strong)]">
-                  起售价
+        <div className="section-inner">
+          <div className="card overflow-hidden p-6 lg:p-7">
+            <div className="grid gap-6 xl:grid-cols-[minmax(0,0.92fr)_minmax(0,1.08fr)] xl:items-start">
+              <div className="grid gap-5">
+                <div className="grid gap-4">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="tag tag-green w-fit">{device.brand}</span>
+                    <span className="tag tag-neutral">{device.series}</span>
+                    <span className="tag tag-amber">
+                      {currentIndex >= 0 ? `第 ${currentIndex + 1} 代 / 共 ${seriesDevices.length} 代` : `${seriesDevices.length} 代样本`}
+                    </span>
+                  </div>
+                  <div className="grid gap-2">
+                    <h2 className="text-2xl leading-tight text-[var(--text-strong)]">{device.model}</h2>
+                    <p className="text-sm leading-7 text-[var(--text-muted)]">
+                      {device.series} · {device.category} · {device.releaseYear}
+                    </p>
+                  </div>
                 </div>
-                <div className="mt-1 text-lg font-semibold text-[var(--text-strong)]">
-                  {formatMaybeCurrency(device.launchPrice)}
-                </div>
-              </div>
-            </div>
 
-            <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
-              <div className="rounded-2xl bg-[var(--bg-soft)] p-4">
-                <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">芯片</div>
-                <div className="mt-2 text-sm font-medium text-[var(--text-strong)]">{device.chip || "待补充"}</div>
-              </div>
-              <div className="rounded-2xl bg-[var(--bg-soft)] p-4">
-                <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">屏幕</div>
-                <div className="mt-2 text-sm font-medium text-[var(--text-strong)]">
-                  {typeof device.screenSize === "number" ? `${device.screenSize}"` : "待补充"}
+                <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+                  <div className="rounded-2xl bg-[var(--bg-soft)] p-4">
+                    <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">芯片</div>
+                    <div className="mt-2 text-sm font-medium text-[var(--text-strong)]">{device.chip || "待补充"}</div>
+                  </div>
+                  <div className="rounded-2xl bg-[var(--bg-soft)] p-4">
+                    <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">屏幕</div>
+                    <div className="mt-2 text-sm font-medium text-[var(--text-strong)]">
+                      {typeof device.screenSize === "number" ? `${device.screenSize}"` : "待补充"}
+                    </div>
+                  </div>
+                  <div className="rounded-2xl bg-[var(--bg-soft)] p-4">
+                    <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">重量</div>
+                    <div className="mt-2 text-sm font-medium text-[var(--text-strong)]">
+                      {device.weight ? `${device.weight}g` : "待补充"}
+                    </div>
+                  </div>
+                  <div className="rounded-2xl bg-[var(--bg-soft)] p-4">
+                    <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">AI 能力</div>
+                    <div className="mt-2 text-sm font-medium text-[var(--text-strong)]">
+                      {typeof device.aiFeatureLevel === "number" ? `${device.aiFeatureLevel}/10` : "待补充"}
+                    </div>
+                  </div>
+                </div>
+
+                <div className="rounded-2xl border border-[var(--border)] bg-white/75 p-4">
+                  <div className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">数据口径</div>
+                  <p className="mt-2 text-sm leading-7 text-[var(--text-muted)]">
+                    该页面优先展示本地数据库中已收录字段，数组或布尔型字段会按实际值展开，缺失项保留“待补充”。
+                    参数图仅使用真实同系列样本，不引入原型假统计数字。
+                  </p>
                 </div>
               </div>
-              <div className="rounded-2xl bg-[var(--bg-soft)] p-4">
-                <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">重量</div>
-                <div className="mt-2 text-sm font-medium text-[var(--text-strong)]">
-                  {device.weight ? `${device.weight}g` : "待补充"}
-                </div>
-              </div>
-              <div className="rounded-2xl bg-[var(--bg-soft)] p-4">
-                <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">AI 能力</div>
-                <div className="mt-2 text-sm font-medium text-[var(--text-strong)]">
-                  {typeof device.aiFeatureLevel === "number" ? `${device.aiFeatureLevel}/10` : "待补充"}
-                </div>
-              </div>
-            </div>
 
-            <div className="mt-6 rounded-2xl border border-[var(--border)] bg-white/75 p-4">
-              <div className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">数据口径</div>
-              <p className="mt-2 text-sm leading-7 text-[var(--text-muted)]">
-                该页面优先展示本地数据库中已收录字段，数组或布尔型字段会按实际值展开，缺失项保留“待补充”。
-                数据不会引用原型中的假统计数字。
-              </p>
-            </div>
-          </div>
-
-          <div className="card p-6">
-            <div className="flex items-center justify-between gap-4">
-              <div className="grid gap-1">
-                <div className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">同系列演进</div>
-                <h3 className="text-xl text-[var(--text-strong)]">{device.series}</h3>
+              <div className="grid gap-4 md:grid-cols-2">
+                {trendMetrics.map((metric) => (
+                  <MetricTrendCard activeId={device.id} devices={seriesDevices} key={metric.key} metric={metric} />
+                ))}
               </div>
-              <span className="tag tag-neutral">{seriesDevices.length} 代</span>
-            </div>
-
-            <div className="mt-5 grid gap-3">
-              {seriesDevices.map((item) => (
-                <DeviceTimelineCard key={item.id} device={item} active={item.id === device.id} />
-              ))}
             </div>
           </div>
         </div>
@@ -298,26 +464,6 @@ export default async function DeviceDetailPage({
             <SpecGroup title="续航与连接" rows={batteryRows} />
             <SpecGroup title="网络与接口" rows={connectivityRows} />
             <SpecGroup title="防护与配件" rows={protectionRows} />
-          </div>
-        </div>
-      </section>
-
-      <TickDivider className="site-container" />
-
-      <section className="section pt-0">
-        <div className="section-inner">
-          <SectionHeader
-            eyebrow="前后代际"
-            title="查看前后机型"
-            description="同系列的前后机型可以快速比较代际演进脉络。"
-          />
-
-          <div className="grid gap-4 md:grid-cols-2">
-            {previousDevice ? <DeviceTimelineCard device={previousDevice} /> : null}
-            {nextDevice ? <DeviceTimelineCard device={nextDevice} /> : null}
-            {!previousDevice && !nextDevice ? (
-              <div className="card p-6 text-sm text-[var(--text-muted)]">当前系列暂无更多前后机型。</div>
-            ) : null}
           </div>
         </div>
       </section>
