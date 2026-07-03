@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700;800&family=Noto+Serif+SC:wght@500;600;700&display=swap");
 @import "tailwindcss";
 
 :root {
@@ -32,8 +31,9 @@
   --radius-md: 14px;
   --radius-lg: 20px;
   --radius-xl: 28px;
-  --font-sans-stack: "Noto Sans SC", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-display-stack: "Noto Serif SC", Georgia, "Times New Roman", serif;
+  --font-sans-stack: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC",
+    -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display-stack: "PingFang SC", "Hiragino Sans GB", "Songti SC", "STSong", Georgia, serif;
   --font-mono-stack: "SF Mono", "JetBrains Mono", "Cascadia Code", "Consolas", monospace;
 }
 
@@ -66,23 +66,9 @@ body {
   font-family: var(--font-sans-stack);
   overflow-x: hidden;
   background:
-    radial-gradient(circle at top left, rgba(45, 90, 61, 0.09), transparent 34%),
-    radial-gradient(circle at top right, rgba(232, 168, 56, 0.12), transparent 30%),
-    linear-gradient(180deg, #f7f5f0 0%, #f3efe6 52%, #f7f5f0 100%);
-}
-
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  background-image:
-    linear-gradient(90deg, rgba(221, 213, 199, 0.22) 1px, transparent 1px),
-    linear-gradient(rgba(221, 213, 199, 0.12) 1px, transparent 1px);
-  background-size: 80px 100%, 100% 80px;
-  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.04) 30%, transparent 80%);
-  opacity: 0.45;
-  z-index: -1;
+    radial-gradient(circle at 20% 0%, rgba(45, 90, 61, 0.05), transparent 28%),
+    radial-gradient(circle at 90% 0%, rgba(232, 168, 56, 0.06), transparent 24%),
+    linear-gradient(180deg, #f7f5f0 0%, #f5f1e8 56%, #f7f5f0 100%);
 }
 
 ::selection {
@@ -160,7 +146,7 @@ p {
   line-height: 1;
   transition:
     transform 160ms ease,
-    box-shadow 160ms ease,
+    box-shadow 120ms ease,
     background-color 160ms ease,
     border-color 160ms ease,
     color 160ms ease;
@@ -181,11 +167,11 @@ p {
 .btn-primary {
   background: linear-gradient(135deg, var(--primary) 0%, var(--primary-strong) 100%);
   color: white;
-  box-shadow: 0 8px 20px rgba(45, 90, 61, 0.2);
+  box-shadow: 0 4px 14px rgba(45, 90, 61, 0.16);
 }
 
 .btn-primary:hover {
-  box-shadow: 0 10px 24px rgba(45, 90, 61, 0.26);
+  box-shadow: 0 6px 18px rgba(45, 90, 61, 0.2);
 }
 
 .btn-ghost {
@@ -422,7 +408,6 @@ p {
   border: 1px solid rgba(221, 213, 199, 0.95);
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow-soft);
-  backdrop-filter: blur(12px);
   transition:
     transform 160ms ease,
     box-shadow 160ms ease,
@@ -441,14 +426,12 @@ p {
   top: 0;
   z-index: 60;
   border-bottom: 1px solid rgba(221, 213, 199, 0.88);
-  background: rgba(247, 245, 240, 0.82);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
+  background: rgba(247, 245, 240, 0.96);
 }
 
 .site-nav-inner {
   width: min(var(--site-max-width), calc(100% - var(--site-gutter) * 2));
-  min-height: 72px;
+  min-height: 68px;
   margin-inline: auto;
   display: flex;
   align-items: center;
@@ -459,7 +442,7 @@ p {
 .site-nav-brand {
   display: inline-flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.85rem;
   min-width: 0;
   color: var(--text-strong);
 }
@@ -467,9 +450,9 @@ p {
 .site-nav-mark {
   position: relative;
   flex: 0 0 auto;
-  width: 2rem;
-  height: 2rem;
-  border: 2px solid var(--primary);
+  width: 2.3rem;
+  height: 2.3rem;
+  border: 2.25px solid var(--primary);
   border-radius: 50%;
 }
 
@@ -477,8 +460,8 @@ p {
   content: "";
   position: absolute;
   inset: 50% auto auto 50%;
-  width: 0.5rem;
-  height: 0.5rem;
+  width: 0.6rem;
+  height: 0.6rem;
   border-radius: 999px;
   background: var(--accent);
   transform: translate(-50%, -50%);
@@ -487,32 +470,21 @@ p {
 .site-nav-mark::after {
   content: "";
   position: absolute;
-  top: -0.25rem;
+  top: -0.28rem;
   left: 50%;
-  width: 0.125rem;
-  height: 0.6rem;
+  width: 0.14rem;
+  height: 0.72rem;
   border-radius: 999px;
   background: var(--primary);
   transform: translateX(-50%);
 }
 
-.site-nav-brand-copy {
-  display: grid;
-  gap: 0.15rem;
-  min-width: 0;
-}
-
 .site-nav-name {
   font-family: var(--font-display-stack);
-  font-size: 1rem;
-  font-weight: 700;
+  font-size: 1.22rem;
+  font-weight: 800;
   line-height: 1.1;
-}
-
-.site-nav-subtitle {
-  color: var(--text-muted);
-  font-size: 0.72rem;
-  line-height: 1.2;
+  letter-spacing: -0.04em;
 }
 
 .site-nav-links {
@@ -718,6 +690,21 @@ p {
 
 .float-soft {
   animation: float 4.5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 .gradient-title {

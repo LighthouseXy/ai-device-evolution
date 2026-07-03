@@ -5,34 +5,25 @@ import { usePathname } from "next/navigation";
 
 const links = [
   { href: "/", label: "首页" },
-  { href: "/devices", label: "设备库" },
+  { href: "/advisor", label: "AI 顾问" },
   { href: "/compare", label: "代际对比" },
   { href: "/trends", label: "趋势观察" },
-  { href: "/advisor", label: "AI 顾问" },
-  { href: "/dev/device-advisor-eval", label: "AI 评测" },
+  { href: "/devices", label: "设备库" },
 ];
 
 export default function SiteNav() {
   const pathname = usePathname();
-  const isDev = process.env.NODE_ENV !== "production";
 
   return (
     <nav className="site-nav">
       <div className="site-nav-inner">
         <Link href="/" className="site-nav-brand" aria-label="返回首页">
           <span className="site-nav-mark" aria-hidden="true" />
-          <span className="site-nav-brand-copy">
-            <span className="site-nav-name">数码观察站</span>
-            <span className="site-nav-subtitle">电子设备代际演进分析平台</span>
-          </span>
+          <span className="site-nav-name">数码观察站</span>
         </Link>
 
         <div className="site-nav-links">
           {links.map((link) => {
-            if (link.href.startsWith("/dev/") && !isDev) {
-              return null;
-            }
-
             const active = pathname === link.href || (link.href !== "/" && pathname.startsWith(link.href));
 
             return (

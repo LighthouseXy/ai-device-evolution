@@ -146,7 +146,7 @@ export default async function DevicesPage({
           <SectionHeader
             eyebrow="筛选"
             title="按类别浏览"
-            description="先按类别收窄范围，再进入具体设备详情。当前导航只展示公开入口，开发环境才显示 AI 评测入口。"
+            description="先按类别收窄范围，再进入具体设备详情。AI 顾问、代际对比和趋势观察都保留为公开入口。"
           />
 
           <div className="flex flex-wrap gap-2">
