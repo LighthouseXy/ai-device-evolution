@@ -521,6 +521,40 @@ p {
   background: rgba(45, 90, 61, 0.05);
 }
 
+.site-nav-link-active::after {
+  content: "";
+  position: absolute;
+  left: 0.8rem;
+  right: 0.8rem;
+  bottom: 0.25rem;
+  height: 0.36rem;
+  border-radius: 999px;
+  background:
+    linear-gradient(
+      90deg,
+      transparent 0%,
+      transparent 14%,
+      var(--primary) 14%,
+      var(--primary) 21%,
+      transparent 21%,
+      transparent 36%,
+      var(--primary) 36%,
+      var(--primary) 43%,
+      transparent 43%,
+      transparent 58%,
+      var(--accent) 58%,
+      var(--accent) 65%,
+      transparent 65%,
+      transparent 80%,
+      var(--primary) 80%,
+      var(--primary) 87%,
+      transparent 87%,
+      transparent 100%
+    );
+  opacity: 0.85;
+  pointer-events: none;
+}
+
 .site-nav-pill {
   display: inline-flex;
   align-items: center;

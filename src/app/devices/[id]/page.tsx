@@ -6,6 +6,7 @@ import {
   formatMaybeCurrency,
   getDevicesBySeriesFlat,
 } from "@/lib/devices-db";
+import DeviceSeriesTrendExplorer from "@/components/DeviceSeriesTrendExplorer";
 import PageHeader from "@/components/layout/PageHeader";
 import SectionHeader from "@/components/layout/SectionHeader";
 import TickDivider from "@/components/layout/TickDivider";
@@ -25,19 +26,6 @@ function buildRows(device: Device, keys: Array<[string, string]>) {
     const value = getSpecValue(device, key);
     return { label, value: value ?? "待补充" };
   });
-}
-
-function formatNumber(value: number) {
-  return new Intl.NumberFormat("zh-CN", { maximumFractionDigits: 2 }).format(value);
-}
-
-function parseChipRank(chip: string) {
-  const normalized = chip.replace(/\s+/g, " ");
-  const match = normalized.match(/\b(?:Apple\s+)?([AM])\s?(\d{1,2})\b/i) ?? normalized.match(/\b(\d{1,2})\b/);
-  if (!match) return null;
-  const raw = match.length > 2 ? match[2] : match[1];
-  const value = Number(raw);
-  return Number.isFinite(value) ? value : null;
 }
 
 function InfoRow({ label, value }: { label: string; value: string }) {
@@ -65,212 +53,6 @@ function SpecGroup({
         ))}
       </div>
     </div>
-  );
-}
-
-type TrendMetric = {
-  key: string;
-  label: string;
-  note: string;
-  format: (value: number) => string;
-  getValue: (device: Device) => number | null;
-};
-
-const trendMetrics: TrendMetric[] = [
-  {
-    key: "launchPrice",
-    label: "首发价格",
-    note: "按真实首发价排位，位置越高代表价格越高。",
-    format: (value) => formatMaybeCurrency(value),
-    getValue: (device) => device.launchPrice ?? null,
-  },
-  {
-    key: "screenSize",
-    label: "屏幕尺寸",
-    note: "按英寸值直接对比，屏幕越大位置越高。",
-    format: (value) => `${formatNumber(value)} 英寸`,
-    getValue: (device) => device.screenSize ?? null,
-  },
-  {
-    key: "weight",
-    label: "重量",
-    note: "按克数对比，数值越小越轻。",
-    format: (value) => `${formatNumber(value)} g`,
-    getValue: (device) => device.weight ?? null,
-  },
-  {
-    key: "aiFeatureLevel",
-    label: "AI 能力",
-    note: "来自本地 computed 字段，按 0-10 分级。",
-    format: (value) => `${formatNumber(value)}/10`,
-    getValue: (device) => device.aiFeatureLevel ?? null,
-  },
-  {
-    key: "chipRank",
-    label: "芯片代际",
-    note: "从芯片编号提取的可比较序列，保留真实芯片文本。",
-    format: (value) => `${formatNumber(value)} 代`,
-    getValue: (device) => parseChipRank(device.chip),
-  },
-];
-
-function MetricTrendCard({
-  metric,
-  devices,
-  activeId,
-}: {
-  metric: TrendMetric;
-  devices: Device[];
-  activeId: string;
-}) {
-  const entries = devices.map((device) => {
-    const value = metric.getValue(device);
-    return { device, value };
-  });
-  const validValues = entries.flatMap((entry) => (typeof entry.value === "number" ? [entry.value] : []));
-  const currentEntry = entries.find((entry) => entry.device.id === activeId) ?? null;
-  const currentValue = currentEntry?.value ?? null;
-  const min = validValues.length ? Math.min(...validValues) : null;
-  const max = validValues.length ? Math.max(...validValues) : null;
-  const span = min !== null && max !== null ? Math.max(max - min, 1) : 1;
-  const width = 640;
-  const height = 180;
-  const paddingX = 24;
-  const paddingTop = 18;
-  const paddingBottom = 42;
-  const usableWidth = width - paddingX * 2;
-  const usableHeight = height - paddingTop - paddingBottom;
-
-  const points = entries.map((entry, index) => {
-    const hasValue = typeof entry.value === "number" && min !== null && max !== null;
-    const x = devices.length <= 1 ? width / 2 : paddingX + (index / (devices.length - 1)) * usableWidth;
-    const y = hasValue ? paddingTop + (1 - ((entry.value as number) - min) / span) * usableHeight : null;
-    return { ...entry, x, y };
-  });
-
-  const pathSegments: string[] = [];
-  let started = false;
-  for (const point of points) {
-    if (point.y === null) {
-      started = false;
-      continue;
-    }
-    const command = started ? "L" : "M";
-    pathSegments.push(`${command} ${point.x.toFixed(1)} ${point.y.toFixed(1)}`);
-    started = true;
-  }
-  const path = pathSegments.join(" ");
-
-  const currentPosition =
-    currentValue !== null && min !== null && max !== null ? (currentValue - min) / span : null;
-  const rangeLabel =
-    min !== null && max !== null ? `${metric.format(min)} - ${metric.format(max)}` : "暂无可比数据";
-
-  return (
-    <article className="card p-4">
-      <div className="flex items-start justify-between gap-4">
-        <div className="grid gap-1">
-          <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">{metric.label}</div>
-          <div className="text-2xl font-semibold text-[var(--text-strong)]">
-            {currentValue !== null ? metric.format(currentValue) : "待补充"}
-          </div>
-          <p className="text-xs leading-6 text-[var(--text-muted)]">{metric.note}</p>
-        </div>
-        <span className="tag tag-green">{devices.length} 台</span>
-      </div>
-
-      <div className="mt-4 rounded-2xl border border-[rgba(221,213,199,0.72)] bg-[var(--bg-soft)] p-3">
-        {path ? (
-          <>
-            <svg
-              aria-label={`${metric.label} 同系列位置图`}
-              className="h-[180px] w-full"
-              preserveAspectRatio="none"
-              role="img"
-              viewBox={`0 0 ${width} ${height}`}
-            >
-              <defs>
-                <linearGradient id={`${metric.key}-line`} x1="0%" x2="100%" y1="0%" y2="0%">
-                  <stop offset="0%" stopColor="rgba(45,90,61,0.18)" />
-                  <stop offset="100%" stopColor="rgba(45,90,61,0.42)" />
-                </linearGradient>
-              </defs>
-              <line
-                stroke="rgba(221,213,199,0.72)"
-                strokeDasharray="4 6"
-                x1={paddingX}
-                x2={width - paddingX}
-                y1={paddingTop + usableHeight / 2}
-                y2={paddingTop + usableHeight / 2}
-              />
-              <path d={path} fill="none" stroke={`url(#${metric.key}-line)`} strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" />
-              {points.map((point) => {
-                if (point.y === null) return null;
-                const isActive = point.device.id === activeId;
-                return (
-                  <g key={`${metric.key}-${point.device.id}`}>
-                    <circle
-                      cx={point.x}
-                      cy={point.y}
-                      fill={isActive ? "var(--primary-strong)" : "rgba(221,213,199,0.96)"}
-                      r={isActive ? 6.5 : 4.4}
-                      stroke={isActive ? "rgba(247,245,240,1)" : "rgba(45,90,61,0.16)"}
-                      strokeWidth={isActive ? 3 : 2}
-                    />
-                    <text
-                      fill={isActive ? "var(--primary-strong)" : "var(--text-soft)"}
-                      fontSize="10"
-                      fontWeight={isActive ? 700 : 500}
-                      textAnchor="middle"
-                      x={point.x}
-                      y={height - 16}
-                    >
-                      {point.device.releaseYear}
-                    </text>
-                  </g>
-                );
-              })}
-              {points.map((point) => {
-                if (point.y === null || point.device.id !== activeId) return null;
-                return (
-                  <text
-                    fill="var(--primary-strong)"
-                    fontSize="10"
-                    fontWeight="700"
-                    textAnchor="middle"
-                    x={point.x}
-                    y={Math.max(point.y - 12, 12)}
-                    key={`${metric.key}-${point.device.id}-label`}
-                  >
-                    {point.device.model}
-                  </text>
-                );
-              })}
-            </svg>
-
-            <div className="mt-2 flex items-center justify-between gap-3 text-[10px] text-[var(--text-soft)]">
-              {points.map((point) => (
-                <span
-                  className={point.device.id === activeId ? "font-semibold text-[var(--primary-strong)]" : ""}
-                  key={`${metric.key}-${point.device.id}-axis`}
-                >
-                  {point.device.releaseYear}
-                </span>
-              ))}
-            </div>
-          </>
-        ) : (
-          <div className="flex h-[180px] items-center justify-center rounded-2xl border border-dashed border-[rgba(221,213,199,0.7)] bg-white/70 text-sm text-[var(--text-muted)]">
-            该指标暂无足够数据
-          </div>
-        )}
-      </div>
-
-      <div className="mt-3 flex items-center justify-between gap-3 text-xs text-[var(--text-muted)]">
-        <span>系列范围 {rangeLabel}</span>
-        <span>{currentPosition !== null ? `当前位置 ${Math.round(currentPosition * 100)}%` : "当前位置 —"}</span>
-      </div>
-    </article>
   );
 }
 
@@ -437,11 +219,7 @@ export default async function DeviceDetailPage({
                 </div>
               </div>
 
-              <div className="grid gap-4 md:grid-cols-2">
-                {trendMetrics.map((metric) => (
-                  <MetricTrendCard activeId={device.id} devices={seriesDevices} key={metric.key} metric={metric} />
-                ))}
-              </div>
+              <DeviceSeriesTrendExplorer activeDeviceId={device.id} devices={seriesDevices} />
             </div>
           </div>
         </div>
