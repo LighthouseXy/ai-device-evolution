@@ -8,6 +8,10 @@ import {
   getDevicesBySeriesFlat,
   getSeriesByCategoryFlat,
 } from "@/lib/devices-db";
+import {
+  formatSignedZhNumber,
+  formatZhNumber,
+} from "@/lib/number-format";
 import PageHeader from "@/components/layout/PageHeader";
 import SectionHeader from "@/components/layout/SectionHeader";
 import TickDivider from "@/components/layout/TickDivider";
@@ -46,7 +50,7 @@ const metrics: MetricDefinition[] = [
     description: "基于数据库中的 AI 能力等级字段。",
     unit: "/10",
     getValue: (device) => device.aiFeatureLevel,
-    format: (value) => `${formatNumber(value, 1)}/10`,
+    format: (value) => `${formatZhNumber(value, 1)}/10`,
   },
   {
     key: "screen",
@@ -55,7 +59,7 @@ const metrics: MetricDefinition[] = [
     description: "按年份统计屏幕尺寸均值。",
     unit: '"',
     getValue: (device) => device.screenSize,
-    format: (value) => `${formatNumber(value, 1)}"`,
+    format: (value) => `${formatZhNumber(value, 1)}"`,
   },
   {
     key: "weight",
@@ -64,7 +68,7 @@ const metrics: MetricDefinition[] = [
     description: "按年份统计重量均值，适合观察便携性变化。",
     unit: "g",
     getValue: (device) => device.weight,
-    format: (value) => `${formatNumber(value, 0)}g`,
+    format: (value) => `${formatZhNumber(value, 0)}g`,
   },
   {
     key: "camera",
@@ -73,7 +77,7 @@ const metrics: MetricDefinition[] = [
     description: "按年份统计主摄像素均值。",
     unit: "MP",
     getValue: (device) => device.mainCameraMp,
-    format: (value) => `${formatNumber(value, 0)}MP`,
+    format: (value) => `${formatZhNumber(value, 0)}MP`,
   },
   {
     key: "refresh",
@@ -82,7 +86,7 @@ const metrics: MetricDefinition[] = [
     description: "按年份统计刷新率均值。",
     unit: "Hz",
     getValue: (device) => device.refreshRate,
-    format: (value) => `${formatNumber(value, 0)}Hz`,
+    format: (value) => `${formatZhNumber(value, 0)}Hz`,
   },
 ];
 
@@ -94,13 +98,6 @@ function normalizeCategory(value: string | string[] | undefined) {
 function normalizeMetric(value: string | string[] | undefined) {
   const raw = Array.isArray(value) ? value[0] : value;
   return metrics.some((metric) => metric.key === raw) ? (raw as MetricKey) : "ai";
-}
-
-function formatNumber(value: number, fractionDigits = 1) {
-  return new Intl.NumberFormat("zh-CN", {
-    minimumFractionDigits: fractionDigits,
-    maximumFractionDigits: fractionDigits,
-  }).format(value);
 }
 
 function average(values: number[]) {
@@ -134,14 +131,12 @@ function formatDeltaText(
   if (Math.abs(delta) < 0.0001) return "持平";
 
   if (metric.key === "price") {
-    const sign = delta > 0 ? "+" : "−";
     const rate = previous !== 0 ? Math.abs((delta / previous) * 100) : 0;
-    return `${sign}${formatNumber(Math.abs(delta), 0)}，${sign}${formatNumber(rate, 0)}%`;
+    return `${formatSignedZhNumber(delta, 0)}，${formatSignedZhNumber(delta > 0 ? rate : -rate, 0)}%`;
   }
 
-  const sign = delta > 0 ? "+" : "−";
   const decimals = metric.key === "weight" || metric.key === "camera" || metric.key === "refresh" ? 0 : 1;
-  return `${sign}${formatNumber(Math.abs(delta), decimals)}${metric.unit}`;
+  return `${formatSignedZhNumber(delta, decimals)}${metric.unit}`;
 }
 
 function pickRepresentativeSeries(category: (typeof categoryNames)[number]) {

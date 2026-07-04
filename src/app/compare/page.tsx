@@ -11,6 +11,11 @@ import {
   getDevicesBySeriesFlat,
   seriesNames,
 } from "@/lib/devices-db";
+import {
+  formatSignedZhCurrency,
+  formatSignedZhNumber,
+  formatZhNumber,
+} from "@/lib/number-format";
 import PageHeader from "@/components/layout/PageHeader";
 import SectionHeader from "@/components/layout/SectionHeader";
 import TickDivider from "@/components/layout/TickDivider";
@@ -74,18 +79,6 @@ function normalizeWindow(value: string | string[] | undefined) {
   return raw === "all" ? "all" : "recent3";
 }
 
-function formatNumber(value: number, fractionDigits = 1) {
-  return new Intl.NumberFormat("zh-CN", {
-    minimumFractionDigits: fractionDigits,
-    maximumFractionDigits: fractionDigits,
-  }).format(value);
-}
-
-function formatSignedNumber(value: number, fractionDigits = 1) {
-  const sign = value > 0 ? "+" : value < 0 ? "−" : "";
-  return `${sign}${formatNumber(Math.abs(value), fractionDigits)}`;
-}
-
 function buildComparisonValue(device: (typeof allDevicesFlat)[number], field: ComparisonField) {
   return field.getValue(device);
 }
@@ -119,14 +112,14 @@ function compareValueLabel(field: ComparisonField, first: string, last: string) 
           : "";
 
   if (field.label.includes("起售价")) {
-    return `${prefix}¥${formatNumber(Math.abs(change), 0)} / ${prefix}${formatNumber(Math.abs(changeRate), 0)}%`;
+    return `${formatSignedZhCurrency(change, 0)} / ${formatSignedZhNumber(changeRate, 0)}%`;
   }
 
   if (unit === "\"") {
-    return `${prefix}${formatNumber(Math.abs(change), 1)}${unit}`;
+    return `${formatSignedZhNumber(change, 1)}${unit}`;
   }
 
-  return `${prefix}${formatNumber(Math.abs(change), 0)}${unit}`;
+  return `${prefix}${formatZhNumber(Math.abs(change), 0)}${unit}`;
 }
 
 function buildChangedFields(
@@ -331,7 +324,7 @@ export default async function ComparePage({
       label: "首末价格变化",
       value:
         typeof firstVisible.launchPrice === "number" && typeof lastVisible.launchPrice === "number" && firstVisible.launchPrice > 0
-          ? `${formatSignedNumber(lastVisible.launchPrice - firstVisible.launchPrice, 0)} / ${formatSignedNumber(((lastVisible.launchPrice - firstVisible.launchPrice) / firstVisible.launchPrice) * 100, 0)}%`
+          ? `${formatSignedZhCurrency(lastVisible.launchPrice - firstVisible.launchPrice, 0)} / ${formatSignedZhNumber(((lastVisible.launchPrice - firstVisible.launchPrice) / firstVisible.launchPrice) * 100, 0)}%`
           : "待补充",
       hint: "首发价格对比",
     },
@@ -339,7 +332,7 @@ export default async function ComparePage({
       label: "屏幕变化",
       value:
         typeof firstVisible.screenSize === "number" && typeof lastVisible.screenSize === "number"
-          ? `${formatSignedNumber(lastVisible.screenSize - firstVisible.screenSize, 1)}"`
+          ? `${formatSignedZhNumber(lastVisible.screenSize - firstVisible.screenSize, 1)}"`
           : "待补充",
       hint: "以英寸为单位",
     },
@@ -347,7 +340,7 @@ export default async function ComparePage({
       label: "AI 能力变化",
       value:
         typeof firstVisible.aiFeatureLevel === "number" && typeof lastVisible.aiFeatureLevel === "number"
-          ? `${formatSignedNumber(lastVisible.aiFeatureLevel - firstVisible.aiFeatureLevel, 0)}/10`
+          ? `${formatSignedZhNumber(lastVisible.aiFeatureLevel - firstVisible.aiFeatureLevel, 0)}/10`
           : "待补充",
       hint: "基于数据库字段",
     },
