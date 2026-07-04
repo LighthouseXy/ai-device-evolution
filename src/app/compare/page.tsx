@@ -107,7 +107,7 @@ function compareValueLabel(field: ComparisonField, first: string, last: string) 
 
   const change = lastNumber - firstNumber;
   const changeRate = (change / firstNumber) * 100;
-  const prefix = change > 0 ? "+" : "";
+  const prefix = change > 0 ? "+" : "−";
   const unit = field.label.includes("重量")
     ? "g"
     : field.label.includes("起售价")
