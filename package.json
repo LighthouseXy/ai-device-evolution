@@ -6,7 +6,10 @@
     "dev": "WATCHPACK_POLLING=true next dev --webpack",
     "build": "next build",
     "start": "next start",
+    "typecheck": "tsc --noEmit --incremental false",
+    "check": "npm run typecheck && npm run lint && npm run test:ai-analysis && npm run test:device-advisor && npm run test:device-advisor-api",
     "lint": "eslint",
+    "test:ai-analysis": "node scripts/ai-analysis-regression.mjs",
     "test:device-advisor": "node scripts/device-advisor-regression.mjs",
     "test:device-advisor-api": "node scripts/device-advisor-api-regression.mjs"
   },
