@@ -364,7 +364,7 @@ export default async function TrendsPage({
       </section>
 
       <section className="section pt-0">
-        <div className="section-inner grid gap-5 xl:grid-cols-[1.25fr_0.75fr]">
+        <div className="section-inner grid gap-5 xl:grid-cols-[1.25fr_0.75fr] xl:items-start">
           <div className="grid gap-5">
             <TrendChart points={yearTrend} metric={metric} />
 
@@ -394,9 +394,9 @@ export default async function TrendsPage({
             </div>
           </div>
 
-          <div className="card h-full p-5">
+          <div className="card p-5">
             <div className="flex flex-wrap items-center gap-2">
-              <span className="tag tag-green">AI 观察</span>
+              <span className="tag tag-green">本地规则观察</span>
               <span className="tag tag-neutral">
                 {representative ? `样本：${representative.series}` : "样本不足"}
               </span>
@@ -427,11 +427,15 @@ export default async function TrendsPage({
                   <div className="rounded-2xl bg-[var(--bg-soft)] p-4">
                     <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">缺失信息</div>
                     <div className="mt-2 flex flex-wrap gap-2">
-                      {trendAnalysis.missingData.map((item) => (
-                        <span key={item} className="tag tag-neutral">
-                          {item}
-                        </span>
-                      ))}
+                      {trendAnalysis.missingData.length > 0 ? (
+                        trendAnalysis.missingData.map((item) => (
+                          <span key={item} className="tag tag-neutral">
+                            {item}
+                          </span>
+                        ))
+                      ) : (
+                        <span className="text-sm leading-7 text-[var(--text-muted)]">当前趋势样本已覆盖主要展示信息。</span>
+                      )}
                     </div>
                   </div>
                 </div>
@@ -440,13 +444,13 @@ export default async function TrendsPage({
                   <TrendCard
                     title="样本设备"
                     value={`${representativeDevices.length} 台`}
-                    hint="AI 观察使用的系列样本量。"
+                    hint="本地规则观察使用的系列样本量。"
                     tone="green"
                   />
                   <TrendCard
                     title="可信度"
                     value={`${Math.round(trendAnalysis.confidence * 100)}%`}
-                    hint={`来源：${trendAnalysis.source === "ai" ? "模型" : "规则"}。`}
+                    hint="来源：本地规则。"
                     tone="amber"
                   />
                 </div>

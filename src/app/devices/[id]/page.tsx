@@ -180,7 +180,7 @@ export default async function DeviceDetailPage({
                   <div className="grid gap-2">
                     <h2 className="text-2xl leading-tight text-[var(--text-strong)]">{device.model}</h2>
                     <p className="text-sm leading-7 text-[var(--text-muted)]">
-                      {device.series} · {device.category} · {device.releaseYear}
+                      {device.series} · {categoryLabels[device.category]} · {device.releaseYear}
                     </p>
                   </div>
                 </div>

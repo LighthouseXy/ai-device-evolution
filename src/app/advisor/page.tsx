@@ -71,7 +71,7 @@ export default function AdvisorPage() {
       />
 
       <section className="section pt-0">
-        <div className="section-inner grid gap-5 xl:grid-cols-[0.95fr_1.05fr]">
+        <div className="section-inner grid gap-5 xl:grid-cols-[0.95fr_1.05fr] xl:items-start">
           <div className="grid gap-5">
             <div className="card p-5">
               <SectionHeader

@@ -696,6 +696,94 @@ p {
   font-size: 0.72rem;
 }
 
+@media (max-width: 860px) {
+  :root {
+    --site-gutter: 18px;
+  }
+
+  .site-nav-inner {
+    min-height: auto;
+    padding: 0.85rem 0;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .site-nav-links {
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    gap: 0.25rem;
+    overflow-x: auto;
+    padding-bottom: 0.2rem;
+    scrollbar-width: none;
+  }
+
+  .site-nav-links::-webkit-scrollbar {
+    display: none;
+  }
+
+  .site-nav-link,
+  .site-nav-pill {
+    flex: 0 0 auto;
+    min-height: 2.25rem;
+    padding: 0.45rem 0.72rem;
+    font-size: 0.82rem;
+    white-space: nowrap;
+  }
+
+  .page-header {
+    padding: 2.75rem 0 2rem;
+  }
+
+  .section {
+    padding: 3.5rem 0;
+  }
+
+  .section-header {
+    align-items: flex-start;
+  }
+
+  .site-footer-top {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  :root {
+    --site-gutter: 14px;
+  }
+
+  .site-nav-brand {
+    gap: 0.65rem;
+  }
+
+  .site-nav-mark {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .site-nav-name {
+    font-size: 1.08rem;
+  }
+
+  .page-header-title {
+    font-size: clamp(2rem, 13vw, 3rem);
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .site-footer-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .site-footer-bottom {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+
 /* 动效 */
 @keyframes blink {
   0%,

@@ -232,10 +232,10 @@ function CompareMetricRow({
 
 function AnalysisPanel({ analysis }: { analysis: AiAnalysisOutput }) {
   return (
-    <div className="card h-full p-5">
+    <div className="card p-5">
       <div className="flex flex-wrap items-center gap-2">
-        <span className="tag tag-green">AI 洞察</span>
-        <span className="tag tag-neutral">来源：{analysis.source === "ai" ? "模型" : "规则"}</span>
+        <span className="tag tag-green">本地规则洞察</span>
+        <span className="tag tag-neutral">来源：本地规则</span>
         <span className="tag tag-amber">可信度 {Math.round(analysis.confidence * 100)}%</span>
       </div>
 
@@ -275,11 +275,15 @@ function AnalysisPanel({ analysis }: { analysis: AiAnalysisOutput }) {
       <div className="mt-4 rounded-2xl border border-[var(--border)] bg-white/75 p-4">
         <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">缺失信息</div>
         <div className="mt-2 flex flex-wrap gap-2">
-          {analysis.missingData.map((item) => (
-            <span key={item} className="tag tag-neutral">
-              {item}
-            </span>
-          ))}
+          {analysis.missingData.length > 0 ? (
+            analysis.missingData.map((item) => (
+              <span key={item} className="tag tag-neutral">
+                {item}
+              </span>
+            ))
+          ) : (
+            <span className="text-sm leading-7 text-[var(--text-muted)]">当前对比字段已覆盖主要展示信息。</span>
+          )}
         </div>
       </div>
 
@@ -429,7 +433,7 @@ export default async function ComparePage({
       </section>
 
       <section className="section pt-0">
-        <div className="section-inner grid gap-5 xl:grid-cols-[1.15fr_0.85fr]">
+        <div className="section-inner grid gap-5 xl:grid-cols-[1.15fr_0.85fr] xl:items-start">
           <div className="grid gap-5">
             <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
               {summaryCards.map((item) => (
