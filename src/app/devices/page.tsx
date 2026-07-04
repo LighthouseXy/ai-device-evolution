@@ -2,6 +2,7 @@ import Link from "next/link";
 import {
   allDevicesFlat,
   categoryNames,
+  deviceCountByCategory,
   formatMaybeCurrency,
   summaryStatsFlat,
 } from "@/lib/devices-db";
@@ -114,7 +115,7 @@ export default async function DevicesPage({
     ...categoryNames.map((category) => ({
       key: category,
       label: categoryDisplay[category],
-      count: allDevicesFlat.filter((device) => device.category === category).length,
+      count: deviceCountByCategory[category],
     })),
   ] as const;
 

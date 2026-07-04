@@ -203,19 +203,21 @@ function CompareMetricRow({
         <div className="mt-1 text-xs leading-6 text-[var(--text-soft)]">真实数据库字段</div>
       </div>
 
-      <div className="grid gap-2 sm:grid-cols-[repeat(auto-fit,minmax(160px,1fr))]">
-        {devices.map((device) => (
-          <div key={device.id} className="rounded-2xl bg-[var(--bg-soft)] p-3">
-            <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">
-              {device.releaseYear}
+      <div className="overflow-x-auto pb-1">
+        <div className="grid min-w-[520px] grid-cols-3 gap-2">
+          {devices.map((device) => (
+            <div key={device.id} className="rounded-2xl bg-[var(--bg-soft)] p-3">
+              <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">
+                {device.releaseYear}
+              </div>
+              <div className="mt-1 text-sm font-medium text-[var(--text-strong)]">{buildComparisonValue(device, field)}</div>
+              <div className="mt-1 text-[11px] text-[var(--text-muted)]">{device.model}</div>
             </div>
-            <div className="mt-1 text-sm font-medium text-[var(--text-strong)]">{buildComparisonValue(device, field)}</div>
-            <div className="mt-1 text-[11px] text-[var(--text-muted)]">{device.model}</div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
 
-      <div className="rounded-2xl bg-[var(--primary-soft)] p-3 text-right">
+      <div className="self-start rounded-2xl bg-[var(--primary-soft)] p-3 text-right">
         <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--primary)]">变化</div>
         <div className="mt-1 text-sm font-semibold text-[var(--text-strong)]">{compareValueLabel(field, firstValue, lastValue)}</div>
       </div>
@@ -501,8 +503,8 @@ export default async function ComparePage({
                 <span className="tag tag-neutral">真实字段</span>
               </div>
 
-              <div className="mt-5 overflow-x-auto">
-                <div className="min-w-[720px]">
+              <div className="mt-5">
+                <div className="grid gap-1">
                   {comparisonFields.map((field) => (
                     <CompareMetricRow key={field.label} field={field} devices={visibleDevices} />
                   ))}

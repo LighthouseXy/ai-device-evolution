@@ -4,6 +4,7 @@ import {
   allDevicesFlat,
   categoryLabels,
   categoryNames,
+  deviceCountByCategory,
   formatMaybeCurrency,
   getDevicesBySeriesFlat,
   getSeriesByCategoryFlat,
@@ -177,31 +178,33 @@ function TrendChart({
         <span className="tag tag-neutral">均值口径 / 年度聚合</span>
       </div>
 
-      <div className="mt-5 grid gap-3 sm:grid-cols-2 xl:grid-cols-7">
-        {points.map((point) => {
-          const height = point.value === null ? 0 : Math.max(14, (point.value / maxValue) * 100);
+      <div className="mt-5 overflow-x-auto pb-2">
+        <div className="grid min-w-[720px] grid-cols-7 gap-3">
+          {points.map((point) => {
+            const height = point.value === null ? 0 : Math.max(14, (point.value / maxValue) * 100);
 
-          return (
-            <div key={point.year} className="grid gap-2">
-              <div className="flex h-56 items-end rounded-[28px] bg-[var(--bg-soft)] p-3">
-                <div
-                  className="relative w-full overflow-hidden rounded-[22px] bg-[linear-gradient(180deg,rgba(45,90,61,0.18),rgba(232,168,56,0.72))]"
-                  style={{ height: `${height}%` }}
-                >
-                  {point.value !== null ? (
-                    <div className="absolute inset-x-0 top-2 text-center text-[11px] font-semibold text-[var(--text-strong)]">
-                      {metric.format(point.value)}
-                    </div>
-                  ) : null}
+            return (
+              <div key={point.year} className="grid gap-2">
+                <div className="flex h-56 items-end rounded-[28px] bg-[var(--bg-soft)] p-3">
+                  <div
+                    className="relative w-full overflow-hidden rounded-[22px] bg-[linear-gradient(180deg,rgba(45,90,61,0.18),rgba(232,168,56,0.72))]"
+                    style={{ height: `${height}%` }}
+                  >
+                    {point.value !== null ? (
+                      <div className="absolute inset-x-0 top-2 text-center text-[11px] font-semibold text-[var(--text-strong)]">
+                        {metric.format(point.value)}
+                      </div>
+                    ) : null}
+                  </div>
+                </div>
+                <div className="text-center">
+                  <div className="text-sm font-semibold text-[var(--text-strong)]">{point.year}</div>
+                  <div className="mt-1 text-[11px] text-[var(--text-soft)]">{point.count} 台</div>
                 </div>
               </div>
-              <div className="text-center">
-                <div className="text-sm font-semibold text-[var(--text-strong)]">{point.year}</div>
-                <div className="mt-1 text-[11px] text-[var(--text-soft)]">{point.count} 台</div>
-              </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
 
       <div className="mt-5 flex flex-wrap gap-2">
@@ -274,7 +277,7 @@ export default async function TrendsPage({
   const categoryOptions = categoryNames.map((category) => ({
     key: category,
     label: categoryLabels[category],
-    count: allDevicesFlat.filter((device) => device.category === category).length,
+    count: deviceCountByCategory[category],
   }));
 
   const trendDirection =

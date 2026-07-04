@@ -3,6 +3,7 @@ import {
   allDevicesFlat,
   categoryLabels,
   categoryNames,
+  deviceCountByCategory,
   formatMaybeCurrency,
   summaryStatsFlat,
 } from "@/lib/devices-db";
@@ -37,7 +38,7 @@ const categoryHighlights = categoryNames.map((category) => {
     category,
     label: categoryDisplay[category],
     brandLabel: categoryLabels[category],
-    count: devices.length,
+    count: deviceCountByCategory[category],
     latest: devices[0],
   };
 });

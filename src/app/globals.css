@@ -241,6 +241,7 @@ p {
 
 .section-inner {
   width: min(var(--site-max-width), calc(100% - var(--site-gutter) * 2));
+  min-width: 0;
   margin-inline: auto;
 }
 
@@ -404,6 +405,7 @@ p {
 
 /* 卡片 */
 .card {
+  min-width: 0;
   background: rgba(255, 253, 248, 0.92);
   border: 1px solid rgba(221, 213, 199, 0.95);
   border-radius: var(--radius-xl);

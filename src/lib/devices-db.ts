@@ -126,23 +126,29 @@ export const categoryLabels: Record<DeviceCategory, string> = {
   laptop: "MacBook",
 };
 
-export const categoryNames = Array.from(
-  new Set(allDevices.map((d) => d.category)),
-) as DeviceCategory[];
+export const categoryNames = Array.from(new Set(allDevices.map((d) => d.category))) as DeviceCategory[];
 
 export const seriesNames = Array.from(new Set(allDevices.map((d) => d.series)));
 
-export const getSeriesByCategory = (category: DeviceCategory) =>
-  Array.from(
-    new Set(
-      allDevices.filter((d) => d.category === category).map((d) => d.series),
-    ),
-  );
+const seriesByCategory = new Map<DeviceCategory, string[]>(
+  categoryNames.map((category) => [
+    category,
+    Array.from(new Set(allDevices.filter((d) => d.category === category).map((d) => d.series))),
+  ]),
+);
 
-export const getDevicesBySeries = (series: string) =>
-  allDevices
-    .filter((d) => d.series === series)
-    .sort((a, b) => a.releaseYear - b.releaseYear);
+const devicesBySeries = new Map<string, DbDevice[]>(
+  seriesNames.map((series) => [
+    series,
+    allDevices
+      .filter((device) => device.series === series)
+      .sort((left, right) => left.releaseYear - right.releaseYear),
+  ]),
+);
+
+export const getSeriesByCategory = (category: DeviceCategory) => seriesByCategory.get(category) ?? [];
+
+export const getDevicesBySeries = (series: string) => devicesBySeries.get(series) ?? [];
 
 // ==================== SpecField 展平工具 ====================
 
@@ -269,6 +275,29 @@ export function flattenDevice(db: DbDevice): FlattenedDevice {
 /** 预展平的全部设备列表 */
 export const allDevicesFlat: FlattenedDevice[] = allDevices.map(flattenDevice);
 
+const devicesBySeriesFlat = new Map<string, FlattenedDevice[]>(
+  seriesNames.map((series) => [
+    series,
+    allDevicesFlat
+      .filter((device) => device.series === series)
+      .sort((left, right) => left.generation - right.generation),
+  ]),
+);
+
+const seriesByCategoryFlat = new Map<DeviceCategory, string[]>(
+  categoryNames.map((category) => [
+    category,
+    Array.from(new Set(allDevicesFlat.filter((device) => device.category === category).map((device) => device.series))),
+  ]),
+);
+
+export const deviceCountByCategory = Object.fromEntries(
+  categoryNames.map((category) => [
+    category,
+    allDevicesFlat.filter((device) => device.category === category).length,
+  ]),
+) as Record<DeviceCategory, number>;
+
 /** 展平版 summaryStats */
 export const summaryStatsFlat = {
   ...summaryStats,
@@ -276,18 +305,10 @@ export const summaryStatsFlat = {
 };
 
 /** 展平版 getDevicesBySeries */
-export const getDevicesBySeriesFlat = (series: string) =>
-  allDevicesFlat
-    .filter((d) => d.series === series)
-    .sort((a, b) => a.generation - b.generation);
+export const getDevicesBySeriesFlat = (series: string) => devicesBySeriesFlat.get(series) ?? [];
 
 /** 展平版 getSeriesByCategory */
-export const getSeriesByCategoryFlat = (category: DeviceCategory) =>
-  Array.from(
-    new Set(
-      allDevicesFlat.filter((d) => d.category === category).map((d) => d.series),
-    ),
-  );
+export const getSeriesByCategoryFlat = (category: DeviceCategory) => seriesByCategoryFlat.get(category) ?? [];
 
 // Device 类型别名，方便旧代码迁移
 export type Device = FlattenedDevice;
