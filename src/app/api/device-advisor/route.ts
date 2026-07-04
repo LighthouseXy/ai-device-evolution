@@ -185,6 +185,7 @@ function normalizeDeepSeekRecommendationList(value: unknown): unknown {
 }
 
 function repairDeepSeekOutput(value: unknown): unknown {
+  // DeepSeek 偶发把数组写成字符串、把 confidence 写成文字等级；这里只做字段类型归一，不补业务内容。
   if (!value || typeof value !== "object" || Array.isArray(value)) {
     return value;
   }
@@ -208,6 +209,7 @@ function repairDeepSeekOutput(value: unknown): unknown {
 }
 
 function getDeepSeekMissingFields(value: unknown): string[] {
+  // 诊断字段用于 eval 看板统计缺失类型，不直接决定最终 source；source 由 normalizeDeepSeekOutput 决定。
   if (!value || typeof value !== "object" || Array.isArray(value)) {
     return ["rootObject"];
   }
@@ -243,6 +245,10 @@ function normalizeDeepSeekOutput(
   input: DeviceAdvisorInput,
   value: unknown,
 ): { output: DeviceAdvisorOutput; usedRuleScaffold: boolean } | null {
+  // 三段式归一化：
+  // 1. 完整 AI 输出直接接受；
+  // 2. 预算明确无解且解释充分时接受空推荐；
+  // 3. 需要借 rules scaffold 补核心推荐时标记为 rules，避免把本地兜底伪装成真实 AI。
   const repaired = repairDeepSeekOutput(value);
   const normalized = normalizeDeviceAdvisorOutput(repaired);
   if (normalized) {
@@ -305,6 +311,7 @@ function normalizeDeepSeekOutput(
 }
 
 function buildDeepSeekPrompt(input: DeviceAdvisorInput): string {
+  // 在通用 prompt 基础上压缩候选列表，并补充 DeepSeek 专用 no-match 约束，减少“正常可推荐却返回空数组”的风险。
   const prompt = buildDeviceAdvisorPrompt(input);
   const marker = "输入数据：\n";
   const suffix = "\n\n请直接返回 JSON。";
@@ -342,6 +349,7 @@ function buildDeepSeekPrompt(input: DeviceAdvisorInput): string {
 }
 
 function prioritizeDeepSeekShortlist(payload: DeepSeekPromptPayload): unknown[] {
+  // 有预算时优先给模型看到“价格明确且接近预算”的候选；无预算则保持通用 rules shortlist 顺序。
   const shortlist = Array.isArray(payload.candidateShortlist) ? payload.candidateShortlist : [];
   const budgetMax = getDeepSeekBudgetMax(payload);
 
@@ -398,6 +406,7 @@ function normalizeDeepSeekNoMatchOutput(
   input: DeviceAdvisorInput,
   record: Record<string, unknown>,
 ): DeviceAdvisorOutput | null {
+  // no-match 是 DeepSeek 的受控例外：只有预算上限明确、候选价格都可判断且全部超预算时，才允许空推荐标为 ai。
   const summary = typeof record.summary === "string" ? record.summary.trim() : "";
   const tradeoffs = normalizeDeepSeekStringArray(record.tradeoffs);
   const notSuitableFor = normalizeDeepSeekStringArray(record.notSuitableFor);
@@ -667,6 +676,7 @@ async function callDeepSeek(
   reasoningContent?: string;
   diagnostics: DeepSeekAttemptDiagnostics;
 }> {
+  // 单次调用只负责“请求 -> 解析 -> 归一化 -> 诊断”，是否重试或最终 fallback 由 fetchDeepSeekAdvisor 编排。
   const startedAt = Date.now();
   const baseDiagnostics = (): DeepSeekAttemptDiagnostics => ({
     phase,
@@ -806,6 +816,7 @@ async function fetchDeepSeekAdvisor(
   const apiKey = process.env.DEEPSEEK_API_KEY;
   if (!apiKey) return runFallbackDeviceAdvisor(input);
 
+  // 初次调用失败后只重试一次；重试仍不可用时抛出带诊断的错误，由 POST 统一回退到 rules。
   const initial = await callDeepSeek(input, buildDeepSeekRequest(input), "initial");
   if (initial.output) {
     return withDeepSeekDiagnostics(initial.output, {

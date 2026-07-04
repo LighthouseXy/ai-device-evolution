@@ -113,6 +113,8 @@ function parseBudgetValue(raw: string, label: string) {
 }
 
 function resolveBudgetState(minText: string, maxText: string): BudgetState {
+  // 预算输入在客户端先做一次宽松归一化：允许只填上限/下限，区间写反时自动交换。
+  // 服务端仍会再次 normalize，避免前端状态被绕过时污染推荐逻辑。
   const min = parseBudgetValue(minText, "预算下限");
   const max = parseBudgetValue(maxText, "预算上限");
 
@@ -239,6 +241,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
     setError("");
 
     try {
+      // 前端只发送用户偏好，不发送本地候选设备；候选排序、AI provider 和 fallback 都由 API 统一控制。
       const response = await fetch("/api/device-advisor", {
         method: "POST",
         headers: {
@@ -292,92 +295,125 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
 
         <fieldset className="space-y-4" disabled={loading} aria-busy={loading}>
           <div className="grid gap-3 sm:grid-cols-2">
-          <label className="block">
-            <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">预算下限</span>
-            <input
-              className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
-              inputMode="numeric"
-              placeholder="例如 6000"
-              value={budgetMin}
-              onChange={(event) => {
-                clearError();
-                setBudgetMin(event.target.value);
-              }}
-            />
-          </label>
-          <label className="block">
-            <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">预算上限</span>
-            <input
-              className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
-              inputMode="numeric"
-              placeholder="例如 9000"
-              value={budgetMax}
-              onChange={(event) => {
-                clearError();
-                setBudgetMax(event.target.value);
-              }}
-            />
-          </label>
-          <p className={`col-span-full text-[10px] ${budgetState.isError ? "text-[#DC2626]" : "text-[#94A3B8]"}`}>
-            {budgetState.message}
-          </p>
-        </div>
+            <label className="block">
+              <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">预算下限</span>
+              <input
+                className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
+                inputMode="numeric"
+                placeholder="例如 6000"
+                value={budgetMin}
+                onChange={(event) => {
+                  clearError();
+                  setBudgetMin(event.target.value);
+                }}
+              />
+            </label>
+            <label className="block">
+              <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">预算上限</span>
+              <input
+                className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
+                inputMode="numeric"
+                placeholder="例如 9000"
+                value={budgetMax}
+                onChange={(event) => {
+                  clearError();
+                  setBudgetMax(event.target.value);
+                }}
+              />
+            </label>
+            <p className={`col-span-full text-[10px] ${budgetState.isError ? "text-[#DC2626]" : "text-[#94A3B8]"}`}>
+              {budgetState.message}
+            </p>
+          </div>
 
           <div className="grid gap-3 sm:grid-cols-2">
-          <label className="block">
-            <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">设备类型</span>
-            <select
-              className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
-              value={category}
-              onChange={(event) => {
-                clearError();
-                setCategory(event.target.value as DeviceAdvisorCategory);
-              }}
-            >
-              <option value="all">全品类</option>
-              {categoryNames.map((item) => (
-                <option key={item} value={item}>
-                  {categoryLabels[item]}
-                </option>
-              ))}
-            </select>
-          </label>
+            <label className="block">
+              <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">设备类型</span>
+              <select
+                className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
+                value={category}
+                onChange={(event) => {
+                  clearError();
+                  setCategory(event.target.value as DeviceAdvisorCategory);
+                }}
+              >
+                <option value="all">全品类</option>
+                {categoryNames.map((item) => (
+                  <option key={item} value={item}>
+                    {categoryLabels[item]}
+                  </option>
+                ))}
+              </select>
+            </label>
 
-          <label className="block">
-            <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">性能偏好</span>
-            <select
-              className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
-              value={performancePreference}
-              onChange={(event) =>
-                {
+            <label className="block">
+              <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">性能偏好</span>
+              <select
+                className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
+                value={performancePreference}
+                onChange={(event) => {
                   clearError();
                   setPerformancePreference(event.target.value as DeviceAdvisorPerformancePreference);
-                }
-              }
-            >
-              {performancePreferenceOptions.map((item) => (
-                <option key={item.value} value={item.value}>
-                  {item.label}
-                </option>
-              ))}
-            </select>
-          </label>
+                }}
+              >
+                {performancePreferenceOptions.map((item) => (
+                  <option key={item.value} value={item.value}>
+                    {item.label}
+                  </option>
+                ))}
+              </select>
+            </label>
           </div>
 
           <div className="grid gap-3 sm:grid-cols-2">
-          <label className="block">
-            <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">成色偏好</span>
-            <select
-              className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
-              value={conditionPreference}
-              onChange={(event) =>
-                {
+            <label className="block">
+              <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">成色偏好</span>
+              <select
+                className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
+                value={conditionPreference}
+                onChange={(event) => {
                   clearError();
                   setConditionPreference(event.target.value as (typeof conditionPreferenceOptions)[number]["value"]);
-                }
-              }
+                }}
+              >
+                {conditionPreferenceOptions.map((item) => (
+                  <option key={item.value} value={item.value}>
+                    {item.label}
+                  </option>
+                ))}
+              </select>
+            </label>
+
+            <label className="block">
+              <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">续航优先级</span>
+              <select
+                className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
+                value={batteryPriority}
+                onChange={(event) => {
+                  clearError();
+                  setBatteryPriority(event.target.value as (typeof batteryPriorityOptions)[number]["value"]);
+                }}
+              >
+                {batteryPriorityOptions.map((item) => (
+                  <option key={item.value} value={item.value}>
+                    {item.label}
+                  </option>
+                ))}
+              </select>
+            </label>
+          </div>
+
+          <label className="block">
+            <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">接口 / 生态需求</span>
+            <select
+              className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
+              value={interfaceNeed}
+              onChange={(event) => {
+                clearError();
+                setInterfaceNeed(event.target.value as (typeof interfaceNeedOptions)[number]["value"]);
+              }}
             >
-              {conditionPreferenceOptions.map((item) => (
+              {interfaceNeedOptions.map((item) => (
                 <option key={item.value} value={item.value}>
                   {item.label}
                 </option>
@@ -386,74 +422,33 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
           </label>
 
           <label className="block">
-            <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">续航优先级</span>
-            <select
-              className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
-              value={batteryPriority}
-              onChange={(event) =>
-                {
-                  clearError();
-                  setBatteryPriority(event.target.value as (typeof batteryPriorityOptions)[number]["value"]);
-                }
-              }
-            >
-              {batteryPriorityOptions.map((item) => (
-                <option key={item.value} value={item.value}>
-                  {item.label}
-                </option>
-              ))}
-            </select>
-          </label>
-          </div>
-
-        <label className="block">
-          <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">接口 / 生态需求</span>
-          <select
-            className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
-            value={interfaceNeed}
-            onChange={(event) =>
-              {
+            <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">使用场景</span>
+            <textarea
+              className="mt-1 min-h-24 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 py-2 text-sm leading-6 text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
+              placeholder="例如：学习 / 办公 / 剪辑 / 游戏 / 拍照"
+              value={useCasesText}
+              onChange={(event) => {
                 clearError();
-                setInterfaceNeed(event.target.value as (typeof interfaceNeedOptions)[number]["value"]);
-              }
-            }
-          >
-            {interfaceNeedOptions.map((item) => (
-              <option key={item.value} value={item.value}>
-                {item.label}
-              </option>
-            ))}
-          </select>
-        </label>
-
-        <label className="block">
-          <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">使用场景</span>
-          <textarea
-            className="mt-1 min-h-24 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 py-2 text-sm leading-6 text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
-            placeholder="例如：学习 / 办公 / 剪辑 / 游戏 / 拍照"
-            value={useCasesText}
-            onChange={(event) => {
-              clearError();
-              setUseCasesText(event.target.value);
-            }}
-          />
-          <div className="mt-2">
-            <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">快捷场景</p>
-            <div className="mt-2 flex flex-wrap gap-2">
-              {useCaseSuggestionOptions.map((item) => (
-                <button
-                  key={item}
-                  className="inline-flex h-8 items-center rounded-full border border-[#E8E4DC] bg-white px-3 text-xs text-[#475569] transition hover:border-[rgba(45,90,61,0.24)] hover:bg-[var(--primary-soft)] hover:text-[var(--primary-strong)]"
-                  type="button"
-                  onClick={() => handleUseCaseSuggestion(item)}
-                >
-                  + {item}
-                </button>
-              ))}
+                setUseCasesText(event.target.value);
+              }}
+            />
+            <div className="mt-2">
+              <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">快捷场景</p>
+              <div className="mt-2 flex flex-wrap gap-2">
+                {useCaseSuggestionOptions.map((item) => (
+                  <button
+                    key={item}
+                    className="inline-flex h-8 items-center rounded-full border border-[#E8E4DC] bg-white px-3 text-xs text-[#475569] transition hover:border-[rgba(45,90,61,0.24)] hover:bg-[var(--primary-soft)] hover:text-[var(--primary-strong)]"
+                    type="button"
+                    onClick={() => handleUseCaseSuggestion(item)}
+                  >
+                    + {item}
+                  </button>
+                ))}
+              </div>
+              <p className="mt-2 text-[10px] leading-relaxed text-[#94A3B8]">点击可追加场景；重复项会自动去重。</p>
             </div>
-            <p className="mt-2 text-[10px] leading-relaxed text-[#94A3B8]">点击可追加场景；重复项会自动去重。</p>
-          </div>
-        </label>
+          </label>
 
         <div className="rounded-xl border border-[#E8E4DC] bg-white p-3">
           <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">

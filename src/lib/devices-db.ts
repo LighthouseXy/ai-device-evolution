@@ -1,5 +1,7 @@
 // ==================== 新数据库模块 ====================
-// 从 apple-devices-db.json 加载数据，提供查询和展平函数
+// 从 apple-devices-db.json 加载第一阶段 Apple 样本数据，统一提供：
+// 1. 带来源元数据的原始 DbDevice 查询；
+// 2. 面向旧页面/AI 分析输入的扁平 FlattenedDevice 适配层。
 
 import db from "@/data/apple-devices-db.json";
 
@@ -197,11 +199,8 @@ export const summaryStats = {
 };
 
 // ==================== 向后兼容适配层 ====================
-// 将 DbDevice 展平为旧版 Device 形状，供 DeviceWorkbench 迁移使用
-
-import type { DeviceCategory as DC } from "@/lib/devices-db";
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-type _DC = DC; // re-export guard
+// 将 DbDevice 展平为旧版 Device 形状，供 DeviceWorkbench、AI 观察接口和页面组件复用。
+// 注意：这里是“展示/分析适配”，不要把扁平字段反写回源数据库，否则会丢失 sourceUrl、confidence 等来源信息。
 
 export type FlattenedDevice = {
   id: string;
@@ -227,7 +226,7 @@ export type FlattenedDevice = {
 
 /** 将 DbDevice 转为旧版扁平 Device 形状 */
 export function flattenDevice(db: DbDevice): FlattenedDevice {
-  // specs 展平为 Record<string, string|number|boolean|undefined>
+  // specs 展平只保留可直接展示的基础类型；数组转字符串，复杂对象保留在原始 DbDevice 中。
   const flatSpecs: Record<string, string | number | boolean | undefined> = {};
   const s = db.specs;
   for (const key of Object.keys(s)) {
