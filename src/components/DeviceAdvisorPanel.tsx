@@ -1,11 +1,12 @@
 "use client";
 
-import { useMemo, useState, type FormEvent } from "react";
+import { useMemo, useState, type FormEvent, type ReactNode } from "react";
 import {
   categoryLabels,
   categoryNames,
   type DeviceCategory,
 } from "@/lib/devices-db";
+import DeviceAdvisorResult from "@/components/DeviceAdvisorResult";
 import type {
   DeviceAdvisorCategory,
   DeviceAdvisorOutput,
@@ -56,6 +57,45 @@ const useCaseSuggestionOptions = [
   "通勤",
   "追剧",
 ] as const;
+
+const formControlClassName =
+  "mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]";
+const textAreaClassName =
+  "mt-1 min-h-24 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 py-2 text-sm leading-6 text-[#1E293B] outline-none transition focus:border-[var(--primary)]";
+const fieldLabelClassName = "text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]";
+
+function FieldLabel({ children }: { children: ReactNode }) {
+  return <span className={fieldLabelClassName}>{children}</span>;
+}
+
+function SelectField<T extends string>({
+  label,
+  value,
+  options,
+  onChange,
+}: {
+  label: string;
+  value: T;
+  options: readonly { value: T; label: string }[];
+  onChange: (value: T) => void;
+}) {
+  return (
+    <label className="block">
+      <FieldLabel>{label}</FieldLabel>
+      <select
+        className={formControlClassName}
+        value={value}
+        onChange={(event) => onChange(event.target.value as T)}
+      >
+        {options.map((item) => (
+          <option key={item.value} value={item.value}>
+            {item.label}
+          </option>
+        ))}
+      </select>
+    </label>
+  );
+}
 
 function normalizeUseCases(text: string): string[] {
   return text
@@ -296,9 +336,9 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
         <fieldset className="space-y-4" disabled={loading} aria-busy={loading}>
           <div className="grid gap-3 sm:grid-cols-2">
             <label className="block">
-              <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">预算下限</span>
+              <FieldLabel>预算下限</FieldLabel>
               <input
-                className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
+                className={formControlClassName}
                 inputMode="numeric"
                 placeholder="例如 6000"
                 value={budgetMin}
@@ -309,9 +349,9 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
               />
             </label>
             <label className="block">
-              <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">预算上限</span>
+              <FieldLabel>预算上限</FieldLabel>
               <input
-                className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
+                className={formControlClassName}
                 inputMode="numeric"
                 placeholder="例如 9000"
                 value={budgetMax}
@@ -328,9 +368,9 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
 
           <div className="grid gap-3 sm:grid-cols-2">
             <label className="block">
-              <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">设备类型</span>
+              <FieldLabel>设备类型</FieldLabel>
               <select
-                className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
+                className={formControlClassName}
                 value={category}
                 onChange={(event) => {
                   clearError();
@@ -346,85 +386,53 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
               </select>
             </label>
 
-            <label className="block">
-              <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">性能偏好</span>
-              <select
-                className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
-                value={performancePreference}
-                onChange={(event) => {
+            <SelectField
+              label="性能偏好"
+              value={performancePreference}
+              options={performancePreferenceOptions}
+              onChange={(value) => {
                   clearError();
-                  setPerformancePreference(event.target.value as DeviceAdvisorPerformancePreference);
-                }}
-              >
-                {performancePreferenceOptions.map((item) => (
-                  <option key={item.value} value={item.value}>
-                    {item.label}
-                  </option>
-                ))}
-              </select>
-            </label>
+                  setPerformancePreference(value);
+              }}
+            />
           </div>
 
           <div className="grid gap-3 sm:grid-cols-2">
-            <label className="block">
-              <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">成色偏好</span>
-              <select
-                className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
-                value={conditionPreference}
-                onChange={(event) => {
-                  clearError();
-                  setConditionPreference(event.target.value as (typeof conditionPreferenceOptions)[number]["value"]);
-                }}
-              >
-                {conditionPreferenceOptions.map((item) => (
-                  <option key={item.value} value={item.value}>
-                    {item.label}
-                  </option>
-                ))}
-              </select>
-            </label>
+            <SelectField
+              label="成色偏好"
+              value={conditionPreference}
+              options={conditionPreferenceOptions}
+              onChange={(value) => {
+                clearError();
+                setConditionPreference(value);
+              }}
+            />
 
-            <label className="block">
-              <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">续航优先级</span>
-              <select
-                className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
-                value={batteryPriority}
-                onChange={(event) => {
-                  clearError();
-                  setBatteryPriority(event.target.value as (typeof batteryPriorityOptions)[number]["value"]);
-                }}
-              >
-                {batteryPriorityOptions.map((item) => (
-                  <option key={item.value} value={item.value}>
-                    {item.label}
-                  </option>
-                ))}
-              </select>
-            </label>
+            <SelectField
+              label="续航优先级"
+              value={batteryPriority}
+              options={batteryPriorityOptions}
+              onChange={(value) => {
+                clearError();
+                setBatteryPriority(value);
+              }}
+            />
           </div>
 
-          <label className="block">
-            <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">接口 / 生态需求</span>
-            <select
-              className="mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
-              value={interfaceNeed}
-              onChange={(event) => {
+          <SelectField
+            label="接口 / 生态需求"
+            value={interfaceNeed}
+            options={interfaceNeedOptions}
+            onChange={(value) => {
                 clearError();
-                setInterfaceNeed(event.target.value as (typeof interfaceNeedOptions)[number]["value"]);
-              }}
-            >
-              {interfaceNeedOptions.map((item) => (
-                <option key={item.value} value={item.value}>
-                  {item.label}
-                </option>
-              ))}
-            </select>
-          </label>
+                setInterfaceNeed(value);
+            }}
+          />
 
           <label className="block">
-            <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">使用场景</span>
+            <FieldLabel>使用场景</FieldLabel>
             <textarea
-              className="mt-1 min-h-24 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 py-2 text-sm leading-6 text-[#1E293B] outline-none transition focus:border-[var(--primary)]"
+              className={textAreaClassName}
               placeholder="例如：学习 / 办公 / 剪辑 / 游戏 / 拍照"
               value={useCasesText}
               onChange={(event) => {
@@ -433,7 +441,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
               }}
             />
             <div className="mt-2">
-              <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">快捷场景</p>
+              <p className={fieldLabelClassName}>快捷场景</p>
               <div className="mt-2 flex flex-wrap gap-2">
                 {useCaseSuggestionOptions.map((item) => (
                   <button
@@ -453,7 +461,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
         <div className="rounded-xl border border-[#E8E4DC] bg-white p-3">
           <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
             <div>
-              <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">提交前摘要</p>
+              <p className={fieldLabelClassName}>提交前摘要</p>
               <p className="mt-1 text-xs text-[#64748B]">
                 场景已整理为 {useCasePreview.length || 0} 项，提交前快速确认即可。
               </p>
@@ -484,173 +492,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
         </fieldset>
       </form>
 
-      <div className="border-t border-[#E8E4DC] bg-[#FFFDF8] p-5" aria-live="polite" aria-atomic="true">
-        {loading ? (
-          <div className="rounded-2xl border border-[rgba(45,90,61,0.16)] bg-[var(--primary-soft)] p-4" role="status">
-            <div className="flex items-center gap-2">
-              <p className="text-sm font-semibold text-[var(--primary-strong)]">正在生成推荐</p>
-              <span className="rounded-full bg-white px-2 py-0.5 text-[10px] font-medium text-[var(--primary)]">
-                API 调用
-              </span>
-            </div>
-            <p className="mt-2 text-sm leading-6 text-[#1E293B]">正在整理预算、成色、续航和接口偏好，请稍等。</p>
-            <div className="mt-4 space-y-2 animate-pulse">
-              <div className="h-4 w-2/3 rounded bg-[rgba(45,90,61,0.16)]" />
-              <div className="h-4 w-full rounded bg-[rgba(45,90,61,0.16)]" />
-              <div className="h-4 w-5/6 rounded bg-[rgba(232,168,56,0.18)]" />
-            </div>
-          </div>
-        ) : error ? (
-          <div className="rounded-2xl border border-[#FECACA] bg-[#FFF7ED] p-4" role="alert">
-            <p className="text-sm font-semibold text-[#9A3412]">请求失败</p>
-            <p className="mt-2 text-sm leading-6 text-[#C2410C]">{error}</p>
-            <p className="mt-2 text-xs text-[#B45309]">请先检查预算格式，或稍后再试。</p>
-          </div>
-        ) : result ? (
-          <div className="space-y-4">
-            <div className="rounded-2xl border border-[rgba(45,90,61,0.18)] bg-[var(--primary-soft)] p-4">
-              <div className="flex flex-wrap items-center gap-2">
-                <p className="text-sm font-semibold text-[#1E293B]">推荐结果</p>
-                <span className="rounded-full bg-white px-2 py-0.5 text-[10px] font-medium text-[var(--primary)]">
-                  可信度 {Math.round(result.confidence * 100)}%
-                </span>
-                <span className="rounded-full bg-[#F0FDF4] px-2 py-0.5 text-[10px] font-medium text-[#16A34A]">
-                  {result.source === "ai" ? "模型生成" : "规则兜底"}
-                </span>
-              </div>
-              <p className="mt-2 text-sm leading-6 text-[#1E293B]">{result.summary}</p>
-
-              <div className="mt-4 grid gap-3 sm:grid-cols-3">
-                <div className="rounded-xl bg-white/80 p-3">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">整体权衡点</p>
-                  {result.tradeoffs.length ? (
-                    <div className="mt-2 flex flex-wrap gap-1.5">
-                      {result.tradeoffs.map((item) => (
-                        <span key={item} className="rounded-full bg-white px-2 py-0.5 text-[11px] text-[var(--primary-strong)]">
-                          {item}
-                        </span>
-                      ))}
-                    </div>
-                  ) : (
-                    <p className="mt-1 text-xs leading-relaxed text-[#64748B]">暂无明显权衡点</p>
-                  )}
-                </div>
-                <div className="rounded-xl bg-white/80 p-3">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">适合人群</p>
-                  <div className="mt-2 flex flex-wrap gap-1.5">
-                    {result.suitableFor.map((item) => (
-                      <span key={item} className="rounded-full bg-[var(--primary-soft)] px-2 py-0.5 text-[11px] text-[var(--primary-strong)]">
-                        {item}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-                <div className="rounded-xl bg-white/80 p-3">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">不适合人群</p>
-                  <div className="mt-2 flex flex-wrap gap-1.5">
-                    {result.notSuitableFor.map((item) => (
-                      <span key={item} className="rounded-full bg-[#FFF7ED] px-2 py-0.5 text-[11px] text-[#7C2D12]">
-                        {item}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="space-y-3">
-              <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">
-                推荐列表按匹配度排序，第一项为主推荐
-              </p>
-              {result.recommendations.map((item, index) => {
-                const isPrimary = index === 0;
-                return (
-                  <article
-                    className={`rounded-2xl border p-4 shadow-sm ${
-                      isPrimary ? "border-[rgba(45,90,61,0.18)] bg-white" : "border-[#E8E4DC] bg-white"
-                    }`}
-                    key={item.deviceId}
-                  >
-                    <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
-                      <div className="min-w-0">
-                        <div className="flex flex-wrap items-center gap-2">
-                          <span
-                            className={`rounded-full px-2 py-0.5 text-[10px] font-medium ${
-                              isPrimary ? "bg-[var(--primary-soft)] text-[var(--primary-strong)]" : "bg-[#F5F0E8] text-[#64748B]"
-                            }`}
-                          >
-                            {isPrimary ? "主推荐" : `备选 ${index}`}
-                          </span>
-                          <p className="text-sm font-semibold text-[#1E293B]">{item.model}</p>
-                        </div>
-                        <p className="mt-1 text-[11px] text-[#94A3B8]">
-                          {item.series} · {item.releaseYear} · {item.priceText}
-                        </p>
-                      </div>
-                      <span className="self-start rounded-full bg-[#F5F0E8] px-2 py-0.5 text-[10px] font-medium text-[#64748B]">
-                        匹配 {Math.round(item.matchScore * 100)}%
-                      </span>
-                    </div>
-
-                    <div className="mt-4 grid gap-3 lg:grid-cols-2">
-                      <div className="rounded-xl bg-[#F4F9F5] p-3">
-                        <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">推荐理由</p>
-                        <ul className="mt-2 space-y-1">
-                          {item.reasons.map((reason) => (
-                            <li className="flex gap-2 text-sm leading-6 text-[#475569]" key={reason}>
-                              <span className="shrink-0">•</span>
-                              <span>{reason}</span>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                      <div className="rounded-xl bg-[#F4F9F5] p-3">
-                        <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">注意事项 / 权衡点</p>
-                        <ul className="mt-2 space-y-1">
-                          {item.tradeoffs.map((tradeoff) => (
-                            <li className="flex gap-2 text-sm leading-6 text-[var(--primary-strong)]" key={tradeoff}>
-                              <span className="shrink-0">•</span>
-                              <span>{tradeoff}</span>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    </div>
-                  </article>
-                );
-              })}
-            </div>
-
-            {result.alternatives.length ? (
-              <div>
-                <p className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]">主推荐之外的备选方案</p>
-                <div className="mt-2 flex flex-wrap gap-2">
-                  {result.alternatives.map((item) => (
-                    <span
-                      className="rounded-full bg-[#F5F0E8] px-3 py-1 text-[11px] text-[#64748B]"
-                      key={item.deviceId}
-                    >
-                      {item.model} · {Math.round(item.matchScore * 100)}%
-                    </span>
-                  ))}
-                </div>
-              </div>
-            ) : null}
-
-            <p className="text-[10px] leading-relaxed text-[#94A3B8]">{result.disclaimer}</p>
-          </div>
-        ) : (
-          <div className="rounded-2xl border border-dashed border-[#E8E4DC] bg-white/70 p-4">
-            <p className="text-sm font-semibold text-[#1E293B]">还没有推荐结果</p>
-            <p className="mt-2 text-sm leading-6 text-[#64748B]">先输入预算和偏好，再生成推荐。</p>
-            <ul className="mt-3 space-y-2 text-xs leading-6 text-[#94A3B8]">
-              <li>• 预算支持单边界或区间，输入非数字会直接提示。</li>
-              <li>• 结果会先展示主推荐，再展开理由和权衡点。</li>
-              <li>• 请求失败时只显示可读提示，不暴露技术细节。</li>
-            </ul>
-          </div>
-        )}
-      </div>
+      <DeviceAdvisorResult loading={loading} error={error} result={result} />
     </section>
   );
 }

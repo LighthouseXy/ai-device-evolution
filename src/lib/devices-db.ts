@@ -199,7 +199,7 @@ export const summaryStats = {
 };
 
 // ==================== 向后兼容适配层 ====================
-// 将 DbDevice 展平为旧版 Device 形状，供 DeviceWorkbench、AI 观察接口和页面组件复用。
+// 将 DbDevice 展平为旧版 Device 形状，供 AI 观察接口和页面组件复用。
 // 注意：这里是“展示/分析适配”，不要把扁平字段反写回源数据库，否则会丢失 sourceUrl、confidence 等来源信息。
 
 export type FlattenedDevice = {

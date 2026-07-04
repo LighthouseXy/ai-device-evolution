@@ -125,8 +125,9 @@ src/
 │   ├── trends/page.tsx                # 趋势观察
 │   └── globals.css
 ├── components/
-│   ├── DeviceWorkbench.tsx            # 设备观察工作台
-│   └── DeviceAdvisorPanel.tsx         # 设备顾问面板
+│   ├── DeviceAdvisorPanel.tsx         # 设备顾问面板
+│   ├── DeviceSeriesTrendExplorer.tsx  # 同系列趋势图
+│   └── DeviceAdvisorEvalDashboard.tsx # dev-only 评测看板
 ├── lib/
 │   ├── ai-analysis.ts                 # AI 观察引擎与 fallback
 │   ├── device-advisor.ts              # 设备顾问推荐逻辑
