@@ -326,7 +326,6 @@ function buildDeepSeekPrompt(input: DeviceAdvisorInput): string {
     return prompt;
   }
 
-  const shortlist = Array.isArray(payload.candidateShortlist) ? payload.candidateShortlist : [];
   const trimmedPayload = {
     ...payload,
     candidateShortlist: prioritizeDeepSeekShortlist(payload).slice(0, DEEPSEEK_SHORTLIST_LIMIT),
