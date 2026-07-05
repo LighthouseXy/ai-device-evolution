@@ -4,10 +4,10 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const links = [
-  { href: "/devices", label: "设备库" },
+  { href: "/advisor", label: "AI 顾问" },
   { href: "/compare", label: "代际对比" },
   { href: "/trends", label: "趋势观察" },
-  { href: "/advisor", label: "AI 顾问" },
+  { href: "/devices", label: "设备库" },
 ];
 
 export default function SiteNav() {
