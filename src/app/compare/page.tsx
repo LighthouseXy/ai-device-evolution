@@ -18,6 +18,7 @@ import {
 } from "@/lib/number-format";
 import PageHeader from "@/components/layout/PageHeader";
 import TickDivider from "@/components/layout/TickDivider";
+import CompareSeriesSelect from "@/components/CompareSeriesSelect";
 
 type SearchParams = {
   series?: string | string[];
@@ -322,18 +323,14 @@ export default async function ComparePage({
 
       <section className="compare-selector">
         <div className="compare-selector-inner">
-          <form action="/compare" className="compare-selector-group">
-            <input type="hidden" name="window" value={selectedWindow} />
+          <div className="compare-selector-group">
             <label className="compare-selector-label" htmlFor="compare-series">选择系列</label>
-            <select id="compare-series" name="series" defaultValue={selectedSeries} className="compare-select-control">
-              {seriesOptions.map((item) => (
-                <option key={item.series} value={item.series}>
-                  {item.label}
-                </option>
-              ))}
-            </select>
-            <button type="submit" className="sr-only">应用系列</button>
-          </form>
+            <CompareSeriesSelect
+              options={seriesOptions.map((item) => ({ label: item.label, series: item.series }))}
+              selectedSeries={selectedSeries}
+              selectedWindow={selectedWindow}
+            />
+          </div>
 
           <div className="compare-selector-group">
             <div className="compare-selector-label">对比范围</div>
