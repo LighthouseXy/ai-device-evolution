@@ -8,6 +8,7 @@ type PageHeaderProps = {
   actions?: ReactNode;
   meta?: ReactNode;
   className?: string;
+  showDivider?: boolean;
 };
 
 export default function PageHeader({
@@ -17,6 +18,7 @@ export default function PageHeader({
   actions,
   meta,
   className,
+  showDivider = true,
 }: PageHeaderProps) {
   return (
     <header className={`page-header${className ? ` ${className}` : ""}`}>
@@ -29,7 +31,7 @@ export default function PageHeader({
         {actions ? <div className="page-header-actions">{actions}</div> : null}
         {meta ? <div className="page-header-meta">{meta}</div> : null}
       </div>
-      <TickDivider count={28} className="site-container page-header-divider" />
+      {showDivider ? <TickDivider count={28} className="site-container page-header-divider" /> : null}
     </header>
   );
 }

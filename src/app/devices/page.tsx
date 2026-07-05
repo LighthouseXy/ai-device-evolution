@@ -145,6 +145,7 @@ export default async function DevicesPage({
             </span>
           </>
         }
+        showDivider={false}
       />
 
       <section className="section section-filter">

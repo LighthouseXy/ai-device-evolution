@@ -296,6 +296,7 @@ export default async function TrendsPage({
             <span className="tag tag-amber">Apple 样本阶段</span>
           </>
         }
+        showDivider={false}
       />
 
       <section className="section section-filter">

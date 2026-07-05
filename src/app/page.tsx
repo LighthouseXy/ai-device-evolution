@@ -124,11 +124,11 @@ export default function Home() {
         <div className="home-hero-inner">
           <div className="home-hero-content">
             <div className="home-hero-text">
-              <div className="home-hero-badge">设备演进分析平台</div>
+              <div className="home-hero-badge">AI 设备演进分析平台</div>
               <h1 className="home-hero-title">
-                看清每台设备
+                整理<span className="accent">过去</span>
                 <br />
-                <span className="accent">来路</span>与<span className="amber">去向</span>
+                预测<span className="amber">未来</span>
               </h1>
               <p className="home-hero-desc">
                 基于真实本地数据库，串联设备库、代际对比、趋势观察和 AI 顾问。当前第一阶段聚焦 Apple 样本。
