@@ -4,10 +4,10 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const links = [
-  { href: "/advisor", label: "AI 顾问" },
+  { href: "/devices", label: "设备库" },
   { href: "/compare", label: "代际对比" },
   { href: "/trends", label: "趋势观察" },
-  { href: "/devices", label: "设备库" },
+  { href: "/advisor", label: "AI 顾问" },
 ];
 
 export default function SiteNav() {
@@ -39,8 +39,10 @@ export default function SiteNav() {
         </div>
 
         <form action="/devices" method="get" className="site-nav-search" role="search">
-          <input name="q" type="search" placeholder="搜索设备" aria-label="搜索设备" />
-          <button type="submit">搜索</button>
+          <input name="q" type="search" placeholder="搜索设备…" aria-label="搜索设备" />
+          <button type="submit" aria-label="搜索设备">
+            ⌘K
+          </button>
         </form>
       </div>
     </nav>

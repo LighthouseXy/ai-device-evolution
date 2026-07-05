@@ -59,15 +59,10 @@ function StatCard({
   hint: string;
 }) {
   return (
-    <div className="card p-4">
-      <div className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--text-soft)]">{label}</div>
-      <div
-        className="mt-2 text-2xl text-[var(--text-strong)]"
-        style={{ fontFamily: "var(--font-display-stack)" }}
-      >
-        {formatStatValue(value)}
-      </div>
-      <div className="mt-1 text-xs leading-6 text-[var(--text-muted)]">{hint}</div>
+    <div className="home-hero-stat">
+      <span className="home-hero-stat-value">{formatStatValue(value)}</span>
+      <span className="home-hero-stat-label">{label}</span>
+      <span className="home-hero-stat-hint">{hint}</span>
     </div>
   );
 }
@@ -125,94 +120,83 @@ export default function Home() {
 
   return (
     <main className="site-main">
-      <section className="section bg-[var(--bg)] pb-10 pt-12">
-        <div className="section-inner grid gap-10 lg:grid-cols-[minmax(0,0.95fr)_minmax(420px,1.05fr)] lg:items-center">
-          <div className="grid gap-7">
-            <div className="grid gap-4">
-              <span className="tag tag-green w-fit">电子设备代际演进分析平台</span>
-              <h1 className="max-w-[10ch] text-[clamp(2.6rem,6vw,5rem)] leading-[0.98] tracking-[-0.06em] text-[var(--text-strong)]">
-                看清设备的来路与去向
+      <section className="home-hero">
+        <div className="home-hero-inner">
+          <div className="home-hero-content">
+            <div className="home-hero-text">
+              <div className="home-hero-badge">设备演进分析平台</div>
+              <h1 className="home-hero-title">
+                看清每台设备
+                <br />
+                <span className="accent">来路</span>与<span className="amber">去向</span>
               </h1>
-              <p className="max-w-[34rem] text-base leading-8 text-[var(--text-muted)]">
+              <p className="home-hero-desc">
                 基于真实本地数据库，串联设备库、代际对比、趋势观察和 AI 顾问。当前第一阶段聚焦 Apple 样本。
               </p>
-            </div>
 
-            <div className="flex flex-wrap gap-3">
-              <Link href="/devices" className="btn btn-primary">
-                浏览设备库
-              </Link>
-              <Link href="/advisor" className="btn btn-ghost">
-                打开 AI 顾问
-              </Link>
-            </div>
-
-            <div className="grid gap-3 sm:grid-cols-4">
-              <StatCard label="设备" value={summaryStatsFlat.modelCount} hint="真实收录" />
-              <StatCard label="类别" value={summaryStatsFlat.categoryCount} hint="第一阶段" />
-              <StatCard label="系列" value={summaryStatsFlat.seriesCount} hint="可对比" />
-              <StatCard label="跨度" value={`${summaryStatsFlat.startYear}-${summaryStatsFlat.endYear}`} hint="发布时间" />
-            </div>
-          </div>
-
-          <div className="card overflow-hidden p-6">
-            <div className="flex items-start justify-between gap-4">
-              <div className="grid gap-1">
-                <span className="tag tag-green w-fit">真实样本时间线</span>
-                <h2 className="text-2xl leading-tight text-[var(--text-strong)]">
-                  {spotlight?.series ?? "Apple"} 最新序列
-                </h2>
-                <p className="text-sm text-[var(--text-muted)]">
-                  最近入库机型，按发布时间组织。
-                </p>
+              <div className="home-hero-actions">
+                <Link href="/devices" className="btn btn-primary btn-lg">
+                  浏览设备库
+                </Link>
+                <Link href="/advisor" className="btn btn-ghost btn-lg">
+                  问问 AI 顾问
+                </Link>
               </div>
-              <span className="tag tag-amber">{summaryStatsFlat.endYear}</span>
-            </div>
 
-            <div className="relative mt-8">
-              <div className="absolute left-4 right-4 top-4 h-px bg-[var(--border)]" aria-hidden="true" />
-              <div className="relative grid grid-cols-5 gap-3">
-                {timelineDevices.map((device, index) => (
-                  <Link key={device.id} href={`/devices/${device.id}`} className="group grid gap-3">
-                    <span
-                      className={`mx-auto h-8 w-8 rounded-full border-4 border-[var(--surface)] ${
-                        index === timelineDevices.length - 1
-                          ? "bg-[var(--primary)] shadow-[0_0_0_4px_var(--primary-soft)]"
-                          : "bg-[var(--border)]"
-                      }`}
-                    />
-                    <span className="text-center text-[11px] font-semibold text-[var(--text-soft)]">
-                      {device.releaseYear}
-                    </span>
-                    <span className="text-center text-xs font-semibold leading-5 text-[var(--text-strong)] group-hover:text-[var(--primary)]">
-                      {device.model.replace(device.series, "").trim() || device.model}
-                    </span>
-                  </Link>
-                ))}
+              <div className="home-hero-stats">
+                <StatCard label="收录设备" value={summaryStatsFlat.modelCount} hint="真实样本" />
+                <StatCard label="设备品类" value={summaryStatsFlat.categoryCount} hint="第一阶段" />
+                <StatCard label="可比系列" value={summaryStatsFlat.seriesCount} hint={`${summaryStatsFlat.startYear}—${summaryStatsFlat.endYear}`} />
               </div>
             </div>
 
-            <div className="mt-8 grid gap-3 sm:grid-cols-3">
-              <div className="rounded-[var(--radius-md)] bg-[var(--bg-soft)] p-4">
-                <div className="font-mono text-lg font-semibold text-[var(--text-strong)]">{spotlight?.chip ?? "待补充"}</div>
-                <div className="mt-1 text-xs text-[var(--text-soft)]">最新样本芯片</div>
-              </div>
-              <div className="rounded-[var(--radius-md)] bg-[var(--bg-soft)] p-4">
-                <div className="font-mono text-lg font-semibold text-[var(--text-strong)]">{spotlight ? formatMaybeCurrency(spotlight.launchPrice) : "待补充"}</div>
-                <div className="mt-1 text-xs text-[var(--text-soft)]">起售价</div>
-              </div>
-              <div className="rounded-[var(--radius-md)] bg-[var(--bg-soft)] p-4">
-                <div className="font-mono text-lg font-semibold text-[var(--text-strong)]">
-                  {typeof spotlight?.aiFeatureLevel === "number" ? `${spotlight.aiFeatureLevel}/10` : "待补充"}
+            <div className="home-hero-visual">
+              <div className="home-timeline-card">
+                <div className="home-timeline-header">
+                  <span className="home-timeline-series">{spotlight?.series ?? "Apple"} 最新序列</span>
+                  <span className="home-timeline-range">{summaryStatsFlat.startYear} — {summaryStatsFlat.endYear}</span>
                 </div>
-                <div className="mt-1 text-xs text-[var(--text-soft)]">AI 能力</div>
+
+                <div className="home-timeline-track">
+                  <div className="home-timeline-line" />
+                  <div className="home-timeline-nodes">
+                    {timelineDevices.map((device, index) => (
+                      <Link key={device.id} href={`/devices/${device.id}`} className="home-timeline-node">
+                        <span className={`home-node-dot${index === timelineDevices.length - 1 ? " active" : ""}`} />
+                        <span className="home-node-year">{device.releaseYear}</span>
+                        <span className="home-node-name">
+                          {device.model.replace(device.series, "").trim() || device.model}
+                        </span>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="home-timeline-metrics">
+                  <div className="home-metric">
+                    <span className="home-metric-value">{spotlight?.chip ?? "待补充"}</span>
+                    <span className="home-metric-label">最新样本芯片</span>
+                  </div>
+                  <div className="home-metric">
+                    <span className="home-metric-value">{spotlight ? formatMaybeCurrency(spotlight.launchPrice) : "待补充"}</span>
+                    <span className="home-metric-label">起售价</span>
+                  </div>
+                  <div className="home-metric">
+                    <span className="home-metric-value">
+                      {typeof spotlight?.aiFeatureLevel === "number" ? `${spotlight.aiFeatureLevel}/10` : "待补充"}
+                    </span>
+                    <span className="home-metric-label">AI 能力</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <TickDivider className="site-container" />
+      <div className="section-inner">
+        <TickDivider className="home-section-divider" />
+      </div>
 
       <section className="section">
         <div className="section-inner">
@@ -260,7 +244,9 @@ export default function Home() {
         </div>
       </section>
 
-      <TickDivider className="site-container" />
+      <div className="section-inner">
+        <TickDivider className="home-section-divider" />
+      </div>
 
       <section className="section">
         <div className="section-inner">
