@@ -94,7 +94,8 @@ function normalizeSeries(value: string | string[] | undefined) {
 
 function normalizeWindow(value: string | string[] | undefined) {
   const raw = Array.isArray(value) ? value[0] : value;
-  return raw === "all" ? "all" : "recent3";
+  if (raw === "all" || raw === "recent5") return raw;
+  return "recent3";
 }
 
 function buildComparisonValue(device: (typeof allDevicesFlat)[number], field: ComparisonField) {
@@ -290,7 +291,12 @@ export default async function ComparePage({
   const selectedSeries = seriesOptions.some((item) => item.series === requestedSeries) ? requestedSeries : defaultSeries;
   const selectedWindow = normalizeWindow(resolvedSearchParams.window);
   const seriesDevices = getDevicesBySeriesFlat(selectedSeries);
-  const visibleDevices = selectedWindow === "all" ? seriesDevices : seriesDevices.slice(-3);
+  const visibleDevices =
+    selectedWindow === "all"
+      ? seriesDevices
+      : selectedWindow === "recent5"
+        ? seriesDevices.slice(-5)
+        : seriesDevices.slice(-3);
   const latest = seriesDevices.at(-1) ?? null;
   const previous = seriesDevices.at(-2) ?? null;
   const category = latest?.category ?? "phone";
@@ -319,16 +325,14 @@ export default async function ComparePage({
           <form action="/compare" className="compare-selector-group">
             <input type="hidden" name="window" value={selectedWindow} />
             <label className="compare-selector-label" htmlFor="compare-series">选择系列</label>
-            <div className="compare-select-control">
-              <select id="compare-series" name="series" defaultValue={selectedSeries}>
-                {seriesOptions.map((item) => (
-                  <option key={item.series} value={item.series}>
-                    {item.label}
-                  </option>
-                ))}
-              </select>
-              <button type="submit">应用</button>
-            </div>
+            <select id="compare-series" name="series" defaultValue={selectedSeries} className="compare-select-control">
+              {seriesOptions.map((item) => (
+                <option key={item.series} value={item.series}>
+                  {item.label}
+                </option>
+              ))}
+            </select>
+            <button type="submit" className="sr-only">应用系列</button>
           </form>
 
           <div className="compare-selector-group">
@@ -336,6 +340,7 @@ export default async function ComparePage({
             <div className="compare-range-toggle">
               {[
                 { key: "recent3", label: "近 3 代" },
+                { key: "recent5", label: "近 5 代" },
                 { key: "all", label: "全部" },
               ].map((item) => {
                 const params = new URLSearchParams();
