@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import TickDivider from "@/components/layout/TickDivider";
 
 type PageHeaderProps = {
   eyebrow?: string;
@@ -20,7 +21,7 @@ export default function PageHeader({
   return (
     <header className={`page-header${className ? ` ${className}` : ""}`}>
       <div className="page-header-inner">
-        <div className="grid gap-4">
+        <div className="page-header-copy">
           {eyebrow ? <div className="page-header-kicker">{eyebrow}</div> : null}
           <h1 className="page-header-title">{title}</h1>
           {description ? <p className="page-header-desc">{description}</p> : null}
@@ -28,6 +29,7 @@ export default function PageHeader({
         {actions ? <div className="page-header-actions">{actions}</div> : null}
         {meta ? <div className="page-header-meta">{meta}</div> : null}
       </div>
+      <TickDivider count={28} className="site-container page-header-divider" />
     </header>
   );
 }

@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
   allDevicesFlat,
@@ -144,17 +143,6 @@ export default async function DeviceDetailPage({
       <PageHeader
         eyebrow={`${categoryLabels[device.category]} / ${device.series}`}
         title={device.model}
-        description={`${device.brand} · ${device.releaseYear} · ${device.id}。页面字段直接来自本地数据库，用于展示真实设备数据口径，而不是原型假统计。`}
-        actions={
-          <>
-            <Link href="/devices" className="btn btn-ghost">
-              返回设备库
-            </Link>
-            <Link href={`/devices?category=${device.category}`} className="btn btn-primary">
-              查看同类设备
-            </Link>
-          </>
-        }
         meta={
           <>
             <span className="tag tag-green">{device.releaseYear}</span>
@@ -232,7 +220,7 @@ export default async function DeviceDetailPage({
           <SectionHeader
             eyebrow="核心规格"
             title="真实字段展开"
-            description="以下内容直接读取设备数据库中的原始字段，按功能分组查看。"
+            description="按功能分组查看原始字段。"
           />
 
           <div className="grid gap-4 lg:grid-cols-2">

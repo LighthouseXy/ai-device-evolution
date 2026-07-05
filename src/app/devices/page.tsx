@@ -7,11 +7,10 @@ import {
   summaryStatsFlat,
 } from "@/lib/devices-db";
 import PageHeader from "@/components/layout/PageHeader";
-import SectionHeader from "@/components/layout/SectionHeader";
-import TickDivider from "@/components/layout/TickDivider";
 
 type SearchParams = {
   category?: string | string[];
+  q?: string | string[];
 };
 
 const categoryDisplay: Record<(typeof categoryNames)[number], string> = {
@@ -23,6 +22,11 @@ const categoryDisplay: Record<(typeof categoryNames)[number], string> = {
 function normalizeCategory(value: string | string[] | undefined) {
   const raw = Array.isArray(value) ? value[0] : value;
   return raw === "phone" || raw === "tablet" || raw === "laptop" ? raw : "all";
+}
+
+function normalizeSearchQuery(value: string | string[] | undefined) {
+  const raw = Array.isArray(value) ? value[0] : value;
+  return raw?.trim() ?? "";
 }
 
 function formatCount(value: number) {
@@ -97,10 +101,19 @@ export default async function DevicesPage({
 }) {
   const resolvedSearchParams = await searchParams;
   const selectedCategory = normalizeCategory(resolvedSearchParams.category);
-  const visibleDevices =
+  const searchQuery = normalizeSearchQuery(resolvedSearchParams.q);
+  const normalizedSearch = searchQuery.toLocaleLowerCase("zh-CN");
+  const categoryDevices =
     selectedCategory === "all"
       ? allDevicesFlat
       : allDevicesFlat.filter((device) => device.category === selectedCategory);
+  const visibleDevices = normalizedSearch
+    ? categoryDevices.filter((device) =>
+        [device.model, device.series, device.brand, device.chip, categoryDisplay[device.category]]
+          .filter(Boolean)
+          .some((value) => String(value).toLocaleLowerCase("zh-CN").includes(normalizedSearch)),
+      )
+    : categoryDevices;
 
   const sortedDevices = [...visibleDevices].sort((left, right) => {
     if (right.releaseYear !== left.releaseYear) return right.releaseYear - left.releaseYear;
@@ -124,12 +137,6 @@ export default async function DevicesPage({
       <PageHeader
         eyebrow="设备数据库"
         title="设备库"
-        description={`当前收录 ${formatCount(summaryStatsFlat.modelCount)} 台设备，覆盖 ${formatCount(summaryStatsFlat.categoryCount)} 个类别、${formatCount(summaryStatsFlat.seriesCount)} 个系列。筛选结果全部来自本地真实数据。`}
-        actions={
-          <Link href="/" className="btn btn-ghost">
-            返回首页
-          </Link>
-        }
         meta={
           <>
             <span className="tag tag-green">Apple 样本阶段</span>
@@ -140,20 +147,17 @@ export default async function DevicesPage({
         }
       />
 
-      <TickDivider className="site-container" />
+      <section className="section section-filter">
+        <div className="section-inner filter-strip">
+          <div className="filter-heading">筛选</div>
 
-      <section className="section pt-0">
-        <div className="section-inner grid gap-5">
-          <SectionHeader
-            eyebrow="筛选"
-            title="按类别浏览"
-            description="先按类别收窄范围，再进入具体设备详情。AI 顾问、代际对比和趋势观察都保留为公开入口。"
-          />
-
-          <div className="flex flex-wrap gap-2">
+          <div className="filter-pills">
             {categoryPills.map((item) => {
               const active = item.key === selectedCategory;
-              const href = item.key === "all" ? "/devices" : `/devices?category=${item.key}`;
+              const params = new URLSearchParams();
+              if (item.key !== "all") params.set("category", item.key);
+              if (searchQuery) params.set("q", searchQuery);
+              const href = params.size > 0 ? `/devices?${params.toString()}` : "/devices";
 
               return (
                 <Link
@@ -170,7 +174,10 @@ export default async function DevicesPage({
           </div>
 
           <div className="flex flex-wrap items-center justify-between gap-3 text-sm text-[var(--text-muted)]">
-            <span>当前筛选：{selectedCategory === "all" ? "全部设备" : categoryDisplay[selectedCategory]}</span>
+            <span>
+              当前筛选：{selectedCategory === "all" ? "全部设备" : categoryDisplay[selectedCategory]}
+              {searchQuery ? ` · 搜索“${searchQuery}”` : ""}
+            </span>
             <span>结果数量：{formatCount(sortedDevices.length)} 台</span>
           </div>
         </div>

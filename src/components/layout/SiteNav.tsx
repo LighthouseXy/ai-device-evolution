@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const links = [
-  { href: "/", label: "首页" },
   { href: "/advisor", label: "AI 顾问" },
   { href: "/compare", label: "代际对比" },
   { href: "/trends", label: "趋势观察" },
@@ -33,15 +32,22 @@ export default function SiteNav() {
                 className={`site-nav-link${active ? " site-nav-link-active" : ""}`}
                 aria-current={active ? "page" : undefined}
               >
-                {link.label}
+                <span className="site-nav-link-label">{link.label}</span>
+                <span className="site-nav-link-ticks" aria-hidden="true">
+                  <span />
+                  <span />
+                  <span />
+                  <span />
+                </span>
               </Link>
             );
           })}
-          <span className="site-nav-pill" aria-label="样本范围：Apple">
-            <span className="site-nav-pill-dot" aria-hidden="true" />
-            Apple 样本阶段
-          </span>
         </div>
+
+        <form action="/devices" method="get" className="site-nav-search" role="search">
+          <input name="q" type="search" placeholder="搜索设备" aria-label="搜索设备" />
+          <button type="submit">搜索</button>
+        </form>
       </div>
     </nav>
   );

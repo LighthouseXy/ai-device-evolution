@@ -121,124 +121,91 @@ function DevicePreview({
 
 export default function Home() {
   const spotlight = latestDevices[0];
+  const timelineDevices = latestDevices.slice(0, 5).reverse();
 
   return (
     <main className="site-main">
-      <section className="page-header">
-        <div className="page-header-inner grid gap-8 lg:grid-cols-[minmax(0,1.25fr)_minmax(340px,0.75fr)] lg:items-start">
-          <div className="grid gap-6">
-            <div className="grid gap-3">
-              <div className="page-header-kicker">数码观察站 / 电子设备代际演进分析平台</div>
-              <h1 className="page-header-title">
-                用真实设备数据，读懂电子产品的代际演进
+      <section className="section bg-[var(--bg)] pb-10 pt-12">
+        <div className="section-inner grid gap-10 lg:grid-cols-[minmax(0,0.95fr)_minmax(420px,1.05fr)] lg:items-center">
+          <div className="grid gap-7">
+            <div className="grid gap-4">
+              <span className="tag tag-green w-fit">电子设备代际演进分析平台</span>
+              <h1 className="max-w-[10ch] text-[clamp(2.6rem,6vw,5rem)] leading-[0.98] tracking-[-0.06em] text-[var(--text-strong)]">
+                看清设备的来路与去向
               </h1>
-              <p className="page-header-desc">
-                当前以 Apple 样本为第一阶段范围，所有内容都直接来自本地设备数据库。
-                你可以浏览设备库、查看单机详情，或者继续扩展到更广泛的品牌与品类。
+              <p className="max-w-[34rem] text-base leading-8 text-[var(--text-muted)]">
+                基于真实本地数据库，串联设备库、代际对比、趋势观察和 AI 顾问。当前第一阶段聚焦 Apple 样本。
               </p>
             </div>
 
-            <div className="page-header-actions">
+            <div className="flex flex-wrap gap-3">
               <Link href="/devices" className="btn btn-primary">
                 浏览设备库
               </Link>
-              <Link href={spotlight ? `/devices/${spotlight.id}` : "/devices"} className="btn btn-ghost">
-                查看最新机型
+              <Link href="/advisor" className="btn btn-ghost">
+                打开 AI 顾问
               </Link>
             </div>
 
-            <div className="page-header-meta">
-              <StatCard
-                label="收录机型"
-                value={summaryStatsFlat.modelCount}
-                hint="来自本地数据库的真实收录数量。"
-              />
-              <StatCard
-                label="覆盖类别"
-                value={summaryStatsFlat.categoryCount}
-                hint="当前仅覆盖手机、平板和笔记本三类 Apple 样本。"
-              />
-              <StatCard
-                label="覆盖系列"
-                value={summaryStatsFlat.seriesCount}
-                hint="同系列代际演进可直接进入详情页查看。"
-              />
-              <StatCard
-                label="时间跨度"
-                value={`${summaryStatsFlat.startYear} - ${summaryStatsFlat.endYear}`}
-                hint="全部由设备数据库中的发布时间推导。"
-              />
+            <div className="grid gap-3 sm:grid-cols-4">
+              <StatCard label="设备" value={summaryStatsFlat.modelCount} hint="真实收录" />
+              <StatCard label="类别" value={summaryStatsFlat.categoryCount} hint="第一阶段" />
+              <StatCard label="系列" value={summaryStatsFlat.seriesCount} hint="可对比" />
+              <StatCard label="跨度" value={`${summaryStatsFlat.startYear}-${summaryStatsFlat.endYear}`} hint="发布时间" />
             </div>
           </div>
 
-          <div className="card overflow-hidden p-5">
+          <div className="card overflow-hidden p-6">
             <div className="flex items-start justify-between gap-4">
               <div className="grid gap-1">
-                <span className="tag tag-green w-fit">最新样本</span>
+                <span className="tag tag-green w-fit">真实样本时间线</span>
                 <h2 className="text-2xl leading-tight text-[var(--text-strong)]">
-                  {spotlight?.model ?? "暂无样本"}
+                  {spotlight?.series ?? "Apple"} 最新序列
                 </h2>
                 <p className="text-sm text-[var(--text-muted)]">
-                  {spotlight ? `${spotlight.series} · ${categoryDisplay[spotlight.category]} · ${spotlight.releaseYear}` : "等待数据库加载"}
+                  最近入库机型，按发布时间组织。
                 </p>
               </div>
-              <div className="rounded-full bg-[var(--accent-soft)] px-3 py-2 text-right">
-                <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--accent-strong)]">起售价</div>
-                <div className="mt-1 text-sm font-semibold text-[var(--text-strong)]">
-                  {spotlight ? formatMaybeCurrency(spotlight.launchPrice) : "待补充"}
-                </div>
-              </div>
+              <span className="tag tag-amber">{summaryStatsFlat.endYear}</span>
             </div>
 
-            <div className="mt-5 grid gap-3">
-              <div className="rounded-2xl bg-[var(--bg-soft)] p-4">
-                <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">核心配置</div>
-                <div className="mt-2 grid gap-2 text-sm leading-7 text-[var(--text-muted)]">
-                  <div className="flex items-center justify-between gap-4">
-                    <span>芯片</span>
-                    <span className="font-semibold text-[var(--text-strong)]">{spotlight?.chip ?? "待补充"}</span>
-                  </div>
-                  <div className="flex items-center justify-between gap-4">
-                    <span>屏幕</span>
-                    <span className="font-semibold text-[var(--text-strong)]">
-                      {spotlight?.screenSize ? `${spotlight.screenSize}"` : "待补充"}
+            <div className="relative mt-8">
+              <div className="absolute left-4 right-4 top-4 h-px bg-[var(--border)]" aria-hidden="true" />
+              <div className="relative grid grid-cols-5 gap-3">
+                {timelineDevices.map((device, index) => (
+                  <Link key={device.id} href={`/devices/${device.id}`} className="group grid gap-3">
+                    <span
+                      className={`mx-auto h-8 w-8 rounded-full border-4 border-[var(--surface)] ${
+                        index === timelineDevices.length - 1
+                          ? "bg-[var(--primary)] shadow-[0_0_0_4px_var(--primary-soft)]"
+                          : "bg-[var(--border)]"
+                      }`}
+                    />
+                    <span className="text-center text-[11px] font-semibold text-[var(--text-soft)]">
+                      {device.releaseYear}
                     </span>
-                  </div>
-                  <div className="flex items-center justify-between gap-4">
-                    <span>重量</span>
-                    <span className="font-semibold text-[var(--text-strong)]">
-                      {spotlight?.weight ? `${spotlight.weight}g` : "待补充"}
-                    </span>
-                  </div>
-                  <div className="flex items-center justify-between gap-4">
-                    <span>AI 能力等级</span>
-                    <span className="font-semibold text-[var(--text-strong)]">
-                      {typeof spotlight?.aiFeatureLevel === "number" ? `${spotlight.aiFeatureLevel}/10` : "待补充"}
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-              <div className="grid gap-2">
-                {latestDevices.slice(0, 3).map((device, index) => (
-                  <Link
-                    key={device.id}
-                    href={`/devices/${device.id}`}
-                    className="flex items-center justify-between gap-4 rounded-2xl border border-[var(--border)] bg-white/75 px-4 py-3 text-sm transition hover:border-[var(--primary)]/30 hover:bg-white"
-                  >
-                    <div className="grid gap-1">
-                      <span className="font-medium text-[var(--text-strong)]">
-                        {index + 1}. {device.model}
-                      </span>
-                      <span className="text-xs text-[var(--text-muted)]">
-                        {device.series} · {device.releaseYear}
-                      </span>
-                    </div>
-                    <span className="font-semibold text-[var(--primary)]">
-                      {formatMaybeCurrency(device.launchPrice)}
+                    <span className="text-center text-xs font-semibold leading-5 text-[var(--text-strong)] group-hover:text-[var(--primary)]">
+                      {device.model.replace(device.series, "").trim() || device.model}
                     </span>
                   </Link>
                 ))}
+              </div>
+            </div>
+
+            <div className="mt-8 grid gap-3 sm:grid-cols-3">
+              <div className="rounded-[var(--radius-md)] bg-[var(--bg-soft)] p-4">
+                <div className="font-mono text-lg font-semibold text-[var(--text-strong)]">{spotlight?.chip ?? "待补充"}</div>
+                <div className="mt-1 text-xs text-[var(--text-soft)]">最新样本芯片</div>
+              </div>
+              <div className="rounded-[var(--radius-md)] bg-[var(--bg-soft)] p-4">
+                <div className="font-mono text-lg font-semibold text-[var(--text-strong)]">{spotlight ? formatMaybeCurrency(spotlight.launchPrice) : "待补充"}</div>
+                <div className="mt-1 text-xs text-[var(--text-soft)]">起售价</div>
+              </div>
+              <div className="rounded-[var(--radius-md)] bg-[var(--bg-soft)] p-4">
+                <div className="font-mono text-lg font-semibold text-[var(--text-strong)]">
+                  {typeof spotlight?.aiFeatureLevel === "number" ? `${spotlight.aiFeatureLevel}/10` : "待补充"}
+                </div>
+                <div className="mt-1 text-xs text-[var(--text-soft)]">AI 能力</div>
               </div>
             </div>
           </div>
@@ -252,7 +219,7 @@ export default function Home() {
           <SectionHeader
             eyebrow="类别概览"
             title="按设备类别浏览"
-            description="每个类别都来自当前真实数据库。你可以先看类别，再进入具体设备详情。"
+            description="从类别进入真实样本，再查看单机参数与同系列趋势。"
           />
 
           <div className="grid gap-4 md:grid-cols-3">
@@ -300,7 +267,7 @@ export default function Home() {
           <SectionHeader
             eyebrow="最近更新"
             title="最新入库样本"
-            description="以下条目全部来自真实设备数据，按发布时间从新到旧排序。"
+            description="按发布时间排序，快速定位最新设备。"
             action={
               <Link href="/devices" className="section-link">
                 查看完整设备库 →

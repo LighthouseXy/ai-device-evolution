@@ -14,7 +14,6 @@ import {
   formatZhNumber,
 } from "@/lib/number-format";
 import PageHeader from "@/components/layout/PageHeader";
-import SectionHeader from "@/components/layout/SectionHeader";
 import TickDivider from "@/components/layout/TickDivider";
 
 type SearchParams = {
@@ -290,17 +289,6 @@ export default async function TrendsPage({
       <PageHeader
         eyebrow="数据洞察"
         title="趋势观察"
-        description="按真实数据库里的年度样本看变化，不用原型里的假图表。这里可以切类别、切指标，再看同类设备在时间轴上的演进。"
-        actions={
-          <>
-            <Link href="/compare" className="btn btn-ghost">
-              去代际对比
-            </Link>
-            <Link href="/advisor" className="btn btn-primary">
-              去 AI 顾问
-            </Link>
-          </>
-        }
         meta={
           <>
             <span className="tag tag-green">{categoryLabels[selectedCategory]}</span>
@@ -310,15 +298,11 @@ export default async function TrendsPage({
         }
       />
 
-      <section className="section pt-0">
-        <div className="section-inner grid gap-5">
-          <SectionHeader
-            eyebrow="筛选"
-            title="先选类别和指标"
-            description="当前趋势页只使用本地真实设备数据。每个年度点都是该类别当年已收录机型的均值。"
-          />
+      <section className="section section-filter">
+        <div className="section-inner filter-strip">
+          <div className="filter-heading">筛选</div>
 
-          <div className="flex flex-wrap gap-2">
+          <div className="filter-pills">
             {categoryOptions.map((item) => {
               const params = new URLSearchParams();
               params.set("category", item.key);
@@ -339,7 +323,7 @@ export default async function TrendsPage({
             })}
           </div>
 
-          <div className="flex flex-wrap gap-2">
+          <div className="filter-pills">
             {metrics.map((item) => {
               const params = new URLSearchParams();
               params.set("category", selectedCategory);

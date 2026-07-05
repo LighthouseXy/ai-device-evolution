@@ -1,4 +1,3 @@
-import Link from "next/link";
 import DeviceAdvisorPanel from "@/components/DeviceAdvisorPanel";
 import PageHeader from "@/components/layout/PageHeader";
 import SectionHeader from "@/components/layout/SectionHeader";
@@ -50,17 +49,6 @@ export default function AdvisorPage() {
       <PageHeader
         eyebrow="智能推荐"
         title="AI 顾问"
-        description="直接连接真实 `/api/device-advisor`。页面保留可填写预算、偏好和使用场景的完整表单，不使用原型里的假示例数据。"
-        actions={
-          <>
-            <Link href="/devices" className="btn btn-ghost">
-              返回设备库
-            </Link>
-            <Link href="/compare" className="btn btn-primary">
-              先看代际对比
-            </Link>
-          </>
-        }
         meta={
           <>
             <span className="tag tag-green">真实表单</span>
@@ -76,8 +64,8 @@ export default function AdvisorPage() {
             <div className="card p-5">
               <SectionHeader
                 eyebrow="使用方式"
-                title="先描述预算和场景，再看推荐"
-                description="顾问会把预算、成色、接口需求和使用场景整理成结构化请求，最终直连本地 API。"
+                title="填写条件，生成推荐"
+                description="表单会转成结构化请求，由 API 返回推荐与权衡。"
               />
 
               <div className="grid gap-3 sm:grid-cols-2">

@@ -17,7 +17,6 @@ import {
   formatZhNumber,
 } from "@/lib/number-format";
 import PageHeader from "@/components/layout/PageHeader";
-import SectionHeader from "@/components/layout/SectionHeader";
 import TickDivider from "@/components/layout/TickDivider";
 
 type SearchParams = {
@@ -353,17 +352,6 @@ export default async function ComparePage({
       <PageHeader
         eyebrow="代际分析"
         title="代际对比"
-        description="在同一系列里横向看见真实代际变化。所有参数和价格都来自本地设备数据库，不使用原型里的假统计。"
-        actions={
-          <>
-            <Link href="/devices" className="btn btn-ghost">
-              返回设备库
-            </Link>
-            <Link href="/advisor" className="btn btn-primary">
-              去 AI 顾问
-            </Link>
-          </>
-        }
         meta={
           <>
             <span className="tag tag-green">{categoryLabels[category]}</span>
@@ -373,15 +361,11 @@ export default async function ComparePage({
         }
       />
 
-      <section className="section pt-0">
-        <div className="section-inner grid gap-5">
-          <SectionHeader
-            eyebrow="系列选择"
-            title="先选系列，再看代际"
-            description="当前只展示 Apple 第一阶段样本。你可以在真实系列里切换，比较同一条产品线的代际变化。"
-          />
+      <section className="section section-filter">
+        <div className="section-inner filter-strip">
+          <div className="filter-heading">系列选择</div>
 
-          <div className="flex flex-wrap gap-2">
+          <div className="filter-pills">
             {seriesOptions.map((item) => {
               const active = item.series === selectedSeries;
               const params = new URLSearchParams();
@@ -402,7 +386,7 @@ export default async function ComparePage({
             })}
           </div>
 
-          <div className="flex flex-wrap gap-2">
+          <div className="filter-pills">
             {[
               { key: "recent3", label: "近 3 代" },
               { key: "all", label: "全部" },
