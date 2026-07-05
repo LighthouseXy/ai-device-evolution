@@ -936,34 +936,34 @@ p {
   content: "";
   position: absolute;
   left: 50%;
-  bottom: 0.28rem;
-  width: 34px;
-  height: 0.18rem;
+  bottom: 0.26rem;
+  width: 24px;
+  height: 2px;
   border-radius: 999px;
   transform: translateX(-50%);
   background:
     linear-gradient(
       90deg,
       transparent 0%,
-      transparent 8%,
-      var(--primary) 8%,
-      var(--primary) 18%,
-      transparent 18%,
+      transparent 6%,
+      var(--primary) 6%,
+      var(--primary) 15%,
+      transparent 15%,
       transparent 34%,
       var(--primary) 34%,
-      var(--primary) 44%,
-      transparent 44%,
-      transparent 58%,
-      var(--accent) 58%,
-      var(--accent) 68%,
-      transparent 68%,
-      transparent 82%,
-      var(--primary) 82%,
-      var(--primary) 92%,
-      transparent 92%,
+      var(--primary) 43%,
+      transparent 43%,
+      transparent 57%,
+      var(--accent) 57%,
+      var(--accent) 66%,
+      transparent 66%,
+      transparent 85%,
+      var(--primary) 85%,
+      var(--primary) 94%,
+      transparent 94%,
       transparent 100%
     );
-  opacity: 0.9;
+  opacity: 0.82;
   pointer-events: none;
 }
 
