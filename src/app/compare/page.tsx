@@ -25,47 +25,66 @@ type SearchParams = {
 };
 
 type ComparisonField = {
+  group: string;
   label: string;
+  hint?: string;
   getValue: (device: (typeof allDevicesFlat)[number]) => string;
   isNumeric?: boolean;
 };
 
 const comparisonFields: ComparisonField[] = [
-  { label: "芯片", getValue: (device) => device.chip || "待补充" },
+  { group: "性能", label: "芯片", hint: "处理器", getValue: (device) => device.chip || "待补充" },
   {
+    group: "显示",
     label: "屏幕尺寸",
+    hint: "显示屏",
     getValue: (device) => (typeof device.screenSize === "number" ? `${device.screenSize}"` : "待补充"),
     isNumeric: true,
   },
   {
+    group: "显示",
     label: "刷新率",
+    hint: "显示屏",
     getValue: (device) => (typeof device.refreshRate === "number" ? `${device.refreshRate}Hz` : "待补充"),
     isNumeric: true,
   },
   {
+    group: "机身",
     label: "重量",
+    hint: "机身重量",
     getValue: (device) => (typeof device.weight === "number" ? `${device.weight}g` : "待补充"),
     isNumeric: true,
   },
   {
+    group: "价格",
     label: "起售价",
+    hint: "首发价格",
     getValue: (device) => formatMaybeCurrency(device.launchPrice),
     isNumeric: true,
   },
   {
+    group: "性能",
     label: "AI 能力",
+    hint: "Apple 智能",
     getValue: (device) =>
       typeof device.aiFeatureLevel === "number" ? `${device.aiFeatureLevel}/10` : "待补充",
     isNumeric: true,
   },
   {
+    group: "影像",
     label: "主摄像素",
+    hint: "摄像头",
     getValue: (device) =>
       typeof device.mainCameraMp === "number" ? `${device.mainCameraMp}MP` : "待补充",
     isNumeric: true,
   },
-  { label: "接口", getValue: (device) => device.port || "待补充" },
-  { label: "电池", getValue: (device) => (device.specs?.batteryLife as string | undefined) || "待补充" },
+  { group: "连接", label: "接口", hint: "接口", getValue: (device) => device.port || "待补充" },
+  {
+    group: "续航",
+    label: "电池",
+    hint: "续航",
+    getValue: (device) => (device.specs?.batteryLife as string | undefined) || "待补充",
+  },
 ];
 
 function normalizeSeries(value: string | string[] | undefined) {
@@ -164,124 +183,97 @@ function buildSeriesOptions() {
     });
 }
 
-function FieldBadge({
-  label,
-  value,
-  tone = "neutral",
-}: {
-  label: string;
-  value: string;
-  tone?: "neutral" | "green" | "amber";
-}) {
+function CompareOverview({ devices }: { devices: (typeof allDevicesFlat)[number][] }) {
   return (
-    <div className="card p-4">
-      <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">{label}</div>
-      <div className={`mt-2 text-sm font-medium ${tone === "green" ? "text-[var(--primary)]" : tone === "amber" ? "text-[var(--accent-strong)]" : "text-[var(--text-strong)]"}`}>
-        {value}
-      </div>
+    <div className="compare-overview">
+      {devices.map((device, index) => (
+        <div className="compare-overview-item" key={device.id}>
+          {index > 0 ? <div className="compare-overview-arrow" aria-hidden="true">→</div> : null}
+          <Link
+            href={`/devices/${device.id}`}
+            className={`compare-overview-card${index === devices.length - 1 ? " is-current" : ""}`}
+          >
+            <div className="compare-overview-model">{device.model.replace(device.series, "").trim() || device.model}</div>
+            <div className="compare-overview-year">{device.releaseYear}</div>
+            <div className="compare-overview-price">{formatMaybeCurrency(device.launchPrice)}</div>
+          </Link>
+        </div>
+      ))}
     </div>
   );
 }
 
-function CompareMetricRow({
-  field,
+function CompareTable({
   devices,
 }: {
-  field: ComparisonField;
   devices: (typeof allDevicesFlat)[number][];
 }) {
-  const first = devices[0];
-  const last = devices[devices.length - 1];
-  const firstValue = first ? buildComparisonValue(first, field) : "待补充";
-  const lastValue = last ? buildComparisonValue(last, field) : "待补充";
+  const groupedFields = Array.from(
+    comparisonFields.reduce((groups, field) => {
+      const fields = groups.get(field.group) ?? [];
+      fields.push(field);
+      groups.set(field.group, fields);
+      return groups;
+    }, new Map<string, ComparisonField[]>()),
+  );
+  const first = devices[0] ?? null;
+  const last = devices.at(-1) ?? null;
+  const gridTemplateColumns = `120px repeat(${devices.length}, minmax(170px, 1fr)) 120px`;
 
   return (
-    <div className="grid gap-3 border-t border-[rgba(221,213,199,0.72)] py-4 lg:grid-cols-[160px_minmax(0,1fr)_140px]">
-      <div>
-        <div className="text-sm font-semibold text-[var(--text-strong)]">{field.label}</div>
-        <div className="mt-1 text-xs leading-6 text-[var(--text-soft)]">真实数据库字段</div>
-      </div>
-
-      <div className="overflow-x-auto pb-1">
-        <div className="grid min-w-[520px] grid-cols-3 gap-2">
-          {devices.map((device) => (
-            <div key={device.id} className="rounded-2xl bg-[var(--bg-soft)] p-3">
-              <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">
-                {device.releaseYear}
-              </div>
-              <div className="mt-1 text-sm font-medium text-[var(--text-strong)]">{buildComparisonValue(device, field)}</div>
-              <div className="mt-1 text-[11px] text-[var(--text-muted)]">{device.model}</div>
+    <div className="compare-v2-table">
+      {groupedFields.map(([group, fields], groupIndex) => (
+        <div className="compare-v2-section" key={group}>
+          <div className="compare-v2-section-title">{group}</div>
+          {groupIndex === 0 ? (
+            <div className="compare-v2-row is-header" style={{ gridTemplateColumns }}>
+              <div className="compare-v2-cell is-label">参数</div>
+              {devices.map((device, index) => (
+                <div className={`compare-v2-cell${index === devices.length - 1 ? " is-highlight" : ""}`} key={device.id}>
+                  <span>{device.model.replace(device.series, "").trim() || device.model}</span>
+                  <small>{device.releaseYear}</small>
+                </div>
+              ))}
+              <div className="compare-v2-cell">变化</div>
             </div>
-          ))}
-        </div>
-      </div>
+          ) : null}
+          {fields.map((field) => {
+            const firstValue = first ? buildComparisonValue(first, field) : "待补充";
+            const lastValue = last ? buildComparisonValue(last, field) : "待补充";
 
-      <div className="self-start rounded-2xl bg-[var(--primary-soft)] p-3 text-right">
-        <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--primary)]">变化</div>
-        <div className="mt-1 text-sm font-semibold text-[var(--text-strong)]">{compareValueLabel(field, firstValue, lastValue)}</div>
-      </div>
+            return (
+              <div className="compare-v2-row" key={`${group}-${field.label}`} style={{ gridTemplateColumns }}>
+                <div className="compare-v2-cell is-label">
+                  <span>{field.label}</span>
+                  {field.hint ? <small>{field.hint}</small> : null}
+                </div>
+                {devices.map((device, index) => (
+                  <div className={`compare-v2-cell${index === devices.length - 1 ? " is-highlight" : ""}`} key={device.id}>
+                    {buildComparisonValue(device, field)}
+                  </div>
+                ))}
+                <div className="compare-v2-cell">
+                  <span className={`compare-change-badge${firstValue === lastValue ? " is-flat" : " is-up"}`}>
+                    {compareValueLabel(field, firstValue, lastValue)}
+                  </span>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      ))}
     </div>
   );
 }
 
-function AnalysisPanel({ analysis }: { analysis: AiAnalysisOutput }) {
+function CompareInsight({ analysis }: { analysis: AiAnalysisOutput }) {
   return (
-    <div className="card p-5">
-      <div className="flex flex-wrap items-center gap-2">
-        <span className="tag tag-green">本地规则洞察</span>
-        <span className="tag tag-neutral">来源：本地规则</span>
-        <span className="tag tag-amber">可信度 {Math.round(analysis.confidence * 100)}%</span>
-      </div>
-
-      <p className="mt-4 text-base leading-8 text-[var(--text-muted)]">{analysis.summary}</p>
-
-      <div className="mt-5 grid gap-3">
-        <div className="rounded-2xl bg-[var(--bg-soft)] p-4">
-          <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">事实</div>
-          <ul className="mt-2 space-y-2 text-sm leading-7 text-[var(--text-muted)]">
-            {analysis.facts.map((item) => (
-              <li key={item} className="flex gap-2">
-                <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--primary)]" />
-                <span>{item}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        <div className="rounded-2xl bg-[var(--bg-soft)] p-4">
-          <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">解读</div>
-          <ul className="mt-2 space-y-2 text-sm leading-7 text-[var(--text-muted)]">
-            {analysis.insights.map((item) => (
-              <li key={item} className="flex gap-2">
-                <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--accent)]" />
-                <span>{item}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
-
-      <div className="mt-5 grid gap-3 sm:grid-cols-2">
-        <FieldBadge label="购买建议" value={analysis.buyingAdvice} tone="green" />
-        <FieldBadge label="趋势判断" value={analysis.prediction} tone="amber" />
-      </div>
-
-      <div className="mt-4 rounded-2xl border border-[var(--border)] bg-white/75 p-4">
-        <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">缺失信息</div>
-        <div className="mt-2 flex flex-wrap gap-2">
-          {analysis.missingData.length > 0 ? (
-            analysis.missingData.map((item) => (
-              <span key={item} className="tag tag-neutral">
-                {item}
-              </span>
-            ))
-          ) : (
-            <span className="text-sm leading-7 text-[var(--text-muted)]">当前对比字段已覆盖主要展示信息。</span>
-          )}
-        </div>
-      </div>
-
-      <p className="mt-4 text-xs leading-6 text-[var(--text-soft)]">{analysis.disclaimer}</p>
+    <div className="compare-v2-insight">
+      <div className="compare-v2-insight-badge">本地规则洞察 · 基于数据分析</div>
+      <p>
+        <strong>代际升级总结：</strong>
+        {analysis.summary}
+      </p>
     </div>
   );
 }
@@ -313,191 +305,65 @@ export default async function ComparePage({
     analysisType: "comparison_explanation",
   });
 
-  const firstVisible = visibleDevices[0] ?? null;
-  const lastVisible = visibleDevices.at(-1) ?? null;
-  const summaryCards = visibleDevices.length >= 2 && firstVisible && lastVisible ? [
-    {
-      label: "对比跨度",
-      value: `${visibleDevices.length} 代`,
-      hint: selectedWindow === "all" ? "全部已收录代际" : "近 3 代",
-    },
-    {
-      label: "首末价格变化",
-      value:
-        typeof firstVisible.launchPrice === "number" && typeof lastVisible.launchPrice === "number" && firstVisible.launchPrice > 0
-          ? `${formatSignedZhCurrency(lastVisible.launchPrice - firstVisible.launchPrice, 0)} / ${formatSignedZhNumber(((lastVisible.launchPrice - firstVisible.launchPrice) / firstVisible.launchPrice) * 100, 0)}%`
-          : "待补充",
-      hint: "首发价格对比",
-    },
-    {
-      label: "屏幕变化",
-      value:
-        typeof firstVisible.screenSize === "number" && typeof lastVisible.screenSize === "number"
-          ? `${formatSignedZhNumber(lastVisible.screenSize - firstVisible.screenSize, 1)}"`
-          : "待补充",
-      hint: "以英寸为单位",
-    },
-    {
-      label: "AI 能力变化",
-      value:
-        typeof firstVisible.aiFeatureLevel === "number" && typeof lastVisible.aiFeatureLevel === "number"
-          ? `${formatSignedZhNumber(lastVisible.aiFeatureLevel - firstVisible.aiFeatureLevel, 0)}/10`
-          : "待补充",
-      hint: "基于数据库字段",
-    },
-  ] : [];
-
   return (
     <main className="site-main">
       <PageHeader
         eyebrow="代际分析"
         title="代际对比"
-        meta={
-          <>
-            <span className="tag tag-green">{categoryLabels[category]}</span>
-            <span className="tag tag-neutral">{selectedSeries}</span>
-            <span className="tag tag-amber">{selectedWindow === "all" ? "全部代际" : "近 3 代"}</span>
-          </>
-        }
+        description="同系列跨代参数对比，一眼看清升级幅度"
+        className="compare-v2-page-header"
       />
 
-      <section className="section section-filter">
-        <div className="section-inner filter-strip">
-          <div className="filter-heading">系列选择</div>
+      <section className="compare-selector">
+        <div className="compare-selector-inner">
+          <form action="/compare" className="compare-selector-group">
+            <input type="hidden" name="window" value={selectedWindow} />
+            <label className="compare-selector-label" htmlFor="compare-series">选择系列</label>
+            <div className="compare-select-control">
+              <select id="compare-series" name="series" defaultValue={selectedSeries}>
+                {seriesOptions.map((item) => (
+                  <option key={item.series} value={item.series}>
+                    {item.label}
+                  </option>
+                ))}
+              </select>
+              <button type="submit">应用</button>
+            </div>
+          </form>
 
-          <div className="filter-pills">
-            {seriesOptions.map((item) => {
-              const active = item.series === selectedSeries;
-              const params = new URLSearchParams();
-              params.set("series", item.series);
-              params.set("window", selectedWindow);
+          <div className="compare-selector-group">
+            <div className="compare-selector-label">对比范围</div>
+            <div className="compare-range-toggle">
+              {[
+                { key: "recent3", label: "近 3 代" },
+                { key: "all", label: "全部" },
+              ].map((item) => {
+                const params = new URLSearchParams();
+                params.set("series", selectedSeries);
+                params.set("window", item.key);
+                const active = item.key === selectedWindow;
 
-              return (
-                <Link
-                  key={item.series}
-                  href={`/compare?${params.toString()}`}
-                  className={`tag ${active ? "tag-green" : "tag-neutral"}`}
-                  aria-current={active ? "page" : undefined}
-                >
-                  {item.label}
-                  <span className="opacity-70">({item.count})</span>
-                </Link>
-              );
-            })}
-          </div>
-
-          <div className="filter-pills">
-            {[
-              { key: "recent3", label: "近 3 代" },
-              { key: "all", label: "全部" },
-            ].map((item) => {
-              const params = new URLSearchParams();
-              params.set("series", selectedSeries);
-              params.set("window", item.key);
-              const active = item.key === selectedWindow;
-
-              return (
-                <Link
-                  key={item.key}
-                  href={`/compare?${params.toString()}`}
-                  className={`tag ${active ? "tag-amber" : "tag-neutral"}`}
-                  aria-current={active ? "page" : undefined}
-                >
-                  {item.label}
-                </Link>
-              );
-            })}
+                return (
+                  <Link
+                    key={item.key}
+                    href={`/compare?${params.toString()}`}
+                    className={`compare-range-btn${active ? " is-active" : ""}`}
+                    aria-current={active ? "page" : undefined}
+                  >
+                    {item.label}
+                  </Link>
+                );
+              })}
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="section pt-0">
-        <div className="section-inner grid gap-5 xl:grid-cols-[1.15fr_0.85fr] xl:items-start">
-          <div className="grid gap-5">
-            <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-              {summaryCards.map((item) => (
-                <FieldBadge key={item.label} label={item.label} value={item.value} tone="green" />
-              ))}
-            </div>
-
-            <div className="card p-5">
-              <div className="flex flex-wrap items-start justify-between gap-3">
-                <div className="grid gap-1">
-                  <span className="tag tag-green w-fit">系列时间线</span>
-                  <h2 className="text-2xl leading-tight text-[var(--text-strong)]">
-                    {selectedSeries} · {seriesDevices.length} 台样本
-                  </h2>
-                  <p className="text-sm leading-7 text-[var(--text-muted)]">
-                    时间线按发布时间排序，横向比较可直接看出同系列代际变化。
-                  </p>
-                </div>
-                <Link href={`/devices?category=${category}`} className="btn btn-ghost">
-                  查看同类设备
-                </Link>
-              </div>
-
-              <div className="mt-5 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
-                {visibleDevices.map((device, index) => {
-                  const active = index === visibleDevices.length - 1;
-                  return (
-                    <Link
-                      key={device.id}
-                      href={`/devices/${device.id}`}
-                      className={`rounded-[24px] border p-4 transition ${
-                        active
-                          ? "border-[rgba(45,90,61,0.35)] bg-[var(--primary-soft)] shadow-[0_12px_30px_rgba(45,90,61,0.1)]"
-                          : "border-[var(--border)] bg-[var(--bg-soft)]"
-                      }`}
-                    >
-                      <div className="flex items-start justify-between gap-3">
-                        <div className="grid gap-1">
-                          <span className="tag tag-neutral w-fit">{device.releaseYear}</span>
-                          <h3 className="text-lg leading-tight text-[var(--text-strong)]">{device.model}</h3>
-                        </div>
-                        {active ? <span className="tag tag-green">当前代</span> : null}
-                      </div>
-                      <div className="mt-4 grid gap-2 text-sm leading-7 text-[var(--text-muted)]">
-                        <div className="flex items-center justify-between gap-4">
-                          <span>芯片</span>
-                          <span className="font-medium text-[var(--text-strong)]">{device.chip || "待补充"}</span>
-                        </div>
-                        <div className="flex items-center justify-between gap-4">
-                          <span>屏幕</span>
-                          <span className="font-medium text-[var(--text-strong)]">
-                            {typeof device.screenSize === "number" ? `${device.screenSize}"` : "待补充"}
-                          </span>
-                        </div>
-                        <div className="flex items-center justify-between gap-4">
-                          <span>价格</span>
-                          <span className="font-medium text-[var(--text-strong)]">{formatMaybeCurrency(device.launchPrice)}</span>
-                        </div>
-                      </div>
-                    </Link>
-                  );
-                })}
-              </div>
-            </div>
-
-            <div className="card overflow-hidden p-5">
-              <div className="flex items-center justify-between gap-3">
-                <div>
-                  <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">对比表</div>
-                  <h2 className="mt-2 text-2xl leading-tight text-[var(--text-strong)]">核心规格逐项对照</h2>
-                </div>
-                <span className="tag tag-neutral">真实字段</span>
-              </div>
-
-              <div className="mt-5">
-                <div className="grid gap-1">
-                  {comparisonFields.map((field) => (
-                    <CompareMetricRow key={field.label} field={field} devices={visibleDevices} />
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <AnalysisPanel analysis={analysis} />
+      <section className="compare-section">
+        <div className="compare-inner">
+          <CompareOverview devices={visibleDevices} />
+          <CompareTable devices={visibleDevices} />
+          <CompareInsight analysis={analysis} />
         </div>
       </section>
 

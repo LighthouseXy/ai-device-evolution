@@ -33,12 +33,6 @@ export default function SiteNav() {
                 aria-current={active ? "page" : undefined}
               >
                 <span className="site-nav-link-label">{link.label}</span>
-                <span className="site-nav-link-ticks" aria-hidden="true">
-                  <span />
-                  <span />
-                  <span />
-                  <span />
-                </span>
               </Link>
             );
           })}
