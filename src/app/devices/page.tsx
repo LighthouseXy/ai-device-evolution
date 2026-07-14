@@ -150,36 +150,30 @@ export default async function DevicesPage({
 
       <section className="section section-filter">
         <div className="section-inner filter-strip">
-          <div className="filter-heading">筛选</div>
+          <div className="filter-row">
+            <div className="filter-heading">设备类别</div>
+            <div className="filter-pills">
+              {categoryPills.map((item) => {
+                const active = item.key === selectedCategory;
+                const params = new URLSearchParams();
+                if (item.key !== "all") params.set("category", item.key);
+                if (searchQuery) params.set("q", searchQuery);
+                const href = params.size > 0 ? `/devices?${params.toString()}` : "/devices";
 
-          <div className="filter-pills">
-            {categoryPills.map((item) => {
-              const active = item.key === selectedCategory;
-              const params = new URLSearchParams();
-              if (item.key !== "all") params.set("category", item.key);
-              if (searchQuery) params.set("q", searchQuery);
-              const href = params.size > 0 ? `/devices?${params.toString()}` : "/devices";
-
-              return (
-                <Link
-                  key={item.key}
-                  href={href}
-                  className={`tag ${active ? "tag-green" : "tag-neutral"}`}
-                  aria-current={active ? "page" : undefined}
-                >
-                  {item.label}
-                  <span className="opacity-70">({formatCount(item.count)})</span>
-                </Link>
-              );
-            })}
-          </div>
-
-          <div className="flex flex-wrap items-center justify-between gap-3 text-sm text-[var(--text-muted)]">
-            <span>
-              当前筛选：{selectedCategory === "all" ? "全部设备" : categoryDisplay[selectedCategory]}
-              {searchQuery ? ` · 搜索“${searchQuery}”` : ""}
-            </span>
-            <span>结果数量：{formatCount(sortedDevices.length)} 台</span>
+                return (
+                  <Link
+                    key={item.key}
+                    href={href}
+                    className={`tag ${active ? "tag-green" : "tag-neutral"}`}
+                    aria-current={active ? "page" : undefined}
+                  >
+                    {item.label}
+                    <span className="opacity-70">({formatCount(item.count)})</span>
+                  </Link>
+                );
+              })}
+              <span className="tag tag-neutral">结果 {formatCount(sortedDevices.length)} 台</span>
+            </div>
           </div>
         </div>
       </section>

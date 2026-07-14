@@ -220,50 +220,57 @@ function CompareTable({
   );
   const first = devices[0] ?? null;
   const last = devices.at(-1) ?? null;
-  const gridTemplateColumns = `120px repeat(${devices.length}, minmax(170px, 1fr)) 120px`;
+  const gridTemplateColumns = `120px repeat(${devices.length}, 190px) 120px`;
+  const tableWidth = 240 + devices.length * 190;
 
   return (
     <div className="compare-v2-table">
-      {groupedFields.map(([group, fields], groupIndex) => (
-        <div className="compare-v2-section" key={group}>
-          <div className="compare-v2-section-title">{group}</div>
-          {groupIndex === 0 ? (
-            <div className="compare-v2-row is-header" style={{ gridTemplateColumns }}>
-              <div className="compare-v2-cell is-label">参数</div>
-              {devices.map((device, index) => (
-                <div className={`compare-v2-cell${index === devices.length - 1 ? " is-highlight" : ""}`} key={device.id}>
-                  <span>{device.model.replace(device.series, "").trim() || device.model}</span>
-                  <small>{device.releaseYear}</small>
-                </div>
-              ))}
-              <div className="compare-v2-cell">变化</div>
-            </div>
-          ) : null}
-          {fields.map((field) => {
-            const firstValue = first ? buildComparisonValue(first, field) : "待补充";
-            const lastValue = last ? buildComparisonValue(last, field) : "待补充";
-
-            return (
-              <div className="compare-v2-row" key={`${group}-${field.label}`} style={{ gridTemplateColumns }}>
-                <div className="compare-v2-cell is-label">
-                  <span>{field.label}</span>
-                  {field.hint ? <small>{field.hint}</small> : null}
-                </div>
-                {devices.map((device, index) => (
-                  <div className={`compare-v2-cell${index === devices.length - 1 ? " is-highlight" : ""}`} key={device.id}>
-                    {buildComparisonValue(device, field)}
-                  </div>
-                ))}
-                <div className="compare-v2-cell">
-                  <span className={`compare-change-badge${firstValue === lastValue ? " is-flat" : " is-up"}`}>
-                    {compareValueLabel(field, firstValue, lastValue)}
-                  </span>
-                </div>
+      <div className="compare-v2-scroll" aria-label="设备参数对比表">
+        <div className="compare-v2-table-inner" style={{ minWidth: `${tableWidth}px` }}>
+          <div className="compare-v2-row is-header" style={{ gridTemplateColumns }}>
+            <div className="compare-v2-cell is-label">功能 / 参数</div>
+            {devices.map((device, index) => (
+              <div className={`compare-v2-cell${index === devices.length - 1 ? " is-highlight" : ""}`} key={device.id}>
+                <span>{device.model.replace(device.series, "").trim() || device.model}</span>
+                <small>{device.releaseYear}</small>
               </div>
-            );
-          })}
+            ))}
+            <div className="compare-v2-cell">变化</div>
+          </div>
+
+          {groupedFields.map(([group, fields]) => (
+            <div className="compare-v2-section" key={group}>
+              <div className="compare-v2-row is-group" style={{ gridTemplateColumns }}>
+                <div className="compare-v2-cell is-label">{group}</div>
+                <div className="compare-v2-group-fill" />
+              </div>
+              {fields.map((field) => {
+                const firstValue = first ? buildComparisonValue(first, field) : "待补充";
+                const lastValue = last ? buildComparisonValue(last, field) : "待补充";
+
+                return (
+                  <div className="compare-v2-row" key={`${group}-${field.label}`} style={{ gridTemplateColumns }}>
+                    <div className="compare-v2-cell is-label">
+                      <span>{field.label}</span>
+                      {field.hint ? <small>{field.hint}</small> : null}
+                    </div>
+                    {devices.map((device, index) => (
+                      <div className={`compare-v2-cell${index === devices.length - 1 ? " is-highlight" : ""}`} key={device.id}>
+                        {buildComparisonValue(device, field)}
+                      </div>
+                    ))}
+                    <div className="compare-v2-cell">
+                      <span className={`compare-change-badge${firstValue === lastValue ? " is-flat" : " is-up"}`}>
+                        {compareValueLabel(field, firstValue, lastValue)}
+                      </span>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          ))}
         </div>
-      ))}
+      </div>
     </div>
   );
 }
@@ -317,8 +324,6 @@ export default async function ComparePage({
       <PageHeader
         eyebrow="代际分析"
         title="代际对比"
-        description="同系列跨代参数对比，一眼看清升级幅度"
-        className="compare-v2-page-header"
       />
 
       <section className="compare-selector">
