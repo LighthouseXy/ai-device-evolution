@@ -9,7 +9,6 @@ type MetricKey = "chipRank" | "screenSize" | "weight" | "price" | "aiFeatureLeve
 type TrendMetric = {
   key: MetricKey;
   label: string;
-  note: string;
   formatValue: (device: FlattenedDevice, rawValue: number) => string;
   getValue: (device: FlattenedDevice) => number | null;
 };
@@ -18,35 +17,30 @@ const metricOptions: TrendMetric[] = [
   {
     key: "chipRank",
     label: "芯片",
-    note: "仅使用芯片文本解析出的内部代际序列，不把它包装成真实硬件基准分。",
     formatValue: (device, value) => `${device.chip || "待补充"} · ${value.toFixed(0)} 代`,
     getValue: (device) => parseChipRank(device.chip),
   },
   {
     key: "screenSize",
     label: "尺寸",
-    note: "按真实屏幕尺寸直接对比，屏幕越大数值越高。",
     formatValue: (_device, value) => `${value.toFixed(1)} 英寸`,
     getValue: (device) => (typeof device.screenSize === "number" ? device.screenSize : null),
   },
   {
     key: "weight",
     label: "重量",
-    note: "按克数对比，数值越小越轻。",
     formatValue: (_device, value) => `${value.toFixed(0)} g`,
     getValue: (device) => (typeof device.weight === "number" ? device.weight : null),
   },
   {
     key: "price",
     label: "价格",
-    note: "优先使用首发价；缺失时回退当前价或二手价。",
     formatValue: (_device, value) => formatMaybeCurrency(value),
     getValue: (device) => device.launchPrice ?? getSpecNumber(device, "currentPrice") ?? getSpecNumber(device, "usedPrice"),
   },
   {
     key: "aiFeatureLevel",
     label: "AI 能力",
-    note: "来自本地 computed 字段，保留 0-10 的相对位置。",
     formatValue: (_device, value) => `${value.toFixed(1)}/10`,
     getValue: (device) => (typeof device.aiFeatureLevel === "number" ? device.aiFeatureLevel : null),
   },
@@ -125,10 +119,10 @@ export default function DeviceSeriesTrendExplorer({
   const activeValue = activeEntry?.value ?? null;
 
   const width = 720;
-  const height = 320;
+  const height = 250;
   const paddingX = 54;
-  const paddingTop = 38;
-  const paddingBottom = 58;
+  const paddingTop = 44;
+  const paddingBottom = 54;
   const usableWidth = width - paddingX * 2;
   const usableHeight = height - paddingTop - paddingBottom;
 
@@ -167,57 +161,50 @@ export default function DeviceSeriesTrendExplorer({
   const currentLabel = activeValue !== null && activeDevice ? metric.formatValue(activeDevice, activeValue) : "待补充";
 
   return (
-    <div className="grid gap-4">
-      <div className="flex items-start justify-between gap-4">
-        <div className="grid gap-2">
-          <div className="flex items-center gap-3">
-            <span className="tag tag-green">趋势对比</span>
-            <span className="tag tag-neutral">实时</span>
+    <div className="grid min-w-0 max-w-full gap-4">
+      <div className="min-w-0 max-w-full rounded-[1.75rem] border border-[rgba(221,213,199,0.78)] bg-white p-4 sm:p-5">
+        <div className="mb-3 flex min-w-0 flex-wrap items-start justify-between gap-4">
+          <div className="grid min-w-0 gap-1">
+            <span className="tag tag-green w-fit">同系列趋势</span>
+            <h3 className="text-2xl font-semibold text-[var(--text-strong)]">{metric.label} · 代际变化</h3>
+            <span className="tag tag-neutral w-fit">{yearRange}</span>
           </div>
-          <h3 className="text-2xl font-semibold text-[var(--text-strong)]">{metric.label}趋势</h3>
-          <p className="max-w-[42rem] text-sm leading-7 text-[var(--text-muted)]">{metric.note}</p>
+          <div className="grid w-full min-w-0 max-w-full justify-items-start gap-2 lg:ml-auto lg:w-[19rem] lg:justify-items-end">
+            <div className="flex max-w-full lg:justify-end">
+              <span className="tag tag-green">
+                <span className="flex flex-col items-start">
+                  <span>当前设备：{activeEntry?.device.model ?? "—"}</span>
+                  <span>当前值：{currentLabel}</span>
+                </span>
+              </span>
+            </div>
+            <div className="flex max-w-full flex-wrap gap-2 lg:justify-end">
+              {metricOptions.map((option) => {
+                const active = option.key === activeMetric;
+                return (
+                  <button
+                    className={`tag shrink-0 ${active ? "tag-amber" : "tag-neutral"}`}
+                    key={option.key}
+                    type="button"
+                    aria-pressed={active}
+                    onClick={() => setActiveMetric(option.key)}
+                  >
+                    {option.label}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
         </div>
-        <div className="text-right">
-          <div className="text-sm font-medium text-[var(--text-muted)]">{yearRange}</div>
-          <div className="mt-2 text-2xl font-semibold text-[var(--primary-strong)]">{currentLabel}</div>
-        </div>
-      </div>
 
-      <div className="flex flex-wrap gap-2">
-        {metricOptions.map((option) => {
-          const active = option.key === activeMetric;
-          return (
-            <button
-              className={`rounded-full px-4 py-2 text-sm font-semibold transition ${
-                active
-                  ? "bg-[var(--primary)] text-white shadow-[0_8px_20px_rgba(45,90,61,0.16)]"
-                  : "bg-[rgba(154,148,136,0.12)] text-[var(--text-muted)] hover:bg-[rgba(45,90,61,0.08)] hover:text-[var(--primary-strong)]"
-              }`}
-              key={option.key}
-              type="button"
-              onClick={() => setActiveMetric(option.key)}
-            >
-              {option.label}
-            </button>
-          );
-        })}
-      </div>
-
-      <div className="rounded-[1.75rem] border border-[rgba(221,213,199,0.78)] bg-[var(--bg-soft)] p-4 sm:p-5">
         {hasEnoughData ? (
-          <svg
-            aria-label={`${metric.label} 同系列折线图`}
-            className="h-[340px] w-full"
-            preserveAspectRatio="none"
-            role="img"
-            viewBox={`0 0 ${width} ${height}`}
-          >
-            <defs>
-              <linearGradient id={`${metric.key}-line`} x1="0%" x2="100%" y1="0%" y2="0%">
-                <stop offset="0%" stopColor="rgba(154,148,136,0.34)" />
-                <stop offset="100%" stopColor="rgba(45,90,61,0.5)" />
-              </linearGradient>
-            </defs>
+          <div className="max-w-full overflow-x-auto overscroll-x-contain pb-1 [touch-action:pan-x] [-webkit-overflow-scrolling:touch]">
+            <svg
+              aria-label={`${metric.label} 同系列折线图`}
+              className="block h-[250px] w-full min-w-[680px] lg:min-w-0"
+              role="img"
+              viewBox={`0 0 ${width} ${height}`}
+            >
 
             {Array.from({ length: 5 }).map((_, index) => {
               const y = paddingTop + (usableHeight / 4) * index;
@@ -225,8 +212,7 @@ export default function DeviceSeriesTrendExplorer({
               return (
                 <g key={`grid-${index}`}>
                   <line
-                    stroke="rgba(198,190,176,0.78)"
-                    strokeDasharray="3 6"
+                    stroke="var(--border)"
                     x1={paddingX}
                     x2={width - paddingX}
                     y1={y}
@@ -253,16 +239,16 @@ export default function DeviceSeriesTrendExplorer({
               );
             })}
 
-            {path ? (
-              <path
-                d={path}
-                fill="none"
-                stroke={`url(#${metric.key}-line)`}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="3.5"
-              />
-            ) : null}
+              {path ? (
+                <path
+                  d={path}
+                  fill="none"
+                  stroke="var(--primary)"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="4"
+                />
+              ) : null}
 
             {points.map((point, index) => {
               if (point.y === null) return null;
@@ -278,9 +264,9 @@ export default function DeviceSeriesTrendExplorer({
                   <circle
                     cx={point.x}
                     cy={point.y}
-                    fill={isActive ? "var(--primary-strong)" : "rgba(247,245,240,0.98)"}
+                    fill={isActive ? "var(--primary-strong)" : "rgba(154,148,136,0.34)"}
                     r={isActive ? 7 : 5.2}
-                    stroke={isActive ? "rgba(247,245,240,1)" : "rgba(45,90,61,0.24)"}
+                    stroke="white"
                     strokeWidth={isActive ? 3 : 2}
                   />
                   <text
@@ -323,22 +309,18 @@ export default function DeviceSeriesTrendExplorer({
                 </text>
               );
             })}
-          </svg>
+            </svg>
+          </div>
         ) : (
-          <div className="flex h-[340px] items-center justify-center rounded-[1.5rem] border border-dashed border-[rgba(221,213,199,0.72)] bg-white/70 text-sm text-[var(--text-muted)]">
+          <div className="flex h-[250px] items-center justify-center rounded-[1.5rem] border border-dashed border-[rgba(221,213,199,0.72)] bg-white/70 text-sm text-[var(--text-muted)]">
             当前指标暂无足够数据
           </div>
         )}
 
-        <div className="mt-3 flex flex-wrap items-center justify-between gap-3 text-xs text-[var(--text-muted)]">
-          <span>系列范围：{yearRange}</span>
-          <span>当前设备：{activeEntry?.device.model ?? "—"}</span>
-        </div>
+        <p className="mt-3 text-xs leading-6 text-[var(--text-soft)]">
+          * 芯片趋势仅使用文本解析出的内部代际序列，便于表达变化方向，不等同于真实硬件基准分。
+        </p>
       </div>
-
-      <p className="text-xs leading-6 text-[var(--text-soft)]">
-        * 芯片趋势仅使用文本解析出的内部代际序列，便于表达变化方向，不等同于真实硬件基准分。
-      </p>
     </div>
   );
 }

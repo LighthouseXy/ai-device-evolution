@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { runFallbackAnalysis } from "@/lib/ai-analysis";
 import {
   allDevicesFlat,
   categoryLabels,
@@ -18,6 +17,7 @@ import TickDivider from "@/components/layout/TickDivider";
 
 type SearchParams = {
   category?: string | string[];
+  series?: string | string[];
   metric?: string | string[];
 };
 
@@ -38,7 +38,7 @@ const metrics: MetricDefinition[] = [
     key: "price",
     label: "起售价",
     shortLabel: "价格",
-    description: "按年份统计该类别设备的首发价格均值。",
+    description: "按年份统计该系列设备的首发价格均值。",
     unit: "¥",
     getValue: (device) => device.launchPrice,
     format: (value) => formatMaybeCurrency(value),
@@ -56,7 +56,7 @@ const metrics: MetricDefinition[] = [
     key: "screen",
     label: "屏幕尺寸",
     shortLabel: "屏幕",
-    description: "按年份统计屏幕尺寸均值。",
+    description: "按年份统计该系列设备的屏幕尺寸均值。",
     unit: '"',
     getValue: (device) => device.screenSize,
     format: (value) => `${formatZhNumber(value, 1)}"`,
@@ -65,7 +65,7 @@ const metrics: MetricDefinition[] = [
     key: "weight",
     label: "机身重量",
     shortLabel: "重量",
-    description: "按年份统计重量均值，适合观察便携性变化。",
+    description: "按年份统计该系列设备的重量均值，适合观察便携性变化。",
     unit: "g",
     getValue: (device) => device.weight,
     format: (value) => `${formatZhNumber(value, 0)}g`,
@@ -74,7 +74,7 @@ const metrics: MetricDefinition[] = [
     key: "camera",
     label: "主摄像素",
     shortLabel: "摄像头",
-    description: "按年份统计主摄像素均值。",
+    description: "按年份统计该系列设备的主摄像素均值。",
     unit: "MP",
     getValue: (device) => device.mainCameraMp,
     format: (value) => `${formatZhNumber(value, 0)}MP`,
@@ -83,7 +83,7 @@ const metrics: MetricDefinition[] = [
     key: "refresh",
     label: "刷新率",
     shortLabel: "刷新率",
-    description: "按年份统计刷新率均值。",
+    description: "按年份统计该系列设备的刷新率均值。",
     unit: "Hz",
     getValue: (device) => device.refreshRate,
     format: (value) => `${formatZhNumber(value, 0)}Hz`,
@@ -98,6 +98,11 @@ function normalizeCategory(value: string | string[] | undefined) {
 function normalizeMetric(value: string | string[] | undefined) {
   const raw = Array.isArray(value) ? value[0] : value;
   return metrics.some((metric) => metric.key === raw) ? (raw as MetricKey) : "ai";
+}
+
+function normalizeSeries(value: string | string[] | undefined, options: string[]) {
+  const raw = Array.isArray(value) ? value[0] : value;
+  return typeof raw === "string" && options.includes(raw) ? raw : options[0] ?? "";
 }
 
 function average(values: number[]) {
@@ -139,71 +144,84 @@ function formatDeltaText(
   return `${formatSignedZhNumber(delta, decimals)}${metric.unit}`;
 }
 
-function pickRepresentativeSeries(category: (typeof categoryNames)[number]) {
-  return getSeriesByCategoryFlat(category)
-    .map((series) => {
-      const devices = getDevicesBySeriesFlat(series);
-      return {
-        series,
-        devices,
-        latestYear: devices.at(-1)?.releaseYear ?? 0,
-      };
-    })
-    .filter((item) => item.devices.length >= 2)
-    .sort((left, right) => {
-      if (right.devices.length !== left.devices.length) return right.devices.length - left.devices.length;
-      if (right.latestYear !== left.latestYear) return right.latestYear - left.latestYear;
-      return left.series.localeCompare(right.series, "zh-CN");
-    })[0];
-}
-
 function TrendChart({
   points,
   metric,
+  category,
+  series,
 }: {
   points: ReturnType<typeof buildYearTrend>;
   metric: MetricDefinition;
+  category: (typeof categoryNames)[number];
+  series: string;
 }) {
-  const maxValue = Math.max(...points.map((point) => point.value ?? 0), 1);
+  const chartPoints = points.filter((point): point is typeof point & { value: number } => point.value !== null);
+  const values = chartPoints.map((point) => point.value);
+  const minValue = Math.min(...values, 0);
+  const maxValue = Math.max(...values, 1);
+  const range = maxValue - minValue || 1;
+  const x = (index: number) => 48 + (index * 624) / Math.max(chartPoints.length - 1, 1);
+  const y = (value: number) => 196 - ((value - minValue) / range) * 152;
+  const linePoints = chartPoints.map((point, index) => `${x(index)},${y(point.value)}`).join(" ");
 
   return (
     <div className="card p-5">
-      <div className="flex flex-wrap items-start justify-between gap-3">
+      <div className="flex flex-wrap items-start justify-between gap-4">
         <div className="grid gap-1">
           <span className="tag tag-green w-fit">趋势图</span>
-          <h2 className="text-2xl leading-tight text-[var(--text-strong)]">{metric.label} · 年度变化</h2>
+          <h2 className="text-2xl leading-tight text-[var(--text-strong)]">{series} · {metric.label}</h2>
           <p className="text-sm leading-7 text-[var(--text-muted)]">{metric.description}</p>
         </div>
-        <span className="tag tag-neutral">均值口径 / 年度聚合</span>
+        <div className="grid max-w-full justify-items-start gap-2 sm:justify-items-end">
+          <span className="tag tag-neutral">同系列 / 年度聚合</span>
+          <div className="flex max-w-full gap-2 overflow-x-auto pb-1 sm:flex-wrap sm:justify-end">
+            {metrics.map((item) => {
+              const params = new URLSearchParams({ category, series, metric: item.key });
+              return (
+                <Link
+                  key={item.key}
+                  href={`/trends?${params.toString()}`}
+                  className={`tag shrink-0 ${item.key === metric.key ? "tag-amber" : "tag-neutral"}`}
+                  aria-current={item.key === metric.key ? "page" : undefined}
+                >
+                  {item.shortLabel}
+                </Link>
+              );
+            })}
+          </div>
+        </div>
       </div>
 
-      <div className="mt-5 overflow-x-auto pb-2">
-        <div className="grid min-w-[720px] grid-cols-7 gap-3">
-          {points.map((point) => {
-            const height = point.value === null ? 0 : Math.max(14, (point.value / maxValue) * 100);
-
-            return (
-              <div key={point.year} className="grid gap-2">
-                <div className="flex h-56 items-end rounded-[28px] bg-[var(--bg-soft)] p-3">
-                  <div
-                    className="relative w-full overflow-hidden rounded-[22px] bg-[linear-gradient(180deg,rgba(45,90,61,0.18),rgba(232,168,56,0.72))]"
-                    style={{ height: `${height}%` }}
-                  >
-                    {point.value !== null ? (
-                      <div className="absolute inset-x-0 top-2 text-center text-[11px] font-semibold text-[var(--text-strong)]">
-                        {metric.format(point.value)}
-                      </div>
-                    ) : null}
-                  </div>
-                </div>
-                <div className="text-center">
-                  <div className="text-sm font-semibold text-[var(--text-strong)]">{point.year}</div>
-                  <div className="mt-1 text-[11px] text-[var(--text-soft)]">{point.count} 台</div>
-                </div>
-              </div>
-            );
-          })}
-        </div>
+      <div className="mx-auto mt-5 max-w-4xl overflow-x-auto pb-2">
+        <svg className="w-full min-w-[680px]" viewBox="0 0 720 250" role="img" aria-label={`${series}${metric.label}年度折线图`}>
+          <defs>
+            <linearGradient id="trend-area" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stopColor="var(--primary)" stopOpacity="0.2" />
+              <stop offset="100%" stopColor="var(--accent)" stopOpacity="0.03" />
+            </linearGradient>
+          </defs>
+          {[44, 82, 120, 158, 196].map((gridY) => (
+            <line key={gridY} x1="48" x2="672" y1={gridY} y2={gridY} stroke="var(--border)" strokeWidth="1" />
+          ))}
+          {chartPoints.length > 1 ? (
+            <polygon points={`48,196 ${linePoints} 672,196`} fill="url(#trend-area)" />
+          ) : null}
+          <polyline points={linePoints} fill="none" stroke="var(--primary)" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
+          {chartPoints.map((point, index) => (
+            <g key={point.year}>
+              <circle cx={x(index)} cy={y(point.value)} r="6" fill="var(--accent)" stroke="white" strokeWidth="3" />
+              <text x={x(index)} y={Math.max(24, y(point.value) - 13)} textAnchor="middle" className="fill-[var(--text-strong)] text-[10px] font-semibold">
+                {metric.format(point.value)}
+              </text>
+              <text x={x(index)} y="222" textAnchor="middle" className="fill-[var(--text-strong)] text-[11px] font-semibold">
+                {point.year}
+              </text>
+              <text x={x(index)} y="239" textAnchor="middle" className="fill-[var(--text-soft)] text-[9px]">
+                {point.count} 台
+              </text>
+            </g>
+          ))}
+        </svg>
       </div>
 
       <div className="mt-5 flex flex-wrap gap-2">
@@ -247,8 +265,12 @@ export default async function TrendsPage({
   const selectedMetricKey = normalizeMetric(resolvedSearchParams.metric);
   const metric = metrics.find((item) => item.key === selectedMetricKey) ?? metrics[0];
 
-  const categoryDevices = allDevicesFlat.filter((device) => device.category === selectedCategory);
-  const yearTrend = buildYearTrend(categoryDevices, metric);
+  const seriesOptions = getSeriesByCategoryFlat(selectedCategory).filter(
+    (series) => getDevicesBySeriesFlat(series).length >= 2,
+  );
+  const selectedSeries = normalizeSeries(resolvedSearchParams.series, seriesOptions);
+  const seriesDevices = getDevicesBySeriesFlat(selectedSeries);
+  const yearTrend = buildYearTrend(seriesDevices, metric);
   const firstPoint = yearTrend[0]?.value ?? null;
   const lastPoint = yearTrend.at(-1)?.value ?? null;
   let maxPoint: (typeof yearTrend)[number] | null = null;
@@ -258,21 +280,6 @@ export default async function TrendsPage({
       maxPoint = point;
     }
   }
-  const representative = pickRepresentativeSeries(selectedCategory);
-  const representativeDevices = representative?.devices ?? [];
-  const trendAnalysis = representative
-    ? runFallbackAnalysis({
-        seriesName: representative.series,
-        category: selectedCategory,
-        categoryLabel: categoryLabels[selectedCategory],
-        devices: representativeDevices,
-        latestDevice: representativeDevices.at(-1) ?? null,
-        previousDevice: representativeDevices.at(-2) ?? null,
-        changedFields: [],
-        analysisType: "trend_prediction",
-      })
-    : null;
-
   const categoryOptions = categoryNames.map((category) => ({
     key: category,
     label: categoryLabels[category],
@@ -292,6 +299,7 @@ export default async function TrendsPage({
         meta={
           <>
             <span className="tag tag-green">{categoryLabels[selectedCategory]}</span>
+            <span className="tag tag-neutral">{selectedSeries}</span>
             <span className="tag tag-neutral">{metric.label}</span>
             <span className="tag tag-amber">Apple 样本阶段</span>
           </>
@@ -301,67 +309,74 @@ export default async function TrendsPage({
 
       <section className="section section-filter">
         <div className="section-inner filter-strip">
-          <div className="filter-heading">筛选</div>
+          <div className="filter-row">
+            <div className="filter-heading">设备类别</div>
+            <div className="filter-pills">
+              {categoryOptions.map((item) => {
+                const params = new URLSearchParams();
+                params.set("category", item.key);
+                params.set("series", getSeriesByCategoryFlat(item.key)[0] ?? "");
+                params.set("metric", selectedMetricKey);
+                const active = item.key === selectedCategory;
 
-          <div className="filter-pills">
-            {categoryOptions.map((item) => {
-              const params = new URLSearchParams();
-              params.set("category", item.key);
-              params.set("metric", selectedMetricKey);
-              const active = item.key === selectedCategory;
-
-              return (
-                <Link
-                  key={item.key}
-                  href={`/trends?${params.toString()}`}
-                  className={`tag ${active ? "tag-green" : "tag-neutral"}`}
-                  aria-current={active ? "page" : undefined}
-                >
-                  {item.label}
-                  <span className="opacity-70">({item.count})</span>
-                </Link>
-              );
-            })}
+                return (
+                  <Link
+                    key={item.key}
+                    href={`/trends?${params.toString()}`}
+                    className={`tag ${active ? "tag-green" : "tag-neutral"}`}
+                    aria-current={active ? "page" : undefined}
+                  >
+                    {item.label}
+                    <span className="opacity-70">({item.count})</span>
+                  </Link>
+                );
+              })}
+            </div>
           </div>
 
-          <div className="filter-pills">
-            {metrics.map((item) => {
-              const params = new URLSearchParams();
-              params.set("category", selectedCategory);
-              params.set("metric", item.key);
-              const active = item.key === selectedMetricKey;
+          <div className="filter-row">
+            <div className="filter-heading">同系列</div>
+            <div className="filter-pills">
+              {seriesOptions.map((series) => {
+                const params = new URLSearchParams({
+                  category: selectedCategory,
+                  series,
+                  metric: selectedMetricKey,
+                });
+                const active = series === selectedSeries;
 
-              return (
-                <Link
-                  key={item.key}
-                  href={`/trends?${params.toString()}`}
-                  className={`tag ${active ? "tag-amber" : "tag-neutral"}`}
-                  aria-current={active ? "page" : undefined}
-                >
-                  {item.shortLabel}
-                </Link>
-              );
-            })}
+                return (
+                  <Link
+                    key={series}
+                    href={`/trends?${params.toString()}`}
+                    className={`tag ${active ? "tag-green" : "tag-neutral"}`}
+                    aria-current={active ? "page" : undefined}
+                  >
+                    {series}
+                    <span className="opacity-70">({getDevicesBySeriesFlat(series).length})</span>
+                  </Link>
+                );
+              })}
+            </div>
           </div>
         </div>
       </section>
 
       <section className="section pt-0">
-        <div className="section-inner grid gap-5 xl:grid-cols-[1.25fr_0.75fr] xl:items-start">
-          <div className="grid gap-5">
-            <TrendChart points={yearTrend} metric={metric} />
+        <div className="section-inner mx-auto grid max-w-6xl gap-5">
+          <TrendChart points={yearTrend} metric={metric} category={selectedCategory} series={selectedSeries} />
 
-            <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+          <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
               <TrendCard
                 title="起始年份"
                 value={yearTrend[0]?.year?.toString() ?? "待补充"}
-                hint="当前类别最早收录样本年份。"
+                hint="当前系列最早收录样本年份。"
                 tone="green"
               />
               <TrendCard
                 title="最新年份"
                 value={yearTrend.at(-1)?.year?.toString() ?? "待补充"}
-                hint="当前类别最新收录样本年份。"
+                hint="当前系列最新收录样本年份。"
               />
               <TrendCard
                 title="最大值年份"
@@ -374,78 +389,6 @@ export default async function TrendsPage({
                 value={trendDirection}
                 hint="以首末年份均值计算变化。"
               />
-            </div>
-          </div>
-
-          <div className="card p-5">
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="tag tag-green">本地规则观察</span>
-              <span className="tag tag-neutral">
-                {representative ? `样本：${representative.series}` : "样本不足"}
-              </span>
-            </div>
-
-            {trendAnalysis ? (
-              <>
-                <h2 className="mt-4 text-2xl leading-tight text-[var(--text-strong)]">
-                  {trendAnalysis.summary}
-                </h2>
-                <p className="mt-3 text-sm leading-7 text-[var(--text-muted)]">
-                  {trendAnalysis.prediction}
-                </p>
-
-                <div className="mt-5 grid gap-3">
-                  <div className="rounded-2xl bg-[var(--bg-soft)] p-4">
-                    <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">分析要点</div>
-                    <ul className="mt-2 space-y-2 text-sm leading-7 text-[var(--text-muted)]">
-                      {trendAnalysis.insights.map((item) => (
-                        <li key={item} className="flex gap-2">
-                          <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--accent)]" />
-                          <span>{item}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <div className="rounded-2xl bg-[var(--bg-soft)] p-4">
-                    <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">缺失信息</div>
-                    <div className="mt-2 flex flex-wrap gap-2">
-                      {trendAnalysis.missingData.length > 0 ? (
-                        trendAnalysis.missingData.map((item) => (
-                          <span key={item} className="tag tag-neutral">
-                            {item}
-                          </span>
-                        ))
-                      ) : (
-                        <span className="text-sm leading-7 text-[var(--text-muted)]">当前趋势样本已覆盖主要展示信息。</span>
-                      )}
-                    </div>
-                  </div>
-                </div>
-
-                <div className="mt-5 grid gap-3 sm:grid-cols-2">
-                  <TrendCard
-                    title="样本设备"
-                    value={`${representativeDevices.length} 台`}
-                    hint="本地规则观察使用的系列样本量。"
-                    tone="green"
-                  />
-                  <TrendCard
-                    title="可信度"
-                    value={`${Math.round(trendAnalysis.confidence * 100)}%`}
-                    hint="来源：本地规则。"
-                    tone="amber"
-                  />
-                </div>
-
-                <p className="mt-4 text-xs leading-6 text-[var(--text-soft)]">{trendAnalysis.disclaimer}</p>
-              </>
-            ) : (
-              <div className="mt-4 rounded-2xl border border-dashed border-[var(--border)] bg-white/70 p-4">
-                <p className="text-sm font-semibold text-[var(--text-strong)]">暂无可用样本</p>
-                <p className="mt-2 text-sm leading-7 text-[var(--text-muted)]">当前类别数据不足，无法生成趋势观察。</p>
-              </div>
-            )}
           </div>
         </div>
       </section>
