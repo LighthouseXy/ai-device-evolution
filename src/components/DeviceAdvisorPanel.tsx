@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState, type FormEvent, type ReactNode } from "react";
+import { useState, type FormEvent, type ReactNode } from "react";
 import {
   categoryLabels,
   categoryNames,
@@ -10,25 +10,11 @@ import DeviceAdvisorResult from "@/components/DeviceAdvisorResult";
 import type {
   DeviceAdvisorCategory,
   DeviceAdvisorOutput,
-  DeviceAdvisorPerformancePreference,
 } from "@/lib/device-advisor";
 
 type DeviceAdvisorPanelProps = {
   initialCategory: DeviceCategory;
 };
-
-const performancePreferenceOptions: Array<{
-  value: DeviceAdvisorPerformancePreference;
-  label: string;
-}> = [
-  { value: "balanced", label: "均衡" },
-  { value: "performance", label: "性能优先" },
-  { value: "battery", label: "续航优先" },
-  { value: "portable", label: "便携优先" },
-  { value: "screen", label: "屏幕优先" },
-  { value: "camera", label: "拍照优先" },
-  { value: "storage", label: "存储优先" },
-];
 
 const conditionPreferenceOptions = [
   { value: "new_only", label: "只看全新" },
@@ -39,13 +25,6 @@ const conditionPreferenceOptions = [
 const batteryPriorityOptions = [
   { value: "balanced", label: "均衡" },
   { value: "high", label: "优先续航" },
-] as const;
-
-const interfaceNeedOptions = [
-  { value: "any", label: "无特殊要求" },
-  { value: "usb_c", label: "USB-C" },
-  { value: "magsafe", label: "MagSafe" },
-  { value: "pencil", label: "Apple Pencil" },
 ] as const;
 
 const useCaseSuggestionOptions = [
@@ -61,8 +40,8 @@ const useCaseSuggestionOptions = [
 const formControlClassName =
   "mt-1 h-10 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 text-sm text-[#1E293B] outline-none transition focus:border-[var(--primary)]";
 const textAreaClassName =
-  "mt-1 min-h-24 w-full rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 py-2 text-sm leading-6 text-[#1E293B] outline-none transition focus:border-[var(--primary)]";
-const fieldLabelClassName = "text-[10px] font-semibold uppercase tracking-[0.12em] text-[#94A3B8]";
+  "mt-1 min-h-16 w-full resize-y rounded-lg border border-[#E8E4DC] bg-[#FFFDF8] px-3 py-2 text-sm leading-6 text-[#1E293B] outline-none transition focus:border-[var(--primary)]";
+const fieldLabelClassName = "text-xs font-semibold tracking-[0.08em] text-[#64748B]";
 
 function FieldLabel({ children }: { children: ReactNode }) {
   return <span className={fieldLabelClassName}>{children}</span>;
@@ -114,104 +93,8 @@ function appendUseCaseSuggestion(currentText: string, suggestion: string) {
   return [...items, suggestion].join(" / ");
 }
 
-function getOptionLabel<T extends string>(
-  options: readonly { value: T; label: string }[],
-  value: T,
-) {
-  return options.find((item) => item.value === value)?.label ?? value;
-}
-
-type BudgetState = {
-  budget?: {
-    min?: number;
-    max?: number;
-    currency: "CNY";
-  };
-  preview: string;
-  message: string;
-  isError: boolean;
-};
-
 function formatBudgetAmount(value: number) {
   return new Intl.NumberFormat("zh-CN", { maximumFractionDigits: 0 }).format(value);
-}
-
-function parseBudgetValue(raw: string, label: string) {
-  const text = raw.trim();
-  if (!text) return { value: undefined as number | undefined, error: "" };
-
-  const value = Number(text);
-  if (!Number.isFinite(value)) {
-    return { value: undefined, error: `${label}必须是数字` };
-  }
-
-  if (value < 0) {
-    return { value: undefined, error: `${label}不能是负数` };
-  }
-
-  return { value, error: "" };
-}
-
-function resolveBudgetState(minText: string, maxText: string): BudgetState {
-  // 预算输入在客户端先做一次宽松归一化：允许只填上限/下限，区间写反时自动交换。
-  // 服务端仍会再次 normalize，避免前端状态被绕过时污染推荐逻辑。
-  const min = parseBudgetValue(minText, "预算下限");
-  const max = parseBudgetValue(maxText, "预算上限");
-
-  if (min.error) {
-    return {
-      preview: "预算待完善",
-      message: min.error,
-      isError: true,
-    };
-  }
-
-  if (max.error) {
-    return {
-      preview: "预算待完善",
-      message: max.error,
-      isError: true,
-    };
-  }
-
-  if (min.value === undefined && max.value === undefined) {
-    return {
-      preview: "未设置",
-      message: "支持输入非负数字；最小值大于最大值时会自动交换。",
-      isError: false,
-    };
-  }
-
-  if (min.value !== undefined && max.value !== undefined) {
-    const lower = Math.min(min.value, max.value);
-    const upper = Math.max(min.value, max.value);
-
-    return {
-      budget: { min: lower, max: upper, currency: "CNY" },
-      preview: `¥${formatBudgetAmount(lower)} - ¥${formatBudgetAmount(upper)}`,
-      message:
-        min.value > max.value
-          ? `已自动交换预算上下限：¥${formatBudgetAmount(lower)} - ¥${formatBudgetAmount(upper)}`
-          : "预算区间已就绪。",
-      isError: false,
-    };
-  }
-
-  if (min.value !== undefined) {
-    return {
-      budget: { min: min.value, currency: "CNY" },
-      preview: `≥ ¥${formatBudgetAmount(min.value)}`,
-      message: "已填写预算下限。",
-      isError: false,
-    };
-  }
-
-  return {
-    budget: { max: max.value, currency: "CNY" },
-    preview: `≤ ¥${formatBudgetAmount(max.value ?? 0)}`,
-    message: "已填写预算上限。",
-    isError: false,
-  };
 }
 
 function getReadableAdvisorError(status: number, payload: { error?: string } | null) {
@@ -227,21 +110,18 @@ function getReadableAdvisorError(status: number, payload: { error?: string } | n
 }
 
 export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPanelProps) {
-  const [budgetMin, setBudgetMin] = useState("");
-  const [budgetMax, setBudgetMax] = useState("");
+  const [budgetMin, setBudgetMin] = useState(3000);
+  const [budgetMax, setBudgetMax] = useState(10000);
   const [category, setCategory] = useState<DeviceAdvisorCategory>(initialCategory);
-  const [performancePreference, setPerformancePreference] =
-    useState<DeviceAdvisorPerformancePreference>("balanced");
   const [conditionPreference, setConditionPreference] = useState<(typeof conditionPreferenceOptions)[number]["value"]>("new_only");
   const [batteryPriority, setBatteryPriority] = useState<(typeof batteryPriorityOptions)[number]["value"]>("balanced");
-  const [interfaceNeed, setInterfaceNeed] = useState<(typeof interfaceNeedOptions)[number]["value"]>("any");
   const [useCasesText, setUseCasesText] = useState("办公 / 追剧");
+  const [intent, setIntent] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [result, setResult] = useState<DeviceAdvisorOutput | null>(null);
 
-  const budgetState = useMemo(() => resolveBudgetState(budgetMin, budgetMax), [budgetMax, budgetMin]);
-  const useCasePreview = useMemo(() => normalizeUseCases(useCasesText), [useCasesText]);
+  const budgetPreview = `¥${formatBudgetAmount(budgetMin)} - ¥${formatBudgetAmount(budgetMax)}`;
   const clearError = () => {
     if (error) {
       setError("");
@@ -258,24 +138,9 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
     clearError();
     setUseCasesText((current) => appendUseCaseSuggestion(current, suggestion));
   };
-  const summaryTags = [
-    `预算：${budgetState.preview}`,
-    `类别：${category === "all" ? "全品类" : categoryLabels[category]}`,
-    `性能：${getOptionLabel(performancePreferenceOptions, performancePreference)}`,
-    `成色：${getOptionLabel(conditionPreferenceOptions, conditionPreference)}`,
-    `续航：${getOptionLabel(batteryPriorityOptions, batteryPriority)}`,
-    `接口：${getOptionLabel(interfaceNeedOptions, interfaceNeed)}`,
-  ];
-
   const submit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const normalizedUseCases = normalizeUseCases(useCasesText);
-
-    if (budgetState.isError) {
-      setResult(null);
-      setError(budgetState.message);
-      return;
-    }
 
     setLoading(true);
     setError("");
@@ -288,14 +153,12 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          budget: budgetState.budget,
+          budget: { min: budgetMin, max: budgetMax, currency: "CNY" },
           category,
-          performancePreference,
           useCases: normalizedUseCases,
-          intent: useCasesText.trim() || undefined,
+          intent: intent.trim() || undefined,
           conditionPreference,
           batteryPriority,
-          interfaceNeed,
         }),
       });
 
@@ -315,59 +178,79 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
   };
 
   return (
-    <section className="card overflow-hidden">
+    <section className="card min-w-0 max-w-full overflow-hidden">
       <div className="border-b border-[#E8E4DC] p-5">
         <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
-          <div>
-            <p className="text-sm font-semibold text-[#1E293B]">设备顾问</p>
-            <p className="mt-1 text-xs text-[#94A3B8]">预算、机型类型、性能偏好、使用场景</p>
+          <div className="min-w-0">
+            <p className="text-base font-semibold text-[#1E293B]">设备顾问</p>
+            <p className="mt-1 text-[13px] text-[#94A3B8]">预算、设备类型与使用场景</p>
           </div>
-          <span className="inline-flex rounded-full bg-[var(--primary-soft)] px-2 py-0.5 text-[10px] font-medium text-[var(--primary)]">
+          <span className="inline-flex shrink-0 self-start rounded-full bg-[var(--primary-soft)] px-2 py-0.5 text-[10px] font-medium text-[var(--primary)]">
             API 调用
           </span>
         </div>
       </div>
 
-      <form className="space-y-4 p-5" onSubmit={submit}>
+      <form className="min-w-0 space-y-4 p-4 sm:p-5" onSubmit={submit}>
         <p className="sr-only" aria-live="polite" aria-atomic="true">
           {statusText}
         </p>
 
-        <fieldset className="space-y-4" disabled={loading} aria-busy={loading}>
-          <div className="grid gap-3 sm:grid-cols-2">
-            <label className="block">
-              <FieldLabel>预算下限</FieldLabel>
-              <input
-                className={formControlClassName}
-                inputMode="numeric"
-                placeholder="例如 6000"
-                value={budgetMin}
-                onChange={(event) => {
-                  clearError();
-                  setBudgetMin(event.target.value);
-                }}
-              />
-            </label>
-            <label className="block">
-              <FieldLabel>预算上限</FieldLabel>
-              <input
-                className={formControlClassName}
-                inputMode="numeric"
-                placeholder="例如 9000"
-                value={budgetMax}
-                onChange={(event) => {
-                  clearError();
-                  setBudgetMax(event.target.value);
-                }}
-              />
-            </label>
-            <p className={`col-span-full text-[10px] ${budgetState.isError ? "text-[#DC2626]" : "text-[#94A3B8]"}`}>
-              {budgetState.message}
-            </p>
+        <fieldset className="min-w-0 space-y-4" disabled={loading} aria-busy={loading}>
+          <div className="min-w-0 rounded-xl border border-[#E8E4DC] bg-[#FFFDF8] p-3 sm:p-4">
+            <div className="flex min-w-0 flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
+              <FieldLabel>预算区间</FieldLabel>
+              <output className="min-w-0 max-w-full break-words text-right text-sm font-semibold text-[var(--primary-strong)]" aria-live="polite">
+                {budgetPreview}
+              </output>
+            </div>
+            <div className="mt-3">
+              <div className="relative h-8" role="group" aria-label="预算上下限">
+                <div
+                  className="absolute inset-x-0 top-1/2 h-2 -translate-y-1/2 rounded-full"
+                  style={{
+                    background: `linear-gradient(to right, #E8E4DC 0%, #E8E4DC ${(budgetMin / 30000) * 100}%, var(--primary) ${(budgetMin / 30000) * 100}%, var(--accent) ${(budgetMax / 30000) * 100}%, #E8E4DC ${(budgetMax / 30000) * 100}%, #E8E4DC 100%)`,
+                  }}
+                  aria-hidden="true"
+                />
+                <input
+                  className={`advisor-budget-range ${budgetMin > 28500 ? "z-30" : "z-20"}`}
+                  type="range"
+                  min="0"
+                  max="30000"
+                  step="500"
+                  value={budgetMin}
+                  onChange={(event) => {
+                    clearError();
+                    setBudgetMin(Math.min(Number(event.target.value), budgetMax));
+                  }}
+                  aria-label="预算下限"
+                  aria-valuetext={`${budgetMin} 元`}
+                />
+                <input
+                  className="advisor-budget-range z-20"
+                  type="range"
+                  min="0"
+                  max="30000"
+                  step="500"
+                  value={budgetMax}
+                  onChange={(event) => {
+                    clearError();
+                    setBudgetMax(Math.max(Number(event.target.value), budgetMin));
+                  }}
+                  aria-label="预算上限"
+                  aria-valuetext={`${budgetMax} 元`}
+                />
+              </div>
+              <div className="mt-1 flex items-center justify-between gap-3 text-sm text-[#64748B]">
+                <span>下限 ¥{formatBudgetAmount(budgetMin)}</span>
+                <span className="text-right">上限 ¥{formatBudgetAmount(budgetMax)}</span>
+              </div>
+            </div>
           </div>
 
-          <div className="grid gap-3 sm:grid-cols-2">
-            <label className="block">
+          <div className="grid gap-3 sm:grid-cols-3">
+            <label className="block sm:col-span-1">
               <FieldLabel>设备类型</FieldLabel>
               <select
                 className={formControlClassName}
@@ -386,18 +269,6 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
               </select>
             </label>
 
-            <SelectField
-              label="性能偏好"
-              value={performancePreference}
-              options={performancePreferenceOptions}
-              onChange={(value) => {
-                  clearError();
-                  setPerformancePreference(value);
-              }}
-            />
-          </div>
-
-          <div className="grid gap-3 sm:grid-cols-2">
             <SelectField
               label="成色偏好"
               value={conditionPreference}
@@ -419,16 +290,6 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
             />
           </div>
 
-          <SelectField
-            label="接口 / 生态需求"
-            value={interfaceNeed}
-            options={interfaceNeedOptions}
-            onChange={(value) => {
-                clearError();
-                setInterfaceNeed(value);
-            }}
-          />
-
           <label className="block">
             <FieldLabel>使用场景</FieldLabel>
             <textarea
@@ -440,32 +301,34 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
                 setUseCasesText(event.target.value);
               }}
             />
-            <div className="mt-2">
-              <p className={fieldLabelClassName}>快捷场景</p>
-              <div className="mt-2 flex flex-wrap gap-2">
-                {useCaseSuggestionOptions.map((item) => (
-                  <button
-                    key={item}
-                    className="inline-flex h-8 items-center rounded-full border border-[#E8E4DC] bg-white px-3 text-xs text-[#475569] transition hover:border-[rgba(45,90,61,0.24)] hover:bg-[var(--primary-soft)] hover:text-[var(--primary-strong)]"
-                    type="button"
-                    onClick={() => handleUseCaseSuggestion(item)}
-                  >
-                    + {item}
-                  </button>
-                ))}
-              </div>
-              <p className="mt-2 text-[10px] leading-relaxed text-[#94A3B8]">点击可追加场景；重复项会自动去重。</p>
+            <div className="mt-2 flex flex-wrap gap-2">
+              {useCaseSuggestionOptions.map((item) => (
+                <button
+                  key={item}
+                  className="inline-flex h-8 items-center rounded-full border border-[#E8E4DC] bg-white px-3 text-xs text-[#475569] transition hover:border-[rgba(45,90,61,0.24)] hover:bg-[var(--primary-soft)] hover:text-[var(--primary-strong)]"
+                  type="button"
+                  onClick={() => handleUseCaseSuggestion(item)}
+                >
+                  + {item}
+                </button>
+              ))}
             </div>
           </label>
 
-        <div className="rounded-xl border border-[#E8E4DC] bg-white p-3">
-          <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-            <div>
-              <p className={fieldLabelClassName}>提交前摘要</p>
-              <p className="mt-1 text-xs text-[#64748B]">
-                场景已整理为 {useCasePreview.length || 0} 项，提交前快速确认即可。
-              </p>
-            </div>
+          <label className="block">
+            <FieldLabel>文本描述与补充</FieldLabel>
+            <textarea
+              className={textAreaClassName}
+              placeholder="例如：经常出差，希望轻便；已有显示器，不需要大屏"
+              value={intent}
+              onChange={(event) => {
+                clearError();
+                setIntent(event.target.value);
+              }}
+            />
+          </label>
+
+          <div className="flex justify-end">
             <button
               className="inline-flex h-10 items-center justify-center rounded-lg bg-[var(--primary)] px-4 text-sm font-medium text-white transition hover:bg-[var(--primary-strong)] disabled:cursor-not-allowed disabled:opacity-60"
               type="submit"
@@ -475,20 +338,6 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
               {loading ? "生成中..." : "生成推荐"}
             </button>
           </div>
-          <div className="mt-3 flex flex-wrap gap-2">
-            {summaryTags.map((item) => (
-              <span
-                className="rounded-full bg-[var(--primary-soft)] px-2.5 py-1 text-[11px] text-[var(--primary-strong)]"
-                key={item}
-              >
-                {item}
-              </span>
-            ))}
-          </div>
-          <p className="mt-2 text-[10px] leading-relaxed text-[#94A3B8]">
-            场景：{useCasePreview.length ? useCasePreview.join(" · ") : "未填写"}
-          </p>
-        </div>
         </fieldset>
       </form>
 

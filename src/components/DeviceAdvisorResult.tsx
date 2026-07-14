@@ -30,7 +30,7 @@ function LoadingState() {
           API 调用
         </span>
       </div>
-      <p className="mt-2 text-sm leading-6 text-[#1E293B]">正在整理预算、成色、续航和接口偏好，请稍等。</p>
+      <p className="mt-2 text-sm leading-6 text-[#1E293B]">正在整理预算、设备类型和使用场景，请稍等。</p>
       <div className="mt-4 space-y-2 animate-pulse">
         <div className="h-4 w-2/3 rounded bg-[rgba(45,90,61,0.16)]" />
         <div className="h-4 w-full rounded bg-[rgba(45,90,61,0.16)]" />
@@ -46,20 +46,6 @@ function ErrorState({ error }: { error: string }) {
       <p className="text-sm font-semibold text-[#9A3412]">请求失败</p>
       <p className="mt-2 text-sm leading-6 text-[#C2410C]">{error}</p>
       <p className="mt-2 text-xs text-[#B45309]">请先检查预算格式，或稍后再试。</p>
-    </div>
-  );
-}
-
-function EmptyState() {
-  return (
-    <div className="rounded-2xl border border-dashed border-[#E8E4DC] bg-white/70 p-4">
-      <p className="text-sm font-semibold text-[#1E293B]">还没有推荐结果</p>
-      <p className="mt-2 text-sm leading-6 text-[#64748B]">先输入预算和偏好，再生成推荐。</p>
-      <ul className="mt-3 space-y-2 text-xs leading-6 text-[#94A3B8]">
-        <li>• 预算支持单边界或区间，输入非数字会直接提示。</li>
-        <li>• 结果会先展示主推荐，再展开理由和权衡点。</li>
-        <li>• 请求失败时只显示可读提示，不暴露技术细节。</li>
-      </ul>
     </div>
   );
 }
@@ -236,17 +222,17 @@ export default function DeviceAdvisorResult({
   error,
   result,
 }: DeviceAdvisorResultProps) {
+  if (!loading && !error && !result) return null;
+
   return (
-    <div className="border-t border-[#E8E4DC] bg-[#FFFDF8] p-5" aria-live="polite" aria-atomic="true">
+    <div className="min-w-0 break-words border-t border-[#E8E4DC] bg-[#FFFDF8] p-4 sm:p-5" aria-live="polite" aria-atomic="true">
       {loading ? (
         <LoadingState />
       ) : error ? (
         <ErrorState error={error} />
       ) : result ? (
         <RecommendationResult result={result} />
-      ) : (
-        <EmptyState />
-      )}
+      ) : null}
     </div>
   );
 }
