@@ -3,7 +3,8 @@ import {
   allDevicesFlat,
   categoryLabels,
   formatMaybeCurrency,
-  getDevicesBySeriesFlat,
+  getDevicesByComparisonGroupFlat,
+  getComparisonGroupLabelFlat,
 } from "@/lib/devices-db";
 import DeviceSeriesTrendExplorer from "@/components/DeviceSeriesTrendExplorer";
 import PageHeader from "@/components/layout/PageHeader";
@@ -87,7 +88,8 @@ export default async function DeviceDetailPage({
     notFound();
   }
 
-  const seriesDevices = getDevicesBySeriesFlat(device.series);
+  const seriesDevices = getDevicesByComparisonGroupFlat(device.family, device.variant, device.tier);
+  const comparisonGroupLabel = getComparisonGroupLabelFlat(device.family, device.variant, device.tier);
   const currentIndex = seriesDevices.findIndex((item) => item.id === device.id);
   const performanceRows = buildRows(device, [
     ["芯片", "chip"],
@@ -146,7 +148,7 @@ export default async function DeviceDetailPage({
         meta={
           <>
             <span className="tag tag-green">{device.releaseYear}</span>
-            <span className="tag tag-neutral">{device.series}</span>
+            <span className="tag tag-neutral">{comparisonGroupLabel}</span>
             <span className="tag tag-amber">{formatMaybeCurrency(device.launchPrice)}</span>
           </>
         }
@@ -160,7 +162,7 @@ export default async function DeviceDetailPage({
                 <div className="grid gap-4">
                   <div className="flex flex-wrap items-center gap-2">
                     <span className="tag tag-green w-fit">{device.brand}</span>
-                    <span className="tag tag-neutral">{device.series}</span>
+                    <span className="tag tag-neutral">{comparisonGroupLabel}</span>
                     <span className="tag tag-amber">
                       {currentIndex >= 0 ? `第 ${currentIndex + 1} 代 / 共 ${seriesDevices.length} 代` : `${seriesDevices.length} 代样本`}
                     </span>
@@ -168,7 +170,7 @@ export default async function DeviceDetailPage({
                   <div className="grid gap-2">
                     <h2 className="text-2xl leading-tight text-[var(--text-strong)]">{device.model}</h2>
                     <p className="text-sm leading-7 text-[var(--text-muted)]">
-                      {device.series} · {categoryLabels[device.category]} · {device.releaseYear}
+                      {comparisonGroupLabel} · {categoryLabels[device.category]} · {device.releaseYear}
                     </p>
                   </div>
                 </div>
@@ -202,7 +204,7 @@ export default async function DeviceDetailPage({
                   <div className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">数据口径</div>
                   <p className="mt-2 text-sm leading-7 text-[var(--text-muted)]">
                     该页面优先展示本地数据库中已收录字段，数组或布尔型字段会按实际值展开，缺失项保留“待补充”。
-                    参数图仅使用真实同系列样本，不引入原型假统计数字。
+                    参数图仅使用同一产品族、款式与芯片档位的真实样本，不引入原型假统计数字。
                   </p>
                 </div>
               </div>

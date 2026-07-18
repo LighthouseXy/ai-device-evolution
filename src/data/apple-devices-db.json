@@ -1058,12 +1058,12 @@
         "generationUpgradeMagnitude": {
           "value": null,
           "comparedTo": null,
-          "changeSummary": "该设备为该系列第一代，无可对比前代",
+          "changeSummary": "该代升级幅度尚未重新计算",
           "confidence": 0,
-          "computedAt": "2026-06-25",
-          "scoreBreakdown": "无对比前代",
+          "computedAt": "2026-07-19",
+          "scoreBreakdown": "待重新计算",
           "sourceType": "computed",
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-19"
         },
         "recommendationLevel": {
           "value": 5,
@@ -1073,7 +1073,8 @@
           "sourceType": "computed",
           "verifiedAt": "2026-06-25"
         }
-      }
+      },
+      "tier": "base"
     },
     {
       "id": "iphone-14",
@@ -1395,12 +1396,12 @@
         "generationUpgradeMagnitude": {
           "value": null,
           "comparedTo": null,
-          "changeSummary": "该设备为该系列第一代，无可对比前代",
+          "changeSummary": "该代升级幅度尚未重新计算",
           "confidence": 0,
-          "computedAt": "2026-06-25",
-          "scoreBreakdown": "无对比前代",
+          "computedAt": "2026-07-19",
+          "scoreBreakdown": "待重新计算",
           "sourceType": "computed",
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-19"
         },
         "recommendationLevel": {
           "value": 1,
@@ -1748,12 +1749,12 @@
         "generationUpgradeMagnitude": {
           "value": null,
           "comparedTo": null,
-          "changeSummary": "该设备为该系列第一代，无可对比前代",
+          "changeSummary": "该代升级幅度尚未重新计算",
           "confidence": 0,
-          "computedAt": "2026-06-25",
-          "scoreBreakdown": "无对比前代",
+          "computedAt": "2026-07-19",
+          "scoreBreakdown": "待重新计算",
           "sourceType": "computed",
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-19"
         },
         "recommendationLevel": {
           "value": 2,
@@ -2952,12 +2953,12 @@
         "generationUpgradeMagnitude": {
           "value": null,
           "comparedTo": null,
-          "changeSummary": "该设备为该系列第一代，无可对比前代",
+          "changeSummary": "该代升级幅度尚未重新计算",
           "confidence": 0,
-          "computedAt": "2026-06-25",
-          "scoreBreakdown": "无对比前代",
+          "computedAt": "2026-07-19",
+          "scoreBreakdown": "待重新计算",
           "sourceType": "computed",
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-19"
         },
         "recommendationLevel": {
           "value": 5,
@@ -3159,12 +3160,12 @@
         "generationUpgradeMagnitude": {
           "value": null,
           "comparedTo": null,
-          "changeSummary": "该设备为该系列第一代，无可对比前代",
+          "changeSummary": "该代升级幅度尚未重新计算",
           "confidence": 0,
-          "computedAt": "2026-06-25",
-          "scoreBreakdown": "无对比前代",
+          "computedAt": "2026-07-19",
+          "scoreBreakdown": "待重新计算",
           "sourceType": "computed",
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-19"
         },
         "recommendationLevel": {
           "value": 5,
@@ -3366,12 +3367,12 @@
         "generationUpgradeMagnitude": {
           "value": null,
           "comparedTo": null,
-          "changeSummary": "该设备为该系列第一代，无可对比前代",
+          "changeSummary": "该代升级幅度尚未重新计算",
           "confidence": 0,
-          "computedAt": "2026-06-25",
-          "scoreBreakdown": "无对比前代",
+          "computedAt": "2026-07-19",
+          "scoreBreakdown": "待重新计算",
           "sourceType": "computed",
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-19"
         },
         "recommendationLevel": {
           "value": 5,
@@ -3579,12 +3580,12 @@
         "generationUpgradeMagnitude": {
           "value": null,
           "comparedTo": null,
-          "changeSummary": "该设备为该系列第一代，无可对比前代",
+          "changeSummary": "该代升级幅度尚未重新计算",
           "confidence": 0,
-          "computedAt": "2026-06-25",
-          "scoreBreakdown": "无对比前代",
+          "computedAt": "2026-07-19",
+          "scoreBreakdown": "待重新计算",
           "sourceType": "computed",
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-19"
         },
         "recommendationLevel": {
           "value": 5,
@@ -3594,7 +3595,8 @@
           "sourceType": "computed",
           "verifiedAt": "2026-06-25"
         }
-      }
+      },
+      "tier": "base"
     },
     {
       "id": "macbook-pro-14-m4-2024",
@@ -3834,7 +3836,8 @@
           "sourceType": "computed",
           "verifiedAt": "2026-06-25"
         }
-      }
+      },
+      "tier": "base"
     },
     {
       "id": "iphone-12",
@@ -5683,13 +5686,13 @@
         },
         "generationUpgradeMagnitude": {
           "value": 7,
-          "comparedTo": "iphone-12",
-          "changeSummary": "芯片+3 (A14 Bionic chip→A15 Bionic chip), 屏幕+1 (6.06→5.42), 主摄+2, 外观+1",
-          "scoreBreakdown": "芯片+3 (A14 Bionic chip→A15 Bionic chip) + 屏幕+1 (6.06→5.42) + 主摄+2 + 外观+1 → 7",
+          "comparedTo": "iphone-12-mini",
+          "changeSummary": "芯片+3 (A14 Bionic chip→A15 Bionic chip), 主摄+2, 防水等级+1, 外观+1",
+          "scoreBreakdown": "芯片+3 (A14 Bionic chip→A15 Bionic chip) + 主摄+2 + 防水等级+1 + 外观+1 → 7",
           "confidence": 0.9,
-          "computedAt": "2026-06-25",
+          "computedAt": "2026-07-19",
           "sourceType": "computed",
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-19"
         },
         "recommendationLevel": {
           "value": 1,
@@ -6539,7 +6542,8 @@
           "sourceType": "computed",
           "verifiedAt": "2026-06-25"
         }
-      }
+      },
+      "tier": "base"
     },
     {
       "id": "macbook-air-13-m2-2022",
@@ -6752,7 +6756,8 @@
           "sourceType": "computed",
           "verifiedAt": "2026-06-25"
         }
-      }
+      },
+      "tier": "base"
     },
     {
       "id": "macbook-pro-13-m1-2020",
@@ -6956,7 +6961,8 @@
           "sourceType": "computed",
           "verifiedAt": "2026-06-25"
         }
-      }
+      },
+      "tier": "base"
     },
     {
       "id": "ipad-9th-2021",
@@ -8011,14 +8017,14 @@
           "verifiedAt": "2026-06-25"
         },
         "generationUpgradeMagnitude": {
-          "value": 6,
-          "comparedTo": "iphone-13",
-          "changeSummary": "屏幕+1 (6.06→6.68), 主摄+2, 新增SOS+1, 新增车祸检测+1, 外观+1",
-          "scoreBreakdown": "屏幕+1 (6.06→6.68) + 主摄+2 + 新增SOS+1 + 新增车祸检测+1 + 外观+1 → 6",
-          "confidence": 0.9,
-          "computedAt": "2026-06-25",
+          "value": null,
+          "comparedTo": null,
+          "changeSummary": "该设备为该比较组第一代，无可对比前代",
+          "scoreBreakdown": "无对比前代",
+          "confidence": 0,
+          "computedAt": "2026-07-19",
           "sourceType": "computed",
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-19"
         },
         "recommendationLevel": {
           "value": 1,
@@ -10389,14 +10395,14 @@
           "verifiedAt": "2026-06-25"
         },
         "generationUpgradeMagnitude": {
-          "value": 4,
-          "comparedTo": "ipad-pro-m2-2022",
-          "changeSummary": "屏幕+1 (11.0→12.9), 分辨率+1, 主摄+2",
-          "scoreBreakdown": "屏幕+1 (11.0→12.9) + 分辨率+1 + 主摄+2 → 4",
-          "confidence": 0.9,
-          "computedAt": "2026-06-25",
+          "value": null,
+          "comparedTo": null,
+          "changeSummary": "该设备为该比较组第一代，无可对比前代",
+          "scoreBreakdown": "无对比前代",
+          "confidence": 0,
+          "computedAt": "2026-07-19",
           "sourceType": "computed",
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-19"
         },
         "recommendationLevel": {
           "value": 1,
@@ -11336,7 +11342,8 @@
           "sourceType": "computed",
           "verifiedAt": "2026-06-25"
         }
-      }
+      },
+      "tier": "base"
     },
     {
       "id": "macbook-air-13-m3-2024",
@@ -11549,7 +11556,8 @@
           "sourceType": "computed",
           "verifiedAt": "2026-06-25"
         }
-      }
+      },
+      "tier": "base"
     },
     {
       "id": "macbook-air-13-m5-2026",
@@ -11893,7 +11901,8 @@
           "sourceType": "computed",
           "verifiedAt": "2026-06-25"
         }
-      }
+      },
+      "tier": "base"
     },
     {
       "id": "macbook-air-15-m5-2026",
@@ -12237,7 +12246,8 @@
           "sourceType": "computed",
           "verifiedAt": "2026-06-25"
         }
-      }
+      },
+      "tier": "base"
     },
     {
       "id": "macbook-pro-14-m5-pro-2026",
@@ -12248,7 +12258,7 @@
       "variant": "14-inch",
       "modelName": "MacBook Pro 14-inch (M5 Pro/Max)",
       "generation": "M5 Pro/Max 14-inch",
-      "generationOrder": 4,
+      "generationOrder": 2,
       "releaseYear": 2026,
       "specs": {
         "colors": {
@@ -12563,13 +12573,13 @@
         },
         "generationUpgradeMagnitude": {
           "value": 3,
-          "comparedTo": "macbook-pro-14-m4-2024",
-          "changeSummary": "芯片Apple M4→Apple M5 Pro or M5 Max",
+          "comparedTo": "macbook-pro-14-m4-pro-2024",
+          "changeSummary": "芯片 Apple M4 Pro or M4 Max→Apple M5 Pro or M5 Max",
           "confidence": 0.9,
-          "computedAt": "2026-06-25",
-          "scoreBreakdown": "芯片Apple M4→Apple M5 Pro or M5 Max → 3",
+          "computedAt": "2026-07-19",
+          "scoreBreakdown": "芯片 Apple M4 Pro or M4 Max→Apple M5 Pro or M5 Max → 3",
           "sourceType": "computed",
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-19"
         },
         "recommendationLevel": {
           "value": 5,
@@ -12579,7 +12589,8 @@
           "sourceType": "computed",
           "verifiedAt": "2026-06-25"
         }
-      }
+      },
+      "tier": "pro-max"
     },
     {
       "id": "macbook-pro-16-m5-2026",
@@ -12921,7 +12932,8 @@
           "sourceType": "computed",
           "verifiedAt": "2026-06-25"
         }
-      }
+      },
+      "tier": "pro-max"
     },
     {
       "id": "macbook-pro-14-m5-2025",
@@ -12932,7 +12944,7 @@
       "variant": "14-inch",
       "modelName": "MacBook Pro 14-inch (M5)",
       "generation": "M5 14-inch",
-      "generationOrder": 3,
+      "generationOrder": 2,
       "releaseYear": 2025,
       "specs": {
         "colors": {
@@ -13263,7 +13275,8 @@
           "sourceType": "computed",
           "verifiedAt": "2026-06-25"
         }
-      }
+      },
+      "tier": "base"
     },
     {
       "id": "macbook-pro-14-m4-pro-2024",
@@ -13274,7 +13287,7 @@
       "variant": "14-inch",
       "modelName": "MacBook Pro 14-inch (M4 Pro/Max)",
       "generation": "M4 Pro/Max 14-inch",
-      "generationOrder": 2,
+      "generationOrder": 1,
       "releaseYear": 2024,
       "specs": {
         "colors": {
@@ -13605,7 +13618,8 @@
           "sourceType": "computed",
           "verifiedAt": "2026-06-25"
         }
-      }
+      },
+      "tier": "pro-max"
     },
     {
       "id": "macbook-pro-16-m4-2024",
@@ -13932,12 +13946,12 @@
         "generationUpgradeMagnitude": {
           "value": null,
           "comparedTo": null,
-          "changeSummary": "该设备为该系列第一代或前代不在数据集中",
-          "scoreBreakdown": "无对比前代",
+          "changeSummary": "该代升级幅度尚未重新计算",
+          "scoreBreakdown": "待重新计算",
           "confidence": 0,
-          "computedAt": "2026-06-25",
+          "computedAt": "2026-07-19",
           "sourceType": "computed",
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-19"
         },
         "recommendationLevel": {
           "value": 4,
@@ -13947,7 +13961,8 @@
           "sourceType": "computed",
           "verifiedAt": "2026-06-25"
         }
-      }
+      },
+      "tier": "pro-max"
     },
     {
       "id": "macbook-air-15-m3-2024",
@@ -14291,7 +14306,8 @@
           "sourceType": "computed",
           "verifiedAt": "2026-06-25"
         }
-      }
+      },
+      "tier": "base"
     },
     {
       "id": "macbook-pro-16-m2-2023",
@@ -14633,7 +14649,8 @@
           "sourceType": "computed",
           "verifiedAt": "2026-06-25"
         }
-      }
+      },
+      "tier": "pro-max"
     },
     {
       "id": "iphone-17",

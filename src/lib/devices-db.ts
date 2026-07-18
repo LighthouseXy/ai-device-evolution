@@ -108,6 +108,7 @@ export type DbDevice = {
   series: string;
   family: string;
   variant: string;
+  tier?: string;
   modelName: string;
   generation: string;
   generationOrder: number;
@@ -262,6 +263,7 @@ export function flattenDevice(db: DbDevice): FlattenedDevice {
     series: db.series,
     family: db.family,
     variant: db.variant,
+    tier: db.tier,
     model: db.modelName,
     generation: db.generation,
     generationOrder: db.generationOrder,
@@ -295,11 +297,12 @@ const devicesBySeriesFlat = new Map<string, FlattenedDevice[]>(
   ]),
 );
 
-export const getComparisonGroupKey = (family: string, variant: string) => `${family}::${variant}`;
+export const getComparisonGroupKey = (family: string, variant: string, tier?: string) =>
+  [family, variant, tier].filter(Boolean).join("::");
 
 const devicesByComparisonGroupFlat = new Map<string, FlattenedDevice[]>();
 for (const device of allDevicesFlat) {
-  const key = getComparisonGroupKey(device.family, device.variant);
+  const key = getComparisonGroupKey(device.family, device.variant, device.tier);
   const group = devicesByComparisonGroupFlat.get(key) ?? [];
   group.push(device);
   devicesByComparisonGroupFlat.set(key, group);
@@ -307,6 +310,39 @@ for (const device of allDevicesFlat) {
 for (const group of devicesByComparisonGroupFlat.values()) {
   group.sort((left, right) => left.generationOrder - right.generationOrder);
 }
+
+const tieredComparisonGroups = new Set(
+  allDevicesFlat
+    .filter((device) =>
+      allDevicesFlat.some(
+        (other) =>
+          other.family === device.family &&
+          other.variant === device.variant &&
+          other.tier !== device.tier,
+      ),
+    )
+    .map((device) => `${device.family}::${device.variant}`),
+);
+
+/** 生成面向用户的比较组名称；芯片档位只作为必要的附加维度，不混入产品族。 */
+export function getComparisonGroupLabelFlat(family: string, variant: string, tier?: string) {
+  const baseLabel = variant === "standard" ? family : `${family} ${variant}`;
+  if (!tieredComparisonGroups.has(`${family}::${variant}`)) return baseLabel;
+  return `${baseLabel} · ${tier === "pro-max" ? "Pro/Max 芯片" : "标准芯片"}`;
+}
+
+export const comparisonGroupsFlat = Array.from(devicesByComparisonGroupFlat, ([key, devices]) => {
+  const first = devices[0];
+  return {
+    key,
+    category: first.category,
+    family: first.family,
+    variant: first.variant,
+    tier: first.tier,
+    label: getComparisonGroupLabelFlat(first.family, first.variant, first.tier),
+    devices,
+  };
+});
 
 const seriesByCategoryFlat = new Map<DeviceCategory, string[]>(
   categoryNames.map((category) => [
@@ -331,9 +367,15 @@ export const summaryStatsFlat = {
 /** 展平版 getDevicesBySeries */
 export const getDevicesBySeriesFlat = (series: string) => devicesBySeriesFlat.get(series) ?? [];
 
-/** 严格同型号比较：产品族和款式必须同时匹配。 */
-export const getDevicesByComparisonGroupFlat = (family: string, variant: string) =>
-  devicesByComparisonGroupFlat.get(getComparisonGroupKey(family, variant)) ?? [];
+/** 严格同型号比较：产品族、款式和必要的芯片档位必须同时匹配。 */
+export const getDevicesByComparisonGroupFlat = (family: string, variant: string, tier?: string) =>
+  devicesByComparisonGroupFlat.get(getComparisonGroupKey(family, variant, tier)) ?? [];
+
+export const getDevicesByComparisonGroupKeyFlat = (key: string) =>
+  devicesByComparisonGroupFlat.get(key) ?? [];
+
+export const getComparisonGroupsByCategoryFlat = (category: DeviceCategory) =>
+  comparisonGroupsFlat.filter((group) => group.category === category);
 
 /** 展平版 getSeriesByCategory */
 export const getSeriesByCategoryFlat = (category: DeviceCategory) => seriesByCategoryFlat.get(category) ?? [];

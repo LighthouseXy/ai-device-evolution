@@ -5,8 +5,8 @@ import {
   categoryNames,
   deviceCountByCategory,
   formatMaybeCurrency,
-  getDevicesBySeriesFlat,
-  getSeriesByCategoryFlat,
+  getComparisonGroupsByCategoryFlat,
+  getDevicesByComparisonGroupKeyFlat,
 } from "@/lib/devices-db";
 import {
   formatSignedZhNumber,
@@ -265,11 +265,15 @@ export default async function TrendsPage({
   const selectedMetricKey = normalizeMetric(resolvedSearchParams.metric);
   const metric = metrics.find((item) => item.key === selectedMetricKey) ?? metrics[0];
 
-  const seriesOptions = getSeriesByCategoryFlat(selectedCategory).filter(
-    (series) => getDevicesBySeriesFlat(series).length >= 2,
+  const seriesOptions = getComparisonGroupsByCategoryFlat(selectedCategory).filter(
+    (group) => group.devices.length >= 2,
   );
-  const selectedSeries = normalizeSeries(resolvedSearchParams.series, seriesOptions);
-  const seriesDevices = getDevicesBySeriesFlat(selectedSeries);
+  const selectedSeries = normalizeSeries(
+    resolvedSearchParams.series,
+    seriesOptions.map((group) => group.key),
+  );
+  const selectedSeriesOption = seriesOptions.find((group) => group.key === selectedSeries) ?? null;
+  const seriesDevices = getDevicesByComparisonGroupKeyFlat(selectedSeries);
   const yearTrend = buildYearTrend(seriesDevices, metric);
   const firstPoint = yearTrend[0]?.value ?? null;
   const lastPoint = yearTrend.at(-1)?.value ?? null;
@@ -299,7 +303,7 @@ export default async function TrendsPage({
         meta={
           <>
             <span className="tag tag-green">{categoryLabels[selectedCategory]}</span>
-            <span className="tag tag-neutral">{selectedSeries}</span>
+            <span className="tag tag-neutral">{selectedSeriesOption?.label ?? "待补充"}</span>
             <span className="tag tag-neutral">{metric.label}</span>
             <span className="tag tag-amber">Apple 样本阶段</span>
           </>
@@ -315,7 +319,7 @@ export default async function TrendsPage({
               {categoryOptions.map((item) => {
                 const params = new URLSearchParams();
                 params.set("category", item.key);
-                params.set("series", getSeriesByCategoryFlat(item.key)[0] ?? "");
+                params.set("series", getComparisonGroupsByCategoryFlat(item.key).find((group) => group.devices.length >= 2)?.key ?? "");
                 params.set("metric", selectedMetricKey);
                 const active = item.key === selectedCategory;
 
@@ -337,23 +341,23 @@ export default async function TrendsPage({
           <div className="filter-row">
             <div className="filter-heading">同系列</div>
             <div className="filter-pills">
-              {seriesOptions.map((series) => {
+              {seriesOptions.map((group) => {
                 const params = new URLSearchParams({
                   category: selectedCategory,
-                  series,
+                  series: group.key,
                   metric: selectedMetricKey,
                 });
-                const active = series === selectedSeries;
+                const active = group.key === selectedSeries;
 
                 return (
                   <Link
-                    key={series}
+                    key={group.key}
                     href={`/trends?${params.toString()}`}
                     className={`tag ${active ? "tag-green" : "tag-neutral"}`}
                     aria-current={active ? "page" : undefined}
                   >
-                    {series}
-                    <span className="opacity-70">({getDevicesBySeriesFlat(series).length})</span>
+                    {group.label}
+                    <span className="opacity-70">({group.devices.length})</span>
                   </Link>
                 );
               })}
@@ -364,7 +368,12 @@ export default async function TrendsPage({
 
       <section className="section pt-0">
         <div className="section-inner mx-auto grid max-w-6xl gap-5">
-          <TrendChart points={yearTrend} metric={metric} category={selectedCategory} series={selectedSeries} />
+          <TrendChart
+            points={yearTrend}
+            metric={metric}
+            category={selectedCategory}
+            series={selectedSeriesOption?.label ?? "Apple"}
+          />
 
           <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
               <TrendCard

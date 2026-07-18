@@ -3,11 +3,12 @@ import fs from "node:fs";
 
 const { devices } = JSON.parse(fs.readFileSync("src/data/apple-devices-db.json", "utf8"));
 const expectedGroups = new Map([
-  ["laptop|MacBook Air|13-inch", ["macbook-air-13-m1-2020", "macbook-air-13-m2-2022", "macbook-air-13-m3-2024", "macbook-air-13-m4-2025", "macbook-air-13-m5-2026"]],
-  ["laptop|MacBook Air|15-inch", ["macbook-air-15-m3-2024", "macbook-air-15-m4-2025", "macbook-air-15-m5-2026"]],
-  ["laptop|MacBook Pro|13-inch", ["macbook-pro-13-m1-2020", "macbook-pro-13-m2-2022"]],
-  ["laptop|MacBook Pro|14-inch", ["macbook-pro-14-m4-2024", "macbook-pro-14-m4-pro-2024", "macbook-pro-14-m5-2025", "macbook-pro-14-m5-pro-2026"]],
-  ["laptop|MacBook Pro|16-inch", ["macbook-pro-16-m2-2023", "macbook-pro-16-m4-2024", "macbook-pro-16-m5-2026"]],
+  ["laptop|MacBook Air|13-inch|base", ["macbook-air-13-m1-2020", "macbook-air-13-m2-2022", "macbook-air-13-m3-2024", "macbook-air-13-m4-2025", "macbook-air-13-m5-2026"]],
+  ["laptop|MacBook Air|15-inch|base", ["macbook-air-15-m3-2024", "macbook-air-15-m4-2025", "macbook-air-15-m5-2026"]],
+  ["laptop|MacBook Pro|13-inch|base", ["macbook-pro-13-m1-2020", "macbook-pro-13-m2-2022"]],
+  ["laptop|MacBook Pro|14-inch|base", ["macbook-pro-14-m4-2024", "macbook-pro-14-m5-2025"]],
+  ["laptop|MacBook Pro|14-inch|pro-max", ["macbook-pro-14-m4-pro-2024", "macbook-pro-14-m5-pro-2026"]],
+  ["laptop|MacBook Pro|16-inch|pro-max", ["macbook-pro-16-m2-2023", "macbook-pro-16-m4-2024", "macbook-pro-16-m5-2026"]],
   ["phone|iPhone|Air", ["iphone-air"]],
   ["phone|iPhone|Plus", ["iphone-14-plus", "iphone-15-plus", "iphone-16-plus"]],
   ["phone|iPhone|Pro Max", ["iphone-12-pro-max", "iphone-13-pro-max", "iphone-14-pro-max", "iphone-15-pro-max", "iphone-16-pro-max", "iphone-17-pro-max"]],
@@ -41,11 +42,17 @@ assert.equal(devices.length, 58, "主数据应包含 58 台设备");
 assert.equal(new Set(devices.map((device) => device.id)).size, devices.length, "设备 id 必须唯一");
 
 const groups = new Map();
+const devicesById = new Map(devices.map((device) => [device.id, device]));
 for (const device of devices) {
   assert.ok(["phone", "tablet", "laptop"].includes(device.category), `${device.id}: category 非法`);
   assert.ok(device.family, `${device.id}: 缺少 family`);
   assert.ok(device.variant, `${device.id}: 缺少 variant`);
   assert.ok(Number.isInteger(device.generationOrder) && device.generationOrder > 0, `${device.id}: generationOrder 非法`);
+  if (device.category === "laptop") {
+    assert.ok(["base", "pro-max"].includes(device.tier), `${device.id}: laptop tier 非法`);
+  } else {
+    assert.equal(device.tier, undefined, `${device.id}: 非 laptop 不应设置 tier`);
+  }
 
   for (const key of deprecatedSpecKeys) {
     assert.ok(!Object.hasOwn(device.specs, key), `${device.id}: 禁止使用旧字段 ${key}`);
@@ -78,10 +85,35 @@ for (const device of devices) {
     }
   }
 
-  const key = `${device.category}|${device.family}|${device.variant}`;
+  const key = [device.category, device.family, device.variant, device.tier].filter(Boolean).join("|");
   const group = groups.get(key) ?? [];
   group.push(device);
   groups.set(key, group);
+}
+
+for (const device of devices) {
+  const magnitude = device.computed?.generationUpgradeMagnitude;
+  if (!magnitude) continue;
+  const comparedTo = magnitude.comparedTo ?? null;
+
+  if (device.generationOrder === 1) {
+    assert.equal(comparedTo, null, `${device.id}: 比较组第一代不应引用前代`);
+    assert.equal(magnitude.value, null, `${device.id}: 比较组第一代升级幅度应为空`);
+    continue;
+  }
+
+  if (magnitude.value === null) {
+    assert.ok(!magnitude.changeSummary?.includes("第一代"), `${device.id}: 后续代际不得标记为第一代`);
+    continue;
+  }
+
+  assert.ok(comparedTo, `${device.id}: 已计算升级幅度但缺少 comparedTo`);
+  const previous = devicesById.get(comparedTo);
+  assert.ok(previous, `${device.id}: comparedTo 设备不存在`);
+  assert.equal(previous.family, device.family, `${device.id}: comparedTo family 不一致`);
+  assert.equal(previous.variant, device.variant, `${device.id}: comparedTo variant 不一致`);
+  assert.equal(previous.tier, device.tier, `${device.id}: comparedTo tier 不一致`);
+  assert.equal(previous.generationOrder, device.generationOrder - 1, `${device.id}: comparedTo 不是直接前代`);
 }
 
 assert.deepEqual(

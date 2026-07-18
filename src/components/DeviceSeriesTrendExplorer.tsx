@@ -165,7 +165,7 @@ export default function DeviceSeriesTrendExplorer({
       <div className="min-w-0 max-w-full rounded-[1.75rem] border border-[rgba(221,213,199,0.78)] bg-white p-4 sm:p-5">
         <div className="mb-3 flex min-w-0 flex-wrap items-start justify-between gap-4">
           <div className="grid min-w-0 gap-1">
-            <span className="tag tag-green w-fit">同系列趋势</span>
+            <span className="tag tag-green w-fit">同组趋势</span>
             <h3 className="text-2xl font-semibold text-[var(--text-strong)]">{metric.label} · 代际变化</h3>
             <span className="tag tag-neutral w-fit">{yearRange}</span>
           </div>
@@ -200,7 +200,7 @@ export default function DeviceSeriesTrendExplorer({
         {hasEnoughData ? (
           <div className="max-w-full overflow-x-auto overscroll-x-contain pb-1 [touch-action:pan-x] [-webkit-overflow-scrolling:touch]">
             <svg
-              aria-label={`${metric.label} 同系列折线图`}
+              aria-label={`${metric.label} 同组折线图`}
               className="block h-[250px] w-full min-w-[680px] lg:min-w-0"
               role="img"
               viewBox={`0 0 ${width} ${height}`}

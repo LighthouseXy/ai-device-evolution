@@ -7,9 +7,9 @@ import {
 import {
   allDevicesFlat,
   categoryLabels,
+  comparisonGroupsFlat,
   formatMaybeCurrency,
-  getDevicesBySeriesFlat,
-  seriesNames,
+  getDevicesByComparisonGroupKeyFlat,
 } from "@/lib/devices-db";
 import {
   formatSignedZhCurrency,
@@ -165,13 +165,13 @@ function buildChangedFields(
 }
 
 function buildSeriesOptions() {
-  return seriesNames
-    .map((series) => {
-      const devices = getDevicesBySeriesFlat(series);
+  return comparisonGroupsFlat
+    .map((group) => {
+      const devices = group.devices;
       const latest = devices.at(-1) ?? null;
       return {
-        series,
-        label: series,
+        series: group.key,
+        label: group.label,
         category: latest ? categoryLabels[latest.category] : "Apple",
         count: devices.length,
         latestYear: latest?.releaseYear ?? 0,
@@ -294,11 +294,12 @@ export default async function ComparePage({
 }) {
   const resolvedSearchParams = await searchParams;
   const seriesOptions = buildSeriesOptions();
-  const defaultSeries = seriesOptions.find((item) => item.series === "iPhone Pro")?.series ?? seriesOptions[0]?.series ?? "";
+  const defaultSeries = seriesOptions.find((item) => item.series === "iPhone::Pro")?.series ?? seriesOptions[0]?.series ?? "";
   const requestedSeries = normalizeSeries(resolvedSearchParams.series);
   const selectedSeries = seriesOptions.some((item) => item.series === requestedSeries) ? requestedSeries : defaultSeries;
+  const selectedSeriesOption = seriesOptions.find((item) => item.series === selectedSeries) ?? null;
   const selectedWindow = normalizeWindow(resolvedSearchParams.window);
-  const seriesDevices = getDevicesBySeriesFlat(selectedSeries);
+  const seriesDevices = getDevicesByComparisonGroupKeyFlat(selectedSeries);
   const visibleDevices =
     selectedWindow === "all"
       ? seriesDevices
@@ -309,7 +310,7 @@ export default async function ComparePage({
   const previous = seriesDevices.at(-2) ?? null;
   const category = latest?.category ?? "phone";
   const analysis = runFallbackAnalysis({
-    seriesName: selectedSeries || "Apple",
+    seriesName: selectedSeriesOption?.label ?? "Apple",
     category,
     categoryLabel: categoryLabels[category],
     devices: seriesDevices,
