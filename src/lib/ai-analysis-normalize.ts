@@ -63,10 +63,14 @@ function normalizeFlattenedDevice(value: unknown, fallbackCategory?: DeviceCateg
   const series = normalizeText(value.series);
   const brand = normalizeText(value.brand, "Apple");
   const id = normalizeText(value.id, `${series || "device"}-${model || "model"}`);
-  const generation = normalizeNumber(value.generation) ?? normalizeNumber(value.releaseYear);
   const releaseYear = normalizeNumber(value.releaseYear);
+  const generationNumber = normalizeNumber(value.generation);
+  const generation = normalizeText(value.generation, generationNumber?.toString() ?? "");
+  const generationOrder = normalizeNumber(value.generationOrder) ?? generationNumber ?? releaseYear;
+  const family = normalizeText(value.family, series);
+  const variant = normalizeText(value.variant, "standard");
 
-  if (!category || !model || !series || generation === undefined || releaseYear === undefined) {
+  if (!category || !model || !series || !family || !variant || !generation || generationOrder === undefined || releaseYear === undefined) {
     return null;
   }
 
@@ -75,10 +79,14 @@ function normalizeFlattenedDevice(value: unknown, fallbackCategory?: DeviceCateg
     brand,
     category,
     series,
+    family,
+    variant,
     tier: normalizeOptionalText(value.tier),
     model,
     generation,
+    generationOrder,
     releaseYear,
+    // AI 输入边界显式标记缺失值；主数据和页面适配层仍保持空值，不把提示文字当成真实规格。
     chip: normalizeText(value.chip, "当前数据不足"),
     screenSize: normalizeNumber(value.screenSize),
     refreshRate: normalizeNumber(value.refreshRate),

@@ -11,7 +11,7 @@ export type DeviceCategory = "phone" | "tablet" | "laptop";
 
 // SpecField 带元数据的规格字段
 export type SpecField<T> = {
-  value: T;
+  value: T | null;
   unit?: string | null;
   rawText?: string | null;
   sourceUrl: string;
@@ -91,7 +91,6 @@ export type DeviceSpecs = {
   launchPrice?: SpecField<number>;
   currentPrice?: SpecField<number>;
   usedPrice?: SpecField<number>;
-  [key: string]: SpecField<unknown> | undefined;
 };
 
 // 设备 computed 字段集合
@@ -107,8 +106,11 @@ export type DbDevice = {
   brand: string;
   category: DeviceCategory;
   series: string;
+  family: string;
+  variant: string;
   modelName: string;
   generation: string;
+  generationOrder: number;
   releaseYear: number;
   specs: DeviceSpecs;
   computed: DeviceComputed;
@@ -154,11 +156,11 @@ export const getDevicesBySeries = (series: string) => devicesBySeries.get(series
 
 // 从 SpecField 中取值，不存在时返回 undefined
 export function specVal<T>(field: SpecField<T> | undefined): T | undefined {
-  return field?.value;
+  return field?.value ?? undefined;
 }
 
-// 从 SpecField 中取值，转为字符串显示
-export function specStr(field: SpecField<unknown> | undefined, fallback = "待补充"): string {
+// 数据适配层只返回真实值或空串；“待补充”等提示由具体 UI/AI 边界决定，避免占位文案混入数据。
+export function specStr(field: SpecField<unknown> | undefined, fallback = ""): string {
   if (!field) return fallback;
   const v = field.value;
   if (v === null || v === undefined) return fallback;
@@ -213,9 +215,12 @@ export type FlattenedDevice = {
   brand: string;
   category: DeviceCategory;
   series: string;
+  family: string;
+  variant: string;
   tier?: string;
   model: string;
-  generation: number;
+  generation: string;
+  generationOrder: number;
   releaseYear: number;
   chip: string;
   screenSize?: number;
@@ -255,8 +260,11 @@ export function flattenDevice(db: DbDevice): FlattenedDevice {
     brand: db.brand,
     category: db.category,
     series: db.series,
+    family: db.family,
+    variant: db.variant,
     model: db.modelName,
-    generation: db.releaseYear,
+    generation: db.generation,
+    generationOrder: db.generationOrder,
     releaseYear: db.releaseYear,
     chip: specStr(db.specs?.chip),
     screenSize: specNum(db.specs?.screenSize) ?? undefined,
@@ -280,9 +288,25 @@ const devicesBySeriesFlat = new Map<string, FlattenedDevice[]>(
     series,
     allDevicesFlat
       .filter((device) => device.series === series)
-      .sort((left, right) => left.generation - right.generation),
+      .sort(
+        (left, right) =>
+          left.releaseYear - right.releaseYear || left.generationOrder - right.generationOrder,
+      ),
   ]),
 );
+
+export const getComparisonGroupKey = (family: string, variant: string) => `${family}::${variant}`;
+
+const devicesByComparisonGroupFlat = new Map<string, FlattenedDevice[]>();
+for (const device of allDevicesFlat) {
+  const key = getComparisonGroupKey(device.family, device.variant);
+  const group = devicesByComparisonGroupFlat.get(key) ?? [];
+  group.push(device);
+  devicesByComparisonGroupFlat.set(key, group);
+}
+for (const group of devicesByComparisonGroupFlat.values()) {
+  group.sort((left, right) => left.generationOrder - right.generationOrder);
+}
 
 const seriesByCategoryFlat = new Map<DeviceCategory, string[]>(
   categoryNames.map((category) => [
@@ -306,6 +330,10 @@ export const summaryStatsFlat = {
 
 /** 展平版 getDevicesBySeries */
 export const getDevicesBySeriesFlat = (series: string) => devicesBySeriesFlat.get(series) ?? [];
+
+/** 严格同型号比较：产品族和款式必须同时匹配。 */
+export const getDevicesByComparisonGroupFlat = (family: string, variant: string) =>
+  devicesByComparisonGroupFlat.get(getComparisonGroupKey(family, variant)) ?? [];
 
 /** 展平版 getSeriesByCategory */
 export const getSeriesByCategoryFlat = (category: DeviceCategory) => seriesByCategoryFlat.get(category) ?? [];
