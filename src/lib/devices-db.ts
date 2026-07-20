@@ -8,6 +8,7 @@ import db from "@/data/apple-devices-db.json";
 // ==================== 类型定义 ====================
 
 export type DeviceCategory = "phone" | "tablet" | "laptop";
+export type SpecSourceType = "apple" | "reference";
 
 // SpecField 带元数据的规格字段
 export type SpecField<T> = {
@@ -15,7 +16,7 @@ export type SpecField<T> = {
   unit?: string | null;
   rawText?: string | null;
   sourceUrl: string;
-  sourceType: string;
+  sourceType: SpecSourceType;
   confidence: number;
   verifiedAt: string;
 };
@@ -28,6 +29,8 @@ export type ComputedField = {
   changeSummary?: string | null;
   confidence: number;
   computedAt: string;
+  sourceType: "computed";
+  verifiedAt: string;
 };
 
 // 设备 specs 中的字段集合（部分，按需扩展）
@@ -204,7 +207,6 @@ export const summaryStats = {
   seriesCount: seriesNames.length,
   startYear: Math.min(...allDevices.map((d) => d.releaseYear)),
   endYear: Math.max(...allDevices.map((d) => d.releaseYear)),
-  fieldsTracked: 45,
 };
 
 // ==================== 向后兼容适配层 ====================

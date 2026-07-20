@@ -134,10 +134,8 @@ src/
 │   └── devices-db.ts                  # 设备数据适配
 └── data/
     ├── apple-devices-db.json          # 主结构化数据源
-    ├── apple-devices.json
-    ├── apple-devices-computed.json
-    ├── apple-sources.json
-    └── archive/
+    ├── apple-sources.json             # 来源审计登记
+    └── archive/                       # 历史批次与旧版快照，运行时不读取
 
 scripts/
 ├── device-advisor-regression.mjs      # fallback 回归

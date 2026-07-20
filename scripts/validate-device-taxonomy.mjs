@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import fs from "node:fs";
 
-const { devices } = JSON.parse(fs.readFileSync("src/data/apple-devices-db.json", "utf8"));
+const { metadata, devices } = JSON.parse(fs.readFileSync("src/data/apple-devices-db.json", "utf8"));
 const expectedGroups = new Map([
   ["laptop|MacBook Air|13-inch|base", ["macbook-air-13-m1-2020", "macbook-air-13-m2-2022", "macbook-air-13-m3-2024", "macbook-air-13-m4-2025", "macbook-air-13-m5-2026"]],
   ["laptop|MacBook Air|15-inch|base", ["macbook-air-15-m3-2024", "macbook-air-15-m4-2025", "macbook-air-15-m5-2026"]],
@@ -39,6 +39,7 @@ const canonicalBooleanKeys = [
 const pollutedTextPattern = /^(?:\s*:root\{|\s*!function\()|globalNavData/i;
 
 assert.equal(devices.length, 58, "主数据应包含 58 台设备");
+assert.equal(metadata.totalDevices, devices.length, "metadata.totalDevices 与实际设备数不一致");
 assert.equal(new Set(devices.map((device) => device.id)).size, devices.length, "设备 id 必须唯一");
 
 const groups = new Map();
@@ -62,7 +63,7 @@ for (const device of devices) {
     assert.ok(field && typeof field === "object" && Object.hasOwn(field, "value"), `${device.id}.${key}: 字段结构非法`);
     assert.ok(typeof field.sourceUrl === "string", `${device.id}.${key}: sourceUrl 缺失`);
     assert.match(field.sourceUrl, /^https:\/\//, `${device.id}.${key}: sourceUrl 非法`);
-    assert.ok(typeof field.sourceType === "string" && field.sourceType, `${device.id}.${key}: sourceType 缺失`);
+    assert.ok(["apple", "reference"].includes(field.sourceType), `${device.id}.${key}: sourceType 非法`);
     assert.ok(typeof field.confidence === "number" && field.confidence >= 0 && field.confidence <= 1, `${device.id}.${key}: confidence 非法`);
     assert.ok(typeof field.verifiedAt === "string", `${device.id}.${key}: verifiedAt 缺失`);
     assert.match(field.verifiedAt, /^\d{4}-\d{2}-\d{2}$/, `${device.id}.${key}: verifiedAt 非法`);
@@ -96,24 +97,31 @@ for (const device of devices) {
   if (!magnitude) continue;
   const comparedTo = magnitude.comparedTo ?? null;
 
+  for (const [key, field] of Object.entries(device.computed ?? {})) {
+    assert.equal(field.sourceType, "computed", `${device.id}.${key}: sourceType 必须为 computed`);
+    assert.ok(typeof field.confidence === "number" && field.confidence >= 0 && field.confidence <= 1, `${device.id}.${key}: confidence 非法`);
+    assert.match(field.computedAt, /^\d{4}-\d{2}-\d{2}$/, `${device.id}.${key}: computedAt 非法`);
+    assert.match(field.verifiedAt, /^\d{4}-\d{2}-\d{2}$/, `${device.id}.${key}: verifiedAt 非法`);
+  }
+
   if (device.generationOrder === 1) {
     assert.equal(comparedTo, null, `${device.id}: 比较组第一代不应引用前代`);
     assert.equal(magnitude.value, null, `${device.id}: 比较组第一代升级幅度应为空`);
     continue;
   }
 
-  if (magnitude.value === null) {
-    assert.ok(!magnitude.changeSummary?.includes("第一代"), `${device.id}: 后续代际不得标记为第一代`);
-    continue;
-  }
-
-  assert.ok(comparedTo, `${device.id}: 已计算升级幅度但缺少 comparedTo`);
+  assert.ok(comparedTo, `${device.id}: 后续代际缺少 comparedTo`);
   const previous = devicesById.get(comparedTo);
   assert.ok(previous, `${device.id}: comparedTo 设备不存在`);
   assert.equal(previous.family, device.family, `${device.id}: comparedTo family 不一致`);
   assert.equal(previous.variant, device.variant, `${device.id}: comparedTo variant 不一致`);
   assert.equal(previous.tier, device.tier, `${device.id}: comparedTo tier 不一致`);
   assert.equal(previous.generationOrder, device.generationOrder - 1, `${device.id}: comparedTo 不是直接前代`);
+
+  if (magnitude.value === null) {
+    assert.match(magnitude.changeSummary ?? "", /尚未重新计算/, `${device.id}: 空升级幅度必须明确标记待计算`);
+    assert.equal(magnitude.confidence, 0, `${device.id}: 空升级幅度 confidence 必须为 0`);
+  }
 }
 
 assert.deepEqual(
