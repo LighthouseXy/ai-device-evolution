@@ -225,10 +225,10 @@ function CompareOverview({ devices }: { devices: (typeof allDevicesFlat)[number]
     <div className="compare-overview">
       {devices.map((device, index) => (
         <div className="compare-overview-item" key={device.id}>
-          {index > 0 ? <div className="compare-overview-arrow" aria-hidden="true">→</div> : null}
+          {index > 0 ? <div className="compare-overview-arrow" aria-hidden="true">←</div> : null}
           <Link
             href={`/devices/${device.id}`}
-            className={`compare-overview-card${index === devices.length - 1 ? " is-current" : ""}`}
+            className={`compare-overview-card${index === 0 ? " is-current" : ""}`}
           >
             <div className="compare-overview-model">{device.model}</div>
             <div className="compare-overview-year">{device.releaseYear}</div>
@@ -253,10 +253,10 @@ function CompareTable({
       return groups;
     }, new Map<string, ComparisonField[]>()),
   );
-  const first = devices[0] ?? null;
-  const last = devices.at(-1) ?? null;
-  const gridTemplateColumns = `120px repeat(${devices.length}, 190px) 120px`;
-  const tableWidth = 240 + devices.length * 190;
+  const latest = devices[0] ?? null;
+  const previous = devices[1] ?? null;
+  const gridTemplateColumns = `120px repeat(${devices.length}, 210px)`;
+  const tableWidth = 120 + devices.length * 210;
 
   return (
     <div className="compare-v2-table">
@@ -265,12 +265,11 @@ function CompareTable({
           <div className="compare-v2-row is-header" style={{ gridTemplateColumns }}>
             <div className="compare-v2-cell is-label">功能 / 参数</div>
             {devices.map((device, index) => (
-              <div className={`compare-v2-cell${index === devices.length - 1 ? " is-highlight" : ""}`} key={device.id}>
+              <div className={`compare-v2-cell${index === 0 ? " is-highlight" : ""}`} key={device.id}>
                 <span>{device.model}</span>
                 <small>{device.releaseYear}</small>
               </div>
             ))}
-            <div className="compare-v2-cell">变化</div>
           </div>
 
           {groupedFields.map(([group, fields]) => (
@@ -280,8 +279,9 @@ function CompareTable({
                 <div className="compare-v2-group-fill" />
               </div>
               {fields.map((field) => {
-                const firstValue = first ? buildComparisonValue(first, field) : "待补充";
-                const lastValue = last ? buildComparisonValue(last, field) : "待补充";
+                const latestValue = latest ? buildComparisonValue(latest, field) : "待补充";
+                const previousValue = previous ? buildComparisonValue(previous, field) : "待补充";
+                const hasChanged = latestValue !== previousValue;
 
                 return (
                   <div className="compare-v2-row" key={`${group}-${field.label}`} style={{ gridTemplateColumns }}>
@@ -290,15 +290,18 @@ function CompareTable({
                       {field.hint ? <small>{field.hint}</small> : null}
                     </div>
                     {devices.map((device, index) => (
-                      <div className={`compare-v2-cell${index === devices.length - 1 ? " is-highlight" : ""}`} key={device.id}>
+                      <div
+                        className={`compare-v2-cell${index === 0 ? " is-highlight" : ""}${index === 0 && hasChanged ? " has-change" : ""}`}
+                        key={device.id}
+                      >
                         {buildComparisonValue(device, field)}
+                        {index === 0 && hasChanged ? (
+                          <span className="compare-change-badge is-up">
+                            {compareValueLabel(field, previousValue, latestValue)}
+                          </span>
+                        ) : null}
                       </div>
                     ))}
-                    <div className="compare-v2-cell">
-                      <span className={`compare-change-badge${firstValue === lastValue ? " is-flat" : " is-up"}`}>
-                        {compareValueLabel(field, firstValue, lastValue)}
-                      </span>
-                    </div>
                   </div>
                 );
               })}
@@ -339,12 +342,13 @@ export default async function ComparePage({
     .map((category) => ({ value: category, label: categoryLabels[category] }));
   const selectedWindow = normalizeWindow(resolvedSearchParams.window);
   const seriesDevices = getDevicesByComparisonGroupKeyFlat(selectedSeries);
-  const visibleDevices =
+  const visibleDevices = (
     selectedWindow === "all"
-      ? seriesDevices
+      ? seriesDevices.slice()
       : selectedWindow === "recent5"
         ? seriesDevices.slice(-5)
-        : seriesDevices.slice(-3);
+        : seriesDevices.slice(-3)
+  ).reverse();
   const latest = seriesDevices.at(-1) ?? null;
   const previous = seriesDevices.at(-2) ?? null;
   const category = latest?.category ?? "phone";

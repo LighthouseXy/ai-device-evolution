@@ -998,6 +998,11 @@ p {
   font-weight: 500;
 }
 
+.compare-v2-cell.has-change {
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
 .compare-change-badge {
   display: inline-flex;
   align-items: center;
@@ -1012,11 +1017,6 @@ p {
 .compare-change-badge.is-up {
   background: rgba(34, 197, 94, 0.1);
   color: var(--success);
-}
-
-.compare-change-badge.is-flat {
-  background: var(--surface-muted);
-  color: var(--text-soft);
 }
 
 .compare-v2-insight {
