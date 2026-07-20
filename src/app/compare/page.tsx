@@ -7,6 +7,7 @@ import {
 import {
   allDevicesFlat,
   categoryLabels,
+  categoryNames,
   comparisonGroupsFlat,
   formatMaybeCurrency,
   getDevicesByComparisonGroupKeyFlat,
@@ -165,23 +166,57 @@ function buildChangedFields(
 }
 
 function buildSeriesOptions() {
+  const familyOrder = {
+    phone: ["iPhone"],
+    tablet: ["iPad", "iPad mini", "iPad Air", "iPad Pro"],
+    laptop: ["MacBook Air", "MacBook Pro"],
+  };
+  const variantOrder = [
+    "standard",
+    "Pro",
+    "Pro Max",
+    "Plus",
+    "mini",
+    "SE",
+    "e",
+    "Air",
+    "11-inch",
+    "13-inch",
+    "14-inch",
+    "15-inch",
+    "16-inch",
+  ];
+  const rank = (values: string[], value: string) => {
+    const index = values.indexOf(value);
+    return index < 0 ? values.length : index;
+  };
+
   return comparisonGroupsFlat
     .map((group) => {
       const devices = group.devices;
-      const latest = devices.at(-1) ?? null;
+      const family = group.family.replace(categoryLabels[group.category], "").trim();
+      const kind = family || (group.variant === "standard" ? "数字" : group.variant);
+      const size =
+        family && group.variant !== "standard"
+          ? ` · ${group.variant.replace("-inch", " 英寸")}`
+          : "";
+      const tier = group.tier === "pro-max" ? " · Pro/Max 芯片" : "";
       return {
         series: group.key,
-        label: group.label,
-        category: latest ? categoryLabels[latest.category] : "Apple",
+        label: `${kind}系列${size}${tier}`,
+        category: group.category,
         count: devices.length,
-        latestYear: latest?.releaseYear ?? 0,
+        order:
+          rank(familyOrder[group.category], group.family) * 100 +
+          rank(variantOrder, group.variant) * 10 +
+          (group.tier === "pro-max" ? 1 : 0),
       };
     })
     .filter((item) => item.count >= 2)
     .sort((left, right) => {
-      if (right.latestYear !== left.latestYear) return right.latestYear - left.latestYear;
-      if (right.count !== left.count) return right.count - left.count;
-      return left.series.localeCompare(right.series, "zh-CN");
+      const categoryOrder = categoryNames.indexOf(left.category) - categoryNames.indexOf(right.category);
+      if (categoryOrder !== 0) return categoryOrder;
+      return left.order - right.order || left.label.localeCompare(right.label, "zh-CN");
     });
 }
 
@@ -195,7 +230,7 @@ function CompareOverview({ devices }: { devices: (typeof allDevicesFlat)[number]
             href={`/devices/${device.id}`}
             className={`compare-overview-card${index === devices.length - 1 ? " is-current" : ""}`}
           >
-            <div className="compare-overview-model">{device.model.replace(device.series, "").trim() || device.model}</div>
+            <div className="compare-overview-model">{device.model}</div>
             <div className="compare-overview-year">{device.releaseYear}</div>
             <div className="compare-overview-price">{formatMaybeCurrency(device.launchPrice)}</div>
           </Link>
@@ -231,7 +266,7 @@ function CompareTable({
             <div className="compare-v2-cell is-label">功能 / 参数</div>
             {devices.map((device, index) => (
               <div className={`compare-v2-cell${index === devices.length - 1 ? " is-highlight" : ""}`} key={device.id}>
-                <span>{device.model.replace(device.series, "").trim() || device.model}</span>
+                <span>{device.model}</span>
                 <small>{device.releaseYear}</small>
               </div>
             ))}
@@ -298,6 +333,10 @@ export default async function ComparePage({
   const requestedSeries = normalizeSeries(resolvedSearchParams.series);
   const selectedSeries = seriesOptions.some((item) => item.series === requestedSeries) ? requestedSeries : defaultSeries;
   const selectedSeriesOption = seriesOptions.find((item) => item.series === selectedSeries) ?? null;
+  const selectedCategory = selectedSeriesOption?.category ?? "phone";
+  const categoryOptions = categoryNames
+    .filter((category) => seriesOptions.some((item) => item.category === category))
+    .map((category) => ({ value: category, label: categoryLabels[category] }));
   const selectedWindow = normalizeWindow(resolvedSearchParams.window);
   const seriesDevices = getDevicesByComparisonGroupKeyFlat(selectedSeries);
   const visibleDevices =
@@ -329,14 +368,17 @@ export default async function ComparePage({
 
       <section className="compare-selector">
         <div className="compare-selector-inner">
-          <div className="compare-selector-group">
-            <label className="compare-selector-label" htmlFor="compare-series">选择系列</label>
-            <CompareSeriesSelect
-              options={seriesOptions.map((item) => ({ label: item.label, series: item.series }))}
-              selectedSeries={selectedSeries}
-              selectedWindow={selectedWindow}
-            />
-          </div>
+          <CompareSeriesSelect
+            options={seriesOptions.map((item) => ({
+              label: item.label,
+              series: item.series,
+              category: item.category,
+            }))}
+            categories={categoryOptions}
+            selectedCategory={selectedCategory}
+            selectedSeries={selectedSeries}
+            selectedWindow={selectedWindow}
+          />
 
           <div className="compare-selector-group">
             <div className="compare-selector-label">对比范围</div>
