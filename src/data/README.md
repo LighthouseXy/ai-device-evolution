@@ -14,4 +14,4 @@
 - `archive/legacy/`：2026-06-25 的旧 specs、computed 和 v0 扁平数据快照。
 - `archive/apple-devices-*-batch-*.json`：主数据合并前的采集批次。
 
-修改主数据后运行 `npm run test:device-taxonomy`，校验设备标识、字段结构、比较组和前代引用。
+修改主数据后运行 `npm run test:device-taxonomy` 和 `npm run test:device-data-quality`，校验设备结构、比较组、前代引用、字段覆盖和来源登记。

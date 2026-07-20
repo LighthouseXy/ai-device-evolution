@@ -1,7 +1,7 @@
 # Apple 官方来源链接库
 
 > **项目：** 数码观察站 DeviceScope
-> **版本：** v1.1 | 2026-06-23
+> **版本：** v1.2 | 2026-07-20
 > **说明：** 本文件收录 Apple 官方来源链接，用于字段字典中 `SpecField.sourceUrl` 的标准化管理。
 
 ---
@@ -33,7 +33,7 @@
 | `officialSpecUrl` | string | Apple 官方技术规格链接 |
 | `supportUrl` | string \| null | Apple Support 链接 |
 | `newsroomUrl` | string \| null | Apple 新闻稿链接 |
-| `sourceStatus` | string | `verified` / `missing` / `needs_review` |
+| `sourceStatus` | string | `verified` / `needs_review` |
 | `notes` | string | 备注 |
 
 ---
@@ -116,10 +116,10 @@
 |----|-----------|-------------|----------------|-----------------|------------|--------------|-------|
 | ipad-pro-m5-11-2025 | iPad Pro 11-inch (M5) | 2025 | apple_support_docs | — | `https://support.apple.com/en-us/docs/ipad/301270` | verified | Apple Support tech specs |
 | ipad-pro-m5-13-2025 | iPad Pro 13-inch (M5) | 2025 | apple_support_docs | — | `https://support.apple.com/en-us/docs/ipad/301272` | verified | Apple Support tech specs |
-| ipad-pro-m4-11-2024 | iPad Pro 11-inch (M4) | 2024 | apple_support_docs | — | `https://support.apple.com/en-us/111842` | verified | Apple Support tech specs |
-| ipad-pro-m4-13-2024 | iPad Pro 13-inch (M4) | 2024 | apple_support_docs | — | `https://support.apple.com/en-us/111841` | verified | Apple Support tech specs |
-| ipad-pro-m2-2022 | iPad Pro (M2) | 2022 | apple_support_docs | — | `https://support.apple.com/en-us/111897` | verified | 11-inch 3rd gen, Apple Support |
-| ipad-pro-m2-13-2022 | iPad Pro (M2) 12.9-inch | 2022 | apple_support_docs | — | `https://support.apple.com/en-us/111896` | verified | 12.9-inch 6th gen, Apple Support |
+| ipad-pro-m4-11-2024 | iPad Pro 11-inch (M4) | 2024 | apple_support_docs | — | `https://support.apple.com/en-us/119892` | verified | Apple Support tech specs |
+| ipad-pro-m4-13-2024 | iPad Pro 13-inch (M4) | 2024 | apple_support_docs | — | `https://support.apple.com/en-us/119891` | verified | Apple Support tech specs |
+| ipad-pro-m2-2022 | iPad Pro 11-inch (M2) | 2022 | apple_support_docs | — | `https://support.apple.com/en-us/111842` | verified | 11-inch 4th gen, Apple Support |
+| ipad-pro-m2-13-2022 | iPad Pro 12.9-inch (M2) | 2022 | apple_support_docs | — | `https://support.apple.com/en-us/111841` | verified | 12.9-inch 6th gen, Apple Support |
 
 ### iPad Air 系列
 
@@ -157,19 +157,16 @@
 | id | modelName | releaseYear | sourcePageType | officialSpecUrl | supportUrl | sourceStatus | notes |
 |----|-----------|-------------|----------------|-----------------|------------|--------------|-------|
 | macbook-pro-14-m5-2025 | MacBook Pro 14-inch (M5) | 2025 | apple_support_docs | — | `https://support.apple.com/en-us/docs/mac/301274` | verified | Apple Support tech specs |
-| macbook-pro-14-m5-pro-2026 | MacBook Pro 14-inch (M5 Pro or M5 Max) | 2026 | apple_support_docs | — | `https://support.apple.com/en-us/docs/mac/301289` | verified | Apple Support tech specs |
+| macbook-pro-14-m5-pro-2026 | MacBook Pro 14-inch (M5 Pro/Max) | 2026 | apple_support_docs | — | `https://support.apple.com/en-us/docs/mac/301289` | verified | Apple Support tech specs |
 | macbook-pro-14-m4-2024 | MacBook Pro 14-inch (M4) | 2024 | apple_support_docs | — | `https://support.apple.com/en-us/docs/mac/301068` | verified | Apple Support tech specs |
-| macbook-pro-14-m4-pro-2024 | MacBook Pro 14-inch (M4 Pro or M4 Max) | 2024 | apple_support_docs | — | `https://support.apple.com/en-us/docs/mac/301069` | verified | Apple Support tech specs |
-| macbook-pro-14-m3-2023 | MacBook Pro 14-inch (M3) | 2023 | apple_support_docs | — | null | needs_review | 未找到精确匹配的 Apple Support 页面 |
-| macbook-pro-14-m2-2023 | MacBook Pro 14-inch (M2 Pro/Max) | 2023 | apple_support_docs | — | null | needs_review | 未找到精确匹配的 Apple Support 页面 |
+| macbook-pro-14-m4-pro-2024 | MacBook Pro 14-inch (M4 Pro/Max) | 2024 | apple_support_docs | — | `https://support.apple.com/en-us/docs/mac/301069` | verified | Apple Support tech specs |
 
 #### MacBook Pro 16-inch
 
 | id | modelName | releaseYear | sourcePageType | officialSpecUrl | supportUrl | sourceStatus | notes |
 |----|-----------|-------------|----------------|-----------------|------------|--------------|-------|
-| macbook-pro-16-m5-2026 | MacBook Pro 16-inch (M5 Pro or M5 Max) | 2026 | apple_support_docs | — | `https://support.apple.com/en-us/docs/mac/301286` | verified | Apple Support tech specs |
-| macbook-pro-16-m4-2024 | MacBook Pro 16-inch (M4 Pro or M4 Max) | 2024 | apple_support_docs | — | `https://support.apple.com/en-us/docs/mac/301070` | verified | Apple Support tech specs |
-| macbook-pro-16-m3-2023 | MacBook Pro 16-inch (M3 Pro/Max) | 2023 | apple_support_docs | — | null | needs_review | 未找到精确匹配的 Apple Support 页面 |
+| macbook-pro-16-m5-2026 | MacBook Pro 16-inch (M5 Pro/Max) | 2026 | apple_support_docs | — | `https://support.apple.com/en-us/docs/mac/301286` | verified | Apple Support tech specs |
+| macbook-pro-16-m4-2024 | MacBook Pro 16-inch (M4 Pro/Max) | 2024 | apple_support_docs | — | `https://support.apple.com/en-us/docs/mac/301070` | verified | Apple Support tech specs |
 | macbook-pro-16-m2-2023 | MacBook Pro 16-inch (M2 Pro/Max) | 2023 | apple_support_docs | — | `https://support.apple.com/en-us/111838` | verified | Apple Support tech specs |
 
 #### MacBook Pro 13-inch (旧款)

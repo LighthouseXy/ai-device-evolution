@@ -83,13 +83,9 @@ export type DeviceSpecs = {
   hasTouchId?: SpecField<boolean>;
   hasHDMI?: SpecField<boolean>;
   hasSDXC?: SpecField<boolean>;
-  hasSpatialAudio?: SpecField<boolean>;
-  secureEnclave?: SpecField<boolean>;
   magicKeyboard?: SpecField<boolean>;
-  displayCoating?: SpecField<string>;
   peakBrightness?: SpecField<number>;
   thickness?: SpecField<number>;
-  fastCharge?: SpecField<string>;
   wirelessWebBrowsing?: SpecField<string>;
   launchPrice?: SpecField<number>;
   currentPrice?: SpecField<number>;

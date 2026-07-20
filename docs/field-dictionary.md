@@ -83,10 +83,21 @@ type ComputedField = {
 
 ## 校验
 
-运行：
+运行完整数据校验：
 
 ```bash
 npm run test:device-taxonomy
+npm run test:device-data-quality
 ```
 
-校验覆盖设备数量与唯一性、字段元数据、布尔字段类型、严格比较组、连续代际顺序、computed 来源以及直接前代引用。
+分类校验覆盖设备数量与唯一性、字段元数据、布尔字段类型、严格比较组、连续代际顺序、computed 来源以及直接前代引用。
+
+数据质量校验覆盖：
+
+- 主数据与 `apple-sources.json` 一一对应；
+- 每个规格字段的 URL 已登记且属于允许的 Apple 域名；
+- `reference` 只用于缺少直接价格证据的首发价，并保持较低置信度；
+- 页面核心字段不得从当前完整覆盖状态回退；
+- 输出各品类关键字段覆盖率、来源地区分布和待复核设备清单。
+
+当前已知缺口：iPad 与 MacBook 尚无可信首发价，`currentPrice` / `usedPrice` 尚未采集；331 个 `www.apple.com` 字段来源未携带地区路径；6 台在库设备的来源登记仍为 `needs_review`。这些状态必须保留为缺失或待复核，不得为提高覆盖率写入推断值。

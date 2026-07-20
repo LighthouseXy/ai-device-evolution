@@ -105,7 +105,6 @@ export default async function DeviceDetailPage({
     ["分辨率", "resolution"],
     ["刷新率", "refreshRate"],
     ["峰值亮度", "peakBrightness"],
-    ["显示涂层", "displayCoating"],
   ]);
   const imagingRows = buildRows(device, [
     ["主摄", "mainCamera"],
@@ -117,7 +116,6 @@ export default async function DeviceDetailPage({
   ]);
   const batteryRows = buildRows(device, [
     ["电池续航", "batteryLife"],
-    ["快速充电", "fastCharge"],
     ["充电方式", "chargingMethod"],
     ["无线网络浏览", "wirelessWebBrowsing"],
   ]);

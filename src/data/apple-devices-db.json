@@ -2985,167 +2985,248 @@
         "colors": {
           "value": [
             "Silver",
-            "Space Gray"
+            "Space Black"
           ],
           "unit": null,
-          "rawText": "Finish    Silver    Space Gray",
-          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "rawText": "Silver, Space Black",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-20"
+        },
+        "weight": {
+          "value": 444,
+          "unit": "g",
+          "rawText": "444",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "dimensions": {
+          "value": "249.7 x 177.5 x 5.3",
+          "unit": "mm",
+          "rawText": "249.7 x 177.5 x 5.3",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "screenSize": {
           "value": 11,
           "unit": "inch",
-          "rawText": "iPad Pro 11-inch (4th generation) - Technical Specifications - Apple Support",
-          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "rawText": "11",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "displayType": {
-          "value": "Ultra Retina XDR display, OLED, ProMotion",
+          "value": "Ultra Retina XDR display (Tandem OLED)",
           "unit": null,
-          "rawText": "Display  Liquid Retina display    11-inch (diagonal) LED backlit Multi‑Touch display with IPS technology    2388-by-1668-pixel resolution at 264 pixels per inch (ppi)    ProMotion technology    Wide color display (P3)    True Tone display    Fingerprint-resistant oleophobic coating    Fully laminated display    Antireflective coating    1.8% reflectivity    SDR brightness: 600 nits max    Supports  Apple Pencil (2nd generation) ,  Apple Pencil (USB-C)     Apple Pencil hover     The 11-inch iPad Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 11 inches diagonally (actual viewable area is less).",
-          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "rawText": "Ultra Retina XDR display (Tandem OLED)",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "resolution": {
           "value": "2420 x 1668",
-          "unit": null,
-          "rawText": "Display  Liquid Retina display    11-inch (diagonal) LED backlit Multi‑Touch display with IPS technology    2388-by-1668-pixel resolution at 264 pixels per inch (ppi)    ProMotion technology    Wide color display (P3)    True Tone display    Fingerprint-resistant oleophobic coating    Fully laminated display    Antireflective coating    1.8% reflectivity    SDR brightness: 600 nits max    Supports  Apple Pencil (2nd generation) ,  Apple Pencil (USB-C)     Apple Pencil hover     The 11-inch iPad Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 11 inches diagonally (actual viewable area is less).",
-          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "unit": "pixels",
+          "rawText": "2420 x 1668",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "refreshRate": {
           "value": 120,
-          "unit": null,
+          "unit": "Hz",
           "rawText": "120",
-          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-07-18"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "chip": {
           "value": "Apple M4",
           "unit": null,
-          "rawText": null,
-          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "rawText": "Apple M4",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "cpu": {
+          "value": "9-core or 10-core CPU",
+          "unit": null,
+          "rawText": "9-core or 10-core CPU",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "gpu": {
+          "value": "10-core GPU",
+          "unit": null,
+          "rawText": "10-core GPU",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "neuralEngine": {
           "value": "16-core Neural Engine",
           "unit": null,
-          "rawText": "Chip   Apple M2 chip     8-core CPU with 4 performance cores and 4 efficiency cores    10-core GPU    16-core Neural Engine    100GB/s memory bandwidth    8GB RAM on models with 128GB, 256GB, or 512GB storage    16GB RAM on models with 1TB or 2TB storage     Media engine     Hardware-accelerated H.264, HEVC, ProRes, and ProRes RAW    Video decode engine    Video encode engine    ProRes encode and decode engine",
-          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "rawText": "16-core Neural Engine",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "memory": {
+          "value": "8GB / 16GB",
+          "unit": null,
+          "rawText": "8GB / 16GB",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "storage": {
           "value": "256GB / 512GB / 1TB / 2TB",
           "unit": null,
-          "rawText": "Capacity 1     128GB    256GB    512GB    1TB    2TB",
-          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "rawText": "256GB / 512GB / 1TB / 2TB",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-20"
         },
         "rearCamera": {
-          "value": "12MP Wide camera, f/1.8",
+          "value": "12MP Wide camera",
           "unit": null,
-          "rawText": "Camera    Pro camera system: Wide and Ultra Wide cameras    Wide: 12MP, ƒ/1.8 aperture    Ultra Wide: 10MP, ƒ/2.4 aperture, and 125° field of view    2x optical zoom out    Digital zoom up to 5x    Five‑element lens (Wide and Ultra Wide)    Brighter True Tone flash    Panorama (up to 63MP)    Sapphire crystal lens cover    Autofocus with Focus Pixels (Wide)    Smart HDR 4    Wide color capture for photos and Live Photos    Lens correction (Ultra Wide)    Advanced red-eye correction    Photo geotagging    Auto image stabilization    Burst mode    Image formats captured: HEIF and JPEG",
-          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "rawText": "12MP Wide camera",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "frontCamera": {
-          "value": "TrueDepth camera with Face ID",
+          "value": "Landscape 12MP Center Stage camera",
           "unit": null,
-          "rawText": "TrueDepth Camera    12MP Ultra Wide camera, 122° field of view    ƒ/2.4 aperture    Portrait mode with advanced bokeh and Depth Control    Portrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High‑Key Mono)    Animoji and Memoji    Smart HDR 4    1080p HD video recording at 25 fps, 30 fps, or 60 fps    Time‑lapse video with stabilization    Extended dynamic range for video up to 30 fps    Cinematic video stabilization (1080p and 720p)    Wide color capture for photos and Live Photos    Lens correction    Retina Flash    Auto image stabilization    Burst mode",
-          "sourceUrl": "https://support.apple.com/en-us/111842",
-          "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
-        },
-        "speakers": {
-          "value": "Four speaker audio",
-          "unit": null,
-          "rawText": "Speakers    Four speaker audio",
-          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "rawText": "Landscape 12MP Center Stage camera",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-20"
         },
-        "microphone": {
-          "value": "Five studio-quality microphones",
+        "videoRecording": {
+          "value": "4K video up to 60 fps; ProRes up to 4K 30 fps",
           "unit": null,
-          "rawText": "Microphones    Five studio-quality microphones for calls, video recording, and audio recording",
-          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "rawText": "4K video up to 60 fps; ProRes up to 4K 30 fps",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-20"
         },
-        "pencilSupport": {
-          "value": "Apple Pencil Pro, Apple Pencil (USB-C)",
+        "batteryLife": {
+          "value": "Up to 10 hours web browsing or video",
           "unit": null,
-          "rawText": "Buttons and Connectors       Front camera    Top button    Volume buttons    Rear cameras    Flash    LiDAR Scanner    Smart Connector    Thunderbolt / USB 4 connector    SIM tray (Wi-Fi + Cellular)    Magnetic connector for Apple Pencil",
-          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "rawText": "Up to 10 hours web browsing or video",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "port": {
           "value": "Thunderbolt / USB 4",
           "unit": null,
-          "rawText": "Buttons and Connectors       Front camera    Top button    Volume buttons    Rear cameras    Flash    LiDAR Scanner    Smart Connector    Thunderbolt / USB 4 connector    SIM tray (Wi-Fi + Cellular)    Magnetic connector for Apple Pencil",
-          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "rawText": "Thunderbolt / USB 4",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-20"
+        },
+        "chargingMethod": {
+          "value": "USB-C",
+          "unit": null,
+          "rawText": "USB-C",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "security": {
           "value": "Face ID",
           "unit": null,
-          "rawText": "Sensors    Face ID    LiDAR Scanner    Three-axis gyro    Accelerometer    Barometer    Ambient light sensor",
-          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "rawText": "Face ID",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-20"
         },
         "wifi": {
           "value": "Wi-Fi 6E (802.11ax)",
           "unit": null,
-          "rawText": "Size and Weight 2      Wi-Fi models     Width: 7.02 inches (178.5 mm)    Height: 9.74 inches (247.6 mm)    Depth: 0.23 inch (5.9 mm)    Weight: 1.03 pounds (466 grams)       Wi-Fi + Cellular models     Width: 7.02 inches (178.5 mm)    Height: 9.74 inches (247.6 mm)    Depth: 0.23 inch (5.9 mm)    Weight: 1.04 pounds (470 grams)",
-          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "rawText": "Wi-Fi 6E (802.11ax)",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "bluetooth": {
           "value": "Bluetooth 5.3",
           "unit": null,
-          "rawText": "Cellular and Wireless     All models     Wi‑Fi 6E (802.11ax) with 2x2 MIMO; speeds up to 2.4 Gbps 4     Simultaneous dual band    Bluetooth 5.3       Wi-Fi + Cellular models     5G (sub‑6 GHz and mmWave) with 4x4 MIMO    Gigabit LTE with 4x4 MIMO and LAA       Model A2435 and A2764:     5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n66, n70, n71, n77, n78, n79) 5     5G NR mmWave (Bands n258, n260, n261)    FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 66, 71)    TD-LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48)    UMTS/HSPA/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)    Data only 6     Wi-Fi calling 5     eSIM 7        Learn more about cellular   For details on 5G and LTE support, contact your carrier and see  apple.com/ipad/cellular/networks .",
-          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "rawText": "Bluetooth 5.3",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "sim": {
+          "value": "eSIM",
+          "unit": null,
+          "rawText": "eSIM",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "speakers": {
+          "value": "Four speaker audio",
+          "unit": null,
+          "rawText": "Four speaker audio",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "microphone": {
+          "value": "Studio-quality four-mic array",
+          "unit": null,
+          "rawText": "Studio-quality four-mic array",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "pencilSupport": {
+          "value": "Apple Pencil Pro, Apple Pencil (USB-C)",
+          "unit": null,
+          "rawText": "Apple Pencil Pro, Apple Pencil (USB-C)",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "externalDisplay": {
-          "value": "Supports one external display up to 6K at 60Hz",
+          "value": "One external display up to 6K at 60Hz",
           "unit": null,
-          "rawText": "Display Support     Supports full native resolution on the built-in display at millions of colors     Supports one external display with up to 6K resolution at 60Hz       Thunderbolt 3 digital video output     Native DisplayPort output over USB-C    VGA, HDMI, DVI, and Thunderbolt 2 output supported using adapters (sold separately) 9        Video mirroring     Up to 4K AirPlay for mirroring, photos, and video out to Apple TV (2nd generation or later) or AirPlay‑enabled smart TV    Video mirroring and video out support through USB-C Digital AV Multiport Adapter and USB-C VGA Multiport Adapter (adapters sold separately) 9",
-          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "rawText": "One external display up to 6K at 60Hz",
+          "sourceUrl": "https://support.apple.com/en-us/119892",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         }
       },
       "computed": {
@@ -3192,167 +3273,248 @@
         "colors": {
           "value": [
             "Silver",
-            "Space Gray"
+            "Space Black"
           ],
           "unit": null,
-          "rawText": "Finish    Silver    Space Gray",
-          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "rawText": "Silver, Space Black",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-20"
+        },
+        "weight": {
+          "value": 579,
+          "unit": "g",
+          "rawText": "579",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "dimensions": {
+          "value": "281.6 x 215.5 x 5.1",
+          "unit": "mm",
+          "rawText": "281.6 x 215.5 x 5.1",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "screenSize": {
           "value": 13,
           "unit": "inch",
-          "rawText": "iPad Pro 12.9-inch (6th generation) - Technical Specifications - Apple Support",
-          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "rawText": "13",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "displayType": {
-          "value": "Ultra Retina XDR display, OLED, ProMotion",
+          "value": "Ultra Retina XDR display (Tandem OLED)",
           "unit": null,
-          "rawText": "Display  Liquid Retina XDR display    12.9-inch (diagonal) mini-LED backlit Multi‑Touch display with IPS technology    2D backlighting system with 2596 full‑array local dimming zones    2732-by-2048-pixel resolution at 264 pixels per inch (ppi)    ProMotion technology    Wide color display (P3)    True Tone display    Fingerprint-resistant oleophobic coating    Fully laminated display    Antireflective coating    1.8% reflectivity    SDR brightness: 600 nits max    XDR brightness: 1000 nits max full screen, 1600 nits peak (HDR content only)    1,000,000:1 contrast ratio    Supports  Apple Pencil (2nd generation) ,  Apple Pencil (USB-C)     Apple Pencil hover     The 12.9-inch iPad Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 12.9 inches diagonally (actual viewable area is less).",
-          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "rawText": "Ultra Retina XDR display (Tandem OLED)",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "resolution": {
-          "value": "2732 x 2048",
-          "unit": null,
-          "rawText": "Display  Liquid Retina XDR display    12.9-inch (diagonal) mini-LED backlit Multi‑Touch display with IPS technology    2D backlighting system with 2596 full‑array local dimming zones    2732-by-2048-pixel resolution at 264 pixels per inch (ppi)    ProMotion technology    Wide color display (P3)    True Tone display    Fingerprint-resistant oleophobic coating    Fully laminated display    Antireflective coating    1.8% reflectivity    SDR brightness: 600 nits max    XDR brightness: 1000 nits max full screen, 1600 nits peak (HDR content only)    1,000,000:1 contrast ratio    Supports  Apple Pencil (2nd generation) ,  Apple Pencil (USB-C)     Apple Pencil hover     The 12.9-inch iPad Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 12.9 inches diagonally (actual viewable area is less).",
-          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "value": "2752 x 2064",
+          "unit": "pixels",
+          "rawText": "2752 x 2064",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "refreshRate": {
           "value": 120,
-          "unit": null,
+          "unit": "Hz",
           "rawText": "120",
-          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-07-18"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "chip": {
           "value": "Apple M4",
           "unit": null,
-          "rawText": null,
-          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "rawText": "Apple M4",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "cpu": {
+          "value": "9-core or 10-core CPU",
+          "unit": null,
+          "rawText": "9-core or 10-core CPU",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "gpu": {
+          "value": "10-core GPU",
+          "unit": null,
+          "rawText": "10-core GPU",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "neuralEngine": {
           "value": "16-core Neural Engine",
           "unit": null,
-          "rawText": "Chip   Apple M2 chip     8-core CPU with 4 performance cores and 4 efficiency cores    10-core GPU    16-core Neural Engine    100GB/s memory bandwidth    8GB RAM on models with 128GB, 256GB, or 512GB storage    16GB RAM on models with 1TB or 2TB storage     Media engine     Hardware-accelerated H.264, HEVC, ProRes, and ProRes RAW    Video decode engine    Video encode engine    ProRes encode and decode engine",
-          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "rawText": "16-core Neural Engine",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "memory": {
+          "value": "8GB / 16GB",
+          "unit": null,
+          "rawText": "8GB / 16GB",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "storage": {
           "value": "256GB / 512GB / 1TB / 2TB",
           "unit": null,
-          "rawText": "Capacity 1     128GB    256GB    512GB    1TB    2TB",
-          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "rawText": "256GB / 512GB / 1TB / 2TB",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-20"
         },
         "rearCamera": {
-          "value": "12MP Wide camera, f/1.8",
+          "value": "12MP Wide camera",
           "unit": null,
-          "rawText": "Camera    Pro camera system: Wide and Ultra Wide cameras    Wide: 12MP, ƒ/1.8 aperture    Ultra Wide: 10MP, ƒ/2.4 aperture, and 125° field of view    2x optical zoom out    Digital zoom up to 5x    Five‑element lens (Wide and Ultra Wide)    Brighter True Tone flash    Panorama (up to 63MP)    Sapphire crystal lens cover    Autofocus with Focus Pixels (Wide)    Smart HDR 4    Wide color capture for photos and Live Photos    Lens correction (Ultra Wide)    Advanced red-eye correction    Photo geotagging    Auto image stabilization    Burst mode    Image formats captured: HEIF and JPEG",
-          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "rawText": "12MP Wide camera",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "frontCamera": {
-          "value": "TrueDepth camera with Face ID",
+          "value": "Landscape 12MP Center Stage camera",
           "unit": null,
-          "rawText": "TrueDepth Camera    12MP Ultra Wide camera, 122° field of view    ƒ/2.4 aperture    Portrait mode with advanced bokeh and Depth Control    Portrait Lighting with six effects (Natural, Studio, Contour, Stage, Stage Mono, High‑Key Mono)    Animoji and Memoji    Smart HDR 4    1080p HD video recording at 25 fps, 30 fps, or 60 fps    Time‑lapse video with stabilization    Extended dynamic range for video up to 30 fps    Cinematic video stabilization (1080p and 720p)    Wide color capture for photos and Live Photos    Lens correction    Retina Flash    Auto image stabilization    Burst mode",
-          "sourceUrl": "https://support.apple.com/en-us/111841",
-          "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
-        },
-        "speakers": {
-          "value": "Four speaker audio",
-          "unit": null,
-          "rawText": "Speakers    Four speaker audio",
-          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "rawText": "Landscape 12MP Center Stage camera",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-20"
         },
-        "microphone": {
-          "value": "Five studio-quality microphones",
+        "videoRecording": {
+          "value": "4K video up to 60 fps; ProRes up to 4K 30 fps",
           "unit": null,
-          "rawText": "Microphones    Five studio-quality microphones for calls, video recording, and audio recording",
-          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "rawText": "4K video up to 60 fps; ProRes up to 4K 30 fps",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-20"
         },
-        "pencilSupport": {
-          "value": "Apple Pencil Pro, Apple Pencil (USB-C)",
+        "batteryLife": {
+          "value": "Up to 10 hours web browsing or video",
           "unit": null,
-          "rawText": "Buttons and Connectors       Front camera    Top button    Volume buttons    Rear cameras    Flash    LiDAR Scanner    Smart Connector    Thunderbolt / USB 4 connector    SIM tray (Wi-Fi + Cellular)    Magnetic connector for Apple Pencil",
-          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "rawText": "Up to 10 hours web browsing or video",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "port": {
           "value": "Thunderbolt / USB 4",
           "unit": null,
-          "rawText": "Buttons and Connectors       Front camera    Top button    Volume buttons    Rear cameras    Flash    LiDAR Scanner    Smart Connector    Thunderbolt / USB 4 connector    SIM tray (Wi-Fi + Cellular)    Magnetic connector for Apple Pencil",
-          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "rawText": "Thunderbolt / USB 4",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-20"
+        },
+        "chargingMethod": {
+          "value": "USB-C",
+          "unit": null,
+          "rawText": "USB-C",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "security": {
           "value": "Face ID",
           "unit": null,
-          "rawText": "Sensors    Face ID    LiDAR Scanner    Three-axis gyro    Accelerometer    Barometer    Ambient light sensor",
-          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "rawText": "Face ID",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-20"
         },
         "wifi": {
           "value": "Wi-Fi 6E (802.11ax)",
           "unit": null,
-          "rawText": "Size and Weight 2      Wi-Fi models     Width: 8.46 inches (214.9 mm)    Height: 11.04 inches (280.6 mm)    Depth: 0.25 inch (6.4 mm)    Weight: 1.5 pounds (682 grams)       Wi-Fi + Cellular models     Width: 8.46 inches (214.9 mm)    Height: 11.04 inches (280.6 mm)    Depth: 0.25 inch (6.4 mm)    Weight: 1.51 pounds (685 grams)",
-          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "rawText": "Wi-Fi 6E (802.11ax)",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "bluetooth": {
           "value": "Bluetooth 5.3",
           "unit": null,
-          "rawText": "Cellular and Wireless     All models     Wi‑Fi 6E (802.11ax) with 2x2 MIMO; speeds up to 2.4 Gbps 4     Simultaneous dual band    Bluetooth 5.3       Wi-Fi + Cellular models     5G (sub‑6 GHz and mmWave) with 4x4 MIMO    Gigabit LTE with 4x4 MIMO and LAA       Model A2435 and A2764:     5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n14, n20, n25, n26, n28, n29, n30, n38, n40, n41, n48, n66, n70, n71, n77, n78, n79) 5     5G NR mmWave (Bands n258, n260, n261)    FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 66, 71)    TD-LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48)    UMTS/HSPA/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)    Data only 6     Wi-Fi calling 5     eSIM 7        Learn more about cellular   For details on 5G and LTE support, contact your carrier and see  apple.com/ipad/cellular/networks.",
-          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "rawText": "Bluetooth 5.3",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "sim": {
+          "value": "eSIM",
+          "unit": null,
+          "rawText": "eSIM",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "speakers": {
+          "value": "Four speaker audio",
+          "unit": null,
+          "rawText": "Four speaker audio",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "microphone": {
+          "value": "Studio-quality four-mic array",
+          "unit": null,
+          "rawText": "Studio-quality four-mic array",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "pencilSupport": {
+          "value": "Apple Pencil Pro, Apple Pencil (USB-C)",
+          "unit": null,
+          "rawText": "Apple Pencil Pro, Apple Pencil (USB-C)",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "externalDisplay": {
-          "value": "Supports one external display up to 6K at 60Hz",
+          "value": "One external display up to 6K at 60Hz",
           "unit": null,
-          "rawText": "Display Support     Supports full native resolution on the built-in display at millions of colors     Supports one external display with up to 6K resolution at 60Hz       Thunderbolt 3 digital video output     Native DisplayPort output over USB-C    VGA, HDMI, DVI, and Thunderbolt 2 output supported using adapters (sold separately) 9        Video mirroring     Up to 4K AirPlay for mirroring, photos, and video out to Apple TV (2nd generation or later) or AirPlay‑enabled smart TV    Video mirroring and video out support through USB-C Digital AV Multiport Adapter and USB-C VGA Multiport Adapter (adapters sold separately) 9",
-          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "rawText": "One external display up to 6K at 60Hz",
+          "sourceUrl": "https://support.apple.com/en-us/119891",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         }
       },
       "computed": {
@@ -7352,154 +7514,256 @@
       "series": "iPad Pro",
       "family": "iPad Pro",
       "variant": "11-inch",
-      "modelName": "iPad Pro (M2)",
+      "modelName": "iPad Pro 11-inch (M2)",
       "generation": "M2",
       "generationOrder": 1,
       "releaseYear": 2022,
       "specs": {
+        "colors": {
+          "value": [
+            "Silver",
+            "Space Gray"
+          ],
+          "unit": null,
+          "rawText": "Silver, Space Gray",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "weight": {
+          "value": 466,
+          "unit": "g",
+          "rawText": "466",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "dimensions": {
+          "value": "247.6 x 178.5 x 5.9",
+          "unit": "mm",
+          "rawText": "247.6 x 178.5 x 5.9",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
         "screenSize": {
           "value": 11,
           "unit": "inch",
-          "rawText": "Display    Liquid Retina display    11-inch (diagonal) LED backlit Multi‑Touch display with IPS technology    2388-by-1668-pixel resolution at 264 pixels per inch (ppi)    ProMotion technology    Wide color display (P3)    True Tone display    Fingerprint-resistant oleophobic coating    Fully laminated display    Antireflective coating    1.8% reflectivity    SDR brightness: 600 nits max    Supports  Apple Pencil (2nd generation) ,  Apple Pencil (USB-C)      The 11-inch iPad Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 11 inches diagonally (actual viewable area is less).",
-          "sourceUrl": "https://support.apple.com/en-us/111897",
+          "rawText": "11",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "displayType": {
-          "value": "Display    Liquid Retina display    11-inch (diagonal) LED backlit Multi‑Touch d",
+          "value": "Liquid Retina display",
           "unit": null,
-          "rawText": "Display    Liquid Retina display    11-inch (diagonal) LED backlit Multi‑Touch display with IPS technology    2388-by-1668-pixel resolution at 264 pixels per inch (ppi)    ProMotion technology    Wide color display (P3)    True Tone display    Fingerprint-resistant oleophobic coating    Fully laminated display    Antireflective coating    1.8% reflectivity    SDR brightness: 600 nits max    Supports  Apple Pencil (2nd generation) ,  Apple Pencil (USB-C)      The 11-inch iPad Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 11 inches diagonally (actual viewable area is less).",
-          "sourceUrl": "https://support.apple.com/en-us/111897",
+          "rawText": "Liquid Retina display",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "resolution": {
           "value": "2388 x 1668",
-          "unit": null,
-          "rawText": "Display    Liquid Retina display    11-inch (diagonal) LED backlit Multi‑Touch display with IPS technology    2388-by-1668-pixel resolution at 264 pixels per inch (ppi)    ProMotion technology    Wide color display (P3)    True Tone display    Fingerprint-resistant oleophobic coating    Fully laminated display    Antireflective coating    1.8% reflectivity    SDR brightness: 600 nits max    Supports  Apple Pencil (2nd generation) ,  Apple Pencil (USB-C)      The 11-inch iPad Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 11 inches diagonally (actual viewable area is less).",
-          "sourceUrl": "https://support.apple.com/en-us/111897",
+          "unit": "pixels",
+          "rawText": "2388 x 1668",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-20"
         },
-        "neuralEngine": {
-          "value": "Chip    Apple M1 chip    8-core CPU with 4 performance cores",
-          "unit": null,
-          "rawText": "Chip    Apple M1 chip    8-core CPU with 4 performance cores and 4 efficiency cores    8-core GPU    16-core Neural Engine    8GB RAM on models with 128GB, 256GB, or 512GB storage    16GB RAM on models with 1TB or 2TB storage",
-          "sourceUrl": "https://support.apple.com/en-us/111897",
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "120",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
-        },
-        "storage": {
-          "value": "128GB / 256GB / 512GB / 1TB / 2TB",
-          "unit": null,
-          "rawText": "Capacity 1     128GB    256GB    512GB    1TB    2TB",
-          "sourceUrl": "https://support.apple.com/en-us/111897",
-          "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
-        },
-        "rearCamera": {
-          "value": "Camera    Pro camera system: Wide and Ultra Wide cameras    Wide: 12MP, ƒ/1.8 aperture    Ultra Wide",
-          "unit": null,
-          "rawText": "Camera    Pro camera system: Wide and Ultra Wide cameras    Wide: 12MP, ƒ/1.8 aperture    Ultra Wide: 10MP, ƒ/2.4 aperture, and 125° field of view    2x optical zoom out    Digital zoom up to 5x    Five‑element lens (Wide and Ultra Wide)    Brighter True Tone flash    Panorama (up to 63MP)    Sapphire crystal lens cover    Autofocus with Focus Pixels (Wide)    Smart HDR 3    Wide color capture for photos and Live Photos    Lens correction (Ultra Wide)    Advanced red-eye correction    Photo geotagging    Auto image stabilization    Burst mode    Image formats captured: HEIF and JPEG",
-          "sourceUrl": "https://support.apple.com/en-us/111897",
-          "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
-        },
-        "frontCamera": {
-          "value": "Video Calling 3     FaceTime video    Center Stage    iPad to any FaceTime-enabl",
-          "unit": null,
-          "rawText": "Video Calling 3     FaceTime video    Center Stage    iPad to any FaceTime-enabled device over Wi-Fi or cellular",
-          "sourceUrl": "https://support.apple.com/en-us/111897",
-          "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
-        },
-        "speakers": {
-          "value": "Buttons and Connectors    Five microphones    Four speakers ",
-          "unit": null,
-          "rawText": "Buttons and Connectors    Five microphones    Four speakers    Top button    Volume up/down    Camera    Magnetic connector    Thunderbolt/USB 4    Smart Connector    Nano-SIM tray",
-          "sourceUrl": "https://support.apple.com/en-us/111897",
-          "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
-        },
-        "microphone": {
-          "value": "Buttons and Connectors    Five microphones    Four speakers ",
-          "unit": null,
-          "rawText": "Buttons and Connectors    Five microphones    Four speakers    Top button    Volume up/down    Camera    Magnetic connector    Thunderbolt/USB 4    Smart Connector    Nano-SIM tray",
-          "sourceUrl": "https://support.apple.com/en-us/111897",
-          "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
-        },
-        "pencilSupport": {
-          "value": "Display    Liquid Retina display    11-inch (diagonal) LED backlit Multi‑Touch d",
-          "unit": null,
-          "rawText": "Display    Liquid Retina display    11-inch (diagonal) LED backlit Multi‑Touch display with IPS technology    2388-by-1668-pixel resolution at 264 pixels per inch (ppi)    ProMotion technology    Wide color display (P3)    True Tone display    Fingerprint-resistant oleophobic coating    Fully laminated display    Antireflective coating    1.8% reflectivity    SDR brightness: 600 nits max    Supports  Apple Pencil (2nd generation) ,  Apple Pencil (USB-C)      The 11-inch iPad Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 11 inches diagonally (actual viewable area is less).",
-          "sourceUrl": "https://support.apple.com/en-us/111897",
-          "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
-        },
-        "port": {
-          "value": "In the Box    iPad Pro    USB-C Charge Cable (1 meter)    20",
-          "unit": null,
-          "rawText": "In the Box    iPad Pro    USB-C Charge Cable (1 meter)    20W USB-C Power Adapter",
-          "sourceUrl": "https://support.apple.com/en-us/111897",
-          "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
-        },
-        "security": {
-          "value": "Face ID",
-          "unit": null,
-          "rawText": "Sensors    Face ID    LiDAR Scanner    Three-axis gyro    Accelerometer    Barometer    Ambient light sensor",
-          "sourceUrl": "https://support.apple.com/en-us/111897",
-          "sourceType": "apple",
-          "confidence": 1,
-          "verifiedAt": "2026-06-25"
-        },
-        "wifi": {
-          "value": "Size and Weight 2      Wi-Fi models     Width: 7.02 inches (",
-          "unit": null,
-          "rawText": "Size and Weight 2      Wi-Fi models     Width: 7.02 inches (178.5 mm)    Height: 9.74 inches (247.6 mm)    Depth: 0.23 inch (5.9 mm)    Weight: 1.03 pounds (466 grams)       Wi-Fi + Cellular models     Width: 7.02 inches (178.5 mm)    Height: 9.74 inches (247.6 mm)    Depth: 0.23 inch (5.9 mm)    Weight: 1.04 pounds (470 grams)",
-          "sourceUrl": "https://support.apple.com/en-us/111897",
-          "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
-        },
-        "bluetooth": {
-          "value": "Cellular and Wireless     All ",
-          "unit": null,
-          "rawText": "Cellular and Wireless     All models     802.11ax Wi-Fi 6; simultaneous dual band (2.4GHz and 5GHz); HT80 with MIMO    Bluetooth 5.0 technology       Wi-Fi + Cellular models     Model A2301 and A2379:    5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n20, n25, n28, n38, n40, n41, n66, n71, n77, n78, n79) 4     5G NR mmWave (Bands n260, n261)    FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 66, 71)    TD-LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48)    UMTS/HSPA/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)    GSM/EDGE (850, 900, 1800, 1900 MHz)    Data only 5     Wi-Fi calling 4     eSIM 6      Learn more about cellular data       For details on 5G and LTE support, contact your carrier and see  apple.com/ipad/cellular/networks .",
-          "sourceUrl": "https://support.apple.com/en-us/111897",
-          "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
-        },
-        "externalDisplay": {
-          "value": "Display Support    Supports full native resolution on the built-in display at millions of colors    ",
-          "unit": null,
-          "rawText": "Display Support    Supports full native resolution on the built-in display at millions of colors    Supports one external display with up to 6K resolution at 60Hz      Thunderbolt 3 digital video output    Native DisplayPort output over USB-C    VGA, HDMI, DVI, and Thunderbolt 2 output supported using adapters (sold separately) 8       Video mirroring    Up to 4K AirPlay for mirroring, photos, and video out to Apple TV (2nd generation or later) or AirPlay 2–enabled smart TV    Video mirroring and video out support through USB-C Digital AV Multiport Adapter and USB-C VGA Multiport Adapter (adapters sold separately) 8",
-          "sourceUrl": "https://support.apple.com/en-us/111897",
-          "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-20"
         },
         "chip": {
           "value": "Apple M2",
           "unit": null,
           "rawText": "Apple M2",
-          "sourceUrl": "https://support.apple.com/en-us/111897",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "cpu": {
+          "value": "8-core CPU (4 performance + 4 efficiency)",
+          "unit": null,
+          "rawText": "8-core CPU (4 performance + 4 efficiency)",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "gpu": {
+          "value": "10-core GPU",
+          "unit": null,
+          "rawText": "10-core GPU",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "neuralEngine": {
+          "value": "16-core Neural Engine",
+          "unit": null,
+          "rawText": "16-core Neural Engine",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "memory": {
+          "value": "8GB / 16GB",
+          "unit": null,
+          "rawText": "8GB / 16GB",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "storage": {
+          "value": "128GB / 256GB / 512GB / 1TB / 2TB",
+          "unit": null,
+          "rawText": "128GB / 256GB / 512GB / 1TB / 2TB",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "rearCamera": {
+          "value": "12MP Wide + 10MP Ultra Wide",
+          "unit": null,
+          "rawText": "12MP Wide + 10MP Ultra Wide",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "frontCamera": {
+          "value": "12MP Ultra Wide TrueDepth camera",
+          "unit": null,
+          "rawText": "12MP Ultra Wide TrueDepth camera",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "videoRecording": {
+          "value": "4K video up to 60 fps; ProRes up to 4K 30 fps",
+          "unit": null,
+          "rawText": "4K video up to 60 fps; ProRes up to 4K 30 fps",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "batteryLife": {
+          "value": "Up to 10 hours web browsing or video",
+          "unit": null,
+          "rawText": "Up to 10 hours web browsing or video",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "port": {
+          "value": "Thunderbolt / USB 4",
+          "unit": null,
+          "rawText": "Thunderbolt / USB 4",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "chargingMethod": {
+          "value": "USB-C",
+          "unit": null,
+          "rawText": "USB-C",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "security": {
+          "value": "Face ID",
+          "unit": null,
+          "rawText": "Face ID",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "wifi": {
+          "value": "Wi-Fi 6E (802.11ax)",
+          "unit": null,
+          "rawText": "Wi-Fi 6E (802.11ax)",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "bluetooth": {
+          "value": "Bluetooth 5.3",
+          "unit": null,
+          "rawText": "Bluetooth 5.3",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "sim": {
+          "value": "Nano-SIM + eSIM",
+          "unit": null,
+          "rawText": "Nano-SIM + eSIM",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "speakers": {
+          "value": "Four speaker audio",
+          "unit": null,
+          "rawText": "Four speaker audio",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "microphone": {
+          "value": "Five studio-quality microphones",
+          "unit": null,
+          "rawText": "Five studio-quality microphones",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "pencilSupport": {
+          "value": "Apple Pencil (2nd generation), Apple Pencil (USB-C)",
+          "unit": null,
+          "rawText": "Apple Pencil (2nd generation), Apple Pencil (USB-C)",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "externalDisplay": {
+          "value": "One external display up to 6K at 60Hz",
+          "unit": null,
+          "rawText": "One external display up to 6K at 60Hz",
+          "sourceUrl": "https://support.apple.com/en-us/111842",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         }
       },
       "computed": {
@@ -7538,7 +7802,7 @@
       "series": "iPad Air",
       "family": "iPad Air",
       "variant": "11-inch",
-      "modelName": "iPad Air (M2)",
+      "modelName": "iPad Air 11-inch (M2)",
       "generation": "M2",
       "generationOrder": 1,
       "releaseYear": 2024,
@@ -10244,145 +10508,256 @@
       "series": "iPad Pro",
       "family": "iPad Pro",
       "variant": "13-inch",
-      "modelName": "iPad Pro 13-inch (M2)",
-      "generation": "M2 13-inch",
+      "modelName": "iPad Pro 12.9-inch (M2)",
+      "generation": "M2 12.9-inch",
       "generationOrder": 1,
       "releaseYear": 2022,
       "specs": {
+        "colors": {
+          "value": [
+            "Silver",
+            "Space Gray"
+          ],
+          "unit": null,
+          "rawText": "Silver, Space Gray",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "weight": {
+          "value": 682,
+          "unit": "g",
+          "rawText": "682",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "dimensions": {
+          "value": "280.6 x 214.9 x 6.4",
+          "unit": "mm",
+          "rawText": "280.6 x 214.9 x 6.4",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
         "screenSize": {
           "value": 12.9,
-          "unit": null,
-          "rawText": "Display     Liquid Retina XDR display    12.9-inch (diagonal) mini-LED backlit Multi‑Touch display with IPS technology    2D backlighting system with 2596 full‑array local dimming zones    2732-by-2048-pixel resolution at 264 pixels per inch (ppi)    ProMotion technology    Wide color display (P3)    True Tone display    Fingerprint-resistant oleophobic coating    Fully laminated display    Antireflective coating    1.8% reflectivity    SDR brightness: 600 nits max    XDR brightness: 1000 nits max full screen, 1600 nits peak (HDR content only)    1,000,000:1 contrast ratio    Supports  Apple Pencil (2nd generation) ,  Apple Pencil   (USB-C)      The 12.9-inch iPad Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 12.9 inches diagonally (actual viewable area is less).",
-          "sourceUrl": "https://support.apple.com/en-us/111896",
+          "unit": "inch",
+          "rawText": "12.9",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "displayType": {
-          "value": "Display     Liquid Retina XDR display    12.9-inch (diagonal) mini-LED backlit M",
+          "value": "Liquid Retina XDR display",
           "unit": null,
-          "rawText": "Display     Liquid Retina XDR display    12.9-inch (diagonal) mini-LED backlit Multi‑Touch display with IPS technology    2D backlighting system with 2596 full‑array local dimming zones    2732-by-2048-pixel resolution at 264 pixels per inch (ppi)    ProMotion technology    Wide color display (P3)    True Tone display    Fingerprint-resistant oleophobic coating    Fully laminated display    Antireflective coating    1.8% reflectivity    SDR brightness: 600 nits max    XDR brightness: 1000 nits max full screen, 1600 nits peak (HDR content only)    1,000,000:1 contrast ratio    Supports  Apple Pencil (2nd generation) ,  Apple Pencil   (USB-C)      The 12.9-inch iPad Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 12.9 inches diagonally (actual viewable area is less).",
-          "sourceUrl": "https://support.apple.com/en-us/111896",
+          "rawText": "Liquid Retina XDR display",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "resolution": {
           "value": "2732 x 2048",
-          "unit": null,
-          "rawText": "Display     Liquid Retina XDR display    12.9-inch (diagonal) mini-LED backlit Multi‑Touch display with IPS technology    2D backlighting system with 2596 full‑array local dimming zones    2732-by-2048-pixel resolution at 264 pixels per inch (ppi)    ProMotion technology    Wide color display (P3)    True Tone display    Fingerprint-resistant oleophobic coating    Fully laminated display    Antireflective coating    1.8% reflectivity    SDR brightness: 600 nits max    XDR brightness: 1000 nits max full screen, 1600 nits peak (HDR content only)    1,000,000:1 contrast ratio    Supports  Apple Pencil (2nd generation) ,  Apple Pencil   (USB-C)      The 12.9-inch iPad Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 12.9 inches diagonally (actual viewable area is less).",
-          "sourceUrl": "https://support.apple.com/en-us/111896",
+          "unit": "pixels",
+          "rawText": "2732 x 2048",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-20"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "120",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "chip": {
+          "value": "Apple M2",
+          "unit": null,
+          "rawText": "Apple M2",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "cpu": {
+          "value": "8-core CPU (4 performance + 4 efficiency)",
+          "unit": null,
+          "rawText": "8-core CPU (4 performance + 4 efficiency)",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "gpu": {
+          "value": "10-core GPU",
+          "unit": null,
+          "rawText": "10-core GPU",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "neuralEngine": {
-          "value": "Chip     Apple M1 chip    8-core CPU with 4 performance core",
+          "value": "16-core Neural Engine",
           "unit": null,
-          "rawText": "Chip     Apple M1 chip    8-core CPU with 4 performance cores and 4 efficiency cores    8-core GPU    16-core Neural Engine    8GB RAM on models with 128GB, 256GB, or 512GB storage    16GB RAM on models with 1TB or 2TB storage",
-          "sourceUrl": "https://support.apple.com/en-us/111896",
+          "rawText": "16-core Neural Engine",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-20"
+        },
+        "memory": {
+          "value": "8GB / 16GB",
+          "unit": null,
+          "rawText": "8GB / 16GB",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "storage": {
           "value": "128GB / 256GB / 512GB / 1TB / 2TB",
           "unit": null,
-          "rawText": "Capacity 1     128GB    256GB    512GB    1TB    2TB",
-          "sourceUrl": "https://support.apple.com/en-us/111896",
+          "rawText": "128GB / 256GB / 512GB / 1TB / 2TB",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "rearCamera": {
-          "value": "Camera     Pro camera system: Wide and Ultra Wide cameras    Wide: 12MP, ƒ/1.8 aperture    Ultra Wid",
+          "value": "12MP Wide + 10MP Ultra Wide",
           "unit": null,
-          "rawText": "Camera     Pro camera system: Wide and Ultra Wide cameras    Wide: 12MP, ƒ/1.8 aperture    Ultra Wide: 10MP, ƒ/2.4 aperture, and 125° field of view    2x optical zoom out    Digital zoom up to 5x    Five‑element lens (Wide and Ultra Wide)    Brighter True Tone flash    Panorama (up to 63MP)    Sapphire crystal lens cover    Autofocus with Focus Pixels (Wide)    Smart HDR 3    Wide color capture for photos and Live Photos    Lens correction (Ultra Wide)    Advanced red-eye correction    Photo geotagging    Auto image stabilization    Burst mode    Image formats captured: HEIF and JPEG",
-          "sourceUrl": "https://support.apple.com/en-us/111896",
+          "rawText": "12MP Wide + 10MP Ultra Wide",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "frontCamera": {
-          "value": "Video Calling 3     FaceTime video    Center Stage    iPad to any FaceTime-enabl",
+          "value": "12MP Ultra Wide TrueDepth camera",
           "unit": null,
-          "rawText": "Video Calling 3     FaceTime video    Center Stage    iPad to any FaceTime-enabled device over Wi-Fi or cellular",
-          "sourceUrl": "https://support.apple.com/en-us/111896",
+          "rawText": "12MP Ultra Wide TrueDepth camera",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
-        "speakers": {
-          "value": "Buttons and Connectors     Five microphones    Four speakers",
+        "videoRecording": {
+          "value": "4K video up to 60 fps; ProRes up to 4K 30 fps",
           "unit": null,
-          "rawText": "Buttons and Connectors     Five microphones    Four speakers    Top button    Volume up/down    Camera    Magnetic connector    Thunderbolt/USB 4    Smart Connector    Nano-SIM tray",
-          "sourceUrl": "https://support.apple.com/en-us/111896",
+          "rawText": "4K video up to 60 fps; ProRes up to 4K 30 fps",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
-        "microphone": {
-          "value": "Buttons and Connectors     Five microphones    Four speakers",
+        "batteryLife": {
+          "value": "Up to 10 hours web browsing or video",
           "unit": null,
-          "rawText": "Buttons and Connectors     Five microphones    Four speakers    Top button    Volume up/down    Camera    Magnetic connector    Thunderbolt/USB 4    Smart Connector    Nano-SIM tray",
-          "sourceUrl": "https://support.apple.com/en-us/111896",
+          "rawText": "Up to 10 hours web browsing or video",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
-        },
-        "pencilSupport": {
-          "value": "Display     Liquid Retina XDR display    12.9-inch (diagonal) mini-LED backlit M",
-          "unit": null,
-          "rawText": "Display     Liquid Retina XDR display    12.9-inch (diagonal) mini-LED backlit Multi‑Touch display with IPS technology    2D backlighting system with 2596 full‑array local dimming zones    2732-by-2048-pixel resolution at 264 pixels per inch (ppi)    ProMotion technology    Wide color display (P3)    True Tone display    Fingerprint-resistant oleophobic coating    Fully laminated display    Antireflective coating    1.8% reflectivity    SDR brightness: 600 nits max    XDR brightness: 1000 nits max full screen, 1600 nits peak (HDR content only)    1,000,000:1 contrast ratio    Supports  Apple Pencil (2nd generation) ,  Apple Pencil   (USB-C)      The 12.9-inch iPad Pro display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 12.9 inches diagonally (actual viewable area is less).",
-          "sourceUrl": "https://support.apple.com/en-us/111896",
-          "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "port": {
-          "value": "In the Box     iPad Pro    USB-C Charge Cable (1 meter)    2",
+          "value": "Thunderbolt / USB 4",
           "unit": null,
-          "rawText": "In the Box     iPad Pro    USB-C Charge Cable (1 meter)    20W USB-C Power Adapter",
-          "sourceUrl": "https://support.apple.com/en-us/111896",
+          "rawText": "Thunderbolt / USB 4",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "chargingMethod": {
+          "value": "USB-C",
+          "unit": null,
+          "rawText": "USB-C",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "security": {
           "value": "Face ID",
           "unit": null,
-          "rawText": "Sensors     Face ID    LiDAR Scanner    Three-axis gyro    Accelerometer    Barometer    Ambient light sensor",
-          "sourceUrl": "https://support.apple.com/en-us/111896",
+          "rawText": "Face ID",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-20"
         },
         "wifi": {
-          "value": "Size and Weight 2      Wi-Fi models     Width: 8.46 inches (",
+          "value": "Wi-Fi 6E (802.11ax)",
           "unit": null,
-          "rawText": "Size and Weight 2      Wi-Fi models     Width: 8.46 inches (214.9 mm)    Height: 11.04 inches (280.6 mm)    Depth: 0.25 inch (6.4 mm)    Weight: 1.5 pounds (682 grams)       Wi-Fi + Cellular models     Width: 8.46 inches (214.9 mm)    Height: 11.04 inches (280.6 mm)    Depth: 0.25 inch (6.4 mm)    Weight: 1.51 pounds (685 grams)",
-          "sourceUrl": "https://support.apple.com/en-us/111896",
+          "rawText": "Wi-Fi 6E (802.11ax)",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "bluetooth": {
-          "value": "Cellular and Wireless      All",
+          "value": "Bluetooth 5.3",
           "unit": null,
-          "rawText": "Cellular and Wireless      All models     802.11ax Wi-Fi 6; simultaneous dual band (2.4GHz and 5GHz); HT80 with MIMO    Bluetooth 5.0 technology       Wi-Fi + Cellular models     Model A2301 and A2379:    5G NR (Bands n1, n2, n3, n5, n7, n8, n12, n20, n25, n28, n38, n40, n41, n66, n71, n77, n78, n79) 4     5G NR mmWave (Bands n260, n261)    FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 66, 71)    TD-LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48)    UMTS/HSPA/HSPA+/DC‑HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)    GSM/EDGE (850, 900, 1800, 1900 MHz)    Data only 5     Wi-Fi calling 4     eSIM 6      Learn more about cellular data       For details on 5G and LTE support, contact your carrier and see  apple.com/ipad/cellular/networks .",
-          "sourceUrl": "https://support.apple.com/en-us/111896",
+          "rawText": "Bluetooth 5.3",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "sim": {
+          "value": "Nano-SIM + eSIM",
+          "unit": null,
+          "rawText": "Nano-SIM + eSIM",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "speakers": {
+          "value": "Four speaker audio",
+          "unit": null,
+          "rawText": "Four speaker audio",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "microphone": {
+          "value": "Five studio-quality microphones",
+          "unit": null,
+          "rawText": "Five studio-quality microphones",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
+        },
+        "pencilSupport": {
+          "value": "Apple Pencil (2nd generation), Apple Pencil (USB-C)",
+          "unit": null,
+          "rawText": "Apple Pencil (2nd generation), Apple Pencil (USB-C)",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         },
         "externalDisplay": {
-          "value": "Display Support    Supports full native resolution on the built-in display at millions of colors    ",
+          "value": "One external display up to 6K at 60Hz",
           "unit": null,
-          "rawText": "Display Support    Supports full native resolution on the built-in display at millions of colors    Supports one external display with up to 6K resolution at 60Hz      Thunderbolt 3 digital video output    Native DisplayPort output over USB-C    VGA, HDMI, DVI, and Thunderbolt 2 output supported using adapters (sold separately) 8       Video mirroring    Up to 4K AirPlay for mirroring, photos, and video out to Apple TV (2nd generation or later) or AirPlay 2–enabled smart TV    Video mirroring and video out support through USB-C Digital AV Multiport Adapter and USB-C VGA Multiport Adapter (adapters sold separately) 8",
-          "sourceUrl": "https://support.apple.com/en-us/111896",
+          "rawText": "One external display up to 6K at 60Hz",
+          "sourceUrl": "https://support.apple.com/en-us/111841",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-20"
         }
       },
       "computed": {
