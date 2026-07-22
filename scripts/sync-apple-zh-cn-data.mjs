@@ -72,6 +72,22 @@ const EXPECTED_MISSING_LAUNCH_PRICES = new Set([
   "macbook-pro-16-m4-2024",
 ]);
 
+const GENERATION_UPGRADE_RECALCULATIONS = {
+  "macbook-air-13-m4-2025": [4, ["芯片+3 (Apple M3 芯片→Apple M4 芯片)", "外观+1"]],
+  "iphone-14": [5, ["主摄+2", "新增SOS+1", "新增车祸检测+1", "外观+1"]],
+  "iphone-14-pro": [9, ["芯片+3 (A15 仿生芯片→A16 仿生芯片)", "分辨率+1", "主摄+2", "新增SOS+1", "新增车祸检测+1", "外观+1"]],
+  "ipad-air-m3-2025": [3, ["芯片+3 (Apple M2 芯片→Apple M3 芯片)"]],
+  "ipad-pro-m4-11-2024": [8, ["芯片+3 (Apple M2 芯片→Apple M4 芯片)", "屏幕+1 (11→11.1英寸)", "分辨率+1", "主摄+2", "外观+1"]],
+  "ipad-pro-m4-13-2024": [8, ["芯片+3 (Apple M2 芯片→Apple M4 芯片)", "屏幕+1 (12.9→13英寸)", "分辨率+1", "主摄+2", "外观+1"]],
+  "macbook-air-15-m4-2025": [4, ["芯片+3 (Apple M3 芯片→Apple M4 芯片)", "外观+1"]],
+  "macbook-pro-14-m5-pro-2026": [3, ["芯片+3 (Apple M4 Pro 芯片→Apple M5 Pro 芯片)"]],
+  "macbook-pro-14-m5-max-2026": [3, ["芯片+3 (Apple M4 Max 芯片→Apple M5 Max 芯片)"]],
+  "macbook-pro-16-m5-2026": [3, ["芯片+3 (Apple M4 Pro 芯片→Apple M5 Pro 芯片)"]],
+  "macbook-pro-16-m5-max-2026": [3, ["芯片+3 (Apple M4 Max 芯片→Apple M5 Max 芯片)"]],
+  "macbook-pro-16-m4-2024": [4, ["芯片+3 (Apple M2 Pro 芯片→Apple M4 Pro 芯片)", "外观+1"]],
+  "macbook-pro-16-m4-max-2024": [4, ["芯片+3 (Apple M2 Max 芯片→Apple M4 Max 芯片)", "外观+1"]],
+};
+
 function localizeModelName(name) {
   return name
     .replace(/^iPad (Air|Pro) ([\d.]+)-inch (\(.+\))$/, "$2 英寸 iPad $1 $3")
@@ -301,15 +317,7 @@ function parseDimensions(blocks) {
 }
 
 function parseScreenSize(device, sections, display) {
-  const direct = first(display, /([\d.]+)\s*英寸.*(?:对角线|显示屏)/);
-  const directMatch = direct?.match(/([\d.]+)\s*英寸/);
-  if (directMatch) return { value: Number(directMatch[1]), raw: direct };
-
   const blocks = allBlocks(sections);
-  const simple = first(blocks, /(?:屏幕|机型)为\s*([\d.]+)\s*英寸/);
-  const simpleMatch = simple?.match(/(?:屏幕|机型)为\s*([\d.]+)\s*英寸/);
-  if (simpleMatch) return { value: Number(simpleMatch[1]), raw: simple };
-
   if (device.category === "tablet" && /^(11|13)-inch$/.test(device.variant)) {
     const marketed = device.variant.startsWith("11") ? "11" : "13";
     const family = device.family.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -318,6 +326,14 @@ function parseScreenSize(device, sections, display) {
     const match = raw?.match(pattern);
     if (match) return { value: Number(match[1]), raw };
   }
+
+  const direct = first(display, /([\d.]+)\s*英寸.*(?:对角线|显示屏)/);
+  const directMatch = direct?.match(/([\d.]+)\s*英寸/);
+  if (directMatch) return { value: Number(directMatch[1]), raw: direct };
+
+  const simple = first(blocks, /(?:屏幕|机型)为\s*([\d.]+)\s*英寸/);
+  const simpleMatch = simple?.match(/(?:屏幕|机型)为\s*([\d.]+)\s*英寸/);
+  if (simpleMatch) return { value: Number(simpleMatch[1]), raw: simple };
   return null;
 }
 
@@ -628,6 +644,27 @@ function splitDevice(device, split) {
   };
 }
 
+function recalculateGenerationUpgrade(device) {
+  const calculation = GENERATION_UPGRADE_RECALCULATIONS[device.id];
+  if (!calculation) return device;
+  const [value, components] = calculation;
+  return {
+    ...device,
+    computed: {
+      ...device.computed,
+      generationUpgradeMagnitude: {
+        ...device.computed.generationUpgradeMagnitude,
+        value,
+        changeSummary: components.join(", "),
+        scoreBreakdown: `${components.join(" + ")} → ${value}`,
+        confidence: 0.9,
+        computedAt: VERIFIED_AT,
+        verifiedAt: VERIFIED_AT,
+      },
+    },
+  };
+}
+
 for (const sourceDevice of englishDevices) {
   const oldSource = sourceById.get(sourceDevice.id);
   const supportUrl = await resolveTechSpecUrl(oldSource.supportUrl);
@@ -653,7 +690,7 @@ for (const sourceDevice of englishDevices) {
 
     const modelName = localizeModelName(device.modelName);
     const releaseYear = device.id === "ipad-air-m4-2025" ? 2026 : device.releaseYear;
-    zhDevices.push({ ...device, modelName, releaseYear, specs });
+    zhDevices.push(recalculateGenerationUpgrade({ ...device, modelName, releaseYear, specs }));
     zhSources[device.category].push({
       ...oldSource,
       id: device.id,

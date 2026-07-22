@@ -146,8 +146,48 @@ for (const [deviceId, [chip, memory, launchPrice]] of Object.entries(splitMacBoo
   assert.equal(device.specs.launchPrice?.value ?? null, launchPrice, `${deviceId}.launchPrice: 首发价发生回归`);
 }
 
+const recalculatedUpgradeScores = {
+  "macbook-air-13-m4-2025": 4,
+  "iphone-14": 5,
+  "iphone-14-pro": 9,
+  "ipad-air-m3-2025": 3,
+  "ipad-pro-m4-11-2024": 8,
+  "ipad-pro-m4-13-2024": 8,
+  "macbook-air-15-m4-2025": 4,
+  "macbook-pro-14-m5-pro-2026": 3,
+  "macbook-pro-14-m5-max-2026": 3,
+  "macbook-pro-16-m5-2026": 3,
+  "macbook-pro-16-m5-max-2026": 3,
+  "macbook-pro-16-m4-2024": 4,
+  "macbook-pro-16-m4-max-2024": 4,
+};
+for (const [deviceId, score] of Object.entries(recalculatedUpgradeScores)) {
+  const magnitude = devicesById.get(deviceId).computed.generationUpgradeMagnitude;
+  assert.equal(magnitude.value, score, `${deviceId}: 代际升级幅度发生回归`);
+  assert.ok(magnitude.comparedTo, `${deviceId}: 重算记录缺少直接前代`);
+  assert.equal(magnitude.confidence, 0.9, `${deviceId}: 重算记录 confidence 非 0.9`);
+}
+
 // 这些值曾因共享产品页抓取而串到相邻型号，固定回归断言可阻止同类错误重新进入比较结果。
 const correctedSpecs = {
+  "ipad-air-m2-2024": {
+    screenSize: 10.86,
+  },
+  "ipad-air-m3-2025": {
+    screenSize: 10.86,
+  },
+  "ipad-pro-m4-11-2024": {
+    screenSize: 11.1,
+  },
+  "ipad-pro-m4-13-2024": {
+    screenSize: 13,
+  },
+  "ipad-pro-m5-11-2025": {
+    screenSize: 11.1,
+  },
+  "ipad-pro-m5-13-2025": {
+    screenSize: 13,
+  },
   "iphone-16-plus": {
     launchPrice: 6999,
     weight: 199,

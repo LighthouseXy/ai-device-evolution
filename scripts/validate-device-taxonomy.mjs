@@ -120,10 +120,7 @@ for (const device of devices) {
   assert.equal(previous.tier, device.tier, `${device.id}: comparedTo tier 不一致`);
   assert.equal(previous.generationOrder, device.generationOrder - 1, `${device.id}: comparedTo 不是直接前代`);
 
-  if (magnitude.value === null) {
-    assert.match(magnitude.changeSummary ?? "", /尚未重新计算/, `${device.id}: 空升级幅度必须明确标记待计算`);
-    assert.equal(magnitude.confidence, 0, `${device.id}: 空升级幅度 confidence 必须为 0`);
-  }
+  assert.ok(Number.isFinite(magnitude.value) && magnitude.value >= 1 && magnitude.value <= 10, `${device.id}: 后续代际升级幅度必须为 1-10`);
 }
 
 assert.deepEqual(

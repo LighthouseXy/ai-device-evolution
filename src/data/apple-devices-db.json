@@ -1239,14 +1239,14 @@
           "verifiedAt": "2026-06-25"
         },
         "generationUpgradeMagnitude": {
-          "value": null,
+          "value": 4,
           "comparedTo": "macbook-air-13-m3-2024",
-          "changeSummary": "该代升级幅度尚未重新计算",
-          "confidence": 0,
-          "computedAt": "2026-07-19",
-          "scoreBreakdown": "待重新计算",
+          "changeSummary": "芯片+3 (Apple M3 芯片→Apple M4 芯片), 外观+1",
+          "confidence": 0.9,
+          "computedAt": "2026-07-23",
+          "scoreBreakdown": "芯片+3 (Apple M3 芯片→Apple M4 芯片) + 外观+1 → 4",
           "sourceType": "computed",
-          "verifiedAt": "2026-07-19"
+          "verifiedAt": "2026-07-23"
         },
         "recommendationLevel": {
           "value": 5,
@@ -1565,14 +1565,14 @@
           "verifiedAt": "2026-06-25"
         },
         "generationUpgradeMagnitude": {
-          "value": null,
+          "value": 5,
           "comparedTo": "iphone-13",
-          "changeSummary": "该代升级幅度尚未重新计算",
-          "confidence": 0,
-          "computedAt": "2026-07-19",
-          "scoreBreakdown": "待重新计算",
+          "changeSummary": "主摄+2, 新增SOS+1, 新增车祸检测+1, 外观+1",
+          "confidence": 0.9,
+          "computedAt": "2026-07-23",
+          "scoreBreakdown": "主摄+2 + 新增SOS+1 + 新增车祸检测+1 + 外观+1 → 5",
           "sourceType": "computed",
-          "verifiedAt": "2026-07-19"
+          "verifiedAt": "2026-07-23"
         },
         "recommendationLevel": {
           "value": 1,
@@ -1904,14 +1904,14 @@
           "verifiedAt": "2026-06-25"
         },
         "generationUpgradeMagnitude": {
-          "value": null,
+          "value": 9,
           "comparedTo": "iphone-13-pro",
-          "changeSummary": "该代升级幅度尚未重新计算",
-          "confidence": 0,
-          "computedAt": "2026-07-19",
-          "scoreBreakdown": "待重新计算",
+          "changeSummary": "芯片+3 (A15 仿生芯片→A16 仿生芯片), 分辨率+1, 主摄+2, 新增SOS+1, 新增车祸检测+1, 外观+1",
+          "confidence": 0.9,
+          "computedAt": "2026-07-23",
+          "scoreBreakdown": "芯片+3 (A15 仿生芯片→A16 仿生芯片) + 分辨率+1 + 主摄+2 + 新增SOS+1 + 新增车祸检测+1 + 外观+1 → 9",
           "sourceType": "computed",
-          "verifiedAt": "2026-07-19"
+          "verifiedAt": "2026-07-23"
         },
         "recommendationLevel": {
           "value": 2,
@@ -2938,7 +2938,7 @@
           "verifiedAt": "2026-07-23"
         },
         "screenSize": {
-          "value": 11,
+          "value": 10.86,
           "unit": "inch",
           "rawText": "11 英寸 iPad Air 显示屏采用曲线优美的圆角设计，四个圆角位于一个标准矩形内。视为矩形以对角线测量时，11 英寸 iPad Air 机型为 10.86 英寸。实际可视区域较小。",
           "sourceUrl": "https://support.apple.com/zh-cn/122241",
@@ -3141,14 +3141,14 @@
           "verifiedAt": "2026-06-25"
         },
         "generationUpgradeMagnitude": {
-          "value": null,
+          "value": 3,
           "comparedTo": "ipad-air-m2-2024",
-          "changeSummary": "该代升级幅度尚未重新计算",
-          "confidence": 0,
-          "computedAt": "2026-07-19",
-          "scoreBreakdown": "待重新计算",
+          "changeSummary": "芯片+3 (Apple M2 芯片→Apple M3 芯片)",
+          "confidence": 0.9,
+          "computedAt": "2026-07-23",
+          "scoreBreakdown": "芯片+3 (Apple M2 芯片→Apple M3 芯片) → 3",
           "sourceType": "computed",
-          "verifiedAt": "2026-07-19"
+          "verifiedAt": "2026-07-23"
         },
         "recommendationLevel": {
           "value": 5,
@@ -3210,7 +3210,7 @@
           "verifiedAt": "2026-07-23"
         },
         "screenSize": {
-          "value": 13,
+          "value": 11.1,
           "unit": "inch",
           "rawText": "显示屏采用圆角设计。视为矩形以对角线测量时，13 英寸 iPad Pro 机型为 13 英寸，11 英寸 iPad Pro 机型为 11.1 英寸，13 英寸 iPad Air 机型为 12.9 英寸，11 英寸 iPad Air 机型为 10.86 英寸。实际可视区域较小。",
           "sourceUrl": "https://support.apple.com/zh-cn/119892",
@@ -3431,14 +3431,14 @@
           "verifiedAt": "2026-06-25"
         },
         "generationUpgradeMagnitude": {
-          "value": null,
+          "value": 8,
           "comparedTo": "ipad-pro-m2-2022",
-          "changeSummary": "该代升级幅度尚未重新计算",
-          "confidence": 0,
-          "computedAt": "2026-07-19",
-          "scoreBreakdown": "待重新计算",
+          "changeSummary": "芯片+3 (Apple M2 芯片→Apple M4 芯片), 屏幕+1 (11→11.1英寸), 分辨率+1, 主摄+2, 外观+1",
+          "confidence": 0.9,
+          "computedAt": "2026-07-23",
+          "scoreBreakdown": "芯片+3 (Apple M2 芯片→Apple M4 芯片) + 屏幕+1 (11→11.1英寸) + 分辨率+1 + 主摄+2 + 外观+1 → 8",
           "sourceType": "computed",
-          "verifiedAt": "2026-07-19"
+          "verifiedAt": "2026-07-23"
         },
         "recommendationLevel": {
           "value": 5,
@@ -3721,14 +3721,14 @@
           "verifiedAt": "2026-06-25"
         },
         "generationUpgradeMagnitude": {
-          "value": null,
+          "value": 8,
           "comparedTo": "ipad-pro-m2-13-2022",
-          "changeSummary": "该代升级幅度尚未重新计算",
-          "confidence": 0,
-          "computedAt": "2026-07-19",
-          "scoreBreakdown": "待重新计算",
+          "changeSummary": "芯片+3 (Apple M2 芯片→Apple M4 芯片), 屏幕+1 (12.9→13英寸), 分辨率+1, 主摄+2, 外观+1",
+          "confidence": 0.9,
+          "computedAt": "2026-07-23",
+          "scoreBreakdown": "芯片+3 (Apple M2 芯片→Apple M4 芯片) + 屏幕+1 (12.9→13英寸) + 分辨率+1 + 主摄+2 + 外观+1 → 8",
           "sourceType": "computed",
-          "verifiedAt": "2026-07-19"
+          "verifiedAt": "2026-07-23"
         },
         "recommendationLevel": {
           "value": 5,
@@ -4025,14 +4025,14 @@
           "verifiedAt": "2026-06-25"
         },
         "generationUpgradeMagnitude": {
-          "value": null,
+          "value": 4,
           "comparedTo": "macbook-air-15-m3-2024",
-          "changeSummary": "该代升级幅度尚未重新计算",
-          "confidence": 0,
-          "computedAt": "2026-07-19",
-          "scoreBreakdown": "待重新计算",
+          "changeSummary": "芯片+3 (Apple M3 芯片→Apple M4 芯片), 外观+1",
+          "confidence": 0.9,
+          "computedAt": "2026-07-23",
+          "scoreBreakdown": "芯片+3 (Apple M3 芯片→Apple M4 芯片) + 外观+1 → 4",
           "sourceType": "computed",
-          "verifiedAt": "2026-07-19"
+          "verifiedAt": "2026-07-23"
         },
         "recommendationLevel": {
           "value": 5,
@@ -8230,7 +8230,7 @@
         "screenSize": {
           "value": 11,
           "unit": "inch",
-          "rawText": "11 英寸 (对角线) LED 背光多点触控显示屏，采用 IPS 技术",
+          "rawText": "◊ 显示屏采用圆角设计。视为矩形以对角线测量时，12.9 英寸 iPad Pro 的屏幕为 12.9 英寸，11 英寸 iPad Pro 的屏幕为 11 英寸，iPad Air 和 iPad (第十代) 的屏幕为 10.86 英寸，iPad mini 的屏幕为 8.3 英寸。实际可视区域较小。",
           "sourceUrl": "https://support.apple.com/zh-cn/111842",
           "sourceType": "apple",
           "confidence": 1,
@@ -8501,7 +8501,7 @@
           "verifiedAt": "2026-07-23"
         },
         "screenSize": {
-          "value": 11,
+          "value": 10.86,
           "unit": "inch",
           "rawText": "11 英寸 iPad Air 显示屏采用曲线优美的圆角设计，四个圆角位于一个标准矩形内。视为矩形以对角线测量时，11 英寸 iPad Air 机型为 10.86 英寸。实际可视区域较小。",
           "sourceUrl": "https://support.apple.com/zh-cn/119894",
@@ -12062,7 +12062,7 @@
           "verifiedAt": "2026-07-23"
         },
         "screenSize": {
-          "value": 13,
+          "value": 11.1,
           "rawText": "显示屏采用圆角设计。视为矩形以对角线测量时，13 英寸 iPad Pro 机型为 13 英寸，11 英寸 iPad Pro 机型为 11.1 英寸。实际可视区域较小。",
           "sourceUrl": "https://support.apple.com/zh-cn/125406",
           "sourceType": "apple",
@@ -14128,12 +14128,12 @@
           "verifiedAt": "2026-06-25"
         },
         "generationUpgradeMagnitude": {
-          "value": null,
+          "value": 3,
           "comparedTo": "macbook-pro-14-m4-pro-2024",
-          "changeSummary": "该代升级幅度尚未重新计算",
-          "confidence": 0,
+          "changeSummary": "芯片+3 (Apple M4 Pro 芯片→Apple M5 Pro 芯片)",
+          "confidence": 0.9,
           "computedAt": "2026-07-23",
-          "scoreBreakdown": "待重新计算",
+          "scoreBreakdown": "芯片+3 (Apple M4 Pro 芯片→Apple M5 Pro 芯片) → 3",
           "sourceType": "computed",
           "verifiedAt": "2026-07-23"
         },
@@ -14468,12 +14468,12 @@
           "verifiedAt": "2026-06-25"
         },
         "generationUpgradeMagnitude": {
-          "value": null,
+          "value": 3,
           "comparedTo": "macbook-pro-14-m4-max-2024",
-          "changeSummary": "该代升级幅度尚未重新计算",
-          "confidence": 0,
+          "changeSummary": "芯片+3 (Apple M4 Max 芯片→Apple M5 Max 芯片)",
+          "confidence": 0.9,
           "computedAt": "2026-07-23",
-          "scoreBreakdown": "待重新计算",
+          "scoreBreakdown": "芯片+3 (Apple M4 Max 芯片→Apple M5 Max 芯片) → 3",
           "sourceType": "computed",
           "verifiedAt": "2026-07-23"
         },
@@ -14808,11 +14808,11 @@
           "verifiedAt": "2026-06-25"
         },
         "generationUpgradeMagnitude": {
-          "value": null,
+          "value": 3,
           "comparedTo": "macbook-pro-16-m4-2024",
-          "changeSummary": "该代升级幅度尚未重新计算",
-          "scoreBreakdown": "待重新计算",
-          "confidence": 0,
+          "changeSummary": "芯片+3 (Apple M4 Pro 芯片→Apple M5 Pro 芯片)",
+          "scoreBreakdown": "芯片+3 (Apple M4 Pro 芯片→Apple M5 Pro 芯片) → 3",
+          "confidence": 0.9,
           "computedAt": "2026-07-23",
           "sourceType": "computed",
           "verifiedAt": "2026-07-23"
@@ -15148,11 +15148,11 @@
           "verifiedAt": "2026-06-25"
         },
         "generationUpgradeMagnitude": {
-          "value": null,
+          "value": 3,
           "comparedTo": "macbook-pro-16-m4-max-2024",
-          "changeSummary": "该代升级幅度尚未重新计算",
-          "scoreBreakdown": "待重新计算",
-          "confidence": 0,
+          "changeSummary": "芯片+3 (Apple M4 Max 芯片→Apple M5 Max 芯片)",
+          "scoreBreakdown": "芯片+3 (Apple M4 Max 芯片→Apple M5 Max 芯片) → 3",
+          "confidence": 0.9,
           "computedAt": "2026-07-23",
           "sourceType": "computed",
           "verifiedAt": "2026-07-23"
@@ -16492,11 +16492,11 @@
           "verifiedAt": "2026-06-25"
         },
         "generationUpgradeMagnitude": {
-          "value": null,
+          "value": 4,
           "comparedTo": "macbook-pro-16-m2-2023",
-          "changeSummary": "该代升级幅度尚未重新计算",
-          "scoreBreakdown": "待重新计算",
-          "confidence": 0,
+          "changeSummary": "芯片+3 (Apple M2 Pro 芯片→Apple M4 Pro 芯片), 外观+1",
+          "scoreBreakdown": "芯片+3 (Apple M2 Pro 芯片→Apple M4 Pro 芯片) + 外观+1 → 4",
+          "confidence": 0.9,
           "computedAt": "2026-07-23",
           "sourceType": "computed",
           "verifiedAt": "2026-07-23"
@@ -16832,11 +16832,11 @@
           "verifiedAt": "2026-06-25"
         },
         "generationUpgradeMagnitude": {
-          "value": null,
+          "value": 4,
           "comparedTo": "macbook-pro-16-m2-max-2023",
-          "changeSummary": "该代升级幅度尚未重新计算",
-          "scoreBreakdown": "待重新计算",
-          "confidence": 0,
+          "changeSummary": "芯片+3 (Apple M2 Max 芯片→Apple M4 Max 芯片), 外观+1",
+          "scoreBreakdown": "芯片+3 (Apple M2 Max 芯片→Apple M4 Max 芯片) + 外观+1 → 4",
+          "confidence": 0.9,
           "computedAt": "2026-07-23",
           "sourceType": "computed",
           "verifiedAt": "2026-07-23"
