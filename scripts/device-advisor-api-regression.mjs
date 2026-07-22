@@ -391,7 +391,7 @@ const scenarios = [
                     recommendations: [],
                     tradeoffs: ["若坚持苹果且买新机，需要上调预算"],
                     suitableFor: ["先了解苹果手机当前价格带的用户"],
-                    notSuitableFor: ["预算必须严格控制在 4500 元以内的用户"],
+                    notSuitableFor: ["预算必须严格控制在 3000 元以内的用户"],
                     alternatives: [],
                     confidence: 0.72,
                     source: "ai",
@@ -402,7 +402,7 @@ const scenarios = [
             ],
           });
         }, () => callRoute({
-          budget: { max: 4500, currency: "CNY" },
+          budget: { max: 3000, currency: "CNY" },
           category: "phone",
           performancePreference: "battery",
           useCases: ["通勤", "长时间使用"],

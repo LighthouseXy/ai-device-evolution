@@ -287,11 +287,11 @@
         "launchPrice": {
           "value": 5999,
           "unit": "CNY",
-          "rawText": "¥5999",
-          "sourceUrl": "https://support.apple.com/en-us/111831",
-          "sourceType": "reference",
-          "confidence": 0.7,
-          "verifiedAt": "2026-06-27"
+          "rawText": "RMB 5,999",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -622,11 +622,11 @@
         "launchPrice": {
           "value": 7999,
           "unit": "CNY",
-          "rawText": "¥7999",
-          "sourceUrl": "https://support.apple.com/en-us/111829",
-          "sourceType": "reference",
-          "confidence": 0.7,
-          "verifiedAt": "2026-06-27"
+          "rawText": "RMB 7,999",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -1377,11 +1377,11 @@
         "launchPrice": {
           "value": 5999,
           "unit": "CNY",
-          "rawText": "¥5999",
-          "sourceUrl": "https://support.apple.com/en-us/111850",
-          "sourceType": "reference",
-          "confidence": 0.7,
-          "verifiedAt": "2026-06-27"
+          "rawText": "RMB 5,999",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2022/09/apple-introduces-iphone-14-and-iphone-14-plus/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -1730,11 +1730,11 @@
         "launchPrice": {
           "value": 7999,
           "unit": "CNY",
-          "rawText": "¥7999",
-          "sourceUrl": "https://support.apple.com/en-us/111849",
-          "sourceType": "reference",
-          "confidence": 0.7,
-          "verifiedAt": "2026-06-27"
+          "rawText": "RMB 7,999",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2022/09/apple-debuts-iphone-14-pro-and-iphone-14-pro-max/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -1788,298 +1788,298 @@
           ],
           "unit": null,
           "rawText": "Black, White, Pink, Teal, Ultramarine",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "material": {
           "value": "Aluminum design, Ceramic Shield front, Color-infused glass back",
           "unit": null,
           "rawText": "Aluminum design Ceramic Shield front Color-infused glass back (Black, Pink, Teal, Ultramarine)",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "weight": {
           "value": 170,
           "unit": "g",
           "rawText": "6.00 ounces (170 grams)",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "dimensions": {
           "value": "147.6 x 71.6 x 7.80 mm",
           "unit": null,
-          "rawText": "5.81 inches (147.6 mm)",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "rawText": "Height: 5.81 inches (147.6 mm); Width: 2.82 inches (71.6 mm); Depth: 0.31 inch (7.80 mm)",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "screenSize": {
           "value": 6.1,
           "unit": "inch",
           "rawText": "6.1‑inch (diagonal) all‑screen OLED display",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "displayType": {
           "value": "Super Retina XDR display",
           "unit": null,
           "rawText": "Super Retina XDR display",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "resolution": {
           "value": "2556 x 1179",
           "unit": null,
           "rawText": "2556‑by‑1179-pixel resolution at 460 ppi",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "refreshRate": {
           "value": 60,
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "peakBrightness": {
           "value": 2000,
           "unit": "nits",
           "rawText": "1000 nits max brightness (typical); 1600 nits peak brightness (HDR); 2000 nits peak brightness (outdoor); 1 nit minimum brightness",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "chip": {
           "value": "A18",
           "unit": null,
           "rawText": "A18 chip",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "cpu": {
           "value": "6-core CPU with 2 performance and 4 efficiency cores",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "gpu": {
           "value": "5-core GPU",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "neuralEngine": {
           "value": "16-core Neural Engine",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "storage": {
           "value": "128GB / 256GB / 512GB",
           "unit": null,
-          "rawText": "We estimate the percentage of electricity-related emissions in our manufacturing that is sourced from low-carbon electricity by attributing to our carbon model low-carbon energy procured by our suppliers in the prior fiscal year, based on the supplier manufacturing allocations at time of product launch. This calculation assesses the suppliers for iPhone 16 Plus with 128GB. Included in this number is only low-carbon electricity that Apple or its suppliers have procured as part of Apple’s Supplier Clean Energy Program.",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "rawText": "128GB, 256GB, 512GB",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "rearCamera": {
           "value": "48MP Fusion Main: 26mm, f/1.6, sensor-shift OIS; 12MP Ultra Wide: 13mm, f/2.2",
           "unit": null,
           "rawText": "48MP Fusion Main: 26 mm, ƒ/1.6 aperture, sensor‑shift optical image stabilization, 100% Focus Pixels, support for super-high-resolution photos (24MP and 48MP)",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "mainCamera": {
           "value": "48MP Fusion, 26mm, f/1.6, sensor-shift OIS",
           "unit": null,
           "rawText": "48MP Fusion Main: 26 mm, ƒ/1.6 aperture, sensor‑shift optical image stabilization, 100% Focus Pixels, support for super-high-resolution photos (24MP and 48MP)",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "ultraWide": {
           "value": "12MP, 13mm, f/2.2",
           "unit": null,
-          "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "rawText": "12MP Ultra Wide: 13 mm, f/2.2 aperture and 120-degree field of view",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "frontCamera": {
           "value": "12MP TrueDepth camera, f/1.9",
           "unit": null,
           "rawText": "TrueDepth Camera",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "videoRecording": {
           "value": "4K at 24/25/30/60 fps, 1080p HD at 25/30/60 fps",
           "unit": null,
           "rawText": "4K Dolby Vision video recording at 24 fps, 25 fps, 30 fps, or 60 fps",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "videoPlayback": {
           "value": "Up to 22 hours",
           "unit": null,
           "rawText": "Video playback   Up to 22 hours",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "batteryLife": {
           "value": "Video playback up to 22 hours",
           "unit": null,
           "rawText": "Video playback   Up to 22 hours",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "port": {
           "value": "USB-C (USB 2)",
           "unit": null,
           "rawText": "USB-C connector",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "chargingMethod": {
           "value": "USB-C, MagSafe wireless, Qi2",
           "unit": null,
           "rawText": "Fast-charge capable:   Up to 50% charge in around 30 minutes  6   with  20W adapter  or higher (available separately) paired with USB‑C charging cable, or 30W adapter or higher paired with MagSafe Charger (both available separately)",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "security": {
           "value": "Face ID",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "waterResistance": {
           "value": "IP68 (max depth 6m, up to 30 min)",
           "unit": null,
           "rawText": "Rated IP68 (maximum depth of 6 meters up to 30 minutes) under IEC standard 60529",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "wifi": {
           "value": "802.11be Wi-Fi 7",
           "unit": null,
-          "rawText": "FaceTime HD (1080p) video calling over 5G or Wi-Fi",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "rawText": "Wi-Fi 7 (802.11be) with 2x2 MIMO",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "bluetooth": {
           "value": "Bluetooth 5.3",
           "unit": null,
           "rawText": "Bluetooth 5.3",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "sim": {
           "value": "Dual eSIM",
           "unit": null,
           "rawText": "Dual eSIM (two active eSIMs; stores eight or more eSIMs)  13",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasNFC": {
           "value": true,
           "unit": null,
           "rawText": "NFC with reader mode",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasMagSafe": {
           "value": true,
           "unit": null,
           "rawText": "Fast-charge capable:   Up to 50% charge in around 30 minutes  6   with  20W adapter  or higher (available separately) paired with USB‑C charging cable, or 30W adapter or higher paired with MagSafe Charger (both available separately)",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasSOS": {
           "value": true,
           "unit": null,
           "rawText": "Emergency SOS via satellite  7",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasCrashDetection": {
           "value": true,
           "unit": null,
           "rawText": "Crash Detection  8",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121029",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "launchPrice": {
           "value": 5999,
           "unit": "CNY",
-          "rawText": "¥5999",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
-          "sourceType": "reference",
-          "confidence": 0.7,
-          "verifiedAt": "2026-06-27"
+          "rawText": "RMB 5,999",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2024/09/apple-introduces-iphone-16-iphone-16-plus/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -2132,316 +2132,316 @@
           ],
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "material": {
-          "value": "Titanium design, Ceramic Shield front, Textured matte glass back",
+          "value": "Titanium design, Latest-generation Ceramic Shield front, Textured matte glass back",
           "unit": null,
-          "rawText": "iPhone is protected by Ceramic Shield, which is tougher than any smartphone glass or glass ceramic. Our latest iPhone models have Ceramic Shield 2 on the front, with 3x better scratch resistance.  1   iPhone 17 Pro and iPhone Air also have Ceramic Shield on the back for added durability. Little spill? No biggie — iPhone stands up to splashes from everyday liquids like water, coffee, and soda.  2",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "Titanium design, Latest-generation Ceramic Shield front, Textured matte glass back",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "weight": {
           "value": 199,
-          "unit": null,
-          "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "unit": "g",
+          "rawText": "7.03 ounces (199 grams)",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "dimensions": {
           "value": "149.6 x 71.5 x 8.25 mm",
           "unit": null,
-          "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "Height: 5.89 inches (149.6 mm); Width: 2.81 inches (71.5 mm); Depth: 0.32 inch (8.25 mm)",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "screenSize": {
           "value": 6.3,
-          "unit": null,
-          "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "unit": "inch",
+          "rawText": "6.3-inch (diagonal) all-screen OLED display",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "displayType": {
           "value": "Super Retina XDR display, ProMotion, Always-On",
           "unit": null,
-          "rawText": "Get personalized product recommendations, compare models, access Your Saves, and track your orders. And opt in today to get updates on new products, promotions, flexible payment options, and store events.",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "Super Retina XDR display; Always-On display; ProMotion technology with adaptive refresh rates up to 120Hz",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "resolution": {
           "value": "2622 x 1206",
           "unit": null,
-          "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "2622-by-1206-pixel resolution at 460 ppi",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "refreshRate": {
           "value": 120,
           "unit": null,
-          "rawText": "Get pro-level videos using 4K 60 fps Dolby Vision and up to 4K 120 fps on the latest Pro models. Use Action mode to steady shaky scenes as you shoot. Boost the voices of the people in your video with Audio Mix. Quickly access camera tools with Camera Control. And with the Center Stage front camera, use Dual Capture to record on front and rear cameras simultaneously.  7",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "ProMotion technology with adaptive refresh rates up to 120Hz",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "peakBrightness": {
           "value": 2000,
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "chip": {
           "value": "A18 Pro",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "cpu": {
           "value": "6-core CPU with 2 performance and 4 efficiency cores",
           "unit": null,
           "rawText": "6-core CPU with 2 performance and 4 efficiency cores",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-07-18"
+          "verifiedAt": "2026-07-22"
         },
         "gpu": {
           "value": "6-core GPU",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "neuralEngine": {
           "value": "16-core Neural Engine",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "storage": {
           "value": "128GB / 256GB / 512GB / 1TB",
           "unit": null,
-          "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "128GB, 256GB, 512GB, 1TB",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "rearCamera": {
           "value": "48MP Fusion Main: 24mm, f/1.78, 2nd-gen sensor-shift OIS; 48MP Ultra Wide: 13mm, f/2.2; 12MP 5x Telephoto: 120mm, f/2.8",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "mainCamera": {
           "value": "48MP Fusion, 24mm, f/1.78, 2nd-gen sensor-shift OIS",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "ultraWide": {
           "value": "48MP, 13mm, f/2.2",
           "unit": null,
-          "rawText": "Requires an iPhone and Apple Watch with second-generation Ultra Wideband chip. Ultra Wideband availability varies by region.",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "48MP Ultra Wide: 13 mm, f/2.2 aperture and 120-degree field of view",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "telephoto": {
           "value": "12MP, 120mm, f/2.8, 5x optical zoom",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "opticalZoom": {
           "value": "5x optical zoom in, 2x optical zoom out; 10x optical zoom range",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "frontCamera": {
           "value": "12MP TrueDepth camera, f/1.9",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "videoRecording": {
           "value": "4K at 24/25/30/60/120 fps, ProRes, Cinematic mode",
           "unit": null,
-          "rawText": "Get pro-level videos using 4K 60 fps Dolby Vision and up to 4K 120 fps on the latest Pro models. Use Action mode to steady shaky scenes as you shoot. Boost the voices of the people in your video with Audio Mix. Quickly access camera tools with Camera Control. And with the Center Stage front camera, use Dual Capture to record on front and rear cameras simultaneously.  7",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "4K Dolby Vision video recording at 24 fps, 25 fps, 30 fps, 60 fps, 100 fps, or 120 fps",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "videoPlayback": {
           "value": "Up to 27 hours",
           "unit": null,
           "rawText": "Our hardware and software are designed to work together efficiently, so you can do more on a single charge — like getting up to 33 hours of video playback on iPhone 17 Pro and 39 hours on iPhone 17 Pro Max.  13",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "batteryLife": {
           "value": "Video playback up to 27 hours",
           "unit": null,
           "rawText": "Our hardware and software are designed to work together efficiently, so you can do more on a single charge — like getting up to 33 hours of video playback on iPhone 17 Pro and 39 hours on iPhone 17 Pro Max.  13",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "port": {
           "value": "USB-C (USB 3, up to 10Gb/s)",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "chargingMethod": {
           "value": "USB-C, MagSafe wireless, Qi2",
           "unit": null,
           "rawText": "Snap on a MagSafe Charger for faster wireless charging.  15   Or plug in a USB‑C Power Adapter. And with a USB‑C port, you can charge your iPhone with the same cable as your Mac and iPad.",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "security": {
           "value": "Face ID",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "waterResistance": {
           "value": "IP68 (max depth 6m, up to 30 min)",
           "unit": null,
-          "rawText": "iPhone 17e, iPhone 17, iPhone Air, and iPhone 17 Pro are splash, water, and dust resistant and were tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529 (maximum depth of 6 meters up to 30 minutes). Splash, water, and dust resistance are not permanent conditions. Resistance might decrease as a result of normal wear. Do not attempt to charge a wet iPhone; refer to the user guide for cleaning and drying instructions. Liquid damage not covered under warranty.",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "Rated IP68 (maximum depth of 6 meters up to 30 minutes) under IEC standard 60529",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "wifi": {
           "value": "802.11be Wi-Fi 7",
           "unit": null,
-          "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "Wi-Fi 7 (802.11be) with 2x2 MIMO",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "bluetooth": {
           "value": "Bluetooth 5.3",
           "unit": null,
-          "rawText": "Testing conducted by Apple in July 2025 using preproduction iPhone 17, iPhone Air, iPhone 17 Pro, and iPhone 17 Pro Max units and software, subscribed to LTE and 5G carrier networks. Additional iPhone Air testing conducted while paired with preproduction iPhone Air MagSafe Battery units and software. Video playback consisted of a repeated 2‑hour 23‑minute HDR movie purchased from the iTunes Store. Video playback (streamed) consisted of a repeated 3‑hour 1‑minute HDR movie purchased from the iTunes Store. All settings were default except: Bluetooth was paired with headphones; Wi‑Fi was associated with a network; the Wi‑Fi feature Ask to Join Networks, Auto‑Brightness, and True Tone were turned off.",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "Bluetooth 5.3",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "sim": {
           "value": "Dual eSIM",
           "unit": null,
-          "rawText": "Switching from Android to iPhone is simple.",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "Dual eSIM (two active eSIMs; stores eight or more eSIMs)",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "hasNFC": {
           "value": true,
           "unit": null,
           "rawText": "NFC",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasMagSafe": {
           "value": true,
           "unit": null,
-          "rawText": "Snap on a MagSafe Charger for faster wireless charging.  15   Or plug in a USB‑C Power Adapter. And with a USB‑C port, you can charge your iPhone with the same cable as your Mac and iPad.",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "MagSafe wireless charging up to 25W with 30W adapter or higher",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasSOS": {
           "value": true,
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasCrashDetection": {
           "value": true,
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121031",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "launchPrice": {
           "value": 7999,
           "unit": "CNY",
-          "rawText": "¥7999",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
-          "sourceType": "reference",
-          "confidence": 0.7,
-          "verifiedAt": "2026-06-27"
+          "rawText": "RMB 7,999",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2024/09/apple-debuts-iphone-16-pro-iphone-16-pro-max/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -2492,244 +2492,253 @@
           ],
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "material": {
           "value": "Aluminum design, Ceramic Shield front, Glass back",
           "unit": null,
-          "rawText": "iPhone is known for its iconic design and advanced materials — like iPhone 17 Pro, which has a heat-forged aluminum unibody and is built to deliver exceptional performance. And our thinnest iPhone ever, iPhone Air. Hardware and software are designed in tandem — like Dynamic Island, Camera Control, and the Action button.",
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "rawText": "Aluminum design, Ceramic Shield front, Glass back",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "weight": {
-          "value": null,
-          "unit": null,
-          "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "value": 167,
+          "unit": "g",
+          "rawText": "5.88 ounces (167 grams)",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "dimensions": {
-          "value": null,
+          "value": "146.7 x 71.5 x 7.80 mm",
           "unit": null,
-          "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "rawText": "Height: 5.78 inches (146.7 mm); Width: 2.82 inches (71.5 mm); Depth: 0.31 inch (7.80 mm)",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "screenSize": {
           "value": 6.1,
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "displayType": {
           "value": "Super Retina XDR display",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "resolution": {
-          "value": null,
+          "value": "2532 x 1170",
           "unit": null,
-          "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "rawText": "2532-by-1170-pixel resolution at 460 ppi",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "refreshRate": {
           "value": 60,
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "chip": {
           "value": "A18",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "cpu": {
           "value": null,
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "gpu": {
           "value": null,
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "neuralEngine": {
           "value": null,
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "storage": {
           "value": "128GB / 256GB / 512GB",
           "unit": null,
-          "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "rawText": "128GB, 256GB, 512GB",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "rearCamera": {
           "value": "48MP Fusion camera",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "mainCamera": {
           "value": "48MP Fusion",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "frontCamera": {
           "value": "12MP TrueDepth camera",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "videoRecording": {
           "value": "4K at 24/25/30/60 fps",
           "unit": null,
-          "rawText": "Get pro-level videos using 4K 60 fps Dolby Vision and up to 4K 120 fps on the latest Pro models. Use Action mode to steady shaky scenes as you shoot. Boost the voices of the people in your video with Audio Mix. Quickly access camera tools with Camera Control. And with the Center Stage front camera, use Dual Capture to record on front and rear cameras simultaneously.  7",
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "rawText": "4K Dolby Vision video recording at 24 fps, 25 fps, 30 fps, or 60 fps",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "videoPlayback": {
           "value": null,
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "batteryLife": {
           "value": null,
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "port": {
           "value": "USB-C",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "security": {
           "value": "Face ID",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "waterResistance": {
           "value": "IP68 (max depth 6m, up to 30 min)",
           "unit": null,
-          "rawText": "iPhone 17e, iPhone 17, iPhone Air, and iPhone 17 Pro are splash, water, and dust resistant and were tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529 (maximum depth of 6 meters up to 30 minutes). Splash, water, and dust resistance are not permanent conditions. Resistance might decrease as a result of normal wear. Do not attempt to charge a wet iPhone; refer to the user guide for cleaning and drying instructions. Liquid damage not covered under warranty.",
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "rawText": "Rated IP68 (maximum depth of 6 meters up to 30 minutes) under IEC standard 60529",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "wifi": {
-          "value": null,
+          "value": "Wi-Fi 6 (802.11ax)",
           "unit": null,
-          "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "rawText": "Wi-Fi 6 (802.11ax) with 2x2 MIMO",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "bluetooth": {
-          "value": null,
+          "value": "Bluetooth 5.3",
           "unit": null,
-          "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "rawText": "Bluetooth 5.3",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "sim": {
-          "value": "eSIM",
+          "value": "Dual eSIM",
           "unit": null,
-          "rawText": "Switching from Android to iPhone is simple.",
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "rawText": "Dual eSIM (two active eSIMs; stores eight or more eSIMs)",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "hasNFC": {
           "value": true,
           "unit": null,
           "rawText": "NFC",
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasMagSafe": {
-          "value": true,
+          "value": false,
           "unit": null,
-          "rawText": "Snap on a MagSafe Charger for faster wireless charging.  15   Or plug in a USB‑C Power Adapter. And with a USB‑C port, you can charge your iPhone with the same cable as your Mac and iPad.",
-          "sourceUrl": "https://www.apple.com/iphone-16e/specs/",
+          "rawText": "Wireless charging (works with Qi chargers)",
+          "sourceUrl": "https://support.apple.com/en-us/122208",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
+        },
+        "launchPrice": {
+          "value": 4499,
+          "unit": "CNY",
+          "rawText": "RMB 4,499",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2025/02/apple-debuts-iphone-16e/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -4284,11 +4293,11 @@
         "launchPrice": {
           "value": 6299,
           "unit": "CNY",
-          "rawText": "¥6299",
-          "sourceUrl": "https://support.apple.com/en-us/111876",
-          "sourceType": "reference",
-          "confidence": 0.7,
-          "verifiedAt": "2026-06-27"
+          "rawText": "RMB 6,299",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2020/10/apple-announces-iphone-12-and-iphone-12-mini-a-new-era-for-iphone-with-5g/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -4594,11 +4603,11 @@
         "launchPrice": {
           "value": 5499,
           "unit": "CNY",
-          "rawText": "¥5499",
-          "sourceUrl": "https://support.apple.com/en-us/111877",
-          "sourceType": "reference",
-          "confidence": 0.7,
-          "verifiedAt": "2026-06-27"
+          "rawText": "RMB 5,499",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2020/10/apple-announces-iphone-12-and-iphone-12-mini-a-new-era-for-iphone-with-5g/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -4893,11 +4902,11 @@
         "launchPrice": {
           "value": 8499,
           "unit": "CNY",
-          "rawText": "¥8499",
-          "sourceUrl": "https://support.apple.com/en-us/111875",
-          "sourceType": "reference",
-          "confidence": 0.7,
-          "verifiedAt": "2026-06-27"
+          "rawText": "RMB 8,499",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2020/10/apple-introduces-iphone-12-pro-and-iphone-12-pro-max-with-5g/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -5192,11 +5201,11 @@
         "launchPrice": {
           "value": 9299,
           "unit": "CNY",
-          "rawText": "¥9299",
-          "sourceUrl": "https://support.apple.com/en-us/111874",
-          "sourceType": "reference",
-          "confidence": 0.7,
-          "verifiedAt": "2026-06-27"
+          "rawText": "RMB 9,299",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2020/10/apple-introduces-iphone-12-pro-and-iphone-12-pro-max-with-5g/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -5511,11 +5520,11 @@
         "launchPrice": {
           "value": 5999,
           "unit": "CNY",
-          "rawText": "¥5999",
-          "sourceUrl": "https://support.apple.com/en-us/111872",
-          "sourceType": "reference",
-          "confidence": 0.7,
-          "verifiedAt": "2026-06-27"
+          "rawText": "RMB 5,999",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2021/09/apple-introduces-iphone-13-and-iphone-13-mini/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -5830,11 +5839,11 @@
         "launchPrice": {
           "value": 5199,
           "unit": "CNY",
-          "rawText": "¥5199",
-          "sourceUrl": "https://support.apple.com/en-us/111873",
-          "sourceType": "reference",
-          "confidence": 0.7,
-          "verifiedAt": "2026-06-27"
+          "rawText": "RMB 5,199",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2021/09/apple-introduces-iphone-13-and-iphone-13-mini/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -6148,11 +6157,11 @@
         "launchPrice": {
           "value": 7999,
           "unit": "CNY",
-          "rawText": "¥7999",
-          "sourceUrl": "https://support.apple.com/en-us/111871",
-          "sourceType": "reference",
-          "confidence": 0.7,
-          "verifiedAt": "2026-06-27"
+          "rawText": "RMB 7,999",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2021/09/apple-unveils-iphone-13-pro-and-iphone-13-pro-max-more-pro-than-ever-before/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -6466,11 +6475,11 @@
         "launchPrice": {
           "value": 8999,
           "unit": "CNY",
-          "rawText": "¥8999",
-          "sourceUrl": "https://support.apple.com/en-us/111870",
-          "sourceType": "reference",
-          "confidence": 0.7,
-          "verifiedAt": "2026-06-27"
+          "rawText": "RMB 8,999",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2021/09/apple-unveils-iphone-13-pro-and-iphone-13-pro-max-more-pro-than-ever-before/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -8269,6 +8278,15 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-06-25"
+        },
+        "launchPrice": {
+          "value": 6999,
+          "unit": "CNY",
+          "rawText": "RMB 6,999",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2022/09/apple-introduces-iphone-14-and-iphone-14-plus/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -8606,13 +8624,13 @@
           "verifiedAt": "2026-06-25"
         },
         "launchPrice": {
-          "value": 9999,
+          "value": 8999,
           "unit": "CNY",
-          "rawText": "¥9999",
-          "sourceUrl": "https://support.apple.com/en-us/111846",
-          "sourceType": "reference",
-          "confidence": 0.7,
-          "verifiedAt": "2026-06-27"
+          "rawText": "RMB 8,999",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2022/09/apple-debuts-iphone-14-pro-and-iphone-14-pro-max/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -8949,6 +8967,15 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-06-25"
+        },
+        "launchPrice": {
+          "value": 6999,
+          "unit": "CNY",
+          "rawText": "RMB 6,999",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -9288,11 +9315,11 @@
         "launchPrice": {
           "value": 9999,
           "unit": "CNY",
-          "rawText": "¥9999",
-          "sourceUrl": "https://support.apple.com/en-us/111828",
-          "sourceType": "reference",
-          "confidence": 0.7,
-          "verifiedAt": "2026-06-27"
+          "rawText": "RMB 9,999",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -9346,253 +9373,289 @@
           ],
           "unit": null,
           "rawText": "Black, White, Pink, Teal, Ultramarine",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-07-18"
+          "verifiedAt": "2026-07-22"
         },
         "material": {
-          "value": "Aluminum design Ceramic Shield front Color-infused glass back (Black, Pink, Teal, Ultramarine)",
+          "value": "Aluminum design, Ceramic Shield front, Color-infused glass back",
           "unit": null,
-          "rawText": "Aluminum design Ceramic Shield front Color-infused glass back (Black, Pink, Teal, Ultramarine)",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
-          "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
-        },
-        "weight": {
-          "value": 170,
-          "unit": "g",
-          "rawText": "6.00 ounces (170 grams)",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "rawText": "Aluminum design, Ceramic Shield front, Color-infused glass back",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
+        },
+        "weight": {
+          "value": 199,
+          "unit": "g",
+          "rawText": "7.03 ounces (199 grams)",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "dimensions": {
-          "value": "2.82 inches (71.6 mm)",
+          "value": "160.9 x 77.8 x 7.80 mm",
           "unit": null,
-          "rawText": "2.82 inches (71.6 mm)",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "rawText": "Height: 6.33 inches (160.9 mm); Width: 3.06 inches (77.8 mm); Depth: 0.31 inch (7.80 mm)",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "displayType": {
           "value": "Super Retina XDR display",
           "unit": null,
           "rawText": "Super Retina XDR display",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "refreshRate": {
           "value": 60,
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "chip": {
           "value": "A18 chip",
           "unit": null,
           "rawText": "A18 chip",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "cpu": {
           "value": "6‑core CPU with 2 performance and 4 efficiency cores",
           "unit": null,
           "rawText": "6‑core CPU with 2 performance and 4 efficiency cores",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "gpu": {
           "value": "5‑core GPU",
           "unit": null,
           "rawText": "5‑core GPU",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "rearCamera": {
           "value": "Advanced dual-camera system: 48MP Fusion Main, 12MP 2x Telephoto, and 12MP Ultra Wide",
           "unit": null,
           "rawText": "Advanced dual-camera system; 48MP Fusion Main; 12MP 2x Telephoto; 12MP Ultra Wide",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-07-18"
+          "verifiedAt": "2026-07-22"
         },
         "mainCamera": {
           "value": "48MP Fusion Main: 26 mm, ƒ/1.6 aperture",
           "unit": null,
           "rawText": "48MP Fusion Main: 26 mm, ƒ/1.6 aperture",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-07-18"
+          "verifiedAt": "2026-07-22"
         },
         "ultraWide": {
-          "value": "Apple second-generation Ultra Wideband chip  11",
+          "value": "12MP, 13mm, f/2.2",
           "unit": null,
-          "rawText": "Apple second-generation Ultra Wideband chip  11",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "rawText": "12MP Ultra Wide: 13 mm, f/2.2 aperture and 120-degree field of view",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "telephoto": {
           "value": "Also enables 12MP 2x Telephoto: 52 mm, ƒ/1.6 aperture, sensor-shift optical imag",
           "unit": null,
           "rawText": "Also enables 12MP 2x Telephoto: 52 mm, ƒ/1.6 aperture, sensor-shift optical image stabilization, 100% Focus Pixels",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "opticalZoom": {
           "value": "2x optical zoom in, 2x optical zoom out; 4x optical zoom range",
           "unit": null,
           "rawText": "2x optical zoom in, 2x optical zoom out; 4x optical zoom range",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "frontCamera": {
           "value": "TrueDepth Camera",
           "unit": null,
           "rawText": "TrueDepth Camera",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "videoRecording": {
-          "value": "Take 8MP still photos while recording 4K video",
+          "value": "4K at 24/25/30/60 fps, 1080p HD at 25/30/60 fps",
           "unit": null,
-          "rawText": "Take 8MP still photos while recording 4K video",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "rawText": "4K Dolby Vision video recording at 24 fps, 25 fps, 30 fps, or 60 fps",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "videoPlayback": {
           "value": "Video playback   Up to 22 hours",
           "unit": null,
           "rawText": "Video playback   Up to 22 hours",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "batteryLife": {
           "value": "Video playback   Up to 22 hours",
           "unit": null,
           "rawText": "Video playback   Up to 22 hours",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "port": {
           "value": "USB-C",
           "unit": null,
           "rawText": "USB-C connector",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "chargingMethod": {
           "value": "MagSafe wireless, Qi, wired",
           "unit": null,
           "rawText": "Fast-charge capable:   Up to 50% charge in around 30 minutes  6   with  20W adapter  or higher (available separately) paired with USB‑C charging cable, or 30W adapter or higher paired with MagSafe Charger (both available separately)",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "waterResistance": {
           "value": "Rated IP68 (maximum depth of 6 meters up to 30 minutes) under IEC standard 60529",
           "unit": null,
           "rawText": "Rated IP68 (maximum depth of 6 meters up to 30 minutes) under IEC standard 60529",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "wifi": {
-          "value": "FaceTime HD (1080p) video calling over 5G or Wi-Fi",
+          "value": "802.11be Wi-Fi 7",
           "unit": null,
-          "rawText": "FaceTime HD (1080p) video calling over 5G or Wi-Fi",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "rawText": "Wi-Fi 7 (802.11be) with 2x2 MIMO",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "bluetooth": {
           "value": "Bluetooth 5.3",
           "unit": null,
           "rawText": "Bluetooth 5.3",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "sim": {
-          "value": "Dual eSIM (two active eSIMs; stores eight or more eSIMs)  13",
+          "value": "Dual eSIM",
           "unit": null,
-          "rawText": "Dual eSIM (two active eSIMs; stores eight or more eSIMs)  13",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "rawText": "Dual eSIM (two active eSIMs; stores eight or more eSIMs)",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "hasNFC": {
           "value": true,
           "unit": null,
           "rawText": "NFC with reader mode",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasMagSafe": {
           "value": true,
           "unit": null,
           "rawText": "Fast-charge capable:   Up to 50% charge in around 30 minutes  6   with  20W adapter  or higher (available separately) paired with USB‑C charging cable, or 30W adapter or higher paired with MagSafe Charger (both available separately)",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasSOS": {
           "value": true,
           "unit": null,
           "rawText": "Emergency SOS via satellite  7",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasCrashDetection": {
           "value": true,
           "unit": null,
           "rawText": "Crash Detection  8",
-          "sourceUrl": "https://www.apple.com/iphone-16/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
+        },
+        "screenSize": {
+          "value": 6.7,
+          "unit": "inch",
+          "rawText": "6.7-inch (diagonal) all-screen OLED display",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
+        },
+        "resolution": {
+          "value": "2796 x 1290",
+          "unit": null,
+          "rawText": "2796-by-1290-pixel resolution at 460 ppi",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
+        },
+        "storage": {
+          "value": "128GB / 256GB / 512GB",
+          "unit": null,
+          "rawText": "128GB, 256GB, 512GB",
+          "sourceUrl": "https://support.apple.com/en-us/121030",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
+        },
+        "launchPrice": {
+          "value": 6999,
+          "unit": "CNY",
+          "rawText": "RMB 6,999",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2024/09/apple-introduces-iphone-16-iphone-16-plus/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -9645,316 +9708,316 @@
           ],
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "material": {
-          "value": "Titanium design, Ceramic Shield front",
+          "value": "Titanium design, Latest-generation Ceramic Shield front, Textured matte glass back",
           "unit": null,
-          "rawText": "iPhone is protected by Ceramic Shield, which is tougher than any smartphone glass or glass ceramic. Our latest iPhone models have Ceramic Shield 2 on the front, with 3x better scratch resistance.  1   iPhone 17 Pro and iPhone Air also have Ceramic Shield on the back for added durability. Little spill? No biggie — iPhone stands up to splashes from everyday liquids like water, coffee, and soda.  2",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "Titanium design, Latest-generation Ceramic Shield front, Textured matte glass back",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "weight": {
           "value": 227,
-          "unit": null,
-          "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "unit": "g",
+          "rawText": "7.99 ounces (227 grams)",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "dimensions": {
           "value": "163.0 x 77.6 x 8.25 mm",
           "unit": null,
-          "rawText": "163.0 x 77.6 x 8.25 mm",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "Height: 6.42 inches (163.0 mm); Width: 3.06 inches (77.6 mm); Depth: 0.32 inch (8.25 mm)",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-07-18"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "screenSize": {
           "value": 6.9,
-          "unit": null,
-          "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "unit": "inch",
+          "rawText": "6.9-inch (diagonal) all-screen OLED display",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "displayType": {
           "value": "Super Retina XDR display, ProMotion, Always-On",
           "unit": null,
-          "rawText": "Get personalized product recommendations, compare models, access Your Saves, and track your orders. And opt in today to get updates on new products, promotions, flexible payment options, and store events.",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "Super Retina XDR display; Always-On display; ProMotion technology with adaptive refresh rates up to 120Hz",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "resolution": {
           "value": "2868 x 1320",
           "unit": null,
-          "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "2868-by-1320-pixel resolution at 460 ppi",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "refreshRate": {
           "value": 120,
           "unit": null,
-          "rawText": "Get pro-level videos using 4K 60 fps Dolby Vision and up to 4K 120 fps on the latest Pro models. Use Action mode to steady shaky scenes as you shoot. Boost the voices of the people in your video with Audio Mix. Quickly access camera tools with Camera Control. And with the Center Stage front camera, use Dual Capture to record on front and rear cameras simultaneously.  7",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "ProMotion technology with adaptive refresh rates up to 120Hz",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "peakBrightness": {
           "value": 2000,
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "chip": {
           "value": "A18 Pro",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "cpu": {
           "value": "6-core CPU",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "gpu": {
           "value": "6-core GPU",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "neuralEngine": {
           "value": "16-core Neural Engine",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "storage": {
           "value": "256GB / 512GB / 1TB",
           "unit": null,
-          "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "256GB, 512GB, 1TB",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "rearCamera": {
           "value": "48MP Fusion + 48MP Ultra Wide + 12MP 5x Telephoto",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "mainCamera": {
           "value": "48MP Fusion, 24mm, f/1.78",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "ultraWide": {
           "value": "48MP, 13mm, f/2.2",
           "unit": null,
-          "rawText": "Requires an iPhone and Apple Watch with second-generation Ultra Wideband chip. Ultra Wideband availability varies by region.",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "48MP Ultra Wide: 13 mm, f/2.2 aperture and 120-degree field of view",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "telephoto": {
           "value": "12MP, 120mm, f/2.8, 5x optical zoom",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "opticalZoom": {
           "value": "5x optical zoom",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "frontCamera": {
           "value": "12MP TrueDepth camera, f/1.9",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "videoRecording": {
           "value": "4K at 24/25/30/60/120 fps, ProRes",
           "unit": null,
-          "rawText": "Get pro-level videos using 4K 60 fps Dolby Vision and up to 4K 120 fps on the latest Pro models. Use Action mode to steady shaky scenes as you shoot. Boost the voices of the people in your video with Audio Mix. Quickly access camera tools with Camera Control. And with the Center Stage front camera, use Dual Capture to record on front and rear cameras simultaneously.  7",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "4K Dolby Vision video recording at 24 fps, 25 fps, 30 fps, 60 fps, 100 fps, or 120 fps",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "videoPlayback": {
           "value": "Up to 33 hours",
           "unit": null,
           "rawText": "Our hardware and software are designed to work together efficiently, so you can do more on a single charge — like getting up to 33 hours of video playback on iPhone 17 Pro and 39 hours on iPhone 17 Pro Max.  13",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "batteryLife": {
           "value": "Video playback up to 33 hours",
           "unit": null,
           "rawText": "Our hardware and software are designed to work together efficiently, so you can do more on a single charge — like getting up to 33 hours of video playback on iPhone 17 Pro and 39 hours on iPhone 17 Pro Max.  13",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "port": {
           "value": "USB-C (USB 3)",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "chargingMethod": {
           "value": "USB-C, MagSafe, Qi2",
           "unit": null,
           "rawText": "Snap on a MagSafe Charger for faster wireless charging.  15   Or plug in a USB‑C Power Adapter. And with a USB‑C port, you can charge your iPhone with the same cable as your Mac and iPad.",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "security": {
           "value": "Face ID",
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "waterResistance": {
-          "value": "IP68",
+          "value": "IP68 (max depth 6m, up to 30 min)",
           "unit": null,
-          "rawText": "iPhone 17e, iPhone 17, iPhone Air, and iPhone 17 Pro are splash, water, and dust resistant and were tested under controlled laboratory conditions with a rating of IP68 under IEC standard 60529 (maximum depth of 6 meters up to 30 minutes). Splash, water, and dust resistance are not permanent conditions. Resistance might decrease as a result of normal wear. Do not attempt to charge a wet iPhone; refer to the user guide for cleaning and drying instructions. Liquid damage not covered under warranty.",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "Rated IP68 (maximum depth of 6 meters up to 30 minutes) under IEC standard 60529",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "wifi": {
           "value": "802.11be Wi-Fi 7",
           "unit": null,
-          "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "Wi-Fi 7 (802.11be) with 2x2 MIMO",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "bluetooth": {
           "value": "Bluetooth 5.3",
           "unit": null,
-          "rawText": "Testing conducted by Apple in July 2025 using preproduction iPhone 17, iPhone Air, iPhone 17 Pro, and iPhone 17 Pro Max units and software, subscribed to LTE and 5G carrier networks. Additional iPhone Air testing conducted while paired with preproduction iPhone Air MagSafe Battery units and software. Video playback consisted of a repeated 2‑hour 23‑minute HDR movie purchased from the iTunes Store. Video playback (streamed) consisted of a repeated 3‑hour 1‑minute HDR movie purchased from the iTunes Store. All settings were default except: Bluetooth was paired with headphones; Wi‑Fi was associated with a network; the Wi‑Fi feature Ask to Join Networks, Auto‑Brightness, and True Tone were turned off.",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "Bluetooth 5.3",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "sim": {
           "value": "Dual eSIM",
           "unit": null,
-          "rawText": "Switching from Android to iPhone is simple.",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "Dual eSIM (two active eSIMs; stores eight or more eSIMs)",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "hasNFC": {
           "value": true,
           "unit": null,
           "rawText": "NFC",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasMagSafe": {
           "value": true,
           "unit": null,
-          "rawText": "Snap on a MagSafe Charger for faster wireless charging.  15   Or plug in a USB‑C Power Adapter. And with a USB‑C port, you can charge your iPhone with the same cable as your Mac and iPad.",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "rawText": "MagSafe wireless charging up to 25W with 30W adapter or higher",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasSOS": {
           "value": true,
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasCrashDetection": {
           "value": true,
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121032",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "launchPrice": {
           "value": 9999,
           "unit": "CNY",
-          "rawText": "¥9999",
-          "sourceUrl": "https://www.apple.com/iphone-16-pro/specs/",
-          "sourceType": "reference",
-          "confidence": 0.7,
-          "verifiedAt": "2026-06-27"
+          "rawText": "RMB 9,999",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2024/09/apple-debuts-iphone-16-pro-iphone-16-pro-max/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -10217,6 +10280,15 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-06-25"
+        },
+        "launchPrice": {
+          "value": 3499,
+          "unit": "CNY",
+          "rawText": "RMB 3,499",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2022/03/apple-announces-the-new-iphone-se-a-powerful-smartphone-in-an-iconic-design/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -10470,6 +10542,15 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-06-25"
+        },
+        "launchPrice": {
+          "value": 3299,
+          "unit": "CNY",
+          "rawText": "RMB 3,299",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2020/04/iphone-se-a-powerful-new-smartphone-in-a-popular-design/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -10982,118 +11063,118 @@
           "value": "Liquid Retina display",
           "unit": null,
           "rawText": "Liquid Retina display",
-          "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121456",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "resolution": {
           "value": "2266 x 1488",
           "unit": null,
           "rawText": "2266-by-1488 resolution at 326 ppi",
-          "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121456",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "rearCamera": {
           "value": "12MP Wide camera, ƒ/1.8 aperture",
           "unit": null,
           "rawText": "12MP Wide camera, ƒ/1.8 aperture",
-          "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121456",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "frontCamera": {
           "value": "Center Stage",
           "unit": null,
           "rawText": "Center Stage",
-          "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121456",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "speakers": {
           "value": "Stereo speaker",
           "unit": null,
           "rawText": "Stereo speaker",
-          "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121456",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "microphone": {
           "value": "Microphone",
           "unit": null,
           "rawText": "Microphone",
-          "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121456",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "port": {
           "value": "USB-C Charge Cable (1 meter)",
           "unit": null,
           "rawText": "USB-C Charge Cable (1 meter)",
-          "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121456",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "security": {
           "value": "Touch ID",
           "unit": null,
           "rawText": "Top button/ Touch ID sensor",
-          "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121456",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "wifi": {
           "value": "Wi-Fi models",
           "unit": null,
           "rawText": "Wi-Fi models",
-          "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121456",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "bluetooth": {
           "value": "Bluetooth 5.3",
           "unit": null,
           "rawText": "Bluetooth 5.3",
-          "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121456",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "externalDisplay": {
           "value": "Supports one external display with up to 4K resolution at 60Hz",
           "unit": null,
           "rawText": "Supports one external display with up to 4K resolution at 60Hz",
-          "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121456",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "chip": {
           "value": "A17 Pro",
           "unit": null,
           "rawText": "A17 Pro chip",
-          "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121456",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "screenSize": {
           "value": 8.3,
           "unit": null,
           "rawText": "8.3 inches",
-          "sourceUrl": "https://www.apple.com/ipad-mini/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/121456",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -15049,289 +15130,289 @@
           ],
           "unit": null,
           "rawText": "Black, White, Mist Blue, Sage, Lavender",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "material": {
           "value": "Aluminum design, Ceramic Shield 2 front, Color-infused glass back",
           "unit": null,
           "rawText": "Aluminum design, Ceramic Shield 2 front, Color-infused glass back",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "weight": {
           "value": 177,
           "unit": "g",
           "rawText": "177 grams",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "dimensions": {
           "value": "149.6 x 71.5 x 7.95 mm",
           "unit": "mm",
           "rawText": "71.5 mm x 149.6 mm x 7.95 mm",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "screenSize": {
           "value": 6.3,
           "unit": "inch",
           "rawText": "6.3-inch diagonal",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "displayType": {
           "value": "Super Retina XDR OLED",
           "unit": null,
           "rawText": "Super Retina XDR OLED",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "resolution": {
           "value": "2622 x 1206",
           "unit": "pixels",
           "rawText": "2622 by 1206 pixels at 460 ppi",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "refreshRate": {
           "value": 120,
           "unit": "Hz",
           "rawText": "ProMotion adaptive up to 120Hz",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "chip": {
           "value": "A19",
           "unit": null,
           "rawText": "A19",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "cpu": {
           "value": "6-core CPU (2 performance + 4 efficiency)",
           "unit": null,
           "rawText": "6-core (2 performance, 4 efficiency)",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "gpu": {
           "value": "5-core GPU with Neural Accelerators",
           "unit": null,
           "rawText": "5-core GPU with Neural Accelerators, hardware-accelerated ray tracing",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "neuralEngine": {
           "value": "16-core Neural Engine",
           "unit": null,
           "rawText": "16-core Neural Engine",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "storage": {
           "value": "256GB / 512GB",
           "unit": null,
           "rawText": "256GB, 512GB",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "rearCamera": {
           "value": "48MP Dual Fusion: Main 26mm f/1.6 + Ultra Wide 13mm f/2.2",
           "unit": null,
           "rawText": "48MP Dual Fusion camera system",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "mainCamera": {
           "value": "48MP Fusion Main, 26mm, f/1.6, sensor-shift OIS",
           "unit": null,
           "rawText": "48MP Fusion Main — 26mm, f/1.6, sensor-shift OIS",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "ultraWide": {
           "value": "48MP Fusion Ultra Wide, 13mm, f/2.2, 120° FOV",
           "unit": null,
           "rawText": "48MP Fusion Ultra Wide — 13mm, f/2.2, 120° field of view",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "frontCamera": {
           "value": "18MP Center Stage, f/1.9",
           "unit": null,
           "rawText": "18MP Center Stage — f/1.9, autofocus with Focus Pixels",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "videoRecording": {
           "value": "4K Dolby Vision at 24/25/30/60 fps",
           "unit": null,
           "rawText": "Up to 4K Dolby Vision at 24/25/30/60 fps",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "batteryLife": {
           "value": "Up to 30 hours video playback",
           "unit": null,
           "rawText": "Up to 30 hours video playback; 27 hours streamed",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "port": {
           "value": "USB-C (USB 2)",
           "unit": null,
           "rawText": "USB-C (USB 2, up to 480Mb/s)",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "chargingMethod": {
           "value": "MagSafe/Qi2 up to 25W, fast-charge 40W+",
           "unit": null,
           "rawText": "Fast-charge via 40W+ USB-C adapter; MagSafe/Qi2 wireless up to 25W",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "security": {
           "value": "Face ID",
           "unit": null,
           "rawText": "Face ID (TrueDepth)",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "waterResistance": {
           "value": "IP68 (6m, 30min)",
           "unit": null,
           "rawText": "IP68 (6 meters, up to 30 minutes)",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "wifi": {
           "value": "Wi-Fi 7 (802.11be), Apple N1 chip",
           "unit": null,
           "rawText": "Wi-Fi 7 (802.11be) 2x2 MIMO, Apple N1 chip",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "bluetooth": {
           "value": "6",
           "unit": null,
           "rawText": "Bluetooth 6",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "sim": {
           "value": "Dual eSIM only",
           "unit": null,
           "rawText": "Dual eSIM only",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasMagSafe": {
           "value": true,
           "unit": null,
           "rawText": "Yes, 25W wireless charging",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasNFC": {
           "value": true,
           "unit": null,
           "rawText": "NFC with reader mode",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasSOS": {
           "value": true,
           "unit": null,
           "rawText": "Emergency SOS, Roadside Assistance, Messages, Find My via satellite",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasCrashDetection": {
           "value": true,
           "unit": null,
           "rawText": "Yes",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasUWB": {
           "value": true,
           "unit": null,
           "rawText": "Second-generation Ultra Wideband chip",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125089",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "launchPrice": {
           "value": 5999,
           "unit": "CNY",
-          "rawText": "¥5999",
-          "sourceUrl": "https://www.apple.com/iphone-17/specs/",
-          "sourceType": "reference",
-          "confidence": 0.7,
-          "verifiedAt": "2026-06-27"
+          "rawText": "RMB 5,999",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2025/09/apple-debuts-iphone-17/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -15384,289 +15465,289 @@
           ],
           "unit": null,
           "rawText": "Space Black, Cloud White, Light Gold, Sky Blue",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "material": {
           "value": "Titanium design, Ceramic Shield 2 front, Ceramic Shield back",
           "unit": null,
           "rawText": "Titanium design, Ceramic Shield 2 front, Ceramic Shield back",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "weight": {
           "value": 165,
           "unit": "g",
           "rawText": "165 grams (5.82 oz)",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "dimensions": {
           "value": "156.2 x 74.7 x 5.64 mm",
           "unit": "mm",
           "rawText": "156.2 mm x 74.7 mm x 5.64 mm",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "screenSize": {
           "value": 6.5,
           "unit": "inch",
           "rawText": "6.5-inch diagonal OLED",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "displayType": {
           "value": "Super Retina XDR OLED, Always-On, Anti-reflective coating",
           "unit": null,
           "rawText": "Super Retina XDR OLED, HDR, True Tone, P3 wide color, Always-On, Anti-reflective coating",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "resolution": {
           "value": "2736 x 1260",
           "unit": "pixels",
           "rawText": "2736 x 1260 pixels at 460 ppi",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "refreshRate": {
           "value": 120,
           "unit": "Hz",
           "rawText": "ProMotion adaptive up to 120Hz",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "chip": {
           "value": "A19 Pro",
           "unit": null,
           "rawText": "A19 Pro",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "cpu": {
           "value": "6-core CPU (2 performance + 4 efficiency)",
           "unit": null,
           "rawText": "6-core (2 performance, 4 efficiency)",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "gpu": {
           "value": "5-core GPU with Neural Accelerators",
           "unit": null,
           "rawText": "5-core GPU with Neural Accelerators, hardware-accelerated ray tracing",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "neuralEngine": {
           "value": "16-core Neural Engine",
           "unit": null,
           "rawText": "16-core Neural Engine",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "storage": {
           "value": "256GB / 512GB / 1TB",
           "unit": null,
           "rawText": "256GB, 512GB, 1TB",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "rearCamera": {
           "value": "48MP Fusion Main: 26mm, f/1.6, sensor-shift OIS; 12MP 2x Telephoto: 52mm",
           "unit": null,
           "rawText": "48MP Fusion Main (26mm, f/1.6, sensor-shift OIS); 12MP optical-quality 2x Telephoto (52mm)",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "mainCamera": {
           "value": "48MP Fusion Main, 26mm, f/1.6, sensor-shift OIS",
           "unit": null,
           "rawText": "48MP Fusion Main — 26mm, f/1.6, sensor-shift OIS",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "telephoto": {
           "value": "12MP optical-quality 2x, 52mm, f/1.6",
           "unit": null,
           "rawText": "12MP optical-quality 2x Telephoto (52mm, f/1.6)",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "frontCamera": {
           "value": "18MP Center Stage, f/1.9",
           "unit": null,
           "rawText": "18MP Center Stage, f/1.9, autofocus with Focus Pixels",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "videoRecording": {
           "value": "4K Dolby Vision at 24/25/30/60 fps, Dual Capture up to 4K@30fps",
           "unit": null,
           "rawText": "4K Dolby Vision at 24/25/30/60 fps; Dual Capture up to 4K@30fps",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "batteryLife": {
           "value": "Up to 27 hours video playback",
           "unit": null,
           "rawText": "Up to 27 hrs video playback; up to 22 hrs streamed",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "port": {
           "value": "USB-C (USB 2)",
           "unit": null,
           "rawText": "USB-C (USB 2, up to 480Mb/s)",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "chargingMethod": {
           "value": "MagSafe/Qi2 up to 20W, fast-charge 20W+",
           "unit": null,
           "rawText": "Fast charge 50% in 30 min (20W+ adapter); MagSafe/Qi2 wireless up to 20W",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "security": {
           "value": "Face ID",
           "unit": null,
           "rawText": "Face ID (TrueDepth via Center Stage camera)",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "waterResistance": {
           "value": "IP68 (6m, 30min)",
           "unit": null,
           "rawText": "IP68 (6m max depth, up to 30 min)",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "wifi": {
           "value": "Wi-Fi 7 (802.11be), Apple N1 chip",
           "unit": null,
           "rawText": "Wi-Fi 7 (802.11be) 2x2 MIMO (Apple N1 chip)",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "bluetooth": {
           "value": "6",
           "unit": null,
           "rawText": "Bluetooth 6",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "sim": {
           "value": "Dual eSIM only",
           "unit": null,
           "rawText": "Dual eSIM only (no physical SIM support)",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasMagSafe": {
           "value": true,
           "unit": null,
           "rawText": "Yes, up to 20W wireless",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasNFC": {
           "value": true,
           "unit": null,
           "rawText": "NFC with reader mode",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasSOS": {
           "value": true,
           "unit": null,
           "rawText": "Emergency SOS via satellite",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasCrashDetection": {
           "value": true,
           "unit": null,
           "rawText": "Yes",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasUWB": {
           "value": true,
           "unit": null,
           "rawText": "Second-generation Ultra Wideband chip",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125092",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "launchPrice": {
           "value": 7999,
           "unit": "CNY",
-          "rawText": "¥7999",
-          "sourceUrl": "https://www.apple.com/iphone-air/specs/",
-          "sourceType": "reference",
-          "confidence": 0.7,
-          "verifiedAt": "2026-06-27"
+          "rawText": "RMB 7,999",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2025/09/introducing-iphone-air-a-powerful-new-iphone/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -15718,307 +15799,307 @@
           ],
           "unit": null,
           "rawText": "Silver, Cosmic Orange, Deep Blue",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "material": {
           "value": "Aluminum unibody, Ceramic Shield 2 front, Ceramic Shield back",
           "unit": null,
           "rawText": "Aluminum unibody design, Ceramic Shield 2 front, Ceramic Shield back",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "weight": {
           "value": 206,
           "unit": "g",
           "rawText": "206 grams (7.27 oz)",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "dimensions": {
           "value": "150.0 x 71.9 x 8.75 mm",
           "unit": "mm",
           "rawText": "150.0 mm x 71.9 mm x 8.75 mm",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "screenSize": {
           "value": 6.3,
           "unit": "inch",
           "rawText": "6.3-inch diagonal",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "displayType": {
           "value": "Super Retina XDR OLED, Always-On, ProMotion",
           "unit": null,
           "rawText": "Super Retina XDR OLED, Always-On display, ProMotion technology",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "resolution": {
           "value": "2622 x 1206",
           "unit": "pixels",
           "rawText": "2622 x 1206 pixels at 460 ppi",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "refreshRate": {
           "value": 120,
           "unit": "Hz",
           "rawText": "Up to 120Hz (adaptive via ProMotion)",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "chip": {
           "value": "A19 Pro",
           "unit": null,
           "rawText": "A19 Pro",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "cpu": {
           "value": "6-core CPU (2 performance + 4 efficiency)",
           "unit": null,
           "rawText": "6-core CPU with 2 performance and 4 efficiency cores",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "gpu": {
           "value": "6-core GPU with Neural Accelerators",
           "unit": null,
           "rawText": "6-core GPU with Neural Accelerators, hardware-accelerated ray tracing",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "neuralEngine": {
           "value": "16-core Neural Engine",
           "unit": null,
           "rawText": "16-core Neural Engine",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "storage": {
           "value": "256GB / 512GB / 1TB",
           "unit": null,
           "rawText": "256GB, 512GB, 1TB",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "rearCamera": {
           "value": "48MP Main: 24mm f/1.78 + 48MP Ultra Wide: 13mm f/2.2 + 48MP Telephoto: 100mm f/2.8",
           "unit": null,
           "rawText": "48MP Pro Fusion camera system (triple lens)",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "mainCamera": {
           "value": "48MP Fusion Main, 24mm, f/1.78, sensor-shift OIS",
           "unit": null,
           "rawText": "48MP Fusion Main: 24mm, f/1.78, sensor-shift OIS",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "ultraWide": {
           "value": "48MP Fusion Ultra Wide, 13mm, f/2.2, 120° FOV",
           "unit": null,
           "rawText": "48MP Fusion Ultra Wide: 13mm, f/2.2, 120° FOV",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "telephoto": {
           "value": "48MP Fusion Telephoto, 100mm (4x), f/2.8",
           "unit": null,
           "rawText": "48MP Fusion Telephoto: 100mm (4x), f/2.8, tetraprism",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "opticalZoom": {
           "value": "8x optical-quality zoom in, 2x out, 16x range",
           "unit": null,
           "rawText": "8x optical-quality zoom in, 2x optical zoom out; 16x optical-quality zoom range",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "frontCamera": {
           "value": "18MP Center Stage, f/1.9",
           "unit": null,
           "rawText": "18MP Center Stage camera, f/1.9, autofocus with Focus Pixels",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "videoRecording": {
           "value": "4K Dolby Vision at 24/25/30/60/100/120 fps, ProRes up to 4K 120fps",
           "unit": null,
           "rawText": "4K Dolby Vision at 24/25/30/60/100/120 fps; ProRes up to 4K at 120 fps",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "batteryLife": {
           "value": "Up to 33 hours video playback",
           "unit": null,
           "rawText": "Up to 33 hours video playback; up to 30 hours streamed",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "port": {
           "value": "USB-C (USB 3, up to 10Gb/s), DisplayPort",
           "unit": null,
           "rawText": "USB-C with USB 3 (up to 10 Gb/s) and DisplayPort support",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "chargingMethod": {
           "value": "MagSafe/Qi2 up to 25W, fast-charge 40W+ USB-C",
           "unit": null,
           "rawText": "Fast-charge: 50% in 20 min with 40W+ adapter; MagSafe/Qi2 wireless up to 25W",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "security": {
           "value": "Face ID",
           "unit": null,
           "rawText": "Face ID (TrueDepth in Center Stage camera)",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "waterResistance": {
           "value": "IP68 (6m, 30min)",
           "unit": null,
           "rawText": "IP68 (maximum depth of 6 meters up to 30 minutes)",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "wifi": {
           "value": "Wi-Fi 7 (802.11be), Apple N1 chip",
           "unit": null,
           "rawText": "Wi-Fi 7 (802.11be) with 2x2 MIMO, Apple N1 wireless chip",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "bluetooth": {
           "value": "6",
           "unit": null,
           "rawText": "Bluetooth 6",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "sim": {
           "value": "Dual eSIM only",
           "unit": null,
           "rawText": "Dual eSIM only",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasMagSafe": {
           "value": true,
           "unit": null,
           "rawText": "Yes, up to 25W wireless",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasNFC": {
           "value": true,
           "unit": null,
           "rawText": "NFC with reader mode",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasSOS": {
           "value": true,
           "unit": null,
           "rawText": "Emergency SOS via satellite",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasCrashDetection": {
           "value": true,
           "unit": null,
           "rawText": "Yes",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasUWB": {
           "value": true,
           "unit": null,
           "rawText": "Second-generation Ultra Wideband chip",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125090",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "launchPrice": {
           "value": 8999,
           "unit": "CNY",
-          "rawText": "¥8999",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
-          "sourceType": "reference",
-          "confidence": 0.7,
-          "verifiedAt": "2026-06-27"
+          "rawText": "RMB 8,999",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max-cn/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -16070,307 +16151,307 @@
           ],
           "unit": null,
           "rawText": "Silver, Cosmic Orange, Deep Blue",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "material": {
           "value": "Aluminum unibody, Ceramic Shield 2 front, Ceramic Shield back",
           "unit": null,
           "rawText": "Aluminum unibody design, Ceramic Shield 2 front, Ceramic Shield back",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "weight": {
-          "value": 227,
+          "value": 233,
           "unit": "g",
-          "rawText": "227 grams",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "rawText": "8.22 ounces (233 grams)",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "dimensions": {
-          "value": "163.0 x 77.6 x 8.25 mm",
-          "unit": "mm",
-          "rawText": "Estimated from previous Pro Max models",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "value": "163.4 x 78.0 x 8.75 mm",
+          "unit": null,
+          "rawText": "Height: 6.43 inches (163.4 mm); Width: 3.07 inches (78.0 mm); Depth: 0.34 inch (8.75 mm)",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
-          "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         },
         "screenSize": {
           "value": 6.9,
           "unit": "inch",
           "rawText": "6.9-inch diagonal",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "displayType": {
           "value": "Super Retina XDR OLED, Always-On, ProMotion",
           "unit": null,
           "rawText": "Super Retina XDR OLED, Always-On display, ProMotion technology",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "resolution": {
           "value": "2868 x 1320",
           "unit": "pixels",
           "rawText": "2868 x 1320 pixels at 460 ppi",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "refreshRate": {
           "value": 120,
           "unit": "Hz",
           "rawText": "Up to 120Hz (adaptive via ProMotion)",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "chip": {
           "value": "A19 Pro",
           "unit": null,
           "rawText": "A19 Pro",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "cpu": {
           "value": "6-core CPU (2 performance + 4 efficiency)",
           "unit": null,
           "rawText": "6-core CPU with 2 performance and 4 efficiency cores",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "gpu": {
           "value": "6-core GPU with Neural Accelerators",
           "unit": null,
           "rawText": "6-core GPU with Neural Accelerators, hardware-accelerated ray tracing",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "neuralEngine": {
           "value": "16-core Neural Engine",
           "unit": null,
           "rawText": "16-core Neural Engine",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "storage": {
           "value": "256GB / 512GB / 1TB / 2TB",
           "unit": null,
           "rawText": "256GB, 512GB, 1TB, 2TB",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "rearCamera": {
           "value": "48MP Main: 24mm f/1.78 + 48MP Ultra Wide: 13mm f/2.2 + 48MP Telephoto: 100mm f/2.8",
           "unit": null,
           "rawText": "48MP Pro Fusion camera system (triple lens)",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "mainCamera": {
           "value": "48MP Fusion Main, 24mm, f/1.78, sensor-shift OIS",
           "unit": null,
           "rawText": "48MP Fusion Main: 24mm, f/1.78, sensor-shift OIS",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "ultraWide": {
           "value": "48MP Fusion Ultra Wide, 13mm, f/2.2, 120° FOV",
           "unit": null,
           "rawText": "48MP Fusion Ultra Wide: 13mm, f/2.2, 120° FOV",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "telephoto": {
           "value": "48MP Fusion Telephoto, 100mm (4x), f/2.8",
           "unit": null,
           "rawText": "48MP Fusion Telephoto: 100mm (4x), f/2.8, tetraprism",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "opticalZoom": {
           "value": "8x optical-quality zoom in, 2x out, 16x range",
           "unit": null,
           "rawText": "8x optical-quality zoom in, 2x optical zoom out; 16x optical-quality zoom range",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "frontCamera": {
           "value": "18MP Center Stage, f/1.9",
           "unit": null,
           "rawText": "18MP Center Stage camera, f/1.9, autofocus with Focus Pixels",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "videoRecording": {
           "value": "4K Dolby Vision at 24/25/30/60/100/120 fps, ProRes up to 4K 120fps",
           "unit": null,
           "rawText": "4K Dolby Vision at 24/25/30/60/100/120 fps; ProRes up to 4K at 120 fps",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "batteryLife": {
           "value": "Up to 36 hours video playback",
           "unit": null,
           "rawText": "Up to 36 hours video playback (estimated)",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 0.9,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "port": {
           "value": "USB-C (USB 3, up to 10Gb/s), DisplayPort",
           "unit": null,
           "rawText": "USB-C with USB 3 (up to 10 Gb/s) and DisplayPort support",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "chargingMethod": {
           "value": "MagSafe/Qi2 up to 25W, fast-charge 40W+ USB-C",
           "unit": null,
           "rawText": "Fast-charge: 50% in 20 min with 40W+ adapter; MagSafe/Qi2 wireless up to 25W",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "security": {
           "value": "Face ID",
           "unit": null,
           "rawText": "Face ID (TrueDepth in Center Stage camera)",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "waterResistance": {
           "value": "IP68 (6m, 30min)",
           "unit": null,
           "rawText": "IP68 (maximum depth of 6 meters up to 30 minutes)",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "wifi": {
           "value": "Wi-Fi 7 (802.11be), Apple N1 chip",
           "unit": null,
           "rawText": "Wi-Fi 7 (802.11be) with 2x2 MIMO, Apple N1 wireless chip",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "bluetooth": {
           "value": "6",
           "unit": null,
           "rawText": "Bluetooth 6",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "sim": {
           "value": "Dual eSIM only",
           "unit": null,
           "rawText": "Dual eSIM only",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasMagSafe": {
           "value": true,
           "unit": null,
           "rawText": "Yes, up to 25W wireless",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasNFC": {
           "value": true,
           "unit": null,
           "rawText": "NFC with reader mode",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasSOS": {
           "value": true,
           "unit": null,
           "rawText": "Emergency SOS via satellite",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasCrashDetection": {
           "value": true,
           "unit": null,
           "rawText": "Yes",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "hasUWB": {
           "value": true,
           "unit": null,
           "rawText": "Second-generation Ultra Wideband chip",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/125091",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "launchPrice": {
-          "value": 10999,
+          "value": 9999,
           "unit": "CNY",
-          "rawText": "¥10999",
-          "sourceUrl": "https://www.apple.com/iphone-17-pro/specs/",
-          "sourceType": "reference",
-          "confidence": 0.7,
-          "verifiedAt": "2026-06-27"
+          "rawText": "RMB 9,999",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max-cn/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
@@ -16423,253 +16504,253 @@
           ],
           "unit": null,
           "rawText": "Silver, Blue, Pink, Yellow",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "material": {
           "value": "100% recycled aluminum enclosure",
           "unit": null,
           "rawText": "100% recycled aluminum enclosure and metal chassis",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "weight": {
           "value": 477,
           "unit": "g",
           "rawText": "477g (Wi-Fi) / 481g (Wi-Fi + Cellular)",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "dimensions": {
           "value": "248.6 x 179.5 x 7.0 mm",
           "unit": "mm",
           "rawText": "248.6 x 179.5 x 7.0 mm",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "screenSize": {
           "value": 11,
           "unit": "inch",
           "rawText": "11-inch diagonal; 10.86 inches actual viewable rectangle",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "displayType": {
           "value": "Liquid Retina, LED backlit IPS",
           "unit": null,
           "rawText": "Liquid Retina — LED backlit Multi-Touch with IPS technology",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "resolution": {
           "value": "2360 x 1640",
           "unit": "pixels",
           "rawText": "2360 x 1640 pixels at 264 ppi",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "refreshRate": {
           "value": 60,
           "unit": "Hz",
           "rawText": "60Hz (no ProMotion)",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "chip": {
           "value": "A16",
           "unit": null,
           "rawText": "A16",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "cpu": {
           "value": "5-core CPU",
           "unit": null,
           "rawText": "5-core CPU",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "gpu": {
           "value": "4-core GPU",
           "unit": null,
           "rawText": "4-core GPU",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "neuralEngine": {
           "value": "16-core Neural Engine",
           "unit": null,
           "rawText": "16-core Neural Engine",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "storage": {
           "value": "128GB / 256GB / 512GB",
           "unit": null,
           "rawText": "128GB, 256GB, 512GB",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "rearCamera": {
           "value": "12MP Wide, f/1.8, 5x digital zoom",
           "unit": null,
           "rawText": "12MP Wide, f/1.8, 5-element lens, Smart HDR 4",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "frontCamera": {
           "value": "Landscape 12MP Center Stage, f/2.4",
           "unit": null,
           "rawText": "Landscape 12MP Center Stage, f/2.4, Smart HDR 4",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "videoRecording": {
           "value": "4K at 24/25/30/60 fps, 1080p at 25/30/60 fps",
           "unit": null,
           "rawText": "4K at 24/25/30/60 fps; 1080p at 25/30/60 fps; slo-mo 1080p at 120/240 fps",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "speakers": {
           "value": "Landscape stereo speakers",
           "unit": null,
           "rawText": "Landscape stereo speakers",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "microphone": {
           "value": "Dual microphones",
           "unit": null,
           "rawText": "Dual microphones for calls, video recording, and audio recording",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "pencilSupport": {
           "value": "Apple Pencil (USB-C), Apple Pencil (1st gen) with adapter",
           "unit": null,
           "rawText": "Apple Pencil (USB-C) and Apple Pencil (1st gen) via USB-C to Apple Pencil Adapter",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "magicKeyboard": {
           "value": null,
           "unit": null,
           "rawText": null,
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "port": {
           "value": "USB-C (DisplayPort, USB 2)",
           "unit": null,
           "rawText": "USB-C with DisplayPort and USB 2.0 (480Mb/s)",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "chargingMethod": {
           "value": "USB-C, 20W adapter included",
           "unit": null,
           "rawText": "USB-C via power adapter or computer; 20W adapter included",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "security": {
           "value": "Touch ID (top button)",
           "unit": null,
           "rawText": "Touch ID (top button)",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "waterResistance": {
           "value": null,
           "unit": null,
           "rawText": "None listed",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "wifi": {
           "value": "Wi-Fi 6 (802.11ax)",
           "unit": null,
           "rawText": "Wi-Fi 6 (802.11ax) with 2x2 MIMO",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "bluetooth": {
           "value": "5.3",
           "unit": null,
           "rawText": "Bluetooth 5.3",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "sim": {
           "value": "eSIM only",
           "unit": null,
           "rawText": "eSIM only (not compatible with physical SIM cards)",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         },
         "externalDisplay": {
           "value": "One display up to 4K at 60Hz via USB-C",
           "unit": null,
           "rawText": "Supports one external display up to 4K at 60Hz via DisplayPort over USB-C",
-          "sourceUrl": "https://www.apple.com/ipad/specs/",
+          "sourceUrl": "https://support.apple.com/en-us/122240",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-22"
         }
       },
       "computed": {
