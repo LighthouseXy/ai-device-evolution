@@ -173,6 +173,14 @@ export function specNum(field: SpecField<number> | undefined): number | undefine
   return field?.value ?? undefined;
 }
 
+export function parseCameraMegapixels(value: string): number | undefined {
+  const mp = value.match(/(\d+(?:\.\d+)?)\s*MP/i);
+  if (mp) return Number(mp[1]);
+
+  const chinese = value.match(/(\d+(?:\.\d+)?)\s*万像素/);
+  return chinese ? Number(chinese[1]) / 100 : undefined;
+}
+
 // 从 ComputedField 中取值
 export function computedVal(field: ComputedField | undefined): number | undefined {
   return field?.value ?? undefined;
@@ -251,8 +259,7 @@ export function flattenDevice(db: DbDevice): FlattenedDevice {
 
   // 解析 mainCameraMp
   const mainCam = specStr(db.specs?.mainCamera, "") || specStr(db.specs?.rearCamera, "");
-  const mpMatch = mainCam.match(/(\d+)MP/);
-  const mainCameraMp = mpMatch ? parseInt(mpMatch[1]) : undefined;
+  const mainCameraMp = parseCameraMegapixels(mainCam);
 
   return {
     id: db.id,
@@ -324,7 +331,8 @@ const tieredComparisonGroups = new Set(
 
 /** 生成面向用户的比较组名称；芯片档位只作为必要的附加维度，不混入产品族。 */
 export function getComparisonGroupLabelFlat(family: string, variant: string, tier?: string) {
-  const baseLabel = variant === "standard" ? family : `${family} ${variant}`;
+  const displayVariant = variant.replace(/^(\d+(?:\.\d+)?)-inch$/, "$1 英寸");
+  const baseLabel = variant === "standard" ? family : `${family} ${displayVariant}`;
   if (!tieredComparisonGroups.has(`${family}::${variant}`)) return baseLabel;
   return `${baseLabel} · ${tier === "pro-max" ? "Pro/Max 芯片" : "标准芯片"}`;
 }

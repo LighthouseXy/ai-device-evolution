@@ -6,6 +6,7 @@
     "dev": "WATCHPACK_POLLING=true next dev --webpack",
     "build": "next build",
     "start": "next start",
+    "sync:apple-zh-cn": "node scripts/sync-apple-zh-cn-data.mjs",
     "typecheck": "tsc --noEmit --incremental false",
     "check": "npm run typecheck && npm run lint && npm run test:device-taxonomy && npm run test:device-data-quality && npm run test:ai-analysis && npm run test:device-advisor && npm run test:device-advisor-api",
     "lint": "eslint",

@@ -6,7 +6,7 @@ DeviceScope 是一个电子设备代际演进分析平台。当前第一阶段�
 
 ## 已实现功能
 
-- **本地结构化 JSON 数据模型**：第一阶段覆盖 iPhone / iPad / MacBook，共 58 台 Apple 设备，参数字段保留来源与置信度信息；当前不是数据库系统。
+- **本地结构化 JSON 数据模型**：第一阶段覆盖 iPhone / iPad / MacBook，共 58 台 Apple 设备、1857 个规格字段；默认读取 Apple 中国简体中文来源，英文官网数据以独立快照保留。
 - **首页 / 设备库 / 设备详情**：已完成 v2 前端重构，统一了首页、设备库和设备详情页的导航、层级和展示风格。
 - **代际趋势观察**：支持按类别、系列、分析维度和对比范围筛选，展示芯片、屏幕、重量、价格等变化趋势。
 - **详细参数对比**：对相邻代际变化做标记，缺失数据统一展示，便于横向扫描。
@@ -21,7 +21,7 @@ DeviceScope 是一个电子设备代际演进分析平台。当前第一阶段�
 
 ### 可追溯数据结构
 
-设备参数通过 `SpecField<T>` 保存来源 URL、来源类型、置信度和验证时间；计算字段使用 `sourceType: "computed"`，避免把推断数据混作官方事实。
+设备参数通过 `SpecField<T>` 保存来源 URL、来源类型、置信度和验证时间；计算字段使用 `sourceType: "computed"`，避免把推断数据混作官方事实。技术规格来自 Apple Support 中国简体中文页面，中国大陆首发价来自 Apple 中国 Newsroom；官网没有明确写出的字段保持缺失。
 
 ```ts
 type SpecField<T> = {
@@ -92,6 +92,8 @@ http://localhost:3000
 ```bash
 npm run lint
 ./node_modules/.bin/tsc --noEmit --incremental false
+npm run sync:apple-zh-cn
+npm run check
 npm run build
 npm run test:device-advisor
 npm run test:device-advisor-api
@@ -133,20 +135,23 @@ src/
 │   ├── device-advisor.ts              # 设备顾问推荐逻辑
 │   └── devices-db.ts                  # 设备数据适配
 └── data/
-    ├── apple-devices-db.json          # 主结构化数据源
-    ├── apple-sources.json             # 来源审计登记
+    ├── apple-devices-db.json          # 主结构化中文数据源
+    ├── apple-sources.json             # 中文来源审计登记
+    ├── apple-devices-db.en-us.json    # 英文官网原始快照
+    ├── apple-sources.en-us.json       # 英文来源原始快照
     └── archive/                       # 历史批次与旧版快照，运行时不读取
 
 scripts/
+├── sync-apple-zh-cn-data.mjs          # 中文官网数据同步
 ├── device-advisor-regression.mjs      # fallback 回归
 └── device-advisor-api-regression.mjs  # API 错误路径回归
 ```
 
 ## 当前阶段
 
-项目已完成本地结构化 JSON 数据模型、首页 / 设备库 / 设备详情、代际对比、趋势观察、AI 顾问、DeepSeek 接入、AI eval 闭环、dev-only 评测看板和 v2 前端重构。下一步重点是继续做真实模型联调、样例补充和项目展示包装。
+项目已完成中文官网数据切换、首页 / 设备库 / 设备详情、代际对比、趋势观察、AI 顾问、DeepSeek 接入、AI eval 闭环、dev-only 评测看板和 v2 前端重构。下一项数据任务是拆分 MacBook Pro 的 Pro / Max 合并记录及其首发价粒度；AI 主线继续做真实模型联调与样例补充。
 
 ## 相关文档
 
 - [项目计划](PROJECT_PLAN.md)
-- [开发日志](logs/2026-07-13.md)
+- [最新开发日志](logs/2026-07-23.md)

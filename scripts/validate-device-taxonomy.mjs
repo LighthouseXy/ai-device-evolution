@@ -147,11 +147,13 @@ const sourceUrls = specFields.map((field) => field?.sourceUrl).filter(Boolean);
 const rawTexts = specFields.map((field) => field?.rawText).filter((value) => typeof value === "string");
 const sourceAudit = {
   specFields: specFields.length,
-  supportEnglishUs: sourceUrls.filter((url) => url.includes("support.apple.com/en-us/")).length,
-  appleLocaleUnspecified: sourceUrls.filter((url) => url.startsWith("https://www.apple.com/")).length,
+  supportZhCn: sourceUrls.filter((url) => url.includes("support.apple.com/zh-cn/")).length,
+  appleChina: sourceUrls.filter((url) => url.startsWith("https://www.apple.com.cn/")).length,
   rawTextEnglishLike: rawTexts.filter((text) => /[A-Za-z]{3}/.test(text)).length,
   rawTextChineseLike: rawTexts.filter((text) => /[\u4e00-\u9fff]/.test(text)).length,
 };
+
+assert.equal(sourceAudit.supportZhCn + sourceAudit.appleChina, sourceAudit.specFields, "规格来源必须全部来自 Apple 中国简体中文页面");
 
 console.log("sourceAudit", JSON.stringify(sourceAudit));
 console.log(`device taxonomy validation passed: ${devices.length} devices, ${groups.size} groups`);

@@ -100,4 +100,4 @@ npm run test:device-data-quality
 - 页面核心字段不得从当前完整覆盖状态回退；
 - 输出各品类关键字段覆盖率、来源地区分布和待复核设备清单。
 
-当前已知缺口：iPad 与 MacBook 尚无可信首发价，`currentPrice` / `usedPrice` 尚未采集；331 个 `www.apple.com` 字段来源未携带地区路径；6 台在库设备的来源登记仍为 `needs_review`。这些状态必须保留为缺失或待复核，不得为提高覆盖率写入推断值。
+当前已知缺口：`currentPrice` / `usedPrice` 尚未采集；中文官网没有明确写出的刷新率及 HDMI / SDXC 否定项保持缺失；合并的 MacBook Pro Pro / Max 记录仍需拆分配置与价格粒度。不得为提高覆盖率写入推断值。

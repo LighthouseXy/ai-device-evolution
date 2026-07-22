@@ -293,22 +293,6 @@ export default function DeviceSeriesTrendExplorer({
               );
             })}
 
-            {points.map((point) => {
-              if (point.y === null || point.device.id !== activeDeviceId) return null;
-              return (
-                <text
-                  fill="var(--primary-strong)"
-                  fontSize="11"
-                  fontWeight="700"
-                  textAnchor="middle"
-                  x={point.x}
-                  y={Math.max(point.y - 16, 16)}
-                  key={`${metric.key}-${point.device.id}-active-label`}
-                >
-                  {point.device.model}
-                </text>
-              );
-            })}
             </svg>
           </div>
         ) : (

@@ -3,6 +3,7 @@ import {
   categoryLabels,
   computedVal,
   formatMaybeCurrency,
+  parseCameraMegapixels,
   specNum,
   specStr,
   type DbDevice,
@@ -70,7 +71,7 @@ function parseStorageGb(value?: string): number {
 
 function parseBatteryHours(value?: string): number {
   if (!value) return 0;
-  const matches = Array.from(value.matchAll(/(\d+(?:\.\d+)?)\s*(?:hours?|hrs?)/gi));
+  const matches = Array.from(value.matchAll(/(\d+(?:\.\d+)?)\s*(?:hours?|hrs?|小时)/gi));
   let maxValue = 0;
 
   for (const match of matches) {
@@ -86,8 +87,7 @@ function parseCameraScore(device: DbDevice): number {
   const main = specStr(device.specs?.mainCamera, "") || specStr(device.specs?.rearCamera, "");
   const front = specStr(device.specs?.frontCamera, "");
   const telephoto = specStr(device.specs?.telephoto, "");
-  const mpMatch = main.match(/(\d+(?:\.\d+)?)\s*MP/i);
-  const mainMp = mpMatch ? Number(mpMatch[1]) : 0;
+  const mainMp = parseCameraMegapixels(main) ?? 0;
   return mainMp + (front && front !== "待补充" ? 2 : 0) + (telephoto && telephoto !== "待补充" ? 6 : 0);
 }
 

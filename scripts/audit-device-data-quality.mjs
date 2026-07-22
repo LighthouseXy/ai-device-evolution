@@ -13,9 +13,9 @@ for (const device of devices) {
 
 // 这些字段直接支撑现有页面的核心展示；新增设备缺失时必须显式处理，不能静默降低质量。
 const requiredFields = {
-  phone: ["chip", "launchPrice", "displayType", "refreshRate", "port", "rearCamera", "frontCamera"],
-  tablet: ["screenSize", "displayType", "resolution", "port", "rearCamera", "frontCamera"],
-  laptop: ["chip", "screenSize", "displayType", "resolution"],
+  phone: ["chip", "launchPrice", "displayType", "port", "rearCamera", "frontCamera"],
+  tablet: ["chip", "launchPrice", "screenSize", "displayType", "resolution", "port", "rearCamera", "frontCamera"],
+  laptop: ["chip", "launchPrice", "screenSize", "displayType", "resolution"],
 };
 const reportFields = [
   "chip",
@@ -47,9 +47,10 @@ const sourceAudit = {
   fields: 0,
   apple: 0,
   reference: 0,
-  supportEnglishUs: 0,
-  appleLocaleUnspecified: 0,
+  supportZhCn: 0,
+  appleChina: 0,
   rawTextChinese: 0,
+  rawTextTechnicalOnly: 0,
 };
 
 for (const device of devices) {
@@ -68,12 +69,14 @@ for (const device of devices) {
 
     const url = new URL(field.sourceUrl);
     assert.ok(
-      ["support.apple.com", "www.apple.com", "www.apple.com.cn"].includes(url.hostname),
+      ["support.apple.com", "www.apple.com.cn"].includes(url.hostname),
       `${device.id}.${fieldName}: 来源域名不受信任`,
     );
-    if (field.sourceUrl.includes("support.apple.com/en-us/")) sourceAudit.supportEnglishUs += 1;
-    if (field.sourceUrl.startsWith("https://www.apple.com/")) sourceAudit.appleLocaleUnspecified += 1;
-    if (typeof field.rawText === "string" && /[\u4e00-\u9fff]/.test(field.rawText)) sourceAudit.rawTextChinese += 1;
+    assert.ok(field.rawText, `${device.id}.${fieldName}: 缺少中文官网原始证据`);
+    if (field.sourceUrl.includes("support.apple.com/zh-cn/")) sourceAudit.supportZhCn += 1;
+    if (field.sourceUrl.startsWith("https://www.apple.com.cn/")) sourceAudit.appleChina += 1;
+    if (/[\u4e00-\u9fff]/.test(field.rawText)) sourceAudit.rawTextChinese += 1;
+    else sourceAudit.rawTextTechnicalOnly += 1;
 
     if (field.sourceType === "reference") {
       assert.equal(fieldName, "launchPrice", `${device.id}.${fieldName}: reference 仅允许用于首发价`);
@@ -110,8 +113,7 @@ for (const [category, categoryDevices] of devicesByCategory) {
 
 const needsReview = sourceRows.filter((row) => row.sourceStatus === "needs_review").map((row) => row.id);
 assert.ok(sourceRows.every((row) => ["verified", "needs_review"].includes(row.sourceStatus)), "来源登记状态非法");
-// P5 起所有已收录字段都必须落到明确地区的 Apple 官方来源，避免来源地区再次退化为不可审计状态。
-assert.equal(sourceAudit.appleLocaleUnspecified, 0, "仍有字段使用未标地区的 Apple 产品页来源");
+assert.equal(sourceAudit.supportZhCn + sourceAudit.appleChina, sourceAudit.fields, "仍有字段未使用 Apple 中国简体中文来源");
 assert.equal(sourceAudit.reference, 0, "仍有字段使用非 Apple 一方来源");
 assert.deepEqual(needsReview, [], "仍有设备来源待人工复核");
 
@@ -120,25 +122,24 @@ const correctedSpecs = {
   "iphone-16-plus": {
     launchPrice: 6999,
     weight: 199,
-    dimensions: "160.9 x 77.8 x 7.80 mm",
+    dimensions: "160.9 x 77.8 x 7.8 毫米",
     screenSize: 6.7,
-    resolution: "2796 x 1290",
-    wifi: "802.11be Wi-Fi 7",
-    ultraWide: "12MP, 13mm, f/2.2",
+    resolution: "2796 x 1290 像素分辨率，460 ppi",
+    wifi: "802.11be 无线局域网，具备 2x2 MIMO 技术",
+    ultraWide: "1200 万像素超广角：13 毫米焦距，ƒ/2.2 光圈和 120° 视角，100% Focus Pixels",
   },
   "iphone-16e-2025": {
     launchPrice: 4499,
     weight: 167,
-    dimensions: "146.7 x 71.5 x 7.80 mm",
-    resolution: "2532 x 1170",
-    wifi: "Wi-Fi 6 (802.11ax)",
-    bluetooth: "Bluetooth 5.3",
-    hasMagSafe: false,
+    dimensions: "146.7 x 71.5 x 7.8 毫米",
+    resolution: "2532 x 1170 像素分辨率，460 ppi",
+    wifi: "802.11ax 无线局域网，具备 2x2 MIMO 技术",
+    bluetooth: "蓝牙 5.3",
   },
   "iphone-17-pro-max": {
     launchPrice: 9999,
-    weight: 233,
-    dimensions: "163.4 x 78.0 x 8.75 mm",
+    weight: 231,
+    dimensions: "163.4 x 78 x 8.75 毫米",
   },
   "iphone-14-plus": {
     launchPrice: 6999,
@@ -162,6 +163,8 @@ for (const [deviceId, fields] of Object.entries(correctedSpecs)) {
     assert.deepEqual(device.specs[fieldName]?.value, expected, `${deviceId}.${fieldName}: 已核验字段发生回归`);
   }
 }
+assert.equal(devicesById.get("iphone-16e-2025").specs.hasMagSafe, undefined, "中文官网未明确声明的否定项不应推断补值");
+assert.equal(devicesById.get("iphone-15").specs.refreshRate, undefined, "中文官网未明确声明的 60Hz 不应推断补值");
 
 console.log("coverage", JSON.stringify(coverage));
 console.log("sourceAudit", JSON.stringify(sourceAudit));
