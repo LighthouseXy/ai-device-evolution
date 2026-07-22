@@ -200,7 +200,7 @@ function buildSeriesOptions() {
         family && group.variant !== "standard"
           ? ` · ${group.variant.replace("-inch", " 英寸")}`
           : "";
-      const tier = group.tier === "pro-max" ? " · Pro/Max 芯片" : "";
+      const tier = group.tier === "pro" ? " · Pro 芯片" : group.tier === "max" ? " · Max 芯片" : "";
       return {
         series: group.key,
         label: `${kind}系列${size}${tier}`,
@@ -209,7 +209,7 @@ function buildSeriesOptions() {
         order:
           rank(familyOrder[group.category], group.family) * 100 +
           rank(variantOrder, group.variant) * 10 +
-          (group.tier === "pro-max" ? 1 : 0),
+          (group.tier === "pro" ? 1 : group.tier === "max" ? 2 : 0),
       };
     })
     .filter((item) => item.count >= 2)

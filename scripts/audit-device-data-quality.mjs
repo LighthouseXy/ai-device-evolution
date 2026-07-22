@@ -15,7 +15,7 @@ for (const device of devices) {
 const requiredFields = {
   phone: ["chip", "launchPrice", "displayType", "port", "rearCamera", "frontCamera"],
   tablet: ["chip", "launchPrice", "screenSize", "displayType", "resolution", "port", "rearCamera", "frontCamera"],
-  laptop: ["chip", "launchPrice", "screenSize", "displayType", "resolution"],
+  laptop: ["chip", "screenSize", "displayType", "resolution"],
 };
 const reportFields = [
   "chip",
@@ -116,6 +116,35 @@ assert.ok(sourceRows.every((row) => ["verified", "needs_review"].includes(row.so
 assert.equal(sourceAudit.supportZhCn + sourceAudit.appleChina, sourceAudit.fields, "仍有字段未使用 Apple 中国简体中文来源");
 assert.equal(sourceAudit.reference, 0, "仍有字段使用非 Apple 一方来源");
 assert.deepEqual(needsReview, [], "仍有设备来源待人工复核");
+
+const missingLaptopLaunchPrices = devices
+  .filter((device) => device.category === "laptop" && !hasValue(device, "launchPrice"))
+  .map((device) => device.id)
+  .sort();
+assert.deepEqual(missingLaptopLaunchPrices, [
+  "macbook-pro-14-m4-max-2024",
+  "macbook-pro-16-m2-max-2023",
+  "macbook-pro-16-m4-2024",
+], "MacBook 首发价缺失集合发生变化；仅允许中文官网未明确报价的配置留空");
+
+const splitMacBookSpecs = {
+  "macbook-pro-14-m4-pro-2024": ["Apple M4 Pro 芯片", "24GB / 48GB / 64GB", 16999],
+  "macbook-pro-14-m4-max-2024": ["Apple M4 Max 芯片", "36GB / 48GB / 64GB / 128GB", null],
+  "macbook-pro-16-m2-2023": ["Apple M2 Pro 芯片", "16GB / 32GB", 19999],
+  "macbook-pro-16-m2-max-2023": ["Apple M2 Max 芯片", "32GB / 64GB / 96GB", null],
+  "macbook-pro-16-m4-2024": ["Apple M4 Pro 芯片", "24GB / 48GB / 64GB", null],
+  "macbook-pro-16-m4-max-2024": ["Apple M4 Max 芯片", "36GB / 48GB / 64GB / 128GB", 27999],
+  "macbook-pro-14-m5-pro-2026": ["Apple M5 Pro 芯片", "24GB / 48GB / 64GB", 17999],
+  "macbook-pro-14-m5-max-2026": ["Apple M5 Max 芯片", "36GB / 48GB / 64GB / 128GB", 29999],
+  "macbook-pro-16-m5-2026": ["Apple M5 Pro 芯片", "24GB / 48GB / 64GB", 21999],
+  "macbook-pro-16-m5-max-2026": ["Apple M5 Max 芯片", "36GB / 48GB / 64GB / 128GB", 31999],
+};
+for (const [deviceId, [chip, memory, launchPrice]] of Object.entries(splitMacBookSpecs)) {
+  const device = devicesById.get(deviceId);
+  assert.equal(device.specs.chip?.value, chip, `${deviceId}.chip: 芯片档位发生回归`);
+  assert.equal(device.specs.memory?.value, memory, `${deviceId}.memory: 内存配置发生回归`);
+  assert.equal(device.specs.launchPrice?.value ?? null, launchPrice, `${deviceId}.launchPrice: 首发价发生回归`);
+}
 
 // 这些值曾因共享产品页抓取而串到相邻型号，固定回归断言可阻止同类错误重新进入比较结果。
 const correctedSpecs = {

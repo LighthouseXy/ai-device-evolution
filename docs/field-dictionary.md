@@ -1,12 +1,12 @@
 # 数码观察站运行时字段字典
 
-> 版本：3.0 · 更新日期：2026-07-20
+> 版本：3.0 · 更新日期：2026-07-23
 > 本文只描述当前代码实际读取的 `src/data/apple-devices-db.json`。旧版设计稿归档于 `docs/archive/field-dictionary-v2.1.md`。
 
 ## 数据边界
 
 - `apple-devices-db.json` 是唯一设备主数据。
-- 当前样本共 58 台 Apple 设备，类别为 `phone`、`tablet`、`laptop`。
+- 当前样本共 63 台 Apple 设备，类别为 `phone`、`tablet`、`laptop`。
 - `specs` 保存采集事实及来源；`computed` 保存派生结果，二者不得混用。
 - 缺失值保留为 `null` 或缺少字段，展示层再转换为“待补充”。
 
@@ -100,4 +100,4 @@ npm run test:device-data-quality
 - 页面核心字段不得从当前完整覆盖状态回退；
 - 输出各品类关键字段覆盖率、来源地区分布和待复核设备清单。
 
-当前已知缺口：`currentPrice` / `usedPrice` 尚未采集；中文官网没有明确写出的刷新率及 HDMI / SDXC 否定项保持缺失；合并的 MacBook Pro Pro / Max 记录仍需拆分配置与价格粒度。不得为提高覆盖率写入推断值。
+当前已知缺口：`currentPrice` / `usedPrice` 尚未采集；中文官网没有明确写出的刷新率及 HDMI / SDXC 否定项保持缺失；3 条 MacBook Pro 独立配置在中国官网未有明确首发价，保持为空。不得为提高覆盖率写入推断值。

@@ -33,13 +33,44 @@ const ZH_LAUNCH_PRICES = {
   "macbook-air-15-m4-2025": [9999, "https://www.apple.com.cn/newsroom/2025/03/apple-introduces-the-new-macbook-air-with-m4-and-a-gorgeous-new-sky-blue-color/"],
   "macbook-pro-14-m4-2024": [12999, "https://www.apple.com.cn/newsroom/2024/10/apples-new-macbook-pro-features-the-incredibly-powerful-m4-family-of-chips/"],
   "macbook-pro-14-m4-pro-2024": [16999, "https://www.apple.com.cn/newsroom/2024/10/apples-new-macbook-pro-features-the-incredibly-powerful-m4-family-of-chips/"],
-  "macbook-pro-16-m4-2024": [27999, "https://www.apple.com.cn/newsroom/2024/10/apples-new-macbook-pro-features-the-incredibly-powerful-m4-family-of-chips/"],
   "macbook-pro-14-m5-2025": [12999, "https://www.apple.com.cn/newsroom/2025/10/apple-unveils-new-14-inch-macbook-pro-with-the-m5-chip/"],
   "macbook-air-13-m5-2026": [8499, "https://www.apple.com.cn/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/"],
   "macbook-air-15-m5-2026": [9999, "https://www.apple.com.cn/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/"],
   "macbook-pro-14-m5-pro-2026": [17999, "https://www.apple.com.cn/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/"],
   "macbook-pro-16-m5-2026": [21999, "https://www.apple.com.cn/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/"],
+  "macbook-pro-14-m5-max-2026": [29999, "https://www.apple.com.cn/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/"],
+  "macbook-pro-16-m5-max-2026": [31999, "https://www.apple.com.cn/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/"],
+  "macbook-pro-16-m4-max-2024": [27999, "https://www.apple.com.cn/newsroom/2024/10/apples-new-macbook-pro-features-the-incredibly-powerful-m4-family-of-chips/"],
 };
+
+const MACBOOK_CHIP_SPLITS = {
+  "macbook-pro-16-m2-2023": [
+    { id: "macbook-pro-16-m2-2023", tier: "pro", chip: "M2 Pro", comparedTo: null },
+    { id: "macbook-pro-16-m2-max-2023", tier: "max", chip: "M2 Max", comparedTo: null },
+  ],
+  "macbook-pro-14-m4-pro-2024": [
+    { id: "macbook-pro-14-m4-pro-2024", tier: "pro", chip: "M4 Pro", comparedTo: null },
+    { id: "macbook-pro-14-m4-max-2024", tier: "max", chip: "M4 Max", comparedTo: null },
+  ],
+  "macbook-pro-16-m4-2024": [
+    { id: "macbook-pro-16-m4-2024", tier: "pro", chip: "M4 Pro", comparedTo: "macbook-pro-16-m2-2023" },
+    { id: "macbook-pro-16-m4-max-2024", tier: "max", chip: "M4 Max", comparedTo: "macbook-pro-16-m2-max-2023" },
+  ],
+  "macbook-pro-14-m5-pro-2026": [
+    { id: "macbook-pro-14-m5-pro-2026", tier: "pro", chip: "M5 Pro", comparedTo: "macbook-pro-14-m4-pro-2024" },
+    { id: "macbook-pro-14-m5-max-2026", tier: "max", chip: "M5 Max", comparedTo: "macbook-pro-14-m4-max-2024" },
+  ],
+  "macbook-pro-16-m5-2026": [
+    { id: "macbook-pro-16-m5-2026", tier: "pro", chip: "M5 Pro", comparedTo: "macbook-pro-16-m4-2024" },
+    { id: "macbook-pro-16-m5-max-2026", tier: "max", chip: "M5 Max", comparedTo: "macbook-pro-16-m4-max-2024" },
+  ],
+};
+
+const EXPECTED_MISSING_LAUNCH_PRICES = new Set([
+  "macbook-pro-16-m2-max-2023",
+  "macbook-pro-14-m4-max-2024",
+  "macbook-pro-16-m4-2024",
+]);
 
 function localizeModelName(name) {
   return name
@@ -143,8 +174,9 @@ function parseSections(html) {
     } else if (tag.startsWith("h")) {
       current = { heading: text, blocks: [] };
       sections.push(current);
-    } else if (current && !current.blocks.includes(text)) {
-      current.blocks.push(text);
+    } else if (current) {
+      const inMaxTier = current.blocks.some((block) => /^(?:Apple )?M\d+ Max (?:芯片|机型)$/.test(block));
+      if (inMaxTier || !current.blocks.includes(text)) current.blocks.push(text);
     }
   }
   return sections;
@@ -153,6 +185,16 @@ function parseSections(html) {
 function section(sections, name) {
   const pattern = SECTION_NAMES[name];
   return sections.find((item) => pattern.test(item.heading))?.blocks ?? [];
+}
+
+function tierBlocks(blocks, tier, label = "Apple") {
+  if (!["pro", "max"].includes(tier)) return blocks;
+  const prefix = label === "Apple" ? "Apple " : "";
+  const suffix = label === "Apple" ? " 芯片" : " 机型";
+  const proIndex = blocks.findIndex((block) => new RegExp(`^${prefix}M\\d+ Pro${suffix}$`).test(block));
+  const maxIndex = blocks.findIndex((block) => new RegExp(`^${prefix}M\\d+ Max${suffix}$`).test(block));
+  if (proIndex < 0 || maxIndex < 0) return blocks;
+  return tier === "pro" ? blocks.slice(proIndex, maxIndex) : blocks.slice(maxIndex);
 }
 
 function allBlocks(sections) {
@@ -201,8 +243,33 @@ function parseStorage(blocks) {
   return normalized.length ? normalized.join(" / ") : null;
 }
 
-function parseWeight(blocks) {
-  const raw = first(blocks, /重量(?:\s*\([^)]*\))?\s*[：:]?/);
+function parseTieredStorage(blocks, tier) {
+  if (!["pro", "max"].includes(tier)) {
+    const value = parseStorage(blocks);
+    return { value, raw: blocks.join("；") };
+  }
+  const values = [];
+  const evidence = [];
+  for (const block of blocks) {
+    const matches = [...block.matchAll(/\b(\d+(?:GB|TB))\b/g)];
+    for (let index = 0; index < matches.length; index += 1) {
+      const match = matches[index];
+      const chunk = block.slice(match.index, matches[index + 1]?.index ?? block.length).trim();
+      const mentionsPro = /M\d+ Pro/.test(chunk);
+      const mentionsMax = /M\d+ Max/.test(chunk);
+      if (tier === "pro" && mentionsMax && !mentionsPro) continue;
+      if (tier === "max" && mentionsPro && !mentionsMax) continue;
+      values.push(match[1]);
+      evidence.push(chunk);
+    }
+  }
+  return { value: unique(values).join(" / ") || null, raw: unique(evidence).join("；") };
+}
+
+function parseWeight(blocks, tier) {
+  const tierName = tier === "pro" ? "Pro" : tier === "max" ? "Max" : null;
+  const raw = (tierName ? first(blocks, new RegExp(`重量.*M\\d+ ${tierName} 机型`)) : null)
+    ?? first(blocks, /重量(?:\s*\([^)]*\))?\s*[：:]?/);
   if (!raw) return null;
   const grams = raw.match(/重量(?:\s*\([^)]*\))?\s*[：:]?\s*([\d.]+)\s*克/);
   if (grams) return { value: Number(grams[1]), raw };
@@ -256,17 +323,19 @@ function parseScreenSize(device, sections, display) {
 
 function extractField(device, fieldName, sections, oldField, sourceUrl) {
   const finish = section(sections, "finish");
-  const capacity = section(sections, "capacity");
+  const capacity = tierBlocks(section(sections, "capacity"), device.tier);
   const size = section(sections, "size");
   const display = section(sections, "display");
-  const chip = section(sections, "chip");
-  const memory = section(sections, "memory");
+  const allChipBlocks = section(sections, "chip");
+  const chip = tierBlocks(allChipBlocks, device.tier)
+    .filter((block) => device.tier !== "pro" || (!/^可选配/.test(block) && !/M\d+ Max/.test(block)));
+  const memory = tierBlocks(section(sections, "memory"), device.tier);
   const camera = section(sections, device.category === "laptop" ? "cameraLaptop" : "camera");
   const frontCamera = section(sections, "frontCamera");
   const video = section(sections, "video");
   const wireless = section(sections, "wireless");
   const charging = section(sections, "charging");
-  const power = section(sections, "power");
+  const power = tierBlocks(section(sections, "power"), device.tier, "model");
   const sim = section(sections, "sim");
   const keyboard = section(sections, "keyboard");
   const audio = section(sections, "audio");
@@ -282,7 +351,7 @@ function extractField(device, fieldName, sections, oldField, sourceUrl) {
     return spec(raw, raw, oldField, sourceUrl);
   }
   if (fieldName === "weight") {
-    const parsed = parseWeight(size);
+    const parsed = parseWeight(size, device.tier);
     return parsed ? spec(parsed.value, parsed.raw, oldField, sourceUrl) : null;
   }
   if (fieldName === "dimensions" || fieldName === "thickness") {
@@ -329,27 +398,34 @@ function extractField(device, fieldName, sections, oldField, sourceUrl) {
     return spec(raw, raw, oldField, sourceUrl);
   }
   if (fieldName === "cpu") {
-    const raw = joined(chip, /中央处理器/, 2);
+    const raw = ["pro", "max"].includes(device.tier)
+      ? joined(chip, device.tier === "max" ? /^(?:\d+ 核中央处理器|M\d+ Max \()/ : /^\d+ 核中央处理器/, 3)
+        || joined(allChipBlocks, /^\d+ 核中央处理器/, 1)
+      : joined(chip, /中央处理器/, 2);
     return spec(raw, raw, oldField, sourceUrl);
   }
   if (fieldName === "gpu") {
-    const raw = joined(chip, /图形处理器/, 2);
+    const raw = ["pro", "max"].includes(device.tier)
+      ? joined(chip, device.tier === "max" ? /^(?:\d+ 核图形处理器|M\d+ Max \()/ : /^\d+ 核图形处理器/, 3)
+        || joined(allChipBlocks, /^\d+ 核图形处理器/, 1)
+      : joined(chip, /图形处理器/, 2);
     return spec(raw, raw, oldField, sourceUrl);
   }
   if (fieldName === "neuralEngine") {
-    const raw = first(chip, /神经网络引擎/);
+    const raw = first(chip, /神经网络引擎/) ?? first(allChipBlocks, /神经网络引擎/);
     return spec(raw, raw, oldField, sourceUrl);
   }
   if (fieldName === "memory") {
     const source = memory.length ? memory : chip;
-    const selected = source.filter((block) => block.length <= 300 && !/内存带宽/.test(block) && (/^\d+GB.*(?:统一)?内存/.test(block) || /可选配/.test(block)));
-    const raw = selected.join("；");
-    const value = parseStorage(selected);
-    return spec(value, raw, oldField, sourceUrl);
+    const selected = ["pro", "max"].includes(device.tier)
+      ? source.filter((block) => block.length <= 600 && !/内存带宽/.test(block) && /\b\d+GB\b/.test(block))
+      : source.filter((block) => block.length <= 300 && !/内存带宽/.test(block) && (/^\d+GB.*(?:统一)?内存/.test(block) || /可选配/.test(block)));
+    const parsed = parseTieredStorage(selected, device.tier);
+    return spec(parsed.value, parsed.raw, oldField, sourceUrl);
   }
   if (fieldName === "storage") {
-    const value = parseStorage(capacity);
-    return spec(value, capacity.join("；"), oldField, sourceUrl);
+    const parsed = parseTieredStorage(capacity, device.tier);
+    return spec(parsed.value, parsed.raw, oldField, sourceUrl);
   }
   if (fieldName === "rearCamera") {
     const selected = camera.filter((block) => /摄像头|摄像系统|摄系统|主摄|广角|超广角|长焦/.test(block)).slice(0, 5);
@@ -455,7 +531,7 @@ function extractField(device, fieldName, sections, oldField, sourceUrl) {
     return spec(raw, raw, oldField, sourceUrl);
   }
   if (fieldName === "externalDisplay") {
-    const source = section(sections, "displaySupport");
+    const source = tierBlocks(section(sections, "displaySupport"), device.tier, "model");
     const raw = joined(source, /外接显示|显示器|6K|8K/, 4);
     return spec(raw, raw, oldField, sourceUrl);
   }
@@ -523,45 +599,80 @@ const zhSources = Object.fromEntries(Object.keys(englishSources).map((category) 
 const zhDevices = [];
 const missing = [];
 
-for (const device of englishDevices) {
-  const oldSource = sourceById.get(device.id);
+function splitDevice(device, split) {
+  if (!split) return device;
+  const computed = structuredClone(device.computed);
+  if (computed.aiCapabilityLevel?.scoreBreakdown) {
+    computed.aiCapabilityLevel.scoreBreakdown = computed.aiCapabilityLevel.scoreBreakdown
+      .replace(/M\d+ Pro or M\d+ Max/g, split.chip);
+  }
+  if (computed.generationUpgradeMagnitude) {
+    computed.generationUpgradeMagnitude = {
+      ...computed.generationUpgradeMagnitude,
+      value: null,
+      comparedTo: split.comparedTo,
+      changeSummary: split.comparedTo ? "该代升级幅度尚未重新计算" : "该设备为该比较组第一代",
+      scoreBreakdown: split.comparedTo ? "待重新计算" : "无对比前代",
+      confidence: 0,
+      computedAt: VERIFIED_AT,
+      verifiedAt: VERIFIED_AT,
+    };
+  }
+  return {
+    ...device,
+    id: split.id,
+    modelName: `${device.variant.replace("-inch", " 英寸")} MacBook Pro (${split.chip})`,
+    generation: `${split.chip} ${device.variant}`,
+    tier: split.tier,
+    computed,
+  };
+}
+
+for (const sourceDevice of englishDevices) {
+  const oldSource = sourceById.get(sourceDevice.id);
   const supportUrl = await resolveTechSpecUrl(oldSource.supportUrl);
   const html = await fetchHtml(supportUrl);
   const sections = parseSections(html);
   const title = sections[0]?.heading ?? "";
   if (!/[\u4e00-\u9fff]/.test(html) || !/技术规格/.test(title)) {
-    throw new Error(`${device.id}: 不是简体中文技术规格页 (${supportUrl})`);
+    throw new Error(`${sourceDevice.id}: 不是简体中文技术规格页 (${supportUrl})`);
   }
 
-  const specs = {};
-  for (const fieldName of FIELD_TARGETS[device.category]) {
-    const field = extractField(device, fieldName, sections, device.specs[fieldName], supportUrl);
-    if (field) specs[fieldName] = field;
-    else if (device.specs[fieldName]?.value !== null && device.specs[fieldName]?.value !== undefined) missing.push(`${device.id}.${fieldName}`);
-  }
-  const launchPrice = await refreshLaunchPrice(device);
-  if (launchPrice) specs.launchPrice = launchPrice;
-  else if (device.specs.launchPrice?.value != null) missing.push(`${device.id}.launchPrice`);
+  const splits = MACBOOK_CHIP_SPLITS[sourceDevice.id] ?? [null];
+  for (const split of splits) {
+    const device = splitDevice(sourceDevice, split);
+    const specs = {};
+    for (const fieldName of FIELD_TARGETS[device.category]) {
+      const field = extractField(device, fieldName, sections, device.specs[fieldName], supportUrl);
+      if (field) specs[fieldName] = field;
+      else if (device.specs[fieldName]?.value !== null && device.specs[fieldName]?.value !== undefined) missing.push(`${device.id}.${fieldName}`);
+    }
+    const launchPrice = await refreshLaunchPrice(device);
+    if (launchPrice) specs.launchPrice = launchPrice;
+    else if (device.specs.launchPrice?.value != null && !EXPECTED_MISSING_LAUNCH_PRICES.has(device.id)) missing.push(`${device.id}.launchPrice`);
 
-  const modelName = localizeModelName(device.modelName);
-  const releaseYear = device.id === "ipad-air-m4-2025" ? 2026 : device.releaseYear;
-  zhDevices.push({ ...device, modelName, releaseYear, specs });
-  zhSources[device.category].push({
-    ...oldSource,
-    modelName,
-    releaseYear,
-    sourcePageType: "apple_support_docs",
-    officialSpecUrl: null,
-    supportUrl,
-    newsroomUrl: ZH_LAUNCH_PRICES[device.id]?.[1] ?? oldSource.newsroomUrl,
-    sourceStatus: "verified",
-    notes: "Apple Support 中国简体中文技术规格页",
-  });
-  console.log(`${device.id}: ${Object.keys(specs).length} fields <- ${supportUrl}`);
+    const modelName = localizeModelName(device.modelName);
+    const releaseYear = device.id === "ipad-air-m4-2025" ? 2026 : device.releaseYear;
+    zhDevices.push({ ...device, modelName, releaseYear, specs });
+    zhSources[device.category].push({
+      ...oldSource,
+      id: device.id,
+      modelName,
+      generation: device.generation,
+      releaseYear,
+      sourcePageType: "apple_support_docs",
+      officialSpecUrl: null,
+      supportUrl,
+      newsroomUrl: ZH_LAUNCH_PRICES[device.id]?.[1] ?? oldSource.newsroomUrl,
+      sourceStatus: "verified",
+      notes: "Apple Support 中国简体中文技术规格页",
+    });
+    console.log(`${device.id}: ${Object.keys(specs).length} fields <- ${supportUrl}`);
+  }
 }
 
 await Promise.all([
-  fs.writeFile(ZH_DEVICES_PATH, `${JSON.stringify({ metadata: { ...englishDatabase.metadata, generatedAt: VERIFIED_AT }, devices: zhDevices }, null, 2)}\n`),
+  fs.writeFile(ZH_DEVICES_PATH, `${JSON.stringify({ metadata: { ...englishDatabase.metadata, totalDevices: zhDevices.length, generatedAt: VERIFIED_AT }, devices: zhDevices }, null, 2)}\n`),
   fs.writeFile(ZH_SOURCES_PATH, `${JSON.stringify(zhSources, null, 2)}\n`),
 ]);
 console.log(`wrote ${zhDevices.length} devices; unresolved previous fields: ${missing.length}`);

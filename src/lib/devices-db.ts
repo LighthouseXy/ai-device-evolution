@@ -334,7 +334,8 @@ export function getComparisonGroupLabelFlat(family: string, variant: string, tie
   const displayVariant = variant.replace(/^(\d+(?:\.\d+)?)-inch$/, "$1 英寸");
   const baseLabel = variant === "standard" ? family : `${family} ${displayVariant}`;
   if (!tieredComparisonGroups.has(`${family}::${variant}`)) return baseLabel;
-  return `${baseLabel} · ${tier === "pro-max" ? "Pro/Max 芯片" : "标准芯片"}`;
+  const tierLabel = tier === "pro" ? "Pro 芯片" : tier === "max" ? "Max 芯片" : "标准芯片";
+  return `${baseLabel} · ${tierLabel}`;
 }
 
 export const comparisonGroupsFlat = Array.from(devicesByComparisonGroupFlat, ([key, devices]) => {

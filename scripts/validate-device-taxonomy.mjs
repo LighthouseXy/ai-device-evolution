@@ -7,8 +7,10 @@ const expectedGroups = new Map([
   ["laptop|MacBook Air|15-inch|base", ["macbook-air-15-m3-2024", "macbook-air-15-m4-2025", "macbook-air-15-m5-2026"]],
   ["laptop|MacBook Pro|13-inch|base", ["macbook-pro-13-m1-2020", "macbook-pro-13-m2-2022"]],
   ["laptop|MacBook Pro|14-inch|base", ["macbook-pro-14-m4-2024", "macbook-pro-14-m5-2025"]],
-  ["laptop|MacBook Pro|14-inch|pro-max", ["macbook-pro-14-m4-pro-2024", "macbook-pro-14-m5-pro-2026"]],
-  ["laptop|MacBook Pro|16-inch|pro-max", ["macbook-pro-16-m2-2023", "macbook-pro-16-m4-2024", "macbook-pro-16-m5-2026"]],
+  ["laptop|MacBook Pro|14-inch|pro", ["macbook-pro-14-m4-pro-2024", "macbook-pro-14-m5-pro-2026"]],
+  ["laptop|MacBook Pro|14-inch|max", ["macbook-pro-14-m4-max-2024", "macbook-pro-14-m5-max-2026"]],
+  ["laptop|MacBook Pro|16-inch|pro", ["macbook-pro-16-m2-2023", "macbook-pro-16-m4-2024", "macbook-pro-16-m5-2026"]],
+  ["laptop|MacBook Pro|16-inch|max", ["macbook-pro-16-m2-max-2023", "macbook-pro-16-m4-max-2024", "macbook-pro-16-m5-max-2026"]],
   ["phone|iPhone|Air", ["iphone-air"]],
   ["phone|iPhone|Plus", ["iphone-14-plus", "iphone-15-plus", "iphone-16-plus"]],
   ["phone|iPhone|Pro Max", ["iphone-12-pro-max", "iphone-13-pro-max", "iphone-14-pro-max", "iphone-15-pro-max", "iphone-16-pro-max", "iphone-17-pro-max"]],
@@ -38,7 +40,7 @@ const canonicalBooleanKeys = [
 ];
 const pollutedTextPattern = /^(?:\s*:root\{|\s*!function\()|globalNavData/i;
 
-assert.equal(devices.length, 58, "主数据应包含 58 台设备");
+assert.equal(devices.length, 63, "主数据应包含 63 台设备");
 assert.equal(metadata.totalDevices, devices.length, "metadata.totalDevices 与实际设备数不一致");
 assert.equal(new Set(devices.map((device) => device.id)).size, devices.length, "设备 id 必须唯一");
 
@@ -50,7 +52,7 @@ for (const device of devices) {
   assert.ok(device.variant, `${device.id}: 缺少 variant`);
   assert.ok(Number.isInteger(device.generationOrder) && device.generationOrder > 0, `${device.id}: generationOrder 非法`);
   if (device.category === "laptop") {
-    assert.ok(["base", "pro-max"].includes(device.tier), `${device.id}: laptop tier 非法`);
+    assert.ok(["base", "pro", "max"].includes(device.tier), `${device.id}: laptop tier 非法`);
   } else {
     assert.equal(device.tier, undefined, `${device.id}: 非 laptop 不应设置 tier`);
   }

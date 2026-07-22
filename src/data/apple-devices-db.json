@@ -2,7 +2,7 @@
   "metadata": {
     "version": "1.2",
     "generatedAt": "2026-07-23",
-    "totalDevices": 58
+    "totalDevices": 63
   },
   "devices": [
     {
@@ -13815,8 +13815,8 @@
       "series": "MacBook Pro",
       "family": "MacBook Pro",
       "variant": "14-inch",
-      "modelName": "14 英寸 MacBook Pro (M5 Pro/Max)",
-      "generation": "M5 Pro/Max 14-inch",
+      "modelName": "14 英寸 MacBook Pro (M5 Pro)",
+      "generation": "M5 Pro 14-inch",
       "generationOrder": 2,
       "releaseYear": 2026,
       "specs": {
@@ -13918,16 +13918,16 @@
           "verifiedAt": "2026-07-23"
         },
         "cpu": {
-          "value": "15 核中央处理器，具有 5 个超级核心和 10 个性能核心、18 核中央处理器，具有 6 个超级核心和 12 个性能核心；M5 Pro (18 核中央处理器和 20 核图形处理器)",
-          "rawText": "15 核中央处理器，具有 5 个超级核心和 10 个性能核心、18 核中央处理器，具有 6 个超级核心和 12 个性能核心；M5 Pro (18 核中央处理器和 20 核图形处理器)",
+          "value": "15 核中央处理器，具有 5 个超级核心和 10 个性能核心、18 核中央处理器，具有 6 个超级核心和 12 个性能核心",
+          "rawText": "15 核中央处理器，具有 5 个超级核心和 10 个性能核心、18 核中央处理器，具有 6 个超级核心和 12 个性能核心",
           "sourceUrl": "https://support.apple.com/zh-cn/126318",
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-07-23"
         },
         "gpu": {
-          "value": "16 核图形处理器、20 核图形处理器；M5 Pro (18 核中央处理器和 20 核图形处理器)",
-          "rawText": "16 核图形处理器、20 核图形处理器；M5 Pro (18 核中央处理器和 20 核图形处理器)",
+          "value": "16 核图形处理器、20 核图形处理器",
+          "rawText": "16 核图形处理器、20 核图形处理器",
           "sourceUrl": "https://support.apple.com/zh-cn/126318",
           "sourceType": "apple",
           "confidence": 1,
@@ -13942,16 +13942,16 @@
           "verifiedAt": "2026-07-23"
         },
         "memory": {
-          "value": "24GB / 36GB",
-          "rawText": "24GB 统一内存；可选配：；36GB 统一内存",
+          "value": "24GB / 48GB / 64GB",
+          "rawText": "24GB 统一内存；48GB (M5 Pro 机型或 40 核图形处理器的 M5 Max 机型)；64GB (20 核图形处理器的 M5 Pro 机型或 40 核图形处理器的 M5 Max 机型)",
           "sourceUrl": "https://support.apple.com/zh-cn/126318",
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-07-23"
         },
         "storage": {
-          "value": "1TB / 2TB / 4TB / 8TB",
-          "rawText": "Apple M5 Pro 芯片；1TB 或 2TB 固态硬盘；可选配：；2TB 或 4TB；Apple M5 Max 芯片；2TB 固态硬盘；4TB 或 8TB",
+          "value": "1TB / 2TB / 4TB",
+          "rawText": "1TB 或；2TB 固态硬盘；2TB 或；4TB",
           "sourceUrl": "https://support.apple.com/zh-cn/126318",
           "sourceType": "apple",
           "confidence": 1,
@@ -14022,16 +14022,16 @@
           "verifiedAt": "2026-07-23"
         },
         "chargingMethod": {
-          "value": "70W USB-C 电源适配器 (随附于 15 核中央处理器的 M5 Pro 机型)；96W USB-C 电源适配器 (随附于 18 核中央处理器的 M5 Pro 机型；15 核中央处理器的 M5 Pro 机型可选配)；USB-C 转 MagSafe 3 连接线 (2 米)；96W USB-C 电源适配器；MagSafe 3 端口",
-          "rawText": "70W USB-C 电源适配器 (随附于 15 核中央处理器的 M5 Pro 机型)；96W USB-C 电源适配器 (随附于 18 核中央处理器的 M5 Pro 机型；15 核中央处理器的 M5 Pro 机型可选配)；USB-C 转 MagSafe 3 连接线 (2 米)；96W USB-C 电源适配器；MagSafe 3 端口",
+          "value": "70W USB-C 电源适配器 (随附于 15 核中央处理器的 M5 Pro 机型)；96W USB-C 电源适配器 (随附于 18 核中央处理器的 M5 Pro 机型；15 核中央处理器的 M5 Pro 机型可选配)；USB-C 转 MagSafe 3 连接线 (2 米)；MagSafe 3 端口",
+          "rawText": "70W USB-C 电源适配器 (随附于 15 核中央处理器的 M5 Pro 机型)；96W USB-C 电源适配器 (随附于 18 核中央处理器的 M5 Pro 机型；15 核中央处理器的 M5 Pro 机型可选配)；USB-C 转 MagSafe 3 连接线 (2 米)；MagSafe 3 端口",
           "sourceUrl": "https://support.apple.com/zh-cn/126318",
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-07-23"
         },
         "powerAdapter": {
-          "value": "70W USB-C 电源适配器 (随附于 15 核中央处理器的 M5 Pro 机型)；96W USB-C 电源适配器 (随附于 18 核中央处理器的 M5 Pro 机型；15 核中央处理器的 M5 Pro 机型可选配)；96W USB-C 电源适配器",
-          "rawText": "70W USB-C 电源适配器 (随附于 15 核中央处理器的 M5 Pro 机型)；96W USB-C 电源适配器 (随附于 18 核中央处理器的 M5 Pro 机型；15 核中央处理器的 M5 Pro 机型可选配)；96W USB-C 电源适配器",
+          "value": "70W USB-C 电源适配器 (随附于 15 核中央处理器的 M5 Pro 机型)；96W USB-C 电源适配器 (随附于 18 核中央处理器的 M5 Pro 机型；15 核中央处理器的 M5 Pro 机型可选配)",
+          "rawText": "70W USB-C 电源适配器 (随附于 15 核中央处理器的 M5 Pro 机型)；96W USB-C 电源适配器 (随附于 18 核中央处理器的 M5 Pro 机型；15 核中央处理器的 M5 Pro 机型可选配)",
           "sourceUrl": "https://support.apple.com/zh-cn/126318",
           "sourceType": "apple",
           "confidence": 1,
@@ -14094,8 +14094,8 @@
           "verifiedAt": "2026-07-23"
         },
         "batteryLife": {
-          "value": "最长可达 22 小时的流媒体视频播放；最长可达 14 小时的无线上网；最长可达 20 小时的流媒体视频播放；最长可达 13 小时的无线上网",
-          "rawText": "最长可达 22 小时的流媒体视频播放；最长可达 14 小时的无线上网；最长可达 20 小时的流媒体视频播放；最长可达 13 小时的无线上网",
+          "value": "最长可达 22 小时的流媒体视频播放；最长可达 14 小时的无线上网",
+          "rawText": "最长可达 22 小时的流媒体视频播放；最长可达 14 小时的无线上网",
           "sourceUrl": "https://support.apple.com/zh-cn/126318",
           "sourceType": "apple",
           "confidence": 1,
@@ -14121,21 +14121,21 @@
       "computed": {
         "aiCapabilityLevel": {
           "value": 5,
-          "scoreBreakdown": "芯片Apple M5 Pro or M5 Max=5 + NE≥16=1 + RAM≥8GB=1 → 5",
+          "scoreBreakdown": "芯片Apple M5 Pro=5 + NE≥16=1 + RAM≥8GB=1 → 5",
           "confidence": 0.85,
           "computedAt": "2026-06-25",
           "sourceType": "computed",
           "verifiedAt": "2026-06-25"
         },
         "generationUpgradeMagnitude": {
-          "value": 3,
+          "value": null,
           "comparedTo": "macbook-pro-14-m4-pro-2024",
-          "changeSummary": "芯片 Apple M4 Pro or M4 Max→Apple M5 Pro or M5 Max",
-          "confidence": 0.9,
-          "computedAt": "2026-07-19",
-          "scoreBreakdown": "芯片 Apple M4 Pro or M4 Max→Apple M5 Pro or M5 Max → 3",
+          "changeSummary": "该代升级幅度尚未重新计算",
+          "confidence": 0,
+          "computedAt": "2026-07-23",
+          "scoreBreakdown": "待重新计算",
           "sourceType": "computed",
-          "verifiedAt": "2026-07-19"
+          "verifiedAt": "2026-07-23"
         },
         "recommendationLevel": {
           "value": 5,
@@ -14146,7 +14146,347 @@
           "verifiedAt": "2026-06-25"
         }
       },
-      "tier": "pro-max"
+      "tier": "pro"
+    },
+    {
+      "id": "macbook-pro-14-m5-max-2026",
+      "brand": "Apple",
+      "category": "laptop",
+      "series": "MacBook Pro",
+      "family": "MacBook Pro",
+      "variant": "14-inch",
+      "modelName": "14 英寸 MacBook Pro (M5 Max)",
+      "generation": "M5 Max 14-inch",
+      "generationOrder": 2,
+      "releaseYear": 2026,
+      "specs": {
+        "colors": {
+          "value": [
+            "深空黑色",
+            "银色"
+          ],
+          "rawText": "深空黑色、银色",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "material": {
+          "value": "机身采用 100% 再生铝金属",
+          "rawText": "机身采用 100% 再生铝金属",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "weight": {
+          "value": 1620,
+          "unit": "g",
+          "rawText": "重量 (M5 Max 机型)： 1.62 千克 (3.6 磅)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "dimensions": {
+          "value": "312.6 x 221.2 x 15.5 毫米",
+          "unit": "mm",
+          "rawText": "宽度： 31.26 厘米 (12.31 英寸)；深度： 22.12 厘米 (8.71 英寸)；高度： 1.55 厘米 (0.61 英寸)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "thickness": {
+          "value": 15.5,
+          "unit": "mm",
+          "rawText": "宽度： 31.26 厘米 (12.31 英寸)；深度： 22.12 厘米 (8.71 英寸)；高度： 1.55 厘米 (0.61 英寸)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "screenSize": {
+          "value": 14.2,
+          "unit": "inch",
+          "rawText": "14.2 英寸 (对角线) Liquid 视网膜 XDR 显示屏；初始分辨率 3024 x 1964 (254 ppi)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "displayType": {
+          "value": "Liquid 视网膜 XDR 显示屏；ProMotion 自适应刷新率技术，最高可达 120Hz",
+          "rawText": "Liquid 视网膜 XDR 显示屏；ProMotion 自适应刷新率技术，最高可达 120Hz",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "resolution": {
+          "value": "14.2 英寸 (对角线) Liquid 视网膜 XDR 显示屏；初始分辨率 3024 x 1964 (254 ppi)",
+          "unit": "pixels",
+          "rawText": "14.2 英寸 (对角线) Liquid 视网膜 XDR 显示屏；初始分辨率 3024 x 1964 (254 ppi)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "ProMotion 自适应刷新率技术，最高可达 120Hz",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "peakBrightness": {
+          "value": 1600,
+          "rawText": "XDR 亮度：1000 尼特持续亮度 (全屏)，1600 尼特峰值亮度 (仅限 HDR 内容)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "chip": {
+          "value": "Apple M5 Max 芯片",
+          "rawText": "Apple M5 Max 芯片",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "cpu": {
+          "value": "18 核中央处理器，具有 6 个超级核心和 12 个性能核心；M5 Max (18 核中央处理器和 40 核图形处理器，614GB/s 内存带宽)",
+          "rawText": "18 核中央处理器，具有 6 个超级核心和 12 个性能核心；M5 Max (18 核中央处理器和 40 核图形处理器，614GB/s 内存带宽)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "gpu": {
+          "value": "32 核图形处理器；M5 Max (18 核中央处理器和 40 核图形处理器，614GB/s 内存带宽)",
+          "rawText": "32 核图形处理器；M5 Max (18 核中央处理器和 40 核图形处理器，614GB/s 内存带宽)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "neuralEngine": {
+          "value": "16 核神经网络引擎",
+          "rawText": "16 核神经网络引擎",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "memory": {
+          "value": "36GB / 48GB / 64GB / 128GB",
+          "rawText": "36GB 统一内存；48GB、；64GB 或；128GB (40 核图形处理器的 M5 Max 机型)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "storage": {
+          "value": "2TB / 4TB / 8TB",
+          "rawText": "2TB 固态硬盘；4TB 或；8TB",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "webcam": {
+          "value": "1200 万像素 Center Stage 摄像头，支持桌上视角功能",
+          "rawText": "1200 万像素 Center Stage 摄像头，支持桌上视角功能",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "speakers": {
+          "value": "高保真六扬声器系统，采用振动抵消低音单元；使用内置扬声器播放杜比全景声音乐或视频时支持空间音频功能；支持动态头部追踪的空间音频 (需搭配兼容的 AirPods、AirPods Pro 或 AirPods Max 机型)",
+          "rawText": "高保真六扬声器系统，采用振动抵消低音单元；使用内置扬声器播放杜比全景声音乐或视频时支持空间音频功能；支持动态头部追踪的空间音频 (需搭配兼容的 AirPods、AirPods Pro 或 AirPods Max 机型)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "microphone": {
+          "value": "录音棚级三麦克风阵列，高信噪比且支持定向波束成形；\"语音突显\"和\"宽谱\"麦克风模式，让音频和视频通话声音更清晰",
+          "rawText": "录音棚级三麦克风阵列，高信噪比且支持定向波束成形；\"语音突显\"和\"宽谱\"麦克风模式，让音频和视频通话声音更清晰",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "keyboard": {
+          "value": "背光妙控键盘，配备：",
+          "rawText": "背光妙控键盘，配备：",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "trackpad": {
+          "value": "力度触控板可实现精准光标控制和压力感应功能；支持用力点按、加速控制、压力感应绘图和多点触控手势",
+          "rawText": "力度触控板可实现精准光标控制和压力感应功能；支持用力点按、加速控制、压力感应绘图和多点触控手势",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "thunderbolt": {
+          "value": "三个雷雳 5 (USB-C) 端口，均可支持：；雷雳 5 (速率最高可达 120Gb/s)",
+          "rawText": "三个雷雳 5 (USB-C) 端口，均可支持：；雷雳 5 (速率最高可达 120Gb/s)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "usbC": {
+          "value": "三个雷雳 5 (USB-C) 端口，均可支持：",
+          "rawText": "三个雷雳 5 (USB-C) 端口，均可支持：",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "port": {
+          "value": "HDMI 端口；3.5 毫米耳机插孔；MagSafe 3 端口；三个雷雳 5 (USB-C) 端口，均可支持：；DisplayPort；雷雳 5 (速率最高可达 120Gb/s)；USB 4 (速率最高可达 120Gb/s)",
+          "rawText": "HDMI 端口；3.5 毫米耳机插孔；MagSafe 3 端口；三个雷雳 5 (USB-C) 端口，均可支持：；DisplayPort；雷雳 5 (速率最高可达 120Gb/s)；USB 4 (速率最高可达 120Gb/s)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "chargingMethod": {
+          "value": "96W USB-C 电源适配器；USB-C 转 MagSafe 3 连接线 (2 米)；MagSafe 3 端口",
+          "rawText": "96W USB-C 电源适配器；USB-C 转 MagSafe 3 连接线 (2 米)；MagSafe 3 端口",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "powerAdapter": {
+          "value": "96W USB-C 电源适配器",
+          "rawText": "96W USB-C 电源适配器",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "hasMagSafe": {
+          "value": true,
+          "rawText": "USB-C 转 MagSafe 3 连接线 (2 米)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "hasTouchId": {
+          "value": true,
+          "rawText": "触控 ID",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "hasHDMI": {
+          "value": true,
+          "rawText": "HDMI 端口",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "hasSDXC": {
+          "value": true,
+          "rawText": "SDXC 卡插槽",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "wifi": {
+          "value": "Wi-Fi 7 (802.11be)",
+          "rawText": "Wi-Fi 7 (802.11be)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "bluetooth": {
+          "value": "蓝牙 6",
+          "rawText": "蓝牙 6",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "externalDisplay": {
+          "value": "通过雷雳端口和 HDMI 端口的任意组合，支持连接最多达四台外接显示器：；四台初始分辨率最高达 6K (60Hz) 或 4K (144Hz) 的显示器，或；两台初始分辨率最高达 8K (60Hz)、5K (120Hz) 或 4K (240Hz) 的显示器；通过单个雷雳端口支持连接最多达四台外接显示器",
+          "rawText": "通过雷雳端口和 HDMI 端口的任意组合，支持连接最多达四台外接显示器：；四台初始分辨率最高达 6K (60Hz) 或 4K (144Hz) 的显示器，或；两台初始分辨率最高达 8K (60Hz)、5K (120Hz) 或 4K (240Hz) 的显示器；通过单个雷雳端口支持连接最多达四台外接显示器",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "batteryLife": {
+          "value": "最长可达 20 小时的流媒体视频播放；最长可达 13 小时的无线上网",
+          "rawText": "最长可达 20 小时的流媒体视频播放；最长可达 13 小时的无线上网",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "wirelessWebBrowsing": {
+          "value": "最长可达 13 小时的无线上网",
+          "rawText": "最长可达 13 小时的无线上网",
+          "sourceUrl": "https://support.apple.com/zh-cn/126318",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "launchPrice": {
+          "value": 29999,
+          "rawText": "搭载 M5 Max 的 14 英寸 MacBook Pro 起售价为 RMB 29,999 ，教育优惠起售价为 RMB 27,499 ；搭载 M5 Max 的 16 英寸 MacBook Pro 起售价为 RMB 31,999 ，教育优惠起售价为 RMB 29,499 。所有机型均提供深空黑色及银色外观。",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        }
+      },
+      "computed": {
+        "aiCapabilityLevel": {
+          "value": 5,
+          "scoreBreakdown": "芯片Apple M5 Max=5 + NE≥16=1 + RAM≥8GB=1 → 5",
+          "confidence": 0.85,
+          "computedAt": "2026-06-25",
+          "sourceType": "computed",
+          "verifiedAt": "2026-06-25"
+        },
+        "generationUpgradeMagnitude": {
+          "value": null,
+          "comparedTo": "macbook-pro-14-m4-max-2024",
+          "changeSummary": "该代升级幅度尚未重新计算",
+          "confidence": 0,
+          "computedAt": "2026-07-23",
+          "scoreBreakdown": "待重新计算",
+          "sourceType": "computed",
+          "verifiedAt": "2026-07-23"
+        },
+        "recommendationLevel": {
+          "value": 5,
+          "scoreBreakdown": "基础5-0年折旧 最新代+1 AI5级+1 → 5",
+          "confidence": 0.8,
+          "computedAt": "2026-06-25",
+          "sourceType": "computed",
+          "verifiedAt": "2026-06-25"
+        }
+      },
+      "tier": "max"
     },
     {
       "id": "macbook-pro-16-m5-2026",
@@ -14155,8 +14495,8 @@
       "series": "MacBook Pro",
       "family": "MacBook Pro",
       "variant": "16-inch",
-      "modelName": "16 英寸 MacBook Pro (M5 Pro/Max)",
-      "generation": "M5 Pro/Max 16-inch",
+      "modelName": "16 英寸 MacBook Pro (M5 Pro)",
+      "generation": "M5 Pro 16-inch",
       "generationOrder": 3,
       "releaseYear": 2026,
       "specs": {
@@ -14258,16 +14598,16 @@
           "verifiedAt": "2026-07-23"
         },
         "cpu": {
-          "value": "18 核中央处理器，具有 6 个超级核心和 12 个性能核心；M5 Max (18 核中央处理器和 32 核图形处理器，460GB/s 内存带宽) 或 M5 Max (18 核中央处理器和 40 核图形处理器，614GB/s 内存带宽)",
-          "rawText": "18 核中央处理器，具有 6 个超级核心和 12 个性能核心；M5 Max (18 核中央处理器和 32 核图形处理器，460GB/s 内存带宽) 或 M5 Max (18 核中央处理器和 40 核图形处理器，614GB/s 内存带宽)",
+          "value": "18 核中央处理器，具有 6 个超级核心和 12 个性能核心",
+          "rawText": "18 核中央处理器，具有 6 个超级核心和 12 个性能核心",
           "sourceUrl": "https://support.apple.com/zh-cn/126319",
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-07-23"
         },
         "gpu": {
-          "value": "20 核图形处理器；M5 Max (18 核中央处理器和 32 核图形处理器，460GB/s 内存带宽) 或 M5 Max (18 核中央处理器和 40 核图形处理器，614GB/s 内存带宽)",
-          "rawText": "20 核图形处理器；M5 Max (18 核中央处理器和 32 核图形处理器，460GB/s 内存带宽) 或 M5 Max (18 核中央处理器和 40 核图形处理器，614GB/s 内存带宽)",
+          "value": "20 核图形处理器",
+          "rawText": "20 核图形处理器",
           "sourceUrl": "https://support.apple.com/zh-cn/126319",
           "sourceType": "apple",
           "confidence": 1,
@@ -14282,16 +14622,356 @@
           "verifiedAt": "2026-07-23"
         },
         "memory": {
-          "value": "24GB / 36GB",
-          "rawText": "24GB 统一内存；可选配：；36GB 统一内存",
+          "value": "24GB / 48GB / 64GB",
+          "rawText": "24GB 统一内存；48GB (M5 Pro 机型或 40 核图形处理器的 M5 Max 机型) 或；64GB (20 核图形处理器的 M5 Pro 机型或 40 核图形处理器的 M5 Max 机型) 或",
           "sourceUrl": "https://support.apple.com/zh-cn/126319",
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-07-23"
         },
         "storage": {
-          "value": "1TB / 2TB / 4TB / 8TB",
-          "rawText": "Apple M5 Pro 芯片；1TB 固态硬盘；可选配：；2TB 或 4TB；Apple M5 Max 芯片；2TB 固态硬盘；4TB 或 8TB",
+          "value": "1TB / 2TB / 4TB",
+          "rawText": "1TB 固态硬盘；2TB 或；4TB",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "webcam": {
+          "value": "1200 万像素 Center Stage 摄像头，支持桌上视角功能",
+          "rawText": "1200 万像素 Center Stage 摄像头，支持桌上视角功能",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "speakers": {
+          "value": "高保真六扬声器系统，采用振动抵消低音单元；使用内置扬声器播放杜比全景声音乐或视频时支持空间音频功能；支持动态头部追踪的空间音频 (需搭配兼容的 AirPods、AirPods Pro 或 AirPods Max 机型)",
+          "rawText": "高保真六扬声器系统，采用振动抵消低音单元；使用内置扬声器播放杜比全景声音乐或视频时支持空间音频功能；支持动态头部追踪的空间音频 (需搭配兼容的 AirPods、AirPods Pro 或 AirPods Max 机型)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "microphone": {
+          "value": "录音棚级三麦克风阵列，高信噪比且支持定向波束成形；\"语音突显\"和\"宽谱\"麦克风模式，让音频和视频通话声音更清晰",
+          "rawText": "录音棚级三麦克风阵列，高信噪比且支持定向波束成形；\"语音突显\"和\"宽谱\"麦克风模式，让音频和视频通话声音更清晰",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "keyboard": {
+          "value": "背光妙控键盘，配备：",
+          "rawText": "背光妙控键盘，配备：",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "trackpad": {
+          "value": "力度触控板可实现精准光标控制和压力感应功能；支持用力点按、加速控制、压力感应绘图和多点触控手势",
+          "rawText": "力度触控板可实现精准光标控制和压力感应功能；支持用力点按、加速控制、压力感应绘图和多点触控手势",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "thunderbolt": {
+          "value": "三个雷雳 5 (USB-C) 端口，均可支持：；雷雳 5 (速率最高可达 120Gb/s)",
+          "rawText": "三个雷雳 5 (USB-C) 端口，均可支持：；雷雳 5 (速率最高可达 120Gb/s)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "usbC": {
+          "value": "三个雷雳 5 (USB-C) 端口，均可支持：",
+          "rawText": "三个雷雳 5 (USB-C) 端口，均可支持：",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "port": {
+          "value": "HDMI 端口；3.5 毫米耳机插孔；MagSafe 3 端口；三个雷雳 5 (USB-C) 端口，均可支持：；DisplayPort；雷雳 5 (速率最高可达 120Gb/s)；USB 4 (速率最高可达 120Gb/s)",
+          "rawText": "HDMI 端口；3.5 毫米耳机插孔；MagSafe 3 端口；三个雷雳 5 (USB-C) 端口，均可支持：；DisplayPort；雷雳 5 (速率最高可达 120Gb/s)；USB 4 (速率最高可达 120Gb/s)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "chargingMethod": {
+          "value": "140W USB-C 电源适配器；USB-C 转 MagSafe 3 连接线 (2 米)；MagSafe 3 端口",
+          "rawText": "140W USB-C 电源适配器；USB-C 转 MagSafe 3 连接线 (2 米)；MagSafe 3 端口",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "powerAdapter": {
+          "value": "140W USB-C 电源适配器",
+          "rawText": "140W USB-C 电源适配器",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "hasMagSafe": {
+          "value": true,
+          "rawText": "USB-C 转 MagSafe 3 连接线 (2 米)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "hasTouchId": {
+          "value": true,
+          "rawText": "触控 ID",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "hasHDMI": {
+          "value": true,
+          "rawText": "HDMI 端口",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "hasSDXC": {
+          "value": true,
+          "rawText": "SDXC 卡插槽",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "wifi": {
+          "value": "Wi-Fi 7 (802.11be)",
+          "rawText": "Wi-Fi 7 (802.11be)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "bluetooth": {
+          "value": "蓝牙 6",
+          "rawText": "蓝牙 6",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "externalDisplay": {
+          "value": "通过雷雳端口和 HDMI 端口的任意组合，支持连接最多达三台外接显示器：；三台初始分辨率最高达 6K (60Hz) 或 4K (144Hz) 的显示器，或；一台初始分辨率最高达 8K (60Hz)、5K (120Hz) 或 4K (240Hz) 的显示器，以及另一台初始分辨率最高达 5K (120Hz) 或 4K (200Hz) 的显示器；通过单个雷雳端口支持连接最多达三台外接显示器",
+          "rawText": "通过雷雳端口和 HDMI 端口的任意组合，支持连接最多达三台外接显示器：；三台初始分辨率最高达 6K (60Hz) 或 4K (144Hz) 的显示器，或；一台初始分辨率最高达 8K (60Hz)、5K (120Hz) 或 4K (240Hz) 的显示器，以及另一台初始分辨率最高达 5K (120Hz) 或 4K (200Hz) 的显示器；通过单个雷雳端口支持连接最多达三台外接显示器",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "batteryLife": {
+          "value": "最长可达 24 小时的流媒体视频播放；最长可达 17 小时的无线上网",
+          "rawText": "最长可达 24 小时的流媒体视频播放；最长可达 17 小时的无线上网",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "wirelessWebBrowsing": {
+          "value": "最长可达 17 小时的无线上网",
+          "rawText": "最长可达 17 小时的无线上网",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "launchPrice": {
+          "value": 21999,
+          "rawText": "搭载 M5 Pro 的 14 英寸 MacBook Pro 起售价为 RMB 17,999 ，教育优惠起售价为 RMB 16,799 ；搭载 M5 Pro 的 16 英寸 MacBook Pro 起售价为 RMB 21,999 ，教育优惠起售价为 RMB 20,399 。",
+          "sourceUrl": "https://www.apple.com.cn/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        }
+      },
+      "computed": {
+        "aiCapabilityLevel": {
+          "value": 5,
+          "scoreBreakdown": "芯片Apple M5 Pro=5 + NE≥16=1 + RAM≥8GB=1 → 5",
+          "confidence": 0.85,
+          "computedAt": "2026-06-25",
+          "sourceType": "computed",
+          "verifiedAt": "2026-06-25"
+        },
+        "generationUpgradeMagnitude": {
+          "value": null,
+          "comparedTo": "macbook-pro-16-m4-2024",
+          "changeSummary": "该代升级幅度尚未重新计算",
+          "scoreBreakdown": "待重新计算",
+          "confidence": 0,
+          "computedAt": "2026-07-23",
+          "sourceType": "computed",
+          "verifiedAt": "2026-07-23"
+        },
+        "recommendationLevel": {
+          "value": 5,
+          "scoreBreakdown": "基础5-0年折旧 最新代+1 AI5级+1 → 5",
+          "confidence": 0.8,
+          "computedAt": "2026-06-25",
+          "sourceType": "computed",
+          "verifiedAt": "2026-06-25"
+        }
+      },
+      "tier": "pro"
+    },
+    {
+      "id": "macbook-pro-16-m5-max-2026",
+      "brand": "Apple",
+      "category": "laptop",
+      "series": "MacBook Pro",
+      "family": "MacBook Pro",
+      "variant": "16-inch",
+      "modelName": "16 英寸 MacBook Pro (M5 Max)",
+      "generation": "M5 Max 16-inch",
+      "generationOrder": 3,
+      "releaseYear": 2026,
+      "specs": {
+        "colors": {
+          "value": [
+            "深空黑色",
+            "银色"
+          ],
+          "rawText": "深空黑色、银色",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "material": {
+          "value": "机身和散热模块底盘均采用 100% 再生铝金属",
+          "rawText": "机身和散热模块底盘均采用 100% 再生铝金属",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "weight": {
+          "value": 2150,
+          "unit": "g",
+          "rawText": "重量 (M5 Max 机型)： 2.15 千克 (4.7 磅)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "dimensions": {
+          "value": "355.7 x 248.1 x 16.8 毫米",
+          "unit": "mm",
+          "rawText": "宽度： 35.57 厘米 (14.01 英寸)；深度： 24.81 厘米 (9.77 英寸)；高度： 1.68 厘米 (0.66 英寸)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "thickness": {
+          "value": 16.8,
+          "unit": "mm",
+          "rawText": "宽度： 35.57 厘米 (14.01 英寸)；深度： 24.81 厘米 (9.77 英寸)；高度： 1.68 厘米 (0.66 英寸)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "screenSize": {
+          "value": 16.2,
+          "unit": "inch",
+          "rawText": "16.2 英寸 (对角线) Liquid 视网膜 XDR 显示屏；初始分辨率 3456 x 2234 (254 ppi)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "displayType": {
+          "value": "Liquid 视网膜 XDR 显示屏；ProMotion 自适应刷新率技术，最高可达 120Hz",
+          "rawText": "Liquid 视网膜 XDR 显示屏；ProMotion 自适应刷新率技术，最高可达 120Hz",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "resolution": {
+          "value": "16.2 英寸 (对角线) Liquid 视网膜 XDR 显示屏；初始分辨率 3456 x 2234 (254 ppi)",
+          "unit": "pixels",
+          "rawText": "16.2 英寸 (对角线) Liquid 视网膜 XDR 显示屏；初始分辨率 3456 x 2234 (254 ppi)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "ProMotion 自适应刷新率技术，最高可达 120Hz",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "peakBrightness": {
+          "value": 1600,
+          "rawText": "XDR 亮度：1000 尼特持续亮度 (全屏)，1600 尼特峰值亮度 (仅限 HDR 内容)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "chip": {
+          "value": "Apple M5 Max 芯片",
+          "rawText": "Apple M5 Max 芯片",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "cpu": {
+          "value": "18 核中央处理器，具有 6 个超级核心和 12 个性能核心；M5 Max (18 核中央处理器和 40 核图形处理器，614GB/s 内存带宽)",
+          "rawText": "18 核中央处理器，具有 6 个超级核心和 12 个性能核心；M5 Max (18 核中央处理器和 40 核图形处理器，614GB/s 内存带宽)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "gpu": {
+          "value": "32 核图形处理器、40 核图形处理器；M5 Max (18 核中央处理器和 40 核图形处理器，614GB/s 内存带宽)",
+          "rawText": "32 核图形处理器、40 核图形处理器；M5 Max (18 核中央处理器和 40 核图形处理器，614GB/s 内存带宽)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "neuralEngine": {
+          "value": "16 核神经网络引擎",
+          "rawText": "16 核神经网络引擎",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "memory": {
+          "value": "36GB / 48GB / 64GB / 128GB",
+          "rawText": "36GB 统一内存；48GB、；64GB 或；128GB (40 核图形处理器的 M5 Max 机型)",
+          "sourceUrl": "https://support.apple.com/zh-cn/126319",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "storage": {
+          "value": "2TB / 4TB / 8TB",
+          "rawText": "2TB 固态硬盘；4TB 或；8TB",
           "sourceUrl": "https://support.apple.com/zh-cn/126319",
           "sourceType": "apple",
           "confidence": 1,
@@ -14426,32 +15106,32 @@
           "verifiedAt": "2026-07-23"
         },
         "externalDisplay": {
-          "value": "通过雷雳端口和 HDMI 端口的任意组合，支持连接最多达三台外接显示器：；三台初始分辨率最高达 6K (60Hz) 或 4K (144Hz) 的显示器，或；一台初始分辨率最高达 8K (60Hz)、5K (120Hz) 或 4K (240Hz) 的显示器，以及另一台初始分辨率最高达 5K (120Hz) 或 4K (200Hz) 的显示器；通过单个雷雳端口支持连接最多达三台外接显示器",
-          "rawText": "通过雷雳端口和 HDMI 端口的任意组合，支持连接最多达三台外接显示器：；三台初始分辨率最高达 6K (60Hz) 或 4K (144Hz) 的显示器，或；一台初始分辨率最高达 8K (60Hz)、5K (120Hz) 或 4K (240Hz) 的显示器，以及另一台初始分辨率最高达 5K (120Hz) 或 4K (200Hz) 的显示器；通过单个雷雳端口支持连接最多达三台外接显示器",
+          "value": "通过雷雳端口和 HDMI 端口的任意组合，支持连接最多达四台外接显示器：；四台初始分辨率最高达 6K (60Hz) 或 4K (144Hz) 的显示器，或；两台初始分辨率最高达 8K (60Hz)、5K (120Hz) 或 4K (240Hz) 的显示器；通过单个雷雳端口支持连接最多达四台外接显示器",
+          "rawText": "通过雷雳端口和 HDMI 端口的任意组合，支持连接最多达四台外接显示器：；四台初始分辨率最高达 6K (60Hz) 或 4K (144Hz) 的显示器，或；两台初始分辨率最高达 8K (60Hz)、5K (120Hz) 或 4K (240Hz) 的显示器；通过单个雷雳端口支持连接最多达四台外接显示器",
           "sourceUrl": "https://support.apple.com/zh-cn/126319",
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-07-23"
         },
         "batteryLife": {
-          "value": "最长可达 24 小时的流媒体视频播放；最长可达 17 小时的无线上网；最长可达 22 小时的流媒体视频播放；最长可达 16 小时的无线上网",
-          "rawText": "最长可达 24 小时的流媒体视频播放；最长可达 17 小时的无线上网；最长可达 22 小时的流媒体视频播放；最长可达 16 小时的无线上网",
+          "value": "最长可达 22 小时的流媒体视频播放；最长可达 16 小时的无线上网",
+          "rawText": "最长可达 22 小时的流媒体视频播放；最长可达 16 小时的无线上网",
           "sourceUrl": "https://support.apple.com/zh-cn/126319",
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-07-23"
         },
         "wirelessWebBrowsing": {
-          "value": "最长可达 17 小时的无线上网",
-          "rawText": "最长可达 17 小时的无线上网",
+          "value": "最长可达 16 小时的无线上网",
+          "rawText": "最长可达 16 小时的无线上网",
           "sourceUrl": "https://support.apple.com/zh-cn/126319",
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-07-23"
         },
         "launchPrice": {
-          "value": 21999,
-          "rawText": "搭载 M5 Pro 的 14 英寸 MacBook Pro 起售价为 RMB 17,999 ，教育优惠起售价为 RMB 16,799 ；搭载 M5 Pro 的 16 英寸 MacBook Pro 起售价为 RMB 21,999 ，教育优惠起售价为 RMB 20,399 。",
+          "value": 31999,
+          "rawText": "搭载 M5 Max 的 14 英寸 MacBook Pro 起售价为 RMB 29,999 ，教育优惠起售价为 RMB 27,499 ；搭载 M5 Max 的 16 英寸 MacBook Pro 起售价为 RMB 31,999 ，教育优惠起售价为 RMB 29,499 。所有机型均提供深空黑色及银色外观。",
           "sourceUrl": "https://www.apple.com.cn/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/",
           "sourceType": "apple",
           "confidence": 1,
@@ -14461,21 +15141,21 @@
       "computed": {
         "aiCapabilityLevel": {
           "value": 5,
-          "scoreBreakdown": "芯片Apple M5 Pro or M5 Max=5 + NE≥16=1 + RAM≥8GB=1 → 5",
+          "scoreBreakdown": "芯片Apple M5 Max=5 + NE≥16=1 + RAM≥8GB=1 → 5",
           "confidence": 0.85,
           "computedAt": "2026-06-25",
           "sourceType": "computed",
           "verifiedAt": "2026-06-25"
         },
         "generationUpgradeMagnitude": {
-          "value": 3,
-          "comparedTo": "macbook-pro-16-m4-2024",
-          "changeSummary": "芯片Apple M4 Pro or M4 Max→Apple M5 Pro or M5 Max",
-          "scoreBreakdown": "芯片Apple M4 Pro or M4 Max→Apple M5 Pro or M5 Max → 3",
-          "confidence": 0.9,
-          "computedAt": "2026-06-25",
+          "value": null,
+          "comparedTo": "macbook-pro-16-m4-max-2024",
+          "changeSummary": "该代升级幅度尚未重新计算",
+          "scoreBreakdown": "待重新计算",
+          "confidence": 0,
+          "computedAt": "2026-07-23",
           "sourceType": "computed",
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-23"
         },
         "recommendationLevel": {
           "value": 5,
@@ -14486,7 +15166,7 @@
           "verifiedAt": "2026-06-25"
         }
       },
-      "tier": "pro-max"
+      "tier": "max"
     },
     {
       "id": "macbook-pro-14-m5-2025",
@@ -14835,8 +15515,8 @@
       "series": "MacBook Pro",
       "family": "MacBook Pro",
       "variant": "14-inch",
-      "modelName": "14 英寸 MacBook Pro (M4 Pro/Max)",
-      "generation": "M4 Pro/Max 14-inch",
+      "modelName": "14 英寸 MacBook Pro (M4 Pro)",
+      "generation": "M4 Pro 14-inch",
       "generationOrder": 1,
       "releaseYear": 2024,
       "specs": {
@@ -14938,16 +15618,16 @@
           "verifiedAt": "2026-07-23"
         },
         "cpu": {
-          "value": "12 核中央处理器，具有 8 个性能核心和 4 个能效核心，14 核中央处理器，具有 10 个性能核心和 4 个能效核心；M4 Pro (14 核中央处理器和 20 核图形处理器) 或 M4 Max (14 核中央处理器和 32 核图形处理器，410GB/s 内存带宽) 或 M4 Max (16 核中央处理器和 40 核图形处理器，546GB/s 内存带宽)",
-          "rawText": "12 核中央处理器，具有 8 个性能核心和 4 个能效核心，14 核中央处理器，具有 10 个性能核心和 4 个能效核心；M4 Pro (14 核中央处理器和 20 核图形处理器) 或 M4 Max (14 核中央处理器和 32 核图形处理器，410GB/s 内存带宽) 或 M4 Max (16 核中央处理器和 40 核图形处理器，546GB/s 内存带宽)",
+          "value": "12 核中央处理器，具有 8 个性能核心和 4 个能效核心，14 核中央处理器，具有 10 个性能核心和 4 个能效核心",
+          "rawText": "12 核中央处理器，具有 8 个性能核心和 4 个能效核心，14 核中央处理器，具有 10 个性能核心和 4 个能效核心",
           "sourceUrl": "https://support.apple.com/zh-cn/121553",
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-07-23"
         },
         "gpu": {
-          "value": "16 核图形处理器，20 核图形处理器；M4 Pro (14 核中央处理器和 20 核图形处理器) 或 M4 Max (14 核中央处理器和 32 核图形处理器，410GB/s 内存带宽) 或 M4 Max (16 核中央处理器和 40 核图形处理器，546GB/s 内存带宽)",
-          "rawText": "16 核图形处理器，20 核图形处理器；M4 Pro (14 核中央处理器和 20 核图形处理器) 或 M4 Max (14 核中央处理器和 32 核图形处理器，410GB/s 内存带宽) 或 M4 Max (16 核中央处理器和 40 核图形处理器，546GB/s 内存带宽)",
+          "value": "16 核图形处理器，20 核图形处理器",
+          "rawText": "16 核图形处理器，20 核图形处理器",
           "sourceUrl": "https://support.apple.com/zh-cn/121553",
           "sourceType": "apple",
           "confidence": 1,
@@ -14962,16 +15642,16 @@
           "verifiedAt": "2026-07-23"
         },
         "memory": {
-          "value": "24GB / 36GB",
-          "rawText": "24GB 统一内存；可选配：；36GB 统一内存",
+          "value": "24GB / 48GB / 64GB",
+          "rawText": "24GB 统一内存；48GB (M4 Pro 机型和 16 核中央处理器的 M4 Max 机型) 或；64GB 或",
           "sourceUrl": "https://support.apple.com/zh-cn/121553",
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-07-23"
         },
         "storage": {
-          "value": "512GB / 1TB / 2TB / 4TB / 8TB",
-          "rawText": "Apple M4 Pro 芯片；512GB 固态硬盘；可选配：；1TB、2TB 或 4TB；Apple M4 Max 芯片；1TB 固态硬盘；2TB、4TB 或 8TB",
+          "value": "512GB / 1TB / 2TB / 4TB",
+          "rawText": "512GB 固态硬盘；1TB、；2TB 或；4TB",
           "sourceUrl": "https://support.apple.com/zh-cn/121553",
           "sourceType": "apple",
           "confidence": 1,
@@ -15042,16 +15722,16 @@
           "verifiedAt": "2026-07-23"
         },
         "chargingMethod": {
-          "value": "70W USB-C 电源适配器 (随附于 12 核中央处理器的 M4 Pro 机型)；96W USB-C 电源适配器 (随附于 14 核中央处理器的 M4 Pro 机型；12 核中央处理器的 M4 Pro 机型可选配)；USB-C 转 MagSafe 3 连接线；可快速充电 (使用 96 瓦或更大功率的 USB-C 电源适配器)；96W USB-C 电源适配器",
-          "rawText": "70W USB-C 电源适配器 (随附于 12 核中央处理器的 M4 Pro 机型)；96W USB-C 电源适配器 (随附于 14 核中央处理器的 M4 Pro 机型；12 核中央处理器的 M4 Pro 机型可选配)；USB-C 转 MagSafe 3 连接线；可快速充电 (使用 96 瓦或更大功率的 USB-C 电源适配器)；96W USB-C 电源适配器",
+          "value": "70W USB-C 电源适配器 (随附于 12 核中央处理器的 M4 Pro 机型)；96W USB-C 电源适配器 (随附于 14 核中央处理器的 M4 Pro 机型；12 核中央处理器的 M4 Pro 机型可选配)；USB-C 转 MagSafe 3 连接线；可快速充电 (使用 96 瓦或更大功率的 USB-C 电源适配器)；MagSafe 3 端口",
+          "rawText": "70W USB-C 电源适配器 (随附于 12 核中央处理器的 M4 Pro 机型)；96W USB-C 电源适配器 (随附于 14 核中央处理器的 M4 Pro 机型；12 核中央处理器的 M4 Pro 机型可选配)；USB-C 转 MagSafe 3 连接线；可快速充电 (使用 96 瓦或更大功率的 USB-C 电源适配器)；MagSafe 3 端口",
           "sourceUrl": "https://support.apple.com/zh-cn/121553",
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-07-23"
         },
         "powerAdapter": {
-          "value": "70W USB-C 电源适配器 (随附于 12 核中央处理器的 M4 Pro 机型)；96W USB-C 电源适配器 (随附于 14 核中央处理器的 M4 Pro 机型；12 核中央处理器的 M4 Pro 机型可选配)；可快速充电 (使用 96 瓦或更大功率的 USB-C 电源适配器)；96W USB-C 电源适配器；可快速充电 (使用随附的 96 瓦或更大功率的 USB-C 电源适配器)",
-          "rawText": "70W USB-C 电源适配器 (随附于 12 核中央处理器的 M4 Pro 机型)；96W USB-C 电源适配器 (随附于 14 核中央处理器的 M4 Pro 机型；12 核中央处理器的 M4 Pro 机型可选配)；可快速充电 (使用 96 瓦或更大功率的 USB-C 电源适配器)；96W USB-C 电源适配器；可快速充电 (使用随附的 96 瓦或更大功率的 USB-C 电源适配器)",
+          "value": "70W USB-C 电源适配器 (随附于 12 核中央处理器的 M4 Pro 机型)；96W USB-C 电源适配器 (随附于 14 核中央处理器的 M4 Pro 机型；12 核中央处理器的 M4 Pro 机型可选配)；可快速充电 (使用 96 瓦或更大功率的 USB-C 电源适配器)",
+          "rawText": "70W USB-C 电源适配器 (随附于 12 核中央处理器的 M4 Pro 机型)；96W USB-C 电源适配器 (随附于 14 核中央处理器的 M4 Pro 机型；12 核中央处理器的 M4 Pro 机型可选配)；可快速充电 (使用 96 瓦或更大功率的 USB-C 电源适配器)",
           "sourceUrl": "https://support.apple.com/zh-cn/121553",
           "sourceType": "apple",
           "confidence": 1,
@@ -15106,16 +15786,16 @@
           "verifiedAt": "2026-07-23"
         },
         "externalDisplay": {
-          "value": "通过雷雳端口连接多达两台分辨率最高达 6K (60Hz) 的外接显示器；或通过雷雳端口连接一台分辨率最高达 6K (60Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 4K (144Hz) 的外接显示器；通过 HDMI 端口连接一台分辨率最高达 8K (60Hz) 的外接显示器或一台分辨率最高达 4K (240Hz) 的外接显示器；最多达四台外接显示器：通过雷雳端口连接多达三台分辨率最高达 6K (60 Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 4K (144Hz) 的外接显示器；最多达三台外接显示器：通过雷雳端口连接多达两台分辨率最高达 6K (60 Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 8K (60Hz) 的外接显示器或一台分辨率最高达 4K (240Hz) 的外接显示器",
-          "rawText": "通过雷雳端口连接多达两台分辨率最高达 6K (60Hz) 的外接显示器；或通过雷雳端口连接一台分辨率最高达 6K (60Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 4K (144Hz) 的外接显示器；通过 HDMI 端口连接一台分辨率最高达 8K (60Hz) 的外接显示器或一台分辨率最高达 4K (240Hz) 的外接显示器；最多达四台外接显示器：通过雷雳端口连接多达三台分辨率最高达 6K (60 Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 4K (144Hz) 的外接显示器；最多达三台外接显示器：通过雷雳端口连接多达两台分辨率最高达 6K (60 Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 8K (60Hz) 的外接显示器或一台分辨率最高达 4K (240Hz) 的外接显示器",
+          "value": "通过雷雳端口连接多达两台分辨率最高达 6K (60Hz) 的外接显示器；或通过雷雳端口连接一台分辨率最高达 6K (60Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 4K (144Hz) 的外接显示器；通过 HDMI 端口连接一台分辨率最高达 8K (60Hz) 的外接显示器或一台分辨率最高达 4K (240Hz) 的外接显示器",
+          "rawText": "通过雷雳端口连接多达两台分辨率最高达 6K (60Hz) 的外接显示器；或通过雷雳端口连接一台分辨率最高达 6K (60Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 4K (144Hz) 的外接显示器；通过 HDMI 端口连接一台分辨率最高达 8K (60Hz) 的外接显示器或一台分辨率最高达 4K (240Hz) 的外接显示器",
           "sourceUrl": "https://support.apple.com/zh-cn/121553",
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-07-23"
         },
         "batteryLife": {
-          "value": "最长可达 22 小时的流媒体视频播放；最长可达 14 小时的无线上网；最长可达 18 小时的流媒体视频播放；最长可达 13 小时的无线上网",
-          "rawText": "最长可达 22 小时的流媒体视频播放；最长可达 14 小时的无线上网；最长可达 18 小时的流媒体视频播放；最长可达 13 小时的无线上网",
+          "value": "最长可达 22 小时的流媒体视频播放；最长可达 14 小时的无线上网",
+          "rawText": "最长可达 22 小时的流媒体视频播放；最长可达 14 小时的无线上网",
           "sourceUrl": "https://support.apple.com/zh-cn/121553",
           "sourceType": "apple",
           "confidence": 1,
@@ -15141,7 +15821,7 @@
       "computed": {
         "aiCapabilityLevel": {
           "value": 5,
-          "scoreBreakdown": "芯片Apple M4 Pro or M4 Max=4 + NE≥16=1 + RAM≥8GB=1 → 5",
+          "scoreBreakdown": "芯片Apple M4 Pro=4 + NE≥16=1 + RAM≥8GB=1 → 5",
           "confidence": 0.85,
           "computedAt": "2026-06-25",
           "sourceType": "computed",
@@ -15150,12 +15830,12 @@
         "generationUpgradeMagnitude": {
           "value": null,
           "comparedTo": null,
-          "changeSummary": "该设备为该系列第一代或前代不在数据集中",
+          "changeSummary": "该设备为该比较组第一代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-06-25",
+          "computedAt": "2026-07-23",
           "sourceType": "computed",
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-23"
         },
         "recommendationLevel": {
           "value": 4,
@@ -15166,7 +15846,339 @@
           "verifiedAt": "2026-06-25"
         }
       },
-      "tier": "pro-max"
+      "tier": "pro"
+    },
+    {
+      "id": "macbook-pro-14-m4-max-2024",
+      "brand": "Apple",
+      "category": "laptop",
+      "series": "MacBook Pro",
+      "family": "MacBook Pro",
+      "variant": "14-inch",
+      "modelName": "14 英寸 MacBook Pro (M4 Max)",
+      "generation": "M4 Max 14-inch",
+      "generationOrder": 1,
+      "releaseYear": 2024,
+      "specs": {
+        "colors": {
+          "value": [
+            "深空黑色",
+            "银色"
+          ],
+          "rawText": "深空黑色、银色",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "material": {
+          "value": "机身采用 100% 再生铝金属",
+          "rawText": "机身采用 100% 再生铝金属",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "weight": {
+          "value": 1620,
+          "unit": "g",
+          "rawText": "重量 (M4 Max 机型)： 1.62 千克 (3.57 磅)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "dimensions": {
+          "value": "312.6 x 221.2 x 15.5 毫米",
+          "unit": "mm",
+          "rawText": "宽度： 31.26 厘米 (12.31 英寸)；深度： 22.12 厘米 (8.71 英寸)；高度： 1.55 厘米 (0.61 英寸)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "thickness": {
+          "value": 15.5,
+          "unit": "mm",
+          "rawText": "宽度： 31.26 厘米 (12.31 英寸)；深度： 22.12 厘米 (8.71 英寸)；高度： 1.55 厘米 (0.61 英寸)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "screenSize": {
+          "value": 14.2,
+          "unit": "inch",
+          "rawText": "14.2 英寸 (对角线) Liquid 视网膜 XDR 显示屏；初始分辨率 3024 x 1964 (254 ppi)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "displayType": {
+          "value": "Liquid 视网膜 XDR 显示屏；ProMotion 自适应刷新率技术，最高可达 120Hz",
+          "rawText": "Liquid 视网膜 XDR 显示屏；ProMotion 自适应刷新率技术，最高可达 120Hz",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "resolution": {
+          "value": "14.2 英寸 (对角线) Liquid 视网膜 XDR 显示屏；初始分辨率 3024 x 1964 (254 ppi)",
+          "unit": "pixels",
+          "rawText": "14.2 英寸 (对角线) Liquid 视网膜 XDR 显示屏；初始分辨率 3024 x 1964 (254 ppi)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "ProMotion 自适应刷新率技术，最高可达 120Hz",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "peakBrightness": {
+          "value": 1600,
+          "rawText": "XDR 亮度：1000 尼特持续亮度 (全屏)，1600 尼特峰值亮度(仅限 HDR 内容)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "chip": {
+          "value": "Apple M4 Max 芯片",
+          "rawText": "Apple M4 Max 芯片",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "cpu": {
+          "value": "14 核中央处理器，具有 10 个性能核心和 4 个能效核心；M4 Max (16 核中央处理器和 40 核图形处理器，546GB/s 内存带宽)",
+          "rawText": "14 核中央处理器，具有 10 个性能核心和 4 个能效核心；M4 Max (16 核中央处理器和 40 核图形处理器，546GB/s 内存带宽)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "gpu": {
+          "value": "32 核图形处理器；M4 Max (16 核中央处理器和 40 核图形处理器，546GB/s 内存带宽)",
+          "rawText": "32 核图形处理器；M4 Max (16 核中央处理器和 40 核图形处理器，546GB/s 内存带宽)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "neuralEngine": {
+          "value": "16 核神经网络引擎",
+          "rawText": "16 核神经网络引擎",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "memory": {
+          "value": "36GB / 48GB / 64GB / 128GB",
+          "rawText": "36GB 统一内存；48GB、；64GB 或；128GB (16 核中央处理器的 M4 Max 机型)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "storage": {
+          "value": "1TB / 2TB / 4TB / 8TB",
+          "rawText": "1TB 固态硬盘；2TB、；4TB 或；8TB",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "webcam": {
+          "value": "1200 万像素 Center Stage 摄像头，支持桌上视角功能",
+          "rawText": "1200 万像素 Center Stage 摄像头，支持桌上视角功能",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "speakers": {
+          "value": "高保真六扬声器系统，采用振动抵消低音单元；使用内置扬声器播放杜比全景声音乐或视频时支持空间音频功能；支持动态头部追踪的空间音频 (需搭配兼容的 AirPods、AirPods Pro 或 AirPods Max 机型)",
+          "rawText": "高保真六扬声器系统，采用振动抵消低音单元；使用内置扬声器播放杜比全景声音乐或视频时支持空间音频功能；支持动态头部追踪的空间音频 (需搭配兼容的 AirPods、AirPods Pro 或 AirPods Max 机型)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "microphone": {
+          "value": "录音棚级三麦克风阵列，高信噪比且支持定向波束成形",
+          "rawText": "录音棚级三麦克风阵列，高信噪比且支持定向波束成形",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "keyboard": {
+          "value": "背光妙控键盘，配备：",
+          "rawText": "背光妙控键盘，配备：",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "trackpad": {
+          "value": "力度触控板可实现精准光标控制和压力感应功能；支持用力点按、加速控制、压力感应绘图和多点触控手势",
+          "rawText": "力度触控板可实现精准光标控制和压力感应功能；支持用力点按、加速控制、压力感应绘图和多点触控手势",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "thunderbolt": {
+          "value": "三个雷雳 5 (USB-C) 端口，均可支持：；雷雳 5 (速率最高可达 120Gb/s)",
+          "rawText": "三个雷雳 5 (USB-C) 端口，均可支持：；雷雳 5 (速率最高可达 120Gb/s)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "usbC": {
+          "value": "三个雷雳 5 (USB-C) 端口，均可支持：",
+          "rawText": "三个雷雳 5 (USB-C) 端口，均可支持：",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "port": {
+          "value": "HDMI 端口；3.5 毫米耳机插孔；MagSafe 3 端口；三个雷雳 5 (USB-C) 端口，均可支持：；DisplayPort；雷雳 5 (速率最高可达 120Gb/s)；USB 4 (速率最高可达 120Gb/s)",
+          "rawText": "HDMI 端口；3.5 毫米耳机插孔；MagSafe 3 端口；三个雷雳 5 (USB-C) 端口，均可支持：；DisplayPort；雷雳 5 (速率最高可达 120Gb/s)；USB 4 (速率最高可达 120Gb/s)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "chargingMethod": {
+          "value": "96W USB-C 电源适配器；USB-C 转 MagSafe 3 连接线；可快速充电 (使用随附的 96 瓦或更大功率的 USB-C 电源适配器)；MagSafe 3 端口",
+          "rawText": "96W USB-C 电源适配器；USB-C 转 MagSafe 3 连接线；可快速充电 (使用随附的 96 瓦或更大功率的 USB-C 电源适配器)；MagSafe 3 端口",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "powerAdapter": {
+          "value": "96W USB-C 电源适配器；可快速充电 (使用随附的 96 瓦或更大功率的 USB-C 电源适配器)",
+          "rawText": "96W USB-C 电源适配器；可快速充电 (使用随附的 96 瓦或更大功率的 USB-C 电源适配器)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "hasMagSafe": {
+          "value": true,
+          "rawText": "USB-C 转 MagSafe 3 连接线",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "hasTouchId": {
+          "value": true,
+          "rawText": "触控 ID",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "hasHDMI": {
+          "value": true,
+          "rawText": "HDMI 端口",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "hasSDXC": {
+          "value": true,
+          "rawText": "SDXC 卡插槽",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "wifi": {
+          "value": "Wi-Fi 6E (802.11ax)",
+          "rawText": "Wi-Fi 6E (802.11ax)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "bluetooth": {
+          "value": "蓝牙 5.3",
+          "rawText": "蓝牙 5.3",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "externalDisplay": {
+          "value": "最多达四台外接显示器：通过雷雳端口连接多达三台分辨率最高达 6K (60 Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 4K (144Hz) 的外接显示器；最多达三台外接显示器：通过雷雳端口连接多达两台分辨率最高达 6K (60 Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 8K (60Hz) 的外接显示器或一台分辨率最高达 4K (240Hz) 的外接显示器；支持一台分辨率最高达 8K (60Hz) 或 4K (240Hz) 的显示器",
+          "rawText": "最多达四台外接显示器：通过雷雳端口连接多达三台分辨率最高达 6K (60 Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 4K (144Hz) 的外接显示器；最多达三台外接显示器：通过雷雳端口连接多达两台分辨率最高达 6K (60 Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 8K (60Hz) 的外接显示器或一台分辨率最高达 4K (240Hz) 的外接显示器；支持一台分辨率最高达 8K (60Hz) 或 4K (240Hz) 的显示器",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "batteryLife": {
+          "value": "最长可达 18 小时的流媒体视频播放；最长可达 13 小时的无线上网",
+          "rawText": "最长可达 18 小时的流媒体视频播放；最长可达 13 小时的无线上网",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "wirelessWebBrowsing": {
+          "value": "最长可达 13 小时的无线上网",
+          "rawText": "最长可达 13 小时的无线上网",
+          "sourceUrl": "https://support.apple.com/zh-cn/121553",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        }
+      },
+      "computed": {
+        "aiCapabilityLevel": {
+          "value": 5,
+          "scoreBreakdown": "芯片Apple M4 Max=4 + NE≥16=1 + RAM≥8GB=1 → 5",
+          "confidence": 0.85,
+          "computedAt": "2026-06-25",
+          "sourceType": "computed",
+          "verifiedAt": "2026-06-25"
+        },
+        "generationUpgradeMagnitude": {
+          "value": null,
+          "comparedTo": null,
+          "changeSummary": "该设备为该比较组第一代",
+          "scoreBreakdown": "无对比前代",
+          "confidence": 0,
+          "computedAt": "2026-07-23",
+          "sourceType": "computed",
+          "verifiedAt": "2026-07-23"
+        },
+        "recommendationLevel": {
+          "value": 4,
+          "scoreBreakdown": "基础5-2年折旧 AI5级+1 → 4",
+          "confidence": 0.8,
+          "computedAt": "2026-06-25",
+          "sourceType": "computed",
+          "verifiedAt": "2026-06-25"
+        }
+      },
+      "tier": "max"
     },
     {
       "id": "macbook-pro-16-m4-2024",
@@ -15175,8 +16187,8 @@
       "series": "MacBook Pro",
       "family": "MacBook Pro",
       "variant": "16-inch",
-      "modelName": "16 英寸 MacBook Pro (M4 Pro/Max)",
-      "generation": "M4 Pro/Max 16-inch",
+      "modelName": "16 英寸 MacBook Pro (M4 Pro)",
+      "generation": "M4 Pro 16-inch",
       "generationOrder": 2,
       "releaseYear": 2024,
       "specs": {
@@ -15278,16 +16290,16 @@
           "verifiedAt": "2026-07-23"
         },
         "cpu": {
-          "value": "14 核中央处理器，具有 10 个性能核心和 4 个能效核心；M4 Max (14 核中央处理器和 32 核图形处理器，410GB/s 内存带宽) 或 M4 Max (16 核中央处理器和 40 核图形处理器，546GB/s 内存带宽)",
-          "rawText": "14 核中央处理器，具有 10 个性能核心和 4 个能效核心；M4 Max (14 核中央处理器和 32 核图形处理器，410GB/s 内存带宽) 或 M4 Max (16 核中央处理器和 40 核图形处理器，546GB/s 内存带宽)",
+          "value": "14 核中央处理器，具有 10 个性能核心和 4 个能效核心",
+          "rawText": "14 核中央处理器，具有 10 个性能核心和 4 个能效核心",
           "sourceUrl": "https://support.apple.com/zh-cn/121554",
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-07-23"
         },
         "gpu": {
-          "value": "20 核图形处理器；M4 Max (14 核中央处理器和 32 核图形处理器，410GB/s 内存带宽) 或 M4 Max (16 核中央处理器和 40 核图形处理器，546GB/s 内存带宽)",
-          "rawText": "20 核图形处理器；M4 Max (14 核中央处理器和 32 核图形处理器，410GB/s 内存带宽) 或 M4 Max (16 核中央处理器和 40 核图形处理器，546GB/s 内存带宽)",
+          "value": "20 核图形处理器",
+          "rawText": "20 核图形处理器",
           "sourceUrl": "https://support.apple.com/zh-cn/121554",
           "sourceType": "apple",
           "confidence": 1,
@@ -15302,16 +16314,16 @@
           "verifiedAt": "2026-07-23"
         },
         "memory": {
-          "value": "24GB / 36GB",
-          "rawText": "24GB 统一内存；可选配：；36GB 统一内存",
+          "value": "24GB / 48GB / 64GB",
+          "rawText": "24GB 统一内存；48GB (M4 Pro 机型和 16 核中央处理器的 M4 Max 机型) 或；64GB 或",
           "sourceUrl": "https://support.apple.com/zh-cn/121554",
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-07-23"
         },
         "storage": {
-          "value": "512GB / 1TB / 2TB / 4TB / 8TB",
-          "rawText": "Apple M4 Pro 芯片；512GB 固态硬盘；可选配：；1TB、2TB 或 4TB；Apple M4 Max 芯片；1TB 固态硬盘；2TB、4TB 或 8TB",
+          "value": "512GB / 1TB / 2TB / 4TB",
+          "rawText": "512GB 固态硬盘；1TB、；2TB 或；4TB",
           "sourceUrl": "https://support.apple.com/zh-cn/121554",
           "sourceType": "apple",
           "confidence": 1,
@@ -15446,16 +16458,16 @@
           "verifiedAt": "2026-07-23"
         },
         "externalDisplay": {
-          "value": "通过雷雳端口连接多达两台分辨率最高达 6K (60Hz) 的外接显示器；或通过雷雳端口连接一台分辨率最高达 6K (60Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 4K (144Hz) 的外接显示器；通过 HDMI 端口连接一台分辨率最高达 8K (60Hz) 的外接显示器或一台分辨率最高达 4K (240Hz) 的外接显示器；最多达四台外接显示器：通过雷雳端口连接多达三台分辨率最高达 6K (60 Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 4K (144Hz) 的外接显示器；最多达三台外接显示器：通过雷雳端口连接多达两台分辨率最高达 6K (60 Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 8K (60Hz) 的外接显示器或一台分辨率最高达 4K (240Hz) 的外接显示器",
-          "rawText": "通过雷雳端口连接多达两台分辨率最高达 6K (60Hz) 的外接显示器；或通过雷雳端口连接一台分辨率最高达 6K (60Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 4K (144Hz) 的外接显示器；通过 HDMI 端口连接一台分辨率最高达 8K (60Hz) 的外接显示器或一台分辨率最高达 4K (240Hz) 的外接显示器；最多达四台外接显示器：通过雷雳端口连接多达三台分辨率最高达 6K (60 Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 4K (144Hz) 的外接显示器；最多达三台外接显示器：通过雷雳端口连接多达两台分辨率最高达 6K (60 Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 8K (60Hz) 的外接显示器或一台分辨率最高达 4K (240Hz) 的外接显示器",
+          "value": "通过雷雳端口连接多达两台分辨率最高达 6K (60Hz) 的外接显示器；或通过雷雳端口连接一台分辨率最高达 6K (60Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 4K (144Hz) 的外接显示器；通过 HDMI 端口连接一台分辨率最高达 8K (60Hz) 的外接显示器或一台分辨率最高达 4K (240Hz) 的外接显示器",
+          "rawText": "通过雷雳端口连接多达两台分辨率最高达 6K (60Hz) 的外接显示器；或通过雷雳端口连接一台分辨率最高达 6K (60Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 4K (144Hz) 的外接显示器；通过 HDMI 端口连接一台分辨率最高达 8K (60Hz) 的外接显示器或一台分辨率最高达 4K (240Hz) 的外接显示器",
           "sourceUrl": "https://support.apple.com/zh-cn/121554",
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-07-23"
         },
         "batteryLife": {
-          "value": "最长可达 24 小时的流媒体视频播放；最长可达 17 小时的无线上网；最长可达 21 小时的流媒体视频播放；最长可达 14 小时的无线上网",
-          "rawText": "最长可达 24 小时的流媒体视频播放；最长可达 17 小时的无线上网；最长可达 21 小时的流媒体视频播放；最长可达 14 小时的无线上网",
+          "value": "最长可达 24 小时的流媒体视频播放；最长可达 17 小时的无线上网",
+          "rawText": "最长可达 24 小时的流媒体视频播放；最长可达 17 小时的无线上网",
           "sourceUrl": "https://support.apple.com/zh-cn/121554",
           "sourceType": "apple",
           "confidence": 1,
@@ -15464,6 +16476,338 @@
         "wirelessWebBrowsing": {
           "value": "最长可达 17 小时的无线上网",
           "rawText": "最长可达 17 小时的无线上网",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        }
+      },
+      "computed": {
+        "aiCapabilityLevel": {
+          "value": 5,
+          "scoreBreakdown": "芯片Apple M4 Pro=4 + NE≥16=1 + RAM≥8GB=1 → 5",
+          "confidence": 0.85,
+          "computedAt": "2026-06-25",
+          "sourceType": "computed",
+          "verifiedAt": "2026-06-25"
+        },
+        "generationUpgradeMagnitude": {
+          "value": null,
+          "comparedTo": "macbook-pro-16-m2-2023",
+          "changeSummary": "该代升级幅度尚未重新计算",
+          "scoreBreakdown": "待重新计算",
+          "confidence": 0,
+          "computedAt": "2026-07-23",
+          "sourceType": "computed",
+          "verifiedAt": "2026-07-23"
+        },
+        "recommendationLevel": {
+          "value": 4,
+          "scoreBreakdown": "基础5-2年折旧 AI5级+1 → 4",
+          "confidence": 0.8,
+          "computedAt": "2026-06-25",
+          "sourceType": "computed",
+          "verifiedAt": "2026-06-25"
+        }
+      },
+      "tier": "pro"
+    },
+    {
+      "id": "macbook-pro-16-m4-max-2024",
+      "brand": "Apple",
+      "category": "laptop",
+      "series": "MacBook Pro",
+      "family": "MacBook Pro",
+      "variant": "16-inch",
+      "modelName": "16 英寸 MacBook Pro (M4 Max)",
+      "generation": "M4 Max 16-inch",
+      "generationOrder": 2,
+      "releaseYear": 2024,
+      "specs": {
+        "colors": {
+          "value": [
+            "深空黑色",
+            "银色"
+          ],
+          "rawText": "深空黑色、银色",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "material": {
+          "value": "机身采用 100% 再生铝金属",
+          "rawText": "机身采用 100% 再生铝金属",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "weight": {
+          "value": 2150,
+          "unit": "g",
+          "rawText": "重量 (M4 Max 机型): 2.15 千克 (4.73 磅)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "dimensions": {
+          "value": "355.7 x 248.1 x 16.8 毫米",
+          "unit": "mm",
+          "rawText": "宽度： 35.57 厘米 (14.01 英寸)；深度： 24.81 厘米 (9.77 英寸)；高度： 1.68 厘米 (0.66 英寸)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "thickness": {
+          "value": 16.8,
+          "unit": "mm",
+          "rawText": "宽度： 35.57 厘米 (14.01 英寸)；深度： 24.81 厘米 (9.77 英寸)；高度： 1.68 厘米 (0.66 英寸)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "screenSize": {
+          "value": 16.2,
+          "unit": "inch",
+          "rawText": "16.2 英寸 (对角线) Liquid 视网膜 XDR 显示屏；初始分辨率 3456 x 2234 (254 ppi)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "displayType": {
+          "value": "Liquid 视网膜 XDR 显示屏；ProMotion 自适应刷新率技术，最高可达 120Hz",
+          "rawText": "Liquid 视网膜 XDR 显示屏；ProMotion 自适应刷新率技术，最高可达 120Hz",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "resolution": {
+          "value": "16.2 英寸 (对角线) Liquid 视网膜 XDR 显示屏；初始分辨率 3456 x 2234 (254 ppi)",
+          "unit": "pixels",
+          "rawText": "16.2 英寸 (对角线) Liquid 视网膜 XDR 显示屏；初始分辨率 3456 x 2234 (254 ppi)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "ProMotion 自适应刷新率技术，最高可达 120Hz",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "peakBrightness": {
+          "value": 1600,
+          "rawText": "XDR 亮度：1000 尼特持续亮度 (全屏)，1600 尼特峰值亮度 (仅限 HDR 内容)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "chip": {
+          "value": "Apple M4 Max 芯片",
+          "rawText": "Apple M4 Max 芯片",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "cpu": {
+          "value": "14 核中央处理器，具有 10 个性能核心和 4 个能效核心、16 核中央处理器，具有 12 个性能核心和 4 个能效核心；M4 Max (16 核中央处理器和 40 核图形处理器，546GB/s 内存带宽)",
+          "rawText": "14 核中央处理器，具有 10 个性能核心和 4 个能效核心、16 核中央处理器，具有 12 个性能核心和 4 个能效核心；M4 Max (16 核中央处理器和 40 核图形处理器，546GB/s 内存带宽)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "gpu": {
+          "value": "32 核图形处理器、40 核图形处理器；M4 Max (16 核中央处理器和 40 核图形处理器，546GB/s 内存带宽)",
+          "rawText": "32 核图形处理器、40 核图形处理器；M4 Max (16 核中央处理器和 40 核图形处理器，546GB/s 内存带宽)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "neuralEngine": {
+          "value": "16 核神经网络引擎",
+          "rawText": "16 核神经网络引擎",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "memory": {
+          "value": "36GB / 48GB / 64GB / 128GB",
+          "rawText": "36GB 统一内存；48GB、；64GB 或；128GB (16 核中央处理器的 M4 Max 机型)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "storage": {
+          "value": "1TB / 2TB / 4TB / 8TB",
+          "rawText": "1TB 固态硬盘；2TB、；4TB 或；8TB",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "webcam": {
+          "value": "1200 万像素 Center Stage 摄像头，支持桌上视角功能",
+          "rawText": "1200 万像素 Center Stage 摄像头，支持桌上视角功能",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "speakers": {
+          "value": "高保真六扬声器系统，采用振动抵消低音单元；使用内置扬声器播放杜比全景声音乐或视频时支持空间音频功能；支持动态头部追踪的空间音频 (需搭配兼容的 AirPods、AirPods Pro 或 AirPods Max 机型)",
+          "rawText": "高保真六扬声器系统，采用振动抵消低音单元；使用内置扬声器播放杜比全景声音乐或视频时支持空间音频功能；支持动态头部追踪的空间音频 (需搭配兼容的 AirPods、AirPods Pro 或 AirPods Max 机型)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "microphone": {
+          "value": "录音棚级三麦克风阵列，高信噪比且支持定向波束成形",
+          "rawText": "录音棚级三麦克风阵列，高信噪比且支持定向波束成形",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "keyboard": {
+          "value": "背光妙控键盘，配备：",
+          "rawText": "背光妙控键盘，配备：",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "trackpad": {
+          "value": "力度触控板可实现精准光标控制和压力感应功能；支持用力点按、加速控制、压力感应绘图和多点触控手势",
+          "rawText": "力度触控板可实现精准光标控制和压力感应功能；支持用力点按、加速控制、压力感应绘图和多点触控手势",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "thunderbolt": {
+          "value": "三个雷雳 5 (USB-C) 端口，均可支持：；雷雳 5 (速率最高可达 120Gb/s)",
+          "rawText": "三个雷雳 5 (USB-C) 端口，均可支持：；雷雳 5 (速率最高可达 120Gb/s)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "usbC": {
+          "value": "三个雷雳 5 (USB-C) 端口，均可支持：",
+          "rawText": "三个雷雳 5 (USB-C) 端口，均可支持：",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "port": {
+          "value": "HDMI 端口；3.5 毫米耳机插孔；MagSafe 3 端口；三个雷雳 5 (USB-C) 端口，均可支持：；DisplayPort；雷雳 5 (速率最高可达 120Gb/s)；USB 4 (速率最高可达 120Gb/s)",
+          "rawText": "HDMI 端口；3.5 毫米耳机插孔；MagSafe 3 端口；三个雷雳 5 (USB-C) 端口，均可支持：；DisplayPort；雷雳 5 (速率最高可达 120Gb/s)；USB 4 (速率最高可达 120Gb/s)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "chargingMethod": {
+          "value": "140W USB-C 电源适配器；USB-C 转 MagSafe 3 连接线；可快速充电 (使用随附的 140W USB-C 电源适配器)；MagSafe 3 端口",
+          "rawText": "140W USB-C 电源适配器；USB-C 转 MagSafe 3 连接线；可快速充电 (使用随附的 140W USB-C 电源适配器)；MagSafe 3 端口",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "powerAdapter": {
+          "value": "140W USB-C 电源适配器；可快速充电 (使用随附的 140W USB-C 电源适配器)",
+          "rawText": "140W USB-C 电源适配器；可快速充电 (使用随附的 140W USB-C 电源适配器)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "hasMagSafe": {
+          "value": true,
+          "rawText": "USB-C 转 MagSafe 3 连接线",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "hasTouchId": {
+          "value": true,
+          "rawText": "触控 ID",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "hasHDMI": {
+          "value": true,
+          "rawText": "HDMI 端口",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "hasSDXC": {
+          "value": true,
+          "rawText": "SDXC 卡插槽",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "wifi": {
+          "value": "Wi-Fi 6E (802.11ax)",
+          "rawText": "Wi-Fi 6E (802.11ax)",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "bluetooth": {
+          "value": "蓝牙 5.3",
+          "rawText": "蓝牙 5.3",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "externalDisplay": {
+          "value": "最多达四台外接显示器：通过雷雳端口连接多达三台分辨率最高达 6K (60 Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 4K (144Hz) 的外接显示器；最多达三台外接显示器：通过雷雳端口连接多达两台分辨率最高达 6K (60 Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 8K (60Hz) 的外接显示器或一台分辨率最高达 4K (240Hz) 的外接显示器；支持一台分辨率最高达 8K (60Hz) 或 4K (240Hz) 的显示器",
+          "rawText": "最多达四台外接显示器：通过雷雳端口连接多达三台分辨率最高达 6K (60 Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 4K (144Hz) 的外接显示器；最多达三台外接显示器：通过雷雳端口连接多达两台分辨率最高达 6K (60 Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 8K (60Hz) 的外接显示器或一台分辨率最高达 4K (240Hz) 的外接显示器；支持一台分辨率最高达 8K (60Hz) 或 4K (240Hz) 的显示器",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "batteryLife": {
+          "value": "最长可达 21 小时的流媒体视频播放；最长可达 14 小时的无线上网",
+          "rawText": "最长可达 21 小时的流媒体视频播放；最长可达 14 小时的无线上网",
+          "sourceUrl": "https://support.apple.com/zh-cn/121554",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "wirelessWebBrowsing": {
+          "value": "最长可达 14 小时的无线上网",
+          "rawText": "最长可达 14 小时的无线上网",
           "sourceUrl": "https://support.apple.com/zh-cn/121554",
           "sourceType": "apple",
           "confidence": 1,
@@ -15481,7 +16825,7 @@
       "computed": {
         "aiCapabilityLevel": {
           "value": 5,
-          "scoreBreakdown": "芯片Apple M4 Pro or M4 Max=4 + NE≥16=1 + RAM≥8GB=1 → 5",
+          "scoreBreakdown": "芯片Apple M4 Max=4 + NE≥16=1 + RAM≥8GB=1 → 5",
           "confidence": 0.85,
           "computedAt": "2026-06-25",
           "sourceType": "computed",
@@ -15489,13 +16833,13 @@
         },
         "generationUpgradeMagnitude": {
           "value": null,
-          "comparedTo": "macbook-pro-16-m2-2023",
+          "comparedTo": "macbook-pro-16-m2-max-2023",
           "changeSummary": "该代升级幅度尚未重新计算",
           "scoreBreakdown": "待重新计算",
           "confidence": 0,
-          "computedAt": "2026-07-19",
+          "computedAt": "2026-07-23",
           "sourceType": "computed",
-          "verifiedAt": "2026-07-19"
+          "verifiedAt": "2026-07-23"
         },
         "recommendationLevel": {
           "value": 4,
@@ -15506,7 +16850,7 @@
           "verifiedAt": "2026-06-25"
         }
       },
-      "tier": "pro-max"
+      "tier": "max"
     },
     {
       "id": "macbook-air-15-m3-2024",
@@ -15824,8 +17168,8 @@
       "series": "MacBook Pro",
       "family": "MacBook Pro",
       "variant": "16-inch",
-      "modelName": "16 英寸 MacBook Pro (M2 Pro/Max)",
-      "generation": "M2 Pro/Max 16-inch",
+      "modelName": "16 英寸 MacBook Pro (M2 Pro)",
+      "generation": "M2 Pro 16-inch",
       "generationOrder": 1,
       "releaseYear": 2023,
       "specs": {
@@ -15927,16 +17271,16 @@
           "verifiedAt": "2026-07-23"
         },
         "cpu": {
-          "value": "12 核中央处理器，具有 8 个性能核心和 4 个能效核心；M2 Max (12 核中央处理器和 30 核图形处理器) 或 M2 Max (12 核中央处理器和 38 核图形处理器)",
-          "rawText": "12 核中央处理器，具有 8 个性能核心和 4 个能效核心；M2 Max (12 核中央处理器和 30 核图形处理器) 或 M2 Max (12 核中央处理器和 38 核图形处理器)",
+          "value": "12 核中央处理器，具有 8 个性能核心和 4 个能效核心",
+          "rawText": "12 核中央处理器，具有 8 个性能核心和 4 个能效核心",
           "sourceUrl": "https://support.apple.com/zh-cn/111838",
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-07-23"
         },
         "gpu": {
-          "value": "19 核图形处理器；M2 Max (12 核中央处理器和 30 核图形处理器) 或 M2 Max (12 核中央处理器和 38 核图形处理器)",
-          "rawText": "19 核图形处理器；M2 Max (12 核中央处理器和 30 核图形处理器) 或 M2 Max (12 核中央处理器和 38 核图形处理器)",
+          "value": "19 核图形处理器",
+          "rawText": "19 核图形处理器",
           "sourceUrl": "https://support.apple.com/zh-cn/111838",
           "sourceType": "apple",
           "confidence": 1,
@@ -15952,7 +17296,7 @@
         },
         "memory": {
           "value": "16GB / 32GB",
-          "rawText": "16GB 统一内存；可选配：；32GB 统一内存",
+          "rawText": "16GB 统一内存；32GB (M2 Pro 或 M2 Max 机型)、",
           "sourceUrl": "https://support.apple.com/zh-cn/111838",
           "sourceType": "apple",
           "confidence": 1,
@@ -15960,7 +17304,7 @@
         },
         "storage": {
           "value": "512GB / 1TB / 2TB / 4TB / 8TB",
-          "rawText": "Apple M2 Pro 芯片；512GB 固态硬盘；可选配：；1TB、2TB、4TB 或 8TB；Apple M2 Max 芯片；1TB 固态硬盘；2TB、4TB 或 8TB",
+          "rawText": "512GB 固态硬盘；1TB、；2TB、；4TB 或；8TB",
           "sourceUrl": "https://support.apple.com/zh-cn/111838",
           "sourceType": "apple",
           "confidence": 1,
@@ -16095,8 +17439,8 @@
           "verifiedAt": "2026-07-23"
         },
         "externalDisplay": {
-          "value": "通过雷雳端口连接多达两台分辨率最高达 6K (60Hz) 的外接显示器；或通过雷雳端口连接一台分辨率最高达 6K (60Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 4K (144Hz) 的外接显示器；通过 HDMI 端口连接一台分辨率最高达 8K (60Hz) 的外接显示器或一台分辨率最高达 4K (240Hz) 的外接显示器；最多达四台外接显示器：通过雷雳端口连接多达三台分辨率最高达 6K (60 Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 4K (144Hz) 的外接显示器；最多达三台外接显示器：通过雷雳端口连接多达两台分辨率最高达 6K (60 Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 8K (60Hz) 的外接显示器或一台分辨率最高达 4K (240Hz) 的外接显示器",
-          "rawText": "通过雷雳端口连接多达两台分辨率最高达 6K (60Hz) 的外接显示器；或通过雷雳端口连接一台分辨率最高达 6K (60Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 4K (144Hz) 的外接显示器；通过 HDMI 端口连接一台分辨率最高达 8K (60Hz) 的外接显示器或一台分辨率最高达 4K (240Hz) 的外接显示器；最多达四台外接显示器：通过雷雳端口连接多达三台分辨率最高达 6K (60 Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 4K (144Hz) 的外接显示器；最多达三台外接显示器：通过雷雳端口连接多达两台分辨率最高达 6K (60 Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 8K (60Hz) 的外接显示器或一台分辨率最高达 4K (240Hz) 的外接显示器",
+          "value": "通过雷雳端口连接多达两台分辨率最高达 6K (60Hz) 的外接显示器；或通过雷雳端口连接一台分辨率最高达 6K (60Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 4K (144Hz) 的外接显示器；通过 HDMI 端口连接一台分辨率最高达 8K (60Hz) 的外接显示器或一台分辨率最高达 4K (240Hz) 的外接显示器",
+          "rawText": "通过雷雳端口连接多达两台分辨率最高达 6K (60Hz) 的外接显示器；或通过雷雳端口连接一台分辨率最高达 6K (60Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 4K (144Hz) 的外接显示器；通过 HDMI 端口连接一台分辨率最高达 8K (60Hz) 的外接显示器或一台分辨率最高达 4K (240Hz) 的外接显示器",
           "sourceUrl": "https://support.apple.com/zh-cn/111838",
           "sourceType": "apple",
           "confidence": 1,
@@ -16130,7 +17474,7 @@
       "computed": {
         "aiCapabilityLevel": {
           "value": 4,
-          "scoreBreakdown": "芯片Apple M2 Pro or M2 Max=2 + NE≥16=1 + RAM≥8GB=1 → 4",
+          "scoreBreakdown": "芯片Apple M2 Pro=2 + NE≥16=1 + RAM≥8GB=1 → 4",
           "confidence": 0.85,
           "computedAt": "2026-06-25",
           "sourceType": "computed",
@@ -16139,12 +17483,12 @@
         "generationUpgradeMagnitude": {
           "value": null,
           "comparedTo": null,
-          "changeSummary": "该设备为该系列第一代或前代不在数据集中",
+          "changeSummary": "该设备为该比较组第一代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-06-25",
+          "computedAt": "2026-07-23",
           "sourceType": "computed",
-          "verifiedAt": "2026-06-25"
+          "verifiedAt": "2026-07-23"
         },
         "recommendationLevel": {
           "value": 3,
@@ -16155,7 +17499,339 @@
           "verifiedAt": "2026-06-25"
         }
       },
-      "tier": "pro-max"
+      "tier": "pro"
+    },
+    {
+      "id": "macbook-pro-16-m2-max-2023",
+      "brand": "Apple",
+      "category": "laptop",
+      "series": "MacBook Pro",
+      "family": "MacBook Pro",
+      "variant": "16-inch",
+      "modelName": "16 英寸 MacBook Pro (M2 Max)",
+      "generation": "M2 Max 16-inch",
+      "generationOrder": 1,
+      "releaseYear": 2023,
+      "specs": {
+        "colors": {
+          "value": [
+            "银色",
+            "深空灰色"
+          ],
+          "rawText": "银色、深空灰色",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "material": {
+          "value": "机身采用 100% 再生铝金属",
+          "rawText": "机身采用 100% 再生铝金属",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "weight": {
+          "value": 2160,
+          "unit": "g",
+          "rawText": "重量 (M2 Max 机型)： 2.16 千克 (4.77 磅)",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "dimensions": {
+          "value": "355.7 x 248.1 x 16.8 毫米",
+          "unit": "mm",
+          "rawText": "宽度： 35.57 厘米 (14.01 英寸)；深度： 24.81 厘米 (9.77 英寸)；高度： 1.68 厘米 (0.66 英寸)",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "thickness": {
+          "value": 16.8,
+          "unit": "mm",
+          "rawText": "宽度： 35.57 厘米 (14.01 英寸)；深度： 24.81 厘米 (9.77 英寸)；高度： 1.68 厘米 (0.66 英寸)",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "screenSize": {
+          "value": 16.2,
+          "unit": "inch",
+          "rawText": "16.2 英寸 (对角线) Liquid 视网膜 XDR 显示屏；初始分辨率 3456 x 2234 (254 ppi)",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "displayType": {
+          "value": "Liquid 视网膜 XDR 显示屏；ProMotion 自适应刷新率技术，最高可达 120Hz",
+          "rawText": "Liquid 视网膜 XDR 显示屏；ProMotion 自适应刷新率技术，最高可达 120Hz",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "resolution": {
+          "value": "16.2 英寸 (对角线) Liquid 视网膜 XDR 显示屏；初始分辨率 3456 x 2234 (254 ppi)",
+          "unit": "pixels",
+          "rawText": "16.2 英寸 (对角线) Liquid 视网膜 XDR 显示屏；初始分辨率 3456 x 2234 (254 ppi)",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "ProMotion 自适应刷新率技术，最高可达 120Hz",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "peakBrightness": {
+          "value": 1600,
+          "rawText": "XDR 亮度：1000 尼特持续亮度 (全屏)，1600 尼特峰值亮度 (仅限 HDR 内容)",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "chip": {
+          "value": "Apple M2 Max 芯片",
+          "rawText": "Apple M2 Max 芯片",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "cpu": {
+          "value": "12 核中央处理器，具有 8 个性能核心和 4 个能效核心",
+          "rawText": "12 核中央处理器，具有 8 个性能核心和 4 个能效核心",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "gpu": {
+          "value": "38 核图形处理器",
+          "rawText": "38 核图形处理器",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "neuralEngine": {
+          "value": "16 核神经网络引擎",
+          "rawText": "16 核神经网络引擎",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "memory": {
+          "value": "32GB / 64GB / 96GB",
+          "rawText": "32GB 统一内存；64GB (M2 Max 机型) 或；96GB (38 核图形处理器的 M2 Max 机型)",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "storage": {
+          "value": "1TB / 2TB / 4TB / 8TB",
+          "rawText": "1TB 固态硬盘；2TB、；4TB 或；8TB",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "webcam": {
+          "value": "1080p FaceTime 高清摄像头",
+          "rawText": "1080p FaceTime 高清摄像头",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "speakers": {
+          "value": "高保真六扬声器系统，采用振动抵消低音单元；使用内置扬声器播放杜比全景声音乐或视频时支持空间音频功能；搭配 AirPods (第三代)、AirPods Pro 或 AirPods Max 可实现支持动态头部追踪的空间音频",
+          "rawText": "高保真六扬声器系统，采用振动抵消低音单元；使用内置扬声器播放杜比全景声音乐或视频时支持空间音频功能；搭配 AirPods (第三代)、AirPods Pro 或 AirPods Max 可实现支持动态头部追踪的空间音频",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "microphone": {
+          "value": "录音棚级三麦克风阵列，高信噪比且支持定向波束成形",
+          "rawText": "录音棚级三麦克风阵列，高信噪比且支持定向波束成形",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "keyboard": {
+          "value": "背光妙控键盘，配备：",
+          "rawText": "背光妙控键盘，配备：",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "trackpad": {
+          "value": "力度触控板可实现精准光标控制和压力感应功能；支持用力点按、加速控制、压力感应绘图和多点触控手势",
+          "rawText": "力度触控板可实现精准光标控制和压力感应功能；支持用力点按、加速控制、压力感应绘图和多点触控手势",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "thunderbolt": {
+          "value": "三个雷雳 4 (USB-C) 端口，均可支持：；雷雳 4 (速率最高可达 40Gb/s)",
+          "rawText": "三个雷雳 4 (USB-C) 端口，均可支持：；雷雳 4 (速率最高可达 40Gb/s)",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "usbC": {
+          "value": "三个雷雳 4 (USB-C) 端口，均可支持：",
+          "rawText": "三个雷雳 4 (USB-C) 端口，均可支持：",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "port": {
+          "value": "HDMI 端口；3.5 毫米耳机插孔；MagSafe 3 端口；三个雷雳 4 (USB-C) 端口，均可支持：；DisplayPort；雷雳 4 (速率最高可达 40Gb/s)；USB 4 (速率最高可达 40Gb/s)",
+          "rawText": "HDMI 端口；3.5 毫米耳机插孔；MagSafe 3 端口；三个雷雳 4 (USB-C) 端口，均可支持：；DisplayPort；雷雳 4 (速率最高可达 40Gb/s)；USB 4 (速率最高可达 40Gb/s)",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "chargingMethod": {
+          "value": "140W USB-C 电源适配器；USB-C 转 MagSafe 3 连接线；可快速充电 (使用随附的 140W USB-C 电源适配器)；MagSafe 3 端口",
+          "rawText": "140W USB-C 电源适配器；USB-C 转 MagSafe 3 连接线；可快速充电 (使用随附的 140W USB-C 电源适配器)；MagSafe 3 端口",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "powerAdapter": {
+          "value": "140W USB-C 电源适配器；可快速充电 (使用随附的 140W USB-C 电源适配器)",
+          "rawText": "140W USB-C 电源适配器；可快速充电 (使用随附的 140W USB-C 电源适配器)",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "hasMagSafe": {
+          "value": true,
+          "rawText": "USB-C 转 MagSafe 3 连接线",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "hasTouchId": {
+          "value": true,
+          "rawText": "触控 ID",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "hasHDMI": {
+          "value": true,
+          "rawText": "HDMI 端口",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "hasSDXC": {
+          "value": true,
+          "rawText": "SDXC 卡插槽",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "wifi": {
+          "value": "Wi-Fi 6E (802.11ax)",
+          "rawText": "Wi-Fi 6E (802.11ax)",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "bluetooth": {
+          "value": "蓝牙 5.3",
+          "rawText": "蓝牙 5.3",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "externalDisplay": {
+          "value": "最多达四台外接显示器：通过雷雳端口连接多达三台分辨率最高达 6K (60 Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 4K (144Hz) 的外接显示器；最多达三台外接显示器：通过雷雳端口连接多达两台分辨率最高达 6K (60 Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 8K (60Hz) 的外接显示器或一台分辨率最高达 4K (240Hz) 的外接显示器；支持一台分辨率最高达 8K (60Hz) 或 4K (240Hz) 的显示器",
+          "rawText": "最多达四台外接显示器：通过雷雳端口连接多达三台分辨率最高达 6K (60 Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 4K (144Hz) 的外接显示器；最多达三台外接显示器：通过雷雳端口连接多达两台分辨率最高达 6K (60 Hz) 的外接显示器，同时通过 HDMI 端口连接一台分辨率最高达 8K (60Hz) 的外接显示器或一台分辨率最高达 4K (240Hz) 的外接显示器；支持一台分辨率最高达 8K (60Hz) 或 4K (240Hz) 的显示器",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "batteryLife": {
+          "value": "最长可达 15 小时的无线上网",
+          "rawText": "最长可达 15 小时的无线上网",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        },
+        "wirelessWebBrowsing": {
+          "value": "最长可达 15 小时的无线上网",
+          "rawText": "最长可达 15 小时的无线上网",
+          "sourceUrl": "https://support.apple.com/zh-cn/111838",
+          "sourceType": "apple",
+          "confidence": 1,
+          "verifiedAt": "2026-07-23"
+        }
+      },
+      "computed": {
+        "aiCapabilityLevel": {
+          "value": 4,
+          "scoreBreakdown": "芯片Apple M2 Max=2 + NE≥16=1 + RAM≥8GB=1 → 4",
+          "confidence": 0.85,
+          "computedAt": "2026-06-25",
+          "sourceType": "computed",
+          "verifiedAt": "2026-06-25"
+        },
+        "generationUpgradeMagnitude": {
+          "value": null,
+          "comparedTo": null,
+          "changeSummary": "该设备为该比较组第一代",
+          "scoreBreakdown": "无对比前代",
+          "confidence": 0,
+          "computedAt": "2026-07-23",
+          "sourceType": "computed",
+          "verifiedAt": "2026-07-23"
+        },
+        "recommendationLevel": {
+          "value": 3,
+          "scoreBreakdown": "基础5-3年折旧 AI4级+1 → 3",
+          "confidence": 0.8,
+          "computedAt": "2026-06-25",
+          "sourceType": "computed",
+          "verifiedAt": "2026-06-25"
+        }
+      },
+      "tier": "max"
     },
     {
       "id": "iphone-17",

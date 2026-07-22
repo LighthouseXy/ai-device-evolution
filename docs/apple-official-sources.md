@@ -29,23 +29,23 @@
 | `src/data/apple-sources.en-us.json` | 切换前英文来源登记原样快照 |
 | `scripts/sync-apple-zh-cn-data.mjs` | 从中文官网重新生成默认数据与来源登记 |
 
-设备级完整 URL 清单以 `src/data/apple-sources.json` 为唯一机器可读事实来源，本文件不再重复维护 58 行容易失效的人工表格。
+设备级完整 URL 清单以 `src/data/apple-sources.json` 为唯一机器可读事实来源，本文件不再重复维护 63 行容易失效的人工表格。
 
 ## 当前质量状态
 
 | 指标 | 结果 |
 | --- | ---: |
-| 设备 | 58 |
-| 比较组 | 19 |
-| 规格字段 | 1857 |
-| Apple 一方字段 | 1857 |
-| Apple Support `zh-cn` 字段 | 1799 |
-| Apple 中国 Newsroom 首发价 | 58 |
+| 设备 | 63 |
+| 比较组 | 21 |
+| 规格字段 | 2034 |
+| Apple 一方字段 | 2034 |
+| Apple Support `zh-cn` 字段 | 1974 |
+| Apple 中国 Newsroom 首发价 | 60 / 63 |
 | 非 Apple `reference` 字段 | 0 |
 | `support.apple.com/en-us` 默认字段 | 0 |
 | `needs_review` | 0 |
 
-1790 条 `rawText` 包含中文。其余 67 条是中文官网原文中的纯技术记法，例如 `12GB`、`eSIM`、`Bluetooth 5.3`，不属于英文来源残留。
+1962 条 `rawText` 包含中文。其余 72 条是中文官网原文中的纯技术记法，例如 `12GB`、`eSIM`、`Bluetooth 5.3`，不属于英文来源残留。
 
 ## 同步与验证
 
@@ -62,12 +62,12 @@ npm run build
 1. 将已有 Apple Support 路径解析到对应 `zh-cn` 技术规格页。
 2. 对 `/docs/...` 聚合页继续解析到实际中文技术规格文档。
 3. 从中文页面原文生成 `value` 与 `rawText`，每个字段登记实际来源 URL。
-4. 从 Apple 中国 Newsroom 刷新 58 台设备的中国大陆首发价。
+4. 从 Apple 中国 Newsroom 刷新可明确对应的中国大陆首发价；未单列独立配置报价时保持缺失。
 5. 中文页面未明确声明的字段保持缺失，不从英文快照回填。
 
 ## 已知边界
 
 - 30 个英文库曾有的推断字段在中文库中保持缺失，主要是未明确写出的 60Hz，以及“没有 HDMI / SDXC”等否定项。
-- MacBook Pro 的部分设备记录合并 Pro / Max 芯片档位；当前单一价格使用新闻稿中可明确对应的配置，下一阶段需要拆分型号粒度。
+- MacBook Pro 的 Pro / Max 已拆为独立记录。`macbook-pro-16-m2-max-2023`、`macbook-pro-14-m4-max-2024` 与 `macbook-pro-16-m4-2024` 的中国官网新闻稿未明确单列独立配置报价，首发价保持缺失，不使用推断价或第三方价格。
 - `ipad-air-m4-2025` 暂时保留历史内部 ID 以避免路由变化，中文数据中的发布年份已修正为 2026。
 - `currentPrice` 与 `usedPrice` 尚未采集，不能用当前商城价格冒充首发价。
