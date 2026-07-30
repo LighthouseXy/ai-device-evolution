@@ -11,8 +11,8 @@ DeviceScope 是一个电子设备代际演进分析平台。当前第一阶段�
 - **代际趋势观察**：支持按类别、系列、分析维度和对比范围筛选，展示芯片、屏幕、重量、价格等变化趋势。
 - **详细参数对比**：对相邻代际变化做标记，14 / 16 英寸 MacBook Pro 的 Pro、Max 芯片档位可独立比较；缺失数据统一展示，便于横向扫描。
 - **AI 观察引擎**：提供代际总结、趋势预测、购买建议、字段解释等分析模式；无模型 key 时使用 rules fallback 保证可用。
-- **AI 设备顾问**：支持预算、设备类型、性能偏好、使用场景、成色偏好、续航优先级、接口/生态需求等输入，返回推荐、理由、注意事项和权衡点。
-- **DeepSeek 接入**：`/api/device-advisor` 已完成 DeepSeek provider 真实复测，可作为可选接入路径；当前不把它表述为长期稳定承诺。
+- **AI 设备顾问**：支持预算、设备类型、性能偏好、使用场景、成色偏好、续航优先级、接口/生态需求等输入；本地只负责标准化、候选筛选、官方事实整理和简单 fallback，模型负责场景化推荐与权衡。
+- **DeepSeek 接入**：DeepSeek V4 使用紧凑返回协议、显式关闭 thinking、900 token 输出上限和 15 秒超时；6 个真实样例已全部一次生成 AI 结果，但不把小样本复测表述为长期稳定承诺。
 - **AI eval 闭环**：设备顾问评测结果可写入 `.eval-results/`，并由 dev-only 看板读取、切换和展示 KPI、样本明细与失败原因。
 - **回归测试脚本**：覆盖设备顾问 fallback 场景、API 错误路径、`maxResults` 边界和脚本帮助输出。
 - **本地预览修复**：开发服务使用 Webpack + polling，规避当前环境下的 `EMFILE: too many open files, watch` 问题。
@@ -35,13 +35,15 @@ type SpecField<T> = {
 };
 ```
 
-### AI 与规则 fallback 分层
+### AI 与 rules fallback 分层
 
-AI 分析与设备顾问都保留本地 rules fallback。模型不可用、返回异常或输出不合规时，系统仍能给出稳定结果，降低外部 API 对核心体验的影响。
+AI 分析与设备顾问都保留本地 rules fallback。设备顾问不再把 AI 部分结果与规则结果拼接：合法完整输出统一标记为 `ai`；模型不可用、15 秒超时，或重试后仍无法形成有效主推荐和备选时，完整回退为 `rules`。
+
+设备顾问的 rules fallback 只按设备类型、预算和发布时间排序，并明确提示这是基础排序结果，不代表已分析性能、续航、屏幕、便携、存储或相机等完整需求。
 
 ### 设备顾问推荐链路
 
-`/api/device-advisor` 会先归一化输入，再选择 OpenAI / DeepSeek provider；失败时回退到本地规则推荐。DeepSeek 已做真实复测，但不应写成长期稳定承诺。
+`/api/device-advisor` 先归一化输入并按品类过滤，再按预算内、预算接近度和发布时间稳定排序，最多整理 8 个带官方事实的候选。OpenAI / DeepSeek 只返回候选 `deviceId`、匹配分、理由与权衡等生成内容；型号、系列、类别、年份和价格由服务端候选真值补齐，未知 ID 会被过滤。DeepSeek 的紧凑输出上限为 900 token，并显式使用非思考模式；OpenAI 与 DeepSeek 都使用 15 秒超时及候选真值校验。
 
 ### 面向产品的前端状态
 
@@ -59,8 +61,8 @@ AI 分析与设备顾问都保留本地 rules fallback。模型不可用、返�
 
 项目使用脚本级回归覆盖关键路径：
 
-- `npm run test:device-advisor`：设备顾问 rules fallback 场景。
-- `npm run test:device-advisor-api`：API 请求解析、400 错误路径和 `maxResults` 边界。
+- `npm run test:device-advisor`：8 个候选排序与 rules fallback 场景。
+- `npm run test:device-advisor-api`：13 个 API 协议、候选真值、重试和 fallback 边界场景。
 
 ## 技术栈
 
@@ -149,9 +151,9 @@ scripts/
 
 ## 当前阶段
 
-项目已完成中文官网数据切换、MacBook Pro Pro / Max 独立配置拆分、首页 / 设备库 / 设备详情、代际对比、趋势观察、AI 顾问、DeepSeek 接入、AI eval 闭环、dev-only 评测看板和 v2 前端重构。3 条 Apple 中国官网未明确单列报价的 MacBook Pro 配置保持“待补充”；AI 主线继续做真实模型联调与样例补充。
+项目已完成中文官网数据切换、MacBook Pro Pro / Max 独立配置拆分、首页 / 设备库 / 设备详情、代际对比、趋势观察、AI 顾问、DeepSeek 接入、AI eval 闭环、dev-only 评测看板和 v2 前端重构。设备顾问已收敛为轻量候选层、候选真值校验与完整 AI / rules 分层；后续继续扩充真实样例并监测模型理由的事实一致性。
 
 ## 相关文档
 
 - [项目计划](PROJECT_PLAN.md)
-- [最新开发日志](logs/2026-07-23.md)
+- [最新开发日志](logs/2026-07-30.md)

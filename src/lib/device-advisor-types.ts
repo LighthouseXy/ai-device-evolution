@@ -1,4 +1,4 @@
-import type { DbDevice, DeviceCategory } from "@/lib/devices-db";
+import type { DeviceCategory } from "@/lib/devices-db";
 
 export type DeviceAdvisorCategory = DeviceCategory | "all";
 
@@ -57,7 +57,6 @@ export type DeviceAdvisorOutput = {
 };
 
 export type Candidate = {
-  device: DbDevice;
   deviceId: string;
   model: string;
   series: string;
@@ -65,23 +64,12 @@ export type Candidate = {
   releaseYear: number;
   referencePrice: number | null;
   priceText: string;
-  recommendationLevel: number;
-  aiCapabilityLevel: number;
-  screenSize: number;
-  weight: number;
-  batteryHours: number;
-  storageGb: number;
-  cameraScore: number;
-  priceAvailability: "new_only" | "used_ok" | "refurbished_ok";
-  conditionScore: number;
-  interfaceScore: number;
-  totalScore: number;
-  budgetScore: number;
-  scoreBreakdown: string[];
+  facts: Record<string, string | number>;
 };
 
 export const DEFAULT_DEVICE_ADVISOR_DISCLAIMER = "基于已收录设备数据生成，仅供参考";
-export const MAX_SHORTLIST = 12;
+export const RULES_DEVICE_ADVISOR_DISCLAIMER = "AI 不可用，当前仅按设备类型、预算和发布时间排序，仅供参考";
+export const MAX_SHORTLIST = 8;
 export const MAX_RECOMMENDATIONS = 3;
 export const MAX_ALTERNATIVES = 3;
 

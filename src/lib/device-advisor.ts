@@ -17,6 +17,8 @@ export {
 } from "@/lib/device-advisor-normalize";
 
 export {
+  buildDeviceAdvisorContext,
   buildDeviceAdvisorPrompt,
+  groundDeviceAdvisorOutput,
   runFallbackDeviceAdvisor,
 } from "@/lib/device-advisor-rules";

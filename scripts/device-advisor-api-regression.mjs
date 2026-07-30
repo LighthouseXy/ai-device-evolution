@@ -189,7 +189,14 @@ const scenarios = [
       withDeepSeekProviderEnv(() =>
         withMockedFetch(async (inputUrl, init) => {
           const requestBody = JSON.parse(init.body);
+          assert.deepEqual(requestBody.thinking, { type: "disabled" });
           const messages = Array.isArray(requestBody.messages) ? requestBody.messages : [];
+          assert.ok(
+            messages.some((message) => {
+              return typeof message.content === "string" && message.content.includes("只返回紧凑 JSON");
+            }),
+            "DeepSeek prompt should request the compact response contract",
+          );
           const isRetry = messages.some((message) => {
             return typeof message.content === "string" && message.content.includes("This is a retry after an invalid or truncated answer.");
           });
@@ -217,12 +224,12 @@ const scenarios = [
                     summary: "修复后返回的推荐结果。",
                     recommendations: [
                       {
-                        deviceId: "iphone-15",
-                        model: "iPhone 15",
+                        deviceId: "iphone-17",
+                        model: "伪造型号",
                         series: "iPhone",
                         category: "phone",
                         releaseYear: 2023,
-                        priceText: "首发价 ¥5,999",
+                        priceText: "伪造价格 ¥1",
                         matchScore: 0.7,
                         reasons: ["电池表现稳定"],
                         tradeoffs: ["价格高于预算"],
@@ -235,12 +242,12 @@ const scenarios = [
                     notSuitableFor: ["严格预算"],
                     alternatives: [
                       {
-                        deviceId: "iphone-15-pro",
-                        model: "iPhone 15 Pro",
+                        deviceId: "iphone-17-pro",
+                        model: "伪造 Pro 型号",
                         series: "iPhone",
                         category: "phone",
                         releaseYear: 2023,
-                        priceText: "首发价 ¥7,999",
+                        priceText: "伪造价格 ¥2",
                         matchScore: 0.6,
                         reasons: ["性能更强"],
                         tradeoffs: ["更贵"],
@@ -265,8 +272,9 @@ const scenarios = [
           assert.equal(response.status, 200);
           const data = await response.json();
           assert.equal(data.source, "ai");
-          assert.equal(data.recommendations[0].model, "iPhone 15");
-          assert.equal(data.alternatives[0].model, "iPhone 15 Pro");
+          assert.equal(data.recommendations[0].model, "iPhone 17");
+          assert.doesNotMatch(data.recommendations[0].priceText, /伪造/);
+          assert.equal(data.alternatives[0].model, "iPhone 17 Pro");
         })),
   },
   {
@@ -283,8 +291,8 @@ const scenarios = [
                     summary: "类型漂移但可修复。",
                     recommendations: [
                       {
-                        deviceId: "iphone-15",
-                        model: "iPhone 15",
+                        deviceId: "iphone-17",
+                        model: "iPhone 17",
                         series: "iPhone",
                         category: "phone",
                         releaseYear: 2023,
@@ -295,13 +303,26 @@ const scenarios = [
                         suitableFor: "通勤",
                         notSuitableFor: "严格预算",
                       },
+                      {
+                        deviceId: "unknown-iphone",
+                        model: "不存在的 iPhone",
+                        series: "iPhone",
+                        category: "phone",
+                        releaseYear: 2099,
+                        priceText: "首发价 ¥1",
+                        matchScore: 1,
+                        reasons: "虚构候选",
+                        tradeoffs: "无",
+                        suitableFor: "所有人",
+                        notSuitableFor: "无人",
+                      },
                     ],
                     tradeoffs: "价格偏高",
                     suitableFor: "通勤",
                     notSuitableFor: "严格预算",
                     alternatives: {
-                      deviceId: "iphone-15-pro",
-                      model: "iPhone 15 Pro",
+                      deviceId: "iphone-17-pro",
+                      model: "iPhone 17 Pro",
                       series: "iPhone",
                       category: "phone",
                       releaseYear: 2023,
@@ -329,12 +350,16 @@ const scenarios = [
             const data = await response.json();
             assert.equal(data.source, "ai");
             assert.equal(data.recommendations[0].tradeoffs[0], "价格偏高");
-            assert.equal(data.alternatives[0].model, "iPhone 15 Pro");
+            assert.ok(
+              data.recommendations.every((item) => item.deviceId !== "unknown-iphone"),
+              "unknown model output should be removed",
+            );
+            assert.equal(data.alternatives[0].model, "iPhone 17 Pro");
             assert.equal(data.confidence, 0.78);
           })),
   },
   {
-    name: "deepseek_partial_repair_uses_rules_source",
+    name: "deepseek_invalid_partial_falls_back_to_rules",
     run: () =>
       withDeepSeekProviderEnv(() =>
         withMockedFetch(async () =>
@@ -365,7 +390,7 @@ const scenarios = [
             assert.equal(response.status, 200);
             const data = await response.json();
             assert.equal(data.source, "rules");
-            assert.match(data.disclaimer, /AI 输出不完整/);
+            assert.match(data.disclaimer, /AI 不可用/);
             assert.ok(Array.isArray(data.recommendations));
             assert.ok(data.recommendations.length > 0);
           })),
@@ -454,7 +479,7 @@ const scenarios = [
             assert.equal(response.status, 200);
             const data = await response.json();
             assert.equal(data.source, "rules");
-            assert.match(data.disclaimer, /AI 输出不完整/);
+            assert.match(data.disclaimer, /AI 不可用/);
             assert.ok(data.recommendations.length > 0);
           })),
   },

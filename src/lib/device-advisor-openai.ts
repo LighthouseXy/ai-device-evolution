@@ -1,6 +1,7 @@
 import {
   buildDeviceAdvisorPrompt,
   deviceAdvisorOutputSchema,
+  groundDeviceAdvisorOutput,
   normalizeDeviceAdvisorOutput,
   runFallbackDeviceAdvisor,
   type DeviceAdvisorInput,
@@ -20,6 +21,7 @@ type OpenAIResponsesPayload = {
 const OPENAI_API_URL = "https://api.openai.com/v1/responses";
 const DEFAULT_OPENAI_MODEL = "gpt-4.1-mini";
 const DEFAULT_DISCLAIMER = "基于已收录设备数据生成，仅供参考";
+const OPENAI_TIMEOUT_MS = 15_000;
 
 function extractOpenAIText(data: OpenAIResponsesPayload): string {
   if (typeof data.output_text === "string" && data.output_text.trim().length > 0) {
@@ -48,6 +50,7 @@ export async function fetchOpenAIAdvisor(input: DeviceAdvisorInput): Promise<Dev
 
   const response = await fetch(OPENAI_API_URL, {
     method: "POST",
+    signal: AbortSignal.timeout(OPENAI_TIMEOUT_MS),
     headers: {
       "Content-Type": "application/json",
       Authorization: `Bearer ${apiKey}`,
@@ -99,12 +102,13 @@ export async function fetchOpenAIAdvisor(input: DeviceAdvisorInput): Promise<Dev
   }
 
   const normalized = normalizeDeviceAdvisorOutput(parsed);
-  if (!normalized) {
+  const grounded = normalized ? groundDeviceAdvisorOutput(input, normalized) : null;
+  if (!grounded) {
     throw new Error("OpenAI response JSON was missing required fields");
   }
 
   return {
-    ...normalized,
+    ...grounded,
     source: "ai",
     disclaimer: DEFAULT_DISCLAIMER,
   };

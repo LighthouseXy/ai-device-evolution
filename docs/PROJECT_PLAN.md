@@ -1,6 +1,6 @@
 # DeviceScope / 数码观察站项目计划
 
-更新日期：2026-07-23
+更新日期：2026-07-30
 
 ## 项目定位
 
@@ -17,13 +17,13 @@ DeviceScope / 数码观察站是一个电子设备代际演进分析平台，面
 ## 能力边界
 
 - `/compare` 和 `/trends` 的分析基于本地规则与真实结构化数据，不是实时模型调用。
-- AI 顾问可走真实 DeepSeek 链路，也保留 rules fallback；DeepSeek 已有真实复测证据，但不承诺长期稳定。
+- AI 顾问可走真实 OpenAI / DeepSeek 链路，也保留 rules fallback；本地 fallback 仅按设备类型、预算和发布时间排序，不代表完整需求分析。DeepSeek 已有真实复测证据，但不承诺长期稳定。
 - 缺失字段按缺失状态展示，不伪造参数或把推断结果包装成官方事实。
 - 后续可评估迁移到真实数据库和扩展更多品牌/类别，但两者均非当前已实现能力。
 
 ## 当前状态
 
-页面优化与 Apple 中文数据切换已完成；GitHub main 与 Vercel 正式展示链路已建立。运行时默认读取 Apple 中国简体中文数据，原英文官网数据以独立快照保留。当前发布状态以 GitHub main 和正式链接为准。
+页面优化、Apple 中文数据切换和设备顾问链路精简已完成；GitHub main 与 Vercel 正式展示链路已建立。运行时默认读取 Apple 中国简体中文数据，原英文官网数据以独立快照保留。当前发布状态以 GitHub main 和正式链接为准。
 
 ## 已完成能力
 
@@ -37,7 +37,9 @@ DeviceScope / 数码观察站是一个电子设备代际演进分析平台，面
 - 代际对比展示：所有比较组均按最新一代在左排序，移除独立变化列，仅在最新一代相较直接前代有变化时于最新值后标记变化。
 - 趋势观察：类别、系列、分析维度和范围筛选，以及趋势图、对比表和关键变化展示。
 - AI 观察：`/api/ai-analysis` 支持总结、预测、购买建议和字段解释；无模型 key 或调用失败时使用本地规则分析，缓存生成链路已完成验证并具备缓存数据基础。
-- AI 设备顾问：`/api/device-advisor` 支持 OpenAI / DeepSeek provider，失败时回退规则推荐；输入覆盖预算、设备类型、性能偏好、使用场景、成色、续航、接口/生态需求。
+- AI 设备顾问：`/api/device-advisor` 支持 OpenAI / DeepSeek provider；本地层负责输入标准化、品类过滤、预算接近度与发布时间排序、最多 8 个候选及官方事实整理，模型负责场景化推荐。
+- 顾问输出边界：模型只返回候选 `deviceId`、匹配分和自然语言分析，设备身份与价格由服务端候选真值补齐；未知 ID 会过滤，完整输出不合法时重试一次后整体回退 rules，不混合 AI 与规则结果。
+- DeepSeek V4 优化：显式关闭默认 thinking，输出上限 900 token；OpenAI / DeepSeek 均使用原生 15 秒超时与候选真值校验。
 - AI eval 闭环：评测结果写入 `.eval-results/`，dev-only 看板可读取、切换并展示 KPI、样本明细和失败原因。
 - 设备顾问可用性：预算校验、错误提示、四态结果区、推荐层级、场景快捷项和提交前输入摘要。
 - 回归保护：覆盖 fallback 场景、API 错误路径和 `maxResults` 边界。
@@ -48,7 +50,7 @@ DeviceScope / 数码观察站是一个电子设备代际演进分析平台，面
 - 应用层：Next.js App Router、React、TypeScript 和 Tailwind CSS。
 - 数据层：本地结构化 JSON 数据源；`SpecField` 记录来源 URL、来源类型、置信度和验证时间，计算字段以 `computed` 区分。
 - 分析层：趋势和代际对比读取真实结构化数据，并以本地规则生成稳定的解释与摘要。
-- AI 层：AI 观察与设备顾问可选择 OpenAI / DeepSeek provider；异常、无 key 或不合规输出时回退本地 rules fallback。
+- AI 层：AI 观察与设备顾问可选择 OpenAI / DeepSeek provider；设备顾问将本地候选真值与模型生成内容分层，异常、无 key、超时或重试后不合规时完整回退 rules fallback。
 - 评测层：设备顾问评测结果写入 `.eval-results/`，由 `/dev/device-advisor-eval` 这个 dev-only 页面展示。
 
 ## 验证证据
@@ -58,7 +60,7 @@ DeviceScope / 数码观察站是一个电子设备代际演进分析平台，面
 - 中文来源分布为 Apple Support `zh-cn` 1974 个字段、Apple 中国 Newsroom 60 个首发价字段；1962 条原始证据包含中文，其余 72 条为 `12GB`、`eSIM` 等官网技术记法。3 条中国官网新闻稿未单列独立配置报价，保持为空并在界面显示“待补充”。
 - 13/13 条带直接前代引用的设备已有 1–10 分升级评分；中文数据同步、完整 `npm run check`、生产构建及桌面和 390px 页面检查均通过。
 - 设备顾问回归覆盖 rules fallback、API 错误路径和 `maxResults` 边界。
-- DeepSeek provider 有真实复测证据；其稳定性与长期可用性仍需持续观察。
+- 精简后的 DeepSeek V4 链路在 6 个真实样例中 `source=ai` 为 6/6、无 fallback、无 retry，平均 2862.7ms、P95 3631.5ms；优化前 4 个对照样例为 1 AI / 3 rules、retryRate 100%、平均 13735.3ms、P95 25806.7ms。样本规模有限，稳定性与长期可用性仍需持续观察。
 - GitHub main 与 Vercel 正式展示链路已建立；当前发布状态以 GitHub main 和正式链接为准。
 
 ## 阶段安排
@@ -96,7 +98,7 @@ DeviceScope / 数码观察站是一个电子设备代际演进分析平台，面
 
 ### 阶段三：AI 设备顾问
 
-状态：MVP 闭环已完成，体验持续优化中
+状态：MVP 闭环与轻量候选链路已完成，输出质量持续优化中
 
 已完成：
 
@@ -106,12 +108,15 @@ DeviceScope / 数码观察站是一个电子设备代际演进分析平台，面
 - 多输入条件
 - 推荐理由、注意事项、适用/不适用人群、权衡点
 - fallback / API 回归测试
+- 最多 8 个候选、紧凑模型协议与服务端候选真值补齐
+- AI 完整输出与完整 rules fallback 分层
+- OpenAI / DeepSeek 15 秒超时；DeepSeek V4 非思考模式
 
 后续计划：
 
 - 补充更多真实使用场景样例
-- 用真实模型验证设备顾问输出质量
-- 对推荐阈值、tie-breaker 和理由生成做样例驱动微调
+- 扩充真实模型样例并持续记录 AI / retry / fallback 和延迟指标
+- 对 Prompt、紧凑协议和理由生成做样例驱动微调
 - 继续保持 API 协议兼容，避免无计划扩字段
 
 ### 阶段四：前端体验与可用性
@@ -169,6 +174,8 @@ DeviceScope / 数码观察站是一个电子设备代际演进分析平台，面
 - 中文官网没有明确写出的 30 个旧字段未继续继承，包括部分普通型号刷新率，以及“没有 HDMI / SDXC”等否定项；这些字段保持缺失，不做推断补值。
 - `macbook-pro-16-m2-max-2023`、`macbook-pro-14-m4-max-2024`、`macbook-pro-16-m4-2024` 的 Apple 中国官网新闻稿未明确列出独立配置首发价，字段保持为空并显示“待补充”。
 - `ipad-air-m4-2025` 为保持现有路由稳定暂时保留旧内部 ID，展示年份已按 Apple 中国官网修正为 2026。
-- 真实模型效果仍需持续复测，不能把 rules fallback 结果包装成最终 AI 能力。
+- 设备 ID、型号、系列、年份和价格已从本地候选真值补齐，但模型生成的自然语言理由仍主要依靠 Prompt 约束，尚未做逐句事实语义校验。
+- 预算排序使用 `currentPrice → usedPrice → launchPrice` 的已收录价格优先级；当前主要为中国大陆首发价，不代表实时市场价。
+- DeepSeek 的 6 个真实样例显著改善，但不能据此承诺长期稳定；15 秒超时和完整 rules fallback 继续保留。
 - 回归脚本使用 TypeScript transpile + 自定义加载器，模块解析变化时需要同步维护。
 - 本地 dev server 使用 Webpack + polling 规避 watcher 问题，但性能会比 Turbopack 慢。

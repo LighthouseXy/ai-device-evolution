@@ -36,25 +36,21 @@ function pickRecommendationTitles(output) {
   return output.recommendations.map((item) => item.model);
 }
 
-function getRecommendationSignals(output, index = 0) {
-  const recommendation = output.recommendations[index];
-  if (!recommendation) return [];
-
-  return [...recommendation.reasons, ...recommendation.tradeoffs, ...output.tradeoffs];
-}
-
-function assertPrimaryRecommendation(output, category, message) {
+function assertSimpleFallback(output, category, maxResults = 3) {
   assert.equal(output.source, "rules");
   assert.ok(output.recommendations.length > 0, "should return recommendations");
-  assert.equal(output.recommendations[0].category, category, message);
-}
-
-function assertHasAny(texts, patterns, message) {
-  const joined = texts.join(" | ");
+  assert.equal(output.recommendations.length, maxResults);
   assert.ok(
-    patterns.some((pattern) => pattern.test(joined)),
-    `${message}\nActual: ${joined}`,
+    output.recommendations.every((item) => item.category === category),
+    "fallback should stay inside the selected category",
   );
+  assert.equal(
+    new Set(output.recommendations.map((item) => item.deviceId)).size,
+    output.recommendations.length,
+    "fallback recommendations should not contain duplicate devices",
+  );
+  assert.match(output.disclaimer, /仅按设备类型、预算和发布时间排序/);
+  assert.match(output.tradeoffs.join(" "), /不分析性能、续航、影像等偏好/);
 }
 
 const scenarios = [
@@ -71,8 +67,8 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
-      assertPrimaryRecommendation(output, "phone", "budget_used_battery should stay focused on phones");
-      assertHasAny(getRecommendationSignals(output), [/续航/, /二手/, /翻新/, /成色/, /预算/], "budget/battery/refurbished signals should surface");
+      assertSimpleFallback(output, "phone");
+      assert.match(output.recommendations[0].reasons.join(" "), /预算/);
     },
   },
   {
@@ -87,8 +83,7 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
-      assertPrimaryRecommendation(output, "tablet", "tablet_study_portable should stay focused on tablets");
-      assertHasAny(getRecommendationSignals(output), [/Apple Pencil/, /便携/, /屏幕/, /手写/], "tablet study scenario should surface pencil or portability");
+      assertSimpleFallback(output, "tablet");
     },
   },
   {
@@ -103,8 +98,7 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
-      assertPrimaryRecommendation(output, "laptop", "laptop_productivity_usb_c should stay focused on laptops");
-      assertHasAny(getRecommendationSignals(output), [/USB-C/, /性能/, /多任务/, /接口/], "laptop productivity scenario should reflect performance or USB-C");
+      assertSimpleFallback(output, "laptop");
     },
   },
   {
@@ -119,8 +113,7 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
-      assertPrimaryRecommendation(output, "phone", "iphone_camera_battery should stay focused on phones");
-      assertHasAny(getRecommendationSignals(output), [/拍照/, /视频/, /续航/, /MagSafe/], "iphone camera/battery scenario should surface camera or battery signals");
+      assertSimpleFallback(output, "phone");
     },
   },
   {
@@ -137,9 +130,8 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
-      assertPrimaryRecommendation(output, "laptop", "conflict_budget_pressure should stay focused on laptops");
-      assert.ok(output.tradeoffs.length > 0, "should surface tradeoffs when constraints conflict");
-      assertHasAny([...output.tradeoffs, ...output.notSuitableFor, ...output.recommendations[0].tradeoffs], [/预算/, /性能/, /续航/, /全新/], "conflicting budget scenario should surface an explicit tradeoff");
+      assertSimpleFallback(output, "laptop");
+      assert.match(output.summary, /按预算接近度和发布时间排序/);
     },
   },
   {
@@ -156,9 +148,8 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
-      assertPrimaryRecommendation(output, "tablet", "tablet_pencil_reordered_budget should stay focused on tablets");
+      assertSimpleFallback(output, "tablet");
       assert.match(output.summary, /¥9,000 - ¥14,000/);
-      assertHasAny(getRecommendationSignals(output), [/Apple Pencil/, /全新/, /预算/], "tablet pencil scenario should surface pencil support or condition/budget tradeoffs");
     },
   },
   {
@@ -175,8 +166,7 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
-      assertPrimaryRecommendation(output, "phone", "phone_condition_battery_pressure should stay focused on phones");
-      assertHasAny(getRecommendationSignals(output), [/续航/, /预算/, /全新/, /成色/], "phone condition/battery scenario should surface endurance and condition pressure");
+      assertSimpleFallback(output, "phone");
     },
   },
   {
@@ -193,8 +183,7 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
-      assertPrimaryRecommendation(output, "laptop", "laptop_usb_c_budget_pressure should stay focused on laptops");
-      assertHasAny([...getRecommendationSignals(output), ...output.notSuitableFor], [/USB-C/, /性能/, /续航/, /预算/], "laptop usb-c scenario should surface interface or performance tradeoffs");
+      assertSimpleFallback(output, "laptop");
     },
   },
 ];
