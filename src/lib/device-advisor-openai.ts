@@ -1,8 +1,8 @@
 import {
   buildDeviceAdvisorPrompt,
-  deviceAdvisorOutputSchema,
+  deviceAdvisorModelOutputSchema,
   groundDeviceAdvisorOutput,
-  normalizeDeviceAdvisorOutput,
+  normalizeDeviceAdvisorModelOutput,
   runFallbackDeviceAdvisor,
   type DeviceAdvisorInput,
   type DeviceAdvisorOutput,
@@ -72,7 +72,7 @@ export async function fetchOpenAIAdvisor(input: DeviceAdvisorInput): Promise<Dev
           type: "json_schema",
           name: "device_advisor_output",
           strict: true,
-          schema: deviceAdvisorOutputSchema,
+          schema: deviceAdvisorModelOutputSchema,
         },
       },
     }),
@@ -101,7 +101,7 @@ export async function fetchOpenAIAdvisor(input: DeviceAdvisorInput): Promise<Dev
     throw new Error("OpenAI response text was not valid JSON");
   }
 
-  const normalized = normalizeDeviceAdvisorOutput(parsed);
+  const normalized = normalizeDeviceAdvisorModelOutput(parsed);
   const grounded = normalized ? groundDeviceAdvisorOutput(input, normalized) : null;
   if (!grounded) {
     throw new Error("OpenAI response JSON was missing required fields");

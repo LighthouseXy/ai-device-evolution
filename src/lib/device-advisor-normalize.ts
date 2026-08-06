@@ -1,13 +1,10 @@
 import {
-  DEFAULT_DEVICE_ADVISOR_DISCLAIMER,
-  MAX_ALTERNATIVES,
   MAX_RECOMMENDATIONS,
   type DeviceAdvisorBudget,
   type DeviceAdvisorCategory,
   type DeviceAdvisorInput,
-  type DeviceAdvisorOutput,
+  type DeviceAdvisorModelOutput,
   type DeviceAdvisorPerformancePreference,
-  type DeviceAdvisorRecommendation,
 } from "@/lib/device-advisor-types";
 import {
   clamp,
@@ -122,87 +119,25 @@ export function summarizeBudget(budget: DeviceAdvisorBudget | null): string {
   return "未提供预算";
 }
 
-function normalizeRecommendation(value: unknown): DeviceAdvisorRecommendation | null {
-  // 模型输出与脚本 fixtures 都走同一套运行时校验，避免 TypeScript 类型断言掩盖脏数据。
+export function normalizeDeviceAdvisorModelOutput(
+  value: unknown,
+): DeviceAdvisorModelOutput | null {
   if (!isRecord(value)) return null;
 
-  const deviceId = normalizeText(value.deviceId);
-  const model = normalizeText(value.model);
-  const series = normalizeText(value.series);
-  const category = value.category === "phone" || value.category === "tablet" || value.category === "laptop"
-    ? value.category
+  const answer = normalizeText(value.answer);
+  const recommendedDeviceIds = Array.isArray(value.recommendedDeviceIds)
+    ? value.recommendedDeviceIds
+        .map((item) => normalizeText(item))
+        .filter(Boolean)
+        .slice(0, MAX_RECOMMENDATIONS)
     : null;
-  const releaseYear = normalizeNumber(value.releaseYear);
-  const priceText = normalizeText(value.priceText, "价格待补充");
-  const matchScore = normalizeNumber(value.matchScore);
-  const reasons = Array.isArray(value.reasons)
-    ? value.reasons.map((item) => normalizeText(item)).filter(Boolean).slice(0, 3)
-    : [];
-  const tradeoffs = Array.isArray(value.tradeoffs)
-    ? value.tradeoffs.map((item) => normalizeText(item)).filter(Boolean).slice(0, 3)
-    : [];
-  const suitableFor = Array.isArray(value.suitableFor)
-    ? value.suitableFor.map((item) => normalizeText(item)).filter(Boolean).slice(0, 3)
-    : [];
-  const notSuitableFor = Array.isArray(value.notSuitableFor)
-    ? value.notSuitableFor.map((item) => normalizeText(item)).filter(Boolean).slice(0, 3)
-    : [];
-
-  if (!deviceId || !model || !series || !category || releaseYear === undefined || matchScore === undefined) {
-    return null;
-  }
-
-  return {
-    deviceId,
-    model,
-    series,
-    category,
-    releaseYear,
-    priceText,
-    matchScore: clamp(matchScore, 0, 1),
-    reasons: reasons.length ? reasons : ["当前条件下的优先推荐项"],
-    tradeoffs: tradeoffs.length ? tradeoffs : ["当前推荐暂无额外补充"],
-    suitableFor: suitableFor.length ? suitableFor : ["日常使用"],
-    notSuitableFor: notSuitableFor.length ? notSuitableFor : ["极端偏科需求"],
-  };
-}
-
-export function normalizeDeviceAdvisorOutput(value: unknown): DeviceAdvisorOutput | null {
-  if (!isRecord(value)) return null;
-
-  const summary = normalizeText(value.summary);
-  const recommendations = Array.isArray(value.recommendations)
-    ? value.recommendations.map((item) => normalizeRecommendation(item)).filter((item): item is DeviceAdvisorRecommendation => item !== null)
-    : [];
-  const tradeoffs = Array.isArray(value.tradeoffs)
-    ? value.tradeoffs.map((item) => normalizeText(item)).filter(Boolean).slice(0, 4)
-    : [];
-  const suitableFor = Array.isArray(value.suitableFor)
-    ? value.suitableFor.map((item) => normalizeText(item)).filter(Boolean).slice(0, 4)
-    : [];
-  const notSuitableFor = Array.isArray(value.notSuitableFor)
-    ? value.notSuitableFor.map((item) => normalizeText(item)).filter(Boolean).slice(0, 4)
-    : [];
-  const alternatives = Array.isArray(value.alternatives)
-    ? value.alternatives.map((item) => normalizeRecommendation(item)).filter((item): item is DeviceAdvisorRecommendation => item !== null)
-    : [];
   const confidence = normalizeNumber(value.confidence);
-  const source = value.source === "ai" || value.source === "rules" ? value.source : null;
-  const disclaimer = normalizeText(value.disclaimer, DEFAULT_DEVICE_ADVISOR_DISCLAIMER);
-
-  // 常规合法输出必须有主推荐和备选；预算无解空数组属于 DeepSeek route 的特殊分支，不在通用 schema 放开。
-  if (!summary || !recommendations.length || !alternatives.length || confidence === undefined || !source) return null;
+  if (!answer || !recommendedDeviceIds || confidence === undefined) return null;
 
   return {
-    summary,
-    recommendations: recommendations.slice(0, MAX_RECOMMENDATIONS),
-    tradeoffs: tradeoffs.length ? tradeoffs : ["当前条件下仍需结合预算和使用场景判断"],
-    suitableFor: suitableFor.length ? suitableFor : ["日常使用"],
-    notSuitableFor: notSuitableFor.length ? notSuitableFor : ["极端偏科需求"],
-    alternatives: alternatives.slice(0, MAX_ALTERNATIVES),
+    answer,
+    recommendedDeviceIds,
     confidence: clamp(confidence, 0, 1),
-    source,
-    disclaimer,
   };
 }
 
@@ -243,97 +178,18 @@ export function normalizeDeviceAdvisorInput(value: unknown): DeviceAdvisorInput 
   };
 }
 
-export const deviceAdvisorOutputSchema = {
+export const deviceAdvisorModelOutputSchema = {
   type: "object",
   additionalProperties: false,
-  required: [
-    "summary",
-    "recommendations",
-    "tradeoffs",
-    "suitableFor",
-    "notSuitableFor",
-    "alternatives",
-    "confidence",
-    "source",
-    "disclaimer",
-  ],
+  required: ["answer", "recommendedDeviceIds", "confidence"],
   properties: {
-    summary: { type: "string" },
-    recommendations: {
+    answer: { type: "string" },
+    recommendedDeviceIds: {
       type: "array",
-      minItems: 1,
+      minItems: 0,
       maxItems: MAX_RECOMMENDATIONS,
-      items: {
-        type: "object",
-        additionalProperties: false,
-        required: [
-          "deviceId",
-          "model",
-          "series",
-          "category",
-          "releaseYear",
-          "priceText",
-          "matchScore",
-          "reasons",
-          "tradeoffs",
-          "suitableFor",
-          "notSuitableFor",
-        ],
-        properties: {
-          deviceId: { type: "string" },
-          model: { type: "string" },
-          series: { type: "string" },
-          category: { type: "string", enum: ["phone", "tablet", "laptop"] },
-          releaseYear: { type: "number" },
-          priceText: { type: "string" },
-          matchScore: { type: "number", minimum: 0, maximum: 1 },
-          reasons: { type: "array", items: { type: "string" }, minItems: 1, maxItems: 3 },
-          tradeoffs: { type: "array", items: { type: "string" }, minItems: 1, maxItems: 3 },
-          suitableFor: { type: "array", items: { type: "string" }, minItems: 1, maxItems: 3 },
-          notSuitableFor: { type: "array", items: { type: "string" }, minItems: 1, maxItems: 3 },
-        },
-      },
-    },
-    tradeoffs: { type: "array", items: { type: "string" }, minItems: 1, maxItems: 4 },
-    suitableFor: { type: "array", items: { type: "string" }, minItems: 1, maxItems: 4 },
-    notSuitableFor: { type: "array", items: { type: "string" }, minItems: 1, maxItems: 4 },
-    alternatives: {
-      type: "array",
-      minItems: 1,
-      maxItems: MAX_ALTERNATIVES,
-      items: {
-        type: "object",
-        additionalProperties: false,
-        required: [
-          "deviceId",
-          "model",
-          "series",
-          "category",
-          "releaseYear",
-          "priceText",
-          "matchScore",
-          "reasons",
-          "tradeoffs",
-          "suitableFor",
-          "notSuitableFor",
-        ],
-        properties: {
-          deviceId: { type: "string" },
-          model: { type: "string" },
-          series: { type: "string" },
-          category: { type: "string", enum: ["phone", "tablet", "laptop"] },
-          releaseYear: { type: "number" },
-          priceText: { type: "string" },
-          matchScore: { type: "number", minimum: 0, maximum: 1 },
-          reasons: { type: "array", items: { type: "string" }, minItems: 1, maxItems: 3 },
-          tradeoffs: { type: "array", items: { type: "string" }, minItems: 1, maxItems: 3 },
-          suitableFor: { type: "array", items: { type: "string" }, minItems: 1, maxItems: 3 },
-          notSuitableFor: { type: "array", items: { type: "string" }, minItems: 1, maxItems: 3 },
-        },
-      },
+      items: { type: "string" },
     },
     confidence: { type: "number", minimum: 0, maximum: 1 },
-    source: { type: "string", enum: ["ai"] },
-    disclaimer: { type: "string" },
   },
 } as const;

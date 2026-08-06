@@ -317,8 +317,7 @@ function classifyResult(sample, status, data, latencyMs) {
   }
 
   const source = data.source === "ai" || data.source === "rules" ? data.source : "error";
-  const recommendations = Array.isArray(data.recommendations) ? data.recommendations : [];
-  const alternatives = Array.isArray(data.alternatives) ? data.alternatives : [];
+  const devices = Array.isArray(data.devices) ? data.devices : [];
   const disclaimer = typeof data.disclaimer === "string" ? data.disclaimer : "";
   const partialRepair = source === "rules" && disclaimer.includes("AI 输出不完整");
   const finalFallback = source === "rules" && !partialRepair;
@@ -333,10 +332,10 @@ function classifyResult(sample, status, data, latencyMs) {
     latencyMs,
     partialRepair,
     finalFallback,
-    noMatchEmptyAi: source === "ai" && recommendations.length === 0 && alternatives.length === 0,
-    recommendationCount: recommendations.length,
-    alternativeCount: alternatives.length,
-    summary: typeof data.summary === "string" ? data.summary : null,
+    noMatchEmptyAi: source === "ai" && devices.length === 0,
+    recommendationCount: devices.length,
+    alternativeCount: 0,
+    summary: typeof data.answer === "string" ? data.answer : null,
     stages: diagnostics,
     retryUsed: diagnostics.retryUsed,
     retryReason: diagnostics.retryReason,

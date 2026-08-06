@@ -30,30 +30,27 @@ export type DeviceAdvisorInput = {
   maxResults?: number;
 };
 
-export type DeviceAdvisorRecommendation = {
+export type DeviceAdvisorDevice = {
   deviceId: string;
   model: string;
   series: string;
   category: DeviceCategory;
   releaseYear: number;
   priceText: string;
-  matchScore: number;
-  reasons: string[];
-  tradeoffs: string[];
-  suitableFor: string[];
-  notSuitableFor: string[];
 };
 
 export type DeviceAdvisorOutput = {
-  summary: string;
-  recommendations: DeviceAdvisorRecommendation[];
-  tradeoffs: string[];
-  suitableFor: string[];
-  notSuitableFor: string[];
-  alternatives: DeviceAdvisorRecommendation[];
+  answer: string;
+  devices: DeviceAdvisorDevice[];
   confidence: number;
   source: "ai" | "rules";
   disclaimer: string;
+};
+
+export type DeviceAdvisorModelOutput = {
+  answer: string;
+  recommendedDeviceIds: string[];
+  confidence: number;
 };
 
 export type Candidate = {
@@ -69,9 +66,8 @@ export type Candidate = {
 
 export const DEFAULT_DEVICE_ADVISOR_DISCLAIMER = "基于已收录设备数据生成，仅供参考";
 export const RULES_DEVICE_ADVISOR_DISCLAIMER = "AI 不可用，当前仅按设备类型、预算和发布时间排序，仅供参考";
-export const MAX_SHORTLIST = 8;
+export const MAX_SHORTLIST = 12;
 export const MAX_RECOMMENDATIONS = 3;
-export const MAX_ALTERNATIVES = 3;
 
 export const CATEGORY_KEYWORDS: Record<Exclude<DeviceAdvisorCategory, "all">, string[]> = {
   phone: ["手机", "iphone", "拍照", "通勤", "随身", "移动"],

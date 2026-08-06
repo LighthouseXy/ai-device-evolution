@@ -8,16 +8,17 @@ import {
 } from "@/lib/devices-db";
 import {
   CATEGORY_KEYWORDS,
-  MAX_ALTERNATIVES,
+  DEFAULT_DEVICE_ADVISOR_DISCLAIMER,
   MAX_RECOMMENDATIONS,
   MAX_SHORTLIST,
   RULES_DEVICE_ADVISOR_DISCLAIMER,
   type Candidate,
   type DeviceAdvisorBudget,
   type DeviceAdvisorCategory,
+  type DeviceAdvisorDevice,
   type DeviceAdvisorInput,
+  type DeviceAdvisorModelOutput,
   type DeviceAdvisorOutput,
-  type DeviceAdvisorRecommendation,
 } from "@/lib/device-advisor-types";
 import {
   normalizeBatteryPriority,
@@ -215,33 +216,7 @@ export function buildDeviceAdvisorContext(input: DeviceAdvisorInput) {
   };
 }
 
-function fallbackScore(candidate: Candidate, budget: DeviceAdvisorBudget | null): number {
-  if (!budget) return 0.5;
-  if (candidate.referencePrice === null) return 0.3;
-  if (isWithinBudget(candidate.referencePrice, budget)) return 0.8;
-
-  const anchor = Math.max(
-    budget.max ?? budget.min ?? candidate.referencePrice,
-    candidate.referencePrice,
-    1,
-  );
-  return clamp(0.7 - budgetDistance(candidate.referencePrice, budget) / anchor, 0.2, 0.7);
-}
-
-function toFallbackRecommendation(
-  candidate: Candidate,
-  budget: DeviceAdvisorBudget | null,
-  useCases: string[],
-): DeviceAdvisorRecommendation {
-  const reasons =
-    candidate.referencePrice === null
-      ? ["该机型属于当前设备类型候选，但价格信息尚不完整"]
-      : budget && isWithinBudget(candidate.referencePrice, budget)
-        ? [`${candidate.priceText} 在预算范围内`]
-        : budget
-          ? [`${candidate.priceText} 是当前候选中更接近预算的方案`]
-          : [`${candidate.releaseYear} 年发布，按发布时间优先展示`];
-
+function toAdvisorDevice(candidate: Candidate): DeviceAdvisorDevice {
   return {
     deviceId: candidate.deviceId,
     model: candidate.model,
@@ -249,37 +224,28 @@ function toFallbackRecommendation(
     category: candidate.category,
     releaseYear: candidate.releaseYear,
     priceText: candidate.priceText,
-    matchScore: Math.round(fallbackScore(candidate, budget) * 100) / 100,
-    reasons,
-    tradeoffs: ["当前为本地兜底排序，尚未进行模型需求分析"],
-    suitableFor: useCases.length ? useCases.slice(0, 3) : ["快速查看预算附近机型"],
-    notSuitableFor: ["需要精细比较性能、续航或影像取舍"],
   };
 }
 
 export function runFallbackDeviceAdvisor(input: DeviceAdvisorInput): DeviceAdvisorOutput {
   const context = buildDeviceAdvisorContext(input);
   const budget = normalizeBudget(input.budget) ?? null;
-  const useCases = normalizeUseCases(input.useCases);
   const maxResults = context.userProfile.maxResults;
-  const recommendations = context.candidateShortlist
+  const devices = context.candidateShortlist
     .slice(0, maxResults)
-    .map((candidate) => toFallbackRecommendation(candidate, budget, useCases));
-  const alternatives = context.candidateShortlist
-    .slice(maxResults, maxResults + MAX_ALTERNATIVES)
-    .map((candidate) => toFallbackRecommendation(candidate, budget, useCases));
+    .map(toAdvisorDevice);
   const categoryLabel =
     context.userProfile.category === "all"
       ? "全品类"
       : categoryLabels[context.userProfile.category];
+  const deviceNames = devices.map((device) => device.model).join("、");
+  const candidateText = deviceNames
+    ? `先列出：${deviceNames}。`
+    : "暂时没有可展示的候选设备。";
 
   return {
-    summary: `${categoryLabel}${budget ? ` · ${summarizeBudget(budget)}` : ""} 下，AI 暂不可用，以下结果按预算接近度和发布时间排序。`,
-    recommendations,
-    tradeoffs: ["本地兜底不分析性能、续航、影像等偏好，只保证候选和价格来自已收录数据"],
-    suitableFor: useCases.length ? useCases.slice(0, 4) : ["快速查看候选设备"],
-    notSuitableFor: ["需要完整场景分析和精细取舍"],
-    alternatives,
+    answer: `AI 暂不可用。${categoryLabel}${budget ? `、预算 ${summarizeBudget(budget)}` : ""} 条件下，按预算接近度和发布时间${candidateText}这只是本地排序，不分析性能、续航、影像等使用偏好。`,
+    devices,
     confidence: budget ? 0.45 : 0.35,
     source: "rules",
     disclaimer: RULES_DEVICE_ADVISOR_DISCLAIMER,
@@ -288,61 +254,53 @@ export function runFallbackDeviceAdvisor(input: DeviceAdvisorInput): DeviceAdvis
 
 export function groundDeviceAdvisorOutput(
   input: DeviceAdvisorInput,
-  output: DeviceAdvisorOutput,
+  output: DeviceAdvisorModelOutput,
 ): DeviceAdvisorOutput | null {
-  if (!output.recommendations.length && !output.alternatives.length) return output;
-
+  const context = buildDeviceAdvisorContext(input);
   const candidates = new Map(
-    buildDeviceAdvisorContext(input).candidateShortlist.map((candidate) => [
+    context.candidateShortlist.map((candidate) => [
       candidate.deviceId,
       candidate,
     ]),
   );
+  if (output.recommendedDeviceIds.some((deviceId) => !candidates.has(deviceId))) {
+    return null;
+  }
   const used = new Set<string>();
-  const ground = (item: DeviceAdvisorRecommendation) => {
-    const candidate = candidates.get(item.deviceId);
-    if (!candidate || used.has(item.deviceId)) return null;
-    used.add(item.deviceId);
-    return {
-      ...item,
-      model: candidate.model,
-      series: candidate.series,
-      category: candidate.category,
-      releaseYear: candidate.releaseYear,
-      priceText: candidate.priceText,
-    };
-  };
-
-  const recommendations = output.recommendations
-    .map(ground)
-    .filter((item): item is DeviceAdvisorRecommendation => item !== null);
-  const alternatives = output.alternatives
-    .map(ground)
-    .filter((item): item is DeviceAdvisorRecommendation => item !== null);
-  if (!recommendations.length || !alternatives.length) return null;
+  const devices = output.recommendedDeviceIds
+    .map((deviceId) => {
+      const candidate = candidates.get(deviceId);
+      if (!candidate || used.has(deviceId)) return null;
+      used.add(deviceId);
+      return toAdvisorDevice(candidate);
+    })
+    .filter((device): device is DeviceAdvisorDevice => device !== null)
+    .slice(0, context.userProfile.maxResults);
+  if (output.recommendedDeviceIds.length && !devices.length) return null;
 
   return {
-    ...output,
-    recommendations,
-    alternatives,
+    answer: output.answer,
+    devices,
+    confidence: output.confidence,
+    source: "ai",
+    disclaimer: DEFAULT_DEVICE_ADVISOR_DISCLAIMER,
   };
 }
 
 export function buildDeviceAdvisorPrompt(input: DeviceAdvisorInput): string {
   return [
     "你是 DeviceScope 的 Apple 设备顾问。",
-    "本地仅按设备类型、预算接近度和发布时间整理候选；你负责结合用户场景分析并排序。",
+    "本地仅按设备类型、预算接近度和发布时间整理候选；你负责结合用户场景给出自然、完整的中文购买建议。",
     "只能推荐 candidateShortlist 中的设备，不允许编造机型、价格或 facts 中没有的规格。",
-    "每个事实性理由必须能在 candidateShortlist 对应设备的字段中找到依据；信息不足时明确说明。",
-    "recommendations 按推荐优先级排列，第一项必须是主推荐；matchScore 为 0 到 1。",
-    "只返回纯 JSON，对象字段必须且只能包含：summary、recommendations、tradeoffs、suitableFor、notSuitableFor、alternatives、confidence、source、disclaimer。",
-    'source 固定为 "ai"，disclaimer 固定为 "基于已收录设备数据生成，仅供参考"。',
-    "recommendations 和 alternatives 每项必须包含 deviceId、model、series、category、releaseYear、priceText、matchScore、reasons、tradeoffs、suitableFor、notSuitableFor。",
-    "只有在用户提供预算上限、所有候选价格都明确且都超过预算时，才允许 recommendations 和 alternatives 同时为空。",
+    "answer 用 150 到 300 个汉字说明推荐哪几款、为什么以及主要取舍，不使用 Markdown、列表或虚构的精确评分。",
+    "referencePrice 只是 priceText 标明的当前价、二手价或首发价；不得把首发价描述成当前市场价。",
+    "recommendedDeviceIds 按推荐顺序给出 1 到 3 个 deviceId，并且与 answer 中提到的设备保持一致；确实没有合适设备时可返回空数组并在 answer 中解释。",
+    "confidence 为 0 到 1，只供系统内部评测。",
+    "只返回纯 JSON，对象字段必须且只能包含 answer、recommendedDeviceIds、confidence。",
     "",
     "输入数据：",
     JSON.stringify(buildDeviceAdvisorContext(input)),
     "",
-    "请直接返回 JSON。",
+    "请直接返回 JSON，例如：{\"answer\":\"...\",\"recommendedDeviceIds\":[\"device-id\"],\"confidence\":0.8}",
   ].join("\n");
 }

@@ -92,8 +92,7 @@ export function RunCard({ run }: { run: DeviceAdvisorEvalRun }) {
           <div className="flex flex-wrap gap-2 text-xs text-[var(--text-secondary)]">
             <span className="rounded-full bg-white px-3 py-1">latency {formatMs(run.latencyMs)}</span>
             <span className="rounded-full bg-white px-3 py-1">retry {run.retryUsed ? "yes" : "no"}</span>
-            <span className="rounded-full bg-white px-3 py-1">rec {run.recommendationCount ?? "—"}</span>
-            <span className="rounded-full bg-white px-3 py-1">alt {run.alternativeCount ?? "—"}</span>
+            <span className="rounded-full bg-white px-3 py-1">devices {run.recommendationCount ?? "—"}</span>
           </div>
         </div>
         {run.summary ? <p className="mt-3 text-sm leading-6 text-[var(--text-secondary)]">{run.summary}</p> : null}

@@ -4,16 +4,17 @@
 export type {
   DeviceAdvisorBudget,
   DeviceAdvisorCategory,
+  DeviceAdvisorDevice,
   DeviceAdvisorInput,
+  DeviceAdvisorModelOutput,
   DeviceAdvisorOutput,
   DeviceAdvisorPerformancePreference,
-  DeviceAdvisorRecommendation,
 } from "@/lib/device-advisor-types";
 
 export {
-  deviceAdvisorOutputSchema,
+  deviceAdvisorModelOutputSchema,
   normalizeDeviceAdvisorInput,
-  normalizeDeviceAdvisorOutput,
+  normalizeDeviceAdvisorModelOutput,
 } from "@/lib/device-advisor-normalize";
 
 export {

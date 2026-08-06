@@ -12,68 +12,48 @@ function makeJsonRequest(body, { raw = false } = {}) {
     method: "POST",
     headers: { "Content-Type": "application/json" },
   };
-
-  if (raw) {
-    return new Request(routeUrl, { ...init, body });
-  }
-
-  return new Request(routeUrl, { ...init, body: JSON.stringify(body) });
+  return new Request(routeUrl, {
+    ...init,
+    body: raw ? body : JSON.stringify(body),
+  });
 }
 
-async function readJsonResponse(response) {
-  const text = await response.text();
-  return text ? JSON.parse(text) : null;
-}
-
-async function callRoute(body, options = {}) {
+function callRoute(body, options = {}) {
   return POST(makeJsonRequest(body, options));
 }
 
 function assertErrorResponse(response, expectedStatus, fragment) {
   assert.equal(response.status, expectedStatus);
-  return readJsonResponse(response).then((data) => {
+  return response.json().then((data) => {
     assert.ok(data && typeof data.error === "string", "should return an error payload");
     assert.match(data.error, fragment);
   });
 }
 
-function withDisabledProviderEnv(run) {
+function withEnv(values, run) {
   const snapshot = new Map(envKeys.map((key) => [key, process.env[key]]));
-
-  for (const key of envKeys) {
-    delete process.env[key];
-  }
+  for (const key of envKeys) delete process.env[key];
+  Object.assign(process.env, values);
 
   return Promise.resolve()
     .then(run)
     .finally(() => {
       for (const [key, value] of snapshot) {
-        if (value === undefined) {
-          delete process.env[key];
-        } else {
-          process.env[key] = value;
-        }
+        if (value === undefined) delete process.env[key];
+        else process.env[key] = value;
       }
     });
 }
 
-function withDeepSeekProviderEnv(run) {
-  const snapshot = new Map(envKeys.map((key) => [key, process.env[key]]));
-  process.env.AI_PROVIDER = "deepseek";
-  process.env.DEEPSEEK_API_KEY = "dummy-deepseek-key";
-  delete process.env.OPENAI_API_KEY;
+function withDisabledProviderEnv(run) {
+  return withEnv({}, run);
+}
 
-  return Promise.resolve()
-    .then(run)
-    .finally(() => {
-      for (const [key, value] of snapshot) {
-        if (value === undefined) {
-          delete process.env[key];
-        } else {
-          process.env[key] = value;
-        }
-      }
-    });
+function withDeepSeekProviderEnv(run) {
+  return withEnv(
+    { AI_PROVIDER: "deepseek", DEEPSEEK_API_KEY: "dummy-deepseek-key" },
+    run,
+  );
 }
 
 function withMockedFetch(mockFetch, run) {
@@ -92,409 +72,178 @@ function makeJsonResponse(body, status = 200) {
   });
 }
 
+function makeDeepSeekResponse(content, finishReason = "stop") {
+  return makeJsonResponse({
+    choices: [{ finish_reason: finishReason, message: { content } }],
+  });
+}
+
+const basicInput = {
+  category: "phone",
+  useCases: ["通勤"],
+  replacementIntent: "replace",
+  maxResults: 3,
+};
+
 const scenarios = [
   {
     name: "empty_body",
     run: () => callRoute(undefined, { raw: true }),
-    expect(response) {
-      return assertErrorResponse(response, 400, /合法 JSON/);
-    },
+    expect: (response) => assertErrorResponse(response, 400, /合法 JSON/),
   },
   {
     name: "empty_string_body",
     run: () => callRoute("", { raw: true }),
-    expect(response) {
-      return assertErrorResponse(response, 400, /合法 JSON/);
-    },
+    expect: (response) => assertErrorResponse(response, 400, /合法 JSON/),
   },
   {
     name: "invalid_json",
-    run: () => {
-      const request = new Request(routeUrl, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: "{",
-      });
-      return POST(request);
-    },
-    expect(response) {
-      return assertErrorResponse(response, 400, /合法 JSON/);
-    },
+    run: () => callRoute("{", { raw: true }),
+    expect: (response) => assertErrorResponse(response, 400, /合法 JSON/),
   },
   {
     name: "unknown_fields_only",
     run: () => callRoute({ foo: "bar", baz: 1 }),
-    expect(response) {
-      return assertErrorResponse(response, 400, /缺少必要字段/);
-    },
+    expect: (response) => assertErrorResponse(response, 400, /缺少必要字段/),
   },
   {
     name: "invalid_field_types",
     run: () => callRoute({ category: 123, useCases: 1, performancePreference: true }),
-    expect(response) {
-      return assertErrorResponse(response, 400, /字段格式不正确/);
-    },
+    expect: (response) => assertErrorResponse(response, 400, /字段格式不正确/),
   },
-  {
-    name: "max_results_zero",
-    run: () => callRoute({
-      category: "phone",
-      useCases: ["通勤"],
-      replacementIntent: "replace",
-      maxResults: 0,
-    }),
-    expect(response) {
-      return response.json().then((data) => {
-        assert.equal(response.status, 200);
-        assert.ok(Array.isArray(data.recommendations), "should return recommendations");
-        assert.equal(data.recommendations.length, 1);
-      });
+  ...[
+    ["max_results_zero", 0, 1],
+    ["max_results_negative", -1, 1],
+    ["max_results_large", 999, 3],
+  ].map(([name, maxResults, expectedCount]) => ({
+    name,
+    run: () => callRoute({ ...basicInput, maxResults }),
+    async expect(response) {
+      const data = await response.json();
+      assert.equal(response.status, 200);
+      assert.ok(Array.isArray(data.devices), "should return device links");
+      assert.equal(data.devices.length, expectedCount);
+      assert.equal(typeof data.answer, "string");
     },
-  },
-  {
-    name: "max_results_negative",
-    run: () => callRoute({
-      category: "phone",
-      useCases: ["通勤"],
-      replacementIntent: "replace",
-      maxResults: -1,
-    }),
-    expect(response) {
-      return response.json().then((data) => {
-        assert.equal(response.status, 200);
-        assert.ok(Array.isArray(data.recommendations), "should return recommendations");
-        assert.equal(data.recommendations.length, 1);
-      });
-    },
-  },
-  {
-    name: "max_results_large",
-    run: () => callRoute({
-      category: "phone",
-      useCases: ["通勤"],
-      replacementIntent: "replace",
-      maxResults: 999,
-    }),
-    expect(response) {
-      return response.json().then((data) => {
-        assert.equal(response.status, 200);
-        assert.ok(Array.isArray(data.recommendations), "should return recommendations");
-        assert.equal(data.recommendations.length, 3);
-      });
-    },
-  },
+  })),
   {
     name: "deepseek_retry_length_then_valid",
     run: () =>
       withDeepSeekProviderEnv(() =>
-        withMockedFetch(async (inputUrl, init) => {
+        withMockedFetch(async (_url, init) => {
           const requestBody = JSON.parse(init.body);
           assert.deepEqual(requestBody.thinking, { type: "disabled" });
           const messages = Array.isArray(requestBody.messages) ? requestBody.messages : [];
-          assert.ok(
-            messages.some((message) => {
-              return typeof message.content === "string" && message.content.includes("只返回紧凑 JSON");
-            }),
-            "DeepSeek prompt should request the compact response contract",
+          const userMessage = messages.find((message) => message.role === "user")?.content ?? "";
+          assert.match(userMessage, /answer、recommendedDeviceIds、confidence/);
+          assert.match(userMessage, /不得把首发价描述成当前市场价/);
+          const retry = messages.some((message) =>
+            typeof message.content === "string" &&
+            message.content.includes("This is a retry after an invalid or truncated answer."),
           );
-          const isRetry = messages.some((message) => {
-            return typeof message.content === "string" && message.content.includes("This is a retry after an invalid or truncated answer.");
-          });
 
-          if (!isRetry) {
+          if (!retry) {
             return makeJsonResponse({
-              choices: [
-                {
-                  finish_reason: "length",
-                  message: {
-                    content: "",
-                    reasoning_content: "truncated",
-                  },
-                },
-              ],
+              choices: [{
+                finish_reason: "length",
+                message: { content: "", reasoning_content: "truncated" },
+              }],
             });
           }
 
-          return makeJsonResponse({
-            choices: [
-              {
-                finish_reason: "stop",
-                message: {
-                  content: JSON.stringify({
-                    summary: "修复后返回的推荐结果。",
-                    recommendations: [
-                      {
-                        deviceId: "iphone-17",
-                        model: "伪造型号",
-                        series: "iPhone",
-                        category: "phone",
-                        releaseYear: 2023,
-                        priceText: "伪造价格 ¥1",
-                        matchScore: 0.7,
-                        reasons: ["电池表现稳定"],
-                        tradeoffs: ["价格高于预算"],
-                        suitableFor: ["通勤"],
-                        notSuitableFor: ["严格预算"],
-                      },
-                    ],
-                    tradeoffs: ["价格高于预算"],
-                    suitableFor: ["通勤"],
-                    notSuitableFor: ["严格预算"],
-                    alternatives: [
-                      {
-                        deviceId: "iphone-17-pro",
-                        model: "伪造 Pro 型号",
-                        series: "iPhone",
-                        category: "phone",
-                        releaseYear: 2023,
-                        priceText: "伪造价格 ¥2",
-                        matchScore: 0.6,
-                        reasons: ["性能更强"],
-                        tradeoffs: ["更贵"],
-                        suitableFor: ["性能需求"],
-                        notSuitableFor: ["低预算"],
-                      },
-                    ],
-                    confidence: 0.66,
-                    source: "ai",
-                    disclaimer: "基于已收录设备数据生成，仅供参考",
-                  }),
-                },
-              },
-            ],
-          });
-        }, () => callRoute({
-          category: "phone",
-          useCases: ["通勤"],
-          replacementIntent: "replace",
-          maxResults: 3,
-        })).then(async (response) => {
-          assert.equal(response.status, 200);
+          return makeDeepSeekResponse(JSON.stringify({
+            answer: "综合通勤需求，优先考虑 iPhone 17；如果更看重性能，可以查看 iPhone 17 Pro。",
+            recommendedDeviceIds: ["iphone-17", "iphone-17-pro"],
+            confidence: 0.66,
+          }));
+        }, () => callRoute(basicInput)).then(async (response) => {
           const data = await response.json();
+          assert.equal(response.status, 200);
           assert.equal(data.source, "ai");
-          assert.equal(data.recommendations[0].model, "iPhone 17");
-          assert.doesNotMatch(data.recommendations[0].priceText, /伪造/);
-          assert.equal(data.alternatives[0].model, "iPhone 17 Pro");
+          assert.equal(data.devices[0].model, "iPhone 17");
+          assert.equal(data.devices[1].model, "iPhone 17 Pro");
+          assert.doesNotMatch(data.devices[0].priceText, /伪造/);
         })),
   },
   {
-    name: "deepseek_type_drift_repair",
+    name: "deepseek_deduplicates_ids",
     run: () =>
       withDeepSeekProviderEnv(() =>
-        withMockedFetch(async () =>
-          makeJsonResponse({
-            choices: [
-              {
-                finish_reason: "stop",
-                message: {
-                  content: JSON.stringify({
-                    summary: "类型漂移但可修复。",
-                    recommendations: [
-                      {
-                        deviceId: "iphone-17",
-                        model: "iPhone 17",
-                        series: "iPhone",
-                        category: "phone",
-                        releaseYear: 2023,
-                        priceText: "首发价 ¥5,999",
-                        matchScore: 0.7,
-                        reasons: "续航稳定",
-                        tradeoffs: "价格偏高",
-                        suitableFor: "通勤",
-                        notSuitableFor: "严格预算",
-                      },
-                      {
-                        deviceId: "unknown-iphone",
-                        model: "不存在的 iPhone",
-                        series: "iPhone",
-                        category: "phone",
-                        releaseYear: 2099,
-                        priceText: "首发价 ¥1",
-                        matchScore: 1,
-                        reasons: "虚构候选",
-                        tradeoffs: "无",
-                        suitableFor: "所有人",
-                        notSuitableFor: "无人",
-                      },
-                    ],
-                    tradeoffs: "价格偏高",
-                    suitableFor: "通勤",
-                    notSuitableFor: "严格预算",
-                    alternatives: {
-                      deviceId: "iphone-17-pro",
-                      model: "iPhone 17 Pro",
-                      series: "iPhone",
-                      category: "phone",
-                      releaseYear: 2023,
-                      priceText: "首发价 ¥7,999",
-                      matchScore: 0.6,
-                      reasons: "性能更强",
-                      tradeoffs: "更贵",
-                      suitableFor: "性能需求",
-                      notSuitableFor: "低预算",
-                    },
-                    confidence: "0.78",
-                    source: "ai",
-                    disclaimer: "",
-                  }),
-                },
-              },
-            ],
-          }), () => callRoute({
-            category: "phone",
-            useCases: ["通勤"],
-            replacementIntent: "replace",
-            maxResults: 3,
-          })).then(async (response) => {
-            assert.equal(response.status, 200);
-            const data = await response.json();
-            assert.equal(data.source, "ai");
-            assert.equal(data.recommendations[0].tradeoffs[0], "价格偏高");
-            assert.ok(
-              data.recommendations.every((item) => item.deviceId !== "unknown-iphone"),
-              "unknown model output should be removed",
-            );
-            assert.equal(data.alternatives[0].model, "iPhone 17 Pro");
-            assert.equal(data.confidence, 0.78);
-          })),
+        withMockedFetch(async () => makeDeepSeekResponse(JSON.stringify({
+          answer: "推荐 iPhone 17，并把 iPhone 17 Pro 作为性能更强的选择。",
+          recommendedDeviceIds: ["iphone-17", "iphone-17", "iphone-17-pro"],
+          confidence: "0.78",
+        })), () => callRoute(basicInput)).then(async (response) => {
+          const data = await response.json();
+          assert.equal(response.status, 200);
+          assert.equal(data.source, "ai");
+          assert.deepEqual(data.devices.map((item) => item.deviceId), [
+            "iphone-17",
+            "iphone-17-pro",
+          ]);
+          assert.equal(data.confidence, 0.78);
+        })),
   },
   {
-    name: "deepseek_invalid_partial_falls_back_to_rules",
+    name: "deepseek_invalid_output_falls_back_to_rules",
     run: () =>
       withDeepSeekProviderEnv(() =>
-        withMockedFetch(async () =>
-          makeJsonResponse({
-            choices: [
-              {
-                finish_reason: "stop",
-                message: {
-                  content: JSON.stringify({
-                    summary: "预算偏紧，模型未能完整给出可用候选。",
-                    recommendations: [],
-                    tradeoffs: "预算严格，现有候选都偏贵",
-                    suitableFor: "了解苹果设备价格带的用户",
-                    alternatives: [],
-                    confidence: "low",
-                    source: "ai",
-                    disclaimer: "模型原始输出",
-                  }),
-                },
-              },
-            ],
-          }), () => callRoute({
-            category: "phone",
-            useCases: ["通勤"],
-            replacementIntent: "replace",
-            maxResults: 3,
-          })).then(async (response) => {
-            assert.equal(response.status, 200);
-            const data = await response.json();
-            assert.equal(data.source, "rules");
-            assert.match(data.disclaimer, /AI 不可用/);
-            assert.ok(Array.isArray(data.recommendations));
-            assert.ok(data.recommendations.length > 0);
-          })),
+        withMockedFetch(async () => makeDeepSeekResponse(JSON.stringify({
+          answer: "缺少设备 ID 字段。",
+          confidence: 0.4,
+        })), () => callRoute(basicInput)).then(async (response) => {
+          const data = await response.json();
+          assert.equal(response.status, 200);
+          assert.equal(data.source, "rules");
+          assert.match(data.disclaimer, /AI 不可用/);
+          assert.ok(data.devices.length > 0);
+        })),
   },
   {
-    name: "deepseek_budget_no_match_accepts_ai_empty_lists",
+    name: "deepseek_accepts_honest_no_match",
     run: () =>
       withDeepSeekProviderEnv(() =>
-        withMockedFetch(async (inputUrl, init) => {
-          const requestBody = JSON.parse(init.body);
-          const messages = Array.isArray(requestBody.messages) ? requestBody.messages : [];
-          const userMessage = messages.find((message) => message.role === "user");
-          assert.match(userMessage?.content ?? "", /只有在用户提供预算上限/);
-          assert.match(userMessage?.content ?? "", /referencePrice/);
-
-          return makeJsonResponse({
-            choices: [
-              {
-                finish_reason: "stop",
-                message: {
-                  content: JSON.stringify({
-                    summary: "当前候选都高于预算，暂时没有可接受的苹果手机方案。",
-                    recommendations: [],
-                    tradeoffs: ["若坚持苹果且买新机，需要上调预算"],
-                    suitableFor: ["先了解苹果手机当前价格带的用户"],
-                    notSuitableFor: ["预算必须严格控制在 3000 元以内的用户"],
-                    alternatives: [],
-                    confidence: 0.72,
-                    source: "ai",
-                    disclaimer: "基于已收录设备数据生成，仅供参考",
-                  }),
-                },
-              },
-            ],
-          });
-        }, () => callRoute({
+        withMockedFetch(async () => makeDeepSeekResponse(JSON.stringify({
+          answer: "当前候选都超过 3000 元预算，因此暂不推荐具体设备。",
+          recommendedDeviceIds: [],
+          confidence: 0.72,
+        })), () => callRoute({
+          ...basicInput,
           budget: { max: 3000, currency: "CNY" },
-          category: "phone",
-          performancePreference: "battery",
-          useCases: ["通勤", "长时间使用"],
-          interfaceNeed: "usb_c",
-          replacementIntent: "replace",
-          maxResults: 3,
         })).then(async (response) => {
-          assert.equal(response.status, 200);
           const data = await response.json();
+          assert.equal(response.status, 200);
           assert.equal(data.source, "ai");
-          assert.equal(data.recommendations.length, 0);
-          assert.equal(data.alternatives.length, 0);
-          assert.match(data.summary, /高于预算|没有可接受/);
+          assert.deepEqual(data.devices, []);
+          assert.match(data.answer, /暂不推荐/);
         })),
   },
   {
-    name: "deepseek_no_match_rejects_unknown_prices",
+    name: "deepseek_unknown_only_falls_back_to_rules",
     run: () =>
       withDeepSeekProviderEnv(() =>
-        withMockedFetch(async () =>
-          makeJsonResponse({
-            choices: [
-              {
-                finish_reason: "stop",
-                message: {
-                  content: JSON.stringify({
-                    summary: "所有候选价格待补充，无法确认是否符合预算，因此不推荐任何设备。",
-                    recommendations: [],
-                    tradeoffs: ["价格信息缺失，无法判断预算内外"],
-                    suitableFor: ["愿意等待价格明确的用户"],
-                    notSuitableFor: ["需要立即得到明确推荐的用户"],
-                    alternatives: [],
-                    confidence: 0.25,
-                    source: "ai",
-                    disclaimer: "基于已收录设备数据生成，仅供参考",
-                  }),
-                },
-              },
-            ],
-          }), () => callRoute({
-            budget: { max: 5000, currency: "CNY" },
-            category: "tablet",
-            performancePreference: "screen",
-            useCases: ["阅读", "笔记", "追剧"],
-            interfaceNeed: "pencil",
-            replacementIntent: "first_device",
-            maxResults: 3,
-          })).then(async (response) => {
-            assert.equal(response.status, 200);
-            const data = await response.json();
-            assert.equal(data.source, "rules");
-            assert.match(data.disclaimer, /AI 不可用/);
-            assert.ok(data.recommendations.length > 0);
-          })),
+        withMockedFetch(async () => makeDeepSeekResponse(JSON.stringify({
+          answer: "推荐一个不存在的设备。",
+          recommendedDeviceIds: ["unknown-device"],
+          confidence: 0.9,
+        })), () => callRoute(basicInput)).then(async (response) => {
+          const data = await response.json();
+          assert.equal(response.status, 200);
+          assert.equal(data.source, "rules");
+          assert.ok(data.devices.length > 0);
+        })),
   },
 ];
 
 await withDisabledProviderEnv(async () => {
-  console.log(`Running ${scenarios.length} device advisor API regression scenarios: ${scenarios.map((scenario) => scenario.name).join(", ")}`);
+  const names = scenarios.map((scenario) => scenario.name);
+  console.log(`Running ${scenarios.length} device advisor API regression scenarios: ${names.join(", ")}`);
 
   for (const scenario of scenarios) {
     const response = await scenario.run();
-    if (typeof scenario.expect === "function") {
-      await scenario.expect(response);
-    }
+    if (typeof scenario.expect === "function") await scenario.expect(response);
     console.log(`✓ ${scenario.name}`);
   }
 
-  console.log(`Passed ${scenarios.length} device advisor API regression scenarios: ${scenarios.map((scenario) => scenario.name).join(", ")}`);
+  console.log(`Passed ${scenarios.length} device advisor API regression scenarios: ${names.join(", ")}`);
 });

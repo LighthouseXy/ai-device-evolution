@@ -33,24 +33,24 @@ if (cliArgs.has("--help") || cliArgs.has("-h")) {
 const { runFallbackDeviceAdvisor } = loadTsModule("./src/lib/device-advisor.ts");
 
 function pickRecommendationTitles(output) {
-  return output.recommendations.map((item) => item.model);
+  return output.devices.map((item) => item.model);
 }
 
 function assertSimpleFallback(output, category, maxResults = 3) {
   assert.equal(output.source, "rules");
-  assert.ok(output.recommendations.length > 0, "should return recommendations");
-  assert.equal(output.recommendations.length, maxResults);
+  assert.ok(output.devices.length > 0, "should return device links");
+  assert.equal(output.devices.length, maxResults);
   assert.ok(
-    output.recommendations.every((item) => item.category === category),
+    output.devices.every((item) => item.category === category),
     "fallback should stay inside the selected category",
   );
   assert.equal(
-    new Set(output.recommendations.map((item) => item.deviceId)).size,
-    output.recommendations.length,
-    "fallback recommendations should not contain duplicate devices",
+    new Set(output.devices.map((item) => item.deviceId)).size,
+    output.devices.length,
+    "fallback device links should not contain duplicates",
   );
   assert.match(output.disclaimer, /仅按设备类型、预算和发布时间排序/);
-  assert.match(output.tradeoffs.join(" "), /不分析性能、续航、影像等偏好/);
+  assert.match(output.answer, /不分析性能、续航、影像等使用偏好/);
 }
 
 const scenarios = [
@@ -68,7 +68,7 @@ const scenarios = [
     },
     expect(output) {
       assertSimpleFallback(output, "phone");
-      assert.match(output.recommendations[0].reasons.join(" "), /预算/);
+      assert.match(output.answer, /预算/);
     },
   },
   {
@@ -131,7 +131,7 @@ const scenarios = [
     },
     expect(output) {
       assertSimpleFallback(output, "laptop");
-      assert.match(output.summary, /按预算接近度和发布时间排序/);
+      assert.match(output.answer, /按预算接近度和发布时间/);
     },
   },
   {
@@ -149,7 +149,7 @@ const scenarios = [
     },
     expect(output) {
       assertSimpleFallback(output, "tablet");
-      assert.match(output.summary, /¥9,000 - ¥14,000/);
+      assert.match(output.answer, /¥9,000 - ¥14,000/);
     },
   },
   {

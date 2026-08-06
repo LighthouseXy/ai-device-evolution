@@ -132,7 +132,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
     : error
       ? `设备顾问请求失败：${error}`
       : result
-        ? `设备顾问已生成推荐，主推荐为 ${result.recommendations[0]?.model ?? "未知"}`
+        ? `设备顾问已生成推荐${result.devices[0] ? `，首选为 ${result.devices[0].model}` : ""}`
         : "设备顾问尚未生成推荐";
   const handleUseCaseSuggestion = (suggestion: string) => {
     clearError();
