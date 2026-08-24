@@ -170,7 +170,7 @@ const scenarios = [
       assertSimpleFallback(output, "phone");
       assert.ok(!output.devices.some((device) => device.deviceId === "iphone-se-1-2016"));
       assert.ok(output.devices.every((device) => /当前价/.test(device.priceText)));
-      assert.ok(output.devices.every((device) => /识货，2026-08-24/.test(device.priceText)));
+      assert.ok(output.devices.every((device) => /（(?:识货|Apple 中国大陆在线商店)，2026-08-24）/.test(device.priceText)));
     },
   },
   {
