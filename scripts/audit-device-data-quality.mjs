@@ -127,7 +127,7 @@ for (const [category, categoryDevices] of devicesByCategory) {
 const needsReview = sourceRows.filter((row) => row.sourceStatus === "needs_review").map((row) => row.id);
 assert.ok(sourceRows.every((row) => ["verified", "needs_review"].includes(row.sourceStatus)), "来源登记状态非法");
 assert.equal(sourceAudit.supportZhCn + sourceAudit.appleChina + sourceAudit.reference, sourceAudit.fields, "仍有字段未使用已登记来源");
-assert.equal(sourceAudit.reference, 9, "第三方价格字段数量发生变化");
+assert.equal(sourceAudit.reference, 10, "第三方价格字段数量发生变化");
 assert.deepEqual(needsReview, [], "仍有设备来源待人工复核");
 
 const missingLaptopLaunchPrices = devices
@@ -153,6 +153,7 @@ assert.deepEqual(missingLaptopLaunchPrices, [
 const currentPriceSnapshots = {
   "ipad-a16-2025": 2830,
   "ipad-air-m4-2025": 4540,
+  "ipad-pro-m5-11-2025": 8590,
   "iphone-17": 5380,
   "iphone-17-pro": 7270,
   "iphone-17-pro-max": 8210,

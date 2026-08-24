@@ -133,6 +133,15 @@ const REFERENCE_CURRENT_PRICES = {
     configuration: "紫色，128GB，WLAN 版，官方标配，中国大陆版本",
     observedAt: "2026-08-24",
   },
+  "ipad-pro-m5-11-2025": {
+    value: 8590,
+    sourceUrl: "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=8212843&styleId=791957349&skuId=2833898713",
+    sourceName: "识货",
+    rawText: "截至8月24日，识货为您实时监控全网12家正品放心店铺。当前同款同规格全网最低价为¥8590，来自识货安心购店铺。",
+    configuration: "深空黑色，256GB，WLAN 版，标准玻璃面板，国行版",
+    condition: "全新，识货安心购店铺最低价；优惠资格与库存以来源页为准",
+    observedAt: "2026-08-24",
+  },
   "iphone-17": {
     value: 5380,
     sourceUrl: "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=7929787&styleId=713169122",
