@@ -160,13 +160,34 @@ const currentPriceSnapshots = {
   "iphone-17-pro": 7270,
   "iphone-17-pro-max": 8210,
   "macbook-air-13-m5-2026": 8000,
+  "macbook-air-15-m5-2026": 11999,
   "macbook-pro-14-m5-2025": 13200,
+  "macbook-pro-14-m5-pro-2026": 19999,
+  "macbook-pro-14-m5-max-2026": 33999,
+  "macbook-pro-16-m5-2026": 24999,
+  "macbook-pro-16-m5-max-2026": 35999,
+  "macbook-neo-13-2026": 5499,
 };
+const appleStoreCurrentPrices = new Set([
+  "macbook-air-15-m5-2026",
+  "macbook-pro-14-m5-pro-2026",
+  "macbook-pro-14-m5-max-2026",
+  "macbook-pro-16-m5-2026",
+  "macbook-pro-16-m5-max-2026",
+  "macbook-neo-13-2026",
+]);
 for (const [deviceId, price] of Object.entries(currentPriceSnapshots)) {
   const field = devicesById.get(deviceId)?.specs.currentPrice;
+  const isAppleStore = appleStoreCurrentPrices.has(deviceId);
   assert.equal(field?.value, price, `${deviceId}.currentPrice: 当前价格快照发生回归`);
   assert.equal(field?.observedAt, "2026-08-24", `${deviceId}.currentPrice: 采集日期发生回归`);
-  assert.equal(field?.sourceName, "识货", `${deviceId}.currentPrice: 来源发生回归`);
+  assert.equal(field?.sourceType, isAppleStore ? "apple" : "reference", `${deviceId}.currentPrice: 来源类型发生回归`);
+  assert.equal(field?.confidence, isAppleStore ? 1 : 0.7, `${deviceId}.currentPrice: 置信度发生回归`);
+  assert.equal(
+    field?.sourceName,
+    isAppleStore ? "Apple 中国大陆在线商店" : "识货",
+    `${deviceId}.currentPrice: 来源发生回归`,
+  );
 }
 assert.equal(
   devices.filter((device) => hasValue(device, "currentPrice")).length,
