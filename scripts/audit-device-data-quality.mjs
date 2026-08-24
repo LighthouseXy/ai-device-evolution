@@ -31,7 +31,7 @@ const reportFields = [
   "rearCamera",
   "frontCamera",
 ];
-const trustedReferenceHosts = new Set(["tc.people.com.cn", "mobile.zol.com.cn"]);
+const trustedReferenceHosts = new Set(["tc.people.com.cn", "mobile.zol.com.cn", "www.shihuo.cn"]);
 
 const hasValue = (device, field) => device.specs?.[field]?.value !== null && device.specs?.[field]?.value !== undefined;
 const sourceIds = sourceRows.map((row) => row.id);
@@ -127,7 +127,7 @@ for (const [category, categoryDevices] of devicesByCategory) {
 const needsReview = sourceRows.filter((row) => row.sourceStatus === "needs_review").map((row) => row.id);
 assert.ok(sourceRows.every((row) => ["verified", "needs_review"].includes(row.sourceStatus)), "来源登记状态非法");
 assert.equal(sourceAudit.supportZhCn + sourceAudit.appleChina + sourceAudit.reference, sourceAudit.fields, "仍有字段未使用已登记来源");
-assert.equal(sourceAudit.reference, 2, "第三方价格兜底字段数量发生变化");
+assert.equal(sourceAudit.reference, 5, "第三方价格字段数量发生变化");
 assert.deepEqual(needsReview, [], "仍有设备来源待人工复核");
 
 const missingLaptopLaunchPrices = devices
@@ -149,6 +149,23 @@ assert.deepEqual(missingLaptopLaunchPrices, [
   "macbook-pro-16-m3-max-2023",
   "macbook-pro-16-m4-2024",
 ], "MacBook 首发价缺失集合发生变化；仅允许中文官网未明确报价的配置留空");
+
+const currentPriceSnapshots = {
+  "iphone-17": 5380,
+  "iphone-17-pro": 7270,
+  "iphone-17-pro-max": 8210,
+};
+for (const [deviceId, price] of Object.entries(currentPriceSnapshots)) {
+  const field = devicesById.get(deviceId)?.specs.currentPrice;
+  assert.equal(field?.value, price, `${deviceId}.currentPrice: 当前价格快照发生回归`);
+  assert.equal(field?.observedAt, "2026-08-24", `${deviceId}.currentPrice: 采集日期发生回归`);
+  assert.equal(field?.sourceName, "识货", `${deviceId}.currentPrice: 来源发生回归`);
+}
+assert.equal(
+  devices.filter((device) => hasValue(device, "currentPrice")).length,
+  Object.keys(currentPriceSnapshots).length,
+  "当前价格只能来自已核验静态快照",
+);
 
 const splitMacBookSpecs = {
   "macbook-pro-14-m4-pro-2024": ["Apple M4 Pro 芯片", "24GB / 48GB / 64GB", 16999],

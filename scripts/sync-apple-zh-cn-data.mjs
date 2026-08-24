@@ -116,6 +116,33 @@ const REFERENCE_LAUNCH_PRICES = {
   },
 };
 
+const REFERENCE_CURRENT_PRICES = {
+  "iphone-17": {
+    value: 5380,
+    sourceUrl: "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=7929787&styleId=713169122",
+    sourceName: "识货",
+    rawText: "截至8月24日，识货为您实时监控全网16家正品放心店铺。当前同款同规格全网最低价为¥5380，来自百亿补贴店铺。",
+    configuration: "白色，256GB，中国大陆版本",
+    observedAt: "2026-08-24",
+  },
+  "iphone-17-pro": {
+    value: 7270,
+    sourceUrl: "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=7929848&styleId=754572635",
+    sourceName: "识货",
+    rawText: "截至8月24日，识货为您实时监控全网21家正品放心店铺。当前同款同规格全网最低价为¥7270，来自百亿补贴店铺。",
+    configuration: "银色，256GB，中国大陆版本",
+    observedAt: "2026-08-24",
+  },
+  "iphone-17-pro-max": {
+    value: 8210,
+    sourceUrl: "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=7929864&styleId=713174603",
+    sourceName: "识货",
+    rawText: "截至8月24日，识货为您实时监控全网20家正品放心店铺。当前同款同规格全网最低价为¥8210，来自百亿补贴店铺。",
+    configuration: "银色，256GB，中国大陆版本",
+    observedAt: "2026-08-24",
+  },
+};
+
 const ZH_ONLY_IPHONES = [
   ["iphone-7-2016", "standard", "iPhone 7", "7", 2016, "https://support.apple.com/zh-cn/111943"],
   ["iphone-7-plus-2016", "Plus", "iPhone 7 Plus", "7 Plus", 2016, "https://support.apple.com/zh-cn/111953"],
@@ -916,6 +943,26 @@ async function refreshLaunchPrice(device) {
   return spec(value, raw, device.specs.launchPrice ?? { unit: "CNY" }, sourceUrl);
 }
 
+function currentPriceSnapshot(device) {
+  const reference = REFERENCE_CURRENT_PRICES[device.id];
+  if (!reference) return null;
+  return {
+    value: reference.value,
+    unit: "CNY",
+    rawText: reference.rawText,
+    sourceUrl: reference.sourceUrl,
+    sourceType: "reference",
+    confidence: 0.7,
+    verifiedAt: reference.observedAt,
+    priceType: "current",
+    market: "中国大陆",
+    configuration: reference.configuration,
+    condition: "全新，识货聚合百亿补贴店铺最低价；优惠资格与库存以来源页为准",
+    observedAt: reference.observedAt,
+    sourceName: reference.sourceName,
+  };
+}
+
 const [englishDatabase, englishSources] = await Promise.all([
   fs.readFile(EN_DEVICES_PATH, "utf8").then(JSON.parse),
   fs.readFile(EN_SOURCES_PATH, "utf8").then(JSON.parse),
@@ -1003,10 +1050,14 @@ for (const sourceDevice of sourceDevices) {
     const launchPrice = await refreshLaunchPrice(device);
     if (launchPrice) specs.launchPrice = launchPrice;
     else if (device.specs.launchPrice?.value != null && !EXPECTED_MISSING_LAUNCH_PRICES.has(device.id)) missing.push(`${device.id}.launchPrice`);
+    const currentPrice = currentPriceSnapshot(device);
+    if (currentPrice) specs.currentPrice = currentPrice;
 
     const modelName = localizeModelName(device.modelName);
     const releaseYear = device.id === "ipad-air-m4-2025" ? 2026 : device.releaseYear;
     zhDevices.push(recalculateGenerationUpgrade({ ...device, modelName, releaseYear, specs }));
+    const referenceUrls = new Set(oldSource.referenceUrls ?? []);
+    if (REFERENCE_CURRENT_PRICES[device.id]) referenceUrls.add(REFERENCE_CURRENT_PRICES[device.id].sourceUrl);
     zhSources[device.category].push({
       ...oldSource,
       id: device.id,
@@ -1017,7 +1068,7 @@ for (const sourceDevice of sourceDevices) {
       officialSpecUrl: null,
       supportUrl,
       newsroomUrl: ZH_LAUNCH_PRICES[device.id]?.[1] ?? oldSource.newsroomUrl,
-      ...(oldSource.referenceUrls?.length ? { referenceUrls: oldSource.referenceUrls } : {}),
+      ...(referenceUrls.size ? { referenceUrls: [...referenceUrls] } : {}),
       sourceStatus: "verified",
       notes: "Apple Support 中国简体中文技术规格页",
     });

@@ -69,7 +69,12 @@ function getPriceText(
   if (conditionPreference === "used_ok" && usedPrice !== undefined) {
     return `二手价 ${formatMaybeCurrency(usedPrice)}`;
   }
-  if (currentPrice !== undefined) return `当前价 ${formatMaybeCurrency(currentPrice)}`;
+  if (currentPrice !== undefined) {
+    const source = device.specs.currentPrice?.sourceName;
+    const observedAt = device.specs.currentPrice?.observedAt;
+    const snapshot = [source, observedAt].filter(Boolean).join("，");
+    return `当前价 ${formatMaybeCurrency(currentPrice)}${snapshot ? `（${snapshot}）` : ""}`;
+  }
   const missingLabel = conditionPreference === "used_ok" ? "二手价待补充" : "当前价待补充";
   return launchPrice === undefined
     ? missingLabel
