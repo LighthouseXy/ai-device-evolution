@@ -154,6 +154,21 @@ const scenarios = [
     },
   },
   {
+    name: "tablet_used_mainland_price",
+    input: {
+      category: "tablet",
+      budget: { max: 3000, currency: "CNY" },
+      useCases: ["学习", "追剧"],
+      conditionPreference: "used_ok",
+      maxResults: 3,
+    },
+    expect(output) {
+      assertSimpleFallback(output, "tablet");
+      assert.equal(output.devices[0]?.deviceId, "ipad-a16-2025");
+      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥2,909（京东 99 成新二手平板电脑榜，2026-08-24）/);
+    },
+  },
+  {
     name: "phone_condition_battery_pressure",
     input: {
       category: "phone",

@@ -322,6 +322,24 @@ const REFERENCE_USED_PRICES = {
     condition: "二手，99 新，支持验机；优惠与库存以来源页为准",
     observedAt: "2026-08-24",
   },
+  "ipad-a16-2025": {
+    value: 2909,
+    sourceUrl: "https://pro.m.jd.com/mall/active/262hj8JXjPNHbFPKvdQFWUeer8kw/index.html?bbtf=1&rankId=2670823&showhead=no&source=tongtiantah5",
+    sourceName: "京东 99 成新二手平板电脑榜",
+    rawText: "苹果 iPad 11 二手平板电脑，A16 处理器，128G，国行零售机，Wi-Fi 版，99 新，页面价 2909 元。",
+    configuration: "iPad (A16)，128GB，国行零售机，Wi-Fi 版",
+    condition: "二手，99 新；优惠与库存以来源页为准",
+    observedAt: "2026-08-24",
+  },
+  "ipad-pro-m5-11-2025": {
+    value: 8089,
+    sourceUrl: "https://pro.m.jd.com/mall/active/262hj8JXjPNHbFPKvdQFWUeer8kw/index.html?bbtf=1&rankId=2670823&showhead=no&source=tongtiantah5",
+    sourceName: "京东 99 成新二手平板电脑榜",
+    rawText: "苹果 iPad Pro (M5) 国行二手平板电脑，11 英寸 256G，99 新，国行零售机或官换机，非资源机，页面价 8089 元。",
+    configuration: "11 英寸 iPad Pro (M5)，256GB，国行零售机或官换机，非资源机",
+    condition: "二手，99 新，电池效率 100%；优惠与库存以来源页为准",
+    observedAt: "2026-08-24",
+  },
 };
 
 const ZH_ONLY_IPHONES = [
