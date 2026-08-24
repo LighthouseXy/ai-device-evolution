@@ -31,6 +31,7 @@ const reportFields = [
   "rearCamera",
   "frontCamera",
 ];
+const trustedReferenceHosts = new Set(["tc.people.com.cn", "mobile.zol.com.cn"]);
 
 const hasValue = (device, field) => device.specs?.[field]?.value !== null && device.specs?.[field]?.value !== undefined;
 const sourceIds = sourceRows.map((row) => row.id);
@@ -58,7 +59,12 @@ for (const device of devices) {
   assert.equal(registry.category, device.category, `${device.id}: 来源登记类别与主数据不一致`);
   assert.equal(registry.modelName, device.modelName, `${device.id}: 来源登记型号与主数据不一致`);
   assert.equal(registry.releaseYear, device.releaseYear, `${device.id}: 来源登记年份与主数据不一致`);
-  const registeredUrls = new Set([registry.officialSpecUrl, registry.supportUrl, registry.newsroomUrl].filter(Boolean));
+  const registeredUrls = new Set([
+    registry.officialSpecUrl,
+    registry.supportUrl,
+    registry.newsroomUrl,
+    ...(registry.referenceUrls ?? []),
+  ].filter(Boolean));
   assert.ok(registeredUrls.size > 0, `${device.id}: 来源登记缺少 URL`);
 
   for (const [fieldName, field] of Object.entries(device.specs)) {
@@ -68,19 +74,26 @@ for (const device of devices) {
     assert.ok(registeredUrls.has(field.sourceUrl), `${device.id}.${fieldName}: sourceUrl 未登记`);
 
     const url = new URL(field.sourceUrl);
-    assert.ok(
-      ["support.apple.com", "www.apple.com.cn"].includes(url.hostname),
-      `${device.id}.${fieldName}: 来源域名不受信任`,
-    );
-    assert.ok(field.rawText, `${device.id}.${fieldName}: 缺少中文官网原始证据`);
-    if (field.sourceUrl.includes("support.apple.com/zh-cn/")) sourceAudit.supportZhCn += 1;
+    if (field.sourceType === "apple") {
+      assert.ok(["support.apple.com", "www.apple.com.cn"].includes(url.hostname), `${device.id}.${fieldName}: Apple 来源域名不受信任`);
+    } else {
+      assert.ok(trustedReferenceHosts.has(url.hostname), `${device.id}.${fieldName}: 第三方来源域名不受信任`);
+    }
+    assert.ok(field.rawText, `${device.id}.${fieldName}: 缺少原始证据`);
+    if (/support\.apple\.com\/zh-(?:cn|tw)\//.test(field.sourceUrl)) sourceAudit.supportZhCn += 1;
     if (field.sourceUrl.startsWith("https://www.apple.com.cn/")) sourceAudit.appleChina += 1;
     if (/[\u4e00-\u9fff]/.test(field.rawText)) sourceAudit.rawTextChinese += 1;
     else sourceAudit.rawTextTechnicalOnly += 1;
 
     if (field.sourceType === "reference") {
-      assert.equal(fieldName, "launchPrice", `${device.id}.${fieldName}: reference 仅允许用于首发价`);
+      assert.ok(["launchPrice", "currentPrice", "usedPrice"].includes(fieldName), `${device.id}.${fieldName}: reference 仅允许用于价格字段`);
       assert.equal(field.confidence, 0.7, `${device.id}.${fieldName}: reference 置信度必须为 0.7`);
+      assert.equal(field.priceType, fieldName.replace("Price", ""), `${device.id}.${fieldName}: priceType 与字段不一致`);
+      assert.equal(field.market, "中国大陆", `${device.id}.${fieldName}: 缺少中国大陆市场限定`);
+      assert.ok(field.configuration, `${device.id}.${fieldName}: 缺少价格配置`);
+      assert.ok(field.condition, `${device.id}.${fieldName}: 缺少成色或价格状态`);
+      assert.match(field.observedAt, /^\d{4}-\d{2}-\d{2}$/, `${device.id}.${fieldName}: observedAt 非法`);
+      assert.ok(field.sourceName, `${device.id}.${fieldName}: 缺少来源名称`);
     }
   }
 
@@ -113,8 +126,8 @@ for (const [category, categoryDevices] of devicesByCategory) {
 
 const needsReview = sourceRows.filter((row) => row.sourceStatus === "needs_review").map((row) => row.id);
 assert.ok(sourceRows.every((row) => ["verified", "needs_review"].includes(row.sourceStatus)), "来源登记状态非法");
-assert.equal(sourceAudit.supportZhCn + sourceAudit.appleChina, sourceAudit.fields, "仍有字段未使用 Apple 中国简体中文来源");
-assert.equal(sourceAudit.reference, 0, "仍有字段使用非 Apple 一方来源");
+assert.equal(sourceAudit.supportZhCn + sourceAudit.appleChina + sourceAudit.reference, sourceAudit.fields, "仍有字段未使用已登记来源");
+assert.equal(sourceAudit.reference, 2, "第三方价格兜底字段数量发生变化");
 assert.deepEqual(needsReview, [], "仍有设备来源待人工复核");
 
 const missingLaptopLaunchPrices = devices
@@ -122,8 +135,18 @@ const missingLaptopLaunchPrices = devices
   .map((device) => device.id)
   .sort();
 assert.deepEqual(missingLaptopLaunchPrices, [
+  "macbook-12-2017",
+  "macbook-air-13-2017",
+  "macbook-pro-13-4-port-2017",
+  "macbook-pro-13-4-port-2020",
+  "macbook-pro-14-m1-max-2021",
+  "macbook-pro-14-m2-max-2023",
+  "macbook-pro-14-m3-max-2023",
   "macbook-pro-14-m4-max-2024",
+  "macbook-pro-15-2017",
+  "macbook-pro-16-m1-max-2021",
   "macbook-pro-16-m2-max-2023",
+  "macbook-pro-16-m3-max-2023",
   "macbook-pro-16-m4-2024",
 ], "MacBook 首发价缺失集合发生变化；仅允许中文官网未明确报价的配置留空");
 
@@ -158,8 +181,6 @@ const recalculatedUpgradeScores = {
   "macbook-pro-14-m5-max-2026": 3,
   "macbook-pro-16-m5-2026": 3,
   "macbook-pro-16-m5-max-2026": 3,
-  "macbook-pro-16-m4-2024": 4,
-  "macbook-pro-16-m4-max-2024": 4,
 };
 for (const [deviceId, score] of Object.entries(recalculatedUpgradeScores)) {
   const magnitude = devicesById.get(deviceId).computed.generationUpgradeMagnitude;
@@ -234,6 +255,25 @@ for (const [deviceId, fields] of Object.entries(correctedSpecs)) {
 }
 assert.equal(devicesById.get("iphone-16e-2025").specs.hasMagSafe, undefined, "中文官网未明确声明的否定项不应推断补值");
 assert.equal(devicesById.get("iphone-15").specs.refreshRate, undefined, "中文官网未明确声明的 60Hz 不应推断补值");
+
+const expandedIPhoneLaunchPrices = {
+  "iphone-7-2016": 5388,
+  "iphone-7-plus-2016": 6388,
+  "iphone-se-1-2016": 3288,
+  "iphone-8-2017": 5888,
+  "iphone-8-plus-2017": 6688,
+  "iphone-x-2017": 8388,
+  "iphone-xr-2018": 6499,
+  "iphone-xs-2018": 8699,
+  "iphone-xs-max-2018": 9599,
+  "iphone-11-2019": 5499,
+  "iphone-11-pro-2019": 8699,
+  "iphone-11-pro-max-2019": 9599,
+  "iphone-17e-2026": 4499,
+};
+for (const [deviceId, launchPrice] of Object.entries(expandedIPhoneLaunchPrices)) {
+  assert.equal(devicesById.get(deviceId)?.specs.launchPrice?.value, launchPrice, `${deviceId}.launchPrice: 首发价发生回归`);
+}
 
 console.log("coverage", JSON.stringify(coverage));
 console.log("sourceAudit", JSON.stringify(sourceAudit));

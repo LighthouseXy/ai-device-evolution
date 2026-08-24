@@ -48,24 +48,32 @@ function inferCategory(
   return "all";
 }
 
-function getReferencePrice(device: DbDevice): number | null {
-  return (
-    specNum(device.specs.currentPrice) ??
-    specNum(device.specs.usedPrice) ??
-    specNum(device.specs.launchPrice) ??
-    null
-  );
+function getReferencePrice(
+  device: DbDevice,
+  conditionPreference: DeviceAdvisorInput["conditionPreference"],
+): number | null {
+  if (conditionPreference === "used_ok") {
+    return specNum(device.specs.usedPrice) ?? specNum(device.specs.currentPrice) ?? null;
+  }
+  return specNum(device.specs.currentPrice) ?? null;
 }
 
-function getPriceText(device: DbDevice): string {
+function getPriceText(
+  device: DbDevice,
+  conditionPreference: DeviceAdvisorInput["conditionPreference"],
+): string {
   const currentPrice = specNum(device.specs.currentPrice);
   const usedPrice = specNum(device.specs.usedPrice);
   const launchPrice = specNum(device.specs.launchPrice);
 
+  if (conditionPreference === "used_ok" && usedPrice !== undefined) {
+    return `二手价 ${formatMaybeCurrency(usedPrice)}`;
+  }
   if (currentPrice !== undefined) return `当前价 ${formatMaybeCurrency(currentPrice)}`;
-  if (usedPrice !== undefined) return `二手价 ${formatMaybeCurrency(usedPrice)}`;
-  if (launchPrice !== undefined) return `首发价 ${formatMaybeCurrency(launchPrice)}`;
-  return "价格待补充";
+  const missingLabel = conditionPreference === "used_ok" ? "二手价待补充" : "当前价待补充";
+  return launchPrice === undefined
+    ? missingLabel
+    : `${missingLabel}（首发价 ${formatMaybeCurrency(launchPrice)}，不用于预算筛选）`;
 }
 
 function compactText(value: string, maxLength = 160): string | undefined {
@@ -120,15 +128,18 @@ function getFacts(device: DbDevice): Record<string, string | number> {
   );
 }
 
-function normalizeCandidate(device: DbDevice): Candidate {
+function normalizeCandidate(
+  device: DbDevice,
+  conditionPreference: DeviceAdvisorInput["conditionPreference"],
+): Candidate {
   return {
     deviceId: device.id,
     model: device.modelName,
     series: device.series,
     category: device.category,
     releaseYear: device.releaseYear,
-    referencePrice: getReferencePrice(device),
-    priceText: getPriceText(device),
+    referencePrice: getReferencePrice(device, conditionPreference),
+    priceText: getPriceText(device, conditionPreference),
     facts: getFacts(device),
   };
 }
@@ -160,10 +171,12 @@ function sortCandidates(
         right.referencePrice === null ? 2 : isWithinBudget(right.referencePrice, budget) ? 0 : 1;
       if (leftGroup !== rightGroup) return leftGroup - rightGroup;
 
-      const distance =
-        budgetDistance(left.referencePrice, budget) -
-        budgetDistance(right.referencePrice, budget);
-      if (distance !== 0) return distance;
+      if (leftGroup !== 2) {
+        const distance =
+          budgetDistance(left.referencePrice, budget) -
+          budgetDistance(right.referencePrice, budget);
+        if (distance !== 0) return distance;
+      }
     } else {
       const priceAvailability =
         Number(left.referencePrice === null) - Number(right.referencePrice === null);
@@ -180,10 +193,12 @@ export function buildDeviceAdvisorContext(input: DeviceAdvisorInput) {
   const intent = normalizeText(input.intent);
   const category = inferCategory(input, useCases, intent);
   const budget = normalizeBudget(input.budget) ?? null;
+  const conditionPreference =
+    normalizeConditionPreference(input.conditionPreference) ?? "new_only";
   const candidateShortlist = sortCandidates(
     allDevices
       .filter((device) => category === "all" || device.category === category)
-      .map(normalizeCandidate),
+      .map((device) => normalizeCandidate(device, conditionPreference)),
     budget,
   ).slice(0, MAX_SHORTLIST);
 
@@ -201,8 +216,7 @@ export function buildDeviceAdvisorContext(input: DeviceAdvisorInput) {
       intent: intent || null,
       useCases,
       performancePreference: input.performancePreference ?? "balanced",
-      conditionPreference:
-        normalizeConditionPreference(input.conditionPreference) ?? "new_only",
+      conditionPreference,
       batteryPriority: normalizeBatteryPriority(input.batteryPriority) ?? "balanced",
       interfaceNeed: normalizeInterfaceNeed(input.interfaceNeed) ?? "any",
       replacementIntent: input.replacementIntent ?? "replace",
@@ -243,8 +257,17 @@ export function runFallbackDeviceAdvisor(input: DeviceAdvisorInput): DeviceAdvis
     ? `先列出：${deviceNames}。`
     : "暂时没有可展示的候选设备。";
 
+  const hasReferencePrice = context.candidateShortlist.some(
+    (candidate) => candidate.referencePrice !== null,
+  );
+  const sortingText = budget && hasReferencePrice
+    ? "按对应成色的预算接近度和发布时间"
+    : budget
+      ? "对应成色价格尚未收录，暂按发布时间"
+      : "按发布时间";
+
   return {
-    answer: `AI 暂不可用。${categoryLabel}${budget ? `、预算 ${summarizeBudget(budget)}` : ""} 条件下，按预算接近度和发布时间${candidateText}这只是本地排序，不分析性能、续航、影像等使用偏好。`,
+    answer: `AI 暂不可用。${categoryLabel}${budget ? `、预算 ${summarizeBudget(budget)}` : ""} 条件下，${sortingText}${candidateText}这只是本地排序，不分析性能、续航、影像等使用偏好。`,
     devices,
     confidence: budget ? 0.45 : 0.35,
     source: "rules",
@@ -290,10 +313,10 @@ export function groundDeviceAdvisorOutput(
 export function buildDeviceAdvisorPrompt(input: DeviceAdvisorInput): string {
   return [
     "你是 DeviceScope 的 Apple 设备顾问。",
-    "本地仅按设备类型、预算接近度和发布时间整理候选；你负责结合用户场景给出自然、完整的中文购买建议。",
+    "本地仅按设备类型、已收录的对应成色价格和发布时间整理候选；你负责结合用户场景给出自然、完整的中文购买建议。",
     "只能推荐 candidateShortlist 中的设备，不允许编造机型、价格或 facts 中没有的规格。",
     "answer 用 150 到 300 个汉字说明推荐哪几款、为什么以及主要取舍，不使用 Markdown、列表或虚构的精确评分。",
-    "referencePrice 只是 priceText 标明的当前价、二手价或首发价；不得把首发价描述成当前市场价。",
+    "referencePrice 只会使用 priceText 标明的当前价或二手价；首发价仅供历史参考，不代表当前市场价，也不得用于判断是否符合预算。referencePrice 为 null 时必须明确价格未知。",
     "recommendedDeviceIds 按推荐顺序给出 1 到 3 个 deviceId，并且与 answer 中提到的设备保持一致；确实没有合适设备时可返回空数组并在 answer 中解释。",
     "confidence 为 0 到 1，只供系统内部评测。",
     "只返回纯 JSON，对象字段必须且只能包含 answer、recommendedDeviceIds、confidence。",

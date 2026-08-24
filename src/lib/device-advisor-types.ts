@@ -65,7 +65,7 @@ export type Candidate = {
 };
 
 export const DEFAULT_DEVICE_ADVISOR_DISCLAIMER = "基于已收录设备数据生成，仅供参考";
-export const RULES_DEVICE_ADVISOR_DISCLAIMER = "AI 不可用，当前仅按设备类型、预算和发布时间排序，仅供参考";
+export const RULES_DEVICE_ADVISOR_DISCLAIMER = "AI 不可用，当前仅按设备类型、已收录的对应成色价格和发布时间排序；缺失价格不参与预算匹配，仅供参考";
 export const MAX_SHORTLIST = 12;
 export const MAX_RECOMMENDATIONS = 3;
 

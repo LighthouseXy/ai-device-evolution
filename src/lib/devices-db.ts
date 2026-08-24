@@ -21,6 +21,15 @@ export type SpecField<T> = {
   verifiedAt: string;
 };
 
+export type PriceField = SpecField<number> & {
+  priceType?: "launch" | "current" | "used";
+  market?: string;
+  configuration?: string;
+  condition?: string;
+  observedAt?: string;
+  sourceName?: string;
+};
+
 // ComputedField 计算字段
 export type ComputedField = {
   value: number | null;
@@ -87,9 +96,9 @@ export type DeviceSpecs = {
   peakBrightness?: SpecField<number>;
   thickness?: SpecField<number>;
   wirelessWebBrowsing?: SpecField<string>;
-  launchPrice?: SpecField<number>;
-  currentPrice?: SpecField<number>;
-  usedPrice?: SpecField<number>;
+  launchPrice?: PriceField;
+  currentPrice?: PriceField;
+  usedPrice?: PriceField;
 };
 
 // 设备 computed 字段集合

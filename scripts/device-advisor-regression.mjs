@@ -49,7 +49,7 @@ function assertSimpleFallback(output, category, maxResults = 3) {
     output.devices.length,
     "fallback device links should not contain duplicates",
   );
-  assert.match(output.disclaimer, /仅按设备类型、预算和发布时间排序/);
+  assert.match(output.disclaimer, /缺失价格不参与预算匹配/);
   assert.match(output.answer, /不分析性能、续航、影像等使用偏好/);
 }
 
@@ -131,7 +131,7 @@ const scenarios = [
     },
     expect(output) {
       assertSimpleFallback(output, "laptop");
-      assert.match(output.answer, /按预算接近度和发布时间/);
+      assert.match(output.answer, /对应成色价格尚未收录，暂按发布时间/);
     },
   },
   {
@@ -167,6 +167,8 @@ const scenarios = [
     },
     expect(output) {
       assertSimpleFallback(output, "phone");
+      assert.ok(!output.devices.some((device) => device.deviceId === "iphone-se-1-2016"));
+      assert.ok(output.devices.every((device) => /二手价待补充/.test(device.priceText)));
     },
   },
   {

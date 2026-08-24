@@ -8,7 +8,38 @@ const ZH_SOURCES_PATH = new URL("src/data/apple-sources.json", ROOT);
 const VERIFIED_AT = new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Shanghai" }).format(new Date());
 
 const ZH_LAUNCH_PRICES = {
+  "iphone-7-2016": [5388, "https://www.apple.com.cn/newsroom/2016/09/07Apple-Introduces-iPhone-7-iPhone-7-Plus-The-Best-Most-Advanced-iPhone-Ever/"],
+  "iphone-7-plus-2016": [6388, "https://www.apple.com.cn/newsroom/2016/09/07Apple-Introduces-iPhone-7-iPhone-7-Plus-The-Best-Most-Advanced-iPhone-Ever/"],
+  "iphone-8-2017": [5888, "https://www.apple.com.cn/newsroom/2017/09/iphone-8-and-iphone-8-plus-a-new-generation-of-iphone/"],
+  "iphone-x-2017": [8388, "https://www.apple.com.cn/newsroom/2017/09/the-future-is-here-iphone-x/"],
+  "iphone-xr-2018": [6499, "https://www.apple.com.cn/newsroom/2018/09/apple-introduces-iphone-xr/"],
+  "iphone-xs-2018": [8699, "https://www.apple.com.cn/newsroom/2018/09/iphone-xs-and-iphone-xs-max-bring-the-best-and-biggest-displays-to-iphone/"],
+  "iphone-xs-max-2018": [9599, "https://www.apple.com.cn/newsroom/2018/09/iphone-xs-and-iphone-xs-max-bring-the-best-and-biggest-displays-to-iphone/"],
+  "iphone-11-2019": [5499, "https://www.apple.com.cn/newsroom/2019/09/apple-introduces-dual-camera-iphone-11/"],
+  "iphone-11-pro-2019": [8699, "https://www.apple.com.cn/newsroom/2019/09/iphone-11-pro-and-iphone-11-pro-max-the-most-powerful-and-advanced-smartphones/"],
+  "iphone-11-pro-max-2019": [9599, "https://www.apple.com.cn/newsroom/2019/09/iphone-11-pro-and-iphone-11-pro-max-the-most-powerful-and-advanced-smartphones/"],
+  "iphone-17e-2026": [4499, "https://www.apple.com.cn/newsroom/2026/03/apple-introduces-iphone-17e/"],
   "ipad-air-m4-2025": [4799, "https://www.apple.com.cn/newsroom/2026/03/apple-introduces-the-new-ipad-air-powered-by-m4/"],
+  "ipad-pro-9-7-2016": [4388, "https://www.apple.com.cn/newsroom/2016/03/21Apple-Introduces-9-7-inch-iPad-Pro/"],
+  "ipad-5th-2017": [2688, "https://www.apple.com.cn/newsroom/2017/03/21New-9-7-inch-iPad-Features-Stunning-Retina-Display-Incredible-Performance/"],
+  "ipad-pro-10-5-2017": [5188, "https://www.apple.com.cn/newsroom/2017/06/ipad-pro-10-5-and-12-9-inch-models-introduces-worlds-most-advanced-display-breakthrough-performance/"],
+  "ipad-pro-12-9-2nd-2017": [6388, "https://www.apple.com.cn/newsroom/2017/06/ipad-pro-10-5-and-12-9-inch-models-introduces-worlds-most-advanced-display-breakthrough-performance/"],
+  "ipad-6th-2018": [2588, "https://www.apple.com.cn/newsroom/2018/03/apple-introduces-new-9-7-inch-ipad-with-apple-pencil-support/"],
+  "ipad-pro-11-1st-2018": [6499, "https://www.apple.com.cn/newsroom/2018/10/new-ipad-pro-with-all-screen-design-is-most-advanced-powerful-ipad-ever/"],
+  "ipad-pro-12-9-3rd-2018": [8099, "https://www.apple.com.cn/newsroom/2018/10/new-ipad-pro-with-all-screen-design-is-most-advanced-powerful-ipad-ever/"],
+  "ipad-air-3rd-2019": [3999, "https://www.apple.com.cn/newsroom/2019/03/all-new-ipad-air-and-ipad-mini-deliver-dramatic-power-and-capability/"],
+  "ipad-mini-5th-2019": [2999, "https://www.apple.com.cn/newsroom/2019/03/all-new-ipad-air-and-ipad-mini-deliver-dramatic-power-and-capability/"],
+  "ipad-7th-2019": [2699, "https://www.apple.com.cn/newsroom/2019/09/apple-introduces-new-version-of-the-most-popular-ipad-starting-at-329/"],
+  "ipad-pro-11-2nd-2020": [6229, "https://www.apple.com.cn/newsroom/2020/03/apple-unveils-new-ipad-pro-with-lidar-scanner-and-trackpad-support-in-ipados/"],
+  "ipad-pro-12-9-4th-2020": [7899, "https://www.apple.com.cn/newsroom/2020/03/apple-unveils-new-ipad-pro-with-lidar-scanner-and-trackpad-support-in-ipados/"],
+  "ipad-8th-2020": [2499, "https://www.apple.com.cn/newsroom/2020/09/apple-introduces-eighth-generation-ipad-with-a-huge-jump-in-performance/"],
+  "ipad-air-4th-2020": [4799, "https://www.apple.com.cn/newsroom/2020/09/apple-unveils-all-new-ipad-air-with-a14-bionic-apples-most-advanced-chip/"],
+  "ipad-pro-11-m1-2021": [6199, "https://www.apple.com.cn/newsroom/2021/04/apple-unveils-new-ipad-pro-with-m1-chip-and-stunning-liquid-retina-xdr-display/"],
+  "ipad-pro-12-9-m1-2021": [8499, "https://www.apple.com.cn/newsroom/2021/04/apple-unveils-new-ipad-pro-with-m1-chip-and-stunning-liquid-retina-xdr-display/"],
+  "ipad-air-m1-2022": [4399, "https://www.apple.com.cn/newsroom/2022/03/apple-introduces-the-most-powerful-and-versatile-ipad-air-ever/"],
+  "ipad-air-13-m2-2024": [6499, "https://www.apple.com.cn/newsroom/2024/05/apple-unveils-the-redesigned-11-inch-and-all-new-13-inch-ipad-air-with-m2/"],
+  "ipad-air-13-m3-2025": [6499, "https://www.apple.com.cn/newsroom/2025/03/apple-introduces-ipad-air-with-powerful-m3-chip-new-magic-keyboard/"],
+  "ipad-air-13-m4-2026": [6499, "https://www.apple.com.cn/newsroom/2026/03/apple-introduces-the-new-ipad-air-powered-by-m4/"],
   "ipad-air-m3-2025": [4799, "https://www.apple.com.cn/newsroom/2025/03/apple-introduces-ipad-air-with-powerful-m3-chip-new-magic-keyboard/"],
   "ipad-pro-m4-11-2024": [8999, "https://www.apple.com.cn/newsroom/2024/05/apple-unveils-stunning-new-ipad-pro-with-m4-chip-and-apple-pencil-pro/"],
   "ipad-pro-m4-13-2024": [11499, "https://www.apple.com.cn/newsroom/2024/05/apple-unveils-stunning-new-ipad-pro-with-m4-chip-and-apple-pencil-pro/"],
@@ -41,7 +72,250 @@ const ZH_LAUNCH_PRICES = {
   "macbook-pro-14-m5-max-2026": [29999, "https://www.apple.com.cn/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/"],
   "macbook-pro-16-m5-max-2026": [31999, "https://www.apple.com.cn/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/"],
   "macbook-pro-16-m4-max-2024": [27999, "https://www.apple.com.cn/newsroom/2024/10/apples-new-macbook-pro-features-the-incredibly-powerful-m4-family-of-chips/"],
+  "macbook-12-2016": [9288, "https://www.apple.com.cn/newsroom/2016/04/19Apple-Updates-MacBook-with-Latest-Processors-Longer-Battery-Life-New-Rose-Gold-Finish/"],
+  "macbook-pro-13-2-port-2016": [11488, "https://www.apple.com.cn/newsroom/2016/10/apple-unveils-groundbreaking-new-macbook-pro/"],
+  "macbook-pro-13-4-port-2016": [13888, "https://www.apple.com.cn/newsroom/2016/10/apple-unveils-groundbreaking-new-macbook-pro/"],
+  "macbook-pro-15-2016": [18488, "https://www.apple.com.cn/newsroom/2016/10/apple-unveils-groundbreaking-new-macbook-pro/"],
+  "macbook-pro-13-2-port-2017": [10288, "https://www.apple.com.cn/newsroom/2017/06/imac-receives-major-update-featuring-more-powerful-graphics-faster-processors-thunderbolt-3-brighter-displays/"],
+  "macbook-air-13-2018": [9499, "https://www.apple.com.cn/newsroom/2018/10/all-new-macbook-air-takes-flight/"],
+  "macbook-pro-13-4-port-2018": [14188, "https://www.apple.com.cn/newsroom/2018/07/apple-updates-macbook-pro-with-faster-performance-and-new-features-for-pros/"],
+  "macbook-pro-15-2018": [18688, "https://www.apple.com.cn/newsroom/2018/07/apple-updates-macbook-pro-with-faster-performance-and-new-features-for-pros/"],
+  "macbook-air-13-2019": [8899, "https://www.apple.com.cn/newsroom/2019/07/macbook-air-and-macbook-pro-updated-for-back-to-school-season/"],
+  "macbook-pro-13-2-port-2019": [9999, "https://www.apple.com.cn/newsroom/2019/07/macbook-air-and-macbook-pro-updated-for-back-to-school-season/"],
+  "macbook-pro-13-4-port-2019": [13899, "https://www.apple.com.cn/newsroom/2019/05/apple-introduces-first-8-core-macbook-pro-the-fastest-mac-notebook-ever/"],
+  "macbook-pro-15-2019": [18199, "https://www.apple.com.cn/newsroom/2019/05/apple-introduces-first-8-core-macbook-pro-the-fastest-mac-notebook-ever/"],
+  "macbook-pro-16-2019": [18999, "https://www.apple.com.cn/newsroom/2019/11/apple-introduces-16-inch-macbook-pro-the-worlds-best-pro-notebook/"],
+  "macbook-air-13-intel-2020": [7999, "https://www.apple.com.cn/newsroom/2020/03/new-macbook-air-has-more-to-love-and-is-now-just-999/"],
+  "macbook-pro-13-2-port-2020": [9999, "https://www.apple.com.cn/newsroom/2020/05/apple-updates-13-inch-macbook-pro-with-magic-keyboard-double-the-storage-and-faster-performance/"],
+  "macbook-pro-14-m1-pro-2021": [14999, "https://www.apple.com.cn/newsroom/2021/10/apple-unveils-game-changing-macbook-pro/"],
+  "macbook-pro-16-m1-pro-2021": [18999, "https://www.apple.com.cn/newsroom/2021/10/apple-unveils-game-changing-macbook-pro/"],
+  "macbook-pro-14-m2-pro-2023": [15999, "https://www.apple.com.cn/newsroom/2023/01/apple-unveils-macbook-pro-featuring-m2-pro-and-m2-max/"],
+  "macbook-air-15-m2-2023": [10499, "https://www.apple.com.cn/newsroom/2023/06/apple-introduces-the-15-inch-macbook-air/"],
+  "macbook-pro-14-m3-2023": [12999, "https://www.apple.com.cn/newsroom/2023/10/apple-unveils-new-macbook-pro-featuring-m3-chips/"],
+  "macbook-pro-14-m3-pro-2023": [16999, "https://www.apple.com.cn/newsroom/2023/10/apple-unveils-new-macbook-pro-featuring-m3-chips/"],
+  "macbook-pro-16-m3-pro-2023": [19999, "https://www.apple.com.cn/newsroom/2023/10/apple-unveils-new-macbook-pro-featuring-m3-chips/"],
+  "macbook-neo-13-2026": [4599, "https://www.apple.com.cn/newsroom/2026/03/say-hello-to-macbook-neo/"],
 };
+
+const REFERENCE_LAUNCH_PRICES = {
+  "iphone-se-1-2016": {
+    value: 3288,
+    sourceUrl: "https://tc.people.com.cn/n1/2016/0322/c183008-28216682.html",
+    sourceName: "人民网",
+    rawText: "苹果中国官网已将其上架，iPhone SE 3288 元起售。",
+    configuration: "16GB，中国大陆版本",
+    observedAt: "2016-03-22",
+  },
+  "iphone-8-plus-2017": {
+    value: 6688,
+    sourceUrl: "https://mobile.zol.com.cn/655/6559775.html",
+    sourceName: "中关村在线",
+    rawText: "中国官网 iPhone 8 售价 5888 元起，iPhone 8 Plus 售价 6688 元起。",
+    configuration: "64GB，中国大陆版本",
+    observedAt: "2017-09-15",
+  },
+};
+
+const ZH_ONLY_IPHONES = [
+  ["iphone-7-2016", "standard", "iPhone 7", "7", 2016, "https://support.apple.com/zh-cn/111943"],
+  ["iphone-7-plus-2016", "Plus", "iPhone 7 Plus", "7 Plus", 2016, "https://support.apple.com/zh-cn/111953"],
+  ["iphone-se-1-2016", "SE", "iPhone SE (第 1 代)", "SE 1", 2016, "https://support.apple.com/zh-cn/112005"],
+  ["iphone-8-2017", "standard", "iPhone 8", "8", 2017, "https://support.apple.com/zh-cn/111976"],
+  ["iphone-8-plus-2017", "Plus", "iPhone 8 Plus", "8 Plus", 2017, "https://support.apple.com/zh-cn/111950"],
+  ["iphone-x-2017", "Pro", "iPhone X", "X", 2017, "https://support.apple.com/zh-cn/111864"],
+  ["iphone-xr-2018", "standard", "iPhone XR", "XR", 2018, "https://support.apple.com/zh-cn/111868"],
+  ["iphone-xs-2018", "Pro", "iPhone XS", "XS", 2018, "https://support.apple.com/zh-cn/111881"],
+  ["iphone-xs-max-2018", "Pro Max", "iPhone XS Max", "XS Max", 2018, "https://support.apple.com/zh-cn/111880"],
+  ["iphone-11-2019", "standard", "iPhone 11", "11", 2019, "https://support.apple.com/zh-cn/111865"],
+  ["iphone-11-pro-2019", "Pro", "iPhone 11 Pro", "11 Pro", 2019, "https://support.apple.com/zh-cn/111879"],
+  ["iphone-11-pro-max-2019", "Pro Max", "iPhone 11 Pro Max", "11 Pro Max", 2019, "https://support.apple.com/zh-cn/111878"],
+  ["iphone-17e-2026", "e", "iPhone 17e", "17e", 2026, "https://support.apple.com/zh-cn/126470"],
+].map(([id, variant, modelName, generation, releaseYear, supportUrl]) => ({
+  device: {
+    id,
+    brand: "Apple",
+    category: "phone",
+    series: "iPhone",
+    family: "iPhone",
+    variant,
+    modelName,
+    generation,
+    generationOrder: 1,
+    releaseYear,
+    specs: {},
+    computed: {},
+  },
+  source: {
+    id,
+    category: "phone",
+    series: "iPhone",
+    modelName,
+    generation,
+    releaseYear,
+    sourcePageType: "apple_support_docs",
+    officialSpecUrl: null,
+    supportUrl,
+    newsroomUrl: ZH_LAUNCH_PRICES[id]?.[1] ?? null,
+    referenceUrls: REFERENCE_LAUNCH_PRICES[id] ? [REFERENCE_LAUNCH_PRICES[id].sourceUrl] : [],
+    sourceStatus: "verified",
+    notes: "Apple Support 中国简体中文技术规格页",
+  },
+}));
+
+const ZH_ONLY_IPADS = [
+  ["ipad-pro-9-7-2016", "iPad Pro", "11-inch", "iPad Pro（9.7 英寸）", "第 1 代 9.7 英寸", 2016, "https://support.apple.com/zh-cn/111965"],
+  ["ipad-5th-2017", "iPad", "standard", "iPad（第 5 代）", "第 5 代", 2017, "https://support.apple.com/zh-cn/111960"],
+  ["ipad-pro-10-5-2017", "iPad Pro", "11-inch", "iPad Pro（10.5 英寸）", "第 1 代 10.5 英寸", 2017, "https://support.apple.com/zh-cn/111927"],
+  ["ipad-pro-12-9-2nd-2017", "iPad Pro", "13-inch", "12.9 英寸 iPad Pro（第 2 代）", "第 2 代 12.9 英寸", 2017, "https://support.apple.com/zh-cn/111964"],
+  ["ipad-6th-2018", "iPad", "standard", "iPad（第 6 代）", "第 6 代", 2018, "https://support.apple.com/zh-cn/111957"],
+  ["ipad-pro-11-1st-2018", "iPad Pro", "11-inch", "11 英寸 iPad Pro（第 1 代）", "第 1 代 11 英寸", 2018, "https://support.apple.com/zh-cn/111974"],
+  ["ipad-pro-12-9-3rd-2018", "iPad Pro", "13-inch", "12.9 英寸 iPad Pro（第 3 代）", "第 3 代 12.9 英寸", 2018, "https://support.apple.com/zh-cn/111979"],
+  ["ipad-air-3rd-2019", "iPad Air", "11-inch", "iPad Air（第 3 代）", "第 3 代", 2019, "https://support.apple.com/zh-cn/111939"],
+  ["ipad-mini-5th-2019", "iPad mini", "standard", "iPad mini（第 5 代）", "第 5 代", 2019, "https://support.apple.com/zh-cn/111904"],
+  ["ipad-7th-2019", "iPad", "standard", "iPad（第 7 代）", "第 7 代", 2019, "https://support.apple.com/zh-cn/111911"],
+  ["ipad-pro-11-2nd-2020", "iPad Pro", "11-inch", "11 英寸 iPad Pro（第 2 代）", "第 2 代 11 英寸", 2020, "https://support.apple.com/zh-cn/118452"],
+  ["ipad-pro-12-9-4th-2020", "iPad Pro", "13-inch", "12.9 英寸 iPad Pro（第 4 代）", "第 4 代 12.9 英寸", 2020, "https://support.apple.com/zh-cn/111977"],
+  ["ipad-8th-2020", "iPad", "standard", "iPad（第 8 代）", "第 8 代", 2020, "https://support.apple.com/zh-cn/118451"],
+  ["ipad-air-4th-2020", "iPad Air", "11-inch", "iPad Air（第 4 代）", "第 4 代", 2020, "https://support.apple.com/zh-cn/111905"],
+  ["ipad-pro-11-m1-2021", "iPad Pro", "11-inch", "11 英寸 iPad Pro（第 3 代，M1）", "M1 11 英寸", 2021, "https://support.apple.com/zh-cn/111897"],
+  ["ipad-pro-12-9-m1-2021", "iPad Pro", "13-inch", "12.9 英寸 iPad Pro（第 5 代，M1）", "M1 12.9 英寸", 2021, "https://support.apple.com/zh-cn/111896"],
+  ["ipad-air-m1-2022", "iPad Air", "11-inch", "iPad Air（第 5 代，M1）", "M1", 2022, "https://support.apple.com/zh-cn/111887"],
+  ["ipad-air-13-m2-2024", "iPad Air", "13-inch", "13 英寸 iPad Air (M2)", "M2 13 英寸", 2024, "https://support.apple.com/zh-cn/119893"],
+  ["ipad-air-13-m3-2025", "iPad Air", "13-inch", "13 英寸 iPad Air (M3)", "M3 13 英寸", 2025, "https://support.apple.com/zh-cn/122242"],
+  ["ipad-air-13-m4-2026", "iPad Air", "13-inch", "13 英寸 iPad Air (M4)", "M4 13 英寸", 2026, "https://support.apple.com/zh-cn/126472"],
+].map(([id, family, variant, modelName, generation, releaseYear, supportUrl]) => ({
+  device: {
+    id,
+    brand: "Apple",
+    category: "tablet",
+    series: family,
+    family,
+    variant,
+    modelName,
+    generation,
+    generationOrder: 1,
+    releaseYear,
+    specs: {},
+    computed: {},
+  },
+  source: {
+    id,
+    category: "tablet",
+    series: family,
+    modelName,
+    generation,
+    releaseYear,
+    sourcePageType: "apple_support_docs",
+    officialSpecUrl: null,
+    supportUrl,
+    newsroomUrl: ZH_LAUNCH_PRICES[id][1],
+    referenceUrls: [],
+    sourceStatus: "verified",
+    notes: "Apple Support 中国简体中文技术规格页",
+  },
+}));
+
+const ZH_ONLY_MACBOOKS = [
+  ["macbook-12-2016", "MacBook", "12-inch", "base", "12 英寸 MacBook（2016 年初）", "2016", 2016, "https://support.apple.com/zh-tw/112033"],
+  ["macbook-pro-13-2-port-2016", "MacBook Pro", "13-inch-2-port", "base", "13 英寸 MacBook Pro（2016 年，两个雷雳 3 端口）", "2016 13 英寸双端口", 2016, "https://support.apple.com/zh-cn/111999"],
+  ["macbook-pro-13-4-port-2016", "MacBook Pro", "13-inch-4-port", "base", "13 英寸 MacBook Pro（2016 年，四个雷雳 3 端口）", "2016 13 英寸四端口", 2016, "https://support.apple.com/zh-cn/112003"],
+  ["macbook-pro-15-2016", "MacBook Pro", "15-inch", "base", "15 英寸 MacBook Pro（2016 年）", "2016 15 英寸", 2016, "https://support.apple.com/zh-cn/111975"],
+  ["macbook-12-2017", "MacBook", "12-inch", "base", "12 英寸 MacBook（2017 年）", "2017", 2017, "https://support.apple.com/zh-cn/111986"],
+  ["macbook-air-13-2017", "MacBook Air", "13-inch", "base", "13 英寸 MacBook Air（2017 年）", "2017 Intel", 2017, "https://support.apple.com/zh-cn/111924"],
+  ["macbook-pro-13-2-port-2017", "MacBook Pro", "13-inch-2-port", "base", "13 英寸 MacBook Pro（2017 年，两个雷雳 3 端口）", "2017 13 英寸双端口", 2017, "https://support.apple.com/zh-cn/111951"],
+  ["macbook-pro-13-4-port-2017", "MacBook Pro", "13-inch-4-port", "base", "13 英寸 MacBook Pro（2017 年，四个雷雳 3 端口）", "2017 13 英寸四端口", 2017, "https://support.apple.com/zh-cn/111972"],
+  ["macbook-pro-15-2017", "MacBook Pro", "15-inch", "base", "15 英寸 MacBook Pro（2017 年）", "2017 15 英寸", 2017, "https://support.apple.com/zh-cn/111947"],
+  ["macbook-air-13-2018", "MacBook Air", "13-inch", "base", "13 英寸 MacBook Air（视网膜显示屏，2018 年）", "2018 Intel", 2018, "https://support.apple.com/zh-cn/111933"],
+  ["macbook-pro-13-4-port-2018", "MacBook Pro", "13-inch-4-port", "base", "13 英寸 MacBook Pro（2018 年，四个雷雳 3 端口）", "2018 13 英寸四端口", 2018, "https://support.apple.com/zh-cn/111925"],
+  ["macbook-pro-15-2018", "MacBook Pro", "15-inch", "base", "15 英寸 MacBook Pro（2018 年）", "2018 15 英寸", 2018, "https://support.apple.com/zh-cn/111949"],
+  ["macbook-air-13-2019", "MacBook Air", "13-inch", "base", "13 英寸 MacBook Air（视网膜显示屏，2019 年）", "2019 Intel", 2019, "https://support.apple.com/zh-cn/111948"],
+  ["macbook-pro-13-2-port-2019", "MacBook Pro", "13-inch-2-port", "base", "13 英寸 MacBook Pro（2019 年，两个雷雳 3 端口）", "2019 13 英寸双端口", 2019, "https://support.apple.com/zh-cn/111945"],
+  ["macbook-pro-13-4-port-2019", "MacBook Pro", "13-inch-4-port", "base", "13 英寸 MacBook Pro（2019 年，四个雷雳 3 端口）", "2019 13 英寸四端口", 2019, "https://support.apple.com/zh-cn/111997"],
+  ["macbook-pro-15-2019", "MacBook Pro", "15-inch", "base", "15 英寸 MacBook Pro（2019 年）", "2019 15 英寸", 2019, "https://support.apple.com/zh-cn/111941"],
+  ["macbook-pro-16-2019", "MacBook Pro", "16-inch", "base", "16 英寸 MacBook Pro（2019 年）", "2019 16 英寸", 2019, "https://support.apple.com/zh-cn/111932"],
+  ["macbook-air-13-intel-2020", "MacBook Air", "13-inch", "base", "13 英寸 MacBook Air（视网膜显示屏，2020 年）", "2020 Intel", 2020, "https://support.apple.com/zh-cn/111991"],
+  ["macbook-pro-13-2-port-2020", "MacBook Pro", "13-inch-2-port", "base", "13 英寸 MacBook Pro（2020 年，两个雷雳 3 端口）", "2020 13 英寸双端口", 2020, "https://support.apple.com/zh-cn/111981"],
+  ["macbook-pro-13-4-port-2020", "MacBook Pro", "13-inch-4-port", "base", "13 英寸 MacBook Pro（2020 年，四个雷雳 3 端口）", "2020 13 英寸四端口", 2020, "https://support.apple.com/zh-cn/111339"],
+  ["macbook-pro-14-m1-pro-2021", "MacBook Pro", "14-inch", "pro", "14 英寸 MacBook Pro (M1 Pro)", "M1 Pro 14 英寸", 2021, "https://support.apple.com/zh-cn/111902"],
+  ["macbook-pro-14-m1-max-2021", "MacBook Pro", "14-inch", "max", "14 英寸 MacBook Pro (M1 Max)", "M1 Max 14 英寸", 2021, "https://support.apple.com/zh-cn/111902"],
+  ["macbook-pro-16-m1-pro-2021", "MacBook Pro", "16-inch", "pro", "16 英寸 MacBook Pro (M1 Pro)", "M1 Pro 16 英寸", 2021, "https://support.apple.com/zh-cn/111901"],
+  ["macbook-pro-16-m1-max-2021", "MacBook Pro", "16-inch", "max", "16 英寸 MacBook Pro (M1 Max)", "M1 Max 16 英寸", 2021, "https://support.apple.com/zh-cn/111901"],
+  ["macbook-pro-14-m2-pro-2023", "MacBook Pro", "14-inch", "pro", "14 英寸 MacBook Pro (M2 Pro)", "M2 Pro 14 英寸", 2023, "https://support.apple.com/zh-cn/111340"],
+  ["macbook-pro-14-m2-max-2023", "MacBook Pro", "14-inch", "max", "14 英寸 MacBook Pro (M2 Max)", "M2 Max 14 英寸", 2023, "https://support.apple.com/zh-cn/111340"],
+  ["macbook-air-15-m2-2023", "MacBook Air", "15-inch", "base", "15 英寸 MacBook Air (M2)", "M2 15 英寸", 2023, "https://support.apple.com/zh-cn/111346"],
+  ["macbook-pro-14-m3-2023", "MacBook Pro", "14-inch", "base", "14 英寸 MacBook Pro (M3)", "M3 14 英寸", 2023, "https://support.apple.com/zh-cn/117735"],
+  ["macbook-pro-14-m3-pro-2023", "MacBook Pro", "14-inch", "pro", "14 英寸 MacBook Pro (M3 Pro)", "M3 Pro 14 英寸", 2023, "https://support.apple.com/zh-cn/117736"],
+  ["macbook-pro-14-m3-max-2023", "MacBook Pro", "14-inch", "max", "14 英寸 MacBook Pro (M3 Max)", "M3 Max 14 英寸", 2023, "https://support.apple.com/zh-cn/117736"],
+  ["macbook-pro-16-m3-pro-2023", "MacBook Pro", "16-inch", "pro", "16 英寸 MacBook Pro (M3 Pro)", "M3 Pro 16 英寸", 2023, "https://support.apple.com/zh-cn/117737"],
+  ["macbook-pro-16-m3-max-2023", "MacBook Pro", "16-inch", "max", "16 英寸 MacBook Pro (M3 Max)", "M3 Max 16 英寸", 2023, "https://support.apple.com/zh-cn/117737"],
+  ["macbook-neo-13-2026", "MacBook Neo", "13-inch", "base", "MacBook Neo", "2026", 2026, "https://support.apple.com/zh-cn/126322"],
+].map(([id, family, variant, tier, modelName, generation, releaseYear, supportUrl]) => ({
+  device: {
+    id,
+    brand: "Apple",
+    category: "laptop",
+    series: family,
+    family,
+    variant,
+    tier,
+    modelName,
+    generation,
+    generationOrder: 1,
+    releaseYear,
+    specs: {},
+    computed: {},
+  },
+  source: {
+    id,
+    category: "laptop",
+    series: family,
+    modelName,
+    generation,
+    releaseYear,
+    sourcePageType: "apple_support_docs",
+    officialSpecUrl: null,
+    supportUrl,
+    newsroomUrl: ZH_LAUNCH_PRICES[id]?.[1] ?? null,
+    referenceUrls: [],
+    sourceStatus: "verified",
+    notes: "Apple Support 中国简体中文技术规格页",
+  },
+}));
+
+const IPHONE_GENERATION_GROUPS = [
+  ["iphone-7-2016", "iphone-8-2017", "iphone-xr-2018", "iphone-11-2019", "iphone-12", "iphone-13", "iphone-14", "iphone-15", "iphone-16", "iphone-17"],
+  ["iphone-7-plus-2016", "iphone-8-plus-2017", "iphone-14-plus", "iphone-15-plus", "iphone-16-plus"],
+  ["iphone-x-2017", "iphone-xs-2018", "iphone-11-pro-2019", "iphone-12-pro", "iphone-13-pro", "iphone-14-pro", "iphone-15-pro", "iphone-16-pro", "iphone-17-pro"],
+  ["iphone-xs-max-2018", "iphone-11-pro-max-2019", "iphone-12-pro-max", "iphone-13-pro-max", "iphone-14-pro-max", "iphone-15-pro-max", "iphone-16-pro-max", "iphone-17-pro-max"],
+  ["iphone-se-1-2016", "iphone-se-2-2020", "iphone-se-3-2022"],
+  ["iphone-16e-2025", "iphone-17e-2026"],
+];
+
+const IPAD_GENERATION_GROUPS = [
+  ["ipad-5th-2017", "ipad-6th-2018", "ipad-7th-2019", "ipad-8th-2020", "ipad-9th-2021", "ipad-10th-2022", "ipad-a16-2025"],
+  ["ipad-mini-5th-2019", "ipad-mini-6th-2021", "ipad-mini-a17-pro-2024"],
+  ["ipad-air-3rd-2019", "ipad-air-4th-2020", "ipad-air-m1-2022", "ipad-air-m2-2024", "ipad-air-m3-2025", "ipad-air-m4-2025"],
+  ["ipad-air-13-m2-2024", "ipad-air-13-m3-2025", "ipad-air-13-m4-2026"],
+  ["ipad-pro-9-7-2016", "ipad-pro-10-5-2017", "ipad-pro-11-1st-2018", "ipad-pro-11-2nd-2020", "ipad-pro-11-m1-2021", "ipad-pro-m2-2022", "ipad-pro-m4-11-2024", "ipad-pro-m5-11-2025"],
+  ["ipad-pro-12-9-2nd-2017", "ipad-pro-12-9-3rd-2018", "ipad-pro-12-9-4th-2020", "ipad-pro-12-9-m1-2021", "ipad-pro-m2-13-2022", "ipad-pro-m4-13-2024", "ipad-pro-m5-13-2025"],
+];
+
+const MACBOOK_GENERATION_GROUPS = [
+  ["macbook-12-2016", "macbook-12-2017"],
+  ["macbook-air-13-2017", "macbook-air-13-2018", "macbook-air-13-2019", "macbook-air-13-intel-2020", "macbook-air-13-m1-2020", "macbook-air-13-m2-2022", "macbook-air-13-m3-2024", "macbook-air-13-m4-2025", "macbook-air-13-m5-2026"],
+  ["macbook-air-15-m2-2023", "macbook-air-15-m3-2024", "macbook-air-15-m4-2025", "macbook-air-15-m5-2026"],
+  ["macbook-pro-13-m1-2020", "macbook-pro-13-m2-2022"],
+  ["macbook-pro-13-2-port-2016", "macbook-pro-13-2-port-2017", "macbook-pro-13-2-port-2019", "macbook-pro-13-2-port-2020"],
+  ["macbook-pro-13-4-port-2016", "macbook-pro-13-4-port-2017", "macbook-pro-13-4-port-2018", "macbook-pro-13-4-port-2019", "macbook-pro-13-4-port-2020"],
+  ["macbook-pro-15-2016", "macbook-pro-15-2017", "macbook-pro-15-2018", "macbook-pro-15-2019"],
+  ["macbook-pro-16-2019"],
+  ["macbook-pro-14-m3-2023", "macbook-pro-14-m4-2024", "macbook-pro-14-m5-2025"],
+  ["macbook-pro-14-m1-pro-2021", "macbook-pro-14-m2-pro-2023", "macbook-pro-14-m3-pro-2023", "macbook-pro-14-m4-pro-2024", "macbook-pro-14-m5-pro-2026"],
+  ["macbook-pro-14-m1-max-2021", "macbook-pro-14-m2-max-2023", "macbook-pro-14-m3-max-2023", "macbook-pro-14-m4-max-2024", "macbook-pro-14-m5-max-2026"],
+  ["macbook-pro-16-m1-pro-2021", "macbook-pro-16-m2-2023", "macbook-pro-16-m3-pro-2023", "macbook-pro-16-m4-2024", "macbook-pro-16-m5-2026"],
+  ["macbook-pro-16-m1-max-2021", "macbook-pro-16-m2-max-2023", "macbook-pro-16-m3-max-2023", "macbook-pro-16-m4-max-2024", "macbook-pro-16-m5-max-2026"],
+  ["macbook-neo-13-2026"],
+];
 
 const MACBOOK_CHIP_SPLITS = {
   "macbook-pro-16-m2-2023": [
@@ -67,9 +341,19 @@ const MACBOOK_CHIP_SPLITS = {
 };
 
 const EXPECTED_MISSING_LAUNCH_PRICES = new Set([
+  "macbook-12-2017",
+  "macbook-air-13-2017",
+  "macbook-pro-13-4-port-2017",
+  "macbook-pro-13-4-port-2020",
+  "macbook-pro-14-m1-max-2021",
+  "macbook-pro-14-m2-max-2023",
+  "macbook-pro-14-m3-max-2023",
   "macbook-pro-16-m2-max-2023",
   "macbook-pro-14-m4-max-2024",
   "macbook-pro-16-m4-2024",
+  "macbook-pro-15-2017",
+  "macbook-pro-16-m1-max-2021",
+  "macbook-pro-16-m3-max-2023",
 ]);
 
 const GENERATION_UPGRADE_RECALCULATIONS = {
@@ -127,14 +411,14 @@ const FIELD_TARGETS = {
 
 const SECTION_NAMES = {
   finish: /^(外观|颜色)$/,
-  capacity: /^(容量|存储容量|存储设备)$/,
-  size: /^尺寸(与|和)?重量$/,
-  display: /^(显示屏|显示器)$/,
+  capacity: /^(容量|存储容量|存储设备|儲存設備)$/,
+  size: /^尺寸(与|和|與)?重量$/,
+  display: /^(显示屏|显示器|顯示器)$/,
   water: /防溅|抗水|防尘/,
-  chip: /^芯片$/,
+  chip: /^(芯片|处理器|處理器)$/,
   memory: /^内存$/,
   camera: /^(摄像头|相机)$/,
-  frontCamera: /原深感摄像头|前置摄像头|超广角摄像头/,
+  frontCamera: /原深感摄像头|前置摄像头|超广角摄像头|FaceTime.*摄像头/i,
   video: /^视频拍摄$/,
   security: /^(面容 ID|触控 ID|Touch ID)$/i,
   safety: /^安全功能$/,
@@ -327,8 +611,8 @@ function parseScreenSize(device, sections, display) {
     if (match) return { value: Number(match[1]), raw };
   }
 
-  const direct = first(display, /([\d.]+)\s*英寸.*(?:对角线|显示屏)/);
-  const directMatch = direct?.match(/([\d.]+)\s*英寸/);
+  const direct = first(display, /([\d.]+)\s*(?:英寸|吋).*(?:对角线|對角線|显示屏|顯示器)/);
+  const directMatch = direct?.match(/([\d.]+)\s*(?:英寸|吋)/);
   if (directMatch) return { value: Number(directMatch[1]), raw: direct };
 
   const simple = first(blocks, /(?:屏幕|机型)为\s*([\d.]+)\s*英寸/);
@@ -388,15 +672,16 @@ function extractField(device, fieldName, sections, oldField, sourceUrl) {
   }
   if (fieldName === "displayType") {
     const selected = unique([
-      first(display, /视网膜.*显示屏|Retina.*显示屏/i),
-      first(display, /OLED|mini-LED|IPS 技术/),
+      first(display, /视网膜.*显示屏|Retina.*(?:显示屏|顯示器)/i),
+      first(display, /OLED|mini-LED|IPS (?:技术|技術)/),
       first(display, /ProMotion/),
       first(display, /全天候显示/),
     ]);
+    if (!selected.length) selected.push(first(display, /显示屏|显示器|顯示器/));
     return spec(selected.join("；"), selected.join("；"), oldField, sourceUrl);
   }
   if (fieldName === "resolution") {
-    const raw = first(display, /(?:\d+\s*x\s*\d+.*分辨率|分辨率\s*\d+\s*x\s*\d+)/);
+    const raw = first(display, /(?:\d+\s*x\s*\d+.*(?:分辨率|解析度)|(?:分辨率|解析度)[^。；]{0,180}\d+\s*x\s*\d+)/);
     return spec(raw, raw, oldField, sourceUrl);
   }
   if (fieldName === "refreshRate") {
@@ -410,8 +695,13 @@ function extractField(device, fieldName, sections, oldField, sourceUrl) {
     return values.length ? spec(Math.max(...values), raw, oldField, sourceUrl) : null;
   }
   if (fieldName === "chip") {
-    const raw = first(chip, /芯片|Apple\s+[AM]\d+|A\d+\s*仿生/i);
-    return spec(raw, raw, oldField, sourceUrl);
+    const raw = first(chip, /芯片|Apple\s+[AM]\d+|A\d+(?:\s*仿生)?|Intel Core/i)
+      ?? first(blocks, /Intel Core/i);
+    const intelModels = raw
+      ? unique([...raw.matchAll(/Intel Core\s+([a-z]\d)/gi)].map((match) => match[1]))
+      : [];
+    const value = intelModels.length ? `Intel Core ${intelModels[0]}` : raw;
+    return spec(value, raw, oldField, sourceUrl);
   }
   if (fieldName === "cpu") {
     const raw = ["pro", "max"].includes(device.tier)
@@ -593,6 +883,24 @@ async function resolveTechSpecUrl(supportUrl) {
 }
 
 async function refreshLaunchPrice(device) {
+  const reference = REFERENCE_LAUNCH_PRICES[device.id];
+  if (reference) {
+    return {
+      value: reference.value,
+      unit: "CNY",
+      rawText: reference.rawText,
+      sourceUrl: reference.sourceUrl,
+      sourceType: "reference",
+      confidence: 0.7,
+      verifiedAt: VERIFIED_AT,
+      priceType: "launch",
+      market: "中国大陆",
+      configuration: reference.configuration,
+      condition: "全新首发定价",
+      observedAt: reference.observedAt,
+      sourceName: reference.sourceName,
+    };
+  }
   const configured = ZH_LAUNCH_PRICES[device.id];
   const value = configured?.[0] ?? device.specs.launchPrice?.value;
   const sourceUrl = configured?.[1] ?? device.specs.launchPrice?.sourceUrl;
@@ -600,9 +908,12 @@ async function refreshLaunchPrice(device) {
   const html = await fetchHtml(sourceUrl);
   const sections = parseSections(html);
   const formatted = Number(value).toLocaleString("en-US");
-  const raw = first(allBlocks(sections), new RegExp(`(?:RMB|人民币|¥|起售价)[^；。]{0,240}${formatted.replace(",", "[,]?")}|${formatted.replace(",", "[,]?")}[^；。]{0,240}(?:起售价|人民币|RMB)`));
+  const pricePattern = new RegExp(`(?:RMB|人民币|¥|起售价)[^；。]{0,240}${formatted.replace(",", "[,]?")}|${formatted.replace(",", "[,]?")}[^；。]{0,240}(?:起售价|人民币|RMB)`);
+  const pageText = decodeHtml(html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, "").replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, ""));
+  const raw = first(allBlocks(sections), pricePattern)
+    ?? pageText.match(new RegExp(`.{0,180}(?:${pricePattern.source}).{0,180}`))?.[0];
   if (!raw) throw new Error(`${device.id}: 中文首发价原文缺失 (${sourceUrl})`);
-  return spec(value, raw, device.specs.launchPrice, sourceUrl);
+  return spec(value, raw, device.specs.launchPrice ?? { unit: "CNY" }, sourceUrl);
 }
 
 const [englishDatabase, englishSources] = await Promise.all([
@@ -610,7 +921,12 @@ const [englishDatabase, englishSources] = await Promise.all([
   fs.readFile(EN_SOURCES_PATH, "utf8").then(JSON.parse),
 ]);
 const { devices: englishDevices } = englishDatabase;
-const sourceById = new Map(Object.values(englishSources).flat().map((row) => [row.id, row]));
+const zhOnlyDevices = [...ZH_ONLY_IPHONES, ...ZH_ONLY_IPADS, ...ZH_ONLY_MACBOOKS];
+const sourceDevices = [...englishDevices, ...zhOnlyDevices.map(({ device }) => device)];
+const sourceById = new Map([
+  ...Object.values(englishSources).flat().map((row) => [row.id, row]),
+  ...zhOnlyDevices.map(({ source }) => [source.id, source]),
+]);
 const zhSources = Object.fromEntries(Object.keys(englishSources).map((category) => [category, []]));
 const zhDevices = [];
 const missing = [];
@@ -665,13 +981,13 @@ function recalculateGenerationUpgrade(device) {
   };
 }
 
-for (const sourceDevice of englishDevices) {
+for (const sourceDevice of sourceDevices) {
   const oldSource = sourceById.get(sourceDevice.id);
   const supportUrl = await resolveTechSpecUrl(oldSource.supportUrl);
   const html = await fetchHtml(supportUrl);
   const sections = parseSections(html);
   const title = sections[0]?.heading ?? "";
-  if (!/[\u4e00-\u9fff]/.test(html) || !/技术规格/.test(title)) {
+  if (!/[\u4e00-\u9fff]/.test(html) || !/技(?:术规格|術規格)/.test(title)) {
     throw new Error(`${sourceDevice.id}: 不是简体中文技术规格页 (${supportUrl})`);
   }
 
@@ -701,11 +1017,38 @@ for (const sourceDevice of englishDevices) {
       officialSpecUrl: null,
       supportUrl,
       newsroomUrl: ZH_LAUNCH_PRICES[device.id]?.[1] ?? oldSource.newsroomUrl,
+      ...(oldSource.referenceUrls?.length ? { referenceUrls: oldSource.referenceUrls } : {}),
       sourceStatus: "verified",
       notes: "Apple Support 中国简体中文技术规格页",
     });
     console.log(`${device.id}: ${Object.keys(specs).length} fields <- ${supportUrl}`);
   }
+}
+
+const devicesById = new Map(zhDevices.map((device) => [device.id, device]));
+for (const ids of [...IPHONE_GENERATION_GROUPS, ...IPAD_GENERATION_GROUPS, ...MACBOOK_GENERATION_GROUPS]) {
+  ids.forEach((id, index) => {
+    const device = devicesById.get(id);
+    if (!device) throw new Error(`代际设备缺失: ${id}`);
+    device.generationOrder = index + 1;
+    const magnitude = device.computed?.generationUpgradeMagnitude;
+    if (index > 0 && magnitude?.comparedTo == null) delete device.computed.generationUpgradeMagnitude;
+    if (index > 0 && magnitude?.comparedTo && magnitude.comparedTo !== ids[index - 1]) {
+      delete device.computed.generationUpgradeMagnitude;
+    }
+    if (index === 0 && !magnitude) {
+      device.computed.generationUpgradeMagnitude = {
+        value: null,
+        comparedTo: null,
+        changeSummary: "该设备为该比较组第一代，无可对比前代",
+        scoreBreakdown: "无对比前代",
+        confidence: 0,
+        computedAt: VERIFIED_AT,
+        sourceType: "computed",
+        verifiedAt: VERIFIED_AT,
+      };
+    }
+  });
 }
 
 await Promise.all([

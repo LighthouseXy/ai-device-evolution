@@ -3,27 +3,34 @@ import fs from "node:fs";
 
 const { metadata, devices } = JSON.parse(fs.readFileSync("src/data/apple-devices-db.json", "utf8"));
 const expectedGroups = new Map([
-  ["laptop|MacBook Air|13-inch|base", ["macbook-air-13-m1-2020", "macbook-air-13-m2-2022", "macbook-air-13-m3-2024", "macbook-air-13-m4-2025", "macbook-air-13-m5-2026"]],
-  ["laptop|MacBook Air|15-inch|base", ["macbook-air-15-m3-2024", "macbook-air-15-m4-2025", "macbook-air-15-m5-2026"]],
+  ["laptop|MacBook|12-inch|base", ["macbook-12-2016", "macbook-12-2017"]],
+  ["laptop|MacBook Air|13-inch|base", ["macbook-air-13-2017", "macbook-air-13-2018", "macbook-air-13-2019", "macbook-air-13-intel-2020", "macbook-air-13-m1-2020", "macbook-air-13-m2-2022", "macbook-air-13-m3-2024", "macbook-air-13-m4-2025", "macbook-air-13-m5-2026"]],
+  ["laptop|MacBook Air|15-inch|base", ["macbook-air-15-m2-2023", "macbook-air-15-m3-2024", "macbook-air-15-m4-2025", "macbook-air-15-m5-2026"]],
+  ["laptop|MacBook Neo|13-inch|base", ["macbook-neo-13-2026"]],
   ["laptop|MacBook Pro|13-inch|base", ["macbook-pro-13-m1-2020", "macbook-pro-13-m2-2022"]],
-  ["laptop|MacBook Pro|14-inch|base", ["macbook-pro-14-m4-2024", "macbook-pro-14-m5-2025"]],
-  ["laptop|MacBook Pro|14-inch|pro", ["macbook-pro-14-m4-pro-2024", "macbook-pro-14-m5-pro-2026"]],
-  ["laptop|MacBook Pro|14-inch|max", ["macbook-pro-14-m4-max-2024", "macbook-pro-14-m5-max-2026"]],
-  ["laptop|MacBook Pro|16-inch|pro", ["macbook-pro-16-m2-2023", "macbook-pro-16-m4-2024", "macbook-pro-16-m5-2026"]],
-  ["laptop|MacBook Pro|16-inch|max", ["macbook-pro-16-m2-max-2023", "macbook-pro-16-m4-max-2024", "macbook-pro-16-m5-max-2026"]],
+  ["laptop|MacBook Pro|13-inch-2-port|base", ["macbook-pro-13-2-port-2016", "macbook-pro-13-2-port-2017", "macbook-pro-13-2-port-2019", "macbook-pro-13-2-port-2020"]],
+  ["laptop|MacBook Pro|13-inch-4-port|base", ["macbook-pro-13-4-port-2016", "macbook-pro-13-4-port-2017", "macbook-pro-13-4-port-2018", "macbook-pro-13-4-port-2019", "macbook-pro-13-4-port-2020"]],
+  ["laptop|MacBook Pro|14-inch|base", ["macbook-pro-14-m3-2023", "macbook-pro-14-m4-2024", "macbook-pro-14-m5-2025"]],
+  ["laptop|MacBook Pro|14-inch|pro", ["macbook-pro-14-m1-pro-2021", "macbook-pro-14-m2-pro-2023", "macbook-pro-14-m3-pro-2023", "macbook-pro-14-m4-pro-2024", "macbook-pro-14-m5-pro-2026"]],
+  ["laptop|MacBook Pro|14-inch|max", ["macbook-pro-14-m1-max-2021", "macbook-pro-14-m2-max-2023", "macbook-pro-14-m3-max-2023", "macbook-pro-14-m4-max-2024", "macbook-pro-14-m5-max-2026"]],
+  ["laptop|MacBook Pro|15-inch|base", ["macbook-pro-15-2016", "macbook-pro-15-2017", "macbook-pro-15-2018", "macbook-pro-15-2019"]],
+  ["laptop|MacBook Pro|16-inch|base", ["macbook-pro-16-2019"]],
+  ["laptop|MacBook Pro|16-inch|pro", ["macbook-pro-16-m1-pro-2021", "macbook-pro-16-m2-2023", "macbook-pro-16-m3-pro-2023", "macbook-pro-16-m4-2024", "macbook-pro-16-m5-2026"]],
+  ["laptop|MacBook Pro|16-inch|max", ["macbook-pro-16-m1-max-2021", "macbook-pro-16-m2-max-2023", "macbook-pro-16-m3-max-2023", "macbook-pro-16-m4-max-2024", "macbook-pro-16-m5-max-2026"]],
   ["phone|iPhone|Air", ["iphone-air"]],
-  ["phone|iPhone|Plus", ["iphone-14-plus", "iphone-15-plus", "iphone-16-plus"]],
-  ["phone|iPhone|Pro Max", ["iphone-12-pro-max", "iphone-13-pro-max", "iphone-14-pro-max", "iphone-15-pro-max", "iphone-16-pro-max", "iphone-17-pro-max"]],
-  ["phone|iPhone|Pro", ["iphone-12-pro", "iphone-13-pro", "iphone-14-pro", "iphone-15-pro", "iphone-16-pro", "iphone-17-pro"]],
-  ["phone|iPhone|SE", ["iphone-se-2-2020", "iphone-se-3-2022"]],
-  ["phone|iPhone|e", ["iphone-16e-2025"]],
+  ["phone|iPhone|Plus", ["iphone-7-plus-2016", "iphone-8-plus-2017", "iphone-14-plus", "iphone-15-plus", "iphone-16-plus"]],
+  ["phone|iPhone|Pro Max", ["iphone-xs-max-2018", "iphone-11-pro-max-2019", "iphone-12-pro-max", "iphone-13-pro-max", "iphone-14-pro-max", "iphone-15-pro-max", "iphone-16-pro-max", "iphone-17-pro-max"]],
+  ["phone|iPhone|Pro", ["iphone-x-2017", "iphone-xs-2018", "iphone-11-pro-2019", "iphone-12-pro", "iphone-13-pro", "iphone-14-pro", "iphone-15-pro", "iphone-16-pro", "iphone-17-pro"]],
+  ["phone|iPhone|SE", ["iphone-se-1-2016", "iphone-se-2-2020", "iphone-se-3-2022"]],
+  ["phone|iPhone|e", ["iphone-16e-2025", "iphone-17e-2026"]],
   ["phone|iPhone|mini", ["iphone-12-mini", "iphone-13-mini"]],
-  ["phone|iPhone|standard", ["iphone-12", "iphone-13", "iphone-14", "iphone-15", "iphone-16", "iphone-17"]],
-  ["tablet|iPad Air|11-inch", ["ipad-air-m2-2024", "ipad-air-m3-2025", "ipad-air-m4-2025"]],
-  ["tablet|iPad Pro|11-inch", ["ipad-pro-m2-2022", "ipad-pro-m4-11-2024", "ipad-pro-m5-11-2025"]],
-  ["tablet|iPad Pro|13-inch", ["ipad-pro-m2-13-2022", "ipad-pro-m4-13-2024", "ipad-pro-m5-13-2025"]],
-  ["tablet|iPad mini|standard", ["ipad-mini-6th-2021", "ipad-mini-a17-pro-2024"]],
-  ["tablet|iPad|standard", ["ipad-10th-2022", "ipad-9th-2021", "ipad-a16-2025"]],
+  ["phone|iPhone|standard", ["iphone-7-2016", "iphone-8-2017", "iphone-xr-2018", "iphone-11-2019", "iphone-12", "iphone-13", "iphone-14", "iphone-15", "iphone-16", "iphone-17"]],
+  ["tablet|iPad Air|11-inch", ["ipad-air-3rd-2019", "ipad-air-4th-2020", "ipad-air-m1-2022", "ipad-air-m2-2024", "ipad-air-m3-2025", "ipad-air-m4-2025"]],
+  ["tablet|iPad Air|13-inch", ["ipad-air-13-m2-2024", "ipad-air-13-m3-2025", "ipad-air-13-m4-2026"]],
+  ["tablet|iPad Pro|11-inch", ["ipad-pro-9-7-2016", "ipad-pro-10-5-2017", "ipad-pro-11-1st-2018", "ipad-pro-11-2nd-2020", "ipad-pro-11-m1-2021", "ipad-pro-m2-2022", "ipad-pro-m4-11-2024", "ipad-pro-m5-11-2025"]],
+  ["tablet|iPad Pro|13-inch", ["ipad-pro-12-9-2nd-2017", "ipad-pro-12-9-3rd-2018", "ipad-pro-12-9-4th-2020", "ipad-pro-12-9-m1-2021", "ipad-pro-m2-13-2022", "ipad-pro-m4-13-2024", "ipad-pro-m5-13-2025"]],
+  ["tablet|iPad mini|standard", ["ipad-mini-5th-2019", "ipad-mini-6th-2021", "ipad-mini-a17-pro-2024"]],
+  ["tablet|iPad|standard", ["ipad-5th-2017", "ipad-6th-2018", "ipad-7th-2019", "ipad-8th-2020", "ipad-9th-2021", "ipad-10th-2022", "ipad-a16-2025"]],
 ]);
 
 const deprecatedSpecKeys = ["hdmi", "sdxc", "magsafe"];
@@ -39,8 +46,9 @@ const canonicalBooleanKeys = [
   "magicKeyboard",
 ];
 const pollutedTextPattern = /^(?:\s*:root\{|\s*!function\()|globalNavData/i;
+const trustedReferenceHosts = new Set(["tc.people.com.cn", "mobile.zol.com.cn"]);
 
-assert.equal(devices.length, 63, "主数据应包含 63 台设备");
+assert.equal(devices.length, 129, "主数据应包含 129 台设备");
 assert.equal(metadata.totalDevices, devices.length, "metadata.totalDevices 与实际设备数不一致");
 assert.equal(new Set(devices.map((device) => device.id)).size, devices.length, "设备 id 必须唯一");
 
@@ -66,6 +74,12 @@ for (const device of devices) {
     assert.ok(typeof field.sourceUrl === "string", `${device.id}.${key}: sourceUrl 缺失`);
     assert.match(field.sourceUrl, /^https:\/\//, `${device.id}.${key}: sourceUrl 非法`);
     assert.ok(["apple", "reference"].includes(field.sourceType), `${device.id}.${key}: sourceType 非法`);
+    const hostname = new URL(field.sourceUrl).hostname;
+    if (field.sourceType === "apple") {
+      assert.ok(["support.apple.com", "www.apple.com.cn"].includes(hostname), `${device.id}.${key}: Apple 来源域名非法`);
+    } else {
+      assert.ok(trustedReferenceHosts.has(hostname), `${device.id}.${key}: 第三方来源域名不受信任`);
+    }
     assert.ok(typeof field.confidence === "number" && field.confidence >= 0 && field.confidence <= 1, `${device.id}.${key}: confidence 非法`);
     assert.ok(typeof field.verifiedAt === "string", `${device.id}.${key}: verifiedAt 缺失`);
     assert.match(field.verifiedAt, /^\d{4}-\d{2}-\d{2}$/, `${device.id}.${key}: verifiedAt 非法`);
@@ -146,13 +160,14 @@ const sourceUrls = specFields.map((field) => field?.sourceUrl).filter(Boolean);
 const rawTexts = specFields.map((field) => field?.rawText).filter((value) => typeof value === "string");
 const sourceAudit = {
   specFields: specFields.length,
-  supportZhCn: sourceUrls.filter((url) => url.includes("support.apple.com/zh-cn/")).length,
+  supportZhCn: sourceUrls.filter((url) => /support\.apple\.com\/zh-(?:cn|tw)\//.test(url)).length,
   appleChina: sourceUrls.filter((url) => url.startsWith("https://www.apple.com.cn/")).length,
+  reference: specFields.filter((field) => field?.sourceType === "reference").length,
   rawTextEnglishLike: rawTexts.filter((text) => /[A-Za-z]{3}/.test(text)).length,
   rawTextChineseLike: rawTexts.filter((text) => /[\u4e00-\u9fff]/.test(text)).length,
 };
 
-assert.equal(sourceAudit.supportZhCn + sourceAudit.appleChina, sourceAudit.specFields, "规格来源必须全部来自 Apple 中国简体中文页面");
+assert.equal(sourceAudit.supportZhCn + sourceAudit.appleChina + sourceAudit.reference, sourceAudit.specFields, "规格来源必须来自已登记的 Apple 中文页面或受信任第三方");
 
 console.log("sourceAudit", JSON.stringify(sourceAudit));
 console.log(`device taxonomy validation passed: ${devices.length} devices, ${groups.size} groups`);

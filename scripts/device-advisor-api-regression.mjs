@@ -136,7 +136,7 @@ const scenarios = [
           const messages = Array.isArray(requestBody.messages) ? requestBody.messages : [];
           const userMessage = messages.find((message) => message.role === "user")?.content ?? "";
           assert.match(userMessage, /answer、recommendedDeviceIds、confidence/);
-          assert.match(userMessage, /不得把首发价描述成当前市场价/);
+          assert.match(userMessage, /首发价仅供历史参考，不代表当前市场价，也不得用于判断是否符合预算/);
           const retry = messages.some((message) =>
             typeof message.content === "string" &&
             message.content.includes("This is a retry after an invalid or truncated answer."),
