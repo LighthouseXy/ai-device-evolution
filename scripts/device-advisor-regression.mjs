@@ -131,7 +131,8 @@ const scenarios = [
     },
     expect(output) {
       assertSimpleFallback(output, "laptop");
-      assert.match(output.answer, /对应成色价格尚未收录，暂按发布时间/);
+      assert.match(output.answer, /按对应成色的预算接近度和发布时间/);
+      assert.ok(output.devices.some((device) => /识货，2026-08-24/.test(device.priceText)));
     },
   },
   {

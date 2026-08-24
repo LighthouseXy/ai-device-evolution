@@ -117,6 +117,22 @@ const REFERENCE_LAUNCH_PRICES = {
 };
 
 const REFERENCE_CURRENT_PRICES = {
+  "ipad-a16-2025": {
+    value: 2830,
+    sourceUrl: "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=7124264&styleId=434762522",
+    sourceName: "识货",
+    rawText: "截至8月24日，识货为您实时监控全网14家正品放心店铺。当前同款同规格全网最低价为¥2830，来自百亿补贴店铺。",
+    configuration: "银色，128GB，WLAN 版",
+    observedAt: "2026-08-24",
+  },
+  "ipad-air-m4-2025": {
+    value: 4540,
+    sourceUrl: "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=8785051&styleId=945737998",
+    sourceName: "识货",
+    rawText: "截至8月24日，识货为您实时监控全网9家正品放心店铺。当前同款同规格全网最低价为¥4540，来自百亿补贴店铺。",
+    configuration: "紫色，128GB，WLAN 版，官方标配，中国大陆版本",
+    observedAt: "2026-08-24",
+  },
   "iphone-17": {
     value: 5380,
     sourceUrl: "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=7929787&styleId=713169122",
@@ -139,6 +155,23 @@ const REFERENCE_CURRENT_PRICES = {
     sourceName: "识货",
     rawText: "截至8月24日，识货为您实时监控全网20家正品放心店铺。当前同款同规格全网最低价为¥8210，来自百亿补贴店铺。",
     configuration: "银色，256GB，中国大陆版本",
+    observedAt: "2026-08-24",
+  },
+  "macbook-air-13-m5-2026": {
+    value: 8000,
+    sourceUrl: "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=8785010&styleId=945732557",
+    sourceName: "识货",
+    rawText: "截至8月24日，识货为您实时监控全网5家正品放心店铺。当前同款同规格全网最低价为¥8000，来自官方店铺。",
+    configuration: "天蓝色，M5 10 核 CPU / 8 核 GPU，16GB 内存，512GB 存储",
+    condition: "全新，识货聚合官方店铺最低价；优惠资格与库存以来源页为准",
+    observedAt: "2026-08-24",
+  },
+  "macbook-pro-14-m5-2025": {
+    value: 13200,
+    sourceUrl: "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=8212827&styleId=797735436",
+    sourceName: "识货",
+    rawText: "截至8月24日，识货为您实时监控全网2家正品放心店铺。当前同款同规格全网最低价为¥1.32万，来自百亿补贴店铺。",
+    configuration: "银色，M5 10 核 CPU / 10 核 GPU，16GB 内存，1TB 存储",
     observedAt: "2026-08-24",
   },
 };
@@ -957,7 +990,7 @@ function currentPriceSnapshot(device) {
     priceType: "current",
     market: "中国大陆",
     configuration: reference.configuration,
-    condition: "全新，识货聚合百亿补贴店铺最低价；优惠资格与库存以来源页为准",
+    condition: reference.condition ?? "全新，识货聚合百亿补贴店铺最低价；优惠资格与库存以来源页为准",
     observedAt: reference.observedAt,
     sourceName: reference.sourceName,
   };
