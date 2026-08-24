@@ -67,7 +67,10 @@ function getPriceText(
   const launchPrice = specNum(device.specs.launchPrice);
 
   if (conditionPreference === "used_ok" && usedPrice !== undefined) {
-    return `二手价 ${formatMaybeCurrency(usedPrice)}`;
+    const source = device.specs.usedPrice?.sourceName;
+    const observedAt = device.specs.usedPrice?.observedAt;
+    const snapshot = [source, observedAt].filter(Boolean).join("，");
+    return `二手价 ${formatMaybeCurrency(usedPrice)}${snapshot ? `（${snapshot}）` : ""}`;
   }
   if (currentPrice !== undefined) {
     const source = device.specs.currentPrice?.sourceName;

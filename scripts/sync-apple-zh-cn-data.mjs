@@ -312,6 +312,18 @@ const REFERENCE_CURRENT_PRICES = {
   },
 };
 
+const REFERENCE_USED_PRICES = {
+  "iphone-15": {
+    value: 3299,
+    sourceUrl: "https://pro.m.jd.com/mall/active/4JRfHorUDXgL77E9YdNxSCNMKwkJ/index.html?bbtf=1&currSku=10101352914801&fromName=tongtianta&pageNum=1&queryType=1&rankId=3746997&rankType=10",
+    sourceName: "京东苹果二手手机热卖榜",
+    rawText: "苹果 iPhone 15 国行正品，全网通 5G，双卡双待，蓝色，99 新，256G，页面价 3299 元。",
+    configuration: "蓝色，256GB，国行正品，全网通 5G，双卡双待",
+    condition: "二手，99 新，支持验机；优惠与库存以来源页为准",
+    observedAt: "2026-08-24",
+  },
+};
+
 const ZH_ONLY_IPHONES = [
   ["iphone-7-2016", "standard", "iPhone 7", "7", 2016, "https://support.apple.com/zh-cn/111943"],
   ["iphone-7-plus-2016", "Plus", "iPhone 7 Plus", "7 Plus", 2016, "https://support.apple.com/zh-cn/111953"],
@@ -1112,8 +1124,7 @@ async function refreshLaunchPrice(device) {
   return spec(value, raw, device.specs.launchPrice ?? { unit: "CNY" }, sourceUrl);
 }
 
-function currentPriceSnapshot(device) {
-  const reference = REFERENCE_CURRENT_PRICES[device.id];
+function marketPriceSnapshot(reference, priceType) {
   if (!reference) return null;
   return {
     value: reference.value,
@@ -1123,13 +1134,21 @@ function currentPriceSnapshot(device) {
     sourceType: reference.sourceType ?? "reference",
     confidence: reference.sourceType === "apple" ? 1 : 0.7,
     verifiedAt: reference.observedAt,
-    priceType: "current",
+    priceType,
     market: "中国大陆",
     configuration: reference.configuration,
     condition: reference.condition ?? "全新，识货聚合百亿补贴店铺最低价；优惠资格与库存以来源页为准",
     observedAt: reference.observedAt,
     sourceName: reference.sourceName,
   };
+}
+
+function currentPriceSnapshot(device) {
+  return marketPriceSnapshot(REFERENCE_CURRENT_PRICES[device.id], "current");
+}
+
+function usedPriceSnapshot(device) {
+  return marketPriceSnapshot(REFERENCE_USED_PRICES[device.id], "used");
 }
 
 const [englishDatabase, englishSources] = await Promise.all([
@@ -1221,12 +1240,15 @@ for (const sourceDevice of sourceDevices) {
     else if (device.specs.launchPrice?.value != null && !EXPECTED_MISSING_LAUNCH_PRICES.has(device.id)) missing.push(`${device.id}.launchPrice`);
     const currentPrice = currentPriceSnapshot(device);
     if (currentPrice) specs.currentPrice = currentPrice;
+    const usedPrice = usedPriceSnapshot(device);
+    if (usedPrice) specs.usedPrice = usedPrice;
 
     const modelName = localizeModelName(device.modelName);
     const releaseYear = device.id === "ipad-air-m4-2025" ? 2026 : device.releaseYear;
     zhDevices.push(recalculateGenerationUpgrade({ ...device, modelName, releaseYear, specs }));
     const referenceUrls = new Set(oldSource.referenceUrls ?? []);
     if (REFERENCE_CURRENT_PRICES[device.id]) referenceUrls.add(REFERENCE_CURRENT_PRICES[device.id].sourceUrl);
+    if (REFERENCE_USED_PRICES[device.id]) referenceUrls.add(REFERENCE_USED_PRICES[device.id].sourceUrl);
     zhSources[device.category].push({
       ...oldSource,
       id: device.id,
