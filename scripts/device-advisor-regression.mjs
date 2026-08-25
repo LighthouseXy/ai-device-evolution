@@ -398,9 +398,31 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
+      assertSimpleFallback(output, "laptop", 2);
+      assert.deepEqual(
+        output.devices.map((device) => device.deviceId),
+        ["macbook-air-15-m4-2025", "macbook-pro-14-m3-2023"],
+      );
+      assert.ok(
+        output.devices.every((device) =>
+          /二手价 ¥7,899（九机二手良品，2026-08-25）/.test(device.priceText ?? ""),
+        ),
+      );
+    },
+  },
+  {
+    name: "laptop_used_mainland_macbook_air_m4_price",
+    input: {
+      category: "laptop",
+      budget: { min: 8600, max: 8700, currency: "CNY" },
+      useCases: ["移动办公", "开发"],
+      conditionPreference: "used_ok",
+      maxResults: 3,
+    },
+    expect(output) {
       assertSimpleFallback(output, "laptop", 1);
-      assert.equal(output.devices[0]?.deviceId, "macbook-pro-14-m3-2023");
-      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥7,899（九机二手良品，2026-08-25）/);
+      assert.equal(output.devices[0]?.deviceId, "macbook-air-13-m4-2025");
+      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥8,649（九机二手良品，2026-08-25）/);
     },
   },
   {
