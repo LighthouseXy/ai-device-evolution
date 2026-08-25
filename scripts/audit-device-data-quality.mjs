@@ -127,7 +127,7 @@ for (const [category, categoryDevices] of devicesByCategory) {
 const needsReview = sourceRows.filter((row) => row.sourceStatus === "needs_review").map((row) => row.id);
 assert.ok(sourceRows.every((row) => ["verified", "needs_review"].includes(row.sourceStatus)), "来源登记状态非法");
 assert.equal(sourceAudit.supportZhCn + sourceAudit.appleChina + sourceAudit.reference, sourceAudit.fields, "仍有字段未使用已登记来源");
-assert.equal(sourceAudit.reference, 39, "第三方价格字段数量发生变化");
+assert.equal(sourceAudit.reference, 40, "第三方价格字段数量发生变化");
 assert.deepEqual(needsReview, [], "仍有设备来源待人工复核");
 
 const missingLaptopLaunchPrices = devices
@@ -206,6 +206,7 @@ assert.equal(
 );
 
 const usedPriceSnapshots = {
+  "macbook-pro-14-m3-2023": [7899, "九机二手良品", "2026-08-25", /二手.*8 成新.*86%-90%.*未检出维修痕迹.*底部有明显使用痕迹.*少量亮斑、亮点或坏点.*不含充电适配器和充电线.*一机一价/],
   "macbook-air-13-m1-2020": [2709, "京东爱回收严选官方旗舰店", "2026-08-25", /二手.*8 成新.*80%-90%/],
   "macbook-air-13-m2-2022": [3979, "京东爱回收严选官方旗舰店", "2026-08-25", /二手.*8 成新.*90% 以上/],
   "macbook-air-13-m3-2024": [4799, "九机二手良品", "2026-08-25", /二手.*9 成新.*91%-95%.*未检出维修痕迹/],

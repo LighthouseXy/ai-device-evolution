@@ -313,6 +313,15 @@ const REFERENCE_CURRENT_PRICES = {
 };
 
 const REFERENCE_USED_PRICES = {
+  "macbook-pro-14-m3-2023": {
+    value: 7899,
+    sourceUrl: "https://m2.9ji.com/secondHand/detail/1139126",
+    sourceName: "九机二手良品",
+    rawText: "苹果 MacBook Pro 2023 款 M3 版 14 英寸国行二手笔记本，深空灰色，16GB 内存，1TB 存储，8 成新，电池寿命 86%-90%，未检出维修痕迹，页面价 7899 元。",
+    configuration: "14 英寸 MacBook Pro，M3，深空灰色，16GB 内存，1TB 存储，国行",
+    condition: "二手，8 成新，电池寿命 86%-90%，未检出维修痕迹；机身多处有轻微使用痕迹，底部有明显使用痕迹，键盘轻微磨损，屏幕有轻微老化及少量亮斑、亮点或坏点；不含充电适配器和充电线；一机一价，以来源页库存为准",
+    observedAt: "2026-08-25",
+  },
   "macbook-air-13-m1-2020": {
     value: 2709,
     sourceUrl: "https://item.m.jd.com/product/10084690426313.html",

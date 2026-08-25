@@ -389,6 +389,21 @@ const scenarios = [
     },
   },
   {
+    name: "laptop_used_mainland_macbook_pro_m3_price",
+    input: {
+      category: "laptop",
+      budget: { min: 7850, max: 7950, currency: "CNY" },
+      useCases: ["开发", "视频剪辑"],
+      conditionPreference: "used_ok",
+      maxResults: 3,
+    },
+    expect(output) {
+      assertSimpleFallback(output, "laptop", 1);
+      assert.equal(output.devices[0]?.deviceId, "macbook-pro-14-m3-2023");
+      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥7,899（九机二手良品，2026-08-25）/);
+    },
+  },
+  {
     name: "laptop_usb_c_budget_pressure",
     input: {
       category: "laptop",
