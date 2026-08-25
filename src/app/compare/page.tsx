@@ -32,7 +32,7 @@ type ComparisonField = {
   label: string;
   hint?: string;
   getValue: (device: (typeof allDevicesFlat)[number]) => string;
-  getMeta?: (device: (typeof allDevicesFlat)[number]) => string | null;
+  getMeta?: (device: (typeof allDevicesFlat)[number]) => string[] | null;
   isNumeric?: boolean;
   isCurrency?: boolean;
 };
@@ -40,9 +40,16 @@ type ComparisonField = {
 function formatPriceMeta(price: PriceField | undefined) {
   if (typeof price?.value !== "number") return null;
 
-  return [price.sourceName, price.observedAt ? `采集于 ${price.observedAt}` : null]
+  const source = [price.sourceName, price.observedAt ? `采集于 ${price.observedAt}` : null]
     .filter((value): value is string => Boolean(value))
-    .join(" · ") || null;
+    .join(" · ");
+  const lines = [
+    source,
+    price.configuration ? `配置：${price.configuration}` : null,
+    price.condition ? `状态：${price.condition}` : null,
+  ].filter((value): value is string => Boolean(value));
+
+  return lines.length > 0 ? lines : null;
 }
 
 const comparisonFields: ComparisonField[] = [
@@ -316,22 +323,26 @@ function CompareTable({
                       <span>{field.label}</span>
                       {field.hint ? <small>{field.hint}</small> : null}
                     </div>
-                    {devices.map((device, index) => (
-                      <div
-                        className={`compare-v2-cell${index === 0 ? " is-highlight" : ""}${index === 0 && hasChanged ? " has-change" : ""}`}
-                        key={device.id}
-                      >
-                        <span className="compare-v2-value">
-                          <span>{buildComparisonValue(device, field)}</span>
-                          {field.getMeta?.(device) ? <small>{field.getMeta(device)}</small> : null}
-                        </span>
-                        {index === 0 && hasChanged ? (
-                          <span className="compare-change-badge is-up">
-                            {compareValueLabel(field, previousValue, latestValue)}
+                    {devices.map((device, index) => {
+                      const meta = field.getMeta?.(device);
+
+                      return (
+                        <div
+                          className={`compare-v2-cell${index === 0 ? " is-highlight" : ""}${index === 0 && hasChanged ? " has-change" : ""}`}
+                          key={device.id}
+                        >
+                          <span className="compare-v2-value">
+                            <span>{buildComparisonValue(device, field)}</span>
+                            {meta?.map((line) => <small key={line}>{line}</small>)}
                           </span>
-                        ) : null}
-                      </div>
-                    ))}
+                          {index === 0 && hasChanged ? (
+                            <span className="compare-change-badge is-up">
+                              {compareValueLabel(field, previousValue, latestValue)}
+                            </span>
+                          ) : null}
+                        </div>
+                      );
+                    })}
                   </div>
                 );
               })}

@@ -995,6 +995,7 @@ p {
 .compare-v2-value {
   min-width: 0;
   display: grid;
+  gap: 0.15rem;
 }
 
 .compare-v2-cell.is-highlight {
