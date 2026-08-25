@@ -169,6 +169,21 @@ const scenarios = [
     },
   },
   {
+    name: "tablet_used_mainland_ipad_air_m4_price",
+    input: {
+      category: "tablet",
+      budget: { min: 5200, max: 5250, currency: "CNY" },
+      useCases: ["学习", "绘画"],
+      conditionPreference: "used_ok",
+      maxResults: 3,
+    },
+    expect(output) {
+      assertSimpleFallback(output, "tablet", 1);
+      assert.equal(output.devices[0]?.deviceId, "ipad-air-m4-2025");
+      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥5,229（京东 99 成新二手平板电脑折扣榜，2026-08-25）/);
+    },
+  },
+  {
     name: "phone_condition_battery_pressure",
     input: {
       category: "phone",

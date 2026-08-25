@@ -475,6 +475,15 @@ const REFERENCE_USED_PRICES = {
     condition: "二手，99 新；优惠与库存以来源页为准",
     observedAt: "2026-08-24",
   },
+  "ipad-air-m4-2025": {
+    value: 5229,
+    sourceUrl: "https://pro.m.jd.com/mall/active/4JRfHorUDXgL77E9YdNxSCNMKwkJ/index.html?bbtf=1&currSku=10168796231033&fromName=tongtianta&pageNum=1&preSrc=&queryType=1&rankId=2670823&rankType=16&transparent=1",
+    sourceName: "京东 99 成新二手平板电脑折扣榜",
+    rawText: "苹果 iPad Air 8 (M4) 国行零售机二手平板电脑，11 英寸 256G，Wi-Fi 版，准新品，官方在保，页面标称充电次数个位数、基本全新，页面价 5229 元。",
+    configuration: "11 英寸 iPad Air (M4)，256GB，国行零售机，Wi-Fi 版",
+    condition: "二手准新品，官方在保，页面标称充电次数个位数、基本全新；优惠与库存以来源页为准",
+    observedAt: "2026-08-25",
+  },
   "ipad-pro-m5-11-2025": {
     value: 8089,
     sourceUrl: "https://pro.m.jd.com/mall/active/262hj8JXjPNHbFPKvdQFWUeer8kw/index.html?bbtf=1&rankId=2670823&showhead=no&source=tongtiantah5",

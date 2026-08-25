@@ -127,7 +127,7 @@ for (const [category, categoryDevices] of devicesByCategory) {
 const needsReview = sourceRows.filter((row) => row.sourceStatus === "needs_review").map((row) => row.id);
 assert.ok(sourceRows.every((row) => ["verified", "needs_review"].includes(row.sourceStatus)), "来源登记状态非法");
 assert.equal(sourceAudit.supportZhCn + sourceAudit.appleChina + sourceAudit.reference, sourceAudit.fields, "仍有字段未使用已登记来源");
-assert.equal(sourceAudit.reference, 31, "第三方价格字段数量发生变化");
+assert.equal(sourceAudit.reference, 32, "第三方价格字段数量发生变化");
 assert.deepEqual(needsReview, [], "仍有设备来源待人工复核");
 
 const missingLaptopLaunchPrices = devices
@@ -224,6 +224,7 @@ const usedPriceSnapshots = {
   "iphone-15": [3299, "京东苹果二手手机热卖榜", "2026-08-24", /二手.*99 新/],
   "iphone-15-pro": [4449, "京东 NFC 二手手机热卖榜", "2026-08-25", /二手.*99 新/],
   "ipad-a16-2025": [2909, "京东 99 成新二手平板电脑榜", "2026-08-24", /二手.*99 新/],
+  "ipad-air-m4-2025": [5229, "京东 99 成新二手平板电脑折扣榜", "2026-08-25", /二手准新品.*官方在保.*充电次数个位数.*基本全新/],
   "ipad-pro-m5-11-2025": [8089, "京东 99 成新二手平板电脑榜", "2026-08-24", /二手.*99 新/],
 };
 for (const [deviceId, [price, sourceName, observedAt, conditionPattern]] of Object.entries(usedPriceSnapshots)) {
