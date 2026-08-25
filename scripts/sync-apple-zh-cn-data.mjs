@@ -1044,6 +1044,15 @@ function parseTieredStorage(blocks, tier) {
   return { value: unique(values).join(" / ") || null, raw: unique(evidence).join("；") };
 }
 
+function parseMemory(blocks, tier) {
+  const withoutStorageDetails = blocks.map((block) => block.replace(/存储容量为[^)）]*/g, ""));
+  const parsed = parseTieredStorage(withoutStorageDetails, tier);
+  return {
+    value: parsed.value,
+    raw: ["pro", "max"].includes(tier) ? parsed.raw : blocks.join("；"),
+  };
+}
+
 function parseWeight(blocks, tier) {
   const tierName = tier === "pro" ? "Pro" : tier === "max" ? "Max" : null;
   const raw = (tierName ? first(blocks, new RegExp(`重量.*M\\d+ ${tierName} 机型`)) : null)
@@ -1204,7 +1213,7 @@ function extractField(device, fieldName, sections, oldField, sourceUrl) {
     const selected = ["pro", "max"].includes(device.tier)
       ? source.filter((block) => block.length <= 600 && !/内存带宽/.test(block) && /\b\d+GB\b/.test(block))
       : source.filter((block) => block.length <= 300 && !/内存带宽/.test(block) && (/^\d+GB.*(?:统一)?内存/.test(block) || /可选配/.test(block)));
-    const parsed = parseTieredStorage(selected, device.tier);
+    const parsed = parseMemory(selected, device.tier);
     return spec(parsed.value, parsed.raw, oldField, sourceUrl);
   }
   if (fieldName === "storage") {

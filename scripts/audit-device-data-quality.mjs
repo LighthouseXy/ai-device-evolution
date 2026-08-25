@@ -296,6 +296,18 @@ for (const [deviceId, score] of Object.entries(recalculatedUpgradeScores)) {
 
 // 这些值曾因共享产品页抓取而串到相邻型号，固定回归断言可阻止同类错误重新进入比较结果。
 const correctedSpecs = {
+  "ipad-pro-11-m1-2021": {
+    memory: "8GB / 16GB",
+  },
+  "ipad-pro-12-9-m1-2021": {
+    memory: "8GB / 16GB",
+  },
+  "ipad-pro-m2-2022": {
+    memory: "8GB / 16GB",
+  },
+  "ipad-pro-m2-13-2022": {
+    memory: "8GB / 16GB",
+  },
   "macbook-air-13-2018": {
     storage: "128GB / 256GB / 512GB / 1.5TB",
   },

@@ -11,8 +11,8 @@ type CompareSeriesSelectProps = {
   categories: Array<{ label: string; value: string }>;
   selectedCategory: string;
   selectedSeries: string;
-  storageOptions: string[];
-  selectedStorage: string;
+  configurationOptions: Array<{ label: string; value: string }>;
+  selectedConfiguration: string;
   selectedWindow: string;
 };
 
@@ -21,8 +21,8 @@ export default function CompareSeriesSelect({
   categories,
   selectedCategory,
   selectedSeries,
-  storageOptions,
-  selectedStorage,
+  configurationOptions,
+  selectedConfiguration,
   selectedWindow,
 }: CompareSeriesSelectProps) {
   const router = useRouter();
@@ -33,10 +33,10 @@ export default function CompareSeriesSelect({
     router.push(`/compare?${params.toString()}`);
   };
 
-  const navigateToStorage = (storage: string) => {
+  const navigateToConfiguration = (configuration: string) => {
     const params = new URLSearchParams({
+      configuration,
       series: selectedSeries,
-      storage,
       window: selectedWindow,
     });
     router.push(`/compare?${params.toString()}`);
@@ -85,19 +85,19 @@ export default function CompareSeriesSelect({
       </div>
 
       <div className="compare-selector-group">
-        <label className="compare-selector-label" htmlFor="compare-storage">
-          存储配置
+        <label className="compare-selector-label" htmlFor="compare-configuration">
+          配置（运行内存 + 存储）
         </label>
         <select
-          id="compare-storage"
-          name="storage"
+          id="compare-configuration"
+          name="configuration"
           className="compare-select-control"
-          value={selectedStorage}
-          onChange={(event) => navigateToStorage(event.currentTarget.value)}
+          value={selectedConfiguration}
+          onChange={(event) => navigateToConfiguration(event.currentTarget.value)}
         >
-          {storageOptions.map((storage) => (
-            <option key={storage} value={storage}>
-              {storage}
+          {configurationOptions.map((configuration) => (
+            <option key={configuration.value} value={configuration.value}>
+              {configuration.label}
             </option>
           ))}
         </select>

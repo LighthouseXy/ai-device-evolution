@@ -23,7 +23,9 @@ import TickDivider from "@/components/layout/TickDivider";
 import CompareSeriesSelect from "@/components/CompareSeriesSelect";
 
 type SearchParams = {
+  configuration?: string | string[];
   series?: string | string[];
+  // 兼容上一版仅按存储选择的链接。
   storage?: string | string[];
   window?: string | string[];
 };
@@ -39,7 +41,22 @@ type ComparisonField = {
   showChange?: boolean;
 };
 
-const STORAGE_PATTERN = /(\d+(?:\.\d+)?)\s*(TB|GB)/gi;
+type DeviceConfiguration = {
+  key: string;
+  memory: string | null;
+  storage: string;
+};
+
+const CAPACITY_PATTERN = /(\d+(?:\.\d+)?)\s*(TB|GB)/gi;
+const EXPLICIT_MEMORY_PATTERN = /(\d+(?:\.\d+)?)\s*GB\s*(?:统一)?内存/i;
+
+function configurationKey(memory: string | null, storage: string) {
+  return `${memory ?? "unknown"}|${storage}`;
+}
+
+function formatConfigurationLabel(configuration: DeviceConfiguration) {
+  return `运行内存 ${configuration.memory ?? "待补充"} · 存储 ${configuration.storage}`;
+}
 
 function storageSizeInGb(storage: string) {
   const match = storage.match(/^(\d+(?:\.\d+)?)(TB|GB)$/i);
@@ -50,59 +67,97 @@ function storageSizeInGb(storage: string) {
 
 function extractStorageOptions(value: string | undefined) {
   if (!value) return [];
-  return Array.from(value.matchAll(STORAGE_PATTERN), (match) => `${match[1]}${match[2].toUpperCase()}`);
+  return Array.from(value.matchAll(CAPACITY_PATTERN), (match) => `${match[1]}${match[2].toUpperCase()}`);
 }
 
 function getDeviceStorageOptions(device: (typeof allDevicesFlat)[number]) {
   return extractStorageOptions(device.specs?.storage as string | undefined);
 }
 
-function buildStorageOptions(devices: (typeof allDevicesFlat)[number][]) {
-  return Array.from(new Set(devices.flatMap(getDeviceStorageOptions))).sort(
-    (left, right) => storageSizeInGb(left) - storageSizeInGb(right),
+function getDeviceMemoryOptions(device: (typeof allDevicesFlat)[number]) {
+  const storageOptions = new Set(getDeviceStorageOptions(device));
+  return extractStorageOptions(device.specs?.memory as string | undefined)
+    .filter((memory) => memory.endsWith("GB") && !storageOptions.has(memory))
+    .sort((left, right) => storageSizeInGb(left) - storageSizeInGb(right));
+}
+
+function getPriceConfiguration(
+  device: (typeof allDevicesFlat)[number],
+  price: PriceField | undefined,
+): DeviceConfiguration | null {
+  const rawConfiguration = price?.configuration;
+  if (!rawConfiguration) return null;
+
+  const normalized = rawConfiguration.toUpperCase().replaceAll(" ", "");
+  const storage = getDeviceStorageOptions(device).find((option) => normalized.includes(option));
+  if (!storage) return null;
+
+  const explicitMemory = rawConfiguration.match(EXPLICIT_MEMORY_PATTERN);
+  const memoryOptions = getDeviceMemoryOptions(device);
+  const memory = explicitMemory
+    ? `${explicitMemory[1]}GB`
+    : memoryOptions.length === 1 || getDeviceStorageOptions(device)[0] === storage
+      ? memoryOptions[0] ?? null
+      : null;
+
+  return { key: configurationKey(memory, storage), memory, storage };
+}
+
+function getKnownDeviceConfigurations(device: (typeof allDevicesFlat)[number]) {
+  const storage = getDeviceStorageOptions(device)[0];
+  if (!storage) return [];
+
+  const memory = getDeviceMemoryOptions(device)[0] ?? null;
+  const configurations = [
+    { key: configurationKey(memory, storage), memory, storage },
+    getPriceConfiguration(device, device.currentPrice),
+    getPriceConfiguration(device, device.usedPrice),
+  ].filter((value): value is DeviceConfiguration => value !== null);
+
+  return Array.from(new Map(configurations.map((configuration) => [configuration.key, configuration])).values());
+}
+
+function buildConfigurationOptions(devices: (typeof allDevicesFlat)[number][]) {
+  const configurations = new Map<string, DeviceConfiguration & { count: number }>();
+  for (const device of devices) {
+    for (const configuration of getKnownDeviceConfigurations(device)) {
+      const existing = configurations.get(configuration.key);
+      configurations.set(configuration.key, {
+        ...configuration,
+        count: (existing?.count ?? 0) + 1,
+      });
+    }
+  }
+
+  return Array.from(configurations.values()).sort(
+    (left, right) =>
+      storageSizeInGb(left.storage) - storageSizeInGb(right.storage)
+      || storageSizeInGb(left.memory ?? "") - storageSizeInGb(right.memory ?? ""),
   );
 }
 
-function pickDefaultStorage(
-  devices: (typeof allDevicesFlat)[number][],
-  storageOptions: string[],
-) {
-  return storageOptions
-    .map((storage) => ({
-      storage,
-      count: devices.filter((device) => getDeviceStorageOptions(device).includes(storage)).length,
-    }))
-    .sort(
-      (left, right) =>
-        right.count - left.count || storageSizeInGb(left.storage) - storageSizeInGb(right.storage),
-    )[0]?.storage ?? "";
+function pickDefaultConfiguration(configurations: Array<DeviceConfiguration & { count: number }>) {
+  return configurations.slice().sort(
+    (left, right) =>
+      right.count - left.count
+      || storageSizeInGb(left.storage) - storageSizeInGb(right.storage)
+      || storageSizeInGb(left.memory ?? "") - storageSizeInGb(right.memory ?? ""),
+  )[0] ?? null;
 }
 
-function getPriceStorage(
+function getPriceForConfiguration(
   device: (typeof allDevicesFlat)[number],
-  price: PriceField | undefined,
-) {
-  const configuration = price?.configuration?.toUpperCase().replaceAll(" ", "");
-  if (!configuration) return null;
-  return getDeviceStorageOptions(device).find((storage) => configuration.includes(storage)) ?? null;
-}
-
-function getPriceForStorage(
-  device: (typeof allDevicesFlat)[number],
-  priceType: "launch" | "current" | "used",
-  storage: string,
+  priceType: "current" | "used",
+  selectedConfiguration: DeviceConfiguration,
 ) {
   const storageOptions = getDeviceStorageOptions(device);
-  if (!storageOptions.includes(storage)) return "未提供";
+  if (!storageOptions.includes(selectedConfiguration.storage)) return "未提供";
 
-  if (priceType === "launch") {
-    return storageOptions[0] === storage
-      ? formatMaybeCurrency(device.launchPrice)
-      : "待补充";
-  }
+  const memoryOptions = getDeviceMemoryOptions(device);
+  if (selectedConfiguration.memory && !memoryOptions.includes(selectedConfiguration.memory)) return "未提供";
 
   const price = priceType === "current" ? device.currentPrice : device.usedPrice;
-  return getPriceStorage(device, price) === storage
+  return getPriceConfiguration(device, price)?.key === selectedConfiguration.key
     ? formatMaybeCurrency(price?.value ?? undefined)
     : "待补充";
 }
@@ -155,13 +210,14 @@ const deviceComparisonFields: ComparisonField[] = [
   },
 ];
 
-function buildComparisonFields(storage: string): ComparisonField[] {
+function buildComparisonFields(configuration: DeviceConfiguration): ComparisonField[] {
+  const configurationLabel = formatConfigurationLabel(configuration);
   return [
     {
       group: "价格",
       label: "当前价",
-      hint: storage,
-      getValue: (device) => getPriceForStorage(device, "current", storage),
+      hint: configurationLabel,
+      getValue: (device) => getPriceForConfiguration(device, "current", configuration),
       isNumeric: true,
       isCurrency: true,
       showChange: false,
@@ -169,8 +225,8 @@ function buildComparisonFields(storage: string): ComparisonField[] {
     {
       group: "价格",
       label: "二手价",
-      hint: storage,
-      getValue: (device) => getPriceForStorage(device, "used", storage),
+      hint: configurationLabel,
+      getValue: (device) => getPriceForConfiguration(device, "used", configuration),
       isNumeric: true,
       isCurrency: true,
       showChange: false,
@@ -184,7 +240,7 @@ function normalizeSeries(value: string | string[] | undefined) {
   return typeof raw === "string" && raw.trim().length > 0 ? raw : "";
 }
 
-function normalizeStorage(value: string | string[] | undefined) {
+function normalizeConfiguration(value: string | string[] | undefined) {
   const raw = Array.isArray(value) ? value[0] : value;
   return typeof raw === "string" && raw.trim().length > 0 ? raw : "";
 }
@@ -320,13 +376,7 @@ function buildSeriesOptions() {
     });
 }
 
-function CompareOverview({
-  devices,
-  storage,
-}: {
-  devices: (typeof allDevicesFlat)[number][];
-  storage: string;
-}) {
+function CompareOverview({ devices }: { devices: (typeof allDevicesFlat)[number][] }) {
   return (
     <div className="compare-overview">
       {devices.map((device, index) => (
@@ -338,9 +388,7 @@ function CompareOverview({
           >
             <div className="compare-overview-model">{device.model}</div>
             <div className="compare-overview-year">{device.releaseYear}</div>
-            <div className="compare-overview-price">
-              首发价（{storage}）{getPriceForStorage(device, "launch", storage)}
-            </div>
+            <div className="compare-overview-price">{formatMaybeCurrency(device.launchPrice)}</div>
           </Link>
         </div>
       ))}
@@ -350,12 +398,12 @@ function CompareOverview({
 
 function CompareTable({
   devices,
-  storage,
+  configuration,
 }: {
   devices: (typeof allDevicesFlat)[number][];
-  storage: string;
+  configuration: DeviceConfiguration;
 }) {
-  const comparisonFields = buildComparisonFields(storage);
+  const comparisonFields = buildComparisonFields(configuration);
   const groupedFields = Array.from(
     comparisonFields.reduce((groups, field) => {
       const fields = groups.get(field.group) ?? [];
@@ -460,10 +508,16 @@ export default async function ComparePage({
     .map((category) => ({ value: category, label: categoryLabels[category] }));
   const selectedWindow = normalizeWindow(resolvedSearchParams.window);
   const seriesDevices = getDevicesByComparisonGroupKeyFlat(selectedSeries);
-  const storageOptions = buildStorageOptions(seriesDevices);
-  const defaultStorage = pickDefaultStorage(seriesDevices, storageOptions);
-  const requestedStorage = normalizeStorage(resolvedSearchParams.storage);
-  const selectedStorage = storageOptions.includes(requestedStorage) ? requestedStorage : defaultStorage;
+  const configurationOptions = buildConfigurationOptions(seriesDevices);
+  const defaultConfiguration = pickDefaultConfiguration(configurationOptions);
+  const requestedConfiguration = normalizeConfiguration(
+    resolvedSearchParams.configuration ?? resolvedSearchParams.storage,
+  );
+  const selectedConfiguration = configurationOptions.find(
+    (configuration) =>
+      configuration.key === requestedConfiguration
+      || (!requestedConfiguration.includes("|") && configuration.storage === requestedConfiguration),
+  ) ?? defaultConfiguration;
   const visibleDevices = (
     selectedWindow === "all"
       ? seriesDevices.slice()
@@ -503,8 +557,11 @@ export default async function ComparePage({
             categories={categoryOptions}
             selectedCategory={selectedCategory}
             selectedSeries={selectedSeries}
-            storageOptions={storageOptions}
-            selectedStorage={selectedStorage}
+            configurationOptions={configurationOptions.map((configuration) => ({
+              label: formatConfigurationLabel(configuration),
+              value: configuration.key,
+            }))}
+            selectedConfiguration={selectedConfiguration?.key ?? ""}
             selectedWindow={selectedWindow}
           />
 
@@ -518,7 +575,7 @@ export default async function ComparePage({
               ].map((item) => {
                 const params = new URLSearchParams();
                 params.set("series", selectedSeries);
-                params.set("storage", selectedStorage);
+                if (selectedConfiguration) params.set("configuration", selectedConfiguration.key);
                 params.set("window", item.key);
                 const active = item.key === selectedWindow;
 
@@ -540,8 +597,10 @@ export default async function ComparePage({
 
       <section className="compare-section">
         <div className="compare-inner">
-          <CompareOverview devices={visibleDevices} storage={selectedStorage} />
-          <CompareTable devices={visibleDevices} storage={selectedStorage} />
+          <CompareOverview devices={visibleDevices} />
+          {selectedConfiguration ? (
+            <CompareTable devices={visibleDevices} configuration={selectedConfiguration} />
+          ) : null}
           <CompareInsight analysis={analysis} />
         </div>
       </section>
