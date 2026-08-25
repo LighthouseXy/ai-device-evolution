@@ -98,7 +98,7 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
-      assertSimpleFallback(output, "laptop");
+      assertSimpleFallback(output, "laptop", 2);
     },
   },
   {
@@ -187,6 +187,22 @@ const scenarios = [
       assert.equal(output.devices[0]?.deviceId, "iphone-14");
       assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥2,449（京东商务二手手机热卖榜，2026-08-25）/);
       assert.ok(output.devices.every((device) => /（(?:京东 ?(?:商务|NFC|苹果) ?二手手机热卖榜|识货|Apple 中国大陆在线商店)，2026-08-(?:24|25)）/.test(device.priceText)));
+    },
+  },
+  {
+    name: "laptop_used_mainland_price",
+    input: {
+      category: "laptop",
+      budget: { min: 2000, max: 3000, currency: "CNY" },
+      useCases: ["办公", "学习"],
+      conditionPreference: "used_ok",
+      interfaceNeed: "usb_c",
+      maxResults: 3,
+    },
+    expect(output) {
+      assertSimpleFallback(output, "laptop", 1);
+      assert.equal(output.devices[0]?.deviceId, "macbook-air-13-m1-2020");
+      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥2,709（京东爱回收严选官方旗舰店，2026-08-25）/);
     },
   },
   {

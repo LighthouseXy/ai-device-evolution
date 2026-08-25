@@ -31,7 +31,7 @@ const reportFields = [
   "rearCamera",
   "frontCamera",
 ];
-const trustedReferenceHosts = new Set(["tc.people.com.cn", "mobile.zol.com.cn", "www.shihuo.cn", "pro.m.jd.com"]);
+const trustedReferenceHosts = new Set(["tc.people.com.cn", "mobile.zol.com.cn", "www.shihuo.cn", "pro.m.jd.com", "item.m.jd.com"]);
 
 const hasValue = (device, field) => device.specs?.[field]?.value !== null && device.specs?.[field]?.value !== undefined;
 const sourceIds = sourceRows.map((row) => row.id);
@@ -127,7 +127,7 @@ for (const [category, categoryDevices] of devicesByCategory) {
 const needsReview = sourceRows.filter((row) => row.sourceStatus === "needs_review").map((row) => row.id);
 assert.ok(sourceRows.every((row) => ["verified", "needs_review"].includes(row.sourceStatus)), "来源登记状态非法");
 assert.equal(sourceAudit.supportZhCn + sourceAudit.appleChina + sourceAudit.reference, sourceAudit.fields, "仍有字段未使用已登记来源");
-assert.equal(sourceAudit.reference, 19, "第三方价格字段数量发生变化");
+assert.equal(sourceAudit.reference, 20, "第三方价格字段数量发生变化");
 assert.deepEqual(needsReview, [], "仍有设备来源待人工复核");
 
 const missingLaptopLaunchPrices = devices
@@ -206,22 +206,23 @@ assert.equal(
 );
 
 const usedPriceSnapshots = {
-  "iphone-14": [2449, "京东商务二手手机热卖榜", "2026-08-25"],
-  "iphone-14-pro": [3749, "京东 NFC 二手手机热卖榜", "2026-08-25"],
-  "iphone-14-pro-max": [3899, "京东 NFC 二手手机热卖榜", "2026-08-25"],
-  "iphone-15": [3299, "京东苹果二手手机热卖榜", "2026-08-24"],
-  "iphone-15-pro": [4449, "京东 NFC 二手手机热卖榜", "2026-08-25"],
-  "ipad-a16-2025": [2909, "京东 99 成新二手平板电脑榜", "2026-08-24"],
-  "ipad-pro-m5-11-2025": [8089, "京东 99 成新二手平板电脑榜", "2026-08-24"],
+  "macbook-air-13-m1-2020": [2709, "京东爱回收严选官方旗舰店", "2026-08-25", /二手.*8 成新.*80%-90%/],
+  "iphone-14": [2449, "京东商务二手手机热卖榜", "2026-08-25", /二手.*99 新/],
+  "iphone-14-pro": [3749, "京东 NFC 二手手机热卖榜", "2026-08-25", /二手.*99 新/],
+  "iphone-14-pro-max": [3899, "京东 NFC 二手手机热卖榜", "2026-08-25", /二手.*99 新/],
+  "iphone-15": [3299, "京东苹果二手手机热卖榜", "2026-08-24", /二手.*99 新/],
+  "iphone-15-pro": [4449, "京东 NFC 二手手机热卖榜", "2026-08-25", /二手.*99 新/],
+  "ipad-a16-2025": [2909, "京东 99 成新二手平板电脑榜", "2026-08-24", /二手.*99 新/],
+  "ipad-pro-m5-11-2025": [8089, "京东 99 成新二手平板电脑榜", "2026-08-24", /二手.*99 新/],
 };
-for (const [deviceId, [price, sourceName, observedAt]] of Object.entries(usedPriceSnapshots)) {
+for (const [deviceId, [price, sourceName, observedAt, conditionPattern]] of Object.entries(usedPriceSnapshots)) {
   const field = devicesById.get(deviceId)?.specs.usedPrice;
   assert.equal(field?.value, price, `${deviceId}.usedPrice: 二手价格快照发生回归`);
   assert.equal(field?.sourceType, "reference", `${deviceId}.usedPrice: 来源类型发生回归`);
   assert.equal(field?.confidence, 0.7, `${deviceId}.usedPrice: 置信度发生回归`);
   assert.equal(field?.sourceName, sourceName, `${deviceId}.usedPrice: 来源发生回归`);
   assert.equal(field?.observedAt, observedAt, `${deviceId}.usedPrice: 采集日期发生回归`);
-  assert.match(field?.condition ?? "", /二手.*99 新/, `${deviceId}.usedPrice: 成色发生回归`);
+  assert.match(field?.condition ?? "", conditionPattern, `${deviceId}.usedPrice: 成色发生回归`);
 }
 assert.equal(
   devices.filter((device) => hasValue(device, "usedPrice")).length,

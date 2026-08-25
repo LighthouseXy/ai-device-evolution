@@ -136,6 +136,7 @@ const scenarios = [
           const messages = Array.isArray(requestBody.messages) ? requestBody.messages : [];
           const userMessage = messages.find((message) => message.role === "user")?.content ?? "";
           assert.match(userMessage, /answer、recommendedDeviceIds、confidence/);
+          assert.match(userMessage, /低于 min 或高于 max.*不得称为预算内/);
           assert.match(userMessage, /首发价仅供历史参考，不代表当前市场价，也不得用于判断是否符合预算/);
           const retry = messages.some((message) =>
             typeof message.content === "string" &&

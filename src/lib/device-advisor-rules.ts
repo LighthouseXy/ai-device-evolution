@@ -203,10 +203,14 @@ export function buildDeviceAdvisorContext(input: DeviceAdvisorInput) {
   const budget = normalizeBudget(input.budget) ?? null;
   const conditionPreference =
     normalizeConditionPreference(input.conditionPreference) ?? "new_only";
+  const candidates = allDevices
+    .filter((device) => category === "all" || device.category === category)
+    .map((device) => normalizeCandidate(device, conditionPreference));
+  const budgetMatches = budget
+    ? candidates.filter((candidate) => isWithinBudget(candidate.referencePrice, budget))
+    : [];
   const candidateShortlist = sortCandidates(
-    allDevices
-      .filter((device) => category === "all" || device.category === category)
-      .map((device) => normalizeCandidate(device, conditionPreference)),
+    budgetMatches.length ? budgetMatches : candidates,
     budget,
   ).slice(0, MAX_SHORTLIST);
 
@@ -325,6 +329,7 @@ export function buildDeviceAdvisorPrompt(input: DeviceAdvisorInput): string {
     "只能推荐 candidateShortlist 中的设备，不允许编造机型、价格或 facts 中没有的规格。",
     "answer 用 150 到 300 个汉字说明推荐哪几款、为什么以及主要取舍，不使用 Markdown、列表或虚构的精确评分。",
     "referencePrice 只会使用 priceText 标明的当前价或二手价；首发价仅供历史参考，不代表当前市场价，也不得用于判断是否符合预算。referencePrice 为 null 时必须明确价格未知。",
+    "有预算时必须逐项比较 referencePrice 与 min、max；低于 min 或高于 max 的设备必须明确写为预算外，不得称为预算内；已有预算内候选时优先推荐预算内候选。",
     "recommendedDeviceIds 按推荐顺序给出 1 到 3 个 deviceId，并且与 answer 中提到的设备保持一致；确实没有合适设备时可返回空数组并在 answer 中解释。",
     "confidence 为 0 到 1，只供系统内部评测。",
     "只返回纯 JSON，对象字段必须且只能包含 answer、recommendedDeviceIds、confidence。",
