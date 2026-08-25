@@ -1015,7 +1015,7 @@ function spec(value, rawText, oldField, sourceUrl) {
 function parseStorage(blocks) {
   const values = [];
   for (const block of blocks) {
-    for (const match of block.matchAll(/\b(\d+(?:GB|TB))\b/g)) values.push(match[1]);
+    for (const match of block.matchAll(/\b(\d+(?:\.\d+)?(?:GB|TB))\b/g)) values.push(match[1]);
   }
   const normalized = unique(values);
   return normalized.length ? normalized.join(" / ") : null;
@@ -1029,7 +1029,7 @@ function parseTieredStorage(blocks, tier) {
   const values = [];
   const evidence = [];
   for (const block of blocks) {
-    const matches = [...block.matchAll(/\b(\d+(?:GB|TB))\b/g)];
+    const matches = [...block.matchAll(/\b(\d+(?:\.\d+)?(?:GB|TB))\b/g)];
     for (let index = 0; index < matches.length; index += 1) {
       const match = matches[index];
       const chunk = block.slice(match.index, matches[index + 1]?.index ?? block.length).trim();

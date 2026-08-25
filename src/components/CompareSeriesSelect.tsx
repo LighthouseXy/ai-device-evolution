@@ -11,6 +11,8 @@ type CompareSeriesSelectProps = {
   categories: Array<{ label: string; value: string }>;
   selectedCategory: string;
   selectedSeries: string;
+  storageOptions: string[];
+  selectedStorage: string;
   selectedWindow: string;
 };
 
@@ -19,6 +21,8 @@ export default function CompareSeriesSelect({
   categories,
   selectedCategory,
   selectedSeries,
+  storageOptions,
+  selectedStorage,
   selectedWindow,
 }: CompareSeriesSelectProps) {
   const router = useRouter();
@@ -26,6 +30,15 @@ export default function CompareSeriesSelect({
 
   const navigateToSeries = (series: string) => {
     const params = new URLSearchParams({ series, window: selectedWindow });
+    router.push(`/compare?${params.toString()}`);
+  };
+
+  const navigateToStorage = (storage: string) => {
+    const params = new URLSearchParams({
+      series: selectedSeries,
+      storage,
+      window: selectedWindow,
+    });
     router.push(`/compare?${params.toString()}`);
   };
 
@@ -66,6 +79,25 @@ export default function CompareSeriesSelect({
           {seriesOptions.map((item) => (
             <option key={item.series} value={item.series}>
               {item.label}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      <div className="compare-selector-group">
+        <label className="compare-selector-label" htmlFor="compare-storage">
+          存储配置
+        </label>
+        <select
+          id="compare-storage"
+          name="storage"
+          className="compare-select-control"
+          value={selectedStorage}
+          onChange={(event) => navigateToStorage(event.currentTarget.value)}
+        >
+          {storageOptions.map((storage) => (
+            <option key={storage} value={storage}>
+              {storage}
             </option>
           ))}
         </select>

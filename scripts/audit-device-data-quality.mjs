@@ -296,6 +296,9 @@ for (const [deviceId, score] of Object.entries(recalculatedUpgradeScores)) {
 
 // 这些值曾因共享产品页抓取而串到相邻型号，固定回归断言可阻止同类错误重新进入比较结果。
 const correctedSpecs = {
+  "macbook-air-13-2018": {
+    storage: "128GB / 256GB / 512GB / 1.5TB",
+  },
   "ipad-air-m2-2024": {
     screenSize: 10.86,
   },
