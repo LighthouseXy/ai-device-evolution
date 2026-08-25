@@ -127,7 +127,7 @@ for (const [category, categoryDevices] of devicesByCategory) {
 const needsReview = sourceRows.filter((row) => row.sourceStatus === "needs_review").map((row) => row.id);
 assert.ok(sourceRows.every((row) => ["verified", "needs_review"].includes(row.sourceStatus)), "来源登记状态非法");
 assert.equal(sourceAudit.supportZhCn + sourceAudit.appleChina + sourceAudit.reference, sourceAudit.fields, "仍有字段未使用已登记来源");
-assert.equal(sourceAudit.reference, 23, "第三方价格字段数量发生变化");
+assert.equal(sourceAudit.reference, 25, "第三方价格字段数量发生变化");
 assert.deepEqual(needsReview, [], "仍有设备来源待人工复核");
 
 const missingLaptopLaunchPrices = devices
@@ -209,6 +209,8 @@ const usedPriceSnapshots = {
   "macbook-air-13-m1-2020": [2709, "京东爱回收严选官方旗舰店", "2026-08-25", /二手.*8 成新.*80%-90%/],
   "macbook-air-13-m2-2022": [3979, "京东爱回收严选官方旗舰店", "2026-08-25", /二手.*8 成新.*90% 以上/],
   "macbook-air-13-m3-2024": [4799, "九机二手良品", "2026-08-25", /二手.*9 成新.*91%-95%.*未检出维修痕迹/],
+  "iphone-11-2019": [873, "京东商务二手手机热卖榜", "2026-08-25", /二手.*9 成新.*品牌电池效率 100%/],
+  "iphone-12": [788, "京东商务二手手机热卖榜", "2026-08-25", /二手.*9 成新.*三方屏幕.*电池效率随机/],
   "iphone-13": [1949, "京东苹果二手手机热卖榜", "2026-08-25", /二手.*99 新.*原装屏.*已更换电池.*100%/],
   "iphone-14": [2449, "京东商务二手手机热卖榜", "2026-08-25", /二手.*99 新/],
   "iphone-14-pro": [3749, "京东 NFC 二手手机热卖榜", "2026-08-25", /二手.*99 新/],

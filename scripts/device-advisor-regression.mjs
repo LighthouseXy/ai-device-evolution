@@ -190,6 +190,36 @@ const scenarios = [
     },
   },
   {
+    name: "phone_used_mainland_iphone12_price",
+    input: {
+      category: "phone",
+      budget: { min: 750, max: 800, currency: "CNY" },
+      useCases: ["备用机"],
+      conditionPreference: "used_ok",
+      maxResults: 3,
+    },
+    expect(output) {
+      assertSimpleFallback(output, "phone", 1);
+      assert.equal(output.devices[0]?.deviceId, "iphone-12");
+      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥788（京东商务二手手机热卖榜，2026-08-25）/);
+    },
+  },
+  {
+    name: "phone_used_mainland_iphone11_price",
+    input: {
+      category: "phone",
+      budget: { min: 850, max: 900, currency: "CNY" },
+      useCases: ["备用机"],
+      conditionPreference: "used_ok",
+      maxResults: 3,
+    },
+    expect(output) {
+      assertSimpleFallback(output, "phone", 1);
+      assert.equal(output.devices[0]?.deviceId, "iphone-11-2019");
+      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥873（京东商务二手手机热卖榜，2026-08-25）/);
+    },
+  },
+  {
     name: "phone_used_mainland_iphone13_price",
     input: {
       category: "phone",
