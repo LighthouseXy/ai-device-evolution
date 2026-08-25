@@ -117,6 +117,15 @@ const REFERENCE_LAUNCH_PRICES = {
 };
 
 const REFERENCE_CURRENT_PRICES = {
+  "iphone-15": {
+    value: 5599,
+    sourceUrl: "https://item.jd.com/product/BdERX3D9qnE5m3_mfCYIKg.html",
+    sourceName: "京东",
+    rawText: "Apple iPhone 15 中国大陆型号 A3092，黑色，256GB，支持移动、联通、电信 5G 与双卡双待，页面价 5599 元。",
+    configuration: "黑色，256GB，中国大陆型号 A3092，双卡双待",
+    condition: "全新，京东页面公开价；登录后的优惠与库存以来源页为准",
+    observedAt: "2026-08-25",
+  },
   "ipad-a16-2025": {
     value: 2830,
     sourceUrl: "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=7124264&styleId=434762522",

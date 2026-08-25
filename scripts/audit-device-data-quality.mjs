@@ -31,7 +31,7 @@ const reportFields = [
   "rearCamera",
   "frontCamera",
 ];
-const trustedReferenceHosts = new Set(["tc.people.com.cn", "mobile.zol.com.cn", "www.shihuo.cn", "pro.m.jd.com", "item.m.jd.com", "m2.9ji.com"]);
+const trustedReferenceHosts = new Set(["tc.people.com.cn", "mobile.zol.com.cn", "www.shihuo.cn", "pro.m.jd.com", "item.jd.com", "item.m.jd.com", "m2.9ji.com"]);
 
 const hasValue = (device, field) => device.specs?.[field]?.value !== null && device.specs?.[field]?.value !== undefined;
 const sourceIds = sourceRows.map((row) => row.id);
@@ -127,7 +127,7 @@ for (const [category, categoryDevices] of devicesByCategory) {
 const needsReview = sourceRows.filter((row) => row.sourceStatus === "needs_review").map((row) => row.id);
 assert.ok(sourceRows.every((row) => ["verified", "needs_review"].includes(row.sourceStatus)), "来源登记状态非法");
 assert.equal(sourceAudit.supportZhCn + sourceAudit.appleChina + sourceAudit.reference, sourceAudit.fields, "仍有字段未使用已登记来源");
-assert.equal(sourceAudit.reference, 42, "第三方价格字段数量发生变化");
+assert.equal(sourceAudit.reference, 43, "第三方价格字段数量发生变化");
 assert.deepEqual(needsReview, [], "仍有设备来源待人工复核");
 
 const missingLaptopLaunchPrices = devices
@@ -158,6 +158,7 @@ const currentPriceSnapshots = {
   "ipad-pro-m5-13-2025": 8690,
   "ipad-mini-a17-pro-2024": 4799,
   "iphone-16": 5399,
+  "iphone-15": 5599,
   "iphone-16-plus": 5999,
   "iphone-17": 5380,
   "iphone-17-pro": 7270,
@@ -173,6 +174,7 @@ const currentPriceSnapshots = {
   "macbook-pro-16-m5-max-2026": 35999,
   "macbook-neo-13-2026": 5499,
 };
+const jdCurrentPrices = new Set(["iphone-15"]);
 const appleStoreCurrentPrices = new Set([
   "ipad-mini-a17-pro-2024",
   "iphone-16",
@@ -189,13 +191,14 @@ const appleStoreCurrentPrices = new Set([
 for (const [deviceId, price] of Object.entries(currentPriceSnapshots)) {
   const field = devicesById.get(deviceId)?.specs.currentPrice;
   const isAppleStore = appleStoreCurrentPrices.has(deviceId);
+  const isJd = jdCurrentPrices.has(deviceId);
   assert.equal(field?.value, price, `${deviceId}.currentPrice: 当前价格快照发生回归`);
-  assert.equal(field?.observedAt, "2026-08-24", `${deviceId}.currentPrice: 采集日期发生回归`);
+  assert.equal(field?.observedAt, isJd ? "2026-08-25" : "2026-08-24", `${deviceId}.currentPrice: 采集日期发生回归`);
   assert.equal(field?.sourceType, isAppleStore ? "apple" : "reference", `${deviceId}.currentPrice: 来源类型发生回归`);
   assert.equal(field?.confidence, isAppleStore ? 1 : 0.7, `${deviceId}.currentPrice: 置信度发生回归`);
   assert.equal(
     field?.sourceName,
-    isAppleStore ? "Apple 中国大陆在线商店" : "识货",
+    isAppleStore ? "Apple 中国大陆在线商店" : isJd ? "京东" : "识货",
     `${deviceId}.currentPrice: 来源发生回归`,
   );
 }

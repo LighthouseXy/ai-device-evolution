@@ -308,6 +308,21 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "currentPrice": {
+          "value": 5599,
+          "unit": "CNY",
+          "rawText": "Apple iPhone 15 中国大陆型号 A3092，黑色，256GB，支持移动、联通、电信 5G 与双卡双待，页面价 5599 元。",
+          "sourceUrl": "https://item.jd.com/product/BdERX3D9qnE5m3_mfCYIKg.html",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-08-25",
+          "priceType": "current",
+          "market": "中国大陆",
+          "configuration": "黑色，256GB，中国大陆型号 A3092，双卡双待",
+          "condition": "全新，京东页面公开价；登录后的优惠与库存以来源页为准",
+          "observedAt": "2026-08-25",
+          "sourceName": "京东"
+        },
         "usedPrice": {
           "value": 3299,
           "unit": "CNY",
