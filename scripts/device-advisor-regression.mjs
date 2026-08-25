@@ -206,6 +206,22 @@ const scenarios = [
     },
   },
   {
+    name: "laptop_used_mainland_m2_price",
+    input: {
+      category: "laptop",
+      budget: { min: 3500, max: 4200, currency: "CNY" },
+      useCases: ["办公", "学习"],
+      conditionPreference: "used_ok",
+      interfaceNeed: "usb_c",
+      maxResults: 3,
+    },
+    expect(output) {
+      assertSimpleFallback(output, "laptop", 1);
+      assert.equal(output.devices[0]?.deviceId, "macbook-air-13-m2-2022");
+      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥3,979（京东爱回收严选官方旗舰店，2026-08-25）/);
+    },
+  },
+  {
     name: "laptop_usb_c_budget_pressure",
     input: {
       category: "laptop",

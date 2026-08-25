@@ -322,6 +322,15 @@ const REFERENCE_USED_PRICES = {
     condition: "二手，8 成新，电池效率 80%-90%，官方验；优惠与库存以来源页为准",
     observedAt: "2026-08-25",
   },
+  "macbook-air-13-m2-2022": {
+    value: 3979,
+    sourceUrl: "https://item.m.jd.com/product/10073708140429.html",
+    sourceName: "京东爱回收严选官方旗舰店",
+    rawText: "Apple MacBook Air（M2）2022 款 13 英寸二手笔记本，午夜色，8G+256G，8 成新，电池效率 90% 以上，购买渠道国行，页面价 3979 元。",
+    configuration: "午夜色，M2，8GB 内存，256GB 存储，购买渠道国行",
+    condition: "二手，8 成新，电池效率 90% 以上，官方验；优惠与库存以来源页为准",
+    observedAt: "2026-08-25",
+  },
   "iphone-14": {
     value: 2449,
     sourceUrl: "https://pro.m.jd.com/mall/active/4JRfHorUDXgL77E9YdNxSCNMKwkJ/index.html?bbtf=1&currSku=10158659494757&fromName=tongtianta&pageNum=1&queryType=1&rankId=3780694&rankType=10",

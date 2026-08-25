@@ -7404,6 +7404,21 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "usedPrice": {
+          "value": 3979,
+          "unit": "CNY",
+          "rawText": "Apple MacBook Air（M2）2022 款 13 英寸二手笔记本，午夜色，8G+256G，8 成新，电池效率 90% 以上，购买渠道国行，页面价 3979 元。",
+          "sourceUrl": "https://item.m.jd.com/product/10073708140429.html",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-08-25",
+          "priceType": "used",
+          "market": "中国大陆",
+          "configuration": "午夜色，M2，8GB 内存，256GB 存储，购买渠道国行",
+          "condition": "二手，8 成新，电池效率 90% 以上，官方验；优惠与库存以来源页为准",
+          "observedAt": "2026-08-25",
+          "sourceName": "京东爱回收严选官方旗舰店"
         }
       },
       "computed": {
