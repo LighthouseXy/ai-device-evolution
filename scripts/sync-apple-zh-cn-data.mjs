@@ -340,6 +340,15 @@ const REFERENCE_USED_PRICES = {
     condition: "二手，9 成新，电池寿命 91%-95%，未检出维修痕迹；库存与价格以来源页为准",
     observedAt: "2026-08-25",
   },
+  "iphone-13": {
+    value: 1949,
+    sourceUrl: "https://pro.m.jd.com/mall/active/4JRfHorUDXgL77E9YdNxSCNMKwkJ/index.html?bbtf=1&currSku=10101352914801&fromName=tongtianta&pageNum=1&queryType=1&rankId=3746997&rankType=10",
+    sourceName: "京东苹果二手手机热卖榜",
+    rawText: "苹果 iPhone 13 国行正品二手手机，白色，256GB，双卡双待 5G 全网通，99 新，原装屏，已更换电池，页面标称电池效率 100%，页面价 1949 元。",
+    configuration: "白色，256GB，国行正品，双卡双待 5G 全网通",
+    condition: "二手，99 新，原装屏，已更换电池，页面标称电池效率 100%；优惠与库存以来源页为准",
+    observedAt: "2026-08-25",
+  },
   "iphone-14": {
     value: 2449,
     sourceUrl: "https://pro.m.jd.com/mall/active/4JRfHorUDXgL77E9YdNxSCNMKwkJ/index.html?bbtf=1&currSku=10158659494757&fromName=tongtianta&pageNum=1&queryType=1&rankId=3780694&rankType=10",

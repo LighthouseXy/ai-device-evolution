@@ -190,6 +190,21 @@ const scenarios = [
     },
   },
   {
+    name: "phone_used_mainland_iphone13_price",
+    input: {
+      category: "phone",
+      budget: { min: 1800, max: 2000, currency: "CNY" },
+      useCases: ["通勤", "拍照"],
+      conditionPreference: "used_ok",
+      maxResults: 3,
+    },
+    expect(output) {
+      assertSimpleFallback(output, "phone", 1);
+      assert.equal(output.devices[0]?.deviceId, "iphone-13");
+      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥1,949（京东苹果二手手机热卖榜，2026-08-25）/);
+    },
+  },
+  {
     name: "laptop_used_mainland_price",
     input: {
       category: "laptop",
