@@ -184,6 +184,21 @@ const scenarios = [
     },
   },
   {
+    name: "tablet_used_mainland_ipad_mini_price",
+    input: {
+      category: "tablet",
+      budget: { min: 2450, max: 2520, currency: "CNY" },
+      useCases: ["阅读", "便携"],
+      conditionPreference: "used_ok",
+      maxResults: 3,
+    },
+    expect(output) {
+      assertSimpleFallback(output, "tablet", 1);
+      assert.equal(output.devices[0]?.deviceId, "ipad-mini-a17-pro-2024");
+      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥2,499（九机二手良品，2026-08-25）/);
+    },
+  },
+  {
     name: "phone_condition_battery_pressure",
     input: {
       category: "phone",

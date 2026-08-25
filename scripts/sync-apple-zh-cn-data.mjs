@@ -484,6 +484,15 @@ const REFERENCE_USED_PRICES = {
     condition: "二手准新品，官方在保，页面标称充电次数个位数、基本全新；优惠与库存以来源页为准",
     observedAt: "2026-08-25",
   },
+  "ipad-mini-a17-pro-2024": {
+    value: 2499,
+    sourceUrl: "https://m2.9ji.com/secondHand/detail/1098117",
+    sourceName: "九机二手良品",
+    rawText: "Apple iPad mini 2024 款（第 7 代）国行二手平板电脑，星光色，128GB，Wi-Fi 版，8 成新，电池寿命 100%，未检出维修痕迹，页面价 2499 元。",
+    configuration: "iPad mini (A17 Pro)，星光色，128GB，国行，Wi-Fi 版",
+    condition: "二手，8 成新，电池寿命 100%，未检出维修痕迹；外壳有轻微划痕、磕碰或掉漆及细微印渍，屏幕有明显划痕；不含充电头和数据线；一机一价，以来源页库存为准",
+    observedAt: "2026-08-25",
+  },
   "ipad-pro-m5-11-2025": {
     value: 8089,
     sourceUrl: "https://pro.m.jd.com/mall/active/262hj8JXjPNHbFPKvdQFWUeer8kw/index.html?bbtf=1&rankId=2670823&showhead=no&source=tongtiantah5",
