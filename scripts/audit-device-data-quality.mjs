@@ -127,7 +127,7 @@ for (const [category, categoryDevices] of devicesByCategory) {
 const needsReview = sourceRows.filter((row) => row.sourceStatus === "needs_review").map((row) => row.id);
 assert.ok(sourceRows.every((row) => ["verified", "needs_review"].includes(row.sourceStatus)), "来源登记状态非法");
 assert.equal(sourceAudit.supportZhCn + sourceAudit.appleChina + sourceAudit.reference, sourceAudit.fields, "仍有字段未使用已登记来源");
-assert.equal(sourceAudit.reference, 33, "第三方价格字段数量发生变化");
+assert.equal(sourceAudit.reference, 37, "第三方价格字段数量发生变化");
 assert.deepEqual(needsReview, [], "仍有设备来源待人工复核");
 
 const missingLaptopLaunchPrices = devices
@@ -226,6 +226,10 @@ const usedPriceSnapshots = {
   "ipad-a16-2025": [2909, "京东 99 成新二手平板电脑榜", "2026-08-24", /二手.*99 新/],
   "ipad-air-m4-2025": [5229, "京东 99 成新二手平板电脑折扣榜", "2026-08-25", /二手准新品.*官方在保.*充电次数个位数.*基本全新/],
   "ipad-mini-a17-pro-2024": [2499, "九机二手良品", "2026-08-25", /二手.*8 成新.*100%.*未检出维修痕迹.*屏幕有明显划痕.*不含充电头和数据线.*一机一价/],
+  "ipad-10th-2022": [2179, "九机二手良品", "2026-08-25", /二手.*99 成新.*91%-95%.*未检出维修痕迹.*外壳有细微划痕.*不含充电头和数据线.*一机一价/],
+  "ipad-air-4th-2020": [2079, "九机二手良品", "2026-08-25", /二手.*95 成新.*91%-95%.*未检出维修痕迹.*屏幕有细微老化、色差或透图.*不含充电头和数据线.*一机一价/],
+  "ipad-air-m1-2022": [2299, "九机二手良品", "2026-08-25", /二手.*95 成新.*91%-95%.*未检出维修痕迹.*屏幕有轻微划痕.*不含充电头和数据线.*一机一价/],
+  "ipad-mini-6th-2021": [2109, "九机二手良品", "2026-08-25", /二手.*95 成新.*91%-95%.*未检出维修痕迹.*屏幕有细微老化、色差或透图.*不含充电头和数据线.*一机一价/],
   "ipad-pro-m5-11-2025": [8089, "京东 99 成新二手平板电脑榜", "2026-08-24", /二手.*99 新/],
 };
 for (const [deviceId, [price, sourceName, observedAt, conditionPattern]] of Object.entries(usedPriceSnapshots)) {
