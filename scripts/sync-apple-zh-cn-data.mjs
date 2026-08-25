@@ -313,6 +313,33 @@ const REFERENCE_CURRENT_PRICES = {
 };
 
 const REFERENCE_USED_PRICES = {
+  "iphone-14": {
+    value: 2449,
+    sourceUrl: "https://pro.m.jd.com/mall/active/4JRfHorUDXgL77E9YdNxSCNMKwkJ/index.html?bbtf=1&currSku=10158659494757&fromName=tongtianta&pageNum=1&queryType=1&rankId=3780694&rankType=10",
+    sourceName: "京东商务二手手机热卖榜",
+    rawText: "Apple iPhone 14 国行 5G 全网通二手手机，星光色，99 新，256G，页面价 2449 元。",
+    configuration: "星光色，256GB，国行 5G 全网通",
+    condition: "二手，99 新；促销与库存以来源页为准",
+    observedAt: "2026-08-25",
+  },
+  "iphone-14-pro": {
+    value: 3749,
+    sourceUrl: "https://pro.m.jd.com/mall/active/4JRfHorUDXgL77E9YdNxSCNMKwkJ/index.html?bbtf=1&currSku=10140894875788&fromName=tongtianta&pageNum=1&queryType=1&rankId=3780739&rankType=10",
+    sourceName: "京东 NFC 二手手机热卖榜",
+    rawText: "Apple iPhone 14 Pro 国行 5G 全网通二手手机，银色，99 新，256G，页面价 3749 元。",
+    configuration: "银色，256GB，国行 5G 全网通",
+    condition: "二手，99 新；促销与库存以来源页为准",
+    observedAt: "2026-08-25",
+  },
+  "iphone-14-pro-max": {
+    value: 3899,
+    sourceUrl: "https://pro.m.jd.com/mall/active/4JRfHorUDXgL77E9YdNxSCNMKwkJ/index.html?bbtf=1&currSku=10140894875788&fromName=tongtianta&pageNum=1&queryType=1&rankId=3780739&rankType=10",
+    sourceName: "京东 NFC 二手手机热卖榜",
+    rawText: "Apple iPhone 14 Pro Max 国行 5G 全网通二手手机，暗夜紫色，99 新，256G，页面价 3899 元。",
+    configuration: "暗夜紫色，256GB，国行 5G 全网通",
+    condition: "二手，99 新；促销与库存以来源页为准",
+    observedAt: "2026-08-25",
+  },
   "iphone-15": {
     value: 3299,
     sourceUrl: "https://pro.m.jd.com/mall/active/4JRfHorUDXgL77E9YdNxSCNMKwkJ/index.html?bbtf=1&currSku=10101352914801&fromName=tongtianta&pageNum=1&queryType=1&rankId=3746997&rankType=10",
@@ -321,6 +348,15 @@ const REFERENCE_USED_PRICES = {
     configuration: "蓝色，256GB，国行正品，全网通 5G，双卡双待",
     condition: "二手，99 新，支持验机；优惠与库存以来源页为准",
     observedAt: "2026-08-24",
+  },
+  "iphone-15-pro": {
+    value: 4449,
+    sourceUrl: "https://pro.m.jd.com/mall/active/4JRfHorUDXgL77E9YdNxSCNMKwkJ/index.html?bbtf=1&currSku=10140894875788&fromName=tongtianta&pageNum=1&queryType=1&rankId=3780739&rankType=10",
+    sourceName: "京东 NFC 二手手机热卖榜",
+    rawText: "Apple iPhone 15 Pro 国行 5G 全网通二手手机，原色钛金属，99 新，256G，页面价 4449 元。",
+    configuration: "原色钛金属，256GB，国行 5G 全网通",
+    condition: "二手，99 新；促销与库存以来源页为准",
+    observedAt: "2026-08-25",
   },
   "ipad-a16-2025": {
     value: 2909,

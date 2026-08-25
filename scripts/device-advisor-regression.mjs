@@ -184,9 +184,9 @@ const scenarios = [
     expect(output) {
       assertSimpleFallback(output, "phone");
       assert.ok(!output.devices.some((device) => device.deviceId === "iphone-se-1-2016"));
-      assert.equal(output.devices[0]?.deviceId, "iphone-15");
-      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥3,299（京东苹果二手手机热卖榜，2026-08-24）/);
-      assert.ok(output.devices.every((device) => /（(?:京东苹果二手手机热卖榜|识货|Apple 中国大陆在线商店)，2026-08-24）/.test(device.priceText)));
+      assert.equal(output.devices[0]?.deviceId, "iphone-14");
+      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥2,449（京东商务二手手机热卖榜，2026-08-25）/);
+      assert.ok(output.devices.every((device) => /（(?:京东 ?(?:商务|NFC|苹果) ?二手手机热卖榜|识货|Apple 中国大陆在线商店)，2026-08-(?:24|25)）/.test(device.priceText)));
     },
   },
   {
