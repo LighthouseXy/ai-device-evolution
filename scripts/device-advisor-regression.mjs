@@ -220,6 +220,21 @@ const scenarios = [
     },
   },
   {
+    name: "phone_used_mainland_iphone13_pro_max_price",
+    input: {
+      category: "phone",
+      budget: { min: 2350, max: 2400, currency: "CNY" },
+      useCases: ["拍照", "大屏"],
+      conditionPreference: "used_ok",
+      maxResults: 3,
+    },
+    expect(output) {
+      assertSimpleFallback(output, "phone", 1);
+      assert.equal(output.devices[0]?.deviceId, "iphone-13-pro-max");
+      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥2,388（京东 NFC 二手手机热卖榜，2026-08-25）/);
+    },
+  },
+  {
     name: "phone_used_mainland_iphone13_price",
     input: {
       category: "phone",

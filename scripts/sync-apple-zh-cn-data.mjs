@@ -349,6 +349,15 @@ const REFERENCE_USED_PRICES = {
     condition: "二手，99 新，原装屏，已更换电池，页面标称电池效率 100%；优惠与库存以来源页为准",
     observedAt: "2026-08-25",
   },
+  "iphone-13-pro-max": {
+    value: 2388,
+    sourceUrl: "https://pro.m.jd.com/mall/active/4JRfHorUDXgL77E9YdNxSCNMKwkJ/index.html?bbtf=1&currSku=10140894875788&fromName=tongtianta&pageNum=1&queryType=1&rankId=3780739&rankType=10",
+    sourceName: "京东 NFC 二手手机热卖榜",
+    rawText: "苹果 iPhone 13 Pro Max 国行正品二手手机，石墨色，256GB，95 新，三方屏幕，页面标称电池效率 100%，页面价 2388 元。",
+    configuration: "石墨色，256GB，国行正品",
+    condition: "二手，95 新，三方屏幕，页面标称电池效率 100%；优惠与库存以来源页为准",
+    observedAt: "2026-08-25",
+  },
   "iphone-11-2019": {
     value: 873,
     sourceUrl: "https://pro.m.jd.com/mall/active/4JRfHorUDXgL77E9YdNxSCNMKwkJ/index.html?bbtf=1&currSku=10158659494757&fromName=tongtianta&pageNum=1&queryType=1&rankId=3780694&rankType=10",
