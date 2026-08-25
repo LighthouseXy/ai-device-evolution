@@ -186,7 +186,7 @@ const scenarios = [
       assert.ok(!output.devices.some((device) => device.deviceId === "iphone-se-1-2016"));
       assert.equal(output.devices[0]?.deviceId, "iphone-14");
       assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥2,449（京东商务二手手机热卖榜，2026-08-25）/);
-      assert.ok(output.devices.every((device) => /（(?:京东 ?(?:(?:商务|NFC|苹果) ?)?二手手机(?:热卖|好评)榜|识货|Apple 中国大陆在线商店)，2026-08-(?:24|25)）/.test(device.priceText)));
+      assert.ok(output.devices.every((device) => /（(?:京东 ?(?:(?:商务|NFC|苹果|6英以下屏幕) ?)?二手手机(?:热卖|好评)榜|识货|Apple 中国大陆在线商店)，2026-08-(?:24|25)）/.test(device.priceText)));
     },
   },
   {
@@ -217,6 +217,22 @@ const scenarios = [
       assertSimpleFallback(output, "phone", 1);
       assert.equal(output.devices[0]?.deviceId, "iphone-11-2019");
       assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥873（京东商务二手手机热卖榜，2026-08-25）/);
+    },
+  },
+  {
+    name: "phone_used_mainland_legacy_prices",
+    input: {
+      category: "phone",
+      budget: { min: 1100, max: 1250, currency: "CNY" },
+      useCases: ["备用机", "小屏"],
+      conditionPreference: "used_ok",
+      maxResults: 3,
+    },
+    expect(output) {
+      assertSimpleFallback(output, "phone", 2);
+      assert.deepEqual(output.devices.map((device) => device.deviceId), ["iphone-13-mini", "iphone-xs-max-2018"]);
+      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥1,239（京东 6英以下屏幕二手手机好评榜，2026-08-25）/);
+      assert.match(output.devices[1]?.priceText ?? "", /二手价 ¥1,136（京东 6英以下屏幕二手手机好评榜，2026-08-25）/);
     },
   },
   {
