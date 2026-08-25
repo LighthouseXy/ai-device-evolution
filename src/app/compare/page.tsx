@@ -46,7 +46,33 @@ function formatPriceMeta(price: PriceField | undefined) {
 }
 
 const comparisonFields: ComparisonField[] = [
+  {
+    group: "价格",
+    label: "当前价",
+    hint: "最新价格快照",
+    getValue: (device) => formatMaybeCurrency(device.currentPrice?.value ?? undefined),
+    getMeta: (device) => formatPriceMeta(device.currentPrice),
+    isNumeric: true,
+    isCurrency: true,
+  },
+  {
+    group: "价格",
+    label: "二手价",
+    hint: "二手价格快照",
+    getValue: (device) => formatMaybeCurrency(device.usedPrice?.value ?? undefined),
+    getMeta: (device) => formatPriceMeta(device.usedPrice),
+    isNumeric: true,
+    isCurrency: true,
+  },
   { group: "性能", label: "芯片", hint: "处理器", getValue: (device) => device.chip || "待补充" },
+  {
+    group: "性能",
+    label: "AI 能力",
+    hint: "Apple 智能",
+    getValue: (device) =>
+      typeof device.aiFeatureLevel === "number" ? `${device.aiFeatureLevel}/10` : "待补充",
+    isNumeric: true,
+  },
   {
     group: "显示",
     label: "屏幕尺寸",
@@ -66,32 +92,6 @@ const comparisonFields: ComparisonField[] = [
     label: "重量",
     hint: "机身重量",
     getValue: (device) => (typeof device.weight === "number" ? `${device.weight}g` : "待补充"),
-    isNumeric: true,
-  },
-  {
-    group: "价格",
-    label: "当前价",
-    hint: "最新价格快照",
-    getValue: (device) => formatMaybeCurrency(device.currentPrice?.value ?? undefined),
-    getMeta: (device) => formatPriceMeta(device.currentPrice),
-    isNumeric: true,
-    isCurrency: true,
-  },
-  {
-    group: "价格",
-    label: "二手价",
-    hint: "二手价格快照",
-    getValue: (device) => formatMaybeCurrency(device.usedPrice?.value ?? undefined),
-    getMeta: (device) => formatPriceMeta(device.usedPrice),
-    isNumeric: true,
-    isCurrency: true,
-  },
-  {
-    group: "性能",
-    label: "AI 能力",
-    hint: "Apple 智能",
-    getValue: (device) =>
-      typeof device.aiFeatureLevel === "number" ? `${device.aiFeatureLevel}/10` : "待补充",
     isNumeric: true,
   },
   {
