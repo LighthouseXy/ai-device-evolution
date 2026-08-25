@@ -11,6 +11,7 @@ import {
   comparisonGroupsFlat,
   formatMaybeCurrency,
   getDevicesByComparisonGroupKeyFlat,
+  type PriceField,
 } from "@/lib/devices-db";
 import {
   formatSignedZhCurrency,
@@ -31,8 +32,18 @@ type ComparisonField = {
   label: string;
   hint?: string;
   getValue: (device: (typeof allDevicesFlat)[number]) => string;
+  getMeta?: (device: (typeof allDevicesFlat)[number]) => string | null;
   isNumeric?: boolean;
+  isCurrency?: boolean;
 };
+
+function formatPriceMeta(price: PriceField | undefined) {
+  if (typeof price?.value !== "number") return null;
+
+  return [price.sourceName, price.observedAt ? `采集于 ${price.observedAt}` : null]
+    .filter((value): value is string => Boolean(value))
+    .join(" · ") || null;
+}
 
 const comparisonFields: ComparisonField[] = [
   { group: "性能", label: "芯片", hint: "处理器", getValue: (device) => device.chip || "待补充" },
@@ -59,10 +70,21 @@ const comparisonFields: ComparisonField[] = [
   },
   {
     group: "价格",
-    label: "起售价",
-    hint: "首发价格",
-    getValue: (device) => formatMaybeCurrency(device.launchPrice),
+    label: "当前价",
+    hint: "最新价格快照",
+    getValue: (device) => formatMaybeCurrency(device.currentPrice?.value ?? undefined),
+    getMeta: (device) => formatPriceMeta(device.currentPrice),
     isNumeric: true,
+    isCurrency: true,
+  },
+  {
+    group: "价格",
+    label: "二手价",
+    hint: "二手价格快照",
+    getValue: (device) => formatMaybeCurrency(device.usedPrice?.value ?? undefined),
+    getMeta: (device) => formatPriceMeta(device.usedPrice),
+    isNumeric: true,
+    isCurrency: true,
   },
   {
     group: "性能",
@@ -115,7 +137,12 @@ function compareValueLabel(field: ComparisonField, first: string, last: string) 
 
   const firstNumber = Number(first.replace(/[^\d.-]/g, ""));
   const lastNumber = Number(last.replace(/[^\d.-]/g, ""));
-  if (!Number.isFinite(firstNumber) || !Number.isFinite(lastNumber) || firstNumber === 0) {
+  if (
+    !Number.isFinite(firstNumber) ||
+    !Number.isFinite(lastNumber) ||
+    firstNumber === 0 ||
+    lastNumber === 0
+  ) {
     return "已更新";
   }
 
@@ -124,7 +151,7 @@ function compareValueLabel(field: ComparisonField, first: string, last: string) 
   const prefix = change > 0 ? "+" : "−";
   const unit = field.label.includes("重量")
     ? "g"
-    : field.label.includes("起售价")
+    : field.isCurrency
       ? "¥"
       : field.label.includes("屏幕")
         ? "\""
@@ -132,7 +159,7 @@ function compareValueLabel(field: ComparisonField, first: string, last: string) 
           ? "Hz"
           : "";
 
-  if (field.label.includes("起售价")) {
+  if (field.isCurrency) {
     return `${formatSignedZhCurrency(change, 0)} / ${formatSignedZhNumber(changeRate, 0)}%`;
   }
 
@@ -294,7 +321,10 @@ function CompareTable({
                         className={`compare-v2-cell${index === 0 ? " is-highlight" : ""}${index === 0 && hasChanged ? " has-change" : ""}`}
                         key={device.id}
                       >
-                        {buildComparisonValue(device, field)}
+                        <span className="compare-v2-value">
+                          <span>{buildComparisonValue(device, field)}</span>
+                          {field.getMeta?.(device) ? <small>{field.getMeta(device)}</small> : null}
+                        </span>
                         {index === 0 && hasChanged ? (
                           <span className="compare-change-badge is-up">
                             {compareValueLabel(field, previousValue, latestValue)}

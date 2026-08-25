@@ -992,6 +992,11 @@ p {
   font-weight: 400;
 }
 
+.compare-v2-value {
+  min-width: 0;
+  display: grid;
+}
+
 .compare-v2-cell.is-highlight {
   background: var(--primary-soft);
   color: var(--primary);

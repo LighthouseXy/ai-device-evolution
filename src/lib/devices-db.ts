@@ -246,6 +246,8 @@ export type FlattenedDevice = {
   port?: string;
   weight?: number;
   launchPrice?: number;
+  currentPrice?: PriceField;
+  usedPrice?: PriceField;
   aiFeatureLevel?: number;
   sourceUrl: string;
   specs?: Record<string, string | number | boolean | undefined>;
@@ -290,6 +292,8 @@ export function flattenDevice(db: DbDevice): FlattenedDevice {
     port: specStr(db.specs?.port) || undefined,
     weight: specNum(db.specs?.weight),
     launchPrice: specNum(db.specs?.launchPrice),
+    currentPrice: db.specs?.currentPrice,
+    usedPrice: db.specs?.usedPrice,
     aiFeatureLevel: computedVal(db.computed?.aiCapabilityLevel),
     sourceUrl: db.specs?.chip?.sourceUrl ?? "",
     specs: flatSpecs,
