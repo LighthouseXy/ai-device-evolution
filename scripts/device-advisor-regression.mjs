@@ -222,6 +222,22 @@ const scenarios = [
     },
   },
   {
+    name: "laptop_used_mainland_m3_price",
+    input: {
+      category: "laptop",
+      budget: { min: 4500, max: 5000, currency: "CNY" },
+      useCases: ["办公", "学习"],
+      conditionPreference: "used_ok",
+      interfaceNeed: "usb_c",
+      maxResults: 3,
+    },
+    expect(output) {
+      assertSimpleFallback(output, "laptop", 1);
+      assert.equal(output.devices[0]?.deviceId, "macbook-air-13-m3-2024");
+      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥4,799（九机二手良品，2026-08-25）/);
+    },
+  },
+  {
     name: "laptop_usb_c_budget_pressure",
     input: {
       category: "laptop",

@@ -331,6 +331,15 @@ const REFERENCE_USED_PRICES = {
     condition: "二手，8 成新，电池效率 90% 以上，官方验；优惠与库存以来源页为准",
     observedAt: "2026-08-25",
   },
+  "macbook-air-13-m3-2024": {
+    value: 4799,
+    sourceUrl: "https://m2.9ji.com/secondHand/detail/1151113",
+    sourceName: "九机二手良品",
+    rawText: "苹果 MacBook Air 2024 款 M3 版 13.6 英寸二手笔记本，午夜色，8G+256GB，9 成新，电池寿命 91%-95%，未检出维修痕迹，中国大陆昆明仓在售，页面价 4799 元。",
+    configuration: "午夜色，M3，8GB 内存，256GB 存储，中国大陆昆明仓",
+    condition: "二手，9 成新，电池寿命 91%-95%，未检出维修痕迹；库存与价格以来源页为准",
+    observedAt: "2026-08-25",
+  },
   "iphone-14": {
     value: 2449,
     sourceUrl: "https://pro.m.jd.com/mall/active/4JRfHorUDXgL77E9YdNxSCNMKwkJ/index.html?bbtf=1&currSku=10158659494757&fromName=tongtianta&pageNum=1&queryType=1&rankId=3780694&rankType=10",
