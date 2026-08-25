@@ -358,6 +358,15 @@ const REFERENCE_USED_PRICES = {
     condition: "二手，95 新，三方屏幕，页面标称电池效率 100%；优惠与库存以来源页为准",
     observedAt: "2026-08-25",
   },
+  "iphone-13-pro": {
+    value: 2299,
+    sourceUrl: "https://pro.m.jd.com/mall/active/4JRfHorUDXgL77E9YdNxSCNMKwkJ/index.html?bbtf=1&currSku=10210091790122&fromName=tongtianta&pageNum=1&queryType=1&rankId=4970910&rankType=19",
+    sourceName: "京东二手手机好评榜",
+    rawText: "Apple iPhone 13 Pro 二手手机，页面标注国行补贴，远峰蓝色，256GB，官方验，页面价 2299 元；排行榜未注明具体成色与电池状态。",
+    configuration: "远峰蓝色，256GB，页面标注国行补贴",
+    condition: "二手，官方验；排行榜未注明具体成色与电池状态，以商品质检报告为准",
+    observedAt: "2026-08-25",
+  },
   "iphone-11-2019": {
     value: 873,
     sourceUrl: "https://pro.m.jd.com/mall/active/4JRfHorUDXgL77E9YdNxSCNMKwkJ/index.html?bbtf=1&currSku=10158659494757&fromName=tongtianta&pageNum=1&queryType=1&rankId=3780694&rankType=10",
