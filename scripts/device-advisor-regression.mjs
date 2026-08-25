@@ -214,6 +214,21 @@ const scenarios = [
     },
   },
   {
+    name: "tablet_used_mainland_ipad_pro_prices",
+    input: {
+      category: "tablet",
+      budget: { min: 2400, max: 2650, currency: "CNY" },
+      useCases: ["绘画", "视频剪辑"],
+      conditionPreference: "used_ok",
+      maxResults: 3,
+    },
+    expect(output) {
+      assertSimpleFallback(output, "tablet");
+      assert.deepEqual(output.devices.map((device) => device.deviceId), ["ipad-pro-11-2nd-2020", "ipad-mini-a17-pro-2024", "ipad-pro-11-1st-2018"]);
+      assert.ok(output.devices.every((device) => /二手价 .*（九机二手良品，2026-08-25）/.test(device.priceText)));
+    },
+  },
+  {
     name: "phone_condition_battery_pressure",
     input: {
       category: "phone",
