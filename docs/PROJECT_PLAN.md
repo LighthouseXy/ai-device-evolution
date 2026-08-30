@@ -59,8 +59,8 @@ DeviceScope / 数码观察站是一个电子设备代际演进分析平台，面
 ## 验证证据
 
 - 已完成完整 `npm run check`、生产构建、设备分类、数据质量与设备顾问回归验证，并完成桌面及 390px 浏览器检查。
-- 数据质量门禁已验证 129 台设备、28 个比较组和 3899 个规格字段；`apple=3723`、`reference=176`、首发价 / 当前价 / 二手价为 `129/49/64`、内存 `129/129`、`support.apple.com/en-us=0`、`needsReview=[]`。
-- 中文来源分布为 Apple Support 中文页面 3598 个字段（`zh-cn` 3597、`zh-tw` 1）、Apple 中国页面 125 个字段；3786 条原始证据包含中文，其余 113 条为 `12GB`、`eSIM` 等技术记法。59 个 iPhone / iPad 内存字段来自 iOS Ref；13 条 Apple 新闻稿未单列的 MacBook 国行首发价来自已登记的同期主流第三方页面，均以 `reference`、实际来源 URL 和明确配置保存。
+- 数据质量门禁已验证 129 台设备、28 个比较组和 3903 个规格字段；`apple=3723`、`reference=180`、首发价 / 当前价 / 二手价为 `129/49/68`、内存 `129/129`、`support.apple.com/en-us=0`、`needsReview=[]`。
+- 中文来源分布为 Apple Support 中文页面 3598 个字段（`zh-cn` 3597、`zh-tw` 1）、Apple 中国页面 125 个字段；3790 条原始证据包含中文，其余 113 条为 `12GB`、`eSIM` 等技术记法。59 个 iPhone / iPad 内存字段来自 iOS Ref；13 条 Apple 新闻稿未单列的 MacBook 国行首发价来自已登记的同期主流第三方页面，均以 `reference`、实际来源 URL 和明确配置保存。
 - 13/13 条带直接前代引用的设备已有 1–10 分升级评分；中文数据同步、完整 `npm run check`、生产构建及桌面和 390px 页面检查均通过。
 - 设备顾问回归覆盖 rules fallback、API 错误路径和 `maxResults` 边界。
 - 精简后的 DeepSeek V4 链路在 6 个真实样例中 `source=ai` 为 6/6、无 fallback、无 retry，平均 2862.7ms、P95 3631.5ms；优化前 4 个对照样例为 1 AI / 3 rules、retryRate 100%、平均 13735.3ms、P95 25806.7ms。样本规模有限，稳定性与长期可用性仍需持续观察。
