@@ -401,7 +401,7 @@ const scenarios = [
     },
   },
   {
-    name: "laptop_used_mainland_m3_price",
+    name: "laptop_used_mainland_air_m2_m3_price",
     input: {
       category: "laptop",
       budget: { min: 4500, max: 5000, currency: "CNY" },
@@ -411,9 +411,13 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
-      assertSimpleFallback(output, "laptop", 1);
-      assert.equal(output.devices[0]?.deviceId, "macbook-air-13-m3-2024");
+      assertSimpleFallback(output, "laptop", 2);
+      assert.deepEqual(output.devices.map((device) => device.deviceId), [
+        "macbook-air-13-m3-2024",
+        "macbook-air-15-m2-2023",
+      ]);
       assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥4,799（九机二手良品，2026-08-25）/);
+      assert.match(output.devices[1]?.priceText ?? "", /二手价 ¥4,799（九机二手良品，2026-08-31）/);
     },
   },
   {
