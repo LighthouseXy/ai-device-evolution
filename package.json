@@ -17,7 +17,8 @@
     "test:price-workflow": "node scripts/price-snapshot-workflow-regression.mjs",
     "test:device-advisor": "node scripts/device-advisor-regression.mjs",
     "test:device-advisor-api": "node scripts/device-advisor-api-regression.mjs",
-    "eval:device-advisor": "node scripts/device-advisor-ai-eval.mjs"
+    "eval:device-advisor": "node scripts/device-advisor-ai-eval.mjs",
+    "eval:ai-analysis": "node scripts/ai-analysis-eval.mjs"
   },
   "dependencies": {
     "next": "16.2.9",

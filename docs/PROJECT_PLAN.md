@@ -53,7 +53,7 @@ DeviceScope / 数码观察站是一个电子设备代际演进分析平台，面
 - 应用层：Next.js App Router、React、TypeScript 和 Tailwind CSS。
 - 数据层：本地结构化 JSON 数据源；`SpecField` 记录来源 URL、来源类型、置信度和验证时间，计算字段以 `computed` 区分。
 - 分析层：趋势和代际对比读取真实结构化数据，并以本地规则生成稳定的解释与摘要。
-- AI 层：AI 观察与设备顾问可选择 OpenAI / DeepSeek provider；设备顾问将本地候选真值与模型生成内容分层，异常、无 key、超时或重试后不合规时完整回退 rules fallback。
+- AI 层：AI 观察使用 OpenAI，设备顾问可选择 OpenAI / DeepSeek provider；设备顾问将本地候选真值与模型生成内容分层，异常、无 key、超时或重试后不合规时完整回退 rules fallback。
 - 评测层：设备顾问评测结果写入 `.eval-results/`，由 `/dev/device-advisor-eval` 这个 dev-only 页面展示。
 
 ## 验证证据
@@ -83,7 +83,7 @@ DeviceScope / 数码观察站是一个电子设备代际演进分析平台，面
 
 ### 阶段二：AI 观察引擎
 
-状态：MVP 已完成，待真实模型联调
+状态：MVP 与可重复评测入口已完成，待真实模型持续联调
 
 已完成：
 
@@ -91,10 +91,11 @@ DeviceScope / 数码观察站是一个电子设备代际演进分析平台，面
 - 多分析模式
 - rules fallback
 - 缓存生成 MVP
+- AI 观察 offline / OpenAI 可控评测命令（默认仅输出终端）
 
 后续计划：
 
-- 使用真实 `OPENAI_API_KEY` / `DEEPSEEK_API_KEY` 做端到端验证
+- 使用真实 `OPENAI_API_KEY` 持续做端到端验证
 - 调整 prompt 和输出结构
 - 对缓存内容做抽样质量检查
 - 判断哪些 AI 观察结果适合前端长期展示
@@ -153,7 +154,7 @@ DeviceScope / 数码观察站是一个电子设备代际演进分析平台，面
 ### 高优先级
 
 - **价格快照扩充**：使用批处理命令在统一“中国大陆渠道、运行内存 + 存储、成色、采集日期”口径下扩大当前价与二手价覆盖；`search` 默认读取一页，可用 `--pages 1-5` 扩大库存检索并按 ID 去重，先用 `--products-only` 查看唯一产品名，再用 `--product`、`--require`、`--exclude`、`--available` 收窄精确配置与库存；`inspect` 会列出识货可选配色与 SKU，`--all-styles` 可并行合并全部配色，`--match` 可按容量、版本或内存关键词过滤并统一 TB / GB 容量写法，`--available` 只保留有规格列示价的 SKU，指定 `skuId` 后解析当前显示价。九机受信动态页可用 `--render` 读取一机一价、验机信息及同款库存链接，配合 `--compact` 可在已确定详情页后隐藏关联商品列表。搜索与详情请求遇到瞬时断连或服务端错误时自动重试一次；无法唯一判断时仍进入人工复核，不将单次商品页价格描述为实时行情。
-- **AI 观察真实模型评测**：设备顾问已具备 `eval:device-advisor` 的 offline / DeepSeek 评测脚本、结构化结果和 dev-only 看板；下一步只需为 AI 观察补同等级的可控真实模型样例与质量记录。
+- **AI 观察真实模型评测**：`eval:ai-analysis` 已覆盖 iPhone、iPad、MacBook 三类可控样例及 offline / OpenAI 路径；下一步在具备 `OPENAI_API_KEY` 的环境持续记录输出质量和延迟，不把单次通过描述为长期稳定。
 - **AI 缓存质量抽检**：对已生成缓存 entry 做抽样检查，标记可直接展示、需重生成、需改 prompt 的类型。
 
 ### 中优先级
