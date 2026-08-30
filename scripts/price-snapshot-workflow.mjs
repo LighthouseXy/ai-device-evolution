@@ -243,27 +243,32 @@ function compactInspection(inspection) {
   return compact;
 }
 
-async function searchJiUsed(query, limit) {
-  const url = new URL("https://m2.9ji.com/web/api/second/secondGoodsSearch/v1");
-  url.search = new URLSearchParams({
-    coll: "0-0-0-0-0-0-0-0-0_0",
-    keywords: query,
-    ppid: "",
-    hsPid: "",
-    filterSales: "",
-    current: "1",
-    cityId: "",
-    size: String(limit),
-  });
-  const response = await fetchWithRetry(url, {
-    headers: { "user-agent": "Mozilla/5.0 DeviceScope price snapshot audit", "accept-language": "zh-CN,zh;q=0.9" },
-  });
-  if (!response.ok) throw new Error(`${response.status} ${url}`);
-  const payload = await response.json();
-  if (payload.code !== 0 || !Array.isArray(payload.data?.product?.records)) {
-    throw new Error(payload.userMsg || "九机二手搜索返回格式异常");
+async function searchJiUsed(query, limit, pages = 1) {
+  const records = new Map();
+  for (let current = 1; current <= pages; current += 1) {
+    const url = new URL("https://m2.9ji.com/web/api/second/secondGoodsSearch/v1");
+    url.search = new URLSearchParams({
+      coll: "0-0-0-0-0-0-0-0-0_0",
+      keywords: query,
+      ppid: "",
+      hsPid: "",
+      filterSales: "",
+      current: String(current),
+      cityId: "",
+      size: String(limit),
+    });
+    const response = await fetchWithRetry(url, {
+      headers: { "user-agent": "Mozilla/5.0 DeviceScope price snapshot audit", "accept-language": "zh-CN,zh;q=0.9" },
+    });
+    if (!response.ok) throw new Error(`${response.status} ${url}`);
+    const payload = await response.json();
+    if (payload.code !== 0 || !Array.isArray(payload.data?.product?.records)) {
+      throw new Error(payload.userMsg || "九机二手搜索返回格式异常");
+    }
+    for (const item of payload.data.product.records) records.set(item.id, item);
+    if (payload.data.product.records.length < limit) break;
   }
-  return payload.data.product.records.slice(0, limit).map((item) => ({
+  return [...records.values()].map((item) => ({
     id: item.id,
     url: `https://m2.9ji.com/secondHand/detail/${item.id}`,
     product: item.name,
@@ -351,7 +356,7 @@ function applyBatch(rows) {
 function usage() {
   return `价格快照批处理\n\n` +
     `  npm run prices -- plan [--type current|used] [--category phone|tablet|laptop] [--limit 20] [--json]\n` +
-    `  npm run prices -- search <九机二手型号关键词> [--limit 20] [--products-only] [--product "精确产品名"] [--require "词1 词2"] [--exclude "词3 词4"] [--available]\n` +
+    `  npm run prices -- search <九机二手型号关键词> [--limit 20] [--pages 1] [--products-only] [--product "精确产品名"] [--require "词1 词2"] [--exclude "词3 词4"] [--available]\n` +
     `  npm run prices -- inspect <https商品页> [--render] [--compact]  # 识货多规格页请带 skuId；动态页加 --render\n` +
     `  npm run prices -- validate <batch.json>\n` +
     `  npm run prices -- apply <batch.json>\n`;
@@ -378,6 +383,7 @@ if (!command || ["help", "--help", "-h"].includes(command)) {
     args: process.argv.slice(4),
     options: {
       limit: { type: "string", default: "20" },
+      pages: { type: "string", default: "1" },
       "products-only": { type: "boolean", default: false },
       product: { type: "string" },
       require: { type: "string" },
@@ -387,7 +393,9 @@ if (!command || ["help", "--help", "-h"].includes(command)) {
   });
   const limit = Number(values.limit);
   if (!Number.isInteger(limit) || limit < 1 || limit > 100) throw new Error("--limit 必须是 1-100 的整数");
-  const items = await searchJiUsed(process.argv[3], limit);
+  const pages = Number(values.pages);
+  if (!Number.isInteger(pages) || pages < 1 || pages > 5) throw new Error("--pages 必须是 1-5 的整数");
+  const items = await searchJiUsed(process.argv[3], limit, pages);
   const filteredItems = filterJiUsedItems(items, values);
   const output = values["products-only"]
     ? [...new Set(filteredItems.map((item) => item.product))].sort((left, right) => left.localeCompare(right, "zh-CN"))
