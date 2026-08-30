@@ -131,6 +131,110 @@ const REFERENCE_LAUNCH_PRICES = {
     configuration: "64GB，中国大陆版本",
     observedAt: "2017-09-15",
   },
+  "macbook-12-2017": {
+    value: 10288,
+    sourceUrl: "https://www.smzdm.com/p/7358045/",
+    sourceName: "什么值得买",
+    rawText: "2017 款 12 英寸 MacBook 以 8GB + 256GB 配置起步，Apple 中国官网售价 10288 元起。",
+    configuration: "Intel Core m3，8GB + 256GB，中国大陆版本",
+    observedAt: "2017-06-07",
+  },
+  "macbook-air-13-2017": {
+    value: 6988,
+    sourceUrl: "https://www.ithome.com/0/313/844.htm",
+    sourceName: "IT之家",
+    rawText: "2017 款 MacBook Air 13.3 英寸 8GB + 128GB 版本售价 6988 元。",
+    configuration: "1.8GHz Intel Core i5，8GB + 128GB，中国大陆版本",
+    observedAt: "2017-06-21",
+  },
+  "macbook-pro-13-4-port-2017": {
+    value: 14288,
+    sourceUrl: "https://news.mydrivers.com/1/535/535464.htm",
+    sourceName: "快科技",
+    rawText: "13 英寸带 Touch Bar：双核 3.1GHz i5 + 8GB 内存 + 256GB SSD = 14288 元。",
+    configuration: "3.1GHz Intel Core i5，8GB + 256GB，四个雷雳 3 端口，中国大陆版本",
+    observedAt: "2017-06-07",
+  },
+  "macbook-pro-15-2017": {
+    value: 18888,
+    sourceUrl: "https://news.mydrivers.com/1/535/535464.htm",
+    sourceName: "快科技",
+    rawText: "15 英寸带 Touch Bar：四核 2.8GHz i7 + 16GB 内存 + 256GB SSD + Radeon Pro 555 = 18888 元。",
+    configuration: "2.8GHz Intel Core i7，16GB + 256GB，Radeon Pro 555，中国大陆版本",
+    observedAt: "2017-06-07",
+  },
+  "macbook-pro-13-4-port-2020": {
+    value: 14499,
+    sourceUrl: "https://tech.sina.cn/2020-05-07/detail-iircuyvi1807468.d.html?vt=4",
+    sourceName: "新浪科技",
+    rawText: "2.0GHz 四核十代处理器、16GB 内存、四个雷雳 3 端口、512GB 版本售价 14499 元。",
+    configuration: "2.0GHz 十代 Intel Core i5，16GB + 512GB，四个雷雳 3 端口，中国大陆版本",
+    observedAt: "2020-05-07",
+  },
+  "macbook-pro-14-m1-max-2021": {
+    value: 24999,
+    sourceUrl: "https://detail.zol.com.cn/notebook/index1423964.shtml",
+    sourceName: "中关村在线",
+    rawText: "14 英寸 MacBook Pro 2021：10 核 M1 Max、32GB、1TB、32 核图形处理器，参考报价 24999 元。",
+    configuration: "M1 Max 10 核 CPU / 32 核 GPU，32GB + 1TB，中国大陆标准销售配置",
+    observedAt: "2021-10-19",
+  },
+  "macbook-pro-16-m1-max-2021": {
+    value: 26499,
+    sourceUrl: "https://detail.zol.com.cn/notebook/index1392118.shtml",
+    sourceName: "中关村在线",
+    rawText: "16 英寸 MacBook Pro 2021：10 核 M1 Max、32GB、1TB、32 核图形处理器，参考报价 26499 元。",
+    configuration: "M1 Max 10 核 CPU / 32 核 GPU，32GB + 1TB，中国大陆标准销售配置",
+    observedAt: "2021-10-19",
+  },
+  "macbook-pro-14-m2-max-2023": {
+    value: 24999,
+    sourceUrl: "https://www.ithome.com/0/668/372.htm",
+    sourceName: "IT之家",
+    rawText: "14 英寸 MacBook Pro：M2 Max（12 核 CPU、30 核 GPU），32GB 统一内存 + 1TB 固态硬盘 24999 元。",
+    configuration: "M2 Max 12 核 CPU / 30 核 GPU，32GB + 1TB，中国大陆标准销售配置",
+    observedAt: "2023-01-17",
+  },
+  "macbook-pro-16-m2-max-2023": {
+    value: 27499,
+    sourceUrl: "https://www.ithome.com/0/668/372.htm",
+    sourceName: "IT之家",
+    rawText: "16 英寸 MacBook Pro：M2 Max（12 核 CPU、38 核 GPU），32GB 统一内存 + 1TB 固态硬盘 27499 元。",
+    configuration: "M2 Max 12 核 CPU / 38 核 GPU，32GB + 1TB，中国大陆标准销售配置",
+    observedAt: "2023-01-17",
+  },
+  "macbook-pro-14-m3-max-2023": {
+    value: 26999,
+    sourceUrl: "https://www.ithome.com/0/728/761.htm",
+    sourceName: "IT之家",
+    rawText: "14 英寸 MacBook Pro：M3 Max 14 核 CPU、30 核 GPU、36GB 统一内存、1TB 固态硬盘，售价 26999 元。",
+    configuration: "M3 Max 14 核 CPU / 30 核 GPU，36GB + 1TB，中国大陆标准销售配置",
+    observedAt: "2023-10-31",
+  },
+  "macbook-pro-16-m3-max-2023": {
+    value: 27999,
+    sourceUrl: "https://www.ithome.com/0/728/761.htm",
+    sourceName: "IT之家",
+    rawText: "16 英寸 MacBook Pro：M3 Max 14 核 CPU、30 核 GPU、36GB 统一内存、1TB 固态硬盘，售价 27999 元。",
+    configuration: "M3 Max 14 核 CPU / 30 核 GPU，36GB + 1TB，中国大陆标准销售配置",
+    observedAt: "2023-10-31",
+  },
+  "macbook-pro-14-m4-max-2024": {
+    value: 26999,
+    sourceUrl: "https://detail.zol.com.cn/notebook/index2112223.shtml",
+    sourceName: "中关村在线",
+    rawText: "14 英寸 MacBook Pro 2024：14 核 M4 Max、36GB、1TB、32 核图形处理器，参考报价 26999 元。",
+    configuration: "M4 Max 14 核 CPU / 32 核 GPU，36GB + 1TB，中国大陆标准销售配置",
+    observedAt: "2024-10-30",
+  },
+  "macbook-pro-16-m4-2024": {
+    value: 19999,
+    sourceUrl: "https://www.ithome.com/0/806/559.htm",
+    sourceName: "IT之家",
+    rawText: "搭载 M4 Pro 芯片的 16 英寸 MacBook Pro 起售价为 19999 元。",
+    configuration: "M4 Pro 14 核 CPU / 20 核 GPU，24GB + 512GB，中国大陆标准销售配置",
+    observedAt: "2024-10-30",
+  },
 };
 
 const REFERENCE_CURRENT_PRICES = {
@@ -835,21 +939,7 @@ const MACBOOK_CHIP_SPLITS = {
   ],
 };
 
-const EXPECTED_MISSING_LAUNCH_PRICES = new Set([
-  "macbook-12-2017",
-  "macbook-air-13-2017",
-  "macbook-pro-13-4-port-2017",
-  "macbook-pro-13-4-port-2020",
-  "macbook-pro-14-m1-max-2021",
-  "macbook-pro-14-m2-max-2023",
-  "macbook-pro-14-m3-max-2023",
-  "macbook-pro-16-m2-max-2023",
-  "macbook-pro-14-m4-max-2024",
-  "macbook-pro-16-m4-2024",
-  "macbook-pro-15-2017",
-  "macbook-pro-16-m1-max-2021",
-  "macbook-pro-16-m3-max-2023",
-]);
+const EXPECTED_MISSING_LAUNCH_PRICES = new Set();
 
 const GENERATION_UPGRADE_RECALCULATIONS = {
   "macbook-air-13-m4-2025": [4, ["芯片+3 (Apple M3 芯片→Apple M4 芯片)", "外观+1"]],
@@ -1210,6 +1300,11 @@ function extractField(device, fieldName, sections, oldField, sourceUrl) {
     return values.length ? spec(Math.max(...values), raw, oldField, sourceUrl) : null;
   }
   if (fieldName === "chip") {
+    const tierChipName = device.modelName.match(/\((M\d+ (?:Pro|Max))\)/)?.[1];
+    if (tierChipName) {
+      const tierRaw = first(blocks, new RegExp(`(?:Apple )?${tierChipName}(?: 芯片| \\()`));
+      if (tierRaw) return spec(`Apple ${tierChipName} 芯片`, tierRaw, oldField, sourceUrl);
+    }
     const raw = first(chip, /芯片|Apple\s+[AM]\d+|A\d+(?:\s*仿生)?|Intel Core/i)
       ?? first(blocks, /Intel Core/i);
     const intelModels = raw
@@ -1583,6 +1678,7 @@ for (const sourceDevice of sourceDevices) {
     const releaseYear = device.id === "ipad-air-m4-2025" ? 2026 : device.releaseYear;
     zhDevices.push(recalculateGenerationUpgrade({ ...device, modelName, releaseYear, specs }));
     const referenceUrls = new Set(oldSource.referenceUrls ?? []);
+    if (REFERENCE_LAUNCH_PRICES[device.id]) referenceUrls.add(REFERENCE_LAUNCH_PRICES[device.id].sourceUrl);
     if (currentPriceReferences[device.id]) referenceUrls.add(currentPriceReferences[device.id].sourceUrl);
     if (usedPriceReferences[device.id]) referenceUrls.add(usedPriceReferences[device.id].sourceUrl);
     if (REFERENCE_MEMORY_SPECS[device.id]) referenceUrls.add(IOS_REF_MEMORY_URL);

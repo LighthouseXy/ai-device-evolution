@@ -14896,11 +14896,11 @@
         },
         "chip": {
           "value": "Apple M5 Max 芯片",
-          "rawText": "Apple M5 Max 芯片",
+          "rawText": "或 M5 Max (18 核中央处理器和 32 核图形处理器，460GB/s 内存带宽)",
           "sourceUrl": "https://support.apple.com/zh-cn/126318",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-31"
         },
         "cpu": {
           "value": "18 核中央处理器，具有 6 个超级核心和 12 个性能核心；M5 Max (18 核中央处理器和 40 核图形处理器，614GB/s 内存带宽)",
@@ -15608,11 +15608,11 @@
         },
         "chip": {
           "value": "Apple M5 Max 芯片",
-          "rawText": "Apple M5 Max 芯片",
+          "rawText": "M5 Max (18 核中央处理器和 32 核图形处理器，460GB/s 内存带宽) 或 M5 Max (18 核中央处理器和 40 核图形处理器，614GB/s 内存带宽)",
           "sourceUrl": "https://support.apple.com/zh-cn/126319",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-31"
         },
         "cpu": {
           "value": "18 核中央处理器，具有 6 个超级核心和 12 个性能核心；M5 Max (18 核中央处理器和 40 核图形处理器，614GB/s 内存带宽)",
@@ -16651,11 +16651,11 @@
         },
         "chip": {
           "value": "Apple M4 Max 芯片",
-          "rawText": "Apple M4 Max 芯片",
+          "rawText": "M4 Pro (14 核中央处理器和 20 核图形处理器) 或 M4 Max (14 核中央处理器和 32 核图形处理器，410GB/s 内存带宽) 或 M4 Max (16 核中央处理器和 40 核图形处理器，546GB/s 内存带宽)",
           "sourceUrl": "https://support.apple.com/zh-cn/121553",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-31"
         },
         "cpu": {
           "value": "14 核中央处理器，具有 10 个性能核心和 4 个能效核心；M4 Max (16 核中央处理器和 40 核图形处理器，546GB/s 内存带宽)",
@@ -16848,6 +16848,21 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "launchPrice": {
+          "value": 26999,
+          "unit": "CNY",
+          "rawText": "14 英寸 MacBook Pro 2024：14 核 M4 Max、36GB、1TB、32 核图形处理器，参考报价 26999 元。",
+          "sourceUrl": "https://detail.zol.com.cn/notebook/index2112223.shtml",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-08-31",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "M4 Max 14 核 CPU / 32 核 GPU，36GB + 1TB，中国大陆标准销售配置",
+          "condition": "全新首发定价",
+          "observedAt": "2024-10-30",
+          "sourceName": "中关村在线"
         }
       },
       "computed": {
@@ -17170,6 +17185,21 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "launchPrice": {
+          "value": 19999,
+          "unit": "CNY",
+          "rawText": "搭载 M4 Pro 芯片的 16 英寸 MacBook Pro 起售价为 19999 元。",
+          "sourceUrl": "https://www.ithome.com/0/806/559.htm",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-08-31",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "M4 Pro 14 核 CPU / 20 核 GPU，24GB + 512GB，中国大陆标准销售配置",
+          "condition": "全新首发定价",
+          "observedAt": "2024-10-30",
+          "sourceName": "IT之家"
         }
       },
       "computed": {
@@ -17295,11 +17325,11 @@
         },
         "chip": {
           "value": "Apple M4 Max 芯片",
-          "rawText": "Apple M4 Max 芯片",
+          "rawText": "M4 Max (14 核中央处理器和 32 核图形处理器，410GB/s 内存带宽) 或 M4 Max (16 核中央处理器和 40 核图形处理器，546GB/s 内存带宽)",
           "sourceUrl": "https://support.apple.com/zh-cn/121554",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-31"
         },
         "cpu": {
           "value": "14 核中央处理器，具有 10 个性能核心和 4 个能效核心、16 核中央处理器，具有 12 个性能核心和 4 个能效核心；M4 Max (16 核中央处理器和 40 核图形处理器，546GB/s 内存带宽)",
@@ -18257,11 +18287,11 @@
         },
         "chip": {
           "value": "Apple M2 Max 芯片",
-          "rawText": "Apple M2 Max 芯片",
+          "rawText": "M2 Max (12 核中央处理器和 30 核图形处理器) 或 M2 Max (12 核中央处理器和 38 核图形处理器)",
           "sourceUrl": "https://support.apple.com/zh-cn/111838",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-31"
         },
         "cpu": {
           "value": "12 核中央处理器，具有 8 个性能核心和 4 个能效核心",
@@ -18454,6 +18484,21 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "launchPrice": {
+          "value": 27499,
+          "unit": "CNY",
+          "rawText": "16 英寸 MacBook Pro：M2 Max（12 核 CPU、38 核 GPU），32GB 统一内存 + 1TB 固态硬盘 27499 元。",
+          "sourceUrl": "https://www.ithome.com/0/668/372.htm",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-08-31",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "M2 Max 12 核 CPU / 38 核 GPU，32GB + 1TB，中国大陆标准销售配置",
+          "condition": "全新首发定价",
+          "observedAt": "2023-01-17",
+          "sourceName": "IT之家"
         }
       },
       "computed": {
@@ -28539,6 +28584,21 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "launchPrice": {
+          "value": 10288,
+          "unit": "CNY",
+          "rawText": "2017 款 12 英寸 MacBook 以 8GB + 256GB 配置起步，Apple 中国官网售价 10288 元起。",
+          "sourceUrl": "https://www.smzdm.com/p/7358045/",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-08-31",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "Intel Core m3，8GB + 256GB，中国大陆版本",
+          "condition": "全新首发定价",
+          "observedAt": "2017-06-07",
+          "sourceName": "什么值得买"
         }
       },
       "computed": {}
@@ -28725,6 +28785,21 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "launchPrice": {
+          "value": 6988,
+          "unit": "CNY",
+          "rawText": "2017 款 MacBook Air 13.3 英寸 8GB + 128GB 版本售价 6988 元。",
+          "sourceUrl": "https://www.ithome.com/0/313/844.htm",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-08-31",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "1.8GHz Intel Core i5，8GB + 128GB，中国大陆版本",
+          "condition": "全新首发定价",
+          "observedAt": "2017-06-21",
+          "sourceName": "IT之家"
         }
       },
       "computed": {
@@ -29143,6 +29218,21 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "launchPrice": {
+          "value": 14288,
+          "unit": "CNY",
+          "rawText": "13 英寸带 Touch Bar：双核 3.1GHz i5 + 8GB 内存 + 256GB SSD = 14288 元。",
+          "sourceUrl": "https://news.mydrivers.com/1/535/535464.htm",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-08-31",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "3.1GHz Intel Core i5，8GB + 256GB，四个雷雳 3 端口，中国大陆版本",
+          "condition": "全新首发定价",
+          "observedAt": "2017-06-07",
+          "sourceName": "快科技"
         }
       },
       "computed": {}
@@ -29330,6 +29420,21 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "launchPrice": {
+          "value": 18888,
+          "unit": "CNY",
+          "rawText": "15 英寸带 Touch Bar：四核 2.8GHz i7 + 16GB 内存 + 256GB SSD + Radeon Pro 555 = 18888 元。",
+          "sourceUrl": "https://news.mydrivers.com/1/535/535464.htm",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-08-31",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "2.8GHz Intel Core i7，16GB + 256GB，Radeon Pro 555，中国大陆版本",
+          "condition": "全新首发定价",
+          "observedAt": "2017-06-07",
+          "sourceName": "快科技"
         }
       },
       "computed": {}
@@ -31763,6 +31868,21 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "launchPrice": {
+          "value": 14499,
+          "unit": "CNY",
+          "rawText": "2.0GHz 四核十代处理器、16GB 内存、四个雷雳 3 端口、512GB 版本售价 14499 元。",
+          "sourceUrl": "https://tech.sina.cn/2020-05-07/detail-iircuyvi1807468.d.html?vt=4",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-08-31",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "2.0GHz 十代 Intel Core i5，16GB + 512GB，四个雷雳 3 端口，中国大陆版本",
+          "condition": "全新首发定价",
+          "observedAt": "2020-05-07",
+          "sourceName": "新浪科技"
         }
       },
       "computed": {}
@@ -32183,12 +32303,12 @@
           "verifiedAt": "2026-08-25"
         },
         "chip": {
-          "value": "Apple M1 Pro 芯片",
-          "rawText": "Apple M1 Pro 芯片",
+          "value": "Apple M1 Max 芯片",
+          "rawText": "M1 Max (10 核中央处理器和 24 核图形处理器)",
           "sourceUrl": "https://support.apple.com/zh-cn/111902",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-31"
         },
         "cpu": {
           "value": "8 核中央处理器，具有 6 个性能核心和 2 个能效核心；M1 Max (10 核中央处理器和 24 核图形处理器)；M1 Max (10 核中央处理器和 32 核图形处理器)",
@@ -32381,6 +32501,21 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "launchPrice": {
+          "value": 24999,
+          "unit": "CNY",
+          "rawText": "14 英寸 MacBook Pro 2021：10 核 M1 Max、32GB、1TB、32 核图形处理器，参考报价 24999 元。",
+          "sourceUrl": "https://detail.zol.com.cn/notebook/index1423964.shtml",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-08-31",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "M1 Max 10 核 CPU / 32 核 GPU，32GB + 1TB，中国大陆标准销售配置",
+          "condition": "全新首发定价",
+          "observedAt": "2021-10-19",
+          "sourceName": "中关村在线"
         }
       },
       "computed": {
@@ -32813,11 +32948,11 @@
         },
         "chip": {
           "value": "Apple M1 Max 芯片",
-          "rawText": "Apple M1 Max 芯片",
+          "rawText": "可选配： M1 Max (10 核中央处理器和 24 核图形处理器)",
           "sourceUrl": "https://support.apple.com/zh-cn/111901",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-31"
         },
         "cpu": {
           "value": "10 核中央处理器，具有 8 个性能核心和 2 个能效核心",
@@ -33010,6 +33145,21 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "launchPrice": {
+          "value": 26499,
+          "unit": "CNY",
+          "rawText": "16 英寸 MacBook Pro 2021：10 核 M1 Max、32GB、1TB、32 核图形处理器，参考报价 26499 元。",
+          "sourceUrl": "https://detail.zol.com.cn/notebook/index1392118.shtml",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-08-31",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "M1 Max 10 核 CPU / 32 核 GPU，32GB + 1TB，中国大陆标准销售配置",
+          "condition": "全新首发定价",
+          "observedAt": "2021-10-19",
+          "sourceName": "中关村在线"
         }
       },
       "computed": {
@@ -33431,11 +33581,11 @@
         },
         "chip": {
           "value": "Apple M2 Max 芯片",
-          "rawText": "Apple M2 Max 芯片",
+          "rawText": "M2 Pro (12 核中央处理器和 19 核图形处理器)、M2 Max (12 核中央处理器和 30 核图形处理器) 或 M2 Max (12 核中央处理器和 38 核图形处理器)",
           "sourceUrl": "https://support.apple.com/zh-cn/111340",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-31"
         },
         "cpu": {
           "value": "12 核中央处理器，具有 8 个性能核心和 4 个能效核心；M2 Max (12 核中央处理器和 38 核图形处理器)",
@@ -33628,6 +33778,21 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "launchPrice": {
+          "value": 24999,
+          "unit": "CNY",
+          "rawText": "14 英寸 MacBook Pro：M2 Max（12 核 CPU、30 核 GPU），32GB 统一内存 + 1TB 固态硬盘 24999 元。",
+          "sourceUrl": "https://www.ithome.com/0/668/372.htm",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-08-31",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "M2 Max 12 核 CPU / 30 核 GPU，32GB + 1TB，中国大陆标准销售配置",
+          "condition": "全新首发定价",
+          "observedAt": "2023-01-17",
+          "sourceName": "IT之家"
         }
       },
       "computed": {}
@@ -34661,11 +34826,11 @@
         },
         "chip": {
           "value": "Apple M3 Max 芯片",
-          "rawText": "Apple M3 Max 芯片",
+          "rawText": "M3 Pro (12 核中央处理器和 18 核图形处理器)、M3 Max (14 核中央处理器和 30 核图形处理器，300GB/s 内存带宽) 或 M3 Max (16 核中央处理器和 40 核图形处理器，400GB/s 内存带宽)",
           "sourceUrl": "https://support.apple.com/zh-cn/117736",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-31"
         },
         "cpu": {
           "value": "14 核中央处理器，具有 10 个性能核心和 4 个能效核心；M3 Max (16 核中央处理器和 40 核图形处理器，400GB/s 内存带宽)",
@@ -34850,6 +35015,21 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "launchPrice": {
+          "value": 26999,
+          "unit": "CNY",
+          "rawText": "14 英寸 MacBook Pro：M3 Max 14 核 CPU、30 核 GPU、36GB 统一内存、1TB 固态硬盘，售价 26999 元。",
+          "sourceUrl": "https://www.ithome.com/0/728/761.htm",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-08-31",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "M3 Max 14 核 CPU / 30 核 GPU，36GB + 1TB，中国大陆标准销售配置",
+          "condition": "全新首发定价",
+          "observedAt": "2023-10-31",
+          "sourceName": "IT之家"
         }
       },
       "computed": {}
@@ -35260,11 +35440,11 @@
         },
         "chip": {
           "value": "Apple M3 Max 芯片",
-          "rawText": "Apple M3 Max 芯片",
+          "rawText": "M3 Max (14 核中央处理器和 30 核图形处理器，300GB/s 内存带宽) 或 M3 Max (16 核中央处理器和 40 核图形处理器，400GB/s 内存带宽)",
           "sourceUrl": "https://support.apple.com/zh-cn/117737",
           "sourceType": "apple",
           "confidence": 1,
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-31"
         },
         "cpu": {
           "value": "14 核中央处理器，具有 10 个性能核心和 4 个能效核心，16 核中央处理器，具有 12 个性能核心和 4 个能效核心；M3 Max (16 核中央处理器和 40 核图形处理器，400GB/s 内存带宽)",
@@ -35457,6 +35637,21 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "launchPrice": {
+          "value": 27999,
+          "unit": "CNY",
+          "rawText": "16 英寸 MacBook Pro：M3 Max 14 核 CPU、30 核 GPU、36GB 统一内存、1TB 固态硬盘，售价 27999 元。",
+          "sourceUrl": "https://www.ithome.com/0/728/761.htm",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-08-31",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "M3 Max 14 核 CPU / 30 核 GPU，36GB + 1TB，中国大陆标准销售配置",
+          "condition": "全新首发定价",
+          "observedAt": "2023-10-31",
+          "sourceName": "IT之家"
         }
       },
       "computed": {}

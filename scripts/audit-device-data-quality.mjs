@@ -33,7 +33,7 @@ const reportFields = [
   "rearCamera",
   "frontCamera",
 ];
-const trustedReferenceHosts = new Set(["tc.people.com.cn", "mobile.zol.com.cn", "www.shihuo.cn", "pro.m.jd.com", "item.jd.com", "item.m.jd.com", "m2.9ji.com", "iosref.com"]);
+const trustedReferenceHosts = new Set(["tc.people.com.cn", "mobile.zol.com.cn", "detail.zol.com.cn", "www.ithome.com", "news.mydrivers.com", "tech.sina.cn", "www.smzdm.com", "www.shihuo.cn", "pro.m.jd.com", "item.jd.com", "item.m.jd.com", "m2.9ji.com", "iosref.com"]);
 
 const hasValue = (device, field) => device.specs?.[field]?.value !== null && device.specs?.[field]?.value !== undefined;
 const sourceIds = sourceRows.map((row) => row.id);
@@ -132,6 +132,13 @@ for (const [category, categoryDevices] of devicesByCategory) {
 }
 assert.equal(devices.filter((device) => device.specs.memory?.value).length, devices.length, "运行内存必须覆盖全部设备");
 
+for (const device of devices.filter((item) => item.category === "laptop")) {
+  const tierChipName = device.modelName.match(/\((M\d+ (?:Pro|Max))\)/)?.[1];
+  if (tierChipName) {
+    assert.ok(String(device.specs.chip?.value).includes(tierChipName), `${device.id}.chip: 型号名与芯片档位不一致`);
+  }
+}
+
 const referenceMemoryDevices = devices.filter((device) => device.specs.memory?.sourceType === "reference");
 const memoryDistribution = (category) => Object.fromEntries(
   [...referenceMemoryDevices
@@ -163,28 +170,35 @@ const importedReferencePrices = Object.values(priceObservations)
   .filter((observation) => observation.sourceType !== "apple").length;
 assert.ok(sourceRows.every((row) => ["verified", "needs_review"].includes(row.sourceStatus)), "来源登记状态非法");
 assert.equal(sourceAudit.supportZhCn + sourceAudit.appleChina + sourceAudit.reference, sourceAudit.fields, "仍有字段未使用已登记来源");
-assert.equal(sourceAudit.reference, 102 + importedReferencePrices, "第三方内存与价格字段数量发生变化");
+assert.equal(sourceAudit.reference, 115 + importedReferencePrices, "第三方内存与价格字段数量发生变化");
 assert.deepEqual(needsReview, [], "仍有设备来源待人工复核");
 
 const missingLaptopLaunchPrices = devices
   .filter((device) => device.category === "laptop" && !hasValue(device, "launchPrice"))
   .map((device) => device.id)
   .sort();
-assert.deepEqual(missingLaptopLaunchPrices, [
-  "macbook-12-2017",
-  "macbook-air-13-2017",
-  "macbook-pro-13-4-port-2017",
-  "macbook-pro-13-4-port-2020",
-  "macbook-pro-14-m1-max-2021",
-  "macbook-pro-14-m2-max-2023",
-  "macbook-pro-14-m3-max-2023",
-  "macbook-pro-14-m4-max-2024",
-  "macbook-pro-15-2017",
-  "macbook-pro-16-m1-max-2021",
-  "macbook-pro-16-m2-max-2023",
-  "macbook-pro-16-m3-max-2023",
-  "macbook-pro-16-m4-2024",
-], "MacBook 首发价缺失集合发生变化；仅允许中文官网未明确报价的配置留空");
+assert.deepEqual(missingLaptopLaunchPrices, [], "MacBook 中国大陆首发价必须完整");
+
+const referenceLaunchPriceSnapshots = {
+  "macbook-12-2017": 10288,
+  "macbook-air-13-2017": 6988,
+  "macbook-pro-13-4-port-2017": 14288,
+  "macbook-pro-15-2017": 18888,
+  "macbook-pro-13-4-port-2020": 14499,
+  "macbook-pro-14-m1-max-2021": 24999,
+  "macbook-pro-16-m1-max-2021": 26499,
+  "macbook-pro-14-m2-max-2023": 24999,
+  "macbook-pro-16-m2-max-2023": 27499,
+  "macbook-pro-14-m3-max-2023": 26999,
+  "macbook-pro-16-m3-max-2023": 27999,
+  "macbook-pro-14-m4-max-2024": 26999,
+  "macbook-pro-16-m4-2024": 19999,
+};
+for (const [deviceId, launchPrice] of Object.entries(referenceLaunchPriceSnapshots)) {
+  const field = devicesById.get(deviceId)?.specs.launchPrice;
+  assert.equal(field?.value, launchPrice, `${deviceId}.launchPrice: 第三方首发价发生回归`);
+  assert.equal(field?.sourceType, "reference", `${deviceId}.launchPrice: 第三方首发价来源类型发生回归`);
+}
 
 const currentPriceSnapshots = {
   "ipad-a16-2025": 2830,
@@ -313,10 +327,10 @@ assert.equal(
 
 const splitMacBookSpecs = {
   "macbook-pro-14-m4-pro-2024": ["Apple M4 Pro 芯片", "24GB / 48GB / 64GB", 16999],
-  "macbook-pro-14-m4-max-2024": ["Apple M4 Max 芯片", "36GB / 48GB / 64GB / 128GB", null],
+  "macbook-pro-14-m4-max-2024": ["Apple M4 Max 芯片", "36GB / 48GB / 64GB / 128GB", 26999],
   "macbook-pro-16-m2-2023": ["Apple M2 Pro 芯片", "16GB / 32GB", 19999],
-  "macbook-pro-16-m2-max-2023": ["Apple M2 Max 芯片", "32GB / 64GB / 96GB", null],
-  "macbook-pro-16-m4-2024": ["Apple M4 Pro 芯片", "24GB / 48GB / 64GB", null],
+  "macbook-pro-16-m2-max-2023": ["Apple M2 Max 芯片", "32GB / 64GB / 96GB", 27499],
+  "macbook-pro-16-m4-2024": ["Apple M4 Pro 芯片", "24GB / 48GB / 64GB", 19999],
   "macbook-pro-16-m4-max-2024": ["Apple M4 Max 芯片", "36GB / 48GB / 64GB / 128GB", 27999],
   "macbook-pro-14-m5-pro-2026": ["Apple M5 Pro 芯片", "24GB / 48GB / 64GB", 17999],
   "macbook-pro-14-m5-max-2026": ["Apple M5 Max 芯片", "36GB / 48GB / 64GB / 128GB", 29999],
