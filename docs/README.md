@@ -154,12 +154,13 @@ scripts/
 ├── sync-apple-zh-cn-data.mjs          # 中文官网数据同步
 ├── price-snapshot-workflow.mjs        # 价格缺口、检查、验证与导入
 ├── device-advisor-regression.mjs      # fallback 回归
-└── device-advisor-api-regression.mjs  # API 错误路径回归
+├── device-advisor-api-regression.mjs  # API 错误路径回归
+└── device-advisor-ai-eval.mjs         # offline / DeepSeek 真实模型评测
 ```
 
 ## 当前阶段
 
-项目已完成中文官网数据切换、2016 年以来 129 台设备扩容、MacBook Pro Pro / Max 独立配置拆分、配置化价格对比、首页 / 设备库 / 设备详情、代际对比、趋势观察、AI 顾问、DeepSeek 接入、AI eval 闭环、dev-only 评测看板和 v2 前端重构。设备顾问已收敛为轻量候选层、候选真值校验与完整 AI / rules 分层；数据主线下一步是在统一配置口径下继续扩充中国大陆当前价与二手价快照。
+项目已完成中文官网数据切换、2016 年以来 129 台设备扩容、MacBook Pro Pro / Max 独立配置拆分、配置化价格对比、首页 / 设备库 / 设备详情、代际对比、趋势观察、AI 顾问、DeepSeek 接入、AI eval 闭环、dev-only 评测看板和 v2 前端重构。设备顾问已收敛为轻量候选层、候选真值校验与完整 AI / rules 分层，并可通过 `npm run eval:device-advisor` 执行 offline 或真实 DeepSeek 样例评测；数据主线下一步是在统一配置口径下继续扩充中国大陆当前价与二手价快照。
 
 ## 相关文档
 
