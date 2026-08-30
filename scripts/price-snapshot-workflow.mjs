@@ -269,8 +269,7 @@ function compactInspection(inspection) {
 }
 
 async function searchJiUsed(query, limit, pages = 1) {
-  const records = new Map();
-  for (let current = 1; current <= pages; current += 1) {
+  async function fetchPage(current) {
     const url = new URL("https://m2.9ji.com/web/api/second/secondGoodsSearch/v1");
     url.search = new URLSearchParams({
       coll: "0-0-0-0-0-0-0-0-0_0",
@@ -290,8 +289,19 @@ async function searchJiUsed(query, limit, pages = 1) {
     if (payload.code !== 0 || !Array.isArray(payload.data?.product?.records)) {
       throw new Error(payload.userMsg || "九机二手搜索返回格式异常");
     }
-    for (const item of payload.data.product.records) records.set(item.id, item);
-    if (payload.data.product.records.length < limit) break;
+    return payload.data.product.records;
+  }
+
+  const records = new Map();
+  const firstPage = await fetchPage(1);
+  for (const item of firstPage) records.set(item.id, item);
+  if (pages > 1 && firstPage.length >= limit) {
+    const remainingPages = await Promise.all(
+      Array.from({ length: pages - 1 }, (_, index) => fetchPage(index + 2)),
+    );
+    for (const page of remainingPages) {
+      for (const item of page) records.set(item.id, item);
+    }
   }
   return [...records.values()].map((item) => ({
     id: item.id,
