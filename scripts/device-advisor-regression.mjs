@@ -415,6 +415,21 @@ const scenarios = [
     },
   },
   {
+    name: "phone_used_mainland_iphone17e_price",
+    input: {
+      category: "phone",
+      budget: { min: 3250, max: 3270, currency: "CNY" },
+      useCases: ["日常", "拍照"],
+      conditionPreference: "used_ok",
+      maxResults: 3,
+    },
+    expect(output) {
+      assertSimpleFallback(output, "phone", 1);
+      assert.equal(output.devices[0]?.deviceId, "iphone-17e-2026");
+      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥3,259（九机二手良品，2026-08-31）/);
+    },
+  },
+  {
     name: "laptop_used_mainland_price",
     input: {
       category: "laptop",
