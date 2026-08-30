@@ -911,7 +911,7 @@ const SECTION_NAMES = {
   display: /^(显示屏|显示器|顯示器)$/,
   water: /防溅|抗水|防尘/,
   chip: /^(芯片|处理器|處理器)$/,
-  memory: /^内存$/,
+  memory: /^(?:内存|記憶體)$/,
   camera: /^(摄像头|相机)$/,
   frontCamera: /原深感摄像头|前置摄像头|超广角摄像头|FaceTime.*摄像头/i,
   video: /^视频拍摄$/,
@@ -1240,7 +1240,10 @@ function extractField(device, fieldName, sections, oldField, sourceUrl) {
     const source = memory.length ? memory : chip;
     const selected = ["pro", "max"].includes(device.tier)
       ? source.filter((block) => block.length <= 600 && !/内存带宽/.test(block) && /\b\d+GB\b/.test(block))
-      : source.filter((block) => block.length <= 300 && !/内存带宽/.test(block) && (/^\d+GB.*(?:统一)?内存/.test(block) || /可选配/.test(block)));
+      : source.filter((block) => block.length <= 300 && !/内存带宽/.test(block) && (
+        /^\d+GB.*(?:统一)?内存/.test(block)
+        || /記憶體|可选配/.test(block)
+      ));
     const parsed = parseMemory(selected, device.tier);
     return spec(parsed.value, parsed.raw, oldField, sourceUrl);
   }

@@ -130,6 +130,7 @@ for (const [category, categoryDevices] of devicesByCategory) {
     assert.deepEqual(missing, [], `${category}.${field}: 核心字段缺失 ${missing.join(", ")}`);
   }
 }
+assert.equal(devices.filter((device) => device.specs.memory?.value).length, devices.length, "运行内存必须覆盖全部设备");
 
 const referenceMemoryDevices = devices.filter((device) => device.specs.memory?.sourceType === "reference");
 const memoryDistribution = (category) => Object.fromEntries(
