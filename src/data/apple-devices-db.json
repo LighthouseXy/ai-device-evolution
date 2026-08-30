@@ -8363,6 +8363,21 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "currentPrice": {
+          "value": 1890,
+          "unit": "CNY",
+          "rawText": "截至 2026 年 8 月 31 日，识货所选 SKU 90789686 显示银色、256G、无线局域网型，当前显示价 1890 元。",
+          "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=1311248&styleId=25471213&skuId=90789686",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-08-31",
+          "priceType": "current",
+          "market": "中国大陆",
+          "configuration": "银色，无线局域网型，3GB 运行内存 + 256GB 存储，中国大陆电商渠道参考",
+          "condition": "全新，识货聚合中国大陆渠道公开价；优惠资格、库存和实际成交价以来源页为准",
+          "observedAt": "2026-08-31",
+          "sourceName": "识货"
+        },
         "usedPrice": {
           "value": 1169,
           "unit": "CNY",
@@ -25083,6 +25098,21 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "currentPrice": {
+          "value": 4520,
+          "unit": "CNY",
+          "rawText": "截至 2026 年 8 月 31 日，识货所选 SKU 18859528 显示银色、256G、WLAN 版，当前显示价 4520 元。",
+          "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=288925&styleId=4912119&skuId=18859528",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-08-31",
+          "priceType": "current",
+          "market": "中国大陆",
+          "configuration": "银色，WLAN 版，3GB 运行内存 + 256GB 存储，中国大陆电商渠道参考",
+          "condition": "全新，识货聚合中国大陆渠道公开价；优惠资格、库存和实际成交价以来源页为准",
+          "observedAt": "2026-08-31",
+          "sourceName": "识货"
+        },
         "usedPrice": {
           "value": 999,
           "unit": "CNY",
@@ -26724,6 +26754,21 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "currentPrice": {
+          "value": 4680,
+          "unit": "CNY",
+          "rawText": "截至 2026 年 8 月 31 日，识货所选 SKU 74075435 显示深空灰、256G、WLAN 版，当前显示价 4680 元。",
+          "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=977684&styleId=20673797&skuId=74075435",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-08-31",
+          "priceType": "current",
+          "market": "中国大陆",
+          "configuration": "深空灰，WLAN 版，8GB 运行内存 + 256GB 存储，中国大陆电商渠道参考",
+          "condition": "全新，识货聚合中国大陆渠道公开价；优惠资格、库存和实际成交价以来源页为准",
+          "observedAt": "2026-08-31",
+          "sourceName": "识货"
         }
       },
       "computed": {}
