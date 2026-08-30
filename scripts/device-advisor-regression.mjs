@@ -284,7 +284,7 @@ const scenarios = [
     },
   },
   {
-    name: "phone_used_mainland_iphone12_price",
+    name: "phone_used_mainland_iphone12_se2_prices",
     input: {
       category: "phone",
       budget: { min: 750, max: 800, currency: "CNY" },
@@ -293,9 +293,10 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
-      assertSimpleFallback(output, "phone", 1);
-      assert.equal(output.devices[0]?.deviceId, "iphone-12");
+      assertSimpleFallback(output, "phone", 2);
+      assert.deepEqual(output.devices.map((device) => device.deviceId), ["iphone-12", "iphone-se-2-2020"]);
       assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥788（京东商务二手手机热卖榜，2026-08-25）/);
+      assert.match(output.devices[1]?.priceText ?? "", /二手价 ¥779（九机二手良品，2026-08-31）/);
     },
   },
   {
