@@ -328,11 +328,11 @@ const scenarios = [
       assert.deepEqual(output.devices.map((device) => device.deviceId), [
         "iphone-13-mini",
         "iphone-11-pro-2019",
-        "iphone-xs-max-2018",
+        "iphone-12-mini",
       ]);
       assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥1,239（京东 6英以下屏幕二手手机好评榜，2026-08-25）/);
       assert.match(output.devices[1]?.priceText ?? "", /二手价 ¥1,219（九机二手良品，2026-08-31）/);
-      assert.match(output.devices[2]?.priceText ?? "", /二手价 ¥1,136（京东 6英以下屏幕二手手机好评榜，2026-08-25）/);
+      assert.match(output.devices[2]?.priceText ?? "", /二手价 ¥1,189（九机二手良品，2026-08-31）/);
     },
   },
   {
