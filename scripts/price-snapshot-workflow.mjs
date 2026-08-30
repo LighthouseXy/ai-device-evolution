@@ -154,12 +154,13 @@ function selectedJiUsedItem(text, url) {
   const reportStart = text.indexOf("验机报告 先验机再付款", priceGrade.index);
   const reportEnd = text.indexOf("二手良品需人工一机一验", reportStart);
   const reportBlock = reportStart >= 0 ? text.slice(reportStart, reportEnd >= 0 ? reportEnd : undefined) : "";
+  const batteryHealth = reportBlock.match(/(\d{1,3}(?:%\s*-\s*\d{1,3})?)%\s*电池寿命/)?.[1];
   return {
     price: Number(priceGrade[1]),
     grade: `${priceGrade[2]}成新`,
     product: productBlock.match(/(Apple .*? 国行)(?:\s+机况|\s+参数)/)?.[1] ?? null,
     inventoryId: reportBlock.match(/库存编号：?\s*(\d+)/)?.[1] ?? null,
-    batteryHealth: reportBlock.match(/(\d{1,3})%\s*电池寿命/)?.[1] ?? null,
+    batteryHealth: batteryHealth ? `${batteryHealth.replaceAll(" ", "")}%` : null,
     repairHistory: reportBlock.match(/(未检出维修痕迹|检出.*?维修痕迹)\s*维修历史/)?.[1] ?? null,
     modelNumber: reportBlock.match(/(A\d{4})\s*型号号码/)?.[1] ?? null,
     mainland: /国行\s*版本/.test(reportBlock),
@@ -181,12 +182,13 @@ function relatedJiUsedItems(html, url) {
     const text = decodeHtml(body);
     const price = parseDisplayedPrice(text.match(/[¥￥]\s*([0-9]{3,6}(?:\.[0-9]{1,2})?)/)?.[1]);
     if (!price) continue;
+    const batteryHealth = text.match(/(\d{1,3}(?:%\s*-\s*\d{1,3})?)%/)?.[1];
     items.set(path, {
       url: new URL(path, url).href,
       product,
       grade: text.match(/(\d{1,2})\s*成新/)?.[1] ? `${text.match(/(\d{1,2})\s*成新/)?.[1]}成新` : null,
       price,
-      batteryHealth: text.match(/(\d{1,3})%/)?.[1] ?? null,
+      batteryHealth: batteryHealth ? `${batteryHealth.replaceAll(" ", "")}%` : null,
     });
   }
   return [...items.values()].slice(0, 50);
@@ -233,6 +235,40 @@ async function inspectUrl(url, { render = false } = {}) {
     },
     textPreview: text.slice(0, 800),
   };
+}
+
+async function searchJiUsed(query, limit) {
+  const url = new URL("https://m2.9ji.com/web/api/second/secondGoodsSearch/v1");
+  url.search = new URLSearchParams({
+    coll: "0-0-0-0-0-0-0-0-0_0",
+    keywords: query,
+    ppid: "",
+    hsPid: "",
+    filterSales: "",
+    current: "1",
+    cityId: "",
+    size: String(limit),
+  });
+  const response = await fetch(url, {
+    headers: { "user-agent": "Mozilla/5.0 DeviceScope price snapshot audit", "accept-language": "zh-CN,zh;q=0.9" },
+    signal: AbortSignal.timeout(15000),
+  });
+  if (!response.ok) throw new Error(`${response.status} ${url}`);
+  const payload = await response.json();
+  if (payload.code !== 0 || !Array.isArray(payload.data?.product?.records)) {
+    throw new Error(payload.userMsg || "九机二手搜索返回格式异常");
+  }
+  return payload.data.product.records.slice(0, limit).map((item) => ({
+    id: item.id,
+    url: `https://m2.9ji.com/secondHand/detail/${item.id}`,
+    product: item.name,
+    skuName: item.skuName,
+    price: Number(item.salePrice) || null,
+    grade: item.glevelName || item.gleavel || null,
+    inspectionSignals: item.secondParams ?? [],
+    network: item.network || null,
+    stockout: Boolean(item.stockout),
+  }));
 }
 
 function validateBatch(input, { allowExisting = false } = {}) {
@@ -298,6 +334,7 @@ function applyBatch(rows) {
 function usage() {
   return `价格快照批处理\n\n` +
     `  npm run prices -- plan [--type current|used] [--category phone|tablet|laptop] [--limit 20] [--json]\n` +
+    `  npm run prices -- search <九机二手型号关键词> [--limit 20]\n` +
     `  npm run prices -- inspect <https商品页> [--render]  # 识货多规格页请带 skuId；动态页加 --render\n` +
     `  npm run prices -- validate <batch.json>\n` +
     `  npm run prices -- apply <batch.json>\n`;
@@ -318,6 +355,15 @@ if (!command || ["help", "--help", "-h"].includes(command)) {
   const plan = buildPlan({ category: values.category, priceType: values.type, limit });
   if (values.json) console.log(JSON.stringify(plan, null, 2));
   else for (const row of plan) console.log(`${row.deviceId}\t${row.configuration}\t${row.searchQuery}`);
+} else if (command === "search") {
+  if (!process.argv[3] || process.argv[3].startsWith("--")) throw new Error("缺少九机二手型号关键词");
+  const { values } = parseArgs({
+    args: process.argv.slice(4),
+    options: { limit: { type: "string", default: "20" } },
+  });
+  const limit = Number(values.limit);
+  if (!Number.isInteger(limit) || limit < 1 || limit > 100) throw new Error("--limit 必须是 1-100 的整数");
+  console.log(JSON.stringify(await searchJiUsed(process.argv[3], limit), null, 2));
 } else if (command === "inspect") {
   if (!process.argv[3]) throw new Error("缺少商品页 URL");
   console.log(JSON.stringify(await inspectUrl(process.argv[3], { render: process.argv.includes("--render", 4) }), null, 2));

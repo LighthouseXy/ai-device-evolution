@@ -97,6 +97,7 @@ npm run lint
 ./node_modules/.bin/tsc --noEmit --incremental false
 npm run sync:apple-zh-cn
 npm run prices -- plan --type current --limit 20
+npm run prices -- search 'iPad Air 2025' --limit 20 # 搜索九机在售二手候选
 npm run prices -- inspect 'https://商品页' # 识货多规格页附带 skuId
 npm run prices -- inspect 'https://m2.9ji.com/secondHand/detail/...' --render # 用本机 Chrome 检查受信动态页
 npm run test:price-workflow
