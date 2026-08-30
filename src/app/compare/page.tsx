@@ -48,7 +48,7 @@ type DeviceConfiguration = {
 };
 
 const CAPACITY_PATTERN = /(\d+(?:\.\d+)?)\s*(TB|GB)/gi;
-const EXPLICIT_MEMORY_PATTERN = /(\d+(?:\.\d+)?)\s*GB\s*(?:统一)?内存/i;
+const EXPLICIT_MEMORY_PATTERN = /(\d+(?:\.\d+)?)\s*GB\s*(?:统一|运行)?内存/i;
 
 function configurationKey(memory: string | null, storage: string) {
   return `${memory ?? "unknown"}|${storage}`;
