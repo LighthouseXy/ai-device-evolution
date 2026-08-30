@@ -448,9 +448,13 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
-      assertSimpleFallback(output, "laptop", 1);
-      assert.equal(output.devices[0]?.deviceId, "macbook-air-13-m4-2025");
-      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥8,649（九机二手良品，2026-08-25）/);
+      assertSimpleFallback(output, "laptop", 2);
+      assert.deepEqual(output.devices.map((device) => device.deviceId), [
+        "macbook-air-15-m5-2026",
+        "macbook-air-13-m4-2025",
+      ]);
+      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥8,699（九机二手良品，2026-08-31）/);
+      assert.match(output.devices[1]?.priceText ?? "", /二手价 ¥8,649（九机二手良品，2026-08-25）/);
     },
   },
   {

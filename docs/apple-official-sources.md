@@ -43,17 +43,17 @@
 | --- | ---: |
 | 设备 | 129 |
 | 比较组 | 28 |
-| 规格字段 | 3894 |
+| 规格字段 | 3899 |
 | Apple 一方字段 | 3723 |
 | Apple Support 中文字段 | 3598 |
 | Apple 中国页面字段 | 125 |
-| `reference` 字段 | 171 |
+| `reference` 字段 | 176 |
 | 首发价 / 当前价 / 二手价 | 129 / 49 / 56 |
 | 运行内存 | 129 / 129 |
 | `support.apple.com/en-us` 默认字段 | 0 |
 | `needs_review` | 0 |
 
-3781 条 `rawText` 包含中文；其余 113 条为 `12GB`、`eSIM` 等技术记法，不属于英文快照混入。Apple Support 中文字段中 3597 条来自 `zh-cn`，2016 款 12 英寸 MacBook 的 1 条内存字段来自 Apple 官方 `zh-tw` 技术规格页。59 个 iPhone / iPad 运行内存字段来自 [iOS Ref](https://iosref.com/memory-processor)，其公开维护源位于 [GitHub](https://github.com/ebelinski/iosref)。13 条 Apple 新闻稿未单列的 MacBook 国行首发价来自已登记的同期 IT之家、快科技、新浪科技、什么值得买及中关村在线页面，并绑定具体芯片、内存与存储配置。
+3786 条 `rawText` 包含中文；其余 113 条为 `12GB`、`eSIM` 等技术记法，不属于英文快照混入。Apple Support 中文字段中 3597 条来自 `zh-cn`，2016 款 12 英寸 MacBook 的 1 条内存字段来自 Apple 官方 `zh-tw` 技术规格页。59 个 iPhone / iPad 运行内存字段来自 [iOS Ref](https://iosref.com/memory-processor)，其公开维护源位于 [GitHub](https://github.com/ebelinski/iosref)。13 条 Apple 新闻稿未单列的 MacBook 国行首发价来自已登记的同期 IT之家、快科技、新浪科技、什么值得买及中关村在线页面，并绑定具体芯片、内存与存储配置。
 
 ## 同步与验证
 
