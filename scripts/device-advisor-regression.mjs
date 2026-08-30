@@ -180,9 +180,10 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
-      assertSimpleFallback(output, "tablet", 1);
-      assert.equal(output.devices[0]?.deviceId, "ipad-air-m4-2025");
-      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥5,229（京东 99 成新二手平板电脑折扣榜，2026-08-25）/);
+      assertSimpleFallback(output, "tablet", 2);
+      assert.deepEqual(output.devices.map((device) => device.deviceId), ["ipad-pro-m2-2022", "ipad-air-m4-2025"]);
+      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥5,249（九机二手良品，2026-08-31）/);
+      assert.match(output.devices[1]?.priceText ?? "", /二手价 ¥5,229（京东 99 成新二手平板电脑折扣榜，2026-08-25）/);
     },
   },
   {
