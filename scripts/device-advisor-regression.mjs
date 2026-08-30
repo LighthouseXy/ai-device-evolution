@@ -401,7 +401,7 @@ const scenarios = [
     },
   },
   {
-    name: "laptop_used_mainland_m2_price",
+    name: "laptop_used_mainland_m2_neo_prices",
     input: {
       category: "laptop",
       budget: { min: 3500, max: 4200, currency: "CNY" },
@@ -411,9 +411,13 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
-      assertSimpleFallback(output, "laptop", 1);
-      assert.equal(output.devices[0]?.deviceId, "macbook-air-13-m2-2022");
+      assertSimpleFallback(output, "laptop", 2);
+      assert.deepEqual(output.devices.map((device) => device.deviceId), [
+        "macbook-air-13-m2-2022",
+        "macbook-neo-13-2026",
+      ]);
       assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥3,979（京东爱回收严选官方旗舰店，2026-08-25）/);
+      assert.match(output.devices[1]?.priceText ?? "", /二手价 ¥3,749（九机二手良品，2026-08-31）/);
     },
   },
   {
@@ -434,6 +438,41 @@ const scenarios = [
       ]);
       assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥4,799（九机二手良品，2026-08-25）/);
       assert.match(output.devices[1]?.priceText ?? "", /二手价 ¥4,799（九机二手良品，2026-08-31）/);
+    },
+  },
+  {
+    name: "laptop_used_mainland_m1_neo_prices",
+    input: {
+      category: "laptop",
+      budget: { min: 3300, max: 3800, currency: "CNY" },
+      useCases: ["办公", "学习"],
+      conditionPreference: "used_ok",
+      interfaceNeed: "usb_c",
+      maxResults: 3,
+    },
+    expect(output) {
+      assertSimpleFallback(output, "laptop", 2);
+      assert.deepEqual(output.devices.map((device) => device.deviceId), [
+        "macbook-neo-13-2026",
+        "macbook-pro-13-m1-2020",
+      ]);
+      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥3,749（九机二手良品，2026-08-31）/);
+      assert.match(output.devices[1]?.priceText ?? "", /二手价 ¥3,399（九机二手良品，2026-08-31）/);
+    },
+  },
+  {
+    name: "laptop_used_mainland_m5_pro_price",
+    input: {
+      category: "laptop",
+      budget: { min: 17000, max: 17300, currency: "CNY" },
+      useCases: ["开发", "视频剪辑"],
+      conditionPreference: "used_ok",
+      maxResults: 3,
+    },
+    expect(output) {
+      assertSimpleFallback(output, "laptop", 1);
+      assert.equal(output.devices[0]?.deviceId, "macbook-pro-14-m5-pro-2026");
+      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥17,199（九机二手良品，2026-08-31）/);
     },
   },
   {
