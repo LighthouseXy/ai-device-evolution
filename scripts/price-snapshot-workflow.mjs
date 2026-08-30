@@ -351,7 +351,7 @@ function applyBatch(rows) {
 function usage() {
   return `价格快照批处理\n\n` +
     `  npm run prices -- plan [--type current|used] [--category phone|tablet|laptop] [--limit 20] [--json]\n` +
-    `  npm run prices -- search <九机二手型号关键词> [--limit 20] [--product "精确产品名"] [--require "词1 词2"] [--exclude "词3 词4"] [--available]\n` +
+    `  npm run prices -- search <九机二手型号关键词> [--limit 20] [--products-only] [--product "精确产品名"] [--require "词1 词2"] [--exclude "词3 词4"] [--available]\n` +
     `  npm run prices -- inspect <https商品页> [--render] [--compact]  # 识货多规格页请带 skuId；动态页加 --render\n` +
     `  npm run prices -- validate <batch.json>\n` +
     `  npm run prices -- apply <batch.json>\n`;
@@ -378,6 +378,7 @@ if (!command || ["help", "--help", "-h"].includes(command)) {
     args: process.argv.slice(4),
     options: {
       limit: { type: "string", default: "20" },
+      "products-only": { type: "boolean", default: false },
       product: { type: "string" },
       require: { type: "string" },
       exclude: { type: "string" },
@@ -387,7 +388,11 @@ if (!command || ["help", "--help", "-h"].includes(command)) {
   const limit = Number(values.limit);
   if (!Number.isInteger(limit) || limit < 1 || limit > 100) throw new Error("--limit 必须是 1-100 的整数");
   const items = await searchJiUsed(process.argv[3], limit);
-  console.log(JSON.stringify(filterJiUsedItems(items, values), null, 2));
+  const filteredItems = filterJiUsedItems(items, values);
+  const output = values["products-only"]
+    ? [...new Set(filteredItems.map((item) => item.product))].sort((left, right) => left.localeCompare(right, "zh-CN"))
+    : filteredItems;
+  console.log(JSON.stringify(output, null, 2));
 } else if (command === "inspect") {
   if (!process.argv[3]) throw new Error("缺少商品页 URL");
   const inspection = await inspectUrl(process.argv[3], { render: process.argv.includes("--render", 4) });
