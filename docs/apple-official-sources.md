@@ -60,6 +60,7 @@
 ```bash
 npm run sync:apple-zh-cn
 npm run prices -- plan --type current --limit 20
+npm run prices -- inspect 'https://m2.9ji.com/secondHand/detail/...' --render
 npm run test:price-workflow
 npm run test:device-taxonomy
 npm run test:device-data-quality

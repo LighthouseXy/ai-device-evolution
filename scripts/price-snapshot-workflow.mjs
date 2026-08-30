@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import { spawnSync } from "node:child_process";
 import { parseArgs } from "node:util";
 
 const DATABASE_PATH = "src/data/apple-devices-db.json";
@@ -108,17 +109,70 @@ function selectedShihuoSku(html, url) {
   };
 }
 
-async function inspectUrl(url) {
+function renderHtml(url) {
+  const candidates = [
+    process.env.CHROME_BIN,
+    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "google-chrome",
+    "chromium",
+    "chromium-browser",
+  ].filter(Boolean);
+  for (const executable of candidates) {
+    const result = spawnSync(executable, [
+      "--headless=new",
+      "--disable-gpu",
+      "--no-sandbox",
+      "--virtual-time-budget=6000",
+      "--dump-dom",
+      url,
+    ], { encoding: "utf8", maxBuffer: 25 * 1024 * 1024, timeout: 30000 });
+    if (result.error?.code === "ENOENT") continue;
+    if (result.error) throw result.error;
+    if (result.status !== 0 || !result.stdout.includes("<html")) {
+      throw new Error(`动态页面渲染失败: ${result.stderr.trim() || `退出码 ${result.status}`}`);
+    }
+    return result.stdout;
+  }
+  throw new Error("未找到 Chrome/Chromium；可通过 CHROME_BIN 指定浏览器路径");
+}
+
+function selectedJiUsedItem(text, url) {
+  if (new URL(url).hostname !== "m2.9ji.com") return null;
+  const priceGrade = text.match(/¥\s*([0-9]{3,6})(?:\s*已优惠\s*\d+)?\s*(\d{1,2})\s*成新/);
+  if (!priceGrade) return null;
+  const productBlock = text.slice(priceGrade.index, text.indexOf("AI点评", priceGrade.index));
+  const reportStart = text.indexOf("验机报告 先验机再付款", priceGrade.index);
+  const reportEnd = text.indexOf("二手良品需人工一机一验", reportStart);
+  const reportBlock = reportStart >= 0 ? text.slice(reportStart, reportEnd >= 0 ? reportEnd : undefined) : "";
+  return {
+    price: Number(priceGrade[1]),
+    grade: `${priceGrade[2]}成新`,
+    product: productBlock.match(/(Apple .*? 国行)(?:\s+机况|\s+参数)/)?.[1] ?? null,
+    inventoryId: reportBlock.match(/库存编号：?\s*(\d+)/)?.[1] ?? null,
+    batteryHealth: reportBlock.match(/(\d{1,3})%\s*电池寿命/)?.[1] ?? null,
+    repairHistory: reportBlock.match(/(未检出维修痕迹|检出.*?维修痕迹)\s*维修历史/)?.[1] ?? null,
+    modelNumber: reportBlock.match(/(A\d{4})\s*型号号码/)?.[1] ?? null,
+    mainland: /国行\s*版本/.test(reportBlock),
+    inspectionSummary: reportBlock.match(/经检测：(.*?)详细检测结果/)?.[1]?.trim() ?? null,
+    soldOut: /已售罄/.test(text.slice(reportStart >= 0 ? reportStart : priceGrade.index)),
+  };
+}
+
+async function inspectUrl(url, { render = false } = {}) {
   const parsed = new URL(url);
   if (parsed.protocol !== "https:") throw new Error("只接受 HTTPS 商品页");
+  if (render && !TRUSTED_HOSTS.has(parsed.hostname)) throw new Error("动态渲染只接受受信来源域名");
   const response = await fetch(url, {
     headers: { "user-agent": "Mozilla/5.0 DeviceScope price snapshot audit", "accept-language": "zh-CN,zh;q=0.9" },
     signal: AbortSignal.timeout(15000),
   });
   if (!response.ok) throw new Error(`${response.status} ${url}`);
-  const html = await response.text();
+  if (render && !TRUSTED_HOSTS.has(new URL(response.url).hostname)) throw new Error("动态渲染重定向到了非受信来源域名");
+  const staticHtml = await response.text();
+  const html = render ? renderHtml(response.url) : staticHtml;
   const text = decodeHtml(html);
   const selectedSku = selectedShihuoSku(html, response.url);
+  const selectedUsedItem = selectedJiUsedItem(text, response.url);
   const title = html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1]?.replace(/\s+/g, " ").trim() ?? "";
   const capacities = [...new Set(text.match(/\b\d+(?:\.\d+)?\s*(?:GB|TB)\b/gi) ?? [])].slice(0, 30);
   const highlightedPrices = [...text.matchAll(/.{0,80}(?:最低价|页面价|当前价格|售价为|价格区间).{0,120}/g)]
@@ -128,8 +182,10 @@ async function inspectUrl(url) {
     requestedUrl: url,
     finalUrl: response.url,
     sourceHost: new URL(response.url).hostname,
+    rendered: render,
     title,
     selectedSku,
+    selectedUsedItem,
     priceCandidates: priceCandidates(html),
     highlightedPrices,
     capacities,
@@ -205,7 +261,7 @@ function applyBatch(rows) {
 function usage() {
   return `价格快照批处理\n\n` +
     `  npm run prices -- plan [--type current|used] [--category phone|tablet|laptop] [--limit 20] [--json]\n` +
-    `  npm run prices -- inspect <https商品页>  # 识货多规格页请带 skuId\n` +
+    `  npm run prices -- inspect <https商品页> [--render]  # 识货多规格页请带 skuId；动态页加 --render\n` +
     `  npm run prices -- validate <batch.json>\n` +
     `  npm run prices -- apply <batch.json>\n`;
 }
@@ -227,7 +283,7 @@ if (!command || ["help", "--help", "-h"].includes(command)) {
   else for (const row of plan) console.log(`${row.deviceId}\t${row.configuration}\t${row.searchQuery}`);
 } else if (command === "inspect") {
   if (!process.argv[3]) throw new Error("缺少商品页 URL");
-  console.log(JSON.stringify(await inspectUrl(process.argv[3]), null, 2));
+  console.log(JSON.stringify(await inspectUrl(process.argv[3], { render: process.argv.includes("--render", 4) }), null, 2));
 } else if (["validate", "apply"].includes(command)) {
   if (!process.argv[3]) throw new Error("缺少批次 JSON 文件");
   const rows = validateBatch(readJson(process.argv[3]));

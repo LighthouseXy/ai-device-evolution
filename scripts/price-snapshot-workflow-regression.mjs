@@ -16,6 +16,7 @@ const help = run(["--help"]);
 assert.equal(help.status, 0, help.stderr);
 assert.match(help.stdout, /plan/);
 assert.match(help.stdout, /inspect/);
+assert.match(help.stdout, /--render/);
 assert.match(help.stdout, /validate/);
 assert.match(help.stdout, /apply/);
 
