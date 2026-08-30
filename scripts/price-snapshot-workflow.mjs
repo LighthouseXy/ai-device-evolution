@@ -87,25 +87,35 @@ function parseDisplayedPrice(value) {
   return price >= 300 && price <= 100000 ? price : null;
 }
 
-function selectedShihuoSku(html, url) {
+function shihuoPageData(html, url) {
   if (new URL(url).hostname !== "www.shihuo.cn") return null;
   const json = html.match(/<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/)?.[1];
   if (!json) return null;
-  const page = JSON.parse(json).props?.pageProps;
-  const skuData = page?.skuListData?.data;
+  return JSON.parse(json).props?.pageProps ?? null;
+}
+
+function shihuoSkus(page) {
+  return (page?.skuListData?.data?.list ?? []).flatMap((style) =>
+    (style.sku_list ?? []).map((sku) => ({
+      styleId: String(style.style_id),
+      skuId: String(sku.sku_id),
+      listedPrice: parseDisplayedPrice(sku.price),
+      attributes: Object.fromEntries(sku.attrs.map((attribute) => [attribute.spec_name, attribute.name])),
+    })),
+  );
+}
+
+function selectedShihuoSku(page, url) {
+  if (!page) return null;
   const requestedSkuId = new URL(url).searchParams.get("skuId");
   if (!requestedSkuId) return null;
-  const sku = skuData?.list
-    ?.flatMap((style) => style.sku_list ?? [])
-    .find((candidate) => String(candidate.sku_id) === requestedSkuId);
+  const sku = shihuoSkus(page).find((candidate) => candidate.skuId === requestedSkuId);
   if (!sku) return null;
-  const displayPrice = page?.supplierListData?.data?.list?.[0]?.supplier_info?.display_price ?? sku.price;
+  const displayPrice = page?.supplierListData?.data?.list?.[0]?.supplier_info?.display_price;
   return {
-    skuId: String(sku.sku_id),
-    price: parseDisplayedPrice(displayPrice),
-    displayPrice,
-    listedPrice: parseDisplayedPrice(sku.price),
-    attributes: Object.fromEntries(sku.attrs.map((attribute) => [attribute.spec_name, attribute.name])),
+    ...sku,
+    price: parseDisplayedPrice(displayPrice) ?? sku.listedPrice,
+    displayPrice: displayPrice ?? null,
   };
 }
 
@@ -158,6 +168,30 @@ function selectedJiUsedItem(text, url) {
   };
 }
 
+function relatedJiUsedItems(html, url) {
+  if (new URL(url).hostname !== "m2.9ji.com") return [];
+  const currentPath = new URL(url).pathname;
+  const items = new Map();
+  for (const match of html.matchAll(/<a\b[^>]*href="(\/secondHand\/detail\/\d+)"[^>]*>([\s\S]*?)<\/a>/g)) {
+    const [, path, body] = match;
+    if (path === currentPath || items.has(path)) continue;
+    const productHtml = body.match(/class="[^"]*\bproduct-name\b[^"]*"[^>]*>([\s\S]*?)<\/span>/)?.[1];
+    if (!productHtml) continue;
+    const product = decodeHtml(productHtml);
+    const text = decodeHtml(body);
+    const price = parseDisplayedPrice(text.match(/[¥￥]\s*([0-9]{3,6}(?:\.[0-9]{1,2})?)/)?.[1]);
+    if (!price) continue;
+    items.set(path, {
+      url: new URL(path, url).href,
+      product,
+      grade: text.match(/(\d{1,2})\s*成新/)?.[1] ? `${text.match(/(\d{1,2})\s*成新/)?.[1]}成新` : null,
+      price,
+      batteryHealth: text.match(/(\d{1,3})%/)?.[1] ?? null,
+    });
+  }
+  return [...items.values()].slice(0, 50);
+}
+
 async function inspectUrl(url, { render = false } = {}) {
   const parsed = new URL(url);
   if (parsed.protocol !== "https:") throw new Error("只接受 HTTPS 商品页");
@@ -171,7 +205,8 @@ async function inspectUrl(url, { render = false } = {}) {
   const staticHtml = await response.text();
   const html = render ? renderHtml(response.url) : staticHtml;
   const text = decodeHtml(html);
-  const selectedSku = selectedShihuoSku(html, response.url);
+  const shihuoPage = shihuoPageData(html, response.url);
+  const selectedSku = selectedShihuoSku(shihuoPage, response.url);
   const selectedUsedItem = selectedJiUsedItem(text, response.url);
   const title = html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1]?.replace(/\s+/g, " ").trim() ?? "";
   const capacities = [...new Set(text.match(/\b\d+(?:\.\d+)?\s*(?:GB|TB)\b/gi) ?? [])].slice(0, 30);
@@ -185,7 +220,9 @@ async function inspectUrl(url, { render = false } = {}) {
     rendered: render,
     title,
     selectedSku,
+    availableSkus: shihuoSkus(shihuoPage).slice(0, 50),
     selectedUsedItem,
+    relatedUsedItems: relatedJiUsedItems(html, response.url),
     priceCandidates: priceCandidates(html),
     highlightedPrices,
     capacities,
