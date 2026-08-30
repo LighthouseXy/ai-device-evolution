@@ -1,7 +1,7 @@
 # Apple 主来源与补充来源管理
 
 > 项目：数码观察站 DeviceScope
-> 版本：v1.5 | 2026-08-31
+> 版本：v1.6 | 2026-08-31
 
 ## 当前口径
 
@@ -43,17 +43,17 @@
 | --- | ---: |
 | 设备 | 129 |
 | 比较组 | 28 |
-| 规格字段 | 3826 |
+| 规格字段 | 3830 |
 | Apple 一方字段 | 3722 |
 | Apple Support `zh-cn` 字段 | 3597 |
 | Apple 中国页面字段 | 125 |
-| `reference` 字段 | 104 |
-| 首发价 / 当前价 / 二手价 | 116 / 24 / 30 |
+| `reference` 字段 | 108 |
+| 首发价 / 当前价 / 二手价 | 116 / 24 / 34 |
 | 运行内存 | 128 / 129 |
 | `support.apple.com/en-us` 默认字段 | 0 |
 | `needs_review` | 0 |
 
-3713 条 `rawText` 包含中文；其余 113 条为 `12GB`、`eSIM` 等技术记法，不属于英文快照混入。59 个 iPhone / iPad 运行内存字段来自 [iOS Ref](https://iosref.com/memory-processor)，其公开维护源位于 [GitHub](https://github.com/ebelinski/iosref)。
+3717 条 `rawText` 包含中文；其余 113 条为 `12GB`、`eSIM` 等技术记法，不属于英文快照混入。59 个 iPhone / iPad 运行内存字段来自 [iOS Ref](https://iosref.com/memory-processor)，其公开维护源位于 [GitHub](https://github.com/ebelinski/iosref)。
 
 ## 同步与验证
 
@@ -82,4 +82,4 @@ npm run build
 - 30 个英文库曾有的推断字段在中文库中保持缺失，主要是未明确写出的 60Hz，以及“没有 HDMI / SDXC”等否定项。
 - 13 台 MacBook 尚无可靠中国大陆首发价；1 台 MacBook 尚无可靠运行内存。缺失项保持为空，不以同系列或相近配置推断。
 - `ipad-air-m4-2025` 暂时保留历史内部 ID 以避免路由变化，中文数据中的发布年份已修正为 2026。
-- 当前价与二手价分别仅覆盖 24 / 30 台，都是特定配置、成色和日期的参考快照，不是实时行情；商城当前价也不能冒充首发价。
+- 当前价与二手价分别仅覆盖 24 / 34 台，都是特定配置、成色和日期的参考快照，不是实时行情；商城当前价也不能冒充首发价。

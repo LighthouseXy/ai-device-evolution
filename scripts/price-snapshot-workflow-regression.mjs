@@ -45,6 +45,13 @@ assert.match(validResult.stdout, /验证通过 1 条/);
 
 const invalidResult = run(["validate", "-"], JSON.stringify([{ ...candidate[0], configuration: "黑色，2TB，国行" }]));
 assert.notEqual(invalidResult.status, 0);
-assert.match(invalidResult.stderr, /有效存储容量/);
+assert.match(invalidResult.stderr, /有效运行内存/);
 
-console.log("Passed price snapshot workflow regression scenarios: help, plan, validate, reject_invalid_storage");
+const invalidStorageResult = run(["validate", "-"], JSON.stringify([{
+  ...candidate[0],
+  configuration: `${plan[0].configuration.split(" + ")[0]}，黑色，2TB，国行`,
+}]));
+assert.notEqual(invalidStorageResult.status, 0);
+assert.match(invalidStorageResult.stderr, /有效存储容量/);
+
+console.log("Passed price snapshot workflow regression scenarios: help, plan, validate, reject_invalid_memory, reject_invalid_storage");

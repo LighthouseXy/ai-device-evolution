@@ -136,6 +136,10 @@ function validateBatch(input, { allowExisting = false } = {}) {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(row.observedAt)) throw new Error(`${label}: observedAt 必须为 YYYY-MM-DD`);
     if (row.priceType === "current" && !/全新|在售价|当前价|公开价|最低价/.test(row.condition)) throw new Error(`${label}: 当前价 condition 必须说明全新或价格状态`);
     if (row.priceType === "used" && !/二手|成新/.test(row.condition)) throw new Error(`${label}: 二手价 condition 必须说明二手或成色`);
+    const memoryOptions = splitOptions(device.specs.memory?.value);
+    if (memoryOptions.length && !memoryOptions.some((memory) => row.configuration.includes(memory))) {
+      throw new Error(`${label}: configuration 未包含该设备的有效运行内存`);
+    }
     const storageOptions = splitOptions(device.specs.storage?.value);
     if (storageOptions.length && !storageOptions.some((storage) => row.configuration.includes(storage))) {
       throw new Error(`${label}: configuration 未包含该设备的有效存储容量`);
