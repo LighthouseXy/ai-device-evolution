@@ -271,11 +271,13 @@ async function searchJiUsed(query, limit) {
   }));
 }
 
-function filterJiUsedItems(items, { require: requiredText, exclude: excludedText, available }) {
+function filterJiUsedItems(items, { product, require: requiredText, exclude: excludedText, available }) {
+  const exactProduct = (product ?? "").trim().toLocaleLowerCase("zh-CN");
   const requiredTerms = (requiredText ?? "").trim().toLocaleLowerCase("zh-CN").split(/\s+/).filter(Boolean);
   const excludedTerms = (excludedText ?? "").trim().toLocaleLowerCase("zh-CN").split(/\s+/).filter(Boolean);
   return items.filter((item) => {
     if (available && item.stockout) return false;
+    if (exactProduct && item.product.trim().toLocaleLowerCase("zh-CN") !== exactProduct) return false;
     const text = `${item.product} ${item.skuName} ${item.network ?? ""}`.toLocaleLowerCase("zh-CN");
     return requiredTerms.every((term) => text.includes(term)) && excludedTerms.every((term) => !text.includes(term));
   });
@@ -344,7 +346,7 @@ function applyBatch(rows) {
 function usage() {
   return `价格快照批处理\n\n` +
     `  npm run prices -- plan [--type current|used] [--category phone|tablet|laptop] [--limit 20] [--json]\n` +
-    `  npm run prices -- search <九机二手型号关键词> [--limit 20] [--require "词1 词2"] [--exclude "词3 词4"] [--available]\n` +
+    `  npm run prices -- search <九机二手型号关键词> [--limit 20] [--product "精确产品名"] [--require "词1 词2"] [--exclude "词3 词4"] [--available]\n` +
     `  npm run prices -- inspect <https商品页> [--render]  # 识货多规格页请带 skuId；动态页加 --render\n` +
     `  npm run prices -- validate <batch.json>\n` +
     `  npm run prices -- apply <batch.json>\n`;
@@ -371,6 +373,7 @@ if (!command || ["help", "--help", "-h"].includes(command)) {
     args: process.argv.slice(4),
     options: {
       limit: { type: "string", default: "20" },
+      product: { type: "string" },
       require: { type: "string" },
       exclude: { type: "string" },
       available: { type: "boolean", default: false },

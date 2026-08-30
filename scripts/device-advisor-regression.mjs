@@ -264,7 +264,8 @@ const scenarios = [
       assert.ok(!output.devices.some((device) => device.deviceId === "iphone-se-1-2016"));
       assert.equal(output.devices[0]?.deviceId, "iphone-14");
       assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥2,449（京东商务二手手机热卖榜，2026-08-25）/);
-      assert.ok(output.devices.every((device) => /（(?:京东 ?(?:(?:商务|NFC|苹果|6英以下屏幕) ?)?二手手机(?:热卖|好评)榜|识货|Apple 中国大陆在线商店)，2026-08-(?:24|25)）/.test(device.priceText)));
+      assert.deepEqual(output.devices.map((device) => device.deviceId), ["iphone-14", "iphone-13-pro-max", "iphone-14-plus"]);
+      assert.match(output.devices[2]?.priceText ?? "", /二手价 ¥2,359（九机二手良品，2026-08-31）/);
     },
   },
   {
@@ -338,9 +339,11 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
-      assertSimpleFallback(output, "phone", 1);
+      assertSimpleFallback(output, "phone", 2);
       assert.equal(output.devices[0]?.deviceId, "iphone-13-pro-max");
       assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥2,388（京东 NFC 二手手机热卖榜，2026-08-25）/);
+      assert.equal(output.devices[1]?.deviceId, "iphone-14-plus");
+      assert.match(output.devices[1]?.priceText ?? "", /二手价 ¥2,359（九机二手良品，2026-08-31）/);
     },
   },
   {

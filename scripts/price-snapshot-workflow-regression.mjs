@@ -17,6 +17,7 @@ assert.equal(help.status, 0, help.stderr);
 assert.match(help.stdout, /plan/);
 assert.match(help.stdout, /inspect/);
 assert.match(help.stdout, /search/);
+assert.match(help.stdout, /--product/);
 assert.match(help.stdout, /--require/);
 assert.match(help.stdout, /--exclude/);
 assert.match(help.stdout, /--available/);
