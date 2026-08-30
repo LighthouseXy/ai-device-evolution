@@ -232,6 +232,21 @@ const scenarios = [
     },
   },
   {
+    name: "tablet_used_mainland_ipad_pro_m2_13_price",
+    input: {
+      category: "tablet",
+      budget: { min: 5450, max: 5550, currency: "CNY" },
+      useCases: ["绘画", "视频剪辑"],
+      conditionPreference: "used_ok",
+      maxResults: 3,
+    },
+    expect(output) {
+      assertSimpleFallback(output, "tablet", 1);
+      assert.equal(output.devices[0]?.deviceId, "ipad-pro-m2-13-2022");
+      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥5,499（九机二手良品，2026-08-31）/);
+    },
+  },
+  {
     name: "phone_current_mainland_iphone15_price",
     input: {
       category: "phone",
