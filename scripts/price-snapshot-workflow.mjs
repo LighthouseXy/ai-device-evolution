@@ -271,6 +271,16 @@ async function searchJiUsed(query, limit) {
   }));
 }
 
+function filterJiUsedItems(items, { require: requiredText, exclude: excludedText, available }) {
+  const requiredTerms = (requiredText ?? "").trim().toLocaleLowerCase("zh-CN").split(/\s+/).filter(Boolean);
+  const excludedTerms = (excludedText ?? "").trim().toLocaleLowerCase("zh-CN").split(/\s+/).filter(Boolean);
+  return items.filter((item) => {
+    if (available && item.stockout) return false;
+    const text = `${item.product} ${item.skuName} ${item.network ?? ""}`.toLocaleLowerCase("zh-CN");
+    return requiredTerms.every((term) => text.includes(term)) && excludedTerms.every((term) => !text.includes(term));
+  });
+}
+
 function validateBatch(input, { allowExisting = false } = {}) {
   if (!Array.isArray(input) || input.length === 0) throw new Error("批次文件必须是非空 JSON 数组");
   const { devices } = readJson(DATABASE_PATH);
@@ -334,7 +344,7 @@ function applyBatch(rows) {
 function usage() {
   return `价格快照批处理\n\n` +
     `  npm run prices -- plan [--type current|used] [--category phone|tablet|laptop] [--limit 20] [--json]\n` +
-    `  npm run prices -- search <九机二手型号关键词> [--limit 20]\n` +
+    `  npm run prices -- search <九机二手型号关键词> [--limit 20] [--require "词1 词2"] [--exclude "词3 词4"] [--available]\n` +
     `  npm run prices -- inspect <https商品页> [--render]  # 识货多规格页请带 skuId；动态页加 --render\n` +
     `  npm run prices -- validate <batch.json>\n` +
     `  npm run prices -- apply <batch.json>\n`;
@@ -359,11 +369,17 @@ if (!command || ["help", "--help", "-h"].includes(command)) {
   if (!process.argv[3] || process.argv[3].startsWith("--")) throw new Error("缺少九机二手型号关键词");
   const { values } = parseArgs({
     args: process.argv.slice(4),
-    options: { limit: { type: "string", default: "20" } },
+    options: {
+      limit: { type: "string", default: "20" },
+      require: { type: "string" },
+      exclude: { type: "string" },
+      available: { type: "boolean", default: false },
+    },
   });
   const limit = Number(values.limit);
   if (!Number.isInteger(limit) || limit < 1 || limit > 100) throw new Error("--limit 必须是 1-100 的整数");
-  console.log(JSON.stringify(await searchJiUsed(process.argv[3], limit), null, 2));
+  const items = await searchJiUsed(process.argv[3], limit);
+  console.log(JSON.stringify(filterJiUsedItems(items, values), null, 2));
 } else if (command === "inspect") {
   if (!process.argv[3]) throw new Error("缺少商品页 URL");
   console.log(JSON.stringify(await inspectUrl(process.argv[3], { render: process.argv.includes("--render", 4) }), null, 2));

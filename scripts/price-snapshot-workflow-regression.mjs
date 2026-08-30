@@ -17,6 +17,9 @@ assert.equal(help.status, 0, help.stderr);
 assert.match(help.stdout, /plan/);
 assert.match(help.stdout, /inspect/);
 assert.match(help.stdout, /search/);
+assert.match(help.stdout, /--require/);
+assert.match(help.stdout, /--exclude/);
+assert.match(help.stdout, /--available/);
 assert.match(help.stdout, /--render/);
 assert.match(help.stdout, /validate/);
 assert.match(help.stdout, /apply/);
@@ -60,4 +63,4 @@ const invalidSearchLimit = run(["search", "iPad Air M3", "--limit", "0"]);
 assert.notEqual(invalidSearchLimit.status, 0);
 assert.match(invalidSearchLimit.stderr, /1-100/);
 
-console.log("Passed price snapshot workflow regression scenarios: help, plan, validate, reject_invalid_memory, reject_invalid_storage, reject_invalid_search_limit");
+console.log("Passed price snapshot workflow regression scenarios: help, filtered_search_options, plan, validate, reject_invalid_memory, reject_invalid_storage, reject_invalid_search_limit");
