@@ -12425,6 +12425,21 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "currentPrice": {
+          "value": 2850,
+          "unit": "CNY",
+          "rawText": "截至 2026 年 8 月 31 日，识货所选 SKU 146547923 显示银色、256GB、WLAN 版，当前显示价 2850 元。",
+          "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=1998396&styleId=42546953&skuId=146547923",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-08-31",
+          "priceType": "current",
+          "market": "中国大陆",
+          "configuration": "银色，WLAN 版，4GB 运行内存 + 256GB 存储，中国大陆电商渠道参考",
+          "condition": "全新，识货聚合中国大陆渠道公开价；优惠资格、库存和实际成交价以来源页为准",
+          "observedAt": "2026-08-31",
+          "sourceName": "识货"
+        },
         "usedPrice": {
           "value": 2179,
           "unit": "CNY",
