@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import { spawnSync } from "node:child_process";
 import { parseArgs } from "node:util";
+import { fetchWithRetry } from "./lib/fetch-with-retry.mjs";
 
 const DATABASE_PATH = "src/data/apple-devices-db.json";
 const OBSERVATIONS_PATH = "src/data/price-observations.json";
@@ -198,9 +199,8 @@ async function inspectUrl(url, { render = false } = {}) {
   const parsed = new URL(url);
   if (parsed.protocol !== "https:") throw new Error("只接受 HTTPS 商品页");
   if (render && !TRUSTED_HOSTS.has(parsed.hostname)) throw new Error("动态渲染只接受受信来源域名");
-  const response = await fetch(url, {
+  const response = await fetchWithRetry(url, {
     headers: { "user-agent": "Mozilla/5.0 DeviceScope price snapshot audit", "accept-language": "zh-CN,zh;q=0.9" },
-    signal: AbortSignal.timeout(15000),
   });
   if (!response.ok) throw new Error(`${response.status} ${url}`);
   if (render && !TRUSTED_HOSTS.has(new URL(response.url).hostname)) throw new Error("动态渲染重定向到了非受信来源域名");
@@ -255,9 +255,8 @@ async function searchJiUsed(query, limit) {
     cityId: "",
     size: String(limit),
   });
-  const response = await fetch(url, {
+  const response = await fetchWithRetry(url, {
     headers: { "user-agent": "Mozilla/5.0 DeviceScope price snapshot audit", "accept-language": "zh-CN,zh;q=0.9" },
-    signal: AbortSignal.timeout(15000),
   });
   if (!response.ok) throw new Error(`${response.status} ${url}`);
   const payload = await response.json();

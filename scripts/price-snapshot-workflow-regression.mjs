@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { spawnSync } from "node:child_process";
 import fs from "node:fs";
+import { fetchWithRetry } from "./lib/fetch-with-retry.mjs";
 
 const script = "scripts/price-snapshot-workflow.mjs";
 
@@ -65,4 +66,18 @@ const invalidSearchLimit = run(["search", "iPad Air M3", "--limit", "0"]);
 assert.notEqual(invalidSearchLimit.status, 0);
 assert.match(invalidSearchLimit.stderr, /1-100/);
 
-console.log("Passed price snapshot workflow regression scenarios: help, filtered_search_options, plan, validate, reject_invalid_memory, reject_invalid_storage, reject_invalid_search_limit");
+const originalFetch = globalThis.fetch;
+let fetchAttempts = 0;
+try {
+  globalThis.fetch = async () => {
+    fetchAttempts += 1;
+    if (fetchAttempts === 1) throw new TypeError("fetch failed");
+    return new Response("ok");
+  };
+  assert.equal((await fetchWithRetry("https://example.com", { timeoutMs: 100 })).status, 200);
+  assert.equal(fetchAttempts, 2);
+} finally {
+  globalThis.fetch = originalFetch;
+}
+
+console.log("Passed price snapshot workflow regression scenarios: help, filtered_search_options, plan, validate, reject_invalid_memory, reject_invalid_storage, reject_invalid_search_limit, transient_fetch_retry");
