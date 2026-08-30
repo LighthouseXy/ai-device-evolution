@@ -26,6 +26,7 @@ assert.match(help.stdout, /--exclude/);
 assert.match(help.stdout, /--available/);
 assert.match(help.stdout, /--render/);
 assert.match(help.stdout, /--compact/);
+assert.match(help.stdout, /--match/);
 assert.match(help.stdout, /validate/);
 assert.match(help.stdout, /apply/);
 
@@ -86,4 +87,4 @@ try {
   globalThis.fetch = originalFetch;
 }
 
-console.log("Passed price snapshot workflow regression scenarios: help, filtered_search_options, product_name_listing, paginated_search, plan, validate, reject_invalid_memory, reject_invalid_storage, reject_invalid_search_limit, reject_invalid_search_pages, transient_fetch_retry");
+console.log("Passed price snapshot workflow regression scenarios: help, filtered_search_options, product_name_listing, paginated_search, inspect_sku_match_help, plan, validate, reject_invalid_memory, reject_invalid_storage, reject_invalid_search_limit, reject_invalid_search_pages, transient_fetch_retry");

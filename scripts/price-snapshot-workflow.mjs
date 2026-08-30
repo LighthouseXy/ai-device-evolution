@@ -106,6 +106,22 @@ function shihuoSkus(page) {
   );
 }
 
+function shihuoStyles(page) {
+  return (page?.styleListData?.data?.list?.list ?? []).map((style) => ({
+    styleId: String(style.style_id),
+    label: style.img_arr?.[0]?.img_alt?.replace(/^商品配色：\s*/, "") ?? null,
+  }));
+}
+
+function filterSkus(skus, match) {
+  const terms = (match ?? "").trim().toLocaleLowerCase("zh-CN").split(/\s+/).filter(Boolean);
+  if (terms.length === 0) return skus;
+  return skus.filter((sku) => {
+    const text = Object.values(sku.attributes).join(" ").toLocaleLowerCase("zh-CN");
+    return terms.every((term) => text.includes(term));
+  });
+}
+
 function selectedShihuoSku(page, url) {
   if (!page) return null;
   const requestedSkuId = new URL(url).searchParams.get("skuId");
@@ -222,6 +238,7 @@ async function inspectUrl(url, { render = false } = {}) {
     rendered: render,
     title,
     selectedSku,
+    availableStyles: shihuoStyles(shihuoPage),
     availableSkus: shihuoSkus(shihuoPage).slice(0, 50),
     selectedUsedItem,
     relatedUsedItems: relatedJiUsedItems(html, response.url),
@@ -357,7 +374,7 @@ function usage() {
   return `价格快照批处理\n\n` +
     `  npm run prices -- plan [--type current|used] [--category phone|tablet|laptop] [--limit 20] [--json]\n` +
     `  npm run prices -- search <九机二手型号关键词> [--limit 20] [--pages 1] [--products-only] [--product "精确产品名"] [--require "词1 词2"] [--exclude "词3 词4"] [--available]\n` +
-    `  npm run prices -- inspect <https商品页> [--render] [--compact]  # 识货多规格页请带 skuId；动态页加 --render\n` +
+    `  npm run prices -- inspect <https商品页> [--match "256GB WLAN"] [--render] [--compact]  # 识货多规格页请带 skuId；动态页加 --render\n` +
     `  npm run prices -- validate <batch.json>\n` +
     `  npm run prices -- apply <batch.json>\n`;
 }
@@ -403,8 +420,17 @@ if (!command || ["help", "--help", "-h"].includes(command)) {
   console.log(JSON.stringify(output, null, 2));
 } else if (command === "inspect") {
   if (!process.argv[3]) throw new Error("缺少商品页 URL");
-  const inspection = await inspectUrl(process.argv[3], { render: process.argv.includes("--render", 4) });
-  console.log(JSON.stringify(process.argv.includes("--compact", 4) ? compactInspection(inspection) : inspection, null, 2));
+  const { values } = parseArgs({
+    args: process.argv.slice(4),
+    options: {
+      match: { type: "string" },
+      render: { type: "boolean", default: false },
+      compact: { type: "boolean", default: false },
+    },
+  });
+  const inspection = await inspectUrl(process.argv[3], { render: values.render });
+  inspection.availableSkus = filterSkus(inspection.availableSkus, values.match);
+  console.log(JSON.stringify(values.compact ? compactInspection(inspection) : inspection, null, 2));
 } else if (["validate", "apply"].includes(command)) {
   if (!process.argv[3]) throw new Error("缺少批次 JSON 文件");
   const rows = validateBatch(readJson(process.argv[3]));
