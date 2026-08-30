@@ -5,6 +5,7 @@ const EN_DEVICES_PATH = new URL("src/data/apple-devices-db.en-us.json", ROOT);
 const EN_SOURCES_PATH = new URL("src/data/apple-sources.en-us.json", ROOT);
 const ZH_DEVICES_PATH = new URL("src/data/apple-devices-db.json", ROOT);
 const ZH_SOURCES_PATH = new URL("src/data/apple-sources.json", ROOT);
+const PRICE_OBSERVATIONS_PATH = new URL("src/data/price-observations.json", ROOT);
 const VERIFIED_AT = new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Shanghai" }).format(new Date());
 const IOS_REF_MEMORY_URL = "https://iosref.com/memory-processor";
 
@@ -1463,18 +1464,21 @@ function referenceMemorySpec(device) {
 }
 
 function currentPriceSnapshot(device) {
-  return marketPriceSnapshot(REFERENCE_CURRENT_PRICES[device.id], "current");
+  return marketPriceSnapshot(currentPriceReferences[device.id], "current");
 }
 
 function usedPriceSnapshot(device) {
-  return marketPriceSnapshot(REFERENCE_USED_PRICES[device.id], "used");
+  return marketPriceSnapshot(usedPriceReferences[device.id], "used");
 }
 
-const [englishDatabase, englishSources, previousZhDatabase] = await Promise.all([
+const [englishDatabase, englishSources, previousZhDatabase, priceObservations] = await Promise.all([
   fs.readFile(EN_DEVICES_PATH, "utf8").then(JSON.parse),
   fs.readFile(EN_SOURCES_PATH, "utf8").then(JSON.parse),
   fs.readFile(ZH_DEVICES_PATH, "utf8").then(JSON.parse),
+  fs.readFile(PRICE_OBSERVATIONS_PATH, "utf8").then(JSON.parse),
 ]);
+const currentPriceReferences = { ...REFERENCE_CURRENT_PRICES, ...priceObservations.current };
+const usedPriceReferences = { ...REFERENCE_USED_PRICES, ...priceObservations.used };
 const { devices: englishDevices } = englishDatabase;
 const zhOnlyDevices = [...ZH_ONLY_IPHONES, ...ZH_ONLY_IPADS, ...ZH_ONLY_MACBOOKS];
 const sourceDevices = [...englishDevices, ...zhOnlyDevices.map(({ device }) => device)];
@@ -1576,8 +1580,8 @@ for (const sourceDevice of sourceDevices) {
     const releaseYear = device.id === "ipad-air-m4-2025" ? 2026 : device.releaseYear;
     zhDevices.push(recalculateGenerationUpgrade({ ...device, modelName, releaseYear, specs }));
     const referenceUrls = new Set(oldSource.referenceUrls ?? []);
-    if (REFERENCE_CURRENT_PRICES[device.id]) referenceUrls.add(REFERENCE_CURRENT_PRICES[device.id].sourceUrl);
-    if (REFERENCE_USED_PRICES[device.id]) referenceUrls.add(REFERENCE_USED_PRICES[device.id].sourceUrl);
+    if (currentPriceReferences[device.id]) referenceUrls.add(currentPriceReferences[device.id].sourceUrl);
+    if (usedPriceReferences[device.id]) referenceUrls.add(usedPriceReferences[device.id].sourceUrl);
     if (REFERENCE_MEMORY_SPECS[device.id]) referenceUrls.add(IOS_REF_MEMORY_URL);
     zhSources[device.category].push({
       ...oldSource,
@@ -1623,8 +1627,36 @@ for (const ids of [...IPHONE_GENERATION_GROUPS, ...IPAD_GENERATION_GROUPS, ...MA
   });
 }
 
+for (const device of zhDevices) {
+  const previousComputed = previousZhById.get(device.id)?.computed ?? {};
+  for (const [fieldName, field] of Object.entries(device.computed ?? {})) {
+    const previousField = previousComputed[fieldName];
+    if (!previousField) continue;
+    const nextComparable = { ...field };
+    const previousComparable = { ...previousField };
+    delete nextComparable.computedAt;
+    delete nextComparable.verifiedAt;
+    delete previousComparable.computedAt;
+    delete previousComparable.verifiedAt;
+    if (JSON.stringify(nextComparable) === JSON.stringify(previousComparable)) {
+      field.computedAt = previousField.computedAt;
+      field.verifiedAt = previousField.verifiedAt;
+    }
+  }
+}
+
+const devicesChanged = JSON.stringify(zhDevices) !== JSON.stringify(previousZhDatabase.devices);
+const nextDatabase = {
+  metadata: {
+    ...englishDatabase.metadata,
+    totalDevices: zhDevices.length,
+    generatedAt: devicesChanged ? VERIFIED_AT : previousZhDatabase.metadata.generatedAt,
+  },
+  devices: zhDevices,
+};
+
 await Promise.all([
-  fs.writeFile(ZH_DEVICES_PATH, `${JSON.stringify({ metadata: { ...englishDatabase.metadata, totalDevices: zhDevices.length, generatedAt: VERIFIED_AT }, devices: zhDevices }, null, 2)}\n`),
+  fs.writeFile(ZH_DEVICES_PATH, `${JSON.stringify(nextDatabase, null, 2)}\n`),
   fs.writeFile(ZH_SOURCES_PATH, `${JSON.stringify(zhSources, null, 2)}\n`),
 ]);
 console.log(`wrote ${zhDevices.length} devices; unresolved previous fields: ${missing.length}`);

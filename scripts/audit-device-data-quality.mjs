@@ -3,6 +3,7 @@ import fs from "node:fs";
 
 const { devices } = JSON.parse(fs.readFileSync("src/data/apple-devices-db.json", "utf8"));
 const sourceRegistry = JSON.parse(fs.readFileSync("src/data/apple-sources.json", "utf8"));
+const priceObservations = JSON.parse(fs.readFileSync("src/data/price-observations.json", "utf8"));
 const sourceRows = Object.values(sourceRegistry).flat();
 const devicesByCategory = new Map();
 for (const device of devices) {
@@ -156,9 +157,12 @@ assert.deepEqual(memoryDistribution("tablet"), {
 }, "iPad 第三方运行内存分布发生变化");
 
 const needsReview = sourceRows.filter((row) => row.sourceStatus === "needs_review").map((row) => row.id);
+const importedReferencePrices = Object.values(priceObservations)
+  .flatMap((observations) => Object.values(observations))
+  .filter((observation) => observation.sourceType !== "apple").length;
 assert.ok(sourceRows.every((row) => ["verified", "needs_review"].includes(row.sourceStatus)), "来源登记状态非法");
 assert.equal(sourceAudit.supportZhCn + sourceAudit.appleChina + sourceAudit.reference, sourceAudit.fields, "仍有字段未使用已登记来源");
-assert.equal(sourceAudit.reference, 102, "第三方内存与价格字段数量发生变化");
+assert.equal(sourceAudit.reference, 102 + importedReferencePrices, "第三方内存与价格字段数量发生变化");
 assert.deepEqual(needsReview, [], "仍有设备来源待人工复核");
 
 const missingLaptopLaunchPrices = devices
@@ -233,9 +237,19 @@ for (const [deviceId, price] of Object.entries(currentPriceSnapshots)) {
     `${deviceId}.currentPrice: 来源发生回归`,
   );
 }
+for (const [deviceId, expected] of Object.entries(priceObservations.current)) {
+  assert.ok(!Object.hasOwn(currentPriceSnapshots, deviceId), `${deviceId}.currentPrice: 批量价格不得覆盖内置基线`);
+  const field = devicesById.get(deviceId)?.specs.currentPrice;
+  assert.equal(field?.value, expected.value, `${deviceId}.currentPrice: 批量价格未同步`);
+  assert.equal(field?.sourceUrl, expected.sourceUrl, `${deviceId}.currentPrice: 来源 URL 不一致`);
+  assert.equal(field?.sourceName, expected.sourceName, `${deviceId}.currentPrice: 来源名称不一致`);
+  assert.equal(field?.configuration, expected.configuration, `${deviceId}.currentPrice: 配置不一致`);
+  assert.equal(field?.condition, expected.condition, `${deviceId}.currentPrice: 价格状态不一致`);
+  assert.equal(field?.observedAt, expected.observedAt, `${deviceId}.currentPrice: 采集日期不一致`);
+}
 assert.equal(
   devices.filter((device) => hasValue(device, "currentPrice")).length,
-  Object.keys(currentPriceSnapshots).length,
+  Object.keys(currentPriceSnapshots).length + Object.keys(priceObservations.current).length,
   "当前价格只能来自已核验静态快照",
 );
 
@@ -280,9 +294,19 @@ for (const [deviceId, [price, sourceName, observedAt, conditionPattern]] of Obje
   assert.equal(field?.observedAt, observedAt, `${deviceId}.usedPrice: 采集日期发生回归`);
   assert.match(field?.condition ?? "", conditionPattern, `${deviceId}.usedPrice: 成色发生回归`);
 }
+for (const [deviceId, expected] of Object.entries(priceObservations.used)) {
+  assert.ok(!Object.hasOwn(usedPriceSnapshots, deviceId), `${deviceId}.usedPrice: 批量价格不得覆盖内置基线`);
+  const field = devicesById.get(deviceId)?.specs.usedPrice;
+  assert.equal(field?.value, expected.value, `${deviceId}.usedPrice: 批量价格未同步`);
+  assert.equal(field?.sourceUrl, expected.sourceUrl, `${deviceId}.usedPrice: 来源 URL 不一致`);
+  assert.equal(field?.sourceName, expected.sourceName, `${deviceId}.usedPrice: 来源名称不一致`);
+  assert.equal(field?.configuration, expected.configuration, `${deviceId}.usedPrice: 配置不一致`);
+  assert.equal(field?.condition, expected.condition, `${deviceId}.usedPrice: 成色不一致`);
+  assert.equal(field?.observedAt, expected.observedAt, `${deviceId}.usedPrice: 采集日期不一致`);
+}
 assert.equal(
   devices.filter((device) => hasValue(device, "usedPrice")).length,
-  Object.keys(usedPriceSnapshots).length,
+  Object.keys(usedPriceSnapshots).length + Object.keys(priceObservations.used).length,
   "二手价格只能来自已核验静态快照",
 );
 

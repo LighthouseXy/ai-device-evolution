@@ -45,6 +45,8 @@ npm run dev
 ```bash
 npm run typecheck
 npm run lint
+npm run prices -- plan --type current --limit 20
+npm run test:price-workflow
 npm run build
 npm run test:device-advisor
 npm run test:device-advisor-api
@@ -54,4 +56,4 @@ npm run test:device-advisor-api
 
 - [详细项目计划](docs/PROJECT_PLAN.md)
 - [文档索引与技术说明](docs/README.md)
-- [最新开发日志](docs/logs/2026-08-30.md)
+- [最新开发日志](docs/logs/2026-08-31.md)

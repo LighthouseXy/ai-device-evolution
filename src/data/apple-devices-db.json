@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.2",
-    "generatedAt": "2026-08-30",
+    "generatedAt": "2026-08-31",
     "totalDevices": 129
   },
   "devices": [
@@ -2747,6 +2747,21 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "currentPrice": {
+          "value": 8410,
+          "unit": "CNY",
+          "rawText": "截至8月31日，识货监控到该商品同款同规格全网最低价为8410元，来自识货安心购店铺；页面当前选择沙漠色钛金属、256GB。",
+          "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=6090923&styleId=193229380",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-08-31",
+          "priceType": "current",
+          "market": "中国大陆",
+          "configuration": "沙漠色钛金属，256GB，双卡双待全网通，中国大陆电商渠道参考",
+          "condition": "全新，识货安心购店铺公开最低价；优惠资格与库存以来源页为准",
+          "observedAt": "2026-08-31",
+          "sourceName": "识货"
         }
       },
       "computed": {
@@ -11086,6 +11101,21 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "currentPrice": {
+          "value": 10162,
+          "unit": "CNY",
+          "rawText": "截至8月31日，识货页面显示该商品256GB同款同规格价格区间为10162.44元，当前最低渠道为得物；结构化价格按人民币元取整记录为10162元。",
+          "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=6090951&styleId=294800570",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-08-31",
+          "priceType": "current",
+          "market": "中国大陆",
+          "configuration": "原色钛金属，256GB，双卡双待全网通，中国大陆电商渠道参考",
+          "condition": "全新，识货聚合渠道公开最低价；优惠资格与库存以来源页为准",
+          "observedAt": "2026-08-31",
+          "sourceName": "识货"
         }
       },
       "computed": {

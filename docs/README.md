@@ -6,7 +6,8 @@ DeviceScope 是一个电子设备代际演进分析平台。当前第一阶段�
 
 ## 已实现功能
 
-- **本地结构化 JSON 数据模型**：覆盖 2016 年以来的 iPhone / iPad / MacBook，共 129 台 Apple 设备、3824 个规格字段；默认读取中文主数据，英文官网数据以独立快照保留。
+- **本地结构化 JSON 数据模型**：覆盖 2016 年以来的 iPhone / iPad / MacBook，共 129 台 Apple 设备、3826 个规格字段；默认读取中文主数据，英文官网数据以独立快照保留。
+- **价格批处理**：可批量生成价格缺口和搜索词、检查单个商品页、验证 JSON 批次并导入观察文件；正式同步和数据门禁继续负责最终写入。
 - **首页 / 设备库 / 设备详情**：已完成 v2 前端重构，统一了首页、设备库和设备详情页的导航、层级和展示风格。
 - **代际趋势观察**：支持按类别、系列、分析维度和对比范围筛选，展示芯片、屏幕、重量、价格等变化趋势。
 - **详细参数对比**：对相邻代际变化做标记，14 / 16 英寸 MacBook Pro 的 Pro、Max 芯片档位可独立比较；价格区位于性能之前，当前价与二手价按运行内存 + 存储组合匹配，避免跨配置误比。
@@ -95,6 +96,9 @@ http://localhost:3000
 npm run lint
 ./node_modules/.bin/tsc --noEmit --incremental false
 npm run sync:apple-zh-cn
+npm run prices -- plan --type current --limit 20
+npm run prices -- inspect 'https://商品页'
+npm run test:price-workflow
 npm run check
 npm run build
 npm run test:device-advisor
@@ -139,12 +143,14 @@ src/
 └── data/
     ├── apple-devices-db.json          # 主结构化中文数据源
     ├── apple-sources.json             # 中文来源审计登记
+    ├── price-observations.json        # 经批处理审核的新增价格快照
     ├── apple-devices-db.en-us.json    # 英文官网原始快照
     ├── apple-sources.en-us.json       # 英文来源原始快照
     └── archive/                       # 历史批次与旧版快照，运行时不读取
 
 scripts/
 ├── sync-apple-zh-cn-data.mjs          # 中文官网数据同步
+├── price-snapshot-workflow.mjs        # 价格缺口、检查、验证与导入
 ├── device-advisor-regression.mjs      # fallback 回归
 └── device-advisor-api-regression.mjs  # API 错误路径回归
 ```
@@ -156,4 +162,4 @@ scripts/
 ## 相关文档
 
 - [项目计划](PROJECT_PLAN.md)
-- [最新开发日志](logs/2026-08-30.md)
+- [最新开发日志](logs/2026-08-31.md)
