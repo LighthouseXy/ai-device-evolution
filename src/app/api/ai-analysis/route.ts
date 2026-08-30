@@ -129,6 +129,7 @@ async function fetchOpenAIAnalysis(input: AiAnalysisInput): Promise<AiAnalysisOu
       "Content-Type": "application/json",
       Authorization: `Bearer ${apiKey}`,
     },
+    signal: AbortSignal.timeout(15000),
     body: JSON.stringify(buildOpenAIRequest(input)),
   });
 

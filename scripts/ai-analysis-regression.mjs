@@ -8,6 +8,7 @@ const {
   runFallbackAnalysis,
 } = loadTsModule("./src/lib/ai-analysis.ts");
 const { getDevicesBySeriesFlat } = loadTsModule("./src/lib/devices-db.ts");
+const { POST } = loadTsModule("./src/app/api/ai-analysis/route.ts");
 
 const devices = getDevicesBySeriesFlat("iPhone").slice(-4);
 const latestDevice = devices.at(-1) ?? null;
@@ -91,4 +92,51 @@ assert.equal(
   null,
 );
 
-console.log("Passed AI analysis regression scenarios: normalize_input, fallback_rules, prompt_contract, normalize_ai_output");
+const originalFetch = globalThis.fetch;
+const originalApiKey = process.env.OPENAI_API_KEY;
+const originalConsoleError = console.error;
+try {
+  process.env.OPENAI_API_KEY = "regression-test-key";
+  let observedSignal = null;
+  globalThis.fetch = async (_url, options) => {
+    observedSignal = options.signal;
+    return Response.json({
+      output_text: JSON.stringify({
+        summary: "真实模型路由回归摘要。",
+        facts: ["已收录数据存在芯片变化。"],
+        insights: ["该变化属于渐进式升级。"],
+        buyingAdvice: "结合预算判断。",
+        prediction: "继续保守观察。",
+        missingData: ["真实使用体验数据不足。"],
+        confidence: 0.8,
+        source: "ai",
+        disclaimer: "由路由覆盖为固定声明",
+      }),
+    });
+  };
+  const aiResponse = await POST(new Request("http://localhost/api/ai-analysis", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(baseInput),
+  }));
+  assert.equal(aiResponse.status, 200);
+  assertValidOutput(await aiResponse.json(), "ai");
+  assert.ok(observedSignal instanceof AbortSignal, "OpenAI request should include a timeout signal");
+
+  console.error = () => {};
+  globalThis.fetch = async () => new Response("upstream error", { status: 500 });
+  const fallbackResponse = await POST(new Request("http://localhost/api/ai-analysis", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(baseInput),
+  }));
+  assert.equal(fallbackResponse.status, 200);
+  assertValidOutput(await fallbackResponse.json(), "rules");
+} finally {
+  globalThis.fetch = originalFetch;
+  console.error = originalConsoleError;
+  if (originalApiKey === undefined) delete process.env.OPENAI_API_KEY;
+  else process.env.OPENAI_API_KEY = originalApiKey;
+}
+
+console.log("Passed AI analysis regression scenarios: normalize_input, fallback_rules, prompt_contract, normalize_ai_output, openai_route_timeout, upstream_fallback");
