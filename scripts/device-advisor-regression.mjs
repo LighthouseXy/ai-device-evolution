@@ -262,6 +262,36 @@ const scenarios = [
     },
   },
   {
+    name: "tablet_current_mainland_ipad_air_m2_price",
+    input: {
+      category: "tablet",
+      budget: { min: 5490, max: 5510, currency: "CNY" },
+      useCases: ["学习", "绘画"],
+      conditionPreference: "new_only",
+      maxResults: 3,
+    },
+    expect(output) {
+      assertSimpleFallback(output, "tablet", 1);
+      assert.equal(output.devices[0]?.deviceId, "ipad-air-m2-2024");
+      assert.match(output.devices[0]?.priceText ?? "", /当前价 ¥5,500（识货，2026-08-31）/);
+    },
+  },
+  {
+    name: "tablet_current_mainland_ipad_air_13_m2_price",
+    input: {
+      category: "tablet",
+      budget: { min: 5650, max: 5670, currency: "CNY" },
+      useCases: ["学习", "绘画"],
+      conditionPreference: "new_only",
+      maxResults: 3,
+    },
+    expect(output) {
+      assertSimpleFallback(output, "tablet", 1);
+      assert.equal(output.devices[0]?.deviceId, "ipad-air-13-m2-2024");
+      assert.match(output.devices[0]?.priceText ?? "", /当前价 ¥5,660（识货，2026-08-31）/);
+    },
+  },
+  {
     name: "phone_condition_battery_pressure",
     input: {
       category: "phone",

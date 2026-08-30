@@ -1629,6 +1629,18 @@ p {
     --site-gutter: 14px;
   }
 
+  .compare-selector-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+
+  .compare-selector-group,
+  .compare-select-control {
+    width: 100%;
+    min-width: 0;
+  }
+
   .site-nav-brand {
     gap: 0.65rem;
   }
