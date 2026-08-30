@@ -150,8 +150,9 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
-      assertSimpleFallback(output, "tablet");
+      assertSimpleFallback(output, "tablet", 1);
       assert.match(output.answer, /¥9,000 - ¥14,000/);
+      assert.equal(output.devices[0]?.deviceId, "ipad-pro-m4-13-2024");
     },
   },
   {
