@@ -47,6 +47,7 @@ npm run typecheck
 npm run lint
 npm run prices -- plan --type current --limit 20
 npm run prices -- search 'iPad Pro 2020' --limit 100 --product 'Apple iPad Pro 2020款 12.9英寸 wifi版' --require '256G 国行 WiFi版' --exclude '外版 资源机 官换机 展示机' --available
+npm run prices -- inspect 'https://www.shihuo.cn/...' --all-styles --match '256GB WLAN'
 npm run prices -- inspect 'https://www.shihuo.cn/...&skuId=明确规格ID' --match '256GB WLAN'
 npm run prices -- inspect 'https://m2.9ji.com/secondHand/detail/...' --render
 npm run test:price-workflow
@@ -55,7 +56,7 @@ npm run test:device-advisor
 npm run test:device-advisor-api
 ```
 
-识货商品检查会列出页面可选配色和 SKU；可用 `--match` 按容量、版本或内存关键词过滤规格，最终价格仍以带明确 `skuId` 的商品页为准。
+识货商品检查会列出页面可选配色和 SKU；`--all-styles` 可并行合并全部配色，`--match` 可按容量、版本或内存关键词过滤规格，最终价格仍以带明确 `skuId` 的商品页为准。
 
 ## 文档
 
