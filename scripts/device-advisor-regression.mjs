@@ -98,7 +98,8 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
-      assertSimpleFallback(output, "laptop", 2);
+      assertSimpleFallback(output, "laptop");
+      assert.match(output.devices[0]?.priceText ?? "", /当前价 ¥14,500（识货，2026-08-31）/);
     },
   },
   {

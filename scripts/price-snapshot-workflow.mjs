@@ -78,6 +78,36 @@ function priceCandidates(html) {
   return [...candidates].sort((left, right) => left - right).slice(0, 30);
 }
 
+function parseDisplayedPrice(value) {
+  if (typeof value !== "string") return null;
+  const match = value.replaceAll(",", "").match(/([0-9]+(?:\.[0-9]+)?)\s*(万)?/);
+  if (!match) return null;
+  const price = Math.round(Number(match[1]) * (match[2] ? 10000 : 1));
+  return price >= 300 && price <= 100000 ? price : null;
+}
+
+function selectedShihuoSku(html, url) {
+  if (new URL(url).hostname !== "www.shihuo.cn") return null;
+  const json = html.match(/<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/)?.[1];
+  if (!json) return null;
+  const page = JSON.parse(json).props?.pageProps;
+  const skuData = page?.skuListData?.data;
+  const requestedSkuId = new URL(url).searchParams.get("skuId");
+  if (!requestedSkuId) return null;
+  const sku = skuData?.list
+    ?.flatMap((style) => style.sku_list ?? [])
+    .find((candidate) => String(candidate.sku_id) === requestedSkuId);
+  if (!sku) return null;
+  const displayPrice = page?.supplierListData?.data?.list?.[0]?.supplier_info?.display_price ?? sku.price;
+  return {
+    skuId: String(sku.sku_id),
+    price: parseDisplayedPrice(displayPrice),
+    displayPrice,
+    listedPrice: parseDisplayedPrice(sku.price),
+    attributes: Object.fromEntries(sku.attrs.map((attribute) => [attribute.spec_name, attribute.name])),
+  };
+}
+
 async function inspectUrl(url) {
   const parsed = new URL(url);
   if (parsed.protocol !== "https:") throw new Error("只接受 HTTPS 商品页");
@@ -88,6 +118,7 @@ async function inspectUrl(url) {
   if (!response.ok) throw new Error(`${response.status} ${url}`);
   const html = await response.text();
   const text = decodeHtml(html);
+  const selectedSku = selectedShihuoSku(html, response.url);
   const title = html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1]?.replace(/\s+/g, " ").trim() ?? "";
   const capacities = [...new Set(text.match(/\b\d+(?:\.\d+)?\s*(?:GB|TB)\b/gi) ?? [])].slice(0, 30);
   const highlightedPrices = [...text.matchAll(/.{0,80}(?:最低价|页面价|当前价格|售价为|价格区间).{0,120}/g)]
@@ -98,6 +129,7 @@ async function inspectUrl(url) {
     finalUrl: response.url,
     sourceHost: new URL(response.url).hostname,
     title,
+    selectedSku,
     priceCandidates: priceCandidates(html),
     highlightedPrices,
     capacities,
@@ -173,7 +205,7 @@ function applyBatch(rows) {
 function usage() {
   return `价格快照批处理\n\n` +
     `  npm run prices -- plan [--type current|used] [--category phone|tablet|laptop] [--limit 20] [--json]\n` +
-    `  npm run prices -- inspect <https商品页>\n` +
+    `  npm run prices -- inspect <https商品页>  # 识货多规格页请带 skuId\n` +
     `  npm run prices -- validate <batch.json>\n` +
     `  npm run prices -- apply <batch.json>\n`;
 }

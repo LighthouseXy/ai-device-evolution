@@ -46,6 +46,7 @@ npm run dev
 npm run typecheck
 npm run lint
 npm run prices -- plan --type current --limit 20
+npm run prices -- inspect 'https://www.shihuo.cn/...&skuId=明确规格ID'
 npm run test:price-workflow
 npm run build
 npm run test:device-advisor
