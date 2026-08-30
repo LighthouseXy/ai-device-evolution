@@ -22,6 +22,7 @@ assert.match(help.stdout, /--require/);
 assert.match(help.stdout, /--exclude/);
 assert.match(help.stdout, /--available/);
 assert.match(help.stdout, /--render/);
+assert.match(help.stdout, /--compact/);
 assert.match(help.stdout, /validate/);
 assert.match(help.stdout, /apply/);
 
