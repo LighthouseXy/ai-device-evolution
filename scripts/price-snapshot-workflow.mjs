@@ -374,7 +374,7 @@ function usage() {
   return `价格快照批处理\n\n` +
     `  npm run prices -- plan [--type current|used] [--category phone|tablet|laptop] [--limit 20] [--json]\n` +
     `  npm run prices -- search <九机二手型号关键词> [--limit 20] [--pages 1] [--products-only] [--product "精确产品名"] [--require "词1 词2"] [--exclude "词3 词4"] [--available]\n` +
-    `  npm run prices -- inspect <https商品页> [--match "256GB WLAN"] [--all-styles] [--render] [--compact]  # 识货多规格页请带 skuId；动态页加 --render\n` +
+    `  npm run prices -- inspect <https商品页> [--match "256GB WLAN"] [--all-styles] [--available] [--render] [--compact]  # 识货多规格页请带 skuId；动态页加 --render\n` +
     `  npm run prices -- validate <batch.json>\n` +
     `  npm run prices -- apply <batch.json>\n`;
 }
@@ -425,6 +425,7 @@ if (!command || ["help", "--help", "-h"].includes(command)) {
     options: {
       match: { type: "string" },
       "all-styles": { type: "boolean", default: false },
+      available: { type: "boolean", default: false },
       render: { type: "boolean", default: false },
       compact: { type: "boolean", default: false },
     },
@@ -442,6 +443,7 @@ if (!command || ["help", "--help", "-h"].includes(command)) {
     );
   }
   inspection.availableSkus = filterSkus(inspection.availableSkus, values.match);
+  if (values.available) inspection.availableSkus = inspection.availableSkus.filter((sku) => sku.listedPrice !== null);
   console.log(JSON.stringify(values.compact ? compactInspection(inspection) : inspection, null, 2));
 } else if (["validate", "apply"].includes(command)) {
   if (!process.argv[3]) throw new Error("缺少批次 JSON 文件");
