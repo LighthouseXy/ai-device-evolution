@@ -1,12 +1,12 @@
 # 数码观察站运行时字段字典
 
-> 版本：3.0 · 更新日期：2026-07-23
+> 版本：3.1 · 更新日期：2026-08-30
 > 本文只描述当前代码实际读取的 `src/data/apple-devices-db.json`。旧版设计稿归档于 `docs/archive/field-dictionary-v2.1.md`。
 
 ## 数据边界
 
 - `apple-devices-db.json` 是唯一设备主数据。
-- 当前样本共 63 台 Apple 设备，类别为 `phone`、`tablet`、`laptop`。
+- 当前样本共 129 台 Apple 设备、28 个严格比较组，类别为 `phone`、`tablet`、`laptop`。
 - `specs` 保存采集事实及来源；`computed` 保存派生结果，二者不得混用。
 - 缺失值保留为 `null` 或缺少字段，展示层再转换为“待补充”。
 
@@ -44,7 +44,7 @@ type SpecField<T> = {
 };
 ```
 
-当前共有 53 个规格键：
+当前共有 54 个规格键：
 
 - 基础与外观：`colors`、`material`、`dimensions`、`weight`、`thickness`。
 - 屏幕：`screenSize`、`displayType`、`resolution`、`refreshRate`、`peakBrightness`。
@@ -54,9 +54,24 @@ type SpecField<T> = {
 - 连接与接口：`port`、`usbC`、`thunderbolt`、`wifi`、`bluetooth`、`sim`、`externalDisplay`、`hasHDMI`、`hasSDXC`、`hasNFC`、`hasUWB`。
 - 交互与音频：`keyboard`、`trackpad`、`pencilSupport`、`magicKeyboard`、`speakers`、`microphone`、`hasTouchId`。
 - 安全与耐用：`security`、`waterResistance`、`hasSOS`、`hasCrashDetection`。
-- 价格：`launchPrice`。
+- 价格：`launchPrice`、`currentPrice`、`usedPrice`。
 
 字段并非每个类别都必须具备。禁止用占位字符串写入 `value`；缺失数据保持为空。
+
+价格字段可额外保存以下快照元数据：
+
+```ts
+type PriceField = SpecField<number> & {
+  priceType?: "launch" | "current" | "used";
+  market?: string;
+  configuration?: string;
+  condition?: string;
+  observedAt?: string; // YYYY-MM-DD
+  sourceName?: string;
+};
+```
+
+`currentPrice` 与 `usedPrice` 是特定日期、配置和成色的中国大陆公开价格快照，不代表实时全网最低价。代际对比按“运行内存 + 存储”组合匹配可比价格；没有相同配置时保持缺失，不跨配置硬比较。
 
 ## ComputedField
 
@@ -97,9 +112,9 @@ npm run test:device-data-quality
 数据质量校验覆盖：
 
 - 主数据与 `apple-sources.json` 一一对应；
-- 每个规格字段的 URL 已登记且属于允许的 Apple 域名；
-- `reference` 只用于缺少直接价格证据的首发价，并保持较低置信度；
+- 每个规格字段的 URL 已登记且属于允许的 Apple 或受信第三方域名；
+- `reference` 仅用于已登记的价格快照、缺少 Apple 直接证据的少量首发价，以及 Apple 未公开的运行内存；
 - 页面核心字段不得从当前完整覆盖状态回退；
 - 输出各品类关键字段覆盖率、来源地区分布和待复核设备清单。
 
-当前已知缺口：`currentPrice` / `usedPrice` 尚未采集；中文官网没有明确写出的刷新率及 HDMI / SDXC 否定项保持缺失；3 条 MacBook Pro 独立配置在中国官网未有明确首发价，保持为空。不得为提高覆盖率写入推断值。
+当前质量基线为 129 台设备、3824 个规格字段：`apple=3722`、`reference=102`、`needsReview=[]`。首发价覆盖 116 台，当前价快照覆盖 22 台，二手价快照覆盖 30 台；运行内存覆盖 128 台，其中 59 个 iPhone / iPad 字段由 iOS Ref 补齐。中文官网未明确写出的刷新率及 HDMI / SDXC 否定项继续保持缺失；13 台 MacBook 的首发价以及 1 台 MacBook 的运行内存仍缺少可靠数据。不得为提高覆盖率写入推断值。

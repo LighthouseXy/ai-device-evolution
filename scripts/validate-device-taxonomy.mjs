@@ -46,7 +46,7 @@ const canonicalBooleanKeys = [
   "magicKeyboard",
 ];
 const pollutedTextPattern = /^(?:\s*:root\{|\s*!function\()|globalNavData/i;
-const trustedReferenceHosts = new Set(["tc.people.com.cn", "mobile.zol.com.cn", "www.shihuo.cn", "pro.m.jd.com", "item.jd.com", "item.m.jd.com", "m2.9ji.com"]);
+const trustedReferenceHosts = new Set(["tc.people.com.cn", "mobile.zol.com.cn", "www.shihuo.cn", "pro.m.jd.com", "item.jd.com", "item.m.jd.com", "m2.9ji.com", "iosref.com"]);
 
 assert.equal(devices.length, 129, "主数据应包含 129 台设备");
 assert.equal(metadata.totalDevices, devices.length, "metadata.totalDevices 与实际设备数不一致");

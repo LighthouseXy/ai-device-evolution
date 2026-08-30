@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.2",
-    "generatedAt": "2026-08-25",
+    "generatedAt": "2026-08-30",
     "totalDevices": 129
   },
   "devices": [
@@ -298,6 +298,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "6GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 15 为 6GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 5999,
@@ -669,6 +677,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 15 Pro 为 8GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 7999,
@@ -1335,10 +1351,10 @@
           "comparedTo": "macbook-air-13-m3-2024",
           "changeSummary": "芯片+3 (Apple M3 芯片→Apple M4 芯片), 外观+1",
           "confidence": 0.9,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "scoreBreakdown": "芯片+3 (Apple M3 芯片→Apple M4 芯片) + 外观+1 → 4",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         },
         "recommendationLevel": {
           "value": 5,
@@ -1637,6 +1653,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "6GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 14 为 6GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 5999,
           "unit": "CNY",
@@ -1676,10 +1700,10 @@
           "comparedTo": "iphone-13",
           "changeSummary": "主摄+2, 新增SOS+1, 新增车祸检测+1, 外观+1",
           "confidence": 0.9,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "scoreBreakdown": "主摄+2 + 新增SOS+1 + 新增车祸检测+1 + 外观+1 → 5",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         },
         "recommendationLevel": {
           "value": 1,
@@ -1991,6 +2015,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "6GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 14 Pro 为 6GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 7999,
           "unit": "CNY",
@@ -2030,10 +2062,10 @@
           "comparedTo": "iphone-13-pro",
           "changeSummary": "芯片+3 (A15 仿生芯片→A16 仿生芯片), 分辨率+1, 主摄+2, 新增SOS+1, 新增车祸检测+1, 外观+1",
           "confidence": 0.9,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "scoreBreakdown": "芯片+3 (A15 仿生芯片→A16 仿生芯片) + 分辨率+1 + 主摄+2 + 新增SOS+1 + 新增车祸检测+1 + 外观+1 → 9",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         },
         "recommendationLevel": {
           "value": 2,
@@ -2337,6 +2369,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 16 为 8GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 5999,
@@ -2691,6 +2731,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "8GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 16 Pro 为 8GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 7999,
           "unit": "CNY",
@@ -2985,6 +3033,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 16e 为 8GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 4499,
@@ -3283,10 +3339,10 @@
           "comparedTo": "ipad-air-m2-2024",
           "changeSummary": "芯片+3 (Apple M2 芯片→Apple M3 芯片)",
           "confidence": 0.9,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "scoreBreakdown": "芯片+3 (Apple M2 芯片→Apple M3 芯片) → 3",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         },
         "recommendationLevel": {
           "value": 5,
@@ -3574,10 +3630,10 @@
           "comparedTo": "ipad-pro-m2-2022",
           "changeSummary": "芯片+3 (Apple M2 芯片→Apple M4 芯片), 屏幕+1 (11→11.1英寸), 分辨率+1, 主摄+2, 外观+1",
           "confidence": 0.9,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "scoreBreakdown": "芯片+3 (Apple M2 芯片→Apple M4 芯片) + 屏幕+1 (11→11.1英寸) + 分辨率+1 + 主摄+2 + 外观+1 → 8",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         },
         "recommendationLevel": {
           "value": 5,
@@ -3865,10 +3921,10 @@
           "comparedTo": "ipad-pro-m2-13-2022",
           "changeSummary": "芯片+3 (Apple M2 芯片→Apple M4 芯片), 屏幕+1 (12.9→13英寸), 分辨率+1, 主摄+2, 外观+1",
           "confidence": 0.9,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "scoreBreakdown": "芯片+3 (Apple M2 芯片→Apple M4 芯片) + 屏幕+1 (12.9→13英寸) + 分辨率+1 + 主摄+2 + 外观+1 → 8",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         },
         "recommendationLevel": {
           "value": 5,
@@ -4185,10 +4241,10 @@
           "comparedTo": "macbook-air-15-m3-2024",
           "changeSummary": "芯片+3 (Apple M3 芯片→Apple M4 芯片), 外观+1",
           "confidence": 0.9,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "scoreBreakdown": "芯片+3 (Apple M3 芯片→Apple M4 芯片) + 外观+1 → 4",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         },
         "recommendationLevel": {
           "value": 5,
@@ -4797,6 +4853,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "4GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 12 为 4GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 6299,
           "unit": "CNY",
@@ -5094,6 +5158,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "4GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 12 mini 为 4GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 5499,
           "unit": "CNY",
@@ -5376,6 +5448,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "6GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 12 Pro 为 6GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 8499,
           "unit": "CNY",
@@ -5647,6 +5727,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "6GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 12 Pro Max 为 6GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 9299,
@@ -5945,6 +6033,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "4GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 13 为 4GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 5999,
@@ -6269,6 +6365,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "4GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 13 mini 为 4GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 5199,
           "unit": "CNY",
@@ -6592,6 +6696,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "6GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 13 Pro 为 6GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 7999,
           "unit": "CNY",
@@ -6914,6 +7026,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "6GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 13 Pro Max 为 6GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 8999,
@@ -8091,6 +8211,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "3GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPad (9th generation) 为 3GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 2499,
           "unit": "CNY",
@@ -8345,6 +8473,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "4GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPad mini (6th generation) 为 4GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 3799,
@@ -9201,6 +9337,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "6GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 14 Plus 为 6GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 6999,
           "unit": "CNY",
@@ -9527,6 +9671,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "6GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 14 Pro Max 为 6GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 8999,
@@ -9873,6 +10025,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "6GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 15 Plus 为 6GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 6999,
           "unit": "CNY",
@@ -10210,6 +10370,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "8GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 15 Pro Max 为 8GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 9999,
           "unit": "CNY",
@@ -10540,6 +10708,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 16 Plus 为 8GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 6999,
@@ -10894,6 +11070,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "8GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 16 Pro Max 为 8GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 9999,
           "unit": "CNY",
@@ -11142,6 +11326,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "4GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone SE (3rd generation) 为 4GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 3499,
           "unit": "CNY",
@@ -11381,6 +11573,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "3GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone SE (2nd generation) 为 3GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 3299,
@@ -11908,6 +12108,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "4GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPad (10th generation) 为 4GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 3599,
           "unit": "CNY",
@@ -12186,6 +12394,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPad mini (A17 Pro) 为 8GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 3999,
@@ -14486,10 +14702,10 @@
           "comparedTo": "macbook-pro-14-m4-pro-2024",
           "changeSummary": "芯片+3 (Apple M4 Pro 芯片→Apple M5 Pro 芯片)",
           "confidence": 0.9,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "scoreBreakdown": "芯片+3 (Apple M4 Pro 芯片→Apple M5 Pro 芯片) → 3",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         },
         "recommendationLevel": {
           "value": 5,
@@ -14842,10 +15058,10 @@
           "comparedTo": "macbook-pro-14-m4-max-2024",
           "changeSummary": "芯片+3 (Apple M4 Max 芯片→Apple M5 Max 芯片)",
           "confidence": 0.9,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "scoreBreakdown": "芯片+3 (Apple M4 Max 芯片→Apple M5 Max 芯片) → 3",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         },
         "recommendationLevel": {
           "value": 5,
@@ -15199,9 +15415,9 @@
           "changeSummary": "芯片+3 (Apple M4 Pro 芯片→Apple M5 Pro 芯片)",
           "scoreBreakdown": "芯片+3 (Apple M4 Pro 芯片→Apple M5 Pro 芯片) → 3",
           "confidence": 0.9,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         },
         "recommendationLevel": {
           "value": 5,
@@ -15555,9 +15771,9 @@
           "changeSummary": "芯片+3 (Apple M4 Max 芯片→Apple M5 Max 芯片)",
           "scoreBreakdown": "芯片+3 (Apple M4 Max 芯片→Apple M5 Max 芯片) → 3",
           "confidence": 0.9,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         },
         "recommendationLevel": {
           "value": 5,
@@ -18488,6 +18704,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "8GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 17 为 8GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 5999,
           "unit": "CNY",
@@ -18827,6 +19051,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "12GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone Air 为 12GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 7999,
@@ -19183,6 +19415,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "12GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 17 Pro 为 12GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 8999,
           "unit": "CNY",
@@ -19537,6 +19777,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "12GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 17 Pro Max 为 12GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 9999,
           "unit": "CNY",
@@ -19820,6 +20068,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "6GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPad (A16) 为 6GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 2999,
           "unit": "CNY",
@@ -20052,6 +20308,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "2GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 7 为 2GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 5388,
           "unit": "CNY",
@@ -20069,9 +20333,9 @@
           "changeSummary": "该设备为该比较组第一代，无可对比前代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         }
       }
     },
@@ -20254,6 +20518,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "3GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 7 Plus 为 3GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 6388,
           "unit": "CNY",
@@ -20286,9 +20558,9 @@
           "changeSummary": "该设备为该比较组第一代，无可对比前代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         }
       }
     },
@@ -20461,6 +20733,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "2GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone SE (第 1 代) 为 2GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 3288,
           "unit": "CNY",
@@ -20484,9 +20764,9 @@
           "changeSummary": "该设备为该比较组第一代，无可对比前代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         }
       }
     },
@@ -20658,6 +20938,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "2GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 8 为 2GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 5888,
@@ -20855,6 +21143,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "3GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 8 Plus 为 3GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 6688,
@@ -21057,6 +21353,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "3GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone X 为 3GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 8388,
           "unit": "CNY",
@@ -21089,9 +21393,9 @@
           "changeSummary": "该设备为该比较组第一代，无可对比前代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         }
       }
     },
@@ -21274,6 +21578,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "3GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone XR 为 3GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 6499,
           "unit": "CNY",
@@ -21453,6 +21765,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "4GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone XS 为 4GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 8699,
@@ -21634,6 +21954,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "4GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone XS Max 为 4GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 9599,
           "unit": "CNY",
@@ -21666,9 +21994,9 @@
           "changeSummary": "该设备为该比较组第一代，无可对比前代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         }
       }
     },
@@ -21898,6 +22226,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "4GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 11 为 4GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 5499,
@@ -22143,6 +22479,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "4GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 11 Pro 为 4GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 8699,
           "unit": "CNY",
@@ -22371,6 +22715,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "4GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 11 Pro Max 为 4GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 9599,
@@ -22648,6 +23000,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "8GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPhone 17e 为 8GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 4499,
           "unit": "CNY",
@@ -22852,6 +23212,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "2GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPad Pro（9.7 英寸） 为 2GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 4388,
           "unit": "CNY",
@@ -22869,9 +23237,9 @@
           "changeSummary": "该设备为该比较组第一代，无可对比前代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         }
       }
     },
@@ -23027,6 +23395,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "2GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPad（第 5 代） 为 2GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 2688,
           "unit": "CNY",
@@ -23044,9 +23420,9 @@
           "changeSummary": "该设备为该比较组第一代，无可对比前代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         }
       }
     },
@@ -23226,6 +23602,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "4GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPad Pro（10.5 英寸） 为 4GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 5188,
@@ -23415,6 +23799,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "4GB",
+          "rawText": "iOS Ref 的设备内存表记录 12.9 英寸 iPad Pro（第 2 代） 为 4GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 6388,
           "unit": "CNY",
@@ -23432,9 +23824,9 @@
           "changeSummary": "该设备为该比较组第一代，无可对比前代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         }
       }
     },
@@ -23597,6 +23989,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "2GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPad（第 6 代） 为 2GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 2588,
@@ -23800,6 +24200,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "4GB / 6GB",
+          "rawText": "iOS Ref 的设备内存表记录 11 英寸 iPad Pro（第 1 代） 为 4GB / 6GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 6499,
@@ -24019,6 +24427,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "4GB / 6GB",
+          "rawText": "iOS Ref 的设备内存表记录 12.9 英寸 iPad Pro（第 3 代） 为 4GB / 6GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 8099,
           "unit": "CNY",
@@ -24215,6 +24631,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "3GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPad Air（第 3 代） 为 3GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 3999,
           "unit": "CNY",
@@ -24232,9 +24656,9 @@
           "changeSummary": "该设备为该比较组第一代，无可对比前代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         }
       }
     },
@@ -24422,6 +24846,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "3GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPad mini（第 5 代） 为 3GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 2999,
           "unit": "CNY",
@@ -24439,9 +24871,9 @@
           "changeSummary": "该设备为该比较组第一代，无可对比前代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         }
       }
     },
@@ -24620,6 +25052,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "3GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPad（第 7 代） 为 3GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 2699,
@@ -24831,6 +25271,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "6GB",
+          "rawText": "iOS Ref 的设备内存表记录 11 英寸 iPad Pro（第 2 代） 为 6GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 6229,
@@ -25058,6 +25506,14 @@
           "confidence": 1,
           "verifiedAt": "2026-08-25"
         },
+        "memory": {
+          "value": "6GB",
+          "rawText": "iOS Ref 的设备内存表记录 12.9 英寸 iPad Pro（第 4 代） 为 6GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
+        },
         "launchPrice": {
           "value": 7899,
           "unit": "CNY",
@@ -25261,6 +25717,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "3GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPad（第 8 代） 为 3GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 2499,
@@ -25475,6 +25939,14 @@
           "sourceType": "apple",
           "confidence": 1,
           "verifiedAt": "2026-08-25"
+        },
+        "memory": {
+          "value": "4GB",
+          "rawText": "iOS Ref 的设备内存表记录 iPad Air（第 4 代） 为 4GB 统一内存。",
+          "sourceUrl": "https://iosref.com/memory-processor",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-08-30"
         },
         "launchPrice": {
           "value": 4799,
@@ -26508,9 +26980,9 @@
           "changeSummary": "该设备为该比较组第一代，无可对比前代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         }
       }
     },
@@ -27097,9 +27569,9 @@
           "changeSummary": "该设备为该比较组第一代，无可对比前代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         }
       }
     },
@@ -27304,9 +27776,9 @@
           "changeSummary": "该设备为该比较组第一代，无可对比前代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         }
       }
     },
@@ -27519,9 +27991,9 @@
           "changeSummary": "该设备为该比较组第一代，无可对比前代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         }
       }
     },
@@ -27734,9 +28206,9 @@
           "changeSummary": "该设备为该比较组第一代，无可对比前代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         }
       }
     },
@@ -28104,9 +28576,9 @@
           "changeSummary": "该设备为该比较组第一代，无可对比前代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         }
       }
     },
@@ -30423,9 +30895,9 @@
           "changeSummary": "该设备为该比较组第一代，无可对比前代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         }
       }
     },
@@ -31450,9 +31922,9 @@
           "changeSummary": "该设备为该比较组第一代，无可对比前代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         }
       }
     },
@@ -31760,9 +32232,9 @@
           "changeSummary": "该设备为该比较组第一代，无可对比前代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         }
       }
     },
@@ -32079,9 +32551,9 @@
           "changeSummary": "该设备为该比较组第一代，无可对比前代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         }
       }
     },
@@ -32389,9 +32861,9 @@
           "changeSummary": "该设备为该比较组第一代，无可对比前代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         }
       }
     },
@@ -33293,9 +33765,9 @@
           "changeSummary": "该设备为该比较组第一代，无可对比前代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         }
       }
     },
@@ -33627,9 +34099,9 @@
           "changeSummary": "该设备为该比较组第一代，无可对比前代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         }
       }
     },
@@ -35105,9 +35577,9 @@
           "changeSummary": "该设备为该比较组第一代，无可对比前代",
           "scoreBreakdown": "无对比前代",
           "confidence": 0,
-          "computedAt": "2026-08-25",
+          "computedAt": "2026-08-30",
           "sourceType": "computed",
-          "verifiedAt": "2026-08-25"
+          "verifiedAt": "2026-08-30"
         }
       }
     }

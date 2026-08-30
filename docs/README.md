@@ -6,10 +6,10 @@ DeviceScope 是一个电子设备代际演进分析平台。当前第一阶段�
 
 ## 已实现功能
 
-- **本地结构化 JSON 数据模型**：第一阶段覆盖 iPhone / iPad / MacBook，共 63 台 Apple 设备、2034 个规格字段；默认读取 Apple 中国简体中文来源，英文官网数据以独立快照保留。
+- **本地结构化 JSON 数据模型**：覆盖 2016 年以来的 iPhone / iPad / MacBook，共 129 台 Apple 设备、3824 个规格字段；默认读取中文主数据，英文官网数据以独立快照保留。
 - **首页 / 设备库 / 设备详情**：已完成 v2 前端重构，统一了首页、设备库和设备详情页的导航、层级和展示风格。
 - **代际趋势观察**：支持按类别、系列、分析维度和对比范围筛选，展示芯片、屏幕、重量、价格等变化趋势。
-- **详细参数对比**：对相邻代际变化做标记，14 / 16 英寸 MacBook Pro 的 Pro、Max 芯片档位可独立比较；缺失数据统一展示，便于横向扫描。
+- **详细参数对比**：对相邻代际变化做标记，14 / 16 英寸 MacBook Pro 的 Pro、Max 芯片档位可独立比较；价格区位于性能之前，当前价与二手价按运行内存 + 存储组合匹配，避免跨配置误比。
 - **AI 观察引擎**：提供代际总结、趋势预测、购买建议、字段解释等分析模式；无模型 key 时使用 rules fallback 保证可用。
 - **AI 设备顾问**：支持预算、设备类型、性能偏好、使用场景、成色偏好、续航优先级、接口/生态需求等输入；本地只负责标准化、候选筛选、官方事实整理和简单 fallback，模型负责场景化推荐与权衡。
 - **DeepSeek 接入**：DeepSeek V4 使用紧凑返回协议、显式关闭 thinking、900 token 输出上限和 15 秒超时；6 个真实样例已全部一次生成 AI 结果，但不把小样本复测表述为长期稳定承诺。
@@ -21,7 +21,7 @@ DeviceScope 是一个电子设备代际演进分析平台。当前第一阶段�
 
 ### 可追溯数据结构
 
-设备参数通过 `SpecField<T>` 保存来源 URL、来源类型、置信度和验证时间；计算字段使用 `sourceType: "computed"`，避免把推断数据混作官方事实。技术规格来自 Apple Support 中国简体中文页面，中国大陆首发价来自 Apple 中国 Newsroom；官网没有明确写出的字段保持缺失。
+设备参数通过 `SpecField<T>` 保存来源 URL、来源类型、置信度和验证时间；计算字段使用 `sourceType: "computed"`，避免把推断数据混作采集事实。技术规格优先来自 Apple Support 中国简体中文页面，中国大陆首发价优先来自 Apple 中国 Newsroom；Apple 未公开的 iPhone / iPad 运行内存由 iOS Ref 补齐，当前价与二手价保存为带配置、成色和采集日期的静态参考快照。
 
 ```ts
 type SpecField<T> = {
@@ -29,7 +29,7 @@ type SpecField<T> = {
   unit?: string;
   rawText?: string;
   sourceUrl: string;
-  sourceType: "apple";
+  sourceType: "apple" | "reference";
   confidence: number;
   verifiedAt: string;
 };
@@ -61,7 +61,7 @@ AI 分析与设备顾问都保留本地 rules fallback。设备顾问不再把 A
 
 项目使用脚本级回归覆盖关键路径：
 
-- `npm run test:device-advisor`：8 个候选排序与 rules fallback 场景。
+- `npm run test:device-advisor`：25 个候选排序、价格快照与 rules fallback 场景。
 - `npm run test:device-advisor-api`：13 个 API 协议、候选真值、重试和 fallback 边界场景。
 
 ## 技术栈
@@ -151,9 +151,9 @@ scripts/
 
 ## 当前阶段
 
-项目已完成中文官网数据切换、MacBook Pro Pro / Max 独立配置拆分、首页 / 设备库 / 设备详情、代际对比、趋势观察、AI 顾问、DeepSeek 接入、AI eval 闭环、dev-only 评测看板和 v2 前端重构。设备顾问已收敛为轻量候选层、候选真值校验与完整 AI / rules 分层；后续继续扩充真实样例并监测模型理由的事实一致性。
+项目已完成中文官网数据切换、2016 年以来 129 台设备扩容、MacBook Pro Pro / Max 独立配置拆分、配置化价格对比、首页 / 设备库 / 设备详情、代际对比、趋势观察、AI 顾问、DeepSeek 接入、AI eval 闭环、dev-only 评测看板和 v2 前端重构。设备顾问已收敛为轻量候选层、候选真值校验与完整 AI / rules 分层；数据主线下一步是在统一配置口径下继续扩充中国大陆当前价与二手价快照。
 
 ## 相关文档
 
 - [项目计划](PROJECT_PLAN.md)
-- [最新开发日志](logs/2026-07-30.md)
+- [最新开发日志](logs/2026-08-30.md)

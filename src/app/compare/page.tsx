@@ -96,9 +96,13 @@ function getPriceConfiguration(
   const memoryOptions = getDeviceMemoryOptions(device);
   const memory = explicitMemory
     ? `${explicitMemory[1]}GB`
-    : memoryOptions.length === 1 || getDeviceStorageOptions(device)[0] === storage
-      ? memoryOptions[0] ?? null
-      : null;
+    : device.category === "tablet" && memoryOptions.length > 1
+      ? storageSizeInGb(storage) >= 1024
+        ? memoryOptions.at(-1) ?? null
+        : memoryOptions[0]
+      : memoryOptions.length === 1 || getDeviceStorageOptions(device)[0] === storage
+        ? memoryOptions[0] ?? null
+        : null;
 
   return { key: configurationKey(memory, storage), memory, storage };
 }

@@ -13,8 +13,8 @@ for (const device of devices) {
 
 // 这些字段直接支撑现有页面的核心展示；新增设备缺失时必须显式处理，不能静默降低质量。
 const requiredFields = {
-  phone: ["chip", "launchPrice", "displayType", "port", "rearCamera", "frontCamera"],
-  tablet: ["chip", "launchPrice", "screenSize", "displayType", "resolution", "port", "rearCamera", "frontCamera"],
+  phone: ["chip", "memory", "launchPrice", "displayType", "port", "rearCamera", "frontCamera"],
+  tablet: ["chip", "memory", "launchPrice", "screenSize", "displayType", "resolution", "port", "rearCamera", "frontCamera"],
   laptop: ["chip", "screenSize", "displayType", "resolution"],
 };
 const reportFields = [
@@ -27,11 +27,12 @@ const reportFields = [
   "refreshRate",
   "batteryLife",
   "port",
+  "memory",
   "storage",
   "rearCamera",
   "frontCamera",
 ];
-const trustedReferenceHosts = new Set(["tc.people.com.cn", "mobile.zol.com.cn", "www.shihuo.cn", "pro.m.jd.com", "item.jd.com", "item.m.jd.com", "m2.9ji.com"]);
+const trustedReferenceHosts = new Set(["tc.people.com.cn", "mobile.zol.com.cn", "www.shihuo.cn", "pro.m.jd.com", "item.jd.com", "item.m.jd.com", "m2.9ji.com", "iosref.com"]);
 
 const hasValue = (device, field) => device.specs?.[field]?.value !== null && device.specs?.[field]?.value !== undefined;
 const sourceIds = sourceRows.map((row) => row.id);
@@ -86,14 +87,19 @@ for (const device of devices) {
     else sourceAudit.rawTextTechnicalOnly += 1;
 
     if (field.sourceType === "reference") {
-      assert.ok(["launchPrice", "currentPrice", "usedPrice"].includes(fieldName), `${device.id}.${fieldName}: reference 仅允许用于价格字段`);
-      assert.equal(field.confidence, 0.7, `${device.id}.${fieldName}: reference 置信度必须为 0.7`);
-      assert.equal(field.priceType, fieldName.replace("Price", ""), `${device.id}.${fieldName}: priceType 与字段不一致`);
-      assert.equal(field.market, "中国大陆", `${device.id}.${fieldName}: 缺少中国大陆市场限定`);
-      assert.ok(field.configuration, `${device.id}.${fieldName}: 缺少价格配置`);
-      assert.ok(field.condition, `${device.id}.${fieldName}: 缺少成色或价格状态`);
-      assert.match(field.observedAt, /^\d{4}-\d{2}-\d{2}$/, `${device.id}.${fieldName}: observedAt 非法`);
-      assert.ok(field.sourceName, `${device.id}.${fieldName}: 缺少来源名称`);
+      assert.ok(["memory", "launchPrice", "currentPrice", "usedPrice"].includes(fieldName), `${device.id}.${fieldName}: reference 字段不在允许范围`);
+      if (fieldName === "memory") {
+        assert.equal(field.confidence, 0.9, `${device.id}.memory: 第三方内存置信度必须为 0.9`);
+        assert.equal(url.hostname, "iosref.com", `${device.id}.memory: 第三方内存来源必须为 iOS Ref`);
+      } else {
+        assert.equal(field.confidence, 0.7, `${device.id}.${fieldName}: 第三方价格置信度必须为 0.7`);
+        assert.equal(field.priceType, fieldName.replace("Price", ""), `${device.id}.${fieldName}: priceType 与字段不一致`);
+        assert.equal(field.market, "中国大陆", `${device.id}.${fieldName}: 缺少中国大陆市场限定`);
+        assert.ok(field.configuration, `${device.id}.${fieldName}: 缺少价格配置`);
+        assert.ok(field.condition, `${device.id}.${fieldName}: 缺少成色或价格状态`);
+        assert.match(field.observedAt, /^\d{4}-\d{2}-\d{2}$/, `${device.id}.${fieldName}: observedAt 非法`);
+        assert.ok(field.sourceName, `${device.id}.${fieldName}: 缺少来源名称`);
+      }
     }
   }
 
@@ -124,10 +130,35 @@ for (const [category, categoryDevices] of devicesByCategory) {
   }
 }
 
+const referenceMemoryDevices = devices.filter((device) => device.specs.memory?.sourceType === "reference");
+const memoryDistribution = (category) => Object.fromEntries(
+  [...referenceMemoryDevices
+    .filter((device) => device.category === category)
+    .reduce((counts, device) => counts.set(device.specs.memory.value, (counts.get(device.specs.memory.value) ?? 0) + 1), new Map())]
+    .sort(([left], [right]) => left.localeCompare(right)),
+);
+assert.equal(referenceMemoryDevices.length, 59, "第三方运行内存字段必须覆盖 40 台 iPhone 和 19 台 iPad");
+assert.deepEqual(memoryDistribution("phone"), {
+  "12GB": 3,
+  "2GB": 3,
+  "3GB": 5,
+  "4GB": 10,
+  "6GB": 10,
+  "8GB": 9,
+}, "iPhone 运行内存分布发生变化");
+assert.deepEqual(memoryDistribution("tablet"), {
+  "2GB": 3,
+  "3GB": 5,
+  "4GB / 6GB": 2,
+  "4GB": 5,
+  "6GB": 3,
+  "8GB": 1,
+}, "iPad 第三方运行内存分布发生变化");
+
 const needsReview = sourceRows.filter((row) => row.sourceStatus === "needs_review").map((row) => row.id);
 assert.ok(sourceRows.every((row) => ["verified", "needs_review"].includes(row.sourceStatus)), "来源登记状态非法");
 assert.equal(sourceAudit.supportZhCn + sourceAudit.appleChina + sourceAudit.reference, sourceAudit.fields, "仍有字段未使用已登记来源");
-assert.equal(sourceAudit.reference, 43, "第三方价格字段数量发生变化");
+assert.equal(sourceAudit.reference, 102, "第三方内存与价格字段数量发生变化");
 assert.deepEqual(needsReview, [], "仍有设备来源待人工复核");
 
 const missingLaptopLaunchPrices = devices

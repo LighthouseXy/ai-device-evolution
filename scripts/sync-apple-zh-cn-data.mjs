@@ -6,6 +6,7 @@ const EN_SOURCES_PATH = new URL("src/data/apple-sources.en-us.json", ROOT);
 const ZH_DEVICES_PATH = new URL("src/data/apple-devices-db.json", ROOT);
 const ZH_SOURCES_PATH = new URL("src/data/apple-sources.json", ROOT);
 const VERIFIED_AT = new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Shanghai" }).format(new Date());
+const IOS_REF_MEMORY_URL = "https://iosref.com/memory-processor";
 
 const ZH_LAUNCH_PRICES = {
   "iphone-7-2016": [5388, "https://www.apple.com.cn/newsroom/2016/09/07Apple-Introduces-iPhone-7-iPhone-7-Plus-The-Best-Most-Advanced-iPhone-Ever/"],
@@ -96,6 +97,21 @@ const ZH_LAUNCH_PRICES = {
   "macbook-pro-16-m3-pro-2023": [19999, "https://www.apple.com.cn/newsroom/2023/10/apple-unveils-new-macbook-pro-featuring-m3-chips/"],
   "macbook-neo-13-2026": [4599, "https://www.apple.com.cn/newsroom/2026/03/say-hello-to-macbook-neo/"],
 };
+
+const REFERENCE_MEMORY_SPECS = Object.fromEntries([
+  [["iphone-7-2016", "iphone-se-1-2016", "iphone-8-2017"], "2GB"],
+  [["iphone-7-plus-2016", "iphone-8-plus-2017", "iphone-x-2017", "iphone-xr-2018", "iphone-se-2-2020"], "3GB"],
+  [["iphone-xs-2018", "iphone-xs-max-2018", "iphone-11-2019", "iphone-11-pro-2019", "iphone-11-pro-max-2019", "iphone-12", "iphone-12-mini", "iphone-se-3-2022", "iphone-13", "iphone-13-mini"], "4GB"],
+  [["iphone-12-pro", "iphone-12-pro-max", "iphone-13-pro", "iphone-13-pro-max", "iphone-14", "iphone-14-plus", "iphone-14-pro", "iphone-14-pro-max", "iphone-15", "iphone-15-plus"], "6GB"],
+  [["iphone-15-pro", "iphone-15-pro-max", "iphone-16", "iphone-16-plus", "iphone-16-pro", "iphone-16-pro-max", "iphone-16e-2025", "iphone-17", "iphone-17e-2026"], "8GB"],
+  [["iphone-air", "iphone-17-pro", "iphone-17-pro-max"], "12GB"],
+  [["ipad-pro-9-7-2016", "ipad-5th-2017", "ipad-6th-2018"], "2GB"],
+  [["ipad-9th-2021", "ipad-air-3rd-2019", "ipad-mini-5th-2019", "ipad-7th-2019", "ipad-8th-2020"], "3GB"],
+  [["ipad-mini-6th-2021", "ipad-10th-2022", "ipad-pro-10-5-2017", "ipad-pro-12-9-2nd-2017", "ipad-air-4th-2020"], "4GB"],
+  [["ipad-a16-2025", "ipad-pro-11-2nd-2020", "ipad-pro-12-9-4th-2020"], "6GB"],
+  [["ipad-mini-a17-pro-2024"], "8GB"],
+  [["ipad-pro-11-1st-2018", "ipad-pro-12-9-3rd-2018"], "4GB / 6GB"],
+].flatMap(([ids, value]) => ids.map((id) => [id, value])));
 
 const REFERENCE_LAUNCH_PRICES = {
   "iphone-se-1-2016": {
@@ -1012,6 +1028,17 @@ function spec(value, rawText, oldField, sourceUrl) {
   };
 }
 
+function preserveVerifiedAt(field, previousField) {
+  if (!field || !previousField) return field;
+  const next = { ...field };
+  const previous = { ...previousField };
+  delete next.verifiedAt;
+  delete previous.verifiedAt;
+  return JSON.stringify(next) === JSON.stringify(previous)
+    ? { ...field, verifiedAt: previousField.verifiedAt }
+    : field;
+}
+
 function parseStorage(blocks) {
   const values = [];
   for (const block of blocks) {
@@ -1422,6 +1449,19 @@ function marketPriceSnapshot(reference, priceType) {
   };
 }
 
+function referenceMemorySpec(device) {
+  const value = REFERENCE_MEMORY_SPECS[device.id];
+  if (!value) return null;
+  return {
+    value,
+    rawText: `iOS Ref 的设备内存表记录 ${device.modelName} 为 ${value} 统一内存。`,
+    sourceUrl: IOS_REF_MEMORY_URL,
+    sourceType: "reference",
+    confidence: 0.9,
+    verifiedAt: VERIFIED_AT,
+  };
+}
+
 function currentPriceSnapshot(device) {
   return marketPriceSnapshot(REFERENCE_CURRENT_PRICES[device.id], "current");
 }
@@ -1430,9 +1470,10 @@ function usedPriceSnapshot(device) {
   return marketPriceSnapshot(REFERENCE_USED_PRICES[device.id], "used");
 }
 
-const [englishDatabase, englishSources] = await Promise.all([
+const [englishDatabase, englishSources, previousZhDatabase] = await Promise.all([
   fs.readFile(EN_DEVICES_PATH, "utf8").then(JSON.parse),
   fs.readFile(EN_SOURCES_PATH, "utf8").then(JSON.parse),
+  fs.readFile(ZH_DEVICES_PATH, "utf8").then(JSON.parse),
 ]);
 const { devices: englishDevices } = englishDatabase;
 const zhOnlyDevices = [...ZH_ONLY_IPHONES, ...ZH_ONLY_IPADS, ...ZH_ONLY_MACBOOKS];
@@ -1443,6 +1484,7 @@ const sourceById = new Map([
 ]);
 const zhSources = Object.fromEntries(Object.keys(englishSources).map((category) => [category, []]));
 const zhDevices = [];
+const previousZhById = new Map(previousZhDatabase.devices.map((device) => [device.id, device]));
 const missing = [];
 
 function splitDevice(device, split) {
@@ -1498,9 +1540,14 @@ function recalculateGenerationUpgrade(device) {
 for (const sourceDevice of sourceDevices) {
   const oldSource = sourceById.get(sourceDevice.id);
   const supportUrl = await resolveTechSpecUrl(oldSource.supportUrl);
-  const html = await fetchHtml(supportUrl);
-  const sections = parseSections(html);
-  const title = sections[0]?.heading ?? "";
+  let html = await fetchHtml(supportUrl);
+  let sections = parseSections(html);
+  let title = sections[0]?.heading ?? "";
+  if (!/[\u4e00-\u9fff]/.test(html) || !/技(?:术规格|術規格)/.test(title)) {
+    html = await fetchHtml(`${supportUrl}?cid=device-scope-zh-cn`);
+    sections = parseSections(html);
+    title = sections[0]?.heading ?? "";
+  }
   if (!/[\u4e00-\u9fff]/.test(html) || !/技(?:术规格|術規格)/.test(title)) {
     throw new Error(`${sourceDevice.id}: 不是简体中文技术规格页 (${supportUrl})`);
   }
@@ -1508,19 +1555,22 @@ for (const sourceDevice of sourceDevices) {
   const splits = MACBOOK_CHIP_SPLITS[sourceDevice.id] ?? [null];
   for (const split of splits) {
     const device = splitDevice(sourceDevice, split);
+    const previousSpecs = previousZhById.get(device.id)?.specs ?? {};
     const specs = {};
     for (const fieldName of FIELD_TARGETS[device.category]) {
       const field = extractField(device, fieldName, sections, device.specs[fieldName], supportUrl);
-      if (field) specs[fieldName] = field;
+      if (field) specs[fieldName] = preserveVerifiedAt(field, previousSpecs[fieldName]);
       else if (device.specs[fieldName]?.value !== null && device.specs[fieldName]?.value !== undefined) missing.push(`${device.id}.${fieldName}`);
     }
+    const referenceMemory = referenceMemorySpec(device);
+    if (!specs.memory && referenceMemory) specs.memory = preserveVerifiedAt(referenceMemory, previousSpecs.memory);
     const launchPrice = await refreshLaunchPrice(device);
-    if (launchPrice) specs.launchPrice = launchPrice;
+    if (launchPrice) specs.launchPrice = preserveVerifiedAt(launchPrice, previousSpecs.launchPrice);
     else if (device.specs.launchPrice?.value != null && !EXPECTED_MISSING_LAUNCH_PRICES.has(device.id)) missing.push(`${device.id}.launchPrice`);
     const currentPrice = currentPriceSnapshot(device);
-    if (currentPrice) specs.currentPrice = currentPrice;
+    if (currentPrice) specs.currentPrice = preserveVerifiedAt(currentPrice, previousSpecs.currentPrice);
     const usedPrice = usedPriceSnapshot(device);
-    if (usedPrice) specs.usedPrice = usedPrice;
+    if (usedPrice) specs.usedPrice = preserveVerifiedAt(usedPrice, previousSpecs.usedPrice);
 
     const modelName = localizeModelName(device.modelName);
     const releaseYear = device.id === "ipad-air-m4-2025" ? 2026 : device.releaseYear;
@@ -1528,6 +1578,7 @@ for (const sourceDevice of sourceDevices) {
     const referenceUrls = new Set(oldSource.referenceUrls ?? []);
     if (REFERENCE_CURRENT_PRICES[device.id]) referenceUrls.add(REFERENCE_CURRENT_PRICES[device.id].sourceUrl);
     if (REFERENCE_USED_PRICES[device.id]) referenceUrls.add(REFERENCE_USED_PRICES[device.id].sourceUrl);
+    if (REFERENCE_MEMORY_SPECS[device.id]) referenceUrls.add(IOS_REF_MEMORY_URL);
     zhSources[device.category].push({
       ...oldSource,
       id: device.id,
