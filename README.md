@@ -56,7 +56,7 @@ npm run test:device-advisor
 npm run test:device-advisor-api
 ```
 
-识货商品检查会列出页面可选配色和 SKU；`--all-styles` 可并行合并全部配色，`--match` 可按容量、版本或内存关键词过滤规格，`--available` 只保留有规格列示价的 SKU，最终价格仍以带明确 `skuId` 的商品页为准。
+识货商品检查会列出页面可选配色和 SKU；`--all-styles` 可并行合并全部配色，`--match` 可按容量、版本或内存关键词过滤规格，并自动把 `0.5TB` 等页面写法换算为对应 GB 容量，`--available` 只保留有规格列示价的 SKU，最终价格仍以带明确 `skuId` 的商品页为准。
 
 ## 文档
 

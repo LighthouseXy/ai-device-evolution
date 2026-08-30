@@ -113,11 +113,18 @@ function shihuoStyles(page) {
   }));
 }
 
+function normalizeSkuMatchText(value) {
+  return value
+    .toLocaleLowerCase("zh-CN")
+    .replace(/(\d+(?:\.\d+)?)\s*tb\b/g, (_, amount) => `${Math.round(Number(amount) * 1024)}gb`)
+    .replace(/\s+/g, "");
+}
+
 function filterSkus(skus, match) {
-  const terms = (match ?? "").trim().toLocaleLowerCase("zh-CN").split(/\s+/).filter(Boolean);
+  const terms = (match ?? "").trim().split(/\s+/).filter(Boolean).map(normalizeSkuMatchText);
   if (terms.length === 0) return skus;
   return skus.filter((sku) => {
-    const text = Object.values(sku.attributes).join(" ").toLocaleLowerCase("zh-CN");
+    const text = normalizeSkuMatchText(Object.values(sku.attributes).join(" "));
     return terms.every((term) => text.includes(term));
   });
 }
