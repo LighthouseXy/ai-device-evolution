@@ -2,6 +2,7 @@ import fs from "node:fs";
 import { spawnSync } from "node:child_process";
 import { parseArgs } from "node:util";
 import { fetchWithRetry } from "./lib/fetch-with-retry.mjs";
+import { normalizeProductName } from "./lib/normalize-product-name.mjs";
 
 const DATABASE_PATH = "src/data/apple-devices-db.json";
 const OBSERVATIONS_PATH = "src/data/price-observations.json";
@@ -295,7 +296,7 @@ async function searchJiUsed(query, limit, pages = 1) {
   return [...records.values()].map((item) => ({
     id: item.id,
     url: `https://m2.9ji.com/secondHand/detail/${item.id}`,
-    product: item.name,
+    product: normalizeProductName(item.name),
     skuName: item.skuName,
     price: Number(item.salePrice) || null,
     grade: item.glevelName || item.gleavel || null,
@@ -306,12 +307,12 @@ async function searchJiUsed(query, limit, pages = 1) {
 }
 
 function filterJiUsedItems(items, { product, require: requiredText, exclude: excludedText, available }) {
-  const exactProduct = (product ?? "").trim().toLocaleLowerCase("zh-CN");
+  const exactProduct = normalizeProductName(product).toLocaleLowerCase("zh-CN");
   const requiredTerms = (requiredText ?? "").trim().toLocaleLowerCase("zh-CN").split(/\s+/).filter(Boolean);
   const excludedTerms = (excludedText ?? "").trim().toLocaleLowerCase("zh-CN").split(/\s+/).filter(Boolean);
   return items.filter((item) => {
     if (available && item.stockout) return false;
-    if (exactProduct && item.product.trim().toLocaleLowerCase("zh-CN") !== exactProduct) return false;
+    if (exactProduct && normalizeProductName(item.product).toLocaleLowerCase("zh-CN") !== exactProduct) return false;
     const text = `${item.product} ${item.skuName} ${item.network ?? ""}`.toLocaleLowerCase("zh-CN");
     return requiredTerms.every((term) => text.includes(term)) && excludedTerms.every((term) => !text.includes(term));
   });
