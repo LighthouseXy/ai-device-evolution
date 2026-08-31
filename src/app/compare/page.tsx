@@ -11,8 +11,13 @@ import {
   comparisonGroupsFlat,
   formatMaybeCurrency,
   getDevicesByComparisonGroupKeyFlat,
-  type PriceField,
 } from "@/lib/devices-db";
+import {
+  RECENT_CONFIGURATION_COUNT,
+  formatConfiguration,
+  formatConfigurationsForComparison,
+  getPriceForComparison,
+} from "@/lib/device-configurations";
 import {
   formatSignedZhCurrency,
   formatSignedZhNumber,
@@ -23,10 +28,7 @@ import TickDivider from "@/components/layout/TickDivider";
 import CompareSeriesSelect from "@/components/CompareSeriesSelect";
 
 type SearchParams = {
-  configuration?: string | string[];
   series?: string | string[];
-  // 兼容上一版仅按存储选择的链接。
-  storage?: string | string[];
   window?: string | string[];
 };
 
@@ -40,131 +42,6 @@ type ComparisonField = {
   isCurrency?: boolean;
   showChange?: boolean;
 };
-
-type DeviceConfiguration = {
-  key: string;
-  memory: string | null;
-  storage: string;
-};
-
-const CAPACITY_PATTERN = /(\d+(?:\.\d+)?)\s*(TB|GB)/gi;
-const EXPLICIT_MEMORY_PATTERN = /(\d+(?:\.\d+)?)\s*GB\s*(?:统一|运行)?内存/i;
-
-function configurationKey(memory: string | null, storage: string) {
-  return `${memory ?? "unknown"}|${storage}`;
-}
-
-function formatConfigurationLabel(configuration: DeviceConfiguration) {
-  return `运行内存 ${configuration.memory ?? "待补充"} · 存储 ${configuration.storage}`;
-}
-
-function storageSizeInGb(storage: string) {
-  const match = storage.match(/^(\d+(?:\.\d+)?)(TB|GB)$/i);
-  if (!match) return Number.POSITIVE_INFINITY;
-  const value = Number(match[1]);
-  return match[2].toUpperCase() === "TB" ? value * 1024 : value;
-}
-
-function extractStorageOptions(value: string | undefined) {
-  if (!value) return [];
-  return Array.from(value.matchAll(CAPACITY_PATTERN), (match) => `${match[1]}${match[2].toUpperCase()}`);
-}
-
-function getDeviceStorageOptions(device: (typeof allDevicesFlat)[number]) {
-  return extractStorageOptions(device.specs?.storage as string | undefined);
-}
-
-function getDeviceMemoryOptions(device: (typeof allDevicesFlat)[number]) {
-  const storageOptions = new Set(getDeviceStorageOptions(device));
-  return extractStorageOptions(device.specs?.memory as string | undefined)
-    .filter((memory) => memory.endsWith("GB") && !storageOptions.has(memory))
-    .sort((left, right) => storageSizeInGb(left) - storageSizeInGb(right));
-}
-
-function getPriceConfiguration(
-  device: (typeof allDevicesFlat)[number],
-  price: PriceField | undefined,
-): DeviceConfiguration | null {
-  const rawConfiguration = price?.configuration;
-  if (!rawConfiguration) return null;
-
-  const normalized = rawConfiguration.toUpperCase().replaceAll(" ", "");
-  const storage = getDeviceStorageOptions(device).find((option) => normalized.includes(option));
-  if (!storage) return null;
-
-  const explicitMemory = rawConfiguration.match(EXPLICIT_MEMORY_PATTERN);
-  const memoryOptions = getDeviceMemoryOptions(device);
-  const memory = explicitMemory
-    ? `${explicitMemory[1]}GB`
-    : device.category === "tablet" && memoryOptions.length > 1
-      ? storageSizeInGb(storage) >= 1024
-        ? memoryOptions.at(-1) ?? null
-        : memoryOptions[0]
-      : memoryOptions.length === 1 || getDeviceStorageOptions(device)[0] === storage
-        ? memoryOptions[0] ?? null
-        : null;
-
-  return { key: configurationKey(memory, storage), memory, storage };
-}
-
-function getKnownDeviceConfigurations(device: (typeof allDevicesFlat)[number]) {
-  const storage = getDeviceStorageOptions(device)[0];
-  if (!storage) return [];
-
-  const memory = getDeviceMemoryOptions(device)[0] ?? null;
-  const configurations = [
-    { key: configurationKey(memory, storage), memory, storage },
-    getPriceConfiguration(device, device.currentPrice),
-    getPriceConfiguration(device, device.usedPrice),
-  ].filter((value): value is DeviceConfiguration => value !== null);
-
-  return Array.from(new Map(configurations.map((configuration) => [configuration.key, configuration])).values());
-}
-
-function buildConfigurationOptions(devices: (typeof allDevicesFlat)[number][]) {
-  const configurations = new Map<string, DeviceConfiguration & { count: number }>();
-  for (const device of devices) {
-    for (const configuration of getKnownDeviceConfigurations(device)) {
-      const existing = configurations.get(configuration.key);
-      configurations.set(configuration.key, {
-        ...configuration,
-        count: (existing?.count ?? 0) + 1,
-      });
-    }
-  }
-
-  return Array.from(configurations.values()).sort(
-    (left, right) =>
-      storageSizeInGb(left.storage) - storageSizeInGb(right.storage)
-      || storageSizeInGb(left.memory ?? "") - storageSizeInGb(right.memory ?? ""),
-  );
-}
-
-function pickDefaultConfiguration(configurations: Array<DeviceConfiguration & { count: number }>) {
-  return configurations.slice().sort(
-    (left, right) =>
-      right.count - left.count
-      || storageSizeInGb(left.storage) - storageSizeInGb(right.storage)
-      || storageSizeInGb(left.memory ?? "") - storageSizeInGb(right.memory ?? ""),
-  )[0] ?? null;
-}
-
-function getPriceForConfiguration(
-  device: (typeof allDevicesFlat)[number],
-  priceType: "current" | "used",
-  selectedConfiguration: DeviceConfiguration,
-) {
-  const storageOptions = getDeviceStorageOptions(device);
-  if (!storageOptions.includes(selectedConfiguration.storage)) return "未提供";
-
-  const memoryOptions = getDeviceMemoryOptions(device);
-  if (selectedConfiguration.memory && !memoryOptions.includes(selectedConfiguration.memory)) return "未提供";
-
-  const price = priceType === "current" ? device.currentPrice : device.usedPrice;
-  return getPriceConfiguration(device, price)?.key === selectedConfiguration.key
-    ? formatMaybeCurrency(price?.value ?? undefined)
-    : "待补充";
-}
 
 const deviceComparisonFields: ComparisonField[] = [
   { group: "性能", label: "芯片", hint: "处理器", getValue: (device) => device.chip || "待补充" },
@@ -214,14 +91,27 @@ const deviceComparisonFields: ComparisonField[] = [
   },
 ];
 
-function buildComparisonFields(configuration: DeviceConfiguration): ComparisonField[] {
-  const configurationLabel = formatConfigurationLabel(configuration);
+function buildComparisonFields(recentDeviceIds: Set<string>): ComparisonField[] {
+  const isRecent = (device: (typeof allDevicesFlat)[number]) => recentDeviceIds.has(device.id);
+  const priceValue = (device: (typeof allDevicesFlat)[number], priceType: "current" | "used") =>
+    getPriceForComparison(device, priceType, isRecent(device));
   return [
     {
       group: "价格",
+      label: "配置",
+      hint: "最近 5 代列出设备配置；更早设备仅保留最高配置",
+      getValue: (device) => formatConfigurationsForComparison(device, isRecent(device)) || "待补充",
+      showChange: false,
+    },
+    {
+      group: "价格",
       label: "当前价",
-      hint: configurationLabel,
-      getValue: (device) => getPriceForConfiguration(device, "current", configuration),
+      hint: "对应下方标注配置",
+      getValue: (device) => formatMaybeCurrency(priceValue(device, "current")?.value),
+      getMeta: (device) => {
+        const price = priceValue(device, "current");
+        return price ? [formatConfiguration(price.configuration)] : null;
+      },
       isNumeric: true,
       isCurrency: true,
       showChange: false,
@@ -229,8 +119,12 @@ function buildComparisonFields(configuration: DeviceConfiguration): ComparisonFi
     {
       group: "价格",
       label: "二手价",
-      hint: configurationLabel,
-      getValue: (device) => getPriceForConfiguration(device, "used", configuration),
+      hint: "对应下方标注配置",
+      getValue: (device) => formatMaybeCurrency(priceValue(device, "used")?.value),
+      getMeta: (device) => {
+        const price = priceValue(device, "used");
+        return price ? [formatConfiguration(price.configuration)] : null;
+      },
       isNumeric: true,
       isCurrency: true,
       showChange: false,
@@ -240,11 +134,6 @@ function buildComparisonFields(configuration: DeviceConfiguration): ComparisonFi
 }
 
 function normalizeSeries(value: string | string[] | undefined) {
-  const raw = Array.isArray(value) ? value[0] : value;
-  return typeof raw === "string" && raw.trim().length > 0 ? raw : "";
-}
-
-function normalizeConfiguration(value: string | string[] | undefined) {
   const raw = Array.isArray(value) ? value[0] : value;
   return typeof raw === "string" && raw.trim().length > 0 ? raw : "";
 }
@@ -402,12 +291,12 @@ function CompareOverview({ devices }: { devices: (typeof allDevicesFlat)[number]
 
 function CompareTable({
   devices,
-  configuration,
+  recentDeviceIds,
 }: {
   devices: (typeof allDevicesFlat)[number][];
-  configuration: DeviceConfiguration;
+  recentDeviceIds: Set<string>;
 }) {
-  const comparisonFields = buildComparisonFields(configuration);
+  const comparisonFields = buildComparisonFields(recentDeviceIds);
   const groupedFields = Array.from(
     comparisonFields.reduce((groups, field) => {
       const fields = groups.get(field.group) ?? [];
@@ -512,16 +401,7 @@ export default async function ComparePage({
     .map((category) => ({ value: category, label: categoryLabels[category] }));
   const selectedWindow = normalizeWindow(resolvedSearchParams.window);
   const seriesDevices = getDevicesByComparisonGroupKeyFlat(selectedSeries);
-  const configurationOptions = buildConfigurationOptions(seriesDevices);
-  const defaultConfiguration = pickDefaultConfiguration(configurationOptions);
-  const requestedConfiguration = normalizeConfiguration(
-    resolvedSearchParams.configuration ?? resolvedSearchParams.storage,
-  );
-  const selectedConfiguration = configurationOptions.find(
-    (configuration) =>
-      configuration.key === requestedConfiguration
-      || (!requestedConfiguration.includes("|") && configuration.storage === requestedConfiguration),
-  ) ?? defaultConfiguration;
+  const recentDeviceIds = new Set(seriesDevices.slice(-RECENT_CONFIGURATION_COUNT).map((device) => device.id));
   const visibleDevices = (
     selectedWindow === "all"
       ? seriesDevices.slice()
@@ -561,11 +441,6 @@ export default async function ComparePage({
             categories={categoryOptions}
             selectedCategory={selectedCategory}
             selectedSeries={selectedSeries}
-            configurationOptions={configurationOptions.map((configuration) => ({
-              label: formatConfigurationLabel(configuration),
-              value: configuration.key,
-            }))}
-            selectedConfiguration={selectedConfiguration?.key ?? ""}
             selectedWindow={selectedWindow}
           />
 
@@ -579,7 +454,6 @@ export default async function ComparePage({
               ].map((item) => {
                 const params = new URLSearchParams();
                 params.set("series", selectedSeries);
-                if (selectedConfiguration) params.set("configuration", selectedConfiguration.key);
                 params.set("window", item.key);
                 const active = item.key === selectedWindow;
 
@@ -602,9 +476,7 @@ export default async function ComparePage({
       <section className="compare-section">
         <div className="compare-inner">
           <CompareOverview devices={visibleDevices} />
-          {selectedConfiguration ? (
-            <CompareTable devices={visibleDevices} configuration={selectedConfiguration} />
-          ) : null}
+          <CompareTable devices={visibleDevices} recentDeviceIds={recentDeviceIds} />
           <CompareInsight analysis={analysis} />
         </div>
       </section>

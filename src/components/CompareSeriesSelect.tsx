@@ -11,8 +11,6 @@ type CompareSeriesSelectProps = {
   categories: Array<{ label: string; value: string }>;
   selectedCategory: string;
   selectedSeries: string;
-  configurationOptions: Array<{ label: string; value: string }>;
-  selectedConfiguration: string;
   selectedWindow: string;
 };
 
@@ -21,8 +19,6 @@ export default function CompareSeriesSelect({
   categories,
   selectedCategory,
   selectedSeries,
-  configurationOptions,
-  selectedConfiguration,
   selectedWindow,
 }: CompareSeriesSelectProps) {
   const router = useRouter();
@@ -30,15 +26,6 @@ export default function CompareSeriesSelect({
 
   const navigateToSeries = (series: string) => {
     const params = new URLSearchParams({ series, window: selectedWindow });
-    router.push(`/compare?${params.toString()}`);
-  };
-
-  const navigateToConfiguration = (configuration: string) => {
-    const params = new URLSearchParams({
-      configuration,
-      series: selectedSeries,
-      window: selectedWindow,
-    });
     router.push(`/compare?${params.toString()}`);
   };
 
@@ -84,24 +71,6 @@ export default function CompareSeriesSelect({
         </select>
       </div>
 
-      <div className="compare-selector-group">
-        <label className="compare-selector-label" htmlFor="compare-configuration">
-          配置（运行内存 + 存储）
-        </label>
-        <select
-          id="compare-configuration"
-          name="configuration"
-          className="compare-select-control"
-          value={selectedConfiguration}
-          onChange={(event) => navigateToConfiguration(event.currentTarget.value)}
-        >
-          {configurationOptions.map((configuration) => (
-            <option key={configuration.value} value={configuration.value}>
-              {configuration.label}
-            </option>
-          ))}
-        </select>
-      </div>
     </>
   );
 }
