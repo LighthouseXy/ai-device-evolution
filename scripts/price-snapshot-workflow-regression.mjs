@@ -57,6 +57,21 @@ const validResult = run(["validate", "-"], JSON.stringify(candidate));
 assert.equal(validResult.status, 0, validResult.stderr);
 assert.match(validResult.stdout, /验证通过 1 条/);
 
+const multiConfigurationResult = run(["validate", "-"], JSON.stringify([
+  {
+    ...candidate[0],
+    deviceId: "macbook-air-13-m3-2024",
+    configuration: "8GB 运行内存 + 256GB 存储，国行",
+  },
+  {
+    ...candidate[0],
+    deviceId: "macbook-air-13-m3-2024",
+    configuration: "16GB 运行内存 + 256GB 存储，国行",
+  },
+]));
+assert.equal(multiConfigurationResult.status, 0, multiConfigurationResult.stderr);
+assert.match(multiConfigurationResult.stdout, /验证通过 2 条/);
+
 const invalidResult = run(["validate", "-"], JSON.stringify([{ ...candidate[0], configuration: "黑色，2TB，国行" }]));
 assert.notEqual(invalidResult.status, 0);
 assert.match(invalidResult.stderr, /有效运行内存/);

@@ -6,7 +6,8 @@ export type DeviceConfiguration = {
   storage: string;
 };
 
-export const RECENT_CONFIGURATION_COUNT = 5;
+export const SHARED_CONFIGURATION_GENERATION_COUNT = 3;
+export const MAX_SHARED_STORAGE_OPTIONS = 3;
 
 const CAPACITY_PATTERN = /(\d+(?:\.\d+)?)\s*(TB|GB)/gi;
 const EXPLICIT_MEMORY_PATTERN = /(\d+(?:\.\d+)?)\s*GB\s*(?:统一|运行)?内存/i;
@@ -74,6 +75,16 @@ export function getHighestDeviceConfiguration(device: FlattenedDevice) {
   return { key: configurationKey(memory, storage), memory, storage };
 }
 
+export function getSharedStorageOptions(devices: FlattenedDevice[]) {
+  const recentDevices = devices.slice(-SHARED_CONFIGURATION_GENERATION_COUNT);
+  const firstDevice = recentDevices[0];
+  if (!firstDevice) return [];
+
+  return getDeviceStorageOptions(firstDevice)
+    .filter((storage) => recentDevices.every((device) => getDeviceStorageOptions(device).includes(storage)))
+    .slice(0, MAX_SHARED_STORAGE_OPTIONS);
+}
+
 export function getPriceConfiguration(device: FlattenedDevice, price: PriceField | undefined) {
   const rawConfiguration = price?.configuration;
   if (!rawConfiguration) return null;
@@ -97,32 +108,69 @@ export function getPriceConfiguration(device: FlattenedDevice, price: PriceField
   return { key: configurationKey(memory, storage), memory, storage };
 }
 
-export function formatConfigurationsForComparison(device: FlattenedDevice, isRecent: boolean) {
-  if (!isRecent) {
+export function formatConfigurationForComparison(
+  device: FlattenedDevice,
+  usesSharedConfiguration: boolean,
+  selectedStorage: string,
+) {
+  if (!usesSharedConfiguration) {
     const highest = getHighestDeviceConfiguration(device);
     return highest ? formatConfiguration(highest) : "";
   }
 
-  const storages = getDeviceStorageOptions(device);
+  if (!getDeviceStorageOptions(device).includes(selectedStorage)) return "";
   const memories = getDeviceMemoryOptions(device);
   if (device.category === "laptop" && memories.length > 1) {
-    return `运行内存 ${memories.join(" / ")}；存储 ${storages.join(" / ")}`;
+    return `${selectedStorage} 存储；运行内存 ${memories.join(" / ")}`;
   }
 
-  return getDeviceConfigurations(device).map(formatConfiguration).join(" / ");
+  const configuration = getDeviceConfigurations(device).find((item) => item.storage === selectedStorage);
+  return configuration ? formatConfiguration(configuration) : "";
 }
 
-export function getPriceForComparison(
+export function formatMemoryForComparison(
+  device: FlattenedDevice,
+  usesSharedConfiguration: boolean,
+  selectedStorage: string,
+) {
+  const memories = getDeviceMemoryOptions(device);
+  if (memories.length === 0) return "";
+  if (!usesSharedConfiguration) return memories.at(-1) ?? "";
+  if (!getDeviceStorageOptions(device).includes(selectedStorage)) return "";
+
+  const configuration = getDeviceConfigurations(device).find((item) => item.storage === selectedStorage);
+  return configuration?.memory ?? memories.join(" / ");
+}
+
+export function formatLatestConfigurationOption(devices: FlattenedDevice[], storage: string) {
+  const latestDevice = devices.at(-1);
+  if (!latestDevice || !getDeviceStorageOptions(latestDevice).includes(storage)) return storage;
+
+  const configuration = getDeviceConfigurations(latestDevice).find((item) => item.storage === storage);
+  const memory = configuration?.memory ?? getDeviceMemoryOptions(latestDevice)[0] ?? null;
+  return formatConfiguration({ key: configurationKey(memory, storage), memory, storage });
+}
+
+export function getPricesForComparison(
   device: FlattenedDevice,
   priceType: "current" | "used",
-  isRecent: boolean,
 ) {
-  const price = priceType === "current" ? device.currentPrice : device.usedPrice;
-  if (typeof price?.value !== "number") return null;
+  const prices = priceType === "current"
+    ? device.currentPrices ?? (device.currentPrice ? [device.currentPrice] : [])
+    : device.usedPrices ?? (device.usedPrice ? [device.usedPrice] : []);
+  const byConfiguration = new Map<string, { value: number; configuration: DeviceConfiguration }>();
 
-  const configuration = getPriceConfiguration(device, price);
-  if (!configuration) return null;
-  if (!isRecent && configuration.key !== getHighestDeviceConfiguration(device)?.key) return null;
+  for (const price of prices) {
+    if (typeof price.value !== "number") continue;
+    const configuration = getPriceConfiguration(device, price);
+    if (!configuration) continue;
+    const existing = byConfiguration.get(configuration.key);
+    if (!existing || price.value < existing.value) byConfiguration.set(configuration.key, { value: price.value, configuration });
+  }
 
-  return { value: price.value, configuration };
+  return [...byConfiguration.values()].sort(
+    (left, right) =>
+      capacityInGb(left.configuration.storage) - capacityInGb(right.configuration.storage)
+      || capacityInGb(left.configuration.memory ?? "") - capacityInGb(right.configuration.memory ?? ""),
+  );
 }

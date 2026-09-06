@@ -4,6 +4,7 @@
 // 2. 面向旧页面/AI 分析输入的扁平 FlattenedDevice 适配层。
 
 import db from "@/data/apple-devices-db.json";
+import priceObservationData from "@/data/price-observations.json";
 
 // ==================== 类型定义 ====================
 
@@ -29,6 +30,41 @@ export type PriceField = SpecField<number> & {
   observedAt?: string;
   sourceName?: string;
 };
+
+type StoredPriceObservation = {
+  value: number;
+  sourceUrl: string;
+  sourceName: string;
+  rawText: string;
+  configuration: string;
+  condition: string;
+  observedAt: string;
+  sourceType?: SpecSourceType;
+};
+
+const priceObservations = priceObservationData as {
+  current: Record<string, StoredPriceObservation | StoredPriceObservation[]>;
+  used: Record<string, StoredPriceObservation | StoredPriceObservation[]>;
+};
+
+function priceFields(
+  deviceId: string,
+  priceType: "current" | "used",
+  fallback: PriceField | undefined,
+) {
+  const stored = priceObservations[priceType][deviceId];
+  if (!stored) return fallback ? [fallback] : [];
+
+  return (Array.isArray(stored) ? stored : [stored]).map((observation): PriceField => ({
+    ...observation,
+    unit: "CNY",
+    sourceType: observation.sourceType ?? "reference",
+    confidence: observation.sourceType === "apple" ? 1 : 0.7,
+    verifiedAt: observation.observedAt,
+    priceType,
+    market: "中国大陆",
+  }));
+}
 
 // ComputedField 计算字段
 export type ComputedField = {
@@ -248,6 +284,8 @@ export type FlattenedDevice = {
   launchPrice?: number;
   currentPrice?: PriceField;
   usedPrice?: PriceField;
+  currentPrices?: PriceField[];
+  usedPrices?: PriceField[];
   aiFeatureLevel?: number;
   sourceUrl: string;
   specs?: Record<string, string | number | boolean | undefined>;
@@ -294,6 +332,8 @@ export function flattenDevice(db: DbDevice): FlattenedDevice {
     launchPrice: specNum(db.specs?.launchPrice),
     currentPrice: db.specs?.currentPrice,
     usedPrice: db.specs?.usedPrice,
+    currentPrices: priceFields(db.id, "current", db.specs?.currentPrice),
+    usedPrices: priceFields(db.id, "used", db.specs?.usedPrice),
     aiFeatureLevel: computedVal(db.computed?.aiCapabilityLevel),
     sourceUrl: db.specs?.chip?.sourceUrl ?? "",
     specs: flatSpecs,

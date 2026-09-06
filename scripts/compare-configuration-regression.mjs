@@ -2,12 +2,37 @@ import assert from "node:assert/strict";
 import { loadTsModule } from "./lib/load-ts-module.mjs";
 
 const {
+  formatConfigurationForComparison,
+  formatLatestConfigurationOption,
+  formatMemoryForComparison,
   getDeviceConfigurations,
-  formatConfigurationsForComparison,
-  getPriceForComparison,
+  getPricesForComparison,
+  getSharedStorageOptions,
 } = loadTsModule("./src/lib/device-configurations.ts");
-const { allDevicesFlat } = loadTsModule("./src/lib/devices-db.ts");
+const { allDevicesFlat, getDevicesByComparisonGroupKeyFlat } = loadTsModule("./src/lib/devices-db.ts");
 const devices = new Map(allDevicesFlat.map((device) => [device.id, device]));
+
+assert.deepEqual(
+  getSharedStorageOptions(getDevicesByComparisonGroupKeyFlat("iPhone::standard")),
+  ["256GB", "512GB"],
+  "the selector should contain only storage tiers shared by the latest three generations",
+);
+assert.equal(
+  formatLatestConfigurationOption(getDevicesByComparisonGroupKeyFlat("iPhone::standard"), "256GB"),
+  "8GB + 256GB",
+  "selector labels should use the latest generation's primary memory tier",
+);
+assert.equal(
+  formatMemoryForComparison(devices.get("iphone-15"), true, "256GB"),
+  "6GB",
+  "each device should show its own memory in the comparison table",
+);
+assert.equal(formatMemoryForComparison(devices.get("iphone-17"), true, "256GB"), "8GB");
+assert.deepEqual(
+  getSharedStorageOptions(getDevicesByComparisonGroupKeyFlat("iPad Air::11-inch")),
+  ["128GB", "256GB", "512GB"],
+  "the selector should cap shared tiers at three mainstream options",
+);
 
 const iphone17 = devices.get("iphone-17");
 assert.deepEqual(
@@ -18,20 +43,30 @@ assert.deepEqual(
 
 const iphone8 = devices.get("iphone-8-2017");
 assert.deepEqual(
-  formatConfigurationsForComparison(iphone8, false),
+  formatConfigurationForComparison(iphone8, false, "256GB"),
   "2GB + 256GB",
-  "devices older than five generations should expose only their highest configuration",
+  "devices before the latest three generations should show their own highest configuration",
 );
+
+assert.equal(formatConfigurationForComparison(iphone17, true, "256GB"), "8GB + 256GB");
+assert.equal(formatConfigurationForComparison(iphone17, true, "64GB"), "");
 
 const iphone12 = devices.get("iphone-12");
 assert.equal(
-  getPriceForComparison(iphone12, "used", false),
-  null,
-  "an older device price from a lower configuration must not be shown as the highest configuration price",
+  getPricesForComparison(iphone12, "used").length,
+  1,
+  "an older device's verified price must remain visible even when it is not the highest configuration",
 );
 
 const iphone13 = devices.get("iphone-13");
-assert.equal(getPriceForComparison(iphone13, "used", true)?.configuration.key, "4GB|256GB");
+assert.equal(getPricesForComparison(iphone13, "used")[0]?.configuration.key, "4GB|256GB");
+
+const macbookAirM3 = devices.get("macbook-air-13-m3-2024");
+assert.deepEqual(
+  getPricesForComparison(macbookAirM3, "current").map((price) => `${price.configuration.key}:${price.value}`),
+  ["8GB|256GB:6460", "16GB|256GB:6910", "16GB|512GB:7510"],
+  "multiple verified prices for one model should stay separated by configuration",
+);
 
 const ipadProM5 = devices.get("ipad-pro-m5-11-2025");
 assert.deepEqual(
@@ -42,9 +77,9 @@ assert.deepEqual(
 
 const macbookProM3Max = devices.get("macbook-pro-14-m3-max-2023");
 assert.equal(
-  formatConfigurationsForComparison(macbookProM3Max, true),
-  "运行内存 36GB / 48GB / 64GB / 96GB / 128GB；存储 1TB / 2TB / 4TB / 8TB",
+  formatConfigurationForComparison(macbookProM3Max, true, "2TB"),
+  "2TB 存储；运行内存 36GB / 48GB / 64GB / 96GB / 128GB",
   "MacBook independent option lists must not be expanded into unverified combinations",
 );
 
-console.log("Passed compare configuration scenarios: latest_device_options, legacy_highest_only, legacy_price_match, recent_price_match, ipad_memory_tiers, macbook_independent_options");
+console.log("Passed compare configuration scenarios: shared_storage_options, latest_configuration_label, memory_table_value, mainstream_cap, latest_device_options, legacy_highest_only, legacy_price_visible, multi_configuration_prices, ipad_memory_tiers, macbook_independent_options");

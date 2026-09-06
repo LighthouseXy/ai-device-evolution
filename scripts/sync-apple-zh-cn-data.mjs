@@ -1562,11 +1562,13 @@ function referenceMemorySpec(device) {
 }
 
 function currentPriceSnapshot(device) {
-  return marketPriceSnapshot(currentPriceReferences[device.id], "current");
+  const reference = currentPriceReferences[device.id];
+  return marketPriceSnapshot(Array.isArray(reference) ? reference[0] : reference, "current");
 }
 
 function usedPriceSnapshot(device) {
-  return marketPriceSnapshot(usedPriceReferences[device.id], "used");
+  const reference = usedPriceReferences[device.id];
+  return marketPriceSnapshot(Array.isArray(reference) ? reference[0] : reference, "used");
 }
 
 const [englishDatabase, englishSources, previousZhDatabase, priceObservations] = await Promise.all([
@@ -1679,8 +1681,8 @@ for (const sourceDevice of sourceDevices) {
     zhDevices.push(recalculateGenerationUpgrade({ ...device, modelName, releaseYear, specs }));
     const referenceUrls = new Set(oldSource.referenceUrls ?? []);
     if (REFERENCE_LAUNCH_PRICES[device.id]) referenceUrls.add(REFERENCE_LAUNCH_PRICES[device.id].sourceUrl);
-    if (currentPriceReferences[device.id]) referenceUrls.add(currentPriceReferences[device.id].sourceUrl);
-    if (usedPriceReferences[device.id]) referenceUrls.add(usedPriceReferences[device.id].sourceUrl);
+    for (const reference of [currentPriceReferences[device.id]].flat().filter(Boolean)) referenceUrls.add(reference.sourceUrl);
+    for (const reference of [usedPriceReferences[device.id]].flat().filter(Boolean)) referenceUrls.add(reference.sourceUrl);
     if (REFERENCE_MEMORY_SPECS[device.id]) referenceUrls.add(IOS_REF_MEMORY_URL);
     zhSources[device.category].push({
       ...oldSource,

@@ -225,15 +225,35 @@
       "condition": "全新，识货聚合中国大陆渠道公开最低价；优惠资格、库存和实际成交价以来源页为准",
       "observedAt": "2026-08-31"
     },
-    "macbook-air-13-m3-2024": {
-      "value": 7510,
-      "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=5073722&styleId=158684868&skuId=385161950",
-      "sourceName": "识货",
-      "rawText": "截至 2026 年 8 月 31 日，识货所选 SKU 385161950 显示午夜色、M3 芯片（8 核 CPU + 10 核 GPU）、16GB 内存、0.5TB 存储，放心店铺最低价 7510 元。",
-      "configuration": "午夜色，Apple M3（8 核 CPU + 10 核 GPU），16GB 运行内存 + 512GB 存储，中国大陆电商渠道参考",
-      "condition": "全新，识货聚合中国大陆渠道公开最低价；优惠资格、库存和实际成交价以来源页为准",
-      "observedAt": "2026-08-31"
-    },
+    "macbook-air-13-m3-2024": [
+      {
+        "value": 7510,
+        "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=5073722&styleId=158684868&skuId=385161950",
+        "sourceName": "识货",
+        "rawText": "截至 2026 年 8 月 31 日，识货所选 SKU 385161950 显示午夜色、M3 芯片（8 核 CPU + 10 核 GPU）、16GB 内存、0.5TB 存储，放心店铺最低价 7510 元。",
+        "configuration": "午夜色，Apple M3（8 核 CPU + 10 核 GPU），16GB 运行内存 + 512GB 存储，中国大陆电商渠道参考",
+        "condition": "全新，识货聚合中国大陆渠道公开最低价；优惠资格、库存和实际成交价以来源页为准",
+        "observedAt": "2026-08-31"
+      },
+      {
+        "value": 6460,
+        "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=5073722&styleId=158684871&skuId=3532275906",
+        "sourceName": "识货",
+        "rawText": "截至 2026 年 8 月 31 日，识货所列深空灰色、M3 芯片（8 核 CPU + 8 核 GPU）、8GB 内存、256GB 存储规格公开最低价为 6460 元。",
+        "configuration": "深空灰色，Apple M3（8 核 CPU + 8 核 GPU），8GB 运行内存 + 256GB 存储，中国大陆电商渠道参考",
+        "condition": "全新，识货聚合中国大陆渠道公开最低价；优惠资格、库存和实际成交价以来源页为准",
+        "observedAt": "2026-08-31"
+      },
+      {
+        "value": 6910,
+        "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=5073722&styleId=158684868&skuId=3532275874",
+        "sourceName": "识货",
+        "rawText": "截至 2026 年 8 月 31 日，识货所列午夜色、M3 芯片（8 核 CPU + 8 核 GPU）、16GB 内存、256GB 存储规格公开最低价为 6910 元。",
+        "configuration": "午夜色，Apple M3（8 核 CPU + 8 核 GPU），16GB 运行内存 + 256GB 存储，中国大陆电商渠道参考",
+        "condition": "全新，识货聚合中国大陆渠道公开最低价；优惠资格、库存和实际成交价以来源页为准",
+        "observedAt": "2026-08-31"
+      }
+    ],
     "macbook-air-13-m4-2025": {
       "value": 9400,
       "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=7323757&styleId=505270367&skuId=1607028001",

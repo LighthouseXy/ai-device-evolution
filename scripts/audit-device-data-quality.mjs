@@ -252,7 +252,9 @@ for (const [deviceId, price] of Object.entries(currentPriceSnapshots)) {
     `${deviceId}.currentPrice: 来源发生回归`,
   );
 }
-for (const [deviceId, expected] of Object.entries(priceObservations.current)) {
+for (const [deviceId, entry] of Object.entries(priceObservations.current)) {
+  const observations = Array.isArray(entry) ? entry : [entry];
+  const expected = observations[0];
   assert.ok(!Object.hasOwn(currentPriceSnapshots, deviceId), `${deviceId}.currentPrice: 批量价格不得覆盖内置基线`);
   const field = devicesById.get(deviceId)?.specs.currentPrice;
   assert.equal(field?.value, expected.value, `${deviceId}.currentPrice: 批量价格未同步`);
@@ -261,6 +263,10 @@ for (const [deviceId, expected] of Object.entries(priceObservations.current)) {
   assert.equal(field?.configuration, expected.configuration, `${deviceId}.currentPrice: 配置不一致`);
   assert.equal(field?.condition, expected.condition, `${deviceId}.currentPrice: 价格状态不一致`);
   assert.equal(field?.observedAt, expected.observedAt, `${deviceId}.currentPrice: 采集日期不一致`);
+  for (const observation of observations) {
+    assert.ok(observation.configuration, `${deviceId}.currentPrice: 多配置价格缺少配置`);
+    assert.ok(observation.sourceUrl, `${deviceId}.currentPrice: 多配置价格缺少来源`);
+  }
 }
 assert.equal(
   devices.filter((device) => hasValue(device, "currentPrice")).length,
@@ -309,7 +315,9 @@ for (const [deviceId, [price, sourceName, observedAt, conditionPattern]] of Obje
   assert.equal(field?.observedAt, observedAt, `${deviceId}.usedPrice: 采集日期发生回归`);
   assert.match(field?.condition ?? "", conditionPattern, `${deviceId}.usedPrice: 成色发生回归`);
 }
-for (const [deviceId, expected] of Object.entries(priceObservations.used)) {
+for (const [deviceId, entry] of Object.entries(priceObservations.used)) {
+  const observations = Array.isArray(entry) ? entry : [entry];
+  const expected = observations[0];
   assert.ok(!Object.hasOwn(usedPriceSnapshots, deviceId), `${deviceId}.usedPrice: 批量价格不得覆盖内置基线`);
   const field = devicesById.get(deviceId)?.specs.usedPrice;
   assert.equal(field?.value, expected.value, `${deviceId}.usedPrice: 批量价格未同步`);

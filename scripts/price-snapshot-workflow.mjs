@@ -25,6 +25,12 @@ function splitOptions(value) {
   return typeof value === "string" ? value.split("/").map((part) => part.trim()).filter(Boolean) : [];
 }
 
+function priceConfigurationIdentity(configuration) {
+  const memory = configuration.match(/(\d+(?:\.\d+)?)\s*GB\s*(?:统一|运行)?内存/i)?.[1];
+  const storage = configuration.match(/(\d+(?:\.\d+)?)\s*(TB|GB)\s*(?:固态硬盘|存储)/i);
+  return `${memory ? `${memory}GB` : "unknown"}|${storage ? `${storage[1]}${storage[2].toUpperCase()}` : "unknown"}`;
+}
+
 function recommendedConfiguration(device) {
   const memory = splitOptions(device.specs.memory?.value)[0] ?? null;
   const storageOptions = splitOptions(device.specs.storage?.value);
@@ -328,7 +334,7 @@ function filterJiUsedItems(items, { product, require: requiredText, exclude: exc
   });
 }
 
-function validateBatch(input, { allowExisting = false } = {}) {
+function validateBatch(input) {
   if (!Array.isArray(input) || input.length === 0) throw new Error("批次文件必须是非空 JSON 数组");
   const { devices } = readJson(DATABASE_PATH);
   const devicesById = new Map(devices.map((device) => [device.id, device]));
@@ -338,10 +344,6 @@ function validateBatch(input, { allowExisting = false } = {}) {
     const device = devicesById.get(row.deviceId);
     if (!device) throw new Error(`${label}: deviceId 不存在`);
     if (!PRICE_TYPES.has(row.priceType)) throw new Error(`${label}: priceType 只能是 current 或 used`);
-    const duplicateKey = `${row.priceType}:${row.deviceId}`;
-    if (seen.has(duplicateKey)) throw new Error(`${label}: 同一设备和价格类型重复`);
-    seen.add(duplicateKey);
-    if (!allowExisting && device.specs[`${row.priceType}Price`]?.value) throw new Error(`${label}: 正式库已有该价格类型`);
     if (!Number.isInteger(row.value) || row.value < 300 || row.value > 100000) throw new Error(`${label}: value 必须是 300-100000 的整数人民币价格`);
     const sourceUrl = new URL(row.sourceUrl);
     if (sourceUrl.protocol !== "https:" || !TRUSTED_HOSTS.has(sourceUrl.hostname)) throw new Error(`${label}: 来源域名未列入受信清单`);
@@ -362,6 +364,9 @@ function validateBatch(input, { allowExisting = false } = {}) {
     if (storageOptions.length && !storageOptions.some((storage) => row.configuration.includes(storage))) {
       throw new Error(`${label}: configuration 未包含该设备的有效存储容量`);
     }
+    const duplicateKey = `${row.priceType}:${row.deviceId}:${priceConfigurationIdentity(row.configuration)}`;
+    if (seen.has(duplicateKey)) throw new Error(`${label}: 同一设备、价格类型和配置重复`);
+    seen.add(duplicateKey);
     return {
       deviceId: row.deviceId,
       priceType: row.priceType,
@@ -381,7 +386,15 @@ function validateBatch(input, { allowExisting = false } = {}) {
 
 function applyBatch(rows) {
   const observations = readJson(OBSERVATIONS_PATH);
-  for (const row of rows) observations[row.priceType][row.deviceId] = row.observation;
+  for (const row of rows) {
+    const existing = observations[row.priceType][row.deviceId];
+    const entries = existing ? (Array.isArray(existing) ? existing : [existing]) : [];
+    const identity = priceConfigurationIdentity(row.observation.configuration);
+    const index = entries.findIndex((entry) => priceConfigurationIdentity(entry.configuration) === identity);
+    if (index >= 0) entries[index] = row.observation;
+    else entries.push(row.observation);
+    observations[row.priceType][row.deviceId] = entries.length === 1 ? entries[0] : entries;
+  }
   for (const priceType of PRICE_TYPES) {
     observations[priceType] = Object.fromEntries(Object.entries(observations[priceType]).sort(([left], [right]) => left.localeCompare(right)));
   }

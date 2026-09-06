@@ -13,10 +13,12 @@ import {
   getDevicesByComparisonGroupKeyFlat,
 } from "@/lib/devices-db";
 import {
-  RECENT_CONFIGURATION_COUNT,
+  SHARED_CONFIGURATION_GENERATION_COUNT,
   formatConfiguration,
-  formatConfigurationsForComparison,
-  getPriceForComparison,
+  formatLatestConfigurationOption,
+  formatMemoryForComparison,
+  getPricesForComparison,
+  getSharedStorageOptions,
 } from "@/lib/device-configurations";
 import {
   formatSignedZhCurrency,
@@ -29,6 +31,7 @@ import CompareSeriesSelect from "@/components/CompareSeriesSelect";
 
 type SearchParams = {
   series?: string | string[];
+  storage?: string | string[];
   window?: string | string[];
 };
 
@@ -91,27 +94,22 @@ const deviceComparisonFields: ComparisonField[] = [
   },
 ];
 
-function buildComparisonFields(recentDeviceIds: Set<string>): ComparisonField[] {
-  const isRecent = (device: (typeof allDevicesFlat)[number]) => recentDeviceIds.has(device.id);
-  const priceValue = (device: (typeof allDevicesFlat)[number], priceType: "current" | "used") =>
-    getPriceForComparison(device, priceType, isRecent(device));
+function buildComparisonFields(sharedDeviceIds: Set<string>, selectedStorage: string): ComparisonField[] {
+  const usesSharedConfiguration = (device: (typeof allDevicesFlat)[number]) => sharedDeviceIds.has(device.id);
+  const priceValue = (device: (typeof allDevicesFlat)[number], priceType: "current" | "used") => {
+    const prices = getPricesForComparison(device, priceType);
+    return prices.length > 0
+      ? prices.map((price) => `${formatConfiguration(price.configuration)} · ${formatMaybeCurrency(price.value)}`).join("\n")
+      : "待补充";
+  };
+  const memoryLabel = (device: (typeof allDevicesFlat)[number]) =>
+    formatMemoryForComparison(device, usesSharedConfiguration(device), selectedStorage) || "待补充";
   return [
     {
       group: "价格",
-      label: "配置",
-      hint: "最近 5 代列出设备配置；更早设备仅保留最高配置",
-      getValue: (device) => formatConfigurationsForComparison(device, isRecent(device)) || "待补充",
-      showChange: false,
-    },
-    {
-      group: "价格",
       label: "当前价",
-      hint: "对应下方标注配置",
-      getValue: (device) => formatMaybeCurrency(priceValue(device, "current")?.value),
-      getMeta: (device) => {
-        const price = priceValue(device, "current");
-        return price ? [formatConfiguration(price.configuration)] : null;
-      },
+      hint: "按已核验配置列示",
+      getValue: (device) => priceValue(device, "current"),
       isNumeric: true,
       isCurrency: true,
       showChange: false,
@@ -119,21 +117,28 @@ function buildComparisonFields(recentDeviceIds: Set<string>): ComparisonField[] 
     {
       group: "价格",
       label: "二手价",
-      hint: "对应下方标注配置",
-      getValue: (device) => formatMaybeCurrency(priceValue(device, "used")?.value),
-      getMeta: (device) => {
-        const price = priceValue(device, "used");
-        return price ? [formatConfiguration(price.configuration)] : null;
-      },
+      hint: "按已核验配置列示",
+      getValue: (device) => priceValue(device, "used"),
       isNumeric: true,
       isCurrency: true,
       showChange: false,
+    },
+    {
+      group: "配置",
+      label: "运行内存",
+      hint: "所选存储对应的运行内存",
+      getValue: memoryLabel,
     },
     ...deviceComparisonFields,
   ];
 }
 
 function normalizeSeries(value: string | string[] | undefined) {
+  const raw = Array.isArray(value) ? value[0] : value;
+  return typeof raw === "string" && raw.trim().length > 0 ? raw : "";
+}
+
+function normalizeStorage(value: string | string[] | undefined) {
   const raw = Array.isArray(value) ? value[0] : value;
   return typeof raw === "string" && raw.trim().length > 0 ? raw : "";
 }
@@ -269,9 +274,16 @@ function buildSeriesOptions() {
     });
 }
 
-function CompareOverview({ devices }: { devices: (typeof allDevicesFlat)[number][] }) {
+function CompareOverview({
+  devices,
+  gridTemplateColumns,
+}: {
+  devices: (typeof allDevicesFlat)[number][];
+  gridTemplateColumns: string;
+}) {
   return (
-    <div className="compare-overview">
+    <div className="compare-overview" style={{ gridTemplateColumns }}>
+      <div className="compare-overview-spacer" aria-hidden="true" />
       {devices.map((device, index) => (
         <div className="compare-overview-item" key={device.id}>
           {index > 0 ? <div className="compare-overview-arrow" aria-hidden="true">←</div> : null}
@@ -291,12 +303,14 @@ function CompareOverview({ devices }: { devices: (typeof allDevicesFlat)[number]
 
 function CompareTable({
   devices,
-  recentDeviceIds,
+  sharedDeviceIds,
+  selectedStorage,
 }: {
   devices: (typeof allDevicesFlat)[number][];
-  recentDeviceIds: Set<string>;
+  sharedDeviceIds: Set<string>;
+  selectedStorage: string;
 }) {
-  const comparisonFields = buildComparisonFields(recentDeviceIds);
+  const comparisonFields = buildComparisonFields(sharedDeviceIds, selectedStorage);
   const groupedFields = Array.from(
     comparisonFields.reduce((groups, field) => {
       const fields = groups.get(field.group) ?? [];
@@ -307,12 +321,14 @@ function CompareTable({
   );
   const latest = devices[0] ?? null;
   const previous = devices[1] ?? null;
-  const gridTemplateColumns = `120px repeat(${devices.length}, 210px)`;
+  const gridTemplateColumns = `120px repeat(${devices.length}, minmax(210px, 1fr))`;
   const tableWidth = 120 + devices.length * 210;
 
   return (
-    <div className="compare-v2-table">
-      <div className="compare-v2-scroll" aria-label="设备参数对比表">
+    <div className="compare-v2-scroll" aria-label="设备参数对比表">
+      <div className="compare-v2-scroll-inner" style={{ minWidth: `${tableWidth}px` }}>
+        <CompareOverview devices={devices} gridTemplateColumns={gridTemplateColumns} />
+        <div className="compare-v2-table">
         <div className="compare-v2-table-inner" style={{ minWidth: `${tableWidth}px` }}>
           <div className="compare-v2-row is-header" style={{ gridTemplateColumns }}>
             <div className="compare-v2-cell is-label">功能 / 参数</div>
@@ -367,6 +383,7 @@ function CompareTable({
             </div>
           ))}
         </div>
+        </div>
       </div>
     </div>
   );
@@ -401,7 +418,18 @@ export default async function ComparePage({
     .map((category) => ({ value: category, label: categoryLabels[category] }));
   const selectedWindow = normalizeWindow(resolvedSearchParams.window);
   const seriesDevices = getDevicesByComparisonGroupKeyFlat(selectedSeries);
-  const recentDeviceIds = new Set(seriesDevices.slice(-RECENT_CONFIGURATION_COUNT).map((device) => device.id));
+  const sharedStorageOptions = getSharedStorageOptions(seriesDevices);
+  const configurationOptions = sharedStorageOptions.map((storage) => ({
+    value: storage,
+    label: formatLatestConfigurationOption(seriesDevices, storage),
+  }));
+  const requestedStorage = normalizeStorage(resolvedSearchParams.storage);
+  const selectedStorage = sharedStorageOptions.includes(requestedStorage)
+    ? requestedStorage
+    : sharedStorageOptions[0] ?? "";
+  const sharedDeviceIds = new Set(
+    seriesDevices.slice(-SHARED_CONFIGURATION_GENERATION_COUNT).map((device) => device.id),
+  );
   const visibleDevices = (
     selectedWindow === "all"
       ? seriesDevices.slice()
@@ -441,6 +469,8 @@ export default async function ComparePage({
             categories={categoryOptions}
             selectedCategory={selectedCategory}
             selectedSeries={selectedSeries}
+            configurationOptions={configurationOptions}
+            selectedStorage={selectedStorage}
             selectedWindow={selectedWindow}
           />
 
@@ -454,6 +484,7 @@ export default async function ComparePage({
               ].map((item) => {
                 const params = new URLSearchParams();
                 params.set("series", selectedSeries);
+                if (selectedStorage) params.set("storage", selectedStorage);
                 params.set("window", item.key);
                 const active = item.key === selectedWindow;
 
@@ -475,8 +506,11 @@ export default async function ComparePage({
 
       <section className="compare-section">
         <div className="compare-inner">
-          <CompareOverview devices={visibleDevices} />
-          <CompareTable devices={visibleDevices} recentDeviceIds={recentDeviceIds} />
+          <CompareTable
+            devices={visibleDevices}
+            sharedDeviceIds={sharedDeviceIds}
+            selectedStorage={selectedStorage}
+          />
           <CompareInsight analysis={analysis} />
         </div>
       </section>
