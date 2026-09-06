@@ -1,0 +1,352 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "totalDevices": 2,
+    "generatedAt": "2026-09-07"
+  },
+  "devices": [
+    {
+      "id": "huawei-pura-70-ultra-2024",
+      "brand": "Huawei",
+      "market": "CN",
+      "category": "phone",
+      "series": "HUAWEI Pura Ultra",
+      "family": "HUAWEI Pura Ultra",
+      "variant": "standard",
+      "modelName": "HUAWEI Pura 70 Ultra",
+      "generation": "Pura 70 Ultra",
+      "generationOrder": 1,
+      "releaseYear": 2024,
+      "releaseDate": "2024-04-18",
+      "comparisonGroupId": "huawei.phone.pura-ultra.standard",
+      "configurations": [
+        {
+          "memory": "16GB",
+          "storage": "512GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB"
+        }
+      ],
+      "benchmarks": [
+        {
+          "provider": "DXOMARK",
+          "metric": "camera",
+          "score": 163,
+          "protocolVersion": "Camera v5",
+          "sourceUrl": "https://www.dxomark.com/huawei-pura-70-ultra-camera-test/",
+          "verifiedAt": "2026-09-07"
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "麒麟 9010",
+          "rawText": "处理器：麒麟 9010",
+          "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "screenSize": {
+          "value": 6.8,
+          "unit": "inch",
+          "rawText": "屏幕尺寸：6.8 英寸",
+          "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "displayType": {
+          "value": "LTPO OLED",
+          "rawText": "屏幕类型：LTPO OLED，支持 1-120Hz 自适应刷新率",
+          "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "resolution": {
+          "value": "2844x1260",
+          "rawText": "分辨率：2844x1260",
+          "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "支持 1-120Hz 自适应刷新率",
+          "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "weight": {
+          "value": 226,
+          "unit": "g",
+          "rawText": "重量约 226 克（含电池）",
+          "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "memory": {
+          "value": "16GB",
+          "rawText": "运行内存：16GB",
+          "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16090854/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "storage": {
+          "value": "512GB / 1TB",
+          "rawText": "机身存储：512GB / 1TB",
+          "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16090854/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "rearCamera": {
+          "value": "5000 万像素一英寸主摄 + 4000 万像素超广角 + 5000 万像素长焦",
+          "rawText": "5000 万像素一英寸主摄 + 4000 万像素超广角 + 5000 万像素长焦",
+          "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "mainCamera": {
+          "value": "50MP（5000 万像素）一英寸主摄",
+          "rawText": "5000 万像素一英寸主摄",
+          "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "telephoto": {
+          "value": "5000 万像素超聚光微距长焦",
+          "rawText": "5000 万像素超聚光微距长焦",
+          "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "frontCamera": {
+          "value": "1300 万像素",
+          "rawText": "前置摄像头：1300 万像素",
+          "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "batteryLife": {
+          "value": "5200mAh",
+          "rawText": "电池典型容量：5200mAh",
+          "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "数据线接口：USB Type-C",
+          "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "launchPrice": {
+          "value": 9999,
+          "unit": "CNY",
+          "rawText": "中国大陆首发价 9999 元起",
+          "sourceUrl": "https://feeds-drcn.cloud.huawei.com.cn/landingpage/latest?channel=-1&cpid=666&ctype=news&docid=10510413dba49eb6bc59d7e050c8bb2507afa16&dy_scenario=relate&ifl=zh_CN&r=CN&tn=fe5602e1e67153885a098aa1ea73fc5445fcb4a97e34f75510a0287f89d83525&to_app=hwbrowser",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "16GB 运行内存 + 512GB 存储，中国大陆版本",
+          "condition": "中国大陆官方首发价"
+        }
+      },
+      "computed": {
+        "generationUpgradeMagnitude": {
+          "value": null,
+          "comparedTo": null,
+          "changeSummary": "该设备为当前比较组第一代，无可对比前代",
+          "scoreBreakdown": "无对比前代",
+          "confidence": 0,
+          "computedAt": "2026-09-07",
+          "sourceType": "computed",
+          "verifiedAt": "2026-09-07"
+        }
+      }
+    },
+    {
+      "id": "huawei-pura-80-ultra-2025",
+      "brand": "Huawei",
+      "market": "CN",
+      "category": "phone",
+      "series": "HUAWEI Pura Ultra",
+      "family": "HUAWEI Pura Ultra",
+      "variant": "standard",
+      "modelName": "HUAWEI Pura 80 Ultra",
+      "generation": "Pura 80 Ultra",
+      "generationOrder": 2,
+      "releaseYear": 2025,
+      "releaseDate": "2025-06-26",
+      "comparisonGroupId": "huawei.phone.pura-ultra.standard",
+      "configurations": [
+        {
+          "memory": "16GB",
+          "storage": "512GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB"
+        }
+      ],
+      "benchmarks": [
+        {
+          "provider": "DXOMARK",
+          "metric": "camera",
+          "score": 175,
+          "protocolVersion": "Camera v6",
+          "sourceUrl": "https://www.dxomark.com/huawei-pura-80-ultra-camera-test/",
+          "verifiedAt": "2026-09-07"
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "麒麟 9020",
+          "rawText": "处理器：麒麟 9020",
+          "sourceUrl": "https://consumer.huawei.com/hk/phones/pura80-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "screenSize": {
+          "value": 6.8,
+          "unit": "inch",
+          "rawText": "屏幕尺寸：6.8 英寸",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "displayType": {
+          "value": "LTPO OLED",
+          "rawText": "屏幕类型：LTPO OLED，支持 1-120Hz 自适应刷新率",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "resolution": {
+          "value": "2848x1276",
+          "rawText": "分辨率：2848x1276",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "支持 1-120Hz 自适应刷新率",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "weight": {
+          "value": 233.5,
+          "unit": "g",
+          "rawText": "重量约 233.5 克（含电池）",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "memory": {
+          "value": "16GB",
+          "rawText": "运行内存：16GB",
+          "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16053353/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "storage": {
+          "value": "512GB / 1TB",
+          "rawText": "机身存储：512GB / 1TB",
+          "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16053353/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "rearCamera": {
+          "value": "5000 万像素一英寸主摄 + 4000 万像素超广角 + 5000 万像素长焦 + 1250 万像素超长焦",
+          "rawText": "5000 万像素一英寸主摄 + 4000 万像素超广角 + 5000 万像素长焦 + 1250 万像素超长焦",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "mainCamera": {
+          "value": "50MP（5000 万像素）一英寸主摄",
+          "rawText": "5000 万像素一英寸主摄",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "telephoto": {
+          "value": "5000 万像素 3.7 倍长焦 + 1250 万像素 9.4 倍超长焦",
+          "rawText": "5000 万像素 3.7 倍长焦 + 1250 万像素 9.4 倍超长焦",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "frontCamera": {
+          "value": "1300 万像素",
+          "rawText": "前置摄像头：1300 万像素",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "batteryLife": {
+          "value": "5700mAh",
+          "rawText": "电池典型容量：5700mAh",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "数据线接口：USB Type-C",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "launchPrice": {
+          "value": 9999,
+          "unit": "CNY",
+          "rawText": "中国大陆首发价 9999 元起",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-ultra/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "16GB 运行内存 + 512GB 存储，中国大陆版本",
+          "condition": "中国大陆官方首发价"
+        }
+      },
+      "computed": {}
+    }
+  ]
+}

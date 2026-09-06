@@ -28,6 +28,13 @@
       "market": "CN",
       "devices": "vivo-devices-db.json",
       "sources": "vivo-sources.json"
+    },
+    {
+      "id": "huawei-pura-ultra-cn-pilot",
+      "brand": "Huawei",
+      "market": "CN",
+      "devices": "huawei-devices-db.json",
+      "sources": "huawei-sources.json"
     }
   ],
   "publishers": [
@@ -76,6 +83,12 @@
       "name": "vivo",
       "sourceType": "official",
       "hosts": ["www.vivo.com.cn"]
+    },
+    {
+      "id": "huawei",
+      "name": "Huawei",
+      "sourceType": "official",
+      "hosts": ["consumer.huawei.com", "feeds-drcn.cloud.huawei.com.cn"]
     }
   ]
 }

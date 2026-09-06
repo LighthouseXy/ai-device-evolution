@@ -13,6 +13,7 @@
     "sync:xiaomi-pilot": "node scripts/sync-xiaomi-ultra-pilot.mjs",
     "sync:oppo-find-x-ultra": "node scripts/sync-oppo-find-x-ultra.mjs",
     "sync:vivo-x-ultra": "node scripts/sync-vivo-x-ultra.mjs",
+    "sync:huawei-pura-ultra": "node scripts/sync-huawei-pura-ultra.mjs",
     "prices": "node scripts/price-snapshot-workflow.mjs",
     "typecheck": "tsc --noEmit --incremental false",
     "precheck": "npm run build:data",

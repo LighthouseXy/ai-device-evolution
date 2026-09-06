@@ -160,5 +160,15 @@ assert.deepEqual(
   [undefined, 4059, 6499],
   "vivo should expose only uniquely matched used-price snapshots",
 );
+assert.deepEqual(
+  devices.get("huawei-pura-80-ultra-2025").configurations,
+  [
+    { memory: "16GB", storage: "512GB" },
+    { memory: "16GB", storage: "1TB" },
+  ],
+  "HUAWEI Pura Ultra configurations must preserve official China variants",
+);
+assert.equal(devices.get("huawei-pura-70-ultra-2024").benchmarks[0].score, 163);
+assert.equal(devices.get("huawei-pura-80-ultra-2025").benchmarks[0].score, 175);
 
-console.log("Passed compare configuration scenarios: shared_storage_options, latest_configuration_label, memory_table_value, mainstream_cap, latest_device_options, legacy_highest_only, legacy_price_visible, multi_configuration_prices, ipad_memory_tiers, macbook_independent_options, explicit_second_brand_configurations, xiaomi_used_prices, oppo_official_configurations, vivo_official_configurations, domestic_ultra_used_prices");
+console.log("Passed compare configuration scenarios: shared_storage_options, latest_configuration_label, memory_table_value, mainstream_cap, latest_device_options, legacy_highest_only, legacy_price_visible, multi_configuration_prices, ipad_memory_tiers, macbook_independent_options, explicit_second_brand_configurations, xiaomi_used_prices, oppo_official_configurations, vivo_official_configurations, domestic_ultra_used_prices, huawei_pura_ultra_pilot");
