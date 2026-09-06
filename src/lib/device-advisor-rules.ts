@@ -61,6 +61,22 @@ function getReferencePrice(
   return currentPrice ?? null;
 }
 
+function matchesInterfaceNeed(
+  device: DbDevice,
+  interfaceNeed: NonNullable<DeviceAdvisorInput["interfaceNeed"]>,
+): boolean {
+  if (interfaceNeed === "any") return true;
+  if (interfaceNeed === "magsafe") return device.specs.hasMagSafe?.value === true;
+  if (interfaceNeed === "pencil") return Boolean(specStr(device.specs.pencilSupport, ""));
+
+  const ports = [
+    specStr(device.specs.port, ""),
+    specStr(device.specs.usbC, ""),
+    specStr(device.specs.thunderbolt, ""),
+  ].join(" ");
+  return /usb[ -]?(?:c|type[ -]?c)|type[ -]?c|雷雳|thunderbolt/i.test(ports);
+}
+
 function getPriceText(
   device: DbDevice,
   conditionPreference: DeviceAdvisorInput["conditionPreference"],
@@ -219,8 +235,13 @@ export function buildDeviceAdvisorContext(input: DeviceAdvisorInput) {
   const budget = normalizeBudget(input.budget) ?? null;
   const conditionPreference =
     normalizeConditionPreference(input.conditionPreference) ?? "new_only";
+  const interfaceNeed = normalizeInterfaceNeed(input.interfaceNeed) ?? "any";
   const candidates = allDevices
-    .filter((device) => category === "all" || device.category === category)
+    .filter(
+      (device) =>
+        (category === "all" || device.category === category) &&
+        matchesInterfaceNeed(device, interfaceNeed),
+    )
     .map((device) => normalizeCandidate(device, conditionPreference));
   const budgetMatches = budget
     ? candidates.filter((candidate) => isWithinBudget(candidate.referencePrice, budget))
@@ -246,7 +267,7 @@ export function buildDeviceAdvisorContext(input: DeviceAdvisorInput) {
       performancePreference: input.performancePreference ?? "balanced",
       conditionPreference,
       batteryPriority: normalizeBatteryPriority(input.batteryPriority) ?? "balanced",
-      interfaceNeed: normalizeInterfaceNeed(input.interfaceNeed) ?? "any",
+      interfaceNeed,
       replacementIntent: input.replacementIntent ?? "replace",
       maxResults: clamp(
         normalizeNumber(input.maxResults) ?? MAX_RECOMMENDATIONS,
@@ -295,7 +316,7 @@ export function runFallbackDeviceAdvisor(input: DeviceAdvisorInput): DeviceAdvis
       : "按发布时间";
 
   return {
-    answer: `AI 暂不可用。${categoryLabel}${budget ? `、预算 ${summarizeBudget(budget)}` : ""} 条件下，${sortingText}${candidateText}这只是本地排序，不分析性能、续航、影像等使用偏好。`,
+    answer: `AI 暂不可用。${categoryLabel}${budget ? `、预算 ${summarizeBudget(budget)}` : ""} 条件下，${context.userProfile.interfaceNeed === "any" ? "" : "先按接口兼容性筛选，再"}${sortingText}${candidateText}这只是本地排序，不分析性能、续航、影像等使用偏好。`,
     devices,
     confidence: budget ? 0.45 : 0.35,
     source: "rules",
@@ -341,7 +362,7 @@ export function groundDeviceAdvisorOutput(
 export function buildDeviceAdvisorPrompt(input: DeviceAdvisorInput): string {
   return [
     "你是 DeviceScope 的设备顾问。",
-    "本地仅按设备类型、已收录的对应成色价格和发布时间整理候选；你负责结合用户场景给出自然、完整的中文购买建议。",
+    "本地先按设备类型和明确的接口兼容性要求筛选，再按已收录的对应成色价格和发布时间整理候选；你负责结合用户场景给出自然、完整的中文购买建议。",
     "只能推荐 candidateShortlist 中的设备，不允许编造机型、价格或 facts 中没有的规格。",
     "answer 用 150 到 300 个汉字说明推荐哪几款、为什么以及主要取舍，不使用 Markdown、列表或虚构的精确评分。",
     "referencePrice 只会使用 priceText 标明的当前价或二手价；首发价仅供历史参考，不代表当前市场价，也不得用于判断是否符合预算。referencePrice 为 null 时必须明确价格未知。",

@@ -49,6 +49,7 @@ function assertSimpleFallback(output, category, maxResults = 3) {
     output.devices.length,
     "fallback device links should not contain duplicates",
   );
+  assert.match(output.disclaimer, /接口兼容性/);
   assert.match(output.disclaimer, /缺失价格不参与预算匹配/);
   assert.match(output.answer, /不分析性能、续航、影像等使用偏好/);
 }
@@ -347,8 +348,8 @@ const scenarios = [
       assert.ok(!output.devices.some((device) => device.deviceId === "iphone-se-1-2016"));
       assert.equal(output.devices[0]?.deviceId, "iphone-14");
       assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥2,449（京东商务二手手机热卖榜，2026-08-25）/);
-      assert.deepEqual(output.devices.map((device) => device.deviceId), ["iphone-14", "xiaomi-14-ultra-2024", "iphone-13-pro-max"]);
-      assert.match(output.devices[1]?.priceText ?? "", /二手价 ¥2,569（九机二手，2026-09-07）/);
+      assert.ok(output.devices.every((device) => device.deviceId.startsWith("iphone-")));
+      assert.match(output.answer, /先按接口兼容性筛选/);
     },
   },
   {
