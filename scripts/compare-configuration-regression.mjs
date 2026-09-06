@@ -83,7 +83,17 @@ assert.equal(
 );
 
 const xiaomiUltra = getDevicesByComparisonGroupKeyFlat("xiaomi.phone.xiaomi-ultra.standard");
-assert.equal(xiaomiUltra.length, 3, "the second-brand pilot should form one three-generation comparison group");
+assert.equal(xiaomiUltra.length, 6, "the second-brand pilot should include the full Ultra product line");
+assert.deepEqual(
+  getDeviceConfigurations(devices.get("xiaomi-mi-10-ultra-2020")).map((configuration) => configuration.key),
+  ["16GB|512GB"],
+  "devices older than the latest five generations should keep only the highest configuration",
+);
+assert.deepEqual(
+  getDeviceConfigurations(devices.get("xiaomi-mi-11-ultra-2021")).map((configuration) => configuration.key),
+  ["8GB|256GB", "12GB|256GB", "12GB|512GB"],
+  "recent generations should keep their real configuration matrix",
+);
 assert.deepEqual(
   getDeviceConfigurations(devices.get("xiaomi-15-ultra-2025")).map((configuration) => configuration.key),
   ["12GB|256GB", "16GB|512GB", "16GB|1TB"],

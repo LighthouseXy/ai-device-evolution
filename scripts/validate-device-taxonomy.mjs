@@ -62,6 +62,7 @@ assert.deepEqual(metadata.markets, [...new Set(devices.map((device) => device.ma
 
 const groups = new Map();
 const comparisonGroupIdentities = new Map();
+const devicesByComparisonGroup = new Map();
 const devicesById = new Map(devices.map((device) => [device.id, device]));
 for (const device of devices) {
   assert.ok(["phone", "tablet", "laptop"].includes(device.category), `${device.id}: category 非法`);
@@ -82,6 +83,9 @@ for (const device of devices) {
     `${device.id}: comparisonGroupId 被不同产品组复用`,
   );
   comparisonGroupIdentities.set(device.comparisonGroupId, comparisonIdentity);
+  const comparisonGroup = devicesByComparisonGroup.get(device.comparisonGroupId) ?? [];
+  comparisonGroup.push(device);
+  devicesByComparisonGroup.set(device.comparisonGroupId, comparisonGroup);
   assert.ok(device.family, `${device.id}: 缺少 family`);
   assert.ok(device.variant, `${device.id}: 缺少 variant`);
   assert.ok(Number.isInteger(device.generationOrder) && device.generationOrder > 0, `${device.id}: generationOrder 非法`);
@@ -187,7 +191,7 @@ assert.deepEqual(
   "严格比较组与预期不一致",
 );
 
-for (const [key, group] of groups) {
+for (const [key, group] of devicesByComparisonGroup) {
   const sorted = [...group].sort((left, right) => left.generationOrder - right.generationOrder);
   assert.equal(new Set(sorted.map((device) => device.generationOrder)).size, sorted.length, `${key}: generationOrder 重复`);
   for (let index = 0; index < sorted.length; index += 1) {

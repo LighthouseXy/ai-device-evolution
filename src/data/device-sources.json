@@ -2,7 +2,7 @@
   "metadata": {
     "version": "1.0",
     "generatedAt": "2026-09-07",
-    "totalDevices": 132
+    "totalDevices": 135
   },
   "devices": [
     {
@@ -2513,6 +2513,63 @@
       "sourceStatus": "verified",
       "notes": "Apple Support 中国简体中文技术规格页",
       "brand": "Apple",
+      "market": "CN"
+    },
+    {
+      "id": "xiaomi-mi-10-ultra-2020",
+      "modelName": "小米 10 至尊纪念版",
+      "generation": "10 Ultra",
+      "releaseYear": 2020,
+      "sourcePageType": "reference_spec_and_benchmark",
+      "officialSpecUrl": null,
+      "supportUrl": null,
+      "newsroomUrl": null,
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1336/1335092/param.shtml",
+        "https://www.ithome.com/0/502/799.htm",
+        "https://www.dxomark.com/updated-xiaomi-mi-10-ultra-camera-review-the-zoom-king-v4camera/"
+      ],
+      "sourceStatus": "verified",
+      "notes": "规格与中国大陆价格取自中关村在线对应配置页；相机评分取自 DXOMARK，并保留测试协议版本。",
+      "brand": "Xiaomi",
+      "market": "CN"
+    },
+    {
+      "id": "xiaomi-mi-11-ultra-2021",
+      "modelName": "小米 11 Ultra",
+      "generation": "11 Ultra",
+      "releaseYear": 2021,
+      "sourcePageType": "reference_spec_and_benchmark",
+      "officialSpecUrl": null,
+      "supportUrl": null,
+      "newsroomUrl": null,
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1360/1359446/param.shtml",
+        "https://www.ithome.com/0/542/941.htm",
+        "https://www.dxomark.com/xiaomi-mi-11-ultra-camera-review-large-sensor-power/"
+      ],
+      "sourceStatus": "verified",
+      "notes": "规格与中国大陆价格取自中关村在线对应配置页；相机评分取自 DXOMARK，并保留测试协议版本。",
+      "brand": "Xiaomi",
+      "market": "CN"
+    },
+    {
+      "id": "xiaomi-12s-ultra-2022",
+      "modelName": "小米 12S Ultra",
+      "generation": "12S Ultra",
+      "releaseYear": 2022,
+      "sourcePageType": "reference_spec_and_benchmark",
+      "officialSpecUrl": null,
+      "supportUrl": null,
+      "newsroomUrl": null,
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1419/1418084/param.shtml",
+        "https://m.ithome.com/html/628487.htm",
+        "https://www.dxomark.com/xiaomi-12s-ultra-camera-test-retested/"
+      ],
+      "sourceStatus": "verified",
+      "notes": "规格与中国大陆价格取自中关村在线对应配置页；相机评分取自 DXOMARK，并保留测试协议版本。",
+      "brand": "Xiaomi",
       "market": "CN"
     },
     {
