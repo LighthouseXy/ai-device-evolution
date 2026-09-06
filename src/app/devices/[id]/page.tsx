@@ -11,6 +11,7 @@ import DeviceSeriesTrendExplorer from "@/components/DeviceSeriesTrendExplorer";
 import PageHeader from "@/components/layout/PageHeader";
 import SectionHeader from "@/components/layout/SectionHeader";
 import TickDivider from "@/components/layout/TickDivider";
+import { formatConfiguration, getPricesForComparison } from "@/lib/device-configurations";
 
 type Device = (typeof allDevicesFlat)[number];
 
@@ -83,7 +84,7 @@ function InfoRow({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex items-start justify-between gap-4 border-b border-[rgba(221,213,199,0.75)] py-3 last:border-b-0 last:pb-0">
       <span className="text-sm text-[var(--text-muted)]">{label}</span>
-      <span className="text-right text-sm font-medium text-[var(--text-strong)]">{value}</span>
+      <span className="whitespace-pre-line text-right text-sm font-medium text-[var(--text-strong)]">{value}</span>
     </div>
   );
 }
@@ -151,6 +152,17 @@ export default async function DeviceDetailPage({
     ["内存", "memory"],
     ["存储", "storage"],
   ]);
+  const priceRows = (["current", "used"] as const).map((priceType) => {
+    const prices = getPricesForComparison(device, priceType);
+    return {
+      label: priceType === "current" ? "当前价" : "二手价",
+      value: prices.length
+        ? prices
+            .map((price) => `${formatConfiguration(price.configuration)} · ${formatMaybeCurrency(price.value)}`)
+            .join("\n")
+        : "待补充",
+    };
+  });
   const displayRows = buildRows(device, [
     ["屏幕尺寸", "screenSize"],
     ["显示类型", "displayType"],
@@ -282,10 +294,11 @@ export default async function DeviceDetailPage({
           <SectionHeader
             eyebrow="核心规格"
             title="真实字段展开"
-            description="按功能分组查看原始字段。"
+            description="价格按已核验配置列示，其余参数按功能分组查看。"
           />
 
           <div className="grid gap-4 lg:grid-cols-2">
+            <SpecGroup title="价格参考" rows={priceRows} />
             <SpecGroup title="性能" rows={performanceRows} />
             <SpecGroup title="显示" rows={displayRows} />
             <SpecGroup title="影像" rows={imagingRows} />
