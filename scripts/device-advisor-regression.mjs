@@ -414,11 +414,13 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
-      assertSimpleFallback(output, "phone", 2);
+      assertSimpleFallback(output, "phone", 3);
       assert.equal(output.devices[0]?.deviceId, "iphone-13-pro");
       assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥2,299（京东二手手机好评榜，2026-08-25）/);
       assert.equal(output.devices[1]?.deviceId, "iphone-12-pro-max");
       assert.match(output.devices[1]?.priceText ?? "", /二手价 ¥2,299（九机二手良品，2026-08-31）/);
+      assert.equal(output.devices[2]?.deviceId, "honor-magic6-pro-2024");
+      assert.match(output.devices[2]?.priceText ?? "", /二手价 ¥2,279（九机二手，2026-09-07）/);
     },
   },
   {

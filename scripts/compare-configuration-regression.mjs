@@ -186,5 +186,11 @@ assert.deepEqual(
   [158, 148, 164],
   "HONOR DXOMARK scores must keep their protocol-specific values",
 );
+assert.deepEqual(
+  ["honor-magic6-pro-2024", "honor-magic7-pro-2024", "honor-magic8-pro-2025"]
+    .map((id) => getPricesForComparison(devices.get(id), "used")[0]?.value),
+  [2279, 2949, 4479],
+  "verified HONOR Magic Pro used-price snapshots should remain available",
+);
 
-console.log("Passed compare configuration scenarios: shared_storage_options, latest_configuration_label, memory_table_value, mainstream_cap, latest_device_options, legacy_highest_only, legacy_price_visible, multi_configuration_prices, ipad_memory_tiers, macbook_independent_options, explicit_second_brand_configurations, xiaomi_used_prices, oppo_official_configurations, vivo_official_configurations, domestic_ultra_used_prices, huawei_pura_ultra_pilot, huawei_pura_used_prices, honor_magic_pro_pilot");
+console.log("Passed compare configuration scenarios: shared_storage_options, latest_configuration_label, memory_table_value, mainstream_cap, latest_device_options, legacy_highest_only, legacy_price_visible, multi_configuration_prices, ipad_memory_tiers, macbook_independent_options, explicit_second_brand_configurations, xiaomi_used_prices, oppo_official_configurations, vivo_official_configurations, domestic_ultra_used_prices, huawei_pura_ultra_pilot, huawei_pura_used_prices, honor_magic_pro_pilot, honor_magic_used_prices");
