@@ -41,8 +41,13 @@ function recommendedConfiguration(device) {
 
 function buildPlan({ category, priceType, limit }) {
   const { devices } = readJson(DATABASE_PATH);
+  const observations = readJson(OBSERVATIONS_PATH)[priceType];
   return devices
-    .filter((device) => (!category || device.category === category) && !device.specs[`${priceType}Price`]?.value)
+    .filter((device) =>
+      (!category || device.category === category) &&
+      !device.specs[`${priceType}Price`]?.value &&
+      !observations[device.id]
+    )
     .sort((left, right) => right.releaseYear - left.releaseYear || left.modelName.localeCompare(right.modelName, "zh-CN"))
     .slice(0, limit)
     .map((device) => {
@@ -421,7 +426,8 @@ if (!command || ["help", "--help", "-h"].includes(command)) {
   if (!PRICE_TYPES.has(values.type)) throw new Error("--type 只能是 current 或 used");
   if (values.category && !CATEGORIES.has(values.category)) throw new Error("--category 非法");
   const limit = Number(values.limit);
-  if (!Number.isInteger(limit) || limit < 1 || limit > 129) throw new Error("--limit 必须是 1-129 的整数");
+  const maxLimit = readJson(DATABASE_PATH).devices.length;
+  if (!Number.isInteger(limit) || limit < 1 || limit > maxLimit) throw new Error(`--limit 必须是 1-${maxLimit} 的整数`);
   const plan = buildPlan({ category: values.category, priceType: values.type, limit });
   if (values.json) console.log(JSON.stringify(plan, null, 2));
   else for (const row of plan) console.log(`${row.deviceId}\t${row.configuration}\t${row.searchQuery}`);

@@ -106,5 +106,18 @@ assert.equal(
 );
 assert.equal(getPricesForComparison(devices.get("xiaomi-15-ultra-2025"), "current")[0]?.value, 6499);
 assert.equal(getPricesForComparison(devices.get("xiaomi-17-ultra-2025"), "current")[0]?.value, 6999);
+assert.deepEqual(
+  [
+    "xiaomi-17-ultra-2025",
+    "xiaomi-15-ultra-2025",
+    "xiaomi-14-ultra-2024",
+    "xiaomi-13-ultra-2023",
+    "xiaomi-12s-ultra-2022",
+    "xiaomi-mi-11-ultra-2021",
+  ].map((id) => getPricesForComparison(devices.get(id), "used")[0]?.value),
+  [5149, 3619, 2569, 1809, 1219, 1299],
+  "verified Xiaomi Ultra used-price snapshots should remain available",
+);
+assert.equal(getPricesForComparison(devices.get("xiaomi-mi-10-ultra-2020"), "used").length, 0);
 
-console.log("Passed compare configuration scenarios: shared_storage_options, latest_configuration_label, memory_table_value, mainstream_cap, latest_device_options, legacy_highest_only, legacy_price_visible, multi_configuration_prices, ipad_memory_tiers, macbook_independent_options, explicit_second_brand_configurations");
+console.log("Passed compare configuration scenarios: shared_storage_options, latest_configuration_label, memory_table_value, mainstream_cap, latest_device_options, legacy_highest_only, legacy_price_visible, multi_configuration_prices, ipad_memory_tiers, macbook_independent_options, explicit_second_brand_configurations, xiaomi_used_prices");

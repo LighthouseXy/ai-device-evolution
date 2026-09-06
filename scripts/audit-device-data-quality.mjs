@@ -12,6 +12,7 @@ assert.deepEqual(
   "统一来源登记必须与主数据设备一一对应",
 );
 const allRegistryById = new Map(allSourceRows.map((row) => [row.id, row]));
+const allDevicesById = new Map(allDevices.map((device) => [device.id, device]));
 const trustedHostsByType = new Map(
   ["official", "reference"].map((sourceType) => [
     sourceType,
@@ -84,7 +85,20 @@ for (const [coverageKey, coverage] of Object.entries(crossBrandCoverage)) {
   }
 }
 assert.deepEqual(allNeedsReview, [], "统一来源登记仍有设备待人工复核");
+
+for (const [priceType, entries] of Object.entries(priceObservations)) {
+  for (const [deviceId, entry] of Object.entries(entries)) {
+    assert.ok(allDevicesById.has(deviceId), `${deviceId}.${priceType}: 价格快照设备不存在`);
+    for (const observation of Array.isArray(entry) ? entry : [entry]) {
+      assert.ok(Number.isFinite(observation.value) && observation.value > 0, `${deviceId}.${priceType}: 快照价格非法`);
+      assert.ok(observation.configuration && observation.condition && observation.observedAt, `${deviceId}.${priceType}: 快照口径不完整`);
+      const sourceType = observation.sourceType ?? "reference";
+      assert.ok(trustedHostsByType.get(sourceType)?.has(new URL(observation.sourceUrl).hostname), `${deviceId}.${priceType}: 快照来源域名不受信任`);
+    }
+  }
+}
 const devices = allDevices.filter((device) => device.brand === "Apple");
+const appleDeviceIds = new Set(devices.map((device) => device.id));
 const sourceRows = allSourceRows.filter((row) => row.brand === "Apple");
 const devicesByCategory = new Map();
 for (const device of devices) {
@@ -247,8 +261,8 @@ assert.deepEqual(memoryDistribution("tablet"), {
 
 const needsReview = sourceRows.filter((row) => row.sourceStatus === "needs_review").map((row) => row.id);
 const importedReferencePrices = Object.values(priceObservations)
-  .flatMap((observations) => Object.values(observations))
-  .filter((observation) => observation.sourceType !== "official").length;
+  .flatMap((observations) => Object.entries(observations))
+  .filter(([deviceId, observation]) => appleDeviceIds.has(deviceId) && (Array.isArray(observation) ? observation[0] : observation).sourceType !== "official").length;
 assert.ok(sourceRows.every((row) => ["verified", "needs_review"].includes(row.sourceStatus)), "来源登记状态非法");
 assert.equal(sourceAudit.supportZhCn + sourceAudit.appleChina + sourceAudit.reference, sourceAudit.fields, "仍有字段未使用已登记来源");
 assert.equal(sourceAudit.reference, 115 + importedReferencePrices, "第三方内存与价格字段数量发生变化");
@@ -334,6 +348,7 @@ for (const [deviceId, price] of Object.entries(currentPriceSnapshots)) {
   );
 }
 for (const [deviceId, entry] of Object.entries(priceObservations.current)) {
+  if (!appleDeviceIds.has(deviceId)) continue;
   const observations = Array.isArray(entry) ? entry : [entry];
   const expected = observations[0];
   assert.ok(!Object.hasOwn(currentPriceSnapshots, deviceId), `${deviceId}.currentPrice: 批量价格不得覆盖内置基线`);
@@ -351,7 +366,7 @@ for (const [deviceId, entry] of Object.entries(priceObservations.current)) {
 }
 assert.equal(
   devices.filter((device) => hasValue(device, "currentPrice")).length,
-  Object.keys(currentPriceSnapshots).length + Object.keys(priceObservations.current).length,
+  Object.keys(currentPriceSnapshots).length + Object.keys(priceObservations.current).filter((deviceId) => appleDeviceIds.has(deviceId)).length,
   "当前价格只能来自已核验静态快照",
 );
 
@@ -397,6 +412,7 @@ for (const [deviceId, [price, sourceName, observedAt, conditionPattern]] of Obje
   assert.match(field?.condition ?? "", conditionPattern, `${deviceId}.usedPrice: 成色发生回归`);
 }
 for (const [deviceId, entry] of Object.entries(priceObservations.used)) {
+  if (!appleDeviceIds.has(deviceId)) continue;
   const observations = Array.isArray(entry) ? entry : [entry];
   const expected = observations[0];
   assert.ok(!Object.hasOwn(usedPriceSnapshots, deviceId), `${deviceId}.usedPrice: 批量价格不得覆盖内置基线`);
@@ -410,7 +426,7 @@ for (const [deviceId, entry] of Object.entries(priceObservations.used)) {
 }
 assert.equal(
   devices.filter((device) => hasValue(device, "usedPrice")).length,
-  Object.keys(usedPriceSnapshots).length + Object.keys(priceObservations.used).length,
+  Object.keys(usedPriceSnapshots).length + Object.keys(priceObservations.used).filter((deviceId) => appleDeviceIds.has(deviceId)).length,
   "二手价格只能来自已核验静态快照",
 );
 

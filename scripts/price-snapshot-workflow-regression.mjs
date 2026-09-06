@@ -41,6 +41,14 @@ assert.ok(plan.every((row) => row.category === "phone" && row.priceType === "cur
 assert.ok(plan.every((row) => row.configuration && row.searchQuery.includes("国行")));
 const devicesById = new Map(JSON.parse(fs.readFileSync("src/data/devices-db.json", "utf8")).devices.map((device) => [device.id, device]));
 assert.ok(plan.every((row) => !devicesById.get(row.deviceId).specs.currentPrice?.value));
+const observations = JSON.parse(fs.readFileSync("src/data/price-observations.json", "utf8"));
+assert.ok(plan.every((row) => !observations.current[row.deviceId]));
+
+const usedPlanResult = run(["plan", "--type", "used", "--category", "phone", "--limit", String(devicesById.size), "--json"]);
+assert.equal(usedPlanResult.status, 0, usedPlanResult.stderr);
+const usedPlan = JSON.parse(usedPlanResult.stdout);
+assert.ok(usedPlan.some((row) => row.deviceId === "xiaomi-mi-10-ultra-2020"));
+assert.ok(usedPlan.every((row) => !observations.used[row.deviceId]));
 
 const candidate = [{
   deviceId: plan[0].deviceId,
@@ -105,4 +113,4 @@ try {
   globalThis.fetch = originalFetch;
 }
 
-console.log("Passed price snapshot workflow regression scenarios: help, filtered_search_options, normalized_product_names, product_name_listing, paginated_search, inspect_sku_filter_help, plan, validate, reject_invalid_memory, reject_invalid_storage, reject_invalid_search_limit, reject_invalid_search_pages, transient_fetch_retry");
+console.log("Passed price snapshot workflow regression scenarios: help, filtered_search_options, normalized_product_names, product_name_listing, paginated_search, inspect_sku_filter_help, plan, observation_aware_plan, validate, reject_invalid_memory, reject_invalid_storage, reject_invalid_search_limit, reject_invalid_search_pages, transient_fetch_retry");
