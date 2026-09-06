@@ -83,7 +83,7 @@ assert.equal(
 );
 
 const xiaomiUltra = getDevicesByComparisonGroupKeyFlat("xiaomi.phone.xiaomi-ultra.standard");
-assert.equal(xiaomiUltra.length, 6, "the second-brand pilot should include the full Ultra product line");
+assert.equal(xiaomiUltra.length, 7, "the second-brand pilot should include the full Ultra product line");
 assert.deepEqual(
   getDeviceConfigurations(devices.get("xiaomi-mi-10-ultra-2020")).map((configuration) => configuration.key),
   ["16GB|512GB"],
@@ -99,7 +99,12 @@ assert.deepEqual(
   ["12GB|256GB", "16GB|512GB", "16GB|1TB"],
   "explicit configuration matrices must not expand into unsupported memory and storage pairs",
 );
-assert.equal(formatLatestConfigurationOption(xiaomiUltra, "512GB"), "16GB + 512GB");
+assert.equal(
+  formatLatestConfigurationOption(xiaomiUltra, "512GB"),
+  "12GB + 512GB",
+  "the selector should use the latest generation's primary verified combination",
+);
 assert.equal(getPricesForComparison(devices.get("xiaomi-15-ultra-2025"), "current")[0]?.value, 6499);
+assert.equal(getPricesForComparison(devices.get("xiaomi-17-ultra-2025"), "current")[0]?.value, 6999);
 
 console.log("Passed compare configuration scenarios: shared_storage_options, latest_configuration_label, memory_table_value, mainstream_cap, latest_device_options, legacy_highest_only, legacy_price_visible, multi_configuration_prices, ipad_memory_tiers, macbook_independent_options, explicit_second_brand_configurations");

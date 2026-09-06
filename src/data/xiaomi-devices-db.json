@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "totalDevices": 6,
+    "totalDevices": 7,
     "generatedAt": "2026-09-07"
   },
   "devices": [
@@ -1117,6 +1117,199 @@
           "condition": "全新，页面展示电商价",
           "observedAt": "2026-09-07",
           "sourceName": "中关村在线电商报价"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "xiaomi-17-ultra-2025",
+      "brand": "Xiaomi",
+      "market": "CN",
+      "category": "phone",
+      "series": "Xiaomi Ultra",
+      "family": "Xiaomi Ultra",
+      "variant": "standard",
+      "modelName": "小米 17 Ultra",
+      "generation": "17",
+      "generationOrder": 7,
+      "releaseYear": 2025,
+      "releaseDate": "2025-12-25",
+      "comparisonGroupId": "xiaomi.phone.xiaomi-ultra.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "512GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB"
+        }
+      ],
+      "benchmarks": [
+        {
+          "provider": "DXOMARK",
+          "metric": "camera",
+          "score": 166,
+          "protocolVersion": "Camera v6",
+          "sourceUrl": "https://www.dxomark.com/xiaomi-17-ultra-camera-test/",
+          "verifiedAt": "2026-09-07"
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通 骁龙 8 Elite Gen 5",
+          "rawText": "CPU型号：高通 骁龙 8 Elite Gen 5",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10922118_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "screenSize": {
+          "value": 6.9,
+          "rawText": "屏幕尺寸：6.9英寸",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10922118_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07",
+          "unit": "inch"
+        },
+        "displayType": {
+          "value": "AMOLED",
+          "rawText": "屏幕材质：AMOLED",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10922118_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "resolution": {
+          "value": "2608x1200",
+          "rawText": "分辨率：2608x1200px",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10922118_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "refreshRate": {
+          "value": 120,
+          "rawText": "屏幕刷新率：120Hz",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10922118_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07",
+          "unit": "Hz"
+        },
+        "weight": {
+          "value": 223.4,
+          "rawText": "重量：223.4g",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10922118_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07",
+          "unit": "g"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "RAM容量：12GB / 16GB",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10922118_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "storage": {
+          "value": "512GB / 1TB",
+          "rawText": "ROM容量：512GB / 1TB",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10922118_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "rearCamera": {
+          "value": "5000 万像素主摄 + 2 亿像素 75-100mm 光学变焦 + 5000 万像素超广角",
+          "rawText": "后置摄像头：5000 万像素主摄 + 2 亿像素 75-100mm 光学变焦 + 5000 万像素超广角",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10922118_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "mainCamera": {
+          "value": "5000 万像素",
+          "rawText": "后置主摄：5000 万像素",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10922118_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "telephoto": {
+          "value": "2 亿像素 75-100mm 连续光学变焦",
+          "rawText": "2 亿像素 75-100mm 连续光学变焦",
+          "sourceUrl": "https://www.dxomark.com/xiaomi-17-ultra-camera-test/",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-09-07"
+        },
+        "frontCamera": {
+          "value": "5000 万像素",
+          "rawText": "前置摄像头：5000 万像素",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10922118_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "batteryLife": {
+          "value": "6800mAh",
+          "rawText": "电池容量：6800mAh",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10922118_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "机身接口：USB Type-C",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10922118_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "waterResistance": {
+          "value": "IP68",
+          "rawText": "防护等级：IP68",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10922118_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "launchPrice": {
+          "value": 6999,
+          "rawText": "12GB+512GB 售价 6999 元",
+          "sourceUrl": "https://www.ithome.com/0/908/012.htm",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-09-07",
+          "unit": "CNY",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 512GB 存储，中国大陆版本",
+          "condition": "中国大陆首发起售价"
+        },
+        "currentPrice": {
+          "value": 6999,
+          "rawText": "Xiaomi 17 Ultra 6999 元起",
+          "sourceUrl": "https://www.mi.com/prod/xiaomi-17-ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07",
+          "unit": "CNY",
+          "priceType": "current",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 512GB 存储，中国大陆版本",
+          "condition": "全新，小米中国大陆官网页面展示起售价",
+          "observedAt": "2026-09-07",
+          "sourceName": "小米中国大陆官网"
         }
       },
       "computed": {}

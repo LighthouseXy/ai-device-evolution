@@ -203,6 +203,48 @@ const rows = [
     dxomarkProtocol: "Camera v6",
     dxomarkUrl: "https://www.dxomark.com/xiaomi-15-ultra-camera-test-retested/",
   },
+  {
+    id: "xiaomi-17-ultra-2025",
+    modelName: "小米 17 Ultra",
+    generation: "17",
+    generationOrder: 7,
+    releaseYear: 2025,
+    releaseDate: "2025-12-25",
+    sourceUrl: "https://detail.zol.com.cn/series/57/34645/param_10922118_0_1.html",
+    officialUrl: "https://www.mi.com/prod/xiaomi-17-ultra",
+    launchUrl: "https://www.ithome.com/0/908/012.htm",
+    chip: "高通 骁龙 8 Elite Gen 5",
+    screenSize: 6.9,
+    displayType: "AMOLED",
+    resolution: "2608x1200",
+    refreshRate: 120,
+    weight: 223.4,
+    memory: "12GB / 16GB",
+    storage: "512GB / 1TB",
+    configurations: [
+      { memory: "12GB", storage: "512GB" },
+      { memory: "16GB", storage: "512GB" },
+      { memory: "16GB", storage: "1TB" },
+    ],
+    battery: "6800mAh",
+    rearCamera: "5000 万像素主摄 + 2 亿像素 75-100mm 光学变焦 + 5000 万像素超广角",
+    mainCamera: "5000 万像素",
+    telephoto: "2 亿像素 75-100mm 连续光学变焦",
+    frontCamera: "5000 万像素",
+    launchPrice: 6999,
+    launchConfiguration: "12GB 运行内存 + 512GB 存储，中国大陆版本",
+    launchRawText: "12GB+512GB 售价 6999 元",
+    currentPrice: 6999,
+    currentConfiguration: "12GB 运行内存 + 512GB 存储，中国大陆版本",
+    currentSource: "Xiaomi 17 Ultra 6999 元起",
+    currentSourceUrl: "https://www.mi.com/prod/xiaomi-17-ultra",
+    currentSourceType: "official",
+    currentSourceName: "小米中国大陆官网",
+    currentCondition: "全新，小米中国大陆官网页面展示起售价",
+    dxomarkScore: 166,
+    dxomarkProtocol: "Camera v6",
+    dxomarkUrl: "https://www.dxomark.com/xiaomi-17-ultra-camera-test/",
+  },
 ];
 
 function spec(value, rawText, sourceUrl, confidence = 0.8) {
@@ -216,15 +258,17 @@ function spec(value, rawText, sourceUrl, confidence = 0.8) {
   };
 }
 
-function price(value, priceType, rawText, sourceUrl, configuration) {
+function price(value, priceType, rawText, sourceUrl, configuration, options = {}) {
+  const sourceType = options.sourceType ?? "reference";
   return {
-    ...spec(value, rawText, sourceUrl, 0.7),
+    ...spec(value, rawText, sourceUrl, sourceType === "official" ? 1 : 0.7),
+    sourceType,
     unit: "CNY",
     priceType,
     market: "中国大陆",
     configuration,
-    condition: priceType === "launch" ? "中国大陆首发起售价" : "全新，页面展示电商价",
-    ...(priceType === "current" ? { observedAt: VERIFIED_AT, sourceName: "中关村在线电商报价" } : {}),
+    condition: priceType === "launch" ? "中国大陆首发起售价" : options.condition ?? "全新，页面展示电商价",
+    ...(priceType === "current" ? { observedAt: VERIFIED_AT, sourceName: options.sourceName ?? "中关村在线电商报价" } : {}),
   };
 }
 
@@ -269,7 +313,18 @@ const devices = rows.map((row) => ({
     waterResistance: spec("IP68", "防护等级：IP68", row.sourceUrl),
     launchPrice: price(row.launchPrice, "launch", row.launchRawText, row.launchUrl, row.launchConfiguration),
     ...(row.currentPrice ? {
-      currentPrice: price(row.currentPrice, "current", row.currentSource, row.sourceUrl, "16GB 运行内存 + 512GB 存储，中国大陆版本"),
+      currentPrice: price(
+        row.currentPrice,
+        "current",
+        row.currentSource,
+        row.currentSourceUrl ?? row.sourceUrl,
+        row.currentConfiguration ?? "16GB 运行内存 + 512GB 存储，中国大陆版本",
+        {
+          sourceType: row.currentSourceType,
+          sourceName: row.currentSourceName,
+          condition: row.currentCondition,
+        },
+      ),
     } : {}),
   },
   computed: row.generationOrder === 1 ? {
@@ -293,7 +348,7 @@ const sources = {
     generation: row.generation,
     releaseYear: row.releaseYear,
     sourcePageType: "reference_spec_and_benchmark",
-    officialSpecUrl: null,
+    officialSpecUrl: row.officialUrl ?? null,
     supportUrl: null,
     newsroomUrl: null,
     referenceUrls: [row.sourceUrl, row.launchUrl, row.dxomarkUrl],

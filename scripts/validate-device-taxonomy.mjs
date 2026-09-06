@@ -208,6 +208,7 @@ const sourceUrls = specFields.map((field) => field?.sourceUrl).filter(Boolean);
 const rawTexts = specFields.map((field) => field?.rawText).filter((value) => typeof value === "string");
 const sourceAudit = {
   specFields: specFields.length,
+  official: specFields.filter((field) => field?.sourceType === "official").length,
   supportZhCn: sourceUrls.filter((url) => /support\.apple\.com\/zh-(?:cn|tw)\//.test(url)).length,
   appleChina: sourceUrls.filter((url) => url.startsWith("https://www.apple.com.cn/")).length,
   reference: specFields.filter((field) => field?.sourceType === "reference").length,
@@ -215,7 +216,7 @@ const sourceAudit = {
   rawTextChineseLike: rawTexts.filter((text) => /[\u4e00-\u9fff]/.test(text)).length,
 };
 
-assert.equal(sourceAudit.supportZhCn + sourceAudit.appleChina + sourceAudit.reference, sourceAudit.specFields, "规格来源必须来自已登记的 Apple 中文页面或受信任第三方");
+assert.equal(sourceAudit.official + sourceAudit.reference, sourceAudit.specFields, "规格来源必须标记为官方或受信任第三方");
 
 console.log("sourceAudit", JSON.stringify(sourceAudit));
 console.log(`device taxonomy validation passed: ${devices.length} devices, ${comparisonGroupIdentities.size} groups`);
