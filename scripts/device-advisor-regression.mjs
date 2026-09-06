@@ -295,9 +295,10 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
-      assertSimpleFallback(output, "phone", 1);
-      assert.equal(output.devices[0]?.deviceId, "iphone-15");
-      assert.match(output.devices[0]?.priceText ?? "", /当前价 ¥5,599（京东，2026-08-25）/);
+      assertSimpleFallback(output, "phone", 2);
+      assert.deepEqual(pickRecommendationTitles(output), ["荣耀 Magic6 Pro", "iPhone 15"]);
+      assert.match(output.devices[0]?.priceText ?? "", /当前价 ¥5,600（ZOL 中关村在线，2026-09-07）/);
+      assert.match(output.devices[1]?.priceText ?? "", /当前价 ¥5,599（京东，2026-08-25）/);
     },
   },
   {

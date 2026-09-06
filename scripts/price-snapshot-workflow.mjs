@@ -15,6 +15,8 @@ const TRUSTED_HOSTS = new Set([
   "item.m.jd.com",
   "pro.m.jd.com",
   "m2.9ji.com",
+  "detail.zol.com.cn",
+  "wap.zol.com.cn",
 ]);
 
 function readJson(path) {

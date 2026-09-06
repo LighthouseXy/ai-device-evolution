@@ -177,6 +177,12 @@ assert.deepEqual(
   "verified HUAWEI Pura Ultra used-price snapshots should remain available",
 );
 assert.deepEqual(
+  ["huawei-pura-70-ultra-2024", "huawei-pura-80-ultra-2025"]
+    .map((id) => getPricesForComparison(devices.get(id), "current")[0]?.value),
+  [4498, 7999],
+  "verified HUAWEI Pura Ultra current-price snapshots should remain available",
+);
+assert.deepEqual(
   devices.get("honor-magic8-pro-2025").configurations,
   [{ memory: "12GB", storage: "512GB" }, { memory: "16GB", storage: "512GB" }, { memory: "16GB", storage: "1TB" }],
   "HONOR Magic8 Pro configurations must preserve official China variants",
@@ -192,5 +198,11 @@ assert.deepEqual(
   [2279, 2949, 4479],
   "verified HONOR Magic Pro used-price snapshots should remain available",
 );
+assert.deepEqual(
+  ["honor-magic6-pro-2024", "honor-magic7-pro-2024", "honor-magic8-pro-2025"]
+    .map((id) => getPricesForComparison(devices.get(id), "current")[0]?.value),
+  [5600, 5199, 5999],
+  "verified HONOR Magic Pro current-price snapshots should remain available",
+);
 
-console.log("Passed compare configuration scenarios: shared_storage_options, latest_configuration_label, memory_table_value, mainstream_cap, latest_device_options, legacy_highest_only, legacy_price_visible, multi_configuration_prices, ipad_memory_tiers, macbook_independent_options, explicit_second_brand_configurations, xiaomi_used_prices, oppo_official_configurations, vivo_official_configurations, domestic_ultra_used_prices, huawei_pura_ultra_pilot, huawei_pura_used_prices, honor_magic_pro_pilot, honor_magic_used_prices");
+console.log("Passed compare configuration scenarios: shared_storage_options, latest_configuration_label, memory_table_value, mainstream_cap, latest_device_options, legacy_highest_only, legacy_price_visible, multi_configuration_prices, ipad_memory_tiers, macbook_independent_options, explicit_second_brand_configurations, xiaomi_used_prices, oppo_official_configurations, vivo_official_configurations, domestic_ultra_used_prices, huawei_pura_ultra_pilot, huawei_pura_prices, honor_magic_pro_pilot, honor_magic_prices");

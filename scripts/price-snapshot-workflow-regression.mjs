@@ -65,6 +65,14 @@ const validResult = run(["validate", "-"], JSON.stringify(candidate));
 assert.equal(validResult.status, 0, validResult.stderr);
 assert.match(validResult.stdout, /验证通过 1 条/);
 
+const zolResult = run(["validate", "-"], JSON.stringify([{
+  ...candidate[0],
+  sourceUrl: "https://detail.zol.com.cn/example",
+  sourceName: "ZOL 中关村在线",
+}]));
+assert.equal(zolResult.status, 0, zolResult.stderr);
+assert.match(zolResult.stdout, /验证通过 1 条/);
+
 const multiConfigurationResult = run(["validate", "-"], JSON.stringify([
   {
     ...candidate[0],
