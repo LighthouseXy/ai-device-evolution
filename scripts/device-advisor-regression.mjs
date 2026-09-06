@@ -88,9 +88,10 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
-      assertSimpleFallback(output, "phone", 1);
-      assert.equal(output.devices[0]?.deviceId, "xiaomi-15-ultra-2025");
-      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥3,619（九机二手，2026-09-07）/);
+      assertSimpleFallback(output, "phone", 2);
+      assert.deepEqual(pickRecommendationTitles(output), ["Samsung Galaxy S24 Ultra", "小米 15 Ultra"]);
+      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥3,629（九机二手，2026-09-07）/);
+      assert.match(output.devices[1]?.priceText ?? "", /二手价 ¥3,619（九机二手，2026-09-07）/);
     },
   },
   {
