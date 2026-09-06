@@ -120,4 +120,23 @@ assert.deepEqual(
 );
 assert.equal(getPricesForComparison(devices.get("xiaomi-mi-10-ultra-2020"), "used").length, 0);
 
-console.log("Passed compare configuration scenarios: shared_storage_options, latest_configuration_label, memory_table_value, mainstream_cap, latest_device_options, legacy_highest_only, legacy_price_visible, multi_configuration_prices, ipad_memory_tiers, macbook_independent_options, explicit_second_brand_configurations, xiaomi_used_prices");
+const oppoFindXUltra = getDevicesByComparisonGroupKeyFlat("oppo.phone.find-x-ultra.standard");
+assert.equal(oppoFindXUltra.length, 3, "the OPPO pilot should include the complete Find X Ultra lineage");
+assert.deepEqual(
+  getSharedStorageOptions(oppoFindXUltra),
+  ["256GB", "512GB"],
+  "OPPO configuration options should include only storage tiers shared by all three generations",
+);
+assert.deepEqual(
+  getDeviceConfigurations(devices.get("oppo-find-x9-ultra-2026")).map((configuration) => configuration.key),
+  ["12GB|256GB", "12GB|512GB", "16GB|512GB", "16GB|1TB"],
+  "OPPO configurations must preserve the official memory and storage combinations",
+);
+assert.equal(formatLatestConfigurationOption(oppoFindXUltra, "512GB"), "12GB + 512GB");
+assert.equal(
+  devices.get("oppo-find-x9-ultra-2026").mainCameraMp,
+  200,
+  "Chinese 2 亿像素 wording should normalize to 200MP for comparison",
+);
+
+console.log("Passed compare configuration scenarios: shared_storage_options, latest_configuration_label, memory_table_value, mainstream_cap, latest_device_options, legacy_highest_only, legacy_price_visible, multi_configuration_prices, ipad_memory_tiers, macbook_independent_options, explicit_second_brand_configurations, xiaomi_used_prices, oppo_official_configurations");

@@ -2,10 +2,11 @@
   "metadata": {
     "version": "2.0",
     "generatedAt": "2026-09-07",
-    "totalDevices": 136,
+    "totalDevices": 139,
     "brands": [
       "Apple",
-      "Xiaomi"
+      "Xiaomi",
+      "OPPO"
     ],
     "markets": [
       "CN"
@@ -19,6 +20,11 @@
       {
         "id": "xiaomi-ultra-cn-pilot",
         "brand": "Xiaomi",
+        "market": "CN"
+      },
+      {
+        "id": "oppo-find-x-ultra-cn-pilot",
+        "brand": "OPPO",
         "market": "CN"
       }
     ]
@@ -38553,6 +38559,551 @@
           "condition": "全新，小米中国大陆官网页面展示起售价",
           "observedAt": "2026-09-07",
           "sourceName": "小米中国大陆官网"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "oppo-find-x7-ultra-2024",
+      "brand": "OPPO",
+      "market": "CN",
+      "category": "phone",
+      "series": "Find X Ultra",
+      "family": "Find X Ultra",
+      "variant": "standard",
+      "modelName": "OPPO Find X7 Ultra",
+      "generation": "X7 Ultra",
+      "generationOrder": 1,
+      "releaseYear": 2024,
+      "releaseDate": "2024-01-12",
+      "comparisonGroupId": "oppo.phone.find-x-ultra.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "256GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB"
+        }
+      ],
+      "benchmarks": [
+        {
+          "provider": "DXOMARK",
+          "metric": "camera",
+          "score": 157,
+          "protocolVersion": "Camera v5",
+          "sourceUrl": "https://www.dxomark.com/oppo-find-x7-ultra-camera-test/",
+          "verifiedAt": "2026-09-07"
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通 第三代骁龙 8",
+          "rawText": "移动平台：高通 第三代骁龙 8",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "screenSize": {
+          "value": 6.82,
+          "unit": "inch",
+          "rawText": "显示尺寸：6.82 英寸",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "displayType": {
+          "value": "AMOLED LTPO 柔性屏",
+          "rawText": "显示类型：AMOLED LTPO 柔性屏",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "resolution": {
+          "value": "3168x1440",
+          "rawText": "分辨率：3168x1440 像素",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "最高支持 120Hz 刷新率",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "weight": {
+          "value": 221,
+          "unit": "g",
+          "rawText": "重量：约 221 克",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存容量：12GB / 16GB",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "storage": {
+          "value": "256GB / 512GB",
+          "rawText": "机身存储容量：256GB / 512GB",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "rearCamera": {
+          "value": "5000 万像素主摄 + 5000 万像素超广角 + 5000 万像素长焦 + 5000 万像素超长焦",
+          "rawText": "后置摄像头：5000 万像素主摄 + 5000 万像素超广角 + 5000 万像素长焦 + 5000 万像素超长焦",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "mainCamera": {
+          "value": "5000 万像素 23mm 主摄",
+          "rawText": "5000 万像素 23mm 主摄",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "telephoto": {
+          "value": "5000 万像素 65mm 长焦 + 5000 万像素 135mm 超长焦",
+          "rawText": "5000 万像素 65mm 长焦 + 5000 万像素 135mm 超长焦",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "frontCamera": {
+          "value": "3200 万像素",
+          "rawText": "前置摄像头：3200 万像素",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "batteryLife": {
+          "value": "5000mAh",
+          "rawText": "电池典型容量：5000mAh",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "数据接口：USB Type-C",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "waterResistance": {
+          "value": "IP68",
+          "rawText": "防护等级：IP68",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "launchPrice": {
+          "value": 5999,
+          "unit": "CNY",
+          "rawText": "12GB+256GB 售价 5999 元",
+          "sourceUrl": "https://www.ithome.com/0/743/979.htm",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-09-07",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，中国大陆版本",
+          "condition": "中国大陆首发起售价"
+        }
+      },
+      "computed": {
+        "generationUpgradeMagnitude": {
+          "value": null,
+          "comparedTo": null,
+          "changeSummary": "该设备为当前比较组第一代，无可对比前代",
+          "scoreBreakdown": "无对比前代",
+          "confidence": 0,
+          "computedAt": "2026-09-07",
+          "sourceType": "computed",
+          "verifiedAt": "2026-09-07"
+        }
+      }
+    },
+    {
+      "id": "oppo-find-x8-ultra-2025",
+      "brand": "OPPO",
+      "market": "CN",
+      "category": "phone",
+      "series": "Find X Ultra",
+      "family": "Find X Ultra",
+      "variant": "standard",
+      "modelName": "OPPO Find X8 Ultra",
+      "generation": "X8 Ultra",
+      "generationOrder": 2,
+      "releaseYear": 2025,
+      "releaseDate": "2025-04-16",
+      "comparisonGroupId": "oppo.phone.find-x-ultra.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB"
+        }
+      ],
+      "benchmarks": [
+        {
+          "provider": "DXOMARK",
+          "metric": "camera",
+          "score": 168,
+          "protocolVersion": "Camera v6",
+          "sourceUrl": "https://www.dxomark.com/oppo-find-x8-ultra-camera-test/",
+          "verifiedAt": "2026-09-07"
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通 骁龙 8 至尊版",
+          "rawText": "移动平台：高通 骁龙 8 至尊版",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "screenSize": {
+          "value": 6.82,
+          "unit": "inch",
+          "rawText": "显示尺寸：6.82 英寸",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "displayType": {
+          "value": "AMOLED 柔性屏",
+          "rawText": "显示类型：AMOLED 柔性屏",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "resolution": {
+          "value": "3168x1440",
+          "rawText": "分辨率：3168x1440 像素",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "最高支持 120Hz 刷新率",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "weight": {
+          "value": 226,
+          "unit": "g",
+          "rawText": "重量：约 226 克",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存容量：12GB / 16GB",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "storage": {
+          "value": "256GB / 512GB",
+          "rawText": "机身存储容量：256GB / 512GB",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "rearCamera": {
+          "value": "5000 万像素主摄 + 5000 万像素超广角 + 5000 万像素长焦 + 5000 万像素超长焦",
+          "rawText": "后置摄像头：5000 万像素主摄 + 5000 万像素超广角 + 5000 万像素长焦 + 5000 万像素超长焦",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "mainCamera": {
+          "value": "5000 万像素 23mm 主摄",
+          "rawText": "5000 万像素 23mm 主摄",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "telephoto": {
+          "value": "5000 万像素 70mm 长焦 + 5000 万像素 135mm 超长焦",
+          "rawText": "5000 万像素 70mm 长焦 + 5000 万像素 135mm 超长焦",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "frontCamera": {
+          "value": "3200 万像素",
+          "rawText": "前置摄像头：3200 万像素",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "batteryLife": {
+          "value": "6100mAh",
+          "rawText": "电池典型容量：6100mAh",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "数据接口：USB Type-C",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "waterResistance": {
+          "value": "IP68 / IP69",
+          "rawText": "防护等级：IP68 / IP69",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "launchPrice": {
+          "value": 6499,
+          "unit": "CNY",
+          "rawText": "12GB+256GB 版 6499 元",
+          "sourceUrl": "https://m.ithome.com/html/844379.htm",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-09-07",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，中国大陆版本",
+          "condition": "中国大陆首发起售价"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "oppo-find-x9-ultra-2026",
+      "brand": "OPPO",
+      "market": "CN",
+      "category": "phone",
+      "series": "Find X Ultra",
+      "family": "Find X Ultra",
+      "variant": "standard",
+      "modelName": "OPPO Find X9 Ultra",
+      "generation": "X9 Ultra",
+      "generationOrder": 3,
+      "releaseYear": 2026,
+      "releaseDate": "2026-04-23",
+      "comparisonGroupId": "oppo.phone.find-x-ultra.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB"
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB"
+        }
+      ],
+      "benchmarks": [
+        {
+          "provider": "DXOMARK",
+          "metric": "camera",
+          "score": 170,
+          "protocolVersion": "Camera v6",
+          "sourceUrl": "https://www.dxomark.com/oppo-find-x9-ultra-camera-test/",
+          "verifiedAt": "2026-09-07"
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通 第五代骁龙 8 至尊版",
+          "rawText": "移动平台：高通 第五代骁龙 8 至尊版",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "screenSize": {
+          "value": 6.82,
+          "unit": "inch",
+          "rawText": "显示尺寸：6.82 英寸",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "displayType": {
+          "value": "AMOLED 直面屏",
+          "rawText": "显示类型：AMOLED 直面屏",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "resolution": {
+          "value": "3168x1440",
+          "rawText": "分辨率：3168x1440 像素",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "最高支持 144Hz 刷新率",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "weight": {
+          "value": 235,
+          "unit": "g",
+          "rawText": "重量：约 235 克",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存容量：12GB / 16GB",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "机身存储容量：256GB / 512GB / 1TB",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "rearCamera": {
+          "value": "2 亿像素主摄 + 5000 万像素超广角 + 2 亿像素长焦 + 5000 万像素超长焦",
+          "rawText": "后置摄像头：2 亿像素主摄 + 5000 万像素超广角 + 2 亿像素长焦 + 5000 万像素超长焦",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "mainCamera": {
+          "value": "200MP（2 亿像素）23mm 主摄",
+          "rawText": "200MP（2 亿像素）23mm 主摄",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "telephoto": {
+          "value": "2 亿像素 70mm 长焦 + 5000 万像素 230mm 超长焦",
+          "rawText": "2 亿像素 70mm 长焦 + 5000 万像素 230mm 超长焦",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "frontCamera": {
+          "value": "5000 万像素",
+          "rawText": "前置摄像头：5000 万像素",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "batteryLife": {
+          "value": "7050mAh",
+          "rawText": "电池典型容量：7050mAh",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "数据接口：USB Type-C",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "waterResistance": {
+          "value": "IP66 / IP68 / IP69",
+          "rawText": "防护等级：IP66 / IP68 / IP69",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "launchPrice": {
+          "value": 7499,
+          "unit": "CNY",
+          "rawText": "12GB+256GB 规格：定价 7499 元",
+          "sourceUrl": "https://www.ithome.com/0/941/820.htm",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-09-07",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，中国大陆版本",
+          "condition": "中国大陆首发起售价"
         }
       },
       "computed": {}

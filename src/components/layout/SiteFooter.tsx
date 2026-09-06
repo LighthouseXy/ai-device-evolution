@@ -12,7 +12,7 @@ export default function SiteFooter() {
             </Link>
             <p className="site-footer-desc">
               聚焦电子设备代际演进、规格对比与 AI 辅助分析的研究平台，
-              已从 Apple 样本扩展到首个 Xiaomi Ultra 完整产品线试点。
+              已从 Apple 扩展到 Xiaomi 与 OPPO 中国大陆产品线试点。
             </p>
           </div>
 

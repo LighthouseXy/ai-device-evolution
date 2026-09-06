@@ -11,6 +11,7 @@
     "start": "next start",
     "sync:apple-zh-cn": "node scripts/sync-apple-zh-cn-data.mjs",
     "sync:xiaomi-pilot": "node scripts/sync-xiaomi-ultra-pilot.mjs",
+    "sync:oppo-find-x-ultra": "node scripts/sync-oppo-find-x-ultra.mjs",
     "prices": "node scripts/price-snapshot-workflow.mjs",
     "typecheck": "tsc --noEmit --incremental false",
     "precheck": "npm run build:data",

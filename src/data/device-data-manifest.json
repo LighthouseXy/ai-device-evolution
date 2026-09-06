@@ -14,6 +14,13 @@
       "market": "CN",
       "devices": "xiaomi-devices-db.json",
       "sources": "xiaomi-sources.json"
+    },
+    {
+      "id": "oppo-find-x-ultra-cn-pilot",
+      "brand": "OPPO",
+      "market": "CN",
+      "devices": "oppo-devices-db.json",
+      "sources": "oppo-sources.json"
     }
   ],
   "publishers": [
@@ -50,6 +57,12 @@
       "name": "Xiaomi",
       "sourceType": "official",
       "hosts": ["www.mi.com"]
+    },
+    {
+      "id": "oppo",
+      "name": "OPPO",
+      "sourceType": "official",
+      "hosts": ["www.oppo.com"]
     }
   ]
 }
