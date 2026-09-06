@@ -49,12 +49,7 @@ const metricOptions: TrendMetric[] = [
 function parseChipRank(chip: string) {
   const normalized = chip.replace(/\s+/g, " ");
   const exact = normalized.match(/\b(?:Apple\s+)?([AM])\s?(\d{1,2})\b/i);
-  if (exact) {
-    return Number(exact[2]);
-  }
-
-  const fallback = normalized.match(/\b(\d{1,2})\b/);
-  return fallback ? Number(fallback[1]) : null;
+  return exact ? Number(exact[2]) : null;
 }
 
 function getSpecNumber(device: FlattenedDevice, key: string) {
@@ -95,7 +90,9 @@ export default function DeviceSeriesTrendExplorer({
   devices: FlattenedDevice[];
   activeDeviceId: string;
 }) {
-  const [activeMetric, setActiveMetric] = useState<MetricKey>("chipRank");
+  const [activeMetric, setActiveMetric] = useState<MetricKey>(() =>
+    devices.some((device) => parseChipRank(device.chip) !== null) ? "chipRank" : "screenSize",
+  );
 
   const metric = useMemo(
     () => metricOptions.find((item) => item.key === activeMetric) ?? metricOptions[0],
@@ -301,9 +298,11 @@ export default function DeviceSeriesTrendExplorer({
           </div>
         )}
 
-        <p className="mt-3 text-xs leading-6 text-[var(--text-soft)]">
-          * 芯片趋势仅使用文本解析出的内部代际序列，便于表达变化方向，不等同于真实硬件基准分。
-        </p>
+        {activeMetric === "chipRank" ? (
+          <p className="mt-3 text-xs leading-6 text-[var(--text-soft)]">
+            * 芯片趋势只解析明确的 Apple A / M 系列序号，用于表达代际方向，不等同于硬件基准分。
+          </p>
+        ) : null}
       </div>
     </div>
   );

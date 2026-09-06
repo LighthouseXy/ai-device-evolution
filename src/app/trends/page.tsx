@@ -97,7 +97,7 @@ function normalizeCategory(value: string | string[] | undefined) {
 
 function normalizeMetric(value: string | string[] | undefined) {
   const raw = Array.isArray(value) ? value[0] : value;
-  return metrics.some((metric) => metric.key === raw) ? (raw as MetricKey) : "ai";
+  return metrics.some((metric) => metric.key === raw) ? (raw as MetricKey) : "price";
 }
 
 function normalizeSeries(value: string | string[] | undefined) {
