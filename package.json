@@ -15,6 +15,7 @@
     "sync:vivo-x-ultra": "node scripts/sync-vivo-x-ultra.mjs",
     "sync:huawei-pura-ultra": "node scripts/sync-huawei-pura-ultra.mjs",
     "sync:honor-magic-pro": "node scripts/sync-honor-magic-pro.mjs",
+    "sync:samsung-galaxy-s-ultra": "node scripts/sync-samsung-galaxy-s-ultra.mjs",
     "prices": "node scripts/price-snapshot-workflow.mjs",
     "typecheck": "tsc --noEmit --incremental false",
     "precheck": "npm run build:data",

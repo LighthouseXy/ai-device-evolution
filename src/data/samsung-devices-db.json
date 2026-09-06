@@ -1,0 +1,530 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "totalDevices": 3,
+    "generatedAt": "2026-09-07"
+  },
+  "devices": [
+    {
+      "id": "samsung-galaxy-s24-ultra-2024",
+      "brand": "Samsung",
+      "market": "CN",
+      "category": "phone",
+      "series": "Samsung Galaxy S Ultra",
+      "family": "Samsung Galaxy S Ultra",
+      "variant": "standard",
+      "modelName": "Samsung Galaxy S24 Ultra",
+      "generation": "S24 Ultra",
+      "generationOrder": 1,
+      "releaseYear": 2024,
+      "releaseDate": "2024-01-25",
+      "comparisonGroupId": "samsung.phone.galaxy-s-ultra.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB"
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB"
+        },
+        {
+          "memory": "12GB",
+          "storage": "1TB"
+        }
+      ],
+      "benchmarks": [
+        {
+          "provider": "DXOMARK",
+          "metric": "camera",
+          "score": 144,
+          "protocolVersion": "Camera v5",
+          "sourceUrl": "https://www.dxomark.com/samsung-galaxy-s24-ultra-camera-test/",
+          "verifiedAt": "2026-09-07"
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "第三代骁龙 8 移动平台（for Galaxy）",
+          "rawText": "处理器：第三代骁龙 8 移动平台（for Galaxy）",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "screenSize": {
+          "value": 6.8,
+          "unit": "inch",
+          "rawText": "显示屏直角尺寸：6.8 英寸",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "displayType": {
+          "value": "第二代动态 AMOLED",
+          "rawText": "显示屏类型：第二代动态 AMOLED",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "resolution": {
+          "value": "3120x1440",
+          "rawText": "显示屏分辨率：3120x1440",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "最高刷新率：120Hz",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "weight": {
+          "value": 232,
+          "unit": "g",
+          "rawText": "重量：232 克",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "memory": {
+          "value": "12GB",
+          "rawText": "运行内存：12GB",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "机身存储：256GB / 512GB / 1TB",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "rearCamera": {
+          "value": "2 亿像素主摄 + 1200 万像素超广角 + 5000 万像素长焦 + 1000 万像素长焦",
+          "rawText": "2 亿像素主摄 + 1200 万像素超广角 + 5000 万像素长焦 + 1000 万像素长焦",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "mainCamera": {
+          "value": "200MP（2 亿像素）主摄",
+          "rawText": "广角主摄：2 亿像素",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "telephoto": {
+          "value": "5000 万像素 5 倍长焦 + 1000 万像素 3 倍长焦",
+          "rawText": "5000 万像素 5 倍长焦 + 1000 万像素 3 倍长焦",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "frontCamera": {
+          "value": "1200 万像素",
+          "rawText": "前置摄像头：1200 万像素",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "batteryLife": {
+          "value": "5000mAh",
+          "rawText": "电池典型容量：5000mAh",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "USB 接口：USB Type-C",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "launchPrice": {
+          "value": 9699,
+          "unit": "CNY",
+          "rawText": "中国大陆厂商建议零售价 9699 元起",
+          "sourceUrl": "https://www.samsung.com.cn/news/product/samsung-galaxy-s24-series-in-china/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，国行版本",
+          "condition": "中国大陆首发厂商建议零售价"
+        }
+      },
+      "computed": {
+        "generationUpgradeMagnitude": {
+          "value": null,
+          "comparedTo": null,
+          "changeSummary": "该设备为当前比较组第一代，无可对比前代",
+          "scoreBreakdown": "无对比前代",
+          "confidence": 0,
+          "computedAt": "2026-09-07",
+          "sourceType": "computed",
+          "verifiedAt": "2026-09-07"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-s25-ultra-2025",
+      "brand": "Samsung",
+      "market": "CN",
+      "category": "phone",
+      "series": "Samsung Galaxy S Ultra",
+      "family": "Samsung Galaxy S Ultra",
+      "variant": "standard",
+      "modelName": "Samsung Galaxy S25 Ultra",
+      "generation": "S25 Ultra",
+      "generationOrder": 2,
+      "releaseYear": 2025,
+      "releaseDate": "2025-02-14",
+      "comparisonGroupId": "samsung.phone.galaxy-s-ultra.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB"
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB"
+        }
+      ],
+      "benchmarks": [
+        {
+          "provider": "DXOMARK",
+          "metric": "camera",
+          "score": 151,
+          "protocolVersion": "Camera v5",
+          "sourceUrl": "https://www.dxomark.com/samsung-galaxy-s25-ultra-camera-test/",
+          "verifiedAt": "2026-09-07"
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "骁龙 8 至尊版移动平台（for Galaxy）",
+          "rawText": "处理器：骁龙 8 至尊版移动平台（for Galaxy）",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "screenSize": {
+          "value": 6.9,
+          "unit": "inch",
+          "rawText": "显示屏直角尺寸：6.9 英寸",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "displayType": {
+          "value": "第二代动态 AMOLED",
+          "rawText": "显示屏类型：第二代动态 AMOLED",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "resolution": {
+          "value": "3120x1440",
+          "rawText": "显示屏分辨率：3120x1440",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "最高刷新率：120Hz",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "weight": {
+          "value": 218,
+          "unit": "g",
+          "rawText": "重量：218 克",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存：12GB / 16GB",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "机身存储：256GB / 512GB / 1TB",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "rearCamera": {
+          "value": "2 亿像素主摄 + 5000 万像素超广角 + 5000 万像素长焦 + 1000 万像素长焦",
+          "rawText": "2 亿像素主摄 + 5000 万像素超广角 + 5000 万像素长焦 + 1000 万像素长焦",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "mainCamera": {
+          "value": "200MP（2 亿像素）主摄",
+          "rawText": "广角主摄：2 亿像素",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "telephoto": {
+          "value": "5000 万像素 5 倍长焦 + 1000 万像素 3 倍长焦",
+          "rawText": "5000 万像素 5 倍长焦 + 1000 万像素 3 倍长焦",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "frontCamera": {
+          "value": "1200 万像素",
+          "rawText": "前置摄像头：1200 万像素",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "batteryLife": {
+          "value": "5000mAh",
+          "rawText": "电池典型容量：5000mAh",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "USB 接口：USB Type-C",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "launchPrice": {
+          "value": 9699,
+          "unit": "CNY",
+          "rawText": "中国大陆厂商建议零售价 9699 元起",
+          "sourceUrl": "https://www.samsung.com.cn/news/product/galaxy-s25-ai/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，国行版本",
+          "condition": "中国大陆首发厂商建议零售价"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "samsung-galaxy-s26-ultra-2026",
+      "brand": "Samsung",
+      "market": "CN",
+      "category": "phone",
+      "series": "Samsung Galaxy S Ultra",
+      "family": "Samsung Galaxy S Ultra",
+      "variant": "standard",
+      "modelName": "Samsung Galaxy S26 Ultra",
+      "generation": "S26 Ultra",
+      "generationOrder": 3,
+      "releaseYear": 2026,
+      "releaseDate": "2026-03-05",
+      "comparisonGroupId": "samsung.phone.galaxy-s-ultra.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB"
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB"
+        }
+      ],
+      "benchmarks": [
+        {
+          "provider": "DXOMARK",
+          "metric": "camera",
+          "score": 157,
+          "protocolVersion": "Camera v6",
+          "sourceUrl": "https://www.dxomark.com/samsung-galaxy-s26-ultra-camera-test/",
+          "verifiedAt": "2026-09-07"
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "第五代骁龙 8 至尊版移动平台（for Galaxy）",
+          "rawText": "处理器：第五代骁龙 8 至尊版移动平台（for Galaxy）",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "screenSize": {
+          "value": 6.9,
+          "unit": "inch",
+          "rawText": "显示屏直角尺寸：6.9 英寸",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "displayType": {
+          "value": "第二代动态 AMOLED",
+          "rawText": "显示屏类型：第二代动态 AMOLED",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "resolution": {
+          "value": "3120x1440",
+          "rawText": "显示屏分辨率：3120x1440",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "最高刷新率：120Hz",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "weight": {
+          "value": 214,
+          "unit": "g",
+          "rawText": "重量：214 克",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存：12GB / 16GB",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "机身存储：256GB / 512GB / 1TB",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "rearCamera": {
+          "value": "2 亿像素主摄 + 5000 万像素超广角 + 5000 万像素长焦 + 1000 万像素长焦",
+          "rawText": "2 亿像素主摄 + 5000 万像素超广角 + 5000 万像素长焦 + 1000 万像素长焦",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "mainCamera": {
+          "value": "200MP（2 亿像素）主摄",
+          "rawText": "广角主摄：2 亿像素",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "telephoto": {
+          "value": "5000 万像素 5 倍长焦 + 1000 万像素 3 倍长焦",
+          "rawText": "5000 万像素 5 倍长焦 + 1000 万像素 3 倍长焦",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "frontCamera": {
+          "value": "1200 万像素",
+          "rawText": "前置摄像头：1200 万像素",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "batteryLife": {
+          "value": "5000mAh",
+          "rawText": "电池典型容量：5000mAh",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "USB 接口：USB Type-C",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "launchPrice": {
+          "value": 9999,
+          "unit": "CNY",
+          "rawText": "中国大陆厂商建议零售价 9999 元起",
+          "sourceUrl": "https://www.samsung.com.cn/news/product/galaxy-s26/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，国行版本",
+          "condition": "中国大陆首发厂商建议零售价"
+        }
+      },
+      "computed": {}
+    }
+  ]
+}

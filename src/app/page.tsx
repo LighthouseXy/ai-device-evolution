@@ -131,7 +131,7 @@ export default function Home() {
                 预测<span className="amber">未来</span>
               </h1>
               <p className="home-hero-desc">
-                基于真实本地数据库，串联设备库、代际对比、趋势观察和 AI 顾问；现已接入 Apple、Xiaomi、OPPO、vivo、Huawei 与 HONOR 中国大陆设备数据。
+                基于真实本地数据库，串联设备库、代际对比、趋势观察和 AI 顾问；现已接入 Apple、Xiaomi、OPPO、vivo、Huawei、HONOR 与 Samsung 中国大陆设备数据。
               </p>
 
               <div className="home-hero-actions">

@@ -205,4 +205,21 @@ assert.deepEqual(
   "verified HONOR Magic Pro current-price snapshots should remain available",
 );
 
-console.log("Passed compare configuration scenarios: shared_storage_options, latest_configuration_label, memory_table_value, mainstream_cap, latest_device_options, legacy_highest_only, legacy_price_visible, multi_configuration_prices, ipad_memory_tiers, macbook_independent_options, explicit_second_brand_configurations, xiaomi_used_prices, oppo_official_configurations, vivo_official_configurations, domestic_ultra_used_prices, huawei_pura_ultra_pilot, huawei_pura_prices, honor_magic_pro_pilot, honor_magic_prices");
+const samsungGalaxySUltra = getDevicesByComparisonGroupKeyFlat("samsung.phone.galaxy-s-ultra.standard");
+assert.equal(samsungGalaxySUltra.length, 3, "the Samsung pilot should include the latest three Galaxy S Ultra generations");
+assert.deepEqual(getSharedStorageOptions(samsungGalaxySUltra), ["256GB", "512GB", "1TB"]);
+assert.equal(formatLatestConfigurationOption(samsungGalaxySUltra, "512GB"), "12GB + 512GB");
+assert.deepEqual(
+  getDeviceConfigurations(devices.get("samsung-galaxy-s26-ultra-2026")).map((configuration) => configuration.key),
+  ["12GB|256GB", "12GB|512GB", "16GB|1TB"],
+  "Samsung Galaxy S26 Ultra configurations must preserve official China variants",
+);
+assert.deepEqual(
+  ["samsung-galaxy-s24-ultra-2024", "samsung-galaxy-s25-ultra-2025", "samsung-galaxy-s26-ultra-2026"]
+    .map((id) => devices.get(id).benchmarks[0].score),
+  [144, 151, 157],
+  "Samsung DXOMARK scores must keep their protocol-specific values",
+);
+assert.equal(devices.get("samsung-galaxy-s26-ultra-2026").mainCameraMp, 200);
+
+console.log("Passed compare configuration scenarios: shared_storage_options, latest_configuration_label, memory_table_value, mainstream_cap, latest_device_options, legacy_highest_only, legacy_price_visible, multi_configuration_prices, ipad_memory_tiers, macbook_independent_options, explicit_second_brand_configurations, xiaomi_used_prices, oppo_official_configurations, vivo_official_configurations, domestic_ultra_used_prices, huawei_pura_ultra_pilot, huawei_pura_prices, honor_magic_pro_pilot, honor_magic_prices, samsung_galaxy_s_ultra_pilot");
