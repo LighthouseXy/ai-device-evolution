@@ -1,0 +1,530 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "totalDevices": 3,
+    "generatedAt": "2026-09-07"
+  },
+  "devices": [
+    {
+      "id": "honor-magic6-pro-2024",
+      "brand": "HONOR",
+      "market": "CN",
+      "category": "phone",
+      "series": "荣耀 Magic Pro",
+      "family": "荣耀 Magic Pro",
+      "variant": "standard",
+      "modelName": "荣耀 Magic6 Pro",
+      "generation": "Magic6 Pro",
+      "generationOrder": 1,
+      "releaseYear": 2024,
+      "releaseDate": "2024-01-18",
+      "comparisonGroupId": "honor.phone.magic-pro.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB"
+        }
+      ],
+      "benchmarks": [
+        {
+          "provider": "DXOMARK",
+          "metric": "camera",
+          "score": 158,
+          "protocolVersion": "Camera v5",
+          "sourceUrl": "https://www.dxomark.com/honor-magic6-pro-camera-test/",
+          "verifiedAt": "2026-09-07"
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通 第三代骁龙 8",
+          "rawText": "处理器：高通 第三代骁龙 8",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic6-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "screenSize": {
+          "value": 6.8,
+          "unit": "inch",
+          "rawText": "屏幕尺寸：6.8 英寸",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic6-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "displayType": {
+          "value": "LTPO OLED",
+          "rawText": "屏幕类型：LTPO OLED，支持 1-120Hz 自适应刷新率",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic6-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "resolution": {
+          "value": "2800x1280",
+          "rawText": "屏幕分辨率：2800x1280",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic6-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "支持 1-120Hz 自适应刷新率",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic6-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "weight": {
+          "value": 229,
+          "unit": "g",
+          "rawText": "重量约 229 克",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic6-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存：12GB / 16GB",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic6-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "机身存储：256GB / 512GB / 1TB",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic6-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "rearCamera": {
+          "value": "5000 万像素主摄 + 5000 万像素超广角 + 1.8 亿像素长焦",
+          "rawText": "5000 万像素主摄 + 5000 万像素超广角 + 1.8 亿像素长焦",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic6-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "mainCamera": {
+          "value": "50MP（5000 万像素）主摄",
+          "rawText": "50MP（5000 万像素）主摄",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic6-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "telephoto": {
+          "value": "180MP（1.8 亿像素）潜望式长焦",
+          "rawText": "180MP（1.8 亿像素）潜望式长焦",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic6-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "frontCamera": {
+          "value": "5000 万像素",
+          "rawText": "前置摄像头：5000 万像素",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic6-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "batteryLife": {
+          "value": "5600mAh",
+          "rawText": "电池典型容量：5600mAh",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic6-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "数据线接口：USB Type-C",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic6-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "launchPrice": {
+          "value": 5699,
+          "unit": "CNY",
+          "rawText": "荣耀 Magic6 Pro 售价 5699 元起",
+          "sourceUrl": "https://www.honor.com/cn/news/honor-magic6-launch/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，中国大陆全网通版本",
+          "condition": "中国大陆官方首发价"
+        }
+      },
+      "computed": {
+        "generationUpgradeMagnitude": {
+          "value": null,
+          "comparedTo": null,
+          "changeSummary": "该设备为当前比较组第一代，无可对比前代",
+          "scoreBreakdown": "无对比前代",
+          "confidence": 0,
+          "computedAt": "2026-09-07",
+          "sourceType": "computed",
+          "verifiedAt": "2026-09-07"
+        }
+      }
+    },
+    {
+      "id": "honor-magic7-pro-2024",
+      "brand": "HONOR",
+      "market": "CN",
+      "category": "phone",
+      "series": "荣耀 Magic Pro",
+      "family": "荣耀 Magic Pro",
+      "variant": "standard",
+      "modelName": "荣耀 Magic7 Pro",
+      "generation": "Magic7 Pro",
+      "generationOrder": 2,
+      "releaseYear": 2024,
+      "releaseDate": "2024-11-08",
+      "comparisonGroupId": "honor.phone.magic-pro.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB"
+        }
+      ],
+      "benchmarks": [
+        {
+          "provider": "DXOMARK",
+          "metric": "camera",
+          "score": 148,
+          "protocolVersion": "Camera v6",
+          "sourceUrl": "https://www.dxomark.com/honor-magic7-pro-camera-test-retested/",
+          "verifiedAt": "2026-09-07"
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通 骁龙 8 至尊版",
+          "rawText": "处理器：高通 骁龙 8 至尊版",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic7-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "screenSize": {
+          "value": 6.8,
+          "unit": "inch",
+          "rawText": "屏幕尺寸：6.8 英寸",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic7-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "displayType": {
+          "value": "LTPO OLED",
+          "rawText": "屏幕类型：LTPO OLED，支持 1-120Hz 自适应刷新率",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic7-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "resolution": {
+          "value": "2800x1280",
+          "rawText": "屏幕分辨率：2800x1280",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic7-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "支持 1-120Hz 自适应刷新率",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic7-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "weight": {
+          "value": 223,
+          "unit": "g",
+          "rawText": "重量约 223 克",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic7-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存：12GB / 16GB",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic7-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "机身存储：256GB / 512GB / 1TB",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic7-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "rearCamera": {
+          "value": "5000 万像素主摄 + 5000 万像素超广角 + 2 亿像素长焦",
+          "rawText": "5000 万像素主摄 + 5000 万像素超广角 + 2 亿像素长焦",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic7-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "mainCamera": {
+          "value": "50MP（5000 万像素）主摄",
+          "rawText": "50MP（5000 万像素）主摄",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic7-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "telephoto": {
+          "value": "200MP（2 亿像素）潜望式长焦",
+          "rawText": "200MP（2 亿像素）潜望式长焦",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic7-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "frontCamera": {
+          "value": "5000 万像素",
+          "rawText": "前置摄像头：5000 万像素",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic7-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "batteryLife": {
+          "value": "5850mAh",
+          "rawText": "电池典型容量：5850mAh",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic7-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "数据线接口：USB Type-C",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic7-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "launchPrice": {
+          "value": 5699,
+          "unit": "CNY",
+          "rawText": "荣耀 Magic7 Pro 售价 5699 元起",
+          "sourceUrl": "https://www.honor.com/cn/news/honor-magic7-launch/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，中国大陆全网通版本",
+          "condition": "中国大陆官方首发价"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "honor-magic8-pro-2025",
+      "brand": "HONOR",
+      "market": "CN",
+      "category": "phone",
+      "series": "荣耀 Magic Pro",
+      "family": "荣耀 Magic Pro",
+      "variant": "standard",
+      "modelName": "荣耀 Magic8 Pro",
+      "generation": "Magic8 Pro",
+      "generationOrder": 3,
+      "releaseYear": 2025,
+      "releaseDate": "2025-10-23",
+      "comparisonGroupId": "honor.phone.magic-pro.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "512GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB"
+        }
+      ],
+      "benchmarks": [
+        {
+          "provider": "DXOMARK",
+          "metric": "camera",
+          "score": 164,
+          "protocolVersion": "Camera v6",
+          "sourceUrl": "https://www.dxomark.com/honor-magic8-pro-camera-test/",
+          "verifiedAt": "2026-09-07"
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通 第五代骁龙 8 至尊版",
+          "rawText": "处理器：高通 第五代骁龙 8 至尊版",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic8-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "screenSize": {
+          "value": 6.71,
+          "unit": "inch",
+          "rawText": "屏幕尺寸：6.71 英寸",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic8-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "displayType": {
+          "value": "LTPO OLED",
+          "rawText": "屏幕类型：LTPO OLED，支持 1-120Hz 自适应刷新率",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic8-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "resolution": {
+          "value": "2808x1256",
+          "rawText": "屏幕分辨率：2808x1256",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic8-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "支持 1-120Hz 自适应刷新率",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic8-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "weight": {
+          "value": 219,
+          "unit": "g",
+          "rawText": "重量约 219 克",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic8-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存：12GB / 16GB",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic8-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "storage": {
+          "value": "512GB / 1TB",
+          "rawText": "机身存储：512GB / 1TB",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic8-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "rearCamera": {
+          "value": "5000 万像素主摄 + 5000 万像素超广角 + 2 亿像素长焦",
+          "rawText": "5000 万像素主摄 + 5000 万像素超广角 + 2 亿像素长焦",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic8-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "mainCamera": {
+          "value": "50MP（5000 万像素）主摄",
+          "rawText": "50MP（5000 万像素）主摄",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic8-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "telephoto": {
+          "value": "200MP（2 亿像素）潜望式长焦",
+          "rawText": "200MP（2 亿像素）潜望式长焦",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic8-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "frontCamera": {
+          "value": "5000 万像素",
+          "rawText": "前置摄像头：5000 万像素",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic8-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "batteryLife": {
+          "value": "7200mAh",
+          "rawText": "电池典型容量：7200mAh",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic8-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "数据线接口：USB Type-C",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic8-pro/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "launchPrice": {
+          "value": 5699,
+          "unit": "CNY",
+          "rawText": "荣耀 Magic8 Pro 售价 5699 元起",
+          "sourceUrl": "https://www.honor.com/cn/news/honor-magic8-launch/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 512GB 存储，中国大陆全网通版本",
+          "condition": "中国大陆官方首发价"
+        }
+      },
+      "computed": {}
+    }
+  ]
+}

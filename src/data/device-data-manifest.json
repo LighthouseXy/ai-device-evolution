@@ -35,6 +35,13 @@
       "market": "CN",
       "devices": "huawei-devices-db.json",
       "sources": "huawei-sources.json"
+    },
+    {
+      "id": "honor-magic-pro-cn-pilot",
+      "brand": "HONOR",
+      "market": "CN",
+      "devices": "honor-devices-db.json",
+      "sources": "honor-sources.json"
     }
   ],
   "publishers": [
@@ -89,6 +96,12 @@
       "name": "Huawei",
       "sourceType": "official",
       "hosts": ["consumer.huawei.com", "feeds-drcn.cloud.huawei.com.cn"]
+    },
+    {
+      "id": "honor",
+      "name": "HONOR",
+      "sourceType": "official",
+      "hosts": ["www.honor.com"]
     }
   ]
 }

@@ -176,5 +176,15 @@ assert.deepEqual(
   [2899, 4749],
   "verified HUAWEI Pura Ultra used-price snapshots should remain available",
 );
+assert.deepEqual(
+  devices.get("honor-magic8-pro-2025").configurations,
+  [{ memory: "12GB", storage: "512GB" }, { memory: "16GB", storage: "512GB" }, { memory: "16GB", storage: "1TB" }],
+  "HONOR Magic8 Pro configurations must preserve official China variants",
+);
+assert.deepEqual(
+  ["honor-magic6-pro-2024", "honor-magic7-pro-2024", "honor-magic8-pro-2025"].map((id) => devices.get(id).benchmarks[0].score),
+  [158, 148, 164],
+  "HONOR DXOMARK scores must keep their protocol-specific values",
+);
 
-console.log("Passed compare configuration scenarios: shared_storage_options, latest_configuration_label, memory_table_value, mainstream_cap, latest_device_options, legacy_highest_only, legacy_price_visible, multi_configuration_prices, ipad_memory_tiers, macbook_independent_options, explicit_second_brand_configurations, xiaomi_used_prices, oppo_official_configurations, vivo_official_configurations, domestic_ultra_used_prices, huawei_pura_ultra_pilot, huawei_pura_used_prices");
+console.log("Passed compare configuration scenarios: shared_storage_options, latest_configuration_label, memory_table_value, mainstream_cap, latest_device_options, legacy_highest_only, legacy_price_visible, multi_configuration_prices, ipad_memory_tiers, macbook_independent_options, explicit_second_brand_configurations, xiaomi_used_prices, oppo_official_configurations, vivo_official_configurations, domestic_ultra_used_prices, huawei_pura_ultra_pilot, huawei_pura_used_prices, honor_magic_pro_pilot");

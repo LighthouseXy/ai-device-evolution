@@ -2,7 +2,7 @@
   "metadata": {
     "version": "1.0",
     "generatedAt": "2026-09-07",
-    "totalDevices": 144
+    "totalDevices": 147
   },
   "devices": [
     {
@@ -2788,6 +2788,57 @@
       "sourceStatus": "verified",
       "notes": "规格、配置与首发价取自华为中国官网及中文支持页；处理器由华为香港官方规格页补充；相机评分取自 DXOMARK Camera v6。",
       "brand": "Huawei",
+      "market": "CN"
+    },
+    {
+      "id": "honor-magic6-pro-2024",
+      "modelName": "荣耀 Magic6 Pro",
+      "generation": "Magic6 Pro",
+      "releaseYear": 2024,
+      "sourcePageType": "official_spec_price_and_reference_benchmark",
+      "officialSpecUrl": "https://www.honor.com/cn/phones/honor-magic6-pro/",
+      "supportUrl": null,
+      "newsroomUrl": "https://www.honor.com/cn/news/honor-magic6-launch/",
+      "referenceUrls": [
+        "https://www.dxomark.com/honor-magic6-pro-camera-test/"
+      ],
+      "sourceStatus": "verified",
+      "notes": "规格、配置与中国大陆首发价取自荣耀中国官网；相机评分取自 DXOMARK Camera v5。",
+      "brand": "HONOR",
+      "market": "CN"
+    },
+    {
+      "id": "honor-magic7-pro-2024",
+      "modelName": "荣耀 Magic7 Pro",
+      "generation": "Magic7 Pro",
+      "releaseYear": 2024,
+      "sourcePageType": "official_spec_price_and_reference_benchmark",
+      "officialSpecUrl": "https://www.honor.com/cn/phones/honor-magic7-pro/",
+      "supportUrl": null,
+      "newsroomUrl": "https://www.honor.com/cn/news/honor-magic7-launch/",
+      "referenceUrls": [
+        "https://www.dxomark.com/honor-magic7-pro-camera-test-retested/"
+      ],
+      "sourceStatus": "verified",
+      "notes": "规格、配置与中国大陆首发价取自荣耀中国官网；相机评分取自 DXOMARK Camera v6。",
+      "brand": "HONOR",
+      "market": "CN"
+    },
+    {
+      "id": "honor-magic8-pro-2025",
+      "modelName": "荣耀 Magic8 Pro",
+      "generation": "Magic8 Pro",
+      "releaseYear": 2025,
+      "sourcePageType": "official_spec_price_and_reference_benchmark",
+      "officialSpecUrl": "https://www.honor.com/cn/phones/honor-magic8-pro/",
+      "supportUrl": null,
+      "newsroomUrl": "https://www.honor.com/cn/news/honor-magic8-launch/",
+      "referenceUrls": [
+        "https://www.dxomark.com/honor-magic8-pro-camera-test/"
+      ],
+      "sourceStatus": "verified",
+      "notes": "规格、配置与中国大陆首发价取自荣耀中国官网；相机评分取自 DXOMARK Camera v6。",
+      "brand": "HONOR",
       "market": "CN"
     }
   ]
