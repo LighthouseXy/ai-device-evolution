@@ -139,4 +139,14 @@ assert.equal(
   "Chinese 2 亿像素 wording should normalize to 200MP for comparison",
 );
 
-console.log("Passed compare configuration scenarios: shared_storage_options, latest_configuration_label, memory_table_value, mainstream_cap, latest_device_options, legacy_highest_only, legacy_price_visible, multi_configuration_prices, ipad_memory_tiers, macbook_independent_options, explicit_second_brand_configurations, xiaomi_used_prices, oppo_official_configurations");
+const vivoXUltra = getDevicesByComparisonGroupKeyFlat("vivo.phone.x-ultra.standard");
+assert.equal(vivoXUltra.length, 3, "the vivo pilot should include every released X Ultra generation");
+assert.deepEqual(getSharedStorageOptions(vivoXUltra), ["256GB", "512GB", "1TB"]);
+assert.deepEqual(
+  getDeviceConfigurations(devices.get("vivo-x300-ultra-2026")).map((configuration) => configuration.key),
+  ["12GB|256GB", "12GB|512GB", "16GB|512GB", "16GB|1TB"],
+  "vivo configurations must preserve the official memory and storage combinations",
+);
+assert.equal(devices.get("vivo-x300-ultra-2026").mainCameraMp, 200);
+
+console.log("Passed compare configuration scenarios: shared_storage_options, latest_configuration_label, memory_table_value, mainstream_cap, latest_device_options, legacy_highest_only, legacy_price_visible, multi_configuration_prices, ipad_memory_tiers, macbook_independent_options, explicit_second_brand_configurations, xiaomi_used_prices, oppo_official_configurations, vivo_official_configurations");

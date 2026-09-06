@@ -21,6 +21,13 @@
       "market": "CN",
       "devices": "oppo-devices-db.json",
       "sources": "oppo-sources.json"
+    },
+    {
+      "id": "vivo-x-ultra-cn-pilot",
+      "brand": "vivo",
+      "market": "CN",
+      "devices": "vivo-devices-db.json",
+      "sources": "vivo-sources.json"
     }
   ],
   "publishers": [
@@ -63,6 +70,12 @@
       "name": "OPPO",
       "sourceType": "official",
       "hosts": ["www.oppo.com"]
+    },
+    {
+      "id": "vivo",
+      "name": "vivo",
+      "sourceType": "official",
+      "hosts": ["www.vivo.com.cn"]
     }
   ]
 }

@@ -1,0 +1,525 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "totalDevices": 3,
+    "generatedAt": "2026-09-07"
+  },
+  "devices": [
+    {
+      "id": "vivo-x100-ultra-2024",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "phone",
+      "series": "vivo X Ultra",
+      "family": "vivo X Ultra",
+      "variant": "standard",
+      "modelName": "vivo X100 Ultra",
+      "generation": "X100 Ultra",
+      "generationOrder": 1,
+      "releaseYear": 2024,
+      "releaseDate": "2024-05-28",
+      "comparisonGroupId": "vivo.phone.x-ultra.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB"
+        }
+      ],
+      "benchmarks": [],
+      "specs": {
+        "chip": {
+          "value": "高通 第三代骁龙 8",
+          "rawText": "CPU 型号：高通 第三代骁龙 8",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "screenSize": {
+          "value": 6.78,
+          "unit": "inch",
+          "rawText": "屏幕尺寸：6.78 英寸",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "displayType": {
+          "value": "AMOLED",
+          "rawText": "屏幕材质：AMOLED",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "resolution": {
+          "value": "3200x1440",
+          "rawText": "分辨率：3200x1440",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "最高支持 120Hz 刷新率",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "weight": {
+          "value": 229,
+          "unit": "g",
+          "rawText": "机身重量：229g",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存：12GB / 16GB",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "机身存储：256GB / 512GB / 1TB",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "rearCamera": {
+          "value": "5000 万像素主摄 + 2 亿像素长焦 + 5000 万像素超广角",
+          "rawText": "后置摄像头像素：5000 万像素主摄 + 2 亿像素长焦 + 5000 万像素超广角",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "mainCamera": {
+          "value": "50MP（5000 万像素）23mm 主摄",
+          "rawText": "50MP（5000 万像素）23mm 主摄",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "telephoto": {
+          "value": "200MP（2 亿像素）85mm 长焦",
+          "rawText": "200MP（2 亿像素）85mm 长焦",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "frontCamera": {
+          "value": "5000 万像素",
+          "rawText": "前置摄像头像素：5000 万像素",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "batteryLife": {
+          "value": "5500mAh",
+          "rawText": "电池典型容量：5500mAh",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "USB 接口类型：Type-C",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "launchPrice": {
+          "value": 6499,
+          "unit": "CNY",
+          "rawText": "vivo X100 Ultra（12GB+256GB）：6499.00元",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，中国大陆全网通版本",
+          "condition": "中国大陆官方建议零售价"
+        }
+      },
+      "computed": {
+        "generationUpgradeMagnitude": {
+          "value": null,
+          "comparedTo": null,
+          "changeSummary": "该设备为当前比较组第一代，无可对比前代",
+          "scoreBreakdown": "无对比前代",
+          "confidence": 0,
+          "computedAt": "2026-09-07",
+          "sourceType": "computed",
+          "verifiedAt": "2026-09-07"
+        }
+      }
+    },
+    {
+      "id": "vivo-x200-ultra-2025",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "phone",
+      "series": "vivo X Ultra",
+      "family": "vivo X Ultra",
+      "variant": "standard",
+      "modelName": "vivo X200 Ultra",
+      "generation": "X200 Ultra",
+      "generationOrder": 2,
+      "releaseYear": 2025,
+      "releaseDate": "2025-04-29",
+      "comparisonGroupId": "vivo.phone.x-ultra.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB"
+        }
+      ],
+      "benchmarks": [
+        {
+          "provider": "DXOMARK",
+          "metric": "camera",
+          "score": 167,
+          "protocolVersion": "Camera v6",
+          "sourceUrl": "https://www.dxomark.com/vivo-x200-ultra-camera-test/",
+          "verifiedAt": "2026-09-07"
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通 骁龙 8 至尊版",
+          "rawText": "CPU 型号：高通 骁龙 8 至尊版",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "screenSize": {
+          "value": 6.82,
+          "unit": "inch",
+          "rawText": "屏幕尺寸：6.82 英寸",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "displayType": {
+          "value": "AMOLED",
+          "rawText": "屏幕材质：AMOLED",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "resolution": {
+          "value": "3168x1440",
+          "rawText": "分辨率：3168x1440",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "最高支持 120Hz 刷新率",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "weight": {
+          "value": 232,
+          "unit": "g",
+          "rawText": "机身重量：232g",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存：12GB / 16GB",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "机身存储：256GB / 512GB / 1TB",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "rearCamera": {
+          "value": "5000 万像素 35mm 主摄 + 2 亿像素 85mm 长焦 + 5000 万像素 14mm 超广角",
+          "rawText": "后置摄像头像素：5000 万像素 35mm 主摄 + 2 亿像素 85mm 长焦 + 5000 万像素 14mm 超广角",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "mainCamera": {
+          "value": "50MP（5000 万像素）35mm 主摄",
+          "rawText": "50MP（5000 万像素）35mm 主摄",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "telephoto": {
+          "value": "200MP（2 亿像素）85mm 长焦",
+          "rawText": "200MP（2 亿像素）85mm 长焦",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "frontCamera": {
+          "value": "5000 万像素",
+          "rawText": "前置摄像头像素：5000 万像素",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "batteryLife": {
+          "value": "6000mAh",
+          "rawText": "电池典型容量：6000mAh",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "USB 接口类型：Type-C",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "launchPrice": {
+          "value": 6499,
+          "unit": "CNY",
+          "rawText": "vivo X200 Ultra（12GB+256GB）：6499.00元",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，中国大陆全网通版本",
+          "condition": "中国大陆官方建议零售价"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "vivo-x300-ultra-2026",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "phone",
+      "series": "vivo X Ultra",
+      "family": "vivo X Ultra",
+      "variant": "standard",
+      "modelName": "vivo X300 Ultra",
+      "generation": "X300 Ultra",
+      "generationOrder": 3,
+      "releaseYear": 2026,
+      "releaseDate": "2026-04-03",
+      "comparisonGroupId": "vivo.phone.x-ultra.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB"
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB"
+        }
+      ],
+      "benchmarks": [
+        {
+          "provider": "DXOMARK",
+          "metric": "camera",
+          "score": 170,
+          "protocolVersion": "Camera v6",
+          "sourceUrl": "https://www.dxomark.com/vivo-x300-ultra-camera-test/",
+          "verifiedAt": "2026-09-07"
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通 第五代骁龙 8 至尊版",
+          "rawText": "CPU 型号：高通 第五代骁龙 8 至尊版",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "screenSize": {
+          "value": 6.82,
+          "unit": "inch",
+          "rawText": "屏幕尺寸：6.82 英寸",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "displayType": {
+          "value": "AMOLED",
+          "rawText": "屏幕材质：AMOLED",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "resolution": {
+          "value": "3168x1440",
+          "rawText": "分辨率：3168x1440",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "最高支持 144Hz 刷新率",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "weight": {
+          "value": 232,
+          "unit": "g",
+          "rawText": "机身重量：232g",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存：12GB / 16GB",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "机身存储：256GB / 512GB / 1TB",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "rearCamera": {
+          "value": "2 亿像素 35mm 主摄 + 2 亿像素 85mm 长焦 + 5000 万像素 14mm 超广角",
+          "rawText": "后置摄像头像素：2 亿像素 35mm 主摄 + 2 亿像素 85mm 长焦 + 5000 万像素 14mm 超广角",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "mainCamera": {
+          "value": "200MP（2 亿像素）35mm 主摄",
+          "rawText": "200MP（2 亿像素）35mm 主摄",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "telephoto": {
+          "value": "200MP（2 亿像素）85mm 长焦",
+          "rawText": "200MP（2 亿像素）85mm 长焦",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "frontCamera": {
+          "value": "5000 万像素",
+          "rawText": "前置摄像头像素：5000 万像素",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "batteryLife": {
+          "value": "6600mAh",
+          "rawText": "电池典型容量：6600mAh",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "USB 接口类型：Type-C",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07"
+        },
+        "launchPrice": {
+          "value": 6999,
+          "unit": "CNY",
+          "rawText": "vivo X300 Ultra（12GB+256GB）：6999.00元",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-07",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，中国大陆全网通版本",
+          "condition": "中国大陆官方建议零售价"
+        }
+      },
+      "computed": {}
+    }
+  ]
+}

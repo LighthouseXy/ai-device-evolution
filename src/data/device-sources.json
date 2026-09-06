@@ -2,7 +2,7 @@
   "metadata": {
     "version": "1.0",
     "generatedAt": "2026-09-07",
-    "totalDevices": 139
+    "totalDevices": 142
   },
   "devices": [
     {
@@ -2700,6 +2700,59 @@
       "sourceStatus": "verified",
       "notes": "规格与配置取自 OPPO 中国官网；中国大陆首发价格取自发布报道；相机评分取自 DXOMARK，并保留测试协议版本。",
       "brand": "OPPO",
+      "market": "CN"
+    },
+    {
+      "id": "vivo-x100-ultra-2024",
+      "modelName": "vivo X100 Ultra",
+      "generation": "X100 Ultra",
+      "releaseYear": 2024,
+      "sourcePageType": "official_spec_price_and_reference_benchmark",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+      "supportUrl": null,
+      "newsroomUrl": null,
+      "referenceUrls": [
+        "https://www.ithome.com/0/767/652.htm"
+      ],
+      "sourceStatus": "verified",
+      "notes": "规格、配置与中国大陆官方建议零售价取自 vivo 官网；开售日由发布报道核对；未检索到对应 DXOMARK 相机测试，评分留空。",
+      "brand": "vivo",
+      "market": "CN"
+    },
+    {
+      "id": "vivo-x200-ultra-2025",
+      "modelName": "vivo X200 Ultra",
+      "generation": "X200 Ultra",
+      "releaseYear": 2025,
+      "sourcePageType": "official_spec_price_and_reference_benchmark",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+      "supportUrl": null,
+      "newsroomUrl": null,
+      "referenceUrls": [
+        "https://www.ithome.com/0/849/704.htm",
+        "https://www.dxomark.com/vivo-x200-ultra-camera-test/"
+      ],
+      "sourceStatus": "verified",
+      "notes": "规格、配置与中国大陆官方建议零售价取自 vivo 官网；开售日由发布报道核对；相机评分取自 DXOMARK Camera v6。",
+      "brand": "vivo",
+      "market": "CN"
+    },
+    {
+      "id": "vivo-x300-ultra-2026",
+      "modelName": "vivo X300 Ultra",
+      "generation": "X300 Ultra",
+      "releaseYear": 2026,
+      "sourcePageType": "official_spec_price_and_reference_benchmark",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+      "supportUrl": null,
+      "newsroomUrl": null,
+      "referenceUrls": [
+        "https://www.ithome.com/0/935/594.htm",
+        "https://www.dxomark.com/vivo-x300-ultra-camera-test/"
+      ],
+      "sourceStatus": "verified",
+      "notes": "规格、配置与中国大陆官方建议零售价取自 vivo 官网；开售日由发布报道核对；相机评分取自 DXOMARK Camera v6。",
+      "brand": "vivo",
       "market": "CN"
     }
   ]
