@@ -9,9 +9,12 @@ import {
 import PageHeader from "@/components/layout/PageHeader";
 
 type SearchParams = {
+  brand?: string | string[];
   category?: string | string[];
   q?: string | string[];
 };
+
+const brandNames = Array.from(new Set(allDevicesFlat.map((device) => device.brand)));
 
 const categoryDisplay: Record<(typeof categoryNames)[number], string> = {
   phone: "智能手机",
@@ -22,6 +25,11 @@ const categoryDisplay: Record<(typeof categoryNames)[number], string> = {
 function normalizeCategory(value: string | string[] | undefined) {
   const raw = Array.isArray(value) ? value[0] : value;
   return raw === "phone" || raw === "tablet" || raw === "laptop" ? raw : "all";
+}
+
+function normalizeBrand(value: string | string[] | undefined) {
+  const raw = Array.isArray(value) ? value[0] : value;
+  return raw && brandNames.includes(raw) ? raw : "all";
 }
 
 function normalizeSearchQuery(value: string | string[] | undefined) {
@@ -100,6 +108,7 @@ export default async function DevicesPage({
   searchParams: Promise<SearchParams>;
 }) {
   const resolvedSearchParams = await searchParams;
+  const selectedBrand = normalizeBrand(resolvedSearchParams.brand);
   const selectedCategory = normalizeCategory(resolvedSearchParams.category);
   const searchQuery = normalizeSearchQuery(resolvedSearchParams.q);
   const normalizedSearch = searchQuery.toLocaleLowerCase("zh-CN");
@@ -107,16 +116,22 @@ export default async function DevicesPage({
     selectedCategory === "all"
       ? allDevicesFlat
       : allDevicesFlat.filter((device) => device.category === selectedCategory);
+  const brandDevices =
+    selectedBrand === "all"
+      ? categoryDevices
+      : categoryDevices.filter((device) => device.brand === selectedBrand);
   const visibleDevices = normalizedSearch
-    ? categoryDevices.filter((device) =>
+    ? brandDevices.filter((device) =>
         [device.model, device.series, device.brand, device.chip, categoryDisplay[device.category]]
           .filter(Boolean)
           .some((value) => String(value).toLocaleLowerCase("zh-CN").includes(normalizedSearch)),
       )
-    : categoryDevices;
+    : brandDevices;
 
   const sortedDevices = [...visibleDevices].sort((left, right) => {
     if (right.releaseYear !== left.releaseYear) return right.releaseYear - left.releaseYear;
+    const releaseDateOrder = (right.releaseDate ?? "").localeCompare(left.releaseDate ?? "");
+    if (releaseDateOrder !== 0) return releaseDateOrder;
     if ((right.launchPrice ?? Number.POSITIVE_INFINITY) !== (left.launchPrice ?? Number.POSITIVE_INFINITY)) {
       return (left.launchPrice ?? Number.POSITIVE_INFINITY) - (right.launchPrice ?? Number.POSITIVE_INFINITY);
     }
@@ -157,6 +172,7 @@ export default async function DevicesPage({
                 const active = item.key === selectedCategory;
                 const params = new URLSearchParams();
                 if (item.key !== "all") params.set("category", item.key);
+                if (selectedBrand !== "all") params.set("brand", selectedBrand);
                 if (searchQuery) params.set("q", searchQuery);
                 const href = params.size > 0 ? `/devices?${params.toString()}` : "/devices";
 
@@ -175,6 +191,35 @@ export default async function DevicesPage({
               <span className="tag tag-neutral">结果 {formatCount(sortedDevices.length)} 台</span>
             </div>
           </div>
+          <div className="filter-row">
+            <div className="filter-heading">品牌</div>
+            <div className="filter-pills">
+              {["all", ...brandNames].map((brand) => {
+                const active = brand === selectedBrand;
+                const params = new URLSearchParams();
+                if (selectedCategory !== "all") params.set("category", selectedCategory);
+                if (brand !== "all") params.set("brand", brand);
+                if (searchQuery) params.set("q", searchQuery);
+                const href = params.size > 0 ? `/devices?${params.toString()}` : "/devices";
+                const count =
+                  brand === "all"
+                    ? categoryDevices.length
+                    : categoryDevices.filter((device) => device.brand === brand).length;
+
+                return (
+                  <Link
+                    key={brand}
+                    href={href}
+                    className={`tag ${active ? "tag-green" : "tag-neutral"}`}
+                    aria-current={active ? "page" : undefined}
+                  >
+                    {brand === "all" ? "全部品牌" : brand}
+                    <span className="opacity-70">({formatCount(count)})</span>
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
         </div>
       </section>
 
@@ -190,7 +235,7 @@ export default async function DevicesPage({
             <div className="card p-8 text-center">
               <h2 className="text-2xl text-[var(--text-strong)]">没有找到匹配设备</h2>
               <p className="mt-3 text-sm leading-7 text-[var(--text-muted)]">
-                当前筛选条件下没有设备。你可以切回全部类别，或重新选择其它类别。
+                当前筛选条件下没有设备。你可以切回全部类别、全部品牌，或调整搜索条件。
               </p>
               <div className="mt-6">
                 <Link href="/devices" className="btn btn-primary">
