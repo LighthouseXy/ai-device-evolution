@@ -46,6 +46,16 @@ export function getDeviceMemoryOptions(device: FlattenedDevice) {
 // 只有映射可由设备事实唯一确定时才枚举组合。MacBook 的内存和存储字段
 // 是两组独立选项，不能在缺少配置矩阵时假定任意两档都可组合。
 export function getDeviceConfigurations(device: FlattenedDevice) {
+  if (device.configurations?.length) {
+    return device.configurations
+      .map(({ memory, storage }) => ({ key: configurationKey(memory, storage), memory, storage }))
+      .sort(
+        (left, right) =>
+          capacityInGb(left.storage) - capacityInGb(right.storage)
+          || capacityInGb(left.memory) - capacityInGb(right.memory),
+      );
+  }
+
   const storages = getDeviceStorageOptions(device);
   const memories = getDeviceMemoryOptions(device);
   if (storages.length === 0) return [];
@@ -69,6 +79,7 @@ export function getDeviceConfigurations(device: FlattenedDevice) {
 }
 
 export function getHighestDeviceConfiguration(device: FlattenedDevice) {
+  if (device.configurations?.length) return getDeviceConfigurations(device).at(-1) ?? null;
   const storage = getDeviceStorageOptions(device).at(-1);
   if (!storage) return null;
   const memory = getDeviceMemoryOptions(device).at(-1) ?? null;
@@ -97,6 +108,8 @@ export function getPriceConfiguration(device: FlattenedDevice, price: PriceField
   const memories = getDeviceMemoryOptions(device);
   const memory = explicitMemory
     ? `${explicitMemory[1]}GB`
+    : device.configurations?.length
+      ? device.configurations.find((configuration) => configuration.storage === storage)?.memory ?? null
     : device.category === "tablet" && memories.length > 1
       ? capacityInGb(storage) >= 1024
         ? memories.at(-1) ?? null

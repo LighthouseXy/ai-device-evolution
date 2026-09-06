@@ -7,6 +7,13 @@
       "market": "CN",
       "devices": "apple-devices-db.json",
       "sources": "apple-sources.json"
+    },
+    {
+      "id": "xiaomi-ultra-cn-pilot",
+      "brand": "Xiaomi",
+      "market": "CN",
+      "devices": "xiaomi-devices-db.json",
+      "sources": "xiaomi-sources.json"
     }
   ],
   "publishers": [
@@ -33,8 +40,15 @@
         "item.jd.com",
         "item.m.jd.com",
         "m2.9ji.com",
-        "iosref.com"
+        "iosref.com",
+        "www.dxomark.com"
       ]
+    },
+    {
+      "id": "xiaomi",
+      "name": "Xiaomi",
+      "sourceType": "official",
+      "hosts": ["www.mi.com"]
     }
   ]
 }

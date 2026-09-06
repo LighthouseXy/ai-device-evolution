@@ -44,6 +44,7 @@ type ComparisonField = {
   isNumeric?: boolean;
   isCurrency?: boolean;
   showChange?: boolean;
+  optional?: boolean;
 };
 
 const deviceComparisonFields: ComparisonField[] = [
@@ -84,6 +85,17 @@ const deviceComparisonFields: ComparisonField[] = [
     getValue: (device) =>
       typeof device.mainCameraMp === "number" ? `${device.mainCameraMp}MP` : "待补充",
     isNumeric: true,
+  },
+  {
+    group: "影像",
+    label: "DXOMARK 相机",
+    hint: "不同测试协议的分数不可直接横比",
+    getValue: (device) => {
+      const benchmark = device.benchmarks?.find((item) => item.provider === "DXOMARK" && item.metric === "camera");
+      return benchmark ? `${benchmark.score} 分 · ${benchmark.protocolVersion}` : "待补充";
+    },
+    showChange: false,
+    optional: true,
   },
   { group: "连接", label: "接口", hint: "接口", getValue: (device) => device.port || "待补充" },
   {
@@ -310,7 +322,8 @@ function CompareTable({
   sharedDeviceIds: Set<string>;
   selectedStorage: string;
 }) {
-  const comparisonFields = buildComparisonFields(sharedDeviceIds, selectedStorage);
+  const comparisonFields = buildComparisonFields(sharedDeviceIds, selectedStorage)
+    .filter((field) => !field.optional || devices.some((device) => field.getValue(device) !== "待补充"));
   const groupedFields = Array.from(
     comparisonFields.reduce((groups, field) => {
       const fields = groups.get(field.group) ?? [];

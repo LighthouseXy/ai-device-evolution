@@ -78,6 +78,20 @@ export type ComputedField = {
   verifiedAt: string;
 };
 
+export type DeviceConfiguration = {
+  memory: string;
+  storage: string;
+};
+
+export type DeviceBenchmark = {
+  provider: string;
+  metric: string;
+  score: number;
+  protocolVersion: string;
+  sourceUrl: string;
+  verifiedAt: string;
+};
+
 // 设备 specs 中的字段集合（部分，按需扩展）
 export type DeviceSpecs = {
   chip?: SpecField<string>;
@@ -160,6 +174,8 @@ export type DbDevice = {
   releaseYear: number;
   releaseDate?: string | null;
   comparisonGroupId: string;
+  configurations?: DeviceConfiguration[];
+  benchmarks?: DeviceBenchmark[];
   specs: DeviceSpecs;
   computed: DeviceComputed;
 };
@@ -255,6 +271,7 @@ export const formatMaybeCurrency = (value?: number) =>
 
 export const summaryStats = {
   modelCount: allDevices.length,
+  brandCount: new Set(allDevices.map((d) => d.brand)).size,
   categoryCount: categoryNames.length,
   seriesCount: seriesNames.length,
   startYear: Math.min(...allDevices.map((d) => d.releaseYear)),
@@ -280,6 +297,8 @@ export type FlattenedDevice = {
   releaseYear: number;
   releaseDate?: string | null;
   comparisonGroupId: string;
+  configurations?: DeviceConfiguration[];
+  benchmarks?: DeviceBenchmark[];
   chip: string;
   screenSize?: number;
   refreshRate?: number;
@@ -331,6 +350,8 @@ export function flattenDevice(db: DbDevice): FlattenedDevice {
     releaseYear: db.releaseYear,
     releaseDate: db.releaseDate,
     comparisonGroupId: db.comparisonGroupId,
+    configurations: db.configurations,
+    benchmarks: db.benchmarks,
     chip: specStr(db.specs?.chip),
     screenSize: specNum(db.specs?.screenSize) ?? undefined,
     refreshRate: specNum(db.specs?.refreshRate),

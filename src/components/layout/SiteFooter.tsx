@@ -11,8 +11,8 @@ export default function SiteFooter() {
               <span className="site-footer-title">数码观察站</span>
             </Link>
             <p className="site-footer-desc">
-              聚焦电子设备代际演进、规格对比与 AI 辅助分析的研究平台。当前阶段以 Apple 样本为第一阶段范围，
-              后续会逐步扩展到更多品牌与品类。
+              聚焦电子设备代际演进、规格对比与 AI 辅助分析的研究平台，
+              已从 Apple 样本扩展到首个 Xiaomi Ultra 三代试点。
             </p>
           </div>
 
@@ -37,7 +37,7 @@ export default function SiteFooter() {
 
         <div className="site-footer-bottom">
           <div className="site-footer-note">
-            Apple 仅作为第一阶段样本范围，页面与数据结构会优先保持对多品牌、多品类的可扩展性。
+            多品牌数据按中国大陆市场、明确配置和可追溯来源持续扩充。
           </div>
           <div className="site-footer-chip">
             <span aria-hidden="true">◎</span>

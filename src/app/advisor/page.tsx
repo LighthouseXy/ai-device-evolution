@@ -11,7 +11,7 @@ export default function AdvisorPage() {
         meta={
           <>
             <span className="tag tag-green">真实表单</span>
-            <span className="tag tag-neutral">Apple 样本阶段</span>
+            <span className="tag tag-neutral">多品牌样本</span>
             <span className="tag tag-amber">API 直连</span>
           </>
         }

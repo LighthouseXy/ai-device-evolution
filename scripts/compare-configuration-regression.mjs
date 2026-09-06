@@ -82,4 +82,14 @@ assert.equal(
   "MacBook independent option lists must not be expanded into unverified combinations",
 );
 
-console.log("Passed compare configuration scenarios: shared_storage_options, latest_configuration_label, memory_table_value, mainstream_cap, latest_device_options, legacy_highest_only, legacy_price_visible, multi_configuration_prices, ipad_memory_tiers, macbook_independent_options");
+const xiaomiUltra = getDevicesByComparisonGroupKeyFlat("xiaomi.phone.xiaomi-ultra.standard");
+assert.equal(xiaomiUltra.length, 3, "the second-brand pilot should form one three-generation comparison group");
+assert.deepEqual(
+  getDeviceConfigurations(devices.get("xiaomi-15-ultra-2025")).map((configuration) => configuration.key),
+  ["12GB|256GB", "16GB|512GB", "16GB|1TB"],
+  "explicit configuration matrices must not expand into unsupported memory and storage pairs",
+);
+assert.equal(formatLatestConfigurationOption(xiaomiUltra, "512GB"), "16GB + 512GB");
+assert.equal(getPricesForComparison(devices.get("xiaomi-15-ultra-2025"), "current")[0]?.value, 6499);
+
+console.log("Passed compare configuration scenarios: shared_storage_options, latest_configuration_label, memory_table_value, mainstream_cap, latest_device_options, legacy_highest_only, legacy_price_visible, multi_configuration_prices, ipad_memory_tiers, macbook_independent_options, explicit_second_brand_configurations");

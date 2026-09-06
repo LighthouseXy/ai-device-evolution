@@ -91,6 +91,28 @@ for (const device of devices) {
     assert.equal(device.tier, undefined, `${device.id}: 非 laptop 不应设置 tier`);
   }
 
+  if (device.configurations) {
+    assert.ok(Array.isArray(device.configurations) && device.configurations.length > 0, `${device.id}: configurations 非法`);
+    const configurationKeys = device.configurations.map(({ memory, storage }) => `${memory}|${storage}`);
+    assert.equal(new Set(configurationKeys).size, configurationKeys.length, `${device.id}: configurations 重复`);
+    for (const configuration of device.configurations) {
+      assert.match(configuration.memory, /^\d+(?:\.\d+)?(?:GB|TB)$/, `${device.id}: configuration memory 非法`);
+      assert.match(configuration.storage, /^\d+(?:\.\d+)?(?:GB|TB)$/, `${device.id}: configuration storage 非法`);
+      assert.ok(String(device.specs.memory?.value).includes(configuration.memory), `${device.id}: configuration memory 未登记到 specs`);
+      assert.ok(String(device.specs.storage?.value).includes(configuration.storage), `${device.id}: configuration storage 未登记到 specs`);
+    }
+  }
+
+  for (const benchmark of device.benchmarks ?? []) {
+    assert.ok(benchmark.provider && benchmark.metric && benchmark.protocolVersion, `${device.id}: benchmark 元数据缺失`);
+    assert.ok(Number.isFinite(benchmark.score), `${device.id}: benchmark score 非法`);
+    assert.match(benchmark.verifiedAt, /^\d{4}-\d{2}-\d{2}$/, `${device.id}: benchmark verifiedAt 非法`);
+    assert.ok(
+      trustedHostsByType.get("reference")?.has(new URL(benchmark.sourceUrl).hostname),
+      `${device.id}: benchmark 来源域名不受信任`,
+    );
+  }
+
   for (const key of deprecatedSpecKeys) {
     assert.ok(!Object.hasOwn(device.specs, key), `${device.id}: 禁止使用旧字段 ${key}`);
   }
@@ -192,4 +214,4 @@ const sourceAudit = {
 assert.equal(sourceAudit.supportZhCn + sourceAudit.appleChina + sourceAudit.reference, sourceAudit.specFields, "规格来源必须来自已登记的 Apple 中文页面或受信任第三方");
 
 console.log("sourceAudit", JSON.stringify(sourceAudit));
-console.log(`device taxonomy validation passed: ${devices.length} devices, ${groups.size} groups`);
+console.log(`device taxonomy validation passed: ${devices.length} devices, ${comparisonGroupIdentities.size} groups`);

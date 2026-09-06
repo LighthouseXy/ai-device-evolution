@@ -139,7 +139,7 @@ export default async function DevicesPage({
         title="设备库"
         meta={
           <>
-            <span className="tag tag-green">Apple 样本阶段</span>
+            <span className="tag tag-green">{summaryStatsFlat.brandCount} 个品牌</span>
             <span className="tag tag-neutral">
               {summaryStatsFlat.startYear} - {summaryStatsFlat.endYear}
             </span>

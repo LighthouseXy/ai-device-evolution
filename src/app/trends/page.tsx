@@ -306,7 +306,7 @@ export default async function TrendsPage({
             <span className="tag tag-green">{categoryLabels[selectedCategory]}</span>
             <span className="tag tag-neutral">{selectedSeriesOption?.label ?? "待补充"}</span>
             <span className="tag tag-neutral">{metric.label}</span>
-            <span className="tag tag-amber">Apple 样本阶段</span>
+            <span className="tag tag-amber">多品牌样本</span>
           </>
         }
         showDivider={false}

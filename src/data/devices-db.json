@@ -2,9 +2,10 @@
   "metadata": {
     "version": "2.0",
     "generatedAt": "2026-09-07",
-    "totalDevices": 129,
+    "totalDevices": 132,
     "brands": [
-      "Apple"
+      "Apple",
+      "Xiaomi"
     ],
     "markets": [
       "CN"
@@ -13,6 +14,11 @@
       {
         "id": "apple-cn",
         "brand": "Apple",
+        "market": "CN"
+      },
+      {
+        "id": "xiaomi-ultra-cn-pilot",
+        "brand": "Xiaomi",
         "market": "CN"
       }
     ]
@@ -37241,6 +37247,596 @@
       },
       "market": "CN",
       "comparisonGroupId": "apple.laptop.macbook-neo.13-inch.base"
+    },
+    {
+      "id": "xiaomi-13-ultra-2023",
+      "brand": "Xiaomi",
+      "market": "CN",
+      "category": "phone",
+      "series": "Xiaomi Ultra",
+      "family": "Xiaomi Ultra",
+      "variant": "standard",
+      "modelName": "小米 13 Ultra",
+      "generation": "13",
+      "generationOrder": 1,
+      "releaseYear": 2023,
+      "releaseDate": "2023-04-21",
+      "comparisonGroupId": "xiaomi.phone.xiaomi-ultra.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB"
+        }
+      ],
+      "benchmarks": [
+        {
+          "provider": "DXOMARK",
+          "metric": "camera",
+          "score": 140,
+          "protocolVersion": "Camera v5",
+          "sourceUrl": "https://www.dxomark.com/xiaomi-13-ultra-camera-test/",
+          "verifiedAt": "2026-09-07"
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通 骁龙 8 Gen 2",
+          "rawText": "CPU型号：高通 骁龙 8 Gen 2",
+          "sourceUrl": "https://detail.zol.com.cn/1514/1513122/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "screenSize": {
+          "value": 6.73,
+          "rawText": "屏幕尺寸：6.73英寸",
+          "sourceUrl": "https://detail.zol.com.cn/1514/1513122/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07",
+          "unit": "inch"
+        },
+        "displayType": {
+          "value": "OLED（LTPO）",
+          "rawText": "屏幕材质：OLED（LTPO）",
+          "sourceUrl": "https://detail.zol.com.cn/1514/1513122/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "resolution": {
+          "value": "3200x1440",
+          "rawText": "分辨率：3200x1440px",
+          "sourceUrl": "https://detail.zol.com.cn/1514/1513122/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "refreshRate": {
+          "value": 120,
+          "rawText": "屏幕刷新率：120Hz",
+          "sourceUrl": "https://detail.zol.com.cn/1514/1513122/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07",
+          "unit": "Hz"
+        },
+        "weight": {
+          "value": 227,
+          "rawText": "重量：227g",
+          "sourceUrl": "https://detail.zol.com.cn/1514/1513122/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07",
+          "unit": "g"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "RAM容量：12GB / 16GB",
+          "sourceUrl": "https://detail.zol.com.cn/1514/1513122/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "ROM容量：256GB / 512GB / 1TB",
+          "sourceUrl": "https://detail.zol.com.cn/1514/1513122/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "rearCamera": {
+          "value": "5000 万像素主摄 + 5000 万像素超广角 + 5000 万像素长焦 + 5000 万像素超长焦",
+          "rawText": "后置摄像头：5000 万像素主摄 + 5000 万像素超广角 + 5000 万像素长焦 + 5000 万像素超长焦",
+          "sourceUrl": "https://detail.zol.com.cn/1514/1513122/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "mainCamera": {
+          "value": "5000 万像素",
+          "rawText": "后置主摄：5000万像素",
+          "sourceUrl": "https://detail.zol.com.cn/1514/1513122/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "telephoto": {
+          "value": "5000 万像素 75mm 长焦 + 5000 万像素 120mm 超长焦",
+          "rawText": "5000 万像素 75mm 长焦 + 5000 万像素 120mm 超长焦",
+          "sourceUrl": "https://www.dxomark.com/xiaomi-13-ultra-camera-test/",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-09-07"
+        },
+        "frontCamera": {
+          "value": "3200 万像素",
+          "rawText": "前置摄像头：3200万像素",
+          "sourceUrl": "https://detail.zol.com.cn/1514/1513122/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "batteryLife": {
+          "value": "5000mAh",
+          "rawText": "电池容量：5000mAh",
+          "sourceUrl": "https://detail.zol.com.cn/1514/1513122/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "机身接口：USB Type-C",
+          "sourceUrl": "https://detail.zol.com.cn/1514/1513122/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "waterResistance": {
+          "value": "IP68",
+          "rawText": "防护等级：IP68",
+          "sourceUrl": "https://detail.zol.com.cn/1514/1513122/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "launchPrice": {
+          "value": 5999,
+          "rawText": "12GB/256GB 参考价：￥5999",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10717148_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-09-07",
+          "unit": "CNY",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，中国大陆版本",
+          "condition": "中国大陆首发起售价"
+        },
+        "currentPrice": {
+          "value": 5699,
+          "rawText": "天猫 ¥5699",
+          "sourceUrl": "https://detail.zol.com.cn/1514/1513122/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-09-07",
+          "unit": "CNY",
+          "priceType": "current",
+          "market": "中国大陆",
+          "configuration": "16GB 运行内存 + 512GB 存储，中国大陆版本",
+          "condition": "全新，页面展示电商价",
+          "observedAt": "2026-09-07",
+          "sourceName": "中关村在线电商报价"
+        }
+      },
+      "computed": {
+        "generationUpgradeMagnitude": {
+          "value": null,
+          "comparedTo": null,
+          "changeSummary": "该设备为当前试点比较组第一代，无可对比前代",
+          "scoreBreakdown": "无对比前代",
+          "confidence": 0,
+          "computedAt": "2026-09-07",
+          "sourceType": "computed",
+          "verifiedAt": "2026-09-07"
+        }
+      }
+    },
+    {
+      "id": "xiaomi-14-ultra-2024",
+      "brand": "Xiaomi",
+      "market": "CN",
+      "category": "phone",
+      "series": "Xiaomi Ultra",
+      "family": "Xiaomi Ultra",
+      "variant": "standard",
+      "modelName": "小米 14 Ultra",
+      "generation": "14",
+      "generationOrder": 2,
+      "releaseYear": 2024,
+      "releaseDate": "2024-02-27",
+      "comparisonGroupId": "xiaomi.phone.xiaomi-ultra.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB"
+        }
+      ],
+      "benchmarks": [
+        {
+          "provider": "DXOMARK",
+          "metric": "camera",
+          "score": 149,
+          "protocolVersion": "Camera v5",
+          "sourceUrl": "https://www.dxomark.com/smartphones/Xiaomi/14-Ultra",
+          "verifiedAt": "2026-09-07"
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通 骁龙 8 Gen 3",
+          "rawText": "CPU型号：高通 骁龙 8 Gen 3",
+          "sourceUrl": "https://detail.zol.com.cn/1983/1982924/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "screenSize": {
+          "value": 6.73,
+          "rawText": "屏幕尺寸：6.73英寸",
+          "sourceUrl": "https://detail.zol.com.cn/1983/1982924/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07",
+          "unit": "inch"
+        },
+        "displayType": {
+          "value": "AMOLED",
+          "rawText": "屏幕材质：AMOLED",
+          "sourceUrl": "https://detail.zol.com.cn/1983/1982924/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "resolution": {
+          "value": "3200x1440",
+          "rawText": "分辨率：3200x1440px",
+          "sourceUrl": "https://detail.zol.com.cn/1983/1982924/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "refreshRate": {
+          "value": 120,
+          "rawText": "屏幕刷新率：120Hz",
+          "sourceUrl": "https://detail.zol.com.cn/1983/1982924/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07",
+          "unit": "Hz"
+        },
+        "weight": {
+          "value": 224.4,
+          "rawText": "重量：224.4g",
+          "sourceUrl": "https://detail.zol.com.cn/1983/1982924/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07",
+          "unit": "g"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "RAM容量：12GB / 16GB",
+          "sourceUrl": "https://detail.zol.com.cn/1983/1982924/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "ROM容量：256GB / 512GB / 1TB",
+          "sourceUrl": "https://detail.zol.com.cn/1983/1982924/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "rearCamera": {
+          "value": "5000 万像素主摄 + 5000 万像素超广角 + 5000 万像素长焦 + 5000 万像素超长焦",
+          "rawText": "后置摄像头：5000 万像素主摄 + 5000 万像素超广角 + 5000 万像素长焦 + 5000 万像素超长焦",
+          "sourceUrl": "https://detail.zol.com.cn/1983/1982924/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "mainCamera": {
+          "value": "5000 万像素",
+          "rawText": "后置主摄：5000万像素",
+          "sourceUrl": "https://detail.zol.com.cn/1983/1982924/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "telephoto": {
+          "value": "5000 万像素长焦 + 5000 万像素超长焦",
+          "rawText": "5000 万像素长焦 + 5000 万像素超长焦",
+          "sourceUrl": "https://www.dxomark.com/smartphones/Xiaomi/14-Ultra",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-09-07"
+        },
+        "frontCamera": {
+          "value": "3200 万像素",
+          "rawText": "前置摄像头：3200万像素",
+          "sourceUrl": "https://detail.zol.com.cn/1983/1982924/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "batteryLife": {
+          "value": "5300mAh",
+          "rawText": "电池容量：5300mAh",
+          "sourceUrl": "https://detail.zol.com.cn/1983/1982924/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "机身接口：USB Type-C",
+          "sourceUrl": "https://detail.zol.com.cn/1983/1982924/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "waterResistance": {
+          "value": "IP68",
+          "rawText": "防护等级：IP68",
+          "sourceUrl": "https://detail.zol.com.cn/1983/1982924/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "launchPrice": {
+          "value": 6499,
+          "rawText": "12GB/256GB 参考价：￥6499",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10808057_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-09-07",
+          "unit": "CNY",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，中国大陆版本",
+          "condition": "中国大陆首发起售价"
+        },
+        "currentPrice": {
+          "value": 6199,
+          "rawText": "天猫 ¥6199",
+          "sourceUrl": "https://detail.zol.com.cn/1983/1982924/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-09-07",
+          "unit": "CNY",
+          "priceType": "current",
+          "market": "中国大陆",
+          "configuration": "16GB 运行内存 + 512GB 存储，中国大陆版本",
+          "condition": "全新，页面展示电商价",
+          "observedAt": "2026-09-07",
+          "sourceName": "中关村在线电商报价"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "xiaomi-15-ultra-2025",
+      "brand": "Xiaomi",
+      "market": "CN",
+      "category": "phone",
+      "series": "Xiaomi Ultra",
+      "family": "Xiaomi Ultra",
+      "variant": "standard",
+      "modelName": "小米 15 Ultra",
+      "generation": "15",
+      "generationOrder": 3,
+      "releaseYear": 2025,
+      "releaseDate": "2025-03-03",
+      "comparisonGroupId": "xiaomi.phone.xiaomi-ultra.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB"
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB"
+        }
+      ],
+      "benchmarks": [
+        {
+          "provider": "DXOMARK",
+          "metric": "camera",
+          "score": 159,
+          "protocolVersion": "Camera v6",
+          "sourceUrl": "https://www.dxomark.com/xiaomi-15-ultra-camera-test-retested/",
+          "verifiedAt": "2026-09-07"
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通 骁龙 8 Elite",
+          "rawText": "CPU型号：高通 骁龙 8 Elite",
+          "sourceUrl": "https://detail.zol.com.cn/2122/2121957/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "screenSize": {
+          "value": 6.73,
+          "rawText": "屏幕尺寸：6.73英寸",
+          "sourceUrl": "https://detail.zol.com.cn/2122/2121957/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07",
+          "unit": "inch"
+        },
+        "displayType": {
+          "value": "AMOLED",
+          "rawText": "屏幕材质：AMOLED",
+          "sourceUrl": "https://detail.zol.com.cn/2122/2121957/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "resolution": {
+          "value": "3200x1440",
+          "rawText": "分辨率：3200x1440px",
+          "sourceUrl": "https://detail.zol.com.cn/2122/2121957/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "refreshRate": {
+          "value": 120,
+          "rawText": "屏幕刷新率：120Hz",
+          "sourceUrl": "https://detail.zol.com.cn/2122/2121957/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07",
+          "unit": "Hz"
+        },
+        "weight": {
+          "value": 226,
+          "rawText": "重量：226g",
+          "sourceUrl": "https://detail.zol.com.cn/2122/2121957/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07",
+          "unit": "g"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "RAM容量：12GB / 16GB",
+          "sourceUrl": "https://detail.zol.com.cn/2122/2121957/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "ROM容量：256GB / 512GB / 1TB",
+          "sourceUrl": "https://detail.zol.com.cn/2122/2121957/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "rearCamera": {
+          "value": "5000 万像素主摄 + 5000 万像素超广角 + 5000 万像素长焦 + 2 亿像素超长焦",
+          "rawText": "后置摄像头：5000 万像素主摄 + 5000 万像素超广角 + 5000 万像素长焦 + 2 亿像素超长焦",
+          "sourceUrl": "https://detail.zol.com.cn/2122/2121957/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "mainCamera": {
+          "value": "5000 万像素",
+          "rawText": "后置主摄：5000万像素",
+          "sourceUrl": "https://detail.zol.com.cn/2122/2121957/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "telephoto": {
+          "value": "5000 万像素 70mm 长焦 + 2 亿像素 100mm 超长焦",
+          "rawText": "5000 万像素 70mm 长焦 + 2 亿像素 100mm 超长焦",
+          "sourceUrl": "https://www.dxomark.com/xiaomi-15-ultra-camera-test-retested/",
+          "sourceType": "reference",
+          "confidence": 0.9,
+          "verifiedAt": "2026-09-07"
+        },
+        "frontCamera": {
+          "value": "3200 万像素",
+          "rawText": "前置摄像头：3200万像素",
+          "sourceUrl": "https://detail.zol.com.cn/2122/2121957/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "batteryLife": {
+          "value": "6000mAh",
+          "rawText": "电池容量：6000mAh",
+          "sourceUrl": "https://detail.zol.com.cn/2122/2121957/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "机身接口：USB Type-C",
+          "sourceUrl": "https://detail.zol.com.cn/2122/2121957/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "waterResistance": {
+          "value": "IP68",
+          "rawText": "防护等级：IP68",
+          "sourceUrl": "https://detail.zol.com.cn/2122/2121957/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-07"
+        },
+        "launchPrice": {
+          "value": 6499,
+          "rawText": "12GB/256GB 参考价：￥6499",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10910509_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-09-07",
+          "unit": "CNY",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，中国大陆版本",
+          "condition": "中国大陆首发起售价"
+        },
+        "currentPrice": {
+          "value": 6499,
+          "rawText": "京东 ¥6499",
+          "sourceUrl": "https://detail.zol.com.cn/2122/2121957/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.7,
+          "verifiedAt": "2026-09-07",
+          "unit": "CNY",
+          "priceType": "current",
+          "market": "中国大陆",
+          "configuration": "16GB 运行内存 + 512GB 存储，中国大陆版本",
+          "condition": "全新，页面展示电商价",
+          "observedAt": "2026-09-07",
+          "sourceName": "中关村在线电商报价"
+        }
+      },
+      "computed": {}
     }
   ]
 }

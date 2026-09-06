@@ -5,7 +5,7 @@ import SiteNav from "@/components/layout/SiteNav";
 
 export const metadata: Metadata = {
   title: "数码观察站｜电子设备代际演进分析平台",
-  description: "聚焦电子设备代际演进、规格对比与 AI 辅助分析，Apple 仅作为第一阶段样本范围。",
+  description: "聚焦多品牌电子设备代际演进、规格对比与 AI 辅助分析。",
   icons: {
     icon: "/icon.svg",
     apple: "/icon.svg",

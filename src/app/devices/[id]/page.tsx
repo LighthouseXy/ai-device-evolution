@@ -106,14 +106,23 @@ export default async function DeviceDetailPage({
     ["刷新率", "refreshRate"],
     ["峰值亮度", "peakBrightness"],
   ]);
-  const imagingRows = buildRows(device, [
+  const cameraBenchmark = device.benchmarks?.find(
+    (benchmark) => benchmark.provider === "DXOMARK" && benchmark.metric === "camera",
+  );
+  const imagingRows = [
+    ...buildRows(device, [
     ["主摄", "mainCamera"],
     ["后置摄像头", "rearCamera"],
     ["超广角", "ultraWide"],
     ["长焦", "telephoto"],
     ["前置摄像头", "frontCamera"],
     ["视频拍摄", "videoRecording"],
-  ]);
+    ]),
+    ...(cameraBenchmark ? [{
+      label: "DXOMARK 相机",
+      value: `${cameraBenchmark.score} 分 · ${cameraBenchmark.protocolVersion}（不同协议不可直接横比）`,
+    }] : []),
+  ];
   const batteryRows = buildRows(device, [
     ["电池续航", "batteryLife"],
     ["充电方式", "chargingMethod"],

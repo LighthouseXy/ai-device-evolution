@@ -29,6 +29,7 @@ for (const dataset of manifest.datasets) {
   const datasetDevices = database.devices ?? [];
   const datasetSources = sourceRows(registry);
   const sourceIds = new Set(datasetSources.map((row) => row.id));
+  const sourcesById = new Map(datasetSources.map((row) => [row.id, row]));
 
   for (const device of datasetDevices) {
     if (device.brand !== dataset.brand) throw new Error(`${device.id}: brand 与清单不一致`);
@@ -36,6 +37,19 @@ for (const dataset of manifest.datasets) {
     if (!device.comparisonGroupId) throw new Error(`${device.id}: 缺少 comparisonGroupId`);
     if (ids.has(device.id)) throw new Error(`${device.id}: 跨数据集设备 id 重复`);
     if (!sourceIds.has(device.id)) throw new Error(`${device.id}: 缺少来源登记`);
+    const source = sourcesById.get(device.id);
+    const registeredUrls = new Set([
+      source.officialSpecUrl,
+      source.supportUrl,
+      source.newsroomUrl,
+      ...(source.referenceUrls ?? []),
+    ].filter(Boolean));
+    for (const [fieldName, field] of Object.entries(device.specs ?? {})) {
+      if (!registeredUrls.has(field.sourceUrl)) throw new Error(`${device.id}.${fieldName}: sourceUrl 未登记`);
+    }
+    for (const benchmark of device.benchmarks ?? []) {
+      if (!registeredUrls.has(benchmark.sourceUrl)) throw new Error(`${device.id}: benchmark sourceUrl 未登记`);
+    }
     ids.add(device.id);
     const groupIdentity = JSON.stringify([
       device.brand,

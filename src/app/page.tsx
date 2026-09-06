@@ -131,7 +131,7 @@ export default function Home() {
                 预测<span className="amber">未来</span>
               </h1>
               <p className="home-hero-desc">
-                基于真实本地数据库，串联设备库、代际对比、趋势观察和 AI 顾问。当前第一阶段聚焦 Apple 样本。
+                基于真实本地数据库，串联设备库、代际对比、趋势观察和 AI 顾问；现已接入 Apple 与 Xiaomi Ultra 试点。
               </p>
 
               <div className="home-hero-actions">
@@ -145,7 +145,7 @@ export default function Home() {
 
               <div className="home-hero-stats">
                 <StatCard label="收录设备" value={summaryStatsFlat.modelCount} hint="真实样本" />
-                <StatCard label="设备品类" value={summaryStatsFlat.categoryCount} hint="第一阶段" />
+                <StatCard label="品牌范围" value={summaryStatsFlat.brandCount} hint="持续扩充" />
                 <StatCard label="可比系列" value={summaryStatsFlat.seriesCount} hint={`${summaryStatsFlat.startYear}—${summaryStatsFlat.endYear}`} />
               </div>
             </div>
@@ -153,7 +153,7 @@ export default function Home() {
             <div className="home-hero-visual">
               <div className="home-timeline-card">
                 <div className="home-timeline-header">
-                  <span className="home-timeline-series">{spotlight?.series ?? "Apple"} 最新序列</span>
+                  <span className="home-timeline-series">{spotlight?.series ?? "设备"} 最新序列</span>
                   <span className="home-timeline-range">{summaryStatsFlat.startYear} — {summaryStatsFlat.endYear}</span>
                 </div>
 
