@@ -1,10 +1,17 @@
 import assert from "node:assert/strict";
 import fs from "node:fs";
 
-const { devices } = JSON.parse(fs.readFileSync("src/data/apple-devices-db.json", "utf8"));
-const sourceRegistry = JSON.parse(fs.readFileSync("src/data/apple-sources.json", "utf8"));
+const { devices: allDevices } = JSON.parse(fs.readFileSync("src/data/devices-db.json", "utf8"));
+const sourceRegistry = JSON.parse(fs.readFileSync("src/data/device-sources.json", "utf8"));
 const priceObservations = JSON.parse(fs.readFileSync("src/data/price-observations.json", "utf8"));
-const sourceRows = Object.values(sourceRegistry).flat();
+const allSourceRows = sourceRegistry.devices;
+assert.deepEqual(
+  allSourceRows.map((row) => row.id).sort(),
+  allDevices.map((device) => device.id).sort(),
+  "统一来源登记必须与主数据设备一一对应",
+);
+const devices = allDevices.filter((device) => device.brand === "Apple");
+const sourceRows = allSourceRows.filter((row) => row.brand === "Apple");
 const devicesByCategory = new Map();
 for (const device of devices) {
   const group = devicesByCategory.get(device.category) ?? [];
@@ -48,7 +55,7 @@ const normalizeEvidence = (value) =>
     .replace(/apple|bionic|chip|[^a-z0-9]/g, "");
 const sourceAudit = {
   fields: 0,
-  apple: 0,
+  official: 0,
   reference: 0,
   supportZhCn: 0,
   appleChina: 0,
@@ -71,12 +78,12 @@ for (const device of devices) {
 
   for (const [fieldName, field] of Object.entries(device.specs)) {
     sourceAudit.fields += 1;
-    assert.ok(["apple", "reference"].includes(field.sourceType), `${device.id}.${fieldName}: sourceType 非法`);
+    assert.ok(["official", "reference"].includes(field.sourceType), `${device.id}.${fieldName}: sourceType 非法`);
     sourceAudit[field.sourceType] += 1;
     assert.ok(registeredUrls.has(field.sourceUrl), `${device.id}.${fieldName}: sourceUrl 未登记`);
 
     const url = new URL(field.sourceUrl);
-    if (field.sourceType === "apple") {
+    if (field.sourceType === "official") {
       assert.ok(["support.apple.com", "www.apple.com.cn"].includes(url.hostname), `${device.id}.${fieldName}: Apple 来源域名不受信任`);
     } else {
       assert.ok(trustedReferenceHosts.has(url.hostname), `${device.id}.${fieldName}: 第三方来源域名不受信任`);
@@ -167,7 +174,7 @@ assert.deepEqual(memoryDistribution("tablet"), {
 const needsReview = sourceRows.filter((row) => row.sourceStatus === "needs_review").map((row) => row.id);
 const importedReferencePrices = Object.values(priceObservations)
   .flatMap((observations) => Object.values(observations))
-  .filter((observation) => observation.sourceType !== "apple").length;
+  .filter((observation) => observation.sourceType !== "official").length;
 assert.ok(sourceRows.every((row) => ["verified", "needs_review"].includes(row.sourceStatus)), "来源登记状态非法");
 assert.equal(sourceAudit.supportZhCn + sourceAudit.appleChina + sourceAudit.reference, sourceAudit.fields, "仍有字段未使用已登记来源");
 assert.equal(sourceAudit.reference, 115 + importedReferencePrices, "第三方内存与价格字段数量发生变化");
@@ -244,7 +251,7 @@ for (const [deviceId, price] of Object.entries(currentPriceSnapshots)) {
   const isJd = jdCurrentPrices.has(deviceId);
   assert.equal(field?.value, price, `${deviceId}.currentPrice: 当前价格快照发生回归`);
   assert.equal(field?.observedAt, isJd ? "2026-08-25" : "2026-08-24", `${deviceId}.currentPrice: 采集日期发生回归`);
-  assert.equal(field?.sourceType, isAppleStore ? "apple" : "reference", `${deviceId}.currentPrice: 来源类型发生回归`);
+  assert.equal(field?.sourceType, isAppleStore ? "official" : "reference", `${deviceId}.currentPrice: 来源类型发生回归`);
   assert.equal(field?.confidence, isAppleStore ? 1 : 0.7, `${deviceId}.currentPrice: 置信度发生回归`);
   assert.equal(
     field?.sourceName,

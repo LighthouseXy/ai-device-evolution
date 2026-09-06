@@ -58,7 +58,7 @@ function buildOpenAIRequest(input: AiAnalysisInput) {
   return {
     model: process.env.OPENAI_MODEL || DEFAULT_MODEL,
     instructions: [
-      "You are DeviceScope, a careful Apple device generation observation engine.",
+      "You are DeviceScope, a careful device generation observation engine.",
       "Respond with a single valid JSON object only.",
       "Do not use markdown code fences or any extra prose.",
       "Follow the user's prompt precisely and do not invent missing values.",

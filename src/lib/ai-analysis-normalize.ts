@@ -61,7 +61,7 @@ function normalizeFlattenedDevice(value: unknown, fallbackCategory?: DeviceCateg
   const category = normalizeDeviceCategory(value.category) ?? fallbackCategory;
   const model = normalizeText(value.model);
   const series = normalizeText(value.series);
-  const brand = normalizeText(value.brand, "Apple");
+  const brand = normalizeText(value.brand, "未知品牌");
   const id = normalizeText(value.id, `${series || "device"}-${model || "model"}`);
   const releaseYear = normalizeNumber(value.releaseYear);
   const generationNumber = normalizeNumber(value.generation);
@@ -69,6 +69,11 @@ function normalizeFlattenedDevice(value: unknown, fallbackCategory?: DeviceCateg
   const generationOrder = normalizeNumber(value.generationOrder) ?? generationNumber ?? releaseYear;
   const family = normalizeText(value.family, series);
   const variant = normalizeText(value.variant, "standard");
+  const market = normalizeText(value.market, "CN");
+  const comparisonGroupId = normalizeText(
+    value.comparisonGroupId,
+    [brand, category, family, variant, normalizeOptionalText(value.tier)].filter(Boolean).join("."),
+  );
 
   if (!category || !model || !series || !family || !variant || !generation || generationOrder === undefined || releaseYear === undefined) {
     return null;
@@ -77,6 +82,7 @@ function normalizeFlattenedDevice(value: unknown, fallbackCategory?: DeviceCateg
   return {
     id,
     brand,
+    market,
     category,
     series,
     family,
@@ -86,6 +92,8 @@ function normalizeFlattenedDevice(value: unknown, fallbackCategory?: DeviceCateg
     generation,
     generationOrder,
     releaseYear,
+    releaseDate: normalizeOptionalText(value.releaseDate),
+    comparisonGroupId,
     // AI 输入边界显式标记缺失值；主数据和页面适配层仍保持空值，不把提示文字当成真实规格。
     chip: normalizeText(value.chip, "当前数据不足"),
     screenSize: normalizeNumber(value.screenSize),

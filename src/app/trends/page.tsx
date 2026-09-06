@@ -100,9 +100,9 @@ function normalizeMetric(value: string | string[] | undefined) {
   return metrics.some((metric) => metric.key === raw) ? (raw as MetricKey) : "ai";
 }
 
-function normalizeSeries(value: string | string[] | undefined, options: string[]) {
+function normalizeSeries(value: string | string[] | undefined) {
   const raw = Array.isArray(value) ? value[0] : value;
-  return typeof raw === "string" && options.includes(raw) ? raw : options[0] ?? "";
+  return typeof raw === "string" ? raw : "";
 }
 
 function average(values: number[]) {
@@ -268,10 +268,11 @@ export default async function TrendsPage({
   const seriesOptions = getComparisonGroupsByCategoryFlat(selectedCategory).filter(
     (group) => group.devices.length >= 2,
   );
-  const selectedSeries = normalizeSeries(
-    resolvedSearchParams.series,
-    seriesOptions.map((group) => group.key),
-  );
+  const requestedSeries = normalizeSeries(resolvedSearchParams.series);
+  const requestedGroupId = getDevicesByComparisonGroupKeyFlat(requestedSeries)[0]?.comparisonGroupId;
+  const selectedSeries = seriesOptions.some((group) => group.key === requestedGroupId)
+    ? requestedGroupId
+    : seriesOptions[0]?.key ?? "";
   const selectedSeriesOption = seriesOptions.find((group) => group.key === selectedSeries) ?? null;
   const seriesDevices = getDevicesByComparisonGroupKeyFlat(selectedSeries);
   const yearTrend = buildYearTrend(seriesDevices, metric);
@@ -372,7 +373,7 @@ export default async function TrendsPage({
             points={yearTrend}
             metric={metric}
             category={selectedCategory}
-            series={selectedSeriesOption?.label ?? "Apple"}
+            series={selectedSeriesOption?.label ?? "设备系列"}
           />
 
           <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">

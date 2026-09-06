@@ -64,7 +64,7 @@ function buildDeepSeekRequest(input: DeviceAdvisorInput, retryReason?: string) {
       {
         role: "system",
         content: [
-          "You are DeviceScope, a careful Apple device advisor.",
+          "You are DeviceScope, a careful device advisor.",
           "Return one compact valid JSON object only.",
           "Use only candidate deviceIds and provided facts.",
           retryReason ? "This is a retry after an invalid or truncated answer." : "",

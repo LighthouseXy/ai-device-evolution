@@ -297,7 +297,7 @@ const REFERENCE_CURRENT_PRICES = {
     configuration: "紫色，128GB，无线局域网机型，中国大陆版本",
     condition: "全新，Apple 中国大陆官方在售价",
     observedAt: "2026-08-24",
-    sourceType: "apple",
+    sourceType: "official",
   },
   "iphone-16": {
     value: 5399,
@@ -307,7 +307,7 @@ const REFERENCE_CURRENT_PRICES = {
     configuration: "黑色，128GB，解锁机，中国大陆版本",
     condition: "全新，Apple 中国大陆官方在售价",
     observedAt: "2026-08-24",
-    sourceType: "apple",
+    sourceType: "official",
   },
   "iphone-16-plus": {
     value: 5999,
@@ -317,7 +317,7 @@ const REFERENCE_CURRENT_PRICES = {
     configuration: "黑色，128GB，解锁机，中国大陆版本",
     condition: "全新，Apple 中国大陆官方在售价",
     observedAt: "2026-08-24",
-    sourceType: "apple",
+    sourceType: "official",
   },
   "iphone-17": {
     value: 5380,
@@ -351,7 +351,7 @@ const REFERENCE_CURRENT_PRICES = {
     configuration: "天蓝色，256GB，解锁机，中国大陆型号 A3518",
     condition: "全新，Apple 中国大陆官方在售价",
     observedAt: "2026-08-24",
-    sourceType: "apple",
+    sourceType: "official",
   },
   "iphone-17e-2026": {
     value: 4499,
@@ -361,7 +361,7 @@ const REFERENCE_CURRENT_PRICES = {
     configuration: "浅粉色，256GB，中国大陆版本",
     condition: "全新，Apple 中国大陆官方在售价",
     observedAt: "2026-08-24",
-    sourceType: "apple",
+    sourceType: "official",
   },
   "macbook-air-13-m5-2026": {
     value: 8000,
@@ -380,7 +380,7 @@ const REFERENCE_CURRENT_PRICES = {
     configuration: "午夜色，M5 10 核 CPU / 10 核 GPU，16GB 内存，512GB 存储，中国大陆版本",
     condition: "全新，Apple 中国大陆官方在售价",
     observedAt: "2026-08-24",
-    sourceType: "apple",
+    sourceType: "official",
   },
   "macbook-pro-14-m5-2025": {
     value: 13200,
@@ -398,7 +398,7 @@ const REFERENCE_CURRENT_PRICES = {
     configuration: "14 英寸，标准显示屏，M5 Pro 15 核 CPU / 16 核 GPU，24GB 内存，1TB 存储，中国大陆版本",
     condition: "全新，Apple 中国大陆官方在售价",
     observedAt: "2026-08-24",
-    sourceType: "apple",
+    sourceType: "official",
   },
   "macbook-pro-14-m5-max-2026": {
     value: 33999,
@@ -408,7 +408,7 @@ const REFERENCE_CURRENT_PRICES = {
     configuration: "14 英寸，标准显示屏，M5 Max 18 核 CPU / 32 核 GPU，36GB 内存，2TB 存储，中国大陆版本",
     condition: "全新，Apple 中国大陆官方在售价",
     observedAt: "2026-08-24",
-    sourceType: "apple",
+    sourceType: "official",
   },
   "macbook-pro-16-m5-2026": {
     value: 24999,
@@ -418,7 +418,7 @@ const REFERENCE_CURRENT_PRICES = {
     configuration: "16 英寸，标准显示屏，M5 Pro 18 核 CPU / 20 核 GPU，24GB 内存，1TB 存储，中国大陆版本",
     condition: "全新，Apple 中国大陆官方在售价",
     observedAt: "2026-08-24",
-    sourceType: "apple",
+    sourceType: "official",
   },
   "macbook-pro-16-m5-max-2026": {
     value: 35999,
@@ -428,7 +428,7 @@ const REFERENCE_CURRENT_PRICES = {
     configuration: "16 英寸，标准显示屏，M5 Max 18 核 CPU / 32 核 GPU，36GB 内存，2TB 存储，中国大陆版本",
     condition: "全新，Apple 中国大陆官方在售价",
     observedAt: "2026-08-24",
-    sourceType: "apple",
+    sourceType: "official",
   },
   "macbook-neo-13-2026": {
     value: 5499,
@@ -438,7 +438,7 @@ const REFERENCE_CURRENT_PRICES = {
     configuration: "A18 Pro 6 核 CPU / 5 核 GPU，8GB 内存，256GB 存储，中国大陆版本",
     condition: "全新，Apple 中国大陆官方在售价",
     observedAt: "2026-08-24",
-    sourceType: "apple",
+    sourceType: "official",
   },
 };
 
@@ -1090,6 +1090,17 @@ function unique(values) {
   return [...new Set(values.filter(Boolean))];
 }
 
+function comparisonGroupId(device) {
+  const normalize = (value) => String(value)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+  return [device.brand, device.category, device.family, device.variant, device.tier]
+    .filter(Boolean)
+    .map(normalize)
+    .join(".");
+}
+
 function matching(blocks, pattern) {
   return blocks.filter((block) => block.length <= 600 && pattern.test(block));
 }
@@ -1113,7 +1124,7 @@ function spec(value, rawText, oldField, sourceUrl) {
     ...(oldField?.unit ? { unit: oldField.unit } : {}),
     rawText,
     sourceUrl,
-    sourceType: "apple",
+    sourceType: "official",
     confidence: 1,
     verifiedAt: VERIFIED_AT,
   };
@@ -1537,7 +1548,7 @@ function marketPriceSnapshot(reference, priceType) {
     rawText: reference.rawText,
     sourceUrl: reference.sourceUrl,
     sourceType: reference.sourceType ?? "reference",
-    confidence: reference.sourceType === "apple" ? 1 : 0.7,
+    confidence: reference.sourceType === "official" ? 1 : 0.7,
     verifiedAt: reference.observedAt,
     priceType,
     market: "中国大陆",
@@ -1678,7 +1689,14 @@ for (const sourceDevice of sourceDevices) {
 
     const modelName = localizeModelName(device.modelName);
     const releaseYear = device.id === "ipad-air-m4-2025" ? 2026 : device.releaseYear;
-    zhDevices.push(recalculateGenerationUpgrade({ ...device, modelName, releaseYear, specs }));
+    zhDevices.push(recalculateGenerationUpgrade({
+      ...device,
+      market: "CN",
+      comparisonGroupId: comparisonGroupId(device),
+      modelName,
+      releaseYear,
+      specs,
+    }));
     const referenceUrls = new Set(oldSource.referenceUrls ?? []);
     if (REFERENCE_LAUNCH_PRICES[device.id]) referenceUrls.add(REFERENCE_LAUNCH_PRICES[device.id].sourceUrl);
     for (const reference of [currentPriceReferences[device.id]].flat().filter(Boolean)) referenceUrls.add(reference.sourceUrl);

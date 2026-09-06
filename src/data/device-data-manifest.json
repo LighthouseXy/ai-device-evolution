@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "datasets": [
+    {
+      "id": "apple-cn",
+      "brand": "Apple",
+      "market": "CN",
+      "devices": "apple-devices-db.json",
+      "sources": "apple-sources.json"
+    }
+  ],
+  "publishers": [
+    {
+      "id": "apple",
+      "name": "Apple",
+      "sourceType": "official",
+      "hosts": ["support.apple.com", "www.apple.com.cn"]
+    },
+    {
+      "id": "reference-cn",
+      "name": "公开参考来源",
+      "sourceType": "reference",
+      "hosts": [
+        "tc.people.com.cn",
+        "mobile.zol.com.cn",
+        "detail.zol.com.cn",
+        "www.ithome.com",
+        "news.mydrivers.com",
+        "tech.sina.cn",
+        "www.smzdm.com",
+        "www.shihuo.cn",
+        "pro.m.jd.com",
+        "item.jd.com",
+        "item.m.jd.com",
+        "m2.9ji.com",
+        "iosref.com"
+      ]
+    }
+  ]
+}

@@ -51,7 +51,7 @@ const deviceComparisonFields: ComparisonField[] = [
   {
     group: "性能",
     label: "AI 能力",
-    hint: "Apple 智能",
+    hint: "数据库能力等级",
     getValue: (device) =>
       typeof device.aiFeatureLevel === "number" ? `${device.aiFeatureLevel}/10` : "待补充",
     isNumeric: true,
@@ -408,9 +408,14 @@ export default async function ComparePage({
 }) {
   const resolvedSearchParams = await searchParams;
   const seriesOptions = buildSeriesOptions();
-  const defaultSeries = seriesOptions.find((item) => item.series === "iPhone::Pro")?.series ?? seriesOptions[0]?.series ?? "";
+  const defaultSeries = getDevicesByComparisonGroupKeyFlat("iPhone::Pro")[0]?.comparisonGroupId
+    ?? seriesOptions[0]?.series
+    ?? "";
   const requestedSeries = normalizeSeries(resolvedSearchParams.series);
-  const selectedSeries = seriesOptions.some((item) => item.series === requestedSeries) ? requestedSeries : defaultSeries;
+  const requestedGroupId = getDevicesByComparisonGroupKeyFlat(requestedSeries)[0]?.comparisonGroupId;
+  const selectedSeries = seriesOptions.some((item) => item.series === requestedGroupId)
+    ? requestedGroupId
+    : defaultSeries;
   const selectedSeriesOption = seriesOptions.find((item) => item.series === selectedSeries) ?? null;
   const selectedCategory = selectedSeriesOption?.category ?? "phone";
   const categoryOptions = categoryNames
@@ -441,7 +446,7 @@ export default async function ComparePage({
   const previous = seriesDevices.at(-2) ?? null;
   const category = latest?.category ?? "phone";
   const analysis = runFallbackAnalysis({
-    seriesName: selectedSeriesOption?.label ?? "Apple",
+    seriesName: selectedSeriesOption?.label ?? "设备系列",
     category,
     categoryLabel: categoryLabels[category],
     devices: seriesDevices,

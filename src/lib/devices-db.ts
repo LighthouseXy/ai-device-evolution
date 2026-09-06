@@ -1,15 +1,15 @@
 // ==================== 新数据库模块 ====================
-// 从 apple-devices-db.json 加载第一阶段 Apple 样本数据，统一提供：
+// 从统一设备数据库加载多品牌数据，统一提供：
 // 1. 带来源元数据的原始 DbDevice 查询；
 // 2. 面向旧页面/AI 分析输入的扁平 FlattenedDevice 适配层。
 
-import db from "@/data/apple-devices-db.json";
+import db from "@/data/devices-db.json";
 import priceObservationData from "@/data/price-observations.json";
 
 // ==================== 类型定义 ====================
 
 export type DeviceCategory = "phone" | "tablet" | "laptop";
-export type SpecSourceType = "apple" | "reference";
+export type SpecSourceType = "official" | "reference";
 
 // SpecField 带元数据的规格字段
 export type SpecField<T> = {
@@ -59,7 +59,7 @@ function priceFields(
     ...observation,
     unit: "CNY",
     sourceType: observation.sourceType ?? "reference",
-    confidence: observation.sourceType === "apple" ? 1 : 0.7,
+    confidence: observation.sourceType === "official" ? 1 : 0.7,
     verifiedAt: observation.observedAt,
     priceType,
     market: "中国大陆",
@@ -148,6 +148,7 @@ export type DeviceComputed = {
 export type DbDevice = {
   id: string;
   brand: string;
+  market: string;
   category: DeviceCategory;
   series: string;
   family: string;
@@ -157,6 +158,8 @@ export type DbDevice = {
   generation: string;
   generationOrder: number;
   releaseYear: number;
+  releaseDate?: string | null;
+  comparisonGroupId: string;
   specs: DeviceSpecs;
   computed: DeviceComputed;
 };
@@ -168,9 +171,9 @@ export const allDevices: DbDevice[] = db.devices as DbDevice[];
 // ==================== 分类和系列查询 ====================
 
 export const categoryLabels: Record<DeviceCategory, string> = {
-  phone: "iPhone",
-  tablet: "iPad",
-  laptop: "MacBook",
+  phone: "手机",
+  tablet: "平板电脑",
+  laptop: "笔记本电脑",
 };
 
 export const categoryNames = Array.from(new Set(allDevices.map((d) => d.category))) as DeviceCategory[];
@@ -265,6 +268,7 @@ export const summaryStats = {
 export type FlattenedDevice = {
   id: string;
   brand: string;
+  market: string;
   category: DeviceCategory;
   series: string;
   family: string;
@@ -274,6 +278,8 @@ export type FlattenedDevice = {
   generation: string;
   generationOrder: number;
   releaseYear: number;
+  releaseDate?: string | null;
+  comparisonGroupId: string;
   chip: string;
   screenSize?: number;
   refreshRate?: number;
@@ -313,6 +319,7 @@ export function flattenDevice(db: DbDevice): FlattenedDevice {
   return {
     id: db.id,
     brand: db.brand,
+    market: db.market,
     category: db.category,
     series: db.series,
     family: db.family,
@@ -322,6 +329,8 @@ export function flattenDevice(db: DbDevice): FlattenedDevice {
     generation: db.generation,
     generationOrder: db.generationOrder,
     releaseYear: db.releaseYear,
+    releaseDate: db.releaseDate,
+    comparisonGroupId: db.comparisonGroupId,
     chip: specStr(db.specs?.chip),
     screenSize: specNum(db.specs?.screenSize) ?? undefined,
     refreshRate: specNum(db.specs?.refreshRate),
@@ -359,11 +368,16 @@ export const getComparisonGroupKey = (family: string, variant: string, tier?: st
   [family, variant, tier].filter(Boolean).join("::");
 
 const devicesByComparisonGroupFlat = new Map<string, FlattenedDevice[]>();
+const legacyComparisonGroupAliases = new Map<string, string>();
 for (const device of allDevicesFlat) {
-  const key = getComparisonGroupKey(device.family, device.variant, device.tier);
+  const key = device.comparisonGroupId;
   const group = devicesByComparisonGroupFlat.get(key) ?? [];
   group.push(device);
   devicesByComparisonGroupFlat.set(key, group);
+  const legacyKey = getComparisonGroupKey(device.family, device.variant, device.tier);
+  if (!legacyComparisonGroupAliases.has(legacyKey)) {
+    legacyComparisonGroupAliases.set(legacyKey, device.comparisonGroupId);
+  }
 }
 for (const group of devicesByComparisonGroupFlat.values()) {
   group.sort((left, right) => left.generationOrder - right.generationOrder);
@@ -429,10 +443,12 @@ export const getDevicesBySeriesFlat = (series: string) => devicesBySeriesFlat.ge
 
 /** 严格同型号比较：产品族、款式和必要的芯片档位必须同时匹配。 */
 export const getDevicesByComparisonGroupFlat = (family: string, variant: string, tier?: string) =>
-  devicesByComparisonGroupFlat.get(getComparisonGroupKey(family, variant, tier)) ?? [];
+  getDevicesByComparisonGroupKeyFlat(getComparisonGroupKey(family, variant, tier));
 
 export const getDevicesByComparisonGroupKeyFlat = (key: string) =>
-  devicesByComparisonGroupFlat.get(key) ?? [];
+  devicesByComparisonGroupFlat.get(key) ??
+  devicesByComparisonGroupFlat.get(legacyComparisonGroupAliases.get(key) ?? "") ??
+  [];
 
 export const getComparisonGroupsByCategoryFlat = (category: DeviceCategory) =>
   comparisonGroupsFlat.filter((group) => group.category === category);

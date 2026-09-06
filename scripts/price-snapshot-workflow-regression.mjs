@@ -39,7 +39,7 @@ const plan = JSON.parse(planResult.stdout);
 assert.equal(plan.length, 5);
 assert.ok(plan.every((row) => row.category === "phone" && row.priceType === "current"));
 assert.ok(plan.every((row) => row.configuration && row.searchQuery.includes("国行")));
-const devicesById = new Map(JSON.parse(fs.readFileSync("src/data/apple-devices-db.json", "utf8")).devices.map((device) => [device.id, device]));
+const devicesById = new Map(JSON.parse(fs.readFileSync("src/data/devices-db.json", "utf8")).devices.map((device) => [device.id, device]));
 assert.ok(plan.every((row) => !devicesById.get(row.deviceId).specs.currentPrice?.value));
 
 const candidate = [{

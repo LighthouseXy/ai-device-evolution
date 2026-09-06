@@ -4,7 +4,7 @@ import { parseArgs } from "node:util";
 import { fetchWithRetry } from "./lib/fetch-with-retry.mjs";
 import { normalizeProductName } from "./lib/normalize-product-name.mjs";
 
-const DATABASE_PATH = "src/data/apple-devices-db.json";
+const DATABASE_PATH = "src/data/devices-db.json";
 const OBSERVATIONS_PATH = "src/data/price-observations.json";
 const PRICE_TYPES = new Set(["current", "used"]);
 const CATEGORIES = new Set(["phone", "tablet", "laptop"]);
@@ -347,8 +347,8 @@ function validateBatch(input) {
     if (!Number.isInteger(row.value) || row.value < 300 || row.value > 100000) throw new Error(`${label}: value 必须是 300-100000 的整数人民币价格`);
     const sourceUrl = new URL(row.sourceUrl);
     if (sourceUrl.protocol !== "https:" || !TRUSTED_HOSTS.has(sourceUrl.hostname)) throw new Error(`${label}: 来源域名未列入受信清单`);
-    if ((row.sourceType === "apple") !== (sourceUrl.hostname === "www.apple.com.cn")) {
-      throw new Error(`${label}: sourceType 必须与 Apple 或第三方来源域名一致`);
+    if ((row.sourceType === "official") !== (sourceUrl.hostname === "www.apple.com.cn")) {
+      throw new Error(`${label}: sourceType 必须与官方或第三方来源域名一致`);
     }
     for (const key of ["sourceName", "rawText", "configuration", "condition"]) {
       if (typeof row[key] !== "string" || !row[key].trim()) throw new Error(`${label}: 缺少 ${key}`);
@@ -378,7 +378,7 @@ function validateBatch(input) {
         configuration: row.configuration.trim(),
         condition: row.condition.trim(),
         observedAt: row.observedAt,
-        ...(row.sourceType === "apple" ? { sourceType: "apple" } : {}),
+        ...(row.sourceType === "official" ? { sourceType: "official" } : {}),
       },
     };
   });

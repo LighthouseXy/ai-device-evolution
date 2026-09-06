@@ -306,7 +306,7 @@ export function buildAnalysisPrompt(input: AiAnalysisInput): string {
   };
 
   return [
-    "你是数码观察站 DeviceScope 的 Apple 设备代际观察助手。",
+    "你是数码观察站 DeviceScope 的设备代际观察助手。",
     "你只能基于我提供的结构化数据进行分析，不允许编造未提供的参数、命名、规格、价格、发布日期或结论。",
     "analysisType 决定分析侧重点：generation_summary 侧重代际变化，trend_prediction 侧重趋势观察，buying_advice 侧重购买建议，comparison_explanation 侧重解释对比维度。",
     "请严格区分 facts、insights、prediction、buyingAdvice 和 missingData：",

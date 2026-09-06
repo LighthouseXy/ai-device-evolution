@@ -1,7 +1,8 @@
 import assert from "node:assert/strict";
 import fs from "node:fs";
 
-const { metadata, devices } = JSON.parse(fs.readFileSync("src/data/apple-devices-db.json", "utf8"));
+const { metadata, devices } = JSON.parse(fs.readFileSync("src/data/devices-db.json", "utf8"));
+const manifest = JSON.parse(fs.readFileSync("src/data/device-data-manifest.json", "utf8"));
 const expectedGroups = new Map([
   ["laptop|MacBook|12-inch|base", ["macbook-12-2016", "macbook-12-2017"]],
   ["laptop|MacBook Air|13-inch|base", ["macbook-air-13-2017", "macbook-air-13-2018", "macbook-air-13-2019", "macbook-air-13-intel-2020", "macbook-air-13-m1-2020", "macbook-air-13-m2-2022", "macbook-air-13-m3-2024", "macbook-air-13-m4-2025", "macbook-air-13-m5-2026"]],
@@ -46,22 +47,47 @@ const canonicalBooleanKeys = [
   "magicKeyboard",
 ];
 const pollutedTextPattern = /^(?:\s*:root\{|\s*!function\()|globalNavData/i;
-const trustedReferenceHosts = new Set(["tc.people.com.cn", "mobile.zol.com.cn", "detail.zol.com.cn", "www.ithome.com", "news.mydrivers.com", "tech.sina.cn", "www.smzdm.com", "www.shihuo.cn", "pro.m.jd.com", "item.jd.com", "item.m.jd.com", "m2.9ji.com", "iosref.com"]);
+const trustedHostsByType = new Map(
+  ["official", "reference"].map((sourceType) => [
+    sourceType,
+    new Set(manifest.publishers.filter((publisher) => publisher.sourceType === sourceType).flatMap((publisher) => publisher.hosts)),
+  ]),
+);
 
-assert.equal(devices.length, 129, "主数据应包含 129 台设备");
+assert.equal(devices.filter((device) => device.brand === "Apple").length, 129, "Apple 数据应包含 129 台设备");
 assert.equal(metadata.totalDevices, devices.length, "metadata.totalDevices 与实际设备数不一致");
 assert.equal(new Set(devices.map((device) => device.id)).size, devices.length, "设备 id 必须唯一");
+assert.deepEqual(metadata.brands, [...new Set(devices.map((device) => device.brand))], "metadata.brands 与设备不一致");
+assert.deepEqual(metadata.markets, [...new Set(devices.map((device) => device.market))], "metadata.markets 与设备不一致");
 
 const groups = new Map();
+const comparisonGroupIdentities = new Map();
 const devicesById = new Map(devices.map((device) => [device.id, device]));
 for (const device of devices) {
   assert.ok(["phone", "tablet", "laptop"].includes(device.category), `${device.id}: category 非法`);
+  assert.ok(device.brand, `${device.id}: 缺少 brand`);
+  assert.ok(device.market, `${device.id}: 缺少 market`);
+  assert.ok(device.comparisonGroupId, `${device.id}: 缺少 comparisonGroupId`);
+  const comparisonIdentity = JSON.stringify([
+    device.brand,
+    device.market,
+    device.category,
+    device.family,
+    device.variant,
+    device.tier ?? null,
+  ]);
+  assert.ok(
+    !comparisonGroupIdentities.has(device.comparisonGroupId)
+      || comparisonGroupIdentities.get(device.comparisonGroupId) === comparisonIdentity,
+    `${device.id}: comparisonGroupId 被不同产品组复用`,
+  );
+  comparisonGroupIdentities.set(device.comparisonGroupId, comparisonIdentity);
   assert.ok(device.family, `${device.id}: 缺少 family`);
   assert.ok(device.variant, `${device.id}: 缺少 variant`);
   assert.ok(Number.isInteger(device.generationOrder) && device.generationOrder > 0, `${device.id}: generationOrder 非法`);
-  if (device.category === "laptop") {
+  if (device.brand === "Apple" && device.category === "laptop") {
     assert.ok(["base", "pro", "max"].includes(device.tier), `${device.id}: laptop tier 非法`);
-  } else {
+  } else if (device.brand === "Apple") {
     assert.equal(device.tier, undefined, `${device.id}: 非 laptop 不应设置 tier`);
   }
 
@@ -73,13 +99,9 @@ for (const device of devices) {
     assert.ok(field && typeof field === "object" && Object.hasOwn(field, "value"), `${device.id}.${key}: 字段结构非法`);
     assert.ok(typeof field.sourceUrl === "string", `${device.id}.${key}: sourceUrl 缺失`);
     assert.match(field.sourceUrl, /^https:\/\//, `${device.id}.${key}: sourceUrl 非法`);
-    assert.ok(["apple", "reference"].includes(field.sourceType), `${device.id}.${key}: sourceType 非法`);
+    assert.ok(["official", "reference"].includes(field.sourceType), `${device.id}.${key}: sourceType 非法`);
     const hostname = new URL(field.sourceUrl).hostname;
-    if (field.sourceType === "apple") {
-      assert.ok(["support.apple.com", "www.apple.com.cn"].includes(hostname), `${device.id}.${key}: Apple 来源域名非法`);
-    } else {
-      assert.ok(trustedReferenceHosts.has(hostname), `${device.id}.${key}: 第三方来源域名不受信任`);
-    }
+    assert.ok(trustedHostsByType.get(field.sourceType)?.has(hostname), `${device.id}.${key}: 来源域名与 sourceType 不匹配`);
     assert.ok(typeof field.confidence === "number" && field.confidence >= 0 && field.confidence <= 1, `${device.id}.${key}: confidence 非法`);
     assert.ok(typeof field.verifiedAt === "string", `${device.id}.${key}: verifiedAt 缺失`);
     assert.match(field.verifiedAt, /^\d{4}-\d{2}-\d{2}$/, `${device.id}.${key}: verifiedAt 非法`);
@@ -103,9 +125,11 @@ for (const device of devices) {
   }
 
   const key = [device.category, device.family, device.variant, device.tier].filter(Boolean).join("|");
-  const group = groups.get(key) ?? [];
-  group.push(device);
-  groups.set(key, group);
+  if (device.brand === "Apple") {
+    const group = groups.get(key) ?? [];
+    group.push(device);
+    groups.set(key, group);
+  }
 }
 
 for (const device of devices) {
@@ -129,9 +153,7 @@ for (const device of devices) {
   assert.ok(comparedTo, `${device.id}: 后续代际缺少 comparedTo`);
   const previous = devicesById.get(comparedTo);
   assert.ok(previous, `${device.id}: comparedTo 设备不存在`);
-  assert.equal(previous.family, device.family, `${device.id}: comparedTo family 不一致`);
-  assert.equal(previous.variant, device.variant, `${device.id}: comparedTo variant 不一致`);
-  assert.equal(previous.tier, device.tier, `${device.id}: comparedTo tier 不一致`);
+  assert.equal(previous.comparisonGroupId, device.comparisonGroupId, `${device.id}: comparedTo comparisonGroupId 不一致`);
   assert.equal(previous.generationOrder, device.generationOrder - 1, `${device.id}: comparedTo 不是直接前代`);
 
   assert.ok(Number.isFinite(magnitude.value) && magnitude.value >= 1 && magnitude.value <= 10, `${device.id}: 后续代际升级幅度必须为 1-10`);
