@@ -55,6 +55,7 @@ export type DeviceAdvisorModelOutput = {
 
 export type Candidate = {
   deviceId: string;
+  brand: string;
   model: string;
   series: string;
   category: DeviceCategory;

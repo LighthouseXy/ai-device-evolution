@@ -90,6 +90,9 @@ function compactText(value: string, maxLength = 160): string | undefined {
 }
 
 function getFacts(device: DbDevice): Record<string, string | number> {
+  const cameraBenchmark = device.benchmarks?.find(
+    (benchmark) => benchmark.provider === "DXOMARK" && benchmark.metric === "camera",
+  );
   const common: Record<string, string | number | undefined> = {
     chip: specStr(device.specs.chip, "") || undefined,
     screenSize: specNum(device.specs.screenSize),
@@ -97,7 +100,11 @@ function getFacts(device: DbDevice): Record<string, string | number> {
     refreshRate: specNum(device.specs.refreshRate),
     weight: specNum(device.specs.weight),
     batteryLife: compactText(specStr(device.specs.batteryLife, "")),
+    memory: compactText(specStr(device.specs.memory, "")),
     storage: specStr(device.specs.storage, "") || undefined,
+    configurations: device.configurations
+      ?.map((configuration) => `${configuration.memory}+${configuration.storage}`)
+      .join(" / "),
     port: compactText(specStr(device.specs.port, "")),
   };
   const categoryFacts: Record<string, string | number | undefined> =
@@ -109,6 +116,9 @@ function getFacts(device: DbDevice): Record<string, string | number> {
           ),
           frontCamera: compactText(specStr(device.specs.frontCamera, "")),
           chargingMethod: compactText(specStr(device.specs.chargingMethod, "")),
+          dxomarkCamera: cameraBenchmark
+            ? `${cameraBenchmark.score} 分（${cameraBenchmark.protocolVersion}）`
+            : undefined,
         }
       : device.category === "tablet"
         ? {
@@ -142,6 +152,7 @@ function normalizeCandidate(
 ): Candidate {
   return {
     deviceId: device.id,
+    brand: device.brand,
     model: device.modelName,
     series: device.series,
     category: device.category,
@@ -329,6 +340,7 @@ export function buildDeviceAdvisorPrompt(input: DeviceAdvisorInput): string {
     "只能推荐 candidateShortlist 中的设备，不允许编造机型、价格或 facts 中没有的规格。",
     "answer 用 150 到 300 个汉字说明推荐哪几款、为什么以及主要取舍，不使用 Markdown、列表或虚构的精确评分。",
     "referencePrice 只会使用 priceText 标明的当前价或二手价；首发价仅供历史参考，不代表当前市场价，也不得用于判断是否符合预算。referencePrice 为 null 时必须明确价格未知。",
+    "DXOMARK 分数必须连同协议版本理解；协议不同的分数不可直接比较高低。",
     "有预算时必须逐项比较 referencePrice 与 min、max；低于 min 或高于 max 的设备必须明确写为预算外，不得称为预算内；已有预算内候选时优先推荐预算内候选。",
     "recommendedDeviceIds 按推荐顺序给出 1 到 3 个 deviceId，并且与 answer 中提到的设备保持一致；确实没有合适设备时可返回空数组并在 answer 中解释。",
     "confidence 为 0 到 1，只供系统内部评测。",

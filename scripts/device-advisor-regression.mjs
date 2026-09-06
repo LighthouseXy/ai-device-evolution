@@ -30,7 +30,7 @@ if (cliArgs.has("--help") || cliArgs.has("-h")) {
   process.exit(0);
 }
 
-const { runFallbackDeviceAdvisor } = loadTsModule("./src/lib/device-advisor.ts");
+const { buildDeviceAdvisorContext, buildDeviceAdvisorPrompt, runFallbackDeviceAdvisor } = loadTsModule("./src/lib/device-advisor.ts");
 
 function pickRecommendationTitles(output) {
   return output.devices.map((item) => item.model);
@@ -54,6 +54,28 @@ function assertSimpleFallback(output, category, maxResults = 3) {
 }
 
 const scenarios = [
+  {
+    name: "phone_cross_brand_xiaomi_camera",
+    input: {
+      category: "phone",
+      budget: { min: 6400, max: 6500, currency: "CNY" },
+      performancePreference: "camera",
+      useCases: ["摄影", "视频"],
+      conditionPreference: "new_only",
+      maxResults: 3,
+    },
+    expect(output, input) {
+      assertSimpleFallback(output, "phone", 1);
+      assert.equal(output.devices[0]?.deviceId, "xiaomi-15-ultra-2025");
+      assert.match(output.devices[0]?.priceText ?? "", /当前价 ¥6,499（中关村在线电商报价，2026-09-07）/);
+      const candidate = buildDeviceAdvisorContext(input).candidateShortlist[0];
+      assert.equal(candidate.brand, "Xiaomi");
+      assert.equal(candidate.facts.memory, "12GB / 16GB");
+      assert.equal(candidate.facts.configurations, "12GB+256GB / 16GB+512GB / 16GB+1TB");
+      assert.equal(candidate.facts.dxomarkCamera, "159 分（Camera v6）");
+      assert.match(buildDeviceAdvisorPrompt(input), /协议不同的分数不可直接比较高低/);
+    },
+  },
   {
     name: "budget_used_battery",
     input: {
@@ -585,7 +607,7 @@ console.log(`Running ${scenarios.length} device advisor regression scenarios: ${
 
 for (const scenario of scenarios) {
   const output = runFallbackDeviceAdvisor(scenario.input);
-  scenario.expect(output);
+  scenario.expect(output, scenario.input);
   console.log(`✓ ${scenario.name}: ${pickRecommendationTitles(output).join(", ")}`);
 }
 
