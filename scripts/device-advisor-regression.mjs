@@ -77,6 +77,22 @@ const scenarios = [
     },
   },
   {
+    name: "phone_used_xiaomi_price",
+    input: {
+      category: "phone",
+      budget: { min: 3500, max: 3700, currency: "CNY" },
+      performancePreference: "camera",
+      useCases: ["摄影"],
+      conditionPreference: "used_ok",
+      maxResults: 3,
+    },
+    expect(output) {
+      assertSimpleFallback(output, "phone", 1);
+      assert.equal(output.devices[0]?.deviceId, "xiaomi-15-ultra-2025");
+      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥3,619（九机二手，2026-09-07）/);
+    },
+  },
+  {
     name: "budget_used_battery",
     input: {
       category: "phone",
@@ -331,8 +347,8 @@ const scenarios = [
       assert.ok(!output.devices.some((device) => device.deviceId === "iphone-se-1-2016"));
       assert.equal(output.devices[0]?.deviceId, "iphone-14");
       assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥2,449（京东商务二手手机热卖榜，2026-08-25）/);
-      assert.deepEqual(output.devices.map((device) => device.deviceId), ["iphone-14", "iphone-13-pro-max", "iphone-14-plus"]);
-      assert.match(output.devices[2]?.priceText ?? "", /二手价 ¥2,359（九机二手良品，2026-08-31）/);
+      assert.deepEqual(output.devices.map((device) => device.deviceId), ["iphone-14", "xiaomi-14-ultra-2024", "iphone-13-pro-max"]);
+      assert.match(output.devices[1]?.priceText ?? "", /二手价 ¥2,569（九机二手，2026-09-07）/);
     },
   },
   {
@@ -379,12 +395,12 @@ const scenarios = [
       assertSimpleFallback(output, "phone", 3);
       assert.deepEqual(output.devices.map((device) => device.deviceId), [
         "iphone-13-mini",
+        "xiaomi-12s-ultra-2022",
         "iphone-11-pro-2019",
-        "iphone-12-mini",
       ]);
       assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥1,239（京东 6英以下屏幕二手手机好评榜，2026-08-25）/);
-      assert.match(output.devices[1]?.priceText ?? "", /二手价 ¥1,219（九机二手良品，2026-08-31）/);
-      assert.match(output.devices[2]?.priceText ?? "", /二手价 ¥1,189（九机二手良品，2026-08-31）/);
+      assert.match(output.devices[1]?.priceText ?? "", /二手价 ¥1,219（九机二手，2026-09-07）/);
+      assert.match(output.devices[2]?.priceText ?? "", /二手价 ¥1,219（九机二手良品，2026-08-31）/);
     },
   },
   {
@@ -431,9 +447,11 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
-      assertSimpleFallback(output, "phone", 1);
+      assertSimpleFallback(output, "phone", 2);
       assert.equal(output.devices[0]?.deviceId, "iphone-13");
       assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥1,949（京东苹果二手手机热卖榜，2026-08-25）/);
+      assert.equal(output.devices[1]?.deviceId, "xiaomi-13-ultra-2023");
+      assert.match(output.devices[1]?.priceText ?? "", /二手价 ¥1,809（九机二手，2026-09-07）/);
     },
   },
   {

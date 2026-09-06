@@ -47,7 +47,7 @@ const priceObservations = priceObservationData as {
   used: Record<string, StoredPriceObservation | StoredPriceObservation[]>;
 };
 
-function priceFields(
+export function getDevicePriceFields(
   deviceId: string,
   priceType: "current" | "used",
   fallback: PriceField | undefined,
@@ -362,8 +362,8 @@ export function flattenDevice(db: DbDevice): FlattenedDevice {
     launchPrice: specNum(db.specs?.launchPrice),
     currentPrice: db.specs?.currentPrice,
     usedPrice: db.specs?.usedPrice,
-    currentPrices: priceFields(db.id, "current", db.specs?.currentPrice),
-    usedPrices: priceFields(db.id, "used", db.specs?.usedPrice),
+    currentPrices: getDevicePriceFields(db.id, "current", db.specs?.currentPrice),
+    usedPrices: getDevicePriceFields(db.id, "used", db.specs?.usedPrice),
     aiFeatureLevel: computedVal(db.computed?.aiCapabilityLevel),
     sourceUrl: db.specs?.chip?.sourceUrl ?? "",
     specs: flatSpecs,

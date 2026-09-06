@@ -2,6 +2,7 @@ import {
   allDevices,
   categoryLabels,
   formatMaybeCurrency,
+  getDevicePriceFields,
   specNum,
   specStr,
   type DbDevice,
@@ -52,29 +53,33 @@ function getReferencePrice(
   device: DbDevice,
   conditionPreference: DeviceAdvisorInput["conditionPreference"],
 ): number | null {
+  const usedPrice = getDevicePriceFields(device.id, "used", device.specs.usedPrice)[0]?.value;
+  const currentPrice = getDevicePriceFields(device.id, "current", device.specs.currentPrice)[0]?.value;
   if (conditionPreference === "used_ok") {
-    return specNum(device.specs.usedPrice) ?? specNum(device.specs.currentPrice) ?? null;
+    return usedPrice ?? currentPrice ?? null;
   }
-  return specNum(device.specs.currentPrice) ?? null;
+  return currentPrice ?? null;
 }
 
 function getPriceText(
   device: DbDevice,
   conditionPreference: DeviceAdvisorInput["conditionPreference"],
 ): string {
-  const currentPrice = specNum(device.specs.currentPrice);
-  const usedPrice = specNum(device.specs.usedPrice);
+  const currentPriceField = getDevicePriceFields(device.id, "current", device.specs.currentPrice)[0];
+  const usedPriceField = getDevicePriceFields(device.id, "used", device.specs.usedPrice)[0];
+  const currentPrice = currentPriceField?.value;
+  const usedPrice = usedPriceField?.value;
   const launchPrice = specNum(device.specs.launchPrice);
 
-  if (conditionPreference === "used_ok" && usedPrice !== undefined) {
-    const source = device.specs.usedPrice?.sourceName;
-    const observedAt = device.specs.usedPrice?.observedAt;
+  if (conditionPreference === "used_ok" && typeof usedPrice === "number") {
+    const source = usedPriceField?.sourceName;
+    const observedAt = usedPriceField?.observedAt;
     const snapshot = [source, observedAt].filter(Boolean).join("，");
     return `二手价 ${formatMaybeCurrency(usedPrice)}${snapshot ? `（${snapshot}）` : ""}`;
   }
-  if (currentPrice !== undefined) {
-    const source = device.specs.currentPrice?.sourceName;
-    const observedAt = device.specs.currentPrice?.observedAt;
+  if (typeof currentPrice === "number") {
+    const source = currentPriceField?.sourceName;
+    const observedAt = currentPriceField?.observedAt;
     const snapshot = [source, observedAt].filter(Boolean).join("，");
     return `当前价 ${formatMaybeCurrency(currentPrice)}${snapshot ? `（${snapshot}）` : ""}`;
   }
