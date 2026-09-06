@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import {
+  allDevices,
   allDevicesFlat,
   categoryLabels,
   formatMaybeCurrency,
@@ -12,6 +13,56 @@ import SectionHeader from "@/components/layout/SectionHeader";
 import TickDivider from "@/components/layout/TickDivider";
 
 type Device = (typeof allDevicesFlat)[number];
+
+function buildSourceRows(device: (typeof allDevices)[number]) {
+  const sources = new Map<string, {
+    sourceType: "official" | "reference";
+    verifiedAt: string;
+    fields: Set<string>;
+    protocols: Set<string>;
+  }>();
+  const addSource = (
+    sourceUrl: string,
+    sourceType: "official" | "reference",
+    verifiedAt: string,
+    field: string,
+    protocol?: string,
+  ) => {
+    const source = sources.get(sourceUrl) ?? {
+      sourceType,
+      verifiedAt,
+      fields: new Set<string>(),
+      protocols: new Set<string>(),
+    };
+    source.fields.add(field);
+    if (protocol) source.protocols.add(protocol);
+    sources.set(sourceUrl, source);
+  };
+
+  for (const [fieldName, field] of Object.entries(device.specs ?? {})) {
+    if (field?.value !== null && field?.value !== undefined) {
+      addSource(field.sourceUrl, field.sourceType, field.verifiedAt, fieldName);
+    }
+  }
+  for (const benchmark of device.benchmarks ?? []) {
+    addSource(
+      benchmark.sourceUrl,
+      "reference",
+      benchmark.verifiedAt,
+      `${benchmark.provider} ${benchmark.metric}`,
+      benchmark.protocolVersion,
+    );
+  }
+
+  return [...sources].map(([sourceUrl, source]) => ({
+    sourceUrl,
+    hostname: new URL(sourceUrl).hostname,
+    sourceType: source.sourceType,
+    verifiedAt: source.verifiedAt,
+    fieldCount: source.fields.size,
+    protocols: [...source.protocols],
+  }));
+}
 
 function getSpecValue(device: Device, key: string) {
   const value = device.specs?.[key];
@@ -83,8 +134,9 @@ export default async function DeviceDetailPage({
 }) {
   const { id } = await params;
   const device = allDevicesFlat.find((item) => item.id === id);
+  const rawDevice = allDevices.find((item) => item.id === id);
 
-  if (!device) {
+  if (!device || !rawDevice) {
     notFound();
   }
 
@@ -146,6 +198,7 @@ export default async function DeviceDetailPage({
     ["UWB", "hasUWB"],
     ["Touch ID", "hasTouchId"],
   ]);
+  const sourceRows = buildSourceRows(rawDevice);
 
   return (
     <main className="site-main">
@@ -239,6 +292,44 @@ export default async function DeviceDetailPage({
             <SpecGroup title="续航与连接" rows={batteryRows} />
             <SpecGroup title="网络与接口" rows={connectivityRows} />
             <SpecGroup title="防护与配件" rows={protectionRows} />
+          </div>
+        </div>
+      </section>
+
+      <TickDivider className="site-container" />
+
+      <section className="section pt-0">
+        <div className="section-inner">
+          <SectionHeader
+            eyebrow="数据来源"
+            title="已收录字段的证据入口"
+            description="相同页面只列一次；第三方资料是可追溯参考，不冒充品牌官方数据。"
+          />
+          <div className="grid gap-3 md:grid-cols-2">
+            {sourceRows.map((source) => (
+              <a
+                className="card group p-5 transition hover:-translate-y-0.5 hover:border-[rgba(45,90,61,0.28)] hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--primary)]"
+                href={source.sourceUrl}
+                key={source.sourceUrl}
+                rel="noreferrer"
+                target="_blank"
+              >
+                <div className="flex flex-wrap items-center justify-between gap-2">
+                  <span className={source.sourceType === "official" ? "tag tag-green" : "tag tag-amber"}>
+                    {source.sourceType === "official" ? "官方来源" : "第三方参考"}
+                  </span>
+                  <span className="text-xs text-[var(--text-soft)]">核验于 {source.verifiedAt}</span>
+                </div>
+                <p className="mt-3 break-all text-sm font-semibold text-[var(--text-strong)]">{source.hostname}</p>
+                <p className="mt-1 text-xs leading-5 text-[var(--text-muted)]">
+                  覆盖 {source.fieldCount} 项已收录数据
+                  {source.protocols.length ? ` · 测试协议 ${source.protocols.join(" / ")}` : ""}
+                </p>
+                <span className="mt-4 inline-flex text-xs font-semibold text-[var(--primary)]">
+                  查看来源 <span aria-hidden="true" className="ml-1 transition group-hover:translate-x-0.5">→</span>
+                </span>
+              </a>
+            ))}
           </div>
         </div>
       </section>
