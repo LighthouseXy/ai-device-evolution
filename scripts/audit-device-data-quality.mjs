@@ -3,6 +3,7 @@ import fs from "node:fs";
 
 const { devices: allDevices } = JSON.parse(fs.readFileSync("src/data/devices-db.json", "utf8"));
 const sourceRegistry = JSON.parse(fs.readFileSync("src/data/device-sources.json", "utf8"));
+const manifest = JSON.parse(fs.readFileSync("src/data/device-data-manifest.json", "utf8"));
 const priceObservations = JSON.parse(fs.readFileSync("src/data/price-observations.json", "utf8"));
 const allSourceRows = sourceRegistry.devices;
 assert.deepEqual(
@@ -10,6 +11,79 @@ assert.deepEqual(
   allDevices.map((device) => device.id).sort(),
   "统一来源登记必须与主数据设备一一对应",
 );
+const allRegistryById = new Map(allSourceRows.map((row) => [row.id, row]));
+const trustedHostsByType = new Map(
+  ["official", "reference"].map((sourceType) => [
+    sourceType,
+    new Set(manifest.publishers.filter((publisher) => publisher.sourceType === sourceType).flatMap((publisher) => publisher.hosts)),
+  ]),
+);
+const crossBrandRequiredFields = {
+  phone: ["chip", "memory", "storage", "launchPrice", "displayType", "port", "rearCamera", "frontCamera"],
+  tablet: ["chip", "memory", "storage", "launchPrice", "screenSize", "displayType", "resolution", "port"],
+  laptop: ["chip", "memory", "storage", "launchPrice", "screenSize", "displayType", "resolution"],
+};
+const crossBrandCoverage = {};
+const allNeedsReview = allSourceRows.filter((row) => row.sourceStatus === "needs_review").map((row) => row.id);
+
+for (const device of allDevices) {
+  const registry = allRegistryById.get(device.id);
+  assert.ok(registry, `${device.id}: 缺少统一来源登记`);
+  assert.equal(registry.brand, device.brand, `${device.id}: 来源登记品牌与主数据不一致`);
+  assert.equal(registry.market, device.market, `${device.id}: 来源登记市场与主数据不一致`);
+  assert.equal(registry.modelName, device.modelName, `${device.id}: 来源登记型号与主数据不一致`);
+  assert.equal(registry.releaseYear, device.releaseYear, `${device.id}: 来源登记年份与主数据不一致`);
+  assert.ok(["verified", "needs_review"].includes(registry.sourceStatus), `${device.id}: 来源登记状态非法`);
+  const registeredUrls = new Set([
+    registry.officialSpecUrl,
+    registry.supportUrl,
+    registry.newsroomUrl,
+    ...(registry.referenceUrls ?? []),
+  ].filter(Boolean));
+  assert.ok(registeredUrls.size > 0, `${device.id}: 来源登记缺少 URL`);
+
+  for (const [fieldName, field] of Object.entries(device.specs ?? {})) {
+    assert.ok(registeredUrls.has(field.sourceUrl), `${device.id}.${fieldName}: sourceUrl 未登记`);
+    assert.ok(trustedHostsByType.get(field.sourceType)?.has(new URL(field.sourceUrl).hostname), `${device.id}.${fieldName}: 来源域名与类型不匹配`);
+    assert.ok(field.rawText, `${device.id}.${fieldName}: 缺少原始证据`);
+    if (fieldName.endsWith("Price")) {
+      assert.ok(Number.isFinite(field.value) && field.value > 0, `${device.id}.${fieldName}: 价格必须为正数`);
+      assert.equal(field.unit, "CNY", `${device.id}.${fieldName}: 价格单位必须为 CNY`);
+      if (field.sourceType === "reference" || fieldName !== "launchPrice") {
+        assert.equal(field.priceType, fieldName.replace("Price", ""), `${device.id}.${fieldName}: priceType 与字段不一致`);
+        assert.equal(field.market, "中国大陆", `${device.id}.${fieldName}: 价格市场必须为中国大陆`);
+        assert.ok(field.configuration, `${device.id}.${fieldName}: 缺少价格配置`);
+        assert.ok(field.condition, `${device.id}.${fieldName}: 缺少价格状态或成色`);
+      }
+      if (fieldName !== "launchPrice") {
+        assert.match(field.observedAt ?? "", /^\d{4}-\d{2}-\d{2}$/, `${device.id}.${fieldName}: 缺少有效采集日期`);
+        assert.ok(field.sourceName, `${device.id}.${fieldName}: 缺少来源名称`);
+      }
+    }
+  }
+
+  for (const benchmark of device.benchmarks ?? []) {
+    assert.ok(registeredUrls.has(benchmark.sourceUrl), `${device.id}: benchmark sourceUrl 未登记`);
+    assert.ok(trustedHostsByType.get("reference")?.has(new URL(benchmark.sourceUrl).hostname), `${device.id}: benchmark 来源域名不受信任`);
+    assert.ok(benchmark.provider && benchmark.metric && benchmark.protocolVersion, `${device.id}: benchmark 元数据缺失`);
+    assert.ok(Number.isFinite(benchmark.score), `${device.id}: benchmark score 非法`);
+  }
+
+  const coverageKey = `${device.brand}/${device.category}`;
+  const coverage = crossBrandCoverage[coverageKey] ?? { devices: 0 };
+  coverage.devices += 1;
+  for (const fieldName of crossBrandRequiredFields[device.category]) {
+    coverage[fieldName] = (coverage[fieldName] ?? 0) + (device.specs?.[fieldName]?.value != null ? 1 : 0);
+  }
+  crossBrandCoverage[coverageKey] = coverage;
+}
+
+for (const [coverageKey, coverage] of Object.entries(crossBrandCoverage)) {
+  for (const fieldName of crossBrandRequiredFields[coverageKey.split("/")[1]]) {
+    assert.equal(coverage[fieldName], coverage.devices, `${coverageKey}.${fieldName}: 核心字段缺失`);
+  }
+}
+assert.deepEqual(allNeedsReview, [], "统一来源登记仍有设备待人工复核");
 const devices = allDevices.filter((device) => device.brand === "Apple");
 const sourceRows = allSourceRows.filter((row) => row.brand === "Apple");
 const devicesByCategory = new Map();
@@ -480,7 +554,8 @@ for (const [deviceId, launchPrice] of Object.entries(expandedIPhoneLaunchPrices)
   assert.equal(devicesById.get(deviceId)?.specs.launchPrice?.value, launchPrice, `${deviceId}.launchPrice: 首发价发生回归`);
 }
 
-console.log("coverage", JSON.stringify(coverage));
+console.log("appleCoverage", JSON.stringify(coverage));
+console.log("crossBrandCoverage", JSON.stringify(crossBrandCoverage));
 console.log("sourceAudit", JSON.stringify(sourceAudit));
-console.log("needsReview", JSON.stringify(needsReview));
-console.log(`device data quality audit passed: ${devices.length} devices, ${sourceAudit.fields} spec fields`);
+console.log("needsReview", JSON.stringify(allNeedsReview));
+console.log(`device data quality audit passed: ${allDevices.length} devices, ${allDevices.flatMap((device) => Object.values(device.specs ?? {})).length} spec fields`);
