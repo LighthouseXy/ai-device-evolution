@@ -303,6 +303,21 @@ const scenarios = [
     },
   },
   {
+    name: "phone_current_mainland_samsung_s25_price",
+    input: {
+      category: "phone",
+      budget: { min: 6989, max: 7009, currency: "CNY" },
+      useCases: ["日常", "拍照"],
+      conditionPreference: "new_only",
+      maxResults: 3,
+    },
+    expect(output) {
+      assertSimpleFallback(output, "phone", 2);
+      assert.deepEqual(pickRecommendationTitles(output), ["Samsung Galaxy S25 Ultra", "小米 17 Ultra"]);
+      assert.match(output.devices[0]?.priceText ?? "", /当前价 ¥6,999（三星中国商城，2026-09-07）/);
+    },
+  },
+  {
     name: "tablet_current_mainland_ipad_air_m2_price",
     input: {
       category: "tablet",

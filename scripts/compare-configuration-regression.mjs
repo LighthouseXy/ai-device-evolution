@@ -223,6 +223,12 @@ assert.deepEqual(
 assert.equal(devices.get("samsung-galaxy-s26-ultra-2026").mainCameraMp, 200);
 assert.deepEqual(
   ["samsung-galaxy-s24-ultra-2024", "samsung-galaxy-s25-ultra-2025", "samsung-galaxy-s26-ultra-2026"]
+    .map((id) => getPricesForComparison(devices.get(id), "current")[0]?.value),
+  [5499, 6999, 10599],
+  "verified Samsung Galaxy S Ultra current-price snapshots should remain available",
+);
+assert.deepEqual(
+  ["samsung-galaxy-s24-ultra-2024", "samsung-galaxy-s25-ultra-2025", "samsung-galaxy-s26-ultra-2026"]
     .map((id) => getPricesForComparison(devices.get(id), "used")[0]?.value),
   [3629, 4899, 7899],
   "verified Samsung Galaxy S Ultra used-price snapshots should remain available",
