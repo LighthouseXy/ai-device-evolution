@@ -1,13 +1,158 @@
 [
   {
+    "id": "preview-laptop-two-results",
+    "group": "data_grounding",
+    "description": "Replay the preview request: at least 24GB, 15000 yuan, at most two devices",
+    "input": {
+      "category": "laptop",
+      "budget": { "max": 15000 },
+      "minMemoryGb": 24,
+      "intent": "开发编程",
+      "maxResults": 2
+    }
+  },
+  {
+    "id": "minimum-laptop-24gb",
+    "group": "data_grounding",
+    "description": "minimum-laptop-24gb",
+    "input": {
+      "category": "laptop",
+      "budget": {
+        "max": 15000
+      },
+      "intent": "开发编程，至少24GB内存"
+    }
+  },
+  {
+    "id": "minimum-laptop-32gb-1tb",
+    "group": "data_grounding",
+    "description": "minimum-laptop-32gb-1tb",
+    "input": {
+      "category": "laptop",
+      "budget": {
+        "max": 25000
+      },
+      "minMemoryGb": 32,
+      "minStorageGb": 1024,
+      "intent": "剪辑"
+    }
+  },
+  {
+    "id": "minimum-tablet-1tb",
+    "group": "data_grounding",
+    "description": "minimum-tablet-1tb",
+    "input": {
+      "category": "tablet",
+      "budget": {
+        "max": 18000
+      },
+      "minStorageGb": 1024,
+      "intent": "绘画"
+    }
+  },
+  {
+    "id": "mixed-tablet-new-and-used",
+    "group": "data_grounding",
+    "description": "mixed-tablet-new-and-used",
+    "input": {
+      "category": "tablet",
+      "budget": {
+        "min": 5450,
+        "max": 5550
+      },
+      "conditionPreference": "used_ok",
+      "intent": "学习"
+    }
+  },
+  {
+    "id": "economical-laptop-headroom",
+    "group": "data_grounding",
+    "description": "economical-laptop-headroom",
+    "input": {
+      "category": "laptop",
+      "budget": {
+        "max": 16000
+      },
+      "intent": "办公，不必花满预算"
+    }
+  },
+  {
+    "id": "camera-cross-brand-evidence",
+    "group": "data_grounding",
+    "description": "camera-cross-brand-evidence",
+    "input": {
+      "category": "phone",
+      "budget": {
+        "min": 3000,
+        "max": 10000
+      },
+      "intent": "拍照好，性价比高"
+    }
+  },
+  {
+    "id": "minimum-impossible-memory",
+    "group": "data_grounding",
+    "description": "minimum-impossible-memory",
+    "input": {
+      "category": "laptop",
+      "budget": {
+        "max": 30000
+      },
+      "minMemoryGb": 9999
+    }
+  },
+  {
+    "id": "minimum-budget-no-match",
+    "group": "data_grounding",
+    "description": "minimum-budget-no-match",
+    "input": {
+      "category": "laptop",
+      "budget": {
+        "max": 10000
+      },
+      "minMemoryGb": 24
+    }
+  },
+  {
+    "id": "battery-evidence-phone",
+    "group": "data_grounding",
+    "description": "battery-evidence-phone",
+    "input": {
+      "category": "phone",
+      "budget": {
+        "max": 8000
+      },
+      "batteryPriority": "high",
+      "intent": "通勤续航"
+    }
+  },
+  {
+    "id": "negated-minimum-not-filtered",
+    "group": "data_grounding",
+    "description": "negated-minimum-not-filtered",
+    "input": {
+      "category": "laptop",
+      "budget": {
+        "max": 10000
+      },
+      "intent": "不需要至少24GB内存"
+    }
+  },
+  {
     "id": "no-match-phone-budget-4500-usbc",
     "group": "budget_no_match",
     "description": "iPhone budget below USB-C candidate floor",
     "input": {
-      "budget": { "max": 4500, "currency": "CNY" },
+      "budget": {
+        "max": 4500,
+        "currency": "CNY"
+      },
       "category": "phone",
       "performancePreference": "battery",
-      "useCases": ["通勤", "长时间使用"],
+      "useCases": [
+        "通勤",
+        "长时间使用"
+      ],
       "interfaceNeed": "usb_c",
       "replacementIntent": "replace",
       "maxResults": 3
@@ -18,10 +163,16 @@
     "group": "budget_no_match",
     "description": "MacBook budget below likely available floor",
     "input": {
-      "budget": { "max": 5000, "currency": "CNY" },
+      "budget": {
+        "max": 5000,
+        "currency": "CNY"
+      },
       "category": "laptop",
       "performancePreference": "performance",
-      "useCases": ["开发", "多任务"],
+      "useCases": [
+        "开发",
+        "多任务"
+      ],
       "conditionPreference": "new_only",
       "replacementIntent": "replace",
       "maxResults": 3
@@ -32,10 +183,16 @@
     "group": "budget_no_match",
     "description": "iPad budget below Pencil-focused candidate floor",
     "input": {
-      "budget": { "max": 2000, "currency": "CNY" },
+      "budget": {
+        "max": 2000,
+        "currency": "CNY"
+      },
       "category": "tablet",
       "performancePreference": "portable",
-      "useCases": ["手写", "上课笔记"],
+      "useCases": [
+        "手写",
+        "上课笔记"
+      ],
       "interfaceNeed": "pencil",
       "replacementIntent": "first_device",
       "maxResults": 3
@@ -46,10 +203,16 @@
     "group": "recommendable",
     "description": "Normal iPhone recommendation with reasonable budget",
     "input": {
-      "budget": { "max": 7000, "currency": "CNY" },
+      "budget": {
+        "max": 7000,
+        "currency": "CNY"
+      },
       "category": "phone",
       "performancePreference": "balanced",
-      "useCases": ["日常", "拍照"],
+      "useCases": [
+        "日常",
+        "拍照"
+      ],
       "interfaceNeed": "usb_c",
       "replacementIntent": "upgrade",
       "maxResults": 3
@@ -60,10 +223,17 @@
     "group": "recommendable",
     "description": "iPad study scenario with enough budget",
     "input": {
-      "budget": { "max": 5000, "currency": "CNY" },
+      "budget": {
+        "max": 5000,
+        "currency": "CNY"
+      },
       "category": "tablet",
       "performancePreference": "screen",
-      "useCases": ["阅读", "笔记", "追剧"],
+      "useCases": [
+        "阅读",
+        "笔记",
+        "追剧"
+      ],
       "interfaceNeed": "pencil",
       "replacementIntent": "first_device",
       "maxResults": 3
@@ -74,10 +244,17 @@
     "group": "recommendable",
     "description": "MacBook office and travel scenario",
     "input": {
-      "budget": { "max": 12000, "currency": "CNY" },
+      "budget": {
+        "max": 12000,
+        "currency": "CNY"
+      },
       "category": "laptop",
       "performancePreference": "portable",
-      "useCases": ["办公", "出差", "轻度开发"],
+      "useCases": [
+        "办公",
+        "出差",
+        "轻度开发"
+      ],
       "replacementIntent": "upgrade",
       "maxResults": 3
     }
@@ -87,10 +264,16 @@
     "group": "boundary_budget",
     "description": "iPhone budget near entry candidate",
     "input": {
-      "budget": { "max": 6000, "currency": "CNY" },
+      "budget": {
+        "max": 6000,
+        "currency": "CNY"
+      },
       "category": "phone",
       "performancePreference": "battery",
-      "useCases": ["通勤", "拍照"],
+      "useCases": [
+        "通勤",
+        "拍照"
+      ],
       "interfaceNeed": "usb_c",
       "replacementIntent": "replace",
       "maxResults": 3
@@ -101,10 +284,16 @@
     "group": "boundary_budget",
     "description": "iPad budget near basic candidates",
     "input": {
-      "budget": { "max": 3500, "currency": "CNY" },
+      "budget": {
+        "max": 3500,
+        "currency": "CNY"
+      },
       "category": "tablet",
       "performancePreference": "balanced",
-      "useCases": ["上课", "阅读"],
+      "useCases": [
+        "上课",
+        "阅读"
+      ],
       "replacementIntent": "first_device",
       "maxResults": 3
     }
@@ -114,10 +303,16 @@
     "group": "boundary_budget",
     "description": "MacBook budget near lower current options",
     "input": {
-      "budget": { "max": 8500, "currency": "CNY" },
+      "budget": {
+        "max": 8500,
+        "currency": "CNY"
+      },
       "category": "laptop",
       "performancePreference": "portable",
-      "useCases": ["办公", "出差"],
+      "useCases": [
+        "办公",
+        "出差"
+      ],
       "replacementIntent": "replace",
       "maxResults": 3
     }
@@ -127,9 +322,15 @@
     "group": "ambiguous_input",
     "description": "Broad daily-use request without category",
     "input": {
-      "budget": { "max": 8000, "currency": "CNY" },
+      "budget": {
+        "max": 8000,
+        "currency": "CNY"
+      },
       "performancePreference": "balanced",
-      "useCases": ["日常使用", "偶尔出差"],
+      "useCases": [
+        "日常使用",
+        "偶尔出差"
+      ],
       "replacementIntent": "first_device",
       "maxResults": 3
     }
@@ -139,7 +340,10 @@
     "group": "ambiguous_input",
     "description": "Short natural intent with limited structured hints",
     "input": {
-      "budget": { "max": 6000, "currency": "CNY" },
+      "budget": {
+        "max": 6000,
+        "currency": "CNY"
+      },
       "intent": "想买一个用久一点的苹果设备",
       "useCases": "日常、学习、看视频",
       "maxResults": 3
@@ -152,7 +356,10 @@
     "input": {
       "category": "phone",
       "performancePreference": "camera",
-      "useCases": ["拍照", "旅行"],
+      "useCases": [
+        "拍照",
+        "旅行"
+      ],
       "replacementIntent": "upgrade",
       "maxResults": 3
     }
@@ -162,10 +369,16 @@
     "group": "preference_conflict",
     "description": "Low phone budget with performance preference",
     "input": {
-      "budget": { "max": 5000, "currency": "CNY" },
+      "budget": {
+        "max": 5000,
+        "currency": "CNY"
+      },
       "category": "phone",
       "performancePreference": "performance",
-      "useCases": ["游戏", "视频剪辑"],
+      "useCases": [
+        "游戏",
+        "视频剪辑"
+      ],
       "interfaceNeed": "usb_c",
       "replacementIntent": "replace",
       "maxResults": 3
@@ -176,10 +389,17 @@
     "group": "preference_conflict",
     "description": "Tablet request balancing portability and screen-heavy use",
     "input": {
-      "budget": { "max": 4500, "currency": "CNY" },
+      "budget": {
+        "max": 4500,
+        "currency": "CNY"
+      },
       "category": "tablet",
       "performancePreference": "portable",
-      "useCases": ["追剧", "分屏", "手写"],
+      "useCases": [
+        "追剧",
+        "分屏",
+        "手写"
+      ],
       "interfaceNeed": "pencil",
       "replacementIntent": "first_device",
       "maxResults": 3
@@ -190,10 +410,17 @@
     "group": "preference_conflict",
     "description": "Laptop budget under heavy creative workload expectations",
     "input": {
-      "budget": { "max": 9000, "currency": "CNY" },
+      "budget": {
+        "max": 9000,
+        "currency": "CNY"
+      },
       "category": "laptop",
       "performancePreference": "performance",
-      "useCases": ["剪辑", "多任务", "开发"],
+      "useCases": [
+        "剪辑",
+        "多任务",
+        "开发"
+      ],
       "replacementIntent": "upgrade",
       "maxResults": 3
     }

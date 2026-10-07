@@ -4,6 +4,7 @@ import {
   normalizeDeviceAdvisorModelOutput,
   runFallbackDeviceAdvisor,
   type DeviceAdvisorInput,
+  type DeviceAdvisorModelOutput,
   type DeviceAdvisorOutput,
 } from "@/lib/device-advisor";
 import type {
@@ -13,6 +14,7 @@ import type {
 } from "@/lib/device-advisor-ai-types";
 
 type DeepSeekResponsePayload = {
+  usage?: { prompt_tokens?: number; completion_tokens?: number; total_tokens?: number };
   choices?: Array<{
     finish_reason?: string;
     message?: {
@@ -26,7 +28,7 @@ const DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions";
 const DEFAULT_DEEPSEEK_MODEL = "deepseek-chat";
 const DEEPSEEK_TIMEOUT_MS = 15_000;
 const DEEPSEEK_MAX_TOKENS = 900;
-const DEEPSEEK_FIELDS = ["answer", "recommendedDeviceIds", "confidence"] as const;
+const DEEPSEEK_FIELDS = ["answer", "recommendedDeviceIds", "recommendedQuoteIds", "confidence"] as const;
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return Boolean(value) && typeof value === "object" && !Array.isArray(value);
@@ -57,7 +59,9 @@ function getMissingFields(value: unknown): string[] {
   return DEEPSEEK_FIELDS.filter((field) => value[field] === undefined || value[field] === null);
 }
 
-function buildDeepSeekRequest(input: DeviceAdvisorInput, retryReason?: string) {
+type RetrySelection = Pick<DeviceAdvisorModelOutput, "recommendedDeviceIds" | "recommendedQuoteIds">;
+
+function buildDeepSeekRequest(input: DeviceAdvisorInput, retryReason?: string, selection?: RetrySelection) {
   return {
     model: process.env.DEEPSEEK_MODEL || DEFAULT_DEEPSEEK_MODEL,
     messages: [
@@ -75,7 +79,7 @@ function buildDeepSeekRequest(input: DeviceAdvisorInput, retryReason?: string) {
       },
       {
         role: "user",
-        content: buildDeviceAdvisorPrompt(input),
+        content: buildDeviceAdvisorPrompt(input, selection),
       },
     ],
     thinking: { type: "disabled" },
@@ -89,9 +93,11 @@ async function callDeepSeek(
   input: DeviceAdvisorInput,
   retryReason: string | undefined,
   phase: DeepSeekAttemptDiagnostics["phase"],
+  selection?: RetrySelection,
 ): Promise<{
   output?: DeviceAdvisorOutput;
   retryReason?: string;
+  retrySelection?: RetrySelection;
   diagnostics: DeepSeekAttemptDiagnostics;
 }> {
   const startedAt = Date.now();
@@ -102,7 +108,7 @@ async function callDeepSeek(
       "Content-Type": "application/json",
       Authorization: `Bearer ${process.env.DEEPSEEK_API_KEY}`,
     },
-    body: JSON.stringify(buildDeepSeekRequest(input, retryReason)),
+    body: JSON.stringify(buildDeepSeekRequest(input, retryReason, selection)),
   });
 
   if (!response.ok) throw new Error(`DeepSeek API returned ${response.status}`);
@@ -115,6 +121,7 @@ async function callDeepSeek(
   }
 
   const { rawText, finishReason, reasoningContent } = extractDeepSeekText(payload);
+  const usage = payload.usage;
   const baseDiagnostics = {
     phase,
     latencyMs: Date.now() - startedAt,
@@ -123,6 +130,8 @@ async function callDeepSeek(
     rawTextEmpty: !rawText,
     missingFields: [] as string[],
     partialRepair: false,
+    ...(usage && [usage.prompt_tokens, usage.completion_tokens, usage.total_tokens].every((value) => typeof value === "number" && Number.isInteger(value) && value >= 0)
+      ? { usage: { promptTokens: usage.prompt_tokens!, completionTokens: usage.completion_tokens!, totalTokens: usage.total_tokens! } } : {}),
   };
   if (!rawText) {
     const reason =
@@ -156,11 +165,22 @@ async function callDeepSeek(
 
   const missingFields = getMissingFields(parsed);
   const normalized = normalizeDeviceAdvisorModelOutput(parsed);
-  const output = normalized ? groundDeviceAdvisorOutput(input, normalized) : null;
+  let groundingReason = "";
+  const outsideRetrySelection = selection && normalized?.recommendedDeviceIds.some((id, index) => {
+    const selectedIndex = selection.recommendedDeviceIds.indexOf(id);
+    return selectedIndex < 0 || normalized.recommendedQuoteIds[index] !== selection.recommendedQuoteIds[selectedIndex];
+  });
+  if (outsideRetrySelection) groundingReason = "outside_retry_selection";
+  const output = normalized && !outsideRetrySelection
+    ? groundDeviceAdvisorOutput(input, normalized, (reason) => { groundingReason = reason; }) : null;
   if (!output) {
-    const reason = "DeepSeek response JSON was missing required fields";
+    const reason = normalized ? `DeepSeek response failed candidate grounding: ${groundingReason}; discuss only selected models and quote prices`
+      : "DeepSeek response JSON was missing required fields";
     return {
       retryReason: reason,
+      ...((groundingReason.startsWith("unselected_") && normalized) ? {
+        retrySelection: { recommendedDeviceIds: normalized.recommendedDeviceIds, recommendedQuoteIds: normalized.recommendedQuoteIds },
+      } : {}),
       diagnostics: { ...baseDiagnostics, retryReason: reason, missingFields },
     };
   }
@@ -207,7 +227,7 @@ export async function fetchDeepSeekAdvisor(
     });
   }
 
-  const retry = await callDeepSeek(input, initial.retryReason, "retry");
+  const retry = await callDeepSeek(input, initial.retryReason, "retry", initial.retrySelection);
   if (retry.output) {
     return withDiagnostics(retry.output, {
       provider: "deepseek",

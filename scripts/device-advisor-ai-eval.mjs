@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { performance } from "node:perf_hooks";
 import { loadTsModule } from "./lib/load-ts-module.mjs";
+import { reviewAdvisorFacts } from "./lib/advisor-fact-review.mjs";
 
 const projectRoot = process.cwd();
 const routeUrl = "http://localhost/api/device-advisor";
@@ -14,6 +15,7 @@ function parseArgs(argv) {
     runs: 1,
     out: null,
     limit: null,
+    sample: null,
   };
 
   for (const arg of argv) {
@@ -25,6 +27,9 @@ function parseArgs(argv) {
       options.out = arg.slice("--out=".length);
     } else if (arg.startsWith("--limit=")) {
       options.limit = Number(arg.slice("--limit=".length));
+    } else if (arg.startsWith("--sample=")) {
+      options.sample = arg.slice("--sample=".length);
+      if (!options.sample) throw new Error("--sample must not be empty");
     } else {
       throw new Error(`Unknown argument: ${arg}`);
     }
@@ -348,8 +353,11 @@ function classifyResult(sample, status, data, latencyMs) {
 async function main() {
   const options = parseArgs(process.argv.slice(2));
   const loadedSamples = JSON.parse(fs.readFileSync(fixturePath, "utf8"));
-  const samples = options.limit === null ? loadedSamples : loadedSamples.slice(0, options.limit);
+  const selectedSamples = options.sample ? loadedSamples.filter((sample) => sample.id === options.sample) : loadedSamples;
+  if (!selectedSamples.length) throw new Error("Unknown or empty sample selection");
+  const samples = options.limit === null ? selectedSamples : selectedSamples.slice(0, options.limit);
   const { POST } = loadTsModule("./src/app/api/device-advisor/route.ts");
+  const { buildDeviceAdvisorContext, buildDeviceAdvisorPrompt } = loadTsModule("./src/lib/device-advisor.ts");
   const total = emptySummary();
   const byGroup = new Map();
   const bySample = new Map();
@@ -361,6 +369,21 @@ async function main() {
         const start = performance.now();
         let response;
         let data;
+        const providerAnswers = [];
+        const originalFetch = globalThis.fetch;
+        if (options.provider === "deepseek") {
+          globalThis.fetch = async (...args) => {
+            const response = await originalFetch(...args);
+            try {
+              const payload = await response.clone().json();
+              providerAnswers.push(...(payload.choices ?? []).map((choice) => ({
+                finishReason: choice.finish_reason,
+                text: choice.message?.content ?? "",
+              })));
+            } catch { /* A malformed response remains visible in route diagnostics. */ }
+            return response;
+          };
+        }
 
         try {
           response = await POST(makeJsonRequest(sample.input));
@@ -368,13 +391,29 @@ async function main() {
         } catch (error) {
           data = { error: error instanceof Error ? error.message : String(error) };
           response = { status: 500 };
+        } finally {
+          globalThis.fetch = originalFetch;
         }
 
         const latencyMs = Number((performance.now() - start).toFixed(1));
+        const prompt = buildDeviceAdvisorPrompt(sample.input);
+        const modelInput = JSON.parse(prompt.split("输入数据：\n")[1].split("\n\n请直接")[0]);
         const result = {
           run,
           ...classifyResult(sample, response.status, data, latencyMs),
+          promptCharacters: prompt.length,
+          modelInput,
+          factReview: reviewAdvisorFacts(data, modelInput),
+          providerAnswers,
+          usage: (data?._diagnostics?.attempts ?? []).map((attempt) => attempt.usage).filter(Boolean),
+          recommendations: (data?.devices ?? []).map(({ deviceId, quoteId, priceText }) => ({ deviceId, quoteId, priceText })),
         };
+        const candidates = new Map(buildDeviceAdvisorContext(sample.input).candidateShortlist.map((candidate) => [candidate.deviceId, candidate]));
+        result.validationErrors = (data?.devices ?? []).flatMap((device) => {
+          const candidate = candidates.get(device.deviceId);
+          const quote = candidate?.quotes.find((item) => item.quoteId === device.quoteId);
+          return !candidate ? ["unknown_device"] : !quote || quote.priceText !== device.priceText ? ["quote_mismatch"] : [];
+        });
 
         results.push(result);
         updateSummary(total, result);
@@ -399,6 +438,16 @@ async function main() {
       generatedAt: new Date().toISOString(),
     },
     summary: finalizeSummary(total),
+    quality: {
+      bindingFailures: results.filter((result) => result.validationErrors.length).length,
+      factualReviewPending: results.filter((result) => result.factReview.status === "pending_manual_review").length,
+      flaggedForFactReview: results.filter((result) => result.factReview.flags.length).length,
+      averagePromptCharacters: Math.round(results.reduce((sum, result) => sum + result.promptCharacters, 0) / results.length),
+      usageReportedAttempts: results.flatMap((result) => result.usage).length,
+      totalTokens: results.some((result) => result.usage.length)
+        ? results.flatMap((result) => result.usage).reduce((sum, usage) => sum + usage.totalTokens, 0) : null,
+      note: "Binding checks and numeric/configuration triage are not factual approval. AI prose requires manual review against saved modelInput; aliases, per-device attribution, derived amounts, negation and qualitative claims are not fully checked.",
+    },
     byGroup: Object.fromEntries(
       Array.from(byGroup.entries()).map(([group, summary]) => [group, finalizeSummary(summary)]),
     ),
@@ -413,6 +462,7 @@ async function main() {
   );
   console.log("Overall:");
   console.log(JSON.stringify(output.summary, null, 2));
+  console.log("Quality:", JSON.stringify(output.quality));
 
   console.log("By group:");
   for (const [group, summary] of Object.entries(output.byGroup)) {

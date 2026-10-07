@@ -1,6 +1,7 @@
 import DeviceAdvisorPanel from "@/components/DeviceAdvisorPanel";
 import PageHeader from "@/components/layout/PageHeader";
 import TickDivider from "@/components/layout/TickDivider";
+import { categoryNames } from "@/lib/devices-db";
 
 export default function AdvisorPage() {
   return (
@@ -19,7 +20,7 @@ export default function AdvisorPage() {
 
       <section className="section pt-0">
         <div className="section-inner mx-auto min-w-0 max-w-5xl">
-          <DeviceAdvisorPanel initialCategory="phone" />
+          <DeviceAdvisorPanel initialCategory="phone" categories={categoryNames} />
         </div>
       </section>
 

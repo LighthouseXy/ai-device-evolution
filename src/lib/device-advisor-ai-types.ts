@@ -13,6 +13,7 @@ export type DeepSeekAttemptDiagnostics = {
   missingFields: string[];
   outputSource?: "ai" | "rules";
   partialRepair: boolean;
+  usage?: { promptTokens: number; completionTokens: number; totalTokens: number };
 };
 
 export type DeepSeekDiagnostics = {

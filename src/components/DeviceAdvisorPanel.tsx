@@ -3,9 +3,8 @@
 import { useState, type FormEvent, type ReactNode } from "react";
 import {
   categoryLabels,
-  categoryNames,
   type DeviceCategory,
-} from "@/lib/devices-db";
+} from "@/lib/device-categories";
 import DeviceAdvisorResult from "@/components/DeviceAdvisorResult";
 import type {
   DeviceAdvisorCategory,
@@ -14,6 +13,7 @@ import type {
 
 type DeviceAdvisorPanelProps = {
   initialCategory: DeviceCategory;
+  categories: DeviceCategory[];
 };
 
 const conditionPreferenceOptions = [
@@ -109,7 +109,7 @@ function getReadableAdvisorError(status: number, payload: { error?: string } | n
   return "设备顾问请求失败，请稍后重试。";
 }
 
-export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPanelProps) {
+export default function DeviceAdvisorPanel({ initialCategory, categories }: DeviceAdvisorPanelProps) {
   const [budgetMin, setBudgetMin] = useState(3000);
   const [budgetMax, setBudgetMax] = useState(10000);
   const [category, setCategory] = useState<DeviceAdvisorCategory>(initialCategory);
@@ -261,7 +261,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
                 }}
               >
                 <option value="all">全品类</option>
-                {categoryNames.map((item) => (
+                {categories.map((item) => (
                   <option key={item} value={item}>
                     {categoryLabels[item]}
                   </option>
@@ -319,7 +319,7 @@ export default function DeviceAdvisorPanel({ initialCategory }: DeviceAdvisorPan
             <FieldLabel>文本描述与补充</FieldLabel>
             <textarea
               className={textAreaClassName}
-              placeholder="例如：经常出差，希望轻便；已有显示器，不需要大屏"
+              placeholder="例如：开发编程，至少24GB内存，至少1TB存储；经常出差，希望轻便"
               value={intent}
               onChange={(event) => {
                 clearError();

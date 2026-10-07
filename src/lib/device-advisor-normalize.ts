@@ -15,7 +15,7 @@ import {
 
 function normalizeCategory(value: unknown): DeviceAdvisorCategory | undefined {
   if (value === "all") return "all";
-  return value === "phone" || value === "tablet" || value === "laptop" ? value : undefined;
+  return value === "phone" || value === "tablet" || value === "laptop" || value === "watch" || value === "band" ? value : undefined;
 }
 
 function normalizePerformancePreference(
@@ -72,7 +72,7 @@ export function normalizeUseCases(value: unknown): string[] {
 }
 
 export function normalizeBudget(value: unknown): DeviceAdvisorBudget | undefined {
-  if (typeof value === "number" && Number.isFinite(value)) {
+  if (typeof value === "number" && Number.isFinite(value) && value >= 0) {
     return { max: value, currency: "CNY" };
   }
 
@@ -81,10 +81,13 @@ export function normalizeBudget(value: unknown): DeviceAdvisorBudget | undefined
   const min = normalizeNumber(value.min);
   const max = normalizeNumber(value.max ?? value.budget ?? value.amount);
   const currency = normalizeText(value.currency, "CNY") || "CNY";
+  if ((value.min !== undefined && min === undefined)
+    || ((value.max ?? value.budget ?? value.amount) !== undefined && max === undefined)) return undefined;
 
-  if (min === undefined && max === undefined) return undefined;
-  const normalizedMin = min ?? max ?? undefined;
-  const normalizedMax = max ?? min ?? undefined;
+  if ((min === undefined && max === undefined) || (min !== undefined && min < 0)
+    || (max !== undefined && max < 0) || currency !== "CNY") return undefined;
+  const normalizedMin = min;
+  const normalizedMax = max;
 
   if (normalizedMin !== undefined && normalizedMax !== undefined && normalizedMin > normalizedMax) {
     return { min: normalizedMax, max: normalizedMin, currency };
@@ -125,18 +128,23 @@ export function normalizeDeviceAdvisorModelOutput(
   if (!isRecord(value)) return null;
 
   const answer = normalizeText(value.answer);
+  if (!Array.isArray(value.recommendedDeviceIds)
+    || value.recommendedDeviceIds.some((item) => typeof item !== "string" || !item.trim())) return null;
   const recommendedDeviceIds = Array.isArray(value.recommendedDeviceIds)
     ? value.recommendedDeviceIds
         .map((item) => normalizeText(item))
         .filter(Boolean)
-        .slice(0, MAX_RECOMMENDATIONS)
     : null;
   const confidence = normalizeNumber(value.confidence);
+  if (!Array.isArray(value.recommendedQuoteIds)
+    || value.recommendedQuoteIds.some((item) => typeof item !== "string" || !item.trim())
+    || value.recommendedQuoteIds.length !== recommendedDeviceIds?.length) return null;
   if (!answer || !recommendedDeviceIds || confidence === undefined) return null;
 
   return {
     answer,
     recommendedDeviceIds,
+    recommendedQuoteIds: value.recommendedQuoteIds.map((item: string) => item.trim()),
     confidence: clamp(confidence, 0, 1),
   };
 }
@@ -145,6 +153,7 @@ export function normalizeDeviceAdvisorInput(value: unknown): DeviceAdvisorInput 
   if (!isRecord(value)) return null;
 
   const budget = normalizeBudget(value.budget);
+  if (value.budget !== undefined && !budget) return null;
   const category = normalizeCategory(value.category);
   const performancePreference = normalizePerformancePreference(value.performancePreference);
   const useCases = normalizeUseCases(value.useCases);
@@ -159,8 +168,13 @@ export function normalizeDeviceAdvisorInput(value: unknown): DeviceAdvisorInput 
       ? value.replacementIntent
       : undefined;
   const maxResults = normalizeNumber(value.maxResults);
+  const minMemoryGb = normalizeNumber(value.minMemoryGb);
+  const minStorageGb = normalizeNumber(value.minStorageGb);
+  for (const key of ["minMemoryGb", "minStorageGb"] as const) {
+    if (value[key] !== undefined && (typeof value[key] !== "number" || !Number.isFinite(value[key]) || value[key] <= 0)) return null;
+  }
 
-  if (!budget && !category && !performancePreference && !useCases.length && !intent && !conditionPreference && !batteryPriority && !interfaceNeed && !replacementIntent && maxResults === undefined) {
+  if (!budget && !category && !performancePreference && !useCases.length && !intent && !conditionPreference && !batteryPriority && !interfaceNeed && !replacementIntent && maxResults === undefined && minMemoryGb === undefined && minStorageGb === undefined) {
     return null;
   }
 
@@ -175,13 +189,15 @@ export function normalizeDeviceAdvisorInput(value: unknown): DeviceAdvisorInput 
     interfaceNeed,
     replacementIntent,
     maxResults,
+    minMemoryGb,
+    minStorageGb,
   };
 }
 
 export const deviceAdvisorModelOutputSchema = {
   type: "object",
   additionalProperties: false,
-  required: ["answer", "recommendedDeviceIds", "confidence"],
+  required: ["answer", "recommendedDeviceIds", "recommendedQuoteIds", "confidence"],
   properties: {
     answer: { type: "string" },
     recommendedDeviceIds: {
@@ -191,5 +207,11 @@ export const deviceAdvisorModelOutputSchema = {
       items: { type: "string" },
     },
     confidence: { type: "number", minimum: 0, maximum: 1 },
+    recommendedQuoteIds: {
+      type: "array",
+      minItems: 0,
+      maxItems: MAX_RECOMMENDATIONS,
+      items: { type: "string" },
+    },
   },
 } as const;

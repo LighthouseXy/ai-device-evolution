@@ -28,9 +28,12 @@ export type DeviceAdvisorInput = {
   interfaceNeed?: "any" | "usb_c" | "magsafe" | "pencil";
   replacementIntent?: "upgrade" | "replace" | "first_device";
   maxResults?: number;
+  minMemoryGb?: number;
+  minStorageGb?: number;
 };
 
 export type DeviceAdvisorDevice = {
+  quoteId: string;
   deviceId: string;
   model: string;
   series: string;
@@ -50,6 +53,7 @@ export type DeviceAdvisorOutput = {
 export type DeviceAdvisorModelOutput = {
   answer: string;
   recommendedDeviceIds: string[];
+  recommendedQuoteIds: string[];
   confidence: number;
 };
 
@@ -63,6 +67,15 @@ export type Candidate = {
   referencePrice: number | null;
   priceText: string;
   facts: Record<string, string | number>;
+  quotes: Array<{
+    quoteId: string;
+    priceType: "current" | "used" | null;
+    sourceName?: string;
+    observedAt?: string;
+    referencePrice: number | null;
+    priceText: string;
+    facts: Record<string, string | number>;
+  }>;
 };
 
 export const DEFAULT_DEVICE_ADVISOR_DISCLAIMER = "基于已收录设备数据生成，仅供参考";
@@ -71,6 +84,8 @@ export const MAX_SHORTLIST = 12;
 export const MAX_RECOMMENDATIONS = 3;
 
 export const CATEGORY_KEYWORDS: Record<Exclude<DeviceAdvisorCategory, "all">, string[]> = {
+  watch: ["手表", "watch"],
+  band: ["手环"],
   phone: ["手机", "iphone", "拍照", "通勤", "随身", "移动"],
   tablet: ["平板", "ipad", "手写", "阅读", "追剧", "笔记", "pencil"],
   laptop: ["电脑", "macbook", "办公", "开发", "编程", "出差", "创作"],

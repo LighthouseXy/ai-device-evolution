@@ -16,7 +16,7 @@ import {
   normalizeText,
 } from "@/lib/ai-analysis-utils";
 
-const DEVICE_CATEGORY_SET = new Set<DeviceCategory>(["phone", "tablet", "laptop"]);
+const DEVICE_CATEGORY_SET = new Set<DeviceCategory>(["phone", "tablet", "laptop", "watch", "band"]);
 
 function normalizeDeviceCategory(value: unknown): DeviceCategory | null {
   return typeof value === "string" && DEVICE_CATEGORY_SET.has(value as DeviceCategory)
