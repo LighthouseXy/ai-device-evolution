@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 
 const links = [
   { href: "/advisor", label: "AI 顾问" },
-  { href: "/compare", label: "代际对比" },
+  { href: "/compare", label: "产品对比" },
   { href: "/trends", label: "趋势观察" },
   { href: "/devices", label: "设备库" },
 ];

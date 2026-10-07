@@ -12,7 +12,7 @@ export default function SiteFooter() {
             </Link>
             <p className="site-footer-desc">
               聚焦电子设备代际演进、规格对比与 AI 辅助分析的研究平台，
-              已从 Apple 扩展到 Xiaomi、OPPO、vivo、Huawei、HONOR 与 Samsung 中国大陆产品线试点。
+              已覆盖苹果、小米、红米、三星、华为、OPPO、vivo 与荣耀中国大陆产品线。
             </p>
           </div>
 
@@ -22,7 +22,7 @@ export default function SiteFooter() {
                 <div className="site-footer-col-title">导航</div>
                 <Link className="site-footer-link" href="/">首页</Link>
                 <Link className="site-footer-link" href="/advisor">AI 顾问</Link>
-                <Link className="site-footer-link" href="/compare">代际对比</Link>
+                <Link className="site-footer-link" href="/compare">产品对比</Link>
                 <Link className="site-footer-link" href="/trends">趋势观察</Link>
                 <Link className="site-footer-link" href="/devices">设备库</Link>
               </div>

@@ -1,30 +1,37 @@
 import Link from "next/link";
 import {
-  allDevicesFlat,
+  catalogDevicesFlat as allDevicesFlat,
   categoryNames,
-  deviceCountByCategory,
+  getCatalogFamilyOptions,
   formatMaybeCurrency,
   summaryStatsFlat,
 } from "@/lib/devices-db";
 import PageHeader from "@/components/layout/PageHeader";
+import DeviceImage from "@/components/DeviceImage";
+import { getDeviceImage } from "@/lib/device-images";
+import DeviceCatalogFilters from "@/components/DeviceCatalogFilters";
+import { brandLabels, getCatalogProductSeries, sortBrands } from "@/lib/catalog-order";
 
 type SearchParams = {
   brand?: string | string[];
   category?: string | string[];
+  series?: string | string[];
   q?: string | string[];
 };
 
-const brandNames = Array.from(new Set(allDevicesFlat.map((device) => device.brand)));
+const brandNames = sortBrands(allDevicesFlat.map((device) => device.brand));
 
 const categoryDisplay: Record<(typeof categoryNames)[number], string> = {
   phone: "智能手机",
   tablet: "平板电脑",
   laptop: "笔记本电脑",
+  watch: "手表",
+  band: "手环",
 };
 
 function normalizeCategory(value: string | string[] | undefined) {
   const raw = Array.isArray(value) ? value[0] : value;
-  return raw === "phone" || raw === "tablet" || raw === "laptop" ? raw : "all";
+  return raw === "phone" || raw === "tablet" || raw === "laptop" || raw === "watch" || raw === "band" ? raw : "all";
 }
 
 function normalizeBrand(value: string | string[] | undefined) {
@@ -46,7 +53,6 @@ function buildHighlights(device: (typeof allDevicesFlat)[number]) {
     device.chip,
     typeof device.screenSize === "number" ? `${device.screenSize}"` : null,
     device.weight ? `${device.weight}g` : null,
-    device.launchPrice ? formatMaybeCurrency(device.launchPrice) : null,
   ].filter((item): item is string => Boolean(item));
 }
 
@@ -55,8 +61,10 @@ function DeviceCard({
 }: {
   device: (typeof allDevicesFlat)[number];
 }) {
+  const seriesLabel = getCatalogProductSeries({ ...device, key: device.comparisonGroupId, label: device.series }).label;
   return (
     <Link href={`/devices/${device.id}`} className="card group flex h-full flex-col p-5">
+      <DeviceImage image={getDeviceImage(device.id)} model={device.model} className="mb-4 h-44" />
       <div className="flex items-start justify-between gap-4">
         <div className="grid gap-1">
           <span className="tag tag-neutral w-fit">{categoryDisplay[device.category]}</span>
@@ -68,7 +76,7 @@ function DeviceCard({
       </div>
 
       <p className="mt-3 text-sm leading-7 text-[var(--text-muted)]">
-        {device.series} · {device.brand}
+        {seriesLabel} · {brandLabels[device.brand] ?? device.brand}
       </p>
 
       <div className="mt-4 flex flex-wrap gap-2">
@@ -90,7 +98,7 @@ function DeviceCard({
         </div>
         <div className="mt-2 flex items-center justify-between gap-4 text-xs text-[var(--text-muted)]">
           <span>系列</span>
-          <span>{device.series}</span>
+          <span>{seriesLabel}</span>
         </div>
       </div>
 
@@ -108,8 +116,17 @@ export default async function DevicesPage({
   searchParams: Promise<SearchParams>;
 }) {
   const resolvedSearchParams = await searchParams;
-  const selectedBrand = normalizeBrand(resolvedSearchParams.brand);
+  let selectedBrand = normalizeBrand(resolvedSearchParams.brand);
   const selectedCategory = normalizeCategory(resolvedSearchParams.category);
+  const catalogGroups = getCatalogFamilyOptions();
+  const requestedSeries = normalizeSearchQuery(resolvedSearchParams.series);
+  // 兼容拆分前保存的红米链接，不把明确的红米系列切换成小米全部设备。
+  if (selectedBrand === "Xiaomi" && catalogGroups.some((group) => group.brand === "Redmi"
+    && (group.key === requestedSeries || group.groupKeys.includes(requestedSeries)))) selectedBrand = "Redmi";
+  const requestedGroup = catalogGroups.find((group) => (group.key === requestedSeries || group.groupKeys.includes(requestedSeries))
+    && (selectedBrand === "all" || group.brand === selectedBrand)
+    && (selectedCategory === "all" || group.category === selectedCategory));
+  const selectedSeries = requestedGroup?.key ?? "all";
   const searchQuery = normalizeSearchQuery(resolvedSearchParams.q);
   const normalizedSearch = searchQuery.toLocaleLowerCase("zh-CN");
   const categoryDevices =
@@ -120,13 +137,15 @@ export default async function DevicesPage({
     selectedBrand === "all"
       ? categoryDevices
       : categoryDevices.filter((device) => device.brand === selectedBrand);
+  const seriesDevices = !requestedGroup ? brandDevices : brandDevices.filter((device) => requestedGroup.groupKeys.includes(device.comparisonGroupId));
   const visibleDevices = normalizedSearch
-    ? brandDevices.filter((device) =>
-        [device.model, device.series, device.brand, device.chip, categoryDisplay[device.category]]
+    ? seriesDevices.filter((device) =>
+        [device.model, device.series, device.brand, brandLabels[device.brand], device.chip, categoryDisplay[device.category],
+          ...device.editions?.flatMap(edition => [edition.label, edition.device.model]) ?? []]
           .filter(Boolean)
           .some((value) => String(value).toLocaleLowerCase("zh-CN").includes(normalizedSearch)),
       )
-    : brandDevices;
+    : seriesDevices;
 
   const sortedDevices = [...visibleDevices].sort((left, right) => {
     if (right.releaseYear !== left.releaseYear) return right.releaseYear - left.releaseYear;
@@ -137,15 +156,6 @@ export default async function DevicesPage({
     }
     return left.model.localeCompare(right.model, "zh-CN");
   });
-
-  const categoryPills = [
-    { key: "all", label: "全部", count: allDevicesFlat.length },
-    ...categoryNames.map((category) => ({
-      key: category,
-      label: categoryDisplay[category],
-      count: deviceCountByCategory[category],
-    })),
-  ] as const;
 
   return (
     <main className="site-main">
@@ -164,62 +174,10 @@ export default async function DevicesPage({
       />
 
       <section className="section section-filter">
-        <div className="section-inner filter-strip">
-          <div className="filter-row">
-            <div className="filter-heading">设备类别</div>
-            <div className="filter-pills">
-              {categoryPills.map((item) => {
-                const active = item.key === selectedCategory;
-                const params = new URLSearchParams();
-                if (item.key !== "all") params.set("category", item.key);
-                if (selectedBrand !== "all") params.set("brand", selectedBrand);
-                if (searchQuery) params.set("q", searchQuery);
-                const href = params.size > 0 ? `/devices?${params.toString()}` : "/devices";
-
-                return (
-                  <Link
-                    key={item.key}
-                    href={href}
-                    className={`tag ${active ? "tag-green" : "tag-neutral"}`}
-                    aria-current={active ? "page" : undefined}
-                  >
-                    {item.label}
-                    <span className="opacity-70">({formatCount(item.count)})</span>
-                  </Link>
-                );
-              })}
-              <span className="tag tag-neutral">结果 {formatCount(sortedDevices.length)} 台</span>
-            </div>
-          </div>
-          <div className="filter-row">
-            <div className="filter-heading">品牌</div>
-            <div className="filter-pills">
-              {["all", ...brandNames].map((brand) => {
-                const active = brand === selectedBrand;
-                const params = new URLSearchParams();
-                if (selectedCategory !== "all") params.set("category", selectedCategory);
-                if (brand !== "all") params.set("brand", brand);
-                if (searchQuery) params.set("q", searchQuery);
-                const href = params.size > 0 ? `/devices?${params.toString()}` : "/devices";
-                const count =
-                  brand === "all"
-                    ? categoryDevices.length
-                    : categoryDevices.filter((device) => device.brand === brand).length;
-
-                return (
-                  <Link
-                    key={brand}
-                    href={href}
-                    className={`tag ${active ? "tag-green" : "tag-neutral"}`}
-                    aria-current={active ? "page" : undefined}
-                  >
-                    {brand === "all" ? "全部品牌" : brand}
-                    <span className="opacity-70">({formatCount(count)})</span>
-                  </Link>
-                );
-              })}
-            </div>
-          </div>
+        <div className="section-inner catalog-filter-grid">
+          <DeviceCatalogFilters path="/devices" groups={catalogGroups} brand={selectedBrand} category={selectedCategory}
+            series={selectedSeries} allowAll params={searchQuery ? { q: searchQuery } : {}} />
+          <span className="self-end pb-2 text-sm text-[var(--text-soft)]">结果 {formatCount(sortedDevices.length)} 台</span>
         </div>
       </section>
 

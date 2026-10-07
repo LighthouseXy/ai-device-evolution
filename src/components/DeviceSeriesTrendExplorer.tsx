@@ -2,24 +2,21 @@
 
 import { useMemo, useState } from "react";
 import type { FlattenedDevice } from "@/lib/devices-db";
-import { formatMaybeCurrency } from "@/lib/devices-db";
+import { formatMaybeCurrency } from "@/lib/number-format";
 
-type MetricKey = "chipRank" | "screenSize" | "weight" | "price" | "aiFeatureLevel";
+type TrendDevice = Pick<FlattenedDevice,
+  "id" | "model" | "releaseYear" | "chip" | "screenSize" | "weight" | "launchPrice" | "aiFeatureLevel">;
+
+type MetricKey = "screenSize" | "weight" | "price" | "aiFeatureLevel";
 
 type TrendMetric = {
   key: MetricKey;
   label: string;
-  formatValue: (device: FlattenedDevice, rawValue: number) => string;
-  getValue: (device: FlattenedDevice) => number | null;
+  formatValue: (device: TrendDevice, rawValue: number) => string;
+  getValue: (device: TrendDevice) => number | null;
 };
 
 const metricOptions: TrendMetric[] = [
-  {
-    key: "chipRank",
-    label: "芯片",
-    formatValue: (device, value) => `${device.chip || "待补充"} · ${value.toFixed(0)} 代`,
-    getValue: (device) => parseChipRank(device.chip),
-  },
   {
     key: "screenSize",
     label: "尺寸",
@@ -34,9 +31,9 @@ const metricOptions: TrendMetric[] = [
   },
   {
     key: "price",
-    label: "价格",
+    label: "首发价",
     formatValue: (_device, value) => formatMaybeCurrency(value),
-    getValue: (device) => device.launchPrice ?? getSpecNumber(device, "currentPrice") ?? getSpecNumber(device, "usedPrice"),
+    getValue: (device) => device.launchPrice ?? null,
   },
   {
     key: "aiFeatureLevel",
@@ -45,17 +42,6 @@ const metricOptions: TrendMetric[] = [
     getValue: (device) => (typeof device.aiFeatureLevel === "number" ? device.aiFeatureLevel : null),
   },
 ];
-
-function parseChipRank(chip: string) {
-  const normalized = chip.replace(/\s+/g, " ");
-  const exact = normalized.match(/\b(?:Apple\s+)?([AM])\s?(\d{1,2})\b/i);
-  return exact ? Number(exact[2]) : null;
-}
-
-function getSpecNumber(device: FlattenedDevice, key: string) {
-  const value = device.specs?.[key];
-  return typeof value === "number" ? value : null;
-}
 
 function buildSmoothPath(points: Array<{ x: number; y: number }>) {
   if (points.length < 2) {
@@ -87,16 +73,19 @@ export default function DeviceSeriesTrendExplorer({
   devices,
   activeDeviceId,
 }: {
-  devices: FlattenedDevice[];
+  devices: TrendDevice[];
   activeDeviceId: string;
 }) {
-  const [activeMetric, setActiveMetric] = useState<MetricKey>(() =>
-    devices.some((device) => parseChipRank(device.chip) !== null) ? "chipRank" : "screenSize",
+  const [activeMetric, setActiveMetric] = useState<MetricKey>("screenSize");
+
+  const availableMetrics = useMemo(
+    () => metricOptions.filter((option) => devices.some((device) => option.getValue(device) !== null)),
+    [devices],
   );
 
   const metric = useMemo(
-    () => metricOptions.find((item) => item.key === activeMetric) ?? metricOptions[0],
-    [activeMetric],
+    () => availableMetrics.find((item) => item.key === activeMetric) ?? availableMetrics[0] ?? metricOptions[0],
+    [activeMetric, availableMetrics],
   );
 
   const normalizedDevices = useMemo(() => {
@@ -163,7 +152,7 @@ export default function DeviceSeriesTrendExplorer({
         <div className="mb-3 flex min-w-0 flex-wrap items-start justify-between gap-4">
           <div className="grid min-w-0 gap-1">
             <span className="tag tag-green w-fit">同组趋势</span>
-            <h3 className="text-2xl font-semibold text-[var(--text-strong)]">{metric.label} · 代际变化</h3>
+            <h3 className="text-2xl font-semibold text-[var(--text-strong)]">{availableMetrics.length ? `${metric.label} · 代际变化` : "数值趋势待补充"}</h3>
             <span className="tag tag-neutral w-fit">{yearRange}</span>
           </div>
           <div className="grid w-full min-w-0 max-w-full justify-items-start gap-2 lg:ml-auto lg:w-[19rem] lg:justify-items-end">
@@ -176,8 +165,8 @@ export default function DeviceSeriesTrendExplorer({
               </span>
             </div>
             <div className="flex max-w-full flex-wrap gap-2 lg:justify-end">
-              {metricOptions.map((option) => {
-                const active = option.key === activeMetric;
+              {availableMetrics.map((option) => {
+                const active = option.key === metric.key;
                 return (
                   <button
                     className={`tag shrink-0 ${active ? "tag-amber" : "tag-neutral"}`}
@@ -230,7 +219,7 @@ export default function DeviceSeriesTrendExplorer({
                           ? `${Math.round(tickValue)}`
                           : metric.key === "aiFeatureLevel"
                             ? `${tickValue.toFixed(1)}`
-                            : `${Math.round(tickValue)} 代`}
+                          : "—"}
                   </text>
                 </g>
               );
@@ -250,10 +239,7 @@ export default function DeviceSeriesTrendExplorer({
             {points.map((point, index) => {
               if (point.y === null) return null;
               const isActive = point.device.id === activeDeviceId;
-              const label =
-                metric.key === "chipRank"
-                  ? point.device.chip || "待补充"
-                  : metric.formatValue(point.device, point.value ?? 0);
+              const label = metric.formatValue(point.device, point.value ?? 0);
               const labelOffset = index % 2 === 0 ? -12 : 20;
 
               return (
@@ -293,17 +279,27 @@ export default function DeviceSeriesTrendExplorer({
             </svg>
           </div>
         ) : (
-          <div className="flex h-[250px] items-center justify-center rounded-[1.5rem] border border-dashed border-[rgba(221,213,199,0.72)] bg-white/70 text-sm text-[var(--text-muted)]">
-            当前指标暂无足够数据
+          <div className="rounded-[1.5rem] border border-dashed border-[rgba(221,213,199,0.72)] bg-white/70 p-5 text-sm leading-7 text-[var(--text-muted)]">
+            暂无可直接横比的数值记录，具体尺寸、版本和使用条件请查看下方参数，不将多版本描述转换为单一数值。
           </div>
         )}
 
-        {activeMetric === "chipRank" ? (
-          <p className="mt-3 text-xs leading-6 text-[var(--text-soft)]">
-            * 芯片趋势只解析明确的 Apple A / M 系列序号，用于表达代际方向，不等同于硬件基准分。
-          </p>
-        ) : null}
+        {metric.key === "price" ? <p className="mt-3 text-xs leading-6 text-[var(--text-soft)]">仅对比国行首发价；缺失值留空，不混入当前价或二手价。</p> : null}
       </div>
+      {devices.some((device) => device.chip) ? (
+        <div className="min-w-0 rounded-[1.75rem] border border-[rgba(221,213,199,0.78)] bg-white p-4 sm:p-5">
+          <h3 className="text-sm font-semibold text-[var(--text-strong)]">芯片型号时间线</h3>
+          <div className="mt-3 flex gap-2 overflow-x-auto pb-1">
+            {devices.map((device) => (
+              <div className="min-w-36 rounded-xl border border-[var(--border)] p-3 text-xs" key={device.id}>
+                <div className="text-[var(--text-soft)]">{device.releaseYear} · {device.model}</div>
+                <div className="mt-1 font-semibold text-[var(--text-strong)]">{device.chip || "待补充"}</div>
+              </div>
+            ))}
+          </div>
+          <p className="mt-2 text-xs text-[var(--text-soft)]">型号仅用于展示代际更替，不代表性能分数。</p>
+        </div>
+      ) : null}
     </div>
   );
 }

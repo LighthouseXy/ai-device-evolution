@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import {
   allDevices,
   allDevicesFlat,
+  getCatalogDevice,
   categoryLabels,
   formatMaybeCurrency,
   getDevicesByComparisonGroupFlat,
@@ -11,16 +12,20 @@ import DeviceSeriesTrendExplorer from "@/components/DeviceSeriesTrendExplorer";
 import PageHeader from "@/components/layout/PageHeader";
 import SectionHeader from "@/components/layout/SectionHeader";
 import TickDivider from "@/components/layout/TickDivider";
-import { formatConfiguration, getPricesForComparison } from "@/lib/device-configurations";
+import DeviceImage from "@/components/DeviceImage";
+import DeviceSpecGrid from "@/components/DeviceSpecGrid";
+import { getDeviceImage, getDeviceImageGallery } from "@/lib/device-images";
+import { formatConfiguration, getPricesForComparison, getLaunchPriceRows } from "@/lib/device-configurations";
+import { formatDeviceSpec, getDeviceSpecFields, getCameraDetailPresentation, splitDeviceSpecDescription } from "@/lib/device-spec-fields";
+import { brandLabels } from "@/lib/catalog-order";
 
-type Device = (typeof allDevicesFlat)[number];
-
-function buildSourceRows(device: (typeof allDevices)[number]) {
+function buildSourceRows(devices: (typeof allDevices)) {
   const sources = new Map<string, {
     sourceType: "official" | "reference";
     verifiedAt: string;
     fields: Set<string>;
     protocols: Set<string>;
+    hasSummary: boolean;
   }>();
   const addSource = (
     sourceUrl: string,
@@ -28,31 +33,36 @@ function buildSourceRows(device: (typeof allDevices)[number]) {
     verifiedAt: string,
     field: string,
     protocol?: string,
+    isSummary = false,
   ) => {
     const source = sources.get(sourceUrl) ?? {
       sourceType,
       verifiedAt,
       fields: new Set<string>(),
       protocols: new Set<string>(),
+      hasSummary: false,
     };
     source.fields.add(field);
+    source.hasSummary ||= isSummary;
     if (protocol) source.protocols.add(protocol);
     sources.set(sourceUrl, source);
   };
 
-  for (const [fieldName, field] of Object.entries(device.specs ?? {})) {
-    if (field?.value !== null && field?.value !== undefined) {
-      addSource(field.sourceUrl, field.sourceType, field.verifiedAt, fieldName);
+  for (const device of devices) {
+    for (const [fieldName, field] of Object.entries(device.specs ?? {})) {
+      if (field?.value !== null && field?.value !== undefined) {
+        addSource(field.sourceUrl, field.sourceType, field.verifiedAt, `${device.id}:${fieldName}`, undefined, field.evidenceKind === "summary");
+      }
     }
-  }
-  for (const benchmark of device.benchmarks ?? []) {
-    addSource(
-      benchmark.sourceUrl,
-      "reference",
-      benchmark.verifiedAt,
-      `${benchmark.provider} ${benchmark.metric}`,
-      benchmark.protocolVersion,
-    );
+    for (const benchmark of device.benchmarks ?? []) {
+      addSource(
+        benchmark.sourceUrl,
+        "reference",
+        benchmark.verifiedAt,
+        `${device.id}:${benchmark.provider} ${benchmark.metric}`,
+        benchmark.protocolVersion,
+      );
+    }
   }
 
   return [...sources].map(([sourceUrl, source]) => ({
@@ -61,30 +71,48 @@ function buildSourceRows(device: (typeof allDevices)[number]) {
     sourceType: source.sourceType,
     verifiedAt: source.verifiedAt,
     fieldCount: source.fields.size,
+    hasSummary: source.hasSummary,
     protocols: [...source.protocols],
   }));
 }
 
-function getSpecValue(device: Device, key: string) {
-  const value = device.specs?.[key];
-  if (value === undefined || value === null || value === "") return null;
-  if (typeof value === "boolean") return value ? "支持" : "不支持";
-  if (Array.isArray(value)) return value.join(", ");
-  return String(value);
-}
+type DetailRow = {
+  label: string;
+  value: string;
+  note?: string;
+  preserveLines?: boolean;
+  supplementary?: boolean;
+  quotes?: Array<{ configuration: string; amount: string }>;
+};
 
-function buildRows(device: Device, keys: Array<[string, string]>) {
-  return keys.map(([label, key]) => {
-    const value = getSpecValue(device, key);
-    return { label, value: value ?? "待补充" };
-  });
-}
-
-function InfoRow({ label, value }: { label: string; value: string }) {
+function InfoRow({ label, value, note, preserveLines, supplementary, quotes }: DetailRow) {
+  const lines = value.split("\n");
+  // 仅按原文分项，不生成摘要；配置条件保留原有行，避免拆散对应关系。
+  const parts = splitDeviceSpecDescription(value);
+  const hasIntroduction = !preserveLines && parts.length > 1 && /[:：]$/.test(parts[0]);
+  const detailed = supplementary || hasIntroduction || value.length > 80 || parts.length > 2 || lines.length > 1 || Boolean(quotes?.length);
   return (
-    <div className="flex items-start justify-between gap-4 border-b border-[rgba(221,213,199,0.75)] py-3 last:border-b-0 last:pb-0">
-      <span className="text-sm text-[var(--text-muted)]">{label}</span>
-      <span className="whitespace-pre-line text-right text-sm font-medium text-[var(--text-strong)]">{value}</span>
+    <div className={`device-spec-row${detailed ? " is-detailed" : ""}`}>
+      <dt className="device-spec-label">{label}</dt>
+      <dd className="device-spec-value">
+        {quotes?.length ? (
+          <ul className="device-spec-quotes">
+            {quotes.map((quote, index) => (
+              <li key={index}><span>{quote.configuration}</span><strong>{quote.amount}</strong></li>
+            ))}
+          </ul>
+        ) : detailed ? (
+          <div className="device-spec-description">
+            {!preserveLines && parts.length > 1
+              ? <>
+                {hasIntroduction && <p>{parts[0]}</p>}
+                <ul>{(hasIntroduction ? parts.slice(1) : parts).map((part, index) => <li key={index}>{part}</li>)}</ul>
+              </>
+              : lines.map((line, index) => <p key={index}>{line}</p>)}
+          </div>
+        ) : lines.map((line, index) => <p key={index}>{line}</p>)}
+      </dd>
+      {note && <dd className="device-spec-note"><span>说明</span>{note}</dd>}
     </div>
   );
 }
@@ -94,17 +122,17 @@ function SpecGroup({
   rows,
 }: {
   title: string;
-  rows: Array<{ label: string; value: string }>;
+  rows: DetailRow[];
 }) {
   return (
-    <div className="card h-full p-5">
-      <div className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--primary)]">{title}</div>
-      <div className="mt-4">
-        {rows.map((row) => (
-          <InfoRow key={row.label} label={row.label} value={row.value} />
+    <section className="card device-spec-group" aria-label={`${title}参数`}>
+      <h3>{title}</h3>
+      <dl>
+        {[...rows.filter(row => !row.supplementary), ...rows.filter(row => row.supplementary)].map((row) => (
+          <InfoRow key={row.label} {...row} />
         ))}
-      </div>
-    </div>
+      </dl>
+    </section>
   );
 }
 
@@ -114,7 +142,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const device = allDevicesFlat.find((item) => item.id === id);
+  const device = getCatalogDevice(id);
 
   if (!device) {
     return {
@@ -134,7 +162,7 @@ export default async function DeviceDetailPage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const device = allDevicesFlat.find((item) => item.id === id);
+  const device = getCatalogDevice(id);
   const rawDevice = allDevices.find((item) => item.id === id);
 
   if (!device || !rawDevice) {
@@ -143,74 +171,59 @@ export default async function DeviceDetailPage({
 
   const seriesDevices = getDevicesByComparisonGroupFlat(device.family, device.variant, device.tier);
   const comparisonGroupLabel = getComparisonGroupLabelFlat(device.family, device.variant, device.tier);
-  const currentIndex = seriesDevices.findIndex((item) => item.id === device.id);
-  const performanceRows = buildRows(device, [
-    ["芯片", "chip"],
-    ["CPU", "cpu"],
-    ["GPU", "gpu"],
-    ["神经引擎", "neuralEngine"],
-    ["内存", "memory"],
-    ["存储", "storage"],
-  ]);
-  const priceRows = (["current", "used"] as const).map((priceType) => {
+  const specGroups = new Map<string, DetailRow[]>();
+  const specFields = getDeviceSpecFields([device]);
+  const cameraPresentation = getCameraDetailPresentation(device);
+  for (const field of specFields) {
+    if (cameraPresentation.omittedLensKeys.includes(field.key)) continue;
+    const cameraSupplement = field.key === "rearCamera" ? cameraPresentation.supplement : undefined;
+    const note = device.specs?.[`${field.key}Note`];
+    if (cameraSupplement === "" && !note) continue;
+    const noteAsValue = cameraSupplement === "" && Boolean(note);
+    const row = {
+      label: cameraSupplement !== undefined ? "影像补充" : field.label,
+      value: noteAsValue ? String(note) : cameraSupplement ?? formatDeviceSpec(device, field),
+      note: note && !noteAsValue ? String(note) : undefined,
+      preserveLines: ["chip", "memory", "storage", "cpu", "gpu"].includes(field.key),
+      supplementary: cameraSupplement !== undefined,
+    };
+    specGroups.set(field.group, [...(specGroups.get(field.group) ?? []), row]);
+  }
+  const priceRows: DetailRow[] = (["current", "used"] as const).map((priceType) => {
     const prices = getPricesForComparison(device, priceType);
     return {
       label: priceType === "current" ? "当前价" : "二手价",
-      value: prices.length
-        ? prices
-            .map((price) => `${formatConfiguration(price.configuration)} · ${formatMaybeCurrency(price.value)}`)
-            .join("\n")
-        : "待补充",
+      value: "待补充",
+      quotes: prices.map(price => ({
+        configuration: formatConfiguration(price.configuration),
+        amount: `${formatMaybeCurrency(price.value)}${price.estimated ? "（预估）" : ""}`,
+      })),
     };
   });
-  const displayRows = buildRows(device, [
-    ["屏幕尺寸", "screenSize"],
-    ["显示类型", "displayType"],
-    ["分辨率", "resolution"],
-    ["刷新率", "refreshRate"],
-    ["峰值亮度", "peakBrightness"],
-  ]);
+  if ((device.editions?.length ?? 0) > 1) priceRows.unshift({ label: "首发价", value: "待补充", quotes: getLaunchPriceRows(device) });
   const cameraBenchmark = device.benchmarks?.find(
     (benchmark) => benchmark.provider === "DXOMARK" && benchmark.metric === "camera",
   );
-  const imagingRows = [
-    ...buildRows(device, [
-    ["主摄", "mainCamera"],
-    ["后置摄像头", "rearCamera"],
-    ["超广角", "ultraWide"],
-    ["长焦", "telephoto"],
-    ["前置摄像头", "frontCamera"],
-    ["视频拍摄", "videoRecording"],
-    ]),
-    ...(cameraBenchmark ? [{
+  if (cameraBenchmark) specGroups.set("影像", [...(specGroups.get("影像") ?? []), {
       label: "DXOMARK 相机",
       value: `${cameraBenchmark.score} 分 · ${cameraBenchmark.protocolVersion}（不同协议不可直接横比）`,
-    }] : []),
+    }]);
+  const recordIds = new Set(device.editions?.map(edition => edition.device.id) ?? [device.id]);
+  const sourceRows = buildSourceRows(allDevices.filter(record => recordIds.has(record.id)));
+  const image = getDeviceImage(device.id);
+  const gallery = getDeviceImageGallery(device.id);
+  const wearable = device.category === "watch" || device.category === "band";
+  const highlights = wearable ? [
+    { label: "屏幕", value: typeof device.screenSize === "number" ? `${device.screenSize}\"` : String(device.specs?.caseSize ?? "按版本列示") },
+    { label: "手机兼容性", value: String(device.specs?.compatibility ?? "待补充") },
+    { label: "续航模式", value: String(device.specs?.batteryLife ?? "待补充") },
+    { label: "防护", value: String(device.specs?.waterResistance ?? "待补充") },
+  ] : [
+    { label: "芯片", value: device.chip || "待补充" },
+    { label: "屏幕", value: typeof device.screenSize === "number" ? `${device.screenSize}\"` : "待补充" },
+    { label: "重量", value: device.weight ? `${device.weight}g` : "待补充", note: device.specs?.weightNote },
+    { label: "AI 能力", value: typeof device.aiFeatureLevel === "number" ? `${device.aiFeatureLevel}/10` : "待补充" },
   ];
-  const batteryRows = buildRows(device, [
-    ["电池续航", "batteryLife"],
-    ["充电方式", "chargingMethod"],
-    ["无线网络浏览", "wirelessWebBrowsing"],
-  ]);
-  const connectivityRows = buildRows(device, [
-    ["接口", "port"],
-    ["USB-C", "usbC"],
-    ["雷雳", "thunderbolt"],
-    ["无线网络", "wifi"],
-    ["蓝牙", "bluetooth"],
-    ["SIM", "sim"],
-  ]);
-  const protectionRows = buildRows(device, [
-    ["安全验证", "security"],
-    ["防水等级", "waterResistance"],
-    ["MagSafe", "hasMagSafe"],
-    ["NFC", "hasNFC"],
-    ["SOS", "hasSOS"],
-    ["车祸检测", "hasCrashDetection"],
-    ["UWB", "hasUWB"],
-    ["Touch ID", "hasTouchId"],
-  ]);
-  const sourceRows = buildSourceRows(rawDevice);
 
   return (
     <main className="site-main">
@@ -231,12 +244,14 @@ export default async function DeviceDetailPage({
           <div className="card overflow-hidden p-6 lg:p-7">
             <div className="grid gap-6 xl:grid-cols-[minmax(0,0.92fr)_minmax(0,1.08fr)] xl:items-start">
               <div className="grid gap-5">
+                <DeviceImage key={device.id} image={image} gallery={gallery} showColors
+                  model={device.model} className="h-56 sm:h-64" />
                 <div className="grid gap-4">
                   <div className="flex flex-wrap items-center gap-2">
-                    <span className="tag tag-green w-fit">{device.brand}</span>
+                    <span className="tag tag-green w-fit">{brandLabels[device.brand] ?? device.brand}</span>
                     <span className="tag tag-neutral">{comparisonGroupLabel}</span>
                     <span className="tag tag-amber">
-                      {currentIndex >= 0 ? `第 ${currentIndex + 1} 代 / 共 ${seriesDevices.length} 代` : `${seriesDevices.length} 代样本`}
+                      {`已收录 ${seriesDevices.length} 款同组型号`}
                     </span>
                   </div>
                   <div className="grid gap-2">
@@ -248,28 +263,11 @@ export default async function DeviceDetailPage({
                 </div>
 
                 <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-                  <div className="rounded-2xl bg-[var(--bg-soft)] p-4">
-                    <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">芯片</div>
-                    <div className="mt-2 text-sm font-medium text-[var(--text-strong)]">{device.chip || "待补充"}</div>
-                  </div>
-                  <div className="rounded-2xl bg-[var(--bg-soft)] p-4">
-                    <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">屏幕</div>
-                    <div className="mt-2 text-sm font-medium text-[var(--text-strong)]">
-                      {typeof device.screenSize === "number" ? `${device.screenSize}"` : "待补充"}
-                    </div>
-                  </div>
-                  <div className="rounded-2xl bg-[var(--bg-soft)] p-4">
-                    <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">重量</div>
-                    <div className="mt-2 text-sm font-medium text-[var(--text-strong)]">
-                      {device.weight ? `${device.weight}g` : "待补充"}
-                    </div>
-                  </div>
-                  <div className="rounded-2xl bg-[var(--bg-soft)] p-4">
-                    <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">AI 能力</div>
-                    <div className="mt-2 text-sm font-medium text-[var(--text-strong)]">
-                      {typeof device.aiFeatureLevel === "number" ? `${device.aiFeatureLevel}/10` : "待补充"}
-                    </div>
-                  </div>
+                  {highlights.map(item => <div key={item.label} className="rounded-2xl bg-[var(--bg-soft)] p-4">
+                    <div className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">{item.label}</div>
+                    <div className="mt-2 line-clamp-3 text-sm font-medium text-[var(--text-strong)]">{item.value}</div>
+                    {"note" in item && item.note && <p className="mt-1 text-xs leading-5 text-[var(--text-muted)]">{String(item.note)}</p>}
+                  </div>)}
                 </div>
 
                 <div className="rounded-2xl border border-[var(--border)] bg-white/75 p-4">
@@ -281,7 +279,9 @@ export default async function DeviceDetailPage({
                 </div>
               </div>
 
-              <DeviceSeriesTrendExplorer activeDeviceId={device.id} devices={seriesDevices} />
+              <DeviceSeriesTrendExplorer activeDeviceId={device.id} devices={seriesDevices.map(({
+                id, model, releaseYear, chip, screenSize, weight, launchPrice, aiFeatureLevel,
+              }) => ({ id, model, releaseYear, chip, screenSize, weight, launchPrice, aiFeatureLevel }))} />
             </div>
           </div>
         </div>
@@ -293,19 +293,14 @@ export default async function DeviceDetailPage({
         <div className="section-inner">
           <SectionHeader
             eyebrow="核心规格"
-            title="真实字段展开"
-            description="价格按已核验配置列示，其余参数按功能分组查看。"
+            title="详细参数"
+            description="完整参数按类别分区显示，不同配置的价格与差异逐项列出。"
           />
 
-          <div className="grid gap-4 lg:grid-cols-2">
+          <DeviceSpecGrid>
             <SpecGroup title="价格参考" rows={priceRows} />
-            <SpecGroup title="性能" rows={performanceRows} />
-            <SpecGroup title="显示" rows={displayRows} />
-            <SpecGroup title="影像" rows={imagingRows} />
-            <SpecGroup title="续航与连接" rows={batteryRows} />
-            <SpecGroup title="网络与接口" rows={connectivityRows} />
-            <SpecGroup title="防护与配件" rows={protectionRows} />
-          </div>
+            {[...specGroups].map(([title, rows]) => <SpecGroup key={title} title={title} rows={rows} />)}
+          </DeviceSpecGrid>
         </div>
       </section>
 
@@ -331,11 +326,12 @@ export default async function DeviceDetailPage({
                   <span className={source.sourceType === "official" ? "tag tag-green" : "tag tag-amber"}>
                     {source.sourceType === "official" ? "官方来源" : "第三方参考"}
                   </span>
-                  <span className="text-xs text-[var(--text-soft)]">核验于 {source.verifiedAt}</span>
+                  <span className="text-xs text-[var(--text-soft)]">{source.hasSummary ? "历史记录日期" : "核验于"} {source.verifiedAt}</span>
                 </div>
                 <p className="mt-3 break-all text-sm font-semibold text-[var(--text-strong)]">{source.hostname}</p>
                 <p className="mt-1 text-xs leading-5 text-[var(--text-muted)]">
                   覆盖 {source.fieldCount} 项已收录数据
+                  {source.hasSummary ? " · 含整理描述，原文证据待补" : ""}
                   {source.protocols.length ? ` · 测试协议 ${source.protocols.join(" / ")}` : ""}
                 </p>
                 <span className="mt-4 inline-flex text-xs font-semibold text-[var(--primary)]">

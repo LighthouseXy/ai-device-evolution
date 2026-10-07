@@ -1,6 +1,6 @@
 import Link from "next/link";
 import {
-  allDevicesFlat,
+  catalogDevicesFlat as allDevicesFlat,
   categoryLabels,
   categoryNames,
   deviceCountByCategory,
@@ -14,6 +14,8 @@ const categoryDisplay: Record<(typeof categoryNames)[number], string> = {
   phone: "智能手机",
   tablet: "平板电脑",
   laptop: "笔记本电脑",
+  watch: "手表",
+  band: "手环",
 };
 
 const orderedDevices = [...allDevicesFlat].sort((left, right) => {
@@ -94,7 +96,9 @@ function DevicePreview({
               ? "面向日常使用和移动场景的真实样本。"
               : device.category === "tablet"
                 ? "面向学习、创作和阅读的真实样本。"
-                : "面向办公、创作和开发场景的真实样本。"}
+                : device.category === "laptop"
+                  ? "面向办公、创作和开发场景的真实样本。"
+                  : "面向运动、日常健康记录和随身连接的真实样本。"}
           </p>
         </div>
         <div className="rounded-full bg-[var(--primary-soft)] px-3 py-2 text-right">
@@ -131,7 +135,7 @@ export default function Home() {
                 预测<span className="amber">未来</span>
               </h1>
               <p className="home-hero-desc">
-                基于真实本地数据库，串联设备库、代际对比、趋势观察和 AI 顾问；现已接入 Apple、Xiaomi、OPPO、vivo、Huawei、HONOR 与 Samsung 中国大陆设备数据。
+                基于真实本地数据库，串联设备库、产品对比、趋势观察和 AI 顾问；现已接入苹果、小米、红米、三星、华为、OPPO、vivo 与荣耀中国大陆设备数据。
               </p>
 
               <div className="home-hero-actions">

@@ -1,11 +1,10 @@
 import Link from "next/link";
 import {
-  allDevicesFlat,
+  catalogDevicesFlat as allDevicesFlat,
   categoryLabels,
   categoryNames,
-  deviceCountByCategory,
   formatMaybeCurrency,
-  getComparisonGroupsByCategoryFlat,
+  getCatalogSeriesOptions,
   getDevicesByComparisonGroupKeyFlat,
 } from "@/lib/devices-db";
 import {
@@ -14,8 +13,11 @@ import {
 } from "@/lib/number-format";
 import PageHeader from "@/components/layout/PageHeader";
 import TickDivider from "@/components/layout/TickDivider";
+import DeviceCatalogFilters from "@/components/DeviceCatalogFilters";
+import { brandLabels } from "@/lib/catalog-order";
 
 type SearchParams = {
+  brand?: string | string[];
   category?: string | string[];
   series?: string | string[];
   metric?: string | string[];
@@ -149,11 +151,17 @@ function TrendChart({
   metric,
   category,
   series,
+  brand,
+  groupKey,
+  availableMetrics,
 }: {
   points: ReturnType<typeof buildYearTrend>;
   metric: MetricDefinition;
   category: (typeof categoryNames)[number];
   series: string;
+  brand: string;
+  groupKey: string;
+  availableMetrics: MetricDefinition[];
 }) {
   const chartPoints = points.filter((point): point is typeof point & { value: number } => point.value !== null);
   const values = chartPoints.map((point) => point.value);
@@ -175,8 +183,8 @@ function TrendChart({
         <div className="grid max-w-full justify-items-start gap-2 sm:justify-items-end">
           <span className="tag tag-neutral">同系列 / 年度聚合</span>
           <div className="flex max-w-full gap-2 overflow-x-auto pb-1 sm:flex-wrap sm:justify-end">
-            {metrics.map((item) => {
-              const params = new URLSearchParams({ category, series, metric: item.key });
+            {availableMetrics.map((item) => {
+              const params = new URLSearchParams({ brand, category, series: groupKey, metric: item.key });
               return (
                 <Link
                   key={item.key}
@@ -261,20 +269,28 @@ export default async function TrendsPage({
   searchParams: Promise<SearchParams>;
 }) {
   const resolvedSearchParams = await searchParams;
-  const selectedCategory = normalizeCategory(resolvedSearchParams.category);
-  const selectedMetricKey = normalizeMetric(resolvedSearchParams.metric);
-  const metric = metrics.find((item) => item.key === selectedMetricKey) ?? metrics[0];
-
-  const seriesOptions = getComparisonGroupsByCategoryFlat(selectedCategory).filter(
-    (group) => group.devices.length >= 2,
-  );
+  const catalogGroups = getCatalogSeriesOptions(2);
   const requestedSeries = normalizeSeries(resolvedSearchParams.series);
   const requestedGroupId = getDevicesByComparisonGroupKeyFlat(requestedSeries)[0]?.comparisonGroupId;
+  const requestedBrand = normalizeSeries(resolvedSearchParams.brand) === "Xiaomi"
+    && catalogGroups.some((group) => group.key === requestedGroupId && group.brand === "Redmi")
+    ? "Redmi" : normalizeSeries(resolvedSearchParams.brand);
+  const selectedBrand = catalogGroups.some((group) => group.brand === requestedBrand) ? requestedBrand
+    : catalogGroups.find((group) => group.key === requestedGroupId)?.brand ?? "Apple";
+  const brandGroups = catalogGroups.filter((group) => group.brand === selectedBrand);
+  const requestedCategory = normalizeCategory(resolvedSearchParams.category);
+  const selectedCategory = brandGroups.some((group) => group.category === requestedCategory) ? requestedCategory
+    : brandGroups[0]?.category ?? "phone";
+  const seriesOptions = brandGroups.filter((group) => group.category === selectedCategory);
   const selectedSeries = seriesOptions.some((group) => group.key === requestedGroupId)
     ? requestedGroupId
     : seriesOptions[0]?.key ?? "";
   const selectedSeriesOption = seriesOptions.find((group) => group.key === selectedSeries) ?? null;
   const seriesDevices = getDevicesByComparisonGroupKeyFlat(selectedSeries);
+  const availableMetrics = metrics.filter((item) => seriesDevices.some((device) => item.getValue(device) !== undefined));
+  const requestedMetric = normalizeMetric(resolvedSearchParams.metric);
+  const metric = availableMetrics.find((item) => item.key === requestedMetric) ?? availableMetrics[0] ?? metrics[0];
+  const selectedMetricKey = metric.key;
   const yearTrend = buildYearTrend(seriesDevices, metric);
   const firstPoint = yearTrend[0]?.value ?? null;
   const lastPoint = yearTrend.at(-1)?.value ?? null;
@@ -285,11 +301,6 @@ export default async function TrendsPage({
       maxPoint = point;
     }
   }
-  const categoryOptions = categoryNames.map((category) => ({
-    key: category,
-    label: categoryLabels[category],
-    count: deviceCountByCategory[category],
-  }));
 
   const trendDirection =
     firstPoint !== null && lastPoint !== null
@@ -304,6 +315,7 @@ export default async function TrendsPage({
         meta={
           <>
             <span className="tag tag-green">{categoryLabels[selectedCategory]}</span>
+            <span className="tag tag-neutral">{brandLabels[selectedBrand]}</span>
             <span className="tag tag-neutral">{selectedSeriesOption?.label ?? "待补充"}</span>
             <span className="tag tag-neutral">{metric.label}</span>
             <span className="tag tag-amber">多品牌样本</span>
@@ -313,57 +325,9 @@ export default async function TrendsPage({
       />
 
       <section className="section section-filter">
-        <div className="section-inner filter-strip">
-          <div className="filter-row">
-            <div className="filter-heading">设备类别</div>
-            <div className="filter-pills">
-              {categoryOptions.map((item) => {
-                const params = new URLSearchParams();
-                params.set("category", item.key);
-                params.set("series", getComparisonGroupsByCategoryFlat(item.key).find((group) => group.devices.length >= 2)?.key ?? "");
-                params.set("metric", selectedMetricKey);
-                const active = item.key === selectedCategory;
-
-                return (
-                  <Link
-                    key={item.key}
-                    href={`/trends?${params.toString()}`}
-                    className={`tag ${active ? "tag-green" : "tag-neutral"}`}
-                    aria-current={active ? "page" : undefined}
-                  >
-                    {item.label}
-                    <span className="opacity-70">({item.count})</span>
-                  </Link>
-                );
-              })}
-            </div>
-          </div>
-
-          <div className="filter-row">
-            <div className="filter-heading">同系列</div>
-            <div className="filter-pills">
-              {seriesOptions.map((group) => {
-                const params = new URLSearchParams({
-                  category: selectedCategory,
-                  series: group.key,
-                  metric: selectedMetricKey,
-                });
-                const active = group.key === selectedSeries;
-
-                return (
-                  <Link
-                    key={group.key}
-                    href={`/trends?${params.toString()}`}
-                    className={`tag ${active ? "tag-green" : "tag-neutral"}`}
-                    aria-current={active ? "page" : undefined}
-                  >
-                    {group.label}
-                    <span className="opacity-70">({group.devices.length})</span>
-                  </Link>
-                );
-              })}
-            </div>
-          </div>
+        <div className="section-inner catalog-filter-grid">
+          <DeviceCatalogFilters path="/trends" groups={catalogGroups} brand={selectedBrand}
+            category={selectedCategory} series={selectedSeries} params={{ metric: selectedMetricKey }} />
         </div>
       </section>
 
@@ -374,6 +338,9 @@ export default async function TrendsPage({
             metric={metric}
             category={selectedCategory}
             series={selectedSeriesOption?.label ?? "设备系列"}
+            brand={selectedBrand}
+            groupKey={selectedSeries}
+            availableMetrics={availableMetrics}
           />
 
           <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
