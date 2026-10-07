@@ -1,0 +1,631 @@
+{
+  "phone": [
+    {
+      "id": "huawei-nova-16-ultra-2026",
+      "modelName": "HUAWEI nova 16 Ultra",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10927091_1.html",
+        "https://detail.zol.com.cn/series/57/613/param_10927091_0_1.html",
+        "https://detail.zol.com.cn/2168/2167870/param.shtml",
+        "https://detail.zol.com.cn/2168/2167871/param.shtml",
+        "https://detail.zol.com.cn/2168/2167430/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2026-06-01",
+        "rawText": "上市日期 2026年06月01日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2168/2167870/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:13.397Z",
+        "sourceSnapshotHash": "0e53c224ff370f8c735767cea47d4b98b963c573ef4bf1c4471c4136ef3d3cc4"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；无独立发布报价原文不填首发价。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2026年06月01日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2168/2167870/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:13.397Z",
+        "sourceSnapshotHash": "0e53c224ff370f8c735767cea47d4b98b963c573ef4bf1c4471c4136ef3d3cc4"
+      },
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/613/pic_10927091.html"
+      ],
+      "imageReferenceNote": "图库链接只作为由核对型号系列页提供的候选；照片与颜色待独立核验，不抓取验证页或生成假照片。",
+      "colorEvidence": {
+        "value": "星空黑，晴空蓝，天际白 查看外观",
+        "rawText": "机身颜色 星空黑，晴空蓝，天际白 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2168/2167870/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:13.397Z",
+        "sourceSnapshotHash": "0e53c224ff370f8c735767cea47d4b98b963c573ef4bf1c4471c4136ef3d3cc4"
+      }
+    },
+    {
+      "id": "huawei-mate-xt-2024",
+      "modelName": "HUAWEI Mate XT 非凡大师",
+      "generation": "2024",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10905167_1.html",
+        "https://detail.zol.com.cn/series/57/613/param_10905167_0_1.html",
+        "https://detail.zol.com.cn/2105/2104769/param.shtml",
+        "https://detail.zol.com.cn/2106/2105335/param.shtml",
+        "https://detail.zol.com.cn/2106/2105552/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2024-09-20",
+        "rawText": "上市日期 2024年9月20日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2105/2104769/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:14.090Z",
+        "sourceSnapshotHash": "d780e1f8c0e7935d882112ac64a20c8805efb0fd5a10d886546caa368a1306f4"
+      },
+      "fieldGaps": [
+        {
+          "field": "chip",
+          "reason": "对应具体配置参数页未提供可核验的字段原文"
+        },
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；无独立发布报价原文不填首发价。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2024年9月10日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2105/2104769/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:14.090Z",
+        "sourceSnapshotHash": "d780e1f8c0e7935d882112ac64a20c8805efb0fd5a10d886546caa368a1306f4"
+      },
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/613/pic_10905167.html"
+      ],
+      "imageReferenceNote": "图库链接只作为由核对型号系列页提供的候选；照片与颜色待独立核验，不抓取验证页或生成假照片。",
+      "colorEvidence": {
+        "value": "瑞红，玄黑 查看外观",
+        "rawText": "机身颜色 瑞红，玄黑 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2105/2104769/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:14.090Z",
+        "sourceSnapshotHash": "d780e1f8c0e7935d882112ac64a20c8805efb0fd5a10d886546caa368a1306f4"
+      }
+    },
+    {
+      "id": "huawei-mate-xts-2025",
+      "modelName": "HUAWEI Mate XTs 非凡大师",
+      "generation": "2025",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10918585_1.html",
+        "https://detail.zol.com.cn/series/57/613/param_10918585_0_1.html",
+        "https://detail.zol.com.cn/2140/2139585/param.shtml",
+        "https://detail.zol.com.cn/2141/2140609/param.shtml",
+        "https://detail.zol.com.cn/2141/2140608/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2025-09-04",
+        "rawText": "上市日期 2025年9月4日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2140/2139585/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:15.079Z",
+        "sourceSnapshotHash": "2b5f2f98440b392325667e8d3e4bc132ddbb911dd86729ad414e2f574fb1fd22"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；无独立发布报价原文不填首发价。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2025年9月4日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2140/2139585/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:15.079Z",
+        "sourceSnapshotHash": "2b5f2f98440b392325667e8d3e4bc132ddbb911dd86729ad414e2f574fb1fd22"
+      },
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/613/pic_10918585.html"
+      ],
+      "imageReferenceNote": "图库链接只作为由核对型号系列页提供的候选；照片与颜色待独立核验，不抓取验证页或生成假照片。",
+      "colorEvidence": {
+        "value": "皓白，槿紫，玄黑，瑞红 查看外观",
+        "rawText": "机身颜色 皓白，槿紫，玄黑，瑞红 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2140/2139585/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:15.079Z",
+        "sourceSnapshotHash": "2b5f2f98440b392325667e8d3e4bc132ddbb911dd86729ad414e2f574fb1fd22"
+      }
+    },
+    {
+      "id": "huawei-pura-x-2025",
+      "modelName": "HUAWEI Pura X",
+      "generation": "2025",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10911699_1.html",
+        "https://detail.zol.com.cn/series/57/613/param_10911699_0_1.html",
+        "https://detail.zol.com.cn/2124/2123956/param.shtml",
+        "https://detail.zol.com.cn/2124/2123959/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2025-03-30",
+        "rawText": "上市日期 2025年03月30日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2124/2123956/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:15.354Z",
+        "sourceSnapshotHash": "c9de5af603e4f22ece2edc30ecb2f164b9d63e1f115ac2456938b158fe4383ae"
+      },
+      "fieldGaps": [
+        {
+          "field": "chip",
+          "reason": "对应具体配置参数页未提供可核验的字段原文"
+        },
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；无独立发布报价原文不填首发价。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2025年03月20日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2124/2123956/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:15.354Z",
+        "sourceSnapshotHash": "c9de5af603e4f22ece2edc30ecb2f164b9d63e1f115ac2456938b158fe4383ae"
+      },
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/613/pic_10911699.html"
+      ],
+      "imageReferenceNote": "图库链接只作为由核对型号系列页提供的候选；照片与颜色待独立核验，不抓取验证页或生成假照片。",
+      "colorEvidence": {
+        "value": "月影灰，零度白，幻夜黑 查看外观",
+        "rawText": "机身颜色 月影灰，零度白，幻夜黑 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2124/2123956/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:15.354Z",
+        "sourceSnapshotHash": "c9de5af603e4f22ece2edc30ecb2f164b9d63e1f115ac2456938b158fe4383ae"
+      }
+    },
+    {
+      "id": "huawei-pura-x-max-2026",
+      "modelName": "HUAWEI Pura X Max",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10925655_1.html",
+        "https://detail.zol.com.cn/series/57/613/param_10925655_0_1.html",
+        "https://detail.zol.com.cn/2164/2163925/param.shtml",
+        "https://detail.zol.com.cn/2163/2162943/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2026-04-20",
+        "rawText": "上市日期 2026年04月20日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2164/2163925/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:15.857Z",
+        "sourceSnapshotHash": "1c5e43dfefa24e74d4641753945bac02780fdffb431b4c5b584c08c4009f114a"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；无独立发布报价原文不填首发价。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2026年04月20日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2164/2163925/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:15.857Z",
+        "sourceSnapshotHash": "1c5e43dfefa24e74d4641753945bac02780fdffb431b4c5b584c08c4009f114a"
+      },
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/613/pic_10925655.html"
+      ],
+      "imageReferenceNote": "图库链接只作为由核对型号系列页提供的候选；照片与颜色待独立核验，不抓取验证页或生成假照片。",
+      "colorEvidence": {
+        "value": "幻夜黑，星际蓝，零度白，橄榄金，活力橙 查看外观",
+        "rawText": "机身颜色 幻夜黑，星际蓝，零度白，橄榄金，活力橙 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2164/2163925/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:15.857Z",
+        "sourceSnapshotHash": "1c5e43dfefa24e74d4641753945bac02780fdffb431b4c5b584c08c4009f114a"
+      }
+    }
+  ],
+  "tablet": [
+    {
+      "id": "huawei-matepad-se-11-2024",
+      "modelName": "HUAWEI MatePad SE 11 英寸 (2024)",
+      "generation": "2024",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10874327_1.html",
+        "https://detail.zol.com.cn/series/702/613/param_10874327_0_1.html",
+        "https://detail.zol.com.cn/2063/2062047/param.shtml",
+        "https://detail.zol.com.cn/2063/2062048/param.shtml",
+        "https://consumer.huawei.com/cn/support/content/zh-cn16007420/"
+      ],
+      "releaseEvidence": {
+        "value": "2024-07",
+        "rawText": "上市时间 2024年7月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2063/2062047/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:16.388Z",
+        "sourceSnapshotHash": "c0a30790aae361ade206333c73af86ef1272f27b681b6127763ab62341ecb7c1"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        },
+        {
+          "field": "port",
+          "reason": "对应具体配置参数页未提供可核验的字段原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；无独立发布报价原文不填首发价。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "HUAWEI MatePad SE 11英寸 2024款",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16007420/",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:17.595Z",
+        "sourceSnapshotHash": "049f7cff282ddb948074860f0350fcf5b47943e6f26556c908b775275135d5a1",
+        "note": "该具体型号在华为中国大陆官网支持页登记；配置与上市年份分别由具体SKU参数快照核验。"
+      },
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/702/613/pic_10874327.html"
+      ],
+      "imageReferenceNote": "图库链接只作为由核对型号系列页提供的候选；照片与颜色待独立核验，不抓取验证页或生成假照片。"
+    }
+  ],
+  "laptop": [
+    {
+      "id": "huawei-matebook-d16-se-2024",
+      "modelName": "HUAWEI MateBook D 16 SE 版 (2024)",
+      "generation": "2024",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/10851144_1.html",
+        "https://detail.zol.com.cn/series/16/613/param_10851144_0_1.html",
+        "https://detail.zol.com.cn/1975/1974243/param.shtml",
+        "https://detail.zol.com.cn/2005/2004729/param.shtml",
+        "https://consumer.huawei.com/cn/laptops/matebook-d-16-se-2024/specs/"
+      ],
+      "releaseEvidence": {
+        "value": "2024",
+        "rawText": "上市时间 2024年",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1975/1974243/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:19.653Z",
+        "sourceSnapshotHash": "5703c957434ee8a241f7cb8339477e8af5f30d78194bbcfd5d0b3faccd8f84fa"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。 国行身份另存marketEvidence；无独立发布报价原文不填首发价。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "HUAWEI MateBook D 16 SE 版 2024",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://consumer.huawei.com/cn/laptops/matebook-d-16-se-2024/specs/",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:20.806Z",
+        "sourceSnapshotHash": "839a5ba6431b426d85882e29c603337f068317f7caebd6126cc321d691891b3c",
+        "note": "该具体型号在华为中国大陆官网支持页登记；配置与上市年份分别由具体SKU参数快照核验。"
+      },
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/16/613/pic_10851144.html"
+      ],
+      "imageReferenceNote": "图库链接只作为由核对型号系列页提供的候选；照片与颜色待独立核验，不抓取验证页或生成假照片。"
+    },
+    {
+      "id": "huawei-matebook-d16-high-2024",
+      "modelName": "HUAWEI MateBook D 16 高能版 (2024)",
+      "generation": "2024",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/10857618_1.html",
+        "https://detail.zol.com.cn/series/16/613/param_10857618_0_1.html",
+        "https://detail.zol.com.cn/1993/1992944/param.shtml",
+        "https://detail.zol.com.cn/1993/1992945/param.shtml",
+        "https://detail.zol.com.cn/1993/1992946/param.shtml",
+        "https://consumer.huawei.com/cn/support/content/zh-cn16038951/"
+      ],
+      "releaseEvidence": {
+        "value": "2024",
+        "rawText": "上市时间 2024年",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1993/1992944/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:21.790Z",
+        "sourceSnapshotHash": "472c76646ff4a5e23594945d94de7bb7a31176c383c8feed36df829df6f6e020"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。 国行身份另存marketEvidence；无独立发布报价原文不填首发价。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "高能版 linux 13代酷睿/i5/16g/1tb/集显/非触屏",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16038951/",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:22:32.941Z",
+        "sourceSnapshotHash": "91ef818a73c75f444fdc418ce82b0984e2c8136556eeb9a88869f1d172741507",
+        "note": "该具体型号在华为中国大陆官网支持页登记；配置与上市年份分别由具体SKU参数快照核验。"
+      },
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/16/613/pic_10857618.html"
+      ],
+      "imageReferenceNote": "图库链接只作为由核对型号系列页提供的候选；照片与颜色待独立核验，不抓取验证页或生成假照片。"
+    },
+    {
+      "id": "huawei-matebook-e-2023",
+      "modelName": "HUAWEI MateBook E (2023)",
+      "generation": "2023",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/10715811_1.html",
+        "https://detail.zol.com.cn/series/16/613/param_10715811_0_1.html",
+        "https://detail.zol.com.cn/1425/1424735/param.shtml",
+        "https://detail.zol.com.cn/2105/2104129/param.shtml",
+        "https://detail.zol.com.cn/1614/1613777/param.shtml",
+        "https://detail.zol.com.cn/1614/1613780/param.shtml",
+        "https://detail.zol.com.cn/1614/1613783/param.shtml",
+        "https://detail.zol.com.cn/1614/1613781/param.shtml",
+        "https://detail.zol.com.cn/1614/1613778/param.shtml",
+        "https://detail.zol.com.cn/1858/1857632/param.shtml",
+        "https://detail.zol.com.cn/1614/1613782/param.shtml",
+        "https://detail.zol.com.cn/1614/1613779/param.shtml",
+        "https://consumer.huawei.com/cn/support/laptops/matebook-e-2023/"
+      ],
+      "releaseEvidence": {
+        "value": "2023-05-25",
+        "rawText": "上市时间 2023年05月25日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1425/1424735/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:24.947Z",
+        "sourceSnapshotHash": "5b0370bc3c64d54db6c102cfc422a5c0607378a5d7bc661f4968457b83470684"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。 国行身份另存marketEvidence；无独立发布报价原文不填首发价。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "华为MateBook E 2023售后服务和维修",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://consumer.huawei.com/cn/support/laptops/matebook-e-2023/",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:22:34.186Z",
+        "sourceSnapshotHash": "204d343e011e9550ec58b929a03322fe7d33cc4f4f5d966ed34854b2e455984b",
+        "note": "该具体型号在华为中国大陆官网支持页登记；配置与上市年份分别由具体SKU参数快照核验。"
+      },
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/16/613/pic_10715811.html"
+      ],
+      "imageReferenceNote": "图库链接只作为由核对型号系列页提供的候选；照片与颜色待独立核验，不抓取验证页或生成假照片。"
+    },
+    {
+      "id": "huawei-matebook-e-go-2023",
+      "modelName": "HUAWEI MateBook E Go (2023)",
+      "generation": "2023",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/10734601_1.html",
+        "https://detail.zol.com.cn/series/16/613/param_10734601_0_1.html",
+        "https://detail.zol.com.cn/1461/1460980/param.shtml",
+        "https://detail.zol.com.cn/1461/1460981/param.shtml",
+        "https://detail.zol.com.cn/2105/2104127/param.shtml",
+        "https://detail.zol.com.cn/2105/2104128/param.shtml",
+        "https://detail.zol.com.cn/1461/1460982/param.shtml",
+        "https://consumer.huawei.com/cn/support/content/zh-cn16012892/"
+      ],
+      "releaseEvidence": {
+        "value": "2023-02",
+        "rawText": "上市时间 2023年02月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1461/1460980/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:28.598Z",
+        "sourceSnapshotHash": "7a6d8d6c9a6c4566ffaf2244b574cc881dd43eaf73ce128fb8af770e57232632"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。 国行身份另存marketEvidence；无独立发布报价原文不填首发价。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "HUAWEI MateBook E Go 2023款/性能版使用过程中出现死机卡顿",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16012892/",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:22:35.363Z",
+        "sourceSnapshotHash": "b822b897b7de8e6ebc2a398e7881eb614f8455284b29d755dca0167f41355f26",
+        "note": "该具体型号在华为中国大陆官网支持页登记；配置与上市年份分别由具体SKU参数快照核验。"
+      },
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/16/613/pic_10734601.html"
+      ],
+      "imageReferenceNote": "图库链接只作为由核对型号系列页提供的候选；照片与颜色待独立核验，不抓取验证页或生成假照片。"
+    },
+    {
+      "id": "huawei-matebook-14-linux-2025",
+      "modelName": "HUAWEI MateBook 14 Linux 版",
+      "generation": "2025",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/10920336_1.html",
+        "https://detail.zol.com.cn/series/16/613/param_10920336_0_1.html",
+        "https://detail.zol.com.cn/2146/2145135/param.shtml",
+        "https://detail.zol.com.cn/2146/2145136/param.shtml",
+        "https://detail.zol.com.cn/2146/2145137/param.shtml",
+        "https://consumer.huawei.com/cn/support/content/zh-cn16038951/"
+      ],
+      "releaseEvidence": {
+        "value": "2025-04",
+        "rawText": "上市时间 2025年04月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2146/2145135/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:31.131Z",
+        "sourceSnapshotHash": "a63e88d14c7cc1578de9d525670910f539cea48b9b2e73e15d16056b648e4592"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。 国行身份另存marketEvidence；无独立发布报价原文不填首发价。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "HUAWEI MateBook 14(linux版 酷睿 ultra/u5/16g/1tb/集显/触屏",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16038951/",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:22:32.941Z",
+        "sourceSnapshotHash": "91ef818a73c75f444fdc418ce82b0984e2c8136556eeb9a88869f1d172741507",
+        "note": "该具体型号在华为中国大陆官网支持页登记；配置与上市年份分别由具体SKU参数快照核验。"
+      },
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/16/613/pic_10920336.html"
+      ],
+      "imageReferenceNote": "图库链接只作为由核对型号系列页提供的候选；照片与颜色待独立核验，不抓取验证页或生成假照片。"
+    }
+  ]
+}

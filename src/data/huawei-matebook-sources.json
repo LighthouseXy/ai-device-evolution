@@ -1,0 +1,30 @@
+{
+  "laptop": [
+    {
+      "id": "huawei-matebook-14-2024",
+      "modelName": "HUAWEI MateBook 14 (2024)",
+      "generation": "2024",
+      "releaseYear": 2024,
+      "sourcePageType": "official_and_reference_snapshots",
+      "sourceStatus": "verified",
+      "officialSpecUrl": "https://consumer.huawei.com/cn/laptops/matebook-14-2024/specs/",
+      "referenceUrls": [
+        "https://www.ithome.com/0/768/168.htm"
+      ],
+      "notes": "中国大陆上市报道中的四个 Windows 配置；官网规格页含其他系统版本，未将其笛卡尔组合为在售 SKU。"
+    },
+    {
+      "id": "huawei-matebook-14-harmonyos-2026",
+      "modelName": "HUAWEI MateBook 14 鸿蒙版 (2026)",
+      "generation": "2026 鸿蒙版",
+      "releaseYear": 2026,
+      "sourcePageType": "official_and_reference_snapshots",
+      "sourceStatus": "verified",
+      "officialSpecUrl": "https://consumer.huawei.com/cn/harmonyos-computer/matebook-14-harmonyos-version/specs/",
+      "referenceUrls": [
+        "https://www.ithome.com/0/941/273.htm"
+      ],
+      "notes": "鸿蒙版，仅列发布报道中的标准屏组合；Windows 软件兼容性不可从上一代直接推断。"
+    }
+  ]
+}

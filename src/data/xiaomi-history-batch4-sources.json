@@ -1,0 +1,3134 @@
+{
+  "phone": [
+    {
+      "id": "xiaomi-civi-1s-2022",
+      "modelName": "小米Civi 1S",
+      "generation": "2022",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/38213_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_38213_0_1.html",
+        "https://detail.zol.com.cn/1401/1400705/param.shtml",
+        "https://detail.zol.com.cn/1405/1404892/param.shtml",
+        "https://detail.zol.com.cn/1405/1404891/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-04-21",
+        "rawText": "上市日期 2022年04月21日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1401/1400705/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:21.834Z",
+        "sourceSnapshotHash": "e1ab70ac6468301f3b904fc6ce196a4e32eef14746b90dbd8bddb88e4cfcc1aa"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2022年04月21日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1401/1400705/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:21.834Z",
+        "sourceSnapshotHash": "e1ab70ac6468301f3b904fc6ce196a4e32eef14746b90dbd8bddb88e4cfcc1aa"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_38213.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "闪闪黑，怦怦粉，轻轻蓝，奇迹阳光",
+        "rawText": "机身颜色 闪闪黑，怦怦粉，轻轻蓝，奇迹阳光 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1401/1400705/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:21.834Z",
+        "sourceSnapshotHash": "e1ab70ac6468301f3b904fc6ce196a4e32eef14746b90dbd8bddb88e4cfcc1aa"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "逐SKU参数及行货证据核验"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2c.zol-img.com.cn/product/246_320x240/14/cegqDYEcNayEA.png",
+        "alt": "小米Civi 1S",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/38213_1.html",
+        "sourceSnapshotHash": "a71cbd6676d4ae7d93cb0d562caf249ca8919b5911ad15b0549e15d42a2e0ead",
+        "licenseStatus": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "仅有具体型号来源候选，尚无下载及视觉核验；不标为已获取产品照片"
+        },
+        {
+          "field": "colorImage",
+          "color": "闪闪黑",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        },
+        {
+          "field": "colorImage",
+          "color": "怦怦粉",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        },
+        {
+          "field": "colorImage",
+          "color": "轻轻蓝",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        },
+        {
+          "field": "colorImage",
+          "color": "奇迹阳光",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-mix-fold-2-2022",
+      "modelName": "小米MIX FOLD 2",
+      "generation": "2022",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10700703_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_10700703_0_1.html",
+        "https://detail.zol.com.cn/1396/1395588/param.shtml",
+        "https://detail.zol.com.cn/1425/1424177/param.shtml",
+        "https://detail.zol.com.cn/1425/1424178/param.shtml",
+        "https://detail.zol.com.cn/1425/1424179/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-08-16",
+        "rawText": "上市日期 2022年08月16日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1396/1395588/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:23.567Z",
+        "sourceSnapshotHash": "e56b72cd3bd26657c778ecff5258a116cb663754350f129f030b8ce1c257963b"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2022年08月11日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1396/1395588/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:23.567Z",
+        "sourceSnapshotHash": "e56b72cd3bd26657c778ecff5258a116cb663754350f129f030b8ce1c257963b"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_10700703.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "月银黑，星耀金",
+        "rawText": "机身颜色 月银黑,星耀金 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1396/1395588/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:23.567Z",
+        "sourceSnapshotHash": "e56b72cd3bd26657c778ecff5258a116cb663754350f129f030b8ce1c257963b"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "逐SKU参数及行货证据核验"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2d.zol-img.com.cn/product/221_320x240/657/ceOkGQFPDHfE2.jpg",
+        "alt": "小米MIX FOLD 2",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10700703_1.html",
+        "sourceSnapshotHash": "efcb4551ee02ef004d97382657b53684eb8f41c3c6ac61142f1554bfe38a5680",
+        "licenseStatus": "unknown",
+        "status": "downloaded_and_visually_reviewed",
+        "actualImageEvidence": {
+          "url": "https://2d.zol-img.com.cn/product/221_320x240/657/ceOkGQFPDHfE2.jpg",
+          "sha256": "eca78d5c28ce5153d34cfdeb0479ba4026be8774efc8b6155f87e2977f978602",
+          "format": "JPEG",
+          "width": 320,
+          "height": 240,
+          "checkedAt": "2026-10-06",
+          "visualReview": "黑色大折叠、后置横向徕卡相机岛及窄外屏，与独立MIX Fold2型号页一致，不用于初代或Fold3",
+          "verifiedColor": "月银黑",
+          "licenseStatus": "unknown"
+        }
+      },
+      "colorImageCandidates": [
+        {
+          "color": "月银黑",
+          "url": "https://2d.zol-img.com.cn/product/221_320x240/657/ceOkGQFPDHfE2.jpg",
+          "sha256": "eca78d5c28ce5153d34cfdeb0479ba4026be8774efc8b6155f87e2977f978602",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10700703_1.html",
+          "sourceSnapshotHash": "efcb4551ee02ef004d97382657b53684eb8f41c3c6ac61142f1554bfe38a5680",
+          "licenseStatus": "unknown",
+          "status": "downloaded_and_visually_reviewed"
+        }
+      ],
+      "imageFieldGaps": [
+        {
+          "field": "colorImage",
+          "color": "星耀金",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-mix-fold-3-2023",
+      "modelName": "小米MIX FOLD 3",
+      "generation": "2023",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10734524_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_10734524_0_1.html",
+        "https://detail.zol.com.cn/1461/1460897/param.shtml",
+        "https://detail.zol.com.cn/1843/1842766/param.shtml",
+        "https://detail.zol.com.cn/1843/1842765/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-08-16",
+        "rawText": "上市日期 2023年8月16日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1461/1460897/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:24.603Z",
+        "sourceSnapshotHash": "9c92f51aef8ab08f1f7f214bd23e21f8054b68ff1e9b601f1623df4cdab2a34e"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2023年8月14日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1461/1460897/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:24.603Z",
+        "sourceSnapshotHash": "9c92f51aef8ab08f1f7f214bd23e21f8054b68ff1e9b601f1623df4cdab2a34e"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_10734524.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "月影黑，星耀金",
+        "rawText": "机身颜色 小米龙鳞纤维版，月影黑，星耀金 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1461/1460897/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:24.603Z",
+        "sourceSnapshotHash": "9c92f51aef8ab08f1f7f214bd23e21f8054b68ff1e9b601f1623df4cdab2a34e",
+        "note": "排除特别版颜色：小米龙鳞纤维版；原始参数引文保留。"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "逐SKU参数及行货证据核验"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2e.zol-img.com.cn/product/249_320x240/746/cefmw6uGOjxDU.png",
+        "alt": "小米MIX FOLD 3",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10734524_1.html",
+        "sourceSnapshotHash": "3f3950e41e6b1f9f8f41243679177e2dccc36b5001af5e3e5e86a9336effefdc",
+        "licenseStatus": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "仅有具体型号来源候选，尚无下载及视觉核验；不标为已获取产品照片"
+        },
+        {
+          "field": "colorImage",
+          "color": "月影黑",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        },
+        {
+          "field": "colorImage",
+          "color": "星耀金",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-mix-fold-4-2024",
+      "modelName": "小米MIX FOLD 4",
+      "generation": "2024",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10890027_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_10890027_0_1.html",
+        "https://detail.zol.com.cn/2087/2086684/param.shtml",
+        "https://detail.zol.com.cn/2099/2098173/param.shtml",
+        "https://detail.zol.com.cn/2099/2098172/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2024-07-19",
+        "rawText": "上市日期 2024年7月19日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2087/2086684/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:25.637Z",
+        "sourceSnapshotHash": "7307cd86a00b9f7e326c4aa5540b3799c9849b418ab3ef040a65117dbc17f172"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2024年7月19日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2087/2086684/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:25.637Z",
+        "sourceSnapshotHash": "7307cd86a00b9f7e326c4aa5540b3799c9849b418ab3ef040a65117dbc17f172"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_10890027.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "白色，黑色，龙胆蓝",
+        "rawText": "机身颜色 小米龙鳞纤维版，白色，黑色，龙胆蓝 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2087/2086684/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:25.637Z",
+        "sourceSnapshotHash": "7307cd86a00b9f7e326c4aa5540b3799c9849b418ab3ef040a65117dbc17f172",
+        "note": "排除特别版颜色：小米龙鳞纤维版；原始参数引文保留。"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "逐SKU参数及行货证据核验"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2a.zol-img.com.cn/product/268_320x240/486/ceIxiDcI0DloY.jpg",
+        "alt": "小米MIX FOLD 4",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10890027_1.html",
+        "sourceSnapshotHash": "69a260f39cfbb401a7e14179c297b347f2181de121529c956cf181da24fcf2af",
+        "licenseStatus": "unknown",
+        "status": "downloaded_and_visually_reviewed",
+        "actualImageEvidence": {
+          "url": "https://2a.zol-img.com.cn/product/268_320x240/486/ceIxiDcI0DloY.jpg",
+          "sha256": "0ae0e1ca10387c4c4c2c1105137e3c168d6480097efd3bb1604cfb09c818a7e5",
+          "format": "JPEG",
+          "width": 320,
+          "height": 240,
+          "checkedAt": "2026-10-06",
+          "visualReview": "黑色背盖、四摄徕卡模组和前屏，与独立Fold4型号页一致；不把纤维特别版配色混入标准色",
+          "verifiedColor": "黑色",
+          "licenseStatus": "unknown"
+        }
+      },
+      "colorImageCandidates": [
+        {
+          "color": "黑色",
+          "url": "https://2a.zol-img.com.cn/product/268_320x240/486/ceIxiDcI0DloY.jpg",
+          "sha256": "0ae0e1ca10387c4c4c2c1105137e3c168d6480097efd3bb1604cfb09c818a7e5",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10890027_1.html",
+          "sourceSnapshotHash": "69a260f39cfbb401a7e14179c297b347f2181de121529c956cf181da24fcf2af",
+          "licenseStatus": "unknown",
+          "status": "downloaded_and_visually_reviewed"
+        }
+      ],
+      "imageFieldGaps": [
+        {
+          "field": "colorImage",
+          "color": "白色",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        },
+        {
+          "field": "colorImage",
+          "color": "龙胆蓝",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-mix-flip-2024",
+      "modelName": "小米MIX Flip",
+      "generation": "2024",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10867279_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_10867279_0_1.html",
+        "https://detail.zol.com.cn/2031/2030412/param.shtml",
+        "https://detail.zol.com.cn/2099/2098193/param.shtml",
+        "https://detail.zol.com.cn/2099/2098194/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2024-07-23",
+        "rawText": "上市日期 2024年7月23日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2031/2030412/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:27.471Z",
+        "sourceSnapshotHash": "efb6c75a98973de9234a7fb0e05ee66398393dcc1af5b16352b06fe760e135d3"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2024年7月19日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2031/2030412/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:27.471Z",
+        "sourceSnapshotHash": "efb6c75a98973de9234a7fb0e05ee66398393dcc1af5b16352b06fe760e135d3"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_10867279.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "黑色，白色，幻影紫",
+        "rawText": "机身颜色 黑色，白色，幻影紫，小米凤羽纤维版 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2031/2030412/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:27.471Z",
+        "sourceSnapshotHash": "efb6c75a98973de9234a7fb0e05ee66398393dcc1af5b16352b06fe760e135d3",
+        "note": "排除特别版颜色：小米凤羽纤维版；原始参数引文保留。"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "逐SKU参数及行货证据核验"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2f.zol-img.com.cn/product/268_320x240/593/ceGrhd46WnngI.png",
+        "alt": "小米MIX Flip",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10867279_1.html",
+        "sourceSnapshotHash": "9e0c08371b06d9c2e5b0cb6d9909caa779e0bd13a7c2f44af333a28cab721ad5",
+        "licenseStatus": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "仅有具体型号来源候选，尚无下载及视觉核验；不标为已获取产品照片"
+        },
+        {
+          "field": "colorImage",
+          "color": "黑色",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        },
+        {
+          "field": "colorImage",
+          "color": "白色",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        },
+        {
+          "field": "colorImage",
+          "color": "幻影紫",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-mix-flip-2-2025",
+      "modelName": "小米MIX Flip 2",
+      "generation": "2025",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10915080_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_10915080_0_1.html",
+        "https://detail.zol.com.cn/2132/2131401/param.shtml",
+        "https://detail.zol.com.cn/2132/2131588/param.shtml",
+        "https://detail.zol.com.cn/2132/2131589/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2025-06-26",
+        "rawText": "上市日期 2025年6月26日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2132/2131401/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:28.497Z",
+        "sourceSnapshotHash": "193c10ae324b4a8ae71f5937bc8f693a0f9e5e46a36505509047962b3b205280"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2025年6月26日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2132/2131401/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:28.497Z",
+        "sourceSnapshotHash": "193c10ae324b4a8ae71f5937bc8f693a0f9e5e46a36505509047962b3b205280"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_10915080.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "星云紫，贝壳白，梅子青",
+        "rawText": "机身颜色 星云紫，星云紫，贝壳白，梅子青 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2132/2131401/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:28.497Z",
+        "sourceSnapshotHash": "193c10ae324b4a8ae71f5937bc8f693a0f9e5e46a36505509047962b3b205280"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "逐SKU参数及行货证据核验"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2d.zol-img.com.cn/product/272_320x240/385/ceqYHrTvhj3Vg.jpg",
+        "alt": "小米MIX Flip 2",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10915080_1.html",
+        "sourceSnapshotHash": "ff40ead0ebff3c041277765b498ebf692658b18a57f352527a42deecf7348908",
+        "licenseStatus": "unknown",
+        "status": "downloaded_and_visually_reviewed",
+        "actualImageEvidence": {
+          "url": "https://2d.zol-img.com.cn/product/272_320x240/385/ceqYHrTvhj3Vg.jpg",
+          "sha256": "17df5fc89bc9d6d0a8f925cad59aa9c6cc59adec935da66a5a2c6ef9fafe8d27",
+          "format": "JPEG",
+          "width": 320,
+          "height": 240,
+          "checkedAt": "2026-10-06",
+          "visualReview": "紫色渐变小折叠、双圆镜头及大外屏、内外屏蝴蝶界面，与独立Flip2系列页产品图一致",
+          "verifiedColor": "星云紫",
+          "licenseStatus": "unknown"
+        }
+      },
+      "colorImageCandidates": [
+        {
+          "color": "星云紫",
+          "url": "https://2d.zol-img.com.cn/product/272_320x240/385/ceqYHrTvhj3Vg.jpg",
+          "sha256": "17df5fc89bc9d6d0a8f925cad59aa9c6cc59adec935da66a5a2c6ef9fafe8d27",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10915080_1.html",
+          "sourceSnapshotHash": "ff40ead0ebff3c041277765b498ebf692658b18a57f352527a42deecf7348908",
+          "licenseStatus": "unknown",
+          "status": "downloaded_and_visually_reviewed"
+        }
+      ],
+      "imageFieldGaps": [
+        {
+          "field": "colorImage",
+          "color": "贝壳白",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        },
+        {
+          "field": "colorImage",
+          "color": "梅子青",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        }
+      ]
+    },
+    {
+      "id": "redmi-12-5g-2023",
+      "modelName": "Redmi 12 5G",
+      "generation": "2023",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10813071_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_10813071_0_1.html",
+        "https://detail.zol.com.cn/1850/1849602/param.shtml",
+        "https://detail.zol.com.cn/1850/1849603/param.shtml",
+        "https://detail.zol.com.cn/1850/1849604/param.shtml",
+        "https://www.ithome.com/0/712/340.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2023-08-16",
+        "rawText": "上市日期 2023年08月16日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:30.254Z",
+        "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "具体参数页产品型号误写Redmi12C且指纹/摄像头行存在跨型号风险，不拷贝其非容量字段；只补独立国内发布原文明确值"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "withheldFields": [
+        {
+          "field": "chip",
+          "reason": "具体参数页产品型号误写Redmi12C且指纹/摄像头行存在跨型号风险，不拷贝其非容量字段；只补独立国内发布原文明确值",
+          "rejectedEvidence": {
+            "value": "高通 骁龙4 Gen2",
+            "rawText": "CPU型号 高通 骁龙4 Gen2",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f",
+            "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+          }
+        },
+        {
+          "field": "screenSize",
+          "reason": "具体参数页产品型号误写Redmi12C且指纹/摄像头行存在跨型号风险，不拷贝其非容量字段；只补独立国内发布原文明确值",
+          "rejectedEvidence": {
+            "value": 6.79,
+            "unit": "inch",
+            "rawText": "屏幕尺寸 6.79英寸",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          }
+        },
+        {
+          "field": "displayType",
+          "reason": "具体参数页产品型号误写Redmi12C且指纹/摄像头行存在跨型号风险，不拷贝其非容量字段；只补独立国内发布原文明确值",
+          "rejectedEvidence": {
+            "value": "LCD",
+            "rawText": "屏幕材质 LCD",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          }
+        },
+        {
+          "field": "resolution",
+          "reason": "具体参数页产品型号误写Redmi12C且指纹/摄像头行存在跨型号风险，不拷贝其非容量字段；只补独立国内发布原文明确值",
+          "rejectedEvidence": {
+            "value": "2460x1080px",
+            "rawText": "分辨率 2460x1080px",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          }
+        },
+        {
+          "field": "refreshRate",
+          "reason": "具体参数页产品型号误写Redmi12C且指纹/摄像头行存在跨型号风险，不拷贝其非容量字段；只补独立国内发布原文明确值",
+          "rejectedEvidence": {
+            "value": 90,
+            "unit": "Hz",
+            "rawText": "屏幕刷新率 90Hz",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          }
+        },
+        {
+          "field": "weight",
+          "reason": "具体参数页产品型号误写Redmi12C且指纹/摄像头行存在跨型号风险，不拷贝其非容量字段；只补独立国内发布原文明确值",
+          "rejectedEvidence": {
+            "value": 199,
+            "unit": "g",
+            "rawText": "重量 199g",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          }
+        },
+        {
+          "field": "batteryCapacity",
+          "reason": "具体参数页产品型号误写Redmi12C且指纹/摄像头行存在跨型号风险，不拷贝其非容量字段；只补独立国内发布原文明确值",
+          "rejectedEvidence": {
+            "value": 5000,
+            "unit": "mAh",
+            "rawText": "电池容量 5000mAh 大电池",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          }
+        },
+        {
+          "field": "port",
+          "reason": "具体参数页产品型号误写Redmi12C且指纹/摄像头行存在跨型号风险，不拷贝其非容量字段；只补独立国内发布原文明确值",
+          "rejectedEvidence": {
+            "value": "3.5mm耳机接口 USB Type-C接口",
+            "rawText": "机身接口 3.5mm耳机接口 USB Type-C接口",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          }
+        },
+        {
+          "field": "wifi",
+          "reason": "具体参数页产品型号误写Redmi12C且指纹/摄像头行存在跨型号风险，不拷贝其非容量字段；只补独立国内发布原文明确值",
+          "rejectedEvidence": {
+            "value": "双频WiFi（2.4G/5G）",
+            "rawText": "WLAN功能 双频WiFi（2.4G/5G）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          }
+        },
+        {
+          "field": "bluetooth",
+          "reason": "具体参数页产品型号误写Redmi12C且指纹/摄像头行存在跨型号风险，不拷贝其非容量字段；只补独立国内发布原文明确值",
+          "rejectedEvidence": {
+            "value": "支持蓝牙",
+            "rawText": "蓝牙 支持蓝牙",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          }
+        },
+        {
+          "field": "memoryType",
+          "reason": "具体参数页产品型号误写Redmi12C且指纹/摄像头行存在跨型号风险，不拷贝其非容量字段；只补独立国内发布原文明确值",
+          "rejectedEvidence": {
+            "value": "LPDDR4X",
+            "rawText": "RAM存储类型 LPDDR4X",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          }
+        },
+        {
+          "field": "storageType",
+          "reason": "具体参数页产品型号误写Redmi12C且指纹/摄像头行存在跨型号风险，不拷贝其非容量字段；只补独立国内发布原文明确值",
+          "rejectedEvidence": {
+            "value": "UFS 2.2",
+            "rawText": "ROM存储类型 UFS 2.2",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          }
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "具体参数页产品型号误写Redmi12C且指纹/摄像头行存在跨型号风险，不拷贝其非容量字段；只补独立国内发布原文明确值",
+          "rejectedEvidence": {
+            "value": "MIUI 14",
+            "rawText": "操作系统 MIUI 14",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          }
+        },
+        {
+          "field": "security",
+          "reason": "具体参数页产品型号误写Redmi12C且指纹/摄像头行存在跨型号风险，不拷贝其非容量字段；只补独立国内发布原文明确值",
+          "rejectedEvidence": {
+            "value": "后置指纹识别",
+            "rawText": "指纹识别 后置指纹识别",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          }
+        },
+        {
+          "field": "sim",
+          "reason": "具体参数页产品型号误写Redmi12C且指纹/摄像头行存在跨型号风险，不拷贝其非容量字段；只补独立国内发布原文明确值",
+          "rejectedEvidence": {
+            "value": "双卡（Nano SIM卡）",
+            "rawText": "SIM卡类型 双卡（Nano SIM卡）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          }
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "具体参数页产品型号误写Redmi12C且指纹/摄像头行存在跨型号风险，不拷贝其非容量字段；只补独立国内发布原文明确值",
+          "rejectedEvidence": {
+            "value": "有线充电：18w",
+            "rawText": "有线充电 18w",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          }
+        },
+        {
+          "field": "rearCamera",
+          "reason": "具体参数页产品型号误写Redmi12C且指纹/摄像头行存在跨型号风险，不拷贝其非容量字段；只补独立国内发布原文明确值",
+          "rejectedEvidence": {
+            "value": "后置摄像头1：5000万像素 后置摄像头2：200万像素",
+            "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：200万像素 前置摄像头1：500万像素",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          }
+        },
+        {
+          "field": "frontCamera",
+          "reason": "具体参数页产品型号误写Redmi12C且指纹/摄像头行存在跨型号风险，不拷贝其非容量字段；只补独立国内发布原文明确值",
+          "rejectedEvidence": {
+            "value": "前置摄像头1：500万像素",
+            "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：200万像素 前置摄像头1：500万像素",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          }
+        }
+      ],
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "小米 Redmi 12 手机现已上架并开启预约，预计 8 月 16 日开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/712/340.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:45:47.896Z",
+        "sourceSnapshotHash": "f914d19e2625ba2677cdacf74026e1102758b59ecb355a7322948445a2eea88e"
+      },
+      "fieldCorrections": [
+        {
+          "field": "chip",
+          "reason": "独立国内发布原文纠正冲突参数",
+          "rejectedEvidence": {
+            "value": "高通 骁龙4 Gen2",
+            "rawText": "CPU型号 高通 骁龙4 Gen2",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f",
+            "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+          },
+          "sourceUrl": "https://www.ithome.com/0/712/340.htm",
+          "sourceSnapshotHash": "f914d19e2625ba2677cdacf74026e1102758b59ecb355a7322948445a2eea88e"
+        },
+        {
+          "field": "displayType",
+          "reason": "独立国内发布原文纠正冲突参数",
+          "rejectedEvidence": {
+            "value": "LCD",
+            "rawText": "屏幕材质 LCD",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          },
+          "sourceUrl": "https://www.ithome.com/0/712/340.htm",
+          "sourceSnapshotHash": "f914d19e2625ba2677cdacf74026e1102758b59ecb355a7322948445a2eea88e"
+        },
+        {
+          "field": "screenSize",
+          "reason": "独立国内发布原文纠正冲突参数",
+          "rejectedEvidence": {
+            "value": 6.79,
+            "unit": "inch",
+            "rawText": "屏幕尺寸 6.79英寸",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          },
+          "sourceUrl": "https://www.ithome.com/0/712/340.htm",
+          "sourceSnapshotHash": "f914d19e2625ba2677cdacf74026e1102758b59ecb355a7322948445a2eea88e"
+        },
+        {
+          "field": "resolution",
+          "reason": "独立国内发布原文纠正冲突参数",
+          "rejectedEvidence": {
+            "value": "2460x1080px",
+            "rawText": "分辨率 2460x1080px",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          },
+          "sourceUrl": "https://www.ithome.com/0/712/340.htm",
+          "sourceSnapshotHash": "f914d19e2625ba2677cdacf74026e1102758b59ecb355a7322948445a2eea88e"
+        },
+        {
+          "field": "rearCamera",
+          "reason": "独立国内发布原文纠正冲突参数",
+          "rejectedEvidence": {
+            "value": "后置摄像头1：5000万像素 后置摄像头2：200万像素",
+            "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：200万像素 前置摄像头1：500万像素",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          },
+          "sourceUrl": "https://www.ithome.com/0/712/340.htm",
+          "sourceSnapshotHash": "f914d19e2625ba2677cdacf74026e1102758b59ecb355a7322948445a2eea88e"
+        },
+        {
+          "field": "security",
+          "reason": "独立国内发布原文纠正冲突参数",
+          "rejectedEvidence": {
+            "value": "后置指纹识别",
+            "rawText": "指纹识别 后置指纹识别",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          },
+          "sourceUrl": "https://www.ithome.com/0/712/340.htm",
+          "sourceSnapshotHash": "f914d19e2625ba2677cdacf74026e1102758b59ecb355a7322948445a2eea88e"
+        },
+        {
+          "field": "memoryType",
+          "reason": "独立国内发布原文纠正冲突参数",
+          "rejectedEvidence": {
+            "value": "LPDDR4X",
+            "rawText": "RAM存储类型 LPDDR4X",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          },
+          "sourceUrl": "https://www.ithome.com/0/712/340.htm",
+          "sourceSnapshotHash": "f914d19e2625ba2677cdacf74026e1102758b59ecb355a7322948445a2eea88e"
+        },
+        {
+          "field": "storageType",
+          "reason": "独立国内发布原文纠正冲突参数",
+          "rejectedEvidence": {
+            "value": "UFS 2.2",
+            "rawText": "ROM存储类型 UFS 2.2",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          },
+          "sourceUrl": "https://www.ithome.com/0/712/340.htm",
+          "sourceSnapshotHash": "f914d19e2625ba2677cdacf74026e1102758b59ecb355a7322948445a2eea88e"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "独立国内发布原文纠正冲突参数",
+          "rejectedEvidence": null,
+          "sourceUrl": "https://www.ithome.com/0/712/340.htm",
+          "sourceSnapshotHash": "f914d19e2625ba2677cdacf74026e1102758b59ecb355a7322948445a2eea88e"
+        },
+        {
+          "field": "port",
+          "reason": "独立国内发布原文纠正冲突参数",
+          "rejectedEvidence": {
+            "value": "3.5mm耳机接口 USB Type-C接口",
+            "rawText": "机身接口 3.5mm耳机接口 USB Type-C接口",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1850/1849602/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:30.254Z",
+            "sourceSnapshotHash": "d60b3c1a512b3036cf6684374a635f589911bcdf17812983270f35d25c34220f"
+          },
+          "sourceUrl": "https://www.ithome.com/0/712/340.htm",
+          "sourceSnapshotHash": "f914d19e2625ba2677cdacf74026e1102758b59ecb355a7322948445a2eea88e"
+        }
+      ],
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_10813071.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "冰瓷白，星岩灰",
+        "rawText": "冰瓷白、星岩灰两种配色",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/712/340.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:45:47.896Z",
+        "sourceSnapshotHash": "f914d19e2625ba2677cdacf74026e1102758b59ecb355a7322948445a2eea88e"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "rejectedImageCandidate": {
+        "url": "https://2c.zol-img.com.cn/product/258_320x240/412/ce9FF9M3wChuU.jpg",
+        "alt": "红米12 5G",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10813071_1.html",
+        "sourceSnapshotHash": "ce80640ed0a0c9b77bda9cc17452b8d7693448bd2b8b17f3737d45f30a29d552",
+        "licenseStatus": "unknown",
+        "status": "ambiguous_generation_or_variant",
+        "reason": "参数页产品型号误写Redmi12C，未取得独立国内Redmi12具体型号照片绑定，不采用可疑系列图"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "参数页产品型号误写Redmi12C，未取得独立国内Redmi12具体型号照片绑定，不采用可疑系列图"
+        },
+        {
+          "field": "colorImage",
+          "color": "冰瓷白",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        },
+        {
+          "field": "colorImage",
+          "color": "星岩灰",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        }
+      ]
+    },
+    {
+      "id": "redmi-13c-5g-2023",
+      "modelName": "Redmi 13C 5G",
+      "generation": "2023",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10849282_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_10849282_0_1.html",
+        "https://detail.zol.com.cn/1972/1971146/param.shtml",
+        "https://detail.zol.com.cn/1972/1971147/param.shtml",
+        "https://detail.zol.com.cn/1972/1971148/param.shtml",
+        "https://www.ithome.com/0/742/320.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2023-12-30",
+        "rawText": "明日（12 月 30 日）10 点开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/742/320.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:43:32.384Z",
+        "sourceSnapshotHash": "7f061e0fc00f12449d527ea7f2bf964c21b7067a7d46ecb3ea1bddc26614230d"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "Redmi 13C 手机现已上架小米商城以及京东平台，到手价 749 元，明日（12 月 30 日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/742/320.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:43:32.384Z",
+        "sourceSnapshotHash": "7f061e0fc00f12449d527ea7f2bf964c21b7067a7d46ecb3ea1bddc26614230d"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_10849282.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "彩虹星纱，星岩黑",
+        "rawText": "机身颜色 彩虹星纱，星岩黑 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1972/1971146/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:33.269Z",
+        "sourceSnapshotHash": "d9f8f859c71849f330e03fef4c82cf7ad8767f74f8e1cbe8703855a3d2e8a6d3"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2b.zol-img.com.cn/product/258_320x240/441/ceebuTcdX1nk.jpg",
+        "alt": "红米13C 5G",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10849282_1.html",
+        "sourceSnapshotHash": "4cf91dbfeda93fe0cc866d4c0394b0d1dbad97eb7da0f0ec0fae81a6a73f0d78",
+        "licenseStatus": "unknown",
+        "status": "downloaded_and_visually_reviewed",
+        "actualImageEvidence": {
+          "url": "https://2b.zol-img.com.cn/product/258_320x240/441/ceebuTcdX1nk.jpg",
+          "sha256": "9f7eba5c639c57966b4f789b6d186b8a07c9d22a78674015445b035be1f27af5",
+          "format": "JPEG",
+          "width": 320,
+          "height": 240,
+          "checkedAt": "2026-10-06",
+          "visualReview": "浅色星纱后盖、双圆后摄、水滴前屏，与国内13C5G型号页及已核验配色一致；不用于4G13C",
+          "verifiedColor": "彩虹星纱",
+          "licenseStatus": "unknown"
+        }
+      },
+      "colorImageCandidates": [
+        {
+          "color": "彩虹星纱",
+          "url": "https://2b.zol-img.com.cn/product/258_320x240/441/ceebuTcdX1nk.jpg",
+          "sha256": "9f7eba5c639c57966b4f789b6d186b8a07c9d22a78674015445b035be1f27af5",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10849282_1.html",
+          "sourceSnapshotHash": "4cf91dbfeda93fe0cc866d4c0394b0d1dbad97eb7da0f0ec0fae81a6a73f0d78",
+          "licenseStatus": "unknown",
+          "status": "downloaded_and_visually_reviewed"
+        }
+      ],
+      "imageFieldGaps": [
+        {
+          "field": "colorImage",
+          "color": "星岩黑",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        }
+      ]
+    },
+    {
+      "id": "redmi-note-11r-2022",
+      "modelName": "Redmi Note 11R",
+      "generation": "2022",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10718260_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_10718260_0_1.html",
+        "https://detail.zol.com.cn/1430/1429555/param.shtml",
+        "https://detail.zol.com.cn/1430/1429556/param.shtml",
+        "https://detail.zol.com.cn/1430/1429554/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-09-30",
+        "rawText": "上市日期 2022年09月30日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1430/1429555/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:34.533Z",
+        "sourceSnapshotHash": "ecd8023766d2fe8a4c9375971e50bd55606d0c351702e968f6f62469263b81db"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2022年09月29日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1430/1429555/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:34.533Z",
+        "sourceSnapshotHash": "ecd8023766d2fe8a4c9375971e50bd55606d0c351702e968f6f62469263b81db"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_10718260.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "逐SKU参数及行货证据核验"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2d.zol-img.com.cn/product/225_320x240/69/ceMZ9rvA3cnvU.jpg",
+        "alt": "红米Note 11R",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10718260_1.html",
+        "sourceSnapshotHash": "61f2b842de7be5117f6cd5533f9ba4cc3d3facb601af3178582268043b7f0695",
+        "licenseStatus": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "仅有具体型号来源候选，尚无下载及视觉核验；不标为已获取产品照片"
+        }
+      ]
+    },
+    {
+      "id": "redmi-note-12r-pro-2023",
+      "modelName": "Redmi Note 12R Pro",
+      "releaseYear": 2023,
+      "sourceStatus": "verified",
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10760121_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_10760121_0_1.html",
+        "https://detail.zol.com.cn/1554/1553600/param.shtml",
+        "https://www.ithome.com/0/689/341.htm",
+        "https://www.ithome.com/0/691/034.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2023-04-29",
+        "rawText": "上市日期 2023年04月29日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1554/1553600/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:36.512Z",
+        "sourceSnapshotHash": "a2df9f5c9bbca8fa9986f0b3d6a3a4b2070a7c7a6356b52f2fae064b0a14c1d6"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        },
+        {
+          "field": "port",
+          "reason": "ZOL型号系列混入6/128、8/256及骁龙778G行，不采用其非容量字段；独立国内官宣原文绑定唯一12/256并确认骁龙4"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "实际标准版参数页无可核验字段原文；留空不推断"
+        }
+      ],
+      "notes": "旧容量汇总参数页不拆配；单独读取标准版非容量字段，配置另由发布原文逐条补证。 配置另由独立发布评测原文逐条补证，仅采用该原文列明组合。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "withheldFields": [
+        {
+          "field": "chip",
+          "reason": "ZOL型号系列混入6/128、8/256及骁龙778G行，不采用其非容量字段；独立国内官宣原文绑定唯一12/256并确认骁龙4",
+          "rejectedEvidence": {
+            "value": "高通 骁龙4 Gen1",
+            "rawText": "CPU型号 高通 骁龙4 Gen1",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1554/1553600/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:36.512Z",
+            "sourceSnapshotHash": "a2df9f5c9bbca8fa9986f0b3d6a3a4b2070a7c7a6356b52f2fae064b0a14c1d6"
+          }
+        },
+        {
+          "field": "displayType",
+          "reason": "ZOL型号系列混入6/128、8/256及骁龙778G行，不采用其非容量字段；独立国内官宣原文绑定唯一12/256并确认骁龙4",
+          "rejectedEvidence": {
+            "value": "OLED",
+            "rawText": "屏幕材质 OLED",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1554/1553600/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:36.512Z",
+            "sourceSnapshotHash": "a2df9f5c9bbca8fa9986f0b3d6a3a4b2070a7c7a6356b52f2fae064b0a14c1d6"
+          }
+        },
+        {
+          "field": "resolution",
+          "reason": "ZOL型号系列混入6/128、8/256及骁龙778G行，不采用其非容量字段；独立国内官宣原文绑定唯一12/256并确认骁龙4",
+          "rejectedEvidence": {
+            "value": "2400x1080px",
+            "rawText": "分辨率 2400x1080px",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1554/1553600/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:36.512Z",
+            "sourceSnapshotHash": "a2df9f5c9bbca8fa9986f0b3d6a3a4b2070a7c7a6356b52f2fae064b0a14c1d6"
+          }
+        },
+        {
+          "field": "port",
+          "reason": "ZOL型号系列混入6/128、8/256及骁龙778G行，不采用其非容量字段；独立国内官宣原文绑定唯一12/256并确认骁龙4",
+          "rejectedEvidence": {
+            "value": "3.5mm耳机接口 USB Type-C接口",
+            "rawText": "机身接口 3.5mm耳机接口 USB Type-C接口",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1554/1553600/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:36.512Z",
+            "sourceSnapshotHash": "a2df9f5c9bbca8fa9986f0b3d6a3a4b2070a7c7a6356b52f2fae064b0a14c1d6"
+          }
+        },
+        {
+          "field": "bluetooth",
+          "reason": "ZOL型号系列混入6/128、8/256及骁龙778G行，不采用其非容量字段；独立国内官宣原文绑定唯一12/256并确认骁龙4",
+          "rejectedEvidence": {
+            "value": "蓝牙5.2，支持AAC/LDAC/LHDC",
+            "rawText": "蓝牙 蓝牙5.2，支持AAC/LDAC/LHDC",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1554/1553600/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:36.512Z",
+            "sourceSnapshotHash": "a2df9f5c9bbca8fa9986f0b3d6a3a4b2070a7c7a6356b52f2fae064b0a14c1d6"
+          }
+        },
+        {
+          "field": "screenSize",
+          "reason": "ZOL型号系列混入6/128、8/256及骁龙778G行，不采用其非容量字段；独立国内官宣原文绑定唯一12/256并确认骁龙4",
+          "rejectedEvidence": {
+            "value": 6.67,
+            "rawText": "屏幕尺寸 6.67英寸",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1554/1553600/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:36.512Z",
+            "sourceSnapshotHash": "a2df9f5c9bbca8fa9986f0b3d6a3a4b2070a7c7a6356b52f2fae064b0a14c1d6",
+            "unit": "inch"
+          }
+        },
+        {
+          "field": "weight",
+          "reason": "ZOL型号系列混入6/128、8/256及骁龙778G行，不采用其非容量字段；独立国内官宣原文绑定唯一12/256并确认骁龙4",
+          "rejectedEvidence": {
+            "value": 181,
+            "rawText": "重量 181g",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1554/1553600/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:36.512Z",
+            "sourceSnapshotHash": "a2df9f5c9bbca8fa9986f0b3d6a3a4b2070a7c7a6356b52f2fae064b0a14c1d6",
+            "unit": "g"
+          }
+        },
+        {
+          "field": "batteryCapacity",
+          "reason": "ZOL型号系列混入6/128、8/256及骁龙778G行，不采用其非容量字段；独立国内官宣原文绑定唯一12/256并确认骁龙4",
+          "rejectedEvidence": {
+            "value": 5000,
+            "rawText": "电池容量 5000mAh 大电池",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1554/1553600/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:36.512Z",
+            "sourceSnapshotHash": "a2df9f5c9bbca8fa9986f0b3d6a3a4b2070a7c7a6356b52f2fae064b0a14c1d6",
+            "unit": "mAh"
+          }
+        }
+      ],
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "Note 12R Pro 手机将在 4 月 29 日 10:00 上架官方购买渠道并开启首销",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/689/341.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:43:32.349Z",
+        "sourceSnapshotHash": "2c76dfde36e0422e53b94981a69071c390dcf0250bbcac3a37a4a331ff37aacc"
+      },
+      "fieldCorrections": [
+        {
+          "field": "chip",
+          "reason": "独立国内发布原文纠正冲突参数",
+          "rejectedEvidence": {
+            "value": "高通 骁龙4 Gen1",
+            "rawText": "CPU型号 高通 骁龙4 Gen1",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1554/1553600/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:36.512Z",
+            "sourceSnapshotHash": "a2df9f5c9bbca8fa9986f0b3d6a3a4b2070a7c7a6356b52f2fae064b0a14c1d6"
+          },
+          "sourceUrl": "https://www.ithome.com/0/689/341.htm",
+          "sourceSnapshotHash": "2c76dfde36e0422e53b94981a69071c390dcf0250bbcac3a37a4a331ff37aacc"
+        },
+        {
+          "field": "displayType",
+          "reason": "独立国内发布原文纠正冲突参数",
+          "rejectedEvidence": {
+            "value": "OLED",
+            "rawText": "屏幕材质 OLED",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1554/1553600/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:36.512Z",
+            "sourceSnapshotHash": "a2df9f5c9bbca8fa9986f0b3d6a3a4b2070a7c7a6356b52f2fae064b0a14c1d6"
+          },
+          "sourceUrl": "https://www.ithome.com/0/689/341.htm",
+          "sourceSnapshotHash": "2c76dfde36e0422e53b94981a69071c390dcf0250bbcac3a37a4a331ff37aacc"
+        },
+        {
+          "field": "screenSize",
+          "reason": "独立国内发布原文纠正冲突参数",
+          "rejectedEvidence": {
+            "value": 6.67,
+            "rawText": "屏幕尺寸 6.67英寸",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1554/1553600/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:36.512Z",
+            "sourceSnapshotHash": "a2df9f5c9bbca8fa9986f0b3d6a3a4b2070a7c7a6356b52f2fae064b0a14c1d6",
+            "unit": "inch"
+          },
+          "sourceUrl": "https://www.ithome.com/0/691/034.htm",
+          "sourceSnapshotHash": "9179a4fc9ea34c1e072804ce878ff36672815d0140f9546978b919c2da32234c"
+        },
+        {
+          "field": "rearCamera",
+          "reason": "独立国内发布原文纠正冲突参数",
+          "rejectedEvidence": null,
+          "sourceUrl": "https://www.ithome.com/0/691/034.htm",
+          "sourceSnapshotHash": "9179a4fc9ea34c1e072804ce878ff36672815d0140f9546978b919c2da32234c"
+        },
+        {
+          "field": "batteryCapacity",
+          "reason": "独立国内发布原文纠正冲突参数",
+          "rejectedEvidence": {
+            "value": 5000,
+            "rawText": "电池容量 5000mAh 大电池",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1554/1553600/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:36.512Z",
+            "sourceSnapshotHash": "a2df9f5c9bbca8fa9986f0b3d6a3a4b2070a7c7a6356b52f2fae064b0a14c1d6",
+            "unit": "mAh"
+          },
+          "sourceUrl": "https://www.ithome.com/0/691/034.htm",
+          "sourceSnapshotHash": "9179a4fc9ea34c1e072804ce878ff36672815d0140f9546978b919c2da32234c"
+        }
+      ],
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_10760121.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "子夜黑，镜瓷白，晨光金",
+        "rawText": "子夜黑、镜瓷白、晨光金三种配色",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/691/034.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:43:32.311Z",
+        "sourceSnapshotHash": "9179a4fc9ea34c1e072804ce878ff36672815d0140f9546978b919c2da32234c"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "独立发布/官方原文逐SKU补证"
+      },
+      "rejectedImageCandidate": {
+        "url": "https://2f.zol-img.com.cn/product/246_320x240/399/cem6BpDvMPmKU.jpg",
+        "alt": "红米Note 12R Pro",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10760121_1.html",
+        "sourceSnapshotHash": "090c7b1c167177502dca329fa167dc6f8226c0bb69617712954969b4395361a8",
+        "licenseStatus": "unknown",
+        "status": "ambiguous_generation_or_variant",
+        "reason": "参数系列混入不同芯片及容量，系列图缺少独立Note12RPro真实绑定，留空"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "参数系列混入不同芯片及容量，系列图缺少独立Note12RPro真实绑定，留空"
+        },
+        {
+          "field": "colorImage",
+          "color": "子夜黑",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        },
+        {
+          "field": "colorImage",
+          "color": "镜瓷白",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        },
+        {
+          "field": "colorImage",
+          "color": "晨光金",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        }
+      ]
+    },
+    {
+      "id": "redmi-note-12r-2023",
+      "modelName": "Redmi Note 12R",
+      "generation": "2023",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10800596_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_10800596_0_1.html",
+        "https://detail.zol.com.cn/1785/1784458/param.shtml",
+        "https://detail.zol.com.cn/1785/1784459/param.shtml",
+        "https://detail.zol.com.cn/1785/1784461/param.shtml",
+        "https://detail.zol.com.cn/1785/1784460/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-06-30",
+        "rawText": "上市日期 2023年06月30日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1785/1784458/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:37.953Z",
+        "sourceSnapshotHash": "40ae60a910577fe6dee7bee0eaad28cec00eebe688e7f1bb7f92d23d49718012"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2023年06月28日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1785/1784458/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:37.953Z",
+        "sourceSnapshotHash": "40ae60a910577fe6dee7bee0eaad28cec00eebe688e7f1bb7f92d23d49718012"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_10800596.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "子夜黑，时光蓝，天空幻境",
+        "rawText": "机身颜色 子夜黑，时光蓝，天空幻境 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1785/1784458/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:37.953Z",
+        "sourceSnapshotHash": "40ae60a910577fe6dee7bee0eaad28cec00eebe688e7f1bb7f92d23d49718012"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "逐SKU参数及行货证据核验"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2a.zol-img.com.cn/product/247_320x240/868/cemWziFaxi2aY.png",
+        "alt": "红米Note 12R",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10800596_1.html",
+        "sourceSnapshotHash": "ba9da79c765ad0aac20dd633c8c702382f90ca966bb6413e743dd93c442b9db5",
+        "licenseStatus": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "仅有具体型号来源候选，尚无下载及视觉核验；不标为已获取产品照片"
+        },
+        {
+          "field": "colorImage",
+          "color": "子夜黑",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        },
+        {
+          "field": "colorImage",
+          "color": "时光蓝",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        },
+        {
+          "field": "colorImage",
+          "color": "天空幻境",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        }
+      ]
+    },
+    {
+      "id": "redmi-note-13r-2024",
+      "modelName": "Redmi Note 13R",
+      "generation": "2024",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10864501_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_10864501_0_1.html",
+        "https://detail.zol.com.cn/2019/2018466/param.shtml",
+        "https://detail.zol.com.cn/2019/2018470/param.shtml",
+        "https://detail.zol.com.cn/2019/2018469/param.shtml",
+        "https://detail.zol.com.cn/2019/2018468/param.shtml",
+        "https://detail.zol.com.cn/2019/2018467/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2024-05-30",
+        "rawText": "上市日期 2024年5月30日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2019/2018466/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:38.712Z",
+        "sourceSnapshotHash": "ef21b5776c7a1341acd320e672e373681d23eb63368f134aeb4ca7ad0eb034cc"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 5 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2024年5月30日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2019/2018466/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:38.712Z",
+        "sourceSnapshotHash": "ef21b5776c7a1341acd320e672e373681d23eb63368f134aeb4ca7ad0eb034cc"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_10864501.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "子夜黑，冰晶银，浅海蓝",
+        "rawText": "机身颜色 子夜黑,冰晶银,浅海蓝 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2019/2018466/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:38.712Z",
+        "sourceSnapshotHash": "ef21b5776c7a1341acd320e672e373681d23eb63368f134aeb4ca7ad0eb034cc"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "逐SKU参数及行货证据核验"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2f.zol-img.com.cn/product/263_320x240/707/cems2KOmqxh9o.png",
+        "alt": "红米Note 13R",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10864501_1.html",
+        "sourceSnapshotHash": "35cef33406029c66edbcc9094d3ad5f1f7c3bac879c804b74881c8c1be6ade4a",
+        "licenseStatus": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "仅有具体型号来源候选，尚无下载及视觉核验；不标为已获取产品照片"
+        },
+        {
+          "field": "colorImage",
+          "color": "子夜黑",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        },
+        {
+          "field": "colorImage",
+          "color": "冰晶银",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        },
+        {
+          "field": "colorImage",
+          "color": "浅海蓝",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        }
+      ]
+    }
+  ],
+  "tablet": [
+    {
+      "id": "xiaomi-pad-4-lte-2018",
+      "modelName": "小米平板4 LTE",
+      "generation": "2018",
+      "releaseYear": 2018,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/23746_1.html",
+        "https://detail.zol.com.cn/series/702/34645/param_23746_0_1.html",
+        "https://detail.zol.com.cn/1222/1221130/param.shtml",
+        "https://www.ithome.com/0/372/276.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2018-06",
+        "rawText": "上市时间 2018年06月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1222/1221130/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:39.570Z",
+        "sourceSnapshotHash": "f9c9e07a4910170df1206928d86fc2b8027f4f9560db68d70b1712e6df48a75c"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "实际标准版参数页无可核验字段原文；留空不推断"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 1 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "小米官方宣布，小米平板4 LTE版将于7月24日上午10点首销",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/372/276.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:43:32.584Z",
+        "sourceSnapshotHash": "cd74c0508cd0b6bef35c60b7c9a11a822eafd0bbeba8ac93537e636997f39102"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/702/34645/pic_23746.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "priorReview": {
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "rejectedImageCandidate": {
+        "url": "https://2b.zol-img.com.cn/product/220_320x240/965/ceeXfb2i3iwA.png",
+        "alt": "小米平板4",
+        "sourceUrl": "https://detail.zol.com.cn/series/702/23746_1.html",
+        "sourceSnapshotHash": "112e39196552e2eef69c44c0e2ff23f1f90d960150d87fd3c46fb98b8719ea4b",
+        "licenseStatus": "unknown",
+        "status": "ambiguous_generation_or_variant",
+        "reason": "系列图同时覆盖Wi-Fi和LTE，未有具体LTE版独立照片绑定；不能套用Wi-Fi版图片"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "系列图同时覆盖Wi-Fi和LTE，未有具体LTE版独立照片绑定；不能套用Wi-Fi版图片"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-pad-5-pro-5g-2021",
+      "modelName": "小米平板5 Pro 5G",
+      "generation": "2021",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10723391_1.html",
+        "https://detail.zol.com.cn/series/702/34645/param_10723391_0_1.html",
+        "https://detail.zol.com.cn/1441/1440534/param.shtml",
+        "https://www.ithome.com/0/595/086.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2021-08-16",
+        "rawText": "上市时间 2021年08月16日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1441/1440534/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:41:40.648Z",
+        "sourceSnapshotHash": "0a481e43223f79675533940a377ade46d87ec1221d6e66042658e61328547156"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 1 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "5G 版本仅有 8GB+256GB 版可选",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/595/086.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:43:32.781Z",
+        "sourceSnapshotHash": "fe429d8934bbe831f09c0153a0f8f367c73de4e09163a571f18ea1fb902e03e9"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/702/34645/pic_10723391.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "priorReview": {
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "rejectedImageCandidate": {
+        "url": "https://2e.zol-img.com.cn/product/226_320x240/840/cesA1NvmwDI7I.jpg",
+        "alt": "小米平板5 Pro",
+        "sourceUrl": "https://detail.zol.com.cn/series/702/10723391_1.html",
+        "sourceSnapshotHash": "8fbc3e5e5eb408a5aecb90f9add874f5580b12a86c632b44866affd97833706a",
+        "licenseStatus": "unknown",
+        "status": "ambiguous_generation_or_variant",
+        "reason": "系列图同时覆盖Wi-Fi和5G，未有具体5G版独立照片绑定；不能套用Wi-Fi版图片"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "系列图同时覆盖Wi-Fi和5G，未有具体5G版独立照片绑定；不能套用Wi-Fi版图片"
+        }
+      ]
+    }
+  ],
+  "laptop": [
+    {
+      "id": "xiaomi-book-air-13-2017",
+      "modelName": "小米笔记本Air (13.3英寸)",
+      "generation": "2017",
+      "releaseYear": 2017,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/22131_1.html",
+        "https://detail.zol.com.cn/series/16/34645/param_22131_0_1.html",
+        "https://detail.zol.com.cn/1174/1173284/param.shtml",
+        "https://detail.zol.com.cn/1174/1173286/param.shtml",
+        "https://www.ithome.com/0/313/405.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2017-06-18",
+        "rawText": "将于6月18日在小米商城、京东、天猫、苏宁同步首发",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/313/405.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:42.618Z",
+        "sourceSnapshotHash": "15e86d3af68a18c510f5ad0df36631289b07f3e9039d8c80a08cc43d5222c7f9"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "实际标准版参数页无可核验字段原文；留空不推断"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "新款13.3英寸版小米笔记本Air升级i5-7200U",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/313/405.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:42.618Z",
+        "sourceSnapshotHash": "15e86d3af68a18c510f5ad0df36631289b07f3e9039d8c80a08cc43d5222c7f9"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/16/34645/pic_22131.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "priorReview": {
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "rejectedImageCandidate": {
+        "url": "https://2a.zol-img.com.cn/product/174_320x240/512/ceKv7pbVhdboY.jpg",
+        "alt": "小米笔记本Air（13.3英寸）",
+        "sourceUrl": "https://detail.zol.com.cn/series/16/22131_1.html",
+        "sourceSnapshotHash": "164ed7a28beca0f13c3955c5c54db0ca8e2b6e34c27d8db9dc1412d632a3c403",
+        "licenseStatus": "unknown",
+        "status": "ambiguous_generation_or_variant",
+        "reason": "系列页主图尚无该年份、CPU及显卡版本的独立实图绑定证据；不把系列共享图当作具体年度产品照片"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "系列页主图尚无该年份、CPU及显卡版本的独立实图绑定证据；不把系列共享图当作具体年度产品照片"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-book-pro-15-enhanced-2019",
+      "modelName": "小米笔记本Pro增强版",
+      "generation": "2019",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/notebook/index1297326.shtml",
+        "https://detail.zol.com.cn/1298/1297326/param.shtml",
+        "https://detail.zol.com.cn/1298/1297333/param.shtml",
+        "https://detail.zol.com.cn/1298/1297334/param.shtml",
+        "https://www.ithome.com/0/451/478.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2019-11-01",
+        "rawText": "i7/16GB/1TB版本，6999元，11月1日开卖",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/451/478.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:42.713Z",
+        "sourceSnapshotHash": "d09a8457d412585e2b25a8045d660dda6f085e21678e3092f5ccf586dc5fd1a7"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "实际标准版参数页无可核验字段原文；留空不推断"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "小米公布了小米笔记本Pro增强版",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/451/478.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:42.713Z",
+        "sourceSnapshotHash": "d09a8457d412585e2b25a8045d660dda6f085e21678e3092f5ccf586dc5fd1a7"
+      },
+      "imageReferenceStatus": "series_gallery_link_missing",
+      "imageReferenceNote": "已核对系列页未提供可读取的系列图库链接；可另查具体SKU参数页中的产品主图，不构造图库地址。",
+      "priorReview": {
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "rejectedImageCandidate": {
+        "url": "https://2e.zol-img.com.cn/product/202_320x240/766/cewM5xXLpKKgc.jpg",
+        "alt": "小米笔记本 Pro 增强版(i7 10510U/16GB/1TB/MX250)",
+        "sourceUrl": "https://detail.zol.com.cn/notebook/index1297326.shtml",
+        "sourceSnapshotHash": "750e4d68cd8c69dd020c7c9b61e365b40312d358ae2608098f0f762a12cbb604",
+        "licenseStatus": "unknown",
+        "status": "ambiguous_generation_or_variant",
+        "reason": "系列页主图尚无该年份、CPU及显卡版本的独立实图绑定证据；不把系列共享图当作具体年度产品照片"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "系列页主图尚无该年份、CPU及显卡版本的独立实图绑定证据；不把系列共享图当作具体年度产品照片"
+        }
+      ]
+    },
+    {
+      "id": "redmi-book-14-enhanced-2019",
+      "modelName": "Redmi Book 14 增强版",
+      "generation": "2019",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/27474_1.html",
+        "https://detail.zol.com.cn/series/16/55731/param_27474_0_1.html",
+        "https://detail.zol.com.cn/1291/1290525/param.shtml",
+        "https://detail.zol.com.cn/1322/1321036/param.shtml",
+        "https://detail.zol.com.cn/1291/1290615/param.shtml",
+        "https://detail.zol.com.cn/1291/1290614/param.shtml",
+        "https://www.ithome.com/0/442/048.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2019-09-06",
+        "rawText": "9月6日10点正式首卖",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/442/048.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:42.810Z",
+        "sourceSnapshotHash": "c75c107bfc1c617419416625e7616af6cd35a33407a2be97c5594e8079ad0a75"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "实际标准版参数页无可核验字段原文；留空不推断"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "excludedConfigurations": [
+        {
+          "name": "Redmi Book 14增强版(i5 10210U/8GB/1TB/MX250)；内存容量 8GB 运行流畅；硬盘容量 1TB；CPU型号 Intel 酷睿i5 10210U 中端主流机；显卡芯片 NVIDIA GeForce MX250",
+          "sourceUrl": "https://detail.zol.com.cn/1322/1321036/param.shtml",
+          "reason": "本目标仅收已由独立国内发布原文列明的标准配置，其他容量版暂不核验"
+        }
+      ],
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "Redmi品牌笔记本新品RedmiBook 14增强版正式发布",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/442/048.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:42.810Z",
+        "sourceSnapshotHash": "c75c107bfc1c617419416625e7616af6cd35a33407a2be97c5594e8079ad0a75"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/16/55731/pic_27474.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "priorReview": {
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "rejectedImageCandidate": {
+        "url": "https://2c.zol-img.com.cn/product/223_320x240/648/ceq2keHQEn2aY.jpg",
+        "alt": "红米Book 14增强版",
+        "sourceUrl": "https://detail.zol.com.cn/series/16/27474_1.html",
+        "sourceSnapshotHash": "8af22c021bdf13f9f292117b1f7a02eb47aa5b5f0db264ec4697f8ed90aadfb3",
+        "licenseStatus": "unknown",
+        "status": "ambiguous_generation_or_variant",
+        "reason": "系列页主图尚无该年份、CPU及显卡版本的独立实图绑定证据；不把系列共享图当作具体年度产品照片"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "系列页主图尚无该年份、CPU及显卡版本的独立实图绑定证据；不把系列共享图当作具体年度产品照片"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-book-pro-14-2021",
+      "modelName": "小米笔记本Pro 14 2021款",
+      "generation": "2021",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/33490_1.html",
+        "https://detail.zol.com.cn/series/16/34645/param_33490_0_1.html",
+        "https://detail.zol.com.cn/1365/1364996/param.shtml",
+        "https://detail.zol.com.cn/1365/1364998/param.shtml",
+        "https://www.ithome.com/0/549/471.htm",
+        "https://www.ithome.com/0/543/208.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2021-05-01",
+        "rawText": "2021/5/1 12:26:13 来源： IT之家 作者： 远洋 责编： 远洋 评论： IT之家 5 月 1 日消息 3 月 30 日小米发布了全新的小米笔记本 Pro，包括小米笔记本 Pro 14、小米笔记本 Pro 15 两款机型，其中后者已于 4 月 2 日先行开售，前者今日全渠道正式首发开卖",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/549/471.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:45:48.280Z",
+        "sourceSnapshotHash": "458ff17d8f8f074f234efdb8ec150208bc755a3182466a2b2d123802495ed1d2"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "实际标准版参数页无可核验字段原文；留空不推断"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "小米发布了小米笔记本 Pro 14 和 15",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/543/208.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:42.906Z",
+        "sourceSnapshotHash": "fb4968df8a9e32dbd46f1f90780e0774e41607aae3f12ed95f6565d5259c71c4"
+      },
+      "fieldCorrections": [
+        {
+          "field": "resolution",
+          "reason": "ZOL2021Intel版错写2560x1440；该年具体首卖原文确认16:10的2560x1600",
+          "rejectedEvidence": {
+            "value": "2560x1440 超高清屏",
+            "rawText": "屏幕分辨率 2560x1440 超高清屏",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1365/1364996/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:46.076Z",
+            "sourceSnapshotHash": "da0ea0fd44b548dd4c033b9af3ac3852bad1abf1416adfe0bc479b02c7c6eba5"
+          },
+          "sourceUrl": "https://www.ithome.com/0/549/471.htm",
+          "sourceSnapshotHash": "458ff17d8f8f074f234efdb8ec150208bc755a3182466a2b2d123802495ed1d2"
+        }
+      ],
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/16/34645/pic_33490.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "priorReview": {
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "rejectedImageCandidate": {
+        "url": "https://2f.zol-img.com.cn/product/221_320x240/905/ceulstmmvJIWw.jpg",
+        "alt": "小米笔记本Pro 14 2021款",
+        "sourceUrl": "https://detail.zol.com.cn/series/16/33490_1.html",
+        "sourceSnapshotHash": "75ca8cab242db355db98777521e8c2064e7eb8b93fb0574121d94931108b52b8",
+        "licenseStatus": "unknown",
+        "status": "ambiguous_generation_or_variant",
+        "reason": "系列页主图尚无该年份、CPU及显卡版本的独立实图绑定证据；不把系列共享图当作具体年度产品照片"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "系列页主图尚无该年份、CPU及显卡版本的独立实图绑定证据；不把系列共享图当作具体年度产品照片"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-book-pro-15-2021",
+      "modelName": "小米笔记本Pro 15 2021款",
+      "generation": "2021",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/33488_1.html",
+        "https://detail.zol.com.cn/series/16/34645/param_33488_0_1.html",
+        "https://detail.zol.com.cn/1364/1363111/param.shtml",
+        "https://www.ithome.com/0/543/208.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2021-04-02",
+        "rawText": "小米笔记本 Pro 15 售价6499元到7999元，今晚开启预约，4月2日上市",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/543/208.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:42.906Z",
+        "sourceSnapshotHash": "fb4968df8a9e32dbd46f1f90780e0774e41607aae3f12ed95f6565d5259c71c4"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "实际标准版参数页无可核验字段原文；留空不推断"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 1 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "小米发布了小米笔记本 Pro 14 和 15",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/543/208.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:42.906Z",
+        "sourceSnapshotHash": "fb4968df8a9e32dbd46f1f90780e0774e41607aae3f12ed95f6565d5259c71c4"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/16/34645/pic_33488.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "priorReview": {
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "rejectedImageCandidate": {
+        "url": "https://2b.zol-img.com.cn/product/222_320x240/887/cecE5hO7oq8M.jpg",
+        "alt": "小米笔记本Pro 15 2021款",
+        "sourceUrl": "https://detail.zol.com.cn/series/16/33488_1.html",
+        "sourceSnapshotHash": "4548879c2bd94c1f48eeebab24c39d5df88f34266b89f6229674cc794a9bc53e",
+        "licenseStatus": "unknown",
+        "status": "ambiguous_generation_or_variant",
+        "reason": "系列页主图尚无该年份、CPU及显卡版本的独立实图绑定证据；不把系列共享图当作具体年度产品照片"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "系列页主图尚无该年份、CPU及显卡版本的独立实图绑定证据；不把系列共享图当作具体年度产品照片"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-book-pro-15-ryzen-2021",
+      "modelName": "小米笔记本Pro 15 2021款锐龙版",
+      "generation": "2021",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/notebook/index1365000.shtml",
+        "https://detail.zol.com.cn/1366/1365000/param.shtml",
+        "https://www.ithome.com/0/553/707.htm",
+        "https://nb.zol.com.cn/770/7709480.html"
+      ],
+      "releaseEvidence": {
+        "value": "2021-06-01",
+        "rawText": "R7 5800H/16GB/512GB/3.5K E4 OLED）也在 5 月 24 日开启预售，预售价 6799 元，6 月 1 日 0 点正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/553/707.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:43.018Z",
+        "sourceSnapshotHash": "ccb06b720e22ef1a25a57b36d233c0dc451133b4f67a69a8962e48239f14903a"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 1 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "withheldFields": [
+        {
+          "field": "resolution",
+          "reason": "ZOL具体页错写3840x2160，与独立2021R7原文3.5K冲突；等待实测原文确认",
+          "rejectedEvidence": {
+            "value": "3840x2160 超高清屏",
+            "rawText": "屏幕分辨率 3840x2160 超高清屏",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1366/1365000/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:48.629Z",
+            "sourceSnapshotHash": "db0ff14f2e91a2b8dc5780c9b8e59de12ad0c907e8f7980ff31b05d19f6b008e"
+          }
+        }
+      ],
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "小米笔记本 Pro 15 OLED 锐龙版",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/553/707.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:43.018Z",
+        "sourceSnapshotHash": "ccb06b720e22ef1a25a57b36d233c0dc451133b4f67a69a8962e48239f14903a"
+      },
+      "fieldCorrections": [
+        {
+          "field": "resolution",
+          "reason": "ZOL参数页错写3840x2160，2021R7/16GB/512GB同型号原创实测明确3456x2160",
+          "rejectedEvidence": {
+            "value": "3840x2160 超高清屏",
+            "rawText": "屏幕分辨率 3840x2160 超高清屏",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1366/1365000/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:48.629Z",
+            "sourceSnapshotHash": "db0ff14f2e91a2b8dc5780c9b8e59de12ad0c907e8f7980ff31b05d19f6b008e"
+          },
+          "sourceUrl": "https://nb.zol.com.cn/770/7709480.html",
+          "sourceSnapshotHash": "ef9a5062dbfc501b000adc096b80e6acf68e1392ab9aba5a70b0e418d42e3da8"
+        },
+        {
+          "field": "displayType",
+          "reason": "同年份同配置国内原文确认OLED，不推断其他CPU版本",
+          "rejectedEvidence": {
+            "value": "OLED屏",
+            "rawText": "屏幕类型 OLED屏",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1366/1365000/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:48.629Z",
+            "sourceSnapshotHash": "db0ff14f2e91a2b8dc5780c9b8e59de12ad0c907e8f7980ff31b05d19f6b008e"
+          },
+          "sourceUrl": "https://www.ithome.com/0/553/707.htm",
+          "sourceSnapshotHash": "ccb06b720e22ef1a25a57b36d233c0dc451133b4f67a69a8962e48239f14903a"
+        },
+        {
+          "field": "gpu",
+          "reason": "仅本批R7/16/512具体实测确认GPU，不套用R5版本",
+          "rejectedEvidence": null,
+          "sourceUrl": "https://nb.zol.com.cn/770/7709480.html",
+          "sourceSnapshotHash": "ef9a5062dbfc501b000adc096b80e6acf68e1392ab9aba5a70b0e418d42e3da8"
+        }
+      ],
+      "imageReferenceStatus": "series_gallery_link_missing",
+      "imageReferenceNote": "已核对系列页未提供可读取的系列图库链接；可另查具体SKU参数页中的产品主图，不构造图库地址。",
+      "priorReview": {
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "rejectedImageCandidate": {
+        "url": "https://2e.zol-img.com.cn/product/222_320x240/776/ce73F8qINPboo.jpg",
+        "alt": "小米笔记本 Pro 15 2021款 锐龙版(R7 5800H/16GB/512GB/集显)",
+        "sourceUrl": "https://detail.zol.com.cn/notebook/index1365000.shtml",
+        "sourceSnapshotHash": "2352ba19c42bba45a996eb2ffe799c48d0846fa991a68fdda675a96ff96dc20a",
+        "licenseStatus": "unknown",
+        "status": "ambiguous_generation_or_variant",
+        "reason": "系列页主图尚无该年份、CPU及显卡版本的独立实图绑定证据；不把系列共享图当作具体年度产品照片"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "系列页主图尚无该年份、CPU及显卡版本的独立实图绑定证据；不把系列共享图当作具体年度产品照片"
+        }
+      ]
+    },
+    {
+      "id": "redmi-book-pro-14-2021",
+      "modelName": "红米Book Pro 14",
+      "generation": "2021",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/33164_1.html",
+        "https://detail.zol.com.cn/series/16/55731/param_33164_0_1.html",
+        "https://detail.zol.com.cn/1361/1360946/param.shtml",
+        "https://detail.zol.com.cn/1361/1360947/param.shtml",
+        "https://www.ithome.com/0/536/826.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2021-02-25",
+        "rawText": "2021/2/25 20:08:51",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/536/826.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:42.971Z",
+        "sourceSnapshotHash": "799230683b2ea5c683c22f8d7cafcf19236787bc3c75e56af96a39ea5f08a06e"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "实际标准版参数页无可核验字段原文；留空不推断"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "Redmi 发布了 RedmiBook Pro 14 和 15 两款笔记本",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/536/826.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:42.971Z",
+        "sourceSnapshotHash": "799230683b2ea5c683c22f8d7cafcf19236787bc3c75e56af96a39ea5f08a06e"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/16/55731/pic_33164.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "priorReview": {
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "rejectedImageCandidate": {
+        "url": "https://2e.zol-img.com.cn/product/223_320x240/606/ce5fDk1Bxp2yE.jpg",
+        "alt": "红米Book Pro 14",
+        "sourceUrl": "https://detail.zol.com.cn/series/16/33164_1.html",
+        "sourceSnapshotHash": "0a2a0a8c08b184d202c256bd0f7f7096bf96d93f22cc8cd17a8e63b23230caad",
+        "licenseStatus": "unknown",
+        "status": "ambiguous_generation_or_variant",
+        "reason": "系列页主图尚无该年份、CPU及显卡版本的独立实图绑定证据；不把系列共享图当作具体年度产品照片"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "系列页主图尚无该年份、CPU及显卡版本的独立实图绑定证据；不把系列共享图当作具体年度产品照片"
+        }
+      ]
+    },
+    {
+      "id": "redmi-book-pro-15-2021",
+      "modelName": "红米Book Pro 15",
+      "generation": "2021",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/33165_1.html",
+        "https://detail.zol.com.cn/series/16/55731/param_33165_0_1.html",
+        "https://detail.zol.com.cn/1361/1360948/param.shtml",
+        "https://detail.zol.com.cn/1361/1360949/param.shtml",
+        "https://www.ithome.com/0/536/826.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2021-02-25",
+        "rawText": "2021/2/25 20:08:51",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/536/826.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:42.971Z",
+        "sourceSnapshotHash": "799230683b2ea5c683c22f8d7cafcf19236787bc3c75e56af96a39ea5f08a06e"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "实际标准版参数页无可核验字段原文；留空不推断"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "Redmi 发布了 RedmiBook Pro 14 和 15 两款笔记本",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/536/826.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:42.971Z",
+        "sourceSnapshotHash": "799230683b2ea5c683c22f8d7cafcf19236787bc3c75e56af96a39ea5f08a06e"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/16/55731/pic_33165.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "priorReview": {
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "rejectedImageCandidate": {
+        "url": "https://2b.zol-img.com.cn/product/221_320x240/669/ceKl2uMBoJg.jpg",
+        "alt": "红米Book Pro 15",
+        "sourceUrl": "https://detail.zol.com.cn/series/16/33165_1.html",
+        "sourceSnapshotHash": "f301ca923213f0a59a63384223314878ab1050d369a90e6ff6010d14e8f43aa6",
+        "licenseStatus": "unknown",
+        "status": "ambiguous_generation_or_variant",
+        "reason": "系列页主图尚无该年份、CPU及显卡版本的独立实图绑定证据；不把系列共享图当作具体年度产品照片"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "系列页主图尚无该年份、CPU及显卡版本的独立实图绑定证据；不把系列共享图当作具体年度产品照片"
+        }
+      ]
+    },
+    {
+      "id": "redmi-book-pro-14-ryzen-2021",
+      "modelName": "红米Book Pro 14 锐龙版",
+      "generation": "2021",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/34127_1.html",
+        "https://detail.zol.com.cn/series/16/55731/param_34127_0_1.html",
+        "https://detail.zol.com.cn/1373/1372100/param.shtml",
+        "https://detail.zol.com.cn/1373/1372102/param.shtml",
+        "https://www.ithome.com/0/553/707.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2021-06-01",
+        "rawText": "两款笔记本都 已开启预约，将于 6 月 1 日正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/553/707.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:43.018Z",
+        "sourceSnapshotHash": "ccb06b720e22ef1a25a57b36d233c0dc451133b4f67a69a8962e48239f14903a"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "实际标准版参数页无可核验字段原文；留空不推断"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "RedmiBook Pro 14 锐龙版 R5 5500U",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/553/707.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:43.018Z",
+        "sourceSnapshotHash": "ccb06b720e22ef1a25a57b36d233c0dc451133b4f67a69a8962e48239f14903a"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/16/55731/pic_34127.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "priorReview": {
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "rejectedImageCandidate": {
+        "url": "https://2d.zol-img.com.cn/product/221_320x240/579/ceznMEGkMDUpA.png",
+        "alt": "红米Book Pro 14 锐龙版",
+        "sourceUrl": "https://detail.zol.com.cn/series/16/34127_1.html",
+        "sourceSnapshotHash": "4475accd5d507d6f50e0e8611be092bf21efb0ab27e2c2139802f03c85ea9a96",
+        "licenseStatus": "unknown",
+        "status": "ambiguous_generation_or_variant",
+        "reason": "系列页主图尚无该年份、CPU及显卡版本的独立实图绑定证据；不把系列共享图当作具体年度产品照片"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "系列页主图尚无该年份、CPU及显卡版本的独立实图绑定证据；不把系列共享图当作具体年度产品照片"
+        }
+      ]
+    },
+    {
+      "id": "redmi-book-pro-15-ryzen-2021",
+      "modelName": "红米Book Pro 15 锐龙版",
+      "generation": "2021",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/34128_1.html",
+        "https://detail.zol.com.cn/series/16/55731/param_34128_0_1.html",
+        "https://detail.zol.com.cn/1363/1362123/param.shtml",
+        "https://detail.zol.com.cn/1373/1372105/param.shtml",
+        "https://www.ithome.com/0/553/707.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2021-06-01",
+        "rawText": "两款笔记本都 已开启预约，将于 6 月 1 日正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/553/707.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:43.018Z",
+        "sourceSnapshotHash": "ccb06b720e22ef1a25a57b36d233c0dc451133b4f67a69a8962e48239f14903a"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "实际标准版参数页无可核验字段原文；留空不推断"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "RedmiBook Pro 15 锐龙版 R5 5600H",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/553/707.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:43.018Z",
+        "sourceSnapshotHash": "ccb06b720e22ef1a25a57b36d233c0dc451133b4f67a69a8962e48239f14903a"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/16/55731/pic_34128.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "priorReview": {
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "rejectedImageCandidate": {
+        "url": "https://2a.zol-img.com.cn/product/221_320x240/90/ceFonoLAWGO7w.jpg",
+        "alt": "红米Book Pro 15 锐龙版",
+        "sourceUrl": "https://detail.zol.com.cn/series/16/34128_1.html",
+        "sourceSnapshotHash": "5fe8d945f3202c7ccc121d3a41f7663c3fd2c0522dbb63b6a228ef79cf7b46a1",
+        "licenseStatus": "unknown",
+        "status": "ambiguous_generation_or_variant",
+        "reason": "系列页主图尚无该年份、CPU及显卡版本的独立实图绑定证据；不把系列共享图当作具体年度产品照片"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "系列页主图尚无该年份、CPU及显卡版本的独立实图绑定证据；不把系列共享图当作具体年度产品照片"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-book-pro-15-gtx-2018",
+      "modelName": "小米笔记本 Pro GTX版",
+      "generation": "2018",
+      "releaseYear": 2018,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/23904_1.html",
+        "https://detail.zol.com.cn/series/16/34645/param_23904_0_1.html",
+        "https://detail.zol.com.cn/1228/1227242/param.shtml",
+        "https://detail.zol.com.cn/1228/1227245/param.shtml",
+        "https://www.ithome.com/0/374/583.htm",
+        "https://www.mi.com/mibookpro-gtx"
+      ],
+      "releaseEvidence": {
+        "value": "2018-08-16",
+        "rawText": "小米笔记本Pro GTX版采用GTX 1050 Max-Q独显，6299元起，8月16日全平台开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/374/583.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:42.666Z",
+        "sourceSnapshotHash": "f3256e1bff288c894fb9e5d6869ef5f7ef63cb2ab5e22c75ced2009db8d0a0c7"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "实际标准版参数页无可核验字段原文；留空不推断"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "小米笔记本Pro GTX版采用GTX 1050 Max-Q独显",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/374/583.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:42.666Z",
+        "sourceSnapshotHash": "f3256e1bff288c894fb9e5d6869ef5f7ef63cb2ab5e22c75ced2009db8d0a0c7"
+      },
+      "officialSpecificationEvidence": [
+        {
+          "value": "小米笔记本 Pro GTX版",
+          "rawText": "第八代英特尔 ® 酷睿™ i5-8250U NVIDIA GeForce ® GTX 1050 Max-Q 独立显卡",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.mi.com/mibookpro-gtx",
+          "sourceType": "official",
+          "confidence": 0.95,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:43:50.671Z",
+          "sourceSnapshotHash": "30a44a1fbc13fe7d1cebaccc24a21f2dbe97ffa9b727b7af8bc089dff836d03c",
+          "note": "旧中国官网保留GTX版处理器/显卡身份；当前官网容量版可能晚于首发，未用于反推2018 SKU、时间或首发价"
+        }
+      ],
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/16/34645/pic_23904.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "priorReview": {
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "rejectedImageCandidate": {
+        "url": "https://2d.zol-img.com.cn/product/192_320x240/691/ce54eLjjKnRvc.jpg",
+        "alt": "小米笔记本 Pro GTX版",
+        "sourceUrl": "https://detail.zol.com.cn/series/16/23904_1.html",
+        "sourceSnapshotHash": "ce04197bc74dbcaac53bab54f0cf0d0e0546a2fdfb36ebfa26c99a86dd1e924e",
+        "licenseStatus": "unknown",
+        "status": "ambiguous_generation_or_variant",
+        "reason": "没有该年份CPU/GPU独立实图绑定，不把系列共享图当具体年度照片"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "没有该年份CPU/GPU独立实图绑定，不把系列共享图当具体年度照片"
+        }
+      ]
+    },
+    {
+      "id": "redmi-book-14-ryzen-2019",
+      "modelName": "Redmi Book 14 锐龙版",
+      "generation": "2019",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/notebook/index1296334.shtml",
+        "https://detail.zol.com.cn/1297/1296334/param.shtml",
+        "https://detail.zol.com.cn/1298/1297114/param.shtml",
+        "https://detail.zol.com.cn/1298/1297120/param.shtml",
+        "https://detail.zol.com.cn/1298/1297118/param.shtml",
+        "https://www.ithome.com/0/453/925.htm",
+        "https://www.mi.com/redmibook14-rlb/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2019-11-01",
+        "rawText": "2019/11/1 11:27:55 来源： IT之家 作者： 嗜橙 责编： 嗜橙 评论： IT之家 11月1日消息 据小米笔记本官方消息，RedmiBook 14锐龙版今日开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/453/925.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:42.874Z",
+        "sourceSnapshotHash": "6f034e6e443a1250f22c4edde60a64082fcbe1fac618fa7d1c6977422cdb989e"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "实际标准版参数页无可核验字段原文；留空不推断"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 4 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "RedmiBook 14锐龙版今日开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/453/925.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:42.874Z",
+        "sourceSnapshotHash": "6f034e6e443a1250f22c4edde60a64082fcbe1fac618fa7d1c6977422cdb989e"
+      },
+      "officialSpecificationEvidence": [
+        {
+          "value": "Redmi Book 14 锐龙版",
+          "rawText": "AMD 锐龙 7 3700U 移动处理器 Radeon Vega10 Graphics 显卡 16 GB DDR4 2400MHz 内存 512GB PCIe SSD 存储",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.mi.com/redmibook14-rlb/specs",
+          "sourceType": "official",
+          "confidence": 0.95,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:43:50.929Z",
+          "sourceSnapshotHash": "bfa6dbb974d865b28ca2bdb29c8c51c51fe5c1a138649b4fe129bf5d9623e06b",
+          "note": "中国官网明确该R7/16/512组合及Vega10，不把R5的Vega8套用到R7"
+        }
+      ],
+      "imageReferenceStatus": "series_gallery_link_missing",
+      "imageReferenceNote": "已核对系列页未提供可读取的系列图库链接；可另查具体SKU参数页中的产品主图，不构造图库地址。",
+      "priorReview": {
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "rejectedImageCandidate": {
+        "url": "https://2b.zol-img.com.cn/product/223_320x240/559/ceXJm8lAHxcJg.jpg",
+        "alt": "Redmi Book 14锐龙版(R7 3700U/16GB/512GB/集显)",
+        "sourceUrl": "https://detail.zol.com.cn/notebook/index1296334.shtml",
+        "sourceSnapshotHash": "45d262071e893d278c2fb6fe7bc1932963cca53e16dc99b7b1ecf8360a9ff250",
+        "licenseStatus": "unknown",
+        "status": "ambiguous_generation_or_variant",
+        "reason": "没有该年份CPU/GPU独立实图绑定，不把系列共享图当具体年度照片"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "没有该年份CPU/GPU独立实图绑定，不把系列共享图当具体年度照片"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-book-pro-14-ryzen-2021",
+      "modelName": "小米笔记本 Pro 14 锐龙版 2021款",
+      "generation": "2021",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/36405_1.html",
+        "https://detail.zol.com.cn/series/16/34645/param_36405_0_1.html",
+        "https://detail.zol.com.cn/1395/1394606/param.shtml",
+        "https://detail.zol.com.cn/1395/1394608/param.shtml",
+        "https://www.ithome.com/0/585/859.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2021-11-11",
+        "rawText": "将于 11 月 11 日 0 点首发",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/585/859.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:42:20.536Z",
+        "sourceSnapshotHash": "1a5bfaab810dbaa16ad637146393599a4c013a82a7d52bdfe4158c93dbdd0a9b"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "实际标准版参数页无可核验字段原文；留空不推断"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "withheldFields": [
+        {
+          "field": "gpu",
+          "reason": "AMD锐龙参数页错写Intel Iris Xe及Thunderbolt4，未复核可选字段不批量采用；仅采用独立原文确认端口",
+          "rejectedEvidence": {
+            "value": "Intel Iris Xe Graphics",
+            "rawText": "显卡芯片 Intel Iris Xe Graphics",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1395/1394606/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:45:50.957Z",
+            "sourceSnapshotHash": "46a483ecedb3d032fdaa198366e2f00b752d7656468787e23b3b8f903d8f94e9"
+          }
+        },
+        {
+          "field": "port",
+          "reason": "AMD锐龙参数页错写Intel Iris Xe及Thunderbolt4，未复核可选字段不批量采用；仅采用独立原文确认端口",
+          "rejectedEvidence": {
+            "value": "2×USB Type-C，1×Thunderbolt4",
+            "rawText": "数据接口 2×USB Type-C，1×Thunderbolt4",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1395/1394606/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:45:50.957Z",
+            "sourceSnapshotHash": "46a483ecedb3d032fdaa198366e2f00b752d7656468787e23b3b8f903d8f94e9"
+          }
+        },
+        {
+          "field": "memoryType",
+          "reason": "AMD锐龙参数页错写Intel Iris Xe及Thunderbolt4，未复核可选字段不批量采用；仅采用独立原文确认端口",
+          "rejectedEvidence": {
+            "value": "DDR4 3200MHz",
+            "rawText": "内存类型 DDR4 3200MHz",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1395/1394606/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:45:50.957Z",
+            "sourceSnapshotHash": "46a483ecedb3d032fdaa198366e2f00b752d7656468787e23b3b8f903d8f94e9"
+          }
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "AMD锐龙参数页错写Intel Iris Xe及Thunderbolt4，未复核可选字段不批量采用；仅采用独立原文确认端口",
+          "rejectedEvidence": {
+            "value": "预装Windows 10 Home Basic 64bit（64位家庭普通版）",
+            "rawText": "操作系统 预装Windows 10 Home Basic 64bit（64位家庭普通版）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1395/1394606/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:45:50.957Z",
+            "sourceSnapshotHash": "46a483ecedb3d032fdaa198366e2f00b752d7656468787e23b3b8f903d8f94e9"
+          }
+        },
+        {
+          "field": "security",
+          "reason": "AMD锐龙参数页错写Intel Iris Xe及Thunderbolt4，未复核可选字段不批量采用；仅采用独立原文确认端口",
+          "rejectedEvidence": {
+            "value": "支持智能指纹识别功能",
+            "rawText": "指纹识别 支持智能指纹识别功能",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1395/1394606/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:45:50.957Z",
+            "sourceSnapshotHash": "46a483ecedb3d032fdaa198366e2f00b752d7656468787e23b3b8f903d8f94e9"
+          }
+        },
+        {
+          "field": "bluetooth",
+          "reason": "AMD锐龙参数页错写Intel Iris Xe及Thunderbolt4，未复核可选字段不批量采用；仅采用独立原文确认端口",
+          "rejectedEvidence": {
+            "value": "支持，蓝牙5.1模块",
+            "rawText": "蓝牙 支持，蓝牙5.1模块",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1395/1394606/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:45:50.957Z",
+            "sourceSnapshotHash": "46a483ecedb3d032fdaa198366e2f00b752d7656468787e23b3b8f903d8f94e9"
+          }
+        },
+        {
+          "field": "wifi",
+          "reason": "AMD锐龙参数页错写Intel Iris Xe及Thunderbolt4，未复核可选字段不批量采用；仅采用独立原文确认端口",
+          "rejectedEvidence": {
+            "value": "支持802.11ax无线协议",
+            "rawText": "无线网卡 支持802.11ax无线协议",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1395/1394606/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:45:50.957Z",
+            "sourceSnapshotHash": "46a483ecedb3d032fdaa198366e2f00b752d7656468787e23b3b8f903d8f94e9"
+          }
+        },
+        {
+          "field": "batteryLife",
+          "reason": "AMD锐龙参数页错写Intel Iris Xe及Thunderbolt4，未复核可选字段不批量采用；仅采用独立原文确认端口",
+          "rejectedEvidence": {
+            "value": "本地1080p视频播放最长可达11小时 长续航笔记本",
+            "rawText": "续航时间 本地1080p视频播放最长可达11小时 长续航笔记本",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1395/1394606/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:45:50.957Z",
+            "sourceSnapshotHash": "46a483ecedb3d032fdaa198366e2f00b752d7656468787e23b3b8f903d8f94e9"
+          }
+        }
+      ],
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "小米笔记本 Pro 14 锐龙版现已开启预约，将于 11 月 11 日 0 点首发",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/585/859.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:42:20.536Z",
+        "sourceSnapshotHash": "1a5bfaab810dbaa16ad637146393599a4c013a82a7d52bdfe4158c93dbdd0a9b"
+      },
+      "fieldCorrections": [
+        {
+          "field": "port",
+          "reason": "独立2021锐龙首卖原文仅确认USB-C，不继承Intel版雷电4",
+          "rejectedEvidence": {
+            "value": "2×USB Type-C，1×Thunderbolt4",
+            "rawText": "数据接口 2×USB Type-C，1×Thunderbolt4",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1395/1394606/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:45:50.957Z",
+            "sourceSnapshotHash": "46a483ecedb3d032fdaa198366e2f00b752d7656468787e23b3b8f903d8f94e9"
+          },
+          "sourceUrl": "https://www.ithome.com/0/585/859.htm",
+          "sourceSnapshotHash": "1a5bfaab810dbaa16ad637146393599a4c013a82a7d52bdfe4158c93dbdd0a9b"
+        }
+      ],
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/16/34645/pic_36405.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "priorReview": {
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "rejectedImageCandidate": {
+        "url": "https://2e.zol-img.com.cn/product/220_320x240/474/ce8q95SEpyrQ.jpg",
+        "alt": "小米笔记本Pro 14 锐龙版 2021款(R5 5600H/16GB/512",
+        "sourceUrl": "https://detail.zol.com.cn/series/16/36405_1.html",
+        "sourceSnapshotHash": "9438b22c7579beee0cea1de1202d255268d18a6bdcfe650f145c7d427f2145dc",
+        "licenseStatus": "unknown",
+        "status": "ambiguous_generation_or_variant",
+        "reason": "ZOL系列图片覆盖同外观Intel及锐龙版，尚无该年份具体锐龙版独立照片绑定"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "ZOL系列图片覆盖同外观Intel及锐龙版，尚无该年份具体锐龙版独立照片绑定"
+        }
+      ]
+    }
+  ]
+}

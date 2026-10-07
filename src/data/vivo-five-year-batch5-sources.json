@@ -1,0 +1,1981 @@
+{
+  "phone": [
+    {
+      "id": "vivo-x100-2023",
+      "modelName": "vivo X100",
+      "generation": "X100",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/x100",
+      "officialSpecEvidence": {
+        "value": "vivo X100",
+        "rawText": "vivo X100 专业影像旗舰 - vivo官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:08:47.247Z",
+        "sourceSnapshotHash": "f3fb9179b3b12ce134013aba19905dbd5f7979d03e03f4fdfb89a96f6f48ec2d"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "全网通（V2309A）",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:08:47.247Z",
+        "sourceSnapshotHash": "f3fb9179b3b12ce134013aba19905dbd5f7979d03e03f4fdfb89a96f6f48ec2d"
+      },
+      "releaseEvidence": {
+        "value": "2023-11-21",
+        "rawText": "vivo X100系列于今日正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://mobile.zol.com.cn/842/8429509_all.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:23.518Z",
+        "sourceSnapshotHash": "78fcee550ecd3ca61961a0b02ef9c97c82173e7d260e423e933a8a40db8ebcd8"
+      },
+      "releaseDatePrecision": "day",
+      "configurationMethod": "中国官网明确成对价目SKU或运行内存+机身存储成对清单，不以聚合RAMROM交叉推导",
+      "configurationEvidence": [
+        {
+          "value": "12GB + 256GB",
+          "rawText": "vivo X100 （12GB+256GB）：3999.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.247Z",
+          "sourceSnapshotHash": "f3fb9179b3b12ce134013aba19905dbd5f7979d03e03f4fdfb89a96f6f48ec2d"
+        },
+        {
+          "value": "16GB + 256GB",
+          "rawText": "vivo X100 （16GB+256GB）：4299.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.247Z",
+          "sourceSnapshotHash": "f3fb9179b3b12ce134013aba19905dbd5f7979d03e03f4fdfb89a96f6f48ec2d"
+        },
+        {
+          "value": "16GB + 512GB",
+          "rawText": "vivo X100（16GB+512GB）：4599.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.247Z",
+          "sourceSnapshotHash": "f3fb9179b3b12ce134013aba19905dbd5f7979d03e03f4fdfb89a96f6f48ec2d"
+        },
+        {
+          "value": "16GB + 1TB",
+          "rawText": "vivo X100（16GB+1TB）：4999.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.247Z",
+          "sourceSnapshotHash": "f3fb9179b3b12ce134013aba19905dbd5f7979d03e03f4fdfb89a96f6f48ec2d"
+        }
+      ],
+      "referenceUrls": [
+        "https://www.vivo.com.cn/vivo/param/x100",
+        "https://mobile.zol.com.cn/842/8429509_all.html",
+        "https://www.vivo.com.cn/brand/news/detail?id=1206"
+      ],
+      "fieldGaps": [],
+      "notes": "官网静态实际规格与独立中国大陆SKU；真实首售证据优先于发布日，不声称完整五年覆盖。",
+      "productImages": {
+        "modelName": "vivo X100",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100",
+        "sourceSnapshotHash": "f3fb9179b3b12ce134013aba19905dbd5f7979d03e03f4fdfb89a96f6f48ec2d",
+        "fetchedAt": "2026-10-05T20:08:47.247Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。",
+        "primary": {
+          "name": "辰夜黑",
+          "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20231110/3f1ba8c95a81c72f2618cfb3d2052d5a.png",
+          "alt": "vivo  (辰夜黑)",
+          "modelName": "vivo X100",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100",
+          "sourceSnapshotHash": "f3fb9179b3b12ce134013aba19905dbd5f7979d03e03f4fdfb89a96f6f48ec2d",
+          "fetchedAt": "2026-10-05T20:08:47.247Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "辰夜黑",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20231110/3f1ba8c95a81c72f2618cfb3d2052d5a.png",
+            "alt": "vivo  (辰夜黑)",
+            "modelName": "vivo X100",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100",
+            "sourceSnapshotHash": "f3fb9179b3b12ce134013aba19905dbd5f7979d03e03f4fdfb89a96f6f48ec2d",
+            "fetchedAt": "2026-10-05T20:08:47.247Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "白月光",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20231110/fa0ef23e657100eca57b6e5e5dabc441.png",
+            "alt": "vivo  (白月光)",
+            "modelName": "vivo X100",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100",
+            "sourceSnapshotHash": "f3fb9179b3b12ce134013aba19905dbd5f7979d03e03f4fdfb89a96f6f48ec2d",
+            "fetchedAt": "2026-10-05T20:08:47.247Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "星迹蓝",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20231110/b8e41dae3159aa0150aee2feed5079a9.png",
+            "alt": "vivo  (星迹蓝)",
+            "modelName": "vivo X100",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100",
+            "sourceSnapshotHash": "f3fb9179b3b12ce134013aba19905dbd5f7979d03e03f4fdfb89a96f6f48ec2d",
+            "fetchedAt": "2026-10-05T20:08:47.247Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "落日橙",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20231110/50f4e159999f5ef6bcfe6a16ccc97f98.png",
+            "alt": "vivo  (落日橙)",
+            "modelName": "vivo X100",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100",
+            "sourceSnapshotHash": "f3fb9179b3b12ce134013aba19905dbd5f7979d03e03f4fdfb89a96f6f48ec2d",
+            "fetchedAt": "2026-10-05T20:08:47.247Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "vivo-x100-lpddr5t-limited-2023",
+      "modelName": "vivo X100 LPDDR5T限量版",
+      "generation": "X100",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/x100",
+      "officialSpecEvidence": {
+        "value": "vivo X100",
+        "rawText": "vivo X100 专业影像旗舰 - vivo官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:08:47.247Z",
+        "sourceSnapshotHash": "f3fb9179b3b12ce134013aba19905dbd5f7979d03e03f4fdfb89a96f6f48ec2d"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "全网通（V2309A）",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:08:47.247Z",
+        "sourceSnapshotHash": "f3fb9179b3b12ce134013aba19905dbd5f7979d03e03f4fdfb89a96f6f48ec2d"
+      },
+      "releaseEvidence": {
+        "value": "2023-11-21",
+        "rawText": "vivo X100系列于今日正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://mobile.zol.com.cn/842/8429509_all.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:23.518Z",
+        "sourceSnapshotHash": "78fcee550ecd3ca61961a0b02ef9c97c82173e7d260e423e933a8a40db8ebcd8"
+      },
+      "releaseDatePrecision": "day",
+      "configurationMethod": "中国官网明确成对价目SKU或运行内存+机身存储成对清单，不以聚合RAMROM交叉推导",
+      "configurationEvidence": [
+        {
+          "value": "16GB + 1TB",
+          "rawText": "vivo X100（16GB+1TB）（LPDDR5T限量版）：5099.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.247Z",
+          "sourceSnapshotHash": "f3fb9179b3b12ce134013aba19905dbd5f7979d03e03f4fdfb89a96f6f48ec2d"
+        }
+      ],
+      "referenceUrls": [
+        "https://www.vivo.com.cn/vivo/param/x100",
+        "https://mobile.zol.com.cn/842/8429509_all.html",
+        "https://www.vivo.com.cn/brand/news/detail?id=1206"
+      ],
+      "fieldGaps": [],
+      "notes": "官网静态实际规格与独立中国大陆SKU；真实首售证据优先于发布日，不声称完整五年覆盖。",
+      "variantEvidence": {
+        "value": "LPDDR5T限量版",
+        "rawText": "vivo X100（16GB+1TB）（LPDDR5T限量版）：5099.00元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:08:47.247Z",
+        "sourceSnapshotHash": "f3fb9179b3b12ce134013aba19905dbd5f7979d03e03f4fdfb89a96f6f48ec2d"
+      },
+      "productImages": {
+        "modelName": "vivo X100 LPDDR5T限量版",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100",
+        "sourceSnapshotHash": "f3fb9179b3b12ce134013aba19905dbd5f7979d03e03f4fdfb89a96f6f48ec2d",
+        "fetchedAt": "2026-10-05T20:08:47.247Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。",
+        "colors": [],
+        "gaps": [
+          "官网基型图库没有逐限量SKU配色映射，限量版不直接沿用普通版主图/颜色；图证待核验。"
+        ],
+        "candidateGallery": {
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100",
+          "sourceSnapshotHash": "f3fb9179b3b12ce134013aba19905dbd5f7979d03e03f4fdfb89a96f6f48ec2d",
+          "note": "官网图属于X100基型，仅候选，不注册为限量版验证图。",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+        }
+      }
+    },
+    {
+      "id": "vivo-x100pro-2023",
+      "modelName": "vivo X100 Pro",
+      "generation": "X100 Pro",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/x100pro",
+      "officialSpecEvidence": {
+        "value": "vivo X100 Pro",
+        "rawText": "vivo X100 Pro 专业影像旗舰 - vivo官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100pro",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:08:47.414Z",
+        "sourceSnapshotHash": "8d11ca0dada4354941429fe069718a198aafa80f3de28c08e7c716d3b91ed345"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "全网通（V2324A）",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100pro",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:08:47.414Z",
+        "sourceSnapshotHash": "8d11ca0dada4354941429fe069718a198aafa80f3de28c08e7c716d3b91ed345"
+      },
+      "releaseEvidence": {
+        "value": "2023-11-21",
+        "rawText": "vivo X100系列于今日正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://mobile.zol.com.cn/842/8429509_all.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:23.518Z",
+        "sourceSnapshotHash": "78fcee550ecd3ca61961a0b02ef9c97c82173e7d260e423e933a8a40db8ebcd8"
+      },
+      "releaseDatePrecision": "day",
+      "configurationMethod": "中国官网明确成对价目SKU或运行内存+机身存储成对清单，不以聚合RAMROM交叉推导",
+      "configurationEvidence": [
+        {
+          "value": "12GB + 256GB",
+          "rawText": "vivo X100 Pro （12GB+256GB）：4999.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.414Z",
+          "sourceSnapshotHash": "8d11ca0dada4354941429fe069718a198aafa80f3de28c08e7c716d3b91ed345"
+        },
+        {
+          "value": "16GB + 256GB",
+          "rawText": "vivo X100 Pro （16GB+256GB）：5299.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.414Z",
+          "sourceSnapshotHash": "8d11ca0dada4354941429fe069718a198aafa80f3de28c08e7c716d3b91ed345"
+        },
+        {
+          "value": "16GB + 512GB",
+          "rawText": "vivo X100 Pro（16GB+512GB）：5499.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.414Z",
+          "sourceSnapshotHash": "8d11ca0dada4354941429fe069718a198aafa80f3de28c08e7c716d3b91ed345"
+        },
+        {
+          "value": "16GB + 1TB",
+          "rawText": "vivo X100 Pro（16GB+1TB）：5999.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.414Z",
+          "sourceSnapshotHash": "8d11ca0dada4354941429fe069718a198aafa80f3de28c08e7c716d3b91ed345"
+        }
+      ],
+      "referenceUrls": [
+        "https://www.vivo.com.cn/vivo/param/x100pro",
+        "https://mobile.zol.com.cn/842/8429509_all.html",
+        "https://www.vivo.com.cn/brand/news/detail?id=1206"
+      ],
+      "fieldGaps": [],
+      "notes": "官网静态实际规格与独立中国大陆SKU；真实首售证据优先于发布日，不声称完整五年覆盖。",
+      "productImages": {
+        "modelName": "vivo X100 Pro",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100pro",
+        "sourceSnapshotHash": "8d11ca0dada4354941429fe069718a198aafa80f3de28c08e7c716d3b91ed345",
+        "fetchedAt": "2026-10-05T20:08:47.414Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。",
+        "primary": {
+          "name": "辰夜黑",
+          "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20231110/193c14af5271d6772c7eef66f7aec435.png",
+          "alt": "vivo  (辰夜黑)",
+          "modelName": "vivo X100 Pro",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100pro",
+          "sourceSnapshotHash": "8d11ca0dada4354941429fe069718a198aafa80f3de28c08e7c716d3b91ed345",
+          "fetchedAt": "2026-10-05T20:08:47.414Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "辰夜黑",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20231110/193c14af5271d6772c7eef66f7aec435.png",
+            "alt": "vivo  (辰夜黑)",
+            "modelName": "vivo X100 Pro",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100pro",
+            "sourceSnapshotHash": "8d11ca0dada4354941429fe069718a198aafa80f3de28c08e7c716d3b91ed345",
+            "fetchedAt": "2026-10-05T20:08:47.414Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "白月光",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20231110/aa4ad89cf8f6b7835bf712f73118c5ce.png",
+            "alt": "vivo  (白月光)",
+            "modelName": "vivo X100 Pro",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100pro",
+            "sourceSnapshotHash": "8d11ca0dada4354941429fe069718a198aafa80f3de28c08e7c716d3b91ed345",
+            "fetchedAt": "2026-10-05T20:08:47.414Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "星迹蓝",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20231110/8680c062dbb7fea2cb85692bb7047d89.png",
+            "alt": "vivo  (星迹蓝)",
+            "modelName": "vivo X100 Pro",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100pro",
+            "sourceSnapshotHash": "8d11ca0dada4354941429fe069718a198aafa80f3de28c08e7c716d3b91ed345",
+            "fetchedAt": "2026-10-05T20:08:47.414Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "落日橙",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20231110/b90eb0805ff949319ff6b80edeb02773.png",
+            "alt": "vivo  (落日橙)",
+            "modelName": "vivo X100 Pro",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100pro",
+            "sourceSnapshotHash": "8d11ca0dada4354941429fe069718a198aafa80f3de28c08e7c716d3b91ed345",
+            "fetchedAt": "2026-10-05T20:08:47.414Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "vivo-x100s-2024",
+      "modelName": "vivo X100s",
+      "generation": "X100s",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/x100s",
+      "officialSpecEvidence": {
+        "value": "vivo X100s",
+        "rawText": "vivo X100s 专业影像旗舰 - vivo官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100s",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:08:47.549Z",
+        "sourceSnapshotHash": "03b3451c442ff57914b0eea2c396b12e93de14d90ca6ae90f1cdab799239f64e"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "全网通（V2359A）",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100s",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:08:47.549Z",
+        "sourceSnapshotHash": "03b3451c442ff57914b0eea2c396b12e93de14d90ca6ae90f1cdab799239f64e"
+      },
+      "releaseEvidence": {
+        "value": "2024-05-17",
+        "rawText": "vivo X100s / Pro 手机今日开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://m.ithome.com/html/768604.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:21:29.747Z",
+        "sourceSnapshotHash": "cef072f82e4d44eae284991ac45448dc3e84ddaf65fd180cc6e8225aca1a2035"
+      },
+      "releaseDatePrecision": "day",
+      "configurationMethod": "中国官网明确成对价目SKU或运行内存+机身存储成对清单，不以聚合RAMROM交叉推导",
+      "configurationEvidence": [
+        {
+          "value": "12GB + 256GB",
+          "rawText": "vivo X100s（12GB+256GB）：3999.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100s",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.549Z",
+          "sourceSnapshotHash": "03b3451c442ff57914b0eea2c396b12e93de14d90ca6ae90f1cdab799239f64e"
+        },
+        {
+          "value": "16GB + 256GB",
+          "rawText": "vivo X100s（16GB+256GB）：4399.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100s",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.549Z",
+          "sourceSnapshotHash": "03b3451c442ff57914b0eea2c396b12e93de14d90ca6ae90f1cdab799239f64e"
+        },
+        {
+          "value": "16GB + 512GB",
+          "rawText": "vivo X100s（16GB+512GB）：4699.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100s",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.549Z",
+          "sourceSnapshotHash": "03b3451c442ff57914b0eea2c396b12e93de14d90ca6ae90f1cdab799239f64e"
+        },
+        {
+          "value": "16GB + 1TB",
+          "rawText": "vivo X100s（16GB+1TB）：5199.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100s",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.549Z",
+          "sourceSnapshotHash": "03b3451c442ff57914b0eea2c396b12e93de14d90ca6ae90f1cdab799239f64e"
+        }
+      ],
+      "referenceUrls": [
+        "https://www.vivo.com.cn/vivo/param/x100s",
+        "https://m.ithome.com/html/768604.htm",
+        "https://m.vivo.com.cn/brand/news/detail?id=1243&type=0"
+      ],
+      "fieldGaps": [],
+      "notes": "官网静态实际规格与独立中国大陆SKU；真实首售证据优先于发布日，不声称完整五年覆盖。",
+      "productImages": {
+        "modelName": "vivo X100s",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100s",
+        "sourceSnapshotHash": "03b3451c442ff57914b0eea2c396b12e93de14d90ca6ae90f1cdab799239f64e",
+        "fetchedAt": "2026-10-05T20:08:47.549Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。",
+        "primary": {
+          "name": "深空灰",
+          "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20240507/9cfafa6ba9e4bf8e317510b91f14a20a.png",
+          "alt": "vivo  (深空灰)",
+          "modelName": "vivo X100s",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100s",
+          "sourceSnapshotHash": "03b3451c442ff57914b0eea2c396b12e93de14d90ca6ae90f1cdab799239f64e",
+          "fetchedAt": "2026-10-05T20:08:47.549Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "深空灰",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20240507/9cfafa6ba9e4bf8e317510b91f14a20a.png",
+            "alt": "vivo  (深空灰)",
+            "modelName": "vivo X100s",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100s",
+            "sourceSnapshotHash": "03b3451c442ff57914b0eea2c396b12e93de14d90ca6ae90f1cdab799239f64e",
+            "fetchedAt": "2026-10-05T20:08:47.549Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "白月光",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20240507/70fec78e407e7482aaa2f5a5166d0b94.png",
+            "alt": "vivo  (白月光)",
+            "modelName": "vivo X100s",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100s",
+            "sourceSnapshotHash": "03b3451c442ff57914b0eea2c396b12e93de14d90ca6ae90f1cdab799239f64e",
+            "fetchedAt": "2026-10-05T20:08:47.549Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "钛色",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20240507/382c8805334035c364301a8e91703f15.png",
+            "alt": "vivo  (钛色)",
+            "modelName": "vivo X100s",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100s",
+            "sourceSnapshotHash": "03b3451c442ff57914b0eea2c396b12e93de14d90ca6ae90f1cdab799239f64e",
+            "fetchedAt": "2026-10-05T20:08:47.549Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "青云",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20240507/dd49b0ee202b6efdd6940af0fcd0e75f.png",
+            "alt": "vivo  (青云)",
+            "modelName": "vivo X100s",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100s",
+            "sourceSnapshotHash": "03b3451c442ff57914b0eea2c396b12e93de14d90ca6ae90f1cdab799239f64e",
+            "fetchedAt": "2026-10-05T20:08:47.549Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "vivo-x100spro-2024",
+      "modelName": "vivo X100s Pro",
+      "generation": "X100s Pro",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/x100spro",
+      "officialSpecEvidence": {
+        "value": "vivo X100s Pro",
+        "rawText": "vivo X100s Pro 专业影像旗舰 - vivo官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100spro",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:08:47.686Z",
+        "sourceSnapshotHash": "4d5f30eacd25ea96931e43889e4b33230412251d77e3e2d933e28d55526d6322"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "全网通（V2324HA）",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100spro",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:08:47.686Z",
+        "sourceSnapshotHash": "4d5f30eacd25ea96931e43889e4b33230412251d77e3e2d933e28d55526d6322"
+      },
+      "releaseEvidence": {
+        "value": "2024-05-17",
+        "rawText": "vivo X100s / Pro 手机今日开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://m.ithome.com/html/768604.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:21:29.747Z",
+        "sourceSnapshotHash": "cef072f82e4d44eae284991ac45448dc3e84ddaf65fd180cc6e8225aca1a2035"
+      },
+      "releaseDatePrecision": "day",
+      "configurationMethod": "中国官网明确成对价目SKU或运行内存+机身存储成对清单，不以聚合RAMROM交叉推导",
+      "configurationEvidence": [
+        {
+          "value": "12GB + 256GB",
+          "rawText": "vivo X100s Pro （12GB+256GB）：4999.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100spro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.686Z",
+          "sourceSnapshotHash": "4d5f30eacd25ea96931e43889e4b33230412251d77e3e2d933e28d55526d6322"
+        },
+        {
+          "value": "16GB + 512GB",
+          "rawText": "vivo X100s Pro（16GB+512GB）：5599.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100spro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.686Z",
+          "sourceSnapshotHash": "4d5f30eacd25ea96931e43889e4b33230412251d77e3e2d933e28d55526d6322"
+        },
+        {
+          "value": "16GB + 1TB",
+          "rawText": "vivo X100s Pro（16GB+1TB）：6199.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100spro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.686Z",
+          "sourceSnapshotHash": "4d5f30eacd25ea96931e43889e4b33230412251d77e3e2d933e28d55526d6322"
+        }
+      ],
+      "referenceUrls": [
+        "https://www.vivo.com.cn/vivo/param/x100spro",
+        "https://m.ithome.com/html/768604.htm",
+        "https://m.vivo.com.cn/brand/news/detail?id=1243&type=0"
+      ],
+      "fieldGaps": [],
+      "notes": "官网静态实际规格与独立中国大陆SKU；真实首售证据优先于发布日，不声称完整五年覆盖。",
+      "productImages": {
+        "modelName": "vivo X100s Pro",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100spro",
+        "sourceSnapshotHash": "4d5f30eacd25ea96931e43889e4b33230412251d77e3e2d933e28d55526d6322",
+        "fetchedAt": "2026-10-05T20:08:47.686Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。",
+        "primary": {
+          "name": "辰夜黑",
+          "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20240503/7d35d36bdf0dbee522246b7a7dad856c.png",
+          "alt": "vivo  (辰夜黑)",
+          "modelName": "vivo X100s Pro",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100spro",
+          "sourceSnapshotHash": "4d5f30eacd25ea96931e43889e4b33230412251d77e3e2d933e28d55526d6322",
+          "fetchedAt": "2026-10-05T20:08:47.686Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "辰夜黑",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20240503/7d35d36bdf0dbee522246b7a7dad856c.png",
+            "alt": "vivo  (辰夜黑)",
+            "modelName": "vivo X100s Pro",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100spro",
+            "sourceSnapshotHash": "4d5f30eacd25ea96931e43889e4b33230412251d77e3e2d933e28d55526d6322",
+            "fetchedAt": "2026-10-05T20:08:47.686Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "白月光",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20240503/b6252edecd8f76f32e506392467e58ec.png",
+            "alt": "vivo  (白月光)",
+            "modelName": "vivo X100s Pro",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100spro",
+            "sourceSnapshotHash": "4d5f30eacd25ea96931e43889e4b33230412251d77e3e2d933e28d55526d6322",
+            "fetchedAt": "2026-10-05T20:08:47.686Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "钛色",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20240503/96190fc810856d2a57c2e8a424d8049b.png",
+            "alt": "vivo  (钛色)",
+            "modelName": "vivo X100s Pro",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100spro",
+            "sourceSnapshotHash": "4d5f30eacd25ea96931e43889e4b33230412251d77e3e2d933e28d55526d6322",
+            "fetchedAt": "2026-10-05T20:08:47.686Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "vivo-y78-2023",
+      "modelName": "vivo Y78",
+      "generation": "Y78",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10739534_1.html",
+        "https://detail.zol.com.cn/series/57/1795/param_10739534_0_1.html",
+        "https://detail.zol.com.cn/1474/1473778/param.shtml",
+        "https://detail.zol.com.cn/1602/1601423/param.shtml",
+        "https://detail.zol.com.cn/1602/1601422/param.shtml",
+        "https://www.vivo.com.cn/vivo/param/y78"
+      ],
+      "releaseEvidence": {
+        "value": "2023-05-13",
+        "rawText": "上市日期 2023年05月13日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1474/1473778/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:30.211Z",
+        "sourceSnapshotHash": "67bca004fa0ae1cc9af93bcf478798ee935994e38e0ccb762268f940c89e56bf"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "当前官网建议零售价/参考报价可能调整，不自动当首发价；本配置独立发布定价原文尚未登记"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2023年05月10日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1474/1473778/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:30.211Z",
+        "sourceSnapshotHash": "67bca004fa0ae1cc9af93bcf478798ee935994e38e0ccb762268f940c89e56bf"
+      },
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/y78",
+      "officialSpecEvidence": {
+        "value": "vivo Y78",
+        "rawText": "vivo Y78 - vivo智能手机官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/y78",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:12:56.790Z",
+        "sourceSnapshotHash": "75c1da724e43bcb1cfa555df252733d60fc86902b6153c80e5ce22cff1ff4410"
+      },
+      "withheldOfficialFields": {
+        "fields": [
+          "releaseDate",
+          "weight"
+        ],
+        "reason": "官网上市2023年10月与2023年5月实际首售不符；重量配色183g璃光蓝/琉云青172g星夜黑不属于该机型标准色。日期使用国行逐SKU与实际首售报道，不扩展可疑重量字段。",
+        "evidence": {
+          "value": "withheld",
+          "rawText": "上市时间 2023年10月",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y78",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:56.790Z",
+          "sourceSnapshotHash": "75c1da724e43bcb1cfa555df252733d60fc86902b6153c80e5ce22cff1ff4410"
+        }
+      },
+      "productImages": {
+        "modelName": "vivo Y78",
+        "seriesId": "10739534",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/y78",
+        "sourceSnapshotHash": "75c1da724e43bcb1cfa555df252733d60fc86902b6153c80e5ce22cff1ff4410",
+        "fetchedAt": "2026-10-05T20:12:56.790Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。",
+        "primary": {
+          "name": "皓夜黑",
+          "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20230509/0db92ea4571846ff87347e824fdb9378.png",
+          "alt": "vivo  (皓夜黑)",
+          "modelName": "vivo Y78",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y78",
+          "sourceSnapshotHash": "75c1da724e43bcb1cfa555df252733d60fc86902b6153c80e5ce22cff1ff4410",
+          "fetchedAt": "2026-10-05T20:12:56.790Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "皓夜黑",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20230509/0db92ea4571846ff87347e824fdb9378.png",
+            "alt": "vivo  (皓夜黑)",
+            "modelName": "vivo Y78",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/y78",
+            "sourceSnapshotHash": "75c1da724e43bcb1cfa555df252733d60fc86902b6153c80e5ce22cff1ff4410",
+            "fetchedAt": "2026-10-05T20:12:56.790Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "玉瓷青",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20230509/96ca9fe73e324d7128b14b09449fe123.png",
+            "alt": "vivo  (玉瓷青)",
+            "modelName": "vivo Y78",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/y78",
+            "sourceSnapshotHash": "75c1da724e43bcb1cfa555df252733d60fc86902b6153c80e5ce22cff1ff4410",
+            "fetchedAt": "2026-10-05T20:12:56.790Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "凤羽金",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20230509/169ad101bade82566bb319cd4638c0b5.png",
+            "alt": "vivo  (凤羽金)",
+            "modelName": "vivo Y78",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/y78",
+            "sourceSnapshotHash": "75c1da724e43bcb1cfa555df252733d60fc86902b6153c80e5ce22cff1ff4410",
+            "fetchedAt": "2026-10-05T20:12:56.790Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "vivo-y200i-2024",
+      "modelName": "vivo Y200i",
+      "generation": "Y200i",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/y200i",
+      "officialSpecEvidence": {
+        "value": "vivo Y200i",
+        "rawText": "vivo Y200i - vivo智能手机官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/y200i",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:12:57.293Z",
+        "sourceSnapshotHash": "2670b6c79c7d16a2f7b239583a7e2775a7c43931e755481d0a2774978529484f"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "全网通（V2354A）",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/y200i",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:12:57.293Z",
+        "sourceSnapshotHash": "2670b6c79c7d16a2f7b239583a7e2775a7c43931e755481d0a2774978529484f"
+      },
+      "releaseEvidence": {
+        "value": "2024-04-27",
+        "rawText": "上市日期 2024年4月27日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/1795/param_10860154_0_1.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:30.287Z",
+        "sourceSnapshotHash": "dc2209a7b1c7979bcd596d112049d11454eeb499c0d787c820cc583174597c7a"
+      },
+      "releaseDatePrecision": "day",
+      "configurationMethod": "中国官网明确成对价目SKU或运行内存+机身存储成对清单，不以聚合RAMROM交叉推导",
+      "configurationEvidence": [
+        {
+          "value": "12GB + 512GB",
+          "rawText": "Y200i（12GB+512GB）：1999.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y200i",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.293Z",
+          "sourceSnapshotHash": "2670b6c79c7d16a2f7b239583a7e2775a7c43931e755481d0a2774978529484f"
+        },
+        {
+          "value": "12GB + 256GB",
+          "rawText": "Y200i（12GB+256GB）：1799.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y200i",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.293Z",
+          "sourceSnapshotHash": "2670b6c79c7d16a2f7b239583a7e2775a7c43931e755481d0a2774978529484f"
+        },
+        {
+          "value": "8GB + 256GB",
+          "rawText": "Y200i（8GB+256GB）：1599.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y200i",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.293Z",
+          "sourceSnapshotHash": "2670b6c79c7d16a2f7b239583a7e2775a7c43931e755481d0a2774978529484f"
+        }
+      ],
+      "referenceUrls": [
+        "https://www.vivo.com.cn/vivo/param/y200i",
+        "https://detail.zol.com.cn/series/57/1795/param_10860154_0_1.html"
+      ],
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "当前官网建议零售价/参考报价可能调整，不自动当首发价；本配置独立发布定价原文尚未登记"
+        }
+      ],
+      "notes": "官网静态实际规格与独立中国大陆SKU；真实首售证据优先于发布日，不声称完整五年覆盖。",
+      "productImages": {
+        "modelName": "vivo Y200i",
+        "seriesId": "10860154",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/y200i",
+        "sourceSnapshotHash": "2670b6c79c7d16a2f7b239583a7e2775a7c43931e755481d0a2774978529484f",
+        "fetchedAt": "2026-10-05T20:12:57.293Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。",
+        "primary": {
+          "name": "星夜黑",
+          "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20240426/88c787cd28e674f0b17aae488d41a033.png",
+          "alt": "vivo  (星夜黑)",
+          "modelName": "vivo Y200i",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y200i",
+          "sourceSnapshotHash": "2670b6c79c7d16a2f7b239583a7e2775a7c43931e755481d0a2774978529484f",
+          "fetchedAt": "2026-10-05T20:12:57.293Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "星夜黑",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20240426/88c787cd28e674f0b17aae488d41a033.png",
+            "alt": "vivo  (星夜黑)",
+            "modelName": "vivo Y200i",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/y200i",
+            "sourceSnapshotHash": "2670b6c79c7d16a2f7b239583a7e2775a7c43931e755481d0a2774978529484f",
+            "fetchedAt": "2026-10-05T20:12:57.293Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "冰川白",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20240426/8e47e2b95eb1591580dc26b28162b935.png",
+            "alt": "vivo  (冰川白)",
+            "modelName": "vivo Y200i",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/y200i",
+            "sourceSnapshotHash": "2670b6c79c7d16a2f7b239583a7e2775a7c43931e755481d0a2774978529484f",
+            "fetchedAt": "2026-10-05T20:12:57.293Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "浩海蓝",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20240415/1ff2ca432bb5ec4fcb26c9fcd408dc7f.png",
+            "alt": "vivo  (浩海蓝)",
+            "modelName": "vivo Y200i",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/y200i",
+            "sourceSnapshotHash": "2670b6c79c7d16a2f7b239583a7e2775a7c43931e755481d0a2774978529484f",
+            "fetchedAt": "2026-10-05T20:12:57.293Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "vivo-y300-2024",
+      "modelName": "vivo Y300",
+      "generation": "Y300",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/y300",
+      "officialSpecEvidence": {
+        "value": "vivo Y300",
+        "rawText": "vivo Y300 - vivo智能手机官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:12:57.304Z",
+        "sourceSnapshotHash": "ab7be39e4af1789c02f96a8e7111ce9e66860475aaac506051dab50e63f58881"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "全网通（V2435A）",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:12:57.304Z",
+        "sourceSnapshotHash": "ab7be39e4af1789c02f96a8e7111ce9e66860475aaac506051dab50e63f58881"
+      },
+      "releaseEvidence": {
+        "value": "2024-12-20",
+        "rawText": "vivo Y300 手机今日正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/818/905.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:30.348Z",
+        "sourceSnapshotHash": "732350da0e97166831cfda751d59a5da25f46994635468e2f0bd8eaa079e01f6"
+      },
+      "releaseDatePrecision": "day",
+      "configurationMethod": "中国官网明确成对价目SKU或运行内存+机身存储成对清单，不以聚合RAMROM交叉推导",
+      "configurationEvidence": [
+        {
+          "value": "12GB + 512GB",
+          "rawText": "Y300（12GB+512GB）：1999.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.304Z",
+          "sourceSnapshotHash": "ab7be39e4af1789c02f96a8e7111ce9e66860475aaac506051dab50e63f58881"
+        },
+        {
+          "value": "12GB + 256GB",
+          "rawText": "Y300（12GB+256GB）：1799.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.304Z",
+          "sourceSnapshotHash": "ab7be39e4af1789c02f96a8e7111ce9e66860475aaac506051dab50e63f58881"
+        },
+        {
+          "value": "8GB + 256GB",
+          "rawText": "Y300（8GB+256GB）：1599.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.304Z",
+          "sourceSnapshotHash": "ab7be39e4af1789c02f96a8e7111ce9e66860475aaac506051dab50e63f58881"
+        },
+        {
+          "value": "8GB + 128GB",
+          "rawText": "Y300（8GB+128GB）：1399.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.304Z",
+          "sourceSnapshotHash": "ab7be39e4af1789c02f96a8e7111ce9e66860475aaac506051dab50e63f58881"
+        }
+      ],
+      "referenceUrls": [
+        "https://www.vivo.com.cn/vivo/param/y300",
+        "https://www.ithome.com/0/818/905.htm"
+      ],
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "当前官网建议零售价/参考报价可能调整，不自动当首发价；本配置独立发布定价原文尚未登记"
+        }
+      ],
+      "notes": "官网静态实际规格与独立中国大陆SKU；真实首售证据优先于发布日，不声称完整五年覆盖。",
+      "productImages": {
+        "modelName": "vivo Y300",
+        "seriesId": "10908654",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300",
+        "sourceSnapshotHash": "ab7be39e4af1789c02f96a8e7111ce9e66860475aaac506051dab50e63f58881",
+        "fetchedAt": "2026-10-05T20:12:57.304Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。",
+        "primary": {
+          "name": "星钻黑",
+          "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20241202/bd2e1f7703cb57b79f55220c39a2c680.png",
+          "alt": "vivo  (星钻黑)",
+          "modelName": "vivo Y300",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300",
+          "sourceSnapshotHash": "ab7be39e4af1789c02f96a8e7111ce9e66860475aaac506051dab50e63f58881",
+          "fetchedAt": "2026-10-05T20:12:57.304Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "星钻黑",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20241202/bd2e1f7703cb57b79f55220c39a2c680.png",
+            "alt": "vivo  (星钻黑)",
+            "modelName": "vivo Y300",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300",
+            "sourceSnapshotHash": "ab7be39e4af1789c02f96a8e7111ce9e66860475aaac506051dab50e63f58881",
+            "fetchedAt": "2026-10-05T20:12:57.304Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "瑞雪白",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20241202/6e1adfe98fd39fc37143ea11c3206574.png",
+            "alt": "vivo  (瑞雪白)",
+            "modelName": "vivo Y300",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300",
+            "sourceSnapshotHash": "ab7be39e4af1789c02f96a8e7111ce9e66860475aaac506051dab50e63f58881",
+            "fetchedAt": "2026-10-05T20:12:57.304Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "青松",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20241202/57ea74c340b8419dcf3a78b02b0e38b1.png",
+            "alt": "vivo  (青松)",
+            "modelName": "vivo Y300",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300",
+            "sourceSnapshotHash": "ab7be39e4af1789c02f96a8e7111ce9e66860475aaac506051dab50e63f58881",
+            "fetchedAt": "2026-10-05T20:12:57.304Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "vivo-y300-gt-2025",
+      "modelName": "vivo Y300 GT",
+      "generation": "Y300 GT",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/y300gt",
+      "officialSpecEvidence": {
+        "value": "vivo Y300 GT",
+        "rawText": "vivo Y300 GT - vivo智能手机官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300gt",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:12:57.295Z",
+        "sourceSnapshotHash": "bdf2b4d00790c6cd532d90b5738cb16ecbc2218e99847c113abafd450d8ec4c8"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "全网通（V2452GA）",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300gt",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:12:57.295Z",
+        "sourceSnapshotHash": "bdf2b4d00790c6cd532d90b5738cb16ecbc2218e99847c113abafd450d8ec4c8"
+      },
+      "releaseEvidence": {
+        "value": "2025-05-09",
+        "rawText": "vivo Y300 GT 手机今日正式上市",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/851/690.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:30.403Z",
+        "sourceSnapshotHash": "144ed18274b61b866802a86e98647641375471cac4acbf39673a7ffa9e2310e2"
+      },
+      "releaseDatePrecision": "day",
+      "configurationMethod": "中国官网明确成对价目SKU或运行内存+机身存储成对清单，不以聚合RAMROM交叉推导",
+      "configurationEvidence": [
+        {
+          "value": "12GB + 512GB",
+          "rawText": "Y300 GT（12GB+512GB）：2499.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300gt",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.295Z",
+          "sourceSnapshotHash": "bdf2b4d00790c6cd532d90b5738cb16ecbc2218e99847c113abafd450d8ec4c8"
+        },
+        {
+          "value": "12GB + 256GB",
+          "rawText": "Y300 GT（12GB+256GB）：2199.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300gt",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.295Z",
+          "sourceSnapshotHash": "bdf2b4d00790c6cd532d90b5738cb16ecbc2218e99847c113abafd450d8ec4c8"
+        },
+        {
+          "value": "8GB + 256GB",
+          "rawText": "Y300 GT（8GB+256GB）：1999.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300gt",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.295Z",
+          "sourceSnapshotHash": "bdf2b4d00790c6cd532d90b5738cb16ecbc2218e99847c113abafd450d8ec4c8"
+        }
+      ],
+      "referenceUrls": [
+        "https://www.vivo.com.cn/vivo/param/y300gt",
+        "https://www.ithome.com/0/851/690.htm"
+      ],
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "当前官网建议零售价/参考报价可能调整，不自动当首发价；本配置独立发布定价原文尚未登记"
+        }
+      ],
+      "notes": "官网静态实际规格与独立中国大陆SKU；真实首售证据优先于发布日，不声称完整五年覆盖。",
+      "productImages": {
+        "modelName": "vivo Y300 GT",
+        "seriesId": "10913609",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300gt",
+        "sourceSnapshotHash": "bdf2b4d00790c6cd532d90b5738cb16ecbc2218e99847c113abafd450d8ec4c8",
+        "fetchedAt": "2026-10-05T20:12:57.295Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。",
+        "primary": {
+          "name": "黑色",
+          "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20250425/1a421cb9332dc22de76a5e103c62c1d7.png",
+          "alt": "vivo  (黑色)",
+          "modelName": "vivo Y300 GT",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300gt",
+          "sourceSnapshotHash": "bdf2b4d00790c6cd532d90b5738cb16ecbc2218e99847c113abafd450d8ec4c8",
+          "fetchedAt": "2026-10-05T20:12:57.295Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "黑色",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20250425/1a421cb9332dc22de76a5e103c62c1d7.png",
+            "alt": "vivo  (黑色)",
+            "modelName": "vivo Y300 GT",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300gt",
+            "sourceSnapshotHash": "bdf2b4d00790c6cd532d90b5738cb16ecbc2218e99847c113abafd450d8ec4c8",
+            "fetchedAt": "2026-10-05T20:12:57.295Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "沙漠金",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20250425/17eec59a657863f039eb7c2c7b15f0f6.png",
+            "alt": "vivo  (沙漠金)",
+            "modelName": "vivo Y300 GT",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300gt",
+            "sourceSnapshotHash": "bdf2b4d00790c6cd532d90b5738cb16ecbc2218e99847c113abafd450d8ec4c8",
+            "fetchedAt": "2026-10-05T20:12:57.295Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "vivo-y500-2025",
+      "modelName": "vivo Y500",
+      "generation": "Y500",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/y500",
+      "officialSpecEvidence": {
+        "value": "vivo Y500",
+        "rawText": "vivo Y500 - vivo智能手机官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/y500",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:12:57.508Z",
+        "sourceSnapshotHash": "5105d7f65016472eb5dcba91c51766177fc77accddcb3606ad484b0fc1e67f87"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "全网通（V2506A ）",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/y500",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:12:57.508Z",
+        "sourceSnapshotHash": "5105d7f65016472eb5dcba91c51766177fc77accddcb3606ad484b0fc1e67f87"
+      },
+      "releaseEvidence": {
+        "value": "2025-09-05",
+        "rawText": "vivo Y500 正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/880/573.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:30.450Z",
+        "sourceSnapshotHash": "e23564d54ededab22a22aefa77aa26aa28ed0f45fa6958f0e68394edb0d89adc"
+      },
+      "releaseDatePrecision": "day",
+      "configurationMethod": "中国官网明确成对价目SKU或运行内存+机身存储成对清单，不以聚合RAMROM交叉推导",
+      "configurationEvidence": [
+        {
+          "value": "12GB + 512GB",
+          "rawText": "Y500（12GB+512GB）：1999.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y500",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.508Z",
+          "sourceSnapshotHash": "5105d7f65016472eb5dcba91c51766177fc77accddcb3606ad484b0fc1e67f87"
+        },
+        {
+          "value": "12GB + 256GB",
+          "rawText": "Y500（12GB+256GB）：1799.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y500",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.508Z",
+          "sourceSnapshotHash": "5105d7f65016472eb5dcba91c51766177fc77accddcb3606ad484b0fc1e67f87"
+        },
+        {
+          "value": "8GB + 256GB",
+          "rawText": "Y500（8GB+256GB）：1599.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y500",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.508Z",
+          "sourceSnapshotHash": "5105d7f65016472eb5dcba91c51766177fc77accddcb3606ad484b0fc1e67f87"
+        },
+        {
+          "value": "8GB + 128GB",
+          "rawText": "Y500（8GB+128GB）：1399.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y500",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.508Z",
+          "sourceSnapshotHash": "5105d7f65016472eb5dcba91c51766177fc77accddcb3606ad484b0fc1e67f87"
+        }
+      ],
+      "referenceUrls": [
+        "https://www.vivo.com.cn/vivo/param/y500",
+        "https://www.ithome.com/0/880/573.htm"
+      ],
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "当前官网建议零售价/参考报价可能调整，不自动当首发价；本配置独立发布定价原文尚未登记"
+        }
+      ],
+      "notes": "官网静态实际规格与独立中国大陆SKU；真实首售证据优先于发布日，不声称完整五年覆盖。",
+      "productImages": {
+        "modelName": "vivo Y500",
+        "seriesId": "10918495",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/y500",
+        "sourceSnapshotHash": "5105d7f65016472eb5dcba91c51766177fc77accddcb3606ad484b0fc1e67f87",
+        "fetchedAt": "2026-10-05T20:12:57.508Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。",
+        "primary": {
+          "name": "冰川蓝",
+          "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20250820/fb5e09f45b8268d61124567e894dc864.png",
+          "alt": "vivo  (冰川蓝)",
+          "modelName": "vivo Y500",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y500",
+          "sourceSnapshotHash": "5105d7f65016472eb5dcba91c51766177fc77accddcb3606ad484b0fc1e67f87",
+          "fetchedAt": "2026-10-05T20:12:57.508Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "冰川蓝",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20250820/fb5e09f45b8268d61124567e894dc864.png",
+            "alt": "vivo  (冰川蓝)",
+            "modelName": "vivo Y500",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/y500",
+            "sourceSnapshotHash": "5105d7f65016472eb5dcba91c51766177fc77accddcb3606ad484b0fc1e67f87",
+            "fetchedAt": "2026-10-05T20:12:57.508Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "龙晶紫",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20250820/2a9efdbe6395da6c5f88fa75c3047348.png",
+            "alt": "vivo  (龙晶紫)",
+            "modelName": "vivo Y500",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/y500",
+            "sourceSnapshotHash": "5105d7f65016472eb5dcba91c51766177fc77accddcb3606ad484b0fc1e67f87",
+            "fetchedAt": "2026-10-05T20:12:57.508Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "玄武黑",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20250820/a2c658450184aad0f337a6e0014ea9fc.png",
+            "alt": "vivo  (玄武黑)",
+            "modelName": "vivo Y500",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/y500",
+            "sourceSnapshotHash": "5105d7f65016472eb5dcba91c51766177fc77accddcb3606ad484b0fc1e67f87",
+            "fetchedAt": "2026-10-05T20:12:57.508Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "iqoo-neo9s-pro-plus-2024",
+      "modelName": "iQOO Neo9S Pro+",
+      "generation": "iQOO Neo9S Pro+",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/iqooneo9sproplus",
+      "officialSpecEvidence": {
+        "value": "iQOO Neo9S Pro+",
+        "rawText": "iQOO Neo9S Pro+- vivo智能手机官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo9sproplus",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:12:57.498Z",
+        "sourceSnapshotHash": "135c30b8043f2fa14bdd44038f1772c79915b87b3d9c8066c74866f11ee8fa89"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "全网通（V2403A）",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo9sproplus",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:12:57.498Z",
+        "sourceSnapshotHash": "135c30b8043f2fa14bdd44038f1772c79915b87b3d9c8066c74866f11ee8fa89"
+      },
+      "releaseEvidence": {
+        "value": "2024-07-16",
+        "rawText": "今天上午这款机型也已正式上市",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.3elife.net/Art/mobile/202407/16/95318.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:30.734Z",
+        "sourceSnapshotHash": "4605b317cb8f5876ada76b8bae73c20dab23dbcb95aeb243fb574eb521fad4d1"
+      },
+      "releaseDatePrecision": "day",
+      "configurationMethod": "中国官网明确成对价目SKU或运行内存+机身存储成对清单，不以聚合RAMROM交叉推导",
+      "configurationEvidence": [
+        {
+          "value": "12GB + 256GB",
+          "rawText": "12GB+256GB：2999.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo9sproplus",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.498Z",
+          "sourceSnapshotHash": "135c30b8043f2fa14bdd44038f1772c79915b87b3d9c8066c74866f11ee8fa89"
+        },
+        {
+          "value": "12GB + 512GB",
+          "rawText": "12GB+512GB：3399.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo9sproplus",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.498Z",
+          "sourceSnapshotHash": "135c30b8043f2fa14bdd44038f1772c79915b87b3d9c8066c74866f11ee8fa89"
+        },
+        {
+          "value": "16GB + 256GB",
+          "rawText": "16GB+256GB：3299.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo9sproplus",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.498Z",
+          "sourceSnapshotHash": "135c30b8043f2fa14bdd44038f1772c79915b87b3d9c8066c74866f11ee8fa89"
+        },
+        {
+          "value": "16GB + 512GB",
+          "rawText": "16GB+512GB：3699.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo9sproplus",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.498Z",
+          "sourceSnapshotHash": "135c30b8043f2fa14bdd44038f1772c79915b87b3d9c8066c74866f11ee8fa89"
+        },
+        {
+          "value": "16GB + 1TB",
+          "rawText": "16GB+1TB：4099.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo9sproplus",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.498Z",
+          "sourceSnapshotHash": "135c30b8043f2fa14bdd44038f1772c79915b87b3d9c8066c74866f11ee8fa89"
+        }
+      ],
+      "referenceUrls": [
+        "https://www.vivo.com.cn/vivo/param/iqooneo9sproplus",
+        "https://www.3elife.net/Art/mobile/202407/16/95318.html"
+      ],
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "当前官网建议零售价/参考报价可能调整，不自动当首发价；本配置独立发布定价原文尚未登记"
+        }
+      ],
+      "notes": "官网静态实际规格与独立中国大陆SKU；真实首售证据优先于发布日，不声称完整五年覆盖。",
+      "productImages": {
+        "modelName": "iQOO Neo9S Pro+",
+        "seriesId": "10869558",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo9sproplus",
+        "sourceSnapshotHash": "135c30b8043f2fa14bdd44038f1772c79915b87b3d9c8066c74866f11ee8fa89",
+        "fetchedAt": "2026-10-05T20:12:57.498Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。",
+        "primary": {
+          "name": "格斗黑",
+          "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20240702/280c69972c029b46fa681ebc39d1fc48.png",
+          "alt": "vivo  (格斗黑)",
+          "modelName": "iQOO Neo9S Pro+",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo9sproplus",
+          "sourceSnapshotHash": "135c30b8043f2fa14bdd44038f1772c79915b87b3d9c8066c74866f11ee8fa89",
+          "fetchedAt": "2026-10-05T20:12:57.498Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "格斗黑",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20240702/280c69972c029b46fa681ebc39d1fc48.png",
+            "alt": "vivo  (格斗黑)",
+            "modelName": "iQOO Neo9S Pro+",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo9sproplus",
+            "sourceSnapshotHash": "135c30b8043f2fa14bdd44038f1772c79915b87b3d9c8066c74866f11ee8fa89",
+            "fetchedAt": "2026-10-05T20:12:57.498Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "星曜白",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20240702/6081c830717e7641be5035d0b393f4da.png",
+            "alt": "vivo  (星曜白)",
+            "modelName": "iQOO Neo9S Pro+",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo9sproplus",
+            "sourceSnapshotHash": "135c30b8043f2fa14bdd44038f1772c79915b87b3d9c8066c74866f11ee8fa89",
+            "fetchedAt": "2026-10-05T20:12:57.498Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "Buff蓝",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20240702/90781ffac72e8bceb4db84cb41b882a9.png",
+            "alt": "vivo  (Buff蓝)",
+            "modelName": "iQOO Neo9S Pro+",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo9sproplus",
+            "sourceSnapshotHash": "135c30b8043f2fa14bdd44038f1772c79915b87b3d9c8066c74866f11ee8fa89",
+            "fetchedAt": "2026-10-05T20:12:57.498Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "iqoo-neo11-2025",
+      "modelName": "iQOO Neo11",
+      "generation": "iQOO Neo11",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/iqooneo11",
+      "officialSpecEvidence": {
+        "value": "iQOO Neo11",
+        "rawText": "iQOO Neo11 - vivo智能手机官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo11",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:12:57.661Z",
+        "sourceSnapshotHash": "cb45dd75ac41e24d247827ed87a683373c0fd4f72a369966b87e6a6b1e14b003"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "全网通（V2520A）",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo11",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:12:57.661Z",
+        "sourceSnapshotHash": "cb45dd75ac41e24d247827ed87a683373c0fd4f72a369966b87e6a6b1e14b003"
+      },
+      "releaseEvidence": {
+        "value": "2025-10-30",
+        "rawText": "iQOO Neo11 手机今晚发布，搭载 6.82 英寸 2K 144Hz 高刷屏以及骁龙 8 至尊版处理器，首销 2599 元起，现已开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/893/627.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:30.778Z",
+        "sourceSnapshotHash": "56be60482f3cc45c1d325171d06ad29426655a44cc039bc33382928b50f17a12"
+      },
+      "releaseDatePrecision": "day",
+      "configurationMethod": "中国官网明确成对价目SKU或运行内存+机身存储成对清单，不以聚合RAMROM交叉推导",
+      "configurationEvidence": [
+        {
+          "value": "12GB + 256GB",
+          "rawText": "12GB+256GB：3599.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo11",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.661Z",
+          "sourceSnapshotHash": "cb45dd75ac41e24d247827ed87a683373c0fd4f72a369966b87e6a6b1e14b003"
+        },
+        {
+          "value": "16GB + 256GB",
+          "rawText": "16GB+256GB：3999.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo11",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.661Z",
+          "sourceSnapshotHash": "cb45dd75ac41e24d247827ed87a683373c0fd4f72a369966b87e6a6b1e14b003"
+        },
+        {
+          "value": "12GB + 512GB",
+          "rawText": "12GB+512GB：4099.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo11",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.661Z",
+          "sourceSnapshotHash": "cb45dd75ac41e24d247827ed87a683373c0fd4f72a369966b87e6a6b1e14b003"
+        },
+        {
+          "value": "16GB + 512GB",
+          "rawText": "16GB+512GB：4499.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo11",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.661Z",
+          "sourceSnapshotHash": "cb45dd75ac41e24d247827ed87a683373c0fd4f72a369966b87e6a6b1e14b003"
+        },
+        {
+          "value": "16GB + 1TB",
+          "rawText": "16GB+1TB：5599.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo11",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.661Z",
+          "sourceSnapshotHash": "cb45dd75ac41e24d247827ed87a683373c0fd4f72a369966b87e6a6b1e14b003"
+        }
+      ],
+      "referenceUrls": [
+        "https://www.vivo.com.cn/vivo/param/iqooneo11",
+        "https://www.ithome.com/0/893/627.htm"
+      ],
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "当前官网建议零售价/参考报价可能调整，不自动当首发价；本配置独立发布定价原文尚未登记"
+        }
+      ],
+      "notes": "官网静态实际规格与独立中国大陆SKU；真实首售证据优先于发布日，不声称完整五年覆盖。",
+      "productImages": {
+        "modelName": "iQOO Neo11",
+        "seriesId": "10920633",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo11",
+        "sourceSnapshotHash": "cb45dd75ac41e24d247827ed87a683373c0fd4f72a369966b87e6a6b1e14b003",
+        "fetchedAt": "2026-10-05T20:12:57.661Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。",
+        "primary": {
+          "name": "像素方橙",
+          "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20251021/97f5861c449c055d0277168e8a07e83d.png",
+          "alt": "vivo  (像素方橙)",
+          "modelName": "iQOO Neo11",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo11",
+          "sourceSnapshotHash": "cb45dd75ac41e24d247827ed87a683373c0fd4f72a369966b87e6a6b1e14b003",
+          "fetchedAt": "2026-10-05T20:12:57.661Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "像素方橙",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20251021/97f5861c449c055d0277168e8a07e83d.png",
+            "alt": "vivo  (像素方橙)",
+            "modelName": "iQOO Neo11",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo11",
+            "sourceSnapshotHash": "cb45dd75ac41e24d247827ed87a683373c0fd4f72a369966b87e6a6b1e14b003",
+            "fetchedAt": "2026-10-05T20:12:57.661Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "驰光白",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20251021/695b66b228efc156c1dd3c6e9f59cf8b.png",
+            "alt": "vivo  (驰光白)",
+            "modelName": "iQOO Neo11",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo11",
+            "sourceSnapshotHash": "cb45dd75ac41e24d247827ed87a683373c0fd4f72a369966b87e6a6b1e14b003",
+            "fetchedAt": "2026-10-05T20:12:57.661Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "疾影黑",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20251021/6e9af21847b763f5e84a68fe96e851fa.png",
+            "alt": "vivo  (疾影黑)",
+            "modelName": "iQOO Neo11",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo11",
+            "sourceSnapshotHash": "cb45dd75ac41e24d247827ed87a683373c0fd4f72a369966b87e6a6b1e14b003",
+            "fetchedAt": "2026-10-05T20:12:57.661Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "面对疾风",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20251021/e20c3c1d95097d3aa424fe2e3cd254c5.png",
+            "alt": "vivo  (面对疾风)",
+            "modelName": "iQOO Neo11",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo11",
+            "sourceSnapshotHash": "cb45dd75ac41e24d247827ed87a683373c0fd4f72a369966b87e6a6b1e14b003",
+            "fetchedAt": "2026-10-05T20:12:57.661Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "vivo-y600-pro-2026",
+      "modelName": "vivo Y600 Pro",
+      "generation": "Y600 Pro",
+      "releaseYear": 2026,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/y600pro",
+      "officialSpecEvidence": {
+        "value": "vivo Y600 Pro",
+        "rawText": "vivo Y600 Pro - vivo智能手机官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/y600pro",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:12:57.444Z",
+        "sourceSnapshotHash": "bad19c6e878e9f77e6837627fd78d584fb8ff68343a70e520fcda0020378f0e5"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "全网通（V2561A ）",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/y600pro",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:12:57.444Z",
+        "sourceSnapshotHash": "bad19c6e878e9f77e6837627fd78d584fb8ff68343a70e520fcda0020378f0e5"
+      },
+      "releaseEvidence": {
+        "value": "2026-04-30",
+        "rawText": "vivo Y600 Pro 手机今日正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/945/295.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:30.795Z",
+        "sourceSnapshotHash": "cb28b6be6f3d33e06d1ae8542fa553d5a89d09dd4617dc0c1778635df81ca830"
+      },
+      "releaseDatePrecision": "day",
+      "configurationMethod": "中国官网明确成对价目SKU或运行内存+机身存储成对清单，不以聚合RAMROM交叉推导",
+      "configurationEvidence": [
+        {
+          "value": "8GB + 128GB",
+          "rawText": "Y600 Pro（8GB+128GB）：2099.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y600pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.444Z",
+          "sourceSnapshotHash": "bad19c6e878e9f77e6837627fd78d584fb8ff68343a70e520fcda0020378f0e5"
+        },
+        {
+          "value": "8GB + 256GB",
+          "rawText": "Y600 Pro（8GB+256GB）：2299.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y600pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.444Z",
+          "sourceSnapshotHash": "bad19c6e878e9f77e6837627fd78d584fb8ff68343a70e520fcda0020378f0e5"
+        },
+        {
+          "value": "8GB + 512GB",
+          "rawText": "Y600 Pro（8GB+512GB）：2599.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y600pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.444Z",
+          "sourceSnapshotHash": "bad19c6e878e9f77e6837627fd78d584fb8ff68343a70e520fcda0020378f0e5"
+        },
+        {
+          "value": "12GB + 256GB",
+          "rawText": "Y600 Pro（12GB+256GB）：2599.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y600pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.444Z",
+          "sourceSnapshotHash": "bad19c6e878e9f77e6837627fd78d584fb8ff68343a70e520fcda0020378f0e5"
+        },
+        {
+          "value": "12GB + 512GB",
+          "rawText": "Y600 Pro（12GB+512GB）：2899.00元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y600pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.444Z",
+          "sourceSnapshotHash": "bad19c6e878e9f77e6837627fd78d584fb8ff68343a70e520fcda0020378f0e5"
+        }
+      ],
+      "referenceUrls": [
+        "https://www.vivo.com.cn/vivo/param/y600pro",
+        "https://www.ithome.com/0/945/295.htm"
+      ],
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "当前官网建议零售价/参考报价可能调整，不自动当首发价；本配置独立发布定价原文尚未登记"
+        }
+      ],
+      "notes": "官网静态实际规格与独立中国大陆SKU；真实首售证据优先于发布日，不声称完整五年覆盖。",
+      "productImages": {
+        "modelName": "vivo Y600 Pro",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/y600pro",
+        "sourceSnapshotHash": "bad19c6e878e9f77e6837627fd78d584fb8ff68343a70e520fcda0020378f0e5",
+        "fetchedAt": "2026-10-05T20:12:57.444Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。",
+        "primary": {
+          "name": "浮光金",
+          "url": "https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1776667904735/ba783e3c19b30a1a2848ab61562d1133.png",
+          "alt": "vivo  (浮光金)",
+          "modelName": "vivo Y600 Pro",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y600pro",
+          "sourceSnapshotHash": "bad19c6e878e9f77e6837627fd78d584fb8ff68343a70e520fcda0020378f0e5",
+          "fetchedAt": "2026-10-05T20:12:57.444Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "浮光金",
+            "url": "https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1776667904735/ba783e3c19b30a1a2848ab61562d1133.png",
+            "alt": "vivo  (浮光金)",
+            "modelName": "vivo Y600 Pro",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/y600pro",
+            "sourceSnapshotHash": "bad19c6e878e9f77e6837627fd78d584fb8ff68343a70e520fcda0020378f0e5",
+            "fetchedAt": "2026-10-05T20:12:57.444Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "星曜紫",
+            "url": "https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1776667909539/1ab9804ada74af19e81db0eb012048ab.png",
+            "alt": "vivo  (星曜紫)",
+            "modelName": "vivo Y600 Pro",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/y600pro",
+            "sourceSnapshotHash": "bad19c6e878e9f77e6837627fd78d584fb8ff68343a70e520fcda0020378f0e5",
+            "fetchedAt": "2026-10-05T20:12:57.444Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "浩渺蓝",
+            "url": "https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1776667915096/144cfb63f797933aba1381c0874ffdac.png",
+            "alt": "vivo  (浩渺蓝)",
+            "modelName": "vivo Y600 Pro",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/y600pro",
+            "sourceSnapshotHash": "bad19c6e878e9f77e6837627fd78d584fb8ff68343a70e520fcda0020378f0e5",
+            "fetchedAt": "2026-10-05T20:12:57.444Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "皓月黑",
+            "url": "https://cn-exstatic-vivofs.iqoo.com/Br81IMbjh1IEtVmx/1776667920321/13ba4e4cedd57829319f276c0e735724.png",
+            "alt": "vivo  (皓月黑)",
+            "modelName": "vivo Y600 Pro",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/y600pro",
+            "sourceSnapshotHash": "bad19c6e878e9f77e6837627fd78d584fb8ff68343a70e520fcda0020378f0e5",
+            "fetchedAt": "2026-10-05T20:12:57.444Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          }
+        ],
+        "gaps": []
+      }
+    }
+  ],
+  "tablet": [],
+  "laptop": []
+}

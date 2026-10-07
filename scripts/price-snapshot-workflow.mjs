@@ -1,69 +1,29 @@
 import fs from "node:fs";
 import { spawnSync } from "node:child_process";
 import { parseArgs } from "node:util";
-import { fetchWithRetry } from "./lib/fetch-with-retry.mjs";
+import { fetchWithRetry, readHtmlResponse } from "./lib/fetch-with-retry.mjs";
 import { normalizeProductName } from "./lib/normalize-product-name.mjs";
+import { loadTsModule } from "./lib/load-ts-module.mjs";
+import { buildPricePlan } from "./lib/price-plan.mjs";
+import { selectedJiUsedItem } from "./lib/ji-used-item.mjs";
+import { isValidObservationDate } from "./lib/price-date.mjs";
+
+const { getPriceConfiguration, priceConfigurationIdentity, isNewDevicePrice } = loadTsModule("./src/lib/device-configurations.ts");
+const publishers = JSON.parse(fs.readFileSync("src/data/device-data-manifest.json", "utf8")).publishers;
 
 const DATABASE_PATH = "src/data/devices-db.json";
 const OBSERVATIONS_PATH = "src/data/price-observations.json";
 const PRICE_TYPES = new Set(["current", "used"]);
 const CATEGORIES = new Set(["phone", "tablet", "laptop"]);
-const TRUSTED_HOSTS = new Set([
-  "www.apple.com.cn",
-  "www.shihuo.cn",
-  "item.jd.com",
-  "item.m.jd.com",
-  "pro.m.jd.com",
-  "m2.9ji.com",
-  "detail.zol.com.cn",
-  "wap.zol.com.cn",
-]);
+const TRUSTED_HOSTS = new Set(publishers.flatMap((publisher) => publisher.hosts));
 
 function readJson(path) {
   return JSON.parse(fs.readFileSync(path === "-" ? 0 : path, "utf8"));
 }
 
-function splitOptions(value) {
-  return typeof value === "string" ? value.split("/").map((part) => part.trim()).filter(Boolean) : [];
-}
-
-function priceConfigurationIdentity(configuration) {
-  const memory = configuration.match(/(\d+(?:\.\d+)?)\s*GB\s*(?:统一|运行)?内存/i)?.[1];
-  const storage = configuration.match(/(\d+(?:\.\d+)?)\s*(TB|GB)\s*(?:固态硬盘|存储)/i);
-  return `${memory ? `${memory}GB` : "unknown"}|${storage ? `${storage[1]}${storage[2].toUpperCase()}` : "unknown"}`;
-}
-
-function recommendedConfiguration(device) {
-  const memory = splitOptions(device.specs.memory?.value)[0] ?? null;
-  const storageOptions = splitOptions(device.specs.storage?.value);
-  const preferredStorage = device.category === "laptop" ? "512GB" : "256GB";
-  const storage = storageOptions.includes(preferredStorage) ? preferredStorage : storageOptions[0] ?? null;
-  return [memory ? `${memory} 运行内存` : null, storage ? `${storage} 存储` : null].filter(Boolean).join(" + ");
-}
-
 function buildPlan({ category, priceType, limit }) {
   const { devices } = readJson(DATABASE_PATH);
-  const observations = readJson(OBSERVATIONS_PATH)[priceType];
-  return devices
-    .filter((device) =>
-      (!category || device.category === category) &&
-      !device.specs[`${priceType}Price`]?.value &&
-      !observations[device.id]
-    )
-    .sort((left, right) => right.releaseYear - left.releaseYear || left.modelName.localeCompare(right.modelName, "zh-CN"))
-    .slice(0, limit)
-    .map((device) => {
-      const configuration = recommendedConfiguration(device);
-      return {
-        deviceId: device.id,
-        modelName: device.modelName,
-        category: device.category,
-        releaseYear: device.releaseYear,
-        priceType,
-        configuration,
-        searchQuery: `${device.modelName} ${configuration} 国行 ${priceType === "used" ? "二手 成色" : "全新 当前价"}`,
-      };
-    });
+  return buildPricePlan(devices, readJson(OBSERVATIONS_PATH), { category, priceType, limit });
 }
 
 function decodeHtml(value) {
@@ -184,29 +144,6 @@ function renderHtml(url) {
   throw new Error("未找到 Chrome/Chromium；可通过 CHROME_BIN 指定浏览器路径");
 }
 
-function selectedJiUsedItem(text, url) {
-  if (new URL(url).hostname !== "m2.9ji.com") return null;
-  const priceGrade = text.match(/¥\s*([0-9]{3,6})(?:\s*已优惠\s*\d+)?\s*(\d{1,2})\s*成新/);
-  if (!priceGrade) return null;
-  const productBlock = text.slice(priceGrade.index, text.indexOf("AI点评", priceGrade.index));
-  const reportStart = text.indexOf("验机报告 先验机再付款", priceGrade.index);
-  const reportEnd = text.indexOf("二手良品需人工一机一验", reportStart);
-  const reportBlock = reportStart >= 0 ? text.slice(reportStart, reportEnd >= 0 ? reportEnd : undefined) : "";
-  const batteryHealth = reportBlock.match(/(\d{1,3}(?:%\s*-\s*\d{1,3})?)%\s*电池寿命/)?.[1];
-  return {
-    price: Number(priceGrade[1]),
-    grade: `${priceGrade[2]}成新`,
-    product: productBlock.match(/(Apple .*? 国行)(?:\s+机况|\s+参数)/)?.[1] ?? null,
-    inventoryId: reportBlock.match(/库存编号：?\s*(\d+)/)?.[1] ?? null,
-    batteryHealth: batteryHealth ? `${batteryHealth.replaceAll(" ", "")}%` : null,
-    repairHistory: reportBlock.match(/(未检出维修痕迹|检出.*?维修痕迹)\s*维修历史/)?.[1] ?? null,
-    modelNumber: reportBlock.match(/(A\d{4})\s*型号号码/)?.[1] ?? null,
-    mainland: /国行\s*版本/.test(reportBlock),
-    inspectionSummary: reportBlock.match(/经检测：(.*?)详细检测结果/)?.[1]?.trim() ?? null,
-    soldOut: /已售罄/.test(text.slice(reportStart >= 0 ? reportStart : priceGrade.index)),
-  };
-}
-
 function relatedJiUsedItems(html, url) {
   if (new URL(url).hostname !== "m2.9ji.com") return [];
   const currentPath = new URL(url).pathname;
@@ -220,13 +157,13 @@ function relatedJiUsedItems(html, url) {
     const text = decodeHtml(body);
     const price = parseDisplayedPrice(text.match(/[¥￥]\s*([0-9]{3,6}(?:\.[0-9]{1,2})?)/)?.[1]);
     if (!price) continue;
-    const batteryHealth = text.match(/(\d{1,3}(?:%\s*-\s*\d{1,3})?)%/)?.[1];
+    const batteryHealth = text.match(/(\d{1,3}%(?:\s*-\s*\d{1,3}%)?(?:以上|以下)?)/)?.[1];
     items.set(path, {
       url: new URL(path, url).href,
       product,
       grade: text.match(/(\d{1,2})\s*成新/)?.[1] ? `${text.match(/(\d{1,2})\s*成新/)?.[1]}成新` : null,
       price,
-      batteryHealth: batteryHealth ? `${batteryHealth.replaceAll(" ", "")}%` : null,
+      batteryHealth: batteryHealth?.replaceAll(" ", "") ?? null,
     });
   }
   return [...items.values()].slice(0, 50);
@@ -241,7 +178,7 @@ async function inspectUrl(url, { render = false } = {}) {
   });
   if (!response.ok) throw new Error(`${response.status} ${url}`);
   if (render && !TRUSTED_HOSTS.has(new URL(response.url).hostname)) throw new Error("动态渲染重定向到了非受信来源域名");
-  const staticHtml = await response.text();
+  const staticHtml = await readHtmlResponse(response);
   const html = render ? renderHtml(response.url) : staticHtml;
   const text = decodeHtml(html);
   const shihuoPage = shihuoPageData(html, response.url);
@@ -267,7 +204,7 @@ async function inspectUrl(url, { render = false } = {}) {
     highlightedPrices,
     capacities,
     signals: {
-      mainland: /国行|中国大陆|大陆版本|全网通/.test(text),
+      mainland: /国行|中国大陆|大陆版本/.test(text),
       used: /二手|成新|电池效率|电池寿命|维修痕迹/.test(text),
       pageTextAvailable: text.length > 500,
     },
@@ -354,24 +291,22 @@ function validateBatch(input) {
     if (!Number.isInteger(row.value) || row.value < 300 || row.value > 100000) throw new Error(`${label}: value 必须是 300-100000 的整数人民币价格`);
     const sourceUrl = new URL(row.sourceUrl);
     if (sourceUrl.protocol !== "https:" || !TRUSTED_HOSTS.has(sourceUrl.hostname)) throw new Error(`${label}: 来源域名未列入受信清单`);
-    if ((row.sourceType === "official") !== (sourceUrl.hostname === "www.apple.com.cn")) {
+    if (!publishers.some((publisher) => publisher.sourceType === (row.sourceType ?? "reference") && publisher.hosts.includes(sourceUrl.hostname))) {
       throw new Error(`${label}: sourceType 必须与官方或第三方来源域名一致`);
     }
     for (const key of ["sourceName", "rawText", "configuration", "condition"]) {
       if (typeof row[key] !== "string" || !row[key].trim()) throw new Error(`${label}: 缺少 ${key}`);
     }
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(row.observedAt)) throw new Error(`${label}: observedAt 必须为 YYYY-MM-DD`);
-    if (row.priceType === "current" && !/全新|在售价|当前价|公开价|最低价/.test(row.condition)) throw new Error(`${label}: 当前价 condition 必须说明全新或价格状态`);
+    if (!isValidObservationDate(row.observedAt)) throw new Error(`${label}: observedAt 必须为真实的 YYYY-MM-DD 日期，且不晚于中国大陆今天`);
+    if (row.priceType === "current" && !isNewDevicePrice(row.condition)) throw new Error(`${label}: 当前价 condition 必须明确全新，拆封、退货、二手、资源机等不能作为普通新机价`);
     if (row.priceType === "used" && !/二手|成新/.test(row.condition)) throw new Error(`${label}: 二手价 condition 必须说明二手或成色`);
-    const memoryOptions = splitOptions(device.specs.memory?.value);
-    if (memoryOptions.length && !memoryOptions.some((memory) => row.configuration.includes(memory))) {
-      throw new Error(`${label}: configuration 未包含该设备的有效运行内存`);
+    if (row.excludedReason !== undefined && (typeof row.excludedReason !== "string" || !row.excludedReason.trim())) throw new Error(`${label}: excludedReason 必须是非空排除原因`);
+    if (!/国行|中国大陆(?:版|版本)|大陆版本/.test(row.configuration)) throw new Error(`${label}: configuration 必须明确中国大陆版本，电商渠道不代表硬件版本，不能默认把未知版本视为国行`);
+    const flatDevice = { ...device, specs: Object.fromEntries(Object.entries(device.specs).map(([key, field]) => [key, field.value])) };
+    if (!getPriceConfiguration(flatDevice, row)) {
+      throw new Error(`${label}: configuration 必须是设备已证实且明确的有效运行内存 + 有效存储容量组合`);
     }
-    const storageOptions = splitOptions(device.specs.storage?.value);
-    if (storageOptions.length && !storageOptions.some((storage) => row.configuration.includes(storage))) {
-      throw new Error(`${label}: configuration 未包含该设备的有效存储容量`);
-    }
-    const duplicateKey = `${row.priceType}:${row.deviceId}:${priceConfigurationIdentity(row.configuration)}`;
+    const duplicateKey = `${row.priceType}:${row.deviceId}:${priceConfigurationIdentity(row.configuration)}:${row.condition}`;
     if (seen.has(duplicateKey)) throw new Error(`${label}: 同一设备、价格类型和配置重复`);
     seen.add(duplicateKey);
     return {
@@ -385,6 +320,7 @@ function validateBatch(input) {
         configuration: row.configuration.trim(),
         condition: row.condition.trim(),
         observedAt: row.observedAt,
+        ...(row.excludedReason ? { excludedReason: row.excludedReason.trim() } : {}),
         ...(row.sourceType === "official" ? { sourceType: "official" } : {}),
       },
     };
@@ -393,11 +329,23 @@ function validateBatch(input) {
 
 function applyBatch(rows) {
   const observations = readJson(OBSERVATIONS_PATH);
+  const devices = new Map(readJson(DATABASE_PATH).devices.map((device) => [device.id, device]));
   for (const row of rows) {
-    const existing = observations[row.priceType][row.deviceId];
+    const existing = observations[row.priceType][row.deviceId]
+      ?? devices.get(row.deviceId)?.specs[`${row.priceType}Price`];
     const entries = existing ? (Array.isArray(existing) ? existing : [existing]) : [];
+    if (!observations[row.priceType][row.deviceId]) {
+      for (const entry of entries) {
+        if (!/国行|中国大陆(?:版|版本)|大陆版本/.test(entry.configuration ?? "") && !entry.excludedReason) {
+          entry.excludedReason = "原始报价未明确国行配置，待复核";
+        }
+      }
+    }
     const identity = priceConfigurationIdentity(row.observation.configuration);
-    const index = entries.findIndex((entry) => priceConfigurationIdentity(entry.configuration) === identity);
+    const index = entries.findIndex((entry) => priceConfigurationIdentity(entry.configuration) === identity && entry.condition === row.observation.condition);
+    if (index >= 0 && entries[index].observedAt > row.observation.observedAt) {
+      throw new Error(`${row.deviceId}: 旧日期报价不能覆盖已有新报价`);
+    }
     if (index >= 0) entries[index] = row.observation;
     else entries.push(row.observation);
     observations[row.priceType][row.deviceId] = entries.length === 1 ? entries[0] : entries;
@@ -428,11 +376,11 @@ if (!command || ["help", "--help", "-h"].includes(command)) {
   if (!PRICE_TYPES.has(values.type)) throw new Error("--type 只能是 current 或 used");
   if (values.category && !CATEGORIES.has(values.category)) throw new Error("--category 非法");
   const limit = Number(values.limit);
-  const maxLimit = readJson(DATABASE_PATH).devices.length;
+  const maxLimit = 10000;
   if (!Number.isInteger(limit) || limit < 1 || limit > maxLimit) throw new Error(`--limit 必须是 1-${maxLimit} 的整数`);
   const plan = buildPlan({ category: values.category, priceType: values.type, limit });
   if (values.json) console.log(JSON.stringify(plan, null, 2));
-  else for (const row of plan) console.log(`${row.deviceId}\t${row.configuration}\t${row.searchQuery}`);
+  else for (const row of plan) console.log(`${row.priority}\t${row.status}\t${row.deviceId}\t${row.configuration ?? "配置待核验"}\t${row.searchQuery}`);
 } else if (command === "search") {
   if (!process.argv[3] || process.argv[3].startsWith("--")) throw new Error("缺少九机二手型号关键词");
   const { values } = parseArgs({

@@ -1,0 +1,3431 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "generatedAt": "2026-10-05",
+    "totalDevices": 1,
+    "coverage": {
+      "market": "CN",
+      "minReleaseYear": 2022,
+      "asOf": "2026-10-06",
+      "scope": "2022–2026中国大陆已发售平板有限差集；标准/柔光/网络版型独立，仍partial",
+      "partial": true
+    },
+    "audit": {
+      "replayValidation": {
+        "offline": true,
+        "specFieldsChecked": 13,
+        "fieldHashesChecked": 20,
+        "configurationsChecked": 4,
+        "imagePageHashesChecked": 4,
+        "sourcePageType": "expanded_core_spec_snapshots",
+        "configurationMethod": "官方实际成对SKU或严格单值逐SKU；标准/柔光/网络版型独立，无首值/交叉相乘",
+        "coreFieldGapsComplete": true
+      },
+      "inventory": [
+        {
+          "id": "honor-90-gt-2023",
+          "brand": "HONOR",
+          "modelName": "荣耀90 GT",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "荣耀数字 GT",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.honor.com/cn/phones/honor-90-gt/spec/",
+            "https://detail.zol.com.cn/series/57/10847947_1.html",
+            "https://detail.zol.com.cn/series/57/50840/param_10847947_0_1.html",
+            "https://detail.zol.com.cn/1968/1967015/param.shtml",
+            "https://detail.zol.com.cn/1969/1968651/param.shtml",
+            "https://detail.zol.com.cn/1969/1968650/param.shtml",
+            "https://detail.zol.com.cn/1969/1968649/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2583/index25820069_0_p1967015.shtml",
+            "https://detail.zol.com.cn/picture_index_2583/index25820071_0_p1968651.shtml"
+          ]
+        },
+        {
+          "id": "honor-100-pro-2023",
+          "brand": "HONOR",
+          "modelName": "荣耀100 Pro",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "荣耀数字 Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.honor.com/cn/phones/honor-100-pro/spec/",
+            "https://detail.zol.com.cn/series/57/10842307_1.html",
+            "https://detail.zol.com.cn/series/57/50840/param_10842307_0_1.html",
+            "https://detail.zol.com.cn/1950/1949055/param.shtml",
+            "https://detail.zol.com.cn/1958/1957929/param.shtml",
+            "https://detail.zol.com.cn/1958/1957928/param.shtml",
+            "https://detail.zol.com.cn/1958/1957930/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2564/index25636577_0_p1949055.shtml",
+            "https://detail.zol.com.cn/picture_index_2570/index25696143_0_p1949055.shtml"
+          ]
+        },
+        {
+          "id": "honor-200-pro-2024",
+          "brand": "HONOR",
+          "modelName": "荣耀200 Pro",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "荣耀数字 Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.honor.com/cn/phones/honor-200-pro/spec/",
+            "https://detail.zol.com.cn/series/57/10863459_1.html",
+            "https://detail.zol.com.cn/series/57/50840/param_10863459_0_1.html",
+            "https://detail.zol.com.cn/2014/2013490/param.shtml",
+            "https://detail.zol.com.cn/2019/2018018/param.shtml",
+            "https://detail.zol.com.cn/2019/2018017/param.shtml",
+            "https://detail.zol.com.cn/2019/2018019/param.shtml",
+            "https://www.ithome.com/0/772/314.htm",
+            "https://detail.zol.com.cn/picture_index_2638/index26376393_0_p2013490.shtml",
+            "https://detail.zol.com.cn/picture_index_2638/index26376380_0_p2013490.shtml"
+          ]
+        },
+        {
+          "id": "honor-80-pro-2022",
+          "brand": "HONOR",
+          "modelName": "荣耀80 Pro",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "荣耀数字 Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.honor.com/cn/phones/honor-80-pro/spec/",
+            "https://detail.zol.com.cn/series/57/10717479_1.html",
+            "https://detail.zol.com.cn/series/57/50840/param_10717479_0_1.html",
+            "https://detail.zol.com.cn/1428/1427936/param.shtml",
+            "https://detail.zol.com.cn/1435/1434368/param.shtml",
+            "https://detail.zol.com.cn/1435/1434369/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2251/index22503317_0_p1427936.shtml",
+            "https://detail.zol.com.cn/picture_index_2251/index22503314_0_p1427936.shtml"
+          ]
+        },
+        {
+          "id": "honor-magic-v-2022",
+          "brand": "HONOR",
+          "modelName": "荣耀Magic V",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "荣耀 Magic V",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.honor.com/cn/phones/honor-magic-v/spec/",
+            "https://detail.zol.com.cn/series/57/37443_1.html",
+            "https://detail.zol.com.cn/series/57/50840/param_37443_0_1.html",
+            "https://detail.zol.com.cn/1397/1396078/param.shtml",
+            "https://detail.zol.com.cn/1397/1396769/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2207/index22069644_0_p1396078.shtml",
+            "https://detail.zol.com.cn/picture_index_2207/index22069645_0_p1396769.shtml"
+          ]
+        },
+        {
+          "id": "honor-magic-v2-2023",
+          "brand": "HONOR",
+          "modelName": "荣耀Magic V2",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "荣耀 Magic V",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.honor.com/cn/phones/honor-magic-v2/spec/",
+            "https://detail.zol.com.cn/series/57/10760399_1.html",
+            "https://detail.zol.com.cn/series/57/50840/param_10760399_0_1.html",
+            "https://detail.zol.com.cn/1555/1554341/param.shtml",
+            "https://detail.zol.com.cn/1816/1815127/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2488/index24871166_0_p1554341.shtml",
+            "https://detail.zol.com.cn/picture_index_2488/index24871126_0_p1554341.shtml"
+          ]
+        },
+        {
+          "id": "honor-magic-v3-2024",
+          "brand": "HONOR",
+          "modelName": "荣耀Magic V3",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "荣耀 Magic V",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.honor.com/cn/phones/honor-magic-v3/spec/",
+            "https://detail.zol.com.cn/series/57/10867494_1.html",
+            "https://detail.zol.com.cn/series/57/50840/param_10867494_0_1.html",
+            "https://detail.zol.com.cn/2035/2034383/param.shtml",
+            "https://detail.zol.com.cn/2083/2082442/param.shtml",
+            "https://detail.zol.com.cn/2083/2082443/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2682/index26815212_0_p2034383.shtml",
+            "https://detail.zol.com.cn/picture_index_2682/index26815268_0_p2082443.shtml"
+          ]
+        },
+        {
+          "id": "honor-magic-v5-2025",
+          "brand": "HONOR",
+          "modelName": "荣耀Magic V5",
+          "releaseYear": 2025,
+          "category": "phone",
+          "series": "荣耀 Magic V",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.honor.com/cn/phones/honor-magic-v5/spec/",
+            "https://detail.zol.com.cn/series/57/10915256_1.html",
+            "https://detail.zol.com.cn/series/57/50840/param_10915256_0_1.html",
+            "https://detail.zol.com.cn/2132/2131995/param.shtml",
+            "https://detail.zol.com.cn/2133/2132091/param.shtml",
+            "https://detail.zol.com.cn/2133/2132092/param.shtml",
+            "https://www.ithome.com/0/865/826.htm",
+            "https://detail.zol.com.cn/picture_index_2727/index27260122_0_p2131995.shtml",
+            "https://detail.zol.com.cn/picture_index_2727/index27260143_0_p2132092.shtml"
+          ]
+        },
+        {
+          "id": "honor-magic4-2022",
+          "brand": "HONOR",
+          "modelName": "荣耀 Magic4",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "荣耀 Magic",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/37704_1.html",
+            "https://detail.zol.com.cn/series/57/50840/param_37704_0_1.html",
+            "https://detail.zol.com.cn/1395/1394399/param.shtml",
+            "https://detail.zol.com.cn/1400/1399437/param.shtml",
+            "https://detail.zol.com.cn/1400/1399436/param.shtml",
+            "https://detail.zol.com.cn/1400/1399438/param.shtml",
+            "https://www.ithome.com/0/609/595.htm",
+            "https://detail.zol.com.cn/picture_index_2268/index22677591_0_p1394399.shtml",
+            "https://detail.zol.com.cn/picture_index_2268/index22677594_0_p1394399.shtml"
+          ]
+        },
+        {
+          "id": "honor-magic4-pro-2022",
+          "brand": "HONOR",
+          "modelName": "荣耀 Magic4 Pro",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "荣耀 Magic Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/37705_1.html",
+            "https://detail.zol.com.cn/series/57/50840/param_37705_0_1.html",
+            "https://detail.zol.com.cn/1400/1399065/param.shtml",
+            "https://detail.zol.com.cn/1400/1399440/param.shtml",
+            "https://detail.zol.com.cn/1400/1399439/param.shtml",
+            "https://www.ithome.com/0/614/358.htm",
+            "https://detail.zol.com.cn/picture_index_2225/index22241850_0_p1399065.shtml",
+            "https://detail.zol.com.cn/picture_index_2225/index22241839_0_p1399065.shtml"
+          ]
+        },
+        {
+          "id": "honor-90-2023",
+          "brand": "HONOR",
+          "modelName": "荣耀 90",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "荣耀数字",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10725205_1.html",
+            "https://detail.zol.com.cn/series/57/50840/param_10725205_0_1.html",
+            "https://detail.zol.com.cn/1448/1447713/param.shtml",
+            "https://detail.zol.com.cn/1630/1629850/param.shtml",
+            "https://detail.zol.com.cn/1630/1629849/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2390/index23890700_0_p1447713.shtml",
+            "https://detail.zol.com.cn/picture_index_2390/index23890719_0_p1629850.shtml"
+          ]
+        },
+        {
+          "id": "honor-90-pro-2023",
+          "brand": "HONOR",
+          "modelName": "荣耀 90 Pro",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "荣耀数字 Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10725207_1.html",
+            "https://detail.zol.com.cn/series/57/50840/param_10725207_0_1.html",
+            "https://detail.zol.com.cn/1448/1447715/param.shtml",
+            "https://detail.zol.com.cn/1632/1631435/param.shtml",
+            "https://detail.zol.com.cn/1632/1631434/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2390/index23898978_0_p1447715.shtml",
+            "https://detail.zol.com.cn/picture_index_2390/index23898975_0_p1447715.shtml"
+          ]
+        },
+        {
+          "id": "honor-magic5-2023",
+          "brand": "HONOR",
+          "modelName": "荣耀 Magic5",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "荣耀 Magic",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10716894_1.html",
+            "https://detail.zol.com.cn/series/57/50840/param_10716894_0_1.html",
+            "https://detail.zol.com.cn/1427/1426635/param.shtml",
+            "https://detail.zol.com.cn/1466/1465802/param.shtml",
+            "https://detail.zol.com.cn/1448/1447870/param.shtml",
+            "https://detail.zol.com.cn/1448/1447871/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2296/index22959728_0_p1426635.shtml",
+            "https://detail.zol.com.cn/picture_index_2296/index22959949_0_p1426635.shtml"
+          ]
+        },
+        {
+          "id": "honor-magic6-2024",
+          "brand": "HONOR",
+          "modelName": "荣耀 Magic6",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "荣耀 Magic",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10845116_1.html",
+            "https://detail.zol.com.cn/series/57/50840/param_10845116_0_1.html",
+            "https://detail.zol.com.cn/1960/1959987/param.shtml",
+            "https://detail.zol.com.cn/1975/1974139/param.shtml",
+            "https://detail.zol.com.cn/1975/1974012/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2588/index25877956_0_p1959987.shtml",
+            "https://detail.zol.com.cn/picture_index_2588/index25877954_0_p1974139.shtml"
+          ]
+        },
+        {
+          "id": "honor-magic7-2024",
+          "brand": "HONOR",
+          "modelName": "荣耀 Magic7",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "荣耀 Magic",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10905376_1.html",
+            "https://detail.zol.com.cn/series/57/50840/param_10905376_0_1.html",
+            "https://detail.zol.com.cn/2106/2105342/param.shtml",
+            "https://detail.zol.com.cn/2113/2112189/param.shtml",
+            "https://detail.zol.com.cn/2113/2112191/param.shtml",
+            "https://detail.zol.com.cn/2113/2112190/param.shtml",
+            "https://www.honor.com/cn/news/honor-magic7-launch/",
+            "https://detail.zol.com.cn/picture_index_2703/index27023928_0_p2105342.shtml",
+            "https://detail.zol.com.cn/picture_index_2703/index27023929_0_p2112189.shtml"
+          ]
+        },
+        {
+          "id": "honor-100-2023",
+          "brand": "HONOR",
+          "modelName": "荣耀 100",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "荣耀数字",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10841840_1.html",
+            "https://detail.zol.com.cn/series/57/50840/param_10841840_0_1.html",
+            "https://detail.zol.com.cn/1949/1948397/param.shtml",
+            "https://detail.zol.com.cn/1958/1957926/param.shtml",
+            "https://detail.zol.com.cn/1958/1957927/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2570/index25696118_0_p1948397.shtml",
+            "https://detail.zol.com.cn/picture_index_2570/index25696121_0_p1948397.shtml"
+          ]
+        },
+        {
+          "id": "honor-200-2024",
+          "brand": "HONOR",
+          "modelName": "荣耀 200",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "荣耀数字",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10863450_1.html",
+            "https://detail.zol.com.cn/series/57/50840/param_10863450_0_1.html",
+            "https://detail.zol.com.cn/2014/2013481/param.shtml",
+            "https://detail.zol.com.cn/2019/2018015/param.shtml",
+            "https://detail.zol.com.cn/2019/2018012/param.shtml",
+            "https://detail.zol.com.cn/2019/2018013/param.shtml",
+            "https://detail.zol.com.cn/2019/2018014/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2638/index26376275_0_p2013481.shtml",
+            "https://detail.zol.com.cn/picture_index_2638/index26376272_0_p2013481.shtml"
+          ]
+        },
+        {
+          "id": "honor-x50-2023",
+          "brand": "HONOR",
+          "modelName": "荣耀 X50",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "荣耀 X",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10747530_1.html",
+            "https://detail.zol.com.cn/series/57/50840/param_10747530_0_1.html",
+            "https://detail.zol.com.cn/1495/1494544/param.shtml",
+            "https://detail.zol.com.cn/1797/1796412/param.shtml",
+            "https://detail.zol.com.cn/1797/1796413/param.shtml",
+            "https://detail.zol.com.cn/1797/1796411/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2475/index24742526_0_p1494544.shtml",
+            "https://detail.zol.com.cn/picture_index_2475/index24742538_0_p1494544.shtml"
+          ]
+        },
+        {
+          "id": "honor-pad9-2023",
+          "brand": "HONOR",
+          "modelName": "荣耀平板9",
+          "releaseYear": 2023,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.honor.com/cn/tablets/honor-pad-9/spec/",
+            "https://detail.zol.com.cn/series/702/10848473_1.html",
+            "https://detail.zol.com.cn/series/702/50840/param_10848473_0_1.html",
+            "https://detail.zol.com.cn/1969/1968674/param.shtml",
+            "https://detail.zol.com.cn/1969/1968627/param.shtml",
+            "https://detail.zol.com.cn/1969/1968678/param.shtml",
+            "https://detail.zol.com.cn/1969/1968676/param.shtml",
+            "https://www.ithome.com/0/742/300.htm",
+            "https://detail.zol.com.cn/picture_index_2583/index25820396_0_p1968674.shtml",
+            "https://detail.zol.com.cn/picture_index_2583/index25820397_0_p1968674.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10848473_1.html"
+          ]
+        },
+        {
+          "id": "honor-pad-v8-pro-2022",
+          "brand": "HONOR",
+          "modelName": "荣耀平板V8 Pro",
+          "releaseYear": 2022,
+          "category": "tablet",
+          "series": "荣耀平板 V Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.honor.com/cn/tablets/honor-pad-v8-pro/",
+            "https://detail.zol.com.cn/series/702/10720915_1.html",
+            "https://detail.zol.com.cn/series/702/50840/param_10720915_0_1.html",
+            "https://detail.zol.com.cn/1435/1434891/param.shtml",
+            "https://detail.zol.com.cn/1439/1438715/param.shtml",
+            "https://detail.zol.com.cn/1439/1438714/param.shtml",
+            "https://www.ithome.com/0/664/486.htm",
+            "https://detail.zol.com.cn/picture_index_2258/index22579937_0_p1434891.shtml",
+            "https://detail.zol.com.cn/picture_index_2258/index22579942_0_p1434891.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10720915_1.html"
+          ]
+        },
+        {
+          "id": "honor-magicbook-14-2023",
+          "brand": "HONOR",
+          "modelName": "荣耀 MagicBook 14 (2023)",
+          "releaseYear": 2023,
+          "category": "laptop",
+          "series": "荣耀 MagicBook 14",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.honor.com/cn/laptops/honor-magicbook-14-2023/spec/",
+            "https://detail.zol.com.cn/series/16/10751634_1.html",
+            "https://detail.zol.com.cn/series/16/50840/param_10751634_0_1.html",
+            "https://detail.zol.com.cn/1509/1508763/param.shtml",
+            "https://detail.zol.com.cn/1512/1511479/param.shtml",
+            "https://www.ithome.com/0/686/232.htm",
+            "https://detail.zol.com.cn/picture_index_2335/index23341914_0_p1508763.shtml",
+            "https://detail.zol.com.cn/picture_index_2335/index23341910_0_p1508763.shtml"
+          ]
+        },
+        {
+          "id": "honor-magic6-pro-2024",
+          "brand": "HONOR",
+          "modelName": "荣耀 Magic6 Pro",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "荣耀 Magic Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.honor.com/cn/phones/honor-magic6-pro/spec/",
+            "https://www.dxomark.com/honor-magic6-pro-camera-test/"
+          ]
+        },
+        {
+          "id": "honor-magic7-pro-2024",
+          "brand": "HONOR",
+          "modelName": "荣耀 Magic7 Pro",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "荣耀 Magic Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.honor.com/cn/phones/honor-magic7-pro/spec/",
+            "https://www.dxomark.com/honor-magic7-pro-camera-test-retested/"
+          ]
+        },
+        {
+          "id": "honor-magic8-pro-2025",
+          "brand": "HONOR",
+          "modelName": "荣耀 Magic8 Pro",
+          "releaseYear": 2025,
+          "category": "phone",
+          "series": "荣耀 Magic Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.honor.com/cn/phones/honor-magic8-pro/spec/",
+            "https://www.dxomark.com/honor-magic8-pro-camera-test/",
+            "https://m.ithome.com/html/889748.htm"
+          ]
+        },
+        {
+          "id": "honor-pad8-2022",
+          "brand": "HONOR",
+          "modelName": "荣耀平板8",
+          "releaseYear": 2022,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10713746_1.html",
+            "https://detail.zol.com.cn/series/702/50840/param_10713746_0_1.html",
+            "https://detail.zol.com.cn/1421/1420061/param.shtml",
+            "https://detail.zol.com.cn/1554/1553741/param.shtml",
+            "https://detail.zol.com.cn/1554/1553740/param.shtml",
+            "https://detail.zol.com.cn/1422/1421506/param.shtml",
+            "https://www.ithome.com/0/632/202.htm",
+            "https://www.honor.com/cn/tablets/honor-pad-8/spec/",
+            "https://detail.zol.com.cn/picture_index_2258/index22579595_0_p1420061.shtml",
+            "https://detail.zol.com.cn/picture_index_2258/index22579598_0_p1420061.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10713746_1.html"
+          ]
+        },
+        {
+          "id": "honor-pad-x8-2022",
+          "brand": "HONOR",
+          "modelName": "荣耀平板X8",
+          "releaseYear": 2022,
+          "category": "tablet",
+          "series": "荣耀平板 X",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10717460_1.html",
+            "https://detail.zol.com.cn/series/702/50840/param_10717460_0_1.html",
+            "https://detail.zol.com.cn/1428/1427897/param.shtml",
+            "https://detail.zol.com.cn/1429/1428255/param.shtml",
+            "https://www.ithome.com/0/642/627.htm",
+            "https://www.honor.com/cn/tablets/honor-pad-x8/spec/",
+            "https://detail.zol.com.cn/picture_index_2226/index22255561_0_p1427897.shtml",
+            "https://detail.zol.com.cn/picture_index_2226/index22255562_0_p1427897.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10717460_1.html"
+          ]
+        },
+        {
+          "id": "honor-pad-x9-2024",
+          "brand": "HONOR",
+          "modelName": "荣耀平板X9",
+          "releaseYear": 2024,
+          "category": "tablet",
+          "series": "荣耀平板 X",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10775717_1.html",
+            "https://detail.zol.com.cn/series/702/50840/param_10775717_0_1.html",
+            "https://detail.zol.com.cn/1638/1637717/param.shtml",
+            "https://detail.zol.com.cn/2111/2110590/param.shtml",
+            "https://detail.zol.com.cn/2111/2110591/param.shtml",
+            "https://www.ithome.com/0/802/849.htm",
+            "https://h5.ifeng.com/c/vivoArticle/v002ds8VtRisDufz79A-_gtUvJFEpnw1TXh2Xgjk-_878UO7w__?isNews=1&showComments=0",
+            "https://www.honor.com/cn/tablets/honor-pad-x9/spec/",
+            "https://detail.zol.com.cn/picture_index_2701/index27004826_0_p1637717.shtml",
+            "https://detail.zol.com.cn/picture_index_2701/index27004824_0_p1637717.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10775717_1.html"
+          ]
+        },
+        {
+          "id": "honor-pad-v8-2023",
+          "brand": "HONOR",
+          "modelName": "荣耀平板V8",
+          "releaseYear": 2023,
+          "category": "tablet",
+          "series": "荣耀平板 V",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10760518_1.html",
+            "https://detail.zol.com.cn/series/702/50840/param_10760518_0_1.html",
+            "https://detail.zol.com.cn/1555/1554755/param.shtml",
+            "https://detail.zol.com.cn/1555/1554756/param.shtml",
+            "https://www.honor.com/cn/tablets/honor-pad-v8/spec/",
+            "https://detail.zol.com.cn/picture_index_2356/index23555344_0_p1554755.shtml",
+            "https://detail.zol.com.cn/picture_index_2356/index23555366_0_p1554755.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10760518_1.html"
+          ]
+        },
+        {
+          "id": "honor-magicpad13-2023",
+          "brand": "HONOR",
+          "modelName": "荣耀平板MagicPad 13",
+          "releaseYear": 2023,
+          "category": "tablet",
+          "series": "荣耀 MagicPad",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10725202_1.html",
+            "https://detail.zol.com.cn/series/702/50840/param_10725202_0_1.html",
+            "https://detail.zol.com.cn/1448/1447710/param.shtml",
+            "https://detail.zol.com.cn/1816/1815128/param.shtml",
+            "https://detail.zol.com.cn/1816/1815129/param.shtml",
+            "https://www.honor.com/cn/tablets/honor-magicpad-13/spec/",
+            "https://detail.zol.com.cn/picture_index_2488/index24871229_0_p1447710.shtml",
+            "https://detail.zol.com.cn/picture_index_2488/index24871230_0_p1447710.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10725202_1.html"
+          ]
+        },
+        {
+          "id": "honor-magicpad2-2024",
+          "brand": "HONOR",
+          "modelName": "荣耀平板MagicPad2",
+          "releaseYear": 2024,
+          "category": "tablet",
+          "series": "荣耀 MagicPad",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10876583_1.html",
+            "https://detail.zol.com.cn/series/702/50840/param_10876583_0_1.html",
+            "https://detail.zol.com.cn/2071/2070529/param.shtml",
+            "https://detail.zol.com.cn/2080/2079230/param.shtml",
+            "https://detail.zol.com.cn/2080/2079228/param.shtml",
+            "https://detail.zol.com.cn/2080/2079229/param.shtml",
+            "https://news.zol.com.cn/885/8852902.html",
+            "https://www.honor.com/cn/tablets/honor-magicpad-2/spec/",
+            "https://detail.zol.com.cn/picture_index_2682/index26815384_0_p2070529.shtml",
+            "https://detail.zol.com.cn/picture_index_2682/index26815407_0_p2070529.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10876583_1.html"
+          ]
+        },
+        {
+          "id": "honor-magicpad3-2025",
+          "brand": "HONOR",
+          "modelName": "荣耀平板MagicPad3",
+          "releaseYear": 2025,
+          "category": "tablet",
+          "series": "荣耀 MagicPad",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10915289_1.html",
+            "https://detail.zol.com.cn/series/702/50840/param_10915289_0_1.html",
+            "https://detail.zol.com.cn/2133/2132093/param.shtml",
+            "https://detail.zol.com.cn/2133/2132094/param.shtml",
+            "https://www.honor.com/cn/tablets/honor-magicpad-3/spec/",
+            "https://detail.zol.com.cn/picture_index_2726/index27259997_0_p2132093.shtml",
+            "https://detail.zol.com.cn/picture_index_2726/index27259998_0_p2132093.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10915289_1.html"
+          ]
+        },
+        {
+          "id": "honor-pad10-2025",
+          "brand": "HONOR",
+          "modelName": "荣耀平板10",
+          "releaseYear": 2025,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10914111_1.html",
+            "https://detail.zol.com.cn/series/702/50840/param_10914111_0_1.html",
+            "https://detail.zol.com.cn/2130/2129149/param.shtml",
+            "https://detail.zol.com.cn/2130/2129154/param.shtml",
+            "https://detail.zol.com.cn/2130/2129150/param.shtml",
+            "https://detail.zol.com.cn/2130/2129152/param.shtml",
+            "https://www.ithome.com/0/857/405.htm",
+            "https://www.honor.com/cn/tablets/honor-pad-10/spec/",
+            "https://detail.zol.com.cn/picture_index_2723/index27228837_0_p2129149.shtml",
+            "https://detail.zol.com.cn/picture_index_2723/index27228839_0_p2129149.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10914111_1.html"
+          ]
+        },
+        {
+          "id": "honor-300-pro-2024",
+          "brand": "HONOR",
+          "modelName": "荣耀300 Pro",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "荣耀数字 Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10907846_1.html",
+            "https://detail.zol.com.cn/series/57/50840/param_10907846_0_1.html",
+            "https://detail.zol.com.cn/2114/2113674/param.shtml",
+            "https://detail.zol.com.cn/2116/2115650/param.shtml",
+            "https://detail.zol.com.cn/2116/2115651/param.shtml",
+            "https://www.ithome.com/0/815/726.htm",
+            "https://www.honor.com/cn/phones/honor-300-pro/spec/",
+            "https://detail.zol.com.cn/picture_index_2706/index27057299_0_p2113674.shtml",
+            "https://detail.zol.com.cn/picture_index_2706/index27057296_0_p2113674.shtml"
+          ]
+        },
+        {
+          "id": "honor-pad10-2025-soft-light",
+          "brand": "HONOR",
+          "modelName": "荣耀平板10 柔光版",
+          "releaseYear": null,
+          "parentListedYear": 2025,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "status": "pending",
+          "reason": "特殊版在真实逐SKU目录独立列出，已从标准版排除；其国行首售、准确配置和版本专属图片本批尚未开展，不继承基型日期",
+          "listedConfigurations": [
+            {
+              "name": "荣耀平板10（12GB/256GB/柔光版）",
+              "term": "柔光",
+              "sourceUrl": "https://detail.zol.com.cn/2130/2129153/param.shtml",
+              "sourceEvidence": {
+                "value": "荣耀平板10（12GB/256GB/柔光版）",
+                "rawText": "荣耀平板10（12GB/256GB/柔光版）",
+                "evidenceKind": "excerpt",
+                "sourceUrl": "https://detail.zol.com.cn/series/702/50840/param_10914111_0_1.html",
+                "sourceType": "reference",
+                "confidence": 0.8,
+                "verifiedAt": "2026-10-05",
+                "fetchedAt": "2026-10-05T19:27:50.772Z",
+                "sourceSnapshotHash": "fdfcb81758744c6d38d2d03ada1eeb980e4132b0023b41646f76794b78a04c09"
+              }
+            },
+            {
+              "name": "荣耀平板10（8GB/256GB/柔光版）",
+              "term": "柔光",
+              "sourceUrl": "https://detail.zol.com.cn/2130/2129151/param.shtml",
+              "sourceEvidence": {
+                "value": "荣耀平板10（8GB/256GB/柔光版）",
+                "rawText": "荣耀平板10（8GB/256GB/柔光版）",
+                "evidenceKind": "excerpt",
+                "sourceUrl": "https://detail.zol.com.cn/series/702/50840/param_10914111_0_1.html",
+                "sourceType": "reference",
+                "confidence": 0.8,
+                "verifiedAt": "2026-10-05",
+                "fetchedAt": "2026-10-05T19:27:50.772Z",
+                "sourceSnapshotHash": "fdfcb81758744c6d38d2d03ada1eeb980e4132b0023b41646f76794b78a04c09"
+              }
+            }
+          ],
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/50840/param_10914111_0_1.html",
+            "https://detail.zol.com.cn/2130/2129153/param.shtml",
+            "https://detail.zol.com.cn/2130/2129151/param.shtml"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板10（12GB/256GB/柔光版）",
+            "rawText": "荣耀平板10（12GB/256GB/柔光版）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/50840/param_10914111_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:27:50.772Z",
+            "sourceSnapshotHash": "fdfcb81758744c6d38d2d03ada1eeb980e4132b0023b41646f76794b78a04c09"
+          },
+          "marketVerification": "基型国行已核验，独立特殊版尚未开展",
+          "yearBasis": "特殊版独立首售年份未知，不继承基型年份"
+        },
+        {
+          "id": "honor-tablet-catalogue-10922769",
+          "brand": "HONOR",
+          "modelName": "荣耀平板X10 Pro",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "荣耀平板X",
+          "seriesId": "10922769",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10922769_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板X10 Pro",
+            "rawText": "荣耀平板X10 Pro",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10922769_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:42.398Z",
+            "sourceSnapshotHash": "2af4f50bd8defc5c0b76f1cf29cd4c21fcb1d4f05faaaff4dd24da7b713f440c"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "系列平板电脑，是荣耀2026年01月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10922769_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:42.398Z",
+            "sourceSnapshotHash": "2af4f50bd8defc5c0b76f1cf29cd4c21fcb1d4f05faaaff4dd24da7b713f440c"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10920202",
+          "brand": "HONOR",
+          "modelName": "荣耀MagicPad3 Pro 13.3",
+          "releaseYear": 2025,
+          "category": "tablet",
+          "series": "荣耀MagicPad",
+          "seriesId": "10920202",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10920202_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀MagicPad3 Pro 13.3",
+            "rawText": "荣耀MagicPad3 Pro 13.3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10920202_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:42.530Z",
+            "sourceSnapshotHash": "0a80e9298f138f8cfc545a7a57f88e93cf7ad36fad2f6f52375b8e9bf9fd0607"
+          },
+          "listedYearEvidence": {
+            "value": 2025,
+            "rawText": "系列平板电脑，是荣耀2025年10月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10920202_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:42.530Z",
+            "sourceSnapshotHash": "0a80e9298f138f8cfc545a7a57f88e93cf7ad36fad2f6f52375b8e9bf9fd0607"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10915778",
+          "brand": "HONOR",
+          "modelName": "荣耀平板GT2 Pro",
+          "releaseYear": 2025,
+          "category": "tablet",
+          "series": "荣耀平板GT",
+          "seriesId": "10915778",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10915778_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板GT2 Pro",
+            "rawText": "荣耀平板GT2 Pro",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10915778_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:42.972Z",
+            "sourceSnapshotHash": "46056473beffd5e7480d655d89d4928f38de264f456cab93a0c5864f9c3042cd"
+          },
+          "listedYearEvidence": {
+            "value": 2025,
+            "rawText": "系列平板电脑，是荣耀2025年07月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10915778_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:42.972Z",
+            "sourceSnapshotHash": "46056473beffd5e7480d655d89d4928f38de264f456cab93a0c5864f9c3042cd"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10927060",
+          "brand": "HONOR",
+          "modelName": "荣耀平板20",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "seriesId": "10927060",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10927060_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板20",
+            "rawText": "荣耀平板20",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10927060_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:43.400Z",
+            "sourceSnapshotHash": "1d2f9480e401cd3b8081e0dd852986c6d29b1a8e6c86c1a63d9860b257db5d0d"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "系列平板电脑，是荣耀2026年05月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10927060_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:43.400Z",
+            "sourceSnapshotHash": "1d2f9480e401cd3b8081e0dd852986c6d29b1a8e6c86c1a63d9860b257db5d0d"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10906526",
+          "brand": "HONOR",
+          "modelName": "荣耀平板GT Pro",
+          "releaseYear": 2024,
+          "category": "tablet",
+          "series": "荣耀平板GT",
+          "seriesId": "10906526",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10906526_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板GT Pro",
+            "rawText": "荣耀平板GT Pro",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10906526_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:43.636Z",
+            "sourceSnapshotHash": "fbed2c5b511a50112abe3dd8ed09684093cdf65678a3a1bc09ab029e7605b729"
+          },
+          "listedYearEvidence": {
+            "value": 2024,
+            "rawText": "系列平板电脑，是荣耀2024年10月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10906526_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:43.636Z",
+            "sourceSnapshotHash": "fbed2c5b511a50112abe3dd8ed09684093cdf65678a3a1bc09ab029e7605b729"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10804045",
+          "brand": "HONOR",
+          "modelName": "荣耀平板X8 Pro",
+          "releaseYear": 2023,
+          "category": "tablet",
+          "series": "荣耀平板X",
+          "seriesId": "10804045",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10804045_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板X8 Pro",
+            "rawText": "荣耀平板X8 Pro",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10804045_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:43.727Z",
+            "sourceSnapshotHash": "b6369a5058a3f98b0e2d7a51f9987368ffd4337c18cfb938113f3c7faad298cc"
+          },
+          "listedYearEvidence": {
+            "value": 2023,
+            "rawText": "系列平板电脑，是荣耀2023年6月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10804045_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:43.727Z",
+            "sourceSnapshotHash": "b6369a5058a3f98b0e2d7a51f9987368ffd4337c18cfb938113f3c7faad298cc"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10920204",
+          "brand": "HONOR",
+          "modelName": "荣耀MagicPad3 12.5",
+          "releaseYear": 2025,
+          "category": "tablet",
+          "series": "荣耀MagicPad",
+          "seriesId": "10920204",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10920204_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀MagicPad3 12.5",
+            "rawText": "荣耀MagicPad3 12.5",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10920204_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:44.842Z",
+            "sourceSnapshotHash": "f89304321ae84bb107cd3b7096055795884e9ce43f41de07ff7a5a4b3a208413"
+          },
+          "listedYearEvidence": {
+            "value": 2025,
+            "rawText": "系列平板电脑，是荣耀2025年10月15日推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10920204_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:44.842Z",
+            "sourceSnapshotHash": "f89304321ae84bb107cd3b7096055795884e9ce43f41de07ff7a5a4b3a208413"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10922774",
+          "brand": "HONOR",
+          "modelName": "荣耀平板10 Pro",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "seriesId": "10922774",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10922774_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板10 Pro",
+            "rawText": "荣耀平板10 Pro",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10922774_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:44.666Z",
+            "sourceSnapshotHash": "089fa0f24aa3bee902f1b01efb4d1409420fe2ab43f7073bbd11db0519d67329"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "系列平板电脑，是荣耀2026年01月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10922774_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:44.666Z",
+            "sourceSnapshotHash": "089fa0f24aa3bee902f1b01efb4d1409420fe2ab43f7073bbd11db0519d67329"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10926031",
+          "brand": "HONOR",
+          "modelName": "荣耀MagicPad3 Pro 12.3",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "荣耀MagicPad",
+          "seriesId": "10926031",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10926031_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀MagicPad3 Pro 12.3",
+            "rawText": "荣耀MagicPad3 Pro 12.3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10926031_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:45.802Z",
+            "sourceSnapshotHash": "00189ce6baeb5aa32a005e2c14b1df86b6ea5e5b955c8ca9b5e775a52d6df39b"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "系列平板电脑，是荣耀2026年4月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10926031_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:45.802Z",
+            "sourceSnapshotHash": "00189ce6baeb5aa32a005e2c14b1df86b6ea5e5b955c8ca9b5e775a52d6df39b"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10860558",
+          "brand": "HONOR",
+          "modelName": "荣耀平板9 Pro",
+          "releaseYear": 2024,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "seriesId": "10860558",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10860558_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板9 Pro",
+            "rawText": "荣耀平板9 Pro",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10860558_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:46.422Z",
+            "sourceSnapshotHash": "acd0fc6057e87c1f0f5cd448501580f59f6d48bf8c30a85caec5d56fa17708db"
+          },
+          "listedYearEvidence": {
+            "value": 2024,
+            "rawText": "系列平板电脑，是荣耀2024年04月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10860558_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:46.422Z",
+            "sourceSnapshotHash": "acd0fc6057e87c1f0f5cd448501580f59f6d48bf8c30a85caec5d56fa17708db"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10930459",
+          "brand": "HONOR",
+          "modelName": "荣耀平板X10 Pro Max",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "荣耀平板X",
+          "seriesId": "10930459",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10930459_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板X10 Pro Max",
+            "rawText": "荣耀平板X10 Pro Max",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10930459_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:46.856Z",
+            "sourceSnapshotHash": "20da4e92751a275fa4c0f9529bd2205f71bc511b8a7b2bc21b5ab580d953da8b"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "系列平板电脑，是荣耀2026年09月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10930459_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:46.856Z",
+            "sourceSnapshotHash": "20da4e92751a275fa4c0f9529bd2205f71bc511b8a7b2bc21b5ab580d953da8b"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10930462",
+          "brand": "HONOR",
+          "modelName": "荣耀MagicPad4",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "荣耀MagicPad",
+          "seriesId": "10930462",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10930462_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀MagicPad4",
+            "rawText": "荣耀MagicPad4",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10930462_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:46.885Z",
+            "sourceSnapshotHash": "a3ebcab895a572f08a7f847e5a51edcafab662180a3648be894f4645f563dd93"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "系列平板电脑，是荣耀2026年09月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10930462_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:46.885Z",
+            "sourceSnapshotHash": "a3ebcab895a572f08a7f847e5a51edcafab662180a3648be894f4645f563dd93"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-magic-vs2-2023",
+          "brand": "HONOR",
+          "modelName": "荣耀Magic Vs2",
+          "category": "phone",
+          "releaseYear": 2023,
+          "series": "荣耀 Magic Vs",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10814763_1.html",
+            "https://detail.zol.com.cn/series/57/50840/param_10814763_0_1.html",
+            "https://detail.zol.com.cn/1858/1857504/param.shtml",
+            "https://detail.zol.com.cn/1924/1923435/param.shtml",
+            "https://www.ithome.com/0/725/374.htm",
+            "https://www.honor.com/cn/phones/honor-magic-vs-2/spec/"
+          ]
+        },
+        {
+          "id": "honor-magic-vs3-2024",
+          "brand": "HONOR",
+          "modelName": "荣耀Magic Vs3",
+          "category": "phone",
+          "releaseYear": 2024,
+          "series": "荣耀 Magic Vs",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10883112_1.html",
+            "https://detail.zol.com.cn/series/57/50840/param_10883112_0_1.html",
+            "https://detail.zol.com.cn/2080/2079237/param.shtml",
+            "https://detail.zol.com.cn/2083/2082437/param.shtml",
+            "https://detail.zol.com.cn/2083/2082438/param.shtml",
+            "https://news.zol.com.cn/885/8852855.html",
+            "https://www.honor.com/cn/phones/honor-magic-vs-3/spec/"
+          ]
+        },
+        {
+          "id": "honor-magic-v6-2026",
+          "brand": "HONOR",
+          "modelName": "荣耀Magic V6",
+          "category": "phone",
+          "releaseYear": 2026,
+          "series": "荣耀 Magic V",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10924310_1.html",
+            "https://detail.zol.com.cn/series/57/50840/param_10924310_0_1.html",
+            "https://detail.zol.com.cn/2159/2158917/param.shtml",
+            "https://detail.zol.com.cn/2159/2158944/param.shtml",
+            "https://detail.zol.com.cn/2159/2158945/param.shtml",
+            "https://detail.zol.com.cn/2159/2158946/param.shtml",
+            "https://phone.cnmo.com/news/805404.html",
+            "https://www.honor.com/cn/phones/honor-magic-v6/spec/"
+          ]
+        },
+        {
+          "id": "honor-600-pro-2026",
+          "brand": "HONOR",
+          "modelName": "荣耀600 Pro",
+          "category": "phone",
+          "releaseYear": 2026,
+          "series": "荣耀数字 Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10926553_1.html",
+            "https://detail.zol.com.cn/series/57/50840/param_10926553_0_1.html",
+            "https://detail.zol.com.cn/2167/2166089/param.shtml",
+            "https://detail.zol.com.cn/2167/2166090/param.shtml",
+            "https://detail.zol.com.cn/2167/2166091/param.shtml",
+            "https://g.pconline.com.cn/x/2161/21614611.html",
+            "https://www.honor.com/cn/phones/honor-600-pro/spec/"
+          ]
+        },
+        {
+          "id": "honor-pad-v9-2024",
+          "brand": "HONOR",
+          "modelName": "荣耀平板V9",
+          "category": "tablet",
+          "releaseYear": 2024,
+          "series": "荣耀平板 V",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10908705_1.html",
+            "https://detail.zol.com.cn/series/702/50840/param_10908705_0_1.html",
+            "https://detail.zol.com.cn/2117/2116594/param.shtml",
+            "https://detail.zol.com.cn/2117/2116596/param.shtml",
+            "https://detail.zol.com.cn/2117/2116595/param.shtml",
+            "https://detail.zol.com.cn/2117/2116597/param.shtml",
+            "https://www.ithome.com/0/819/707.htm",
+            "https://www.honor.com/cn/tablets/honor-pad-v9/spec/"
+          ]
+        },
+        {
+          "id": "honor-pad-v9-2024-soft-light",
+          "deviceId": "honor-pad-v9-2024-soft-light",
+          "brand": "HONOR",
+          "modelName": "荣耀平板V9 柔光版",
+          "category": "tablet",
+          "series": "荣耀平板 V",
+          "releaseYear": 2024,
+          "status": "blocked",
+          "reason": "honor-pad-v9-2024-soft-light: 无匹配的具体配置",
+          "sourceUrls": [
+            "https://www.honor.com/cn/tablets/honor-pad-v9/spec/",
+            "https://www.ithome.com/0/819/707.htm"
+          ]
+        }
+      ],
+      "pending": [
+        {
+          "id": "honor-pad10-2025-soft-light",
+          "brand": "HONOR",
+          "modelName": "荣耀平板10 柔光版",
+          "releaseYear": null,
+          "parentListedYear": 2025,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "status": "pending",
+          "reason": "特殊版在真实逐SKU目录独立列出，已从标准版排除；其国行首售、准确配置和版本专属图片本批尚未开展，不继承基型日期",
+          "listedConfigurations": [
+            {
+              "name": "荣耀平板10（12GB/256GB/柔光版）",
+              "term": "柔光",
+              "sourceUrl": "https://detail.zol.com.cn/2130/2129153/param.shtml",
+              "sourceEvidence": {
+                "value": "荣耀平板10（12GB/256GB/柔光版）",
+                "rawText": "荣耀平板10（12GB/256GB/柔光版）",
+                "evidenceKind": "excerpt",
+                "sourceUrl": "https://detail.zol.com.cn/series/702/50840/param_10914111_0_1.html",
+                "sourceType": "reference",
+                "confidence": 0.8,
+                "verifiedAt": "2026-10-05",
+                "fetchedAt": "2026-10-05T19:27:50.772Z",
+                "sourceSnapshotHash": "fdfcb81758744c6d38d2d03ada1eeb980e4132b0023b41646f76794b78a04c09"
+              }
+            },
+            {
+              "name": "荣耀平板10（8GB/256GB/柔光版）",
+              "term": "柔光",
+              "sourceUrl": "https://detail.zol.com.cn/2130/2129151/param.shtml",
+              "sourceEvidence": {
+                "value": "荣耀平板10（8GB/256GB/柔光版）",
+                "rawText": "荣耀平板10（8GB/256GB/柔光版）",
+                "evidenceKind": "excerpt",
+                "sourceUrl": "https://detail.zol.com.cn/series/702/50840/param_10914111_0_1.html",
+                "sourceType": "reference",
+                "confidence": 0.8,
+                "verifiedAt": "2026-10-05",
+                "fetchedAt": "2026-10-05T19:27:50.772Z",
+                "sourceSnapshotHash": "fdfcb81758744c6d38d2d03ada1eeb980e4132b0023b41646f76794b78a04c09"
+              }
+            }
+          ],
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/50840/param_10914111_0_1.html",
+            "https://detail.zol.com.cn/2130/2129153/param.shtml",
+            "https://detail.zol.com.cn/2130/2129151/param.shtml"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板10（12GB/256GB/柔光版）",
+            "rawText": "荣耀平板10（12GB/256GB/柔光版）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/50840/param_10914111_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:27:50.772Z",
+            "sourceSnapshotHash": "fdfcb81758744c6d38d2d03ada1eeb980e4132b0023b41646f76794b78a04c09"
+          },
+          "marketVerification": "基型国行已核验，独立特殊版尚未开展",
+          "yearBasis": "特殊版独立首售年份未知，不继承基型年份"
+        },
+        {
+          "id": "honor-tablet-catalogue-10922769",
+          "brand": "HONOR",
+          "modelName": "荣耀平板X10 Pro",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "荣耀平板X",
+          "seriesId": "10922769",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10922769_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板X10 Pro",
+            "rawText": "荣耀平板X10 Pro",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10922769_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:42.398Z",
+            "sourceSnapshotHash": "2af4f50bd8defc5c0b76f1cf29cd4c21fcb1d4f05faaaff4dd24da7b713f440c"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "系列平板电脑，是荣耀2026年01月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10922769_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:42.398Z",
+            "sourceSnapshotHash": "2af4f50bd8defc5c0b76f1cf29cd4c21fcb1d4f05faaaff4dd24da7b713f440c"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10920202",
+          "brand": "HONOR",
+          "modelName": "荣耀MagicPad3 Pro 13.3",
+          "releaseYear": 2025,
+          "category": "tablet",
+          "series": "荣耀MagicPad",
+          "seriesId": "10920202",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10920202_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀MagicPad3 Pro 13.3",
+            "rawText": "荣耀MagicPad3 Pro 13.3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10920202_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:42.530Z",
+            "sourceSnapshotHash": "0a80e9298f138f8cfc545a7a57f88e93cf7ad36fad2f6f52375b8e9bf9fd0607"
+          },
+          "listedYearEvidence": {
+            "value": 2025,
+            "rawText": "系列平板电脑，是荣耀2025年10月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10920202_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:42.530Z",
+            "sourceSnapshotHash": "0a80e9298f138f8cfc545a7a57f88e93cf7ad36fad2f6f52375b8e9bf9fd0607"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10915778",
+          "brand": "HONOR",
+          "modelName": "荣耀平板GT2 Pro",
+          "releaseYear": 2025,
+          "category": "tablet",
+          "series": "荣耀平板GT",
+          "seriesId": "10915778",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10915778_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板GT2 Pro",
+            "rawText": "荣耀平板GT2 Pro",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10915778_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:42.972Z",
+            "sourceSnapshotHash": "46056473beffd5e7480d655d89d4928f38de264f456cab93a0c5864f9c3042cd"
+          },
+          "listedYearEvidence": {
+            "value": 2025,
+            "rawText": "系列平板电脑，是荣耀2025年07月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10915778_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:42.972Z",
+            "sourceSnapshotHash": "46056473beffd5e7480d655d89d4928f38de264f456cab93a0c5864f9c3042cd"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10927060",
+          "brand": "HONOR",
+          "modelName": "荣耀平板20",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "seriesId": "10927060",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10927060_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板20",
+            "rawText": "荣耀平板20",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10927060_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:43.400Z",
+            "sourceSnapshotHash": "1d2f9480e401cd3b8081e0dd852986c6d29b1a8e6c86c1a63d9860b257db5d0d"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "系列平板电脑，是荣耀2026年05月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10927060_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:43.400Z",
+            "sourceSnapshotHash": "1d2f9480e401cd3b8081e0dd852986c6d29b1a8e6c86c1a63d9860b257db5d0d"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10906526",
+          "brand": "HONOR",
+          "modelName": "荣耀平板GT Pro",
+          "releaseYear": 2024,
+          "category": "tablet",
+          "series": "荣耀平板GT",
+          "seriesId": "10906526",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10906526_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板GT Pro",
+            "rawText": "荣耀平板GT Pro",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10906526_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:43.636Z",
+            "sourceSnapshotHash": "fbed2c5b511a50112abe3dd8ed09684093cdf65678a3a1bc09ab029e7605b729"
+          },
+          "listedYearEvidence": {
+            "value": 2024,
+            "rawText": "系列平板电脑，是荣耀2024年10月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10906526_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:43.636Z",
+            "sourceSnapshotHash": "fbed2c5b511a50112abe3dd8ed09684093cdf65678a3a1bc09ab029e7605b729"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10804045",
+          "brand": "HONOR",
+          "modelName": "荣耀平板X8 Pro",
+          "releaseYear": 2023,
+          "category": "tablet",
+          "series": "荣耀平板X",
+          "seriesId": "10804045",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10804045_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板X8 Pro",
+            "rawText": "荣耀平板X8 Pro",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10804045_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:43.727Z",
+            "sourceSnapshotHash": "b6369a5058a3f98b0e2d7a51f9987368ffd4337c18cfb938113f3c7faad298cc"
+          },
+          "listedYearEvidence": {
+            "value": 2023,
+            "rawText": "系列平板电脑，是荣耀2023年6月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10804045_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:43.727Z",
+            "sourceSnapshotHash": "b6369a5058a3f98b0e2d7a51f9987368ffd4337c18cfb938113f3c7faad298cc"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10920204",
+          "brand": "HONOR",
+          "modelName": "荣耀MagicPad3 12.5",
+          "releaseYear": 2025,
+          "category": "tablet",
+          "series": "荣耀MagicPad",
+          "seriesId": "10920204",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10920204_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀MagicPad3 12.5",
+            "rawText": "荣耀MagicPad3 12.5",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10920204_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:44.842Z",
+            "sourceSnapshotHash": "f89304321ae84bb107cd3b7096055795884e9ce43f41de07ff7a5a4b3a208413"
+          },
+          "listedYearEvidence": {
+            "value": 2025,
+            "rawText": "系列平板电脑，是荣耀2025年10月15日推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10920204_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:44.842Z",
+            "sourceSnapshotHash": "f89304321ae84bb107cd3b7096055795884e9ce43f41de07ff7a5a4b3a208413"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10922774",
+          "brand": "HONOR",
+          "modelName": "荣耀平板10 Pro",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "seriesId": "10922774",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10922774_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板10 Pro",
+            "rawText": "荣耀平板10 Pro",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10922774_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:44.666Z",
+            "sourceSnapshotHash": "089fa0f24aa3bee902f1b01efb4d1409420fe2ab43f7073bbd11db0519d67329"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "系列平板电脑，是荣耀2026年01月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10922774_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:44.666Z",
+            "sourceSnapshotHash": "089fa0f24aa3bee902f1b01efb4d1409420fe2ab43f7073bbd11db0519d67329"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10926031",
+          "brand": "HONOR",
+          "modelName": "荣耀MagicPad3 Pro 12.3",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "荣耀MagicPad",
+          "seriesId": "10926031",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10926031_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀MagicPad3 Pro 12.3",
+            "rawText": "荣耀MagicPad3 Pro 12.3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10926031_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:45.802Z",
+            "sourceSnapshotHash": "00189ce6baeb5aa32a005e2c14b1df86b6ea5e5b955c8ca9b5e775a52d6df39b"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "系列平板电脑，是荣耀2026年4月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10926031_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:45.802Z",
+            "sourceSnapshotHash": "00189ce6baeb5aa32a005e2c14b1df86b6ea5e5b955c8ca9b5e775a52d6df39b"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10860558",
+          "brand": "HONOR",
+          "modelName": "荣耀平板9 Pro",
+          "releaseYear": 2024,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "seriesId": "10860558",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10860558_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板9 Pro",
+            "rawText": "荣耀平板9 Pro",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10860558_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:46.422Z",
+            "sourceSnapshotHash": "acd0fc6057e87c1f0f5cd448501580f59f6d48bf8c30a85caec5d56fa17708db"
+          },
+          "listedYearEvidence": {
+            "value": 2024,
+            "rawText": "系列平板电脑，是荣耀2024年04月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10860558_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:46.422Z",
+            "sourceSnapshotHash": "acd0fc6057e87c1f0f5cd448501580f59f6d48bf8c30a85caec5d56fa17708db"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10930459",
+          "brand": "HONOR",
+          "modelName": "荣耀平板X10 Pro Max",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "荣耀平板X",
+          "seriesId": "10930459",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10930459_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板X10 Pro Max",
+            "rawText": "荣耀平板X10 Pro Max",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10930459_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:46.856Z",
+            "sourceSnapshotHash": "20da4e92751a275fa4c0f9529bd2205f71bc511b8a7b2bc21b5ab580d953da8b"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "系列平板电脑，是荣耀2026年09月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10930459_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:46.856Z",
+            "sourceSnapshotHash": "20da4e92751a275fa4c0f9529bd2205f71bc511b8a7b2bc21b5ab580d953da8b"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10930462",
+          "brand": "HONOR",
+          "modelName": "荣耀MagicPad4",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "荣耀MagicPad",
+          "seriesId": "10930462",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10930462_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀MagicPad4",
+            "rawText": "荣耀MagicPad4",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10930462_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:46.885Z",
+            "sourceSnapshotHash": "a3ebcab895a572f08a7f847e5a51edcafab662180a3648be894f4645f563dd93"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "系列平板电脑，是荣耀2026年09月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10930462_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:46.885Z",
+            "sourceSnapshotHash": "a3ebcab895a572f08a7f847e5a51edcafab662180a3648be894f4645f563dd93"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        }
+      ],
+      "blocked": [
+        {
+          "id": "honor-pad-v9-2024-soft-light",
+          "deviceId": "honor-pad-v9-2024-soft-light",
+          "brand": "HONOR",
+          "modelName": "荣耀平板V9 柔光版",
+          "category": "tablet",
+          "series": "荣耀平板 V",
+          "releaseYear": 2024,
+          "status": "blocked",
+          "reason": "honor-pad-v9-2024-soft-light: 无匹配的具体配置",
+          "sourceUrls": [
+            "https://www.honor.com/cn/tablets/honor-pad-v9/spec/",
+            "https://www.ithome.com/0/819/707.htm"
+          ]
+        }
+      ],
+      "checkedThisBatchIds": [
+        "honor-tablet-catalogue-10908705",
+        "honor-pad-v9-2024-soft-light"
+      ],
+      "inheritedBlockedIds": [],
+      "resolvedInheritedBlockedIds": [],
+      "newBlockedIds": [
+        "honor-pad-v9-2024-soft-light"
+      ],
+      "differenceFromExisting": [
+        {
+          "id": "honor-pad10-2025-soft-light",
+          "brand": "HONOR",
+          "modelName": "荣耀平板10 柔光版",
+          "releaseYear": null,
+          "parentListedYear": 2025,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "status": "pending",
+          "reason": "特殊版在真实逐SKU目录独立列出，已从标准版排除；其国行首售、准确配置和版本专属图片本批尚未开展，不继承基型日期",
+          "listedConfigurations": [
+            {
+              "name": "荣耀平板10（12GB/256GB/柔光版）",
+              "term": "柔光",
+              "sourceUrl": "https://detail.zol.com.cn/2130/2129153/param.shtml",
+              "sourceEvidence": {
+                "value": "荣耀平板10（12GB/256GB/柔光版）",
+                "rawText": "荣耀平板10（12GB/256GB/柔光版）",
+                "evidenceKind": "excerpt",
+                "sourceUrl": "https://detail.zol.com.cn/series/702/50840/param_10914111_0_1.html",
+                "sourceType": "reference",
+                "confidence": 0.8,
+                "verifiedAt": "2026-10-05",
+                "fetchedAt": "2026-10-05T19:27:50.772Z",
+                "sourceSnapshotHash": "fdfcb81758744c6d38d2d03ada1eeb980e4132b0023b41646f76794b78a04c09"
+              }
+            },
+            {
+              "name": "荣耀平板10（8GB/256GB/柔光版）",
+              "term": "柔光",
+              "sourceUrl": "https://detail.zol.com.cn/2130/2129151/param.shtml",
+              "sourceEvidence": {
+                "value": "荣耀平板10（8GB/256GB/柔光版）",
+                "rawText": "荣耀平板10（8GB/256GB/柔光版）",
+                "evidenceKind": "excerpt",
+                "sourceUrl": "https://detail.zol.com.cn/series/702/50840/param_10914111_0_1.html",
+                "sourceType": "reference",
+                "confidence": 0.8,
+                "verifiedAt": "2026-10-05",
+                "fetchedAt": "2026-10-05T19:27:50.772Z",
+                "sourceSnapshotHash": "fdfcb81758744c6d38d2d03ada1eeb980e4132b0023b41646f76794b78a04c09"
+              }
+            }
+          ],
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/50840/param_10914111_0_1.html",
+            "https://detail.zol.com.cn/2130/2129153/param.shtml",
+            "https://detail.zol.com.cn/2130/2129151/param.shtml"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板10（12GB/256GB/柔光版）",
+            "rawText": "荣耀平板10（12GB/256GB/柔光版）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/50840/param_10914111_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:27:50.772Z",
+            "sourceSnapshotHash": "fdfcb81758744c6d38d2d03ada1eeb980e4132b0023b41646f76794b78a04c09"
+          },
+          "marketVerification": "基型国行已核验，独立特殊版尚未开展",
+          "yearBasis": "特殊版独立首售年份未知，不继承基型年份"
+        },
+        {
+          "id": "honor-tablet-catalogue-10922769",
+          "brand": "HONOR",
+          "modelName": "荣耀平板X10 Pro",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "荣耀平板X",
+          "seriesId": "10922769",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10922769_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板X10 Pro",
+            "rawText": "荣耀平板X10 Pro",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10922769_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:42.398Z",
+            "sourceSnapshotHash": "2af4f50bd8defc5c0b76f1cf29cd4c21fcb1d4f05faaaff4dd24da7b713f440c"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "系列平板电脑，是荣耀2026年01月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10922769_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:42.398Z",
+            "sourceSnapshotHash": "2af4f50bd8defc5c0b76f1cf29cd4c21fcb1d4f05faaaff4dd24da7b713f440c"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10920202",
+          "brand": "HONOR",
+          "modelName": "荣耀MagicPad3 Pro 13.3",
+          "releaseYear": 2025,
+          "category": "tablet",
+          "series": "荣耀MagicPad",
+          "seriesId": "10920202",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10920202_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀MagicPad3 Pro 13.3",
+            "rawText": "荣耀MagicPad3 Pro 13.3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10920202_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:42.530Z",
+            "sourceSnapshotHash": "0a80e9298f138f8cfc545a7a57f88e93cf7ad36fad2f6f52375b8e9bf9fd0607"
+          },
+          "listedYearEvidence": {
+            "value": 2025,
+            "rawText": "系列平板电脑，是荣耀2025年10月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10920202_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:42.530Z",
+            "sourceSnapshotHash": "0a80e9298f138f8cfc545a7a57f88e93cf7ad36fad2f6f52375b8e9bf9fd0607"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10915778",
+          "brand": "HONOR",
+          "modelName": "荣耀平板GT2 Pro",
+          "releaseYear": 2025,
+          "category": "tablet",
+          "series": "荣耀平板GT",
+          "seriesId": "10915778",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10915778_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板GT2 Pro",
+            "rawText": "荣耀平板GT2 Pro",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10915778_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:42.972Z",
+            "sourceSnapshotHash": "46056473beffd5e7480d655d89d4928f38de264f456cab93a0c5864f9c3042cd"
+          },
+          "listedYearEvidence": {
+            "value": 2025,
+            "rawText": "系列平板电脑，是荣耀2025年07月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10915778_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:42.972Z",
+            "sourceSnapshotHash": "46056473beffd5e7480d655d89d4928f38de264f456cab93a0c5864f9c3042cd"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10927060",
+          "brand": "HONOR",
+          "modelName": "荣耀平板20",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "seriesId": "10927060",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10927060_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板20",
+            "rawText": "荣耀平板20",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10927060_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:43.400Z",
+            "sourceSnapshotHash": "1d2f9480e401cd3b8081e0dd852986c6d29b1a8e6c86c1a63d9860b257db5d0d"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "系列平板电脑，是荣耀2026年05月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10927060_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:43.400Z",
+            "sourceSnapshotHash": "1d2f9480e401cd3b8081e0dd852986c6d29b1a8e6c86c1a63d9860b257db5d0d"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10906526",
+          "brand": "HONOR",
+          "modelName": "荣耀平板GT Pro",
+          "releaseYear": 2024,
+          "category": "tablet",
+          "series": "荣耀平板GT",
+          "seriesId": "10906526",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10906526_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板GT Pro",
+            "rawText": "荣耀平板GT Pro",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10906526_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:43.636Z",
+            "sourceSnapshotHash": "fbed2c5b511a50112abe3dd8ed09684093cdf65678a3a1bc09ab029e7605b729"
+          },
+          "listedYearEvidence": {
+            "value": 2024,
+            "rawText": "系列平板电脑，是荣耀2024年10月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10906526_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:43.636Z",
+            "sourceSnapshotHash": "fbed2c5b511a50112abe3dd8ed09684093cdf65678a3a1bc09ab029e7605b729"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10804045",
+          "brand": "HONOR",
+          "modelName": "荣耀平板X8 Pro",
+          "releaseYear": 2023,
+          "category": "tablet",
+          "series": "荣耀平板X",
+          "seriesId": "10804045",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10804045_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板X8 Pro",
+            "rawText": "荣耀平板X8 Pro",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10804045_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:43.727Z",
+            "sourceSnapshotHash": "b6369a5058a3f98b0e2d7a51f9987368ffd4337c18cfb938113f3c7faad298cc"
+          },
+          "listedYearEvidence": {
+            "value": 2023,
+            "rawText": "系列平板电脑，是荣耀2023年6月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10804045_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:43.727Z",
+            "sourceSnapshotHash": "b6369a5058a3f98b0e2d7a51f9987368ffd4337c18cfb938113f3c7faad298cc"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10920204",
+          "brand": "HONOR",
+          "modelName": "荣耀MagicPad3 12.5",
+          "releaseYear": 2025,
+          "category": "tablet",
+          "series": "荣耀MagicPad",
+          "seriesId": "10920204",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10920204_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀MagicPad3 12.5",
+            "rawText": "荣耀MagicPad3 12.5",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10920204_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:44.842Z",
+            "sourceSnapshotHash": "f89304321ae84bb107cd3b7096055795884e9ce43f41de07ff7a5a4b3a208413"
+          },
+          "listedYearEvidence": {
+            "value": 2025,
+            "rawText": "系列平板电脑，是荣耀2025年10月15日推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10920204_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:44.842Z",
+            "sourceSnapshotHash": "f89304321ae84bb107cd3b7096055795884e9ce43f41de07ff7a5a4b3a208413"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10922774",
+          "brand": "HONOR",
+          "modelName": "荣耀平板10 Pro",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "seriesId": "10922774",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10922774_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板10 Pro",
+            "rawText": "荣耀平板10 Pro",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10922774_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:44.666Z",
+            "sourceSnapshotHash": "089fa0f24aa3bee902f1b01efb4d1409420fe2ab43f7073bbd11db0519d67329"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "系列平板电脑，是荣耀2026年01月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10922774_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:44.666Z",
+            "sourceSnapshotHash": "089fa0f24aa3bee902f1b01efb4d1409420fe2ab43f7073bbd11db0519d67329"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10926031",
+          "brand": "HONOR",
+          "modelName": "荣耀MagicPad3 Pro 12.3",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "荣耀MagicPad",
+          "seriesId": "10926031",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10926031_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀MagicPad3 Pro 12.3",
+            "rawText": "荣耀MagicPad3 Pro 12.3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10926031_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:45.802Z",
+            "sourceSnapshotHash": "00189ce6baeb5aa32a005e2c14b1df86b6ea5e5b955c8ca9b5e775a52d6df39b"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "系列平板电脑，是荣耀2026年4月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10926031_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:45.802Z",
+            "sourceSnapshotHash": "00189ce6baeb5aa32a005e2c14b1df86b6ea5e5b955c8ca9b5e775a52d6df39b"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10860558",
+          "brand": "HONOR",
+          "modelName": "荣耀平板9 Pro",
+          "releaseYear": 2024,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "seriesId": "10860558",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10860558_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板9 Pro",
+            "rawText": "荣耀平板9 Pro",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10860558_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:46.422Z",
+            "sourceSnapshotHash": "acd0fc6057e87c1f0f5cd448501580f59f6d48bf8c30a85caec5d56fa17708db"
+          },
+          "listedYearEvidence": {
+            "value": 2024,
+            "rawText": "系列平板电脑，是荣耀2024年04月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10860558_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:46.422Z",
+            "sourceSnapshotHash": "acd0fc6057e87c1f0f5cd448501580f59f6d48bf8c30a85caec5d56fa17708db"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10930459",
+          "brand": "HONOR",
+          "modelName": "荣耀平板X10 Pro Max",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "荣耀平板X",
+          "seriesId": "10930459",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10930459_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板X10 Pro Max",
+            "rawText": "荣耀平板X10 Pro Max",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10930459_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:46.856Z",
+            "sourceSnapshotHash": "20da4e92751a275fa4c0f9529bd2205f71bc511b8a7b2bc21b5ab580d953da8b"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "系列平板电脑，是荣耀2026年09月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10930459_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:46.856Z",
+            "sourceSnapshotHash": "20da4e92751a275fa4c0f9529bd2205f71bc511b8a7b2bc21b5ab580d953da8b"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-tablet-catalogue-10930462",
+          "brand": "HONOR",
+          "modelName": "荣耀MagicPad4",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "荣耀MagicPad",
+          "seriesId": "10930462",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/10930462_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀MagicPad4",
+            "rawText": "荣耀MagicPad4",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10930462_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:46.885Z",
+            "sourceSnapshotHash": "a3ebcab895a572f08a7f847e5a51edcafab662180a3648be894f4645f563dd93"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "系列平板电脑，是荣耀2026年09月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10930462_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:46.885Z",
+            "sourceSnapshotHash": "a3ebcab895a572f08a7f847e5a51edcafab662180a3648be894f4645f563dd93"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "honor-pad-v9-2024",
+          "brand": "HONOR",
+          "modelName": "荣耀平板V9",
+          "category": "tablet",
+          "releaseYear": 2024,
+          "series": "荣耀平板 V",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10908705_1.html",
+            "https://detail.zol.com.cn/series/702/50840/param_10908705_0_1.html",
+            "https://detail.zol.com.cn/2117/2116594/param.shtml",
+            "https://detail.zol.com.cn/2117/2116596/param.shtml",
+            "https://detail.zol.com.cn/2117/2116595/param.shtml",
+            "https://detail.zol.com.cn/2117/2116597/param.shtml",
+            "https://www.ithome.com/0/819/707.htm",
+            "https://www.honor.com/cn/tablets/honor-pad-v9/spec/"
+          ]
+        },
+        {
+          "id": "honor-pad-v9-2024-soft-light",
+          "deviceId": "honor-pad-v9-2024-soft-light",
+          "brand": "HONOR",
+          "modelName": "荣耀平板V9 柔光版",
+          "category": "tablet",
+          "series": "荣耀平板 V",
+          "releaseYear": 2024,
+          "status": "blocked",
+          "reason": "honor-pad-v9-2024-soft-light: 无匹配的具体配置",
+          "sourceUrls": [
+            "https://www.honor.com/cn/tablets/honor-pad-v9/spec/",
+            "https://www.ithome.com/0/819/707.htm"
+          ]
+        }
+      ],
+      "scopeChecks": [
+        {
+          "id": "honor-tablet-catalogue-35947",
+          "brand": "HONOR",
+          "modelName": "荣耀平板V7",
+          "releaseYear": 2021,
+          "category": "tablet",
+          "series": "荣耀平板V",
+          "seriesId": "35947",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/35947_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板V7",
+            "rawText": "荣耀平板V7",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/35947_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:43.512Z",
+            "sourceSnapshotHash": "5c3eacc558311466deddefe249cbddafb535a4a58d63c9afd233d9af295e894f"
+          },
+          "listedYearEvidence": {
+            "value": 2021,
+            "rawText": "系列平板电脑，是荣耀2021年09月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/35947_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:43.512Z",
+            "sourceSnapshotHash": "5c3eacc558311466deddefe249cbddafb535a4a58d63c9afd233d9af295e894f"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "outsideScope",
+          "reason": "目录原文明确推出年份早于2022，不纳入本次五年范围"
+        },
+        {
+          "id": "honor-tablet-catalogue-33430",
+          "brand": "HONOR",
+          "modelName": "荣耀平板7",
+          "releaseYear": 2021,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "seriesId": "33430",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/33430_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板7",
+            "rawText": "荣耀平板7",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/33430_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:44.269Z",
+            "sourceSnapshotHash": "83c1d10d158ddd30051fe61fe4cfb9710628fd3dc9ed3ca3af18d4e693fb777a"
+          },
+          "listedYearEvidence": {
+            "value": 2021,
+            "rawText": "系列平板电脑，是荣耀2021年03月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/33430_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:44.269Z",
+            "sourceSnapshotHash": "83c1d10d158ddd30051fe61fe4cfb9710628fd3dc9ed3ca3af18d4e693fb777a"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "outsideScope",
+          "reason": "目录原文明确推出年份早于2022，不纳入本次五年范围"
+        },
+        {
+          "id": "honor-tablet-catalogue-22791",
+          "brand": "HONOR",
+          "modelName": "荣耀畅玩平板2（7英寸）",
+          "releaseYear": 2017,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "seriesId": "22791",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/22791_1.html",
+            "https://detail.zol.com.cn/1178/1177834/param.shtml"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀畅玩平板2（7英寸）",
+            "rawText": "荣耀畅玩平板2（7英寸）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/22791_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:44.739Z",
+            "sourceSnapshotHash": "f82282433920543cc560779f00a1f89cfc53abc416724df10f0dfd7519962b83"
+          },
+          "listedYearEvidence": {
+            "value": 2017,
+            "rawText": "上市时间 2017年07月",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1178/1177834/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:46:43.269Z",
+            "sourceSnapshotHash": "fec9e077cfd5eea2bb663eff839643218e7ffb81ae70a02b8a1818de4507f681"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "outsideScope",
+          "reason": "目录原文明确推出年份早于2022，不纳入本次五年范围"
+        },
+        {
+          "id": "honor-tablet-catalogue-22269",
+          "brand": "HONOR",
+          "modelName": "荣耀畅玩平板2（8英寸）",
+          "releaseYear": 2017,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "seriesId": "22269",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/22269_1.html",
+            "https://detail.zol.com.cn/1183/1182048/param.shtml"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀畅玩平板2（8英寸）",
+            "rawText": "荣耀畅玩平板2（8英寸）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/22269_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:45.388Z",
+            "sourceSnapshotHash": "a47eefc2016753a796966b7ff9aa9f63318aa2e60ed3bf97752d6f5fe07212f7"
+          },
+          "listedYearEvidence": {
+            "value": 2017,
+            "rawText": "上市时间 2017年05月",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1183/1182048/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:46:43.593Z",
+            "sourceSnapshotHash": "b230130ff5f17182ab0d166152a208e9ff68413ed4697902303a35272fcb0500"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "outsideScope",
+          "reason": "目录原文明确推出年份早于2022，不纳入本次五年范围"
+        },
+        {
+          "id": "honor-tablet-catalogue-22270",
+          "brand": "HONOR",
+          "modelName": "荣耀畅玩平板2（9.6英寸）",
+          "releaseYear": 2017,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "seriesId": "22270",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/22270_1.html",
+            "https://detail.zol.com.cn/1172/1171796/param.shtml"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀畅玩平板2（9.6英寸）",
+            "rawText": "荣耀畅玩平板2（9.6英寸）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/22270_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:45.429Z",
+            "sourceSnapshotHash": "968905263be5b4bb2eae66012bada598de87a4c2c18c52bf45037e7188535535"
+          },
+          "listedYearEvidence": {
+            "value": 2017,
+            "rawText": "上市时间 2017年05月",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1172/1171796/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:46:43.700Z",
+            "sourceSnapshotHash": "1de2d20ccece1322a9824057ec8a8377f5b4333ce5a75f8d85e1ed8571b212e3"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "outsideScope",
+          "reason": "目录原文明确推出年份早于2022，不纳入本次五年范围"
+        },
+        {
+          "id": "honor-tablet-catalogue-19389",
+          "brand": "HONOR",
+          "modelName": "荣耀畅玩平板note",
+          "releaseYear": 2015,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "seriesId": "19389",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/19389_1.html",
+            "https://detail.zol.com.cn/401/400392/param.shtml"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀畅玩平板note",
+            "rawText": "荣耀畅玩平板note",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/19389_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:45.311Z",
+            "sourceSnapshotHash": "415e070b919b5e74fd7c145d8fb4cd5e20f36b1ea368deb4631f6e3064b78369"
+          },
+          "listedYearEvidence": {
+            "value": 2015,
+            "rawText": "上市时间 2015年04月",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/401/400392/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:46:43.500Z",
+            "sourceSnapshotHash": "7f098a5cb8553930353f73a1f036f537110c5b4ecac777e19affd135e47f373a"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "outsideScope",
+          "reason": "目录原文明确推出年份早于2022，不纳入本次五年范围"
+        },
+        {
+          "id": "honor-tablet-catalogue-21587",
+          "brand": "HONOR",
+          "modelName": "荣耀畅玩平板",
+          "releaseYear": 2015,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "seriesId": "21587",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/21587_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀畅玩平板",
+            "rawText": "荣耀畅玩平板",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/21587_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:45.823Z",
+            "sourceSnapshotHash": "6c14f3063f3b254bdd298181061e7776c41e44f44915436e284c53cd7fede899"
+          },
+          "listedYearEvidence": {
+            "value": 2015,
+            "rawText": "系列平板电脑，是荣耀2015年04月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/21587_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:45.823Z",
+            "sourceSnapshotHash": "6c14f3063f3b254bdd298181061e7776c41e44f44915436e284c53cd7fede899"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "outsideScope",
+          "reason": "目录原文明确推出年份早于2022，不纳入本次五年范围"
+        },
+        {
+          "id": "honor-tablet-catalogue-21361",
+          "brand": "HONOR",
+          "modelName": "荣耀平板2",
+          "releaseYear": 2016,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "seriesId": "21361",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/21361_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板2",
+            "rawText": "荣耀平板2",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/21361_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:45.869Z",
+            "sourceSnapshotHash": "3bc56081b07227516b8eacefa43541ce0c0f69bf8ea67396418df44687f7e469"
+          },
+          "listedYearEvidence": {
+            "value": 2016,
+            "rawText": "系列平板电脑，是荣耀2016年10月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/21361_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:45.869Z",
+            "sourceSnapshotHash": "3bc56081b07227516b8eacefa43541ce0c0f69bf8ea67396418df44687f7e469"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "outsideScope",
+          "reason": "目录原文明确推出年份早于2022，不纳入本次五年范围"
+        },
+        {
+          "id": "honor-tablet-catalogue-35203",
+          "brand": "HONOR",
+          "modelName": "荣耀平板V7 Pro",
+          "releaseYear": 2021,
+          "category": "tablet",
+          "series": "荣耀平板V",
+          "seriesId": "35203",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/35203_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板V7 Pro",
+            "rawText": "荣耀平板V7 Pro",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/35203_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:46.473Z",
+            "sourceSnapshotHash": "b4686b86a9fb69540a6178217381364dfb780e2d2f8e455e50a93c53ccd0a5d6"
+          },
+          "listedYearEvidence": {
+            "value": 2021,
+            "rawText": "系列平板电脑，是荣耀2021年08月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/35203_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:46.473Z",
+            "sourceSnapshotHash": "b4686b86a9fb69540a6178217381364dfb780e2d2f8e455e50a93c53ccd0a5d6"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "outsideScope",
+          "reason": "目录原文明确推出年份早于2022，不纳入本次五年范围"
+        },
+        {
+          "id": "honor-tablet-catalogue-30811",
+          "brand": "HONOR",
+          "modelName": "荣耀平板X6",
+          "releaseYear": 2020,
+          "category": "tablet",
+          "series": "荣耀平板X",
+          "seriesId": "30811",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/30811_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板X6",
+            "rawText": "荣耀平板X6",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/30811_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:46.436Z",
+            "sourceSnapshotHash": "c6e4f8e1cb761a35290b42b97939f83d02b7aa2913c523f0d70998de80722988"
+          },
+          "listedYearEvidence": {
+            "value": 2020,
+            "rawText": "系列平板电脑，是荣耀2020年07月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/30811_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:46.436Z",
+            "sourceSnapshotHash": "c6e4f8e1cb761a35290b42b97939f83d02b7aa2913c523f0d70998de80722988"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "outsideScope",
+          "reason": "目录原文明确推出年份早于2022，不纳入本次五年范围"
+        },
+        {
+          "id": "honor-tablet-catalogue-18105",
+          "brand": "HONOR",
+          "modelName": "荣耀平板",
+          "releaseYear": 2014,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "seriesId": "18105",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/18105_1.html",
+            "https://detail.zol.com.cn/388/387827/param.shtml"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板",
+            "rawText": "荣耀平板",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/18105_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:46.928Z",
+            "sourceSnapshotHash": "79bf0041763a639921e24cb89cab36303152d7b45828c97970d39ca4d01f2fc7"
+          },
+          "listedYearEvidence": {
+            "value": 2014,
+            "rawText": "上市时间 2014年09月",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/388/387827/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:46:43.927Z",
+            "sourceSnapshotHash": "99450b47cc775fa342d8909e54a3c9b20118fc95b633f4094e1ddb2c543f0e1c"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "outsideScope",
+          "reason": "目录原文明确推出年份早于2022，不纳入本次五年范围"
+        },
+        {
+          "id": "honor-tablet-catalogue-24293",
+          "brand": "HONOR",
+          "modelName": "荣耀平板5",
+          "releaseYear": 2018,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "seriesId": "24293",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/24293_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板5",
+            "rawText": "荣耀平板5",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/24293_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:47.010Z",
+            "sourceSnapshotHash": "83690d1d167fa2a082374be58c4d24a950eba869d17b28d7d6991901f9c64e88"
+          },
+          "listedYearEvidence": {
+            "value": 2018,
+            "rawText": "系列平板电脑，是荣耀2018年10月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/24293_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:47.010Z",
+            "sourceSnapshotHash": "83690d1d167fa2a082374be58c4d24a950eba869d17b28d7d6991901f9c64e88"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "outsideScope",
+          "reason": "目录原文明确推出年份早于2022，不纳入本次五年范围"
+        },
+        {
+          "id": "honor-tablet-catalogue-30809",
+          "brand": "HONOR",
+          "modelName": "荣耀平板6",
+          "releaseYear": 2020,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "seriesId": "30809",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/30809_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板6",
+            "rawText": "荣耀平板6",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/30809_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:47.506Z",
+            "sourceSnapshotHash": "7a8dd93d0b7385af65b12a4528fa9a1d999f049b004538042837dd92053bdb36"
+          },
+          "listedYearEvidence": {
+            "value": 2020,
+            "rawText": "系列平板电脑，是荣耀2020年07月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/30809_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:47.506Z",
+            "sourceSnapshotHash": "7a8dd93d0b7385af65b12a4528fa9a1d999f049b004538042837dd92053bdb36"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "outsideScope",
+          "reason": "目录原文明确推出年份早于2022，不纳入本次五年范围"
+        },
+        {
+          "id": "honor-tablet-catalogue-30078",
+          "brand": "HONOR",
+          "modelName": "荣耀平板V6",
+          "releaseYear": 2020,
+          "category": "tablet",
+          "series": "荣耀平板V",
+          "seriesId": "30078",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/30078_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板V6",
+            "rawText": "荣耀平板V6",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/30078_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:49.784Z",
+            "sourceSnapshotHash": "1c9c4fa7920d01b2e20f8f0f66d3ec00bebe085d7e46a9708798b4f0a67dfe0b"
+          },
+          "listedYearEvidence": {
+            "value": 2020,
+            "rawText": "系列平板电脑，是荣耀2020年05月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/30078_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:49.784Z",
+            "sourceSnapshotHash": "1c9c4fa7920d01b2e20f8f0f66d3ec00bebe085d7e46a9708798b4f0a67dfe0b"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "outsideScope",
+          "reason": "目录原文明确推出年份早于2022，不纳入本次五年范围"
+        },
+        {
+          "id": "honor-tablet-catalogue-25180",
+          "brand": "HONOR",
+          "modelName": "荣耀Waterplay8英寸",
+          "releaseYear": 2018,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "seriesId": "25180",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/25180_1.html",
+            "https://detail.zol.com.cn/1247/1246663/param.shtml"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀Waterplay8英寸",
+            "rawText": "荣耀Waterplay8英寸",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/25180_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:50.336Z",
+            "sourceSnapshotHash": "3cba9554ada3b3267721b284cdbc6c734a78cff88d056bf9a86aa3360ed58776"
+          },
+          "listedYearEvidence": {
+            "value": 2018,
+            "rawText": "上市时间 2018年10月",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1247/1246663/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:46:44.189Z",
+            "sourceSnapshotHash": "d9868398a249cb8ef45fcca0510c90ec17fa55ad91454db4d57c02c784289395"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "outsideScope",
+          "reason": "目录原文明确推出年份早于2022，不纳入本次五年范围"
+        },
+        {
+          "id": "honor-tablet-catalogue-22779",
+          "brand": "HONOR",
+          "modelName": "荣耀Waterplay",
+          "releaseYear": 2017,
+          "category": "tablet",
+          "series": "荣耀平板",
+          "seriesId": "22779",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/22779_1.html",
+            "https://detail.zol.com.cn/1185/1184261/param.shtml"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀Waterplay",
+            "rawText": "荣耀Waterplay",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/22779_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:50.802Z",
+            "sourceSnapshotHash": "3d98b7b0731683a45d1b038700be520acc290d64d132028884c4c23ecd3279d3"
+          },
+          "listedYearEvidence": {
+            "value": 2017,
+            "rawText": "上市时间 2017年10月",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1185/1184261/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:46:44.432Z",
+            "sourceSnapshotHash": "268c886e18bed28d7066b83a9c2bb39ea9129b963424396ce9900faad34342d1"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "outsideScope",
+          "reason": "目录原文明确推出年份早于2022，不纳入本次五年范围"
+        },
+        {
+          "id": "honor-tablet-catalogue-33904",
+          "brand": "HONOR",
+          "modelName": "荣耀平板X7 8英寸",
+          "releaseYear": 2021,
+          "category": "tablet",
+          "series": "荣耀平板X",
+          "seriesId": "33904",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/",
+            "https://detail.zol.com.cn/series/702/33904_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "荣耀平板X7 8英寸",
+            "rawText": "荣耀平板X7 8英寸",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/33904_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:50.765Z",
+            "sourceSnapshotHash": "dbb6a957778850984c0e39b1f75920b561fea35d14806e03d713b1a34caa54bd"
+          },
+          "listedYearEvidence": {
+            "value": 2021,
+            "rawText": "系列平板电脑，是荣耀2021年05月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/33904_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:50.765Z",
+            "sourceSnapshotHash": "dbb6a957778850984c0e39b1f75920b561fea35d14806e03d713b1a34caa54bd"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "outsideScope",
+          "reason": "目录原文明确推出年份早于2022，不纳入本次五年范围"
+        }
+      ],
+      "catalogueEvidence": [
+        {
+          "brand": "HONOR",
+          "category": "tablet",
+          "status": "verified_partial",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/honor/"
+          ],
+          "seriesIds": [
+            "10922769",
+            "10914111",
+            "10775717",
+            "10915289",
+            "10848473",
+            "10920202",
+            "10915778",
+            "10927060",
+            "35947",
+            "10906526",
+            "33430",
+            "10720915",
+            "10804045",
+            "10920204",
+            "10922774",
+            "22791",
+            "22269",
+            "22270",
+            "19389",
+            "21587",
+            "10926031",
+            "21361",
+            "10860558",
+            "35203",
+            "30811",
+            "10930459",
+            "18105",
+            "10930462",
+            "24293",
+            "30809",
+            "10713746",
+            "10876583",
+            "30078",
+            "10760518",
+            "10908705",
+            "10717460",
+            "25180",
+            "22779",
+            "10725202",
+            "33904"
+          ],
+          "evidence": {
+            "value": 40,
+            "rawText": "<a href=\"/series/702/10922769_1.html\" target=\"_blank\">",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/tablepc/honor/",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:23:25.719Z",
+            "sourceSnapshotHash": "97fa882e73aeb66939d1cf3bb93d9627b67e2a3f4f5be700af25d6c5504c6e2f"
+          },
+          "enumeration": "数量由此页实际可见唯一系列链接计算；仅公开导航，不包含隐藏历史目录和所有特殊SKU"
+        }
+      ],
+      "enumerationScope": {
+        "phone": "本批未扩展，partial",
+        "tablet": "既有有限候选的实际身份/年份差集；柔光/网络版型另列，仍partial，未枚举范围不表示不存在",
+        "laptop": "本批未开展，partial"
+      },
+      "statusMeaning": {
+        "present": "当前manifest已收录",
+        "added": "本批新实际证据通过",
+        "pending": "尚未开展关键证据核验",
+        "blocked": "本批实际检查失败或继承旧阻塞；inheritedBlockedIds未在本批重试"
+      }
+    }
+  },
+  "devices": [
+    {
+      "id": "honor-pad-v9-2024",
+      "brand": "HONOR",
+      "market": "CN",
+      "category": "tablet",
+      "series": "荣耀平板 V",
+      "family": "荣耀平板 V",
+      "variant": "standard",
+      "modelName": "荣耀平板V9",
+      "generation": "2024",
+      "generationOrder": 2024,
+      "releaseYear": 2024,
+      "releaseDate": "2024-12-24",
+      "comparisonGroupId": "honor.tablet.pad-v.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "8GB + 128GB",
+            "rawText": "荣耀平板V9(8GB/128GB)；系统内存 8GB；存储容量 128GB；处理器型号 联发科 天玑 8350至尊版",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2117/2116594/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:55:40.425Z",
+            "sourceSnapshotHash": "30a9ca70732f849cdd729d85d0784277843bc1c3e02f8f223318c6b8bf4ac331"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "荣耀平板V9(12GB/256GB)；系统内存 12GB；存储容量 256GB；处理器型号 联发科 天玑 8350至尊版",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2117/2116596/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:55:40.182Z",
+            "sourceSnapshotHash": "930312f2f53784453b72487c27fc015a8305f1d2091a391ac1136917077155fc"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "荣耀平板V9(8GB/256GB)；系统内存 8GB；存储容量 256GB；处理器型号 联发科 天玑 8350至尊版",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2117/2116595/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:55:40.371Z",
+            "sourceSnapshotHash": "84193286d034b185acd6e9f2937cc0dc4479f761d6fd36045399ba509969316f"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "荣耀平板V9(12GB/512GB)；系统内存 12GB；存储容量 512GB；处理器型号 联发科 天玑 8350至尊版",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2117/2116597/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:55:40.625Z",
+            "sourceSnapshotHash": "3a9ce1612e1799d7f92d8e4ea7ecd5ca69d7b0c29276d97203aa36b2c920f735"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "联发科 天玑 8350至尊版",
+          "rawText": "处理器型号 联发科 天玑 8350至尊版",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2117/2116594/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:55:40.425Z",
+          "sourceSnapshotHash": "30a9ca70732f849cdd729d85d0784277843bc1c3e02f8f223318c6b8bf4ac331",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "memory": {
+          "value": "8GB / 12GB",
+          "rawText": "系统内存 8GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2117/2116594/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:55:40.425Z",
+          "sourceSnapshotHash": "30a9ca70732f849cdd729d85d0784277843bc1c3e02f8f223318c6b8bf4ac331",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "storage": {
+          "value": "128GB / 256GB / 512GB",
+          "rawText": "存储容量 128GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2117/2116594/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:55:40.425Z",
+          "sourceSnapshotHash": "30a9ca70732f849cdd729d85d0784277843bc1c3e02f8f223318c6b8bf4ac331",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "screenSize": {
+          "value": 11.5,
+          "unit": "inch",
+          "rawText": "屏幕尺寸 11.5英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2117/2116594/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:55:40.425Z",
+          "sourceSnapshotHash": "30a9ca70732f849cdd729d85d0784277843bc1c3e02f8f223318c6b8bf4ac331"
+        },
+        "displayType": {
+          "value": "LCD",
+          "rawText": "屏幕类型 LCD",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2117/2116594/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:55:40.425Z",
+          "sourceSnapshotHash": "30a9ca70732f849cdd729d85d0784277843bc1c3e02f8f223318c6b8bf4ac331"
+        },
+        "resolution": {
+          "value": "2800*1840",
+          "rawText": "屏幕分辨率 2800*1840",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2117/2116594/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:55:40.425Z",
+          "sourceSnapshotHash": "30a9ca70732f849cdd729d85d0784277843bc1c3e02f8f223318c6b8bf4ac331"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "屏幕刷新率 144Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2117/2116594/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:55:40.425Z",
+          "sourceSnapshotHash": "30a9ca70732f849cdd729d85d0784277843bc1c3e02f8f223318c6b8bf4ac331"
+        },
+        "weight": {
+          "value": 475,
+          "unit": "g",
+          "rawText": "产品重量 475g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2117/2116594/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:55:40.425Z",
+          "sourceSnapshotHash": "30a9ca70732f849cdd729d85d0784277843bc1c3e02f8f223318c6b8bf4ac331"
+        },
+        "wifi": {
+          "value": "WiFi6",
+          "rawText": "WiFi功能 WiFi6",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2117/2116594/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:55:40.425Z",
+          "sourceSnapshotHash": "30a9ca70732f849cdd729d85d0784277843bc1c3e02f8f223318c6b8bf4ac331"
+        },
+        "operatingSystem": {
+          "value": "基于Android 15深度定制MagicOS 9.0",
+          "rawText": "操作系统 基于Android 15深度定制MagicOS 9.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2117/2116594/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:55:40.425Z",
+          "sourceSnapshotHash": "30a9ca70732f849cdd729d85d0784277843bc1c3e02f8f223318c6b8bf4ac331"
+        },
+        "dimensions": {
+          "value": "259.1*176.1*6.1mm",
+          "rawText": "产品尺寸 259.1*176.1*6.1mm",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2117/2116594/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:55:40.425Z",
+          "sourceSnapshotHash": "30a9ca70732f849cdd729d85d0784277843bc1c3e02f8f223318c6b8bf4ac331"
+        },
+        "rearCamera": {
+          "value": "800万像素，f/2.0",
+          "rawText": "后置摄像头 800万像素，f/2.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2117/2116594/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:55:40.425Z",
+          "sourceSnapshotHash": "30a9ca70732f849cdd729d85d0784277843bc1c3e02f8f223318c6b8bf4ac331"
+        },
+        "frontCamera": {
+          "value": "1300万像素，f/2.0",
+          "rawText": "前置摄像头 1300万像素，f/2.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2117/2116594/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:55:40.425Z",
+          "sourceSnapshotHash": "30a9ca70732f849cdd729d85d0784277843bc1c3e02f8f223318c6b8bf4ac331"
+        }
+      },
+      "computed": {}
+    }
+  ]
+}

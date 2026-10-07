@@ -1,10 +1,1382 @@
 {
   "metadata": {
     "version": "1.0",
-    "totalDevices": 3,
-    "generatedAt": "2026-09-07"
+    "totalDevices": 9,
+    "generatedAt": "2026-10-01"
   },
   "devices": [
+    {
+      "id": "samsung-galaxy-s24-2024",
+      "brand": "Samsung",
+      "market": "CN",
+      "category": "phone",
+      "series": "Samsung Galaxy S",
+      "family": "Samsung Galaxy S",
+      "variant": "standard",
+      "modelName": "Samsung Galaxy S24",
+      "generation": "S24",
+      "generationOrder": 1,
+      "releaseYear": 2024,
+      "releaseDate": "2024-01-25",
+      "comparisonGroupId": "samsung.phone.galaxy-s.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "Galaxy S24 (8GB+256GB)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:08:18.087Z",
+            "sourceSnapshotHash": "8ecd3dbc6ea5d9473d528205cc4c6761bfa6701b0446be874cb2c33f3dba33a4"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "Galaxy S24 (12GB+256GB)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:08:18.087Z",
+            "sourceSnapshotHash": "8ecd3dbc6ea5d9473d528205cc4c6761bfa6701b0446be874cb2c33f3dba33a4"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "8GB + 512GB",
+            "rawText": "Galaxy S24 (8GB+512GB)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:08:18.087Z",
+            "sourceSnapshotHash": "8ecd3dbc6ea5d9473d528205cc4c6761bfa6701b0446be874cb2c33f3dba33a4"
+          }
+        }
+      ],
+      "benchmarks": [],
+      "specs": {
+        "chip": {
+          "value": "第三代骁龙 8 移动平台（for Galaxy）",
+          "rawText": "第三代骁龙8移动平台（for Galaxy）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/news/product/samsung-galaxy-s24-series-in-china/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:06:58.149Z",
+          "sourceSnapshotHash": "e4ee102479814b7d4ce64dbcc8bd6e69f180999dcb901665cdfb05b9b2a4b7d7"
+        },
+        "screenSize": {
+          "value": 6.2,
+          "unit": "inch",
+          "rawText": "6.2英寸(直角) / 6.0英寸(圆角)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9210ZAGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:20.430Z",
+          "sourceSnapshotHash": "69e4d84b1e24567b0319c0322f0fe6ec35d31fd3d88d31b3d97021c920283bd7"
+        },
+        "displayType": {
+          "value": "第二代动态 AMOLED",
+          "rawText": "第二代动态AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9210ZAGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:20.430Z",
+          "sourceSnapshotHash": "69e4d84b1e24567b0319c0322f0fe6ec35d31fd3d88d31b3d97021c920283bd7"
+        },
+        "resolution": {
+          "value": "2340x1080",
+          "rawText": "2340 x 1080 (FHD+)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9210ZAGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:20.430Z",
+          "sourceSnapshotHash": "69e4d84b1e24567b0319c0322f0fe6ec35d31fd3d88d31b3d97021c920283bd7"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "120 Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9210ZAGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:20.430Z",
+          "sourceSnapshotHash": "69e4d84b1e24567b0319c0322f0fe6ec35d31fd3d88d31b3d97021c920283bd7"
+        },
+        "weight": {
+          "value": 167,
+          "unit": "g",
+          "rawText": "167",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9210ZAGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:20.430Z",
+          "sourceSnapshotHash": "69e4d84b1e24567b0319c0322f0fe6ec35d31fd3d88d31b3d97021c920283bd7"
+        },
+        "memory": {
+          "value": "8GB / 12GB",
+          "rawText": "Galaxy S24 (8GB+256GB)\nGalaxy S24 (12GB+256GB)\nGalaxy S24 (8GB+512GB)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:18.087Z",
+          "sourceSnapshotHash": "8ecd3dbc6ea5d9473d528205cc4c6761bfa6701b0446be874cb2c33f3dba33a4"
+        },
+        "storage": {
+          "value": "256GB / 512GB",
+          "rawText": "Galaxy S24 (8GB+256GB)\nGalaxy S24 (12GB+256GB)\nGalaxy S24 (8GB+512GB)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:18.087Z",
+          "sourceSnapshotHash": "8ecd3dbc6ea5d9473d528205cc4c6761bfa6701b0446be874cb2c33f3dba33a4"
+        },
+        "rearCamera": {
+          "value": "5000 万像素 + 1000 万像素 + 1200 万像素",
+          "rawText": "5000万像素+1000万像素+1200万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9210ZAGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:20.430Z",
+          "sourceSnapshotHash": "69e4d84b1e24567b0319c0322f0fe6ec35d31fd3d88d31b3d97021c920283bd7"
+        },
+        "mainCamera": {
+          "value": "50MP（5000 万像素）主摄",
+          "rawText": "5000万像素 广角摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:19:11.867Z",
+          "sourceSnapshotHash": "4ead23502ff151d34df4e232b5fd1cd272c8a8e652cda8e268766767a9faf852"
+        },
+        "telephoto": {
+          "value": "1000 万像素 3 倍光学长焦",
+          "rawText": "1000万像素 3倍光学变焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:19:11.867Z",
+          "sourceSnapshotHash": "4ead23502ff151d34df4e232b5fd1cd272c8a8e652cda8e268766767a9faf852"
+        },
+        "frontCamera": {
+          "value": "1200 万像素",
+          "rawText": "1200万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9210ZAGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:20.430Z",
+          "sourceSnapshotHash": "69e4d84b1e24567b0319c0322f0fe6ec35d31fd3d88d31b3d97021c920283bd7"
+        },
+        "batteryCapacity": {
+          "value": 4000,
+          "unit": "mAh",
+          "rawText": "4000",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9210ZAGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:20.430Z",
+          "sourceSnapshotHash": "69e4d84b1e24567b0319c0322f0fe6ec35d31fd3d88d31b3d97021c920283bd7"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "USB Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9210ZAGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:20.430Z",
+          "sourceSnapshotHash": "69e4d84b1e24567b0319c0322f0fe6ec35d31fd3d88d31b3d97021c920283bd7"
+        },
+        "launchPrice": {
+          "value": 5499,
+          "unit": "CNY",
+          "rawText": "Galaxy S24 8GB+256GB 售价 5499 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/747/278.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:08:23.562Z",
+          "sourceSnapshotHash": "dc167d83602776cecd921a980b53b05471a84825f1542457e117ef1b9764fbd1",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "8GB 运行内存 + 256GB 存储，国行版本",
+          "condition": "中国大陆首发厂商建议零售价，不含限时升杯或预售尝鲜价"
+        }
+      },
+      "computed": {
+        "generationUpgradeMagnitude": {
+          "value": null,
+          "comparedTo": null,
+          "changeSummary": "该设备为当前比较组第一代，无可对比前代",
+          "scoreBreakdown": "无对比前代",
+          "confidence": 0,
+          "computedAt": "2026-09-07",
+          "sourceType": "computed",
+          "verifiedAt": "2026-09-07"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-s24-plus-2024",
+      "brand": "Samsung",
+      "market": "CN",
+      "category": "phone",
+      "series": "Samsung Galaxy S Plus",
+      "family": "Samsung Galaxy S Plus",
+      "variant": "standard",
+      "modelName": "Samsung Galaxy S24+",
+      "generation": "S24+",
+      "generationOrder": 1,
+      "releaseYear": 2024,
+      "releaseDate": "2024-01-25",
+      "comparisonGroupId": "samsung.phone.galaxy-s-plus.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "Galaxy S24+ (12GB+256GB)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:08:18.087Z",
+            "sourceSnapshotHash": "8ecd3dbc6ea5d9473d528205cc4c6761bfa6701b0446be874cb2c33f3dba33a4"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "Galaxy S24+ (12GB+512GB)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:08:18.087Z",
+            "sourceSnapshotHash": "8ecd3dbc6ea5d9473d528205cc4c6761bfa6701b0446be874cb2c33f3dba33a4"
+          }
+        }
+      ],
+      "benchmarks": [],
+      "specs": {
+        "chip": {
+          "value": "第三代骁龙 8 移动平台（for Galaxy）",
+          "rawText": "第三代骁龙8移动平台（for Galaxy）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/news/product/samsung-galaxy-s24-series-in-china/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:06:58.149Z",
+          "sourceSnapshotHash": "e4ee102479814b7d4ce64dbcc8bd6e69f180999dcb901665cdfb05b9b2a4b7d7"
+        },
+        "screenSize": {
+          "value": 6.7,
+          "unit": "inch",
+          "rawText": "6.7英寸(直角) / 6.5英寸(圆角)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9260ZYDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:20.845Z",
+          "sourceSnapshotHash": "49e2718b59902b48ea214c8a469e47738cebe560463af2700a1d4aeaed06a0b5"
+        },
+        "displayType": {
+          "value": "第二代动态 AMOLED",
+          "rawText": "第二代动态AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9260ZYDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:20.845Z",
+          "sourceSnapshotHash": "49e2718b59902b48ea214c8a469e47738cebe560463af2700a1d4aeaed06a0b5"
+        },
+        "resolution": {
+          "value": "3120x1440",
+          "rawText": "3120 x 1440 (Quad HD+)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9260ZYDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:20.845Z",
+          "sourceSnapshotHash": "49e2718b59902b48ea214c8a469e47738cebe560463af2700a1d4aeaed06a0b5"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "120 Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9260ZYDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:20.845Z",
+          "sourceSnapshotHash": "49e2718b59902b48ea214c8a469e47738cebe560463af2700a1d4aeaed06a0b5"
+        },
+        "weight": {
+          "value": 196,
+          "unit": "g",
+          "rawText": "196",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9260ZYDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:20.845Z",
+          "sourceSnapshotHash": "49e2718b59902b48ea214c8a469e47738cebe560463af2700a1d4aeaed06a0b5"
+        },
+        "memory": {
+          "value": "12GB",
+          "rawText": "Galaxy S24+ (12GB+256GB)\nGalaxy S24+ (12GB+512GB)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:18.087Z",
+          "sourceSnapshotHash": "8ecd3dbc6ea5d9473d528205cc4c6761bfa6701b0446be874cb2c33f3dba33a4"
+        },
+        "storage": {
+          "value": "256GB / 512GB",
+          "rawText": "Galaxy S24+ (12GB+256GB)\nGalaxy S24+ (12GB+512GB)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:18.087Z",
+          "sourceSnapshotHash": "8ecd3dbc6ea5d9473d528205cc4c6761bfa6701b0446be874cb2c33f3dba33a4"
+        },
+        "rearCamera": {
+          "value": "5000 万像素 + 1000 万像素 + 1200 万像素",
+          "rawText": "5000万像素+1000万像素+1200万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9260ZYDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:20.845Z",
+          "sourceSnapshotHash": "49e2718b59902b48ea214c8a469e47738cebe560463af2700a1d4aeaed06a0b5"
+        },
+        "mainCamera": {
+          "value": "50MP（5000 万像素）主摄",
+          "rawText": "5000万像素 广角摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:19:11.867Z",
+          "sourceSnapshotHash": "4ead23502ff151d34df4e232b5fd1cd272c8a8e652cda8e268766767a9faf852"
+        },
+        "telephoto": {
+          "value": "1000 万像素 3 倍光学长焦",
+          "rawText": "1000万像素 3倍光学变焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:19:11.867Z",
+          "sourceSnapshotHash": "4ead23502ff151d34df4e232b5fd1cd272c8a8e652cda8e268766767a9faf852"
+        },
+        "frontCamera": {
+          "value": "1200 万像素",
+          "rawText": "1200万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9260ZYDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:20.845Z",
+          "sourceSnapshotHash": "49e2718b59902b48ea214c8a469e47738cebe560463af2700a1d4aeaed06a0b5"
+        },
+        "batteryCapacity": {
+          "value": 4900,
+          "unit": "mAh",
+          "rawText": "4900",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9260ZYDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:20.845Z",
+          "sourceSnapshotHash": "49e2718b59902b48ea214c8a469e47738cebe560463af2700a1d4aeaed06a0b5"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "USB Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9260ZYDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:20.845Z",
+          "sourceSnapshotHash": "49e2718b59902b48ea214c8a469e47738cebe560463af2700a1d4aeaed06a0b5"
+        },
+        "launchPrice": {
+          "value": 6999,
+          "unit": "CNY",
+          "rawText": "Galaxy S24+ 12GB+256GB 售价 6999 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/747/278.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:08:23.562Z",
+          "sourceSnapshotHash": "dc167d83602776cecd921a980b53b05471a84825f1542457e117ef1b9764fbd1",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，国行版本",
+          "condition": "中国大陆首发厂商建议零售价，不含限时升杯或预售尝鲜价"
+        }
+      },
+      "computed": {
+        "generationUpgradeMagnitude": {
+          "value": null,
+          "comparedTo": null,
+          "changeSummary": "该设备为当前比较组第一代，无可对比前代",
+          "scoreBreakdown": "无对比前代",
+          "confidence": 0,
+          "computedAt": "2026-09-07",
+          "sourceType": "computed",
+          "verifiedAt": "2026-09-07"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-s25-2025",
+      "brand": "Samsung",
+      "market": "CN",
+      "category": "phone",
+      "series": "Samsung Galaxy S",
+      "family": "Samsung Galaxy S",
+      "variant": "standard",
+      "modelName": "Samsung Galaxy S25",
+      "generation": "S25",
+      "generationOrder": 2,
+      "releaseYear": 2025,
+      "releaseDate": "2025-02-11",
+      "comparisonGroupId": "samsung.phone.galaxy-s.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "Galaxy S25 (12GB+256GB)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:08:20.949Z",
+            "sourceSnapshotHash": "78a763d9263d00e0665d8d1ee668fafe634ccc535bd94f8dbe78ee97f96d1b5b"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "Galaxy S25 (12GB+512GB)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:08:20.949Z",
+            "sourceSnapshotHash": "78a763d9263d00e0665d8d1ee668fafe634ccc535bd94f8dbe78ee97f96d1b5b"
+          }
+        }
+      ],
+      "benchmarks": [],
+      "specs": {
+        "chip": {
+          "value": "骁龙 8 至尊版移动平台（for Galaxy）",
+          "rawText": "骁龙8至尊版移动平台（for Galaxy）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:19:12.435Z",
+          "sourceSnapshotHash": "f04eb1a73edf653d68b558e519fa0cb31468c724f838cb500064e4fd572a4aa2"
+        },
+        "screenSize": {
+          "value": 6.2,
+          "unit": "inch",
+          "rawText": "6.2英寸(直角)/6.0英寸(圆角)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9310LBGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.230Z",
+          "sourceSnapshotHash": "eab968f2e7594cf3345a90d37c1c967cfe11abdfede5517523df438eb84f8785"
+        },
+        "displayType": {
+          "value": "第二代动态 AMOLED",
+          "rawText": "第二代动态AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9310LBGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.230Z",
+          "sourceSnapshotHash": "eab968f2e7594cf3345a90d37c1c967cfe11abdfede5517523df438eb84f8785"
+        },
+        "resolution": {
+          "value": "2340x1080",
+          "rawText": "2340 x 1080 (FHD+)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9310LBGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.230Z",
+          "sourceSnapshotHash": "eab968f2e7594cf3345a90d37c1c967cfe11abdfede5517523df438eb84f8785"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "120 Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9310LBGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.230Z",
+          "sourceSnapshotHash": "eab968f2e7594cf3345a90d37c1c967cfe11abdfede5517523df438eb84f8785"
+        },
+        "weight": {
+          "value": 162,
+          "unit": "g",
+          "rawText": "162",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9310LBGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.230Z",
+          "sourceSnapshotHash": "eab968f2e7594cf3345a90d37c1c967cfe11abdfede5517523df438eb84f8785"
+        },
+        "memory": {
+          "value": "12GB",
+          "rawText": "Galaxy S25 (12GB+256GB)\nGalaxy S25 (12GB+512GB)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:20.949Z",
+          "sourceSnapshotHash": "78a763d9263d00e0665d8d1ee668fafe634ccc535bd94f8dbe78ee97f96d1b5b"
+        },
+        "storage": {
+          "value": "256GB / 512GB",
+          "rawText": "Galaxy S25 (12GB+256GB)\nGalaxy S25 (12GB+512GB)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:20.949Z",
+          "sourceSnapshotHash": "78a763d9263d00e0665d8d1ee668fafe634ccc535bd94f8dbe78ee97f96d1b5b"
+        },
+        "rearCamera": {
+          "value": "5000 万像素 + 1000 万像素 + 1200 万像素",
+          "rawText": "5000万像素+1000万像素+1200万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9310LBGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.230Z",
+          "sourceSnapshotHash": "eab968f2e7594cf3345a90d37c1c967cfe11abdfede5517523df438eb84f8785"
+        },
+        "mainCamera": {
+          "value": "50MP（5000 万像素）主摄",
+          "rawText": "5000万像素 广角摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:19:12.435Z",
+          "sourceSnapshotHash": "f04eb1a73edf653d68b558e519fa0cb31468c724f838cb500064e4fd572a4aa2"
+        },
+        "telephoto": {
+          "value": "1000 万像素 3 倍光学长焦",
+          "rawText": "1000万像素 长焦摄像头 3倍光学变焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:19:12.435Z",
+          "sourceSnapshotHash": "f04eb1a73edf653d68b558e519fa0cb31468c724f838cb500064e4fd572a4aa2"
+        },
+        "frontCamera": {
+          "value": "1200 万像素",
+          "rawText": "1200万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9310LBGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.230Z",
+          "sourceSnapshotHash": "eab968f2e7594cf3345a90d37c1c967cfe11abdfede5517523df438eb84f8785"
+        },
+        "batteryCapacity": {
+          "value": 4000,
+          "unit": "mAh",
+          "rawText": "4000",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9310LBGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.230Z",
+          "sourceSnapshotHash": "eab968f2e7594cf3345a90d37c1c967cfe11abdfede5517523df438eb84f8785"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "USB Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9310LBGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.230Z",
+          "sourceSnapshotHash": "eab968f2e7594cf3345a90d37c1c967cfe11abdfede5517523df438eb84f8785"
+        },
+        "launchPrice": {
+          "value": 5999,
+          "unit": "CNY",
+          "rawText": "其中Galaxy S25+建议零售价6,999元起，Galaxy S25建议零售价5,999元起，两款机型均提供12GB+256GB和12GB+512GB两种存储规格",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/news/product/galaxy-s25-ai/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:06:58.304Z",
+          "sourceSnapshotHash": "7816ce8027abddb2788073bfb659c65b9f3c63319de70723d468b6b18eb4344e",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，国行版本",
+          "condition": "中国大陆首发厂商建议零售价，不含限时升杯或预售尝鲜价"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "samsung-galaxy-s25-plus-2025",
+      "brand": "Samsung",
+      "market": "CN",
+      "category": "phone",
+      "series": "Samsung Galaxy S Plus",
+      "family": "Samsung Galaxy S Plus",
+      "variant": "standard",
+      "modelName": "Samsung Galaxy S25+",
+      "generation": "S25+",
+      "generationOrder": 2,
+      "releaseYear": 2025,
+      "releaseDate": "2025-02-11",
+      "comparisonGroupId": "samsung.phone.galaxy-s-plus.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "Galaxy S25+ (12GB+256GB)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:08:20.949Z",
+            "sourceSnapshotHash": "78a763d9263d00e0665d8d1ee668fafe634ccc535bd94f8dbe78ee97f96d1b5b"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "Galaxy S25+ (12GB+512GB)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:08:20.949Z",
+            "sourceSnapshotHash": "78a763d9263d00e0665d8d1ee668fafe634ccc535bd94f8dbe78ee97f96d1b5b"
+          }
+        }
+      ],
+      "benchmarks": [],
+      "specs": {
+        "chip": {
+          "value": "骁龙 8 至尊版移动平台（for Galaxy）",
+          "rawText": "骁龙8至尊版移动平台（for Galaxy）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:19:12.435Z",
+          "sourceSnapshotHash": "f04eb1a73edf653d68b558e519fa0cb31468c724f838cb500064e4fd572a4aa2"
+        },
+        "screenSize": {
+          "value": 6.7,
+          "unit": "inch",
+          "rawText": "6.7英寸(直角)/6.5英寸(圆角)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9360LBDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.564Z",
+          "sourceSnapshotHash": "cad9a1ee8536974d985953f7352097f3fd5cff092b4571d53ed7238a59fe6bed"
+        },
+        "displayType": {
+          "value": "第二代动态 AMOLED",
+          "rawText": "第二代动态AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9360LBDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.564Z",
+          "sourceSnapshotHash": "cad9a1ee8536974d985953f7352097f3fd5cff092b4571d53ed7238a59fe6bed"
+        },
+        "resolution": {
+          "value": "3120x1440",
+          "rawText": "3120 x 1440 (Quad HD+)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9360LBDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.564Z",
+          "sourceSnapshotHash": "cad9a1ee8536974d985953f7352097f3fd5cff092b4571d53ed7238a59fe6bed"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "120 Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9360LBDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.564Z",
+          "sourceSnapshotHash": "cad9a1ee8536974d985953f7352097f3fd5cff092b4571d53ed7238a59fe6bed"
+        },
+        "weight": {
+          "value": 190,
+          "unit": "g",
+          "rawText": "190",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9360LBDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.564Z",
+          "sourceSnapshotHash": "cad9a1ee8536974d985953f7352097f3fd5cff092b4571d53ed7238a59fe6bed"
+        },
+        "memory": {
+          "value": "12GB",
+          "rawText": "Galaxy S25+ (12GB+256GB)\nGalaxy S25+ (12GB+512GB)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:20.949Z",
+          "sourceSnapshotHash": "78a763d9263d00e0665d8d1ee668fafe634ccc535bd94f8dbe78ee97f96d1b5b"
+        },
+        "storage": {
+          "value": "256GB / 512GB",
+          "rawText": "Galaxy S25+ (12GB+256GB)\nGalaxy S25+ (12GB+512GB)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:20.949Z",
+          "sourceSnapshotHash": "78a763d9263d00e0665d8d1ee668fafe634ccc535bd94f8dbe78ee97f96d1b5b"
+        },
+        "rearCamera": {
+          "value": "5000 万像素 + 1000 万像素 + 1200 万像素",
+          "rawText": "5000万像素+1000万像素+1200万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9360LBDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.564Z",
+          "sourceSnapshotHash": "cad9a1ee8536974d985953f7352097f3fd5cff092b4571d53ed7238a59fe6bed"
+        },
+        "mainCamera": {
+          "value": "50MP（5000 万像素）主摄",
+          "rawText": "5000万像素 广角摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:19:12.435Z",
+          "sourceSnapshotHash": "f04eb1a73edf653d68b558e519fa0cb31468c724f838cb500064e4fd572a4aa2"
+        },
+        "telephoto": {
+          "value": "1000 万像素 3 倍光学长焦",
+          "rawText": "1000万像素 长焦摄像头 3倍光学变焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:19:12.435Z",
+          "sourceSnapshotHash": "f04eb1a73edf653d68b558e519fa0cb31468c724f838cb500064e4fd572a4aa2"
+        },
+        "frontCamera": {
+          "value": "1200 万像素",
+          "rawText": "1200万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9360LBDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.564Z",
+          "sourceSnapshotHash": "cad9a1ee8536974d985953f7352097f3fd5cff092b4571d53ed7238a59fe6bed"
+        },
+        "batteryCapacity": {
+          "value": 4900,
+          "unit": "mAh",
+          "rawText": "4900",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9360LBDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.564Z",
+          "sourceSnapshotHash": "cad9a1ee8536974d985953f7352097f3fd5cff092b4571d53ed7238a59fe6bed"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "USB Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9360LBDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.564Z",
+          "sourceSnapshotHash": "cad9a1ee8536974d985953f7352097f3fd5cff092b4571d53ed7238a59fe6bed"
+        },
+        "launchPrice": {
+          "value": 6999,
+          "unit": "CNY",
+          "rawText": "其中Galaxy S25+建议零售价6,999元起，Galaxy S25建议零售价5,999元起，两款机型均提供12GB+256GB和12GB+512GB两种存储规格",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/news/product/galaxy-s25-ai/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:06:58.304Z",
+          "sourceSnapshotHash": "7816ce8027abddb2788073bfb659c65b9f3c63319de70723d468b6b18eb4344e",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，国行版本",
+          "condition": "中国大陆首发厂商建议零售价，不含限时升杯或预售尝鲜价"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "samsung-galaxy-s26-2026",
+      "brand": "Samsung",
+      "market": "CN",
+      "category": "phone",
+      "series": "Samsung Galaxy S",
+      "family": "Samsung Galaxy S",
+      "variant": "standard",
+      "modelName": "Samsung Galaxy S26",
+      "generation": "S26",
+      "generationOrder": 3,
+      "releaseYear": 2026,
+      "releaseDate": "2026-02-26",
+      "comparisonGroupId": "samsung.phone.galaxy-s.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "Galaxy S26 (12GB+256GB)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:08:21.661Z",
+            "sourceSnapshotHash": "357b56cff419d467d9c68d1d787968725131220131b3778fd53adb7550c7d015"
+          }
+        }
+      ],
+      "benchmarks": [],
+      "specs": {
+        "chip": {
+          "value": "第五代骁龙 8 至尊版移动平台（for Galaxy）",
+          "rawText": "第五代骁龙8至尊版（for Galaxy）处理器",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:19:12.885Z",
+          "sourceSnapshotHash": "bb58ff4c56e0ec5a4c46f0096b337297fdcd823c5208674fd6f22a2d0978c62b"
+        },
+        "screenSize": {
+          "value": 6.3,
+          "unit": "inch",
+          "rawText": "6.3英寸(直角)/6.1英寸(圆角)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9420ZVGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.937Z",
+          "sourceSnapshotHash": "8ea19b65920cf0ee62f160de15f31b79eb27580d6fb7dcad38b010cd31c34ee8"
+        },
+        "displayType": {
+          "value": "第二代动态 AMOLED",
+          "rawText": "第二代动态AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9420ZVGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.937Z",
+          "sourceSnapshotHash": "8ea19b65920cf0ee62f160de15f31b79eb27580d6fb7dcad38b010cd31c34ee8"
+        },
+        "resolution": {
+          "value": "2340x1080",
+          "rawText": "2340 x 1080 (FHD+)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9420ZVGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.937Z",
+          "sourceSnapshotHash": "8ea19b65920cf0ee62f160de15f31b79eb27580d6fb7dcad38b010cd31c34ee8"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "120 Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9420ZVGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.937Z",
+          "sourceSnapshotHash": "8ea19b65920cf0ee62f160de15f31b79eb27580d6fb7dcad38b010cd31c34ee8"
+        },
+        "weight": {
+          "value": 167,
+          "unit": "g",
+          "rawText": "167",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9420ZVGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.937Z",
+          "sourceSnapshotHash": "8ea19b65920cf0ee62f160de15f31b79eb27580d6fb7dcad38b010cd31c34ee8"
+        },
+        "memory": {
+          "value": "12GB",
+          "rawText": "Galaxy S26 (12GB+256GB)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.661Z",
+          "sourceSnapshotHash": "357b56cff419d467d9c68d1d787968725131220131b3778fd53adb7550c7d015"
+        },
+        "storage": {
+          "value": "256GB",
+          "rawText": "Galaxy S26 (12GB+256GB)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.661Z",
+          "sourceSnapshotHash": "357b56cff419d467d9c68d1d787968725131220131b3778fd53adb7550c7d015"
+        },
+        "rearCamera": {
+          "value": "5000 万像素 + 1000 万像素 + 1200 万像素",
+          "rawText": "5000万像素+1000万像素+1200万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9420ZVGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.937Z",
+          "sourceSnapshotHash": "8ea19b65920cf0ee62f160de15f31b79eb27580d6fb7dcad38b010cd31c34ee8"
+        },
+        "mainCamera": {
+          "value": "50MP（5000 万像素）主摄",
+          "rawText": "5000万像素 F1.8 广角摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:19:12.885Z",
+          "sourceSnapshotHash": "bb58ff4c56e0ec5a4c46f0096b337297fdcd823c5208674fd6f22a2d0978c62b"
+        },
+        "telephoto": {
+          "value": "1000 万像素 3 倍光学长焦",
+          "rawText": "1000万像素 F2.4 长焦摄像头 3倍光学变焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:19:12.885Z",
+          "sourceSnapshotHash": "bb58ff4c56e0ec5a4c46f0096b337297fdcd823c5208674fd6f22a2d0978c62b"
+        },
+        "frontCamera": {
+          "value": "1200 万像素",
+          "rawText": "1200万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9420ZVGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.937Z",
+          "sourceSnapshotHash": "8ea19b65920cf0ee62f160de15f31b79eb27580d6fb7dcad38b010cd31c34ee8"
+        },
+        "batteryCapacity": {
+          "value": 4300,
+          "unit": "mAh",
+          "rawText": "4300",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9420ZVGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.937Z",
+          "sourceSnapshotHash": "8ea19b65920cf0ee62f160de15f31b79eb27580d6fb7dcad38b010cd31c34ee8"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "USB Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9420ZVGCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.937Z",
+          "sourceSnapshotHash": "8ea19b65920cf0ee62f160de15f31b79eb27580d6fb7dcad38b010cd31c34ee8"
+        },
+        "launchPrice": {
+          "value": 6999,
+          "unit": "CNY",
+          "rawText": "Galaxy S26 12GB + 256GB 建议零售价 6999 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/923/676.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:21:21.600Z",
+          "sourceSnapshotHash": "489d8dce4e5052ded0a282e9331cf0c7a2010a2bb56f05a3076ae0cb2025e47f",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，国行版本",
+          "condition": "中国大陆首发厂商建议零售价，不含限时升杯或预售尝鲜价"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "samsung-galaxy-s26-plus-2026",
+      "brand": "Samsung",
+      "market": "CN",
+      "category": "phone",
+      "series": "Samsung Galaxy S Plus",
+      "family": "Samsung Galaxy S Plus",
+      "variant": "standard",
+      "modelName": "Samsung Galaxy S26+",
+      "generation": "S26+",
+      "generationOrder": 3,
+      "releaseYear": 2026,
+      "releaseDate": "2026-02-26",
+      "comparisonGroupId": "samsung.phone.galaxy-s-plus.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "Galaxy S26+ (12GB+256GB)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:08:21.661Z",
+            "sourceSnapshotHash": "357b56cff419d467d9c68d1d787968725131220131b3778fd53adb7550c7d015"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "Galaxy S26+ (12GB+512GB)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:08:21.661Z",
+            "sourceSnapshotHash": "357b56cff419d467d9c68d1d787968725131220131b3778fd53adb7550c7d015"
+          }
+        }
+      ],
+      "benchmarks": [],
+      "specs": {
+        "chip": {
+          "value": "第五代骁龙 8 至尊版移动平台（for Galaxy）",
+          "rawText": "第五代骁龙8至尊版（for Galaxy）处理器",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:19:12.885Z",
+          "sourceSnapshotHash": "bb58ff4c56e0ec5a4c46f0096b337297fdcd823c5208674fd6f22a2d0978c62b"
+        },
+        "screenSize": {
+          "value": 6.7,
+          "unit": "inch",
+          "rawText": "6.7英寸(直角)/6.5英寸(圆角)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9470ZVDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:22.216Z",
+          "sourceSnapshotHash": "c876a9e273c60058ca2e7f590016f2f13148ec8fdb21cadead4b491e3b14fd6a"
+        },
+        "displayType": {
+          "value": "第二代动态 AMOLED",
+          "rawText": "第二代动态AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9470ZVDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:22.216Z",
+          "sourceSnapshotHash": "c876a9e273c60058ca2e7f590016f2f13148ec8fdb21cadead4b491e3b14fd6a"
+        },
+        "resolution": {
+          "value": "3120x1440",
+          "rawText": "3120 x 1440 (Quad HD+)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9470ZVDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:22.216Z",
+          "sourceSnapshotHash": "c876a9e273c60058ca2e7f590016f2f13148ec8fdb21cadead4b491e3b14fd6a"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "120 Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9470ZVDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:22.216Z",
+          "sourceSnapshotHash": "c876a9e273c60058ca2e7f590016f2f13148ec8fdb21cadead4b491e3b14fd6a"
+        },
+        "weight": {
+          "value": 190,
+          "unit": "g",
+          "rawText": "190",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9470ZVDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:22.216Z",
+          "sourceSnapshotHash": "c876a9e273c60058ca2e7f590016f2f13148ec8fdb21cadead4b491e3b14fd6a"
+        },
+        "memory": {
+          "value": "12GB",
+          "rawText": "Galaxy S26+ (12GB+256GB)\nGalaxy S26+ (12GB+512GB)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.661Z",
+          "sourceSnapshotHash": "357b56cff419d467d9c68d1d787968725131220131b3778fd53adb7550c7d015"
+        },
+        "storage": {
+          "value": "256GB / 512GB",
+          "rawText": "Galaxy S26+ (12GB+256GB)\nGalaxy S26+ (12GB+512GB)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:21.661Z",
+          "sourceSnapshotHash": "357b56cff419d467d9c68d1d787968725131220131b3778fd53adb7550c7d015"
+        },
+        "rearCamera": {
+          "value": "5000 万像素 + 1000 万像素 + 1200 万像素",
+          "rawText": "5000万像素+1000万像素+1200万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9470ZVDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:22.216Z",
+          "sourceSnapshotHash": "c876a9e273c60058ca2e7f590016f2f13148ec8fdb21cadead4b491e3b14fd6a"
+        },
+        "mainCamera": {
+          "value": "50MP（5000 万像素）主摄",
+          "rawText": "5000万像素 F1.8 广角摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:19:12.885Z",
+          "sourceSnapshotHash": "bb58ff4c56e0ec5a4c46f0096b337297fdcd823c5208674fd6f22a2d0978c62b"
+        },
+        "telephoto": {
+          "value": "1000 万像素 3 倍光学长焦",
+          "rawText": "1000万像素 F2.4 长焦摄像头 3倍光学变焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:19:12.885Z",
+          "sourceSnapshotHash": "bb58ff4c56e0ec5a4c46f0096b337297fdcd823c5208674fd6f22a2d0978c62b"
+        },
+        "frontCamera": {
+          "value": "1200 万像素",
+          "rawText": "1200万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9470ZVDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:22.216Z",
+          "sourceSnapshotHash": "c876a9e273c60058ca2e7f590016f2f13148ec8fdb21cadead4b491e3b14fd6a"
+        },
+        "batteryCapacity": {
+          "value": 4900,
+          "unit": "mAh",
+          "rawText": "4900",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9470ZVDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:22.216Z",
+          "sourceSnapshotHash": "c876a9e273c60058ca2e7f590016f2f13148ec8fdb21cadead4b491e3b14fd6a"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "USB Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9470ZVDCHC&specAnnotationYN=Y",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:08:22.216Z",
+          "sourceSnapshotHash": "c876a9e273c60058ca2e7f590016f2f13148ec8fdb21cadead4b491e3b14fd6a"
+        },
+        "launchPrice": {
+          "value": 7999,
+          "unit": "CNY",
+          "rawText": "Galaxy S26+ 12GB + 256GB 建议零售价 7999 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/923/676.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:21:21.600Z",
+          "sourceSnapshotHash": "489d8dce4e5052ded0a282e9331cf0c7a2010a2bb56f05a3076ae0cb2025e47f",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，国行版本",
+          "condition": "中国大陆首发厂商建议零售价，不含限时升杯或预售尝鲜价"
+        }
+      },
+      "computed": {}
+    },
     {
       "id": "samsung-galaxy-s24-ultra-2024",
       "brand": "Samsung",
@@ -22,15 +1394,48 @@
       "configurations": [
         {
           "memory": "12GB",
-          "storage": "256GB"
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "Galaxy S24 Ultra (12GB+256GB)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:52:28.357Z",
+            "sourceSnapshotHash": "10fa668fcea07b49fa676d1682b7d1ad7d6447a5e2d66ca8e56e803e16440380"
+          }
         },
         {
           "memory": "12GB",
-          "storage": "512GB"
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "Galaxy S24 Ultra (12GB+512GB)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:52:28.357Z",
+            "sourceSnapshotHash": "10fa668fcea07b49fa676d1682b7d1ad7d6447a5e2d66ca8e56e803e16440380"
+          }
         },
         {
           "memory": "12GB",
-          "storage": "1TB"
+          "storage": "1TB",
+          "evidence": {
+            "value": "12GB + 1TB",
+            "rawText": "Galaxy S24 Ultra (12GB+1TB)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:52:28.357Z",
+            "sourceSnapshotHash": "10fa668fcea07b49fa676d1682b7d1ad7d6447a5e2d66ca8e56e803e16440380"
+          }
         }
       ],
       "benchmarks": [
@@ -40,137 +1445,188 @@
           "score": 144,
           "protocolVersion": "Camera v5",
           "sourceUrl": "https://www.dxomark.com/samsung-galaxy-s24-ultra-camera-test/",
-          "verifiedAt": "2026-09-07"
+          "rawText": "144",
+          "publishedAt": "2024-01-31",
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:33:43.773Z",
+          "sourceSnapshotHash": "7cebb82c674d42b271c36aec2a87bd0784513956526f2df61508d46554a51509",
+          "notes": "相机综合测试分数，不等于单独拍照分；协议标签为大版本，具体小版本、测试固件及与国行配置的一致性未核验。"
         }
       ],
       "specs": {
         "chip": {
           "value": "第三代骁龙 8 移动平台（for Galaxy）",
-          "rawText": "处理器：第三代骁龙 8 移动平台（for Galaxy）",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "rawText": "第三代骁龙8移动平台 (for Galaxy)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:06:58.216Z",
+          "sourceSnapshotHash": "b8b787b24cfac0d9efc5c9e8e27e03773e26f1320e7271dbc9417eaee2b51c27"
         },
         "screenSize": {
           "value": 6.8,
           "unit": "inch",
-          "rawText": "显示屏直角尺寸：6.8 英寸",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "rawText": "6.8英寸(直角)/6.8英寸(圆角)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9280ZTGCHC&specAnnotationYN=Y",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:33:43.276Z",
+          "sourceSnapshotHash": "14f20626b1fdbf8475734ba60b5de371b69893f3e56b5a6372c7707f332b1ed9"
         },
         "displayType": {
           "value": "第二代动态 AMOLED",
-          "rawText": "显示屏类型：第二代动态 AMOLED",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "rawText": "第二代动态AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9280ZTGCHC&specAnnotationYN=Y",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:33:43.276Z",
+          "sourceSnapshotHash": "14f20626b1fdbf8475734ba60b5de371b69893f3e56b5a6372c7707f332b1ed9"
         },
         "resolution": {
           "value": "3120x1440",
-          "rawText": "显示屏分辨率：3120x1440",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "rawText": "3120 x 1440 (Quad HD+)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9280ZTGCHC&specAnnotationYN=Y",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:33:43.276Z",
+          "sourceSnapshotHash": "14f20626b1fdbf8475734ba60b5de371b69893f3e56b5a6372c7707f332b1ed9"
         },
         "refreshRate": {
           "value": 120,
           "unit": "Hz",
-          "rawText": "最高刷新率：120Hz",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "rawText": "120 Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9280ZTGCHC&specAnnotationYN=Y",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:33:43.276Z",
+          "sourceSnapshotHash": "14f20626b1fdbf8475734ba60b5de371b69893f3e56b5a6372c7707f332b1ed9"
         },
         "weight": {
           "value": 232,
           "unit": "g",
-          "rawText": "重量：232 克",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "rawText": "232",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9280ZTGCHC&specAnnotationYN=Y",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:33:43.276Z",
+          "sourceSnapshotHash": "14f20626b1fdbf8475734ba60b5de371b69893f3e56b5a6372c7707f332b1ed9"
         },
         "memory": {
           "value": "12GB",
-          "rawText": "运行内存：12GB",
+          "rawText": "Galaxy S24 Ultra (12GB+256GB)\nGalaxy S24 Ultra (12GB+512GB)\nGalaxy S24 Ultra (12GB+1TB)",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:52:28.357Z",
+          "sourceSnapshotHash": "10fa668fcea07b49fa676d1682b7d1ad7d6447a5e2d66ca8e56e803e16440380"
         },
         "storage": {
           "value": "256GB / 512GB / 1TB",
-          "rawText": "机身存储：256GB / 512GB / 1TB",
+          "rawText": "Galaxy S24 Ultra (12GB+256GB)\nGalaxy S24 Ultra (12GB+512GB)\nGalaxy S24 Ultra (12GB+1TB)",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:52:28.357Z",
+          "sourceSnapshotHash": "10fa668fcea07b49fa676d1682b7d1ad7d6447a5e2d66ca8e56e803e16440380"
         },
         "rearCamera": {
           "value": "2 亿像素主摄 + 1200 万像素超广角 + 5000 万像素长焦 + 1000 万像素长焦",
-          "rawText": "2 亿像素主摄 + 1200 万像素超广角 + 5000 万像素长焦 + 1000 万像素长焦",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "rawText": "后置摄像头 2亿像素 广角摄像头 2倍光学品质变焦 1200万像素 超广角摄像头 5000万像素 5倍光学变焦 &amp; 10倍光学品质变焦 1000万像素 3倍光学变焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:06:58.216Z",
+          "sourceSnapshotHash": "b8b787b24cfac0d9efc5c9e8e27e03773e26f1320e7271dbc9417eaee2b51c27"
         },
         "mainCamera": {
           "value": "200MP（2 亿像素）主摄",
-          "rawText": "广角主摄：2 亿像素",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "rawText": "2亿像素 广角摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:06:58.216Z",
+          "sourceSnapshotHash": "b8b787b24cfac0d9efc5c9e8e27e03773e26f1320e7271dbc9417eaee2b51c27"
         },
         "telephoto": {
           "value": "5000 万像素 5 倍长焦 + 1000 万像素 3 倍长焦",
-          "rawText": "5000 万像素 5 倍长焦 + 1000 万像素 3 倍长焦",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "rawText": "5000万像素 5倍光学变焦 &amp; 10倍光学品质变焦 1000万像素 3倍光学变焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:06:58.216Z",
+          "sourceSnapshotHash": "b8b787b24cfac0d9efc5c9e8e27e03773e26f1320e7271dbc9417eaee2b51c27"
         },
         "frontCamera": {
           "value": "1200 万像素",
-          "rawText": "前置摄像头：1200 万像素",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "rawText": "1200万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9280ZTGCHC&specAnnotationYN=Y",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:33:43.276Z",
+          "sourceSnapshotHash": "14f20626b1fdbf8475734ba60b5de371b69893f3e56b5a6372c7707f332b1ed9"
         },
-        "batteryLife": {
-          "value": "5000mAh",
-          "rawText": "电池典型容量：5000mAh",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+        "batteryCapacity": {
+          "value": 5000,
+          "unit": "mAh",
+          "rawText": "5000",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9280ZTGCHC&specAnnotationYN=Y",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:33:43.276Z",
+          "sourceSnapshotHash": "14f20626b1fdbf8475734ba60b5de371b69893f3e56b5a6372c7707f332b1ed9"
         },
         "port": {
           "value": "USB Type-C",
-          "rawText": "USB 接口：USB Type-C",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
+          "rawText": "USB Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9280ZTGCHC&specAnnotationYN=Y",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:33:43.276Z",
+          "sourceSnapshotHash": "14f20626b1fdbf8475734ba60b5de371b69893f3e56b5a6372c7707f332b1ed9"
         },
         "launchPrice": {
           "value": 9699,
           "unit": "CNY",
-          "rawText": "中国大陆厂商建议零售价 9699 元起",
-          "sourceUrl": "https://www.samsung.com.cn/news/product/samsung-galaxy-s24-series-in-china/",
-          "sourceType": "official",
-          "confidence": 1,
-          "verifiedAt": "2026-09-07",
+          "rawText": "Galaxy S24 Ultra 12GB+256GB 售价 9699 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/747/278.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:08:23.562Z",
+          "sourceSnapshotHash": "dc167d83602776cecd921a980b53b05471a84825f1542457e117ef1b9764fbd1",
           "priceType": "launch",
           "market": "中国大陆",
           "configuration": "12GB 运行内存 + 256GB 存储，国行版本",
-          "condition": "中国大陆首发厂商建议零售价"
+          "condition": "中国大陆首发厂商建议零售价，不含限时升杯或预售尝鲜价"
         }
       },
       "computed": {
@@ -203,15 +1659,48 @@
       "configurations": [
         {
           "memory": "12GB",
-          "storage": "256GB"
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "Galaxy S25 Ultra (12GB+256GB)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:52:28.424Z",
+            "sourceSnapshotHash": "5c39a30f6a934db9acd67205cabfbfdfd5cd26c48cbc417528fc1f95ae822c35"
+          }
         },
         {
           "memory": "12GB",
-          "storage": "512GB"
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "Galaxy S25 Ultra (12GB+512GB)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:52:28.424Z",
+            "sourceSnapshotHash": "5c39a30f6a934db9acd67205cabfbfdfd5cd26c48cbc417528fc1f95ae822c35"
+          }
         },
         {
           "memory": "16GB",
-          "storage": "1TB"
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "Galaxy S25 Ultra (16GB+1TB)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:52:28.424Z",
+            "sourceSnapshotHash": "5c39a30f6a934db9acd67205cabfbfdfd5cd26c48cbc417528fc1f95ae822c35"
+          }
         }
       ],
       "benchmarks": [
@@ -221,137 +1710,188 @@
           "score": 151,
           "protocolVersion": "Camera v5",
           "sourceUrl": "https://www.dxomark.com/samsung-galaxy-s25-ultra-camera-test/",
-          "verifiedAt": "2026-09-07"
+          "rawText": "151",
+          "publishedAt": "2025-03-01",
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:33:44.072Z",
+          "sourceSnapshotHash": "96b4400c2235f34fc969738af2a00bc8092edf5bef34cef397a10aadfa5e59d2",
+          "notes": "相机综合测试分数，不等于单独拍照分；协议标签为大版本，具体小版本、测试固件及与国行配置的一致性未核验。"
         }
       ],
       "specs": {
         "chip": {
           "value": "骁龙 8 至尊版移动平台（for Galaxy）",
-          "rawText": "处理器：骁龙 8 至尊版移动平台（for Galaxy）",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "rawText": "骁龙8至尊版移动平台（for Galaxy）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:06:58.351Z",
+          "sourceSnapshotHash": "a8e8b7fed08de657a807da3efafc4ac8bc65ec699d9aa081b1886c38148d8bcd"
         },
         "screenSize": {
           "value": 6.9,
           "unit": "inch",
-          "rawText": "显示屏直角尺寸：6.9 英寸",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "rawText": "6.9英寸(直角)/6.8英寸(圆角)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9380ZBDCHC&specAnnotationYN=Y",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:33:43.906Z",
+          "sourceSnapshotHash": "cb4b4b14579a4e37e504bfa2ea77298024a71cc7446daf09368b76b220b19d89"
         },
         "displayType": {
           "value": "第二代动态 AMOLED",
-          "rawText": "显示屏类型：第二代动态 AMOLED",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "rawText": "第二代动态AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9380ZBDCHC&specAnnotationYN=Y",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:33:43.906Z",
+          "sourceSnapshotHash": "cb4b4b14579a4e37e504bfa2ea77298024a71cc7446daf09368b76b220b19d89"
         },
         "resolution": {
           "value": "3120x1440",
-          "rawText": "显示屏分辨率：3120x1440",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "rawText": "3120 x 1440 (Quad HD+)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9380ZBDCHC&specAnnotationYN=Y",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:33:43.906Z",
+          "sourceSnapshotHash": "cb4b4b14579a4e37e504bfa2ea77298024a71cc7446daf09368b76b220b19d89"
         },
         "refreshRate": {
           "value": 120,
           "unit": "Hz",
-          "rawText": "最高刷新率：120Hz",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "rawText": "120 Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9380ZBDCHC&specAnnotationYN=Y",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:33:43.906Z",
+          "sourceSnapshotHash": "cb4b4b14579a4e37e504bfa2ea77298024a71cc7446daf09368b76b220b19d89"
         },
         "weight": {
           "value": 218,
           "unit": "g",
-          "rawText": "重量：218 克",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "rawText": "218",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9380ZBDCHC&specAnnotationYN=Y",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:33:43.906Z",
+          "sourceSnapshotHash": "cb4b4b14579a4e37e504bfa2ea77298024a71cc7446daf09368b76b220b19d89"
         },
         "memory": {
           "value": "12GB / 16GB",
-          "rawText": "运行内存：12GB / 16GB",
+          "rawText": "Galaxy S25 Ultra (12GB+256GB)\nGalaxy S25 Ultra (12GB+512GB)\nGalaxy S25 Ultra (16GB+1TB)",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:52:28.424Z",
+          "sourceSnapshotHash": "5c39a30f6a934db9acd67205cabfbfdfd5cd26c48cbc417528fc1f95ae822c35"
         },
         "storage": {
           "value": "256GB / 512GB / 1TB",
-          "rawText": "机身存储：256GB / 512GB / 1TB",
+          "rawText": "Galaxy S25 Ultra (12GB+256GB)\nGalaxy S25 Ultra (12GB+512GB)\nGalaxy S25 Ultra (16GB+1TB)",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:52:28.424Z",
+          "sourceSnapshotHash": "5c39a30f6a934db9acd67205cabfbfdfd5cd26c48cbc417528fc1f95ae822c35"
         },
         "rearCamera": {
           "value": "2 亿像素主摄 + 5000 万像素超广角 + 5000 万像素长焦 + 1000 万像素长焦",
-          "rawText": "2 亿像素主摄 + 5000 万像素超广角 + 5000 万像素长焦 + 1000 万像素长焦",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "rawText": "后置摄像头 5000万像素 超广角摄像头 2亿像素 广角摄像头 2倍光学品质变焦 5000万像素 长焦摄像头 5倍光学变焦&amp;10倍光学品质变焦 1000万像素 长焦摄像头 3倍光学变焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:06:58.351Z",
+          "sourceSnapshotHash": "a8e8b7fed08de657a807da3efafc4ac8bc65ec699d9aa081b1886c38148d8bcd"
         },
         "mainCamera": {
           "value": "200MP（2 亿像素）主摄",
-          "rawText": "广角主摄：2 亿像素",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "rawText": "2亿像素 广角摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:06:58.351Z",
+          "sourceSnapshotHash": "a8e8b7fed08de657a807da3efafc4ac8bc65ec699d9aa081b1886c38148d8bcd"
         },
         "telephoto": {
           "value": "5000 万像素 5 倍长焦 + 1000 万像素 3 倍长焦",
-          "rawText": "5000 万像素 5 倍长焦 + 1000 万像素 3 倍长焦",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "rawText": "5000万像素 长焦摄像头 5倍光学变焦&amp;10倍光学品质变焦 1000万像素 长焦摄像头 3倍光学变焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:06:58.351Z",
+          "sourceSnapshotHash": "a8e8b7fed08de657a807da3efafc4ac8bc65ec699d9aa081b1886c38148d8bcd"
         },
         "frontCamera": {
           "value": "1200 万像素",
-          "rawText": "前置摄像头：1200 万像素",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "rawText": "1200万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9380ZBDCHC&specAnnotationYN=Y",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:33:43.906Z",
+          "sourceSnapshotHash": "cb4b4b14579a4e37e504bfa2ea77298024a71cc7446daf09368b76b220b19d89"
         },
-        "batteryLife": {
-          "value": "5000mAh",
-          "rawText": "电池典型容量：5000mAh",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+        "batteryCapacity": {
+          "value": 5000,
+          "unit": "mAh",
+          "rawText": "5000",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9380ZBDCHC&specAnnotationYN=Y",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:33:43.906Z",
+          "sourceSnapshotHash": "cb4b4b14579a4e37e504bfa2ea77298024a71cc7446daf09368b76b220b19d89"
         },
         "port": {
           "value": "USB Type-C",
-          "rawText": "USB 接口：USB Type-C",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
+          "rawText": "USB Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9380ZBDCHC&specAnnotationYN=Y",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:33:43.906Z",
+          "sourceSnapshotHash": "cb4b4b14579a4e37e504bfa2ea77298024a71cc7446daf09368b76b220b19d89"
         },
         "launchPrice": {
           "value": 9699,
           "unit": "CNY",
-          "rawText": "中国大陆厂商建议零售价 9699 元起",
-          "sourceUrl": "https://www.samsung.com.cn/news/product/galaxy-s25-ai/",
-          "sourceType": "official",
-          "confidence": 1,
-          "verifiedAt": "2026-09-07",
+          "rawText": "Galaxy S25 Ultra 12GB RAM + 256GB 存储空间 ：9699 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/830/095.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:08:23.608Z",
+          "sourceSnapshotHash": "d9bfa98d1d7ff014475a2de3f2fe9d5060d44ba543f26a0cbcf6d0aee4fdd62d",
           "priceType": "launch",
           "market": "中国大陆",
           "configuration": "12GB 运行内存 + 256GB 存储，国行版本",
-          "condition": "中国大陆首发厂商建议零售价"
+          "condition": "中国大陆首发厂商建议零售价，不含限时升杯或预售尝鲜价"
         }
       },
       "computed": {}
@@ -373,15 +1913,48 @@
       "configurations": [
         {
           "memory": "12GB",
-          "storage": "256GB"
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "Galaxy S26 Ultra (12GB+256GB)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:52:28.619Z",
+            "sourceSnapshotHash": "68d6fc19a2d27767a1c96197c70ac95ecb5bc058fdce1700a85b7e70659fa012"
+          }
         },
         {
           "memory": "12GB",
-          "storage": "512GB"
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "Galaxy S26 Ultra (12GB+512GB)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:52:28.619Z",
+            "sourceSnapshotHash": "68d6fc19a2d27767a1c96197c70ac95ecb5bc058fdce1700a85b7e70659fa012"
+          }
         },
         {
           "memory": "16GB",
-          "storage": "1TB"
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "Galaxy S26 Ultra (16GB+1TB)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:52:28.619Z",
+            "sourceSnapshotHash": "68d6fc19a2d27767a1c96197c70ac95ecb5bc058fdce1700a85b7e70659fa012"
+          }
         }
       ],
       "benchmarks": [
@@ -391,137 +1964,188 @@
           "score": 157,
           "protocolVersion": "Camera v6",
           "sourceUrl": "https://www.dxomark.com/samsung-galaxy-s26-ultra-camera-test/",
-          "verifiedAt": "2026-09-07"
+          "rawText": "157",
+          "publishedAt": "2026-03-09",
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:33:44.209Z",
+          "sourceSnapshotHash": "e96dd1a7e42a0c2bdea5fe12aa15c8fa957d959150b9dc4d3464afe1d9d09b7f",
+          "notes": "相机综合测试分数，不等于单独拍照分；协议标签为大版本，具体小版本、测试固件及与国行配置的一致性未核验。"
         }
       ],
       "specs": {
         "chip": {
           "value": "第五代骁龙 8 至尊版移动平台（for Galaxy）",
-          "rawText": "处理器：第五代骁龙 8 至尊版移动平台（for Galaxy）",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "rawText": "第五代骁龙8至尊版（for Galaxy）处理器",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:06:58.536Z",
+          "sourceSnapshotHash": "c15bf0c8f6a67915bf5247c5ddbcad1bec1fdb1bb94744600d5a62191938c17a"
         },
         "screenSize": {
           "value": 6.9,
           "unit": "inch",
-          "rawText": "显示屏直角尺寸：6.9 英寸",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "rawText": "6.9英寸(直角)/6.7英寸(圆角)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9480ZVDCHC&specAnnotationYN=Y",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:29:44.307Z",
+          "sourceSnapshotHash": "acc4201a70a8d7bde0e2d3354419fe92eb7acca63cea68ae4e82222e5355fe84"
         },
         "displayType": {
           "value": "第二代动态 AMOLED",
-          "rawText": "显示屏类型：第二代动态 AMOLED",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "rawText": "第二代动态AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9480ZVDCHC&specAnnotationYN=Y",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:29:44.307Z",
+          "sourceSnapshotHash": "acc4201a70a8d7bde0e2d3354419fe92eb7acca63cea68ae4e82222e5355fe84"
         },
         "resolution": {
           "value": "3120x1440",
-          "rawText": "显示屏分辨率：3120x1440",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "rawText": "3120 x 1440 (Quad HD+)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9480ZVDCHC&specAnnotationYN=Y",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:29:44.307Z",
+          "sourceSnapshotHash": "acc4201a70a8d7bde0e2d3354419fe92eb7acca63cea68ae4e82222e5355fe84"
         },
         "refreshRate": {
           "value": 120,
           "unit": "Hz",
-          "rawText": "最高刷新率：120Hz",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "rawText": "120 Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9480ZVDCHC&specAnnotationYN=Y",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:29:44.307Z",
+          "sourceSnapshotHash": "acc4201a70a8d7bde0e2d3354419fe92eb7acca63cea68ae4e82222e5355fe84"
         },
         "weight": {
           "value": 214,
           "unit": "g",
-          "rawText": "重量：214 克",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "rawText": "214",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9480ZVDCHC&specAnnotationYN=Y",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:29:44.307Z",
+          "sourceSnapshotHash": "acc4201a70a8d7bde0e2d3354419fe92eb7acca63cea68ae4e82222e5355fe84"
         },
         "memory": {
           "value": "12GB / 16GB",
-          "rawText": "运行内存：12GB / 16GB",
+          "rawText": "Galaxy S26 Ultra (12GB+256GB)\nGalaxy S26 Ultra (12GB+512GB)\nGalaxy S26 Ultra (16GB+1TB)",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:52:28.619Z",
+          "sourceSnapshotHash": "68d6fc19a2d27767a1c96197c70ac95ecb5bc058fdce1700a85b7e70659fa012"
         },
         "storage": {
           "value": "256GB / 512GB / 1TB",
-          "rawText": "机身存储：256GB / 512GB / 1TB",
+          "rawText": "Galaxy S26 Ultra (12GB+256GB)\nGalaxy S26 Ultra (12GB+512GB)\nGalaxy S26 Ultra (16GB+1TB)",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:52:28.619Z",
+          "sourceSnapshotHash": "68d6fc19a2d27767a1c96197c70ac95ecb5bc058fdce1700a85b7e70659fa012"
         },
         "rearCamera": {
           "value": "2 亿像素主摄 + 5000 万像素超广角 + 5000 万像素长焦 + 1000 万像素长焦",
-          "rawText": "2 亿像素主摄 + 5000 万像素超广角 + 5000 万像素长焦 + 1000 万像素长焦",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "rawText": "后置摄像头 5000万像素 F1.9 超广角摄像头 2亿像素 F1.4 广角摄像头 2倍光学品质变焦 5000万像素 F2.9 长焦摄像头 5倍光学变焦&amp;10倍光学品质变焦 1000万像素 F2.4 长焦摄像头 3倍光学变焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:06:58.536Z",
+          "sourceSnapshotHash": "c15bf0c8f6a67915bf5247c5ddbcad1bec1fdb1bb94744600d5a62191938c17a"
         },
         "mainCamera": {
           "value": "200MP（2 亿像素）主摄",
-          "rawText": "广角主摄：2 亿像素",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "rawText": "2亿像素 F1.4 广角摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:06:58.536Z",
+          "sourceSnapshotHash": "c15bf0c8f6a67915bf5247c5ddbcad1bec1fdb1bb94744600d5a62191938c17a"
         },
         "telephoto": {
           "value": "5000 万像素 5 倍长焦 + 1000 万像素 3 倍长焦",
-          "rawText": "5000 万像素 5 倍长焦 + 1000 万像素 3 倍长焦",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "rawText": "5000万像素 F2.9 长焦摄像头 5倍光学变焦&amp;10倍光学品质变焦 1000万像素 F2.4 长焦摄像头 3倍光学变焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:06:58.536Z",
+          "sourceSnapshotHash": "c15bf0c8f6a67915bf5247c5ddbcad1bec1fdb1bb94744600d5a62191938c17a"
         },
         "frontCamera": {
           "value": "1200 万像素",
-          "rawText": "前置摄像头：1200 万像素",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "rawText": "1200万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9480ZVDCHC&specAnnotationYN=Y",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:29:44.307Z",
+          "sourceSnapshotHash": "acc4201a70a8d7bde0e2d3354419fe92eb7acca63cea68ae4e82222e5355fe84"
         },
-        "batteryLife": {
-          "value": "5000mAh",
-          "rawText": "电池典型容量：5000mAh",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+        "batteryCapacity": {
+          "value": 5000,
+          "unit": "mAh",
+          "rawText": "5000",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9480ZVDCHC&specAnnotationYN=Y",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:29:44.307Z",
+          "sourceSnapshotHash": "acc4201a70a8d7bde0e2d3354419fe92eb7acca63cea68ae4e82222e5355fe84"
         },
         "port": {
           "value": "USB Type-C",
-          "rawText": "USB 接口：USB Type-C",
-          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
+          "rawText": "USB Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9480ZVDCHC&specAnnotationYN=Y",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:29:44.307Z",
+          "sourceSnapshotHash": "acc4201a70a8d7bde0e2d3354419fe92eb7acca63cea68ae4e82222e5355fe84"
         },
         "launchPrice": {
           "value": 9999,
           "unit": "CNY",
-          "rawText": "中国大陆厂商建议零售价 9999 元起",
-          "sourceUrl": "https://www.samsung.com.cn/news/product/galaxy-s26/",
-          "sourceType": "official",
-          "confidence": 1,
-          "verifiedAt": "2026-09-07",
+          "rawText": "12GB + 256GB 建议零售价 9999 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://m.ithome.com/html/923675.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:08:23.683Z",
+          "sourceSnapshotHash": "0fe941638fbb68ab3394dceeac50519f39b7308bf9e4effca408e76cb0c22d8b",
           "priceType": "launch",
           "market": "中国大陆",
           "configuration": "12GB 运行内存 + 256GB 存储，国行版本",
-          "condition": "中国大陆首发厂商建议零售价"
+          "condition": "中国大陆首发厂商建议零售价，不含限时升杯或预售尝鲜价"
         }
       },
       "computed": {}

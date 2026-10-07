@@ -1,0 +1,2370 @@
+{
+  "phone": [
+    {
+      "id": "xiaomi-6-2017",
+      "modelName": "小米6",
+      "generation": "6",
+      "releaseYear": 2017,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/22115_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_22115_0_1.html",
+        "https://detail.zol.com.cn/1162/1161066/param.shtml",
+        "https://detail.zol.com.cn/1203/1202665/param.shtml",
+        "https://mobile.zol.com.cn/639/6390845.html",
+        "https://mobile.zol.com.cn/636/6364283_all.html"
+      ],
+      "releaseEvidence": {
+        "value": "2017-04-28",
+        "rawText": "上市日期 2017年04月28日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1162/1161066/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:40.757Z",
+        "sourceSnapshotHash": "b57c026933ae2eb89c44a3d18338ff8b4e98406afdc51b9dbdc7a89306477043"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        },
+        {
+          "field": "displayType",
+          "reason": "对应具体配置参数页未提供可核验的字段原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 配置另由独立发布评测原文逐条补证，仅采用该原文列明组合。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "excludedConfigurations": [
+        {
+          "name": "小米6（6GB RAM/全网通）；RAM容量 6GB> 游戏运行良好；ROM容量 64GB/128GB 1.3万张照片 5461首歌曲；CPU型号 高通 骁龙835（MSM8998）",
+          "sourceUrl": "https://detail.zol.com.cn/1162/1161066/param.shtml",
+          "reason": "旧参数页ROM是多值汇总，无法绑定单个实际SKU"
+        }
+      ],
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "4月19日下午14点，小米科技于北京召开小 米6 新品发布会",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://mobile.zol.com.cn/636/6364283_all.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:24:19.356Z",
+        "sourceSnapshotHash": "05db61c5f785e8f2e015364b1220f684c1d6bd1285781977aff1c9bcd95c4709"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_22115.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "亮黑色，亮蓝色，亮白色 查看外观",
+        "rawText": "机身颜色 亮黑色，亮蓝色，亮白色 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1162/1161066/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:40.757Z",
+        "sourceSnapshotHash": "b57c026933ae2eb89c44a3d18338ff8b4e98406afdc51b9dbdc7a89306477043"
+      }
+    },
+    {
+      "id": "xiaomi-mix-4-2021",
+      "modelName": "小米MIX 4",
+      "generation": "MIX 4",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/35147_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_35147_0_1.html",
+        "https://detail.zol.com.cn/1296/1295280/param.shtml",
+        "https://detail.zol.com.cn/1383/1382326/param.shtml",
+        "https://detail.zol.com.cn/1383/1382325/param.shtml",
+        "https://detail.zol.com.cn/1383/1382327/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2021-08-16",
+        "rawText": "上市日期 2021年08月16日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1296/1295280/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:45.130Z",
+        "sourceSnapshotHash": "302dd1bd58d70bf14e41278f17b3269241ca2c165790af4bc99a58da02da06c5"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2021年08月10日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1296/1295280/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:45.130Z",
+        "sourceSnapshotHash": "302dd1bd58d70bf14e41278f17b3269241ca2c165790af4bc99a58da02da06c5"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_35147.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "影青灰，陶瓷白，陶瓷黑 查看外观",
+        "rawText": "机身颜色 影青灰，陶瓷白，陶瓷黑 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1296/1295280/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:45.130Z",
+        "sourceSnapshotHash": "302dd1bd58d70bf14e41278f17b3269241ca2c165790af4bc99a58da02da06c5"
+      }
+    },
+    {
+      "id": "xiaomi-mix-fold-2021",
+      "modelName": "小米MIX FOLD",
+      "generation": "MIX FOLD",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/33489_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_33489_0_1.html",
+        "https://detail.zol.com.cn/1362/1361283/param.shtml",
+        "https://detail.zol.com.cn/1365/1364994/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2021-04-16",
+        "rawText": "上市日期 2021年04月16日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1362/1361283/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:46.130Z",
+        "sourceSnapshotHash": "7e4e451ed61ea30aee6403330808ec812b207b24c43ca0129d480db5dca7a5a3"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "excludedConfigurations": [
+        {
+          "name": "小米MIX FOLD（16GB/512GB/全网通/5G版）",
+          "sourceUrl": "https://detail.zol.com.cn/1365/1364995/param.shtml",
+          "reason": "型号标题与参数行中的内存或存储冲突"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2021年03月30日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1362/1361283/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:46.130Z",
+        "sourceSnapshotHash": "7e4e451ed61ea30aee6403330808ec812b207b24c43ca0129d480db5dca7a5a3"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_33489.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "黑色 查看外观",
+        "rawText": "机身颜色 黑色 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1362/1361283/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:46.130Z",
+        "sourceSnapshotHash": "7e4e451ed61ea30aee6403330808ec812b207b24c43ca0129d480db5dca7a5a3"
+      }
+    },
+    {
+      "id": "xiaomi-11-2021",
+      "modelName": "小米11",
+      "generation": "11",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/32510_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_32510_0_1.html",
+        "https://detail.zol.com.cn/1343/1342500/param.shtml",
+        "https://detail.zol.com.cn/1354/1353679/param.shtml",
+        "https://detail.zol.com.cn/1354/1353680/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2021-01-01",
+        "rawText": "上市日期 2021年01月01日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1343/1342500/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:46.510Z",
+        "sourceSnapshotHash": "169544c5a8b5c1e1cd245ae6fdc095e67b28e8ae1e3033baf20b347842798843"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2020年12月28日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1343/1342500/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:46.510Z",
+        "sourceSnapshotHash": "169544c5a8b5c1e1cd245ae6fdc095e67b28e8ae1e3033baf20b347842798843"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_32510.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "黑色，白色，蓝色，烟紫，卡其 查看外观",
+        "rawText": "机身颜色 黑色，白色，蓝色，烟紫，卡其 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1343/1342500/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:46.510Z",
+        "sourceSnapshotHash": "169544c5a8b5c1e1cd245ae6fdc095e67b28e8ae1e3033baf20b347842798843"
+      }
+    },
+    {
+      "id": "xiaomi-11-pro-2021",
+      "modelName": "小米11 Pro",
+      "generation": "11",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/33480_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_33480_0_1.html",
+        "https://detail.zol.com.cn/1348/1347136/param.shtml",
+        "https://detail.zol.com.cn/1365/1364834/param.shtml",
+        "https://detail.zol.com.cn/1365/1364833/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2021-04-02",
+        "rawText": "上市日期 2021年04月02日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1348/1347136/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:47.230Z",
+        "sourceSnapshotHash": "a27166396f0f394839a0a8b6393527636dd05fc4594318c6d93b40f604181007"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2021年03月29日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1348/1347136/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:47.230Z",
+        "sourceSnapshotHash": "a27166396f0f394839a0a8b6393527636dd05fc4594318c6d93b40f604181007"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_33480.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "黑色，绿色，紫色 查看外观",
+        "rawText": "机身颜色 黑色，绿色，紫色 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1348/1347136/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:47.230Z",
+        "sourceSnapshotHash": "a27166396f0f394839a0a8b6393527636dd05fc4594318c6d93b40f604181007"
+      }
+    },
+    {
+      "id": "xiaomi-11-lite-2021",
+      "modelName": "小米11青春版",
+      "generation": "11",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/33482_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_33482_0_1.html",
+        "https://detail.zol.com.cn/1357/1356946/param.shtml",
+        "https://detail.zol.com.cn/1365/1364838/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2021-04-16",
+        "rawText": "上市日期 2021年04月16日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1357/1356946/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:47.923Z",
+        "sourceSnapshotHash": "95a8e13d748ebe11921322e59ac76315a8785e6b6819149b8f8804594c5ab0ad"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2021年03月29日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1357/1356946/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:47.923Z",
+        "sourceSnapshotHash": "95a8e13d748ebe11921322e59ac76315a8785e6b6819149b8f8804594c5ab0ad"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_33482.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "冰峰黑提，樱花蜜粉，清凉薄荷，清甜荔枝 查看外观",
+        "rawText": "机身颜色 冰峰黑提，樱花蜜粉，清凉薄荷，清甜荔枝 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1357/1356946/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:47.923Z",
+        "sourceSnapshotHash": "95a8e13d748ebe11921322e59ac76315a8785e6b6819149b8f8804594c5ab0ad"
+      }
+    },
+    {
+      "id": "xiaomi-11-lite-ne-2021",
+      "modelName": "小米11 青春活力版",
+      "generation": "11",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/37320_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_37320_0_1.html",
+        "https://detail.zol.com.cn/1396/1395404/param.shtml",
+        "https://detail.zol.com.cn/1396/1395598/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2021-12-10",
+        "rawText": "上市日期 2021年12月10日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1396/1395404/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:48.645Z",
+        "sourceSnapshotHash": "871ef0c069888024c7828ba7c0196a4543d0d638467f5f076d6903cb97279fea"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2021年12月09日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1396/1395404/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:48.645Z",
+        "sourceSnapshotHash": "871ef0c069888024c7828ba7c0196a4543d0d638467f5f076d6903cb97279fea"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_37320.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "冰峰黑提，樱花蜜粉，清凉薄荷，晴光白雪 查看外观",
+        "rawText": "机身颜色 冰峰黑提，樱花蜜粉，清凉薄荷，晴光白雪 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1396/1395404/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:48.645Z",
+        "sourceSnapshotHash": "871ef0c069888024c7828ba7c0196a4543d0d638467f5f076d6903cb97279fea"
+      }
+    },
+    {
+      "id": "xiaomi-10s-2021",
+      "modelName": "小米10S",
+      "generation": "10S",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/33310_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_33310_0_1.html",
+        "https://detail.zol.com.cn/1363/1362006/param.shtml",
+        "https://detail.zol.com.cn/1363/1362410/param.shtml",
+        "https://detail.zol.com.cn/1363/1362408/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2021-03-12",
+        "rawText": "上市日期 2021年03月12日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1363/1362006/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:49.254Z",
+        "sourceSnapshotHash": "85c559dbb427b5ab079993ee95e05b91d9e99e02c060174bc4b11c52b3b6c8b4"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2021年03月10日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1363/1362006/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:49.254Z",
+        "sourceSnapshotHash": "85c559dbb427b5ab079993ee95e05b91d9e99e02c060174bc4b11c52b3b6c8b4"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_33310.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "黑色，蓝色，白色 查看外观",
+        "rawText": "机身颜色 黑色，蓝色，白色 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1363/1362006/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:49.254Z",
+        "sourceSnapshotHash": "85c559dbb427b5ab079993ee95e05b91d9e99e02c060174bc4b11c52b3b6c8b4"
+      }
+    },
+    {
+      "id": "xiaomi-10-2020",
+      "modelName": "小米10",
+      "generation": "10",
+      "releaseYear": 2020,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/29259_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_29259_0_1.html",
+        "https://detail.zol.com.cn/1304/1303453/param.shtml",
+        "https://detail.zol.com.cn/1312/1311006/param.shtml",
+        "https://detail.zol.com.cn/1312/1311005/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2020-02",
+        "rawText": "上市日期 2020年02月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1304/1303453/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:49.486Z",
+        "sourceSnapshotHash": "23b0e496f89094fd130d141b7badda501ab82346cd6553b68b5cd2a1044e2f82"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2020年02月13日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1304/1303453/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:49.486Z",
+        "sourceSnapshotHash": "23b0e496f89094fd130d141b7badda501ab82346cd6553b68b5cd2a1044e2f82"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_29259.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "钛银黑，蜜桃金，冰海蓝，国风雅灰 查看外观",
+        "rawText": "机身颜色 钛银黑，蜜桃金，冰海蓝，国风雅灰 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1304/1303453/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:49.486Z",
+        "sourceSnapshotHash": "23b0e496f89094fd130d141b7badda501ab82346cd6553b68b5cd2a1044e2f82"
+      }
+    },
+    {
+      "id": "xiaomi-10-pro-2020",
+      "modelName": "小米10 Pro",
+      "generation": "10",
+      "releaseYear": 2020,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/29260_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_29260_0_1.html",
+        "https://detail.zol.com.cn/1312/1311008/param.shtml",
+        "https://detail.zol.com.cn/1312/1311010/param.shtml",
+        "https://detail.zol.com.cn/1312/1311009/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2020-02-18",
+        "rawText": "上市日期 2020年02月18日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1312/1311008/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:50.501Z",
+        "sourceSnapshotHash": "47a6a7c641ad6833e4830aacb8e510d28196e5ffcca82aefe5ed0b3be4ce9cdb"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2020年02月13日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1312/1311008/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:50.501Z",
+        "sourceSnapshotHash": "47a6a7c641ad6833e4830aacb8e510d28196e5ffcca82aefe5ed0b3be4ce9cdb"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_29260.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "星空蓝，珍珠白 查看外观",
+        "rawText": "机身颜色 星空蓝，珍珠白 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1312/1311008/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:50.501Z",
+        "sourceSnapshotHash": "47a6a7c641ad6833e4830aacb8e510d28196e5ffcca82aefe5ed0b3be4ce9cdb"
+      }
+    },
+    {
+      "id": "xiaomi-10-lite-2020",
+      "modelName": "小米10青春版",
+      "generation": "10",
+      "releaseYear": 2020,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/29854_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_29854_0_1.html",
+        "https://detail.zol.com.cn/1322/1321201/param.shtml",
+        "https://detail.zol.com.cn/1320/1319961/param.shtml",
+        "https://detail.zol.com.cn/1322/1321206/param.shtml",
+        "https://detail.zol.com.cn/1322/1321192/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2020-04-30",
+        "rawText": "上市日期 2020年04月30日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1322/1321201/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:50.942Z",
+        "sourceSnapshotHash": "7781c83cc3c5c6cb52eb95a08ca5d507e53fbd157d5131118154f9788440ec6b"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2020年04月27日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1322/1321201/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:50.942Z",
+        "sourceSnapshotHash": "7781c83cc3c5c6cb52eb95a08ca5d507e53fbd157d5131118154f9788440ec6b"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_29854.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "白桃乌龙,蓝莓薄荷,黑巧风暴,四季春奶绿,桃子西柚 查看外观",
+        "rawText": "机身颜色 白桃乌龙,蓝莓薄荷,黑巧风暴,四季春奶绿,桃子西柚 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1322/1321201/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:50.942Z",
+        "sourceSnapshotHash": "7781c83cc3c5c6cb52eb95a08ca5d507e53fbd157d5131118154f9788440ec6b"
+      }
+    },
+    {
+      "id": "xiaomi-9-pro-2019",
+      "modelName": "小米9 Pro",
+      "generation": "9",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/27841_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_27841_0_1.html",
+        "https://detail.zol.com.cn/1292/1291958/param.shtml",
+        "https://detail.zol.com.cn/1295/1294436/param.shtml",
+        "https://detail.zol.com.cn/1295/1294434/param.shtml",
+        "https://detail.zol.com.cn/1295/1294435/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2019-09-27",
+        "rawText": "上市日期 2019年09月27日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1292/1291958/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:55.489Z",
+        "sourceSnapshotHash": "5de1f0a8faded87cc65e6d630861c7d0b7cbe0e55190ff46649c8ef52b4a706f"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2019年09月24日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1292/1291958/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:55.489Z",
+        "sourceSnapshotHash": "5de1f0a8faded87cc65e6d630861c7d0b7cbe0e55190ff46649c8ef52b4a706f"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_27841.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "梦之白，钛银黑 查看外观",
+        "rawText": "机身颜色 梦之白，钛银黑 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1292/1291958/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:55.489Z",
+        "sourceSnapshotHash": "5de1f0a8faded87cc65e6d630861c7d0b7cbe0e55190ff46649c8ef52b4a706f"
+      }
+    },
+    {
+      "id": "xiaomi-cc9-pro-2019",
+      "modelName": "小米CC9 Pro",
+      "generation": "CC9",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/28131_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_28131_0_1.html",
+        "https://detail.zol.com.cn/1296/1295313/param.shtml",
+        "https://detail.zol.com.cn/1300/1299328/param.shtml",
+        "https://detail.zol.com.cn/1300/1299327/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2019-11",
+        "rawText": "上市日期 2019年11月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1296/1295313/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:03.757Z",
+        "sourceSnapshotHash": "6c07f1e591abf1607eb7b928dda492945319d38917fa0daea2227e8a9a1f60ba"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2019年11月05日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1296/1295313/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:03.757Z",
+        "sourceSnapshotHash": "6c07f1e591abf1607eb7b928dda492945319d38917fa0daea2227e8a9a1f60ba"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_28131.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "魔法绿境，冰雪极光，暗夜魅影 查看外观",
+        "rawText": "机身颜色 魔法绿境，冰雪极光，暗夜魅影 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1296/1295313/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:03.757Z",
+        "sourceSnapshotHash": "6c07f1e591abf1607eb7b928dda492945319d38917fa0daea2227e8a9a1f60ba"
+      }
+    },
+    {
+      "id": "xiaomi-civi-2021",
+      "modelName": "小米Civi",
+      "generation": "Civi",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/35962_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_35962_0_1.html",
+        "https://detail.zol.com.cn/1387/1386981/param.shtml",
+        "https://detail.zol.com.cn/1390/1389724/param.shtml",
+        "https://detail.zol.com.cn/1388/1387004/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2021-09-30",
+        "rawText": "上市日期 2021年09月30日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1387/1386981/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:04.204Z",
+        "sourceSnapshotHash": "9c5ba378fec8f01d153f4b0e224934c8dd9c6ddc4c1fd73fcdfb56b2e034dfc8"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2021年09月27日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1387/1386981/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:04.204Z",
+        "sourceSnapshotHash": "9c5ba378fec8f01d153f4b0e224934c8dd9c6ddc4c1fd73fcdfb56b2e034dfc8"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_35962.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "粉色，黑色，蓝色 查看外观",
+        "rawText": "机身颜色 粉色，黑色，蓝色 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1387/1386981/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:04.204Z",
+        "sourceSnapshotHash": "9c5ba378fec8f01d153f4b0e224934c8dd9c6ddc4c1fd73fcdfb56b2e034dfc8"
+      }
+    },
+    {
+      "id": "xiaomi-12-2021",
+      "modelName": "小米12",
+      "generation": "12",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/37393_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_37393_0_1.html",
+        "https://detail.zol.com.cn/1372/1371752/param.shtml",
+        "https://detail.zol.com.cn/1397/1396277/param.shtml",
+        "https://detail.zol.com.cn/1397/1396278/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2021-12-31",
+        "rawText": "上市日期 2021年12月31日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1372/1371752/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:04.835Z",
+        "sourceSnapshotHash": "5db04526948b10b7d0534dadd8d6071b013e3c79da2e50335f4e1366fd0e4e51"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2021年12月28日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1372/1371752/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:04.835Z",
+        "sourceSnapshotHash": "5db04526948b10b7d0534dadd8d6071b013e3c79da2e50335f4e1366fd0e4e51"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_37393.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "黑色，蓝色，紫色，原野绿 查看外观",
+        "rawText": "机身颜色 黑色，蓝色，紫色，原野绿 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1372/1371752/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:04.835Z",
+        "sourceSnapshotHash": "5db04526948b10b7d0534dadd8d6071b013e3c79da2e50335f4e1366fd0e4e51"
+      }
+    },
+    {
+      "id": "xiaomi-12-pro-2021",
+      "modelName": "小米12 Pro",
+      "generation": "12",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/37394_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_37394_0_1.html",
+        "https://detail.zol.com.cn/1372/1371912/param.shtml",
+        "https://detail.zol.com.cn/1397/1396279/param.shtml",
+        "https://detail.zol.com.cn/1397/1396281/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2021-12-31",
+        "rawText": "上市日期 2021年12月31日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1372/1371912/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:05.451Z",
+        "sourceSnapshotHash": "4d6c131a64e57c54a54c56095a639acca9d81b0965d4524954cabeafa631aa65"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2021年12月28日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1372/1371912/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:05.451Z",
+        "sourceSnapshotHash": "4d6c131a64e57c54a54c56095a639acca9d81b0965d4524954cabeafa631aa65"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_37394.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "黑色，蓝色，紫色，原野绿 查看外观",
+        "rawText": "机身颜色 黑色，蓝色，紫色，原野绿 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1372/1371912/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:05.451Z",
+        "sourceSnapshotHash": "4d6c131a64e57c54a54c56095a639acca9d81b0965d4524954cabeafa631aa65"
+      }
+    },
+    {
+      "id": "xiaomi-12x-2021",
+      "modelName": "小米12X",
+      "generation": "12X",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/37396_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_37396_0_1.html",
+        "https://detail.zol.com.cn/1396/1395108/param.shtml",
+        "https://detail.zol.com.cn/1397/1396282/param.shtml",
+        "https://detail.zol.com.cn/1397/1396283/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2021-12-31",
+        "rawText": "上市日期 2021年12月31日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1396/1395108/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:06.034Z",
+        "sourceSnapshotHash": "f02406f48be6b8b676a5fc3091a33e1a9bfd5dcafb984dd3f5138c79d5e7349f"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2021年12月28日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1396/1395108/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:06.034Z",
+        "sourceSnapshotHash": "f02406f48be6b8b676a5fc3091a33e1a9bfd5dcafb984dd3f5138c79d5e7349f"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_37396.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "黑色，蓝色，紫色 查看外观",
+        "rawText": "机身颜色 黑色，蓝色，紫色 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1396/1395108/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:06.034Z",
+        "sourceSnapshotHash": "f02406f48be6b8b676a5fc3091a33e1a9bfd5dcafb984dd3f5138c79d5e7349f"
+      }
+    },
+    {
+      "id": "redmi-k40-2021",
+      "modelName": "Redmi K40",
+      "generation": "K40",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/33162_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_33162_0_1.html",
+        "https://detail.zol.com.cn/1341/1340278/param.shtml",
+        "https://detail.zol.com.cn/1361/1360942/param.shtml",
+        "https://detail.zol.com.cn/1361/1360941/param.shtml",
+        "https://detail.zol.com.cn/1361/1360940/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2021-03-07",
+        "rawText": "上市日期 2021年03月07日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1341/1340278/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:06.814Z",
+        "sourceSnapshotHash": "64a67856c7b3c52a430d5e88eae3316169b6e7b68c7955d8694af7d3b3d2ac92"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2021年02月25日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1341/1340278/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:06.814Z",
+        "sourceSnapshotHash": "64a67856c7b3c52a430d5e88eae3316169b6e7b68c7955d8694af7d3b3d2ac92"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_33162.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "亮黑,晴雪,幻境,墨羽 查看外观",
+        "rawText": "机身颜色 亮黑,晴雪,幻境,墨羽 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1341/1340278/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:06.814Z",
+        "sourceSnapshotHash": "64a67856c7b3c52a430d5e88eae3316169b6e7b68c7955d8694af7d3b3d2ac92"
+      }
+    },
+    {
+      "id": "redmi-k40-pro-2021",
+      "modelName": "Redmi K40 Pro",
+      "generation": "K40",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/33163_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_33163_0_1.html",
+        "https://detail.zol.com.cn/1341/1340282/param.shtml",
+        "https://detail.zol.com.cn/1361/1360945/param.shtml",
+        "https://detail.zol.com.cn/1361/1360944/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2021-03-07",
+        "rawText": "上市日期 2021年03月07日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1341/1340282/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:06.852Z",
+        "sourceSnapshotHash": "5bd574f20f8c8421d615e2259a55d92a5b2ede2f2e065fbbf272ebce5bcbd645"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2021年02月25日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1341/1340282/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:06.852Z",
+        "sourceSnapshotHash": "5bd574f20f8c8421d615e2259a55d92a5b2ede2f2e065fbbf272ebce5bcbd645"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_33163.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "墨羽，晴雪，幻境 查看外观",
+        "rawText": "机身颜色 墨羽，晴雪，幻境 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1341/1340282/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:06.852Z",
+        "sourceSnapshotHash": "5bd574f20f8c8421d615e2259a55d92a5b2ede2f2e065fbbf272ebce5bcbd645"
+      }
+    },
+    {
+      "id": "redmi-k40-gaming-2021",
+      "modelName": "Redmi K40 游戏增强版",
+      "generation": "K40",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/33804_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_33804_0_1.html",
+        "https://detail.zol.com.cn/1364/1363544/param.shtml",
+        "https://detail.zol.com.cn/1369/1368672/param.shtml",
+        "https://detail.zol.com.cn/1369/1368669/param.shtml",
+        "https://detail.zol.com.cn/1369/1368670/param.shtml",
+        "https://detail.zol.com.cn/1369/1368671/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2021-04-30",
+        "rawText": "上市日期 2021年04月30日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1364/1363544/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:07.692Z",
+        "sourceSnapshotHash": "e67513b07008c7b76be1818b9ffe7cf7b4efe6e7c637834ba7e6ea37a8f80744"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 5 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2021年04月27日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1364/1363544/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:07.692Z",
+        "sourceSnapshotHash": "e67513b07008c7b76be1818b9ffe7cf7b4efe6e7c637834ba7e6ea37a8f80744"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_33804.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "暗影，银翼，光刃 查看外观",
+        "rawText": "机身颜色 暗影，银翼，光刃 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1364/1363544/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:07.692Z",
+        "sourceSnapshotHash": "e67513b07008c7b76be1818b9ffe7cf7b4efe6e7c637834ba7e6ea37a8f80744"
+      }
+    },
+    {
+      "id": "redmi-k30s-ultra-2020",
+      "modelName": "Redmi K30S至尊纪念版",
+      "generation": "K30S",
+      "releaseYear": 2020,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/31928_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_31928_0_1.html",
+        "https://detail.zol.com.cn/1344/1343436/param.shtml",
+        "https://detail.zol.com.cn/1345/1344752/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2020-11-01",
+        "rawText": "上市日期 2020年11月1日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1344/1343436/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:08.467Z",
+        "sourceSnapshotHash": "76ee34a3f756a3672f50799394905bc21829ff34d777a9c3480c84b172de4268"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2020年10月27日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1344/1343436/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:08.467Z",
+        "sourceSnapshotHash": "76ee34a3f756a3672f50799394905bc21829ff34d777a9c3480c84b172de4268"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_31928.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "星际黑，月光银 查看外观",
+        "rawText": "机身颜色 星际黑，月光银 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1344/1343436/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:08.467Z",
+        "sourceSnapshotHash": "76ee34a3f756a3672f50799394905bc21829ff34d777a9c3480c84b172de4268"
+      }
+    },
+    {
+      "id": "redmi-k30-ultra-2020",
+      "modelName": "Redmi K30至尊纪念版",
+      "generation": "K30",
+      "releaseYear": 2020,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/31197_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_31197_0_1.html",
+        "https://detail.zol.com.cn/1335/1334559/param.shtml",
+        "https://detail.zol.com.cn/1336/1335093/param.shtml",
+        "https://detail.zol.com.cn/1336/1335095/param.shtml",
+        "https://detail.zol.com.cn/1336/1335094/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2020-08-14",
+        "rawText": "上市日期 2020年08月14日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1335/1334559/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:08.783Z",
+        "sourceSnapshotHash": "f0fddbf9582814449285fe975de16f170d50f936921540599928b5589e14ae7c"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2020年08月11日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1335/1334559/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:08.783Z",
+        "sourceSnapshotHash": "f0fddbf9582814449285fe975de16f170d50f936921540599928b5589e14ae7c"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_31197.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "薄荷绿,月幕白,极夜黑 查看外观",
+        "rawText": "机身颜色 薄荷绿,月幕白,极夜黑 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1335/1334559/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:08.783Z",
+        "sourceSnapshotHash": "f0fddbf9582814449285fe975de16f170d50f936921540599928b5589e14ae7c"
+      }
+    },
+    {
+      "id": "redmi-k30-pro-2020",
+      "modelName": "Redmi K30 Pro",
+      "generation": "K30",
+      "releaseYear": 2020,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/29513_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_29513_0_1.html",
+        "https://detail.zol.com.cn/1314/1313067/param.shtml",
+        "https://detail.zol.com.cn/1318/1317839/param.shtml",
+        "https://detail.zol.com.cn/1328/1327214/param.shtml",
+        "https://detail.zol.com.cn/1317/1316224/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2020-03-27",
+        "rawText": "上市日期 2020年03月27日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1314/1313067/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:09.507Z",
+        "sourceSnapshotHash": "99d1b9199b94dedea482221660ade44fa57e085f5cacf6d754acc34945675b18"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2020年03月24日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1314/1313067/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:09.507Z",
+        "sourceSnapshotHash": "99d1b9199b94dedea482221660ade44fa57e085f5cacf6d754acc34945675b18"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_29513.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "月幕白，天际蓝 查看外观",
+        "rawText": "机身颜色 月幕白，天际蓝 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1314/1313067/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:09.507Z",
+        "sourceSnapshotHash": "99d1b9199b94dedea482221660ade44fa57e085f5cacf6d754acc34945675b18"
+      }
+    },
+    {
+      "id": "redmi-k30-pro-zoom-2020",
+      "modelName": "Redmi K30 Pro变焦版",
+      "generation": "K30",
+      "releaseYear": 2020,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/29517_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_29517_0_1.html",
+        "https://detail.zol.com.cn/1317/1316226/param.shtml",
+        "https://detail.zol.com.cn/1318/1317845/param.shtml",
+        "https://detail.zol.com.cn/1317/1316228/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2020-03-27",
+        "rawText": "上市日期 2020年03月27日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1317/1316226/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:10.350Z",
+        "sourceSnapshotHash": "a481539d97f7cce384af206a3d20922d56c7506723b8a1b86a5d728eb85fd7b3"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2020年03月24日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1317/1316226/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:10.350Z",
+        "sourceSnapshotHash": "a481539d97f7cce384af206a3d20922d56c7506723b8a1b86a5d728eb85fd7b3"
+      },
+      "imageReferenceStatus": "series_gallery_link_missing",
+      "imageReferenceNote": "已核对系列页未提供可读取的系列图库链接；可另查具体SKU参数页中的产品主图，不构造图库地址。",
+      "colorEvidence": {
+        "value": "月幕白，天际蓝，太空灰，星环紫 查看外观",
+        "rawText": "机身颜色 月幕白，天际蓝，太空灰，星环紫 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1317/1316226/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:10.350Z",
+        "sourceSnapshotHash": "a481539d97f7cce384af206a3d20922d56c7506723b8a1b86a5d728eb85fd7b3"
+      }
+    },
+    {
+      "id": "redmi-k30-5g-2019",
+      "modelName": "Redmi K30 5G",
+      "generation": "K30 5G",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/28541_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_28541_0_1.html",
+        "https://detail.zol.com.cn/1291/1290070/param.shtml",
+        "https://detail.zol.com.cn/1305/1304146/param.shtml",
+        "https://detail.zol.com.cn/1305/1304147/param.shtml",
+        "https://detail.zol.com.cn/1305/1304149/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2019-12",
+        "rawText": "上市日期 2019年12月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1291/1290070/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:24.766Z",
+        "sourceSnapshotHash": "cd222ca203ef151137d199c43fd6b6b7065735d74799f0e5a70f7a19f3b1be8c"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2019年12月10日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1291/1290070/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:24.766Z",
+        "sourceSnapshotHash": "cd222ca203ef151137d199c43fd6b6b7065735d74799f0e5a70f7a19f3b1be8c"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_28541.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "时光独白，深海微光 查看外观",
+        "rawText": "机身颜色 时光独白，深海微光 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1291/1290070/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:24.766Z",
+        "sourceSnapshotHash": "cd222ca203ef151137d199c43fd6b6b7065735d74799f0e5a70f7a19f3b1be8c"
+      }
+    },
+    {
+      "id": "redmi-k30-4g-2019",
+      "modelName": "Redmi K30",
+      "generation": "K30 4G",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/28542_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_28542_0_1.html",
+        "https://detail.zol.com.cn/1305/1304158/param.shtml",
+        "https://detail.zol.com.cn/1305/1304161/param.shtml",
+        "https://detail.zol.com.cn/1305/1304159/param.shtml",
+        "https://detail.zol.com.cn/1305/1304125/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2019-12",
+        "rawText": "上市日期 2019年12月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1305/1304158/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:10.788Z",
+        "sourceSnapshotHash": "8d4aa3bca0d61b45fbd20e404c5d4ef120442a10fd86e5a52b5eae0558d6167e"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2019年12月10日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1305/1304158/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:10.788Z",
+        "sourceSnapshotHash": "8d4aa3bca0d61b45fbd20e404c5d4ef120442a10fd86e5a52b5eae0558d6167e"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_28542.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "紫玉幻境，深海微光，花影惊鸿 查看外观",
+        "rawText": "机身颜色 紫玉幻境，深海微光，花影惊鸿 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1305/1304158/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:10.788Z",
+        "sourceSnapshotHash": "8d4aa3bca0d61b45fbd20e404c5d4ef120442a10fd86e5a52b5eae0558d6167e"
+      }
+    },
+    {
+      "id": "redmi-k20-pro-premium-2019",
+      "modelName": "Redmi K20 Pro 尊享版",
+      "generation": "K20",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/27795_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_27795_0_1.html",
+        "https://detail.zol.com.cn/1294/1293377/param.shtml",
+        "https://detail.zol.com.cn/1294/1293852/param.shtml",
+        "https://detail.zol.com.cn/1294/1293853/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2019-09-19",
+        "rawText": "上市日期 2019年09月19日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1294/1293377/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:27.134Z",
+        "sourceSnapshotHash": "4dc0ec5cb27ec3c4b43dfedb29bbe8c154527fd4e7e32ca9ad09db9e9e6969ad"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2019年09月19日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1294/1293377/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:27.134Z",
+        "sourceSnapshotHash": "4dc0ec5cb27ec3c4b43dfedb29bbe8c154527fd4e7e32ca9ad09db9e9e6969ad"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_27795.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "碳纤黑，水之蜜语，火焰红，冰川蓝，酷黑机甲 查看外观",
+        "rawText": "机身颜色 碳纤黑，水之蜜语，火焰红，冰川蓝，酷黑机甲 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1294/1293377/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:27.134Z",
+        "sourceSnapshotHash": "4dc0ec5cb27ec3c4b43dfedb29bbe8c154527fd4e7e32ca9ad09db9e9e6969ad"
+      }
+    },
+    {
+      "id": "redmi-note-8-2019",
+      "modelName": "Redmi Note 8",
+      "generation": "Note 8",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/27473_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_27473_0_1.html",
+        "https://detail.zol.com.cn/1286/1285904/param.shtml",
+        "https://detail.zol.com.cn/1291/1290608/param.shtml",
+        "https://detail.zol.com.cn/1291/1290609/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2019-09-17",
+        "rawText": "上市日期 2019年09月17日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1291/1290608/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:27.723Z",
+        "sourceSnapshotHash": "42b7e77feb5e417d30b3510261cf82467201a85d3870a1f3c5636561776f0ec5"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2019年08月29日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1286/1285904/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:27.514Z",
+        "sourceSnapshotHash": "f53fe8f3ee2fdd74db7d8cddbba84c1884ac01017b430f5062328596083723b7"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_27473.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "梦幻蓝，曜石黑，皓月白，星云紫 查看外观",
+        "rawText": "机身颜色 梦幻蓝，曜石黑，皓月白，星云紫 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1286/1285904/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:27.514Z",
+        "sourceSnapshotHash": "f53fe8f3ee2fdd74db7d8cddbba84c1884ac01017b430f5062328596083723b7"
+      }
+    },
+    {
+      "id": "redmi-note-8-pro-2019",
+      "modelName": "Redmi Note 8 Pro",
+      "generation": "Note 8",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/27472_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_27472_0_1.html",
+        "https://detail.zol.com.cn/1291/1290607/param.shtml",
+        "https://detail.zol.com.cn/1290/1289775/param.shtml",
+        "https://detail.zol.com.cn/1309/1308440/param.shtml",
+        "https://detail.zol.com.cn/1291/1290606/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2019-09-03",
+        "rawText": "上市日期 2019年09月03日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1291/1290607/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:28.253Z",
+        "sourceSnapshotHash": "3eef695f096a33a56f0ea51dab114fcdaee0a2c514b3f01a8c4ab353efd37a5d"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2019年08月29日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1291/1290607/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:28.253Z",
+        "sourceSnapshotHash": "3eef695f096a33a56f0ea51dab114fcdaee0a2c514b3f01a8c4ab353efd37a5d"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_27472.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "冰翡翠，贝母白，电光灰，暮光橙 查看外观",
+        "rawText": "机身颜色 冰翡翠，贝母白，电光灰，暮光橙 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1291/1290607/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:28.253Z",
+        "sourceSnapshotHash": "3eef695f096a33a56f0ea51dab114fcdaee0a2c514b3f01a8c4ab353efd37a5d"
+      }
+    },
+    {
+      "id": "redmi-note-10-2021",
+      "modelName": "Redmi Note 10",
+      "generation": "Note 10",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/34126_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_34126_0_1.html",
+        "https://detail.zol.com.cn/1339/1338164/param.shtml",
+        "https://detail.zol.com.cn/1373/1372068/param.shtml",
+        "https://detail.zol.com.cn/1373/1372067/param.shtml",
+        "https://detail.zol.com.cn/1373/1372066/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2021-06-01",
+        "rawText": "上市日期 2021年06月01日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1339/1338164/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:24:22.105Z",
+        "sourceSnapshotHash": "db3fde9c982b93b1d5b7b6806690ba0444c9d043eab0a5c70080a302d2948149"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2021年05月26日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1339/1338164/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:24:22.105Z",
+        "sourceSnapshotHash": "db3fde9c982b93b1d5b7b6806690ba0444c9d043eab0a5c70080a302d2948149"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_34126.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "竹石青，星云灰，晴山蓝，月影银 查看外观",
+        "rawText": "机身颜色 竹石青，星云灰，晴山蓝，月影银 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1339/1338164/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:24:22.105Z",
+        "sourceSnapshotHash": "db3fde9c982b93b1d5b7b6806690ba0444c9d043eab0a5c70080a302d2948149"
+      }
+    },
+    {
+      "id": "redmi-note-10-pro-2021",
+      "modelName": "Redmi Note 10 Pro",
+      "generation": "Note 10",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/34125_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_34125_0_1.html",
+        "https://detail.zol.com.cn/1359/1358240/param.shtml",
+        "https://detail.zol.com.cn/1373/1372058/param.shtml",
+        "https://detail.zol.com.cn/1373/1372060/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2021-06-01",
+        "rawText": "上市日期 2021年06月01日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1359/1358240/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:34.645Z",
+        "sourceSnapshotHash": "06076b9ede57a6d185f57e0dade75149291d754f31fd69b4c2eb7992b01c46a3"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2021年05月26日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1359/1358240/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:34.645Z",
+        "sourceSnapshotHash": "06076b9ede57a6d185f57e0dade75149291d754f31fd69b4c2eb7992b01c46a3"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_34125.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "幻青，月魄，星纱 查看外观",
+        "rawText": "机身颜色 幻青，月魄，星纱 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1359/1358240/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:34.645Z",
+        "sourceSnapshotHash": "06076b9ede57a6d185f57e0dade75149291d754f31fd69b4c2eb7992b01c46a3"
+      }
+    },
+    {
+      "id": "redmi-note-9-5g-2020",
+      "modelName": "Redmi Note 9 5G版",
+      "generation": "Note 9 5G",
+      "releaseYear": 2020,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/32171_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_32171_0_1.html",
+        "https://detail.zol.com.cn/1348/1347859/param.shtml",
+        "https://detail.zol.com.cn/1350/1349520/param.shtml",
+        "https://detail.zol.com.cn/1350/1349519/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2020-12-01",
+        "rawText": "上市日期 2020年12月01日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1348/1347859/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:34.883Z",
+        "sourceSnapshotHash": "6c356a841e9fb11eec5a3c657978beba1736b47f4dae3ef6a7c2a7a838c15eee"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2020年11月26日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1348/1347859/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:34.883Z",
+        "sourceSnapshotHash": "6c356a841e9fb11eec5a3c657978beba1736b47f4dae3ef6a7c2a7a838c15eee"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_32171.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "云墨灰，流影紫，青山外 查看外观",
+        "rawText": "机身颜色 云墨灰，流影紫，青山外 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1348/1347859/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:34.883Z",
+        "sourceSnapshotHash": "6c356a841e9fb11eec5a3c657978beba1736b47f4dae3ef6a7c2a7a838c15eee"
+      }
+    },
+    {
+      "id": "redmi-note-9-pro-2020",
+      "modelName": "Redmi Note 9 Pro",
+      "generation": "Note 9",
+      "releaseYear": 2020,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/32172_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_32172_0_1.html",
+        "https://detail.zol.com.cn/1315/1314862/param.shtml",
+        "https://detail.zol.com.cn/1350/1349523/param.shtml",
+        "https://detail.zol.com.cn/1350/1349522/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2020-12-01",
+        "rawText": "上市日期 2020年12月01日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1315/1314862/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:35.475Z",
+        "sourceSnapshotHash": "3fad366955f23f5f75968e9de197d6aa4ea59e8ff8f80f3dd939b6ebb323d044"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2020年11月26日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1315/1314862/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:35.475Z",
+        "sourceSnapshotHash": "3fad366955f23f5f75968e9de197d6aa4ea59e8ff8f80f3dd939b6ebb323d044"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_32172.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "湖光秋色，碧海星辰，静默星空 查看外观",
+        "rawText": "机身颜色 湖光秋色，碧海星辰，静默星空 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1315/1314862/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:35.475Z",
+        "sourceSnapshotHash": "3fad366955f23f5f75968e9de197d6aa4ea59e8ff8f80f3dd939b6ebb323d044"
+      }
+    },
+    {
+      "id": "redmi-note-9-4g-2020",
+      "modelName": "Redmi Note 9 4G版",
+      "generation": "Note 9 4G",
+      "releaseYear": 2020,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/32170_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_32170_0_1.html",
+        "https://detail.zol.com.cn/1349/1348871/param.shtml",
+        "https://detail.zol.com.cn/1353/1352445/param.shtml",
+        "https://detail.zol.com.cn/1350/1349515/param.shtml",
+        "https://detail.zol.com.cn/1350/1349516/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2020-11-26",
+        "rawText": "上市日期 2020年11月26日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1349/1348871/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:36.187Z",
+        "sourceSnapshotHash": "e0583ac0f70168b42b37aadeed2d4052aa94ba66cfd2bf534185f886a5f96f46"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2020年11月26日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1349/1348871/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:36.187Z",
+        "sourceSnapshotHash": "e0583ac0f70168b42b37aadeed2d4052aa94ba66cfd2bf534185f886a5f96f46"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_32170.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "雾光青，烟波蓝，羽墨黑，曙光橙 查看外观",
+        "rawText": "机身颜色 雾光青，烟波蓝，羽墨黑，曙光橙 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1349/1348871/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:36.187Z",
+        "sourceSnapshotHash": "e0583ac0f70168b42b37aadeed2d4052aa94ba66cfd2bf534185f886a5f96f46"
+      }
+    },
+    {
+      "id": "redmi-note-11-2021",
+      "modelName": "Redmi Note 11",
+      "generation": "Note 11",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/36324_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_36324_0_1.html",
+        "https://detail.zol.com.cn/1393/1392178/param.shtml",
+        "https://detail.zol.com.cn/1394/1393590/param.shtml",
+        "https://detail.zol.com.cn/1394/1393589/param.shtml",
+        "https://detail.zol.com.cn/1394/1393591/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2021-11-01",
+        "rawText": "上市日期 2021年11月01日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1393/1392178/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:36.932Z",
+        "sourceSnapshotHash": "ce218ea89f154ed3d2b30c3c4444e396b87d73b557d807bd59d84830b489d157"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2021年10月28日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1393/1392178/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:36.932Z",
+        "sourceSnapshotHash": "ce218ea89f154ed3d2b30c3c4444e396b87d73b557d807bd59d84830b489d157"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_36324.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "神秘黑境,浅梦星河,微醺薄荷 查看外观",
+        "rawText": "机身颜色 神秘黑境,浅梦星河,微醺薄荷 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1393/1392178/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:36.932Z",
+        "sourceSnapshotHash": "ce218ea89f154ed3d2b30c3c4444e396b87d73b557d807bd59d84830b489d157"
+      }
+    },
+    {
+      "id": "redmi-note-11-pro-2021",
+      "modelName": "Redmi Note 11 Pro",
+      "generation": "Note 11",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/36192_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_36192_0_1.html",
+        "https://detail.zol.com.cn/1393/1392181/param.shtml",
+        "https://detail.zol.com.cn/1393/1392432/param.shtml",
+        "https://detail.zol.com.cn/1393/1392431/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2021",
+        "rawText": "上市日期 2021年",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1393/1392181/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:37.428Z",
+        "sourceSnapshotHash": "4acef9f31d4a72f916c9e53f442f4701a9666b11983330f686a66661a5de1218"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2021年10月28日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1393/1392181/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:37.428Z",
+        "sourceSnapshotHash": "4acef9f31d4a72f916c9e53f442f4701a9666b11983330f686a66661a5de1218"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_36192.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "神秘黑境，浅梦星河，时光静紫，迷雾森林 查看外观",
+        "rawText": "机身颜色 神秘黑境，浅梦星河，时光静紫，迷雾森林 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1393/1392181/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:37.428Z",
+        "sourceSnapshotHash": "4acef9f31d4a72f916c9e53f442f4701a9666b11983330f686a66661a5de1218"
+      }
+    },
+    {
+      "id": "redmi-note-11-pro-plus-2021",
+      "modelName": "Redmi Note 11 Pro+",
+      "generation": "Note 11",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/36191_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_36191_0_1.html",
+        "https://detail.zol.com.cn/1393/1392424/param.shtml",
+        "https://detail.zol.com.cn/1393/1392429/param.shtml",
+        "https://detail.zol.com.cn/1393/1392428/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2021",
+        "rawText": "上市日期 2021年",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1393/1392424/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:38.195Z",
+        "sourceSnapshotHash": "77a2ec217b9999e484a99f3ae4ca0682906d787144ec61359d6ad4d22a9f9976"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2021年10月28日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1393/1392424/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:38.195Z",
+        "sourceSnapshotHash": "77a2ec217b9999e484a99f3ae4ca0682906d787144ec61359d6ad4d22a9f9976"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_36191.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "神秘黑境,时光静紫,迷雾森林 查看外观",
+        "rawText": "机身颜色 神秘黑境,时光静紫,迷雾森林 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1393/1392424/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:38.195Z",
+        "sourceSnapshotHash": "77a2ec217b9999e484a99f3ae4ca0682906d787144ec61359d6ad4d22a9f9976"
+      }
+    },
+    {
+      "id": "redmi-10x-5g-2020",
+      "modelName": "Redmi 10X 5G",
+      "generation": "10X",
+      "releaseYear": 2020,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/30209_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_30209_0_1.html",
+        "https://detail.zol.com.cn/1321/1320504/param.shtml",
+        "https://detail.zol.com.cn/1326/1325126/param.shtml",
+        "https://detail.zol.com.cn/1326/1325132/param.shtml",
+        "https://detail.zol.com.cn/1326/1325156/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2020-06",
+        "rawText": "上市日期 2020年06月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1321/1320504/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:38.736Z",
+        "sourceSnapshotHash": "f2701517d83079e2c5b801a4d3b80c7557e7a1adfafd71a9e2b72466de956c65"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2020年05月26日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1321/1320504/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:38.736Z",
+        "sourceSnapshotHash": "f2701517d83079e2c5b801a4d3b80c7557e7a1adfafd71a9e2b72466de956c65"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_30209.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "星露白,凝夜紫,深海蓝,胧月金 查看外观",
+        "rawText": "机身颜色 星露白,凝夜紫,深海蓝,胧月金 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1321/1320504/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:38.736Z",
+        "sourceSnapshotHash": "f2701517d83079e2c5b801a4d3b80c7557e7a1adfafd71a9e2b72466de956c65"
+      }
+    },
+    {
+      "id": "redmi-10x-pro-2020",
+      "modelName": "Redmi 10X Pro",
+      "generation": "10X",
+      "releaseYear": 2020,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/30213_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_30213_0_1.html",
+        "https://detail.zol.com.cn/1326/1325136/param.shtml",
+        "https://detail.zol.com.cn/1326/1325149/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2020-06",
+        "rawText": "上市日期 2020年06月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1326/1325136/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:39.296Z",
+        "sourceSnapshotHash": "4885def27710e0e4ce93ac1d858146fe11d913f1dc1378bc9887902d3966c012"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2020年05月26日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1326/1325136/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:39.296Z",
+        "sourceSnapshotHash": "4885def27710e0e4ce93ac1d858146fe11d913f1dc1378bc9887902d3966c012"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_30213.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "凝夜紫,深海蓝,胧月金,星露白 查看外观",
+        "rawText": "机身颜色 凝夜紫,深海蓝,胧月金,星露白 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1326/1325136/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:39.296Z",
+        "sourceSnapshotHash": "4885def27710e0e4ce93ac1d858146fe11d913f1dc1378bc9887902d3966c012"
+      }
+    }
+  ]
+}

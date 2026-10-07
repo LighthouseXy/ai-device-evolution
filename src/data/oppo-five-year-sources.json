@@ -1,0 +1,1126 @@
+{
+  "phone": [
+    {
+      "id": "oppo-find-n2-2022",
+      "modelName": "OPPO Find N2",
+      "generation": "Find N2",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10717475_1.html",
+        "https://detail.zol.com.cn/series/57/1673/param_10717475_0_1.html",
+        "https://detail.zol.com.cn/1428/1427932/param.shtml",
+        "https://detail.zol.com.cn/1438/1437086/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2256/index22557670_0_p1427932.shtml",
+        "https://detail.zol.com.cn/picture_index_2256/index22557669_0_p1427932.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-12-23",
+        "rawText": "上市日期 2022年12月23日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1428/1427932/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:24:05.441Z",
+        "sourceSnapshotHash": "a1b075f3b882f4c1b24ef5a1b70435342b46d7de57b9eb7165be22fd10fb851e"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批额外检查内存/存储字段单值，以及明确国行市场证据；特殊配色、卫星、典藏、柔光等附加版本不代表全部覆盖。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2022年12月15日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1428/1427932/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:24:05.441Z",
+        "sourceSnapshotHash": "a1b075f3b882f4c1b24ef5a1b70435342b46d7de57b9eb7165be22fd10fb851e"
+      },
+      "productImages": {
+        "modelName": "OPPO Find N2",
+        "seriesId": "10717475",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2256/index22557670_0_p1427932.shtml",
+        "fetchedAt": "2026-10-05T18:24:05.773Z",
+        "sourceSnapshotHash": "3e1a088f8f1622c1d52b0ced724e756dd969225a3bbe81d790e08bc17a32507b",
+        "primary": {
+          "url": "https://2b.zol-img.com.cn/product/225_320x240/661/celdhJlk1gIHg.png",
+          "alt": "OPPO Find N2",
+          "modelName": "OPPO Find N2",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10717475_1.html",
+          "sourceSnapshotHash": "792a6aad0c28b809daf77500ef89c887bd4e283c71fa31de78d5b5dae419b0a9",
+          "fetchedAt": "2026-10-05T18:19:55.085Z"
+        },
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2256/index22557670_0_p1427932.shtml",
+          "https://detail.zol.com.cn/picture_index_2256/index22557669_0_p1427932.shtml"
+        ],
+        "colors": [
+          {
+            "name": "素黑",
+            "url": "https://2b.zol-img.com.cn/product/225/661/celdhJlk1gIHg.png",
+            "modelName": "OPPO Find N2",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2256/index22557670_0_p1427932.shtml",
+            "sourceSnapshotHash": "3e1a088f8f1622c1d52b0ced724e756dd969225a3bbe81d790e08bc17a32507b",
+            "fetchedAt": "2026-10-05T18:24:05.773Z"
+          },
+          {
+            "name": "松绿",
+            "url": "https://2d.zol-img.com.cn/product/225/669/ce1Fozgw8vRbI.png",
+            "modelName": "OPPO Find N2",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2256/index22557670_0_p1427932.shtml",
+            "sourceSnapshotHash": "3e1a088f8f1622c1d52b0ced724e756dd969225a3bbe81d790e08bc17a32507b",
+            "fetchedAt": "2026-10-05T18:24:05.773Z"
+          },
+          {
+            "name": "云白",
+            "url": "https://2f.zol-img.com.cn/product/225/659/cetOrPPXTL4k.png",
+            "modelName": "OPPO Find N2",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2256/index22557670_0_p1427932.shtml",
+            "sourceSnapshotHash": "3e1a088f8f1622c1d52b0ced724e756dd969225a3bbe81d790e08bc17a32507b",
+            "fetchedAt": "2026-10-05T18:24:05.773Z"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "oppo-find-n2-flip-2022",
+      "modelName": "OPPO Find N2 Flip",
+      "generation": "Find N2 Flip",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10717477_1.html",
+        "https://detail.zol.com.cn/series/57/1673/param_10717477_0_1.html",
+        "https://detail.zol.com.cn/1428/1427934/param.shtml",
+        "https://detail.zol.com.cn/1438/1437090/param.shtml",
+        "https://detail.zol.com.cn/1438/1437089/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2256/index22557782_0_p1427934.shtml",
+        "https://detail.zol.com.cn/picture_index_2256/index22556387_0_p1427934.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-12-30",
+        "rawText": "上市日期 2022年12月30日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1428/1427934/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:24:07.122Z",
+        "sourceSnapshotHash": "18797f0f5857a8b1f0e43c47fad352c2a7203559b15480d0f9d23db6da6b1cf7"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批额外检查内存/存储字段单值，以及明确国行市场证据；特殊配色、卫星、典藏、柔光等附加版本不代表全部覆盖。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2022年12月15日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1428/1427934/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:24:07.122Z",
+        "sourceSnapshotHash": "18797f0f5857a8b1f0e43c47fad352c2a7203559b15480d0f9d23db6da6b1cf7"
+      },
+      "productImages": {
+        "modelName": "OPPO Find N2 Flip",
+        "seriesId": "10717477",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2256/index22557782_0_p1427934.shtml",
+        "fetchedAt": "2026-10-05T18:24:07.452Z",
+        "sourceSnapshotHash": "e9a2fa92c64760c3cb896733f2c6f9df3af089930af53b7fce18a88c7e83ed16",
+        "primary": {
+          "url": "https://2a.zol-img.com.cn/product/225_320x240/792/cecto4F2Sk3s.jpg",
+          "alt": "OPPO Find N2 Flip",
+          "modelName": "OPPO Find N2 Flip",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10717477_1.html",
+          "sourceSnapshotHash": "a42bd93248af17c586c66e6c4aea7874040695b1a7d814ce9c2a51dc85ee3145",
+          "fetchedAt": "2026-10-05T18:24:06.707Z"
+        },
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2256/index22557782_0_p1427934.shtml",
+          "https://detail.zol.com.cn/picture_index_2256/index22556387_0_p1427934.shtml"
+        ],
+        "colors": [
+          {
+            "name": "流金"
+          },
+          {
+            "name": "雅黑",
+            "url": "https://2a.zol-img.com.cn/product/225/792/cecto4F2Sk3s.jpg",
+            "modelName": "OPPO Find N2 Flip",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2256/index22557782_0_p1427934.shtml",
+            "sourceSnapshotHash": "e9a2fa92c64760c3cb896733f2c6f9df3af089930af53b7fce18a88c7e83ed16",
+            "fetchedAt": "2026-10-05T18:24:07.452Z"
+          },
+          {
+            "name": "慕紫",
+            "url": "https://2f.zol-img.com.cn/product/225/779/ce5CR4eG3ko6.jpg",
+            "modelName": "OPPO Find N2 Flip",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2256/index22557782_0_p1427934.shtml",
+            "sourceSnapshotHash": "e9a2fa92c64760c3cb896733f2c6f9df3af089930af53b7fce18a88c7e83ed16",
+            "fetchedAt": "2026-10-05T18:24:07.452Z"
+          }
+        ],
+        "gaps": [
+          "流金配色图片未核实"
+        ]
+      }
+    },
+    {
+      "id": "oppo-find-n3-2023",
+      "modelName": "OPPO Find N3",
+      "generation": "Find N3",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10747528_1.html",
+        "https://detail.zol.com.cn/series/57/1673/param_10747528_0_1.html",
+        "https://detail.zol.com.cn/1495/1494542/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2544/index25433837_0_p1494542.shtml",
+        "https://detail.zol.com.cn/picture_index_2544/index25433836_0_p1494542.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-10-27",
+        "rawText": "上市日期 2023年10月27日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1495/1494542/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:24:08.507Z",
+        "sourceSnapshotHash": "f5ea624ae7be473a7f1663bf513cb9c27be824270245b51e4fe4850f9f47c6b1"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 1 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批额外检查内存/存储字段单值，以及明确国行市场证据；特殊配色、卫星、典藏、柔光等附加版本不代表全部覆盖。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2023年10月19日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1495/1494542/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:24:08.507Z",
+        "sourceSnapshotHash": "f5ea624ae7be473a7f1663bf513cb9c27be824270245b51e4fe4850f9f47c6b1"
+      },
+      "productImages": {
+        "modelName": "OPPO Find N3",
+        "seriesId": "10747528",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2544/index25433837_0_p1494542.shtml",
+        "fetchedAt": "2026-10-05T18:24:08.727Z",
+        "sourceSnapshotHash": "eedfbf3f90b2189312c283fbe9094cc5d4c812a7923dc64fc1af4ab41e3271fa",
+        "primary": {
+          "name": "千山绿",
+          "url": "https://2c.zol-img.com.cn/product/254/834/ceNws6RHVXwjU.jpg",
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2544/index25433837_0_p1494542.shtml",
+          "sourceSnapshotHash": "eedfbf3f90b2189312c283fbe9094cc5d4c812a7923dc64fc1af4ab41e3271fa",
+          "fetchedAt": "2026-10-05T18:24:08.727Z",
+          "modelName": "OPPO Find N3"
+        },
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2544/index25433837_0_p1494542.shtml",
+          "https://detail.zol.com.cn/picture_index_2544/index25433836_0_p1494542.shtml"
+        ],
+        "colors": [
+          {
+            "name": "千山绿",
+            "url": "https://2c.zol-img.com.cn/product/254/834/ceNws6RHVXwjU.jpg",
+            "modelName": "OPPO Find N3",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2544/index25433837_0_p1494542.shtml",
+            "sourceSnapshotHash": "eedfbf3f90b2189312c283fbe9094cc5d4c812a7923dc64fc1af4ab41e3271fa",
+            "fetchedAt": "2026-10-05T18:24:08.727Z"
+          },
+          {
+            "name": "日志金",
+            "url": "https://2f.zol-img.com.cn/product/254/837/ceOYC5vs1azSE.jpg",
+            "modelName": "OPPO Find N3",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2544/index25433837_0_p1494542.shtml",
+            "sourceSnapshotHash": "eedfbf3f90b2189312c283fbe9094cc5d4c812a7923dc64fc1af4ab41e3271fa",
+            "fetchedAt": "2026-10-05T18:24:08.727Z"
+          },
+          {
+            "name": "潜航黑",
+            "url": "https://2c.zol-img.com.cn/product/254/864/ceEy4L479dkzk.jpg",
+            "modelName": "OPPO Find N3",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2544/index25433837_0_p1494542.shtml",
+            "sourceSnapshotHash": "eedfbf3f90b2189312c283fbe9094cc5d4c812a7923dc64fc1af4ab41e3271fa",
+            "fetchedAt": "2026-10-05T18:24:08.727Z"
+          }
+        ],
+        "excludedColors": [
+          {
+            "name": "赤壁丹霞",
+            "reason": "系列图库含典藏附加款配色；本设备只登记标准 12GB/512GB，不将典藏配色并入标准版。",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10747528_1.html",
+            "sourceSnapshotHash": "42c66c1b48d7811eb7e0150566af01f5b5b55607d6dec7f3e867e3f05574b717",
+            "fetchedAt": "2026-10-05T18:24:08.249Z"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "oppo-find-n3-flip-2023",
+      "modelName": "OPPO Find N3 Flip",
+      "generation": "Find N3 Flip",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10813070_1.html",
+        "https://detail.zol.com.cn/series/57/1673/param_10813070_0_1.html",
+        "https://detail.zol.com.cn/1850/1849601/param.shtml",
+        "https://detail.zol.com.cn/1858/1857456/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2503/index25024569_0_p1849601.shtml",
+        "https://detail.zol.com.cn/picture_index_2503/index25024593_0_p1849601.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-09-08",
+        "rawText": "上市日期 2023年09月08日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1850/1849601/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:24:09.926Z",
+        "sourceSnapshotHash": "d07b50be847eae11fe889956086f1c24779ca1903807419901e9cad84ce23c6e"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批额外检查内存/存储字段单值，以及明确国行市场证据；特殊配色、卫星、典藏、柔光等附加版本不代表全部覆盖。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2023年08月29日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1850/1849601/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:24:09.926Z",
+        "sourceSnapshotHash": "d07b50be847eae11fe889956086f1c24779ca1903807419901e9cad84ce23c6e"
+      },
+      "productImages": {
+        "modelName": "OPPO Find N3 Flip",
+        "seriesId": "10813070",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2503/index25024569_0_p1849601.shtml",
+        "fetchedAt": "2026-10-05T18:24:10.027Z",
+        "sourceSnapshotHash": "c5b45981e8ece993856f44c515aef74cec49cd0c2900383772cb8131f2be8cb0",
+        "primary": {
+          "url": "https://2a.zol-img.com.cn/product/250_320x240/566/ceW13xOUUPnag.jpg",
+          "alt": "OPPO Find N3 Flip",
+          "modelName": "OPPO Find N3 Flip",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10813070_1.html",
+          "sourceSnapshotHash": "35831dbd3534c1fe0133e8039c70bcad2c385ce0164bf91364b4cd391e093ba4",
+          "fetchedAt": "2026-10-05T18:24:09.673Z"
+        },
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2503/index25024569_0_p1849601.shtml",
+          "https://detail.zol.com.cn/picture_index_2503/index25024593_0_p1849601.shtml"
+        ],
+        "colors": [
+          {
+            "name": "月光缪斯",
+            "url": "https://2a.zol-img.com.cn/product/250/566/ceW13xOUUPnag.jpg",
+            "modelName": "OPPO Find N3 Flip",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2503/index25024569_0_p1849601.shtml",
+            "sourceSnapshotHash": "c5b45981e8ece993856f44c515aef74cec49cd0c2900383772cb8131f2be8cb0",
+            "fetchedAt": "2026-10-05T18:24:10.027Z"
+          },
+          {
+            "name": "薄雾玫瑰",
+            "url": "https://2d.zol-img.com.cn/product/250/569/cegKtjzBjMpTw.jpg",
+            "modelName": "OPPO Find N3 Flip",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2503/index25024569_0_p1849601.shtml",
+            "sourceSnapshotHash": "c5b45981e8ece993856f44c515aef74cec49cd0c2900383772cb8131f2be8cb0",
+            "fetchedAt": "2026-10-05T18:24:10.027Z"
+          },
+          {
+            "name": "镜中之夜",
+            "url": "https://2c.zol-img.com.cn/product/250/574/ceP29bRcDeQ.jpg",
+            "modelName": "OPPO Find N3 Flip",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2503/index25024569_0_p1849601.shtml",
+            "sourceSnapshotHash": "c5b45981e8ece993856f44c515aef74cec49cd0c2900383772cb8131f2be8cb0",
+            "fetchedAt": "2026-10-05T18:24:10.027Z"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "oppo-find-n5-2025",
+      "modelName": "OPPO Find N5",
+      "generation": "Find N5",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10910414_1.html",
+        "https://detail.zol.com.cn/series/57/1673/param_10910414_0_1.html",
+        "https://detail.zol.com.cn/2122/2121088/param.shtml",
+        "https://detail.zol.com.cn/2122/2121089/param.shtml",
+        "https://www.ithome.com/0/832/423.htm",
+        "https://detail.zol.com.cn/picture_index_2713/index27123810_0_p2121088.shtml",
+        "https://detail.zol.com.cn/picture_index_2713/index27123799_0_p2121090.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2025-02-26",
+        "rawText": "2 月 26 日 10:00 全面开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/832/423.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:27:41.321Z",
+        "sourceSnapshotHash": "53a9650752372f232653263779fe8b2f7c50cdd897102be289cb00a0ff7f9f60"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批额外检查内存/存储字段单值，以及明确国行市场证据；特殊配色、卫星、典藏、柔光等附加版本不代表全部覆盖。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2025年2月20日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2122/2121088/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:24:10.384Z",
+        "sourceSnapshotHash": "4ec4aa8901d161a447f3d0f43b17d1453d7e489ae45120142bce4c4b5be7eda7"
+      },
+      "productImages": {
+        "modelName": "OPPO Find N5",
+        "seriesId": "10910414",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2713/index27123810_0_p2121088.shtml",
+        "fetchedAt": "2026-10-05T18:27:41.795Z",
+        "sourceSnapshotHash": "50197ea3be3267fe521d9f78c4606d96b48922d59304b081e89c931d58c9f060",
+        "primary": {
+          "url": "https://2b.zol-img.com.cn/product/271_320x240/781/cefR4cERx4nZM.jpg",
+          "alt": "OPPO Find N5",
+          "modelName": "OPPO Find N5",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10910414_1.html",
+          "sourceSnapshotHash": "02c5052500a9cf1b9a84ce2f7d3663aa2595e62a3856e23243a0d4d8f39ad80e",
+          "fetchedAt": "2026-10-05T18:24:10.107Z"
+        },
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2713/index27123810_0_p2121088.shtml",
+          "https://detail.zol.com.cn/picture_index_2713/index27123799_0_p2121090.shtml"
+        ],
+        "colors": [
+          {
+            "name": "暮紫",
+            "url": "https://2b.zol-img.com.cn/product/271/781/cefR4cERx4nZM.jpg",
+            "modelName": "OPPO Find N5",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2713/index27123810_0_p2121088.shtml",
+            "sourceSnapshotHash": "50197ea3be3267fe521d9f78c4606d96b48922d59304b081e89c931d58c9f060",
+            "fetchedAt": "2026-10-05T18:27:41.795Z"
+          },
+          {
+            "name": "玉白",
+            "url": "https://2a.zol-img.com.cn/product/271/798/ceMam1XIqxY6.png",
+            "modelName": "OPPO Find N5",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2713/index27123810_0_p2121088.shtml",
+            "sourceSnapshotHash": "50197ea3be3267fe521d9f78c4606d96b48922d59304b081e89c931d58c9f060",
+            "fetchedAt": "2026-10-05T18:27:41.795Z"
+          },
+          {
+            "name": "锻黑",
+            "url": "https://2a.zol-img.com.cn/product/271/810/cegb2VIlYmTpI.png",
+            "modelName": "OPPO Find N5",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2713/index27123810_0_p2121088.shtml",
+            "sourceSnapshotHash": "50197ea3be3267fe521d9f78c4606d96b48922d59304b081e89c931d58c9f060",
+            "fetchedAt": "2026-10-05T18:27:41.795Z"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "oppo-reno10-2023",
+      "modelName": "OPPO Reno10",
+      "generation": "Reno10",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10722535_1.html",
+        "https://detail.zol.com.cn/series/57/1673/param_10722535_0_1.html",
+        "https://detail.zol.com.cn/1439/1438885/param.shtml",
+        "https://detail.zol.com.cn/1614/1613693/param.shtml",
+        "https://detail.zol.com.cn/1614/1613692/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2383/index23829475_0_p1438885.shtml",
+        "https://detail.zol.com.cn/picture_index_2383/index23829488_0_p1613692.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-06-01",
+        "rawText": "上市日期 2023年06月01日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1439/1438885/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:24:54.520Z",
+        "sourceSnapshotHash": "8c6b4e8f7083d04053688b8fe46c21eb182d50b5e3322093b517bd99cde564a1"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批额外检查内存/存储字段单值，以及明确国行市场证据；特殊配色、卫星、典藏、柔光等附加版本不代表全部覆盖。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2023年05月24日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1439/1438885/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:24:54.520Z",
+        "sourceSnapshotHash": "8c6b4e8f7083d04053688b8fe46c21eb182d50b5e3322093b517bd99cde564a1"
+      },
+      "productImages": {
+        "modelName": "OPPO Reno10",
+        "seriesId": "10722535",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2383/index23829475_0_p1438885.shtml",
+        "fetchedAt": "2026-10-05T18:27:42.061Z",
+        "sourceSnapshotHash": "6d7a8170ba25a49aa3ef5498adb20b6cc2929fca1eda1b6440b82f5cb8040dd3",
+        "primary": {
+          "url": "https://2f.zol-img.com.cn/product/238_320x240/473/ce34skaXnGts.jpg",
+          "alt": "OPPO Reno 10",
+          "modelName": "OPPO Reno10",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10722535_1.html",
+          "sourceSnapshotHash": "6571b6371cffc5abb6366b45461332233271699c3e1bd4e3908b3f3b35fa70f1",
+          "fetchedAt": "2026-10-05T18:24:53.976Z"
+        },
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2383/index23829475_0_p1438885.shtml",
+          "https://detail.zol.com.cn/picture_index_2383/index23829488_0_p1613692.shtml"
+        ],
+        "colors": [
+          {
+            "name": "灿烂金",
+            "url": "https://2f.zol-img.com.cn/product/238/473/ce34skaXnGts.jpg",
+            "modelName": "OPPO Reno10",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2383/index23829475_0_p1438885.shtml",
+            "sourceSnapshotHash": "6d7a8170ba25a49aa3ef5498adb20b6cc2929fca1eda1b6440b82f5cb8040dd3",
+            "fetchedAt": "2026-10-05T18:27:42.061Z"
+          },
+          {
+            "name": "溢彩蓝",
+            "url": "https://2d.zol-img.com.cn/product/238/477/ce0ZFPaYxLaWY.jpg",
+            "modelName": "OPPO Reno10",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2383/index23829475_0_p1438885.shtml",
+            "sourceSnapshotHash": "6d7a8170ba25a49aa3ef5498adb20b6cc2929fca1eda1b6440b82f5cb8040dd3",
+            "fetchedAt": "2026-10-05T18:27:42.061Z"
+          },
+          {
+            "name": "月海黑",
+            "url": "https://2b.zol-img.com.cn/product/238/475/cepA8hX43bgM.jpg",
+            "modelName": "OPPO Reno10",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2383/index23829475_0_p1438885.shtml",
+            "sourceSnapshotHash": "6d7a8170ba25a49aa3ef5498adb20b6cc2929fca1eda1b6440b82f5cb8040dd3",
+            "fetchedAt": "2026-10-05T18:27:42.061Z"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "oppo-reno11-2023",
+      "modelName": "OPPO Reno11",
+      "generation": "Reno11",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10842218_1.html",
+        "https://detail.zol.com.cn/series/57/1673/param_10842218_0_1.html",
+        "https://detail.zol.com.cn/1949/1948894/param.shtml",
+        "https://detail.zol.com.cn/1958/1957881/param.shtml",
+        "https://detail.zol.com.cn/1958/1957880/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2570/index25694935_0_p1948894.shtml",
+        "https://detail.zol.com.cn/picture_index_2570/index25694930_0_p1957881.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-11-25",
+        "rawText": "上市日期 2023年11月25日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1949/1948894/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:24:56.134Z",
+        "sourceSnapshotHash": "38f5361283678cbf19285d9ef07b9064e8f46f5783107e8d7466fbef8dfda64c"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批额外检查内存/存储字段单值，以及明确国行市场证据；特殊配色、卫星、典藏、柔光等附加版本不代表全部覆盖。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2023年11月23日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1949/1948894/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:24:56.134Z",
+        "sourceSnapshotHash": "38f5361283678cbf19285d9ef07b9064e8f46f5783107e8d7466fbef8dfda64c"
+      },
+      "productImages": {
+        "modelName": "OPPO Reno11",
+        "seriesId": "10842218",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2570/index25694935_0_p1948894.shtml",
+        "fetchedAt": "2026-10-05T18:27:42.283Z",
+        "sourceSnapshotHash": "e9ca72593e0f2aad353c9844cea9c7817844789c54386c26eaa6766e777b8c95",
+        "primary": {
+          "name": "月光宝石",
+          "url": "https://2c.zol-img.com.cn/product/256/936/ceS264n6Dzfg.jpg",
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2570/index25694935_0_p1948894.shtml",
+          "sourceSnapshotHash": "e9ca72593e0f2aad353c9844cea9c7817844789c54386c26eaa6766e777b8c95",
+          "fetchedAt": "2026-10-05T18:27:42.283Z",
+          "modelName": "OPPO Reno11"
+        },
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2570/index25694935_0_p1948894.shtml",
+          "https://detail.zol.com.cn/picture_index_2570/index25694930_0_p1957881.shtml"
+        ],
+        "colors": [
+          {
+            "name": "月光宝石",
+            "url": "https://2c.zol-img.com.cn/product/256/936/ceS264n6Dzfg.jpg",
+            "modelName": "OPPO Reno11",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2570/index25694935_0_p1948894.shtml",
+            "sourceSnapshotHash": "e9ca72593e0f2aad353c9844cea9c7817844789c54386c26eaa6766e777b8c95",
+            "fetchedAt": "2026-10-05T18:27:42.283Z"
+          },
+          {
+            "name": "萤石青",
+            "url": "https://2b.zol-img.com.cn/product/256/947/cewiFT2bJFg.jpg",
+            "modelName": "OPPO Reno11",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2570/index25694935_0_p1948894.shtml",
+            "sourceSnapshotHash": "e9ca72593e0f2aad353c9844cea9c7817844789c54386c26eaa6766e777b8c95",
+            "fetchedAt": "2026-10-05T18:27:42.283Z"
+          },
+          {
+            "name": "曜石黑",
+            "url": "https://2b.zol-img.com.cn/product/256/935/cem6i7qd2pzkQ.jpg",
+            "modelName": "OPPO Reno11",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2570/index25694935_0_p1948894.shtml",
+            "sourceSnapshotHash": "e9ca72593e0f2aad353c9844cea9c7817844789c54386c26eaa6766e777b8c95",
+            "fetchedAt": "2026-10-05T18:27:42.283Z"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "oppo-reno12-2024",
+      "modelName": "OPPO Reno12",
+      "generation": "Reno12",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10862543_1.html",
+        "https://detail.zol.com.cn/series/57/1673/param_10862543_0_1.html",
+        "https://detail.zol.com.cn/2010/2009825/param.shtml",
+        "https://detail.zol.com.cn/2018/2017636/param.shtml",
+        "https://detail.zol.com.cn/2018/2017638/param.shtml",
+        "https://detail.zol.com.cn/2018/2017637/param.shtml",
+        "https://www.ithome.com/0/770/166.htm",
+        "https://detail.zol.com.cn/picture_index_2638/index26372870_0_p2009825.shtml",
+        "https://detail.zol.com.cn/picture_index_2638/index26372848_0_p2017638.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2024-05-31",
+        "rawText": "5 月 31 日正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/770/166.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:27:42.384Z",
+        "sourceSnapshotHash": "9a796b2286cef2a4bdb51b7ca058a136aaa5e3b2ff9d4e30e6ace7ea6d1c1a3a"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批额外检查内存/存储字段单值，以及明确国行市场证据；特殊配色、卫星、典藏、柔光等附加版本不代表全部覆盖。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2024年5月23日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2010/2009825/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:24:57.370Z",
+        "sourceSnapshotHash": "098d54214c0aa4ffca831062f8e927885d674cfd1a5b4d370c8c04dedec235d7"
+      },
+      "productImages": {
+        "modelName": "OPPO Reno12",
+        "seriesId": "10862543",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2638/index26372870_0_p2009825.shtml",
+        "fetchedAt": "2026-10-05T18:27:43.152Z",
+        "sourceSnapshotHash": "2bb5ec3316e4e559c78743bb0c49e17304fb540d54e92ddc366790be733a98d1",
+        "primary": {
+          "url": "https://2e.zol-img.com.cn/product/263_320x240/854/ceqi5AEiof3c.jpg",
+          "alt": "OPPO Reno 12",
+          "modelName": "OPPO Reno12",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10862543_1.html",
+          "sourceSnapshotHash": "9f61fc27b84a39390935f4a7a3aafd848eb3bedcc0968872476e920ee83cacd1",
+          "fetchedAt": "2026-10-05T18:24:57.062Z"
+        },
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2638/index26372870_0_p2009825.shtml",
+          "https://detail.zol.com.cn/picture_index_2638/index26372848_0_p2017638.shtml"
+        ],
+        "colors": [
+          {
+            "name": "千禧银",
+            "url": "https://2e.zol-img.com.cn/product/263/854/ceqi5AEiof3c.jpg",
+            "modelName": "OPPO Reno12",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2638/index26372870_0_p2009825.shtml",
+            "sourceSnapshotHash": "2bb5ec3316e4e559c78743bb0c49e17304fb540d54e92ddc366790be733a98d1",
+            "fetchedAt": "2026-10-05T18:27:43.152Z"
+          },
+          {
+            "name": "柔和桃",
+            "url": "https://2c.zol-img.com.cn/product/263/870/ceXcA8s4P3Sus.jpg",
+            "modelName": "OPPO Reno12",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2638/index26372870_0_p2009825.shtml",
+            "sourceSnapshotHash": "2bb5ec3316e4e559c78743bb0c49e17304fb540d54e92ddc366790be733a98d1",
+            "fetchedAt": "2026-10-05T18:27:43.152Z"
+          },
+          {
+            "name": "乌木黑",
+            "url": "https://2d.zol-img.com.cn/product/263/871/ce3avKzEMANAc.jpg",
+            "modelName": "OPPO Reno12",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2638/index26372870_0_p2009825.shtml",
+            "sourceSnapshotHash": "2bb5ec3316e4e559c78743bb0c49e17304fb540d54e92ddc366790be733a98d1",
+            "fetchedAt": "2026-10-05T18:27:43.152Z"
+          },
+          {
+            "name": "晨雾蓝",
+            "url": "https://2c.zol-img.com.cn/product/269/550/cefe207Lx5dgQ.jpg",
+            "modelName": "OPPO Reno12",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2638/index26372870_0_p2009825.shtml",
+            "sourceSnapshotHash": "2bb5ec3316e4e559c78743bb0c49e17304fb540d54e92ddc366790be733a98d1",
+            "fetchedAt": "2026-10-05T18:27:43.152Z"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "oppo-k11-2023",
+      "modelName": "OPPO K11",
+      "generation": "K11",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10801938_1.html",
+        "https://detail.zol.com.cn/series/57/1673/param_10801938_0_1.html",
+        "https://detail.zol.com.cn/1789/1788651/param.shtml",
+        "https://detail.zol.com.cn/1837/1836870/param.shtml",
+        "https://detail.zol.com.cn/1837/1836871/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2495/index24944775_0_p1788651.shtml",
+        "https://detail.zol.com.cn/picture_index_2495/index24944804_0_p1788651.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-08-01",
+        "rawText": "上市日期 2023年08月01日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1789/1788651/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:24:59.493Z",
+        "sourceSnapshotHash": "dbee81b072e3ac826db48cfffcaf9b48ee107d74e139690c49908fbb1793499d"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批额外检查内存/存储字段单值，以及明确国行市场证据；特殊配色、卫星、典藏、柔光等附加版本不代表全部覆盖。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2023年07月25日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1789/1788651/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:24:59.493Z",
+        "sourceSnapshotHash": "dbee81b072e3ac826db48cfffcaf9b48ee107d74e139690c49908fbb1793499d"
+      },
+      "productImages": {
+        "modelName": "OPPO K11",
+        "seriesId": "10801938",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2495/index24944775_0_p1788651.shtml",
+        "fetchedAt": "2026-10-05T18:27:43.340Z",
+        "sourceSnapshotHash": "646db40993cdfc7c37eb5b403883a975ebb0c96f393b5466e2930c22aea28f53",
+        "primary": {
+          "url": "https://2f.zol-img.com.cn/product/249_320x240/777/ceNQXv48rVQ4I.png",
+          "alt": "OPPO K11",
+          "modelName": "OPPO K11",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10801938_1.html",
+          "sourceSnapshotHash": "539899b632bbf62a8010a9064394b2d0685592f28ae39cea17f94796971bed4b",
+          "fetchedAt": "2026-10-05T18:24:58.876Z"
+        },
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2495/index24944775_0_p1788651.shtml",
+          "https://detail.zol.com.cn/picture_index_2495/index24944804_0_p1788651.shtml"
+        ],
+        "colors": [
+          {
+            "name": "冰川蓝",
+            "url": "https://2f.zol-img.com.cn/product/249/777/ceNQXv48rVQ4I.png",
+            "modelName": "OPPO K11",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2495/index24944775_0_p1788651.shtml",
+            "sourceSnapshotHash": "646db40993cdfc7c37eb5b403883a975ebb0c96f393b5466e2930c22aea28f53",
+            "fetchedAt": "2026-10-05T18:27:43.340Z"
+          },
+          {
+            "name": "月影灰",
+            "url": "https://2d.zol-img.com.cn/product/249/775/cer4ogPqxDoXY.png",
+            "modelName": "OPPO K11",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2495/index24944775_0_p1788651.shtml",
+            "sourceSnapshotHash": "646db40993cdfc7c37eb5b403883a975ebb0c96f393b5466e2930c22aea28f53",
+            "fetchedAt": "2026-10-05T18:27:43.340Z"
+          },
+          {
+            "name": "月影黑",
+            "url": "https://2c.zol-img.com.cn/product/249/786/ce5kFuTXqwk.png",
+            "modelName": "OPPO K11",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2495/index24944775_0_p1788651.shtml",
+            "sourceSnapshotHash": "646db40993cdfc7c37eb5b403883a975ebb0c96f393b5466e2930c22aea28f53",
+            "fetchedAt": "2026-10-05T18:27:43.340Z"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "oppo-k12-2024",
+      "modelName": "OPPO K12",
+      "generation": "K12",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10855043_1.html",
+        "https://detail.zol.com.cn/series/57/1673/param_10855043_0_1.html",
+        "https://detail.zol.com.cn/1986/1985917/param.shtml",
+        "https://detail.zol.com.cn/2003/2002551/param.shtml",
+        "https://detail.zol.com.cn/2003/2002550/param.shtml",
+        "https://www.ithome.com/0/764/925.htm",
+        "https://detail.zol.com.cn/picture_index_2625/index26247396_0_p1985917.shtml",
+        "https://detail.zol.com.cn/picture_index_2625/index26247390_0_p1985917.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2024-04-29",
+        "rawText": "4 月 29 日消息，全新 OPPO K12 手机今日 10 点正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/764/925.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:28:54.898Z",
+        "sourceSnapshotHash": "589336a98926385586be8a093c57b6d9e07a9da24b2a6a1a940edfc60d4b1e9e"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批额外检查内存/存储字段单值，以及明确国行市场证据；特殊配色、卫星、典藏、柔光等附加版本不代表全部覆盖。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2024年04月24日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1986/1985917/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:25:00.099Z",
+        "sourceSnapshotHash": "372f3bc805fe0078d325c58b0def0782daa8db353654cc9bb0d30621a1097b29"
+      },
+      "productImages": {
+        "modelName": "OPPO K12",
+        "seriesId": "10855043",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2625/index26247396_0_p1985917.shtml",
+        "fetchedAt": "2026-10-05T18:27:43.937Z",
+        "sourceSnapshotHash": "8b539837ce462e6a54420e2b65cc37edd54748f0943860c5b8cc509b7b429851",
+        "primary": {
+          "url": "https://2b.zol-img.com.cn/product/262_320x240/391/ceNfaHDVpHjZE.jpg",
+          "alt": "OPPO K12",
+          "modelName": "OPPO K12",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10855043_1.html",
+          "sourceSnapshotHash": "c1debf53554419add57211d05451d9dc4e9ca979c6f1d9079871bdf25affd02e",
+          "fetchedAt": "2026-10-05T18:24:59.576Z"
+        },
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2625/index26247396_0_p1985917.shtml",
+          "https://detail.zol.com.cn/picture_index_2625/index26247390_0_p1985917.shtml"
+        ],
+        "colors": [
+          {
+            "name": "青云",
+            "url": "https://2b.zol-img.com.cn/product/262/391/ceNfaHDVpHjZE.jpg",
+            "modelName": "OPPO K12",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2625/index26247396_0_p1985917.shtml",
+            "sourceSnapshotHash": "8b539837ce462e6a54420e2b65cc37edd54748f0943860c5b8cc509b7b429851",
+            "fetchedAt": "2026-10-05T18:27:43.937Z"
+          },
+          {
+            "name": "星夜",
+            "url": "https://2a.zol-img.com.cn/product/262/396/ceMacS0ouNcFs.jpg",
+            "modelName": "OPPO K12",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2625/index26247396_0_p1985917.shtml",
+            "sourceSnapshotHash": "8b539837ce462e6a54420e2b65cc37edd54748f0943860c5b8cc509b7b429851",
+            "fetchedAt": "2026-10-05T18:27:43.937Z"
+          }
+        ],
+        "gaps": []
+      }
+    }
+  ],
+  "tablet": [
+    {
+      "id": "oppo-pad2-2023",
+      "modelName": "OPPO Pad 2",
+      "generation": "Pad 2",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10725219_1.html",
+        "https://detail.zol.com.cn/series/702/1673/param_10725219_0_1.html",
+        "https://detail.zol.com.cn/1448/1447730/param.shtml",
+        "https://detail.zol.com.cn/1475/1474697/param.shtml",
+        "https://detail.zol.com.cn/1475/1474698/param.shtml",
+        "https://detail.zol.com.cn/1629/1628883/param.shtml",
+        "https://www.ithome.com/0/681/931.htm",
+        "https://www.oppo.com/cn/accessories/oppo-pad-2/",
+        "https://detail.zol.com.cn/picture_index_2305/index23044190_0_p1447730.shtml",
+        "https://detail.zol.com.cn/picture_index_2305/index23044164_0_p1447730.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-03-24",
+        "rawText": "OPPO Pad 2 平板电脑于 3 月 21 日发布， 搭载天玑 9000 处理器，售价 2999 元起 ，首销优惠 100 元，将于今日上午 10:00 正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/681/931.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:25:01.411Z",
+        "sourceSnapshotHash": "321b5689ebdce017730bd7d392193e983f2930046a2a72e38c640ce66c389898"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。国行首发配置按大陆首售报道的三种明确组合登记；参数库额外 8GB/128GB 未取得独立国行证据，排除。 内存/存储组合以大陆发布/首售报道逐条核验，保留每项的原文和快照，不使用矛盾参数行。 本批额外检查内存/存储字段单值，以及明确国行市场证据；特殊配色、卫星、典藏、柔光等附加版本不代表全部覆盖。",
+      "excludedConfigurations": [
+        {
+          "name": "8GB/128GB",
+          "sourceUrl": "https://detail.zol.com.cn/1629/1628883/param.shtml",
+          "reason": "未取得该配置独立国行发布证据；不把参数库额外组合冒充大陆 SKU"
+        }
+      ],
+      "officialSpecUrl": "https://www.oppo.com/cn/accessories/oppo-pad-2/",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "OPPO Pad 2 独具好屏，眼界大开 | OPPO 官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.oppo.com/cn/accessories/oppo-pad-2/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:25:57.849Z",
+        "sourceSnapshotHash": "196b68286555624720e63d82117067932a0bc698884a2b270d64dd64f4bc0442",
+        "note": "型号在品牌中国官网的产品页，结合已售日期和独立 SKU 参数，不以中文语种本身判定市场。"
+      },
+      "productImages": {
+        "modelName": "OPPO Pad 2",
+        "seriesId": "10725219",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2305/index23044190_0_p1447730.shtml",
+        "fetchedAt": "2026-10-05T18:27:44.184Z",
+        "sourceSnapshotHash": "aa69a59ae2f12694316ff514e344856e4a30b0ff8655997a441db6ef921e1302",
+        "primary": {
+          "url": "https://2a.zol-img.com.cn/product/230_320x240/278/ceGwFmLe2ipQk.png",
+          "alt": "OPPO Pad 2",
+          "modelName": "OPPO Pad 2",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/10725219_1.html",
+          "sourceSnapshotHash": "0488662c2892e89ab751a5f452ebacae369d1395ab341987577ea23eb4872034",
+          "fetchedAt": "2026-10-05T18:25:00.799Z"
+        },
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2305/index23044190_0_p1447730.shtml",
+          "https://detail.zol.com.cn/picture_index_2305/index23044164_0_p1447730.shtml"
+        ],
+        "colors": [
+          {
+            "name": "星云灰",
+            "url": "https://2c.zol-img.com.cn/product/230/154/cevbwRV3saFas.jpg",
+            "modelName": "OPPO Pad 2",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2305/index23044190_0_p1447730.shtml",
+            "sourceSnapshotHash": "aa69a59ae2f12694316ff514e344856e4a30b0ff8655997a441db6ef921e1302",
+            "fetchedAt": "2026-10-05T18:27:44.184Z"
+          },
+          {
+            "name": "光羽金",
+            "url": "https://2a.zol-img.com.cn/product/230/278/ceGwFmLe2ipQk.png",
+            "modelName": "OPPO Pad 2",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2305/index23044190_0_p1447730.shtml",
+            "sourceSnapshotHash": "aa69a59ae2f12694316ff514e344856e4a30b0ff8655997a441db6ef921e1302",
+            "fetchedAt": "2026-10-05T18:27:44.184Z"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "oppo-pad3-2024",
+      "modelName": "OPPO Pad 3",
+      "generation": "Pad 3",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10908281_1.html",
+        "https://detail.zol.com.cn/series/702/1673/param_10908281_0_1.html",
+        "https://detail.zol.com.cn/2116/2115095/param.shtml",
+        "https://detail.zol.com.cn/2116/2115096/param.shtml",
+        "https://detail.zol.com.cn/2116/2115097/param.shtml",
+        "https://detail.zol.com.cn/2116/2115098/param.shtml",
+        "https://www.ithome.com/0/814/076.htm",
+        "https://www.opposhop.cn/cn/web/products/30898.html",
+        "https://detail.zol.com.cn/picture_index_2706/index27051749_0_p2115095.shtml",
+        "https://detail.zol.com.cn/picture_index_2706/index27051753_0_p2115095.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2024-11-29",
+        "rawText": "11 月 29 日消息，OPPO Pad 3 平板将于今日正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/814/076.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:27:44.355Z",
+        "sourceSnapshotHash": "fcbe5e992347bb0e5cfc3aba9a867a68896d215c0624711cf327d925c55f98a4"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批额外检查内存/存储字段单值，以及明确国行市场证据；特殊配色、卫星、典藏、柔光等附加版本不代表全部覆盖。",
+      "officialSpecUrl": "https://www.opposhop.cn/cn/web/products/30898.html",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "OPPO Pad 3",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/30898.html",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:27:44.917Z",
+        "sourceSnapshotHash": "7c0a64eb3bd3b5219739b080ffa40bb11a0a26165b311ebe0881a1826928dd68",
+        "note": "型号在品牌中国官网的产品页，结合已售日期和独立 SKU 参数，不以中文语种本身判定市场。"
+      },
+      "productImages": {
+        "modelName": "OPPO Pad 3",
+        "seriesId": "10908281",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2706/index27051749_0_p2115095.shtml",
+        "fetchedAt": "2026-10-05T18:27:44.480Z",
+        "sourceSnapshotHash": "69e46da1f432c7c6c043e3c9535f5ff0ac950cb543df8f1874eab91d4714c874",
+        "primary": {
+          "name": "夜幕蓝",
+          "url": "https://2f.zol-img.com.cn/product/270/767/ceR1Wjr2Zofhs.png",
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2706/index27051749_0_p2115095.shtml",
+          "sourceSnapshotHash": "69e46da1f432c7c6c043e3c9535f5ff0ac950cb543df8f1874eab91d4714c874",
+          "fetchedAt": "2026-10-05T18:27:44.480Z",
+          "modelName": "OPPO Pad 3"
+        },
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2706/index27051749_0_p2115095.shtml",
+          "https://detail.zol.com.cn/picture_index_2706/index27051753_0_p2115095.shtml"
+        ],
+        "colors": [
+          {
+            "name": "夜幕蓝",
+            "url": "https://2f.zol-img.com.cn/product/270/767/ceR1Wjr2Zofhs.png",
+            "modelName": "OPPO Pad 3",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2706/index27051749_0_p2115095.shtml",
+            "sourceSnapshotHash": "69e46da1f432c7c6c043e3c9535f5ff0ac950cb543df8f1874eab91d4714c874",
+            "fetchedAt": "2026-10-05T18:27:44.480Z"
+          },
+          {
+            "name": "霞光紫",
+            "url": "https://2d.zol-img.com.cn/product/270/765/ceXIx8erxaBA.png",
+            "modelName": "OPPO Pad 3",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2706/index27051749_0_p2115095.shtml",
+            "sourceSnapshotHash": "69e46da1f432c7c6c043e3c9535f5ff0ac950cb543df8f1874eab91d4714c874",
+            "fetchedAt": "2026-10-05T18:27:44.480Z"
+          }
+        ],
+        "excludedColors": [
+          {
+            "name": "星轨亮银柔光版",
+            "reason": "图库明确将此色标为柔光版；本设备不收录柔光附加 SKU，不能并入标准版配色。",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10908281_1.html",
+            "sourceSnapshotHash": "8e5ae51495bf686eee9b1728710a688699f4de144210e9b84f7e1fc4e3ea7136",
+            "fetchedAt": "2026-10-05T18:25:01.963Z"
+          }
+        ],
+        "gaps": []
+      }
+    }
+  ],
+  "laptop": []
+}

@@ -1,0 +1,126 @@
+{
+  "phone": [],
+  "tablet": [
+    {
+      "id": "honor-pad-v9-2024",
+      "modelName": "荣耀平板V9",
+      "generation": "2024",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10908705_1.html",
+        "https://detail.zol.com.cn/series/702/50840/param_10908705_0_1.html",
+        "https://detail.zol.com.cn/2117/2116594/param.shtml",
+        "https://detail.zol.com.cn/2117/2116596/param.shtml",
+        "https://detail.zol.com.cn/2117/2116595/param.shtml",
+        "https://detail.zol.com.cn/2117/2116597/param.shtml",
+        "https://www.ithome.com/0/819/707.htm",
+        "https://www.honor.com/cn/tablets/honor-pad-v9/spec/"
+      ],
+      "releaseEvidence": {
+        "value": "2024-12-24",
+        "rawText": "荣耀平板 V9 今日（12 月 24 日）10:08 首销",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/819/707.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:50:41.837Z",
+        "sourceSnapshotHash": "0dcbef9e8b8f7cc1412e4562e4ad7c79ffab5b35e5e6b5197f2dc69d7921fa86"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未登记本版型首发定价独立原文；官网现价/上市价目只用于SKU，不当首售价"
+        },
+        {
+          "field": "port",
+          "reason": "实际来源无本版型可核验值，不借同系列或海外同名补值"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。",
+      "officialSpecUrl": "https://www.honor.com/cn/tablets/honor-pad-v9/spec/",
+      "officialSpecEvidence": {
+        "value": "荣耀平板V9",
+        "rawText": "荣耀平板V9详细参数-配置-怎么样 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/tablets/honor-pad-v9/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:51:29.300Z",
+        "sourceSnapshotHash": "04c7c47796baf7ad04494503c766cd608ebd9757cb9eb76947b9883eabbe31c6"
+      },
+      "officialSpecSnapshotStatus": "technical_route_labels_only",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "荣耀平板V9详细参数-配置-怎么样 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/tablets/honor-pad-v9/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:51:29.300Z",
+        "sourceSnapshotHash": "04c7c47796baf7ad04494503c766cd608ebd9757cb9eb76947b9883eabbe31c6"
+      },
+      "releaseDatePrecision": "day",
+      "productImages": {
+        "modelName": "荣耀平板V9",
+        "sourceUrl": "https://www.honor.com/cn/tablets/honor-pad-v9/spec/",
+        "sourceSnapshotHash": "04c7c47796baf7ad04494503c766cd608ebd9757cb9eb76947b9883eabbe31c6",
+        "fetchedAt": "2026-10-05T20:51:29.300Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。",
+        "primary": {
+          "name": "庐烟紫",
+          "url": "https://www-file.honor.com/content/dam/honor/cn/specs/tablets/honor-pad-v9/honor-pad-v9-p.png",
+          "alt": "庐烟紫",
+          "modelName": "荣耀平板V9",
+          "sourceUrl": "https://www.honor.com/cn/tablets/honor-pad-v9/spec/",
+          "sourceSnapshotHash": "04c7c47796baf7ad04494503c766cd608ebd9757cb9eb76947b9883eabbe31c6",
+          "fetchedAt": "2026-10-05T20:51:29.300Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "庐烟紫",
+            "url": "https://www-file.honor.com/content/dam/honor/cn/specs/tablets/honor-pad-v9/honor-pad-v9-p.png",
+            "alt": "庐烟紫",
+            "modelName": "荣耀平板V9",
+            "sourceUrl": "https://www.honor.com/cn/tablets/honor-pad-v9/spec/",
+            "sourceSnapshotHash": "04c7c47796baf7ad04494503c766cd608ebd9757cb9eb76947b9883eabbe31c6",
+            "fetchedAt": "2026-10-05T20:51:29.300Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。"
+          },
+          {
+            "name": "玉龙雪",
+            "url": "https://www-file.honor.com/content/dam/honor/cn/specs/tablets/honor-pad-v9/honor-pad-v9-w.png",
+            "alt": "玉龙雪",
+            "modelName": "荣耀平板V9",
+            "sourceUrl": "https://www.honor.com/cn/tablets/honor-pad-v9/spec/",
+            "sourceSnapshotHash": "04c7c47796baf7ad04494503c766cd608ebd9757cb9eb76947b9883eabbe31c6",
+            "fetchedAt": "2026-10-05T20:51:29.300Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。"
+          },
+          {
+            "name": "苍山灰",
+            "url": "https://www-file.honor.com/content/dam/honor/cn/specs/tablets/honor-pad-v9/honor-pad-v9-g.png",
+            "alt": "苍山灰",
+            "modelName": "荣耀平板V9",
+            "sourceUrl": "https://www.honor.com/cn/tablets/honor-pad-v9/spec/",
+            "sourceSnapshotHash": "04c7c47796baf7ad04494503c766cd608ebd9757cb9eb76947b9883eabbe31c6",
+            "fetchedAt": "2026-10-05T20:51:29.300Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。"
+          }
+        ],
+        "gaps": []
+      }
+    }
+  ],
+  "laptop": []
+}

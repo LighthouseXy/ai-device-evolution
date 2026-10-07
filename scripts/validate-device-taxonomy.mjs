@@ -3,6 +3,21 @@ import fs from "node:fs";
 
 const { metadata, devices } = JSON.parse(fs.readFileSync("src/data/devices-db.json", "utf8"));
 const manifest = JSON.parse(fs.readFileSync("src/data/device-data-manifest.json", "utf8"));
+const expansion = JSON.parse(fs.readFileSync("scripts/fixtures/device-expansion-targets.json", "utf8"));
+assert.equal(new Set(expansion.targets.map((target) => target.id)).size, expansion.targets.length, "扩容目标型号不得重复");
+for (const target of expansion.targets) {
+  assert.ok(["Xiaomi", "Samsung", "OPPO", "vivo"].includes(target.brand), "本批扩容范围仅限四个优先品牌");
+  const device = devices.find((item) => item.id === target.id);
+  if (device) {
+    assert.equal(device.brand, target.brand, `${target.id}: 扩容清单品牌不符`);
+    assert.equal(device.modelName, target.modelName, `${target.id}: 扩容清单名称不符`);
+  }
+}
+console.log("expansionCoverage", JSON.stringify(Object.fromEntries(["Xiaomi", "Samsung", "OPPO", "vivo"].map((brand) => {
+  const targets = expansion.targets.filter((target) => target.brand === brand);
+  return [brand, { included: targets.filter((target) => devices.some((device) => device.id === target.id)).length,
+    total: targets.length, missing: targets.filter((target) => !devices.some((device) => device.id === target.id)).map((target) => target.modelName) }];
+}))));
 const expectedGroups = new Map([
   ["laptop|MacBook|12-inch|base", ["macbook-12-2016", "macbook-12-2017"]],
   ["laptop|MacBook Air|13-inch|base", ["macbook-air-13-2017", "macbook-air-13-2018", "macbook-air-13-2019", "macbook-air-13-intel-2020", "macbook-air-13-m1-2020", "macbook-air-13-m2-2022", "macbook-air-13-m3-2024", "macbook-air-13-m4-2025", "macbook-air-13-m5-2026"]],
@@ -20,8 +35,8 @@ const expectedGroups = new Map([
   ["laptop|MacBook Pro|16-inch|max", ["macbook-pro-16-m1-max-2021", "macbook-pro-16-m2-max-2023", "macbook-pro-16-m3-max-2023", "macbook-pro-16-m4-max-2024", "macbook-pro-16-m5-max-2026"]],
   ["phone|iPhone|Air", ["iphone-air"]],
   ["phone|iPhone|Plus", ["iphone-7-plus-2016", "iphone-8-plus-2017", "iphone-14-plus", "iphone-15-plus", "iphone-16-plus"]],
-  ["phone|iPhone|Pro Max", ["iphone-xs-max-2018", "iphone-11-pro-max-2019", "iphone-12-pro-max", "iphone-13-pro-max", "iphone-14-pro-max", "iphone-15-pro-max", "iphone-16-pro-max", "iphone-17-pro-max"]],
-  ["phone|iPhone|Pro", ["iphone-x-2017", "iphone-xs-2018", "iphone-11-pro-2019", "iphone-12-pro", "iphone-13-pro", "iphone-14-pro", "iphone-15-pro", "iphone-16-pro", "iphone-17-pro"]],
+  ["phone|iPhone|Pro Max", ["iphone-xs-max-2018", "iphone-11-pro-max-2019", "iphone-12-pro-max", "iphone-13-pro-max", "iphone-14-pro-max", "iphone-15-pro-max", "iphone-16-pro-max", "iphone-17-pro-max", "iphone-18-pro-max"]],
+  ["phone|iPhone|Pro", ["iphone-x-2017", "iphone-xs-2018", "iphone-11-pro-2019", "iphone-12-pro", "iphone-13-pro", "iphone-14-pro", "iphone-15-pro", "iphone-16-pro", "iphone-17-pro", "iphone-18-pro"]],
   ["phone|iPhone|SE", ["iphone-se-1-2016", "iphone-se-2-2020", "iphone-se-3-2022"]],
   ["phone|iPhone|e", ["iphone-16e-2025", "iphone-17e-2026"]],
   ["phone|iPhone|mini", ["iphone-12-mini", "iphone-13-mini"]],
@@ -54,7 +69,14 @@ const trustedHostsByType = new Map(
   ]),
 );
 
-assert.equal(devices.filter((device) => device.brand === "Apple").length, 129, "Apple 数据应包含 129 台设备");
+assert.equal(devices.filter((device) => device.brand === "Apple" && ["phone", "tablet", "laptop"].includes(device.category)).length, 131, "Apple 原有三品类应保留 131 台设备");
+for (const [brand, minimum] of [["Xiaomi", 70], ["Huawei", 40]]) {
+  const models = devices.filter((device) => device.brand === brand);
+  assert.ok(models.length >= minimum, `${brand}: 未达到本批设备扩容数量`);
+  assert.equal(new Set(models.map((device) => device.modelName.toLowerCase().replace(/\s+/g, ""))).size, models.length,
+    `${brand}: 不得将同型号的配置或配色重复计入数量`);
+  for (const category of ["phone", "tablet", "laptop"]) assert.ok(models.some((device) => device.category === category), `${brand}: 未覆盖${category}`);
+}
 assert.equal(metadata.totalDevices, devices.length, "metadata.totalDevices 与实际设备数不一致");
 assert.equal(new Set(devices.map((device) => device.id)).size, devices.length, "设备 id 必须唯一");
 assert.deepEqual(metadata.brands, [...new Set(devices.map((device) => device.brand))], "metadata.brands 与设备不一致");
@@ -65,7 +87,7 @@ const comparisonGroupIdentities = new Map();
 const devicesByComparisonGroup = new Map();
 const devicesById = new Map(devices.map((device) => [device.id, device]));
 for (const device of devices) {
-  assert.ok(["phone", "tablet", "laptop"].includes(device.category), `${device.id}: category 非法`);
+  assert.ok(["phone", "tablet", "laptop", "watch", "band"].includes(device.category), `${device.id}: category 非法`);
   assert.ok(device.brand, `${device.id}: 缺少 brand`);
   assert.ok(device.market, `${device.id}: 缺少 market`);
   assert.ok(device.comparisonGroupId, `${device.id}: 缺少 comparisonGroupId`);
@@ -97,13 +119,24 @@ for (const device of devices) {
 
   if (device.configurations) {
     assert.ok(Array.isArray(device.configurations) && device.configurations.length > 0, `${device.id}: configurations 非法`);
-    const configurationKeys = device.configurations.map(({ memory, storage }) => `${memory}|${storage}`);
+    const configurationKeys = device.configurations.map(({ memory, storage, chip, cpuCores, gpuCores }) => JSON.stringify([memory, storage, chip, cpuCores, gpuCores]));
     assert.equal(new Set(configurationKeys).size, configurationKeys.length, `${device.id}: configurations 重复`);
     for (const configuration of device.configurations) {
       assert.match(configuration.memory, /^\d+(?:\.\d+)?(?:GB|TB)$/, `${device.id}: configuration memory 非法`);
-      assert.match(configuration.storage, /^\d+(?:\.\d+)?(?:GB|TB)$/, `${device.id}: configuration storage 非法`);
+      assert.match(configuration.storage, device.category === "laptop"
+        ? /^\d+(?:\.\d+)?(?:GB|TB)(?: \+ \d+(?:\.\d+)?(?:GB|TB))?$/
+        : /^\d+(?:\.\d+)?(?:GB|TB)$/, `${device.id}: configuration storage 非法`);
+      for (const key of ["cpuCores", "gpuCores"]) if (configuration[key] !== undefined) assert.ok(Number.isInteger(configuration[key]) && configuration[key] > 0, `${device.id}: configuration ${key} 非法`);
       assert.ok(String(device.specs.memory?.value).includes(configuration.memory), `${device.id}: configuration memory 未登记到 specs`);
       assert.ok(String(device.specs.storage?.value).includes(configuration.storage), `${device.id}: configuration storage 未登记到 specs`);
+      if (configuration.chip) assert.ok(String(device.specs.chip?.value).includes(configuration.chip), `${device.id}: configuration chip 与机型不一致`);
+      if (configuration.evidence) {
+        const evidence = configuration.evidence;
+        assert.equal(evidence.evidenceKind, "excerpt");
+        assert.ok(evidence.rawText && evidence.fetchedAt);
+        assert.match(evidence.sourceSnapshotHash, /^[a-f0-9]{64}$/);
+        assert.ok(trustedHostsByType.get(evidence.sourceType)?.has(new URL(evidence.sourceUrl).hostname));
+      }
     }
   }
 
@@ -137,6 +170,10 @@ for (const device of devices) {
     if (typeof field.rawText === "string") {
       assert.ok(!pollutedTextPattern.test(field.rawText), `${device.id}.${key}: rawText 含网页脚本或样式污染`);
     }
+    if (typeof field.summaryText === "string") {
+      assert.equal(field.evidenceKind, "summary", `${device.id}.${key}: 整理文本必须标明类型`);
+      assert.ok(!pollutedTextPattern.test(field.summaryText), `${device.id}.${key}: summaryText 含网页污染`);
+    }
   }
 
   if (device.specs?.colors?.value !== null && device.specs?.colors?.value !== undefined) {
@@ -151,7 +188,7 @@ for (const device of devices) {
   }
 
   const key = [device.category, device.family, device.variant, device.tier].filter(Boolean).join("|");
-  if (device.brand === "Apple") {
+  if (device.brand === "Apple" && ["phone", "tablet", "laptop"].includes(device.category)) {
     const group = groups.get(key) ?? [];
     group.push(device);
     groups.set(key, group);
@@ -209,7 +246,8 @@ const rawTexts = specFields.map((field) => field?.rawText).filter((value) => typ
 const sourceAudit = {
   specFields: specFields.length,
   official: specFields.filter((field) => field?.sourceType === "official").length,
-  supportZhCn: sourceUrls.filter((url) => /support\.apple\.com\/zh-(?:cn|tw)\//.test(url)).length,
+  supportZhCn: sourceUrls.filter((url) => /support\.apple\.com\/zh-cn\//.test(url)).length,
+  supportZhTw: sourceUrls.filter((url) => /support\.apple\.com\/zh-tw\//.test(url)).length,
   appleChina: sourceUrls.filter((url) => url.startsWith("https://www.apple.com.cn/")).length,
   reference: specFields.filter((field) => field?.sourceType === "reference").length,
   rawTextEnglishLike: rawTexts.filter((text) => /[A-Za-z]{3}/.test(text)).length,

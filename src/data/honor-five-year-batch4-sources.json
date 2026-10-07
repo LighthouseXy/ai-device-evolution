@@ -1,0 +1,1411 @@
+{
+  "phone": [
+    {
+      "id": "honor-300-pro-2024",
+      "modelName": "荣耀300 Pro",
+      "generation": "300 Pro",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10907846_1.html",
+        "https://detail.zol.com.cn/series/57/50840/param_10907846_0_1.html",
+        "https://detail.zol.com.cn/2114/2113674/param.shtml",
+        "https://detail.zol.com.cn/2116/2115650/param.shtml",
+        "https://detail.zol.com.cn/2116/2115651/param.shtml",
+        "https://www.ithome.com/0/815/726.htm",
+        "https://www.honor.com/cn/phones/honor-300-pro/spec/",
+        "https://detail.zol.com.cn/picture_index_2706/index27057299_0_p2113674.shtml",
+        "https://detail.zol.com.cn/picture_index_2706/index27057296_0_p2113674.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2024-12-06",
+        "rawText": "荣耀 300 系列手机将于今日 10 时 08 分正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/815/726.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:39:24.365Z",
+        "sourceSnapshotHash": "62d37a9173a1347fffbe0ad6e30ed3d6bd735c1f650b432b63f613295ddb97ed"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2024年12月02日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2114/2113674/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:54.134Z",
+        "sourceSnapshotHash": "3913997cc282057a1a53a3ed67d15bfd6e84626496a3bf1bec02ad056a229c7c"
+      },
+      "officialSpecUrl": "https://www.honor.com/cn/phones/honor-300-pro/spec/",
+      "officialSpecEvidence": {
+        "value": "荣耀300 Pro",
+        "rawText": "荣耀300 Pro-参数-配置-怎么样 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/phones/honor-300-pro/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:55.830Z",
+        "sourceSnapshotHash": "224b002f3ac7c2a8037e4637ee3b6044c0db8563e28618559a60e564a17140ae"
+      },
+      "officialSpecSnapshotStatus": "technical_route_labels_only",
+      "officialSpecSnapshotNote": "这是型号技术参数路由，不是产品展示页；当前静态HTML快照仅返回技术栏目标签，具体数值需JS/API加载。本批不将这些标签作为官网参数值证据，全部具体参数仍取逐SKU原文。",
+      "versionVerification": {
+        "variant": "standard",
+        "checkedSkuTitles": [
+          {
+            "title": "荣耀300 Pro（12GB/256GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/2114/2113674/param.shtml",
+            "sourceSnapshotHash": "3913997cc282057a1a53a3ed67d15bfd6e84626496a3bf1bec02ad056a229c7c"
+          },
+          {
+            "title": "荣耀300 Pro（12GB/512GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/2116/2115650/param.shtml",
+            "sourceSnapshotHash": "6289f9c94e7e9c88cae1830dc4c25d1277f32b1b960735dc2babe49dd54dba07"
+          },
+          {
+            "title": "荣耀300 Pro（16GB/512GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/2116/2115651/param.shtml",
+            "sourceSnapshotHash": "03b1b193998a2acd342b3ce0a45f377e6a9173a0573a0c706c7e9f2d5f92f74f"
+          }
+        ],
+        "excludedTitleTerms": [
+          "柔光",
+          "悦享",
+          "限定",
+          "限量",
+          "蜂窝",
+          "LTE",
+          "5G版",
+          "全网通版",
+          "艺术"
+        ],
+        "note": "独立SKU标题逐条核验，柔光/艺术/超轻/蜂窝等特殊版不并入标准；未明确网络类型的条目不推断WiFi-only。"
+      },
+      "productImages": {
+        "modelName": "荣耀300 Pro",
+        "seriesId": "10907846",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2706/index27057299_0_p2113674.shtml",
+        "sourceSnapshotHash": "ef4605c926ebde90afcad624619e8ab8931f9178b05987ada978a5e1f3b5209f",
+        "fetchedAt": "2026-10-05T19:27:56.086Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2d.zol-img.com.cn/product/270_320x240/297/cebRAx612nveA.jpg",
+          "alt": "荣耀300 Pro",
+          "modelName": "荣耀300 Pro",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10907846_1.html",
+          "sourceSnapshotHash": "991353ec732799fa337f02793414d3ea3c2e41a60b7c1b7060dc49698094dcef",
+          "fetchedAt": "2026-10-05T19:27:56.086Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "星光沙",
+            "url": "https://2d.zol-img.com.cn/product/270/297/cebRAx612nveA.jpg",
+            "modelName": "荣耀300 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2706/index27057299_0_p2113674.shtml",
+            "sourceSnapshotHash": "ef4605c926ebde90afcad624619e8ab8931f9178b05987ada978a5e1f3b5209f",
+            "fetchedAt": "2026-10-05T19:27:56.086Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "墨岩黑",
+            "url": "https://2f.zol-img.com.cn/product/270/299/ceX8WL36MmxV2.jpg",
+            "modelName": "荣耀300 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2706/index27057299_0_p2113674.shtml",
+            "sourceSnapshotHash": "ef4605c926ebde90afcad624619e8ab8931f9178b05987ada978a5e1f3b5209f",
+            "fetchedAt": "2026-10-05T19:27:56.086Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "茶卡青",
+            "url": "https://2a.zol-img.com.cn/product/270/300/ce8ZUsjolFpDk.jpg",
+            "modelName": "荣耀300 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2706/index27057299_0_p2113674.shtml",
+            "sourceSnapshotHash": "ef4605c926ebde90afcad624619e8ab8931f9178b05987ada978a5e1f3b5209f",
+            "fetchedAt": "2026-10-05T19:27:56.086Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2706/index27057299_0_p2113674.shtml",
+          "https://detail.zol.com.cn/picture_index_2706/index27057296_0_p2113674.shtml"
+        ],
+        "gaps": []
+      }
+    }
+  ],
+  "tablet": [
+    {
+      "id": "honor-pad8-2022",
+      "modelName": "荣耀平板8",
+      "generation": "平板8",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10713746_1.html",
+        "https://detail.zol.com.cn/series/702/50840/param_10713746_0_1.html",
+        "https://detail.zol.com.cn/1421/1420061/param.shtml",
+        "https://detail.zol.com.cn/1554/1553741/param.shtml",
+        "https://detail.zol.com.cn/1554/1553740/param.shtml",
+        "https://detail.zol.com.cn/1422/1421506/param.shtml",
+        "https://www.ithome.com/0/632/202.htm",
+        "https://www.honor.com/cn/tablets/honor-pad-8/spec/",
+        "https://detail.zol.com.cn/picture_index_2258/index22579595_0_p1420061.shtml",
+        "https://detail.zol.com.cn/picture_index_2258/index22579598_0_p1420061.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-07-29",
+        "rawText": "荣耀平板 8 于今天 10 : 08 线上线下全渠道正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/632/202.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:39:20.168Z",
+        "sourceSnapshotHash": "977fea52ecad1af4c561a0bad0f397f67407e9199b56fa9dcd66dbd0ca9b8b62"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "officialSpecUrl": "https://www.honor.com/cn/tablets/honor-pad-8/spec/",
+      "officialSpecEvidence": {
+        "value": "荣耀平板8",
+        "rawText": "荣耀平板8-参数配置-规格性能 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/tablets/honor-pad-8/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:39:21.119Z",
+        "sourceSnapshotHash": "f44ba47744b738c353616329e92b38e0a2ab1b21882dfdf9ac9fd5de0e985e31"
+      },
+      "officialSpecSnapshotStatus": "technical_route_labels_only",
+      "officialSpecSnapshotNote": "这是型号技术参数路由，不是产品展示页；当前静态HTML快照仅返回技术栏目标签，具体数值需JS/API加载。本批不将这些标签作为官网参数值证据，全部具体参数仍取逐SKU原文。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "荣耀平板8-参数配置-规格性能 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/tablets/honor-pad-8/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:39:21.119Z",
+        "sourceSnapshotHash": "f44ba47744b738c353616329e92b38e0a2ab1b21882dfdf9ac9fd5de0e985e31",
+        "note": "制造商中国区域官方网站的型号规格页，并有独立SKU和实际已售日期；不是仅凭网页为中文认定国行。"
+      },
+      "versionVerification": {
+        "variant": "standard",
+        "checkedSkuTitles": [
+          {
+            "title": "荣耀平板8 （4GB/128GB/WiFi版）参数",
+            "sourceUrl": "https://detail.zol.com.cn/1421/1420061/param.shtml",
+            "sourceSnapshotHash": "e653876219f14c6cca2986494a3b74ef91f619b7ceab43b5937ad4fa85e8e0d8"
+          },
+          {
+            "title": "荣耀平板8（8GB/256GB/WiFi版）参数",
+            "sourceUrl": "https://detail.zol.com.cn/1554/1553741/param.shtml",
+            "sourceSnapshotHash": "45661b3322b4c0e557885c5cfbd9bf93c237ce2b9b9f28d8b299c0cb4c03c1b7"
+          },
+          {
+            "title": "荣耀平板8（8GB/128GB/WiFi版）参数",
+            "sourceUrl": "https://detail.zol.com.cn/1554/1553740/param.shtml",
+            "sourceSnapshotHash": "d85cf54c9a030bc536c79bb016d281b64fef3b273e52582f93d05955e3ecdea6"
+          },
+          {
+            "title": "荣耀平板8 （6GB/128GB/WiFi版）参数",
+            "sourceUrl": "https://detail.zol.com.cn/1422/1421506/param.shtml",
+            "sourceSnapshotHash": "d958c24388e777e9561e69762fdab75f77382788b3588b0b741991b27ee212e6"
+          }
+        ],
+        "excludedTitleTerms": [
+          "柔光",
+          "悦享",
+          "限定",
+          "限量",
+          "蜂窝",
+          "LTE",
+          "5G版",
+          "全网通版",
+          "艺术"
+        ],
+        "note": "独立SKU标题逐条核验，柔光/艺术/超轻/蜂窝等特殊版不并入标准；未明确网络类型的条目不推断WiFi-only。",
+        "excludedVersionSkus": []
+      },
+      "productImages": {
+        "modelName": "荣耀平板8",
+        "seriesId": "10713746",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2258/index22579595_0_p1420061.shtml",
+        "sourceSnapshotHash": "dee2ff333849ab74bc5fedc166099db3e7fbbff52cd611c5af8abc296d377f76",
+        "fetchedAt": "2026-10-05T19:39:21.438Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2f.zol-img.com.cn/product/221_320x240/67/ce9TmTErIVSuI.jpg",
+          "alt": "荣耀平板8",
+          "modelName": "荣耀平板8",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/10713746_1.html",
+          "sourceSnapshotHash": "840f89b042e8312d68f39c409648b8d4289c0811ea1e8cbbb4b316176bba2cd0",
+          "fetchedAt": "2026-10-05T19:39:21.438Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "薄荷绿",
+            "url": "https://2b.zol-img.com.cn/product/221/57/ce2grciUPevGQ.jpg",
+            "modelName": "荣耀平板8",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2258/index22579595_0_p1420061.shtml",
+            "sourceSnapshotHash": "dee2ff333849ab74bc5fedc166099db3e7fbbff52cd611c5af8abc296d377f76",
+            "fetchedAt": "2026-10-05T19:39:21.438Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "晨曦金",
+            "url": "https://2f.zol-img.com.cn/product/221/67/ce9TmTErIVSuI.jpg",
+            "modelName": "荣耀平板8",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2258/index22579595_0_p1420061.shtml",
+            "sourceSnapshotHash": "dee2ff333849ab74bc5fedc166099db3e7fbbff52cd611c5af8abc296d377f76",
+            "fetchedAt": "2026-10-05T19:39:21.438Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "曙光蓝",
+            "url": "https://2e.zol-img.com.cn/product/221/42/cepNbmvHRhnc.jpg",
+            "modelName": "荣耀平板8",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2258/index22579595_0_p1420061.shtml",
+            "sourceSnapshotHash": "dee2ff333849ab74bc5fedc166099db3e7fbbff52cd611c5af8abc296d377f76",
+            "fetchedAt": "2026-10-05T19:39:21.438Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2258/index22579595_0_p1420061.shtml",
+          "https://detail.zol.com.cn/picture_index_2258/index22579598_0_p1420061.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "honor-pad-x8-2022",
+      "modelName": "荣耀平板X8",
+      "generation": "平板X8",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10717460_1.html",
+        "https://detail.zol.com.cn/series/702/50840/param_10717460_0_1.html",
+        "https://detail.zol.com.cn/1428/1427897/param.shtml",
+        "https://detail.zol.com.cn/1429/1428255/param.shtml",
+        "https://www.ithome.com/0/642/627.htm",
+        "https://www.honor.com/cn/tablets/honor-pad-x8/spec/",
+        "https://detail.zol.com.cn/picture_index_2226/index22255561_0_p1427897.shtml",
+        "https://detail.zol.com.cn/picture_index_2226/index22255562_0_p1427897.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-09-22",
+        "rawText": "今日，荣耀平板 X8 正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/642/627.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:39:21.696Z",
+        "sourceSnapshotHash": "96dcc520a26b329f18018f16bf6f6af28bb39ab5461eea5edf10e0762dee8cb1"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "officialSpecUrl": "https://www.honor.com/cn/tablets/honor-pad-x8/spec/",
+      "officialSpecEvidence": {
+        "value": "荣耀平板X8",
+        "rawText": "荣耀平板X8-参数配置-规格性能 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/tablets/honor-pad-x8/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:39:22.712Z",
+        "sourceSnapshotHash": "d2983fba49717bb8be1b3a1e7d41ce01a4055cc90560d29ccd7e4717240bcf13"
+      },
+      "officialSpecSnapshotStatus": "technical_route_labels_only",
+      "officialSpecSnapshotNote": "这是型号技术参数路由，不是产品展示页；当前静态HTML快照仅返回技术栏目标签，具体数值需JS/API加载。本批不将这些标签作为官网参数值证据，全部具体参数仍取逐SKU原文。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "荣耀平板X8-参数配置-规格性能 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/tablets/honor-pad-x8/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:39:22.712Z",
+        "sourceSnapshotHash": "d2983fba49717bb8be1b3a1e7d41ce01a4055cc90560d29ccd7e4717240bcf13",
+        "note": "制造商中国区域官方网站的型号规格页，并有独立SKU和实际已售日期；不是仅凭网页为中文认定国行。"
+      },
+      "versionVerification": {
+        "variant": "standard",
+        "checkedSkuTitles": [
+          {
+            "title": "荣耀平板X8（6GB/128GB/WiFi版）参数",
+            "sourceUrl": "https://detail.zol.com.cn/1428/1427897/param.shtml",
+            "sourceSnapshotHash": "118b9f8dec46a6e7b43710b1d9bd38c20eeadc4c3a71c0b61bee627c021bcaff"
+          },
+          {
+            "title": "荣耀平板X8（4GB/128GB/WiFi版）参数",
+            "sourceUrl": "https://detail.zol.com.cn/1429/1428255/param.shtml",
+            "sourceSnapshotHash": "dcc6ade0965fe2454ca5713b00769f4d3f68e7b251cc9d9c3acb58e8b800ee0c"
+          }
+        ],
+        "excludedTitleTerms": [
+          "柔光",
+          "悦享",
+          "限定",
+          "限量",
+          "蜂窝",
+          "LTE",
+          "5G版",
+          "全网通版",
+          "艺术"
+        ],
+        "note": "独立SKU标题逐条核验，柔光/艺术/超轻/蜂窝等特殊版不并入标准；未明确网络类型的条目不推断WiFi-only。",
+        "excludedVersionSkus": []
+      },
+      "productImages": {
+        "modelName": "荣耀平板X8",
+        "seriesId": "10717460",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2226/index22255561_0_p1427897.shtml",
+        "sourceSnapshotHash": "fbb40ace15eaeb85257d0072b2deca95424f3b6273dd727c4a9ce5005e0351bd",
+        "fetchedAt": "2026-10-05T19:39:22.877Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2b.zol-img.com.cn/product/222_320x240/561/ceB08LgzN12c.jpg",
+          "alt": "荣耀平板X8",
+          "modelName": "荣耀平板X8",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/10717460_1.html",
+          "sourceSnapshotHash": "f5ae3108d6613b0c262c7934a26d9be32542820c5644f9c37206553fad7c85bd",
+          "fetchedAt": "2026-10-05T19:39:22.877Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "薄荷绿",
+            "url": "https://2a.zol-img.com.cn/product/222/572/ce1poL5nmZYFs.jpg",
+            "modelName": "荣耀平板X8",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2226/index22255561_0_p1427897.shtml",
+            "sourceSnapshotHash": "fbb40ace15eaeb85257d0072b2deca95424f3b6273dd727c4a9ce5005e0351bd",
+            "fetchedAt": "2026-10-05T19:39:22.877Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "曙光蓝",
+            "url": "https://2b.zol-img.com.cn/product/222/561/ceB08LgzN12c.jpg",
+            "modelName": "荣耀平板X8",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2226/index22255561_0_p1427897.shtml",
+            "sourceSnapshotHash": "fbb40ace15eaeb85257d0072b2deca95424f3b6273dd727c4a9ce5005e0351bd",
+            "fetchedAt": "2026-10-05T19:39:22.877Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2226/index22255561_0_p1427897.shtml",
+          "https://detail.zol.com.cn/picture_index_2226/index22255562_0_p1427897.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "honor-pad-x9-2024",
+      "modelName": "荣耀平板X9",
+      "generation": "平板X9",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10775717_1.html",
+        "https://detail.zol.com.cn/series/702/50840/param_10775717_0_1.html",
+        "https://detail.zol.com.cn/1638/1637717/param.shtml",
+        "https://detail.zol.com.cn/2111/2110590/param.shtml",
+        "https://detail.zol.com.cn/2111/2110591/param.shtml",
+        "https://www.ithome.com/0/802/849.htm",
+        "https://h5.ifeng.com/c/vivoArticle/v002ds8VtRisDufz79A-_gtUvJFEpnw1TXh2Xgjk-_878UO7w__?isNews=1&showComments=0",
+        "https://www.honor.com/cn/tablets/honor-pad-x9/spec/",
+        "https://detail.zol.com.cn/picture_index_2701/index27004826_0_p1637717.shtml",
+        "https://detail.zol.com.cn/picture_index_2701/index27004824_0_p1637717.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2024",
+        "rawText": "2024/10/16 22:08:03；荣耀平板 X9 正式发布，现已上架京东开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/802/849.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:50:01.388Z",
+        "sourceSnapshotHash": "feaa219eb563f8e9a36e9aa2b00e8e6fa75c62140c3c3a78b00214c68122d786"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行2024年已售；不同渠道报道出现10月16日上架开售/10月25日正式首销冲突，仅保留year精度，不挑选任意日。2023海外同名11.5英寸骁龙685不并入。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "releaseDatePrecision": "year",
+      "releaseDateConflicts": [
+        {
+          "value": "2024-10-16",
+          "rawText": "荣耀平板 X9 正式发布，现已上架京东开售",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/802/849.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:50:01.388Z",
+          "sourceSnapshotHash": "feaa219eb563f8e9a36e9aa2b00e8e6fa75c62140c3c3a78b00214c68122d786"
+        },
+        {
+          "value": "2024-10-25",
+          "rawText": "2024-10-25 【CNMO科技消息】10月25日，@荣耀智慧生活 官方微博宣布，荣耀平板X9正式开售",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://h5.ifeng.com/c/vivoArticle/v002ds8VtRisDufz79A-_gtUvJFEpnw1TXh2Xgjk-_878UO7w__?isNews=1&showComments=0",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:50:01.726Z",
+          "sourceSnapshotHash": "e893066483aebb3586b9c54ea7798c34fa664c1e38bcaff325346b07aa7d2563"
+        }
+      ],
+      "officialSpecUrl": "https://www.honor.com/cn/tablets/honor-pad-x9/spec/",
+      "officialSpecEvidence": {
+        "value": "荣耀平板X9",
+        "rawText": "荣耀平板X9-参数配置-规格性能 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/tablets/honor-pad-x9/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:48:52.692Z",
+        "sourceSnapshotHash": "7d108604c2c5c6c80106e0c34789a661eeadea9f49d5df0e21cd10b000b48422"
+      },
+      "officialSpecSnapshotStatus": "technical_route_labels_only",
+      "officialSpecSnapshotNote": "这是型号技术参数路由，不是产品展示页；当前静态HTML快照仅返回技术栏目标签，具体数值需JS/API加载。本批不将这些标签作为官网参数值证据，全部具体参数仍取逐SKU原文。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "荣耀平板X9-参数配置-规格性能 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/tablets/honor-pad-x9/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:48:52.692Z",
+        "sourceSnapshotHash": "7d108604c2c5c6c80106e0c34789a661eeadea9f49d5df0e21cd10b000b48422",
+        "note": "制造商中国区域官方网站的型号规格页，并有独立SKU和实际已售日期；不是仅凭网页为中文认定国行。"
+      },
+      "versionVerification": {
+        "variant": "standard",
+        "checkedSkuTitles": [
+          {
+            "title": "荣耀平板X9(6GB/128GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/1638/1637717/param.shtml",
+            "sourceSnapshotHash": "f9138bb3ff4d5b159c0f8b3e26178fd881588395ae5bf4dc3246beaa55f23f6a"
+          },
+          {
+            "title": "荣耀平板X9(8GB/128GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/2111/2110590/param.shtml",
+            "sourceSnapshotHash": "9258ecd0289994ca2ad15f4f1e0b8638c3687bf57bd8922a1952f320fb3f2e78"
+          },
+          {
+            "title": "荣耀平板X9(8GB/256GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/2111/2110591/param.shtml",
+            "sourceSnapshotHash": "7f02429889f381bcb6088c293c31e3e1b975a4003d95f4bbc7f72d84d3b2d918"
+          }
+        ],
+        "excludedTitleTerms": [
+          "柔光",
+          "悦享",
+          "限定",
+          "限量",
+          "蜂窝",
+          "LTE",
+          "5G版",
+          "全网通版",
+          "艺术"
+        ],
+        "note": "独立SKU标题逐条核验，柔光/艺术/超轻/蜂窝等特殊版不并入标准；未明确网络类型的条目不推断WiFi-only。",
+        "excludedVersionSkus": []
+      },
+      "productImages": {
+        "modelName": "荣耀平板X9",
+        "seriesId": "10775717",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2701/index27004826_0_p1637717.shtml",
+        "sourceSnapshotHash": "ef0a9f176e6ff9b7bef8754032601022cf9dc7be6674913c1c5e65c7f36747ea",
+        "fetchedAt": "2026-10-05T19:51:06.407Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2e.zol-img.com.cn/product/270_320x240/828/cesTJ0IC3qGo.png",
+          "alt": "荣耀平板X9",
+          "modelName": "荣耀平板X9",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/10775717_1.html",
+          "sourceSnapshotHash": "67d06d3d091b85d9fa5c8fa1ddc63d20283b4808f5cc6878a15989cfe14dd5bb",
+          "fetchedAt": "2026-10-05T19:51:06.407Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "星空灰",
+            "url": "https://2a.zol-img.com.cn/product/270/848/ceNgKzGQwvaIM.png",
+            "modelName": "荣耀平板X9",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2701/index27004826_0_p1637717.shtml",
+            "sourceSnapshotHash": "ef0a9f176e6ff9b7bef8754032601022cf9dc7be6674913c1c5e65c7f36747ea",
+            "fetchedAt": "2026-10-05T19:51:06.407Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "天青色",
+            "url": "https://2e.zol-img.com.cn/product/270/828/cesTJ0IC3qGo.png",
+            "modelName": "荣耀平板X9",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2701/index27004826_0_p1637717.shtml",
+            "sourceSnapshotHash": "ef0a9f176e6ff9b7bef8754032601022cf9dc7be6674913c1c5e65c7f36747ea",
+            "fetchedAt": "2026-10-05T19:51:06.407Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2701/index27004826_0_p1637717.shtml",
+          "https://detail.zol.com.cn/picture_index_2701/index27004824_0_p1637717.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "honor-pad-v8-2023",
+      "modelName": "荣耀平板V8",
+      "generation": "平板V8",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10760518_1.html",
+        "https://detail.zol.com.cn/series/702/50840/param_10760518_0_1.html",
+        "https://detail.zol.com.cn/1555/1554755/param.shtml",
+        "https://detail.zol.com.cn/1555/1554756/param.shtml",
+        "https://www.honor.com/cn/tablets/honor-pad-v8/spec/",
+        "https://detail.zol.com.cn/picture_index_2356/index23555344_0_p1554755.shtml",
+        "https://detail.zol.com.cn/picture_index_2356/index23555366_0_p1554755.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-05-08",
+        "rawText": "上市时间 2023年05月08月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1555/1554755/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:40.364Z",
+        "sourceSnapshotHash": "192c69922adb311c818b06db5c753db1bb99e6e85862872f6d739fe906d87582"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "officialSpecUrl": "https://www.honor.com/cn/tablets/honor-pad-v8/spec/",
+      "officialSpecEvidence": {
+        "value": "荣耀平板V8",
+        "rawText": "荣耀平板V8-参数配置-规格性能 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/tablets/honor-pad-v8/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:41.291Z",
+        "sourceSnapshotHash": "621f0e6736e24876209e20d9906873f572a36fee395b3bb7a6f670864790645b"
+      },
+      "officialSpecSnapshotStatus": "technical_route_labels_only",
+      "officialSpecSnapshotNote": "这是型号技术参数路由，不是产品展示页；当前静态HTML快照仅返回技术栏目标签，具体数值需JS/API加载。本批不将这些标签作为官网参数值证据，全部具体参数仍取逐SKU原文。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "荣耀平板V8-参数配置-规格性能 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/tablets/honor-pad-v8/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:41.291Z",
+        "sourceSnapshotHash": "621f0e6736e24876209e20d9906873f572a36fee395b3bb7a6f670864790645b",
+        "note": "制造商中国区域官方网站的型号规格页，并有独立SKU和实际已售日期；不是仅凭网页为中文认定国行。"
+      },
+      "versionVerification": {
+        "variant": "standard",
+        "checkedSkuTitles": [
+          {
+            "title": "荣耀平板V8(8GB/128GB/WiFi版)参数",
+            "sourceUrl": "https://detail.zol.com.cn/1555/1554755/param.shtml",
+            "sourceSnapshotHash": "192c69922adb311c818b06db5c753db1bb99e6e85862872f6d739fe906d87582"
+          },
+          {
+            "title": "荣耀平板V8(8GB/256GB/WiFi版)参数",
+            "sourceUrl": "https://detail.zol.com.cn/1555/1554756/param.shtml",
+            "sourceSnapshotHash": "3b2f32f4940ce2f5a714ef3a7f248692f743c831ca2a77711b19678cc7dd734d"
+          }
+        ],
+        "excludedTitleTerms": [
+          "柔光",
+          "悦享",
+          "限定",
+          "限量",
+          "蜂窝",
+          "LTE",
+          "5G版",
+          "全网通版",
+          "艺术"
+        ],
+        "note": "独立SKU标题逐条核验，柔光/艺术/超轻/蜂窝等特殊版不并入标准；未明确网络类型的条目不推断WiFi-only。",
+        "excludedVersionSkus": []
+      },
+      "productImages": {
+        "modelName": "荣耀平板V8",
+        "seriesId": "10760518",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2356/index23555344_0_p1554755.shtml",
+        "sourceSnapshotHash": "e28b560ff268adb230e75156467a977c9f5f5a53cb765dad692681c2613844ea",
+        "fetchedAt": "2026-10-05T19:27:41.466Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2a.zol-img.com.cn/product/235_320x240/358/ceXxeKtOOD3Po.jpg",
+          "alt": "荣耀平板V8",
+          "modelName": "荣耀平板V8",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/10760518_1.html",
+          "sourceSnapshotHash": "94fc45c84b3cc421c6bd9a29f246a56d26dd41a254ee154a7a764dd36fbf9b6f",
+          "fetchedAt": "2026-10-05T19:27:41.466Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "曙光蓝",
+            "url": "https://2a.zol-img.com.cn/product/235/358/ceXxeKtOOD3Po.jpg",
+            "modelName": "荣耀平板V8",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2356/index23555344_0_p1554755.shtml",
+            "sourceSnapshotHash": "e28b560ff268adb230e75156467a977c9f5f5a53cb765dad692681c2613844ea",
+            "fetchedAt": "2026-10-05T19:27:41.466Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "晨晖金",
+            "url": "https://2d.zol-img.com.cn/product/235/361/cekBY6dSJAXSY.jpg",
+            "modelName": "荣耀平板V8",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2356/index23555344_0_p1554755.shtml",
+            "sourceSnapshotHash": "e28b560ff268adb230e75156467a977c9f5f5a53cb765dad692681c2613844ea",
+            "fetchedAt": "2026-10-05T19:27:41.466Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2356/index23555344_0_p1554755.shtml",
+          "https://detail.zol.com.cn/picture_index_2356/index23555366_0_p1554755.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "honor-magicpad13-2023",
+      "modelName": "荣耀平板MagicPad 13",
+      "generation": "平板MagicPad 13",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10725202_1.html",
+        "https://detail.zol.com.cn/series/702/50840/param_10725202_0_1.html",
+        "https://detail.zol.com.cn/1448/1447710/param.shtml",
+        "https://detail.zol.com.cn/1816/1815128/param.shtml",
+        "https://detail.zol.com.cn/1816/1815129/param.shtml",
+        "https://www.honor.com/cn/tablets/honor-magicpad-13/spec/",
+        "https://detail.zol.com.cn/picture_index_2488/index24871229_0_p1447710.shtml",
+        "https://detail.zol.com.cn/picture_index_2488/index24871230_0_p1447710.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-07-20",
+        "rawText": "上市时间 2023年07月20日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1448/1447710/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:42.423Z",
+        "sourceSnapshotHash": "87dc3f8a3da791a88dc6207175a2475ef05c6fd24783674608f3c03e870f5475"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "officialSpecUrl": "https://www.honor.com/cn/tablets/honor-magicpad-13/spec/",
+      "officialSpecEvidence": {
+        "value": "荣耀平板MagicPad 13",
+        "rawText": "荣耀平板MagicPad 13参数-配置-尺寸 | 荣耀官网",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/tablets/honor-magicpad-13/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:43.562Z",
+        "sourceSnapshotHash": "a2eb001d286758a489255982d6ebcc85cfd582295b03393f5a82fef0922531ce"
+      },
+      "officialSpecSnapshotStatus": "technical_route_labels_only",
+      "officialSpecSnapshotNote": "这是型号技术参数路由，不是产品展示页；当前静态HTML快照仅返回技术栏目标签，具体数值需JS/API加载。本批不将这些标签作为官网参数值证据，全部具体参数仍取逐SKU原文。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "荣耀平板MagicPad 13参数-配置-尺寸 | 荣耀官网",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/tablets/honor-magicpad-13/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:43.562Z",
+        "sourceSnapshotHash": "a2eb001d286758a489255982d6ebcc85cfd582295b03393f5a82fef0922531ce",
+        "note": "制造商中国区域官方网站的型号规格页，并有独立SKU和实际已售日期；不是仅凭网页为中文认定国行。"
+      },
+      "versionVerification": {
+        "variant": "standard",
+        "checkedSkuTitles": [
+          {
+            "title": "荣耀平板MagicPad 13(12GB/256GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/1448/1447710/param.shtml",
+            "sourceSnapshotHash": "87dc3f8a3da791a88dc6207175a2475ef05c6fd24783674608f3c03e870f5475"
+          },
+          {
+            "title": "荣耀平板MagicPad 13(16GB/512GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/1816/1815128/param.shtml",
+            "sourceSnapshotHash": "13d477a7b1c962b46d0df3b84caad1197c5a584ad298403d9f2554171395bb35"
+          },
+          {
+            "title": "荣耀平板MagicPad 13(8GB/256GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/1816/1815129/param.shtml",
+            "sourceSnapshotHash": "8081e65362b4f52b7381dea91dfc8ba680465dc4da4adcc9715e02440c88e6df"
+          }
+        ],
+        "excludedTitleTerms": [
+          "柔光",
+          "悦享",
+          "限定",
+          "限量",
+          "蜂窝",
+          "LTE",
+          "5G版",
+          "全网通版",
+          "艺术"
+        ],
+        "note": "独立SKU标题逐条核验，柔光/艺术/超轻/蜂窝等特殊版不并入标准；未明确网络类型的条目不推断WiFi-only。",
+        "excludedVersionSkus": []
+      },
+      "productImages": {
+        "modelName": "荣耀平板MagicPad 13",
+        "seriesId": "10725202",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2488/index24871229_0_p1447710.shtml",
+        "sourceSnapshotHash": "7751099fa0ebc2e80fe8158397b628654f26b650475e5ea78f6559c6e9bef37b",
+        "fetchedAt": "2026-10-05T19:27:43.748Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2d.zol-img.com.cn/product/248_320x240/227/ceSZlfjdfkjJM.jpg",
+          "alt": "荣耀平板MagicPad 13",
+          "modelName": "荣耀平板MagicPad 13",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/10725202_1.html",
+          "sourceSnapshotHash": "cf21a640839c909209d701555c7d30acff282036b313231ee1e45ca15d7e6b8c",
+          "fetchedAt": "2026-10-05T19:27:43.748Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "星空灰",
+            "url": "https://2f.zol-img.com.cn/product/248/241/ceNvySVmHyQs.jpg",
+            "modelName": "荣耀平板MagicPad 13",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2488/index24871229_0_p1447710.shtml",
+            "sourceSnapshotHash": "7751099fa0ebc2e80fe8158397b628654f26b650475e5ea78f6559c6e9bef37b",
+            "fetchedAt": "2026-10-05T19:27:43.748Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "天青色",
+            "url": "https://2d.zol-img.com.cn/product/248/227/ceSZlfjdfkjJM.jpg",
+            "modelName": "荣耀平板MagicPad 13",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2488/index24871229_0_p1447710.shtml",
+            "sourceSnapshotHash": "7751099fa0ebc2e80fe8158397b628654f26b650475e5ea78f6559c6e9bef37b",
+            "fetchedAt": "2026-10-05T19:27:43.748Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "月色",
+            "url": "https://2f.zol-img.com.cn/product/248/235/cetJCC09Y4Okw.jpg",
+            "modelName": "荣耀平板MagicPad 13",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2488/index24871229_0_p1447710.shtml",
+            "sourceSnapshotHash": "7751099fa0ebc2e80fe8158397b628654f26b650475e5ea78f6559c6e9bef37b",
+            "fetchedAt": "2026-10-05T19:27:43.748Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2488/index24871229_0_p1447710.shtml",
+          "https://detail.zol.com.cn/picture_index_2488/index24871230_0_p1447710.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "honor-magicpad2-2024",
+      "modelName": "荣耀平板MagicPad2",
+      "generation": "平板MagicPad2",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10876583_1.html",
+        "https://detail.zol.com.cn/series/702/50840/param_10876583_0_1.html",
+        "https://detail.zol.com.cn/2071/2070529/param.shtml",
+        "https://detail.zol.com.cn/2080/2079230/param.shtml",
+        "https://detail.zol.com.cn/2080/2079228/param.shtml",
+        "https://detail.zol.com.cn/2080/2079229/param.shtml",
+        "https://news.zol.com.cn/885/8852902.html",
+        "https://www.honor.com/cn/tablets/honor-magicpad-2/spec/",
+        "https://detail.zol.com.cn/picture_index_2682/index26815384_0_p2070529.shtml",
+        "https://detail.zol.com.cn/picture_index_2682/index26815407_0_p2070529.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2024-07-19",
+        "rawText": "7月19日，荣耀平板MagicPad2全平台正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://news.zol.com.cn/885/8852902.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:39:23.404Z",
+        "sourceSnapshotHash": "89604d735f9d1118ec687a5444398155b7c89eea298b4d64a91bb989644e182c"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "officialSpecUrl": "https://www.honor.com/cn/tablets/honor-magicpad-2/spec/",
+      "officialSpecEvidence": {
+        "value": "荣耀平板MagicPad2",
+        "rawText": "荣耀平板MagicPad 2-参数配置-规格性能 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/tablets/honor-magicpad-2/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:46.866Z",
+        "sourceSnapshotHash": "f2e329eb9140a0b08a7171835681ab1c65a38cb5ee741d3bb9962be810ff84e2"
+      },
+      "officialSpecSnapshotStatus": "technical_route_labels_only",
+      "officialSpecSnapshotNote": "这是型号技术参数路由，不是产品展示页；当前静态HTML快照仅返回技术栏目标签，具体数值需JS/API加载。本批不将这些标签作为官网参数值证据，全部具体参数仍取逐SKU原文。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "荣耀平板MagicPad 2-参数配置-规格性能 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/tablets/honor-magicpad-2/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:46.866Z",
+        "sourceSnapshotHash": "f2e329eb9140a0b08a7171835681ab1c65a38cb5ee741d3bb9962be810ff84e2",
+        "note": "制造商中国区域官方网站的型号规格页，并有独立SKU和实际已售日期；不是仅凭网页为中文认定国行。"
+      },
+      "versionVerification": {
+        "variant": "standard",
+        "checkedSkuTitles": [
+          {
+            "title": "荣耀平板MagicPad2(8GB/256GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/2071/2070529/param.shtml",
+            "sourceSnapshotHash": "a1e34355b44ff26ae676a4cb5841ad82db9d3dd6a65f5ad07756eeb054a1b8a1"
+          },
+          {
+            "title": "荣耀平板MagicPad2(16GB/1TB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/2080/2079230/param.shtml",
+            "sourceSnapshotHash": "016cf02aaff9b8bf2ec3251d99b9da99cd5ce886c7bc28327ca1a2ab52c4c2ac"
+          },
+          {
+            "title": "荣耀平板MagicPad2(12GB/256GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/2080/2079228/param.shtml",
+            "sourceSnapshotHash": "514b3b2990788124d671b906bdc2ec2bb7bab7b7462bd214121ec0aa16c2887f"
+          },
+          {
+            "title": "荣耀平板MagicPad2(16GB/512GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/2080/2079229/param.shtml",
+            "sourceSnapshotHash": "3a0b4b9fef03fb3269bd048f602328386de1c503a0afe797c1814584ed60787c"
+          }
+        ],
+        "excludedTitleTerms": [
+          "柔光",
+          "悦享",
+          "限定",
+          "限量",
+          "蜂窝",
+          "LTE",
+          "5G版",
+          "全网通版",
+          "艺术"
+        ],
+        "note": "独立SKU标题逐条核验，柔光/艺术/超轻/蜂窝等特殊版不并入标准；未明确网络类型的条目不推断WiFi-only。",
+        "excludedVersionSkus": []
+      },
+      "productImages": {
+        "modelName": "荣耀平板MagicPad2",
+        "seriesId": "10876583",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2682/index26815384_0_p2070529.shtml",
+        "sourceSnapshotHash": "d13eeceeee939d4e52fa0230b04601a12166639e52de6248688350d618eb6133",
+        "fetchedAt": "2026-10-05T19:27:47.123Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2a.zol-img.com.cn/product/267_320x240/618/cebGPJUkZoJmI.png",
+          "alt": "荣耀平板MagicPad2",
+          "modelName": "荣耀平板MagicPad2",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/10876583_1.html",
+          "sourceSnapshotHash": "559b885fafabc0f74f8d11716b970f664e93774729635a024e100c6d62d52c03",
+          "fetchedAt": "2026-10-05T19:27:47.123Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "星空黑",
+            "url": "https://2a.zol-img.com.cn/product/267/618/cebGPJUkZoJmI.png",
+            "modelName": "荣耀平板MagicPad2",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2682/index26815384_0_p2070529.shtml",
+            "sourceSnapshotHash": "d13eeceeee939d4e52fa0230b04601a12166639e52de6248688350d618eb6133",
+            "fetchedAt": "2026-10-05T19:27:47.123Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "月影白",
+            "url": "https://2c.zol-img.com.cn/product/267/620/cevxxqdIHxX.png",
+            "modelName": "荣耀平板MagicPad2",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2682/index26815384_0_p2070529.shtml",
+            "sourceSnapshotHash": "d13eeceeee939d4e52fa0230b04601a12166639e52de6248688350d618eb6133",
+            "fetchedAt": "2026-10-05T19:27:47.123Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "天海青",
+            "url": "https://2e.zol-img.com.cn/product/267/622/ceN2NkrQg5kKU.png",
+            "modelName": "荣耀平板MagicPad2",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2682/index26815384_0_p2070529.shtml",
+            "sourceSnapshotHash": "d13eeceeee939d4e52fa0230b04601a12166639e52de6248688350d618eb6133",
+            "fetchedAt": "2026-10-05T19:27:47.123Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2682/index26815384_0_p2070529.shtml",
+          "https://detail.zol.com.cn/picture_index_2682/index26815407_0_p2070529.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "honor-magicpad3-2025",
+      "modelName": "荣耀平板MagicPad3",
+      "generation": "平板MagicPad3",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10915289_1.html",
+        "https://detail.zol.com.cn/series/702/50840/param_10915289_0_1.html",
+        "https://detail.zol.com.cn/2133/2132093/param.shtml",
+        "https://detail.zol.com.cn/2133/2132094/param.shtml",
+        "https://www.honor.com/cn/tablets/honor-magicpad-3/spec/",
+        "https://detail.zol.com.cn/picture_index_2726/index27259997_0_p2132093.shtml",
+        "https://detail.zol.com.cn/picture_index_2726/index27259998_0_p2132093.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2025-07-02",
+        "rawText": "上市时间 2025年07月2日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2133/2132093/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:47.603Z",
+        "sourceSnapshotHash": "e374e8fc860a573f41bc0abcd924dd983a658c23f65d19d9b444468cf19ac591"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "excludedConfigurations": [
+        {
+          "name": "荣耀平板MagicPad3(16GB/512GB)",
+          "sourceUrl": "https://detail.zol.com.cn/2133/2132095/param.shtml",
+          "reason": "缺少可核验的内存或存储字段"
+        },
+        {
+          "name": "荣耀平板MagicPad3(16GB/1TB)",
+          "sourceUrl": "https://detail.zol.com.cn/2133/2132096/param.shtml",
+          "reason": "缺少可核验的内存或存储字段"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "officialSpecUrl": "https://www.honor.com/cn/tablets/honor-magicpad-3/spec/",
+      "officialSpecEvidence": {
+        "value": "荣耀平板MagicPad3",
+        "rawText": "荣耀平板MagicPad3-参数配置-规格性能 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/tablets/honor-magicpad-3/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:49.675Z",
+        "sourceSnapshotHash": "633122c68b7e5b2496bddb22a1efeb82a54b01e8c64f198b01f16ebfbe5d7e4d"
+      },
+      "officialSpecSnapshotStatus": "technical_route_labels_only",
+      "officialSpecSnapshotNote": "这是型号技术参数路由，不是产品展示页；当前静态HTML快照仅返回技术栏目标签，具体数值需JS/API加载。本批不将这些标签作为官网参数值证据，全部具体参数仍取逐SKU原文。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "荣耀平板MagicPad3-参数配置-规格性能 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/tablets/honor-magicpad-3/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:49.675Z",
+        "sourceSnapshotHash": "633122c68b7e5b2496bddb22a1efeb82a54b01e8c64f198b01f16ebfbe5d7e4d",
+        "note": "制造商中国区域官方网站的型号规格页，并有独立SKU和实际已售日期；不是仅凭网页为中文认定国行。"
+      },
+      "versionVerification": {
+        "variant": "standard",
+        "checkedSkuTitles": [
+          {
+            "title": "荣耀平板MagicPad3(8GB/256GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/2133/2132093/param.shtml",
+            "sourceSnapshotHash": "e374e8fc860a573f41bc0abcd924dd983a658c23f65d19d9b444468cf19ac591"
+          },
+          {
+            "title": "荣耀平板MagicPad3(12GB/256GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/2133/2132094/param.shtml",
+            "sourceSnapshotHash": "8eabdf1bd8660b3408fb836de5925074c46b05e32421f607c53be0e98a6699b4"
+          }
+        ],
+        "excludedTitleTerms": [
+          "柔光",
+          "悦享",
+          "限定",
+          "限量",
+          "蜂窝",
+          "LTE",
+          "5G版",
+          "全网通版",
+          "艺术"
+        ],
+        "note": "独立SKU标题逐条核验，柔光/艺术/超轻/蜂窝等特殊版不并入标准；未明确网络类型的条目不推断WiFi-only。",
+        "excludedVersionSkus": []
+      },
+      "productImages": {
+        "modelName": "荣耀平板MagicPad3",
+        "seriesId": "10915289",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2726/index27259997_0_p2132093.shtml",
+        "sourceSnapshotHash": "7fef20bf10588661772530fd835b94efc180fab6b85103cd08ff012a63f0e2cd",
+        "fetchedAt": "2026-10-05T19:27:49.859Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2c.zol-img.com.cn/product/272_320x240/994/ceHcEk1QftE0s.png",
+          "alt": "荣耀平板MagicPad3",
+          "modelName": "荣耀平板MagicPad3",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/10915289_1.html",
+          "sourceSnapshotHash": "927bcc36c401c48bdd6359d944fac5eb29b59b79423115669c1fb6ff3b17ed20",
+          "fetchedAt": "2026-10-05T19:27:49.859Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "星空灰",
+            "url": "https://2e.zol-img.com.cn/product/272/996/cefMoGmzfpzEk.png",
+            "modelName": "荣耀平板MagicPad3",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2726/index27259997_0_p2132093.shtml",
+            "sourceSnapshotHash": "7fef20bf10588661772530fd835b94efc180fab6b85103cd08ff012a63f0e2cd",
+            "fetchedAt": "2026-10-05T19:27:49.859Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "月影白",
+            "url": "https://2d.zol-img.com.cn/product/272/995/ceuLZCJBOW74A.png",
+            "modelName": "荣耀平板MagicPad3",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2726/index27259997_0_p2132093.shtml",
+            "sourceSnapshotHash": "7fef20bf10588661772530fd835b94efc180fab6b85103cd08ff012a63f0e2cd",
+            "fetchedAt": "2026-10-05T19:27:49.859Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "浮光金",
+            "url": "https://2c.zol-img.com.cn/product/272/994/ceHcEk1QftE0s.png",
+            "modelName": "荣耀平板MagicPad3",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2726/index27259997_0_p2132093.shtml",
+            "sourceSnapshotHash": "7fef20bf10588661772530fd835b94efc180fab6b85103cd08ff012a63f0e2cd",
+            "fetchedAt": "2026-10-05T19:27:49.859Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2726/index27259997_0_p2132093.shtml",
+          "https://detail.zol.com.cn/picture_index_2726/index27259998_0_p2132093.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "honor-pad10-2025",
+      "modelName": "荣耀平板10",
+      "generation": "平板10",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10914111_1.html",
+        "https://detail.zol.com.cn/series/702/50840/param_10914111_0_1.html",
+        "https://detail.zol.com.cn/2130/2129149/param.shtml",
+        "https://detail.zol.com.cn/2130/2129154/param.shtml",
+        "https://detail.zol.com.cn/2130/2129150/param.shtml",
+        "https://detail.zol.com.cn/2130/2129152/param.shtml",
+        "https://www.ithome.com/0/857/405.htm",
+        "https://www.honor.com/cn/tablets/honor-pad-10/spec/",
+        "https://detail.zol.com.cn/picture_index_2723/index27228837_0_p2129149.shtml",
+        "https://detail.zol.com.cn/picture_index_2723/index27228839_0_p2129149.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2025-05-31",
+        "rawText": "荣耀平板 10 今日在京东等平台开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/857/405.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:39:23.569Z",
+        "sourceSnapshotHash": "9594298d7b4f404a47ddb83237c70ad5f8b66c3bd8a2400e88a24dfff9bc3ba3"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "officialSpecUrl": "https://www.honor.com/cn/tablets/honor-pad-10/spec/",
+      "officialSpecEvidence": {
+        "value": "荣耀平板10",
+        "rawText": "荣耀平板10-参数配置-规格性能 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/tablets/honor-pad-10/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:52.087Z",
+        "sourceSnapshotHash": "f2f0819efae6630ed21986a47e8554176d2cea00a30f03ffd2b5a6084d3cb86c"
+      },
+      "officialSpecSnapshotStatus": "technical_route_labels_only",
+      "officialSpecSnapshotNote": "这是型号技术参数路由，不是产品展示页；当前静态HTML快照仅返回技术栏目标签，具体数值需JS/API加载。本批不将这些标签作为官网参数值证据，全部具体参数仍取逐SKU原文。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "荣耀平板10-参数配置-规格性能 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/tablets/honor-pad-10/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:52.087Z",
+        "sourceSnapshotHash": "f2f0819efae6630ed21986a47e8554176d2cea00a30f03ffd2b5a6084d3cb86c",
+        "note": "制造商中国区域官方网站的型号规格页，并有独立SKU和实际已售日期；不是仅凭网页为中文认定国行。"
+      },
+      "versionVerification": {
+        "variant": "standard",
+        "checkedSkuTitles": [
+          {
+            "title": "荣耀平板10（8GB/128GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/2130/2129149/param.shtml",
+            "sourceSnapshotHash": "a8cc1ff53e01fee47d3ff599d49936837409d96453dfae2c5302be805bd02ce3"
+          },
+          {
+            "title": "荣耀平板10（12GB/512GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/2130/2129154/param.shtml",
+            "sourceSnapshotHash": "62562580030f72da7459c16def61a014b199818113ab435959670db0cd2e3fc6"
+          },
+          {
+            "title": "荣耀平板10（8GB/256GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/2130/2129150/param.shtml",
+            "sourceSnapshotHash": "a54bb3995bb30bbf299ef8ac84c4943ad4e31715089b77a3273cfce3f0fc2765"
+          },
+          {
+            "title": "荣耀平板10（12GB/256GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/2130/2129152/param.shtml",
+            "sourceSnapshotHash": "3afcdc3b412bd8d67312d0c247c2a630e8aba8577bb0eff587a8476a41323bda"
+          }
+        ],
+        "excludedTitleTerms": [
+          "柔光",
+          "悦享",
+          "限定",
+          "限量",
+          "蜂窝",
+          "LTE",
+          "5G版",
+          "全网通版",
+          "艺术"
+        ],
+        "note": "独立SKU标题逐条核验，柔光/艺术/超轻/蜂窝等特殊版不并入标准；未明确网络类型的条目不推断WiFi-only。",
+        "excludedVersionSkus": [
+          {
+            "name": "荣耀平板10（12GB/256GB/柔光版）",
+            "term": "柔光",
+            "sourceUrl": "https://detail.zol.com.cn/2130/2129153/param.shtml",
+            "sourceEvidence": {
+              "value": "荣耀平板10（12GB/256GB/柔光版）",
+              "rawText": "荣耀平板10（12GB/256GB/柔光版）",
+              "evidenceKind": "excerpt",
+              "sourceUrl": "https://detail.zol.com.cn/series/702/50840/param_10914111_0_1.html",
+              "sourceType": "reference",
+              "confidence": 0.8,
+              "verifiedAt": "2026-10-05",
+              "fetchedAt": "2026-10-05T19:27:50.772Z",
+              "sourceSnapshotHash": "fdfcb81758744c6d38d2d03ada1eeb980e4132b0023b41646f76794b78a04c09"
+            }
+          },
+          {
+            "name": "荣耀平板10（8GB/256GB/柔光版）",
+            "term": "柔光",
+            "sourceUrl": "https://detail.zol.com.cn/2130/2129151/param.shtml",
+            "sourceEvidence": {
+              "value": "荣耀平板10（8GB/256GB/柔光版）",
+              "rawText": "荣耀平板10（8GB/256GB/柔光版）",
+              "evidenceKind": "excerpt",
+              "sourceUrl": "https://detail.zol.com.cn/series/702/50840/param_10914111_0_1.html",
+              "sourceType": "reference",
+              "confidence": 0.8,
+              "verifiedAt": "2026-10-05",
+              "fetchedAt": "2026-10-05T19:27:50.772Z",
+              "sourceSnapshotHash": "fdfcb81758744c6d38d2d03ada1eeb980e4132b0023b41646f76794b78a04c09"
+            }
+          }
+        ]
+      },
+      "productImages": {
+        "modelName": "荣耀平板10",
+        "seriesId": "10914111",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2723/index27228837_0_p2129149.shtml",
+        "sourceSnapshotHash": "2fc2afe108a06ec413b11cd28d484070a09203fa62baed50d78a553d27d10163",
+        "fetchedAt": "2026-10-05T19:27:52.245Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2c.zol-img.com.cn/product/272_320x240/812/ceAO2jjeJVnD6.png",
+          "alt": "荣耀平板10",
+          "modelName": "荣耀平板10",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/10914111_1.html",
+          "sourceSnapshotHash": "6e9ea90d65e709c6219e4cb36d56b30c84d2a81fd1f9950890e5a62afe97f749",
+          "fetchedAt": "2026-10-05T19:27:52.245Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "天青色",
+            "url": "https://2b.zol-img.com.cn/product/272/811/ce8lNFhbD617U.png",
+            "modelName": "荣耀平板10",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2723/index27228837_0_p2129149.shtml",
+            "sourceSnapshotHash": "2fc2afe108a06ec413b11cd28d484070a09203fa62baed50d78a553d27d10163",
+            "fetchedAt": "2026-10-05T19:27:52.245Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "苍山灰",
+            "url": "https://2c.zol-img.com.cn/product/272/812/ceAO2jjeJVnD6.png",
+            "modelName": "荣耀平板10",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2723/index27228837_0_p2129149.shtml",
+            "sourceSnapshotHash": "2fc2afe108a06ec413b11cd28d484070a09203fa62baed50d78a553d27d10163",
+            "fetchedAt": "2026-10-05T19:27:52.245Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "日出印象",
+            "url": "https://2a.zol-img.com.cn/product/272/816/ceBB3c3OXYM3.png",
+            "modelName": "荣耀平板10",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2723/index27228837_0_p2129149.shtml",
+            "sourceSnapshotHash": "2fc2afe108a06ec413b11cd28d484070a09203fa62baed50d78a553d27d10163",
+            "fetchedAt": "2026-10-05T19:27:52.245Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2723/index27228837_0_p2129149.shtml",
+          "https://detail.zol.com.cn/picture_index_2723/index27228839_0_p2129149.shtml"
+        ],
+        "gaps": []
+      }
+    }
+  ],
+  "laptop": []
+}

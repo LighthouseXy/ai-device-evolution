@@ -1,0 +1,880 @@
+{
+  "phone": [
+    {
+      "id": "vivo-s17-2023",
+      "modelName": "vivo S17",
+      "generation": "S17",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10745151_1.html",
+        "https://detail.zol.com.cn/series/57/1795/param_10745151_0_1.html",
+        "https://detail.zol.com.cn/1487/1486867/param.shtml",
+        "https://detail.zol.com.cn/1638/1637674/param.shtml",
+        "https://detail.zol.com.cn/1638/1637673/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2497/index24967747_0_p1486867.shtml",
+        "https://detail.zol.com.cn/picture_index_2389/index23887660_0_p1637673.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-06-08",
+        "rawText": "上市日期 2023年06月08日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1487/1486867/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:25:03.733Z",
+        "sourceSnapshotHash": "79ab45724cdd6c729382094e86768e05bb5c0cb4cb2a48ccb3ad1e90093fa98d"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批额外检查内存/存储字段单值，以及明确国行市场证据；特殊配色、卫星、典藏、柔光等附加版本不代表全部覆盖。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2023年05月31日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1487/1486867/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:25:03.733Z",
+        "sourceSnapshotHash": "79ab45724cdd6c729382094e86768e05bb5c0cb4cb2a48ccb3ad1e90093fa98d"
+      },
+      "productImages": {
+        "modelName": "vivo S17",
+        "seriesId": "10745151",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2497/index24967747_0_p1486867.shtml",
+        "fetchedAt": "2026-10-05T18:27:45.167Z",
+        "sourceSnapshotHash": "f8942d239d6c629f0f0a942a80f686c0af89f73f23a732113efbf64d3b3cf246",
+        "primary": {
+          "url": "https://2e.zol-img.com.cn/product/238_320x240/642/ceXSADHj5LXLI.jpg",
+          "alt": "vivo S17",
+          "modelName": "vivo S17",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10745151_1.html",
+          "sourceSnapshotHash": "91599cb2a9c5f9a12979cab6bd0c058b2e5cc13208c9bb63f795ec5d0d318371",
+          "fetchedAt": "2026-10-05T18:25:03.240Z"
+        },
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2497/index24967747_0_p1486867.shtml",
+          "https://detail.zol.com.cn/picture_index_2389/index23887660_0_p1637673.shtml"
+        ],
+        "colors": [
+          {
+            "name": "山海青",
+            "url": "https://2e.zol-img.com.cn/product/238/642/ceXSADHj5LXLI.jpg",
+            "modelName": "vivo S17",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2497/index24967747_0_p1486867.shtml",
+            "sourceSnapshotHash": "f8942d239d6c629f0f0a942a80f686c0af89f73f23a732113efbf64d3b3cf246",
+            "fetchedAt": "2026-10-05T18:27:45.167Z"
+          },
+          {
+            "name": "玄黑",
+            "url": "https://2a.zol-img.com.cn/product/238/644/ceU1eFGVloe1M.jpg",
+            "modelName": "vivo S17",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2497/index24967747_0_p1486867.shtml",
+            "sourceSnapshotHash": "f8942d239d6c629f0f0a942a80f686c0af89f73f23a732113efbf64d3b3cf246",
+            "fetchedAt": "2026-10-05T18:27:45.167Z"
+          },
+          {
+            "name": "花海",
+            "url": "https://2b.zol-img.com.cn/product/238/651/ceG9ZdWNALHNM.jpg",
+            "modelName": "vivo S17",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2497/index24967747_0_p1486867.shtml",
+            "sourceSnapshotHash": "f8942d239d6c629f0f0a942a80f686c0af89f73f23a732113efbf64d3b3cf246",
+            "fetchedAt": "2026-10-05T18:27:45.167Z"
+          },
+          {
+            "name": "相遇紫",
+            "url": "https://2b.zol-img.com.cn/product/249/747/ce18msoE6XEfQ.jpg",
+            "modelName": "vivo S17",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2497/index24967747_0_p1486867.shtml",
+            "sourceSnapshotHash": "f8942d239d6c629f0f0a942a80f686c0af89f73f23a732113efbf64d3b3cf246",
+            "fetchedAt": "2026-10-05T18:27:45.167Z"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "vivo-s18-2023",
+      "modelName": "vivo S18",
+      "generation": "S18",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10845107_1.html",
+        "https://detail.zol.com.cn/series/57/1795/param_10845107_0_1.html",
+        "https://detail.zol.com.cn/1960/1959978/param.shtml",
+        "https://detail.zol.com.cn/1967/1966881/param.shtml",
+        "https://detail.zol.com.cn/1967/1966880/param.shtml",
+        "https://www.ithome.com/0/739/298.htm",
+        "https://detail.zol.com.cn/picture_index_2638/index26375880_0_p1959978.shtml",
+        "https://detail.zol.com.cn/picture_index_2581/index25803347_0_p1966880.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-12-22",
+        "rawText": "S18 将于 12 月 22 日正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/739/298.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:25:06.609Z",
+        "sourceSnapshotHash": "c656bf6263aa8fbef8a3bce3cb0c4ef05e5f1833d985e90564e9a22939768f93"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "excludedConfigurations": [
+        {
+          "name": "vivo S18（16GB/512GB）",
+          "sourceUrl": "https://detail.zol.com.cn/1967/1966882/param.shtml",
+          "reason": "型号标题与参数行中的内存或存储冲突"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。ZOL 上市时间混入 S18 Pro 的 2024 年 1 月 13 日；标准版首售采用 2023 年 12 月 22 日发布报道，不沿用系列页错误。16GB/512GB 参数行复制错误，配置用发布报道独立核验。 内存/存储组合以大陆发布/首售报道逐条核验，保留每项的原文和快照，不使用矛盾参数行。 本批额外检查内存/存储字段单值，以及明确国行市场证据；特殊配色、卫星、典藏、柔光等附加版本不代表全部覆盖。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2023年12月14日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1960/1959978/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:25:05.992Z",
+        "sourceSnapshotHash": "fa0626ab7245fbcbaaba2ace2b236c873aa64e3465ed63076c9123e258db2b4e"
+      },
+      "productImages": {
+        "modelName": "vivo S18",
+        "seriesId": "10845107",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2638/index26375880_0_p1959978.shtml",
+        "fetchedAt": "2026-10-05T18:27:45.523Z",
+        "sourceSnapshotHash": "8d272c3f67a1003397024b0d0516ff541878a3977bf8680ce5f1aa7f37628256",
+        "primary": {
+          "url": "https://2c.zol-img.com.cn/product/258_320x240/344/ceatGzeWTfWu2.jpg",
+          "alt": "vivo S18",
+          "modelName": "vivo S18",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10845107_1.html",
+          "sourceSnapshotHash": "5f5911016128c1ec56c485fed543f0aceaf268f416aa68db03879f730e1ce4db",
+          "fetchedAt": "2026-10-05T18:25:05.744Z"
+        },
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2638/index26375880_0_p1959978.shtml",
+          "https://detail.zol.com.cn/picture_index_2581/index25803347_0_p1966880.shtml"
+        ],
+        "colors": [
+          {
+            "name": "花似锦",
+            "url": "https://2c.zol-img.com.cn/product/258/344/ceatGzeWTfWu2.jpg",
+            "modelName": "vivo S18",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2638/index26375880_0_p1959978.shtml",
+            "sourceSnapshotHash": "8d272c3f67a1003397024b0d0516ff541878a3977bf8680ce5f1aa7f37628256",
+            "fetchedAt": "2026-10-05T18:27:45.523Z"
+          },
+          {
+            "name": "青澈",
+            "url": "https://2d.zol-img.com.cn/product/258/351/ce6RQztqYf89o.jpg",
+            "modelName": "vivo S18",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2638/index26375880_0_p1959978.shtml",
+            "sourceSnapshotHash": "8d272c3f67a1003397024b0d0516ff541878a3977bf8680ce5f1aa7f37628256",
+            "fetchedAt": "2026-10-05T18:27:45.523Z"
+          },
+          {
+            "name": "玄黑",
+            "url": "https://2e.zol-img.com.cn/product/258/352/ce055GDjLO1G6.jpg",
+            "modelName": "vivo S18",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2638/index26375880_0_p1959978.shtml",
+            "sourceSnapshotHash": "8d272c3f67a1003397024b0d0516ff541878a3977bf8680ce5f1aa7f37628256",
+            "fetchedAt": "2026-10-05T18:27:45.523Z"
+          },
+          {
+            "name": "菱紫",
+            "url": "https://2a.zol-img.com.cn/product/263/880/cewcBSyoO4ow.jpg",
+            "modelName": "vivo S18",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2638/index26375880_0_p1959978.shtml",
+            "sourceSnapshotHash": "8d272c3f67a1003397024b0d0516ff541878a3977bf8680ce5f1aa7f37628256",
+            "fetchedAt": "2026-10-05T18:27:45.523Z"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "vivo-s19-2024",
+      "modelName": "vivo S19",
+      "generation": "S19",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10860268_1.html",
+        "https://detail.zol.com.cn/series/57/1795/param_10860268_0_1.html",
+        "https://detail.zol.com.cn/2003/2002133/param.shtml",
+        "https://detail.zol.com.cn/2019/2018382/param.shtml",
+        "https://detail.zol.com.cn/2019/2018384/param.shtml",
+        "https://detail.zol.com.cn/2019/2018383/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2639/index26381656_0_p2002133.shtml",
+        "https://detail.zol.com.cn/picture_index_2639/index26381655_0_p2018383.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2024-06-07",
+        "rawText": "上市日期 2024年6月7日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2003/2002133/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:25:08.007Z",
+        "sourceSnapshotHash": "60ef171e410c294e57ecaf372c2140da1eb5244489f7a6d276f3e77107c27185"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批额外检查内存/存储字段单值，以及明确国行市场证据；特殊配色、卫星、典藏、柔光等附加版本不代表全部覆盖。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2024年5月30日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2003/2002133/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:25:08.007Z",
+        "sourceSnapshotHash": "60ef171e410c294e57ecaf372c2140da1eb5244489f7a6d276f3e77107c27185"
+      },
+      "productImages": {
+        "modelName": "vivo S19",
+        "seriesId": "10860268",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2639/index26381656_0_p2002133.shtml",
+        "fetchedAt": "2026-10-05T18:27:45.774Z",
+        "sourceSnapshotHash": "2cbb787273c755675bac440985105c238c5ecabfa3aa976adae0de51391255cd",
+        "primary": {
+          "url": "https://2c.zol-img.com.cn/product/263_320x240/660/ceSae48aPHxUA.jpg",
+          "alt": "vivo S19",
+          "modelName": "vivo S19",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10860268_1.html",
+          "sourceSnapshotHash": "df25f131a34ec14e26bd8d94dcfee10a4528856b5273fd12d16f89f51a7da55c",
+          "fetchedAt": "2026-10-05T18:25:07.600Z"
+        },
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2639/index26381656_0_p2002133.shtml",
+          "https://detail.zol.com.cn/picture_index_2639/index26381655_0_p2018383.shtml"
+        ],
+        "colors": [
+          {
+            "name": "烟雨青",
+            "url": "https://2c.zol-img.com.cn/product/263/660/ceSae48aPHxUA.jpg",
+            "modelName": "vivo S19",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2639/index26381656_0_p2002133.shtml",
+            "sourceSnapshotHash": "2cbb787273c755675bac440985105c238c5ecabfa3aa976adae0de51391255cd",
+            "fetchedAt": "2026-10-05T18:27:45.774Z"
+          },
+          {
+            "name": "桃花扇",
+            "url": "https://2e.zol-img.com.cn/product/263/686/cem2nusWxhaYs.jpg",
+            "modelName": "vivo S19",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2639/index26381656_0_p2002133.shtml",
+            "sourceSnapshotHash": "2cbb787273c755675bac440985105c238c5ecabfa3aa976adae0de51391255cd",
+            "fetchedAt": "2026-10-05T18:27:45.774Z"
+          },
+          {
+            "name": "松烟墨",
+            "url": "https://2e.zol-img.com.cn/product/263/656/ceTVTfxkES36k.jpg",
+            "modelName": "vivo S19",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2639/index26381656_0_p2002133.shtml",
+            "sourceSnapshotHash": "2cbb787273c755675bac440985105c238c5ecabfa3aa976adae0de51391255cd",
+            "fetchedAt": "2026-10-05T18:27:45.774Z"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "vivo-y200-2024",
+      "modelName": "vivo Y200",
+      "generation": "Y200",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10863439_1.html",
+        "https://detail.zol.com.cn/series/57/1795/param_10863439_0_1.html",
+        "https://detail.zol.com.cn/2014/2013465/param.shtml",
+        "https://detail.zol.com.cn/2018/2017383/param.shtml",
+        "https://detail.zol.com.cn/2018/2017384/param.shtml",
+        "https://detail.zol.com.cn/2018/2017382/param.shtml",
+        "https://www.ithome.com/0/769/269.htm",
+        "https://detail.zol.com.cn/picture_index_2637/index26368796_0_p2013465.shtml",
+        "https://detail.zol.com.cn/picture_index_2637/index26368765_0_p2017384.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2024-05-24",
+        "rawText": "5 月 24 日正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/769/269.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:27:45.973Z",
+        "sourceSnapshotHash": "5a6e090081db00e7c2eaf7c38e57c4133de895a707dd9ff2e2026ab71a192fe7"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批额外检查内存/存储字段单值，以及明确国行市场证据；特殊配色、卫星、典藏、柔光等附加版本不代表全部覆盖。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2024年5月20日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2014/2013465/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:25:09.646Z",
+        "sourceSnapshotHash": "28e478222a4de756a5d863094343c17904db1d8969c6069180c923a2aa948c35"
+      },
+      "productImages": {
+        "modelName": "vivo Y200",
+        "seriesId": "10863439",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2637/index26368796_0_p2013465.shtml",
+        "fetchedAt": "2026-10-05T18:27:46.634Z",
+        "sourceSnapshotHash": "e731bb28ffe1fa8c1c6b8b3be2913743d64785aa3ff3c32bcc41f6134ceb82d9",
+        "primary": {
+          "url": "https://2c.zol-img.com.cn/product/263_320x240/766/cegggyByMWmVo.jpg",
+          "alt": "vivo Y200",
+          "modelName": "vivo Y200",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10863439_1.html",
+          "sourceSnapshotHash": "8a07f14ae21ed0deec63937c12432a2879cce78e7b9a3b754dc66140fe02d382",
+          "fetchedAt": "2026-10-05T18:25:09.175Z"
+        },
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2637/index26368796_0_p2013465.shtml",
+          "https://detail.zol.com.cn/picture_index_2637/index26368765_0_p2017384.shtml"
+        ],
+        "colors": [
+          {
+            "name": "皓夜",
+            "url": "https://2c.zol-img.com.cn/product/263/766/cegggyByMWmVo.jpg",
+            "modelName": "vivo Y200",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2637/index26368796_0_p2013465.shtml",
+            "sourceSnapshotHash": "e731bb28ffe1fa8c1c6b8b3be2913743d64785aa3ff3c32bcc41f6134ceb82d9",
+            "fetchedAt": "2026-10-05T18:27:46.634Z"
+          },
+          {
+            "name": "繁花",
+            "url": "https://2c.zol-img.com.cn/product/263/796/ceTh5HI8jU9Xg.jpg",
+            "modelName": "vivo Y200",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2637/index26368796_0_p2013465.shtml",
+            "sourceSnapshotHash": "e731bb28ffe1fa8c1c6b8b3be2913743d64785aa3ff3c32bcc41f6134ceb82d9",
+            "fetchedAt": "2026-10-05T18:27:46.634Z"
+          },
+          {
+            "name": "赤橙"
+          }
+        ],
+        "gaps": [
+          "赤橙配色图片未核实"
+        ]
+      }
+    },
+    {
+      "id": "iqoo-11-2022",
+      "modelName": "iQOO 11",
+      "generation": "iQOO 11",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10716277_1.html",
+        "https://detail.zol.com.cn/series/57/55075/param_10716277_0_1.html",
+        "https://detail.zol.com.cn/1426/1425508/param.shtml",
+        "https://detail.zol.com.cn/1436/1435912/param.shtml",
+        "https://detail.zol.com.cn/1436/1435914/param.shtml",
+        "https://detail.zol.com.cn/1436/1435911/param.shtml",
+        "https://detail.zol.com.cn/1436/1435913/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2254/index22536895_0_p1425508.shtml",
+        "https://detail.zol.com.cn/picture_index_2254/index22536690_0_p1425508.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-12-12",
+        "rawText": "上市日期 2022年12月12日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1426/1425508/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:25:11.275Z",
+        "sourceSnapshotHash": "d35810a2ccbe902d12c7d51385c9c78fec33cae297af0ce5692336f883d5d85b"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 5 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批额外检查内存/存储字段单值，以及明确国行市场证据；特殊配色、卫星、典藏、柔光等附加版本不代表全部覆盖。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2022年12月08日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1426/1425508/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:25:11.275Z",
+        "sourceSnapshotHash": "d35810a2ccbe902d12c7d51385c9c78fec33cae297af0ce5692336f883d5d85b"
+      },
+      "productImages": {
+        "modelName": "iQOO 11",
+        "seriesId": "10716277",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2254/index22536895_0_p1425508.shtml",
+        "fetchedAt": "2026-10-05T18:27:46.904Z",
+        "sourceSnapshotHash": "e0f957592d2dab932417bd7003921d9d729a26584a7ca80c7b15fbedcd01166e",
+        "primary": {
+          "name": "赛道版",
+          "url": "https://2a.zol-img.com.cn/product/225/690/cecXw1z2iCAr6.jpg",
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2254/index22536895_0_p1425508.shtml",
+          "sourceSnapshotHash": "e0f957592d2dab932417bd7003921d9d729a26584a7ca80c7b15fbedcd01166e",
+          "fetchedAt": "2026-10-05T18:27:46.904Z",
+          "modelName": "iQOO 11"
+        },
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2254/index22536895_0_p1425508.shtml",
+          "https://detail.zol.com.cn/picture_index_2254/index22536690_0_p1425508.shtml"
+        ],
+        "colors": [
+          {
+            "name": "赛道版",
+            "url": "https://2a.zol-img.com.cn/product/225/690/cecXw1z2iCAr6.jpg",
+            "modelName": "iQOO 11",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2254/index22536895_0_p1425508.shtml",
+            "sourceSnapshotHash": "e0f957592d2dab932417bd7003921d9d729a26584a7ca80c7b15fbedcd01166e",
+            "fetchedAt": "2026-10-05T18:27:46.904Z"
+          },
+          {
+            "name": "传奇版"
+          }
+        ],
+        "excludedColors": [
+          {
+            "name": "曼岛特别版",
+            "reason": "曼岛特别版属于系列另列的特别版 SKU；本设备排除曼岛附加款，标准版清单只保留赛道版、传奇版。",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10716277_1.html",
+            "sourceSnapshotHash": "8ca209d49dac791c84e1c5b790fc28656f7750b9969d83bc42418c4f05425bb3",
+            "fetchedAt": "2026-10-05T18:25:10.690Z"
+          }
+        ],
+        "gaps": [
+          "传奇版配色图片未核实"
+        ]
+      }
+    },
+    {
+      "id": "iqoo-12-2023",
+      "modelName": "iQOO 12",
+      "generation": "iQOO 12",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10757813_1.html",
+        "https://detail.zol.com.cn/series/57/55075/param_10757813_0_1.html",
+        "https://detail.zol.com.cn/1545/1544390/param.shtml",
+        "https://detail.zol.com.cn/1948/1947968/param.shtml",
+        "https://detail.zol.com.cn/1948/1947969/param.shtml",
+        "https://www.ithome.com/0/730/761.htm",
+        "https://detail.zol.com.cn/picture_index_2563/index25621637_0_p1544390.shtml",
+        "https://detail.zol.com.cn/picture_index_2563/index25621633_0_p1544390.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-11-14",
+        "rawText": "11 月 14 日 10:00 正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/730/761.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:27:46.969Z",
+        "sourceSnapshotHash": "5122f2c277edb4d4fe58f788068afb4fb13b89473983858252251dbd340f641c"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。参数页上市日期 2023 年 12 月 14 日与系列首售报道冲突，采用 2023 年 11 月 14 日，燃途配色另于 11 月 24 日开售。 本批额外检查内存/存储字段单值，以及明确国行市场证据；特殊配色、卫星、典藏、柔光等附加版本不代表全部覆盖。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2023年11月7日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1545/1544390/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:25:12.282Z",
+        "sourceSnapshotHash": "9b58d6612c5066f33025c750e792187cc18fd5571351da9c00ac5cb2659f1278"
+      },
+      "productImages": {
+        "modelName": "iQOO 12",
+        "seriesId": "10757813",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2563/index25621637_0_p1544390.shtml",
+        "fetchedAt": "2026-10-05T18:27:47.117Z",
+        "sourceSnapshotHash": "77f689deedced8e4e03f1f10210f3b20214a4d7d852f2bdcd97e6ddee532ea75",
+        "primary": {
+          "url": "https://2e.zol-img.com.cn/product/256_320x240/636/ceRByTngWRDIk.jpg",
+          "alt": "iQOO 12",
+          "modelName": "iQOO 12",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10757813_1.html",
+          "sourceSnapshotHash": "d5f42c423edf51fb95eb640596107f591f44d438947735504cf3aa1249f92fcc",
+          "fetchedAt": "2026-10-05T18:25:11.742Z"
+        },
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2563/index25621637_0_p1544390.shtml",
+          "https://detail.zol.com.cn/picture_index_2563/index25621633_0_p1544390.shtml"
+        ],
+        "colors": [
+          {
+            "name": "传奇版",
+            "url": "https://2e.zol-img.com.cn/product/256/636/ceRByTngWRDIk.jpg",
+            "modelName": "iQOO 12",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2563/index25621637_0_p1544390.shtml",
+            "sourceSnapshotHash": "77f689deedced8e4e03f1f10210f3b20214a4d7d852f2bdcd97e6ddee532ea75",
+            "fetchedAt": "2026-10-05T18:27:47.117Z"
+          },
+          {
+            "name": "赛道版",
+            "url": "https://2f.zol-img.com.cn/product/256/637/ceFaZFP2eTi2.jpg",
+            "modelName": "iQOO 12",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2563/index25621637_0_p1544390.shtml",
+            "sourceSnapshotHash": "77f689deedced8e4e03f1f10210f3b20214a4d7d852f2bdcd97e6ddee532ea75",
+            "fetchedAt": "2026-10-05T18:27:47.117Z"
+          },
+          {
+            "name": "燃途版"
+          }
+        ],
+        "gaps": [
+          "燃途版配色图片未核实"
+        ]
+      }
+    },
+    {
+      "id": "iqoo-neo9-2023",
+      "modelName": "iQOO Neo9",
+      "generation": "iQOO Neo9",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10771110_1.html",
+        "https://detail.zol.com.cn/series/57/55075/param_10771110_0_1.html",
+        "https://detail.zol.com.cn/1611/1610856/param.shtml",
+        "https://detail.zol.com.cn/1971/1970768/param.shtml",
+        "https://detail.zol.com.cn/1971/1970767/param.shtml",
+        "https://detail.zol.com.cn/1971/1970769/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2585/index25841564_0_p1610856.shtml",
+        "https://detail.zol.com.cn/picture_index_2585/index25841559_0_p1610856.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-12-30",
+        "rawText": "上市日期 2023年12月30日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1611/1610856/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:25:13.885Z",
+        "sourceSnapshotHash": "59c66c558171e681c007c2f45f8e972bbe4559c48fb0604229a8e5f712017230"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批额外检查内存/存储字段单值，以及明确国行市场证据；特殊配色、卫星、典藏、柔光等附加版本不代表全部覆盖。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2023年12月27日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1611/1610856/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:25:13.885Z",
+        "sourceSnapshotHash": "59c66c558171e681c007c2f45f8e972bbe4559c48fb0604229a8e5f712017230"
+      },
+      "productImages": {
+        "modelName": "iQOO Neo9",
+        "seriesId": "10771110",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2585/index25841564_0_p1610856.shtml",
+        "fetchedAt": "2026-10-05T18:27:47.418Z",
+        "sourceSnapshotHash": "f10e3489652dddbd2faa8e09701af5174c185401551994e6c2dbd6f29a7fa566",
+        "primary": {
+          "url": "https://2f.zol-img.com.cn/product/258_320x240/555/ce4TIEN8aId9.jpg",
+          "alt": "iQOO Neo9",
+          "modelName": "iQOO Neo9",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10771110_1.html",
+          "sourceSnapshotHash": "bbaf35f0800e8b78545b3cfcd8d5d6ce4ccbb02288b69f99242c07459e9f6612",
+          "fetchedAt": "2026-10-05T18:25:13.374Z"
+        },
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2585/index25841564_0_p1610856.shtml",
+          "https://detail.zol.com.cn/picture_index_2585/index25841559_0_p1610856.shtml"
+        ],
+        "colors": [
+          {
+            "name": "格斗黑",
+            "url": "https://2f.zol-img.com.cn/product/258/555/ce4TIEN8aId9.jpg",
+            "modelName": "iQOO Neo9",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2585/index25841564_0_p1610856.shtml",
+            "sourceSnapshotHash": "f10e3489652dddbd2faa8e09701af5174c185401551994e6c2dbd6f29a7fa566",
+            "fetchedAt": "2026-10-05T18:27:47.418Z"
+          },
+          {
+            "name": "航海蓝",
+            "url": "https://2b.zol-img.com.cn/product/258/569/cen6nbGXhTh8o.jpg",
+            "modelName": "iQOO Neo9",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2585/index25841564_0_p1610856.shtml",
+            "sourceSnapshotHash": "f10e3489652dddbd2faa8e09701af5174c185401551994e6c2dbd6f29a7fa566",
+            "fetchedAt": "2026-10-05T18:27:47.418Z"
+          },
+          {
+            "name": "红白魂",
+            "url": "https://2c.zol-img.com.cn/product/258/564/ceZNSJlRu7fDU.jpg",
+            "modelName": "iQOO Neo9",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2585/index25841564_0_p1610856.shtml",
+            "sourceSnapshotHash": "f10e3489652dddbd2faa8e09701af5174c185401551994e6c2dbd6f29a7fa566",
+            "fetchedAt": "2026-10-05T18:27:47.418Z"
+          },
+          {
+            "name": "星曜白",
+            "url": "https://2f.zol-img.com.cn/product/263/873/ce8nJ2XlnIjKw.jpg",
+            "modelName": "iQOO Neo9",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2585/index25841564_0_p1610856.shtml",
+            "sourceSnapshotHash": "f10e3489652dddbd2faa8e09701af5174c185401551994e6c2dbd6f29a7fa566",
+            "fetchedAt": "2026-10-05T18:27:47.418Z"
+          }
+        ],
+        "gaps": []
+      }
+    }
+  ],
+  "tablet": [
+    {
+      "id": "vivo-pad2-2023",
+      "modelName": "vivo Pad2",
+      "generation": "Pad2",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10747585_1.html",
+        "https://detail.zol.com.cn/series/702/1795/param_10747585_0_1.html",
+        "https://detail.zol.com.cn/1495/1494631/param.shtml",
+        "https://detail.zol.com.cn/1535/1534569/param.shtml",
+        "https://detail.zol.com.cn/1535/1534570/param.shtml",
+        "https://detail.zol.com.cn/1535/1534568/param.shtml",
+        "https://www.ithome.com/0/688/467.htm",
+        "https://www.vivo.com.cn/vivo/vivopad2",
+        "https://detail.zol.com.cn/picture_index_2346/index23457609_0_p1494631.shtml",
+        "https://detail.zol.com.cn/picture_index_2346/index23457608_0_p1494631.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-04-22",
+        "rawText": "这款平板电脑在 4 月 22 日就已开启线下渠道销售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/688/467.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:27:48.940Z",
+        "sourceSnapshotHash": "01cefeedb21ff1005edd44e10a2f192d2011450c7a6c9e0e4b72829647958dff"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。4 月 22 日线下首售早于 4 月 24 日线上首售；本设备 releaseDate 取大陆最早已售日期。8GB/128GB 线上配置自 4 月 24 日开售，不表示全部 SKU 同时首售。 本批额外检查内存/存储字段单值，以及明确国行市场证据；特殊配色、卫星、典藏、柔光等附加版本不代表全部覆盖。",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/vivopad2",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "vivo Pad2 平板电脑 - vivo智能手机官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/vivopad2",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:25:58.533Z",
+        "sourceSnapshotHash": "a9316bd4366ede4d4274d0859651ad9d52b912f9d961f9d9657ad9a317629231",
+        "note": "型号在品牌中国官网的产品页，结合已售日期和独立 SKU 参数，不以中文语种本身判定市场。"
+      },
+      "productImages": {
+        "modelName": "vivo Pad2",
+        "seriesId": "10747585",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2346/index23457609_0_p1494631.shtml",
+        "fetchedAt": "2026-10-05T18:27:49.068Z",
+        "sourceSnapshotHash": "1120cb3c746749a6bbac93474c01e349f820db06e4063e47c248d04382faa3b1",
+        "primary": {
+          "url": "https://2e.zol-img.com.cn/product/234_320x240/610/ceXhw8fKdYQSQ.png",
+          "alt": "vivo Pad 2",
+          "modelName": "vivo Pad2",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/10747585_1.html",
+          "sourceSnapshotHash": "a6c16f3257c26669858fa64dc0b21845cabc91934917d779c0c56ce4c543a265",
+          "fetchedAt": "2026-10-05T18:27:48.040Z"
+        },
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2346/index23457609_0_p1494631.shtml",
+          "https://detail.zol.com.cn/picture_index_2346/index23457608_0_p1494631.shtml"
+        ],
+        "colors": [
+          {
+            "name": "晴海蓝",
+            "url": "https://2e.zol-img.com.cn/product/234/610/ceXhw8fKdYQSQ.png",
+            "modelName": "vivo Pad2",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2346/index23457609_0_p1494631.shtml",
+            "sourceSnapshotHash": "1120cb3c746749a6bbac93474c01e349f820db06e4063e47c248d04382faa3b1",
+            "fetchedAt": "2026-10-05T18:27:49.068Z"
+          },
+          {
+            "name": "远山灰",
+            "url": "https://2b.zol-img.com.cn/product/234/619/cepuBgSjOLaZ2.png",
+            "modelName": "vivo Pad2",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2346/index23457609_0_p1494631.shtml",
+            "sourceSnapshotHash": "1120cb3c746749a6bbac93474c01e349f820db06e4063e47c248d04382faa3b1",
+            "fetchedAt": "2026-10-05T18:27:49.068Z"
+          },
+          {
+            "name": "星云紫",
+            "url": "https://2e.zol-img.com.cn/product/234/616/ceGl4pLk2ZklY.png",
+            "modelName": "vivo Pad2",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2346/index23457609_0_p1494631.shtml",
+            "sourceSnapshotHash": "1120cb3c746749a6bbac93474c01e349f820db06e4063e47c248d04382faa3b1",
+            "fetchedAt": "2026-10-05T18:27:49.068Z"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "vivo-pad3-2024",
+      "modelName": "vivo Pad3",
+      "generation": "Pad3",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10867427_1.html",
+        "https://detail.zol.com.cn/series/702/1795/param_10867427_0_1.html",
+        "https://detail.zol.com.cn/2035/2034235/param.shtml",
+        "https://detail.zol.com.cn/2035/2034238/param.shtml",
+        "https://detail.zol.com.cn/2035/2034237/param.shtml",
+        "https://detail.zol.com.cn/2035/2034236/param.shtml",
+        "https://www.ithome.com/0/779/800.htm",
+        "https://www.vivo.com.cn/vivo/param/vivopad3",
+        "https://detail.zol.com.cn/picture_index_2655/index26546280_0_p2034235.shtml",
+        "https://detail.zol.com.cn/picture_index_2655/index26546279_0_p2034235.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2024-07-05",
+        "rawText": "7 月 5 日消息，vivo Pad3 平板现已在京东等电商平台开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/779/800.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:28:54.791Z",
+        "sourceSnapshotHash": "cc2209c170cbfedc9772683f8cb999b27258704bcf3281a57fe59f59cec6b628"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批额外检查内存/存储字段单值，以及明确国行市场证据；特殊配色、卫星、典藏、柔光等附加版本不代表全部覆盖。",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/vivopad3",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "vivo Pad3 平板电脑 - vivo智能手机官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad3",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:25:58.703Z",
+        "sourceSnapshotHash": "76c1a75b2a7ac9921c26998b26921203833efcb7edfacbafc0081e721911f797",
+        "note": "型号在品牌中国官网的产品页，结合已售日期和独立 SKU 参数，不以中文语种本身判定市场。"
+      },
+      "productImages": {
+        "modelName": "vivo Pad3",
+        "seriesId": "10867427",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad3",
+        "fetchedAt": "2026-10-05T18:25:58.703Z",
+        "sourceSnapshotHash": "76c1a75b2a7ac9921c26998b26921203833efcb7edfacbafc0081e721911f797",
+        "primary": {
+          "name": "寒星灰",
+          "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20240618/8f13f8744e396b42b90084673ed6b66d.png",
+          "alt": "vivo  (寒星灰)",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad3",
+          "sourceSnapshotHash": "76c1a75b2a7ac9921c26998b26921203833efcb7edfacbafc0081e721911f797",
+          "fetchedAt": "2026-10-05T18:25:58.703Z",
+          "modelName": "vivo Pad3"
+        },
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2655/index26546280_0_p2034235.shtml",
+          "https://detail.zol.com.cn/picture_index_2655/index26546279_0_p2034235.shtml"
+        ],
+        "colors": [
+          {
+            "name": "寒星灰",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20240618/8f13f8744e396b42b90084673ed6b66d.png",
+            "alt": "vivo  (寒星灰)",
+            "modelName": "vivo Pad3",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad3",
+            "sourceSnapshotHash": "76c1a75b2a7ac9921c26998b26921203833efcb7edfacbafc0081e721911f797",
+            "fetchedAt": "2026-10-05T18:25:58.703Z"
+          },
+          {
+            "name": "薄霞紫",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20240618/15c37bf3d93cb44ef3fc5b445c617bf1.png",
+            "alt": "vivo  (薄霞紫)",
+            "modelName": "vivo Pad3",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad3",
+            "sourceSnapshotHash": "76c1a75b2a7ac9921c26998b26921203833efcb7edfacbafc0081e721911f797",
+            "fetchedAt": "2026-10-05T18:25:58.703Z"
+          },
+          {
+            "name": "春潮蓝",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20240618/585b3e17787159648ec11d60dc5810fd.png",
+            "alt": "vivo  (春潮蓝)",
+            "modelName": "vivo Pad3",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad3",
+            "sourceSnapshotHash": "76c1a75b2a7ac9921c26998b26921203833efcb7edfacbafc0081e721911f797",
+            "fetchedAt": "2026-10-05T18:25:58.703Z"
+          }
+        ],
+        "gaps": []
+      }
+    }
+  ],
+  "laptop": []
+}

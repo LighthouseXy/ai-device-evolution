@@ -1,0 +1,2440 @@
+{
+  "phone": [
+    {
+      "id": "samsung-w24-2023",
+      "modelName": "Samsung W24",
+      "generation": "W24",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://www.samsung.com.cn/smartphones/samsung-w24/",
+        "https://www.ithome.com/0/719/456.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2023",
+        "rawText": "三星“心系天下”W24 系列今日正式发布，包括 W24 和 W24 Flip 两款机型，售价分别为 15999 元（16GB+1TB）",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/719/456.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:01.984Z",
+        "sourceSnapshotHash": "fb958bbf734dafaaca18c10bb0b0115e7073ef7468f1a2695537ebe46949dbe5",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [
+        {
+          "field": "displayType",
+          "reason": "未取得对应可信原文，留空；参数现价不作为首发价。"
+        },
+        {
+          "field": "port",
+          "reason": "未取得对应可信原文，留空；参数现价不作为首发价。"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "fieldCorrections": [
+        {
+          "field": "memory",
+          "reason": "官方中国正文及中国电信W24发布逐配置证明16GB/1TB，不接受ZOL混淆规格。"
+        },
+        {
+          "field": "storage",
+          "reason": "官方中国正文及中国电信W24发布逐配置证明16GB/1TB，不接受ZOL混淆规格。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "storageType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "security",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "sim",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "wifi",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chip",
+          "reason": "仅采用W24官方中国正文明确芯片，未继承ZOL错误GPU/系统等。"
+        },
+        {
+          "field": "screenSize",
+          "reason": "官方W24主屏尺寸原文。"
+        },
+        {
+          "field": "batteryCapacity",
+          "reason": "官方W24电池典型容量原文。"
+        },
+        {
+          "field": "resolution",
+          "reason": "W24段落内外屏逐型号分辨率，不读取W24Flip参数。"
+        },
+        {
+          "field": "rearCamera",
+          "reason": "W24后置摄像头原文。"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "W24前置摄像头原文。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "W24段落明确充电方式，未证无线充电留空。"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "提供16GB运行内存搭配1TB存储解决方案",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.samsung.com.cn/smartphones/samsung-w24/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:13:54.007Z",
+        "sourceSnapshotHash": "88c9d80408d6bdf3a8be7ad8ef2feff635594a5b255e339cca96b60e9a257f88"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星“心系天下”W24 系列今日正式发布，包括 W24 和 W24 Flip 两款机型，售价分别为 15999 元（16GB+1TB）",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/719/456.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:01.984Z",
+        "sourceSnapshotHash": "fb958bbf734dafaaca18c10bb0b0115e7073ef7468f1a2695537ebe46949dbe5"
+      },
+      "imageLicense": "unknown",
+      "colorNames": [],
+      "productImage": {
+        "url": "https://images.samsung.com.cn/is/image/samsung/assets/cn/smartphones/samsung-w24/images/W24-KV-pc-new-1019-1.jpg",
+        "alt": "Samsung W24",
+        "modelName": "Samsung W24",
+        "sourceUrl": "https://www.samsung.com.cn/smartphones/samsung-w24/",
+        "sourceName": "三星中国",
+        "fetchedAt": "2026-10-05T20:13:54.007Z",
+        "sourceSnapshotHash": "88c9d80408d6bdf3a8be7ad8ef2feff635594a5b255e339cca96b60e9a257f88"
+      },
+      "sourceInputKind": "official_cn_model_marketing_and_launch_configuration"
+    },
+    {
+      "id": "samsung-w26-2025",
+      "modelName": "Samsung W26",
+      "generation": "W26",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/cell_phone/index2144222.shtml",
+        "https://detail.zol.com.cn/2145/2144222/param.shtml",
+        "https://detail.zol.com.cn/2145/2144223/param.shtml",
+        "https://www.ithome.com/0/888/734.htm",
+        "https://detail.zol.com.cn/picture_index_2736/index27358115_0_p2144222.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2025",
+        "rawText": "三星中国「心系天下」 W26 正式发布，提供两个存储版本，今日 17 点开放预约，10 月 17 日零时起即可取机： 16GB+512GB 版本 16999 元 16GB+1TB 版本 18999 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/888/734.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:51:57.092Z",
+        "sourceSnapshotHash": "5a995c2efba353c48a1490506477c09f4d90fa33f43a0eb19717c12018a2f0c2",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 2 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星中国「心系天下」 W26 正式发布，提供两个存储版本，今日 17 点开放预约，10 月 17 日零时起即可取机： 16GB+512GB 版本 16999 元 16GB+1TB 版本 18999 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/888/734.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:51:57.092Z",
+        "sourceSnapshotHash": "5a995c2efba353c48a1490506477c09f4d90fa33f43a0eb19717c12018a2f0c2"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星中国「心系天下」 W26 正式发布，提供两个存储版本，今日 17 点开放预约，10 月 17 日零时起即可取机： 16GB+512GB 版本 16999 元 16GB+1TB 版本 18999 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/888/734.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:51:57.092Z",
+        "sourceSnapshotHash": "5a995c2efba353c48a1490506477c09f4d90fa33f43a0eb19717c12018a2f0c2"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2f.zol-img.com.cn/product/273_320x240/115/cegQhC1MmD3VU.png",
+        "alt": "三星W26（16GB/512GB）",
+        "modelName": "Samsung W26",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index2144222.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:04:44.268Z",
+        "sourceSnapshotHash": "c88b8b69494bae20e045814a67b61afbde254939de141487ccce1de07125bd26"
+      },
+      "colorNames": [
+        "玄曜黑",
+        "丹曦红"
+      ],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2736/index27358115_0_p2144222.shtml",
+        "fetchedAt": "2026-10-05T19:53:24.610Z",
+        "sourceSnapshotHash": "79dd92c3120ac9de2cc3000da608374acc41a5b3b999c14749ef5b9392be9662",
+        "colors": [
+          {
+            "name": "玄曜黑",
+            "url": "https://2f.zol-img.com.cn/product/273/103/cedxNCE9ycCQQ.png"
+          },
+          {
+            "name": "丹曦红",
+            "url": "https://2c.zol-img.com.cn/product/273/106/cevHJReOT2p9c.png"
+          }
+        ]
+      },
+      "sourceInputKind": "expanded_core_spec_snapshots"
+    },
+    {
+      "id": "samsung-galaxy-z-trifold-2025",
+      "modelName": "Samsung Galaxy Z TriFold",
+      "generation": "Z TriFold",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10921912_1.html",
+        "https://detail.zol.com.cn/series/57/98/param_10921912_0_1.html",
+        "https://detail.zol.com.cn/2151/2150420/param.shtml",
+        "https://detail.zol.com.cn/2151/2150421/param.shtml",
+        "https://www.ithome.com/0/906/218.htm",
+        "https://detail.zol.com.cn/picture_index_2742/index27415897_0_p2150420.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2025-12-19",
+        "rawText": "Galaxy Z TriFold 国行版本今日开启首销，IT之家附具体售价如下： 16+512GB 版本：19999 元 16+1TB 版本：21999 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/906/218.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:53:24.698Z",
+        "sourceSnapshotHash": "0f02892f78d5f306539f99e03ee3bf073f32e8e43d4d365c245f6f4a8d09a68d"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 2 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "Galaxy Z TriFold 国行版本今日开启首销，IT之家附具体售价如下： 16+512GB 版本：19999 元 16+1TB 版本：21999 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/906/218.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:53:24.698Z",
+        "sourceSnapshotHash": "0f02892f78d5f306539f99e03ee3bf073f32e8e43d4d365c245f6f4a8d09a68d"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "Galaxy Z TriFold 国行版本今日开启首销，IT之家附具体售价如下： 16+512GB 版本：19999 元 16+1TB 版本：21999 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/906/218.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:53:24.698Z",
+        "sourceSnapshotHash": "0f02892f78d5f306539f99e03ee3bf073f32e8e43d4d365c245f6f4a8d09a68d"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2d.zol-img.com.cn/product/274_320x240/887/cezFOoxPwI04k.png",
+        "alt": "三星Galaxy Z TriFold",
+        "modelName": "Samsung Galaxy Z TriFold",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10921912_1.html",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:43:16.463Z",
+        "sourceSnapshotHash": "e6babb8650da8c6bae0fef053d84df09f50c5133744373c3371f1b9bfa3695c4"
+      },
+      "colorNames": [
+        "时空黑"
+      ],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2742/index27415897_0_p2150420.shtml",
+        "fetchedAt": "2026-10-05T19:53:25.096Z",
+        "sourceSnapshotHash": "de5235bb4d961c748c39a3bca4bfd21f4976212587cde47b8238a77c475cbcd8",
+        "colors": [
+          {
+            "name": "时空黑",
+            "url": "https://2d.zol-img.com.cn/product/274/887/cezFOoxPwI04k.png"
+          }
+        ]
+      },
+      "sourceInputKind": "expanded_core_spec_snapshots"
+    },
+    {
+      "id": "samsung-galaxy-z-fold8-2026",
+      "modelName": "Samsung Galaxy Z Fold8",
+      "generation": "Z Fold8",
+      "releaseYear": 2026,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10928574_1.html",
+        "https://detail.zol.com.cn/series/57/98/param_10928574_0_1.html",
+        "https://detail.zol.com.cn/2174/2173053/param.shtml",
+        "https://detail.zol.com.cn/2174/2173059/param.shtml",
+        "https://detail.zol.com.cn/2174/2173060/param.shtml",
+        "https://www.ithome.com/0/980/314.htm",
+        "https://www.samsung.com.cn/offer/combo-purchase/",
+        "https://detail.zol.com.cn/picture_index_2761/index27604023_0_p2173053.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2026",
+        "rawText": "256GB | 12GB 版国行售价 12999 元，512GB | 12GB 售价 14599 元，1TB | 16GB 售价 17799 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/980/314.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:53:25.147Z",
+        "sourceSnapshotHash": "aa00279f880de629ac9daf0914df6d64a67abe3e1ee52b0f5e2b2220397b9841",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 3 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "参与超值星组合活动的手机、耳机产品包含：Galaxy Z Fold8 Ultra、Galaxy Z Fold8、Galaxy Z Flip8",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.samsung.com.cn/offer/combo-purchase/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:53:25.196Z",
+        "sourceSnapshotHash": "143bbaea76fad38c3bf983d67139ec833fe1bfdf8b2aabb2a395d9dc6b2800a3"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "256GB | 12GB 版国行售价 12999 元，512GB | 12GB 售价 14599 元，1TB | 16GB 售价 17799 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/980/314.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:53:25.147Z",
+        "sourceSnapshotHash": "aa00279f880de629ac9daf0914df6d64a67abe3e1ee52b0f5e2b2220397b9841"
+      },
+      "fieldCorrections": [
+        {
+          "field": "displayType",
+          "reason": "参数页误写外屏 Super AMOLED，以发布原文更正。"
+        }
+      ],
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2c.zol-img.com.cn/product/276_320x240/998/cebO9R5n3MDlg.jpg",
+        "alt": "三星Galaxy Z Fold8",
+        "modelName": "Samsung Galaxy Z Fold8",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10928574_1.html",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:53:33.452Z",
+        "sourceSnapshotHash": "d9d92400a6e9b89902615fa7181ca5a9f8a5a966e058a10b94655c72425a1181"
+      },
+      "colorNames": [
+        "春野绿",
+        "岩影灰",
+        "柔薰紫",
+        "云凝白"
+      ],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2761/index27604023_0_p2173053.shtml",
+        "fetchedAt": "2026-10-05T19:58:37.283Z",
+        "sourceSnapshotHash": "430eab02904552817dc79aa990ff67097155a015758d6beeafbf520d71dfee42",
+        "colors": [
+          {
+            "name": "春野绿",
+            "url": "https://2f.zol-img.com.cn/product/276/833/cebd654C15a3.jpg"
+          },
+          {
+            "name": "岩影灰",
+            "url": "https://2c.zol-img.com.cn/product/276/998/cebO9R5n3MDlg.jpg"
+          },
+          {
+            "name": "柔薰紫",
+            "url": "https://2f.zol-img.com.cn/product/276/995/ceptGKPBRaRM.jpg"
+          },
+          {
+            "name": "云凝白",
+            "url": "https://2b.zol-img.com.cn/product/276/3/ce3X7FhM95Ak.jpg"
+          }
+        ]
+      },
+      "sourceInputKind": "expanded_core_spec_snapshots"
+    },
+    {
+      "id": "samsung-galaxy-z-fold8-ultra-2026",
+      "modelName": "Samsung Galaxy Z Fold8 Ultra",
+      "generation": "Z Fold8 Ultra",
+      "releaseYear": 2026,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10928577_1.html",
+        "https://detail.zol.com.cn/series/57/98/param_10928577_0_1.html",
+        "https://detail.zol.com.cn/2174/2173064/param.shtml",
+        "https://detail.zol.com.cn/2174/2173063/param.shtml",
+        "https://detail.zol.com.cn/2174/2173065/param.shtml",
+        "https://www.ithome.com/0/980/315.htm",
+        "https://www.samsung.com.cn/offer/combo-purchase/",
+        "https://detail.zol.com.cn/picture_index_2761/index27603836_0_p2173063.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2026",
+        "rawText": "国行 256GB | 12GB 售价 14,999 元，512GB | 12GB 售价 16,599 元，1TB | 16GB 售价 19,799 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/980/315.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:48:47.515Z",
+        "sourceSnapshotHash": "ee0d5bf516196c48b6e5640a6d4ecdfd6511cee85ef7909ea5a105e6789fce44",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 3 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "参与超值星组合活动的手机、耳机产品包含：Galaxy Z Fold8 Ultra",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.samsung.com.cn/offer/combo-purchase/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:53:25.196Z",
+        "sourceSnapshotHash": "143bbaea76fad38c3bf983d67139ec833fe1bfdf8b2aabb2a395d9dc6b2800a3"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "国行 256GB | 12GB 售价 14,999 元，512GB | 12GB 售价 16,599 元，1TB | 16GB 售价 19,799 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/980/315.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:48:47.515Z",
+        "sourceSnapshotHash": "ee0d5bf516196c48b6e5640a6d4ecdfd6511cee85ef7909ea5a105e6789fce44"
+      },
+      "fieldCorrections": [
+        {
+          "field": "chip",
+          "reason": "只补当前发布文章原文明确的芯片代际，其他存疑字段不继承。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "storageType",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "security",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "sim",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "wifi",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "resolution",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "weight",
+          "reason": "参数页215g疑似复制上一代；采用发布原文214g。"
+        },
+        {
+          "field": "displayType",
+          "reason": "两块屏幕面板类型由发布原文独立核验。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "参数页25W错误，按发布原文修正。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "明确发布系统原文，不继承其他代际页面系统。"
+        }
+      ],
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2f.zol-img.com.cn/product/276_320x240/851/cevcyp68Cds.jpg",
+        "alt": "三星Galaxy Z Fold8 Ultra",
+        "modelName": "Samsung Galaxy Z Fold8 Ultra",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10928577_1.html",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:53:34.305Z",
+        "sourceSnapshotHash": "b93e8c3096365b126edcc6f0bfdda1106b9d56dd1b9450b29d79963d6dcb614a"
+      },
+      "colorNames": [
+        "岩影灰",
+        "云凝白",
+        "雅暮紫",
+        "松杉绿"
+      ],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2761/index27603836_0_p2173063.shtml",
+        "fetchedAt": "2026-10-05T19:58:37.884Z",
+        "sourceSnapshotHash": "1f88bcc083d8730be22c6d9b8ee6302bbc5180ac5a8675aec97695b94975060a",
+        "colors": [
+          {
+            "name": "岩影灰",
+            "url": "https://2c.zol-img.com.cn/product/276/848/cesA8CCq6RA0I.jpg"
+          },
+          {
+            "name": "云凝白",
+            "url": "https://2e.zol-img.com.cn/product/276/850/cerwv25SDccps.jpg"
+          },
+          {
+            "name": "雅暮紫",
+            "url": "https://2f.zol-img.com.cn/product/276/851/cevcyp68Cds.jpg"
+          },
+          {
+            "name": "松杉绿",
+            "url": "https://2c.zol-img.com.cn/product/276/836/ceVlFW49ZiFzQ.jpg"
+          }
+        ]
+      },
+      "sourceInputKind": "expanded_core_spec_snapshots"
+    },
+    {
+      "id": "samsung-galaxy-z-flip8-2026",
+      "modelName": "Samsung Galaxy Z Flip8",
+      "generation": "Z Flip8",
+      "releaseYear": 2026,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10928576_1.html",
+        "https://detail.zol.com.cn/series/57/98/param_10928576_0_1.html",
+        "https://detail.zol.com.cn/2174/2173061/param.shtml",
+        "https://detail.zol.com.cn/2174/2173062/param.shtml",
+        "https://www.ithome.com/0/980/316.htm",
+        "https://www.samsung.com.cn/offer/combo-purchase/",
+        "https://detail.zol.com.cn/picture_index_2761/index27603827_0_p2173061.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2026",
+        "rawText": "国行版搭载第五代骁龙 8 至尊版（for Galaxy）处理器。Galaxy Z Flip8 全系配备 12GB 内存，提供 256GB 和 512GB 两种存储版本。 IT之家注意到，新机机身重量仅 180 克，比上一代轻了 8 克。折叠状态下，机身尺寸为 75.4×85.7×13.1 毫米；展开后尺寸为 75.4×166.9×6.1 毫米。此外，新机支持 IP48 级防尘防水。 影像方面，Galaxy Z Flip8 配备 5000 万像素主摄和 1200 万像素超广角镜头，内屏采用打孔设计，搭载一颗 1000 万像素前置摄像头。 三颗摄像头均支持最高 4K 60fps Super HDR 视频录制，整体硬件规格与 Galaxy Z Flip 7 基本一致。其中，主摄采用 1/1.56 英寸传感器，支持光学防抖（OIS）、双像素相位对焦（Dual Pixel PDAF），光圈为 F1.8，单像素尺寸 1.12 微米，视场角 85°。 超广角镜头采用 1/3.2 英寸传感器，光圈 F2.2，单像素尺寸 1.12 微米，视场角 123°。前置摄像头采用 1/3.5 英寸传感器，光圈 F2.2，单像素尺寸同样为 1.12 微米，视场角 85°。 三星还为 Galaxy Z Flip8 新增 Camcorder Grip（摄像机握持）功能。开启后，用户可以像使用传统摄像机一样握持折叠后的手机，并在屏幕下半部分直接操作变焦等拍摄控制，提高拍摄舒适度，更方便拍摄动态视频。 在 Steady Shot（稳定拍摄）模式下，新机新增 Horizontal Lock（水平锁定）功能，即使手机进行 360 度旋转，也能自动保持画面地平线水平。 此外，借助 5000 万像素主摄，用户还可以利用外屏实时预览，在 Flex 模式下拍摄高分辨率自拍和 Vlog。 屏幕方面，Galaxy Z Flip8 外侧配备一块 4.1 英寸 Super AMOLED 外屏，分辨率为 948×1048，像素密度 342ppi，支持 60Hz 或 120Hz 刷新率，峰值亮度最高可达 2600 尼特。 内屏则升级为 6.9 英寸 Dynamic AMOLED 2X 折叠屏，分辨率 1080×2520，像素密度 400ppi，支持 1Hz 至 120Hz 自适应刷新率，峰值亮度同样达到 2600 尼特。 三星表示，新一代折叠屏进一步减轻了折痕，同时屏幕触感也更加接近玻璃。两块屏幕均支持 Vision Booster 显示增强技术。 软件方面，Galaxy Z Flip8 出厂预装基于 Android 17 的 One UI 9.0。三星承诺，新机将获得 7 个 Android 大版本升级以及最长 7 年的安全更新支持。 新版 One UI 9.0 进一步强化了外屏体验。借助 FlexWindow，用户可以直接在外屏打开应用、使用更多桌面小组件，并查看 Now Brief 信息卡。同时，依托 Gemini Intelligence，用户还能直接在外屏运行更多高级 AI 自动化功能。 续航方面，Galaxy Z Flip8 配备一块 4300mAh 电池，支持 25W 有线快充。这是三星首次在智能手机中采用硅碳电池技术。不过，相比提升电池容量，三星此次更侧重于通过新电池技术降低整机重量。 连接方面，新机支持 GPS、5G、LTE、Wi-Fi 7、Bluetooth 5.4、NFC 以及 USB 3.2 Type-C 接口，不过并未配备 UWB（超宽带）功能。 Galaxy Z Flip8 将于今日起开启预售，256GB | 12GB 售价 8,999 元，512GB | 12GB 售价 10,599 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/980/316.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:53:25.243Z",
+        "sourceSnapshotHash": "f99ff205b91eecf4471e7f7e8e60e56f04f9b345ef6b74b26dde31e9870d1e25",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 2 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "参与超值星组合活动的手机、耳机产品包含：Galaxy Z Fold8 Ultra、Galaxy Z Fold8、Galaxy Z Flip8",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.samsung.com.cn/offer/combo-purchase/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:53:25.196Z",
+        "sourceSnapshotHash": "143bbaea76fad38c3bf983d67139ec833fe1bfdf8b2aabb2a395d9dc6b2800a3"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "国行版搭载第五代骁龙 8 至尊版（for Galaxy）处理器。Galaxy Z Flip8 全系配备 12GB 内存，提供 256GB 和 512GB 两种存储版本。 IT之家注意到，新机机身重量仅 180 克，比上一代轻了 8 克。折叠状态下，机身尺寸为 75.4×85.7×13.1 毫米；展开后尺寸为 75.4×166.9×6.1 毫米。此外，新机支持 IP48 级防尘防水。 影像方面，Galaxy Z Flip8 配备 5000 万像素主摄和 1200 万像素超广角镜头，内屏采用打孔设计，搭载一颗 1000 万像素前置摄像头。 三颗摄像头均支持最高 4K 60fps Super HDR 视频录制，整体硬件规格与 Galaxy Z Flip 7 基本一致。其中，主摄采用 1/1.56 英寸传感器，支持光学防抖（OIS）、双像素相位对焦（Dual Pixel PDAF），光圈为 F1.8，单像素尺寸 1.12 微米，视场角 85°。 超广角镜头采用 1/3.2 英寸传感器，光圈 F2.2，单像素尺寸 1.12 微米，视场角 123°。前置摄像头采用 1/3.5 英寸传感器，光圈 F2.2，单像素尺寸同样为 1.12 微米，视场角 85°。 三星还为 Galaxy Z Flip8 新增 Camcorder Grip（摄像机握持）功能。开启后，用户可以像使用传统摄像机一样握持折叠后的手机，并在屏幕下半部分直接操作变焦等拍摄控制，提高拍摄舒适度，更方便拍摄动态视频。 在 Steady Shot（稳定拍摄）模式下，新机新增 Horizontal Lock（水平锁定）功能，即使手机进行 360 度旋转，也能自动保持画面地平线水平。 此外，借助 5000 万像素主摄，用户还可以利用外屏实时预览，在 Flex 模式下拍摄高分辨率自拍和 Vlog。 屏幕方面，Galaxy Z Flip8 外侧配备一块 4.1 英寸 Super AMOLED 外屏，分辨率为 948×1048，像素密度 342ppi，支持 60Hz 或 120Hz 刷新率，峰值亮度最高可达 2600 尼特。 内屏则升级为 6.9 英寸 Dynamic AMOLED 2X 折叠屏，分辨率 1080×2520，像素密度 400ppi，支持 1Hz 至 120Hz 自适应刷新率，峰值亮度同样达到 2600 尼特。 三星表示，新一代折叠屏进一步减轻了折痕，同时屏幕触感也更加接近玻璃。两块屏幕均支持 Vision Booster 显示增强技术。 软件方面，Galaxy Z Flip8 出厂预装基于 Android 17 的 One UI 9.0。三星承诺，新机将获得 7 个 Android 大版本升级以及最长 7 年的安全更新支持。 新版 One UI 9.0 进一步强化了外屏体验。借助 FlexWindow，用户可以直接在外屏打开应用、使用更多桌面小组件，并查看 Now Brief 信息卡。同时，依托 Gemini Intelligence，用户还能直接在外屏运行更多高级 AI 自动化功能。 续航方面，Galaxy Z Flip8 配备一块 4300mAh 电池，支持 25W 有线快充。这是三星首次在智能手机中采用硅碳电池技术。不过，相比提升电池容量，三星此次更侧重于通过新电池技术降低整机重量。 连接方面，新机支持 GPS、5G、LTE、Wi-Fi 7、Bluetooth 5.4、NFC 以及 USB 3.2 Type-C 接口，不过并未配备 UWB（超宽带）功能。 Galaxy Z Flip8 将于今日起开启预售，256GB | 12GB 售价 8,999 元，512GB | 12GB 售价 10,599 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/980/316.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:53:25.243Z",
+        "sourceSnapshotHash": "f99ff205b91eecf4471e7f7e8e60e56f04f9b345ef6b74b26dde31e9870d1e25"
+      },
+      "fieldCorrections": [
+        {
+          "field": "chip",
+          "reason": "国行骁龙与海外Exynos2600不可混用。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "storageType",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "security",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "sim",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "参数页One UI8错误，采用国行发布报道明确系统原文。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "充电方式由发布原文核验，未核验无线充电则不填。"
+        }
+      ],
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2c.zol-img.com.cn/product/276_320x240/824/cengK5DQQKs.jpg",
+        "alt": "三星Galaxy Z Flip8",
+        "modelName": "Samsung Galaxy Z Flip8",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10928576_1.html",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:53:35.013Z",
+        "sourceSnapshotHash": "b053816266d68095947558e6bb9cd398b8f487a18083e657160170638804d0f8"
+      },
+      "colorNames": [
+        "岩影灰",
+        "云凝白",
+        "甜莓粉",
+        "清柚绿"
+      ],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2761/index27603827_0_p2173061.shtml",
+        "fetchedAt": "2026-10-05T19:58:38.706Z",
+        "sourceSnapshotHash": "be95b7e9da31e1bc946fa163f84aa8cfe460ec09bfee7636aa41c12e1629c1e8",
+        "colors": [
+          {
+            "name": "岩影灰",
+            "url": "https://2f.zol-img.com.cn/product/276/821/ceDB0MEX21c0.jpg"
+          },
+          {
+            "name": "云凝白",
+            "url": "https://2c.zol-img.com.cn/product/276/824/cengK5DQQKs.jpg"
+          },
+          {
+            "name": "甜莓粉",
+            "url": "https://2b.zol-img.com.cn/product/276/823/ceiCEQIdnSA.jpg"
+          },
+          {
+            "name": "清柚绿",
+            "url": "https://2d.zol-img.com.cn/product/276/825/ceDe5CPqr2Wjg.png"
+          }
+        ]
+      },
+      "sourceInputKind": "expanded_core_spec_snapshots"
+    },
+    {
+      "id": "samsung-galaxy-s9-2018",
+      "modelName": "Samsung Galaxy S9",
+      "generation": "S9",
+      "releaseYear": 2018,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1165/1164497/param.shtml",
+        "https://www.ithome.com/0/350/004.htm",
+        "https://detail.zol.com.cn/cell_phone/index1164497.shtml",
+        "https://detail.zol.com.cn/picture_index_1898/index18972485_0_p1164497.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2018",
+        "rawText": "三星国行S9系列手机在广州正式发布，其中三星S9售价5799元起，三星S9+售价6699元起，3月6日-3月14日预约销售，3月16日正式开卖。现在IT之家为大家带来三星S9系列手机的现场上手实拍图赏。 三星S9+京东预约购买： 手机直达 | 电脑直达 。 三星S9京东预约购买： 手机直达 | 电脑直达 。 三星Galaxy S9以及S9+国行版搭载骁龙845处理器，其中S9采用了4GB RAM+64GB ROM的存储搭配，屏幕尺寸为5.8英寸的全视曲面屏；S9+则采用了6GB RAM+64GB ROM的存储",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/350/004.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:48:47.697Z",
+        "sourceSnapshotHash": "860e109cc5a93eac10041ed12390d3d1784c96dfbadd3dd5003e4ceedd18645b",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "fieldCorrections": [
+        {
+          "field": "memory",
+          "reason": "ZOL的ROM字段64/128/256多值不能作为SKU；仅接纳国行现场实拍明确4GB RAM+64GB ROM这一独立配置。"
+        },
+        {
+          "field": "storage",
+          "reason": "ZOL的ROM字段64/128/256多值不能作为SKU；仅接纳国行现场实拍明确4GB RAM+64GB ROM这一独立配置。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "storageType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "security",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "sim",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "wifi",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星国行S9系列手机在广州正式发布，其中三星S9售价5799元起，三星S9+售价6699元起，3月6日-3月14日预约销售，3月16日正式开卖。现在IT之家为大家带来三星S9系列手机的现场上手实拍图赏。 三星S9+京东预约购买： 手机直达 | 电脑直达 。 三星S9京东预约购买： 手机直达 | 电脑直达 。 三星Galaxy S9以及S9+国行版搭载骁龙845处理器，其中S9采用了4GB RAM+64GB ROM的存储搭配，屏幕尺寸为5.8英寸的全视曲面屏；S9+则采用了6GB RAM+64GB ROM的存储",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/350/004.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:48:47.697Z",
+        "sourceSnapshotHash": "860e109cc5a93eac10041ed12390d3d1784c96dfbadd3dd5003e4ceedd18645b"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星国行S9系列手机在广州正式发布，其中三星S9售价5799元起，三星S9+售价6699元起，3月6日-3月14日预约销售，3月16日正式开卖。现在IT之家为大家带来三星S9系列手机的现场上手实拍图赏。 三星S9+京东预约购买： 手机直达 | 电脑直达 。 三星S9京东预约购买： 手机直达 | 电脑直达 。 三星Galaxy S9以及S9+国行版搭载骁龙845处理器，其中S9采用了4GB RAM+64GB ROM的存储搭配，屏幕尺寸为5.8英寸的全视曲面屏；S9+则采用了6GB RAM+64GB ROM的存储",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/350/004.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:48:47.697Z",
+        "sourceSnapshotHash": "860e109cc5a93eac10041ed12390d3d1784c96dfbadd3dd5003e4ceedd18645b"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2e.zol-img.com.cn/product/221_320x240/596/cejtlh231sGmM.jpg",
+        "alt": "三星GALAXY S9（全网通）",
+        "modelName": "Samsung Galaxy S9",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1164497.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T18:20:37.850Z",
+        "sourceSnapshotHash": "e1374c3802101f2d8eba6a13e127494c025c663e14060e5622dde7afaec2c2d3"
+      },
+      "colorNames": [
+        "谜夜黑",
+        "莱茵蓝",
+        "夕雾紫",
+        "烟晶灰",
+        "冰蓝",
+        "勃艮第红"
+      ],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1898/index18972485_0_p1164497.shtml",
+        "fetchedAt": "2026-10-05T19:53:29.764Z",
+        "sourceSnapshotHash": "322cc6b6f04a8fa5061ea61a2ca585ba24c20972bb90258d0b1e1b1b1fc9bdda",
+        "colors": [
+          {
+            "name": "谜夜黑",
+            "url": "https://2e.zol-img.com.cn/product/221/596/cejtlh231sGmM.jpg"
+          },
+          {
+            "name": "勃艮第红",
+            "url": "https://2f.zol-img.com.cn/product/190/429/ceBZjGHcOPo.jpg"
+          },
+          {
+            "name": "夕雾紫",
+            "url": "https://2f.zol-img.com.cn/product/189/485/ceqr8NX3a8xlc.jpg"
+          },
+          {
+            "name": "莱茵蓝",
+            "url": "https://2d.zol-img.com.cn/product/189/495/cemcWbl7gav9A.jpg"
+          }
+        ]
+      },
+      "sourceInputKind": "cn_launch_configuration_and_selected_parameter_rows"
+    },
+    {
+      "id": "samsung-galaxy-s9-plus-2018",
+      "modelName": "Samsung Galaxy S9+",
+      "generation": "S9+",
+      "releaseYear": 2018,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1178/1177170/param.shtml",
+        "https://www.ithome.com/0/350/004.htm",
+        "https://detail.zol.com.cn/cell_phone/index1177170.shtml",
+        "https://detail.zol.com.cn/picture_index_1924/index19232743_0_p1177170.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2018",
+        "rawText": "三星国行S9系列手机在广州正式发布，其中三星S9售价5799元起，三星S9+售价6699元起，3月6日-3月14日预约销售，3月16日正式开卖。现在IT之家为大家带来三星S9系列手机的现场上手实拍图赏。 三星S9+京东预约购买： 手机直达 | 电脑直达 。 三星S9京东预约购买： 手机直达 | 电脑直达 。 三星Galaxy S9以及S9+国行版搭载骁龙845处理器，其中S9采用了4GB RAM+64GB ROM的存储搭配，屏幕尺寸为5.8英寸的全视曲面屏；S9+则采用了6GB RAM+64GB ROM的存储",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/350/004.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:48:47.697Z",
+        "sourceSnapshotHash": "860e109cc5a93eac10041ed12390d3d1784c96dfbadd3dd5003e4ceedd18645b",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "fieldCorrections": [
+        {
+          "field": "memory",
+          "reason": "ZOL的ROM字段64/128/256多值不能作为SKU；仅接纳国行现场实拍明确6GB RAM+64GB ROM这一独立配置。"
+        },
+        {
+          "field": "storage",
+          "reason": "ZOL的ROM字段64/128/256多值不能作为SKU；仅接纳国行现场实拍明确6GB RAM+64GB ROM这一独立配置。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "storageType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "security",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "sim",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "wifi",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星国行S9系列手机在广州正式发布，其中三星S9售价5799元起，三星S9+售价6699元起，3月6日-3月14日预约销售，3月16日正式开卖。现在IT之家为大家带来三星S9系列手机的现场上手实拍图赏。 三星S9+京东预约购买： 手机直达 | 电脑直达 。 三星S9京东预约购买： 手机直达 | 电脑直达 。 三星Galaxy S9以及S9+国行版搭载骁龙845处理器，其中S9采用了4GB RAM+64GB ROM的存储搭配，屏幕尺寸为5.8英寸的全视曲面屏；S9+则采用了6GB RAM+64GB ROM的存储",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/350/004.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:48:47.697Z",
+        "sourceSnapshotHash": "860e109cc5a93eac10041ed12390d3d1784c96dfbadd3dd5003e4ceedd18645b"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星国行S9系列手机在广州正式发布，其中三星S9售价5799元起，三星S9+售价6699元起，3月6日-3月14日预约销售，3月16日正式开卖。现在IT之家为大家带来三星S9系列手机的现场上手实拍图赏。 三星S9+京东预约购买： 手机直达 | 电脑直达 。 三星S9京东预约购买： 手机直达 | 电脑直达 。 三星Galaxy S9以及S9+国行版搭载骁龙845处理器，其中S9采用了4GB RAM+64GB ROM的存储搭配，屏幕尺寸为5.8英寸的全视曲面屏；S9+则采用了6GB RAM+64GB ROM的存储",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/350/004.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:48:47.697Z",
+        "sourceSnapshotHash": "860e109cc5a93eac10041ed12390d3d1784c96dfbadd3dd5003e4ceedd18645b"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2c.zol-img.com.cn/product/190_320x240/438/cerf6VtutNcIU.jpg",
+        "alt": "三星GALAXY S9+（全网通）",
+        "modelName": "Samsung Galaxy S9+",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1177170.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T18:21:32.894Z",
+        "sourceSnapshotHash": "f2cbd3a8ad7173f366ef6a47358f9ef2f46728787bef1c04f34777a1ef1ad982"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1924/index19232743_0_p1177170.shtml",
+        "fetchedAt": "2026-10-05T19:53:30.150Z",
+        "sourceSnapshotHash": "3fd41e5fd6c552068f3c1ba8daefb2690197436df02e450903b949eb5b29294a",
+        "colors": [
+          {
+            "name": "谜夜黑",
+            "url": "https://2b.zol-img.com.cn/product/192/743/ce5tA0sI75W5o.jpg"
+          },
+          {
+            "name": "勃艮第红",
+            "url": "https://2c.zol-img.com.cn/product/190/438/cerf6VtutNcIU.jpg"
+          },
+          {
+            "name": "夕雾紫",
+            "url": "https://2a.zol-img.com.cn/product/189/414/ceEAJWYmrzNqc.jpg"
+          },
+          {
+            "name": "莱茵蓝",
+            "url": "https://2b.zol-img.com.cn/product/189/421/ceqVI6Xp0YvL2.jpg"
+          }
+        ]
+      },
+      "sourceInputKind": "cn_launch_configuration_and_selected_parameter_rows"
+    },
+    {
+      "id": "samsung-galaxy-s10-2019",
+      "modelName": "Samsung Galaxy S10",
+      "generation": "S10",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1204/1203197/param.shtml",
+        "https://www.ithome.com/0/411/751.htm",
+        "https://detail.zol.com.cn/cell_phone/index1203197.shtml",
+        "https://detail.zol.com.cn/picture_index_1962/index19617141_0_p1203197.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2019",
+        "rawText": "三星S10/S10+/S10e国行版正式发布 - IT之家 首页 IT圈 最会买 设置 日夜间 随系统 浅色 深色 主题色 黑色 投稿 订阅 RSS订阅 收藏IT之家 软媒应用 App客户端 要知App 软媒魔方 业界 手机 电脑 测评 视频 AI 苹果 iPhone 鸿蒙 软件 智车 数码 学院 游戏 直播 5G 微软 Win10 Win11 专题 搜索 首页 > 安卓之家 > 安卓手机 4999元-10999元，三星S10/S10+/S10e国行版正式发布 2019/2/28 19:42:06 来源： IT之家 作者： 骑士 责编： 骑士 评论： IT之家 2月28日消息 今天三星在乌镇举行了三星S10/S10+/S10e、Galaxy Fold折叠屏手机发布会，最后公布： 三星S10e 6GB+128GB售价4999元 三星S10 8GB+128GB售价5999元 8GB+512GB售价7699元 三星S10+ 8GB+128GB售价6999元， 8GB+512GB售价8699元， 12GB+1TB售价10999元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/411/751.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:48:47.555Z",
+        "sourceSnapshotHash": "f3de1aa4ca2162d09dc93171bc3f23a77d9df29fa03973095911915b222ae932",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 2 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "fieldCorrections": [
+        {
+          "field": "memory",
+          "reason": "ZOL ROM为多值；两个配对来自大陆正式发布的逐配置价格原文，不对容量求笛卡尔积。"
+        },
+        {
+          "field": "storage",
+          "reason": "ZOL ROM为多值；两个配对来自大陆正式发布的逐配置价格原文，不对容量求笛卡尔积。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "storageType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "security",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "sim",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "wifi",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星S10/S10+/S10e国行版正式发布 - IT之家 首页 IT圈 最会买 设置 日夜间 随系统 浅色 深色 主题色 黑色 投稿 订阅 RSS订阅 收藏IT之家 软媒应用 App客户端 要知App 软媒魔方 业界 手机 电脑 测评 视频 AI 苹果 iPhone 鸿蒙 软件 智车 数码 学院 游戏 直播 5G 微软 Win10 Win11 专题 搜索 首页 > 安卓之家 > 安卓手机 4999元-10999元，三星S10/S10+/S10e国行版正式发布 2019/2/28 19:42:06 来源： IT之家 作者： 骑士 责编： 骑士 评论： IT之家 2月28日消息 今天三星在乌镇举行了三星S10/S10+/S10e、Galaxy Fold折叠屏手机发布会，最后公布： 三星S10e 6GB+128GB售价4999元 三星S10 8GB+128GB售价5999元 8GB+512GB售价7699元 三星S10+ 8GB+128GB售价6999元， 8GB+512GB售价8699元， 12GB+1TB售价10999元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/411/751.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:48:47.555Z",
+        "sourceSnapshotHash": "f3de1aa4ca2162d09dc93171bc3f23a77d9df29fa03973095911915b222ae932"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星S10/S10+/S10e国行版正式发布 - IT之家 首页 IT圈 最会买 设置 日夜间 随系统 浅色 深色 主题色 黑色 投稿 订阅 RSS订阅 收藏IT之家 软媒应用 App客户端 要知App 软媒魔方 业界 手机 电脑 测评 视频 AI 苹果 iPhone 鸿蒙 软件 智车 数码 学院 游戏 直播 5G 微软 Win10 Win11 专题 搜索 首页 > 安卓之家 > 安卓手机 4999元-10999元，三星S10/S10+/S10e国行版正式发布 2019/2/28 19:42:06 来源： IT之家 作者： 骑士 责编： 骑士 评论： IT之家 2月28日消息 今天三星在乌镇举行了三星S10/S10+/S10e、Galaxy Fold折叠屏手机发布会，最后公布： 三星S10e 6GB+128GB售价4999元 三星S10 8GB+128GB售价5999元 8GB+512GB售价7699元 三星S10+ 8GB+128GB售价6999元， 8GB+512GB售价8699元， 12GB+1TB售价10999元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/411/751.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:48:47.555Z",
+        "sourceSnapshotHash": "f3de1aa4ca2162d09dc93171bc3f23a77d9df29fa03973095911915b222ae932"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2d.zol-img.com.cn/product/196_320x240/717/ceYAY01FevFoU.jpg",
+        "alt": "三星Galaxy S10（全网通）",
+        "modelName": "Samsung Galaxy S10",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1203197.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T18:21:32.991Z",
+        "sourceSnapshotHash": "7e3a10e65701d6e69b3f016d751647f7054410b281bbfea8107fc05b9cc4fc18"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1962/index19617141_0_p1203197.shtml",
+        "fetchedAt": "2026-10-05T19:53:30.286Z",
+        "sourceSnapshotHash": "c5e57bb3ac949ee28279f7e2beab5912664ffc794886f2556c507aeb29bd557f",
+        "colors": [
+          {
+            "name": "炭晶黑",
+            "url": "https://2a.zol-img.com.cn/product/196/240/ceFFU7zKR9g.jpg"
+          },
+          {
+            "name": "皓玉白",
+            "url": "https://2d.zol-img.com.cn/product/196/717/ceYAY01FevFoU.jpg"
+          },
+          {
+            "name": "琉璃绿",
+            "url": "https://2f.zol-img.com.cn/product/196/251/ceOIw3s1YSY.jpg"
+          },
+          {
+            "name": "烟波蓝",
+            "url": "https://2b.zol-img.com.cn/product/199/661/ceUDVj0kfLzK2.jpg"
+          }
+        ]
+      },
+      "sourceInputKind": "cn_launch_configuration_and_selected_parameter_rows"
+    },
+    {
+      "id": "samsung-galaxy-s10-plus-2019",
+      "modelName": "Samsung Galaxy S10+",
+      "generation": "S10+",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1258/1257357/param.shtml",
+        "https://www.ithome.com/0/411/751.htm",
+        "https://detail.zol.com.cn/cell_phone/index1257357.shtml",
+        "https://detail.zol.com.cn/picture_index_1964/index19638213_0_p1257357.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2019",
+        "rawText": "三星S10/S10+/S10e国行版正式发布 - IT之家 首页 IT圈 最会买 设置 日夜间 随系统 浅色 深色 主题色 黑色 投稿 订阅 RSS订阅 收藏IT之家 软媒应用 App客户端 要知App 软媒魔方 业界 手机 电脑 测评 视频 AI 苹果 iPhone 鸿蒙 软件 智车 数码 学院 游戏 直播 5G 微软 Win10 Win11 专题 搜索 首页 > 安卓之家 > 安卓手机 4999元-10999元，三星S10/S10+/S10e国行版正式发布 2019/2/28 19:42:06 来源： IT之家 作者： 骑士 责编： 骑士 评论： IT之家 2月28日消息 今天三星在乌镇举行了三星S10/S10+/S10e、Galaxy Fold折叠屏手机发布会，最后公布： 三星S10e 6GB+128GB售价4999元 三星S10 8GB+128GB售价5999元 8GB+512GB售价7699元 三星S10+ 8GB+128GB售价6999元， 8GB+512GB售价8699元， 12GB+1TB售价10999元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/411/751.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:48:47.555Z",
+        "sourceSnapshotHash": "f3de1aa4ca2162d09dc93171bc3f23a77d9df29fa03973095911915b222ae932",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "fieldCorrections": [
+        {
+          "field": "memory",
+          "reason": "仅登记已核验玻璃版8GB/128GB，不把陶瓷版重量或参数套用到玻璃版，也不导入其他存储版本。"
+        },
+        {
+          "field": "storage",
+          "reason": "仅登记已核验玻璃版8GB/128GB，不把陶瓷版重量或参数套用到玻璃版，也不导入其他存储版本。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "storageType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "security",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "sim",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "wifi",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星S10/S10+/S10e国行版正式发布 - IT之家 首页 IT圈 最会买 设置 日夜间 随系统 浅色 深色 主题色 黑色 投稿 订阅 RSS订阅 收藏IT之家 软媒应用 App客户端 要知App 软媒魔方 业界 手机 电脑 测评 视频 AI 苹果 iPhone 鸿蒙 软件 智车 数码 学院 游戏 直播 5G 微软 Win10 Win11 专题 搜索 首页 > 安卓之家 > 安卓手机 4999元-10999元，三星S10/S10+/S10e国行版正式发布 2019/2/28 19:42:06 来源： IT之家 作者： 骑士 责编： 骑士 评论： IT之家 2月28日消息 今天三星在乌镇举行了三星S10/S10+/S10e、Galaxy Fold折叠屏手机发布会，最后公布： 三星S10e 6GB+128GB售价4999元 三星S10 8GB+128GB售价5999元 8GB+512GB售价7699元 三星S10+ 8GB+128GB售价6999元， 8GB+512GB售价8699元， 12GB+1TB售价10999元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/411/751.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:48:47.555Z",
+        "sourceSnapshotHash": "f3de1aa4ca2162d09dc93171bc3f23a77d9df29fa03973095911915b222ae932"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星S10/S10+/S10e国行版正式发布 - IT之家 首页 IT圈 最会买 设置 日夜间 随系统 浅色 深色 主题色 黑色 投稿 订阅 RSS订阅 收藏IT之家 软媒应用 App客户端 要知App 软媒魔方 业界 手机 电脑 测评 视频 AI 苹果 iPhone 鸿蒙 软件 智车 数码 学院 游戏 直播 5G 微软 Win10 Win11 专题 搜索 首页 > 安卓之家 > 安卓手机 4999元-10999元，三星S10/S10+/S10e国行版正式发布 2019/2/28 19:42:06 来源： IT之家 作者： 骑士 责编： 骑士 评论： IT之家 2月28日消息 今天三星在乌镇举行了三星S10/S10+/S10e、Galaxy Fold折叠屏手机发布会，最后公布： 三星S10e 6GB+128GB售价4999元 三星S10 8GB+128GB售价5999元 8GB+512GB售价7699元 三星S10+ 8GB+128GB售价6999元， 8GB+512GB售价8699元， 12GB+1TB售价10999元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/411/751.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:48:47.555Z",
+        "sourceSnapshotHash": "f3de1aa4ca2162d09dc93171bc3f23a77d9df29fa03973095911915b222ae932"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2b.zol-img.com.cn/product/196_320x240/853/ceugq0Pxngwc.jpg",
+        "alt": "三星Galaxy S10+（8GB RAM/玻璃版/全网通）",
+        "modelName": "Samsung Galaxy S10+",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1257357.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:53:31.875Z",
+        "sourceSnapshotHash": "a988a81747df6829a0946fe721de61b52318c75e3c0bd49e95c8f72bd597e72f"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1964/index19638213_0_p1257357.shtml",
+        "fetchedAt": "2026-10-05T19:53:32.222Z",
+        "sourceSnapshotHash": "b95ead6031ce220633aae54ab53e23fcacd411688b4fa28c2edd3d57caa353bc",
+        "colors": [
+          {
+            "name": "陶瓷白",
+            "url": "https://2a.zol-img.com.cn/product/199/754/ceRSjPgPSRhRE.jpg"
+          },
+          {
+            "name": "炭晶黑",
+            "url": "https://2d.zol-img.com.cn/product/196/285/ceufyGUemKpk.jpg"
+          },
+          {
+            "name": "皓玉白",
+            "url": "https://2b.zol-img.com.cn/product/196/853/ceugq0Pxngwc.jpg"
+          },
+          {
+            "name": "琉璃绿",
+            "url": "https://2d.zol-img.com.cn/product/196/309/ceia3AyW63bM.jpg"
+          },
+          {
+            "name": "烟波蓝",
+            "url": "https://2c.zol-img.com.cn/product/199/668/ceFrJfefK1bOM.jpg"
+          }
+        ]
+      },
+      "sourceInputKind": "cn_launch_configuration_and_selected_parameter_rows"
+    },
+    {
+      "id": "samsung-galaxy-note8-2017",
+      "modelName": "Samsung Galaxy Note 8",
+      "generation": "Note 8",
+      "releaseYear": 2017,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1162/1161385/param.shtml",
+        "https://www.ithome.com/0/327/940.htm",
+        "https://detail.zol.com.cn/picture_index_1863/index18623234_0_p1161385.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2017",
+        "rawText": "Note8国行版本的售价，64GB版6988元、128GB版7388元、256GB版7988元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/327/940.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:53:32.299Z",
+        "sourceSnapshotHash": "eb7cb136c57c45d9b1b18ff7488bed5629151af052f8ad40c3bc04bae533b743",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "fieldCorrections": [
+        {
+          "field": "memory",
+          "reason": "ZOL容量为多值；国行发货报道确认6GB内存及64GB独立销售版本，仅记录这个基准配置。"
+        },
+        {
+          "field": "storage",
+          "reason": "ZOL容量为多值；国行发货报道确认6GB内存及64GB独立销售版本，仅记录这个基准配置。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "storageType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "security",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "sim",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "wifi",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "Note8国行版本的售价，64GB版6988元、128GB版7388元、256GB版7988元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/327/940.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:53:32.299Z",
+        "sourceSnapshotHash": "eb7cb136c57c45d9b1b18ff7488bed5629151af052f8ad40c3bc04bae533b743"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "Note8国行版本的售价，64GB版6988元、128GB版7388元、256GB版7988元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/327/940.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:53:32.299Z",
+        "sourceSnapshotHash": "eb7cb136c57c45d9b1b18ff7488bed5629151af052f8ad40c3bc04bae533b743"
+      },
+      "imageLicense": "unknown",
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1863/index18623234_0_p1161385.shtml",
+        "fetchedAt": "2026-10-05T19:53:32.429Z",
+        "sourceSnapshotHash": "1f88c7af53a3d6e7f75380647b13fd07cdff21501cfc956908f73e1fb281f2f7",
+        "colors": [
+          {
+            "name": "谜夜黑",
+            "url": "https://2c.zol-img.com.cn/product/186/258/ce0q4rWo3BWrQ.jpg"
+          },
+          {
+            "name": "粉色",
+            "url": "https://2a.zol-img.com.cn/product/198/390/ceHqr1TDQhkJE.jpg"
+          },
+          {
+            "name": "星河蓝",
+            "url": "https://2b.zol-img.com.cn/product/186/401/ce37R31ymAenM.jpg"
+          },
+          {
+            "name": "旷野灰",
+            "url": "https://2e.zol-img.com.cn/product/186/282/ce8aXRa7y7YsE.jpg"
+          }
+        ]
+      },
+      "productImage": {
+        "url": "https://2c.zol-img.com.cn/product/186/258/ce0q4rWo3BWrQ.jpg",
+        "alt": "Samsung Galaxy Note 8 谜夜黑",
+        "modelName": "Samsung Galaxy Note 8",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1863/index18623234_0_p1161385.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:53:32.429Z",
+        "sourceSnapshotHash": "1f88c7af53a3d6e7f75380647b13fd07cdff21501cfc956908f73e1fb281f2f7",
+        "note": "确切型号图库的配色实图作为默认主图。"
+      },
+      "sourceInputKind": "cn_launch_configuration_and_selected_parameter_rows"
+    },
+    {
+      "id": "samsung-galaxy-a80-2019",
+      "modelName": "Samsung Galaxy A80",
+      "generation": "A80",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1268/1267070/param.shtml",
+        "https://www.ithome.com/0/432/944.htm",
+        "https://detail.zol.com.cn/cell_phone/index1267070.shtml",
+        "https://detail.zol.com.cn/picture_index_1999/index19982726_0_p1267070.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2019",
+        "rawText": "三星A80国行售价公布：3799元 - IT之家 首页 IT圈 最会买 设置 日夜间 随系统 浅色 深色 主题色 黑色 投稿 订阅 RSS订阅 收藏IT之家 软媒应用 App客户端 要知App 软媒魔方 业界 手机 电脑 测评 视频 AI 苹果 iPhone 鸿蒙 软件 智车 数码 学院 游戏 直播 5G 微软 Win10 Win11 专题 搜索 首页 > 安卓之家 > 安卓手机 三星A80国行售价公布：3799元 2019/7/12 10:47:19 来源： IT之家 作者： 孤城 责编： 孤城 评论： 感谢IT之家网友 软媒用户1789641 的线索投递！ IT之家 7月12日消息 今天上午，各大电商平台公布了三星A80的售价，8GB+128GB版本3799元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/432/944.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:52.059Z",
+        "sourceSnapshotHash": "5e1808f578de539efe0947ee15cac75d69715583009afe00cb3ed3e8c4621095",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [
+        {
+          "field": "frontCamera",
+          "reason": "未取得对应可信原文，留空；参数现价不作为首发价。"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "fieldCorrections": [
+        {
+          "field": "memory",
+          "reason": "ZOL将ROM错写8GB；采用国行正式报价报道明确8GB RAM+128GB ROM，其他不可信可选字段不复制。"
+        },
+        {
+          "field": "storage",
+          "reason": "ZOL将ROM错写8GB；采用国行正式报价报道明确8GB RAM+128GB ROM，其他不可信可选字段不复制。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "storageType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "security",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "sim",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "wifi",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星A80国行售价公布：3799元 - IT之家 首页 IT圈 最会买 设置 日夜间 随系统 浅色 深色 主题色 黑色 投稿 订阅 RSS订阅 收藏IT之家 软媒应用 App客户端 要知App 软媒魔方 业界 手机 电脑 测评 视频 AI 苹果 iPhone 鸿蒙 软件 智车 数码 学院 游戏 直播 5G 微软 Win10 Win11 专题 搜索 首页 > 安卓之家 > 安卓手机 三星A80国行售价公布：3799元 2019/7/12 10:47:19 来源： IT之家 作者： 孤城 责编： 孤城 评论： 感谢IT之家网友 软媒用户1789641 的线索投递！ IT之家 7月12日消息 今天上午，各大电商平台公布了三星A80的售价，8GB+128GB版本3799元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/432/944.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:52.059Z",
+        "sourceSnapshotHash": "5e1808f578de539efe0947ee15cac75d69715583009afe00cb3ed3e8c4621095"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星A80国行售价公布：3799元 - IT之家 首页 IT圈 最会买 设置 日夜间 随系统 浅色 深色 主题色 黑色 投稿 订阅 RSS订阅 收藏IT之家 软媒应用 App客户端 要知App 软媒魔方 业界 手机 电脑 测评 视频 AI 苹果 iPhone 鸿蒙 软件 智车 数码 学院 游戏 直播 5G 微软 Win10 Win11 专题 搜索 首页 > 安卓之家 > 安卓手机 三星A80国行售价公布：3799元 2019/7/12 10:47:19 来源： IT之家 作者： 孤城 责编： 孤城 评论： 感谢IT之家网友 软媒用户1789641 的线索投递！ IT之家 7月12日消息 今天上午，各大电商平台公布了三星A80的售价，8GB+128GB版本3799元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/432/944.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:52.059Z",
+        "sourceSnapshotHash": "5e1808f578de539efe0947ee15cac75d69715583009afe00cb3ed3e8c4621095"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2e.zol-img.com.cn/product/199_200x150/544/ced2KpMbB4orU.jpg",
+        "alt": "三星GALAXY A80（8GB/128GB/全网通）官方图7",
+        "modelName": "Samsung Galaxy A80",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1267070.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:53:32.506Z",
+        "sourceSnapshotHash": "f0e3200ba7cdf470c1c3ccc2c2d99f72f09f23a07522efbb92248126b894c45d"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1999/index19982726_0_p1267070.shtml",
+        "fetchedAt": "2026-10-05T19:53:32.803Z",
+        "sourceSnapshotHash": "4977e863b34736a222d2e5f0942b53d2083107835a36002c38dfeb4d5bfccff4",
+        "colors": [
+          {
+            "name": "月光银",
+            "url": "https://2d.zol-img.com.cn/product/199/733/ce2jr8MYucEVo.jpg"
+          },
+          {
+            "name": "太空黑",
+            "url": "https://2b.zol-img.com.cn/product/199/725/ceaiEhPFkOD6.jpg"
+          },
+          {
+            "name": "蜜桃金",
+            "url": "https://2f.zol-img.com.cn/product/199/741/cenFCjLFed5HQ.jpg"
+          }
+        ]
+      },
+      "sourceInputKind": "cn_launch_configuration_and_selected_parameter_rows"
+    }
+  ],
+  "tablet": [
+    {
+      "id": "samsung-galaxy-tab-s7-fe-wifi-2021",
+      "modelName": "Samsung Galaxy Tab S7 FE Wi-Fi",
+      "generation": "Tab S7 FE Wi-Fi",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://www.ithome.com/0/580/851.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2021",
+        "rawText": "国行版本已经正式发售， 搭载高通骁龙 778G 处理器，售价 3499 元起 。 这款平版具有 12.4 英寸 LCD 大屏幕，分辨率 2560×1600，支持 DCI-P3 色域。平板提供山茶青、柔雾粉、曜岩黑、冷山灰四款颜色，并支持 S Pen 手写笔。 Galaxy Tab S7 FE WiFi 版配备由 AKG 调校的立体声扬声器， 支持杜比全景声技术 ，保证观看电影的体验。产品提供 4+64GB、6+128GB 两种存储配置，同时 Micro SD 卡支持最大 1TB 容量扩展。产品内置 10090mAh 大容量电池，且支持 45W 快充。 IT之家了解到，三星此款平板搭载 8MP 后置摄像头，以及 5MP 前置摄像头 ，同时具有 3 个阵列麦克风，保证网络视频会议质量。平板标配 S Pen 手写笔，将具有轻柔触感和低延迟的特性，同时支持将用户手写内容直接实时转换为文本。手写笔支持磁吸，便于携带。 平板还具有 PC 模式，结合键盘保护壳可以呈现类似电脑的界面，包含任务栏、 安卓 三大按钮等。此外，系统还支持增强型多任务处理功能，一键分屏允许启动至多三个应用程序。 IT之家获悉，三星 Galaxy Tab S7 FE WiFi 版 4GB+64GB 版售价 3499 元，6GB+128GB 版售价为 3949 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/580/851.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:11:11.642Z",
+        "sourceSnapshotHash": "b10e849327d58387a16f93b9df5a15f59e0183de4d22f5ac321c183b4c5f98d3",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未取得对应可信原文，留空；参数现价不作为首发价。"
+        },
+        {
+          "field": "port",
+          "reason": "未取得对应可信原文，留空；参数现价不作为首发价。"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 2 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "fieldCorrections": [
+        {
+          "field": "memory",
+          "reason": "仅采用具体WiFi国行销售文章明确配置，不继承LTE版骁龙750G或海外参数。"
+        },
+        {
+          "field": "storage",
+          "reason": "仅采用具体WiFi国行销售文章明确配置，不继承LTE版骁龙750G或海外参数。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "storageType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "security",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "sim",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "wifi",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chip",
+          "reason": "国行WiFi版为778G，LTE版750G不能混用。"
+        },
+        {
+          "field": "screenSize",
+          "reason": "国行WiFi型号原文。"
+        },
+        {
+          "field": "displayType",
+          "reason": "具体WiFi版屏幕类型，不借用LTE参数。"
+        },
+        {
+          "field": "resolution",
+          "reason": "具体型号正文分辨率。"
+        },
+        {
+          "field": "batteryCapacity",
+          "reason": "具体型号正文容量。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "具体型号正文充电能力。"
+        },
+        {
+          "field": "rearCamera",
+          "reason": "具体型号后置摄像头原文。"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "具体型号前置摄像头原文。"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "国行版本已经正式发售， 搭载高通骁龙 778G 处理器，售价 3499 元起 。 这款平版具有 12.4 英寸 LCD 大屏幕，分辨率 2560×1600，支持 DCI-P3 色域。平板提供山茶青、柔雾粉、曜岩黑、冷山灰四款颜色，并支持 S Pen 手写笔。 Galaxy Tab S7 FE WiFi 版配备由 AKG 调校的立体声扬声器， 支持杜比全景声技术 ，保证观看电影的体验。产品提供 4+64GB、6+128GB 两种存储配置，同时 Micro SD 卡支持最大 1TB 容量扩展。产品内置 10090mAh 大容量电池，且支持 45W 快充。 IT之家了解到，三星此款平板搭载 8MP 后置摄像头，以及 5MP 前置摄像头 ，同时具有 3 个阵列麦克风，保证网络视频会议质量。平板标配 S Pen 手写笔，将具有轻柔触感和低延迟的特性，同时支持将用户手写内容直接实时转换为文本。手写笔支持磁吸，便于携带。 平板还具有 PC 模式，结合键盘保护壳可以呈现类似电脑的界面，包含任务栏、 安卓 三大按钮等。此外，系统还支持增强型多任务处理功能，一键分屏允许启动至多三个应用程序。 IT之家获悉，三星 Galaxy Tab S7 FE WiFi 版 4GB+64GB 版售价 3499 元，6GB+128GB 版售价为 3949 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/580/851.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:11:11.642Z",
+        "sourceSnapshotHash": "b10e849327d58387a16f93b9df5a15f59e0183de4d22f5ac321c183b4c5f98d3"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "国行版本已经正式发售， 搭载高通骁龙 778G 处理器，售价 3499 元起 。 这款平版具有 12.4 英寸 LCD 大屏幕，分辨率 2560×1600，支持 DCI-P3 色域。平板提供山茶青、柔雾粉、曜岩黑、冷山灰四款颜色，并支持 S Pen 手写笔。 Galaxy Tab S7 FE WiFi 版配备由 AKG 调校的立体声扬声器， 支持杜比全景声技术 ，保证观看电影的体验。产品提供 4+64GB、6+128GB 两种存储配置，同时 Micro SD 卡支持最大 1TB 容量扩展。产品内置 10090mAh 大容量电池，且支持 45W 快充。 IT之家了解到，三星此款平板搭载 8MP 后置摄像头，以及 5MP 前置摄像头 ，同时具有 3 个阵列麦克风，保证网络视频会议质量。平板标配 S Pen 手写笔，将具有轻柔触感和低延迟的特性，同时支持将用户手写内容直接实时转换为文本。手写笔支持磁吸，便于携带。 平板还具有 PC 模式，结合键盘保护壳可以呈现类似电脑的界面，包含任务栏、 安卓 三大按钮等。此外，系统还支持增强型多任务处理功能，一键分屏允许启动至多三个应用程序。 IT之家获悉，三星 Galaxy Tab S7 FE WiFi 版 4GB+64GB 版售价 3499 元，6GB+128GB 版售价为 3949 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/580/851.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:11:11.642Z",
+        "sourceSnapshotHash": "b10e849327d58387a16f93b9df5a15f59e0183de4d22f5ac321c183b4c5f98d3"
+      },
+      "imageLicense": "unknown",
+      "colorNames": [],
+      "sourceInputKind": "cn_sale_article_explicit_configurations_and_model_specs"
+    },
+    {
+      "id": "samsung-galaxy-tab-s9-fe-2023",
+      "modelName": "Samsung Galaxy Tab S9 FE",
+      "generation": "Tab S9 FE",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s9-fe-wlan-gray-128gb-sm-x510nzaachn/",
+        "https://www.ithome.com/0/726/301.htm",
+        "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s9-fe-wlan-gray-128gb-sm-x510nzaachn/buy/"
+      ],
+      "releaseEvidence": {
+        "value": "2023",
+        "rawText": "平板国行版现已上架京东平台，首发售价分别为 2999 元起和 3999 元起，将于 10 月 27 日开售。 IT之家附各版本售价： Galaxy Tab S9 FE 6+128GB WLAN 版 2999 元 6+128GB 5G 版 3599 元 8+256GB WLAN 版 3599 元 8+256GB 5G 版 4199 元 Galaxy Tab S9 FE+ 8+128GB WLAN 版 3999 元 8+128GB 5G 版 4599 元 12+256GB WLAN 版 4599 元 12+256GB 5G 版 5199 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/726/301.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:05.726Z",
+        "sourceSnapshotHash": "2e7a18796dfb5b9d4d0f47a4f44395d68628b35dbf01ba08dc732982ae9aab7b"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 2 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "productImage": {
+        "url": "https://images.samsung.com.cn/is/image/samsung/p6pim/cn/sm-x510nzaachn/gallery/cn-galaxy-tab-s9-fe-wlan-480382-sm-x510nzaachn-538451730?$1164_776_PNG$",
+        "alt": "Samsung Galaxy Tab S9 FE 石墨灰",
+        "modelName": "Samsung Galaxy Tab S9 FE",
+        "sourceUrl": "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s9-fe-wlan-gray-128gb-sm-x510nzaachn/buy/",
+        "sourceName": "三星中国",
+        "fetchedAt": "2026-10-05T19:47:43.124Z",
+        "sourceSnapshotHash": "10e571ebab3a10d0460da1db6918d324b3f01ed54f3885c5391cc8c37d8db488"
+      },
+      "colorGallery": {
+        "sourceUrl": "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s9-fe-wlan-gray-128gb-sm-x510nzaachn/buy/",
+        "fetchedAt": "2026-10-05T19:47:43.124Z",
+        "sourceSnapshotHash": "10e571ebab3a10d0460da1db6918d324b3f01ed54f3885c5391cc8c37d8db488",
+        "colors": [
+          {
+            "name": "石墨灰",
+            "url": "https://images.samsung.com.cn/is/image/samsung/p6pim/cn/sm-x510nzaachn/gallery/cn-galaxy-tab-s9-fe-wlan-480382-sm-x510nzaachn-538451730?$1164_776_PNG$"
+          }
+        ]
+      },
+      "colorNames": [
+        "石墨灰"
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "平板国行版现已上架京东平台，首发售价分别为 2999 元起和 3999 元起，将于 10 月 27 日开售。 IT之家附各版本售价： Galaxy Tab S9 FE 6+128GB WLAN 版 2999 元 6+128GB 5G 版 3599 元 8+256GB WLAN 版 3599 元 8+256GB 5G 版 4199 元 Galaxy Tab S9 FE+ 8+128GB WLAN 版 3999 元 8+128GB 5G 版 4599 元 12+256GB WLAN 版 4599 元 12+256GB 5G 版 5199 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/726/301.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:05.726Z",
+        "sourceSnapshotHash": "2e7a18796dfb5b9d4d0f47a4f44395d68628b35dbf01ba08dc732982ae9aab7b"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "平板国行版现已上架京东平台，首发售价分别为 2999 元起和 3999 元起，将于 10 月 27 日开售。 IT之家附各版本售价： Galaxy Tab S9 FE 6+128GB WLAN 版 2999 元 6+128GB 5G 版 3599 元 8+256GB WLAN 版 3599 元 8+256GB 5G 版 4199 元 Galaxy Tab S9 FE+ 8+128GB WLAN 版 3999 元 8+128GB 5G 版 4599 元 12+256GB WLAN 版 4599 元 12+256GB 5G 版 5199 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/726/301.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:05.726Z",
+        "sourceSnapshotHash": "2e7a18796dfb5b9d4d0f47a4f44395d68628b35dbf01ba08dc732982ae9aab7b"
+      },
+      "fieldCorrections": [
+        {
+          "field": "chip"
+        }
+      ],
+      "imageLicense": "unknown",
+      "sourceInputKind": "official_cn_single_sku_and_launch_configuration_snapshots"
+    },
+    {
+      "id": "samsung-galaxy-tab-s9-fe-5g-2023",
+      "modelName": "Samsung Galaxy Tab S9 FE 5G",
+      "generation": "Tab S9 FE 5G",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s9-fe-5g-gray-128gb-sm-x516czaachc/",
+        "https://www.ithome.com/0/726/301.htm",
+        "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s9-fe-5g-gray-128gb-sm-x516czaachc/buy/"
+      ],
+      "releaseEvidence": {
+        "value": "2023",
+        "rawText": "平板国行版现已上架京东平台，首发售价分别为 2999 元起和 3999 元起，将于 10 月 27 日开售。 IT之家附各版本售价： Galaxy Tab S9 FE 6+128GB WLAN 版 2999 元 6+128GB 5G 版 3599 元 8+256GB WLAN 版 3599 元 8+256GB 5G 版 4199 元 Galaxy Tab S9 FE+ 8+128GB WLAN 版 3999 元 8+128GB 5G 版 4599 元 12+256GB WLAN 版 4599 元 12+256GB 5G 版 5199 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/726/301.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:05.726Z",
+        "sourceSnapshotHash": "2e7a18796dfb5b9d4d0f47a4f44395d68628b35dbf01ba08dc732982ae9aab7b"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 2 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "productImage": {
+        "url": "https://images.samsung.com.cn/is/image/samsung/p6pim/cn/sm-x516czaachc/gallery/cn-galaxy-tab-s9-fe-5g-480376-sm-x516czaachc-538450295?$1164_776_PNG$",
+        "alt": "Samsung Galaxy Tab S9 FE 5G 石墨灰",
+        "modelName": "Samsung Galaxy Tab S9 FE 5G",
+        "sourceUrl": "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s9-fe-5g-gray-128gb-sm-x516czaachc/buy/",
+        "sourceName": "三星中国",
+        "fetchedAt": "2026-10-05T19:53:25.488Z",
+        "sourceSnapshotHash": "20a6d5fe1b3aff2e919572cbdf3877c7c2485e17161bdd8d7d2f0f164f717bab"
+      },
+      "colorGallery": {
+        "sourceUrl": "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s9-fe-5g-gray-128gb-sm-x516czaachc/buy/",
+        "fetchedAt": "2026-10-05T19:53:25.488Z",
+        "sourceSnapshotHash": "20a6d5fe1b3aff2e919572cbdf3877c7c2485e17161bdd8d7d2f0f164f717bab",
+        "colors": [
+          {
+            "name": "石墨灰",
+            "url": "https://images.samsung.com.cn/is/image/samsung/p6pim/cn/sm-x516czaachc/gallery/cn-galaxy-tab-s9-fe-5g-480376-sm-x516czaachc-538450295?$1164_776_PNG$"
+          }
+        ]
+      },
+      "colorNames": [
+        "石墨灰"
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "平板国行版现已上架京东平台，首发售价分别为 2999 元起和 3999 元起，将于 10 月 27 日开售。 IT之家附各版本售价： Galaxy Tab S9 FE 6+128GB WLAN 版 2999 元 6+128GB 5G 版 3599 元 8+256GB WLAN 版 3599 元 8+256GB 5G 版 4199 元 Galaxy Tab S9 FE+ 8+128GB WLAN 版 3999 元 8+128GB 5G 版 4599 元 12+256GB WLAN 版 4599 元 12+256GB 5G 版 5199 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/726/301.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:05.726Z",
+        "sourceSnapshotHash": "2e7a18796dfb5b9d4d0f47a4f44395d68628b35dbf01ba08dc732982ae9aab7b"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "平板国行版现已上架京东平台，首发售价分别为 2999 元起和 3999 元起，将于 10 月 27 日开售。 IT之家附各版本售价： Galaxy Tab S9 FE 6+128GB WLAN 版 2999 元 6+128GB 5G 版 3599 元 8+256GB WLAN 版 3599 元 8+256GB 5G 版 4199 元 Galaxy Tab S9 FE+ 8+128GB WLAN 版 3999 元 8+128GB 5G 版 4599 元 12+256GB WLAN 版 4599 元 12+256GB 5G 版 5199 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/726/301.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:05.726Z",
+        "sourceSnapshotHash": "2e7a18796dfb5b9d4d0f47a4f44395d68628b35dbf01ba08dc732982ae9aab7b"
+      },
+      "fieldCorrections": [
+        {
+          "field": "chip"
+        }
+      ],
+      "imageLicense": "unknown",
+      "sourceInputKind": "official_cn_single_sku_and_launch_configuration_snapshots"
+    },
+    {
+      "id": "samsung-galaxy-tab-s9-fe-plus-5g-2023",
+      "modelName": "Samsung Galaxy Tab S9 FE+ 5G",
+      "generation": "Tab S9 FE+ 5G",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s9-fe--5g-gray-128gb-sm-x616czaachc/",
+        "https://www.ithome.com/0/726/301.htm",
+        "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s9-fe--5g-gray-128gb-sm-x616czaachc/buy/"
+      ],
+      "releaseEvidence": {
+        "value": "2023",
+        "rawText": "平板国行版现已上架京东平台，首发售价分别为 2999 元起和 3999 元起，将于 10 月 27 日开售。 IT之家附各版本售价： Galaxy Tab S9 FE 6+128GB WLAN 版 2999 元 6+128GB 5G 版 3599 元 8+256GB WLAN 版 3599 元 8+256GB 5G 版 4199 元 Galaxy Tab S9 FE+ 8+128GB WLAN 版 3999 元 8+128GB 5G 版 4599 元 12+256GB WLAN 版 4599 元 12+256GB 5G 版 5199 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/726/301.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:05.726Z",
+        "sourceSnapshotHash": "2e7a18796dfb5b9d4d0f47a4f44395d68628b35dbf01ba08dc732982ae9aab7b"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 2 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "productImage": {
+        "url": "https://images.samsung.com.cn/is/image/samsung/p6pim/cn/sm-x616czaachc/gallery/cn-galaxy-tab-s9-fe--5g-480378-sm-x616czaachc-538450511?$1164_776_PNG$",
+        "alt": "Samsung Galaxy Tab S9 FE+ 5G 石墨灰",
+        "modelName": "Samsung Galaxy Tab S9 FE+ 5G",
+        "sourceUrl": "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s9-fe--5g-gray-128gb-sm-x616czaachc/buy/",
+        "sourceName": "三星中国",
+        "fetchedAt": "2026-10-05T19:53:25.641Z",
+        "sourceSnapshotHash": "d89c8175f55bc05d5dffda391a6b83b82d32c867330f0f58f51668c74c4d7e0a"
+      },
+      "colorGallery": {
+        "sourceUrl": "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s9-fe--5g-gray-128gb-sm-x616czaachc/buy/",
+        "fetchedAt": "2026-10-05T19:53:25.641Z",
+        "sourceSnapshotHash": "d89c8175f55bc05d5dffda391a6b83b82d32c867330f0f58f51668c74c4d7e0a",
+        "colors": [
+          {
+            "name": "石墨灰",
+            "url": "https://images.samsung.com.cn/is/image/samsung/p6pim/cn/sm-x616czaachc/gallery/cn-galaxy-tab-s9-fe--5g-480378-sm-x616czaachc-538450511?$1164_776_PNG$"
+          }
+        ]
+      },
+      "colorNames": [
+        "石墨灰"
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "平板国行版现已上架京东平台，首发售价分别为 2999 元起和 3999 元起，将于 10 月 27 日开售。 IT之家附各版本售价： Galaxy Tab S9 FE 6+128GB WLAN 版 2999 元 6+128GB 5G 版 3599 元 8+256GB WLAN 版 3599 元 8+256GB 5G 版 4199 元 Galaxy Tab S9 FE+ 8+128GB WLAN 版 3999 元 8+128GB 5G 版 4599 元 12+256GB WLAN 版 4599 元 12+256GB 5G 版 5199 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/726/301.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:05.726Z",
+        "sourceSnapshotHash": "2e7a18796dfb5b9d4d0f47a4f44395d68628b35dbf01ba08dc732982ae9aab7b"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "平板国行版现已上架京东平台，首发售价分别为 2999 元起和 3999 元起，将于 10 月 27 日开售。 IT之家附各版本售价： Galaxy Tab S9 FE 6+128GB WLAN 版 2999 元 6+128GB 5G 版 3599 元 8+256GB WLAN 版 3599 元 8+256GB 5G 版 4199 元 Galaxy Tab S9 FE+ 8+128GB WLAN 版 3999 元 8+128GB 5G 版 4599 元 12+256GB WLAN 版 4599 元 12+256GB 5G 版 5199 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/726/301.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:05.726Z",
+        "sourceSnapshotHash": "2e7a18796dfb5b9d4d0f47a4f44395d68628b35dbf01ba08dc732982ae9aab7b"
+      },
+      "fieldCorrections": [
+        {
+          "field": "chip"
+        }
+      ],
+      "imageLicense": "unknown",
+      "sourceInputKind": "official_cn_single_sku_and_launch_configuration_snapshots"
+    },
+    {
+      "id": "samsung-galaxy-tab-s10-fe-2025",
+      "modelName": "Samsung Galaxy Tab S10 FE",
+      "generation": "Tab S10 FE",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-fe-gray-128gb-sm-x520nzavchn/",
+        "https://www.ithome.com/0/846/381.htm",
+        "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-fe-gray-128gb-sm-x520nzavchn/buy/"
+      ],
+      "releaseEvidence": {
+        "value": "2025",
+        "rawText": "Galaxy Tab S10 FE 系列平板国行版将于 4 月 21 日开售，该产品搭载 Exynos 1580 芯片，售价 3499 元起，国补价 2999 元起。 IT之家整理价格如下： Galaxy Tab S10 FE 8GB+128GB WIFI 版 3499 元，国补价 2999 元； 12GB+256GB WIFI 版 4199 元，国补价 3699 元； 12GB+256GB 5G 版 4999 元，国补价 4499 元。 Galaxy Tab S10 FE+ 8GB+128GB WIFI 版 4499 元，国补价 3999 元； 12GB+256GB WIFI 版 5199 元，国补价 4699 元； 12GB+256GB 5G 版 5999 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/846/381.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:07.166Z",
+        "sourceSnapshotHash": "424dc258b105e2857505a0796526610599f96b1d7bd90b9f11cc4120536ed869",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 2 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "productImage": {
+        "url": "https://images.samsung.com.cn/is/image/samsung/p6pim/cn/sm-x520nzavchn/gallery/cn-galaxy-tab-s10-fe-sm-x526-545880-sm-x520nzavchn-546079549?$1164_776_PNG$",
+        "alt": "Samsung Galaxy Tab S10 FE 清雅灰",
+        "modelName": "Samsung Galaxy Tab S10 FE",
+        "sourceUrl": "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-fe-gray-128gb-sm-x520nzavchn/buy/",
+        "sourceName": "三星中国",
+        "fetchedAt": "2026-10-05T19:58:11.933Z",
+        "sourceSnapshotHash": "8eab129a41d875d03f050145c0200c80f0dad3fa5154736cd29a37b3567c1275"
+      },
+      "colorGallery": {
+        "sourceUrl": "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-fe-gray-128gb-sm-x520nzavchn/buy/",
+        "fetchedAt": "2026-10-05T19:58:11.933Z",
+        "sourceSnapshotHash": "8eab129a41d875d03f050145c0200c80f0dad3fa5154736cd29a37b3567c1275",
+        "colors": [
+          {
+            "name": "清雅灰",
+            "url": "https://images.samsung.com.cn/is/image/samsung/p6pim/cn/sm-x520nzavchn/gallery/cn-galaxy-tab-s10-fe-sm-x526-545880-sm-x520nzavchn-546079549?$1164_776_PNG$"
+          }
+        ]
+      },
+      "colorNames": [
+        "清雅灰"
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "Galaxy Tab S10 FE 系列平板国行版将于 4 月 21 日开售，该产品搭载 Exynos 1580 芯片，售价 3499 元起，国补价 2999 元起。 IT之家整理价格如下： Galaxy Tab S10 FE 8GB+128GB WIFI 版 3499 元，国补价 2999 元； 12GB+256GB WIFI 版 4199 元，国补价 3699 元； 12GB+256GB 5G 版 4999 元，国补价 4499 元。 Galaxy Tab S10 FE+ 8GB+128GB WIFI 版 4499 元，国补价 3999 元； 12GB+256GB WIFI 版 5199 元，国补价 4699 元； 12GB+256GB 5G 版 5999 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/846/381.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:07.166Z",
+        "sourceSnapshotHash": "424dc258b105e2857505a0796526610599f96b1d7bd90b9f11cc4120536ed869"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "Galaxy Tab S10 FE 系列平板国行版将于 4 月 21 日开售，该产品搭载 Exynos 1580 芯片，售价 3499 元起，国补价 2999 元起。 IT之家整理价格如下： Galaxy Tab S10 FE 8GB+128GB WIFI 版 3499 元，国补价 2999 元； 12GB+256GB WIFI 版 4199 元，国补价 3699 元； 12GB+256GB 5G 版 4999 元，国补价 4499 元。 Galaxy Tab S10 FE+ 8GB+128GB WIFI 版 4499 元，国补价 3999 元； 12GB+256GB WIFI 版 5199 元，国补价 4699 元； 12GB+256GB 5G 版 5999 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/846/381.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:07.166Z",
+        "sourceSnapshotHash": "424dc258b105e2857505a0796526610599f96b1d7bd90b9f11cc4120536ed869"
+      },
+      "fieldCorrections": [
+        {
+          "field": "chip"
+        }
+      ],
+      "imageLicense": "unknown",
+      "sourceInputKind": "official_cn_single_sku_and_launch_configuration_snapshots"
+    },
+    {
+      "id": "samsung-galaxy-tab-s10-fe-5g-2025",
+      "modelName": "Samsung Galaxy Tab S10 FE 5G",
+      "generation": "Tab S10 FE 5G",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-fe-gray-256gb-sm-x526czagchc/",
+        "https://www.ithome.com/0/846/381.htm",
+        "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-fe-gray-256gb-sm-x526czagchc/buy/"
+      ],
+      "releaseEvidence": {
+        "value": "2025",
+        "rawText": "Galaxy Tab S10 FE 系列平板国行版将于 4 月 21 日开售，该产品搭载 Exynos 1580 芯片，售价 3499 元起，国补价 2999 元起。 IT之家整理价格如下： Galaxy Tab S10 FE 8GB+128GB WIFI 版 3499 元，国补价 2999 元； 12GB+256GB WIFI 版 4199 元，国补价 3699 元； 12GB+256GB 5G 版 4999 元，国补价 4499 元。 Galaxy Tab S10 FE+ 8GB+128GB WIFI 版 4499 元，国补价 3999 元； 12GB+256GB WIFI 版 5199 元，国补价 4699 元； 12GB+256GB 5G 版 5999 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/846/381.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:07.166Z",
+        "sourceSnapshotHash": "424dc258b105e2857505a0796526610599f96b1d7bd90b9f11cc4120536ed869",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "productImage": {
+        "url": "https://images.samsung.com.cn/is/image/samsung/p6pim/cn/sm-x526czagchc/gallery/cn-galaxy-tab-s10-fe-sm-x526-sm-x526czagchc-546079429?$1164_776_PNG$",
+        "alt": "Samsung Galaxy Tab S10 FE 5G 清雅灰",
+        "modelName": "Samsung Galaxy Tab S10 FE 5G",
+        "sourceUrl": "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-fe-gray-256gb-sm-x526czagchc/buy/",
+        "sourceName": "三星中国",
+        "fetchedAt": "2026-10-05T19:53:26.963Z",
+        "sourceSnapshotHash": "e79afe51f331da3012f93626d1df5a67f88dbc14872a7a1154bc3bf730e7749b"
+      },
+      "colorGallery": {
+        "sourceUrl": "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-fe-gray-256gb-sm-x526czagchc/buy/",
+        "fetchedAt": "2026-10-05T19:53:26.963Z",
+        "sourceSnapshotHash": "e79afe51f331da3012f93626d1df5a67f88dbc14872a7a1154bc3bf730e7749b",
+        "colors": [
+          {
+            "name": "清雅灰",
+            "url": "https://images.samsung.com.cn/is/image/samsung/p6pim/cn/sm-x526czagchc/gallery/cn-galaxy-tab-s10-fe-sm-x526-sm-x526czagchc-546079429?$1164_776_PNG$"
+          }
+        ]
+      },
+      "colorNames": [
+        "清雅灰"
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "Galaxy Tab S10 FE 系列平板国行版将于 4 月 21 日开售，该产品搭载 Exynos 1580 芯片，售价 3499 元起，国补价 2999 元起。 IT之家整理价格如下： Galaxy Tab S10 FE 8GB+128GB WIFI 版 3499 元，国补价 2999 元； 12GB+256GB WIFI 版 4199 元，国补价 3699 元； 12GB+256GB 5G 版 4999 元，国补价 4499 元。 Galaxy Tab S10 FE+ 8GB+128GB WIFI 版 4499 元，国补价 3999 元； 12GB+256GB WIFI 版 5199 元，国补价 4699 元； 12GB+256GB 5G 版 5999 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/846/381.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:07.166Z",
+        "sourceSnapshotHash": "424dc258b105e2857505a0796526610599f96b1d7bd90b9f11cc4120536ed869"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "Galaxy Tab S10 FE 系列平板国行版将于 4 月 21 日开售，该产品搭载 Exynos 1580 芯片，售价 3499 元起，国补价 2999 元起。 IT之家整理价格如下： Galaxy Tab S10 FE 8GB+128GB WIFI 版 3499 元，国补价 2999 元； 12GB+256GB WIFI 版 4199 元，国补价 3699 元； 12GB+256GB 5G 版 4999 元，国补价 4499 元。 Galaxy Tab S10 FE+ 8GB+128GB WIFI 版 4499 元，国补价 3999 元； 12GB+256GB WIFI 版 5199 元，国补价 4699 元； 12GB+256GB 5G 版 5999 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/846/381.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:07.166Z",
+        "sourceSnapshotHash": "424dc258b105e2857505a0796526610599f96b1d7bd90b9f11cc4120536ed869"
+      },
+      "fieldCorrections": [
+        {
+          "field": "chip"
+        }
+      ],
+      "imageLicense": "unknown",
+      "sourceInputKind": "official_cn_single_sku_and_launch_configuration_snapshots"
+    },
+    {
+      "id": "samsung-galaxy-tab-s10-fe-plus-2025",
+      "modelName": "Samsung Galaxy Tab S10 FE+",
+      "generation": "Tab S10 FE+",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-fe-plus-gray-128gb-sm-x620nzavchn/",
+        "https://www.ithome.com/0/846/381.htm",
+        "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-fe-plus-gray-128gb-sm-x620nzavchn/buy/"
+      ],
+      "releaseEvidence": {
+        "value": "2025",
+        "rawText": "Galaxy Tab S10 FE 系列平板国行版将于 4 月 21 日开售，该产品搭载 Exynos 1580 芯片，售价 3499 元起，国补价 2999 元起。 IT之家整理价格如下： Galaxy Tab S10 FE 8GB+128GB WIFI 版 3499 元，国补价 2999 元； 12GB+256GB WIFI 版 4199 元，国补价 3699 元； 12GB+256GB 5G 版 4999 元，国补价 4499 元。 Galaxy Tab S10 FE+ 8GB+128GB WIFI 版 4499 元，国补价 3999 元； 12GB+256GB WIFI 版 5199 元，国补价 4699 元； 12GB+256GB 5G 版 5999 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/846/381.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:07.166Z",
+        "sourceSnapshotHash": "424dc258b105e2857505a0796526610599f96b1d7bd90b9f11cc4120536ed869",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 2 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "productImage": {
+        "url": "https://images.samsung.com.cn/is/image/samsung/p6pim/cn/sm-x620nzavchn/gallery/cn-galaxy-tab-s10-fe-plus-sm-x626-545573-sm-x620nzavchn-546021310?$1164_776_PNG$",
+        "alt": "Samsung Galaxy Tab S10 FE+ 清雅灰",
+        "modelName": "Samsung Galaxy Tab S10 FE+",
+        "sourceUrl": "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-fe-plus-gray-128gb-sm-x620nzavchn/buy/",
+        "sourceName": "三星中国",
+        "fetchedAt": "2026-10-05T19:53:27.120Z",
+        "sourceSnapshotHash": "8b97a4df97974a2c5b0cf3a650d58ebec93fad1c3bbc69efd3496057c7d1c16e"
+      },
+      "colorGallery": {
+        "sourceUrl": "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-fe-plus-gray-128gb-sm-x620nzavchn/buy/",
+        "fetchedAt": "2026-10-05T19:53:27.120Z",
+        "sourceSnapshotHash": "8b97a4df97974a2c5b0cf3a650d58ebec93fad1c3bbc69efd3496057c7d1c16e",
+        "colors": [
+          {
+            "name": "清雅灰",
+            "url": "https://images.samsung.com.cn/is/image/samsung/p6pim/cn/sm-x620nzavchn/gallery/cn-galaxy-tab-s10-fe-plus-sm-x626-545573-sm-x620nzavchn-546021310?$1164_776_PNG$"
+          }
+        ]
+      },
+      "colorNames": [
+        "清雅灰"
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "Galaxy Tab S10 FE 系列平板国行版将于 4 月 21 日开售，该产品搭载 Exynos 1580 芯片，售价 3499 元起，国补价 2999 元起。 IT之家整理价格如下： Galaxy Tab S10 FE 8GB+128GB WIFI 版 3499 元，国补价 2999 元； 12GB+256GB WIFI 版 4199 元，国补价 3699 元； 12GB+256GB 5G 版 4999 元，国补价 4499 元。 Galaxy Tab S10 FE+ 8GB+128GB WIFI 版 4499 元，国补价 3999 元； 12GB+256GB WIFI 版 5199 元，国补价 4699 元； 12GB+256GB 5G 版 5999 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/846/381.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:07.166Z",
+        "sourceSnapshotHash": "424dc258b105e2857505a0796526610599f96b1d7bd90b9f11cc4120536ed869"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "Galaxy Tab S10 FE 系列平板国行版将于 4 月 21 日开售，该产品搭载 Exynos 1580 芯片，售价 3499 元起，国补价 2999 元起。 IT之家整理价格如下： Galaxy Tab S10 FE 8GB+128GB WIFI 版 3499 元，国补价 2999 元； 12GB+256GB WIFI 版 4199 元，国补价 3699 元； 12GB+256GB 5G 版 4999 元，国补价 4499 元。 Galaxy Tab S10 FE+ 8GB+128GB WIFI 版 4499 元，国补价 3999 元； 12GB+256GB WIFI 版 5199 元，国补价 4699 元； 12GB+256GB 5G 版 5999 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/846/381.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:07.166Z",
+        "sourceSnapshotHash": "424dc258b105e2857505a0796526610599f96b1d7bd90b9f11cc4120536ed869"
+      },
+      "fieldCorrections": [
+        {
+          "field": "chip"
+        }
+      ],
+      "imageLicense": "unknown",
+      "sourceInputKind": "official_cn_single_sku_and_launch_configuration_snapshots"
+    },
+    {
+      "id": "samsung-galaxy-tab-s10-fe-plus-5g-2025",
+      "modelName": "Samsung Galaxy Tab S10 FE+ 5G",
+      "generation": "Tab S10 FE+ 5G",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-fe-plus-gray-256gb-sm-x626czagchc/",
+        "https://www.ithome.com/0/846/381.htm",
+        "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-fe-plus-gray-256gb-sm-x626czagchc/buy/"
+      ],
+      "releaseEvidence": {
+        "value": "2025",
+        "rawText": "Galaxy Tab S10 FE 系列平板国行版将于 4 月 21 日开售，该产品搭载 Exynos 1580 芯片，售价 3499 元起，国补价 2999 元起。 IT之家整理价格如下： Galaxy Tab S10 FE 8GB+128GB WIFI 版 3499 元，国补价 2999 元； 12GB+256GB WIFI 版 4199 元，国补价 3699 元； 12GB+256GB 5G 版 4999 元，国补价 4499 元。 Galaxy Tab S10 FE+ 8GB+128GB WIFI 版 4499 元，国补价 3999 元； 12GB+256GB WIFI 版 5199 元，国补价 4699 元； 12GB+256GB 5G 版 5999 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/846/381.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:07.166Z",
+        "sourceSnapshotHash": "424dc258b105e2857505a0796526610599f96b1d7bd90b9f11cc4120536ed869",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "productImage": {
+        "url": "https://images.samsung.com.cn/is/image/samsung/p6pim/cn/sm-x626czagchc/gallery/cn-galaxy-tab-s10-fe-plus-sm-x626-545884-sm-x626czagchc-546079893?$1164_776_PNG$",
+        "alt": "Samsung Galaxy Tab S10 FE+ 5G 清雅灰",
+        "modelName": "Samsung Galaxy Tab S10 FE+ 5G",
+        "sourceUrl": "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-fe-plus-gray-256gb-sm-x626czagchc/buy/",
+        "sourceName": "三星中国",
+        "fetchedAt": "2026-10-05T19:53:27.396Z",
+        "sourceSnapshotHash": "107c7123258e94c20f7c157104919c46b7ffa20feac5626d054b0d3c3f1e51eb"
+      },
+      "colorGallery": {
+        "sourceUrl": "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-fe-plus-gray-256gb-sm-x626czagchc/buy/",
+        "fetchedAt": "2026-10-05T19:53:27.396Z",
+        "sourceSnapshotHash": "107c7123258e94c20f7c157104919c46b7ffa20feac5626d054b0d3c3f1e51eb",
+        "colors": [
+          {
+            "name": "清雅灰",
+            "url": "https://images.samsung.com.cn/is/image/samsung/p6pim/cn/sm-x626czagchc/gallery/cn-galaxy-tab-s10-fe-plus-sm-x626-545884-sm-x626czagchc-546079893?$1164_776_PNG$"
+          }
+        ]
+      },
+      "colorNames": [
+        "清雅灰"
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "Galaxy Tab S10 FE 系列平板国行版将于 4 月 21 日开售，该产品搭载 Exynos 1580 芯片，售价 3499 元起，国补价 2999 元起。 IT之家整理价格如下： Galaxy Tab S10 FE 8GB+128GB WIFI 版 3499 元，国补价 2999 元； 12GB+256GB WIFI 版 4199 元，国补价 3699 元； 12GB+256GB 5G 版 4999 元，国补价 4499 元。 Galaxy Tab S10 FE+ 8GB+128GB WIFI 版 4499 元，国补价 3999 元； 12GB+256GB WIFI 版 5199 元，国补价 4699 元； 12GB+256GB 5G 版 5999 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/846/381.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:07.166Z",
+        "sourceSnapshotHash": "424dc258b105e2857505a0796526610599f96b1d7bd90b9f11cc4120536ed869"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "Galaxy Tab S10 FE 系列平板国行版将于 4 月 21 日开售，该产品搭载 Exynos 1580 芯片，售价 3499 元起，国补价 2999 元起。 IT之家整理价格如下： Galaxy Tab S10 FE 8GB+128GB WIFI 版 3499 元，国补价 2999 元； 12GB+256GB WIFI 版 4199 元，国补价 3699 元； 12GB+256GB 5G 版 4999 元，国补价 4499 元。 Galaxy Tab S10 FE+ 8GB+128GB WIFI 版 4499 元，国补价 3999 元； 12GB+256GB WIFI 版 5199 元，国补价 4699 元； 12GB+256GB 5G 版 5999 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/846/381.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:07.166Z",
+        "sourceSnapshotHash": "424dc258b105e2857505a0796526610599f96b1d7bd90b9f11cc4120536ed869"
+      },
+      "fieldCorrections": [
+        {
+          "field": "chip"
+        }
+      ],
+      "imageLicense": "unknown",
+      "sourceInputKind": "official_cn_single_sku_and_launch_configuration_snapshots"
+    },
+    {
+      "id": "samsung-galaxy-tab-s7-fe-lte-2021",
+      "modelName": "Samsung Galaxy Tab S7 FE LTE",
+      "generation": "Tab S7 FE LTE",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/34332_1.html",
+        "https://detail.zol.com.cn/series/702/98/param_34332_0_1.html",
+        "https://detail.zol.com.cn/1375/1374306/param.shtml",
+        "https://detail.zol.com.cn/1375/1374309/param.shtml",
+        "https://www.ithome.com/0/556/550.htm",
+        "https://detail.zol.com.cn/picture_index_2134/index21332963_0_p1374306.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2021",
+        "rawText": "上市时间 2021年06月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1375/1374306/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:04:57.816Z",
+        "sourceSnapshotHash": "617e818c008fc8336b33b9ee34d29c7764bd89df7fa40cf3767b990544333cae",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 2 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "Galaxy Tab S7 FE 平板国行版开启预售：12.4 英寸 2K 屏 / 骁龙 750G，3999 元起 - IT之家 首页 IT圈 最会买 设置 日夜间 随系统 浅色 深色 主题色 黑色 投稿 订阅 RSS订阅 收藏IT之家 软媒应用 App客户端 要知App 软媒魔方 业界 手机 电脑 测评 视频 AI 苹果 iPhone 鸿蒙 软件 智车 数码 学院 游戏 直播 5G 微软 Win10 Win11 专题 搜索 首页 > 安卓之家 > 安卓平板 三星 Galaxy Tab S7 FE 平板国行版开启预售：12.4 英寸 2K 屏 / 骁龙 750G，3999 元起 2021/6/10 13:46:55 来源： IT之家 作者： 玉笛 责编： 玉笛 评论： 感谢IT之家网友 LaLaChicken 的线索投递！ IT之家 6 月 10 日消息 三星 Galaxy Tab S7 FE 平板国行版昨日在三星商城、天猫、京东等平台正式开启了预售，该平板搭载高通骁龙 750G 处理器，采用 12.4 英寸 2560*1600 LCD 显示屏，拥有 10090mAh 大电池， 预售价 3999 元起 。 IT之家了解到，三星 Galaxy Tab S7 FE 定位次旗舰平板电脑，用于娱乐、创意工作以及多任务处理等。该平板搭载高通骁龙 750G 处理器，采用 12.4 英寸 2560*1600 LCD 显示屏，内置 Android 10 操作系统，搭载杜比全景声双扬声器。 此外，该平板还支持 4G 网络，拥有 10090mAh 大容量电池，支持 45W 闪充，内置三麦克风，保证通话声音清晰。 该平板还附赠三星 S Pen 手写笔，具备笔触柔和、低延迟的特性 。 三星 Galaxy Tab S7 FE 平板提供四种配色，分别为山茶青、曜岩黑、冷山灰和柔雾粉。 该平板的 4+64GB 版本售价 3999 元，6+128GB 版本售价 4399 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/556/550.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:53:27.454Z",
+        "sourceSnapshotHash": "9ed8cd4282ab6b1915767c8679e3491c71adf4c8af8705bf5c9a76e6182b1a22"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "Galaxy Tab S7 FE 平板国行版开启预售：12.4 英寸 2K 屏 / 骁龙 750G，3999 元起 - IT之家 首页 IT圈 最会买 设置 日夜间 随系统 浅色 深色 主题色 黑色 投稿 订阅 RSS订阅 收藏IT之家 软媒应用 App客户端 要知App 软媒魔方 业界 手机 电脑 测评 视频 AI 苹果 iPhone 鸿蒙 软件 智车 数码 学院 游戏 直播 5G 微软 Win10 Win11 专题 搜索 首页 > 安卓之家 > 安卓平板 三星 Galaxy Tab S7 FE 平板国行版开启预售：12.4 英寸 2K 屏 / 骁龙 750G，3999 元起 2021/6/10 13:46:55 来源： IT之家 作者： 玉笛 责编： 玉笛 评论： 感谢IT之家网友 LaLaChicken 的线索投递！ IT之家 6 月 10 日消息 三星 Galaxy Tab S7 FE 平板国行版昨日在三星商城、天猫、京东等平台正式开启了预售，该平板搭载高通骁龙 750G 处理器，采用 12.4 英寸 2560*1600 LCD 显示屏，拥有 10090mAh 大电池， 预售价 3999 元起 。 IT之家了解到，三星 Galaxy Tab S7 FE 定位次旗舰平板电脑，用于娱乐、创意工作以及多任务处理等。该平板搭载高通骁龙 750G 处理器，采用 12.4 英寸 2560*1600 LCD 显示屏，内置 Android 10 操作系统，搭载杜比全景声双扬声器。 此外，该平板还支持 4G 网络，拥有 10090mAh 大容量电池，支持 45W 闪充，内置三麦克风，保证通话声音清晰。 该平板还附赠三星 S Pen 手写笔，具备笔触柔和、低延迟的特性 。 三星 Galaxy Tab S7 FE 平板提供四种配色，分别为山茶青、曜岩黑、冷山灰和柔雾粉。 该平板的 4+64GB 版本售价 3999 元，6+128GB 版本售价 4399 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/556/550.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:53:27.454Z",
+        "sourceSnapshotHash": "9ed8cd4282ab6b1915767c8679e3491c71adf4c8af8705bf5c9a76e6182b1a22"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2b.zol-img.com.cn/product/221_320x240/961/ceYjjbGhgAgs.jpg",
+        "alt": "三星Galaxy Tab S7 FE",
+        "modelName": "Samsung Galaxy Tab S7 FE LTE",
+        "sourceUrl": "https://detail.zol.com.cn/series/702/34332_1.html",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T18:52:24.412Z",
+        "sourceSnapshotHash": "7399e2abf7625094dfcda175d3f9414c7177129faad72a7525be498743dc05a2"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2134/index21332963_0_p1374306.shtml",
+        "fetchedAt": "2026-10-05T19:53:27.773Z",
+        "sourceSnapshotHash": "3b156944166092f7f4c471fcd13ee69f725d736786755b40ef643107fbebcbd7",
+        "colors": []
+      },
+      "sourceInputKind": "expanded_core_spec_snapshots"
+    },
+    {
+      "id": "samsung-galaxy-tab-s4-wifi-2018",
+      "modelName": "Samsung Galaxy Tab S4 WiFi",
+      "generation": "Tab S4 WiFi",
+      "releaseYear": 2018,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1232/1231523/param.shtml",
+        "https://www.ithome.com/0/377/073.htm",
+        "https://www.samsung.com.cn/support/model/SM-T830NZAACHN/",
+        "https://detail.zol.com.cn/tablepc/index1231523.shtml",
+        "https://detail.zol.com.cn/picture_index_1931/index19305190_0_p1231523.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2018",
+        "rawText": "正式发布了国行新款智能手表Galaxy Watch和Galaxy Tab S4平板。 三星Galaxy Watch Galaxy Watch继承三星智能手表原有的风格：圆形旋转表圈，同时新增息屏提醒功能，提高了可用性。Galaxy Watch可实现模拟真实手表的滴答声和整点报时，以及利用明暗度，呈现出如同光线照射在真实手表上的视觉效果，营造出传统的外观和感觉。 Galaxy Watch提供钛泽银46mm和42mm的午夜黑色或玫瑰金款式。 Galaxy Watch具有新的压力和睡眠监控功能，能够帮助用户完成更多的工作。另外还提供更为丰富的色彩选择，包括钛泽银、午夜黑和玫瑰金等三款表盘以及全新的可定制颜色的表带。 Galaxy Watch的电池续航时间已被提高至80小时以上，Galaxy Watch的LTE智能互联。 Galaxy Watch通过新一代压力管理跟踪器，为用户提供了一种真实的、可监控全身健康的智能体验。这种压力管理跟踪器能自动检测出较高强度的压力并提供呼吸练习，以帮助用户保证注意力的集中。 此外，新一代高级睡眠监测仪能够监测用户的所有睡眠质量水平，包括快速眼动（REM）周期，以帮助用户调整睡眠习惯。 Galaxy Watch还可以帮助用户实现健康目标，例如健身。Galaxy Watch增加了21个新的室内运动，共计能够追踪39项运动，让用户能够定制和改变日常运动习惯。 此外，还支持康宁Gorilla Glass DX +的军用级耐用性，LTE连接、GPS和5 ATM防水功能等等。 国行价格方面暂未公布。 三星平板电脑Galaxy Tab S4 8月初，三星发布了旗下新款平板电脑Galaxy Tab S4，今天晚间，这款产品也来到了国内。 Galaxy Tab S4拥有10.5英寸的屏幕，支持AKG四扬声器，支持Spen，也支持DeX模式；S4还可以连接外接显示器，拥有两种连接模式。 屏占比达到79%；支持AKG的四扬声器，可以自动调节左右声道；SPen支持4096级压感，不需要充电，重量只有9.3g（免费赠送），可以创建gif 信息，也支持息屏速写功能。 三星S4平板搭载用高通骁龙835处理器，还有4GB的内存，辅以64GB/256GB的存储空间",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/377/073.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:03.312Z",
+        "sourceSnapshotHash": "00cd40ea87f0573eb2963ff27e1ae1710a0e50531614c3d13e3d5d3c1f3d94f7",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未取得对应可信原文，留空；参数现价不作为首发价。"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "fieldCorrections": [
+        {
+          "field": "memory",
+          "reason": "WiFi 64GB 具体参数页单值4GB/64GB，与国行发布的4GB内存及64/256GB存储交叉核验，不取多值首值。"
+        },
+        {
+          "field": "storage",
+          "reason": "WiFi 64GB 具体参数页单值4GB/64GB，与国行发布的4GB内存及64/256GB存储交叉核验，不取多值首值。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "storageType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "security",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "sim",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "wifi",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "Galaxy Tab S4 WLAN",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.samsung.com.cn/support/model/SM-T830NZAACHN/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:53:28.642Z",
+        "sourceSnapshotHash": "e5cff899140dafcffca99e06245744d0d861dfa429d47ac940970e81f31a1a75"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "正式发布了国行新款智能手表Galaxy Watch和Galaxy Tab S4平板。 三星Galaxy Watch Galaxy Watch继承三星智能手表原有的风格：圆形旋转表圈，同时新增息屏提醒功能，提高了可用性。Galaxy Watch可实现模拟真实手表的滴答声和整点报时，以及利用明暗度，呈现出如同光线照射在真实手表上的视觉效果，营造出传统的外观和感觉。 Galaxy Watch提供钛泽银46mm和42mm的午夜黑色或玫瑰金款式。 Galaxy Watch具有新的压力和睡眠监控功能，能够帮助用户完成更多的工作。另外还提供更为丰富的色彩选择，包括钛泽银、午夜黑和玫瑰金等三款表盘以及全新的可定制颜色的表带。 Galaxy Watch的电池续航时间已被提高至80小时以上，Galaxy Watch的LTE智能互联。 Galaxy Watch通过新一代压力管理跟踪器，为用户提供了一种真实的、可监控全身健康的智能体验。这种压力管理跟踪器能自动检测出较高强度的压力并提供呼吸练习，以帮助用户保证注意力的集中。 此外，新一代高级睡眠监测仪能够监测用户的所有睡眠质量水平，包括快速眼动（REM）周期，以帮助用户调整睡眠习惯。 Galaxy Watch还可以帮助用户实现健康目标，例如健身。Galaxy Watch增加了21个新的室内运动，共计能够追踪39项运动，让用户能够定制和改变日常运动习惯。 此外，还支持康宁Gorilla Glass DX +的军用级耐用性，LTE连接、GPS和5 ATM防水功能等等。 国行价格方面暂未公布。 三星平板电脑Galaxy Tab S4 8月初，三星发布了旗下新款平板电脑Galaxy Tab S4，今天晚间，这款产品也来到了国内。 Galaxy Tab S4拥有10.5英寸的屏幕，支持AKG四扬声器，支持Spen，也支持DeX模式；S4还可以连接外接显示器，拥有两种连接模式。 屏占比达到79%；支持AKG的四扬声器，可以自动调节左右声道；SPen支持4096级压感，不需要充电，重量只有9.3g（免费赠送），可以创建gif 信息，也支持息屏速写功能。 三星S4平板搭载用高通骁龙835处理器，还有4GB的内存，辅以64GB/256GB的存储空间",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/377/073.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:03.312Z",
+        "sourceSnapshotHash": "00cd40ea87f0573eb2963ff27e1ae1710a0e50531614c3d13e3d5d3c1f3d94f7"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2e.zol-img.com.cn/product/193_320x240/190/ceSgKR0gatRY.jpg",
+        "alt": "三星Galaxy Tab S4 WiFi（64GB）",
+        "modelName": "Samsung Galaxy Tab S4 WiFi",
+        "sourceUrl": "https://detail.zol.com.cn/tablepc/index1231523.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:53:29.696Z",
+        "sourceSnapshotHash": "e463f32d920b00b6d2f43a7f9f3cd838da9441ad30b889ecbfb64f163e1ad422"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1931/index19305190_0_p1231523.shtml",
+        "fetchedAt": "2026-10-05T20:05:47.445Z",
+        "sourceSnapshotHash": "c9af5e242f9294ca5338c8ff30eaf27f91a1e49b195a5aa5826556ead241d59b",
+        "colors": [
+          {
+            "name": "黑色"
+          }
+        ]
+      },
+      "sourceInputKind": "cn_launch_configuration_and_selected_parameter_rows"
+    }
+  ],
+  "laptop": []
+}

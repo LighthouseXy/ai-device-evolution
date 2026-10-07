@@ -1,0 +1,1333 @@
+{
+  "phone": [
+    {
+      "id": "oppo-k11x-2023",
+      "modelName": "OPPO K11x",
+      "generation": "K11x",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10771286_1.html",
+        "https://detail.zol.com.cn/series/57/1673/param_10771286_0_1.html",
+        "https://detail.zol.com.cn/1612/1611438/param.shtml",
+        "https://detail.zol.com.cn/1628/1627554/param.shtml",
+        "https://detail.zol.com.cn/1628/1627553/param.shtml",
+        "https://www.ithome.com/0/697/019.htm",
+        "https://www.oppo.com/cn/smartphones/series-k/k11x/specs/",
+        "https://detail.zol.com.cn/picture_index_2389/index23883945_0_p1611438.shtml",
+        "https://detail.zol.com.cn/picture_index_2389/index23883968_0_p1611438.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-05-31",
+        "rawText": "5 月 31 日晚上 20 点，在 618 大促正式打响之际，OPPO K11x 5G 手机也正式迎来开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/697/019.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:39:23.652Z",
+        "sourceSnapshotHash": "f24c8a0a3ef3bb1d7c15ba047d8f630034e6fec1d5c6f91f84b9ebe3f5d5b9ec"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2023年05月24日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1612/1611438/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:52.824Z",
+        "sourceSnapshotHash": "73f2738fcb0af9476bea76d70702157883d62b13e1e35d9f2785e002aa4a00ad"
+      },
+      "officialSpecUrl": "https://www.oppo.com/cn/smartphones/series-k/k11x/specs/",
+      "officialSpecEvidence": {
+        "value": "OPPO K11x",
+        "rawText": "OPPO K11x 产品参数 | OPPO 官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k11x/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:39:23.844Z",
+        "sourceSnapshotHash": "0e5daba0373b9c3acdf8ee4f7f9f39d7aebab1be7de02df31526bd5c4b324682"
+      },
+      "versionVerification": {
+        "variant": "standard",
+        "checkedSkuTitles": [
+          {
+            "title": "OPPO K11x（8GB/128GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/1612/1611438/param.shtml",
+            "sourceSnapshotHash": "73f2738fcb0af9476bea76d70702157883d62b13e1e35d9f2785e002aa4a00ad"
+          },
+          {
+            "title": "OPPO K11x（12GB/256GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/1628/1627554/param.shtml",
+            "sourceSnapshotHash": "d0ad3dc23899a2a2d15b2f3bdea6587d294654177c3fee3777350214e2b5341d"
+          },
+          {
+            "title": "OPPO K11x（8GB/256GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/1628/1627553/param.shtml",
+            "sourceSnapshotHash": "29c443403cb2309882c08b3ed34d7be58f87063534b2e2f43a90ab10051062ee"
+          }
+        ],
+        "excludedTitleTerms": [
+          "柔光",
+          "悦享",
+          "限定",
+          "限量",
+          "蜂窝",
+          "LTE",
+          "5G版",
+          "全网通版",
+          "艺术"
+        ],
+        "note": "独立SKU标题逐条核验，柔光/艺术/超轻/蜂窝等特殊版不并入标准；未明确网络类型的条目不推断WiFi-only。"
+      },
+      "productImages": {
+        "modelName": "OPPO K11x",
+        "seriesId": "10771286",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2389/index23883945_0_p1611438.shtml",
+        "sourceSnapshotHash": "6a733cc3ee391a0a940e918f98660838b7c7c4285188dcfb3228ce0bbbb7f1fe",
+        "fetchedAt": "2026-10-05T19:39:24.042Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2f.zol-img.com.cn/product/238_320x240/941/ceNw0Cj9Om7c.png",
+          "alt": "OPPO K11x",
+          "modelName": "OPPO K11x",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10771286_1.html",
+          "sourceSnapshotHash": "2069f16dae0126801d5b3f5eb07049e5570096f6a2e33cba516466acb53ae62c",
+          "fetchedAt": "2026-10-05T19:39:24.042Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "墨玉",
+            "url": "https://2f.zol-img.com.cn/product/238/941/ceNw0Cj9Om7c.png",
+            "modelName": "OPPO K11x",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2389/index23883945_0_p1611438.shtml",
+            "sourceSnapshotHash": "6a733cc3ee391a0a940e918f98660838b7c7c4285188dcfb3228ce0bbbb7f1fe",
+            "fetchedAt": "2026-10-05T19:39:24.042Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "珠光",
+            "url": "https://2d.zol-img.com.cn/product/238/945/cem9GH5Dk2wo.png",
+            "modelName": "OPPO K11x",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2389/index23883945_0_p1611438.shtml",
+            "sourceSnapshotHash": "6a733cc3ee391a0a940e918f98660838b7c7c4285188dcfb3228ce0bbbb7f1fe",
+            "fetchedAt": "2026-10-05T19:39:24.042Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2389/index23883945_0_p1611438.shtml",
+          "https://detail.zol.com.cn/picture_index_2389/index23883968_0_p1611438.shtml"
+        ],
+        "gaps": []
+      }
+    }
+  ],
+  "tablet": [
+    {
+      "id": "oppo-pad-2022",
+      "modelName": "OPPO Pad",
+      "generation": "Pad",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/37647_1.html",
+        "https://detail.zol.com.cn/series/702/1673/param_37647_0_1.html",
+        "https://detail.zol.com.cn/1399/1398796/param.shtml",
+        "https://detail.zol.com.cn/1424/1423660/param.shtml",
+        "https://detail.zol.com.cn/1399/1398798/param.shtml",
+        "https://detail.zol.com.cn/1399/1398799/param.shtml",
+        "https://m.cnmo.com/news/725342.html",
+        "https://www.oppo.com/cn/accessories/oppo-pad/specs/",
+        "https://detail.zol.com.cn/picture_index_2216/index22157311_0_p1398796.shtml",
+        "https://detail.zol.com.cn/picture_index_2216/index22157309_0_p1398796.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-03-03",
+        "rawText": "3月3日，OPPO Pad正式迎来首销",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://m.cnmo.com/news/725342.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:12.907Z",
+        "sourceSnapshotHash": "42d666903f500bd3bc885cba473ed2e545bc0fda3b0ed3b193e91fc2dbca5c52"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "officialSpecUrl": "https://www.oppo.com/cn/accessories/oppo-pad/specs/",
+      "officialSpecEvidence": {
+        "value": "OPPO Pad",
+        "rawText": "OPPO Pad 产品参数 | OPPO 官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.oppo.com/cn/accessories/oppo-pad/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:36:03.632Z",
+        "sourceSnapshotHash": "90701914bd8ed234d0c2307fe6a207e958dfc087b796f0441953f631f3877d6e"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "OPPO Pad 产品参数 | OPPO 官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.oppo.com/cn/accessories/oppo-pad/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:36:03.632Z",
+        "sourceSnapshotHash": "90701914bd8ed234d0c2307fe6a207e958dfc087b796f0441953f631f3877d6e",
+        "note": "制造商中国区域官方网站的型号规格页，并有独立SKU和实际已售日期；不是仅凭网页为中文认定国行。"
+      },
+      "versionVerification": {
+        "variant": "standard",
+        "checkedSkuTitles": [
+          {
+            "title": "OPPO Pad(6GB/128GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/1399/1398796/param.shtml",
+            "sourceSnapshotHash": "e04a6200fcd908fe52a545f89b9269afa462a0c5dfed8a2a489e0f6840bb76c5"
+          },
+          {
+            "title": "OPPO Pad(8GB/128GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/1424/1423660/param.shtml",
+            "sourceSnapshotHash": "26ec105524965876327c127b1c7316792d4f8cf7604009e2591722b8b5b31539"
+          },
+          {
+            "title": "OPPO Pad(8GB/256GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/1399/1398798/param.shtml",
+            "sourceSnapshotHash": "78b3d545af5058dbbe1e71c6829c72e502ddd5dd5658439f0b44390d6b3ba44d"
+          },
+          {
+            "title": "OPPO Pad(6GB/256GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/1399/1398799/param.shtml",
+            "sourceSnapshotHash": "3bdc9b8b2467f01ae709d83d48d1ecb90b9e1efc9fbf8400f78eb14035b5477f"
+          }
+        ],
+        "excludedTitleTerms": [
+          "柔光",
+          "悦享",
+          "限定",
+          "限量",
+          "蜂窝",
+          "LTE",
+          "5G版",
+          "全网通版",
+          "艺术"
+        ],
+        "note": "独立SKU标题逐条核验，柔光/艺术/超轻/蜂窝等特殊版不并入标准；未明确网络类型的条目不推断WiFi-only。",
+        "excludedVersionSkus": []
+      },
+      "productImages": {
+        "modelName": "OPPO Pad",
+        "seriesId": "37647",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2216/index22157311_0_p1398796.shtml",
+        "sourceSnapshotHash": "881f9f6fe8b79a91d546971851af89f86801aef94ca35f1f1aa78694a192c0c4",
+        "fetchedAt": "2026-10-05T19:39:15.046Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "name": "耀夜黑",
+          "url": "https://2a.zol-img.com.cn/product/221/304/cebVLxM5eiSk.jpg",
+          "modelName": "OPPO Pad",
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2216/index22157311_0_p1398796.shtml",
+          "sourceSnapshotHash": "881f9f6fe8b79a91d546971851af89f86801aef94ca35f1f1aa78694a192c0c4",
+          "fetchedAt": "2026-10-05T19:39:15.046Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "耀夜黑",
+            "url": "https://2a.zol-img.com.cn/product/221/304/cebVLxM5eiSk.jpg",
+            "modelName": "OPPO Pad",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2216/index22157311_0_p1398796.shtml",
+            "sourceSnapshotHash": "881f9f6fe8b79a91d546971851af89f86801aef94ca35f1f1aa78694a192c0c4",
+            "fetchedAt": "2026-10-05T19:39:15.046Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "极光紫",
+            "url": "https://2c.zol-img.com.cn/product/221/306/ceR0YpTfEiKV6.jpg",
+            "modelName": "OPPO Pad",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2216/index22157311_0_p1398796.shtml",
+            "sourceSnapshotHash": "881f9f6fe8b79a91d546971851af89f86801aef94ca35f1f1aa78694a192c0c4",
+            "fetchedAt": "2026-10-05T19:39:15.046Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2216/index22157311_0_p1398796.shtml",
+          "https://detail.zol.com.cn/picture_index_2216/index22157309_0_p1398796.shtml"
+        ],
+        "excludedColors": [
+          {
+            "name": "艺术家限量定制版",
+            "reason": "艺术家限定定制版，不属于标准版配色"
+          },
+          {
+            "name": "艺术家定制版",
+            "reason": "艺术家限定定制版，不属于标准版配色"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "oppo-pad-air-2022",
+      "modelName": "OPPO Pad Air",
+      "generation": "Pad Air",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/39000_1.html",
+        "https://detail.zol.com.cn/series/702/1673/param_39000_0_1.html",
+        "https://detail.zol.com.cn/1409/1408713/param.shtml",
+        "https://detail.zol.com.cn/1411/1410312/param.shtml",
+        "https://detail.zol.com.cn/1629/1628888/param.shtml",
+        "https://detail.zol.com.cn/1411/1410313/param.shtml",
+        "https://www.oppo.com/cn/accessories/oppo-pad-air/specs/",
+        "https://detail.zol.com.cn/picture_index_2217/index22167066_0_p1408713.shtml",
+        "https://detail.zol.com.cn/picture_index_2199/index21984101_0_p1408713.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-05-31",
+        "rawText": "上市时间 2022年05月31日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1409/1408713/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:14.485Z",
+        "sourceSnapshotHash": "111182a6affce96369d2485e5ef5c2eeb8379b7a55b77d922b61d48164a884fb"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "officialSpecUrl": "https://www.oppo.com/cn/accessories/oppo-pad-air/specs/",
+      "officialSpecEvidence": {
+        "value": "OPPO Pad Air",
+        "rawText": "OPPO Pad Air 产品参数 | OPPO 官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.oppo.com/cn/accessories/oppo-pad-air/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:36:03.761Z",
+        "sourceSnapshotHash": "95607a62a7d94d4ddf9f9f325ad73abd472ee96dab016d835c2a681db2378cdd"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "OPPO Pad Air 产品参数 | OPPO 官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.oppo.com/cn/accessories/oppo-pad-air/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:36:03.761Z",
+        "sourceSnapshotHash": "95607a62a7d94d4ddf9f9f325ad73abd472ee96dab016d835c2a681db2378cdd",
+        "note": "制造商中国区域官方网站的型号规格页，并有独立SKU和实际已售日期；不是仅凭网页为中文认定国行。"
+      },
+      "versionVerification": {
+        "variant": "standard",
+        "checkedSkuTitles": [
+          {
+            "title": "OPPO Pad Air(4GB/128GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/1409/1408713/param.shtml",
+            "sourceSnapshotHash": "111182a6affce96369d2485e5ef5c2eeb8379b7a55b77d922b61d48164a884fb"
+          },
+          {
+            "title": "OPPO Pad Air(4GB/64GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/1411/1410312/param.shtml",
+            "sourceSnapshotHash": "830632a3ebfc850784e6e248ff1e242cc68f06cf5354070ae3adc6fcaf77e37f"
+          },
+          {
+            "title": "OPPO Pad Air(8GB/256GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/1629/1628888/param.shtml",
+            "sourceSnapshotHash": "6694209db1602493972ba9027d5aa43947787a92beeff94940b314ccc276c1ad"
+          },
+          {
+            "title": "OPPO Pad Air(6GB/128GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/1411/1410313/param.shtml",
+            "sourceSnapshotHash": "2b99b1de375c9c3e9cf3443895bba0309382c45b4e862b09c8403f763f32746b"
+          }
+        ],
+        "excludedTitleTerms": [
+          "柔光",
+          "悦享",
+          "限定",
+          "限量",
+          "蜂窝",
+          "LTE",
+          "5G版",
+          "全网通版",
+          "艺术"
+        ],
+        "note": "独立SKU标题逐条核验，柔光/艺术/超轻/蜂窝等特殊版不并入标准；未明确网络类型的条目不推断WiFi-only。",
+        "excludedVersionSkus": []
+      },
+      "productImages": {
+        "modelName": "OPPO Pad Air",
+        "seriesId": "39000",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2217/index22167066_0_p1408713.shtml",
+        "sourceSnapshotHash": "a2a9c60f632be9fa88bfee26aa5fe32c1509bfe08afb00d129a37306f8268428",
+        "fetchedAt": "2026-10-05T19:39:15.298Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2e.zol-img.com.cn/product/219_320x240/764/ceHebRAwZkCcg.jpg",
+          "alt": "OPPO Pad Air",
+          "modelName": "OPPO Pad Air",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/39000_1.html",
+          "sourceSnapshotHash": "adb6dd6816daadf4826125276135f1866e6e49020182b562c91eb538521f717d",
+          "fetchedAt": "2026-10-05T19:39:15.298Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "雾灰",
+            "url": "https://2e.zol-img.com.cn/product/219/764/ceHebRAwZkCcg.jpg",
+            "modelName": "OPPO Pad Air",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2217/index22167066_0_p1408713.shtml",
+            "sourceSnapshotHash": "a2a9c60f632be9fa88bfee26aa5fe32c1509bfe08afb00d129a37306f8268428",
+            "fetchedAt": "2026-10-05T19:39:15.298Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "星银",
+            "url": "https://2f.zol-img.com.cn/product/219/765/ce29I8NobBrKc.jpg",
+            "modelName": "OPPO Pad Air",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2217/index22167066_0_p1408713.shtml",
+            "sourceSnapshotHash": "a2a9c60f632be9fa88bfee26aa5fe32c1509bfe08afb00d129a37306f8268428",
+            "fetchedAt": "2026-10-05T19:39:15.298Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "紫霞",
+            "url": "https://2e.zol-img.com.cn/product/221/52/ceIypvaFqSL9o.jpg",
+            "modelName": "OPPO Pad Air",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2217/index22167066_0_p1408713.shtml",
+            "sourceSnapshotHash": "a2a9c60f632be9fa88bfee26aa5fe32c1509bfe08afb00d129a37306f8268428",
+            "fetchedAt": "2026-10-05T19:39:15.298Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2217/index22167066_0_p1408713.shtml",
+          "https://detail.zol.com.cn/picture_index_2199/index21984101_0_p1408713.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "oppo-pad-air2-2023",
+      "modelName": "OPPO Pad Air 2",
+      "generation": "Pad Air 2",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10842592_1.html",
+        "https://detail.zol.com.cn/series/702/1673/param_10842592_0_1.html",
+        "https://detail.zol.com.cn/1950/1949831/param.shtml",
+        "https://detail.zol.com.cn/1958/1957883/param.shtml",
+        "https://detail.zol.com.cn/1958/1957884/param.shtml",
+        "https://www.ithome.com/0/734/935.htm",
+        "https://www.oppo.com/cn/accessories/oppo-pad-air2/specs/",
+        "https://detail.zol.com.cn/picture_index_2570/index25694996_0_p1949831.shtml",
+        "https://detail.zol.com.cn/picture_index_2570/index25694994_0_p1949831.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-11-25",
+        "rawText": "OPPO Pad Air2 平板今日首销",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/734/935.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:17.227Z",
+        "sourceSnapshotHash": "00d8897c4b088328ea40ba309c620d3e42eb4622ad57d5fd919628e84a5f9bba"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "officialSpecUrl": "https://www.oppo.com/cn/accessories/oppo-pad-air2/specs/",
+      "officialSpecEvidence": {
+        "value": "OPPO Pad Air 2",
+        "rawText": "OPPO Pad Air2 产品参数 | OPPO 官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.oppo.com/cn/accessories/oppo-pad-air2/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:36:04.130Z",
+        "sourceSnapshotHash": "d16544a1a4ab1d25821320b82742770d80c3696fc7601a5881d0a8f321d795a8"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "OPPO Pad Air2 产品参数 | OPPO 官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.oppo.com/cn/accessories/oppo-pad-air2/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:36:04.130Z",
+        "sourceSnapshotHash": "d16544a1a4ab1d25821320b82742770d80c3696fc7601a5881d0a8f321d795a8",
+        "note": "制造商中国区域官方网站的型号规格页，并有独立SKU和实际已售日期；不是仅凭网页为中文认定国行。"
+      },
+      "versionVerification": {
+        "variant": "standard",
+        "checkedSkuTitles": [
+          {
+            "title": "OPPO Pad Air 2(6GB+128GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/1950/1949831/param.shtml",
+            "sourceSnapshotHash": "99942c60d80a80314d9403624a8f4a38adfc3ffa81ff32bb0915b010cae7af79"
+          },
+          {
+            "title": "OPPO Pad Air 2(8GB+128GB参数",
+            "sourceUrl": "https://detail.zol.com.cn/1958/1957883/param.shtml",
+            "sourceSnapshotHash": "0bdad89b3ede671522bdc80ccbea5d4a72411c01db4687c551a674235de78106"
+          },
+          {
+            "title": "OPPO Pad Air 2(8GB+256GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/1958/1957884/param.shtml",
+            "sourceSnapshotHash": "437a1ddb20b032a2e77913996490796e6ebef676f4f8057495380ad95d689f18"
+          }
+        ],
+        "excludedTitleTerms": [
+          "柔光",
+          "悦享",
+          "限定",
+          "限量",
+          "蜂窝",
+          "LTE",
+          "5G版",
+          "全网通版",
+          "艺术"
+        ],
+        "note": "独立SKU标题逐条核验，柔光/艺术/超轻/蜂窝等特殊版不并入标准；未明确网络类型的条目不推断WiFi-only。",
+        "excludedVersionSkus": []
+      },
+      "productImages": {
+        "modelName": "OPPO Pad Air 2",
+        "seriesId": "10842592",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2570/index25694996_0_p1949831.shtml",
+        "sourceSnapshotHash": "2ce89e396fcd9ee94b4cf30d14c18e285f29769490cc96eb4153927cd2bc6f05",
+        "fetchedAt": "2026-10-05T19:39:15.515Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2e.zol-img.com.cn/product/256_320x240/992/ce2RgU2FBRH2.jpg",
+          "alt": "OPPO Pad Air 2",
+          "modelName": "OPPO Pad Air 2",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/10842592_1.html",
+          "sourceSnapshotHash": "b938df584ed45b6a8d661884d987f54e48554358bb652d094d4faecbe9649426",
+          "fetchedAt": "2026-10-05T19:39:15.515Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "深空灰",
+            "url": "https://2e.zol-img.com.cn/product/256/992/ce2RgU2FBRH2.jpg",
+            "modelName": "OPPO Pad Air 2",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2570/index25694996_0_p1949831.shtml",
+            "sourceSnapshotHash": "2ce89e396fcd9ee94b4cf30d14c18e285f29769490cc96eb4153927cd2bc6f05",
+            "fetchedAt": "2026-10-05T19:39:15.515Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "极光紫",
+            "url": "https://2a.zol-img.com.cn/product/263/66/ce6zCDmNCSjk.jpg",
+            "modelName": "OPPO Pad Air 2",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2570/index25694996_0_p1949831.shtml",
+            "sourceSnapshotHash": "2ce89e396fcd9ee94b4cf30d14c18e285f29769490cc96eb4153927cd2bc6f05",
+            "fetchedAt": "2026-10-05T19:39:15.515Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "流光银",
+            "url": "https://2d.zol-img.com.cn/product/256/991/ceqY8NR8FWGKk.jpg",
+            "modelName": "OPPO Pad Air 2",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2570/index25694996_0_p1949831.shtml",
+            "sourceSnapshotHash": "2ce89e396fcd9ee94b4cf30d14c18e285f29769490cc96eb4153927cd2bc6f05",
+            "fetchedAt": "2026-10-05T19:39:15.515Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2570/index25694996_0_p1949831.shtml",
+          "https://detail.zol.com.cn/picture_index_2570/index25694994_0_p1949831.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "oppo-pad4-pro-2025",
+      "modelName": "OPPO Pad 4 Pro",
+      "generation": "Pad 4 Pro",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10911839_1.html",
+        "https://detail.zol.com.cn/series/702/1673/param_10911839_0_1.html",
+        "https://detail.zol.com.cn/2125/2124239/param.shtml",
+        "https://detail.zol.com.cn/2126/2125596/param.shtml",
+        "https://detail.zol.com.cn/2126/2125597/param.shtml",
+        "https://detail.zol.com.cn/2126/2125595/param.shtml",
+        "https://m.ithome.com/html/845595.htm",
+        "https://www.opposhop.cn/cn/web/products/33984.html",
+        "https://detail.zol.com.cn/picture_index_2718/index27176878_0_p2124239.shtml",
+        "https://detail.zol.com.cn/picture_index_2718/index27176877_0_p2124239.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2025-04-16",
+        "rawText": "OPPO Pad 4 Pro 平板今日正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://m.ithome.com/html/845595.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:20.416Z",
+        "sourceSnapshotHash": "f35d95fa881003e0f6ae5aa419f91582ec6e2166ff8cca25bdf1b21462783fef"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "officialSpecGap": {
+        "attemptedUrl": "https://www.oppo.com/cn/accessories/oppo-pad-4-pro/specs/",
+        "reason": "离线快照缺失: https://www.oppo.com/cn/accessories/oppo-pad-4-pro/specs/"
+      },
+      "officialProductUrl": "https://www.opposhop.cn/cn/web/products/33984.html",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "OPPO Pad 4 Pro",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/33984.html",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:36:05.984Z",
+        "sourceSnapshotHash": "1af51e9481760f29bf743068358cbff22307ed679256efba58eceab1eaf9bb0d",
+        "note": "制造商中国区域产品/官方商城身份，结合实际首售报道和逐SKU参数核实国行；此页不具完整规格，不登记officialSpecUrl。"
+      },
+      "versionVerification": {
+        "variant": "standard",
+        "checkedSkuTitles": [
+          {
+            "title": "OPPO Pad 4 Pro(8GB/256GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/2125/2124239/param.shtml",
+            "sourceSnapshotHash": "b42920a2d86deb33ca226d3ab27d52f3a9e240c6e23d92e9451a862f4e31899e"
+          },
+          {
+            "title": "OPPO Pad 4 Pro(12GB/512GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/2126/2125596/param.shtml",
+            "sourceSnapshotHash": "f206cb6ce6cc2e69bb5024d0d75a69953b06a450ed37ef9bedbfd4d5f325a83c"
+          },
+          {
+            "title": "OPPO Pad 4 Pro(16GB/512GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/2126/2125597/param.shtml",
+            "sourceSnapshotHash": "eb7620bd9e3b3086fe7f85f0d179a01d168cdbf8e5b8a6a081f45f5a01ee8840"
+          },
+          {
+            "title": "OPPO Pad 4 Pro(12GB/256GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/2126/2125595/param.shtml",
+            "sourceSnapshotHash": "8fe6743e2d758070be81652800754261e7f84cef0cc807bfbd51a61d121e3e35"
+          }
+        ],
+        "excludedTitleTerms": [
+          "柔光",
+          "悦享",
+          "限定",
+          "限量",
+          "蜂窝",
+          "LTE",
+          "5G版",
+          "全网通版",
+          "艺术"
+        ],
+        "note": "独立SKU标题逐条核验，柔光/艺术/超轻/蜂窝等特殊版不并入标准；未明确网络类型的条目不推断WiFi-only。",
+        "excludedVersionSkus": []
+      },
+      "productImages": {
+        "modelName": "OPPO Pad 4 Pro",
+        "seriesId": "10911839",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2718/index27176878_0_p2124239.shtml",
+        "sourceSnapshotHash": "94d05399ce32828bcf26b213faaca457839a1a98021f7f7fbcb75ec21fd1408b",
+        "fetchedAt": "2026-10-05T19:39:16.344Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2c.zol-img.com.cn/product/271_320x240/876/ceY983ecu3ROk.png",
+          "alt": "OPPO Pad 4 Pro",
+          "modelName": "OPPO Pad 4 Pro",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/10911839_1.html",
+          "sourceSnapshotHash": "45ac6bc470c1111b027b8dcd4a780c56350760bb54eaf7c33c80c38f69372c28",
+          "fetchedAt": "2026-10-05T19:39:16.344Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "深空灰",
+            "url": "https://2a.zol-img.com.cn/product/271/898/ceapGhSBeuxEc.png",
+            "modelName": "OPPO Pad 4 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2718/index27176878_0_p2124239.shtml",
+            "sourceSnapshotHash": "94d05399ce32828bcf26b213faaca457839a1a98021f7f7fbcb75ec21fd1408b",
+            "fetchedAt": "2026-10-05T19:39:16.344Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "星河银",
+            "url": "https://2c.zol-img.com.cn/product/271/876/ceY983ecu3ROk.png",
+            "modelName": "OPPO Pad 4 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2718/index27176878_0_p2124239.shtml",
+            "sourceSnapshotHash": "94d05399ce32828bcf26b213faaca457839a1a98021f7f7fbcb75ec21fd1408b",
+            "fetchedAt": "2026-10-05T19:39:16.344Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "晨曦微光",
+            "url": "https://2c.zol-img.com.cn/product/271/906/cePdMGnwhyvis.png",
+            "modelName": "OPPO Pad 4 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2718/index27176878_0_p2124239.shtml",
+            "sourceSnapshotHash": "94d05399ce32828bcf26b213faaca457839a1a98021f7f7fbcb75ec21fd1408b",
+            "fetchedAt": "2026-10-05T19:39:16.344Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2718/index27176878_0_p2124239.shtml",
+          "https://detail.zol.com.cn/picture_index_2718/index27176877_0_p2124239.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "oppo-pad5-2025",
+      "modelName": "OPPO Pad 5",
+      "generation": "Pad 5",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10920259_1.html",
+        "https://detail.zol.com.cn/series/702/1673/param_10920259_0_1.html",
+        "https://detail.zol.com.cn/2145/2144809/param.shtml",
+        "https://detail.zol.com.cn/2145/2144812/param.shtml",
+        "https://detail.zol.com.cn/2145/2144811/param.shtml",
+        "https://detail.zol.com.cn/2145/2144810/param.shtml",
+        "https://news.mydrivers.com/1/1081/1081593.htm",
+        "https://www.oppo.com/cn/tablets/",
+        "https://www.ifanr.com/1642326",
+        "https://detail.zol.com.cn/picture_index_2737/index27365702_0_p2144809.shtml",
+        "https://detail.zol.com.cn/picture_index_2737/index27365698_0_p2144809.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2025-10-22",
+        "rawText": "与此同时，OPPO Pad5、OPPO Watch S同步开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://news.mydrivers.com/1/1081/1081593.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:50:02.476Z",
+        "sourceSnapshotHash": "b85108e83fbca5043f96997ac6a66bb4b7340d786c070edfe338d7004f19cf20"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        },
+        {
+          "field": "rearCamera",
+          "reason": "逐SKU来源没有可核验的摄像头像素原文，不按同系列或相似型号补齐"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "逐SKU来源没有可核验的摄像头像素原文，不按同系列或相似型号补齐"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "officialSpecGap": {
+        "attemptedUrl": "https://www.oppo.com/cn/accessories/oppo-pad-5/specs/",
+        "reason": "离线快照缺失: https://www.oppo.com/cn/accessories/oppo-pad-5/specs/"
+      },
+      "officialProductUrl": "https://www.oppo.com/cn/tablets/",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "OPPO Pad 5 天玑 9400+ 旗舰芯，3K 超清柔光屏，超流畅 ColorOS",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.oppo.com/cn/tablets/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:26:16.051Z",
+        "sourceSnapshotHash": "9be1f42098e169af9bc28f0fef1cbfc3aeb734c46d495b6847db0cf5df8f123c",
+        "note": "制造商中国区域产品/官方商城身份，结合实际首售报道和逐SKU参数核实国行；此页不具完整规格，不登记officialSpecUrl。"
+      },
+      "versionVerification": {
+        "variant": "standard",
+        "checkedSkuTitles": [
+          {
+            "title": "OPPO Pad 5( 8GB/128GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/2145/2144809/param.shtml",
+            "sourceSnapshotHash": "23be7b8d1023811dfec55ab6b74cdb66f8893a5d2ced518d32e0fb408450695d"
+          },
+          {
+            "title": "OPPO Pad 5( 16GB/512GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/2145/2144812/param.shtml",
+            "sourceSnapshotHash": "75316811315e67c1ed6669a67ed70938e3cebd6fd755e46648688af9a5f31f97"
+          },
+          {
+            "title": "OPPO Pad 5( 12GB/256GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/2145/2144811/param.shtml",
+            "sourceSnapshotHash": "28547aeec7d743a864ace89ac3c7a43b093c1cb45ab433396b3a000f880e123e"
+          },
+          {
+            "title": "OPPO Pad 5( 8GB/256GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/2145/2144810/param.shtml",
+            "sourceSnapshotHash": "32f77e5a6a1cdbc1cfafceb4f4028b166989bc237d5ec787e201df61c8c63113"
+          }
+        ],
+        "excludedTitleTerms": [
+          "柔光",
+          "悦享",
+          "限定",
+          "限量",
+          "蜂窝",
+          "LTE",
+          "5G版",
+          "全网通版",
+          "艺术"
+        ],
+        "note": "独立SKU标题逐条核验，柔光/艺术/超轻/蜂窝等特殊版不并入标准；未明确网络类型的条目不推断WiFi-only。",
+        "excludedVersionSkus": [
+          {
+            "name": "OPPO Pad 5( 12GB/256GB/柔光版)",
+            "term": "柔光",
+            "sourceUrl": "https://detail.zol.com.cn/2145/2144814/param.shtml",
+            "sourceEvidence": {
+              "value": "OPPO Pad 5( 12GB/256GB/柔光版)",
+              "rawText": "OPPO Pad 5( 12GB/256GB/柔光版)",
+              "evidenceKind": "excerpt",
+              "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10920259_0_1.html",
+              "sourceType": "reference",
+              "confidence": 0.8,
+              "verifiedAt": "2026-10-05",
+              "fetchedAt": "2026-10-05T19:27:21.673Z",
+              "sourceSnapshotHash": "c8ca1662e5fe65973ff385b28419bf14eae3a5933f67307a58ecf2b605c7eb6d"
+            }
+          },
+          {
+            "name": "OPPO Pad 5( 8GB/256GB/柔光版)",
+            "term": "柔光",
+            "sourceUrl": "https://detail.zol.com.cn/2145/2144813/param.shtml",
+            "sourceEvidence": {
+              "value": "OPPO Pad 5( 8GB/256GB/柔光版)",
+              "rawText": "OPPO Pad 5( 8GB/256GB/柔光版)",
+              "evidenceKind": "excerpt",
+              "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10920259_0_1.html",
+              "sourceType": "reference",
+              "confidence": 0.8,
+              "verifiedAt": "2026-10-05",
+              "fetchedAt": "2026-10-05T19:27:21.673Z",
+              "sourceSnapshotHash": "c8ca1662e5fe65973ff385b28419bf14eae3a5933f67307a58ecf2b605c7eb6d"
+            }
+          }
+        ]
+      },
+      "standardColorEvidence": {
+        "value": "深空灰、星河银",
+        "rawText": "普通版的配色有深空灰和星河银，柔光版的话可选幸运紫和星河银",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ifanr.com/1642326",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:57:09.210Z",
+        "sourceSnapshotHash": "ed945f131e3e4444dc48587c81501e234554895f936babaf9d5de8e658130dd3"
+      },
+      "productImages": {
+        "modelName": "OPPO Pad 5",
+        "seriesId": "10920259",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2737/index27365702_0_p2144809.shtml",
+        "sourceSnapshotHash": "5c58194b137fb93aa3439098b7bfa1ae7fb8d3ae280461903df34db9b04c49df",
+        "fetchedAt": "2026-10-05T19:44:38.157Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "name": "深空灰",
+          "url": "https://2f.zol-img.com.cn/product/273/699/ceLnYv8vg2e9U.png",
+          "modelName": "OPPO Pad 5",
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2737/index27365702_0_p2144809.shtml",
+          "sourceSnapshotHash": "5c58194b137fb93aa3439098b7bfa1ae7fb8d3ae280461903df34db9b04c49df",
+          "fetchedAt": "2026-10-05T19:44:38.157Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "深空灰",
+            "url": "https://2f.zol-img.com.cn/product/273/699/ceLnYv8vg2e9U.png",
+            "modelName": "OPPO Pad 5",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2737/index27365702_0_p2144809.shtml",
+            "sourceSnapshotHash": "5c58194b137fb93aa3439098b7bfa1ae7fb8d3ae280461903df34db9b04c49df",
+            "fetchedAt": "2026-10-05T19:44:38.157Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "星河银"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2737/index27365702_0_p2144809.shtml",
+          "https://detail.zol.com.cn/picture_index_2737/index27365698_0_p2144809.shtml"
+        ],
+        "excludedColors": [
+          {
+            "name": "星空银",
+            "reason": "图库色名与已核实标准色星河银不一致，未确认图片映射；保留候选而不虚称已验证标准色",
+            "candidateImageUrl": "https://2b.zol-img.com.cn/product/273/701/cezM4Wj8cGeMA.png",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2737/index27365702_0_p2144809.shtml",
+            "sourceSnapshotHash": "5c58194b137fb93aa3439098b7bfa1ae7fb8d3ae280461903df34db9b04c49df",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+            "evidence": {
+              "value": "深空灰、星河银",
+              "rawText": "普通版的配色有深空灰和星河银，柔光版的话可选幸运紫和星河银",
+              "evidenceKind": "excerpt",
+              "sourceUrl": "https://www.ifanr.com/1642326",
+              "sourceType": "reference",
+              "confidence": 0.8,
+              "verifiedAt": "2026-10-05",
+              "fetchedAt": "2026-10-05T19:57:09.210Z",
+              "sourceSnapshotHash": "ed945f131e3e4444dc48587c81501e234554895f936babaf9d5de8e658130dd3"
+            }
+          },
+          {
+            "name": "幸运紫",
+            "reason": "柔光版专属配色，不并入标准版",
+            "evidence": {
+              "value": "深空灰、星河银",
+              "rawText": "普通版的配色有深空灰和星河银，柔光版的话可选幸运紫和星河银",
+              "evidenceKind": "excerpt",
+              "sourceUrl": "https://www.ifanr.com/1642326",
+              "sourceType": "reference",
+              "confidence": 0.8,
+              "verifiedAt": "2026-10-05",
+              "fetchedAt": "2026-10-05T19:57:09.210Z",
+              "sourceSnapshotHash": "ed945f131e3e4444dc48587c81501e234554895f936babaf9d5de8e658130dd3"
+            }
+          },
+          {
+            "name": "星光银",
+            "reason": "参数色名与已核实标准色星河银不一致，未确认配色映射",
+            "evidence": {
+              "value": "深空灰、星河银",
+              "rawText": "普通版的配色有深空灰和星河银，柔光版的话可选幸运紫和星河银",
+              "evidenceKind": "excerpt",
+              "sourceUrl": "https://www.ifanr.com/1642326",
+              "sourceType": "reference",
+              "confidence": 0.8,
+              "verifiedAt": "2026-10-05",
+              "fetchedAt": "2026-10-05T19:57:09.210Z",
+              "sourceSnapshotHash": "ed945f131e3e4444dc48587c81501e234554895f936babaf9d5de8e658130dd3"
+            }
+          }
+        ],
+        "gaps": [
+          "星河银配色图未核实"
+        ]
+      }
+    },
+    {
+      "id": "oppo-pad-se-2025",
+      "modelName": "OPPO Pad SE",
+      "generation": "Pad SE",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10913513_1.html",
+        "https://detail.zol.com.cn/series/702/1673/param_10913513_0_1.html",
+        "https://detail.zol.com.cn/2129/2128026/param.shtml",
+        "https://detail.zol.com.cn/2129/2128027/param.shtml",
+        "https://detail.zol.com.cn/2129/2128028/param.shtml",
+        "https://m.ithome.com/html/855353.htm",
+        "https://www.opposhop.cn/cn/web/products/34632.html",
+        "https://detail.zol.com.cn/picture_index_2722/index27212052_0_p2128026.shtml",
+        "https://detail.zol.com.cn/picture_index_2722/index27212063_0_p2128026.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2025-05-23",
+        "rawText": "OPPO Reno14 系列、OPPO Pad SE 今日正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://m.ithome.com/html/855353.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:39:17.487Z",
+        "sourceSnapshotHash": "0750aeacf731267e6a0bda2c2e0572292d158fd6d425012b9a23346afa6b4ca8"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        },
+        {
+          "field": "rearCamera",
+          "reason": "逐SKU来源没有可核验的摄像头像素原文，不按同系列或相似型号补齐"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "逐SKU来源没有可核验的摄像头像素原文，不按同系列或相似型号补齐"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "officialSpecGap": {
+        "attemptedUrl": "https://www.oppo.com/cn/accessories/oppo-pad-se/specs/",
+        "reason": "离线快照缺失: https://www.oppo.com/cn/accessories/oppo-pad-se/specs/"
+      },
+      "officialProductUrl": "https://www.opposhop.cn/cn/web/products/34632.html",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "OPPO Pad SE",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/34632.html",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:39:18.216Z",
+        "sourceSnapshotHash": "38f44321ca9550eaf05c37bd36932493510d731b8d35eba3608d4a8d2575a3b0",
+        "note": "制造商中国区域产品/官方商城身份，结合实际首售报道和逐SKU参数核实国行；此页不具完整规格，不登记officialSpecUrl。"
+      },
+      "versionVerification": {
+        "variant": "standard",
+        "checkedSkuTitles": [
+          {
+            "title": "OPPO Pad SE（6GB/128GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/2129/2128026/param.shtml",
+            "sourceSnapshotHash": "942901255c8ede06b324ac981feea9213ea4091faa7dd8733c85c9d537189893"
+          },
+          {
+            "title": "OPPO Pad SE（8GB/128GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/2129/2128027/param.shtml",
+            "sourceSnapshotHash": "745f8b031be2ab53836ef117d6650f457bb4356eb8a82cc32d5fb6769821516b"
+          },
+          {
+            "title": "OPPO Pad SE（8GB/256GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/2129/2128028/param.shtml",
+            "sourceSnapshotHash": "dbf95ff8598f5643c4ef4573db2a6fea215dea1761d81092239e79e329ba4f9b"
+          }
+        ],
+        "excludedTitleTerms": [
+          "柔光",
+          "悦享",
+          "限定",
+          "限量",
+          "蜂窝",
+          "LTE",
+          "5G版",
+          "全网通版",
+          "艺术"
+        ],
+        "note": "独立SKU标题逐条核验，柔光/艺术/超轻/蜂窝等特殊版不并入标准；未明确网络类型的条目不推断WiFi-only。",
+        "excludedVersionSkus": [
+          {
+            "name": "OPPO Pad SE（8GB/256GB/柔光版）",
+            "term": "柔光",
+            "sourceUrl": "https://detail.zol.com.cn/2129/2128030/param.shtml",
+            "sourceEvidence": {
+              "value": "OPPO Pad SE（8GB/256GB/柔光版）",
+              "rawText": "OPPO Pad SE（8GB/256GB/柔光版）",
+              "evidenceKind": "excerpt",
+              "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10913513_0_1.html",
+              "sourceType": "reference",
+              "confidence": 0.8,
+              "verifiedAt": "2026-10-05",
+              "fetchedAt": "2026-10-05T19:27:22.633Z",
+              "sourceSnapshotHash": "7a8b1d4e85bf27278065e550d08edeb1036b861c2a5a8adca050863cfd8dac5a"
+            }
+          },
+          {
+            "name": "OPPO Pad SE（6GB/128GB/柔光版）",
+            "term": "柔光",
+            "sourceUrl": "https://detail.zol.com.cn/2129/2128029/param.shtml",
+            "sourceEvidence": {
+              "value": "OPPO Pad SE（6GB/128GB/柔光版）",
+              "rawText": "OPPO Pad SE（6GB/128GB/柔光版）",
+              "evidenceKind": "excerpt",
+              "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10913513_0_1.html",
+              "sourceType": "reference",
+              "confidence": 0.8,
+              "verifiedAt": "2026-10-05",
+              "fetchedAt": "2026-10-05T19:27:22.633Z",
+              "sourceSnapshotHash": "7a8b1d4e85bf27278065e550d08edeb1036b861c2a5a8adca050863cfd8dac5a"
+            }
+          }
+        ]
+      },
+      "productImages": {
+        "modelName": "OPPO Pad SE",
+        "seriesId": "10913513",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2722/index27212052_0_p2128026.shtml",
+        "sourceSnapshotHash": "6a5d4af91a36db0c71374b181aa9df0803a1b7a24609743223ce9f69536f0e79",
+        "fetchedAt": "2026-10-05T19:39:18.347Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2c.zol-img.com.cn/product/272_320x240/54/ceC5wICQIiNUE.png",
+          "alt": "OPPO Pad SE",
+          "modelName": "OPPO Pad SE",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/10913513_1.html",
+          "sourceSnapshotHash": "a666a16db7ff280e7a53dc4c9634214dab6448001f61037e07acb6a4a075184a",
+          "fetchedAt": "2026-10-05T19:39:18.347Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "夜幕蓝",
+            "url": "https://2c.zol-img.com.cn/product/272/54/ceC5wICQIiNUE.png",
+            "modelName": "OPPO Pad SE",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2722/index27212052_0_p2128026.shtml",
+            "sourceSnapshotHash": "6a5d4af91a36db0c71374b181aa9df0803a1b7a24609743223ce9f69536f0e79",
+            "fetchedAt": "2026-10-05T19:39:18.347Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "星光银",
+            "url": "https://2b.zol-img.com.cn/product/272/65/ceid4vDqbios.png",
+            "modelName": "OPPO Pad SE",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2722/index27212052_0_p2128026.shtml",
+            "sourceSnapshotHash": "6a5d4af91a36db0c71374b181aa9df0803a1b7a24609743223ce9f69536f0e79",
+            "fetchedAt": "2026-10-05T19:39:18.347Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2722/index27212052_0_p2128026.shtml",
+          "https://detail.zol.com.cn/picture_index_2722/index27212063_0_p2128026.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "oppo-pad-mini-2026",
+      "modelName": "OPPO Pad Mini",
+      "generation": "Pad Mini",
+      "releaseYear": 2026,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10925840_1.html",
+        "https://detail.zol.com.cn/series/702/1673/param_10925840_0_1.html",
+        "https://detail.zol.com.cn/2164/2163645/param.shtml",
+        "https://detail.zol.com.cn/2165/2164094/param.shtml",
+        "https://detail.zol.com.cn/2165/2164095/param.shtml",
+        "https://m.cnmo.com/news/808210.html",
+        "https://www.opposhop.cn/cn/web/products/39996.html",
+        "https://detail.zol.com.cn/picture_index_2753/index27526756_0_p2163645.shtml",
+        "https://detail.zol.com.cn/picture_index_2753/index27526767_0_p2163645.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2026-04-30",
+        "rawText": "4月30日上午10点，据 OPPO 官方消息，OPPO旗下最新款小尺寸平板OPPO Pad mini已正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://m.cnmo.com/news/808210.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:23.951Z",
+        "sourceSnapshotHash": "c8322ab59779d2ea3d6d6cadb9a5c3a4ff3937af927277004430dc203c64c555"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "officialSpecGap": {
+        "attemptedUrl": "https://www.oppo.com/cn/accessories/oppo-pad-mini/specs/",
+        "reason": "离线快照缺失: https://www.oppo.com/cn/accessories/oppo-pad-mini/specs/"
+      },
+      "officialProductUrl": "https://www.opposhop.cn/cn/web/products/39996.html",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "OPPO Pad Mini 莫奈紫",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/39996.html",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:39:19.119Z",
+        "sourceSnapshotHash": "2cede38ae68bd8ab5883893434b18a0c50b7997dd83d1615bcf2ebeca8ca4aae",
+        "note": "制造商中国区域产品/官方商城身份，结合实际首售报道和逐SKU参数核实国行；此页不具完整规格，不登记officialSpecUrl。"
+      },
+      "versionVerification": {
+        "variant": "standard",
+        "checkedSkuTitles": [
+          {
+            "title": "OPPO Pad Mini（8GB/256GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/2164/2163645/param.shtml",
+            "sourceSnapshotHash": "33cb894eb4f78fa8a37fc19c4a68720d4546b46c0c31ab0fd81698c5a83e29a9"
+          },
+          {
+            "title": "OPPO Pad Mini（12GB/256GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/2165/2164094/param.shtml",
+            "sourceSnapshotHash": "4f3ff12d6c25008f164c55f5ccf583a6644287819ab750dee2239756d587a14b"
+          },
+          {
+            "title": "OPPO Pad Mini（12GB/512GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/2165/2164095/param.shtml",
+            "sourceSnapshotHash": "dd447660f24fb15a540fe0f1010d13c7a8aa4e5624eec4fe42db338ffe38fe77"
+          }
+        ],
+        "excludedTitleTerms": [
+          "柔光",
+          "悦享",
+          "限定",
+          "限量",
+          "蜂窝",
+          "LTE",
+          "5G版",
+          "全网通版",
+          "艺术"
+        ],
+        "note": "独立SKU标题逐条核验，柔光/艺术/超轻/蜂窝等特殊版不并入标准；未明确网络类型的条目不推断WiFi-only。",
+        "excludedVersionSkus": [
+          {
+            "name": "OPPO Pad Mini（12GB/256GB/柔光版）",
+            "term": "柔光",
+            "sourceUrl": "https://detail.zol.com.cn/2165/2164096/param.shtml",
+            "sourceEvidence": {
+              "value": "OPPO Pad Mini（12GB/256GB/柔光版）",
+              "rawText": "OPPO Pad Mini（12GB/256GB/柔光版）",
+              "evidenceKind": "excerpt",
+              "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10925840_0_1.html",
+              "sourceType": "reference",
+              "confidence": 0.8,
+              "verifiedAt": "2026-10-05",
+              "fetchedAt": "2026-10-05T19:27:23.609Z",
+              "sourceSnapshotHash": "95262766851221e496a6990106633ccf243dd82fcb35b8b62a07ee2b3f34c92e"
+            }
+          },
+          {
+            "name": "OPPO Pad Mini（12GB/512GB/柔光版）",
+            "term": "柔光",
+            "sourceUrl": "https://detail.zol.com.cn/2165/2164097/param.shtml",
+            "sourceEvidence": {
+              "value": "OPPO Pad Mini（12GB/512GB/柔光版）",
+              "rawText": "OPPO Pad Mini（12GB/512GB/柔光版）",
+              "evidenceKind": "excerpt",
+              "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10925840_0_1.html",
+              "sourceType": "reference",
+              "confidence": 0.8,
+              "verifiedAt": "2026-10-05",
+              "fetchedAt": "2026-10-05T19:27:23.609Z",
+              "sourceSnapshotHash": "95262766851221e496a6990106633ccf243dd82fcb35b8b62a07ee2b3f34c92e"
+            }
+          }
+        ]
+      },
+      "productImages": {
+        "modelName": "OPPO Pad Mini",
+        "seriesId": "10925840",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2753/index27526756_0_p2163645.shtml",
+        "sourceSnapshotHash": "12a0bfa1aabc3215c3e7ca224e7d3bf939153350132ed442199333414c70d41d",
+        "fetchedAt": "2026-10-05T19:39:19.216Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2f.zol-img.com.cn/product/275_320x240/757/cetKNOYHns66k.png",
+          "alt": "OPPO Pad Mini",
+          "modelName": "OPPO Pad Mini",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/10925840_1.html",
+          "sourceSnapshotHash": "18fc166b0e2448c19b73771b63144458767536f0ef4692e0fee55563be4f1dd4",
+          "fetchedAt": "2026-10-05T19:39:19.216Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "深空灰",
+            "url": "https://2f.zol-img.com.cn/product/275/757/cetKNOYHns66k.png",
+            "modelName": "OPPO Pad Mini",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2753/index27526756_0_p2163645.shtml",
+            "sourceSnapshotHash": "12a0bfa1aabc3215c3e7ca224e7d3bf939153350132ed442199333414c70d41d",
+            "fetchedAt": "2026-10-05T19:39:19.216Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "莫奈紫"
+          },
+          {
+            "name": "薄荷青"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2753/index27526756_0_p2163645.shtml",
+          "https://detail.zol.com.cn/picture_index_2753/index27526767_0_p2163645.shtml"
+        ],
+        "gaps": [
+          "莫奈紫配色图未核实",
+          "薄荷青配色图未核实"
+        ]
+      }
+    }
+  ],
+  "laptop": []
+}

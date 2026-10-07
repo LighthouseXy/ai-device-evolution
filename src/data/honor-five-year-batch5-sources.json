@@ -1,0 +1,488 @@
+{
+  "phone": [
+    {
+      "id": "honor-magic-vs2-2023",
+      "modelName": "荣耀Magic Vs2",
+      "generation": "Magic Vs2",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10814763_1.html",
+        "https://detail.zol.com.cn/series/57/50840/param_10814763_0_1.html",
+        "https://detail.zol.com.cn/1858/1857504/param.shtml",
+        "https://detail.zol.com.cn/1924/1923435/param.shtml",
+        "https://www.ithome.com/0/725/374.htm",
+        "https://www.honor.com/cn/phones/honor-magic-vs-2/spec/"
+      ],
+      "releaseEvidence": {
+        "value": "2023-10-17",
+        "rawText": "荣耀 Magic Vs2 折叠屏手机今日正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/725/374.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:21:31.573Z",
+        "sourceSnapshotHash": "9ad0ea97faa1d7600afffe7f617a338b7f4612c433fa9a1d0a95508bb47fb990"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "当前官网建议零售价/参考报价可能调整，不自动当首发价；本配置独立发布定价原文尚未登记"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2023年10月12日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1858/1857504/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:21:31.477Z",
+        "sourceSnapshotHash": "8608361e4e9b9aef02d1501635b896dc8f1b6d0d0bc7fc7f327c2d8d991f32ad"
+      },
+      "officialSpecUrl": "https://www.honor.com/cn/phones/honor-magic-vs-2/spec/",
+      "officialSpecEvidence": {
+        "value": "荣耀Magic Vs2",
+        "rawText": "荣耀Magic Vs2-手机参数-配置-怎么样 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-vs-2/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:21:31.242Z",
+        "sourceSnapshotHash": "0584c088a793addd501db41808a4e4d7532d3715d3495d0054954b9743dd70e5"
+      },
+      "officialSpecSnapshotStatus": "technical_route_labels_only",
+      "productImages": {
+        "modelName": "荣耀Magic Vs2",
+        "seriesId": "10814763",
+        "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-vs-2/spec/",
+        "sourceSnapshotHash": "0584c088a793addd501db41808a4e4d7532d3715d3495d0054954b9743dd70e5",
+        "fetchedAt": "2026-10-05T20:21:31.242Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。",
+        "primary": {
+          "name": "冰川蓝",
+          "url": "https://www-file.honor.com/content/dam/honor/cn/specs/smartphone/honor-magic-vs-2/honor-magic-vs-2-spec-blue.png",
+          "alt": "荣耀Magic Vs2 冰川蓝",
+          "modelName": "荣耀Magic Vs2",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-vs-2/spec/",
+          "sourceSnapshotHash": "0584c088a793addd501db41808a4e4d7532d3715d3495d0054954b9743dd70e5",
+          "fetchedAt": "2026-10-05T20:21:31.242Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "冰川蓝",
+            "url": "https://www-file.honor.com/content/dam/honor/cn/specs/smartphone/honor-magic-vs-2/honor-magic-vs-2-spec-blue.png",
+            "alt": "荣耀Magic Vs2 冰川蓝",
+            "modelName": "荣耀Magic Vs2",
+            "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-vs-2/spec/",
+            "sourceSnapshotHash": "0584c088a793addd501db41808a4e4d7532d3715d3495d0054954b9743dd70e5",
+            "fetchedAt": "2026-10-05T20:21:31.242Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "珊瑚紫",
+            "url": "https://www-file.honor.com/content/dam/honor/cn/specs/smartphone/honor-magic-vs-2/honor-magic-vs-2-spec-purple.png",
+            "alt": "荣耀Magic Vs2 珊瑚紫",
+            "modelName": "荣耀Magic Vs2",
+            "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-vs-2/spec/",
+            "sourceSnapshotHash": "0584c088a793addd501db41808a4e4d7532d3715d3495d0054954b9743dd70e5",
+            "fetchedAt": "2026-10-05T20:21:31.242Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "绒黑色",
+            "url": "https://www-file.honor.com/content/dam/honor/cn/specs/smartphone/honor-magic-vs-2/honor-magic-vs-2-spec-black.png",
+            "alt": "荣耀Magic Vs2 绒黑色",
+            "modelName": "荣耀Magic Vs2",
+            "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-vs-2/spec/",
+            "sourceSnapshotHash": "0584c088a793addd501db41808a4e4d7532d3715d3495d0054954b9743dd70e5",
+            "fetchedAt": "2026-10-05T20:21:31.242Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "honor-magic-vs3-2024",
+      "modelName": "荣耀Magic Vs3",
+      "generation": "Magic Vs3",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10883112_1.html",
+        "https://detail.zol.com.cn/series/57/50840/param_10883112_0_1.html",
+        "https://detail.zol.com.cn/2080/2079237/param.shtml",
+        "https://detail.zol.com.cn/2083/2082437/param.shtml",
+        "https://detail.zol.com.cn/2083/2082438/param.shtml",
+        "https://news.zol.com.cn/885/8852855.html",
+        "https://www.honor.com/cn/phones/honor-magic-vs-3/spec/"
+      ],
+      "releaseEvidence": {
+        "value": "2024-07-19",
+        "rawText": "7月19日，荣耀Magic V3、荣耀Magic Vs3双折叠旗舰全渠道正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://news.zol.com.cn/885/8852855.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:21:33.506Z",
+        "sourceSnapshotHash": "7e41350aa1b13787a2fb8fcfda5afe793b707ddebf0f7ac0e53ac8f39399d20c"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "当前官网建议零售价/参考报价可能调整，不自动当首发价；本配置独立发布定价原文尚未登记"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2024年07月12日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2080/2079237/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:21:32.840Z",
+        "sourceSnapshotHash": "b19a8044f55403af6686064082d2f46164b6e37252d169f5fb63ef3f6c30ea9f"
+      },
+      "officialSpecUrl": "https://www.honor.com/cn/phones/honor-magic-vs-3/spec/",
+      "officialSpecEvidence": {
+        "value": "荣耀Magic Vs3",
+        "rawText": "荣耀Magic Vs3-手机参数-配置-怎么样 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-vs-3/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:21:31.985Z",
+        "sourceSnapshotHash": "c2890bc337581336a8194e3e545a9bb1d140b66a6fa5b5eb6517b938a5190be5"
+      },
+      "officialSpecSnapshotStatus": "technical_route_labels_only",
+      "productImages": {
+        "modelName": "荣耀Magic Vs3",
+        "seriesId": "10883112",
+        "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-vs-3/spec/",
+        "sourceSnapshotHash": "c2890bc337581336a8194e3e545a9bb1d140b66a6fa5b5eb6517b938a5190be5",
+        "fetchedAt": "2026-10-05T20:21:31.985Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。",
+        "primary": {
+          "name": "祁连雪",
+          "url": "https://www-file.honor.com/content/dam/honor/cn/specs/smartphone/honor-magic-vs-3/honor-magic-vs-3-id-white.png",
+          "alt": "祁连雪",
+          "modelName": "荣耀Magic Vs3",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-vs-3/spec/",
+          "sourceSnapshotHash": "c2890bc337581336a8194e3e545a9bb1d140b66a6fa5b5eb6517b938a5190be5",
+          "fetchedAt": "2026-10-05T20:21:31.985Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "祁连雪",
+            "url": "https://www-file.honor.com/content/dam/honor/cn/specs/smartphone/honor-magic-vs-3/honor-magic-vs-3-id-white.png",
+            "alt": "祁连雪",
+            "modelName": "荣耀Magic Vs3",
+            "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-vs-3/spec/",
+            "sourceSnapshotHash": "c2890bc337581336a8194e3e545a9bb1d140b66a6fa5b5eb6517b938a5190be5",
+            "fetchedAt": "2026-10-05T20:21:31.985Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "苔原绿",
+            "url": "https://www-file.honor.com/content/dam/honor/cn/specs/smartphone/honor-magic-vs-3/honor-magic-vs-3-id-green.png",
+            "alt": "苔原绿",
+            "modelName": "荣耀Magic Vs3",
+            "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-vs-3/spec/",
+            "sourceSnapshotHash": "c2890bc337581336a8194e3e545a9bb1d140b66a6fa5b5eb6517b938a5190be5",
+            "fetchedAt": "2026-10-05T20:21:31.985Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "绒黑色",
+            "url": "https://www-file.honor.com/content/dam/honor/cn/specs/smartphone/honor-magic-vs-3/honor-magic-vs-3-id-black.png",
+            "alt": "绒黑色",
+            "modelName": "荣耀Magic Vs3",
+            "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-vs-3/spec/",
+            "sourceSnapshotHash": "c2890bc337581336a8194e3e545a9bb1d140b66a6fa5b5eb6517b938a5190be5",
+            "fetchedAt": "2026-10-05T20:21:31.985Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "honor-magic-v6-2026",
+      "modelName": "荣耀Magic V6",
+      "generation": "Magic V6",
+      "releaseYear": 2026,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10924310_1.html",
+        "https://detail.zol.com.cn/series/57/50840/param_10924310_0_1.html",
+        "https://detail.zol.com.cn/2159/2158917/param.shtml",
+        "https://detail.zol.com.cn/2159/2158944/param.shtml",
+        "https://detail.zol.com.cn/2159/2158945/param.shtml",
+        "https://detail.zol.com.cn/2159/2158946/param.shtml",
+        "https://phone.cnmo.com/news/805404.html",
+        "https://www.honor.com/cn/phones/honor-magic-v6/spec/"
+      ],
+      "releaseEvidence": {
+        "value": "2026-03-13",
+        "rawText": "3月13日，荣耀新款折叠屏手机Magic V6在荣耀商城、各大授权电商平台及线下门店全面开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://phone.cnmo.com/news/805404.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:32.749Z",
+        "sourceSnapshotHash": "767c2ea8e653e415726abee12eb633c22a51ac725c72b351454908fb8cf1fcf4"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "当前官网建议零售价/参考报价可能调整，不自动当首发价；本配置独立发布定价原文尚未登记"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2026年3月10日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2159/2158917/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:32.194Z",
+        "sourceSnapshotHash": "c0b1213baaf15879b5179560e4b183aa4608bb719c313a75ddd1a5cce2185c72"
+      },
+      "officialSpecUrl": "https://www.honor.com/cn/phones/honor-magic-v6/spec/",
+      "officialSpecEvidence": {
+        "value": "荣耀Magic V6",
+        "rawText": "荣耀Magic V6 - 手机参数-配置-怎么样 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-v6/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:14:34.309Z",
+        "sourceSnapshotHash": "8601b924b457fa944856492f0660014f6a2d4e490f236ad45a93dea430f8be33"
+      },
+      "officialSpecSnapshotStatus": "technical_route_labels_only",
+      "productImages": {
+        "modelName": "荣耀Magic V6",
+        "seriesId": "10924310",
+        "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-v6/spec/",
+        "sourceSnapshotHash": "8601b924b457fa944856492f0660014f6a2d4e490f236ad45a93dea430f8be33",
+        "fetchedAt": "2026-10-05T20:14:34.309Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。",
+        "primary": {
+          "name": "赤兔红",
+          "url": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-magic-v6/honor-magic-v5-id-red.png",
+          "alt": "荣耀Magic V6",
+          "modelName": "荣耀Magic V6",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-v6/spec/",
+          "sourceSnapshotHash": "8601b924b457fa944856492f0660014f6a2d4e490f236ad45a93dea430f8be33",
+          "fetchedAt": "2026-10-05T20:14:34.309Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "赤兔红",
+            "url": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-magic-v6/honor-magic-v5-id-red.png",
+            "alt": "荣耀Magic V6",
+            "modelName": "荣耀Magic V6",
+            "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-v6/spec/",
+            "sourceSnapshotHash": "8601b924b457fa944856492f0660014f6a2d4e490f236ad45a93dea430f8be33",
+            "fetchedAt": "2026-10-05T20:14:34.309Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "旭日金",
+            "url": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-magic-v6/honor-magic-v5-id-gold.png",
+            "alt": "荣耀Magic V6",
+            "modelName": "荣耀Magic V6",
+            "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-v6/spec/",
+            "sourceSnapshotHash": "8601b924b457fa944856492f0660014f6a2d4e490f236ad45a93dea430f8be33",
+            "fetchedAt": "2026-10-05T20:14:34.309Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "雪域白",
+            "url": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-magic-v6/honor-magic-v5-id-white.png",
+            "alt": "荣耀Magic V6",
+            "modelName": "荣耀Magic V6",
+            "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-v6/spec/",
+            "sourceSnapshotHash": "8601b924b457fa944856492f0660014f6a2d4e490f236ad45a93dea430f8be33",
+            "fetchedAt": "2026-10-05T20:14:34.309Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "绒黑色",
+            "url": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-magic-v6/honor-magic-v5-id-black.png",
+            "alt": "荣耀Magic V6",
+            "modelName": "荣耀Magic V6",
+            "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-v6/spec/",
+            "sourceSnapshotHash": "8601b924b457fa944856492f0660014f6a2d4e490f236ad45a93dea430f8be33",
+            "fetchedAt": "2026-10-05T20:14:34.309Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "honor-600-pro-2026",
+      "modelName": "荣耀600 Pro",
+      "generation": "600 Pro",
+      "releaseYear": 2026,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10926553_1.html",
+        "https://detail.zol.com.cn/series/57/50840/param_10926553_0_1.html",
+        "https://detail.zol.com.cn/2167/2166089/param.shtml",
+        "https://detail.zol.com.cn/2167/2166090/param.shtml",
+        "https://detail.zol.com.cn/2167/2166091/param.shtml",
+        "https://g.pconline.com.cn/x/2161/21614611.html",
+        "https://www.honor.com/cn/phones/honor-600-pro/spec/"
+      ],
+      "releaseEvidence": {
+        "value": "2026-05-29",
+        "rawText": "今日正式开售的机型为荣耀600 超级版和荣耀600 Pro",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://g.pconline.com.cn/x/2161/21614611.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:34.421Z",
+        "sourceSnapshotHash": "a3ce5d2c616149b7e181ba9bef0a752ca7cbd4ed692af595f2f5dfc5a9dc8b21"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "当前官网建议零售价/参考报价可能调整，不自动当首发价；本配置独立发布定价原文尚未登记"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2026年5月25日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2167/2166089/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:34.167Z",
+        "sourceSnapshotHash": "264bf2b03db8ba2a829a2fdf53d83f56cd338f43a89df219b716fc0f72dd040e"
+      },
+      "officialSpecUrl": "https://www.honor.com/cn/phones/honor-600-pro/spec/",
+      "officialSpecEvidence": {
+        "value": "荣耀600 Pro",
+        "rawText": "荣耀600 Pro参数配置-规格性能 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/phones/honor-600-pro/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:14:34.379Z",
+        "sourceSnapshotHash": "eaa8415da27f1985dbbc0e7665b10adc10a3f32f84afcbd8b356e6bef1592539"
+      },
+      "officialSpecSnapshotStatus": "technical_route_labels_only",
+      "productImages": {
+        "modelName": "荣耀600 Pro",
+        "seriesId": "10926553",
+        "sourceUrl": "https://www.honor.com/cn/phones/honor-600-pro/spec/",
+        "sourceSnapshotHash": "eaa8415da27f1985dbbc0e7665b10adc10a3f32f84afcbd8b356e6bef1592539",
+        "fetchedAt": "2026-10-05T20:14:34.379Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。",
+        "primary": {
+          "name": "幸运星",
+          "url": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-600-pro/cn/honor-600-pro-id-pink-back.png",
+          "alt": "荣耀600 Pro",
+          "modelName": "荣耀600 Pro",
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-600-pro/spec/",
+          "sourceSnapshotHash": "eaa8415da27f1985dbbc0e7665b10adc10a3f32f84afcbd8b356e6bef1592539",
+          "fetchedAt": "2026-10-05T20:14:34.379Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "幸运星",
+            "url": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-600-pro/cn/honor-600-pro-id-pink-back.png",
+            "alt": "荣耀600 Pro",
+            "modelName": "荣耀600 Pro",
+            "sourceUrl": "https://www.honor.com/cn/phones/honor-600-pro/spec/",
+            "sourceSnapshotHash": "eaa8415da27f1985dbbc0e7665b10adc10a3f32f84afcbd8b356e6bef1592539",
+            "fetchedAt": "2026-10-05T20:14:34.379Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "光羽蓝",
+            "url": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-600-pro/cn/honor-600-pro-id-blue-back.png",
+            "alt": "荣耀600 Pro",
+            "modelName": "荣耀600 Pro",
+            "sourceUrl": "https://www.honor.com/cn/phones/honor-600-pro/spec/",
+            "sourceSnapshotHash": "eaa8415da27f1985dbbc0e7665b10adc10a3f32f84afcbd8b356e6bef1592539",
+            "fetchedAt": "2026-10-05T20:14:34.379Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "青苹果",
+            "url": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-600-pro/cn/honor-600-pro-id-green-back.png",
+            "alt": "荣耀600 Pro",
+            "modelName": "荣耀600 Pro",
+            "sourceUrl": "https://www.honor.com/cn/phones/honor-600-pro/spec/",
+            "sourceSnapshotHash": "eaa8415da27f1985dbbc0e7665b10adc10a3f32f84afcbd8b356e6bef1592539",
+            "fetchedAt": "2026-10-05T20:14:34.379Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "曜石黑",
+            "url": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-600-pro/cn/honor-600-pro-id-black-back.png",
+            "alt": "荣耀600 Pro",
+            "modelName": "荣耀600 Pro",
+            "sourceUrl": "https://www.honor.com/cn/phones/honor-600-pro/spec/",
+            "sourceSnapshotHash": "eaa8415da27f1985dbbc0e7665b10adc10a3f32f84afcbd8b356e6bef1592539",
+            "fetchedAt": "2026-10-05T20:14:34.379Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          }
+        ],
+        "gaps": []
+      }
+    }
+  ],
+  "tablet": [],
+  "laptop": []
+}

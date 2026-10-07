@@ -1,0 +1,2564 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "totalDevices": 9,
+    "generatedAt": "2026-10-05",
+    "coverage": {
+      "market": "CN",
+      "minReleaseYear": 2022,
+      "asOf": "2026-10-06",
+      "scope": "HONOR首批9款缺失型号，不代表五年全型号已覆盖"
+    }
+  },
+  "devices": [
+    {
+      "id": "honor-magic5-2023",
+      "brand": "HONOR",
+      "market": "CN",
+      "category": "phone",
+      "series": "荣耀 Magic",
+      "family": "荣耀 Magic",
+      "variant": "standard",
+      "modelName": "荣耀 Magic5",
+      "generation": "Magic5",
+      "generationOrder": 1,
+      "releaseYear": 2023,
+      "releaseDate": "2023-03-10",
+      "comparisonGroupId": "honor.phone.magic.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "荣耀Magic5（8GB/256GB）；RAM容量 8GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙8 Gen2",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1427/1426635/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:27:49.888Z",
+            "sourceSnapshotHash": "194dd8ef58086f6942de4641cc87b3ba664b8480739392abb783c648a519f62a"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "荣耀Magic5（16GB/512GB）；RAM容量 16GB> 游戏运行流畅；ROM容量 512GB> 10.5万张照片 4.4万首歌曲；CPU型号 高通 骁龙8 Gen2",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1466/1465802/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:27:49.857Z",
+            "sourceSnapshotHash": "5b6c8e9574ee33d3611819e321bdcd57004a964ee45fd3177cf9acdc901b2c4c"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "荣耀Magic5（12GB/256GB）；RAM容量 12GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙8 Gen2",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1448/1447870/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:27:49.910Z",
+            "sourceSnapshotHash": "d12a285476f7186ed5ec728afc66c76a8c5b07090629ec7b4104f91338e0f5f9"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "16GB + 256GB",
+            "rawText": "荣耀Magic5（16GB/256GB）；RAM容量 16GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙8 Gen2",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1448/1447871/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:27:50.222Z",
+            "sourceSnapshotHash": "55901341af572bb6286380257d156e37075f8d4330316bdff4e18fbfff0ba2f5"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通 骁龙8 Gen2",
+          "rawText": "CPU型号 高通 骁龙8 Gen2",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1427/1426635/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:27:49.888Z",
+          "sourceSnapshotHash": "194dd8ef58086f6942de4641cc87b3ba664b8480739392abb783c648a519f62a",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "memory": {
+          "value": "8GB / 16GB / 12GB",
+          "rawText": "RAM容量 8GB> 游戏运行流畅",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1427/1426635/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:27:49.888Z",
+          "sourceSnapshotHash": "194dd8ef58086f6942de4641cc87b3ba664b8480739392abb783c648a519f62a",
+          "note": "可选值仅汇总本设备各独立配置的 evidence，不表示全部在售组合。"
+        },
+        "storage": {
+          "value": "256GB / 512GB",
+          "rawText": "ROM容量 256GB> 5.2万张照片 2.2万首歌曲",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1427/1426635/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:27:49.888Z",
+          "sourceSnapshotHash": "194dd8ef58086f6942de4641cc87b3ba664b8480739392abb783c648a519f62a",
+          "note": "可选值仅汇总本设备各独立配置的 evidence，不表示全部在售组合。"
+        },
+        "screenSize": {
+          "value": 6.73,
+          "unit": "inch",
+          "rawText": "屏幕尺寸 6.73英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1427/1426635/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:27:49.888Z",
+          "sourceSnapshotHash": "194dd8ef58086f6942de4641cc87b3ba664b8480739392abb783c648a519f62a"
+        },
+        "displayType": {
+          "value": "OLED",
+          "rawText": "屏幕材质 OLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1427/1426635/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:27:49.888Z",
+          "sourceSnapshotHash": "194dd8ef58086f6942de4641cc87b3ba664b8480739392abb783c648a519f62a"
+        },
+        "resolution": {
+          "value": "2688x1224px",
+          "rawText": "分辨率 2688x1224px",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1427/1426635/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:27:49.888Z",
+          "sourceSnapshotHash": "194dd8ef58086f6942de4641cc87b3ba664b8480739392abb783c648a519f62a"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "屏幕刷新率 120Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1427/1426635/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:27:49.888Z",
+          "sourceSnapshotHash": "194dd8ef58086f6942de4641cc87b3ba664b8480739392abb783c648a519f62a"
+        },
+        "weight": {
+          "value": 191,
+          "unit": "g",
+          "rawText": "重量 191g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1427/1426635/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:27:49.888Z",
+          "sourceSnapshotHash": "194dd8ef58086f6942de4641cc87b3ba664b8480739392abb783c648a519f62a"
+        },
+        "batteryCapacity": {
+          "value": 5100,
+          "unit": "mAh",
+          "rawText": "电池容量 5100mAh 大电池",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1427/1426635/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:27:49.888Z",
+          "sourceSnapshotHash": "194dd8ef58086f6942de4641cc87b3ba664b8480739392abb783c648a519f62a"
+        },
+        "port": {
+          "value": "USB Type-C接口",
+          "rawText": "机身接口 USB Type-C接口",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1427/1426635/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:27:49.888Z",
+          "sourceSnapshotHash": "194dd8ef58086f6942de4641cc87b3ba664b8480739392abb783c648a519f62a"
+        },
+        "wifi": {
+          "value": "双频WiFi，WiFi7（IEEE 802.11 a/b/g/n/ac/ax/be ），2x2 MIMO",
+          "rawText": "WLAN功能 双频WiFi，WiFi7（IEEE 802.11 a/b/g/n/ac/ax/be ），2x2 MIMO",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1427/1426635/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:27:49.888Z",
+          "sourceSnapshotHash": "194dd8ef58086f6942de4641cc87b3ba664b8480739392abb783c648a519f62a"
+        },
+        "bluetooth": {
+          "value": "蓝牙5.2，支持BLE/SBC/AAC/LDAC/APTX/APTX HD",
+          "rawText": "蓝牙 蓝牙5.2，支持BLE/SBC/AAC/LDAC/APTX/APTX HD",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1427/1426635/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:27:49.888Z",
+          "sourceSnapshotHash": "194dd8ef58086f6942de4641cc87b3ba664b8480739392abb783c648a519f62a"
+        },
+        "rearCamera": {
+          "value": "后置摄像头1：5400万像素 后置摄像头2：3200万像素 后置摄像头3：5000万像素",
+          "rawText": "像素 后置摄像头1：5400万像素 后置摄像头2：3200万像素 后置摄像头3：5000万像素 前置摄像头1：1200万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1427/1426635/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:27:49.888Z",
+          "sourceSnapshotHash": "194dd8ef58086f6942de4641cc87b3ba664b8480739392abb783c648a519f62a"
+        },
+        "frontCamera": {
+          "value": "前置摄像头1：1200万像素",
+          "rawText": "像素 后置摄像头1：5400万像素 后置摄像头2：3200万像素 后置摄像头3：5000万像素 前置摄像头1：1200万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1427/1426635/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:27:49.888Z",
+          "sourceSnapshotHash": "194dd8ef58086f6942de4641cc87b3ba664b8480739392abb783c648a519f62a"
+        },
+        "memoryType": {
+          "value": "LPDDR5X",
+          "rawText": "RAM存储类型 LPDDR5X",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1427/1426635/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:27:49.888Z",
+          "sourceSnapshotHash": "194dd8ef58086f6942de4641cc87b3ba664b8480739392abb783c648a519f62a"
+        },
+        "storageType": {
+          "value": "UFS 3.1",
+          "rawText": "ROM存储类型 UFS 3.1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1427/1426635/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:27:49.888Z",
+          "sourceSnapshotHash": "194dd8ef58086f6942de4641cc87b3ba664b8480739392abb783c648a519f62a"
+        },
+        "operatingSystem": {
+          "value": "MagicOS 7.1",
+          "rawText": "操作系统 MagicOS 7.1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1427/1426635/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:27:49.888Z",
+          "sourceSnapshotHash": "194dd8ef58086f6942de4641cc87b3ba664b8480739392abb783c648a519f62a"
+        },
+        "security": {
+          "value": "屏幕指纹识别",
+          "rawText": "指纹识别 屏幕指纹识别",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1427/1426635/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:27:49.888Z",
+          "sourceSnapshotHash": "194dd8ef58086f6942de4641cc87b3ba664b8480739392abb783c648a519f62a"
+        },
+        "sim": {
+          "value": "双卡（Nano SIM卡）",
+          "rawText": "SIM卡类型 双卡（Nano SIM卡）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1427/1426635/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:27:49.888Z",
+          "sourceSnapshotHash": "194dd8ef58086f6942de4641cc87b3ba664b8480739392abb783c648a519f62a"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持NFC",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1427/1426635/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:27:49.888Z",
+          "sourceSnapshotHash": "194dd8ef58086f6942de4641cc87b3ba664b8480739392abb783c648a519f62a"
+        },
+        "chargingMethod": {
+          "value": "有线充电：66w（11V/6A）",
+          "rawText": "有线充电 66w（11V/6A）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1427/1426635/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:27:49.888Z",
+          "sourceSnapshotHash": "194dd8ef58086f6942de4641cc87b3ba664b8480739392abb783c648a519f62a"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "honor-magic6-2024",
+      "brand": "HONOR",
+      "market": "CN",
+      "category": "phone",
+      "series": "荣耀 Magic",
+      "family": "荣耀 Magic",
+      "variant": "standard",
+      "modelName": "荣耀 Magic6",
+      "generation": "Magic6",
+      "generationOrder": 2,
+      "releaseYear": 2024,
+      "releaseDate": "2024-01-18",
+      "comparisonGroupId": "honor.phone.magic.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "荣耀Magic6(12GB/256GB)；RAM容量 12GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙8 Gen3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1960/1959987/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:16.212Z",
+            "sourceSnapshotHash": "e94def7052c4d625e2a45232cb438e59e253ae35d11784097686027332ab28b2"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "荣耀Magic6( 16GB/512GB)；RAM容量 16GB> 游戏运行流畅；ROM容量 512GB> 10.5万张照片 4.4万首歌曲；CPU型号 高通 骁龙8 Gen3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1975/1974139/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:16.232Z",
+            "sourceSnapshotHash": "77c5a339d5533ef068e51c16df38aca62c7a2b5090d6ee6023ff5a0bbb59944f"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "16GB + 256GB",
+            "rawText": "荣耀Magic6( 16GB/256GB)；RAM容量 16GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙8 Gen3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1975/1974012/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:16.236Z",
+            "sourceSnapshotHash": "0d9611ee6516aa42cac7ed2328dcd5fbd5febf5d7038865fe25fe41db1460e83"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通 骁龙8 Gen3",
+          "rawText": "CPU型号 高通 骁龙8 Gen3",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1960/1959987/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.212Z",
+          "sourceSnapshotHash": "e94def7052c4d625e2a45232cb438e59e253ae35d11784097686027332ab28b2",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "RAM容量 12GB> 游戏运行流畅",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1960/1959987/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.212Z",
+          "sourceSnapshotHash": "e94def7052c4d625e2a45232cb438e59e253ae35d11784097686027332ab28b2",
+          "note": "可选值仅汇总本设备各独立配置的 evidence，不表示全部在售组合。"
+        },
+        "storage": {
+          "value": "256GB / 512GB",
+          "rawText": "ROM容量 256GB> 5.2万张照片 2.2万首歌曲",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1960/1959987/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.212Z",
+          "sourceSnapshotHash": "e94def7052c4d625e2a45232cb438e59e253ae35d11784097686027332ab28b2",
+          "note": "可选值仅汇总本设备各独立配置的 evidence，不表示全部在售组合。"
+        },
+        "screenSize": {
+          "value": 6.78,
+          "unit": "inch",
+          "rawText": "屏幕尺寸 6.78英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1960/1959987/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.212Z",
+          "sourceSnapshotHash": "e94def7052c4d625e2a45232cb438e59e253ae35d11784097686027332ab28b2"
+        },
+        "displayType": {
+          "value": "OLED",
+          "rawText": "屏幕材质 OLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1960/1959987/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.212Z",
+          "sourceSnapshotHash": "e94def7052c4d625e2a45232cb438e59e253ae35d11784097686027332ab28b2"
+        },
+        "resolution": {
+          "value": "2800x1264px",
+          "rawText": "分辨率 2800x1264px",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1960/1959987/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.212Z",
+          "sourceSnapshotHash": "e94def7052c4d625e2a45232cb438e59e253ae35d11784097686027332ab28b2"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "屏幕刷新率 120Hz（1-120）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1960/1959987/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.212Z",
+          "sourceSnapshotHash": "e94def7052c4d625e2a45232cb438e59e253ae35d11784097686027332ab28b2"
+        },
+        "weight": {
+          "value": 206,
+          "unit": "g",
+          "rawText": "重量 206g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1960/1959987/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.212Z",
+          "sourceSnapshotHash": "e94def7052c4d625e2a45232cb438e59e253ae35d11784097686027332ab28b2"
+        },
+        "batteryCapacity": {
+          "value": 5450,
+          "unit": "mAh",
+          "rawText": "电池容量 5450mAh 大电池",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1960/1959987/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.212Z",
+          "sourceSnapshotHash": "e94def7052c4d625e2a45232cb438e59e253ae35d11784097686027332ab28b2"
+        },
+        "port": {
+          "value": "USB Type-C接口",
+          "rawText": "机身接口 USB Type-C接口",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1960/1959987/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.212Z",
+          "sourceSnapshotHash": "e94def7052c4d625e2a45232cb438e59e253ae35d11784097686027332ab28b2"
+        },
+        "wifi": {
+          "value": "双频WiFi，WiFi7（IEEE 802.11 a/b/g/n/ac/ax/be ），2x2 MIMO",
+          "rawText": "WLAN功能 双频WiFi，WiFi7（IEEE 802.11 a/b/g/n/ac/ax/be ），2x2 MIMO",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1960/1959987/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.212Z",
+          "sourceSnapshotHash": "e94def7052c4d625e2a45232cb438e59e253ae35d11784097686027332ab28b2"
+        },
+        "bluetooth": {
+          "value": "蓝牙5.3，支持BLE，支持SBC、AAC、LDAC，AptX， AptX HD",
+          "rawText": "蓝牙 蓝牙5.3，支持BLE，支持SBC、AAC、LDAC，AptX， AptX HD",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1960/1959987/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.212Z",
+          "sourceSnapshotHash": "e94def7052c4d625e2a45232cb438e59e253ae35d11784097686027332ab28b2"
+        },
+        "rearCamera": {
+          "value": "后置摄像头1：5000万像素 后置摄像头2：3200万像素 后置摄像头3：5000万像素",
+          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：3200万像素 后置摄像头3：5000万像素 前置摄像头1：5000万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1960/1959987/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.212Z",
+          "sourceSnapshotHash": "e94def7052c4d625e2a45232cb438e59e253ae35d11784097686027332ab28b2"
+        },
+        "frontCamera": {
+          "value": "前置摄像头1：5000万像素",
+          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：3200万像素 后置摄像头3：5000万像素 前置摄像头1：5000万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1960/1959987/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.212Z",
+          "sourceSnapshotHash": "e94def7052c4d625e2a45232cb438e59e253ae35d11784097686027332ab28b2"
+        },
+        "operatingSystem": {
+          "value": "MagicOS 8.0",
+          "rawText": "操作系统 MagicOS 8.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1960/1959987/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.212Z",
+          "sourceSnapshotHash": "e94def7052c4d625e2a45232cb438e59e253ae35d11784097686027332ab28b2"
+        },
+        "security": {
+          "value": "屏幕指纹识别",
+          "rawText": "指纹识别 屏幕指纹识别",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1960/1959987/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.212Z",
+          "sourceSnapshotHash": "e94def7052c4d625e2a45232cb438e59e253ae35d11784097686027332ab28b2"
+        },
+        "waterResistance": {
+          "value": "支持防尘抗水（IP68）",
+          "rawText": "三防功能 支持防尘抗水（IP68）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1960/1959987/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.212Z",
+          "sourceSnapshotHash": "e94def7052c4d625e2a45232cb438e59e253ae35d11784097686027332ab28b2"
+        },
+        "sim": {
+          "value": "双卡（Nano SIM卡）",
+          "rawText": "SIM卡类型 双卡（Nano SIM卡）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1960/1959987/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.212Z",
+          "sourceSnapshotHash": "e94def7052c4d625e2a45232cb438e59e253ae35d11784097686027332ab28b2"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持NFC",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1960/1959987/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.212Z",
+          "sourceSnapshotHash": "e94def7052c4d625e2a45232cb438e59e253ae35d11784097686027332ab28b2"
+        },
+        "chargingMethod": {
+          "value": "有线充电：66w；无线充电：支持 ，50w",
+          "rawText": "有线充电 66w；无线充电 支持 ，50w",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1960/1959987/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.212Z",
+          "sourceSnapshotHash": "e94def7052c4d625e2a45232cb438e59e253ae35d11784097686027332ab28b2"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "honor-magic7-2024",
+      "brand": "HONOR",
+      "market": "CN",
+      "category": "phone",
+      "series": "荣耀 Magic",
+      "family": "荣耀 Magic",
+      "variant": "standard",
+      "modelName": "荣耀 Magic7",
+      "generation": "Magic7",
+      "generationOrder": 3,
+      "releaseYear": 2024,
+      "releaseDate": "2024-11-08",
+      "comparisonGroupId": "honor.phone.magic.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "荣耀Magic7(12GB/256GB)；RAM容量 12GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙 8 Elite",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2106/2105342/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:16.545Z",
+            "sourceSnapshotHash": "8428cf2d215aa5c6eaae1f2b311de338d51e30a72d914498e5fbd79bd9cfd8c3"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "荣耀Magic7(12GB/512GB)；RAM容量 12GB> 游戏运行流畅；ROM容量 512GB> 10.5万张照片 4.4万首歌曲；CPU型号 高通 骁龙 8 Elite",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2113/2112189/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:16.570Z",
+            "sourceSnapshotHash": "8cda53243ce8375104a8ca25a71be1b2b7de6732702fcd1dfb8ebed19531aa29"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "荣耀Magic7(16GB/1TB)；RAM容量 16GB> 游戏运行流畅；ROM容量 1TB> 20.5万张照片 8.5万首歌曲；CPU型号 高通 骁龙 8 Elite",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2113/2112191/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:16.539Z",
+            "sourceSnapshotHash": "0a6c5ec6d29b10b8b09c492bcc2e592ced55f3a7394dae74109b01bcf9a2c67b"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "荣耀Magic7(16GB/512GB)；RAM容量 16GB> 游戏运行流畅；ROM容量 512GB> 10.5万张照片 4.4万首歌曲；CPU型号 高通 骁龙 8 Elite",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2113/2112190/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:16.683Z",
+            "sourceSnapshotHash": "eca909eac8c9591183827e7d03be426b312e946c241e407c1c263a9eb81fa941"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通 骁龙 8 Elite",
+          "rawText": "CPU型号 高通 骁龙 8 Elite",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2106/2105342/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.545Z",
+          "sourceSnapshotHash": "8428cf2d215aa5c6eaae1f2b311de338d51e30a72d914498e5fbd79bd9cfd8c3",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "RAM容量 12GB> 游戏运行流畅",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2106/2105342/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.545Z",
+          "sourceSnapshotHash": "8428cf2d215aa5c6eaae1f2b311de338d51e30a72d914498e5fbd79bd9cfd8c3",
+          "note": "可选值仅汇总本设备各独立配置的 evidence，不表示全部在售组合。"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "ROM容量 256GB> 5.2万张照片 2.2万首歌曲",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2106/2105342/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.545Z",
+          "sourceSnapshotHash": "8428cf2d215aa5c6eaae1f2b311de338d51e30a72d914498e5fbd79bd9cfd8c3",
+          "note": "可选值仅汇总本设备各独立配置的 evidence，不表示全部在售组合。"
+        },
+        "screenSize": {
+          "value": 6.78,
+          "unit": "inch",
+          "rawText": "屏幕尺寸 6.78英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2106/2105342/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.545Z",
+          "sourceSnapshotHash": "8428cf2d215aa5c6eaae1f2b311de338d51e30a72d914498e5fbd79bd9cfd8c3"
+        },
+        "displayType": {
+          "value": "OLED",
+          "rawText": "屏幕材质 OLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2106/2105342/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.545Z",
+          "sourceSnapshotHash": "8428cf2d215aa5c6eaae1f2b311de338d51e30a72d914498e5fbd79bd9cfd8c3"
+        },
+        "resolution": {
+          "value": "2800x1264px",
+          "rawText": "分辨率 2800x1264px",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2106/2105342/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.545Z",
+          "sourceSnapshotHash": "8428cf2d215aa5c6eaae1f2b311de338d51e30a72d914498e5fbd79bd9cfd8c3"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "屏幕刷新率 120Hz（1-120）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2106/2105342/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.545Z",
+          "sourceSnapshotHash": "8428cf2d215aa5c6eaae1f2b311de338d51e30a72d914498e5fbd79bd9cfd8c3"
+        },
+        "weight": {
+          "value": 199,
+          "unit": "g",
+          "rawText": "重量 199g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2106/2105342/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.545Z",
+          "sourceSnapshotHash": "8428cf2d215aa5c6eaae1f2b311de338d51e30a72d914498e5fbd79bd9cfd8c3"
+        },
+        "batteryCapacity": {
+          "value": 5650,
+          "unit": "mAh",
+          "rawText": "电池容量 5650mAh 大电池",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2106/2105342/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.545Z",
+          "sourceSnapshotHash": "8428cf2d215aa5c6eaae1f2b311de338d51e30a72d914498e5fbd79bd9cfd8c3"
+        },
+        "port": {
+          "value": "USB Type-C接口",
+          "rawText": "机身接口 USB Type-C接口",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2106/2105342/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.545Z",
+          "sourceSnapshotHash": "8428cf2d215aa5c6eaae1f2b311de338d51e30a72d914498e5fbd79bd9cfd8c3"
+        },
+        "wifi": {
+          "value": "双频WiFi，WiFi7（IEEE 802.11 a/b/g/n/ac/ax/be ），2x2 MIMO",
+          "rawText": "WLAN功能 双频WiFi，WiFi7（IEEE 802.11 a/b/g/n/ac/ax/be ），2x2 MIMO",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2106/2105342/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.545Z",
+          "sourceSnapshotHash": "8428cf2d215aa5c6eaae1f2b311de338d51e30a72d914498e5fbd79bd9cfd8c3"
+        },
+        "bluetooth": {
+          "value": "蓝牙5.4，支持BLE、SBC、AAC、LDAC、APTX、APTX HD",
+          "rawText": "蓝牙 蓝牙5.4，支持BLE、SBC、AAC、LDAC、APTX、APTX HD",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2106/2105342/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.545Z",
+          "sourceSnapshotHash": "8428cf2d215aa5c6eaae1f2b311de338d51e30a72d914498e5fbd79bd9cfd8c3"
+        },
+        "rearCamera": {
+          "value": "后置摄像头1：5000万像素 后置摄像头2：3200万像素 后置摄像头3：5000万像素",
+          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：3200万像素 后置摄像头3：5000万像素 前置摄像头1：5000万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2106/2105342/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.545Z",
+          "sourceSnapshotHash": "8428cf2d215aa5c6eaae1f2b311de338d51e30a72d914498e5fbd79bd9cfd8c3"
+        },
+        "frontCamera": {
+          "value": "前置摄像头1：5000万像素",
+          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：3200万像素 后置摄像头3：5000万像素 前置摄像头1：5000万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2106/2105342/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.545Z",
+          "sourceSnapshotHash": "8428cf2d215aa5c6eaae1f2b311de338d51e30a72d914498e5fbd79bd9cfd8c3"
+        },
+        "memoryType": {
+          "value": "LPDDR5X",
+          "rawText": "RAM存储类型 LPDDR5X",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2106/2105342/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.545Z",
+          "sourceSnapshotHash": "8428cf2d215aa5c6eaae1f2b311de338d51e30a72d914498e5fbd79bd9cfd8c3"
+        },
+        "operatingSystem": {
+          "value": "MagicOS 9.0",
+          "rawText": "操作系统 MagicOS 9.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2106/2105342/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.545Z",
+          "sourceSnapshotHash": "8428cf2d215aa5c6eaae1f2b311de338d51e30a72d914498e5fbd79bd9cfd8c3"
+        },
+        "security": {
+          "value": "超声波屏幕指纹识别",
+          "rawText": "指纹识别 超声波屏幕指纹识别",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2106/2105342/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.545Z",
+          "sourceSnapshotHash": "8428cf2d215aa5c6eaae1f2b311de338d51e30a72d914498e5fbd79bd9cfd8c3"
+        },
+        "waterResistance": {
+          "value": "IP68和IP69等级",
+          "rawText": "三防功能 IP68和IP69等级",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2106/2105342/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.545Z",
+          "sourceSnapshotHash": "8428cf2d215aa5c6eaae1f2b311de338d51e30a72d914498e5fbd79bd9cfd8c3"
+        },
+        "sim": {
+          "value": "双卡（Nano SIM卡）",
+          "rawText": "SIM卡类型 双卡（Nano SIM卡）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2106/2105342/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.545Z",
+          "sourceSnapshotHash": "8428cf2d215aa5c6eaae1f2b311de338d51e30a72d914498e5fbd79bd9cfd8c3"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持NFC",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2106/2105342/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.545Z",
+          "sourceSnapshotHash": "8428cf2d215aa5c6eaae1f2b311de338d51e30a72d914498e5fbd79bd9cfd8c3"
+        },
+        "chargingMethod": {
+          "value": "有线充电：100w；无线充电：支持 ，80w",
+          "rawText": "有线充电 100w；无线充电 支持 ，80w",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2106/2105342/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:16.545Z",
+          "sourceSnapshotHash": "8428cf2d215aa5c6eaae1f2b311de338d51e30a72d914498e5fbd79bd9cfd8c3"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "honor-100-2023",
+      "brand": "HONOR",
+      "market": "CN",
+      "category": "phone",
+      "series": "荣耀数字",
+      "family": "荣耀数字",
+      "variant": "standard",
+      "modelName": "荣耀 100",
+      "generation": "100",
+      "generationOrder": 1,
+      "releaseYear": 2023,
+      "releaseDate": "2023-12-01",
+      "comparisonGroupId": "honor.phone.number.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "荣耀100(12GB/256GB)；RAM容量 12GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙7 Gen3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1949/1948397/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:17.737Z",
+            "sourceSnapshotHash": "11f0806abb12d553f1e3b1340c2ed7464622d0376754dce8eab90ddd3f039de5"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "16GB + 256GB",
+            "rawText": "荣耀100(16GB/256GB)；RAM容量 16GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙7 Gen3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1958/1957926/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:17.945Z",
+            "sourceSnapshotHash": "019626d3bb742db45c66d47bd1e574bdda120e321da84b545d291fc4efa0e5e6"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "荣耀100(16GB/512GB)；RAM容量 16GB> 游戏运行流畅；ROM容量 512GB> 10.5万张照片 4.4万首歌曲；CPU型号 高通 骁龙7 Gen3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1958/1957927/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:17.958Z",
+            "sourceSnapshotHash": "19cecc5bfb04bfbb39e5e1313e6d4daed495c558a95f84a67953b060db156b23"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通 骁龙7 Gen3",
+          "rawText": "CPU型号 高通 骁龙7 Gen3",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1949/1948397/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:17.737Z",
+          "sourceSnapshotHash": "11f0806abb12d553f1e3b1340c2ed7464622d0376754dce8eab90ddd3f039de5",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "RAM容量 12GB> 游戏运行流畅",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1949/1948397/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:17.737Z",
+          "sourceSnapshotHash": "11f0806abb12d553f1e3b1340c2ed7464622d0376754dce8eab90ddd3f039de5",
+          "note": "可选值仅汇总本设备各独立配置的 evidence，不表示全部在售组合。"
+        },
+        "storage": {
+          "value": "256GB / 512GB",
+          "rawText": "ROM容量 256GB> 5.2万张照片 2.2万首歌曲",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1949/1948397/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:17.737Z",
+          "sourceSnapshotHash": "11f0806abb12d553f1e3b1340c2ed7464622d0376754dce8eab90ddd3f039de5",
+          "note": "可选值仅汇总本设备各独立配置的 evidence，不表示全部在售组合。"
+        },
+        "screenSize": {
+          "value": 6.7,
+          "unit": "inch",
+          "rawText": "屏幕尺寸 6.7英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1949/1948397/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:17.737Z",
+          "sourceSnapshotHash": "11f0806abb12d553f1e3b1340c2ed7464622d0376754dce8eab90ddd3f039de5"
+        },
+        "displayType": {
+          "value": "OLED",
+          "rawText": "屏幕材质 OLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1949/1948397/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:17.737Z",
+          "sourceSnapshotHash": "11f0806abb12d553f1e3b1340c2ed7464622d0376754dce8eab90ddd3f039de5"
+        },
+        "resolution": {
+          "value": "2664x1200px",
+          "rawText": "分辨率 2664x1200px",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1949/1948397/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:17.737Z",
+          "sourceSnapshotHash": "11f0806abb12d553f1e3b1340c2ed7464622d0376754dce8eab90ddd3f039de5"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "屏幕刷新率 120Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1949/1948397/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:17.737Z",
+          "sourceSnapshotHash": "11f0806abb12d553f1e3b1340c2ed7464622d0376754dce8eab90ddd3f039de5"
+        },
+        "weight": {
+          "value": 183,
+          "unit": "g",
+          "rawText": "重量 183g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1949/1948397/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:17.737Z",
+          "sourceSnapshotHash": "11f0806abb12d553f1e3b1340c2ed7464622d0376754dce8eab90ddd3f039de5"
+        },
+        "batteryCapacity": {
+          "value": 5000,
+          "unit": "mAh",
+          "rawText": "电池容量 5000mAh 大电池",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1949/1948397/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:17.737Z",
+          "sourceSnapshotHash": "11f0806abb12d553f1e3b1340c2ed7464622d0376754dce8eab90ddd3f039de5"
+        },
+        "port": {
+          "value": "USB Type-C接口",
+          "rawText": "机身接口 USB Type-C接口",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1949/1948397/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:17.737Z",
+          "sourceSnapshotHash": "11f0806abb12d553f1e3b1340c2ed7464622d0376754dce8eab90ddd3f039de5"
+        },
+        "wifi": {
+          "value": "双频WiFi，WiFi6（IEEE 802.11 a/b/g/n/ac/ax），2x2 MIMO",
+          "rawText": "WLAN功能 双频WiFi，WiFi6（IEEE 802.11 a/b/g/n/ac/ax），2x2 MIMO",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1949/1948397/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:17.737Z",
+          "sourceSnapshotHash": "11f0806abb12d553f1e3b1340c2ed7464622d0376754dce8eab90ddd3f039de5"
+        },
+        "bluetooth": {
+          "value": "蓝牙 5.3，支持低功耗蓝牙、SBC、AAC、LDAC、APTX、APTX HD",
+          "rawText": "蓝牙 蓝牙 5.3，支持低功耗蓝牙、SBC、AAC、LDAC、APTX、APTX HD",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1949/1948397/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:17.737Z",
+          "sourceSnapshotHash": "11f0806abb12d553f1e3b1340c2ed7464622d0376754dce8eab90ddd3f039de5"
+        },
+        "rearCamera": {
+          "value": "后置摄像头1：5000万像素 后置摄像头2：1200万像素",
+          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：1200万像素 前置摄像头1：5000万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1949/1948397/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:17.737Z",
+          "sourceSnapshotHash": "11f0806abb12d553f1e3b1340c2ed7464622d0376754dce8eab90ddd3f039de5"
+        },
+        "frontCamera": {
+          "value": "前置摄像头1：5000万像素",
+          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：1200万像素 前置摄像头1：5000万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1949/1948397/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:17.737Z",
+          "sourceSnapshotHash": "11f0806abb12d553f1e3b1340c2ed7464622d0376754dce8eab90ddd3f039de5"
+        },
+        "operatingSystem": {
+          "value": "MagicOS 7.2",
+          "rawText": "操作系统 MagicOS 7.2",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1949/1948397/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:17.737Z",
+          "sourceSnapshotHash": "11f0806abb12d553f1e3b1340c2ed7464622d0376754dce8eab90ddd3f039de5"
+        },
+        "security": {
+          "value": "屏幕指纹识别",
+          "rawText": "指纹识别 屏幕指纹识别",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1949/1948397/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:17.737Z",
+          "sourceSnapshotHash": "11f0806abb12d553f1e3b1340c2ed7464622d0376754dce8eab90ddd3f039de5"
+        },
+        "sim": {
+          "value": "双卡（Nano SIM卡）",
+          "rawText": "SIM卡类型 双卡（Nano SIM卡）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1949/1948397/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:17.737Z",
+          "sourceSnapshotHash": "11f0806abb12d553f1e3b1340c2ed7464622d0376754dce8eab90ddd3f039de5"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持NFC",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1949/1948397/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:17.737Z",
+          "sourceSnapshotHash": "11f0806abb12d553f1e3b1340c2ed7464622d0376754dce8eab90ddd3f039de5"
+        },
+        "chargingMethod": {
+          "value": "有线充电：支持最大20V/5A超级快充，兼容11V/6A或10V/4A超级快充",
+          "rawText": "有线充电 支持最大20V/5A超级快充，兼容11V/6A或10V/4A超级快充",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1949/1948397/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:17.737Z",
+          "sourceSnapshotHash": "11f0806abb12d553f1e3b1340c2ed7464622d0376754dce8eab90ddd3f039de5"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "honor-200-2024",
+      "brand": "HONOR",
+      "market": "CN",
+      "category": "phone",
+      "series": "荣耀数字",
+      "family": "荣耀数字",
+      "variant": "standard",
+      "modelName": "荣耀 200",
+      "generation": "200",
+      "generationOrder": 2,
+      "releaseYear": 2024,
+      "releaseDate": "2024-05-31",
+      "comparisonGroupId": "honor.phone.number.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "荣耀200(12GB/256GB)；RAM容量 12GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙7 Gen3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2014/2013481/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:18.352Z",
+            "sourceSnapshotHash": "2fc9a16b271f0d98195ca1605c8fc8a8503f27f35798ce5a9f184e6ac1435110"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "荣耀200(12GB/512GB)；RAM容量 12GB> 游戏运行流畅；ROM容量 512GB> 10.5万张照片 4.4万首歌曲；CPU型号 高通 骁龙7 Gen3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2019/2018015/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:18.499Z",
+            "sourceSnapshotHash": "13e128ebb2d0aeb0053def9bba06c0574f859fa6c8ce31cb5d7c59dcb2e784e7"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "荣耀200(16GB/512GB)；RAM容量 16GB> 游戏运行流畅；ROM容量 512GB> 10.5万张照片 4.4万首歌曲；CPU型号 高通 骁龙7 Gen3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2019/2018012/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:18.581Z",
+            "sourceSnapshotHash": "3d1eebf1a77886455b4f3c00e163ef6008066243722625deda562cef077917d2"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "荣耀200(8GB/256GB)；RAM容量 8GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙7 Gen3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2019/2018013/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:18.643Z",
+            "sourceSnapshotHash": "d01d353cd265bbd2b2a1ba6e5f023e6702b6063bc6c1bcdabdff303e12647f9f"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "16GB + 256GB",
+            "rawText": "荣耀200(16GB/256GB)；RAM容量 16GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙7 Gen3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2019/2018014/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:18.872Z",
+            "sourceSnapshotHash": "6e59d9650bec093b17ef056ce08a190df50896d8fdd4fcd276c1b334068e1bb5"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通 骁龙7 Gen3",
+          "rawText": "CPU型号 高通 骁龙7 Gen3",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2014/2013481/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:18.352Z",
+          "sourceSnapshotHash": "2fc9a16b271f0d98195ca1605c8fc8a8503f27f35798ce5a9f184e6ac1435110",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "memory": {
+          "value": "12GB / 16GB / 8GB",
+          "rawText": "RAM容量 12GB> 游戏运行流畅",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2014/2013481/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:18.352Z",
+          "sourceSnapshotHash": "2fc9a16b271f0d98195ca1605c8fc8a8503f27f35798ce5a9f184e6ac1435110",
+          "note": "可选值仅汇总本设备各独立配置的 evidence，不表示全部在售组合。"
+        },
+        "storage": {
+          "value": "256GB / 512GB",
+          "rawText": "ROM容量 256GB> 5.2万张照片 2.2万首歌曲",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2014/2013481/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:18.352Z",
+          "sourceSnapshotHash": "2fc9a16b271f0d98195ca1605c8fc8a8503f27f35798ce5a9f184e6ac1435110",
+          "note": "可选值仅汇总本设备各独立配置的 evidence，不表示全部在售组合。"
+        },
+        "screenSize": {
+          "value": 6.7,
+          "unit": "inch",
+          "rawText": "屏幕尺寸 6.7英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2014/2013481/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:18.352Z",
+          "sourceSnapshotHash": "2fc9a16b271f0d98195ca1605c8fc8a8503f27f35798ce5a9f184e6ac1435110"
+        },
+        "displayType": {
+          "value": "OLED",
+          "rawText": "屏幕材质 OLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2014/2013481/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:18.352Z",
+          "sourceSnapshotHash": "2fc9a16b271f0d98195ca1605c8fc8a8503f27f35798ce5a9f184e6ac1435110"
+        },
+        "resolution": {
+          "value": "2664x1200px",
+          "rawText": "分辨率 2664x1200px",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2014/2013481/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:18.352Z",
+          "sourceSnapshotHash": "2fc9a16b271f0d98195ca1605c8fc8a8503f27f35798ce5a9f184e6ac1435110"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "屏幕刷新率 120Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2014/2013481/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:18.352Z",
+          "sourceSnapshotHash": "2fc9a16b271f0d98195ca1605c8fc8a8503f27f35798ce5a9f184e6ac1435110"
+        },
+        "weight": {
+          "value": 187,
+          "unit": "g",
+          "rawText": "重量 187g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2014/2013481/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:18.352Z",
+          "sourceSnapshotHash": "2fc9a16b271f0d98195ca1605c8fc8a8503f27f35798ce5a9f184e6ac1435110"
+        },
+        "batteryCapacity": {
+          "value": 5200,
+          "unit": "mAh",
+          "rawText": "电池容量 5200mAh 大电池",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2014/2013481/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:18.352Z",
+          "sourceSnapshotHash": "2fc9a16b271f0d98195ca1605c8fc8a8503f27f35798ce5a9f184e6ac1435110"
+        },
+        "port": {
+          "value": "USB Type-C接口",
+          "rawText": "机身接口 USB Type-C接口",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2014/2013481/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:18.352Z",
+          "sourceSnapshotHash": "2fc9a16b271f0d98195ca1605c8fc8a8503f27f35798ce5a9f184e6ac1435110"
+        },
+        "wifi": {
+          "value": "双频WiFi，WiFi6（IEEE 802.11 a/b/g/n/ac/ax），2x2 MIMO",
+          "rawText": "WLAN功能 双频WiFi，WiFi6（IEEE 802.11 a/b/g/n/ac/ax），2x2 MIMO",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2014/2013481/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:18.352Z",
+          "sourceSnapshotHash": "2fc9a16b271f0d98195ca1605c8fc8a8503f27f35798ce5a9f184e6ac1435110"
+        },
+        "bluetooth": {
+          "value": "蓝牙 5.3，支持低功耗蓝牙、SBC、AAC、LDAC、APTX、APTX HD",
+          "rawText": "蓝牙 蓝牙 5.3，支持低功耗蓝牙、SBC、AAC、LDAC、APTX、APTX HD",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2014/2013481/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:18.352Z",
+          "sourceSnapshotHash": "2fc9a16b271f0d98195ca1605c8fc8a8503f27f35798ce5a9f184e6ac1435110"
+        },
+        "rearCamera": {
+          "value": "后置摄像头1：5000万像素 后置摄像头2：5000万像素 后置摄像头3：1200万像素",
+          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：5000万像素 后置摄像头3：1200万像素 前置摄像头1：5000万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2014/2013481/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:18.352Z",
+          "sourceSnapshotHash": "2fc9a16b271f0d98195ca1605c8fc8a8503f27f35798ce5a9f184e6ac1435110"
+        },
+        "frontCamera": {
+          "value": "前置摄像头1：5000万像素",
+          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：5000万像素 后置摄像头3：1200万像素 前置摄像头1：5000万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2014/2013481/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:18.352Z",
+          "sourceSnapshotHash": "2fc9a16b271f0d98195ca1605c8fc8a8503f27f35798ce5a9f184e6ac1435110"
+        },
+        "operatingSystem": {
+          "value": "MagicOS 8.0",
+          "rawText": "操作系统 MagicOS 8.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2014/2013481/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:18.352Z",
+          "sourceSnapshotHash": "2fc9a16b271f0d98195ca1605c8fc8a8503f27f35798ce5a9f184e6ac1435110"
+        },
+        "security": {
+          "value": "屏幕指纹识别",
+          "rawText": "指纹识别 屏幕指纹识别",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2014/2013481/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:18.352Z",
+          "sourceSnapshotHash": "2fc9a16b271f0d98195ca1605c8fc8a8503f27f35798ce5a9f184e6ac1435110"
+        },
+        "sim": {
+          "value": "双卡（Nano SIM卡）",
+          "rawText": "SIM卡类型 双卡（Nano SIM卡）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2014/2013481/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:18.352Z",
+          "sourceSnapshotHash": "2fc9a16b271f0d98195ca1605c8fc8a8503f27f35798ce5a9f184e6ac1435110"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持NFC",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2014/2013481/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:18.352Z",
+          "sourceSnapshotHash": "2fc9a16b271f0d98195ca1605c8fc8a8503f27f35798ce5a9f184e6ac1435110"
+        },
+        "chargingMethod": {
+          "value": "有线充电：100w",
+          "rawText": "有线充电 100w",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2014/2013481/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:18.352Z",
+          "sourceSnapshotHash": "2fc9a16b271f0d98195ca1605c8fc8a8503f27f35798ce5a9f184e6ac1435110"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "honor-x50-2023",
+      "brand": "HONOR",
+      "market": "CN",
+      "category": "phone",
+      "series": "荣耀 X",
+      "family": "荣耀 X",
+      "variant": "standard",
+      "modelName": "荣耀 X50",
+      "generation": "X50",
+      "generationOrder": 1,
+      "releaseYear": 2023,
+      "releaseDate": "2023-07-14",
+      "comparisonGroupId": "honor.phone.x.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "8GB + 128GB",
+            "rawText": "荣耀X50（8GB/128GB）；RAM容量 8GB> 游戏运行流畅；ROM容量 128GB> 2.6万张照片 1.1万首歌曲；CPU型号 高通 骁龙6 Gen1",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1495/1494544/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:20.239Z",
+            "sourceSnapshotHash": "e6c87a60f47276a3d5d9736480bbccd0429467c9ddab7525547f53a442b6b269"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "荣耀X50（12GB/256GB）；RAM容量 12GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙6 Gen1",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1797/1796412/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:20.273Z",
+            "sourceSnapshotHash": "f9846fbeaeb83b3e5b250e7dd40ae5e1956a112250a842113eaac2f93142c79e"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "荣耀X50（16GB/512GB）；RAM容量 16GB> 游戏运行流畅；ROM容量 512GB> 10.5万张照片 4.4万首歌曲；CPU型号 高通 骁龙6 Gen1",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1797/1796413/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:20.488Z",
+            "sourceSnapshotHash": "baab436a4be90daf07443f1d76b15338923d4eda18cb8e8e81305651447e90d6"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "荣耀X50（8GB/256GB）；RAM容量 8GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙6 Gen1",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1797/1796411/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:20.871Z",
+            "sourceSnapshotHash": "9eed917dda737d7d2e92e4b7271a547249d91d8898ba2ae8c1e00d8d12620e3b"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通 骁龙6 Gen1",
+          "rawText": "CPU型号 高通 骁龙6 Gen1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1495/1494544/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:20.239Z",
+          "sourceSnapshotHash": "e6c87a60f47276a3d5d9736480bbccd0429467c9ddab7525547f53a442b6b269",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "memory": {
+          "value": "8GB / 12GB / 16GB",
+          "rawText": "RAM容量 8GB> 游戏运行流畅",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1495/1494544/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:20.239Z",
+          "sourceSnapshotHash": "e6c87a60f47276a3d5d9736480bbccd0429467c9ddab7525547f53a442b6b269",
+          "note": "可选值仅汇总本设备各独立配置的 evidence，不表示全部在售组合。"
+        },
+        "storage": {
+          "value": "128GB / 256GB / 512GB",
+          "rawText": "ROM容量 128GB> 2.6万张照片 1.1万首歌曲",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1495/1494544/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:20.239Z",
+          "sourceSnapshotHash": "e6c87a60f47276a3d5d9736480bbccd0429467c9ddab7525547f53a442b6b269",
+          "note": "可选值仅汇总本设备各独立配置的 evidence，不表示全部在售组合。"
+        },
+        "screenSize": {
+          "value": 6.78,
+          "unit": "inch",
+          "rawText": "屏幕尺寸 6.78英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1495/1494544/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:20.239Z",
+          "sourceSnapshotHash": "e6c87a60f47276a3d5d9736480bbccd0429467c9ddab7525547f53a442b6b269"
+        },
+        "displayType": {
+          "value": "AMOLED",
+          "rawText": "屏幕材质 AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1495/1494544/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:20.239Z",
+          "sourceSnapshotHash": "e6c87a60f47276a3d5d9736480bbccd0429467c9ddab7525547f53a442b6b269"
+        },
+        "resolution": {
+          "value": "2652x1200px",
+          "rawText": "分辨率 2652x1200px",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1495/1494544/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:20.239Z",
+          "sourceSnapshotHash": "e6c87a60f47276a3d5d9736480bbccd0429467c9ddab7525547f53a442b6b269"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "屏幕刷新率 120Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1495/1494544/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:20.239Z",
+          "sourceSnapshotHash": "e6c87a60f47276a3d5d9736480bbccd0429467c9ddab7525547f53a442b6b269"
+        },
+        "weight": {
+          "value": 185,
+          "unit": "g",
+          "rawText": "重量 185g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1495/1494544/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:20.239Z",
+          "sourceSnapshotHash": "e6c87a60f47276a3d5d9736480bbccd0429467c9ddab7525547f53a442b6b269"
+        },
+        "batteryCapacity": {
+          "value": 5800,
+          "unit": "mAh",
+          "rawText": "电池容量 5800mAh 大电池",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1495/1494544/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:20.239Z",
+          "sourceSnapshotHash": "e6c87a60f47276a3d5d9736480bbccd0429467c9ddab7525547f53a442b6b269"
+        },
+        "batteryLife": {
+          "value": "单卡待机最长可达488小时",
+          "rawText": "续航时间 单卡待机最长可达488小时",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1495/1494544/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:20.239Z",
+          "sourceSnapshotHash": "e6c87a60f47276a3d5d9736480bbccd0429467c9ddab7525547f53a442b6b269"
+        },
+        "port": {
+          "value": "USB Type-C接口",
+          "rawText": "机身接口 USB Type-C接口",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1495/1494544/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:20.239Z",
+          "sourceSnapshotHash": "e6c87a60f47276a3d5d9736480bbccd0429467c9ddab7525547f53a442b6b269"
+        },
+        "wifi": {
+          "value": "双频WiFi，WiFi5（IEEE 802.11 a/b/g/n/ac）",
+          "rawText": "WLAN功能 双频WiFi，WiFi5（IEEE 802.11 a/b/g/n/ac）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1495/1494544/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:20.239Z",
+          "sourceSnapshotHash": "e6c87a60f47276a3d5d9736480bbccd0429467c9ddab7525547f53a442b6b269"
+        },
+        "bluetooth": {
+          "value": "蓝牙5.1，支持SBC/AAC/LDAC",
+          "rawText": "蓝牙 蓝牙5.1，支持SBC/AAC/LDAC",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1495/1494544/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:20.239Z",
+          "sourceSnapshotHash": "e6c87a60f47276a3d5d9736480bbccd0429467c9ddab7525547f53a442b6b269"
+        },
+        "rearCamera": {
+          "value": "后置摄像头1：1.08亿像素 后置摄像头2：200万像素",
+          "rawText": "像素 后置摄像头1：1.08亿像素 后置摄像头2：200万像素 前置摄像头1：800万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1495/1494544/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:20.239Z",
+          "sourceSnapshotHash": "e6c87a60f47276a3d5d9736480bbccd0429467c9ddab7525547f53a442b6b269"
+        },
+        "frontCamera": {
+          "value": "前置摄像头1：800万像素",
+          "rawText": "像素 后置摄像头1：1.08亿像素 后置摄像头2：200万像素 前置摄像头1：800万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1495/1494544/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:20.239Z",
+          "sourceSnapshotHash": "e6c87a60f47276a3d5d9736480bbccd0429467c9ddab7525547f53a442b6b269"
+        },
+        "operatingSystem": {
+          "value": "MagicOS 7.1.1",
+          "rawText": "操作系统 MagicOS 7.1.1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1495/1494544/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:20.239Z",
+          "sourceSnapshotHash": "e6c87a60f47276a3d5d9736480bbccd0429467c9ddab7525547f53a442b6b269"
+        },
+        "security": {
+          "value": "屏幕指纹识别",
+          "rawText": "指纹识别 屏幕指纹识别",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1495/1494544/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:20.239Z",
+          "sourceSnapshotHash": "e6c87a60f47276a3d5d9736480bbccd0429467c9ddab7525547f53a442b6b269"
+        },
+        "sim": {
+          "value": "双卡（Nano SIM卡）",
+          "rawText": "SIM卡类型 双卡（Nano SIM卡）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1495/1494544/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:20.239Z",
+          "sourceSnapshotHash": "e6c87a60f47276a3d5d9736480bbccd0429467c9ddab7525547f53a442b6b269"
+        },
+        "chargingMethod": {
+          "value": "有线充电：35w",
+          "rawText": "有线充电 35w",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1495/1494544/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:20.239Z",
+          "sourceSnapshotHash": "e6c87a60f47276a3d5d9736480bbccd0429467c9ddab7525547f53a442b6b269"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "honor-pad9-2023",
+      "brand": "HONOR",
+      "market": "CN",
+      "category": "tablet",
+      "series": "荣耀平板",
+      "family": "荣耀平板",
+      "variant": "standard",
+      "modelName": "荣耀平板9",
+      "generation": "平板9",
+      "generationOrder": 1,
+      "releaseYear": 2023,
+      "releaseDate": "2023-12-29",
+      "comparisonGroupId": "honor.tablet.pad.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "8GB + 128GB",
+            "rawText": "荣耀平板9(8GB/128GB/标准版)；系统内存 8GB；存储容量 128GB；处理器型号 第一代骁龙6移动平台；显卡芯片 高通 Adreno710",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1969/1968674/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:21.215Z",
+            "sourceSnapshotHash": "081a0a17576cf2c1cda8cadf6c05b47c990811f8de3d8150d8f803b7d9535436"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "荣耀平板9(8GB/256GB/标准版)；系统内存 8GB；存储容量 256GB；处理器型号 第一代骁龙6移动平台；显卡芯片 高通 Adreno710",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1969/1968627/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:21.345Z",
+            "sourceSnapshotHash": "24f128683072207a3ee2fdad8a2715b2e1f5e67bc1f9c425660be89d771e569a"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "荣耀平板9(12GB/512GB/标准版)；系统内存 12GB；存储容量 512GB；处理器型号 第一代骁龙6移动平台；显卡芯片 高通 Adreno710",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1969/1968678/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:21.209Z",
+            "sourceSnapshotHash": "3a45ed92cbcb39b895500574c7ce91ebaa19c8b1a95971dbad70bd56b198b809"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "荣耀平板9(12GB/256GB/标准版)；系统内存 12GB；存储容量 256GB；处理器型号 第一代骁龙6移动平台；显卡芯片 高通 Adreno710",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1969/1968676/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:21.450Z",
+            "sourceSnapshotHash": "7c5946dc0b268499a5ec18e906f4fa80f3f03c3cad716d6d68dbc6da11fbaf03"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "第一代骁龙6移动平台",
+          "rawText": "处理器型号 第一代骁龙6移动平台",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1969/1968674/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:21.215Z",
+          "sourceSnapshotHash": "081a0a17576cf2c1cda8cadf6c05b47c990811f8de3d8150d8f803b7d9535436",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "memory": {
+          "value": "8GB / 12GB",
+          "rawText": "系统内存 8GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1969/1968674/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:21.215Z",
+          "sourceSnapshotHash": "081a0a17576cf2c1cda8cadf6c05b47c990811f8de3d8150d8f803b7d9535436",
+          "note": "可选值仅汇总本设备各独立配置的 evidence，不表示全部在售组合。"
+        },
+        "storage": {
+          "value": "128GB / 256GB / 512GB",
+          "rawText": "存储容量 128GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1969/1968674/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:21.215Z",
+          "sourceSnapshotHash": "081a0a17576cf2c1cda8cadf6c05b47c990811f8de3d8150d8f803b7d9535436",
+          "note": "可选值仅汇总本设备各独立配置的 evidence，不表示全部在售组合。"
+        },
+        "screenSize": {
+          "value": 12.1,
+          "unit": "inch",
+          "rawText": "屏幕尺寸 12.1英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1969/1968674/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:21.215Z",
+          "sourceSnapshotHash": "081a0a17576cf2c1cda8cadf6c05b47c990811f8de3d8150d8f803b7d9535436"
+        },
+        "displayType": {
+          "value": "TFT LCD（IPS）",
+          "rawText": "屏幕类型 TFT LCD（IPS）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1969/1968674/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:21.215Z",
+          "sourceSnapshotHash": "081a0a17576cf2c1cda8cadf6c05b47c990811f8de3d8150d8f803b7d9535436"
+        },
+        "resolution": {
+          "value": "2560x1600",
+          "rawText": "屏幕分辨率 2560x1600",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1969/1968674/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:21.215Z",
+          "sourceSnapshotHash": "081a0a17576cf2c1cda8cadf6c05b47c990811f8de3d8150d8f803b7d9535436"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "屏幕刷新率 120Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1969/1968674/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:21.215Z",
+          "sourceSnapshotHash": "081a0a17576cf2c1cda8cadf6c05b47c990811f8de3d8150d8f803b7d9535436"
+        },
+        "weight": {
+          "value": 555,
+          "unit": "g",
+          "rawText": "产品重量 555g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1969/1968674/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:21.215Z",
+          "sourceSnapshotHash": "081a0a17576cf2c1cda8cadf6c05b47c990811f8de3d8150d8f803b7d9535436"
+        },
+        "batteryCapacity": {
+          "value": 8300,
+          "unit": "mAh",
+          "rawText": "电池容量 8300mAh",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1969/1968674/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:21.215Z",
+          "sourceSnapshotHash": "081a0a17576cf2c1cda8cadf6c05b47c990811f8de3d8150d8f803b7d9535436"
+        },
+        "port": {
+          "value": "USB2.0 Type-c",
+          "rawText": "数据接口 USB2.0 Type-c",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1969/1968674/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:21.215Z",
+          "sourceSnapshotHash": "081a0a17576cf2c1cda8cadf6c05b47c990811f8de3d8150d8f803b7d9535436"
+        },
+        "gpu": {
+          "value": "高通 Adreno710",
+          "rawText": "显卡芯片 高通 Adreno710",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1969/1968674/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:21.215Z",
+          "sourceSnapshotHash": "081a0a17576cf2c1cda8cadf6c05b47c990811f8de3d8150d8f803b7d9535436"
+        },
+        "wifi": {
+          "value": "WIFI 5，802.11 a/b/g/n/ac，2.4G/5G，WLAN 直连",
+          "rawText": "WiFi功能 WIFI 5，802.11 a/b/g/n/ac，2.4G/5G，WLAN 直连",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1969/1968674/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:21.215Z",
+          "sourceSnapshotHash": "081a0a17576cf2c1cda8cadf6c05b47c990811f8de3d8150d8f803b7d9535436"
+        },
+        "rearCamera": {
+          "value": "1300万像素（F2.0 AF）",
+          "rawText": "后置摄像头 1300万像素（F2.0 AF）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1969/1968674/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:21.215Z",
+          "sourceSnapshotHash": "081a0a17576cf2c1cda8cadf6c05b47c990811f8de3d8150d8f803b7d9535436"
+        },
+        "frontCamera": {
+          "value": "800万像素（F2.2 FF）",
+          "rawText": "前置摄像头 800万像素（F2.2 FF）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1969/1968674/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:21.215Z",
+          "sourceSnapshotHash": "081a0a17576cf2c1cda8cadf6c05b47c990811f8de3d8150d8f803b7d9535436"
+        },
+        "operatingSystem": {
+          "value": "MagicOS 7.2（基于Android 13）",
+          "rawText": "操作系统 MagicOS 7.2（基于Android 13）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1969/1968674/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:21.215Z",
+          "sourceSnapshotHash": "081a0a17576cf2c1cda8cadf6c05b47c990811f8de3d8150d8f803b7d9535436"
+        },
+        "dimensions": {
+          "value": "278.27×180.11×6.96mm",
+          "rawText": "产品尺寸 278.27×180.11×6.96mm",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1969/1968674/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:21.215Z",
+          "sourceSnapshotHash": "081a0a17576cf2c1cda8cadf6c05b47c990811f8de3d8150d8f803b7d9535436"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "honor-pad-v8-pro-2022",
+      "brand": "HONOR",
+      "market": "CN",
+      "category": "tablet",
+      "series": "荣耀平板 V Pro",
+      "family": "荣耀平板 V Pro",
+      "variant": "standard",
+      "modelName": "荣耀平板V8 Pro",
+      "generation": "平板V8 Pro",
+      "generationOrder": 1,
+      "releaseYear": 2022,
+      "releaseDate": "2022-12-30",
+      "comparisonGroupId": "honor.tablet.pad-v-pro.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "8GB + 128GB",
+            "rawText": "荣耀平板V8 Pro（8GB/128GB/WiFi版）；系统内存 8GB；存储容量 128GB；处理器型号 联发科 天玑8100；显卡芯片 Mali-G610 MC6",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1435/1434891/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:22.326Z",
+            "sourceSnapshotHash": "174e4c5a3d8bf9b07cb65ae1e04b6376935f675930384bfc2857b35740819d02"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "荣耀平板V8 Pro（12GB/256GB/WiFi版）；系统内存 12GB；存储容量 256GB；处理器型号 联发科 天玑8100；显卡芯片 Mali-G610 MC6",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1439/1438715/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:22.426Z",
+            "sourceSnapshotHash": "ee51179d4331113c6ce3531d9ccda66738a5996423c069977eb86ea98be8463f"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "荣耀平板V8 Pro（8GB/256GB/WiFi版）；系统内存 8GB；存储容量 256GB；处理器型号 联发科 天玑8100；显卡芯片 Mali-G610 MC6",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1439/1438714/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:22.412Z",
+            "sourceSnapshotHash": "5ff6e7ae14c5ee6acc61d48dd764bf63b0708f31533ce293c43f0ebd44dbad53"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "联发科 天玑8100",
+          "rawText": "处理器型号 联发科 天玑8100",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1435/1434891/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:22.326Z",
+          "sourceSnapshotHash": "174e4c5a3d8bf9b07cb65ae1e04b6376935f675930384bfc2857b35740819d02",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "memory": {
+          "value": "8GB / 12GB",
+          "rawText": "系统内存 8GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1435/1434891/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:22.326Z",
+          "sourceSnapshotHash": "174e4c5a3d8bf9b07cb65ae1e04b6376935f675930384bfc2857b35740819d02",
+          "note": "可选值仅汇总本设备各独立配置的 evidence，不表示全部在售组合。"
+        },
+        "storage": {
+          "value": "128GB / 256GB",
+          "rawText": "存储容量 128GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1435/1434891/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:22.326Z",
+          "sourceSnapshotHash": "174e4c5a3d8bf9b07cb65ae1e04b6376935f675930384bfc2857b35740819d02",
+          "note": "可选值仅汇总本设备各独立配置的 evidence，不表示全部在售组合。"
+        },
+        "screenSize": {
+          "value": 12.1,
+          "unit": "inch",
+          "rawText": "屏幕尺寸 12.1英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1435/1434891/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:22.326Z",
+          "sourceSnapshotHash": "174e4c5a3d8bf9b07cb65ae1e04b6376935f675930384bfc2857b35740819d02"
+        },
+        "displayType": {
+          "value": "TFT LCD（IPS）",
+          "rawText": "屏幕类型 TFT LCD（IPS）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1435/1434891/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:22.326Z",
+          "sourceSnapshotHash": "174e4c5a3d8bf9b07cb65ae1e04b6376935f675930384bfc2857b35740819d02"
+        },
+        "resolution": {
+          "value": "2560x1600",
+          "rawText": "屏幕分辨率 2560x1600",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1435/1434891/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:22.326Z",
+          "sourceSnapshotHash": "174e4c5a3d8bf9b07cb65ae1e04b6376935f675930384bfc2857b35740819d02"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "屏幕刷新率 144Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1435/1434891/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:22.326Z",
+          "sourceSnapshotHash": "174e4c5a3d8bf9b07cb65ae1e04b6376935f675930384bfc2857b35740819d02"
+        },
+        "weight": {
+          "value": 589,
+          "unit": "g",
+          "rawText": "产品重量 589g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1435/1434891/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:22.326Z",
+          "sourceSnapshotHash": "174e4c5a3d8bf9b07cb65ae1e04b6376935f675930384bfc2857b35740819d02"
+        },
+        "batteryCapacity": {
+          "value": 10050,
+          "unit": "mAh",
+          "rawText": "电池容量 10050mAh",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1435/1434891/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:22.326Z",
+          "sourceSnapshotHash": "174e4c5a3d8bf9b07cb65ae1e04b6376935f675930384bfc2857b35740819d02"
+        },
+        "port": {
+          "value": "USB Type-c",
+          "rawText": "数据接口 USB Type-c",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1435/1434891/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:22.326Z",
+          "sourceSnapshotHash": "174e4c5a3d8bf9b07cb65ae1e04b6376935f675930384bfc2857b35740819d02"
+        },
+        "gpu": {
+          "value": "Mali-G610 MC6",
+          "rawText": "显卡芯片 Mali-G610 MC6",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1435/1434891/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:22.326Z",
+          "sourceSnapshotHash": "174e4c5a3d8bf9b07cb65ae1e04b6376935f675930384bfc2857b35740819d02"
+        },
+        "wifi": {
+          "value": "支持802.11ax无线协议",
+          "rawText": "WiFi功能 支持802.11ax无线协议",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1435/1434891/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:22.326Z",
+          "sourceSnapshotHash": "174e4c5a3d8bf9b07cb65ae1e04b6376935f675930384bfc2857b35740819d02"
+        },
+        "rearCamera": {
+          "value": "1300万像素",
+          "rawText": "后置摄像头 1300万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1435/1434891/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:22.326Z",
+          "sourceSnapshotHash": "174e4c5a3d8bf9b07cb65ae1e04b6376935f675930384bfc2857b35740819d02"
+        },
+        "frontCamera": {
+          "value": "500万像素",
+          "rawText": "前置摄像头 500万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1435/1434891/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:22.326Z",
+          "sourceSnapshotHash": "174e4c5a3d8bf9b07cb65ae1e04b6376935f675930384bfc2857b35740819d02"
+        },
+        "memoryType": {
+          "value": "LPDDR4x",
+          "rawText": "内存类型 LPDDR4x",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1435/1434891/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:22.326Z",
+          "sourceSnapshotHash": "174e4c5a3d8bf9b07cb65ae1e04b6376935f675930384bfc2857b35740819d02"
+        },
+        "operatingSystem": {
+          "value": "MagicOS 7.0（基于Android 12）",
+          "rawText": "操作系统 MagicOS 7.0（基于Android 12）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1435/1434891/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:22.326Z",
+          "sourceSnapshotHash": "174e4c5a3d8bf9b07cb65ae1e04b6376935f675930384bfc2857b35740819d02"
+        },
+        "dimensions": {
+          "value": "277×178.95×6.99mm",
+          "rawText": "产品尺寸 277×178.95×6.99mm",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1435/1434891/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:22.326Z",
+          "sourceSnapshotHash": "174e4c5a3d8bf9b07cb65ae1e04b6376935f675930384bfc2857b35740819d02"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "honor-magicbook-14-2023",
+      "brand": "HONOR",
+      "market": "CN",
+      "category": "laptop",
+      "series": "荣耀 MagicBook 14",
+      "family": "荣耀 MagicBook 14",
+      "variant": "standard",
+      "modelName": "荣耀 MagicBook 14 (2023)",
+      "generation": "MagicBook 14 (2023)",
+      "generationOrder": 1,
+      "releaseYear": 2023,
+      "releaseDate": "2023-04-19",
+      "comparisonGroupId": "honor.laptop.magicbook-14.standard",
+      "configurations": [
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "chip": "Intel 酷睿i5 13500H",
+          "evidence": {
+            "value": "16GB + 512GB · Intel 酷睿i5 13500H",
+            "rawText": "荣耀MagicBook 14 2023(i5 13500H/16GB/512GB/集显)；内存容量 16GB 极速运行；硬盘容量 512GB；CPU型号 Intel 酷睿i5 13500H 中端主流机；显卡芯片 Intel Iris Xe Graphics",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1509/1508763/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:23.431Z",
+            "sourceSnapshotHash": "be3c05f18cc104ce3827608d378d59751f25c548dc3e59d70c7d534091fd3335"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB",
+          "chip": "Intel 酷睿i5 13500H",
+          "evidence": {
+            "value": "16GB + 1TB · Intel 酷睿i5 13500H",
+            "rawText": "荣耀MagicBook 14 2023(i5 13500H/16GB/1TB/集显)；内存容量 16GB 极速运行；硬盘容量 1TB；CPU型号 Intel 酷睿i5 13500H 中端主流机；显卡芯片 Intel Iris Xe Graphics",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1512/1511479/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:25:23.370Z",
+            "sourceSnapshotHash": "074959d62622faaaaeabbd75acb9a8be9b730fe0dd17eb3939301d162b832d8a"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "Intel 酷睿i5 13500H",
+          "rawText": "CPU型号 Intel 酷睿i5 13500H 中端主流机",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1509/1508763/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:23.431Z",
+          "sourceSnapshotHash": "be3c05f18cc104ce3827608d378d59751f25c548dc3e59d70c7d534091fd3335",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "memory": {
+          "value": "16GB",
+          "rawText": "内存容量 16GB 极速运行",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1509/1508763/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:23.431Z",
+          "sourceSnapshotHash": "be3c05f18cc104ce3827608d378d59751f25c548dc3e59d70c7d534091fd3335",
+          "note": "可选值仅汇总本设备各独立配置的 evidence，不表示全部在售组合。"
+        },
+        "storage": {
+          "value": "512GB / 1TB",
+          "rawText": "硬盘容量 512GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1509/1508763/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:23.431Z",
+          "sourceSnapshotHash": "be3c05f18cc104ce3827608d378d59751f25c548dc3e59d70c7d534091fd3335",
+          "note": "可选值仅汇总本设备各独立配置的 evidence，不表示全部在售组合。"
+        },
+        "screenSize": {
+          "value": 14.2,
+          "unit": "inch",
+          "rawText": "屏幕尺寸 14.2英寸 14.2 游戏、便捷",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1509/1508763/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:23.431Z",
+          "sourceSnapshotHash": "be3c05f18cc104ce3827608d378d59751f25c548dc3e59d70c7d534091fd3335"
+        },
+        "resolution": {
+          "value": "2560x1680 超高清屏",
+          "rawText": "屏幕分辨率 2560x1680 超高清屏",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1509/1508763/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:23.431Z",
+          "sourceSnapshotHash": "be3c05f18cc104ce3827608d378d59751f25c548dc3e59d70c7d534091fd3335"
+        },
+        "refreshRate": {
+          "value": 90,
+          "unit": "Hz",
+          "rawText": "屏幕刷新率 90Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1509/1508763/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:23.431Z",
+          "sourceSnapshotHash": "be3c05f18cc104ce3827608d378d59751f25c548dc3e59d70c7d534091fd3335"
+        },
+        "port": {
+          "value": "左侧：2×USB3.2 Type-C 右侧：1×USB3.1 Type-A",
+          "rawText": "数据接口 左侧：2×USB3.2 Type-C 右侧：1×USB3.1 Type-A",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1509/1508763/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:23.431Z",
+          "sourceSnapshotHash": "be3c05f18cc104ce3827608d378d59751f25c548dc3e59d70c7d534091fd3335"
+        },
+        "gpu": {
+          "value": "Intel Iris Xe Graphics",
+          "rawText": "显卡芯片 Intel Iris Xe Graphics",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1509/1508763/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:23.431Z",
+          "sourceSnapshotHash": "be3c05f18cc104ce3827608d378d59751f25c548dc3e59d70c7d534091fd3335"
+        },
+        "wifi": {
+          "value": "WiFi6 ，支持802.11a/b/g/n/ac/ax无线协议， 支持双频（2.4GHz+5GHz）",
+          "rawText": "无线网卡 WiFi6 ，支持802.11a/b/g/n/ac/ax无线协议， 支持双频（2.4GHz+5GHz）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1509/1508763/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:23.431Z",
+          "sourceSnapshotHash": "be3c05f18cc104ce3827608d378d59751f25c548dc3e59d70c7d534091fd3335"
+        },
+        "bluetooth": {
+          "value": "支持，蓝牙5.2模块",
+          "rawText": "蓝牙 支持，蓝牙5.2模块",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1509/1508763/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:23.431Z",
+          "sourceSnapshotHash": "be3c05f18cc104ce3827608d378d59751f25c548dc3e59d70c7d534091fd3335"
+        },
+        "memoryType": {
+          "value": "LPDDR5（低功耗版）4800MHz",
+          "rawText": "内存类型 LPDDR5（低功耗版）4800MHz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1509/1508763/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:23.431Z",
+          "sourceSnapshotHash": "be3c05f18cc104ce3827608d378d59751f25c548dc3e59d70c7d534091fd3335"
+        },
+        "operatingSystem": {
+          "value": "预装Windows 11 Home Basic 64bit（64位家庭普通版）",
+          "rawText": "操作系统 预装Windows 11 Home Basic 64bit（64位家庭普通版）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1509/1508763/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:23.431Z",
+          "sourceSnapshotHash": "be3c05f18cc104ce3827608d378d59751f25c548dc3e59d70c7d534091fd3335"
+        },
+        "security": {
+          "value": "支持智能指纹识别功能",
+          "rawText": "指纹识别 支持智能指纹识别功能",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1509/1508763/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:23.431Z",
+          "sourceSnapshotHash": "be3c05f18cc104ce3827608d378d59751f25c548dc3e59d70c7d534091fd3335"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1509/1508763/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:25:23.431Z",
+          "sourceSnapshotHash": "be3c05f18cc104ce3827608d378d59751f25c548dc3e59d70c7d534091fd3335"
+        }
+      },
+      "computed": {}
+    }
+  ]
+}

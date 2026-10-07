@@ -1,0 +1,3862 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "generatedAt": "2026-10-05",
+    "totalDevices": 5,
+    "coverage": {
+      "market": "CN",
+      "minReleaseYear": 2022,
+      "asOf": "2026-10-06",
+      "scope": "仅处理上一批有来源的16项手机差集与指定官方缺项；平板沿用partial目录，不新增未知范围。",
+      "partial": true
+    },
+    "audit": {
+      "replayValidation": {
+        "offline": true,
+        "specFieldsChecked": 110,
+        "fieldHashesChecked": 151,
+        "configurationsChecked": 15,
+        "imagePageHashesChecked": 13,
+        "sourcePageType": "expanded_core_spec_snapshots",
+        "configurationMethod": "官方明确成对SKU或ZOL单值逐SKU；限量版独立device，无容量首值/交叉相乘",
+        "coreFieldGapsComplete": true
+      },
+      "inventory": [
+        {
+          "id": "oppo-reno8-pro-plus-2022",
+          "brand": "OPPO",
+          "modelName": "OPPO Reno8 Pro+",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "Reno Pro+",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.oppo.com/cn/smartphones/series-reno/reno8-pro-plus/specs/",
+            "https://detail.zol.com.cn/series/57/38780_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_38780_0_1.html",
+            "https://detail.zol.com.cn/1404/1403347/param.shtml",
+            "https://detail.zol.com.cn/1409/1408999/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2197/index21961917_0_p1403347.shtml",
+            "https://detail.zol.com.cn/picture_index_2197/index21961919_0_p1403347.shtml"
+          ]
+        },
+        {
+          "id": "oppo-reno10-pro-plus-2023",
+          "brand": "OPPO",
+          "modelName": "OPPO Reno10 Pro+",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "Reno Pro+",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.oppo.com/cn/smartphones/series-reno/reno10-pro-plus/specs/",
+            "https://detail.zol.com.cn/series/57/10722537_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10722537_0_1.html",
+            "https://detail.zol.com.cn/1439/1438887/param.shtml",
+            "https://detail.zol.com.cn/1614/1613699/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2383/index23829614_0_p1438887.shtml",
+            "https://detail.zol.com.cn/picture_index_2383/index23829610_0_p1613699.shtml"
+          ]
+        },
+        {
+          "id": "oppo-reno10-pro-starlight-2023",
+          "brand": "OPPO",
+          "modelName": "OPPO Reno10 Pro 星籁版",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "Reno Pro 星籁版",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10722536_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10722536_0_1.html",
+            "https://detail.zol.com.cn/1782/1781800/param.shtml",
+            "https://m.cnmo.com/news/756303.html",
+            "https://www.oppo.com/cn/smartphones/series-reno/reno10-pro/",
+            "https://detail.zol.com.cn/cell_phone/index1781800.shtml",
+            "https://detail.zol.com.cn/picture_index_2471/index24702289_0_p1781800.shtml",
+            "https://detail.zol.com.cn/picture_index_2471/index24702295_0_p1781800.shtml"
+          ]
+        },
+        {
+          "id": "oppo-k9x-2022",
+          "brand": "OPPO",
+          "modelName": "OPPO K9x",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "K x",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.oppo.com/cn/smartphones/series-k/k9x/specs/",
+            "https://detail.zol.com.cn/series/57/37377_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_37377_0_1.html",
+            "https://detail.zol.com.cn/1397/1396119/param.shtml",
+            "https://detail.zol.com.cn/1397/1396121/param.shtml",
+            "https://detail.zol.com.cn/1397/1396120/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2173/index21724173_0_p1396119.shtml",
+            "https://detail.zol.com.cn/picture_index_2173/index21724170_0_p1396121.shtml"
+          ]
+        },
+        {
+          "id": "oppo-k10-2022",
+          "brand": "OPPO",
+          "modelName": "OPPO K10",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "K",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.oppo.com/cn/smartphones/series-k/k10/specs/",
+            "https://detail.zol.com.cn/series/57/38067_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_38067_0_1.html",
+            "https://detail.zol.com.cn/1400/1399645/param.shtml",
+            "https://detail.zol.com.cn/1404/1403894/param.shtml",
+            "https://detail.zol.com.cn/1404/1403892/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2462/index24615607_0_p1399645.shtml",
+            "https://detail.zol.com.cn/picture_index_2462/index24615615_0_p1399645.shtml"
+          ]
+        },
+        {
+          "id": "oppo-k10-pro-2022",
+          "brand": "OPPO",
+          "modelName": "OPPO K10 Pro",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "K Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.oppo.com/cn/smartphones/series-k/k10-pro/specs/",
+            "https://detail.zol.com.cn/series/57/38068_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_38068_0_1.html",
+            "https://detail.zol.com.cn/1404/1403111/param.shtml",
+            "https://detail.zol.com.cn/1404/1403900/param.shtml",
+            "https://detail.zol.com.cn/1404/1403899/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2464/index24630638_0_p1403111.shtml",
+            "https://detail.zol.com.cn/picture_index_2464/index24630636_0_p1403111.shtml"
+          ]
+        },
+        {
+          "id": "oppo-k10x-2022",
+          "brand": "OPPO",
+          "modelName": "OPPO K10x",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "K x",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.oppo.com/cn/smartphones/series-k/k10x/specs/",
+            "https://detail.zol.com.cn/series/57/10717416_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10717416_0_1.html",
+            "https://detail.zol.com.cn/1428/1427782/param.shtml",
+            "https://detail.zol.com.cn/1429/1428269/param.shtml",
+            "https://detail.zol.com.cn/1429/1428268/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2226/index22256450_0_p1427782.shtml",
+            "https://detail.zol.com.cn/picture_index_2226/index22256445_0_p1428269.shtml"
+          ]
+        },
+        {
+          "id": "oppo-k10-energy-2022",
+          "brand": "OPPO",
+          "modelName": "OPPO K10 活力版",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "K 活力版",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10714373_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10714373_0_1.html",
+            "https://detail.zol.com.cn/1422/1421581/param.shtml",
+            "https://news.mydrivers.com/blog/20220722.htm",
+            "https://detail.zol.com.cn/picture_index_2264/index22634156_0_p1421581.shtml",
+            "https://detail.zol.com.cn/picture_index_2264/index22634158_0_p1421581.shtml"
+          ]
+        },
+        {
+          "id": "oppo-k12x-2024",
+          "brand": "OPPO",
+          "modelName": "OPPO K12x",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "K x",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.oppo.com/cn/smartphones/series-k/k12x/specs/",
+            "https://detail.zol.com.cn/series/57/10862426_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10862426_0_1.html",
+            "https://detail.zol.com.cn/2010/2009558/param.shtml",
+            "https://detail.zol.com.cn/2010/2009560/param.shtml",
+            "https://detail.zol.com.cn/2010/2009559/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2633/index26322529_0_p2009558.shtml",
+            "https://detail.zol.com.cn/picture_index_2633/index26322537_0_p2009558.shtml"
+          ]
+        },
+        {
+          "id": "oppo-k12-plus-2024",
+          "brand": "OPPO",
+          "modelName": "OPPO K12 Plus",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "K Plus",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.oppo.com/cn/smartphones/series-k/k12-plus/specs/",
+            "https://detail.zol.com.cn/series/57/10906242_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10906242_0_1.html",
+            "https://detail.zol.com.cn/2110/2109643/param.shtml",
+            "https://detail.zol.com.cn/2110/2109744/param.shtml",
+            "https://detail.zol.com.cn/2110/2109743/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2700/index26994434_0_p2109643.shtml",
+            "https://detail.zol.com.cn/picture_index_2700/index26995821_0_p2109744.shtml"
+          ]
+        },
+        {
+          "id": "oppo-k13-turbo-2025",
+          "brand": "OPPO",
+          "modelName": "OPPO K13 Turbo",
+          "releaseYear": 2025,
+          "category": "phone",
+          "series": "K Turbo",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.oppo.com/cn/smartphones/series-k/k13-turbo/specs/",
+            "https://detail.zol.com.cn/series/57/10915946_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10915946_0_1.html",
+            "https://detail.zol.com.cn/2135/2134009/param.shtml",
+            "https://detail.zol.com.cn/2135/2134011/param.shtml",
+            "https://detail.zol.com.cn/2135/2134010/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2728/index27276621_0_p2134009.shtml",
+            "https://detail.zol.com.cn/picture_index_2728/index27276618_0_p2134009.shtml"
+          ]
+        },
+        {
+          "id": "oppo-find-x5-2022",
+          "brand": "OPPO",
+          "modelName": "OPPO Find X5",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "Find X",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/37683_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_37683_0_1.html",
+            "https://detail.zol.com.cn/1384/1383816/param.shtml",
+            "https://detail.zol.com.cn/1400/1399153/param.shtml",
+            "https://detail.zol.com.cn/1400/1399154/param.shtml",
+            "https://www.ithome.com/0/605/760.htm",
+            "https://detail.zol.com.cn/picture_index_2231/index22308111_0_p1383816.shtml",
+            "https://detail.zol.com.cn/picture_index_2231/index22308193_0_p1383816.shtml"
+          ]
+        },
+        {
+          "id": "oppo-find-x5-pro-2022",
+          "brand": "OPPO",
+          "modelName": "OPPO Find X5 Pro",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "Find X Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x5-pro/specs/",
+            "https://detail.zol.com.cn/series/57/37684_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_37684_0_1.html",
+            "https://detail.zol.com.cn/1384/1383817/param.shtml",
+            "https://detail.zol.com.cn/1400/1399155/param.shtml",
+            "https://detail.zol.com.cn/1400/1399156/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2216/index22152117_0_p1383817.shtml",
+            "https://detail.zol.com.cn/picture_index_2216/index22152118_0_p1383817.shtml"
+          ]
+        },
+        {
+          "id": "oppo-find-x6-2023",
+          "brand": "OPPO",
+          "modelName": "OPPO Find X6",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "Find X",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10716272_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10716272_0_1.html",
+            "https://detail.zol.com.cn/1426/1425427/param.shtml",
+            "https://detail.zol.com.cn/1475/1474582/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2305/index23043117_0_p1425427.shtml",
+            "https://detail.zol.com.cn/picture_index_2305/index23045358_0_p1425427.shtml"
+          ]
+        },
+        {
+          "id": "oppo-find-x6-pro-2023",
+          "brand": "OPPO",
+          "modelName": "OPPO Find X6 Pro",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "Find X Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10716275_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10716275_0_1.html",
+            "https://detail.zol.com.cn/1426/1425497/param.shtml",
+            "https://detail.zol.com.cn/1475/1474652/param.shtml",
+            "https://detail.zol.com.cn/1475/1474653/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2305/index23043926_0_p1425497.shtml",
+            "https://detail.zol.com.cn/picture_index_2305/index23043920_0_p1425497.shtml"
+          ]
+        },
+        {
+          "id": "oppo-reno8-2022",
+          "brand": "OPPO",
+          "modelName": "OPPO Reno8",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "Reno",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/38774_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_38774_0_1.html",
+            "https://detail.zol.com.cn/1399/1398801/param.shtml",
+            "https://detail.zol.com.cn/1409/1408979/param.shtml",
+            "https://detail.zol.com.cn/1411/1410077/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2197/index21961580_0_p1398801.shtml",
+            "https://detail.zol.com.cn/picture_index_2197/index21961572_0_p1398801.shtml"
+          ]
+        },
+        {
+          "id": "oppo-reno8-pro-2022",
+          "brand": "OPPO",
+          "modelName": "OPPO Reno8 Pro",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "Reno Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/38776_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_38776_0_1.html",
+            "https://detail.zol.com.cn/1409/1408986/param.shtml",
+            "https://detail.zol.com.cn/1384/1383825/param.shtml",
+            "https://detail.zol.com.cn/1409/1408987/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2207/index22064835_0_p1408986.shtml",
+            "https://detail.zol.com.cn/picture_index_2197/index21961720_0_p1408986.shtml"
+          ]
+        },
+        {
+          "id": "oppo-reno9-2022",
+          "brand": "OPPO",
+          "modelName": "OPPO Reno9",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "Reno",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10717397_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10717397_0_1.html",
+            "https://detail.zol.com.cn/1428/1427748/param.shtml",
+            "https://detail.zol.com.cn/1434/1433721/param.shtml",
+            "https://detail.zol.com.cn/1434/1433722/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2249/index22481814_0_p1427748.shtml",
+            "https://detail.zol.com.cn/picture_index_2249/index22481811_0_p1427748.shtml"
+          ]
+        },
+        {
+          "id": "oppo-reno9-pro-2022",
+          "brand": "OPPO",
+          "modelName": "OPPO Reno9 Pro",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "Reno Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10716499_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10716499_0_1.html",
+            "https://detail.zol.com.cn/1426/1425846/param.shtml",
+            "https://detail.zol.com.cn/1434/1433727/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2249/index22481971_0_p1425846.shtml",
+            "https://detail.zol.com.cn/picture_index_2249/index22481960_0_p1425846.shtml"
+          ]
+        },
+        {
+          "id": "oppo-reno10-pro-2023",
+          "brand": "OPPO",
+          "modelName": "OPPO Reno10 Pro",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "Reno Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10722536_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10722536_0_1.html",
+            "https://detail.zol.com.cn/1439/1438886/param.shtml",
+            "https://detail.zol.com.cn/1614/1613690/param.shtml",
+            "https://www.oppo.com/cn/smartphones/series-reno/reno10-pro/",
+            "https://detail.zol.com.cn/picture_index_2383/index23829442_0_p1438886.shtml",
+            "https://detail.zol.com.cn/picture_index_2383/index23829441_0_p1613690.shtml"
+          ]
+        },
+        {
+          "id": "oppo-reno11-pro-2023",
+          "brand": "OPPO",
+          "modelName": "OPPO Reno11 Pro",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "Reno Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10842220_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10842220_0_1.html",
+            "https://detail.zol.com.cn/1949/1948895/param.shtml",
+            "https://detail.zol.com.cn/1958/1957882/param.shtml",
+            "https://www.ithome.com/0/736/324.htm",
+            "https://detail.zol.com.cn/picture_index_2570/index25694952_0_p1948895.shtml",
+            "https://detail.zol.com.cn/picture_index_2570/index25694950_0_p1948895.shtml"
+          ]
+        },
+        {
+          "id": "oppo-reno12-pro-2024",
+          "brand": "OPPO",
+          "modelName": "OPPO Reno12 Pro",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "Reno Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10862544_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10862544_0_1.html",
+            "https://detail.zol.com.cn/2010/2009826/param.shtml",
+            "https://detail.zol.com.cn/2018/2017640/param.shtml",
+            "https://detail.zol.com.cn/2018/2017639/param.shtml",
+            "https://www.ithome.com/0/770/166.htm",
+            "https://detail.zol.com.cn/picture_index_2638/index26372880_0_p2009826.shtml",
+            "https://detail.zol.com.cn/picture_index_2638/index26372904_0_p2017639.shtml"
+          ]
+        },
+        {
+          "id": "oppo-reno13-2024",
+          "brand": "OPPO",
+          "modelName": "OPPO Reno13",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "Reno",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10907847_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10907847_0_1.html",
+            "https://detail.zol.com.cn/2114/2113675/param.shtml",
+            "https://detail.zol.com.cn/2116/2115081/param.shtml",
+            "https://detail.zol.com.cn/2116/2115084/param.shtml",
+            "https://detail.zol.com.cn/2116/2115083/param.shtml",
+            "https://detail.zol.com.cn/2116/2115082/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2706/index27051823_0_p2113675.shtml",
+            "https://detail.zol.com.cn/picture_index_2706/index27051866_0_p2113675.shtml"
+          ]
+        },
+        {
+          "id": "oppo-reno13-pro-2024",
+          "brand": "OPPO",
+          "modelName": "OPPO Reno13 Pro",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "Reno Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10908138_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10908138_0_1.html",
+            "https://detail.zol.com.cn/2115/2114604/param.shtml",
+            "https://detail.zol.com.cn/2116/2115078/param.shtml",
+            "https://detail.zol.com.cn/2116/2115079/param.shtml",
+            "https://detail.zol.com.cn/2116/2115080/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2706/index27051521_0_p2114604.shtml",
+            "https://detail.zol.com.cn/picture_index_2706/index27051529_0_p2114604.shtml"
+          ]
+        },
+        {
+          "id": "oppo-reno14-2025",
+          "brand": "OPPO",
+          "modelName": "OPPO Reno14",
+          "releaseYear": 2025,
+          "category": "phone",
+          "series": "Reno",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10913448_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10913448_0_1.html",
+            "https://detail.zol.com.cn/2128/2127907/param.shtml",
+            "https://detail.zol.com.cn/2128/2127908/param.shtml",
+            "https://detail.zol.com.cn/2128/2127909/param.shtml",
+            "https://detail.zol.com.cn/2128/2127910/param.shtml",
+            "https://detail.zol.com.cn/2128/2127911/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2722/index27213621_0_p2127907.shtml",
+            "https://detail.zol.com.cn/picture_index_2722/index27211893_0_p2127907.shtml"
+          ]
+        },
+        {
+          "id": "oppo-reno14-pro-2025",
+          "brand": "OPPO",
+          "modelName": "OPPO Reno14 Pro",
+          "releaseYear": 2025,
+          "category": "phone",
+          "series": "Reno Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10913449_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10913449_0_1.html",
+            "https://detail.zol.com.cn/2128/2127912/param.shtml",
+            "https://detail.zol.com.cn/2128/2127913/param.shtml",
+            "https://detail.zol.com.cn/2128/2127915/param.shtml",
+            "https://detail.zol.com.cn/2128/2127914/param.shtml",
+            "https://www.ithome.com/0/855/353.htm",
+            "https://detail.zol.com.cn/picture_index_2722/index27210035_0_p2127912.shtml",
+            "https://detail.zol.com.cn/picture_index_2722/index27210030_0_p2127913.shtml"
+          ]
+        },
+        {
+          "id": "oppo-find-n2-2022",
+          "brand": "OPPO",
+          "modelName": "OPPO Find N2",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "Find N",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10717475_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10717475_0_1.html",
+            "https://detail.zol.com.cn/1428/1427932/param.shtml",
+            "https://detail.zol.com.cn/1438/1437086/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2256/index22557670_0_p1427932.shtml",
+            "https://detail.zol.com.cn/picture_index_2256/index22557669_0_p1427932.shtml"
+          ]
+        },
+        {
+          "id": "oppo-find-n2-flip-2022",
+          "brand": "OPPO",
+          "modelName": "OPPO Find N2 Flip",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "Find N Flip",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10717477_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10717477_0_1.html",
+            "https://detail.zol.com.cn/1428/1427934/param.shtml",
+            "https://detail.zol.com.cn/1438/1437090/param.shtml",
+            "https://detail.zol.com.cn/1438/1437089/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2256/index22557782_0_p1427934.shtml",
+            "https://detail.zol.com.cn/picture_index_2256/index22556387_0_p1427934.shtml"
+          ]
+        },
+        {
+          "id": "oppo-find-n3-2023",
+          "brand": "OPPO",
+          "modelName": "OPPO Find N3",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "Find N",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10747528_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10747528_0_1.html",
+            "https://detail.zol.com.cn/1495/1494542/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2544/index25433837_0_p1494542.shtml",
+            "https://detail.zol.com.cn/picture_index_2544/index25433836_0_p1494542.shtml"
+          ]
+        },
+        {
+          "id": "oppo-find-n3-flip-2023",
+          "brand": "OPPO",
+          "modelName": "OPPO Find N3 Flip",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "Find N Flip",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10813070_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10813070_0_1.html",
+            "https://detail.zol.com.cn/1850/1849601/param.shtml",
+            "https://detail.zol.com.cn/1858/1857456/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2503/index25024569_0_p1849601.shtml",
+            "https://detail.zol.com.cn/picture_index_2503/index25024593_0_p1849601.shtml"
+          ]
+        },
+        {
+          "id": "oppo-find-n5-2025",
+          "brand": "OPPO",
+          "modelName": "OPPO Find N5",
+          "releaseYear": 2025,
+          "category": "phone",
+          "series": "Find N",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10910414_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10910414_0_1.html",
+            "https://detail.zol.com.cn/2122/2121088/param.shtml",
+            "https://detail.zol.com.cn/2122/2121089/param.shtml",
+            "https://www.ithome.com/0/832/423.htm",
+            "https://detail.zol.com.cn/picture_index_2713/index27123810_0_p2121088.shtml",
+            "https://detail.zol.com.cn/picture_index_2713/index27123799_0_p2121090.shtml"
+          ]
+        },
+        {
+          "id": "oppo-reno10-2023",
+          "brand": "OPPO",
+          "modelName": "OPPO Reno10",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "Reno",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10722535_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10722535_0_1.html",
+            "https://detail.zol.com.cn/1439/1438885/param.shtml",
+            "https://detail.zol.com.cn/1614/1613693/param.shtml",
+            "https://detail.zol.com.cn/1614/1613692/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2383/index23829475_0_p1438885.shtml",
+            "https://detail.zol.com.cn/picture_index_2383/index23829488_0_p1613692.shtml"
+          ]
+        },
+        {
+          "id": "oppo-reno11-2023",
+          "brand": "OPPO",
+          "modelName": "OPPO Reno11",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "Reno",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10842218_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10842218_0_1.html",
+            "https://detail.zol.com.cn/1949/1948894/param.shtml",
+            "https://detail.zol.com.cn/1958/1957881/param.shtml",
+            "https://detail.zol.com.cn/1958/1957880/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2570/index25694935_0_p1948894.shtml",
+            "https://detail.zol.com.cn/picture_index_2570/index25694930_0_p1957881.shtml"
+          ]
+        },
+        {
+          "id": "oppo-reno12-2024",
+          "brand": "OPPO",
+          "modelName": "OPPO Reno12",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "Reno",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10862543_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10862543_0_1.html",
+            "https://detail.zol.com.cn/2010/2009825/param.shtml",
+            "https://detail.zol.com.cn/2018/2017636/param.shtml",
+            "https://detail.zol.com.cn/2018/2017638/param.shtml",
+            "https://detail.zol.com.cn/2018/2017637/param.shtml",
+            "https://www.ithome.com/0/770/166.htm",
+            "https://detail.zol.com.cn/picture_index_2638/index26372870_0_p2009825.shtml",
+            "https://detail.zol.com.cn/picture_index_2638/index26372848_0_p2017638.shtml"
+          ]
+        },
+        {
+          "id": "oppo-k11-2023",
+          "brand": "OPPO",
+          "modelName": "OPPO K11",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "K",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10801938_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10801938_0_1.html",
+            "https://detail.zol.com.cn/1789/1788651/param.shtml",
+            "https://detail.zol.com.cn/1837/1836870/param.shtml",
+            "https://detail.zol.com.cn/1837/1836871/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2495/index24944775_0_p1788651.shtml",
+            "https://detail.zol.com.cn/picture_index_2495/index24944804_0_p1788651.shtml"
+          ]
+        },
+        {
+          "id": "oppo-k12-2024",
+          "brand": "OPPO",
+          "modelName": "OPPO K12",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "K",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10855043_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10855043_0_1.html",
+            "https://detail.zol.com.cn/1986/1985917/param.shtml",
+            "https://detail.zol.com.cn/2003/2002551/param.shtml",
+            "https://detail.zol.com.cn/2003/2002550/param.shtml",
+            "https://www.ithome.com/0/764/925.htm",
+            "https://detail.zol.com.cn/picture_index_2625/index26247396_0_p1985917.shtml",
+            "https://detail.zol.com.cn/picture_index_2625/index26247390_0_p1985917.shtml"
+          ]
+        },
+        {
+          "id": "oppo-pad2-2023",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad 2",
+          "releaseYear": 2023,
+          "category": "tablet",
+          "series": "OPPO Pad",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.oppo.com/cn/accessories/oppo-pad-2/",
+            "https://detail.zol.com.cn/series/702/10725219_1.html",
+            "https://detail.zol.com.cn/series/702/1673/param_10725219_0_1.html",
+            "https://detail.zol.com.cn/1448/1447730/param.shtml",
+            "https://detail.zol.com.cn/1475/1474697/param.shtml",
+            "https://detail.zol.com.cn/1475/1474698/param.shtml",
+            "https://detail.zol.com.cn/1629/1628883/param.shtml",
+            "https://www.ithome.com/0/681/931.htm",
+            "https://detail.zol.com.cn/picture_index_2305/index23044190_0_p1447730.shtml",
+            "https://detail.zol.com.cn/picture_index_2305/index23044164_0_p1447730.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/oppo/",
+            "https://detail.zol.com.cn/series/702/10725219_1.html"
+          ]
+        },
+        {
+          "id": "oppo-pad3-2024",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad 3",
+          "releaseYear": 2024,
+          "category": "tablet",
+          "series": "OPPO Pad",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.opposhop.cn/cn/web/products/30898.html",
+            "https://detail.zol.com.cn/series/702/10908281_1.html",
+            "https://detail.zol.com.cn/series/702/1673/param_10908281_0_1.html",
+            "https://detail.zol.com.cn/2116/2115095/param.shtml",
+            "https://detail.zol.com.cn/2116/2115096/param.shtml",
+            "https://detail.zol.com.cn/2116/2115097/param.shtml",
+            "https://detail.zol.com.cn/2116/2115098/param.shtml",
+            "https://www.ithome.com/0/814/076.htm",
+            "https://detail.zol.com.cn/picture_index_2706/index27051749_0_p2115095.shtml",
+            "https://detail.zol.com.cn/picture_index_2706/index27051753_0_p2115095.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/oppo/",
+            "https://detail.zol.com.cn/series/702/10908281_1.html"
+          ]
+        },
+        {
+          "id": "oppo-find-x7-ultra-2024",
+          "brand": "OPPO",
+          "modelName": "OPPO Find X7 Ultra",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "Find X Ultra",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+            "https://www.ithome.com/0/743/979.htm",
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/",
+            "https://www.dxomark.com/oppo-find-x7-ultra-camera-test/"
+          ]
+        },
+        {
+          "id": "oppo-find-x8-ultra-2025",
+          "brand": "OPPO",
+          "modelName": "OPPO Find X8 Ultra",
+          "releaseYear": 2025,
+          "category": "phone",
+          "series": "Find X Ultra",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+            "https://m.ithome.com/html/844379.htm",
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/",
+            "https://www.dxomark.com/oppo-find-x8-ultra-camera-test/"
+          ]
+        },
+        {
+          "id": "oppo-find-x9-ultra-2026",
+          "brand": "OPPO",
+          "modelName": "OPPO Find X9 Ultra",
+          "releaseYear": 2026,
+          "category": "phone",
+          "series": "Find X Ultra",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+            "https://www.ithome.com/0/941/820.htm",
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/",
+            "https://detail.zol.com.cn/2165/2164063/param.shtml",
+            "https://www.dxomark.com/oppo-find-x9-ultra-camera-test/"
+          ]
+        },
+        {
+          "id": "oppo-find-x8-2024",
+          "brand": "OPPO",
+          "modelName": "OPPO Find X8",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "Find X",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+            "https://www.ithome.com/0/804/972.htm",
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/"
+          ]
+        },
+        {
+          "id": "oppo-find-x8-pro-2024",
+          "brand": "OPPO",
+          "modelName": "OPPO Find X8 Pro",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "Find X Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+            "https://www.ithome.com/0/804/972.htm",
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/"
+          ]
+        },
+        {
+          "id": "oppo-find-x9-2025",
+          "brand": "OPPO",
+          "modelName": "OPPO Find X9",
+          "releaseYear": 2025,
+          "category": "phone",
+          "series": "Find X",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+            "https://m.ithome.com/html/890054.htm",
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/"
+          ]
+        },
+        {
+          "id": "oppo-find-x9-pro-2025",
+          "brand": "OPPO",
+          "modelName": "OPPO Find X9 Pro",
+          "releaseYear": 2025,
+          "category": "phone",
+          "series": "Find X Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+            "https://m.ithome.com/html/890054.htm",
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/"
+          ]
+        },
+        {
+          "id": "oppo-find-x10-2026",
+          "brand": "OPPO",
+          "modelName": "OPPO Find X10",
+          "releaseYear": 2026,
+          "category": "phone",
+          "series": "Find X",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+            "https://www.ithome.com/1/005/944.htm",
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/",
+            "https://www.ithome.com/1/006/564.htm"
+          ]
+        },
+        {
+          "id": "oppo-find-x10-pro-max-2026",
+          "brand": "OPPO",
+          "modelName": "OPPO Find X10 Pro Max",
+          "releaseYear": 2026,
+          "category": "phone",
+          "series": "Find X Pro Max",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+            "https://m.ithome.com/html/1005943.htm",
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/",
+            "https://www.ithome.com/1/006/564.htm"
+          ]
+        },
+        {
+          "id": "oppo-find-x10-e-2026",
+          "brand": "OPPO",
+          "modelName": "OPPO Find X10 E",
+          "releaseYear": 2026,
+          "category": "phone",
+          "series": "Find X E",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+            "https://www.ithome.com/1/005/955.htm",
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/",
+            "https://www.ithome.com/1/006/564.htm"
+          ]
+        },
+        {
+          "id": "oppo-pad-2022",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad",
+          "releaseYear": 2022,
+          "category": "tablet",
+          "series": "OPPO Pad",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/37647_1.html",
+            "https://detail.zol.com.cn/series/702/1673/param_37647_0_1.html",
+            "https://detail.zol.com.cn/1399/1398796/param.shtml",
+            "https://detail.zol.com.cn/1424/1423660/param.shtml",
+            "https://detail.zol.com.cn/1399/1398798/param.shtml",
+            "https://detail.zol.com.cn/1399/1398799/param.shtml",
+            "https://m.cnmo.com/news/725342.html",
+            "https://www.oppo.com/cn/accessories/oppo-pad/specs/",
+            "https://detail.zol.com.cn/picture_index_2216/index22157311_0_p1398796.shtml",
+            "https://detail.zol.com.cn/picture_index_2216/index22157309_0_p1398796.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/oppo/",
+            "https://detail.zol.com.cn/series/702/37647_1.html"
+          ]
+        },
+        {
+          "id": "oppo-pad-air-2022",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad Air",
+          "releaseYear": 2022,
+          "category": "tablet",
+          "series": "OPPO Pad Air",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/39000_1.html",
+            "https://detail.zol.com.cn/series/702/1673/param_39000_0_1.html",
+            "https://detail.zol.com.cn/1409/1408713/param.shtml",
+            "https://detail.zol.com.cn/1411/1410312/param.shtml",
+            "https://detail.zol.com.cn/1629/1628888/param.shtml",
+            "https://detail.zol.com.cn/1411/1410313/param.shtml",
+            "https://www.oppo.com/cn/accessories/oppo-pad-air/specs/",
+            "https://detail.zol.com.cn/picture_index_2217/index22167066_0_p1408713.shtml",
+            "https://detail.zol.com.cn/picture_index_2199/index21984101_0_p1408713.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/oppo/",
+            "https://detail.zol.com.cn/series/702/39000_1.html"
+          ]
+        },
+        {
+          "id": "oppo-pad-air2-2023",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad Air 2",
+          "releaseYear": 2023,
+          "category": "tablet",
+          "series": "OPPO Pad Air",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10842592_1.html",
+            "https://detail.zol.com.cn/series/702/1673/param_10842592_0_1.html",
+            "https://detail.zol.com.cn/1950/1949831/param.shtml",
+            "https://detail.zol.com.cn/1958/1957883/param.shtml",
+            "https://detail.zol.com.cn/1958/1957884/param.shtml",
+            "https://www.ithome.com/0/734/935.htm",
+            "https://www.oppo.com/cn/accessories/oppo-pad-air2/specs/",
+            "https://detail.zol.com.cn/picture_index_2570/index25694996_0_p1949831.shtml",
+            "https://detail.zol.com.cn/picture_index_2570/index25694994_0_p1949831.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/oppo/",
+            "https://detail.zol.com.cn/series/702/10842592_1.html"
+          ]
+        },
+        {
+          "id": "oppo-pad3-pro-2024",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad3 Pro",
+          "releaseYear": 2024,
+          "category": "tablet",
+          "series": "OPPO Pad Pro",
+          "status": "blocked",
+          "reason": "oppo-pad3-pro-2024: 无完整日期或首售年份不符",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10906415_1.html"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/oppo/",
+            "https://detail.zol.com.cn/series/702/10906415_1.html"
+          ]
+        },
+        {
+          "id": "oppo-pad4-pro-2025",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad 4 Pro",
+          "releaseYear": 2025,
+          "category": "tablet",
+          "series": "OPPO Pad Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10911839_1.html",
+            "https://detail.zol.com.cn/series/702/1673/param_10911839_0_1.html",
+            "https://detail.zol.com.cn/2125/2124239/param.shtml",
+            "https://detail.zol.com.cn/2126/2125596/param.shtml",
+            "https://detail.zol.com.cn/2126/2125597/param.shtml",
+            "https://detail.zol.com.cn/2126/2125595/param.shtml",
+            "https://m.ithome.com/html/845595.htm",
+            "https://www.opposhop.cn/cn/web/products/33984.html",
+            "https://detail.zol.com.cn/picture_index_2718/index27176878_0_p2124239.shtml",
+            "https://detail.zol.com.cn/picture_index_2718/index27176877_0_p2124239.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/oppo/",
+            "https://detail.zol.com.cn/series/702/10911839_1.html"
+          ]
+        },
+        {
+          "id": "oppo-pad5-2025",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad 5",
+          "releaseYear": 2025,
+          "category": "tablet",
+          "series": "OPPO Pad",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10920259_1.html",
+            "https://detail.zol.com.cn/series/702/1673/param_10920259_0_1.html",
+            "https://detail.zol.com.cn/2145/2144809/param.shtml",
+            "https://detail.zol.com.cn/2145/2144812/param.shtml",
+            "https://detail.zol.com.cn/2145/2144811/param.shtml",
+            "https://detail.zol.com.cn/2145/2144810/param.shtml",
+            "https://news.mydrivers.com/1/1081/1081593.htm",
+            "https://www.oppo.com/cn/tablets/",
+            "https://www.ifanr.com/1642326",
+            "https://detail.zol.com.cn/picture_index_2737/index27365702_0_p2144809.shtml",
+            "https://detail.zol.com.cn/picture_index_2737/index27365698_0_p2144809.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/oppo/",
+            "https://detail.zol.com.cn/series/702/10920259_1.html"
+          ]
+        },
+        {
+          "id": "oppo-pad-se-2025",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad SE",
+          "releaseYear": 2025,
+          "category": "tablet",
+          "series": "OPPO Pad SE",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10913513_1.html",
+            "https://detail.zol.com.cn/series/702/1673/param_10913513_0_1.html",
+            "https://detail.zol.com.cn/2129/2128026/param.shtml",
+            "https://detail.zol.com.cn/2129/2128027/param.shtml",
+            "https://detail.zol.com.cn/2129/2128028/param.shtml",
+            "https://m.ithome.com/html/855353.htm",
+            "https://www.opposhop.cn/cn/web/products/34632.html",
+            "https://detail.zol.com.cn/picture_index_2722/index27212052_0_p2128026.shtml",
+            "https://detail.zol.com.cn/picture_index_2722/index27212063_0_p2128026.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/oppo/",
+            "https://detail.zol.com.cn/series/702/10913513_1.html"
+          ]
+        },
+        {
+          "id": "oppo-pad-mini-2026",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad Mini",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "OPPO Pad Mini",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10925840_1.html",
+            "https://detail.zol.com.cn/series/702/1673/param_10925840_0_1.html",
+            "https://detail.zol.com.cn/2164/2163645/param.shtml",
+            "https://detail.zol.com.cn/2165/2164094/param.shtml",
+            "https://detail.zol.com.cn/2165/2164095/param.shtml",
+            "https://m.cnmo.com/news/808210.html",
+            "https://www.opposhop.cn/cn/web/products/39996.html",
+            "https://detail.zol.com.cn/picture_index_2753/index27526756_0_p2163645.shtml",
+            "https://detail.zol.com.cn/picture_index_2753/index27526767_0_p2163645.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/oppo/",
+            "https://detail.zol.com.cn/series/702/10925840_1.html"
+          ]
+        },
+        {
+          "id": "oppo-k11x-2023",
+          "brand": "OPPO",
+          "modelName": "OPPO K11x",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "K x",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10771286_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10771286_0_1.html",
+            "https://detail.zol.com.cn/1612/1611438/param.shtml",
+            "https://detail.zol.com.cn/1628/1627554/param.shtml",
+            "https://detail.zol.com.cn/1628/1627553/param.shtml",
+            "https://www.ithome.com/0/697/019.htm",
+            "https://www.oppo.com/cn/smartphones/series-k/k11x/specs/",
+            "https://detail.zol.com.cn/picture_index_2389/index23883945_0_p1611438.shtml",
+            "https://detail.zol.com.cn/picture_index_2389/index23883968_0_p1611438.shtml"
+          ]
+        },
+        {
+          "id": "oppo-pad5-2025-soft-light",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad 5 柔光版",
+          "releaseYear": null,
+          "parentListedYear": 2025,
+          "category": "tablet",
+          "series": "OPPO Pad",
+          "status": "pending",
+          "reason": "特殊版在真实逐SKU目录独立列出，已从标准版排除；其国行首售、准确配置和版本专属图片本批尚未开展，不继承基型日期",
+          "listedConfigurations": [
+            {
+              "name": "OPPO Pad 5( 12GB/256GB/柔光版)",
+              "term": "柔光",
+              "sourceUrl": "https://detail.zol.com.cn/2145/2144814/param.shtml",
+              "sourceEvidence": {
+                "value": "OPPO Pad 5( 12GB/256GB/柔光版)",
+                "rawText": "OPPO Pad 5( 12GB/256GB/柔光版)",
+                "evidenceKind": "excerpt",
+                "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10920259_0_1.html",
+                "sourceType": "reference",
+                "confidence": 0.8,
+                "verifiedAt": "2026-10-05",
+                "fetchedAt": "2026-10-05T19:27:21.673Z",
+                "sourceSnapshotHash": "c8ca1662e5fe65973ff385b28419bf14eae3a5933f67307a58ecf2b605c7eb6d"
+              }
+            },
+            {
+              "name": "OPPO Pad 5( 8GB/256GB/柔光版)",
+              "term": "柔光",
+              "sourceUrl": "https://detail.zol.com.cn/2145/2144813/param.shtml",
+              "sourceEvidence": {
+                "value": "OPPO Pad 5( 8GB/256GB/柔光版)",
+                "rawText": "OPPO Pad 5( 8GB/256GB/柔光版)",
+                "evidenceKind": "excerpt",
+                "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10920259_0_1.html",
+                "sourceType": "reference",
+                "confidence": 0.8,
+                "verifiedAt": "2026-10-05",
+                "fetchedAt": "2026-10-05T19:27:21.673Z",
+                "sourceSnapshotHash": "c8ca1662e5fe65973ff385b28419bf14eae3a5933f67307a58ecf2b605c7eb6d"
+              }
+            }
+          ],
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/1673/param_10920259_0_1.html",
+            "https://detail.zol.com.cn/2145/2144814/param.shtml",
+            "https://detail.zol.com.cn/2145/2144813/param.shtml"
+          ],
+          "sourceEvidence": {
+            "value": "OPPO Pad 5( 12GB/256GB/柔光版)",
+            "rawText": "OPPO Pad 5( 12GB/256GB/柔光版)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10920259_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:27:21.673Z",
+            "sourceSnapshotHash": "c8ca1662e5fe65973ff385b28419bf14eae3a5933f67307a58ecf2b605c7eb6d"
+          },
+          "marketVerification": "基型国行已核验，独立特殊版尚未开展",
+          "yearBasis": "特殊版独立首售年份未知，不继承基型年份"
+        },
+        {
+          "id": "oppo-pad-se-2025-soft-light",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad SE 柔光版",
+          "releaseYear": null,
+          "parentListedYear": 2025,
+          "category": "tablet",
+          "series": "OPPO Pad SE",
+          "status": "pending",
+          "reason": "特殊版在真实逐SKU目录独立列出，已从标准版排除；其国行首售、准确配置和版本专属图片本批尚未开展，不继承基型日期",
+          "listedConfigurations": [
+            {
+              "name": "OPPO Pad SE（8GB/256GB/柔光版）",
+              "term": "柔光",
+              "sourceUrl": "https://detail.zol.com.cn/2129/2128030/param.shtml",
+              "sourceEvidence": {
+                "value": "OPPO Pad SE（8GB/256GB/柔光版）",
+                "rawText": "OPPO Pad SE（8GB/256GB/柔光版）",
+                "evidenceKind": "excerpt",
+                "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10913513_0_1.html",
+                "sourceType": "reference",
+                "confidence": 0.8,
+                "verifiedAt": "2026-10-05",
+                "fetchedAt": "2026-10-05T19:27:22.633Z",
+                "sourceSnapshotHash": "7a8b1d4e85bf27278065e550d08edeb1036b861c2a5a8adca050863cfd8dac5a"
+              }
+            },
+            {
+              "name": "OPPO Pad SE（6GB/128GB/柔光版）",
+              "term": "柔光",
+              "sourceUrl": "https://detail.zol.com.cn/2129/2128029/param.shtml",
+              "sourceEvidence": {
+                "value": "OPPO Pad SE（6GB/128GB/柔光版）",
+                "rawText": "OPPO Pad SE（6GB/128GB/柔光版）",
+                "evidenceKind": "excerpt",
+                "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10913513_0_1.html",
+                "sourceType": "reference",
+                "confidence": 0.8,
+                "verifiedAt": "2026-10-05",
+                "fetchedAt": "2026-10-05T19:27:22.633Z",
+                "sourceSnapshotHash": "7a8b1d4e85bf27278065e550d08edeb1036b861c2a5a8adca050863cfd8dac5a"
+              }
+            }
+          ],
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/1673/param_10913513_0_1.html",
+            "https://detail.zol.com.cn/2129/2128030/param.shtml",
+            "https://detail.zol.com.cn/2129/2128029/param.shtml"
+          ],
+          "sourceEvidence": {
+            "value": "OPPO Pad SE（8GB/256GB/柔光版）",
+            "rawText": "OPPO Pad SE（8GB/256GB/柔光版）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10913513_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:27:22.633Z",
+            "sourceSnapshotHash": "7a8b1d4e85bf27278065e550d08edeb1036b861c2a5a8adca050863cfd8dac5a"
+          },
+          "marketVerification": "基型国行已核验，独立特殊版尚未开展",
+          "yearBasis": "特殊版独立首售年份未知，不继承基型年份"
+        },
+        {
+          "id": "oppo-pad-mini-2026-soft-light",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad Mini 柔光版",
+          "releaseYear": null,
+          "parentListedYear": 2026,
+          "category": "tablet",
+          "series": "OPPO Pad Mini",
+          "status": "pending",
+          "reason": "特殊版在真实逐SKU目录独立列出，已从标准版排除；其国行首售、准确配置和版本专属图片本批尚未开展，不继承基型日期",
+          "listedConfigurations": [
+            {
+              "name": "OPPO Pad Mini（12GB/256GB/柔光版）",
+              "term": "柔光",
+              "sourceUrl": "https://detail.zol.com.cn/2165/2164096/param.shtml",
+              "sourceEvidence": {
+                "value": "OPPO Pad Mini（12GB/256GB/柔光版）",
+                "rawText": "OPPO Pad Mini（12GB/256GB/柔光版）",
+                "evidenceKind": "excerpt",
+                "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10925840_0_1.html",
+                "sourceType": "reference",
+                "confidence": 0.8,
+                "verifiedAt": "2026-10-05",
+                "fetchedAt": "2026-10-05T19:27:23.609Z",
+                "sourceSnapshotHash": "95262766851221e496a6990106633ccf243dd82fcb35b8b62a07ee2b3f34c92e"
+              }
+            },
+            {
+              "name": "OPPO Pad Mini（12GB/512GB/柔光版）",
+              "term": "柔光",
+              "sourceUrl": "https://detail.zol.com.cn/2165/2164097/param.shtml",
+              "sourceEvidence": {
+                "value": "OPPO Pad Mini（12GB/512GB/柔光版）",
+                "rawText": "OPPO Pad Mini（12GB/512GB/柔光版）",
+                "evidenceKind": "excerpt",
+                "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10925840_0_1.html",
+                "sourceType": "reference",
+                "confidence": 0.8,
+                "verifiedAt": "2026-10-05",
+                "fetchedAt": "2026-10-05T19:27:23.609Z",
+                "sourceSnapshotHash": "95262766851221e496a6990106633ccf243dd82fcb35b8b62a07ee2b3f34c92e"
+              }
+            }
+          ],
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/1673/param_10925840_0_1.html",
+            "https://detail.zol.com.cn/2165/2164096/param.shtml",
+            "https://detail.zol.com.cn/2165/2164097/param.shtml"
+          ],
+          "sourceEvidence": {
+            "value": "OPPO Pad Mini（12GB/256GB/柔光版）",
+            "rawText": "OPPO Pad Mini（12GB/256GB/柔光版）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10925840_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:27:23.609Z",
+            "sourceSnapshotHash": "95262766851221e496a6990106633ccf243dd82fcb35b8b62a07ee2b3f34c92e"
+          },
+          "marketVerification": "基型国行已核验，独立特殊版尚未开展",
+          "yearBasis": "特殊版独立首售年份未知，不继承基型年份"
+        },
+        {
+          "id": "oppo-tablet-catalogue-10927055",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad 6",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "OPPO Pad",
+          "seriesId": "10927055",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/oppo/",
+            "https://detail.zol.com.cn/series/702/10927055_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "OPPO Pad 6",
+            "rawText": "OPPO Pad 6",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10927055_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:01.475Z",
+            "sourceSnapshotHash": "1470cbfa63b23534751fd1814ae94fa91caedb5aa7f8a9ed8d4097b213c77a39"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "系列平板电脑，是OPPO2026年5月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10927055_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:01.475Z",
+            "sourceSnapshotHash": "1470cbfa63b23534751fd1814ae94fa91caedb5aa7f8a9ed8d4097b213c77a39"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "oppo-tablet-catalogue-10925841",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad 5 Pro",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "OPPO Pad",
+          "seriesId": "10925841",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/oppo/",
+            "https://detail.zol.com.cn/series/702/10925841_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "OPPO Pad 5 Pro",
+            "rawText": "OPPO Pad 5 Pro",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10925841_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:40.995Z",
+            "sourceSnapshotHash": "c448a3d9a11602999617aff80878f2535ad5a7db3d66476cb9f4a99721ddc70f"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "系列平板电脑，是OPPO2026年4月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10925841_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:40.995Z",
+            "sourceSnapshotHash": "c448a3d9a11602999617aff80878f2535ad5a7db3d66476cb9f4a99721ddc70f"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "oppo-tablet-catalogue-10923619",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad Air5",
+          "releaseYear": 2025,
+          "category": "tablet",
+          "series": "OPPO Pad Air",
+          "seriesId": "10923619",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/oppo/",
+            "https://detail.zol.com.cn/series/702/10923619_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "OPPO Pad Air5",
+            "rawText": "OPPO Pad Air5",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10923619_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:41.304Z",
+            "sourceSnapshotHash": "f5fe6bd73865e8dc3fb6c439804cd677504ab203dce056eb3a196630e0440948"
+          },
+          "listedYearEvidence": {
+            "value": 2025,
+            "rawText": "系列平板电脑，是OPPO2025年12月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10923619_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:41.304Z",
+            "sourceSnapshotHash": "f5fe6bd73865e8dc3fb6c439804cd677504ab203dce056eb3a196630e0440948"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "oppo-find-x7-2024",
+          "brand": "OPPO",
+          "modelName": "OPPO Find X7",
+          "category": "phone",
+          "releaseYear": 2024,
+          "series": "Find X",
+          "status": "added",
+          "sourceUrls": [
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+            "https://m.ithome.com/html/744795.htm",
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/",
+            "https://detail.zol.com.cn/series/57/10844009_1.html"
+          ]
+        },
+        {
+          "id": "oppo-k12s-2025",
+          "brand": "OPPO",
+          "modelName": "OPPO K12s",
+          "category": "phone",
+          "releaseYear": 2025,
+          "series": "K s",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10912778_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10912778_0_1.html",
+            "https://detail.zol.com.cn/2127/2126307/param.shtml",
+            "https://detail.zol.com.cn/2127/2126309/param.shtml",
+            "https://detail.zol.com.cn/2127/2126310/param.shtml",
+            "https://detail.zol.com.cn/2127/2126308/param.shtml",
+            "https://mobile.zol.com.cn/977/9775638.html",
+            "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+            "https://www.oppo.com/cn/smartphones/series-k/k12s/"
+          ]
+        },
+        {
+          "id": "oppo-k13s-2025",
+          "brand": "OPPO",
+          "modelName": "OPPO K13s",
+          "category": "phone",
+          "releaseYear": 2025,
+          "series": "K s",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10920401_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10920401_0_1.html",
+            "https://detail.zol.com.cn/2146/2145348/param.shtml",
+            "https://detail.zol.com.cn/2146/2145350/param.shtml",
+            "https://detail.zol.com.cn/2146/2145349/param.shtml",
+            "https://www.ithome.com/0/883/682.htm",
+            "https://detail.zol.com.cn/picture_index_2738/index27371908_0_p2145348.shtml",
+            "https://detail.zol.com.cn/picture_index_2738/index27371923_0_p2145350.shtml"
+          ]
+        },
+        {
+          "id": "oppo-k15-pro-2026",
+          "brand": "OPPO",
+          "modelName": "OPPO K15 Pro",
+          "category": "phone",
+          "releaseYear": 2026,
+          "series": "K Pro",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10925333_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10925333_0_1.html",
+            "https://detail.zol.com.cn/2162/2161710/param.shtml",
+            "https://detail.zol.com.cn/2162/2161711/param.shtml",
+            "https://phone.cnmo.com/news/806677.html",
+            "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+            "https://www.oppo.com/cn/smartphones/series-k/k15-pro/",
+            "https://detail.zol.com.cn/picture_index_2751/index27504347_0_p2161710.shtml"
+          ]
+        },
+        {
+          "id": "oppo-k15-pro-plus-2026",
+          "brand": "OPPO",
+          "modelName": "OPPO K15 Pro+",
+          "category": "phone",
+          "releaseYear": 2026,
+          "series": "K Pro+",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10925334_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10925334_0_1.html",
+            "https://detail.zol.com.cn/2162/2161712/param.shtml",
+            "https://detail.zol.com.cn/2162/2161713/param.shtml",
+            "https://phone.cnmo.com/news/806677.html",
+            "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+            "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/",
+            "https://detail.zol.com.cn/picture_index_2751/index27504377_0_p2161712.shtml"
+          ]
+        }
+      ],
+      "pending": [
+        {
+          "id": "oppo-pad5-2025-soft-light",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad 5 柔光版",
+          "releaseYear": null,
+          "parentListedYear": 2025,
+          "category": "tablet",
+          "series": "OPPO Pad",
+          "status": "pending",
+          "reason": "特殊版在真实逐SKU目录独立列出，已从标准版排除；其国行首售、准确配置和版本专属图片本批尚未开展，不继承基型日期",
+          "listedConfigurations": [
+            {
+              "name": "OPPO Pad 5( 12GB/256GB/柔光版)",
+              "term": "柔光",
+              "sourceUrl": "https://detail.zol.com.cn/2145/2144814/param.shtml",
+              "sourceEvidence": {
+                "value": "OPPO Pad 5( 12GB/256GB/柔光版)",
+                "rawText": "OPPO Pad 5( 12GB/256GB/柔光版)",
+                "evidenceKind": "excerpt",
+                "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10920259_0_1.html",
+                "sourceType": "reference",
+                "confidence": 0.8,
+                "verifiedAt": "2026-10-05",
+                "fetchedAt": "2026-10-05T19:27:21.673Z",
+                "sourceSnapshotHash": "c8ca1662e5fe65973ff385b28419bf14eae3a5933f67307a58ecf2b605c7eb6d"
+              }
+            },
+            {
+              "name": "OPPO Pad 5( 8GB/256GB/柔光版)",
+              "term": "柔光",
+              "sourceUrl": "https://detail.zol.com.cn/2145/2144813/param.shtml",
+              "sourceEvidence": {
+                "value": "OPPO Pad 5( 8GB/256GB/柔光版)",
+                "rawText": "OPPO Pad 5( 8GB/256GB/柔光版)",
+                "evidenceKind": "excerpt",
+                "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10920259_0_1.html",
+                "sourceType": "reference",
+                "confidence": 0.8,
+                "verifiedAt": "2026-10-05",
+                "fetchedAt": "2026-10-05T19:27:21.673Z",
+                "sourceSnapshotHash": "c8ca1662e5fe65973ff385b28419bf14eae3a5933f67307a58ecf2b605c7eb6d"
+              }
+            }
+          ],
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/1673/param_10920259_0_1.html",
+            "https://detail.zol.com.cn/2145/2144814/param.shtml",
+            "https://detail.zol.com.cn/2145/2144813/param.shtml"
+          ],
+          "sourceEvidence": {
+            "value": "OPPO Pad 5( 12GB/256GB/柔光版)",
+            "rawText": "OPPO Pad 5( 12GB/256GB/柔光版)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10920259_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:27:21.673Z",
+            "sourceSnapshotHash": "c8ca1662e5fe65973ff385b28419bf14eae3a5933f67307a58ecf2b605c7eb6d"
+          },
+          "marketVerification": "基型国行已核验，独立特殊版尚未开展",
+          "yearBasis": "特殊版独立首售年份未知，不继承基型年份"
+        },
+        {
+          "id": "oppo-pad-se-2025-soft-light",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad SE 柔光版",
+          "releaseYear": null,
+          "parentListedYear": 2025,
+          "category": "tablet",
+          "series": "OPPO Pad SE",
+          "status": "pending",
+          "reason": "特殊版在真实逐SKU目录独立列出，已从标准版排除；其国行首售、准确配置和版本专属图片本批尚未开展，不继承基型日期",
+          "listedConfigurations": [
+            {
+              "name": "OPPO Pad SE（8GB/256GB/柔光版）",
+              "term": "柔光",
+              "sourceUrl": "https://detail.zol.com.cn/2129/2128030/param.shtml",
+              "sourceEvidence": {
+                "value": "OPPO Pad SE（8GB/256GB/柔光版）",
+                "rawText": "OPPO Pad SE（8GB/256GB/柔光版）",
+                "evidenceKind": "excerpt",
+                "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10913513_0_1.html",
+                "sourceType": "reference",
+                "confidence": 0.8,
+                "verifiedAt": "2026-10-05",
+                "fetchedAt": "2026-10-05T19:27:22.633Z",
+                "sourceSnapshotHash": "7a8b1d4e85bf27278065e550d08edeb1036b861c2a5a8adca050863cfd8dac5a"
+              }
+            },
+            {
+              "name": "OPPO Pad SE（6GB/128GB/柔光版）",
+              "term": "柔光",
+              "sourceUrl": "https://detail.zol.com.cn/2129/2128029/param.shtml",
+              "sourceEvidence": {
+                "value": "OPPO Pad SE（6GB/128GB/柔光版）",
+                "rawText": "OPPO Pad SE（6GB/128GB/柔光版）",
+                "evidenceKind": "excerpt",
+                "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10913513_0_1.html",
+                "sourceType": "reference",
+                "confidence": 0.8,
+                "verifiedAt": "2026-10-05",
+                "fetchedAt": "2026-10-05T19:27:22.633Z",
+                "sourceSnapshotHash": "7a8b1d4e85bf27278065e550d08edeb1036b861c2a5a8adca050863cfd8dac5a"
+              }
+            }
+          ],
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/1673/param_10913513_0_1.html",
+            "https://detail.zol.com.cn/2129/2128030/param.shtml",
+            "https://detail.zol.com.cn/2129/2128029/param.shtml"
+          ],
+          "sourceEvidence": {
+            "value": "OPPO Pad SE（8GB/256GB/柔光版）",
+            "rawText": "OPPO Pad SE（8GB/256GB/柔光版）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10913513_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:27:22.633Z",
+            "sourceSnapshotHash": "7a8b1d4e85bf27278065e550d08edeb1036b861c2a5a8adca050863cfd8dac5a"
+          },
+          "marketVerification": "基型国行已核验，独立特殊版尚未开展",
+          "yearBasis": "特殊版独立首售年份未知，不继承基型年份"
+        },
+        {
+          "id": "oppo-pad-mini-2026-soft-light",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad Mini 柔光版",
+          "releaseYear": null,
+          "parentListedYear": 2026,
+          "category": "tablet",
+          "series": "OPPO Pad Mini",
+          "status": "pending",
+          "reason": "特殊版在真实逐SKU目录独立列出，已从标准版排除；其国行首售、准确配置和版本专属图片本批尚未开展，不继承基型日期",
+          "listedConfigurations": [
+            {
+              "name": "OPPO Pad Mini（12GB/256GB/柔光版）",
+              "term": "柔光",
+              "sourceUrl": "https://detail.zol.com.cn/2165/2164096/param.shtml",
+              "sourceEvidence": {
+                "value": "OPPO Pad Mini（12GB/256GB/柔光版）",
+                "rawText": "OPPO Pad Mini（12GB/256GB/柔光版）",
+                "evidenceKind": "excerpt",
+                "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10925840_0_1.html",
+                "sourceType": "reference",
+                "confidence": 0.8,
+                "verifiedAt": "2026-10-05",
+                "fetchedAt": "2026-10-05T19:27:23.609Z",
+                "sourceSnapshotHash": "95262766851221e496a6990106633ccf243dd82fcb35b8b62a07ee2b3f34c92e"
+              }
+            },
+            {
+              "name": "OPPO Pad Mini（12GB/512GB/柔光版）",
+              "term": "柔光",
+              "sourceUrl": "https://detail.zol.com.cn/2165/2164097/param.shtml",
+              "sourceEvidence": {
+                "value": "OPPO Pad Mini（12GB/512GB/柔光版）",
+                "rawText": "OPPO Pad Mini（12GB/512GB/柔光版）",
+                "evidenceKind": "excerpt",
+                "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10925840_0_1.html",
+                "sourceType": "reference",
+                "confidence": 0.8,
+                "verifiedAt": "2026-10-05",
+                "fetchedAt": "2026-10-05T19:27:23.609Z",
+                "sourceSnapshotHash": "95262766851221e496a6990106633ccf243dd82fcb35b8b62a07ee2b3f34c92e"
+              }
+            }
+          ],
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/1673/param_10925840_0_1.html",
+            "https://detail.zol.com.cn/2165/2164096/param.shtml",
+            "https://detail.zol.com.cn/2165/2164097/param.shtml"
+          ],
+          "sourceEvidence": {
+            "value": "OPPO Pad Mini（12GB/256GB/柔光版）",
+            "rawText": "OPPO Pad Mini（12GB/256GB/柔光版）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10925840_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:27:23.609Z",
+            "sourceSnapshotHash": "95262766851221e496a6990106633ccf243dd82fcb35b8b62a07ee2b3f34c92e"
+          },
+          "marketVerification": "基型国行已核验，独立特殊版尚未开展",
+          "yearBasis": "特殊版独立首售年份未知，不继承基型年份"
+        },
+        {
+          "id": "oppo-tablet-catalogue-10927055",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad 6",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "OPPO Pad",
+          "seriesId": "10927055",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/oppo/",
+            "https://detail.zol.com.cn/series/702/10927055_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "OPPO Pad 6",
+            "rawText": "OPPO Pad 6",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10927055_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:01.475Z",
+            "sourceSnapshotHash": "1470cbfa63b23534751fd1814ae94fa91caedb5aa7f8a9ed8d4097b213c77a39"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "系列平板电脑，是OPPO2026年5月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10927055_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:01.475Z",
+            "sourceSnapshotHash": "1470cbfa63b23534751fd1814ae94fa91caedb5aa7f8a9ed8d4097b213c77a39"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "oppo-tablet-catalogue-10925841",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad 5 Pro",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "OPPO Pad",
+          "seriesId": "10925841",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/oppo/",
+            "https://detail.zol.com.cn/series/702/10925841_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "OPPO Pad 5 Pro",
+            "rawText": "OPPO Pad 5 Pro",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10925841_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:40.995Z",
+            "sourceSnapshotHash": "c448a3d9a11602999617aff80878f2535ad5a7db3d66476cb9f4a99721ddc70f"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "系列平板电脑，是OPPO2026年4月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10925841_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:40.995Z",
+            "sourceSnapshotHash": "c448a3d9a11602999617aff80878f2535ad5a7db3d66476cb9f4a99721ddc70f"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "oppo-tablet-catalogue-10923619",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad Air5",
+          "releaseYear": 2025,
+          "category": "tablet",
+          "series": "OPPO Pad Air",
+          "seriesId": "10923619",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/oppo/",
+            "https://detail.zol.com.cn/series/702/10923619_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "OPPO Pad Air5",
+            "rawText": "OPPO Pad Air5",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10923619_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:41.304Z",
+            "sourceSnapshotHash": "f5fe6bd73865e8dc3fb6c439804cd677504ab203dce056eb3a196630e0440948"
+          },
+          "listedYearEvidence": {
+            "value": 2025,
+            "rawText": "系列平板电脑，是OPPO2025年12月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10923619_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:41.304Z",
+            "sourceSnapshotHash": "f5fe6bd73865e8dc3fb6c439804cd677504ab203dce056eb3a196630e0440948"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        }
+      ],
+      "blocked": [
+        {
+          "id": "oppo-pad3-pro-2024",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad3 Pro",
+          "releaseYear": 2024,
+          "category": "tablet",
+          "series": "OPPO Pad Pro",
+          "status": "blocked",
+          "reason": "oppo-pad3-pro-2024: 无完整日期或首售年份不符",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10906415_1.html"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/oppo/",
+            "https://detail.zol.com.cn/series/702/10906415_1.html"
+          ]
+        }
+      ],
+      "checkedThisBatchIds": [
+        "oppo-find-x7-2024",
+        "oppo-k12s-2025",
+        "oppo-k13s-2025",
+        "oppo-k15-pro-2026",
+        "oppo-k15-pro-plus-2026"
+      ],
+      "inheritedBlockedIds": [
+        "oppo-pad3-pro-2024"
+      ],
+      "scopeChecks": [],
+      "catalogueEvidence": [
+        {
+          "brand": "OPPO",
+          "category": "tablet",
+          "status": "verified_partial",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/oppo/"
+          ],
+          "seriesIds": [
+            "10920259",
+            "10925840",
+            "10908281",
+            "10911839",
+            "10913513",
+            "10927055",
+            "10925841",
+            "10842592",
+            "10923619",
+            "39000",
+            "10906415",
+            "37647",
+            "10725219"
+          ],
+          "evidence": {
+            "value": 13,
+            "rawText": "<a href=\"/series/702/10920259_1.html\" target=\"_blank\">",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/tablepc/oppo/",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:23:25.579Z",
+            "sourceSnapshotHash": "a57a7e32d1671245c2a82a279e0d50ca280d4b257bdbedc8f308621662998cd6"
+          },
+          "enumeration": "数量由此页实际可见唯一系列链接计算；仅公开导航，不包含隐藏历史目录和所有特殊SKU"
+        }
+      ],
+      "differenceFromExisting": [
+        {
+          "id": "oppo-pad3-pro-2024",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad3 Pro",
+          "releaseYear": 2024,
+          "category": "tablet",
+          "series": "OPPO Pad Pro",
+          "status": "blocked",
+          "reason": "oppo-pad3-pro-2024: 无完整日期或首售年份不符",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10906415_1.html"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/oppo/",
+            "https://detail.zol.com.cn/series/702/10906415_1.html"
+          ]
+        },
+        {
+          "id": "oppo-pad5-2025-soft-light",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad 5 柔光版",
+          "releaseYear": null,
+          "parentListedYear": 2025,
+          "category": "tablet",
+          "series": "OPPO Pad",
+          "status": "pending",
+          "reason": "特殊版在真实逐SKU目录独立列出，已从标准版排除；其国行首售、准确配置和版本专属图片本批尚未开展，不继承基型日期",
+          "listedConfigurations": [
+            {
+              "name": "OPPO Pad 5( 12GB/256GB/柔光版)",
+              "term": "柔光",
+              "sourceUrl": "https://detail.zol.com.cn/2145/2144814/param.shtml",
+              "sourceEvidence": {
+                "value": "OPPO Pad 5( 12GB/256GB/柔光版)",
+                "rawText": "OPPO Pad 5( 12GB/256GB/柔光版)",
+                "evidenceKind": "excerpt",
+                "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10920259_0_1.html",
+                "sourceType": "reference",
+                "confidence": 0.8,
+                "verifiedAt": "2026-10-05",
+                "fetchedAt": "2026-10-05T19:27:21.673Z",
+                "sourceSnapshotHash": "c8ca1662e5fe65973ff385b28419bf14eae3a5933f67307a58ecf2b605c7eb6d"
+              }
+            },
+            {
+              "name": "OPPO Pad 5( 8GB/256GB/柔光版)",
+              "term": "柔光",
+              "sourceUrl": "https://detail.zol.com.cn/2145/2144813/param.shtml",
+              "sourceEvidence": {
+                "value": "OPPO Pad 5( 8GB/256GB/柔光版)",
+                "rawText": "OPPO Pad 5( 8GB/256GB/柔光版)",
+                "evidenceKind": "excerpt",
+                "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10920259_0_1.html",
+                "sourceType": "reference",
+                "confidence": 0.8,
+                "verifiedAt": "2026-10-05",
+                "fetchedAt": "2026-10-05T19:27:21.673Z",
+                "sourceSnapshotHash": "c8ca1662e5fe65973ff385b28419bf14eae3a5933f67307a58ecf2b605c7eb6d"
+              }
+            }
+          ],
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/1673/param_10920259_0_1.html",
+            "https://detail.zol.com.cn/2145/2144814/param.shtml",
+            "https://detail.zol.com.cn/2145/2144813/param.shtml"
+          ],
+          "sourceEvidence": {
+            "value": "OPPO Pad 5( 12GB/256GB/柔光版)",
+            "rawText": "OPPO Pad 5( 12GB/256GB/柔光版)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10920259_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:27:21.673Z",
+            "sourceSnapshotHash": "c8ca1662e5fe65973ff385b28419bf14eae3a5933f67307a58ecf2b605c7eb6d"
+          },
+          "marketVerification": "基型国行已核验，独立特殊版尚未开展",
+          "yearBasis": "特殊版独立首售年份未知，不继承基型年份"
+        },
+        {
+          "id": "oppo-pad-se-2025-soft-light",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad SE 柔光版",
+          "releaseYear": null,
+          "parentListedYear": 2025,
+          "category": "tablet",
+          "series": "OPPO Pad SE",
+          "status": "pending",
+          "reason": "特殊版在真实逐SKU目录独立列出，已从标准版排除；其国行首售、准确配置和版本专属图片本批尚未开展，不继承基型日期",
+          "listedConfigurations": [
+            {
+              "name": "OPPO Pad SE（8GB/256GB/柔光版）",
+              "term": "柔光",
+              "sourceUrl": "https://detail.zol.com.cn/2129/2128030/param.shtml",
+              "sourceEvidence": {
+                "value": "OPPO Pad SE（8GB/256GB/柔光版）",
+                "rawText": "OPPO Pad SE（8GB/256GB/柔光版）",
+                "evidenceKind": "excerpt",
+                "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10913513_0_1.html",
+                "sourceType": "reference",
+                "confidence": 0.8,
+                "verifiedAt": "2026-10-05",
+                "fetchedAt": "2026-10-05T19:27:22.633Z",
+                "sourceSnapshotHash": "7a8b1d4e85bf27278065e550d08edeb1036b861c2a5a8adca050863cfd8dac5a"
+              }
+            },
+            {
+              "name": "OPPO Pad SE（6GB/128GB/柔光版）",
+              "term": "柔光",
+              "sourceUrl": "https://detail.zol.com.cn/2129/2128029/param.shtml",
+              "sourceEvidence": {
+                "value": "OPPO Pad SE（6GB/128GB/柔光版）",
+                "rawText": "OPPO Pad SE（6GB/128GB/柔光版）",
+                "evidenceKind": "excerpt",
+                "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10913513_0_1.html",
+                "sourceType": "reference",
+                "confidence": 0.8,
+                "verifiedAt": "2026-10-05",
+                "fetchedAt": "2026-10-05T19:27:22.633Z",
+                "sourceSnapshotHash": "7a8b1d4e85bf27278065e550d08edeb1036b861c2a5a8adca050863cfd8dac5a"
+              }
+            }
+          ],
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/1673/param_10913513_0_1.html",
+            "https://detail.zol.com.cn/2129/2128030/param.shtml",
+            "https://detail.zol.com.cn/2129/2128029/param.shtml"
+          ],
+          "sourceEvidence": {
+            "value": "OPPO Pad SE（8GB/256GB/柔光版）",
+            "rawText": "OPPO Pad SE（8GB/256GB/柔光版）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10913513_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:27:22.633Z",
+            "sourceSnapshotHash": "7a8b1d4e85bf27278065e550d08edeb1036b861c2a5a8adca050863cfd8dac5a"
+          },
+          "marketVerification": "基型国行已核验，独立特殊版尚未开展",
+          "yearBasis": "特殊版独立首售年份未知，不继承基型年份"
+        },
+        {
+          "id": "oppo-pad-mini-2026-soft-light",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad Mini 柔光版",
+          "releaseYear": null,
+          "parentListedYear": 2026,
+          "category": "tablet",
+          "series": "OPPO Pad Mini",
+          "status": "pending",
+          "reason": "特殊版在真实逐SKU目录独立列出，已从标准版排除；其国行首售、准确配置和版本专属图片本批尚未开展，不继承基型日期",
+          "listedConfigurations": [
+            {
+              "name": "OPPO Pad Mini（12GB/256GB/柔光版）",
+              "term": "柔光",
+              "sourceUrl": "https://detail.zol.com.cn/2165/2164096/param.shtml",
+              "sourceEvidence": {
+                "value": "OPPO Pad Mini（12GB/256GB/柔光版）",
+                "rawText": "OPPO Pad Mini（12GB/256GB/柔光版）",
+                "evidenceKind": "excerpt",
+                "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10925840_0_1.html",
+                "sourceType": "reference",
+                "confidence": 0.8,
+                "verifiedAt": "2026-10-05",
+                "fetchedAt": "2026-10-05T19:27:23.609Z",
+                "sourceSnapshotHash": "95262766851221e496a6990106633ccf243dd82fcb35b8b62a07ee2b3f34c92e"
+              }
+            },
+            {
+              "name": "OPPO Pad Mini（12GB/512GB/柔光版）",
+              "term": "柔光",
+              "sourceUrl": "https://detail.zol.com.cn/2165/2164097/param.shtml",
+              "sourceEvidence": {
+                "value": "OPPO Pad Mini（12GB/512GB/柔光版）",
+                "rawText": "OPPO Pad Mini（12GB/512GB/柔光版）",
+                "evidenceKind": "excerpt",
+                "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10925840_0_1.html",
+                "sourceType": "reference",
+                "confidence": 0.8,
+                "verifiedAt": "2026-10-05",
+                "fetchedAt": "2026-10-05T19:27:23.609Z",
+                "sourceSnapshotHash": "95262766851221e496a6990106633ccf243dd82fcb35b8b62a07ee2b3f34c92e"
+              }
+            }
+          ],
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/1673/param_10925840_0_1.html",
+            "https://detail.zol.com.cn/2165/2164096/param.shtml",
+            "https://detail.zol.com.cn/2165/2164097/param.shtml"
+          ],
+          "sourceEvidence": {
+            "value": "OPPO Pad Mini（12GB/256GB/柔光版）",
+            "rawText": "OPPO Pad Mini（12GB/256GB/柔光版）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/1673/param_10925840_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:27:23.609Z",
+            "sourceSnapshotHash": "95262766851221e496a6990106633ccf243dd82fcb35b8b62a07ee2b3f34c92e"
+          },
+          "marketVerification": "基型国行已核验，独立特殊版尚未开展",
+          "yearBasis": "特殊版独立首售年份未知，不继承基型年份"
+        },
+        {
+          "id": "oppo-tablet-catalogue-10927055",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad 6",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "OPPO Pad",
+          "seriesId": "10927055",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/oppo/",
+            "https://detail.zol.com.cn/series/702/10927055_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "OPPO Pad 6",
+            "rawText": "OPPO Pad 6",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10927055_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:01.475Z",
+            "sourceSnapshotHash": "1470cbfa63b23534751fd1814ae94fa91caedb5aa7f8a9ed8d4097b213c77a39"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "系列平板电脑，是OPPO2026年5月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10927055_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:41:01.475Z",
+            "sourceSnapshotHash": "1470cbfa63b23534751fd1814ae94fa91caedb5aa7f8a9ed8d4097b213c77a39"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "oppo-tablet-catalogue-10925841",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad 5 Pro",
+          "releaseYear": 2026,
+          "category": "tablet",
+          "series": "OPPO Pad",
+          "seriesId": "10925841",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/oppo/",
+            "https://detail.zol.com.cn/series/702/10925841_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "OPPO Pad 5 Pro",
+            "rawText": "OPPO Pad 5 Pro",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10925841_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:40.995Z",
+            "sourceSnapshotHash": "c448a3d9a11602999617aff80878f2535ad5a7db3d66476cb9f4a99721ddc70f"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "系列平板电脑，是OPPO2026年4月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10925841_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:40.995Z",
+            "sourceSnapshotHash": "c448a3d9a11602999617aff80878f2535ad5a7db3d66476cb9f4a99721ddc70f"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "oppo-tablet-catalogue-10923619",
+          "brand": "OPPO",
+          "modelName": "OPPO Pad Air5",
+          "releaseYear": 2025,
+          "category": "tablet",
+          "series": "OPPO Pad Air",
+          "seriesId": "10923619",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/oppo/",
+            "https://detail.zol.com.cn/series/702/10923619_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "OPPO Pad Air5",
+            "rawText": "OPPO Pad Air5",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10923619_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:41.304Z",
+            "sourceSnapshotHash": "f5fe6bd73865e8dc3fb6c439804cd677504ab203dce056eb3a196630e0440948"
+          },
+          "listedYearEvidence": {
+            "value": 2025,
+            "rawText": "系列平板电脑，是OPPO2025年12月推出的平板电脑",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/702/10923619_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:41.304Z",
+            "sourceSnapshotHash": "f5fe6bd73865e8dc3fb6c439804cd677504ab203dce056eb3a196630e0440948"
+          },
+          "marketVerification": "尚未开展",
+          "yearBasis": "目录或参数年份，不等于中国大陆首售年份；未知年份未假定属于五年范围",
+          "status": "pending",
+          "reason": "仅完成目录实际枚举；国行首售日期、网络/柔光等独立版型、逐SKU及图片尚未开展，不宣称已售或完整覆盖"
+        },
+        {
+          "id": "oppo-find-x7-2024",
+          "brand": "OPPO",
+          "modelName": "OPPO Find X7",
+          "category": "phone",
+          "releaseYear": 2024,
+          "series": "Find X",
+          "status": "added",
+          "sourceUrls": [
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+            "https://m.ithome.com/html/744795.htm",
+            "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/",
+            "https://detail.zol.com.cn/series/57/10844009_1.html"
+          ]
+        },
+        {
+          "id": "oppo-k12s-2025",
+          "brand": "OPPO",
+          "modelName": "OPPO K12s",
+          "category": "phone",
+          "releaseYear": 2025,
+          "series": "K s",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10912778_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10912778_0_1.html",
+            "https://detail.zol.com.cn/2127/2126307/param.shtml",
+            "https://detail.zol.com.cn/2127/2126309/param.shtml",
+            "https://detail.zol.com.cn/2127/2126310/param.shtml",
+            "https://detail.zol.com.cn/2127/2126308/param.shtml",
+            "https://mobile.zol.com.cn/977/9775638.html",
+            "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+            "https://www.oppo.com/cn/smartphones/series-k/k12s/"
+          ]
+        },
+        {
+          "id": "oppo-k13s-2025",
+          "brand": "OPPO",
+          "modelName": "OPPO K13s",
+          "category": "phone",
+          "releaseYear": 2025,
+          "series": "K s",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10920401_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10920401_0_1.html",
+            "https://detail.zol.com.cn/2146/2145348/param.shtml",
+            "https://detail.zol.com.cn/2146/2145350/param.shtml",
+            "https://detail.zol.com.cn/2146/2145349/param.shtml",
+            "https://www.ithome.com/0/883/682.htm",
+            "https://detail.zol.com.cn/picture_index_2738/index27371908_0_p2145348.shtml",
+            "https://detail.zol.com.cn/picture_index_2738/index27371923_0_p2145350.shtml"
+          ]
+        },
+        {
+          "id": "oppo-k15-pro-2026",
+          "brand": "OPPO",
+          "modelName": "OPPO K15 Pro",
+          "category": "phone",
+          "releaseYear": 2026,
+          "series": "K Pro",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10925333_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10925333_0_1.html",
+            "https://detail.zol.com.cn/2162/2161710/param.shtml",
+            "https://detail.zol.com.cn/2162/2161711/param.shtml",
+            "https://phone.cnmo.com/news/806677.html",
+            "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+            "https://www.oppo.com/cn/smartphones/series-k/k15-pro/",
+            "https://detail.zol.com.cn/picture_index_2751/index27504347_0_p2161710.shtml"
+          ]
+        },
+        {
+          "id": "oppo-k15-pro-plus-2026",
+          "brand": "OPPO",
+          "modelName": "OPPO K15 Pro+",
+          "category": "phone",
+          "releaseYear": 2026,
+          "series": "K Pro+",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10925334_1.html",
+            "https://detail.zol.com.cn/series/57/1673/param_10925334_0_1.html",
+            "https://detail.zol.com.cn/2162/2161712/param.shtml",
+            "https://detail.zol.com.cn/2162/2161713/param.shtml",
+            "https://phone.cnmo.com/news/806677.html",
+            "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+            "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/",
+            "https://detail.zol.com.cn/picture_index_2751/index27504377_0_p2161712.shtml"
+          ]
+        }
+      ],
+      "enumerationScope": {
+        "phone": "既有来源候选及本批指定官网缺项，partial；未列出的型号不等于不存在",
+        "tablet": "沿用batch4实际品牌目录候选，partial；本批未重新扩展未知范围",
+        "laptop": "本批未开展，partial"
+      },
+      "statusMeaning": {
+        "present": "现库已收录",
+        "added": "本批真实证据已核验",
+        "pending": "未开展关键证据核验",
+        "blocked": "本批或继承的此前实际检查不能核验，不等同未做；inheritedBlockedIds明确未在本批重试"
+      }
+    }
+  },
+  "devices": [
+    {
+      "id": "oppo-find-x7-2024",
+      "brand": "OPPO",
+      "market": "CN",
+      "category": "phone",
+      "series": "Find X",
+      "family": "Find X",
+      "variant": "standard",
+      "modelName": "OPPO Find X7",
+      "generation": "Find X7",
+      "generationOrder": 2024,
+      "releaseYear": 2024,
+      "releaseDate": "2024-01-12",
+      "comparisonGroupId": "oppo.phone.find-x.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "12GB+256GB",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:08:47.971Z",
+            "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "16GB + 256GB",
+            "rawText": "16GB+256GB",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:08:47.971Z",
+            "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "16GB+512GB",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:08:47.971Z",
+            "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "16GB+1TB",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:08:47.971Z",
+            "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+          }
+        }
+      ],
+      "specs": {
+        "memoryType": {
+          "value": "LPDDR5X",
+          "rawText": "RAM 规格 LPDDR5X",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        },
+        "storageType": {
+          "value": "UFS 4.0",
+          "rawText": "ROM 规格 UFS 4.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        },
+        "operatingSystem": {
+          "value": "ColorOS 14.0",
+          "rawText": "操作系统 6 ColorOS 14.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        },
+        "chargingMethod": {
+          "value": "100 W 超级闪充。兼容 80 W 超级闪充，67 W 超级闪充，65 W 超级闪充，50 W 超级闪充，33 W 超级闪充，15 W 闪充 支持 33 W UFCS，13.5 W PD",
+          "rawText": "快速充电 100 W 超级闪充。兼容 80 W 超级闪充，67 W 超级闪充，65 W 超级闪充，50 W 超级闪充，33 W 超级闪充，15 W 闪充 支持 33 W UFCS，13.5 W PD",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        },
+        "security": {
+          "value": "指纹 屏下指纹 面部识别 支持",
+          "rawText": "生物识别 指纹 屏下指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        },
+        "wifi": {
+          "value": "支持 Wi-Fi 7（802.11be），Wi-Fi 6（802.11ax），Wi-Fi 5（802.11ac），802.11a/b/g/n/ 支持 WLAN 2.4G/WLAN 5G 支持 2×2 MIMO，MU-MIMO 支持 WLAN Display，WLAN 网络分享，支持网络叠加",
+          "rawText": "WLAN 功能 支持 Wi-Fi 7（802.11be），Wi-Fi 6（802.11ax），Wi-Fi 5（802.11ac），802.11a/b/g/n/ 支持 WLAN 2.4G/WLAN 5G 支持 2×2 MIMO，MU-MIMO 支持 WLAN Display，WLAN 网络分享，支持网络叠加",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        },
+        "bluetooth": {
+          "value": "5.4",
+          "rawText": "蓝牙 蓝牙 5.4",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "数据接口 USB Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持读写 NFC 卡片（13.56MHz 的 NFC 卡片） 支持 NFC-SIM（只支持 SIM1 卡槽），HCE，eSE 现已支持 300+城市地铁公交乘车，支持 OPPO Pay，门禁卡，车钥匙及公民网络电子身份标识（eID）等多项功能。轻触一下，便捷通行，安全支付。",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        },
+        "peakBrightness": {
+          "value": 4500,
+          "unit": "nit",
+          "rawText": "亮度 4500 尼特峰值亮度",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，16GB+256GB，16GB+512GB，16GB+1TB ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，16GB+256GB，16GB+512GB，16GB+1TB ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        },
+        "chip": {
+          "value": "天玑9300 移动平台，8 核心，最高主频 3.25GHz",
+          "rawText": "移动平台 天玑9300 移动平台，8 核心，最高主频 3.25GHz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        },
+        "screenSize": {
+          "value": 6.78,
+          "unit": "inch",
+          "rawText": "显示 尺寸 6.78 英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        },
+        "resolution": {
+          "value": "2780×1264 像素，450 PPI ",
+          "rawText": "分辨率 2780×1264 像素，450 PPI ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        },
+        "displayType": {
+          "value": "OLED 曲面屏 1～120Hz 自适应刷新率 ",
+          "rawText": "类型 OLED 曲面屏 1～120Hz 自适应刷新率 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "类型 OLED 曲面屏 1～120Hz 自适应刷新率 最高支持 240Hz 触控采样率 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        },
+        "rearCamera": {
+          "value": "5000 万像素大底广角摄像头：ƒ/1.6，等效焦距 23 毫米，七镜式镜头，支持 AF 自动对焦，支持 OIS 防抖 5000 万像素超广角摄像头：ƒ/2.0，等效焦距 15 毫米，119° 广视角，五镜式镜头，支持 AF 自动对焦，支持 3.5 厘米微距拍摄 6400 万像素超光感潜望长焦摄像头：ƒ/2.6，等效焦距 70 毫米，四镜式镜头，支持 AF 自动对焦，支持 OIS 防抖 照片拍摄支持最高 3 倍光学变焦，6 倍光学品质变焦，最高 120 倍数码变焦 支持：照片，视频，夜景，大师，人像，高像素，全景，电影，慢动作，延时摄影，长曝光，多景录像，萌拍，AI 证件照，XPAN，超级文本等 照片格式：HEIF，JPEG，DNG ",
+          "rawText": "摄像头 后置 5000 万像素大底广角摄像头：ƒ/1.6，等效焦距 23 毫米，七镜式镜头，支持 AF 自动对焦，支持 OIS 防抖 5000 万像素超广角摄像头：ƒ/2.0，等效焦距 15 毫米，119° 广视角，五镜式镜头，支持 AF 自动对焦，支持 3.5 厘米微距拍摄 6400 万像素超光感潜望长焦摄像头：ƒ/2.6，等效焦距 70 毫米，四镜式镜头，支持 AF 自动对焦，支持 OIS 防抖 照片拍摄支持最高 3 倍光学变焦，6 倍光学品质变焦，最高 120 倍数码变焦 支持：照片，视频，夜景，大师，人像，高像素，全景，电影，慢动作，延时摄影，长曝光，多景录像，萌拍，AI 证件照，XPAN，超级文本等 照片格式：HEIF，JPEG，DNG ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        },
+        "frontCamera": {
+          "value": "3200 万像素摄像头：f/2.4，等效焦距 21 毫米，五镜式镜头，支持 AF 自动对焦 ",
+          "rawText": "前置 3200 万像素摄像头：f/2.4，等效焦距 21 毫米，五镜式镜头，支持 AF 自动对焦 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        },
+        "batteryCapacity": {
+          "value": 5000,
+          "unit": "mAh",
+          "rawText": "电池容量 3 额定容量：2430 mAh（双电芯串联设计，等效于 4860 mAh） 典型容量：2500 mAh（双电芯串联设计，等效于 5000 mAh） ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        },
+        "sim": {
+          "value": "4 Nano-SIM 卡，支持双卡双通 ",
+          "rawText": "SIM 卡类型 4 Nano-SIM 卡，支持双卡双通 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        },
+        "launchPrice": {
+          "value": 3999,
+          "unit": "CNY",
+          "rawText": "OPPO Find X7 12GB + 256GB 售价 3999 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://m.ithome.com/html/744795.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:24.575Z",
+          "sourceSnapshotHash": "394440e096c1639b83c225d3bcca8e2dcae43d9984591512801ee0f440ab988f",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，国行",
+          "condition": "中国大陆首次公开销售价格，非当前价/国补价"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "oppo-k12s-2025",
+      "brand": "OPPO",
+      "market": "CN",
+      "category": "phone",
+      "series": "K s",
+      "family": "K s",
+      "variant": "standard",
+      "modelName": "OPPO K12s",
+      "generation": "K12s",
+      "generationOrder": 2025,
+      "releaseYear": 2025,
+      "releaseDate": "2025-04-25",
+      "comparisonGroupId": "oppo.phone.k-s.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "8GB + 128GB",
+            "rawText": "OPPO K12s(8GB/128GB)；RAM容量 8GB> 游戏运行流畅；ROM容量 128GB> 2.6万张照片 1.1万首歌曲；CPU型号 高通 骁龙6 Gen4",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2127/2126307/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:19:25.250Z",
+            "sourceSnapshotHash": "c6049e99e6e5de5d4e866262c03f21965a81c5108cd9f9244f66da2c4e21904f"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "OPPO K12s(12GB/256GB)；RAM容量 12GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙6 Gen4",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2127/2126309/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:19:25.184Z",
+            "sourceSnapshotHash": "fe2d9967e1f7e44657a6ab79c71f8197abf769da695cd62fd501963300db92b6"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "OPPO K12s(12GB/512GB)；RAM容量 12GB> 游戏运行流畅；ROM容量 512GB> 10.5万张照片 4.4万首歌曲；CPU型号 高通 骁龙6 Gen4",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2127/2126310/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:19:24.915Z",
+            "sourceSnapshotHash": "4ec610c7bb3869cff375cccdf82ab914fa6e793f12b84a1bffd4c463bb6c4e03"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "OPPO K12s(8GB/256GB)；RAM容量 8GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙6 Gen4",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2127/2126308/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:19:25.454Z",
+            "sourceSnapshotHash": "95a13e9122db5ceb70e4f01d6f51c54a83e6c3c652f9425ac1cedc2a323e5ca4"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通第四代骁龙®6 移动平台，8 核心，最高主频 2.3GHz",
+          "rawText": "移动平台 高通第四代骁龙®6 移动平台，8 核心，最高主频 2.3GHz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+        },
+        "memory": {
+          "value": "8GB / 12GB",
+          "rawText": "运行内存容量 + 机身存储容量 8GB+128GB，8GB+256GB，12GB+256GB，12GB+512GB ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+        },
+        "storage": {
+          "value": "128GB / 256GB / 512GB",
+          "rawText": "运行内存容量 + 机身存储容量 8GB+128GB，8GB+256GB，12GB+256GB，12GB+512GB ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+        },
+        "screenSize": {
+          "value": 6.67,
+          "unit": "inch",
+          "rawText": "显示 尺寸 6.67 英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+        },
+        "displayType": {
+          "value": "OLED 直屏 AMOLED 刚性屏 ",
+          "rawText": "类型 OLED 直屏 AMOLED 刚性屏 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+        },
+        "resolution": {
+          "value": "FHD+ 2400×1080 像素，394 PPI ",
+          "rawText": "分辨率 FHD+ 2400×1080 像素，394 PPI ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "类型 OLED 直屏 AMOLED 刚性屏 最高支持 120Hz 刷新率 最高支持 180Hz 触控采样率 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+        },
+        "weight": {
+          "value": 208,
+          "unit": "g",
+          "rawText": "重量 208g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2127/2126307/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:25.250Z",
+          "sourceSnapshotHash": "c6049e99e6e5de5d4e866262c03f21965a81c5108cd9f9244f66da2c4e21904f"
+        },
+        "batteryCapacity": {
+          "value": 7000,
+          "unit": "mAh",
+          "rawText": "电池容量 7000 mAh/27.44 Wh/L（典型值） 6820 mAh/26.74 Wh/L（额定值） ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "数据接口 USB Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+        },
+        "wifi": {
+          "value": "支持 Wi-Fi 6（802.11ax） 支持 Wi-Fi 5（802.11ac） 支持 802.11 a/b/g/n 支持 Wi-Fi Display 支持 WLAN 网络分享",
+          "rawText": "WLAN 功能 支持 Wi-Fi 6（802.11ax） 支持 Wi-Fi 5（802.11ac） 支持 802.11 a/b/g/n 支持 Wi-Fi Display 支持 WLAN 网络分享",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+        },
+        "bluetooth": {
+          "value": "5.2",
+          "rawText": "蓝牙 蓝牙 5.2",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+        },
+        "memoryType": {
+          "value": "LPDDR4X",
+          "rawText": "RAM 规格 LPDDR4X",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+        },
+        "storageType": {
+          "value": "UFS 3.1",
+          "rawText": "ROM 规格 UFS 3.1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+        },
+        "operatingSystem": {
+          "value": "ColorOS 15.0",
+          "rawText": "操作系统 5 ColorOS 15.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+        },
+        "security": {
+          "value": "指纹 屏下指纹 面部识别 支持",
+          "rawText": "生物识别 指纹 屏下指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+        },
+        "waterResistance": {
+          "value": "支持IP68级防水",
+          "rawText": "三防功能 支持IP68级防水",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2127/2126307/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:25.250Z",
+          "sourceSnapshotHash": "c6049e99e6e5de5d4e866262c03f21965a81c5108cd9f9244f66da2c4e21904f"
+        },
+        "sim": {
+          "value": "4 Nano-SIM 卡，Nano-USIM 卡，双卡双待双通（部分 RAT/频段支持双通） ",
+          "rawText": "SIM 卡类型 4 Nano-SIM 卡，Nano-USIM 卡，双卡双待双通（部分 RAT/频段支持双通） ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+        },
+        "chargingMethod": {
+          "value": "80 W 超级闪充，30 W 闪充，80 W 官方融合快充，44 W 三方融合快充，33 W PPS，13.5 W PD，13.5 W QC",
+          "rawText": "快速充电 80 W 超级闪充，30 W 闪充，80 W 官方融合快充，44 W 三方融合快充，33 W PPS，13.5 W PD，13.5 W QC",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+        },
+        "rearCamera": {
+          "value": "5000 万像素广角摄像头：ƒ/1.8，等效焦距 27 毫米，5P 镜头，支持 AF 自动对焦 200 万像素黑白摄像头：ƒ/2.4，等效焦距 22 毫米，3P 镜头 照片拍摄最高支持 10 倍数码变焦 支持：照片，视频，人像，夜景，专业模式，全景，慢动作，多景录像，延时摄影，萌拍，AI 证件照，高像素，文档模式 照片格式：JPG（默认） ",
+          "rawText": "摄像头 后置 5000 万像素广角摄像头：ƒ/1.8，等效焦距 27 毫米，5P 镜头，支持 AF 自动对焦 200 万像素黑白摄像头：ƒ/2.4，等效焦距 22 毫米，3P 镜头 照片拍摄最高支持 10 倍数码变焦 支持：照片，视频，人像，夜景，专业模式，全景，慢动作，多景录像，延时摄影，萌拍，AI 证件照，高像素，文档模式 照片格式：JPG（默认） ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+        },
+        "frontCamera": {
+          "value": "1600 万像素摄像头：ƒ/2.4，等效焦距 23 毫米，4P 镜头，不支持 AF 自动对焦 ",
+          "rawText": "前置 1600 万像素摄像头：ƒ/2.4，等效焦距 23 毫米，4P 镜头，不支持 AF 自动对焦 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持读写 NFC 卡片（13.56MHz 的 NFC 卡片） 支持 NFC-SIM（只支持 SIM1 卡槽） 支持 HCE支付 支持 eSE（支持 300+城市地铁公交乘车，支持 OPPO Pay，门禁卡，车钥匙及公民网络电子身份标识（eID）等多项功能。轻触一下，便捷通行，安全支付。）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "oppo-k13s-2025",
+      "brand": "OPPO",
+      "market": "CN",
+      "category": "phone",
+      "series": "K s",
+      "family": "K s",
+      "variant": "standard",
+      "modelName": "OPPO K13s",
+      "generation": "K13s",
+      "generationOrder": 2025,
+      "releaseYear": 2025,
+      "releaseDate": "2025-09-17",
+      "comparisonGroupId": "oppo.phone.k-s.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "OPPO K13s（8GB/256GB）；RAM容量 8GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙7 Gen3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2146/2145348/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:19:26.059Z",
+            "sourceSnapshotHash": "9b2f815991491cfd2655ebbc60d5b0e8c78135c4902c5e08a193d4f33293ed03"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "OPPO K13s（12GB/512GB）；RAM容量 12GB> 游戏运行流畅；ROM容量 512GB> 10.5万张照片 4.4万首歌曲；CPU型号 高通 骁龙7 Gen3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2146/2145350/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:19:26.436Z",
+            "sourceSnapshotHash": "d7e137d67e0f4d8b9d383fb34f49789166f32c250bb25bd0586e3f975302db19"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "OPPO K13s（12GB/256GB）；RAM容量 12GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙7 Gen3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2146/2145349/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:19:26.063Z",
+            "sourceSnapshotHash": "635af55f6f1b431da74f489b1f035613887b5a141c2ba78ae81eedeff4ea9e4a"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通 骁龙7 Gen3",
+          "rawText": "CPU型号 高通 骁龙7 Gen3",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2146/2145348/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:26.059Z",
+          "sourceSnapshotHash": "9b2f815991491cfd2655ebbc60d5b0e8c78135c4902c5e08a193d4f33293ed03",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "memory": {
+          "value": "8GB / 12GB",
+          "rawText": "RAM容量 8GB> 游戏运行流畅",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2146/2145348/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:26.059Z",
+          "sourceSnapshotHash": "9b2f815991491cfd2655ebbc60d5b0e8c78135c4902c5e08a193d4f33293ed03",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "storage": {
+          "value": "256GB / 512GB",
+          "rawText": "ROM容量 256GB> 5.2万张照片 2.2万首歌曲",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2146/2145348/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:26.059Z",
+          "sourceSnapshotHash": "9b2f815991491cfd2655ebbc60d5b0e8c78135c4902c5e08a193d4f33293ed03",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "screenSize": {
+          "value": 6.8,
+          "unit": "inch",
+          "rawText": "屏幕尺寸 6.8英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2146/2145348/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:26.059Z",
+          "sourceSnapshotHash": "9b2f815991491cfd2655ebbc60d5b0e8c78135c4902c5e08a193d4f33293ed03"
+        },
+        "displayType": {
+          "value": "柔性AMOLED",
+          "rawText": "屏幕材质 柔性AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2146/2145348/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:26.059Z",
+          "sourceSnapshotHash": "9b2f815991491cfd2655ebbc60d5b0e8c78135c4902c5e08a193d4f33293ed03"
+        },
+        "resolution": {
+          "value": "2800x1280px",
+          "rawText": "分辨率 2800x1280px",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2146/2145348/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:26.059Z",
+          "sourceSnapshotHash": "9b2f815991491cfd2655ebbc60d5b0e8c78135c4902c5e08a193d4f33293ed03"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "屏幕刷新率 120Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2146/2145348/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:26.059Z",
+          "sourceSnapshotHash": "9b2f815991491cfd2655ebbc60d5b0e8c78135c4902c5e08a193d4f33293ed03"
+        },
+        "weight": {
+          "value": 204,
+          "unit": "g",
+          "rawText": "重量 超能白：204g 聚能蓝：195g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2146/2145348/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:26.059Z",
+          "sourceSnapshotHash": "9b2f815991491cfd2655ebbc60d5b0e8c78135c4902c5e08a193d4f33293ed03"
+        },
+        "batteryCapacity": {
+          "value": 7000,
+          "unit": "mAh",
+          "rawText": "电池容量 7000mAh 大电池",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2146/2145348/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:26.059Z",
+          "sourceSnapshotHash": "9b2f815991491cfd2655ebbc60d5b0e8c78135c4902c5e08a193d4f33293ed03"
+        },
+        "port": {
+          "value": "USB Type-C接口",
+          "rawText": "机身接口 USB Type-C接口",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2146/2145348/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:26.059Z",
+          "sourceSnapshotHash": "9b2f815991491cfd2655ebbc60d5b0e8c78135c4902c5e08a193d4f33293ed03"
+        },
+        "wifi": {
+          "value": "支持 WLAN 2.4G 支持 WLAN 5G 支持 Wi-Fi 5（802.11ac） 支持 Wi-Fi 6（802.11ax） 支持 802.11a/b/g/n 支持 Wi-Fi Display 支持 WLAN 网络分享",
+          "rawText": "WLAN功能 支持 WLAN 2.4G 支持 WLAN 5G 支持 Wi-Fi 5（802.11ac） 支持 Wi-Fi 6（802.11ax） 支持 802.11a/b/g/n 支持 Wi-Fi Display 支持 WLAN 网络分享",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2146/2145348/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:26.059Z",
+          "sourceSnapshotHash": "9b2f815991491cfd2655ebbc60d5b0e8c78135c4902c5e08a193d4f33293ed03"
+        },
+        "bluetooth": {
+          "value": "支持蓝牙 ，SBC，AAC，LDAC，aptX，aptX HD",
+          "rawText": "蓝牙 支持蓝牙 ，SBC，AAC，LDAC，aptX，aptX HD",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2146/2145348/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:26.059Z",
+          "sourceSnapshotHash": "9b2f815991491cfd2655ebbc60d5b0e8c78135c4902c5e08a193d4f33293ed03"
+        },
+        "memoryType": {
+          "value": "LPDDR4X",
+          "rawText": "RAM存储类型 LPDDR4X",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2146/2145348/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:26.059Z",
+          "sourceSnapshotHash": "9b2f815991491cfd2655ebbc60d5b0e8c78135c4902c5e08a193d4f33293ed03"
+        },
+        "storageType": {
+          "value": "UFS 3.1",
+          "rawText": "ROM存储类型 UFS 3.1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2146/2145348/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:26.059Z",
+          "sourceSnapshotHash": "9b2f815991491cfd2655ebbc60d5b0e8c78135c4902c5e08a193d4f33293ed03"
+        },
+        "operatingSystem": {
+          "value": "ColorOS 15",
+          "rawText": "操作系统 ColorOS 15",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2146/2145348/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:26.059Z",
+          "sourceSnapshotHash": "9b2f815991491cfd2655ebbc60d5b0e8c78135c4902c5e08a193d4f33293ed03"
+        },
+        "security": {
+          "value": "屏幕指纹识别（光电屏幕指纹）",
+          "rawText": "指纹识别 屏幕指纹识别（光电屏幕指纹）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2146/2145348/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:26.059Z",
+          "sourceSnapshotHash": "9b2f815991491cfd2655ebbc60d5b0e8c78135c4902c5e08a193d4f33293ed03"
+        },
+        "waterResistance": {
+          "value": "IPX69&IPX68&IPX66防水防尘",
+          "rawText": "三防功能 IPX69&IPX68&IPX66防水防尘",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2146/2145348/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:26.059Z",
+          "sourceSnapshotHash": "9b2f815991491cfd2655ebbc60d5b0e8c78135c4902c5e08a193d4f33293ed03"
+        },
+        "sim": {
+          "value": "双卡（Nano SIM卡）",
+          "rawText": "SIM卡类型 双卡（Nano SIM卡）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2146/2145348/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:26.059Z",
+          "sourceSnapshotHash": "9b2f815991491cfd2655ebbc60d5b0e8c78135c4902c5e08a193d4f33293ed03"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持NFC（全场景）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2146/2145348/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:26.059Z",
+          "sourceSnapshotHash": "9b2f815991491cfd2655ebbc60d5b0e8c78135c4902c5e08a193d4f33293ed03"
+        },
+        "chargingMethod": {
+          "value": "有线充电：80w",
+          "rawText": "有线充电 80w",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2146/2145348/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:26.059Z",
+          "sourceSnapshotHash": "9b2f815991491cfd2655ebbc60d5b0e8c78135c4902c5e08a193d4f33293ed03"
+        },
+        "rearCamera": {
+          "value": "后置摄像头1：5000万像素 后置摄像头2：200万像素",
+          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：200万像素 前置摄像头1：3200万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2146/2145348/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:26.059Z",
+          "sourceSnapshotHash": "9b2f815991491cfd2655ebbc60d5b0e8c78135c4902c5e08a193d4f33293ed03"
+        },
+        "frontCamera": {
+          "value": "前置摄像头1：3200万像素",
+          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：200万像素 前置摄像头1：3200万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2146/2145348/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:26.059Z",
+          "sourceSnapshotHash": "9b2f815991491cfd2655ebbc60d5b0e8c78135c4902c5e08a193d4f33293ed03"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "oppo-k15-pro-2026",
+      "brand": "OPPO",
+      "market": "CN",
+      "category": "phone",
+      "series": "K Pro",
+      "family": "K Pro",
+      "variant": "standard",
+      "modelName": "OPPO K15 Pro",
+      "generation": "K15 Pro",
+      "generationOrder": 2026,
+      "releaseYear": 2026,
+      "releaseDate": "2026-04-03",
+      "comparisonGroupId": "oppo.phone.k-pro.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "OPPO K15 Pro(12GB/256GB)；RAM容量 12GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 联发科 天玑 8500 SUPER",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2162/2161710/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:19:27.945Z",
+            "sourceSnapshotHash": "bddd7d885130432fc5d7e1aaf1de697e55120b0216d03913ea0f203402be4bc8"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "OPPO K15 Pro(12GB/512GB)；RAM容量 12GB> 游戏运行流畅；ROM容量 512GB> 10.5万张照片 4.4万首歌曲；CPU型号 联发科 天玑 8500 SUPER",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2162/2161711/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:19:27.844Z",
+            "sourceSnapshotHash": "d01ef5de86c42d38be9fa08e7e00b1dbee4bceb98d5889a109725de65d155b65"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "天玑 8500 SUPER，8 核心，最高主频 3.4GHz",
+          "rawText": "移动平台 天玑 8500 SUPER，8 核心，最高主频 3.4GHz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:14:33.939Z",
+          "sourceSnapshotHash": "ccff94bedaa9095726ff5ff16bfe9e3fe4c83d38aa0b029d8c2197e50888df4f"
+        },
+        "memory": {
+          "value": "12GB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:14:33.939Z",
+          "sourceSnapshotHash": "ccff94bedaa9095726ff5ff16bfe9e3fe4c83d38aa0b029d8c2197e50888df4f"
+        },
+        "storage": {
+          "value": "256GB / 512GB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:14:33.939Z",
+          "sourceSnapshotHash": "ccff94bedaa9095726ff5ff16bfe9e3fe4c83d38aa0b029d8c2197e50888df4f"
+        },
+        "screenSize": {
+          "value": 6.59,
+          "unit": "inch",
+          "rawText": "显示 尺寸 6.59 英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:14:33.939Z",
+          "sourceSnapshotHash": "ccff94bedaa9095726ff5ff16bfe9e3fe4c83d38aa0b029d8c2197e50888df4f"
+        },
+        "displayType": {
+          "value": "柔性AMOLED",
+          "rawText": "屏幕材质 柔性AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2162/2161710/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:27.945Z",
+          "sourceSnapshotHash": "bddd7d885130432fc5d7e1aaf1de697e55120b0216d03913ea0f203402be4bc8"
+        },
+        "resolution": {
+          "value": "FHD+ 2760×1256 像素，460 PPI ",
+          "rawText": "分辨率 FHD+ 2760×1256 像素，460 PPI ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:14:33.939Z",
+          "sourceSnapshotHash": "ccff94bedaa9095726ff5ff16bfe9e3fe4c83d38aa0b029d8c2197e50888df4f"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "类型 直面屏 最高支持 144Hz 屏幕刷新率 (144Hz 只在部分游戏场景生效） 最高支持 240Hz 触控采样率 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:14:33.939Z",
+          "sourceSnapshotHash": "ccff94bedaa9095726ff5ff16bfe9e3fe4c83d38aa0b029d8c2197e50888df4f"
+        },
+        "weight": {
+          "value": 200,
+          "unit": "g",
+          "rawText": "重量 200g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2162/2161710/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:27.945Z",
+          "sourceSnapshotHash": "bddd7d885130432fc5d7e1aaf1de697e55120b0216d03913ea0f203402be4bc8"
+        },
+        "batteryCapacity": {
+          "value": 7500,
+          "unit": "mAh",
+          "rawText": "电池容量 3 7500 mAh/27.9 Wh（典型值） 7265 mAh/27.03 Wh（额定值） ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:14:33.939Z",
+          "sourceSnapshotHash": "ccff94bedaa9095726ff5ff16bfe9e3fe4c83d38aa0b029d8c2197e50888df4f"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "数据接口 USB Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:14:33.939Z",
+          "sourceSnapshotHash": "ccff94bedaa9095726ff5ff16bfe9e3fe4c83d38aa0b029d8c2197e50888df4f"
+        },
+        "wifi": {
+          "value": "支持 Wi-Fi 6（802.11ax） 支持 Wi-Fi 5（802.11ac） 支持 802.11a/b/g/n 支持 Wi-Fi Display 支持 WLAN 网络分享 支持 Wi-Fi 5GHz 160MHz 支持 2×2 MIMO",
+          "rawText": "WLAN 功能 支持 Wi-Fi 6（802.11ax） 支持 Wi-Fi 5（802.11ac） 支持 802.11a/b/g/n 支持 Wi-Fi Display 支持 WLAN 网络分享 支持 Wi-Fi 5GHz 160MHz 支持 2×2 MIMO",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:14:33.939Z",
+          "sourceSnapshotHash": "ccff94bedaa9095726ff5ff16bfe9e3fe4c83d38aa0b029d8c2197e50888df4f"
+        },
+        "bluetooth": {
+          "value": "5.4",
+          "rawText": "蓝牙 蓝牙 5.4",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:14:33.939Z",
+          "sourceSnapshotHash": "ccff94bedaa9095726ff5ff16bfe9e3fe4c83d38aa0b029d8c2197e50888df4f"
+        },
+        "memoryType": {
+          "value": "LPDDR5X",
+          "rawText": "RAM 规格 LPDDR5X",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:14:33.939Z",
+          "sourceSnapshotHash": "ccff94bedaa9095726ff5ff16bfe9e3fe4c83d38aa0b029d8c2197e50888df4f"
+        },
+        "storageType": {
+          "value": "UFS 3.1",
+          "rawText": "ROM 规格 UFS 3.1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:14:33.939Z",
+          "sourceSnapshotHash": "ccff94bedaa9095726ff5ff16bfe9e3fe4c83d38aa0b029d8c2197e50888df4f"
+        },
+        "operatingSystem": {
+          "value": "ColorOS 16.0",
+          "rawText": "操作系统 5 ColorOS 16.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:14:33.939Z",
+          "sourceSnapshotHash": "ccff94bedaa9095726ff5ff16bfe9e3fe4c83d38aa0b029d8c2197e50888df4f"
+        },
+        "security": {
+          "value": "指纹 屏下指纹 面部识别 支持",
+          "rawText": "生物识别 指纹 屏下指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:14:33.939Z",
+          "sourceSnapshotHash": "ccff94bedaa9095726ff5ff16bfe9e3fe4c83d38aa0b029d8c2197e50888df4f"
+        },
+        "waterResistance": {
+          "value": "IPX9满级防水",
+          "rawText": "三防功能 IPX9满级防水",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2162/2161710/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:27.945Z",
+          "sourceSnapshotHash": "bddd7d885130432fc5d7e1aaf1de697e55120b0216d03913ea0f203402be4bc8"
+        },
+        "sim": {
+          "value": "4 Nano-SIM 卡，Nano-USIM 卡，双卡双待双通（部分 RAT/频段支持双通） ",
+          "rawText": "SIM 卡类型 4 Nano-SIM 卡，Nano-USIM 卡，双卡双待双通（部分 RAT/频段支持双通） ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:14:33.939Z",
+          "sourceSnapshotHash": "ccff94bedaa9095726ff5ff16bfe9e3fe4c83d38aa0b029d8c2197e50888df4f"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持读写 NFC 卡片（13.56MHz 的 NFC 卡片） 支持 NFC-SIM（只支持 SIM1 卡槽） 支持 HCE 支付 支持 eSE（支持 300+城市地铁公交乘车，支持 OPPO Pay，门禁卡，车钥匙及公民网络电子身份标识（eID）等多项功能。轻触一下，便捷通行，安全支付。）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:14:33.939Z",
+          "sourceSnapshotHash": "ccff94bedaa9095726ff5ff16bfe9e3fe4c83d38aa0b029d8c2197e50888df4f"
+        },
+        "chargingMethod": {
+          "value": "最大支持： 80 W 超级闪充，80W UFCS 融合快充 兼容：67 W 及以下超级闪充，44 W 三方 UFCS 融合快充，55 W PPS，13.5 W PD",
+          "rawText": "快速充电 最大支持： 80 W 超级闪充，80W UFCS 融合快充 兼容：67 W 及以下超级闪充，44 W 三方 UFCS 融合快充，55 W PPS，13.5 W PD",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:14:33.939Z",
+          "sourceSnapshotHash": "ccff94bedaa9095726ff5ff16bfe9e3fe4c83d38aa0b029d8c2197e50888df4f"
+        },
+        "rearCamera": {
+          "value": "5000 万像素广角摄像头：f/1.8，等效焦距 24 毫米，5P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 800 万像素超广角摄像头：f/2.2，等效焦距 15 毫米，5P 镜头，支持 AF 自动对焦，116° 广视角 照片拍摄最高支持 10 倍数码变焦 支持：照片，视频，人像，夜景，全景，电影，慢动作，多景录像，延时摄影，萌拍，高像素，AI 证件照，专业模式，超级文本，扫一扫 照片格式：JPG（默认），HEIF ",
+          "rawText": "摄像头 后置 5000 万像素广角摄像头：f/1.8，等效焦距 24 毫米，5P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 800 万像素超广角摄像头：f/2.2，等效焦距 15 毫米，5P 镜头，支持 AF 自动对焦，116° 广视角 照片拍摄最高支持 10 倍数码变焦 支持：照片，视频，人像，夜景，全景，电影，慢动作，多景录像，延时摄影，萌拍，高像素，AI 证件照，专业模式，超级文本，扫一扫 照片格式：JPG（默认），HEIF ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:14:33.939Z",
+          "sourceSnapshotHash": "ccff94bedaa9095726ff5ff16bfe9e3fe4c83d38aa0b029d8c2197e50888df4f"
+        },
+        "frontCamera": {
+          "value": "1600 万像素摄像头：f/2.4，等效焦距 23 毫米，4P 镜头 ",
+          "rawText": "前置 1600 万像素摄像头：f/2.4，等效焦距 23 毫米，4P 镜头 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:14:33.939Z",
+          "sourceSnapshotHash": "ccff94bedaa9095726ff5ff16bfe9e3fe4c83d38aa0b029d8c2197e50888df4f"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "oppo-k15-pro-plus-2026",
+      "brand": "OPPO",
+      "market": "CN",
+      "category": "phone",
+      "series": "K Pro+",
+      "family": "K Pro+",
+      "variant": "standard",
+      "modelName": "OPPO K15 Pro+",
+      "generation": "K15 Pro+",
+      "generationOrder": 2026,
+      "releaseYear": 2026,
+      "releaseDate": "2026-04-03",
+      "comparisonGroupId": "oppo.phone.k-pro-plus.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "OPPO K15 Pro+(12GB/256GB)；RAM容量 12GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 联发科 天玑 9500S",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2162/2161712/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:19:29.710Z",
+            "sourceSnapshotHash": "c5904ec4450671f7d4582a6d78aee80e9af8e97e2f94e5ab3dbc6dfa184b9a71"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "OPPO K15 Pro+(12GB/512GB)；RAM容量 12GB> 游戏运行流畅；ROM容量 512GB> 10.5万张照片 4.4万首歌曲；CPU型号 联发科 天玑 9500S",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2162/2161713/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:14:15.990Z",
+            "sourceSnapshotHash": "1e8cff1ecbd95b3aa3c5798e730a38f46ef68a516cd65cddf418839726141fa9"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "MediaTek 天玑 9500s，8 核心，最高主频 3.73GHz",
+          "rawText": "移动平台 MediaTek 天玑 9500s，8 核心，最高主频 3.73GHz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:28.425Z",
+          "sourceSnapshotHash": "eac317f5cdb83931609934042367a831c50efcfc976083b4fbe13a753ea923a9"
+        },
+        "memory": {
+          "value": "12GB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:28.425Z",
+          "sourceSnapshotHash": "eac317f5cdb83931609934042367a831c50efcfc976083b4fbe13a753ea923a9"
+        },
+        "storage": {
+          "value": "256GB / 512GB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:28.425Z",
+          "sourceSnapshotHash": "eac317f5cdb83931609934042367a831c50efcfc976083b4fbe13a753ea923a9"
+        },
+        "screenSize": {
+          "value": 6.78,
+          "unit": "inch",
+          "rawText": "显示 尺寸 6.78 英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:28.425Z",
+          "sourceSnapshotHash": "eac317f5cdb83931609934042367a831c50efcfc976083b4fbe13a753ea923a9"
+        },
+        "displayType": {
+          "value": "柔性AMOLED",
+          "rawText": "屏幕材质 柔性AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2162/2161712/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:29.710Z",
+          "sourceSnapshotHash": "c5904ec4450671f7d4582a6d78aee80e9af8e97e2f94e5ab3dbc6dfa184b9a71"
+        },
+        "resolution": {
+          "value": "FHD+ 2772×1272 像素，450 PPI ",
+          "rawText": "分辨率 FHD+ 2772×1272 像素，450 PPI ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:28.425Z",
+          "sourceSnapshotHash": "eac317f5cdb83931609934042367a831c50efcfc976083b4fbe13a753ea923a9"
+        },
+        "refreshRate": {
+          "value": 165,
+          "unit": "Hz",
+          "rawText": "类型 直面屏 最高支持 165Hz 刷新率（144/165Hz 只在部分游戏场景生效） 最高支持 330Hz 触控采样率 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:28.425Z",
+          "sourceSnapshotHash": "eac317f5cdb83931609934042367a831c50efcfc976083b4fbe13a753ea923a9"
+        },
+        "weight": {
+          "value": 219,
+          "unit": "g",
+          "rawText": "重量 219g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2162/2161712/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:29.710Z",
+          "sourceSnapshotHash": "c5904ec4450671f7d4582a6d78aee80e9af8e97e2f94e5ab3dbc6dfa184b9a71"
+        },
+        "batteryCapacity": {
+          "value": 8000,
+          "unit": "mAh",
+          "rawText": "电池容量 3 8000 mAh/30.08 Wh（典型值） 7760 mAh/29.18 Wh（额定值） ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:28.425Z",
+          "sourceSnapshotHash": "eac317f5cdb83931609934042367a831c50efcfc976083b4fbe13a753ea923a9"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "数据接口 USB Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:28.425Z",
+          "sourceSnapshotHash": "eac317f5cdb83931609934042367a831c50efcfc976083b4fbe13a753ea923a9"
+        },
+        "wifi": {
+          "value": "支持 Wi-Fi 7（802.11be） 支持 Wi-Fi 6（802.11ax） 支持 Wi-Fi 5（802.11ac） 支持 802.11a/b/g/n 支持 Wi-Fi Display 支持 WLAN 网络分享 支持网络叠加：Wi-Fi 2.4GHz 2×2+Wi-Fi 5GHz 2×2 并发 支持 Wi-Fi 5GHz 160MHz 支持 2×2 MIMO",
+          "rawText": "WLAN 功能 支持 Wi-Fi 7（802.11be） 支持 Wi-Fi 6（802.11ax） 支持 Wi-Fi 5（802.11ac） 支持 802.11a/b/g/n 支持 Wi-Fi Display 支持 WLAN 网络分享 支持网络叠加：Wi-Fi 2.4GHz 2×2+Wi-Fi 5GHz 2×2 并发 支持 Wi-Fi 5GHz 160MHz 支持 2×2 MIMO",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:28.425Z",
+          "sourceSnapshotHash": "eac317f5cdb83931609934042367a831c50efcfc976083b4fbe13a753ea923a9"
+        },
+        "bluetooth": {
+          "value": "5.4",
+          "rawText": "蓝牙 蓝牙 5.4",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:28.425Z",
+          "sourceSnapshotHash": "eac317f5cdb83931609934042367a831c50efcfc976083b4fbe13a753ea923a9"
+        },
+        "memoryType": {
+          "value": "LPDDR5X",
+          "rawText": "RAM 规格 LPDDR5X",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:28.425Z",
+          "sourceSnapshotHash": "eac317f5cdb83931609934042367a831c50efcfc976083b4fbe13a753ea923a9"
+        },
+        "storageType": {
+          "value": "UFS 4.1",
+          "rawText": "ROM 规格 UFS 4.1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:28.425Z",
+          "sourceSnapshotHash": "eac317f5cdb83931609934042367a831c50efcfc976083b4fbe13a753ea923a9"
+        },
+        "operatingSystem": {
+          "value": "ColorOS 16.0",
+          "rawText": "操作系统 5 ColorOS 16.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:28.425Z",
+          "sourceSnapshotHash": "eac317f5cdb83931609934042367a831c50efcfc976083b4fbe13a753ea923a9"
+        },
+        "security": {
+          "value": "指纹 屏下指纹 面部识别 支持",
+          "rawText": "生物识别 指纹 屏下指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:28.425Z",
+          "sourceSnapshotHash": "eac317f5cdb83931609934042367a831c50efcfc976083b4fbe13a753ea923a9"
+        },
+        "waterResistance": {
+          "value": "IPX9满级防水",
+          "rawText": "三防功能 IPX9满级防水",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2162/2161712/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:29.710Z",
+          "sourceSnapshotHash": "c5904ec4450671f7d4582a6d78aee80e9af8e97e2f94e5ab3dbc6dfa184b9a71"
+        },
+        "sim": {
+          "value": "4 Nano-SIM 卡，Nano-USIM 卡，双卡双待双通（部分 RAT/频段支持双通） ",
+          "rawText": "SIM 卡类型 4 Nano-SIM 卡，Nano-USIM 卡，双卡双待双通（部分 RAT/频段支持双通） ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:28.425Z",
+          "sourceSnapshotHash": "eac317f5cdb83931609934042367a831c50efcfc976083b4fbe13a753ea923a9"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持读写 NFC 卡片（13.56MHz 的 NFC 卡片） 支持 NFC-SIM（只支持 SIM1 卡槽） 支持 HCE 支付 支持 eSE（支持 300+城市地铁公交乘车，支持 OPPO Pay，门禁卡，车钥匙及公民网络电子身份标识（eID）等多项功能。轻触一下，便捷通行，安全支付。）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:28.425Z",
+          "sourceSnapshotHash": "eac317f5cdb83931609934042367a831c50efcfc976083b4fbe13a753ea923a9"
+        },
+        "chargingMethod": {
+          "value": "最大支持：100 W 超级闪充，100 W UFCS 融合快充 兼容：80 W 及以下超级闪充，44 W 三方 UFCS 融合快充，55 W PPS，13.5 W PD",
+          "rawText": "快速充电 最大支持：100 W 超级闪充，100 W UFCS 融合快充 兼容：80 W 及以下超级闪充，44 W 三方 UFCS 融合快充，55 W PPS，13.5 W PD",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:28.425Z",
+          "sourceSnapshotHash": "eac317f5cdb83931609934042367a831c50efcfc976083b4fbe13a753ea923a9"
+        },
+        "rearCamera": {
+          "value": "5000 万像素广角摄像头：f/1.8，等效焦距 24 毫米，5P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 800 万像素超广角摄像头：f/2.2，等效焦距 15 毫米，5P 镜头，支持 AF 自动对焦，116° 广视角 照片拍摄最高支持 10 倍数码变焦 支持：照片，视频，人像，夜景，全景，电影，慢动作，多景录像，延时摄影，萌拍，高像素，AI 证件照，专业模式，超级文本，扫一扫 照片格式：JPG（默认），HEIF ",
+          "rawText": "摄像头 后置 5000 万像素广角摄像头：f/1.8，等效焦距 24 毫米，5P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 800 万像素超广角摄像头：f/2.2，等效焦距 15 毫米，5P 镜头，支持 AF 自动对焦，116° 广视角 照片拍摄最高支持 10 倍数码变焦 支持：照片，视频，人像，夜景，全景，电影，慢动作，多景录像，延时摄影，萌拍，高像素，AI 证件照，专业模式，超级文本，扫一扫 照片格式：JPG（默认），HEIF ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:28.425Z",
+          "sourceSnapshotHash": "eac317f5cdb83931609934042367a831c50efcfc976083b4fbe13a753ea923a9"
+        },
+        "frontCamera": {
+          "value": "1600 万像素摄像头：f/2.4，等效焦距 23 毫米，4P 镜头 ",
+          "rawText": "前置 1600 万像素摄像头：f/2.4，等效焦距 23 毫米，4P 镜头 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:28.425Z",
+          "sourceSnapshotHash": "eac317f5cdb83931609934042367a831c50efcfc976083b4fbe13a753ea923a9"
+        }
+      },
+      "computed": {}
+    }
+  ]
+}

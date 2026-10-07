@@ -1,0 +1,2324 @@
+{
+  "phone": [
+    {
+      "id": "samsung-w24-flip-2023",
+      "modelName": "Samsung W24 Flip",
+      "generation": "W24 Flip",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://www.samsung.com.cn/smartphones/samsung-w24-flip/",
+        "https://www.ithome.com/0/719/456.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2023",
+        "rawText": "三星“心系天下”W24 系列今日正式发布，包括 W24 和 W24 Flip 两款机型，售价分别为 15999 元（16GB+1TB）和 9999 元（12GB+512GB）",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/719/456.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:01.984Z",
+        "sourceSnapshotHash": "fb958bbf734dafaaca18c10bb0b0115e7073ef7468f1a2695537ebe46949dbe5",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [
+        {
+          "field": "displayType",
+          "reason": "未取得对应可信原文，留空；参数现价不作为首发价。"
+        },
+        {
+          "field": "port",
+          "reason": "未取得对应可信原文，留空；参数现价不作为首发价。"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "fieldCorrections": [
+        {
+          "field": "memory",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "storage",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "storageType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "security",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "sim",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "wifi",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chip",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        },
+        {
+          "field": "screenSize",
+          "reason": "官方内屏直角对角线"
+        },
+        {
+          "field": "batteryCapacity",
+          "reason": "官方典型值"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        },
+        {
+          "field": "resolution",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        },
+        {
+          "field": "rearCamera",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星 W24 Flip拥有12GB运行内存和512GB的存储空间",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.samsung.com.cn/smartphones/samsung-w24-flip/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:12.595Z",
+        "sourceSnapshotHash": "720d46ca25d2bb2aed259dcc304b68cdc76aa1b016d795f91b56e3e06fefe0f2"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星“心系天下”W24 系列今日正式发布，包括 W24 和 W24 Flip 两款机型，售价分别为 15999 元（16GB+1TB）和 9999 元（12GB+512GB）",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/719/456.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:01.984Z",
+        "sourceSnapshotHash": "fb958bbf734dafaaca18c10bb0b0115e7073ef7468f1a2695537ebe46949dbe5"
+      },
+      "imageLicense": "unknown",
+      "colorNames": [],
+      "productImage": {
+        "url": "https://images.samsung.com.cn/is/image/samsung/assets/cn/smartphones/samsung-w24-flip/images/W24-flip-KV-new-1019-1.jpg",
+        "alt": "Samsung W24 Flip",
+        "modelName": "Samsung W24 Flip",
+        "sourceUrl": "https://www.samsung.com.cn/smartphones/samsung-w24-flip/",
+        "sourceName": "三星中国",
+        "fetchedAt": "2026-10-05T20:19:12.595Z",
+        "sourceSnapshotHash": "720d46ca25d2bb2aed259dcc304b68cdc76aa1b016d795f91b56e3e06fefe0f2"
+      },
+      "sourceInputKind": "official_cn_model_marketing_and_launch_configuration"
+    },
+    {
+      "id": "samsung-galaxy-z-flip6-2024",
+      "modelName": "Samsung Galaxy Z Flip6",
+      "generation": "Z Flip6",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://www.samsung.com.cn/business/smartphones/galaxy-z/galaxy-z-flip6-sm-f7410zyachc/",
+        "https://www.ithome.com/0/782/466.htm",
+        "https://www.samsung.com.cn/news/product/z-fold6-and-z-flip6/",
+        "https://www.samsung.com.cn/smartphones/galaxy-z/galaxy-z-flip6-yellow-256gb-sm-f7410zyachc/buy/"
+      ],
+      "releaseEvidence": {
+        "value": "2024",
+        "rawText": "小折叠手机国行今晚发布，搭载骁龙 8 Gen 3 处理器，全系标配 12GB 内存， 国行售价 7999 元起。 12GB + 256GB：7999 元 12GB + 512GB：8999 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/782/466.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:37:10.328Z",
+        "sourceSnapshotHash": "4ae1e0a09a57cabe2e4bca07e1d4e65a336e2a41ad919816f65407083315046b",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 2 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "2024年7月17日，三星电子举行Galaxy新品中国发布会，正式面向中国市场推出第六代折叠屏手机三星Galaxy Z Fold6与Galaxy Z Flip6",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.samsung.com.cn/news/product/z-fold6-and-z-flip6/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:23:30.977Z",
+        "sourceSnapshotHash": "0b901897824e4ea9e916c8e050e4875105a57b8ab97342d0cfd4d7972b551162"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "小折叠手机国行今晚发布，搭载骁龙 8 Gen 3 处理器，全系标配 12GB 内存， 国行售价 7999 元起。 12GB + 256GB：7999 元 12GB + 512GB：8999 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/782/466.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:37:10.328Z",
+        "sourceSnapshotHash": "4ae1e0a09a57cabe2e4bca07e1d4e65a336e2a41ad919816f65407083315046b"
+      },
+      "fieldCorrections": [
+        {
+          "field": "chip",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        }
+      ],
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://images.samsung.com.cn/is/image/samsung/p6pim/cn/2407/gallery/cn-galaxy-zflip6-f741-512828-sm-f7410zyachc-542291268",
+        "alt": "Samsung Galaxy Z Flip6",
+        "modelName": "Samsung Galaxy Z Flip6",
+        "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-z/galaxy-z-flip6-yellow-256gb-sm-f7410zyachc/buy/",
+        "sourceName": "三星中国",
+        "fetchedAt": "2026-10-05T20:43:53.960Z",
+        "sourceSnapshotHash": "08279ee2a8afd030fdfcfe5a9fbcdb8f04f7f2f608ec27555d7ad3a59ce9514c"
+      },
+      "sourceInputKind": "official_cn_single_sku_and_launch_configuration_snapshots"
+    },
+    {
+      "id": "samsung-galaxy-c5-pro-2017",
+      "modelName": "Samsung Galaxy C5 Pro",
+      "generation": "C5 Pro",
+      "releaseYear": 2017,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1161/1160787/param.shtml",
+        "https://www.cnmo.com/news/570565.html",
+        "https://detail.zol.com.cn/cell_phone/index1160787.shtml",
+        "https://detail.zol.com.cn/picture_index_1812/index18116423_0_p1160787.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2017",
+        "rawText": "三星C5 Pro终于在三星中国官网上线，该机提供碧湖蓝、枫叶金、蔷薇粉三种配色，售价2499元，除了在官网上架以外，也已经在京东开启预售。 配置方面，三星C5 Pro搭载骁龙626八核处理器，采用5.2英寸1080p屏幕，内置4GB内存+64GB可扩展存储，配备1600万像素前后摄像头(F1.9光圈)，拥有2600mAh电池",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.cnmo.com/news/570565.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:34:56.455Z",
+        "sourceSnapshotHash": "4f6a31556458acbe943c345fa62d7620a672d1a0d43894a97ec03feb5fdf14e9",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "fieldCorrections": [
+        {
+          "field": "memory",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "storage",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "storageType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "security",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "sim",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "wifi",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星C5 Pro终于在三星中国官网上线，该机提供碧湖蓝、枫叶金、蔷薇粉三种配色，售价2499元，除了在官网上架以外，也已经在京东开启预售。 配置方面，三星C5 Pro搭载骁龙626八核处理器，采用5.2英寸1080p屏幕，内置4GB内存+64GB可扩展存储，配备1600万像素前后摄像头(F1.9光圈)，拥有2600mAh电池",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.cnmo.com/news/570565.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:34:56.455Z",
+        "sourceSnapshotHash": "4f6a31556458acbe943c345fa62d7620a672d1a0d43894a97ec03feb5fdf14e9"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星C5 Pro终于在三星中国官网上线，该机提供碧湖蓝、枫叶金、蔷薇粉三种配色，售价2499元，除了在官网上架以外，也已经在京东开启预售。 配置方面，三星C5 Pro搭载骁龙626八核处理器，采用5.2英寸1080p屏幕，内置4GB内存+64GB可扩展存储，配备1600万像素前后摄像头(F1.9光圈)，拥有2600mAh电池",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.cnmo.com/news/570565.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:34:56.455Z",
+        "sourceSnapshotHash": "4f6a31556458acbe943c345fa62d7620a672d1a0d43894a97ec03feb5fdf14e9"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2e.zol-img.com.cn/product/181_320x240/446/ceKMQ9VQkQrZ2.jpg",
+        "alt": "三星GALAXY C5 Pro（C5010/全网通）",
+        "modelName": "Samsung Galaxy C5 Pro",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1160787.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T20:24:45.187Z",
+        "sourceSnapshotHash": "04e13f7fa0164b25ed95763442a4a5992d3de64dbf5c2864de39a168bb6a7973"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1812/index18116423_0_p1160787.shtml",
+        "fetchedAt": "2026-10-05T20:39:58.768Z",
+        "sourceSnapshotHash": "806129a71b344fbce4a0c259b1069655936c439e8d36eabc837241b376ae57fa",
+        "colors": [
+          {
+            "name": "枫叶金",
+            "url": "https://2a.zol-img.com.cn/product/181/418/ceM1pw73ZI7ow.jpg"
+          },
+          {
+            "name": "蔷薇粉",
+            "url": "https://2f.zol-img.com.cn/product/181/423/ceQjdwlITpA6.jpg"
+          },
+          {
+            "name": "碧湖蓝",
+            "url": "https://2c.zol-img.com.cn/product/181/438/ceMmNYXd28nRI.jpg"
+          }
+        ]
+      },
+      "sourceInputKind": "cn_launch_configuration_and_selected_parameter_rows"
+    },
+    {
+      "id": "samsung-galaxy-c7-pro-2017",
+      "modelName": "Samsung Galaxy C7 Pro",
+      "generation": "C7 Pro",
+      "releaseYear": 2017,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1161/1160785/param.shtml",
+        "https://www.cnmo.com/news/567830.html",
+        "https://detail.zol.com.cn/cell_phone/index1160785.shtml",
+        "https://detail.zol.com.cn/picture_index_1805/index18041951_0_p1160785.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2017",
+        "rawText": "三星在中国区官网上发布了新机Galaxy C7 Pro，现在该机即将开启预售，其售价为2899元。官网显示，三星C7 Pro首发只有枫叶金、蔷薇粉两种配色，但购买的用户可获赠OTG金属手机U盘64G、便携多功能旅行包或爱奇艺VIP会员月卡。 三星C7 Pro售价公布 三星C7 Pro采用5.7寸1080p Super AMOLED屏幕，内置4GB内存+64GB可扩展存储",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.cnmo.com/news/567830.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:33:30.690Z",
+        "sourceSnapshotHash": "3a9eb9d1f7b7ed3402259e9374bd1cf1dd3e9a5ce1c13ff72fd5607d70a59739",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "fieldCorrections": [
+        {
+          "field": "memory",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "storage",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "storageType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "security",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "sim",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "wifi",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星在中国区官网上发布了新机Galaxy C7 Pro，现在该机即将开启预售，其售价为2899元。官网显示，三星C7 Pro首发只有枫叶金、蔷薇粉两种配色，但购买的用户可获赠OTG金属手机U盘64G、便携多功能旅行包或爱奇艺VIP会员月卡。 三星C7 Pro售价公布 三星C7 Pro采用5.7寸1080p Super AMOLED屏幕，内置4GB内存+64GB可扩展存储",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.cnmo.com/news/567830.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:33:30.690Z",
+        "sourceSnapshotHash": "3a9eb9d1f7b7ed3402259e9374bd1cf1dd3e9a5ce1c13ff72fd5607d70a59739"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星在中国区官网上发布了新机Galaxy C7 Pro，现在该机即将开启预售，其售价为2899元。官网显示，三星C7 Pro首发只有枫叶金、蔷薇粉两种配色，但购买的用户可获赠OTG金属手机U盘64G、便携多功能旅行包或爱奇艺VIP会员月卡。 三星C7 Pro售价公布 三星C7 Pro采用5.7寸1080p Super AMOLED屏幕，内置4GB内存+64GB可扩展存储",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.cnmo.com/news/567830.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:33:30.690Z",
+        "sourceSnapshotHash": "3a9eb9d1f7b7ed3402259e9374bd1cf1dd3e9a5ce1c13ff72fd5607d70a59739"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2b.zol-img.com.cn/product/180_320x240/245/cesa6KeDZpJW2.jpg",
+        "alt": "三星GALAXY C7 Pro（C7010/全网通）",
+        "modelName": "Samsung Galaxy C7 Pro",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1160785.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T20:24:45.253Z",
+        "sourceSnapshotHash": "509a661f67d4b53021ead93443948d46d7e24e3b2dd29d22f177231aab4b79bf"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1805/index18041951_0_p1160785.shtml",
+        "fetchedAt": "2026-10-05T20:39:58.903Z",
+        "sourceSnapshotHash": "c5ac79b3578dece30ace1140629edbc2f07e251a7efb0818acd414bb04d8a78f",
+        "colors": [
+          {
+            "name": "枫叶金",
+            "url": "https://2c.zol-img.com.cn/product/180/948/cepCAXKMSRrWI.jpg"
+          },
+          {
+            "name": "蔷薇粉",
+            "url": "https://2f.zol-img.com.cn/product/180/951/ceEqykNJBWso.jpg"
+          },
+          {
+            "name": "苍海蓝",
+            "url": "https://2b.zol-img.com.cn/product/180/185/ceBshFk7bmtKM.jpg"
+          }
+        ]
+      },
+      "sourceInputKind": "cn_launch_configuration_and_selected_parameter_rows"
+    },
+    {
+      "id": "samsung-galaxy-c8-2017",
+      "modelName": "Samsung Galaxy C8",
+      "generation": "C8",
+      "releaseYear": 2017,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://www.ithome.com/0/331/383.htm",
+        "https://www.samsung.com.cn/support/model/SM-C7100ZDGCHC/"
+      ],
+      "releaseEvidence": {
+        "value": "2017",
+        "rawText": "三星在北京正式发布了旗下的第二款双摄手机Galaxy C8，该机于9月22日正式上市开售，售价1999元起。 三星Galaxy C8采用5.5英寸1080p Super AMOLED显示屏，搭载联发科Helio P25处理器，后置1300万像素RGB镜头+500万像素黑白镜头，前置1600万像素镜头，运行Android 7.1.1操作系统（SE8.5），电池容量为3000mAh，支持Bixby。 三星Galaxy C8采用了C系列常见的椭圆形Home按键，金属一体化机身设计，有3GB+32GB和4GB+64GB两个版本可选",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/331/383.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:33:03.931Z",
+        "sourceSnapshotHash": "43c9e3933242d7e9a708ff5c37de93a39216d6f6262db7af8bd0f78ff3aa859d",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [
+        {
+          "field": "port",
+          "reason": "未取得对应可信原文，留空；参数现价不作为首发价。"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 2 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "fieldCorrections": [
+        {
+          "field": "memory",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "storage",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "storageType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "security",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "sim",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "wifi",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chip",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        },
+        {
+          "field": "screenSize",
+          "reason": "发布报道"
+        },
+        {
+          "field": "displayType",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        },
+        {
+          "field": "resolution",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        },
+        {
+          "field": "rearCamera",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        },
+        {
+          "field": "batteryCapacity",
+          "reason": "发布原文"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星在北京正式发布了旗下的第二款双摄手机Galaxy C8，该机于9月22日正式上市开售，售价1999元起。 三星Galaxy C8采用5.5英寸1080p Super AMOLED显示屏，搭载联发科Helio P25处理器，后置1300万像素RGB镜头+500万像素黑白镜头，前置1600万像素镜头，运行Android 7.1.1操作系统（SE8.5），电池容量为3000mAh，支持Bixby。 三星Galaxy C8采用了C系列常见的椭圆形Home按键，金属一体化机身设计，有3GB+32GB和4GB+64GB两个版本可选",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/331/383.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:33:03.931Z",
+        "sourceSnapshotHash": "43c9e3933242d7e9a708ff5c37de93a39216d6f6262db7af8bd0f78ff3aa859d"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星在北京正式发布了旗下的第二款双摄手机Galaxy C8，该机于9月22日正式上市开售，售价1999元起。 三星Galaxy C8采用5.5英寸1080p Super AMOLED显示屏，搭载联发科Helio P25处理器，后置1300万像素RGB镜头+500万像素黑白镜头，前置1600万像素镜头，运行Android 7.1.1操作系统（SE8.5），电池容量为3000mAh，支持Bixby。 三星Galaxy C8采用了C系列常见的椭圆形Home按键，金属一体化机身设计，有3GB+32GB和4GB+64GB两个版本可选",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/331/383.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:33:03.931Z",
+        "sourceSnapshotHash": "43c9e3933242d7e9a708ff5c37de93a39216d6f6262db7af8bd0f78ff3aa859d"
+      },
+      "imageLicense": "unknown",
+      "colorNames": [],
+      "productImage": {
+        "url": "https://images.samsung.com.cn/is/image/samsung/cn-galaxy-c8-sm-c7100zdgchc-76162460?$624_624_PNG$",
+        "alt": "Samsung Galaxy C8",
+        "modelName": "Samsung Galaxy C8",
+        "sourceUrl": "https://www.samsung.com.cn/support/model/SM-C7100ZDGCHC/",
+        "sourceName": "三星中国",
+        "fetchedAt": "2026-10-05T20:46:47.731Z",
+        "sourceSnapshotHash": "f9c06ee11bc1edba41032113a2ac5ac99758d8d5675278454763b4c5c90a9adc"
+      },
+      "sourceInputKind": "cn_sale_article_explicit_configurations_and_model_specs"
+    },
+    {
+      "id": "samsung-w2018-2017",
+      "modelName": "Samsung W2018",
+      "generation": "W2018",
+      "releaseYear": 2017,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1185/1184217/param.shtml",
+        "https://www.sohu.com/a/207824053_115565",
+        "https://detail.zol.com.cn/cell_phone/index1184217.shtml",
+        "https://detail.zol.com.cn/picture_index_1887/index18869024_0_p1184217.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2017",
+        "rawText": "北京时间12月1日，三星在厦门举办新机发布会，心系天下W系列第十代机型W2018正式发布。该机依然采用了经典的双屏翻盖设计，配备双4.2寸1080pAMOLED屏幕以及实体按键，后置指纹解锁并支持虹膜识别，底部换上了Type-C接口，1200万像素后置摄像头将提供光学防抖功能，光圈由F1.7增至F1.5，配置上则依旧搭载骁龙835处理器，内置6GB内存，提供2300mAh容量电池",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.sohu.com/a/207824053_115565",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:34:56.228Z",
+        "sourceSnapshotHash": "474f46dd019f37bf645ebff954a47303302b29c55e2581dd0c39c55eb27e8e71",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未取得对应可信原文，留空；参数现价不作为首发价。"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 2 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "fieldCorrections": [
+        {
+          "field": "memory",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "storage",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "storageType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "security",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "sim",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "wifi",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "北京时间12月1日，三星在厦门举办新机发布会，心系天下W系列第十代机型W2018正式发布。该机依然采用了经典的双屏翻盖设计，配备双4.2寸1080pAMOLED屏幕以及实体按键，后置指纹解锁并支持虹膜识别，底部换上了Type-C接口，1200万像素后置摄像头将提供光学防抖功能，光圈由F1.7增至F1.5，配置上则依旧搭载骁龙835处理器，内置6GB内存，提供2300mAh容量电池",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.sohu.com/a/207824053_115565",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:34:56.228Z",
+        "sourceSnapshotHash": "474f46dd019f37bf645ebff954a47303302b29c55e2581dd0c39c55eb27e8e71"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "北京时间12月1日，三星在厦门举办新机发布会，心系天下W系列第十代机型W2018正式发布。该机依然采用了经典的双屏翻盖设计，配备双4.2寸1080pAMOLED屏幕以及实体按键，后置指纹解锁并支持虹膜识别，底部换上了Type-C接口，1200万像素后置摄像头将提供光学防抖功能，光圈由F1.7增至F1.5，配置上则依旧搭载骁龙835处理器，内置6GB内存，提供2300mAh容量电池",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.sohu.com/a/207824053_115565",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:34:56.228Z",
+        "sourceSnapshotHash": "474f46dd019f37bf645ebff954a47303302b29c55e2581dd0c39c55eb27e8e71"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2b.zol-img.com.cn/product/188_320x240/23/ce1D5jgnuRXbE.jpg",
+        "alt": "三星W2018（全网通）",
+        "modelName": "Samsung W2018",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1184217.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T20:24:43.413Z",
+        "sourceSnapshotHash": "b71dcdda76d5fe9b87626d36add6fa112c766afe403c2529a5083ba00b2b4dd7"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1887/index18869024_0_p1184217.shtml",
+        "fetchedAt": "2026-10-05T20:39:59.047Z",
+        "sourceSnapshotHash": "521b5c96b7fe13f44632797f32e9ce1c727b10315243476e0997641e557fe6bd",
+        "colors": [
+          {
+            "name": "雅金",
+            "url": "https://2b.zol-img.com.cn/product/188/23/ce1D5jgnuRXbE.jpg"
+          }
+        ]
+      },
+      "sourceInputKind": "cn_launch_configuration_and_selected_parameter_rows"
+    },
+    {
+      "id": "samsung-w2019-2018",
+      "modelName": "Samsung W2019",
+      "generation": "W2019",
+      "releaseYear": 2018,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1223/1222360/param.shtml",
+        "https://www.ithome.com/0/393/950.htm",
+        "https://detail.zol.com.cn/cell_phone/index1222360.shtml",
+        "https://detail.zol.com.cn/picture_index_1940/index19397278_0_p1222360.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2018",
+        "rawText": "三星在江苏无锡举办了发布会，正式发布了心系天下系列高端手机新品W2019。 外观方面，三星W2019延续了该系列一贯的翻盖双屏设计，尺寸为132.9*63.4*17.3毫米，重量为257克。W2019没有耳机接口，用户可以通过Type-C接口使用有线耳机或者通过蓝牙使用无线耳机，值得一提的是，三星W2019的指纹识别传感器位于手机的右侧边框，与电源键集成。 相机方面，三星W2019搭载了前置单1200万像素摄像头（光圈F2.0）和后置双1200万像素摄像头（两颗摄像头均支持OIS光学防抖），其中，两颗摄像头中的主摄支持F1.5/F2.4智能可变光圈。这是三星W系列首次使用双摄。 屏幕方面，三星W2019采用了两块4.2英寸的分辨率为1920*1080的Super AMOLED屏幕（内外双屏），这两块屏幕均可用来操作手机。 配置方面，三星W2019搭载的处理器为高通骁龙845，运行内存为6GB，内置存储为128GB",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/393/950.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:33:04.129Z",
+        "sourceSnapshotHash": "81da6a9872597c64b1b82596172db8622d49a8523620927150fb960ce240ee43",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未取得对应可信原文，留空；参数现价不作为首发价。"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "原参数页存在型号/代际或多来源冲突，未取得独立可信原文则隔离；不猜值。"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "fieldCorrections": [
+        {
+          "field": "memory",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "storage",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "storageType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "security",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "sim",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "wifi",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星在江苏无锡举办了发布会，正式发布了心系天下系列高端手机新品W2019。 外观方面，三星W2019延续了该系列一贯的翻盖双屏设计，尺寸为132.9*63.4*17.3毫米，重量为257克。W2019没有耳机接口，用户可以通过Type-C接口使用有线耳机或者通过蓝牙使用无线耳机，值得一提的是，三星W2019的指纹识别传感器位于手机的右侧边框，与电源键集成。 相机方面，三星W2019搭载了前置单1200万像素摄像头（光圈F2.0）和后置双1200万像素摄像头（两颗摄像头均支持OIS光学防抖），其中，两颗摄像头中的主摄支持F1.5/F2.4智能可变光圈。这是三星W系列首次使用双摄。 屏幕方面，三星W2019采用了两块4.2英寸的分辨率为1920*1080的Super AMOLED屏幕（内外双屏），这两块屏幕均可用来操作手机。 配置方面，三星W2019搭载的处理器为高通骁龙845，运行内存为6GB，内置存储为128GB",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/393/950.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:33:04.129Z",
+        "sourceSnapshotHash": "81da6a9872597c64b1b82596172db8622d49a8523620927150fb960ce240ee43"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星在江苏无锡举办了发布会，正式发布了心系天下系列高端手机新品W2019。 外观方面，三星W2019延续了该系列一贯的翻盖双屏设计，尺寸为132.9*63.4*17.3毫米，重量为257克。W2019没有耳机接口，用户可以通过Type-C接口使用有线耳机或者通过蓝牙使用无线耳机，值得一提的是，三星W2019的指纹识别传感器位于手机的右侧边框，与电源键集成。 相机方面，三星W2019搭载了前置单1200万像素摄像头（光圈F2.0）和后置双1200万像素摄像头（两颗摄像头均支持OIS光学防抖），其中，两颗摄像头中的主摄支持F1.5/F2.4智能可变光圈。这是三星W系列首次使用双摄。 屏幕方面，三星W2019采用了两块4.2英寸的分辨率为1920*1080的Super AMOLED屏幕（内外双屏），这两块屏幕均可用来操作手机。 配置方面，三星W2019搭载的处理器为高通骁龙845，运行内存为6GB，内置存储为128GB",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/393/950.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:33:04.129Z",
+        "sourceSnapshotHash": "81da6a9872597c64b1b82596172db8622d49a8523620927150fb960ce240ee43"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2a.zol-img.com.cn/product/193_320x240/550/ceb5QiTKwLQ.jpg",
+        "alt": "三星W2019（全网通）",
+        "modelName": "Samsung W2019",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1222360.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T20:39:59.140Z",
+        "sourceSnapshotHash": "6ebacd9e024b93ae8adb1ff4df25427f53114e4237c721a4df0c240fb60290da"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1940/index19397278_0_p1222360.shtml",
+        "fetchedAt": "2026-10-05T20:39:59.249Z",
+        "sourceSnapshotHash": "5803bb8f0e43959f1165bdb5e04199f192056fa927b4aaab717e67e7bc94bfb9",
+        "colors": [
+          {
+            "name": "银色",
+            "url": "https://2e.zol-img.com.cn/product/193/278/ceLDrGbfB0ybs.jpg"
+          },
+          {
+            "name": "睿金色",
+            "url": "https://2a.zol-img.com.cn/product/193/550/ceb5QiTKwLQ.jpg"
+          }
+        ]
+      },
+      "sourceInputKind": "cn_launch_configuration_and_selected_parameter_rows"
+    },
+    {
+      "id": "samsung-w20-2019",
+      "modelName": "Samsung W20",
+      "generation": "W20",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1293/1292551/param.shtml",
+        "https://www.ithome.com/0/457/986.htm",
+        "https://detail.zol.com.cn/cell_phone/index1292551.shtml",
+        "https://detail.zol.com.cn/picture_index_2208/index22072372_0_p1292551.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2019",
+        "rawText": "三星联合中国电信在武汉召开新品发布会，正式发布了“心系天下”W20 5G手机，该机跟三星Galaxy Fold极为相似，采用了相同的左右折叠屏设计，但边框更加硬朗，当然最大不同是W20 5G支持5G网络。 三星W20 5G外屏配一块分辨率为720x1680的4.6英寸Surper AMOLED屏幕，展开后屏幕大小为7.3英寸，厚度为6.9毫米，支持多应用同屏操作，可同时打开3个应用同屏。机身背面印有“心系天下”的Logo，机身配色为白色。 性能方面，三星W20 5G搭载高通骁龙855 Plus移动平台，配合骁龙X50调制解调器，支持NSA组网的5G网络。此外，三星W20 5G配备12GB运存+512GB机身存储",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/457/986.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:33:04.163Z",
+        "sourceSnapshotHash": "85775249d5e0f1a3c13fee6f60a967ce1df1eb24f3c7ce8f0c1ac5a32b86e147",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未取得对应可信原文，留空；参数现价不作为首发价。"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "原参数页存在型号/代际或多来源冲突，未取得独立可信原文则隔离；不猜值。"
+        },
+        {
+          "field": "displayType",
+          "reason": "原参数页存在型号/代际或多来源冲突，未取得独立可信原文则隔离；不猜值。"
+        },
+        {
+          "field": "port",
+          "reason": "原参数页存在型号/代际或多来源冲突，未取得独立可信原文则隔离；不猜值。"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "fieldCorrections": [
+        {
+          "field": "memory",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "storage",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "storageType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "security",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "sim",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "wifi",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "displayType",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "port",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "screenSizeDetails",
+          "reason": "发布原文，不借用Fold参数"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星联合中国电信在武汉召开新品发布会，正式发布了“心系天下”W20 5G手机，该机跟三星Galaxy Fold极为相似，采用了相同的左右折叠屏设计，但边框更加硬朗，当然最大不同是W20 5G支持5G网络。 三星W20 5G外屏配一块分辨率为720x1680的4.6英寸Surper AMOLED屏幕，展开后屏幕大小为7.3英寸，厚度为6.9毫米，支持多应用同屏操作，可同时打开3个应用同屏。机身背面印有“心系天下”的Logo，机身配色为白色。 性能方面，三星W20 5G搭载高通骁龙855 Plus移动平台，配合骁龙X50调制解调器，支持NSA组网的5G网络。此外，三星W20 5G配备12GB运存+512GB机身存储",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/457/986.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:33:04.163Z",
+        "sourceSnapshotHash": "85775249d5e0f1a3c13fee6f60a967ce1df1eb24f3c7ce8f0c1ac5a32b86e147"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星联合中国电信在武汉召开新品发布会，正式发布了“心系天下”W20 5G手机，该机跟三星Galaxy Fold极为相似，采用了相同的左右折叠屏设计，但边框更加硬朗，当然最大不同是W20 5G支持5G网络。 三星W20 5G外屏配一块分辨率为720x1680的4.6英寸Surper AMOLED屏幕，展开后屏幕大小为7.3英寸，厚度为6.9毫米，支持多应用同屏操作，可同时打开3个应用同屏。机身背面印有“心系天下”的Logo，机身配色为白色。 性能方面，三星W20 5G搭载高通骁龙855 Plus移动平台，配合骁龙X50调制解调器，支持NSA组网的5G网络。此外，三星W20 5G配备12GB运存+512GB机身存储",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/457/986.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:33:04.163Z",
+        "sourceSnapshotHash": "85775249d5e0f1a3c13fee6f60a967ce1df1eb24f3c7ce8f0c1ac5a32b86e147"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2e.zol-img.com.cn/product/220_320x240/372/ceL7RxvJLPmWs.jpg",
+        "alt": "三星W20（12GB/512GB/全网通/5G版）",
+        "modelName": "Samsung W20",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1292551.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T20:39:59.320Z",
+        "sourceSnapshotHash": "3f1ed2e447bf7ac94ca1b09febb42ac25933f1e8c8725e6b950e90d67cda6865"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2208/index22072372_0_p1292551.shtml",
+        "fetchedAt": "2026-10-05T20:39:59.519Z",
+        "sourceSnapshotHash": "bd42f8b0e7d5c68d45238eace84d5bcfa843edabdb84bcae9ca73fdea0be05fc",
+        "colors": [
+          {
+            "name": "皓月白",
+            "url": "https://2e.zol-img.com.cn/product/220/372/ceL7RxvJLPmWs.jpg"
+          }
+        ]
+      },
+      "sourceInputKind": "cn_launch_configuration_and_selected_parameter_rows"
+    },
+    {
+      "id": "samsung-w21-2020",
+      "modelName": "Samsung W21",
+      "generation": "W21",
+      "releaseYear": 2020,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1343/1342805/param.shtml",
+        "https://www.ithome.com/0/517/663.htm",
+        "https://detail.zol.com.cn/cell_phone/index1342805.shtml",
+        "https://detail.zol.com.cn/picture_index_2089/index20885373_0_p1342805.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2020",
+        "rawText": "2020 年 11 月 4 日，三星&中国电信第十三代 “心系天下”系列续作 W21 5G 正式发布，致辞 “勇者无畏，仁者无疆”，售价持平前代（19999 元）， 即日起即可预约购买 。 时至今日，无需多言，折叠屏机型的出现就像这行业的一剂猛药，搅动了多年波澜不惊、形态同质化严重的手机市场。 三星 W21 5G 是三星旗下第四款折叠手机，不同于更广为人知的三星 Galaxy S 和 Galaxy Note 系列，W 系列从 “公益”消费的角度，匹配 “高端商务”用户的需求，秉持传承、创新、尊贵、思仁理念，在三星旗舰手机的基础上推陈出新，而 W21 5G 也是在这个基础上为用户带来的一款顶级商务机型。 该机与前作 W20 5G 类似，都是在早先的三星 Galaxy Z Fold 系列旗舰机型的基础上进行小幅度升级优化而来，相对于三星 Galaxy Z Fold 2，W21 5G 支持双卡双待功能。 此外，该机外观与三星 Galaxy Z Fold 2 有所区别。官方将其配色称为 “熠辉金”，应为在 Galaxy Z Fold 2 基础上添加花纹和标语所来。 值得一提的是，虽然是与中国电信联合开发，但该机支持全网通。 三星 W21 5G 搭载了高通骁龙 865+ SoC，采用一块具备 120Hz 刷新率以及 2208×1768 分辨率的 7.6 英寸内屏，和一块 2260×816 分辨率的 6.23 英寸外屏，机身尺寸为 128.2 x 159.2 x 6.2mm，提供 12GB+512GB 的存储组合",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/517/663.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:33:04.213Z",
+        "sourceSnapshotHash": "fd7308f76f1779a9ee503cff48f09d5d193f12fdd079e7c5138221e918e8df63",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "fieldCorrections": [
+        {
+          "field": "memory",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "storage",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "storageType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "security",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "sim",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "wifi",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "batteryCapacity",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "batteryCapacity",
+          "reason": "发布典型值，不用ZOL4390额定值"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "2020 年 11 月 4 日，三星&中国电信第十三代 “心系天下”系列续作 W21 5G 正式发布，致辞 “勇者无畏，仁者无疆”，售价持平前代（19999 元）， 即日起即可预约购买 。 时至今日，无需多言，折叠屏机型的出现就像这行业的一剂猛药，搅动了多年波澜不惊、形态同质化严重的手机市场。 三星 W21 5G 是三星旗下第四款折叠手机，不同于更广为人知的三星 Galaxy S 和 Galaxy Note 系列，W 系列从 “公益”消费的角度，匹配 “高端商务”用户的需求，秉持传承、创新、尊贵、思仁理念，在三星旗舰手机的基础上推陈出新，而 W21 5G 也是在这个基础上为用户带来的一款顶级商务机型。 该机与前作 W20 5G 类似，都是在早先的三星 Galaxy Z Fold 系列旗舰机型的基础上进行小幅度升级优化而来，相对于三星 Galaxy Z Fold 2，W21 5G 支持双卡双待功能。 此外，该机外观与三星 Galaxy Z Fold 2 有所区别。官方将其配色称为 “熠辉金”，应为在 Galaxy Z Fold 2 基础上添加花纹和标语所来。 值得一提的是，虽然是与中国电信联合开发，但该机支持全网通。 三星 W21 5G 搭载了高通骁龙 865+ SoC，采用一块具备 120Hz 刷新率以及 2208×1768 分辨率的 7.6 英寸内屏，和一块 2260×816 分辨率的 6.23 英寸外屏，机身尺寸为 128.2 x 159.2 x 6.2mm，提供 12GB+512GB 的存储组合",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/517/663.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:33:04.213Z",
+        "sourceSnapshotHash": "fd7308f76f1779a9ee503cff48f09d5d193f12fdd079e7c5138221e918e8df63"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "2020 年 11 月 4 日，三星&中国电信第十三代 “心系天下”系列续作 W21 5G 正式发布，致辞 “勇者无畏，仁者无疆”，售价持平前代（19999 元）， 即日起即可预约购买 。 时至今日，无需多言，折叠屏机型的出现就像这行业的一剂猛药，搅动了多年波澜不惊、形态同质化严重的手机市场。 三星 W21 5G 是三星旗下第四款折叠手机，不同于更广为人知的三星 Galaxy S 和 Galaxy Note 系列，W 系列从 “公益”消费的角度，匹配 “高端商务”用户的需求，秉持传承、创新、尊贵、思仁理念，在三星旗舰手机的基础上推陈出新，而 W21 5G 也是在这个基础上为用户带来的一款顶级商务机型。 该机与前作 W20 5G 类似，都是在早先的三星 Galaxy Z Fold 系列旗舰机型的基础上进行小幅度升级优化而来，相对于三星 Galaxy Z Fold 2，W21 5G 支持双卡双待功能。 此外，该机外观与三星 Galaxy Z Fold 2 有所区别。官方将其配色称为 “熠辉金”，应为在 Galaxy Z Fold 2 基础上添加花纹和标语所来。 值得一提的是，虽然是与中国电信联合开发，但该机支持全网通。 三星 W21 5G 搭载了高通骁龙 865+ SoC，采用一块具备 120Hz 刷新率以及 2208×1768 分辨率的 7.6 英寸内屏，和一块 2260×816 分辨率的 6.23 英寸外屏，机身尺寸为 128.2 x 159.2 x 6.2mm，提供 12GB+512GB 的存储组合",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/517/663.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:33:04.213Z",
+        "sourceSnapshotHash": "fd7308f76f1779a9ee503cff48f09d5d193f12fdd079e7c5138221e918e8df63"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2c.zol-img.com.cn/product/208_320x240/426/cehhAXzbS8aqY.jpg",
+        "alt": "三星W21（12GB/512GB/全网通/5G版）",
+        "modelName": "Samsung W21",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1342805.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T20:39:59.596Z",
+        "sourceSnapshotHash": "a090ad4a0b5d12335cc84ba187fcad1980ccd8e98d418c6bbf7661bad31f9046"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2089/index20885373_0_p1342805.shtml",
+        "fetchedAt": "2026-10-05T20:39:59.647Z",
+        "sourceSnapshotHash": "27fb84a6e34b25c124184f56e6635b84850a56fd9b63aa648e91e521faa0ac71",
+        "colors": [
+          {
+            "name": "熠辉金",
+            "url": "https://2d.zol-img.com.cn/product/208/373/ceaEQMPNlSbv6.jpg"
+          }
+        ]
+      },
+      "sourceInputKind": "cn_launch_configuration_and_selected_parameter_rows"
+    },
+    {
+      "id": "samsung-w22-2021",
+      "modelName": "Samsung W22",
+      "generation": "W22",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1391/1390597/param.shtml",
+        "https://www.ithome.com/0/580/356.htm",
+        "https://detail.zol.com.cn/cell_phone/index1390597.shtml",
+        "https://detail.zol.com.cn/picture_index_2217/index22169996_0_p1390597.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2021",
+        "rawText": "三星今日在杭州大剧院-悦亮四季剧院发布了 “心系天下”三星 W22 5G 手机，售价 16999 元 。 三星 W22 5G 手机以三星 Galaxy Z Fold3 5G 手机为原型进行升级， 整体机身采用了黑色设计，铰链部分为金色 ，同时，机身背部印有“心系天下”Logo。 同时，三星为 W22 5G 手机推出了专属的手机壳，同样采用黑色设计，手机壳一侧印有“心系天下”Logo，铰链处配有放置 S Pen 手写笔的插槽。 此外，三星 W22 5G 手机的手机盒也经过了特殊设计，采用礼盒式的对开设计，中间一个大大的“心系天下”金色封签，内部也同样印有文字与“心系天下”Logo，看起来确实商务感十足。 IT之家了解到，三星 W22 5G 手机搭载 7.6 英寸 2208 x 1768 Dynamic AMOLED 屏，具有自适应 120Hz 刷新率，配备屏下前置摄像头。 三星 W22 5G 手机搭载骁龙 888 处理器， 配备 16GB＋512GB 存储",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/580/356.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:33:04.247Z",
+        "sourceSnapshotHash": "8bd69504d00d366d384d666dc9f10aa8c78d58c7759c07a4fc38a734e5dc157e",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "fieldCorrections": [
+        {
+          "field": "memory",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "storage",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "storageType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "security",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "sim",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "wifi",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星今日在杭州大剧院-悦亮四季剧院发布了 “心系天下”三星 W22 5G 手机，售价 16999 元 。 三星 W22 5G 手机以三星 Galaxy Z Fold3 5G 手机为原型进行升级， 整体机身采用了黑色设计，铰链部分为金色 ，同时，机身背部印有“心系天下”Logo。 同时，三星为 W22 5G 手机推出了专属的手机壳，同样采用黑色设计，手机壳一侧印有“心系天下”Logo，铰链处配有放置 S Pen 手写笔的插槽。 此外，三星 W22 5G 手机的手机盒也经过了特殊设计，采用礼盒式的对开设计，中间一个大大的“心系天下”金色封签，内部也同样印有文字与“心系天下”Logo，看起来确实商务感十足。 IT之家了解到，三星 W22 5G 手机搭载 7.6 英寸 2208 x 1768 Dynamic AMOLED 屏，具有自适应 120Hz 刷新率，配备屏下前置摄像头。 三星 W22 5G 手机搭载骁龙 888 处理器， 配备 16GB＋512GB 存储",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/580/356.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:33:04.247Z",
+        "sourceSnapshotHash": "8bd69504d00d366d384d666dc9f10aa8c78d58c7759c07a4fc38a734e5dc157e"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星今日在杭州大剧院-悦亮四季剧院发布了 “心系天下”三星 W22 5G 手机，售价 16999 元 。 三星 W22 5G 手机以三星 Galaxy Z Fold3 5G 手机为原型进行升级， 整体机身采用了黑色设计，铰链部分为金色 ，同时，机身背部印有“心系天下”Logo。 同时，三星为 W22 5G 手机推出了专属的手机壳，同样采用黑色设计，手机壳一侧印有“心系天下”Logo，铰链处配有放置 S Pen 手写笔的插槽。 此外，三星 W22 5G 手机的手机盒也经过了特殊设计，采用礼盒式的对开设计，中间一个大大的“心系天下”金色封签，内部也同样印有文字与“心系天下”Logo，看起来确实商务感十足。 IT之家了解到，三星 W22 5G 手机搭载 7.6 英寸 2208 x 1768 Dynamic AMOLED 屏，具有自适应 120Hz 刷新率，配备屏下前置摄像头。 三星 W22 5G 手机搭载骁龙 888 处理器， 配备 16GB＋512GB 存储",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/580/356.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:33:04.247Z",
+        "sourceSnapshotHash": "8bd69504d00d366d384d666dc9f10aa8c78d58c7759c07a4fc38a734e5dc157e"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2c.zol-img.com.cn/product/221_320x240/996/ceXx6qk5uIe6w.jpg",
+        "alt": "三星W22（16GB/512GB/全网通/5G版）",
+        "modelName": "Samsung W22",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1390597.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T20:39:59.721Z",
+        "sourceSnapshotHash": "d46c6cd952bdd97fe1e281327ad23878db733ce5d9f5cf1f5bdbac8f6cbf4aa3"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2217/index22169996_0_p1390597.shtml",
+        "fetchedAt": "2026-10-05T20:39:59.801Z",
+        "sourceSnapshotHash": "dbd2edca74d272e41218e8e147bb1e132085b22e4f3f6ac46ef0861ddec1a7f8",
+        "colors": [
+          {
+            "name": "雅瓷黑",
+            "url": "https://2c.zol-img.com.cn/product/221/996/ceXx6qk5uIe6w.jpg"
+          }
+        ]
+      },
+      "sourceInputKind": "cn_launch_configuration_and_selected_parameter_rows"
+    },
+    {
+      "id": "samsung-galaxy-a6s-2018",
+      "modelName": "Samsung Galaxy A6s",
+      "generation": "A6s",
+      "releaseYear": 2018,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1236/1235376/param.shtml",
+        "https://www.cnmo.com/news/646544.html",
+        "https://detail.zol.com.cn/cell_phone/index1235376.shtml",
+        "https://detail.zol.com.cn/picture_index_1948/index19474294_0_p1235376.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2018",
+        "rawText": "三星在西安举行别开生面的发布盛典，除了邀请全球知名DJ带来电音盛宴，还隆重推出了A系列两款新机，包括A6s和A9s，下面先一起来了解一下三星A6s吧。 三星A6s发布 相对A9s，三星A6s定位稍低一点，不过不俗的配置也彰显出三星的诚意。A6s搭载一块6英寸LCD全面屏，非刘海设计相信能吸引许多用户。外观上，A6s采用时下流行的渐变色设计，并加入纳米真空光学镀膜技术，拥有锦鲤红、花木蓝、花仙紫和撒浪黑四种配色，配色名显得很俏皮。 三星A6s拥有4种配色 三星A6s后置指纹识别按键，支持后置指纹和人脸识别两种解锁方式，两者辅助使用更方便快捷。 三星A6s支持双生物识别 配置上，三星A6s搭载骁龙660处理器，辅以6GB+64GB和6GB+128GB两种内存组合",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.cnmo.com/news/646544.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:34:32.162Z",
+        "sourceSnapshotHash": "357f5b6e6d5ce0d1a4cb54fc6ab1d032ebe0eedf5d0a019cf982b13097d7d566",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [
+        {
+          "field": "rearCamera",
+          "reason": "原参数页存在型号/代际或多来源冲突，未取得独立可信原文则隔离；不猜值。"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "原参数页存在型号/代际或多来源冲突，未取得独立可信原文则隔离；不猜值。"
+        },
+        {
+          "field": "batteryCapacity",
+          "reason": "原参数页存在型号/代际或多来源冲突，未取得独立可信原文则隔离；不猜值。"
+        },
+        {
+          "field": "resolution",
+          "reason": "原参数页存在型号/代际或多来源冲突，未取得独立可信原文则隔离；不猜值。"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 2 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "fieldCorrections": [
+        {
+          "field": "memory",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "storage",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "storageType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "security",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "sim",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "wifi",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "rearCamera",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "batteryCapacity",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "resolution",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "displayType",
+          "reason": "明确屏幕原文；3300/3200容量和摄像头像素冲突暂隔离"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星在西安举行别开生面的发布盛典，除了邀请全球知名DJ带来电音盛宴，还隆重推出了A系列两款新机，包括A6s和A9s，下面先一起来了解一下三星A6s吧。 三星A6s发布 相对A9s，三星A6s定位稍低一点，不过不俗的配置也彰显出三星的诚意。A6s搭载一块6英寸LCD全面屏，非刘海设计相信能吸引许多用户。外观上，A6s采用时下流行的渐变色设计，并加入纳米真空光学镀膜技术，拥有锦鲤红、花木蓝、花仙紫和撒浪黑四种配色，配色名显得很俏皮。 三星A6s拥有4种配色 三星A6s后置指纹识别按键，支持后置指纹和人脸识别两种解锁方式，两者辅助使用更方便快捷。 三星A6s支持双生物识别 配置上，三星A6s搭载骁龙660处理器，辅以6GB+64GB和6GB+128GB两种内存组合",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.cnmo.com/news/646544.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:34:32.162Z",
+        "sourceSnapshotHash": "357f5b6e6d5ce0d1a4cb54fc6ab1d032ebe0eedf5d0a019cf982b13097d7d566"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星在西安举行别开生面的发布盛典，除了邀请全球知名DJ带来电音盛宴，还隆重推出了A系列两款新机，包括A6s和A9s，下面先一起来了解一下三星A6s吧。 三星A6s发布 相对A9s，三星A6s定位稍低一点，不过不俗的配置也彰显出三星的诚意。A6s搭载一块6英寸LCD全面屏，非刘海设计相信能吸引许多用户。外观上，A6s采用时下流行的渐变色设计，并加入纳米真空光学镀膜技术，拥有锦鲤红、花木蓝、花仙紫和撒浪黑四种配色，配色名显得很俏皮。 三星A6s拥有4种配色 三星A6s后置指纹识别按键，支持后置指纹和人脸识别两种解锁方式，两者辅助使用更方便快捷。 三星A6s支持双生物识别 配置上，三星A6s搭载骁龙660处理器，辅以6GB+64GB和6GB+128GB两种内存组合",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.cnmo.com/news/646544.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:34:32.162Z",
+        "sourceSnapshotHash": "357f5b6e6d5ce0d1a4cb54fc6ab1d032ebe0eedf5d0a019cf982b13097d7d566"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2f.zol-img.com.cn/product/193_320x240/173/ceueO6avyZ93Y.jpg",
+        "alt": "三星GALAXY A6s（全网通）",
+        "modelName": "Samsung Galaxy A6s",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1235376.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:18:52.631Z",
+        "sourceSnapshotHash": "c25d615783ff3aaaeaf10ad6e993732d23d765bb06073ed90d2b0e600aab823e"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1948/index19474294_0_p1235376.shtml",
+        "fetchedAt": "2026-10-05T20:39:59.929Z",
+        "sourceSnapshotHash": "92884f74e41bbba410c2ca8e0dc8b4e3aee9a9b59709efb540c98b6f097235ee",
+        "colors": [
+          {
+            "name": "花木蓝",
+            "url": "https://2b.zol-img.com.cn/product/193/247/cedO92V461g.jpg"
+          },
+          {
+            "name": "锦鲤红",
+            "url": "https://2f.zol-img.com.cn/product/193/173/ceueO6avyZ93Y.jpg"
+          },
+          {
+            "name": "撒浪黑",
+            "url": "https://2e.zol-img.com.cn/product/194/294/cems8kDOeVoA.jpg"
+          },
+          {
+            "name": "花仙紫",
+            "url": "https://2b.zol-img.com.cn/product/194/109/ceimBjIeL8oIE.jpg"
+          }
+        ]
+      },
+      "sourceInputKind": "cn_launch_configuration_and_selected_parameter_rows"
+    },
+    {
+      "id": "samsung-galaxy-s-light-luxury-2018",
+      "modelName": "Samsung Galaxy S轻奢版",
+      "generation": "S轻奢版",
+      "releaseYear": 2018,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1213/1212923/param.shtml",
+        "https://www.ithome.com/0/360/835.htm",
+        "https://detail.zol.com.cn/cell_phone/index1212923.shtml",
+        "https://detail.zol.com.cn/picture_index_1911/index19104100_0_p1212923.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2018",
+        "rawText": "三星在京东大厦正式举行了发布会，带来了全新的Galaxy S轻奢版手机。 IT之家 了解到，三星Galaxy S轻奢版在设计上与Galaxy S8类似，其正面将采用全视曲面屏，屏幕尺寸为5.8英寸，纵横比18.5:9，分辨率为2220×1080。配置方面，Galaxy S轻奢版搭载了高通骁龙660处理器，配以4GB运存和64GB存储",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/360/835.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:34:32.349Z",
+        "sourceSnapshotHash": "644e5ef18789f23fb6e4c20ab895aa4fc49b6c076cbc2a5d401f1e2ad40510fd",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未取得对应可信原文，留空；参数现价不作为首发价。"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "fieldCorrections": [
+        {
+          "field": "memory",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "storage",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "storageType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "security",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "sim",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "wifi",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星在京东大厦正式举行了发布会，带来了全新的Galaxy S轻奢版手机。 IT之家 了解到，三星Galaxy S轻奢版在设计上与Galaxy S8类似，其正面将采用全视曲面屏，屏幕尺寸为5.8英寸，纵横比18.5:9，分辨率为2220×1080。配置方面，Galaxy S轻奢版搭载了高通骁龙660处理器，配以4GB运存和64GB存储",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/360/835.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:34:32.349Z",
+        "sourceSnapshotHash": "644e5ef18789f23fb6e4c20ab895aa4fc49b6c076cbc2a5d401f1e2ad40510fd"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星在京东大厦正式举行了发布会，带来了全新的Galaxy S轻奢版手机。 IT之家 了解到，三星Galaxy S轻奢版在设计上与Galaxy S8类似，其正面将采用全视曲面屏，屏幕尺寸为5.8英寸，纵横比18.5:9，分辨率为2220×1080。配置方面，Galaxy S轻奢版搭载了高通骁龙660处理器，配以4GB运存和64GB存储",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/360/835.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:34:32.349Z",
+        "sourceSnapshotHash": "644e5ef18789f23fb6e4c20ab895aa4fc49b6c076cbc2a5d401f1e2ad40510fd"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2e.zol-img.com.cn/product/191_320x240/100/ce7wtwNigMxHE.jpg",
+        "alt": "三星Galaxy S轻奢版（全网通）",
+        "modelName": "Samsung Galaxy S轻奢版",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1212923.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T20:40:02.140Z",
+        "sourceSnapshotHash": "8915c1342356db311ab9a593859dfc5e46f43dfbe95a534338e8594ea8350021"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1911/index19104100_0_p1212923.shtml",
+        "fetchedAt": "2026-10-05T20:40:02.223Z",
+        "sourceSnapshotHash": "3a4921d6fef6af3e729df3144470d2739f0142d6f900636883949a0b28d35a82",
+        "colors": [
+          {
+            "name": "谜夜黑",
+            "url": "https://2c.zol-img.com.cn/product/191/598/ceN3L5NMcnaE.jpg"
+          },
+          {
+            "name": "勃艮第红",
+            "url": "https://2e.zol-img.com.cn/product/191/100/ce7wtwNigMxHE.jpg"
+          }
+        ]
+      },
+      "sourceInputKind": "cn_launch_configuration_and_selected_parameter_rows"
+    },
+    {
+      "id": "samsung-leader8-2017",
+      "modelName": "Samsung 领世旗舰8",
+      "generation": "领世旗舰8",
+      "releaseYear": 2017,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1173/1172306/param.shtml",
+        "https://www.3elife.net/Art/mobile/201708/03/19380.html",
+        "https://detail.zol.com.cn/cell_phone/index1172306.shtml",
+        "https://detail.zol.com.cn/picture_index_1852/index18514452_0_p1172306.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2017",
+        "rawText": "三星今日与中国移动合作推出了一款名为“领世旗舰8”的双屏翻盖机型，型号为三星G-9298。与此前该系列产品一样， 精致的做工和独特的造形也让这一系列产品几乎成为了三星高端机型的代表。 外观设计，领世旗舰8延续了经典的双屏翻盖设计，机身采用6013型铝合金搭配玻璃材质，与市场上的现有机型所追求的潮流不同，沉稳的造型也让其更适合其定位的商务人士。 配置方面，该机采用了内外4.2英寸分辨率为1080p的Super AMOLED屏幕，搭载骁龙821处理器，配备4GB RAM+64GB ROM机身存储",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.3elife.net/Art/mobile/201708/03/19380.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:34:57.440Z",
+        "sourceSnapshotHash": "077d32c6e0f0ceb1ddd345fd42c67cc164d575006e09d2ddd6a0f7169e0d825b",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未取得对应可信原文，留空；参数现价不作为首发价。"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "fieldCorrections": [
+        {
+          "field": "memory",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "storage",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "storageType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "security",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "sim",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "wifi",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星今日与中国移动合作推出了一款名为“领世旗舰8”的双屏翻盖机型，型号为三星G-9298。与此前该系列产品一样， 精致的做工和独特的造形也让这一系列产品几乎成为了三星高端机型的代表。 外观设计，领世旗舰8延续了经典的双屏翻盖设计，机身采用6013型铝合金搭配玻璃材质，与市场上的现有机型所追求的潮流不同，沉稳的造型也让其更适合其定位的商务人士。 配置方面，该机采用了内外4.2英寸分辨率为1080p的Super AMOLED屏幕，搭载骁龙821处理器，配备4GB RAM+64GB ROM机身存储",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.3elife.net/Art/mobile/201708/03/19380.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:34:57.440Z",
+        "sourceSnapshotHash": "077d32c6e0f0ceb1ddd345fd42c67cc164d575006e09d2ddd6a0f7169e0d825b"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星今日与中国移动合作推出了一款名为“领世旗舰8”的双屏翻盖机型，型号为三星G-9298。与此前该系列产品一样， 精致的做工和独特的造形也让这一系列产品几乎成为了三星高端机型的代表。 外观设计，领世旗舰8延续了经典的双屏翻盖设计，机身采用6013型铝合金搭配玻璃材质，与市场上的现有机型所追求的潮流不同，沉稳的造型也让其更适合其定位的商务人士。 配置方面，该机采用了内外4.2英寸分辨率为1080p的Super AMOLED屏幕，搭载骁龙821处理器，配备4GB RAM+64GB ROM机身存储",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.3elife.net/Art/mobile/201708/03/19380.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:34:57.440Z",
+        "sourceSnapshotHash": "077d32c6e0f0ceb1ddd345fd42c67cc164d575006e09d2ddd6a0f7169e0d825b"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2d.zol-img.com.cn/product/185_320x240/903/cexURs6fDSvs.jpg",
+        "alt": "三星领世旗舰8（双4G）",
+        "modelName": "Samsung 领世旗舰8",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1172306.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T20:40:03.612Z",
+        "sourceSnapshotHash": "33f9a5fec9fc3cdfa167ae5b6eeb080eebd18551903b763652a8c76c1ff35ea4"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1852/index18514452_0_p1172306.shtml",
+        "fetchedAt": "2026-10-05T20:40:03.889Z",
+        "sourceSnapshotHash": "46fcc104f30af9724fcd1f489426d7b61efe45503ae55f5d8a8e8225508a5260",
+        "colors": [
+          {
+            "name": "黑色",
+            "url": "https://2a.zol-img.com.cn/product/185/452/ceD3BtOxCxCqo.jpg"
+          }
+        ]
+      },
+      "sourceInputKind": "cn_launch_configuration_and_selected_parameter_rows"
+    },
+    {
+      "id": "samsung-galaxy-j3-2017-2017",
+      "modelName": "Samsung Galaxy J3 2017",
+      "generation": "J3 2017",
+      "releaseYear": 2017,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1146/1145593/param.shtml",
+        "https://www.samsung.com.cn/support/model/SM-J3300ZKDCHC/",
+        "https://detail.zol.com.cn/picture_index_1849/index18486242_0_p1145593.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2017",
+        "rawText": "上市日期 2017年08月 使用场景 4G手机> ， 3G手机> ， 智能手机> ， 平板手机> ， 拍照手机> 机身颜色 雪夜黑，流沙金，凝霜蓝，嫣霞粉 查看外观> 指纹识别 前置指纹识别> 外形 长度 143.2mm 宽度 70.3mm 厚度 8.2mm 重量 143g 硬件 CPU型号 高通 骁龙425（MSM8917） 更多高通 骁龙425（MSM8917）手机> ， 手机性能排行> CPU频率 1.4GHz CPU核心数 四核> RAM容量 3GB> 游戏运行卡顿 ROM容量 32GB",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1146/1145593/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:34:56.876Z",
+        "sourceSnapshotHash": "1c80010bc0b1879f04ac02425ce6d17681cec607b623f8cd3513892b407d6b95",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未取得对应可信原文，留空；参数现价不作为首发价。"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "fieldCorrections": [
+        {
+          "field": "memory",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "storage",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "storageType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "security",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "sim",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "wifi",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "盖乐世 J3 2017 | 三星电子 售后服务 CN --> --> --> --> 붙이던 부분 삭제함 필요시 search/를 붙여서 사용--> runmodeInfo 이름 변경--> Skip to content 三星与Cookies 为改善网站和用户体验，本网站会使用Cookie。 了解更多 了解更多 同意 关闭 选择您的位置和语言。 中国大陆 / 中文 Other Countries 继续 关闭 搜索 搜索 购物车 Number of Products : 登录 打开我的菜单 导航 global navigation bar 返回 搜索 探索全部星品 三星商城 商城优惠 三星商城 三星商城 Galaxy S26 Ultra Galaxy Z Fold8 Galaxy Z Fold8 Ultra Galaxy Z Flip8 Galaxy Tab S12 Ultra 新 Galaxy Watch Ultra2 Galaxy Buds4 Pro 探索 三星官网11.11 分期轻松购 14天无忧试用服务 3件9折 新品同享 新品上市 先买先享 SmartThings Samsung Care+ 领券中心 校园优惠 企业优惠 手机/平板 手机/平板 手机/平板 智能手机 智能平板 新 智能手表 智能耳机 Galaxy Ring 智能产品配件 探索 关于Samsung Galaxy Galaxy AI 挑选您的Samsung Galaxy设备 切换至Samsung Galaxy Samsung One UI 三星健康 应用服务概述 Galaxy AI 体验馆 Samsung Care+ 包外换屏维修服务 电视/影音 电视/影音 电视/影音 Micro RGB Neo QLED电视 OLED电视 QLED电视 Crystal UHD电视 三星画壁艺术电视 三星画境艺术电视 音响 智能投影仪 电视配件 音响配件 按尺寸选购电视 全部 91英寸以上电视 81~90英寸电视 71~80英寸电视 61~70英寸电视 51~60英寸电视 50英寸以下电视 探索 三星Vision AI电视 为什么选择三星电视 了解更多三星OLED电视 了解更多三星Neo QLED电视 了解更多三星画壁艺术电视 了解更多三星8K电视 了解更多三星MICRO LED 三星家电延长保修服务 3D云逛家电 生活家电 生活家电 生活家电 冰箱 洗衣机 衣物护理机 空调 探索 探索Bespoke AI AI 节能 为什么选择三星家电产品 冰箱购买指南 洗衣机购买指南 三星家电延长保修服务 常见问题 显示器/存储 显示器/存储 显示器/存储 显示器 存储产品 探索 为什么选择Odyssey游戏显示器 显示器购买指南 为什么选择 ViewFinity 绘域 办公系列显示器 选择值得信赖的存储产品 智能穿戴设备 智能穿戴设备 智能穿戴设备 Galaxy Watch Galaxy Buds Galaxy Ring 智能穿戴设备配件 探索 关于Samsung Galaxy 三星健康 Galaxy AI 挑选您的Samsung Galaxy设备 切换至Samsung Galaxy Samsung One UI 应用服务概述 Samsung Care+ 配件 配件 配件 智能手机配件 智能平板配件 新 智能穿戴设备配件 智能耳机配件 电视配件 音响配件 投影仪配件 冰箱配件 售后服务 售后服务 产品帮助 产品帮助 产品常见问题 S换机助手 手册和下载 自助服务 自助服务 服务状态查询 零配件价格查询 激活日期查询 联系我们 联系我们 服务中心查询 在线客服 微信服务 查看更多 查看更多 新闻公告 盖乐世社区 三星商城指南 售后在线客服 我要维修 服务政策 售后首页 商用用户 登录/注册 打开我的菜单 搜索 搜索 购物车 Number of Products : 登录/注册 登录/注册 为什么要创建三星账号 我的订单 打开我的菜单 为什么要创建三星账号 我的 我的星钻 服务支持 我的收藏 我的订单 优惠券 企业购 学生购 地址管理 退出登录 Close menu 购物车中还没有商品. 完成 关闭浮层 对不起，目前库存不足 完成 关闭浮层 移除产品 如果没有这个产品，使用的优惠券或促销代码不能退还 您确定要删除这个产品？ 前往愿望清单 删除 关闭浮层 隐私政策 我已阅读并同意Samsung.com.cn 隐私政策 勾选此框进入Samsung.com.cn。 通过选中此框，我接受三星服务更新，包括： Samsung.com.cn服务和营销信息，新产品和服务公告以及特别优惠，活动和新闻通讯。 进入SAMSUNG.COM.CN 离开本页 关闭隐私政策 检查喜好选项 更新您的产品喜好，我们会为您提供更好的建议。 确认 稍后 关闭喜好选项 Search Form 清除 Scan Barcode 没有建议 AI Suggested Searches 建议搜索 热门搜索 最近搜索 Previous Next 相关产品 推荐 关闭 公告 公告数量 : 3 盖乐世 J3 2017 服务政策 常见问题 探索三星 Galaxy Z Flip5 和 Fold5 的全新铰链技术 Galaxy Z Fold 机型之间有什么差异？ 探索 Galaxy Z Flip5上的新外屏小组件 有关 Galaxy Z Flip5 和 Fold5 铰链技术的常见问题 盖乐世 J3 2017 SM-J3300 解决方案和提示 手册和下载 模拟操作指南 常用链接 更多信息 联系我们 服务公告 电池寿命测试程序 2025年01月16日 服务新闻 三星 Galaxy Ring 材质及佩戴注意事项 2024年09月09日 服务新闻 三星(其他应用与服务)客户服务热线变更通知 2024年06月03日 关闭浮层 返回列表 关闭浮层 cn SM-J3300ZKDCHC",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.samsung.com.cn/support/model/SM-J3300ZKDCHC/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:34:57.022Z",
+        "sourceSnapshotHash": "bcfc2b71b3fc16da7667c910ba80969dff5d14c555f8d3dc3c25fb4d4b9ac9b3"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "上市日期 2017年08月 使用场景 4G手机> ， 3G手机> ， 智能手机> ， 平板手机> ， 拍照手机> 机身颜色 雪夜黑，流沙金，凝霜蓝，嫣霞粉 查看外观> 指纹识别 前置指纹识别> 外形 长度 143.2mm 宽度 70.3mm 厚度 8.2mm 重量 143g 硬件 CPU型号 高通 骁龙425（MSM8917） 更多高通 骁龙425（MSM8917）手机> ， 手机性能排行> CPU频率 1.4GHz CPU核心数 四核> RAM容量 3GB> 游戏运行卡顿 ROM容量 32GB",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1146/1145593/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:34:56.876Z",
+        "sourceSnapshotHash": "1c80010bc0b1879f04ac02425ce6d17681cec607b623f8cd3513892b407d6b95"
+      },
+      "imageLicense": "unknown",
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1849/index18486242_0_p1145593.shtml",
+        "fetchedAt": "2026-10-05T20:40:05.407Z",
+        "sourceSnapshotHash": "2deefa4c0858be8eba5b5e7adb5dc77d3ce564880c6a02a5b7e287160102284a",
+        "colors": [
+          {
+            "name": "雪夜黑",
+            "url": "https://2d.zol-img.com.cn/product/184/177/ceJo4jFCGb2O.jpg"
+          },
+          {
+            "name": "嫣霞粉",
+            "url": "https://2b.zol-img.com.cn/product/184/193/ceCVjX8rkVsy6.jpg"
+          },
+          {
+            "name": "凝霜蓝",
+            "url": "https://2b.zol-img.com.cn/product/184/241/ce6vTkLI79ozA.jpg"
+          },
+          {
+            "name": "流沙金",
+            "url": "https://2b.zol-img.com.cn/product/184/283/cecEb7BCpHv0A.jpg"
+          }
+        ]
+      },
+      "productImage": {
+        "url": "https://2d.zol-img.com.cn/product/184/177/ceJo4jFCGb2O.jpg",
+        "alt": "Samsung Galaxy J3 2017 雪夜黑",
+        "modelName": "Samsung Galaxy J3 2017",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1849/index18486242_0_p1145593.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T20:40:05.407Z",
+        "sourceSnapshotHash": "2deefa4c0858be8eba5b5e7adb5dc77d3ce564880c6a02a5b7e287160102284a",
+        "note": "确切型号图库的配色实图作为默认主图。"
+      },
+      "sourceInputKind": "cn_launch_configuration_and_selected_parameter_rows"
+    }
+  ],
+  "tablet": [
+    {
+      "id": "samsung-galaxy-tab-a-2017-wifi-2017",
+      "modelName": "Samsung Galaxy Tab A 2017 8.0 WLAN",
+      "generation": "Tab A 2017 8.0 WLAN",
+      "releaseYear": 2017,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1183/1182382/param.shtml",
+        "https://m.jiemian.com/article/1935541.html",
+        "https://www.samsung.com.cn/support/model/SM-T380CZSECHN/",
+        "https://detail.zol.com.cn/tablepc/index1182382.shtml",
+        "https://detail.zol.com.cn/picture_index_1862/index18612600_0_p1182382.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2017",
+        "rawText": "三星Galaxy Tab A 2017（WIFI版） 作为高端消费电子领域的佼佼者，三星其实也有不少&ldquo;实惠&rdquo;的电子产品。Galaxy Tab A 2017（WIFI版）机身设计简约，采用金属背板。净重360g，厚度为8.9 mm。搭载高通骁龙425处理器，辅以3GB RAM+32GB ROM",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://m.jiemian.com/article/1935541.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:35:51.634Z",
+        "sourceSnapshotHash": "b9c676fca0f0c6d015da6e7d0869cb3af9e4d2db3af6c1ce2d7e5fd5b760a24b",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未取得对应可信原文，留空；参数现价不作为首发价。"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "原参数页存在型号/代际或多来源冲突，未取得独立可信原文则隔离；不猜值。"
+        },
+        {
+          "field": "rearCamera",
+          "reason": "原参数页存在型号/代际或多来源冲突，未取得独立可信原文则隔离；不猜值。"
+        },
+        {
+          "field": "port",
+          "reason": "原参数页存在型号/代际或多来源冲突，未取得独立可信原文则隔离；不猜值。"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "fieldCorrections": [
+        {
+          "field": "memory",
+          "reason": "T380 ZOL标2GB属海外/混淆参数；独立大陆T380C/CHN为3GB+32GB，由官方身份和具体国内评测组合交叉证明。"
+        },
+        {
+          "field": "storage",
+          "reason": "T380 ZOL标2GB属海外/混淆参数；独立大陆T380C/CHN为3GB+32GB，由官方身份和具体国内评测组合交叉证明。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "storageType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "security",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "sim",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "wifi",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "rearCamera",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "port",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "盖乐世 Tab A 2017 8.0 WLAN | 三星电子 售后服务 CN --> --> --> --> 붙이던 부분 삭제함 필요시 search/를 붙여서 사용--> runmodeInfo 이름 변경--> Skip to content 三星与Cookies 为改善网站和用户体验，本网站会使用Cookie。 了解更多 了解更多 同意 关闭 选择您的位置和语言。 中国大陆 / 中文 Other Countries 继续 关闭 搜索 搜索 购物车 Number of Products : 登录 打开我的菜单 导航 global navigation bar 返回 搜索 探索全部星品 三星商城 商城优惠 三星商城 三星商城 Galaxy S26 Ultra Galaxy Z Fold8 Galaxy Z Fold8 Ultra Galaxy Z Flip8 Galaxy Tab S12 Ultra 新 Galaxy Watch Ultra2 Galaxy Buds4 Pro 探索 三星官网11.11 分期轻松购 14天无忧试用服务 3件9折 新品同享 新品上市 先买先享 SmartThings Samsung Care+ 领券中心 校园优惠 企业优惠 手机/平板 手机/平板 手机/平板 智能手机 智能平板 新 智能手表 智能耳机 Galaxy Ring 智能产品配件 探索 关于Samsung Galaxy Galaxy AI 挑选您的Samsung Galaxy设备 切换至Samsung Galaxy Samsung One UI 三星健康 应用服务概述 Galaxy AI 体验馆 Samsung Care+ 包外换屏维修服务 电视/影音 电视/影音 电视/影音 Micro RGB Neo QLED电视 OLED电视 QLED电视 Crystal UHD电视 三星画壁艺术电视 三星画境艺术电视 音响 智能投影仪 电视配件 音响配件 按尺寸选购电视 全部 91英寸以上电视 81~90英寸电视 71~80英寸电视 61~70英寸电视 51~60英寸电视 50英寸以下电视 探索 三星Vision AI电视 为什么选择三星电视 了解更多三星OLED电视 了解更多三星Neo QLED电视 了解更多三星画壁艺术电视 了解更多三星8K电视 了解更多三星MICRO LED 三星家电延长保修服务 3D云逛家电 生活家电 生活家电 生活家电 冰箱 洗衣机 衣物护理机 空调 探索 探索Bespoke AI AI 节能 为什么选择三星家电产品 冰箱购买指南 洗衣机购买指南 三星家电延长保修服务 常见问题 显示器/存储 显示器/存储 显示器/存储 显示器 存储产品 探索 为什么选择Odyssey游戏显示器 显示器购买指南 为什么选择 ViewFinity 绘域 办公系列显示器 选择值得信赖的存储产品 智能穿戴设备 智能穿戴设备 智能穿戴设备 Galaxy Watch Galaxy Buds Galaxy Ring 智能穿戴设备配件 探索 关于Samsung Galaxy 三星健康 Galaxy AI 挑选您的Samsung Galaxy设备 切换至Samsung Galaxy Samsung One UI 应用服务概述 Samsung Care+ 配件 配件 配件 智能手机配件 智能平板配件 新 智能穿戴设备配件 智能耳机配件 电视配件 音响配件 投影仪配件 冰箱配件 售后服务 售后服务 产品帮助 产品帮助 产品常见问题 S换机助手 手册和下载 自助服务 自助服务 服务状态查询 零配件价格查询 激活日期查询 联系我们 联系我们 服务中心查询 在线客服 微信服务 查看更多 查看更多 新闻公告 盖乐世社区 三星商城指南 售后在线客服 我要维修 服务政策 售后首页 商用用户 登录/注册 打开我的菜单 搜索 搜索 购物车 Number of Products : 登录/注册 登录/注册 为什么要创建三星账号 我的订单 打开我的菜单 为什么要创建三星账号 我的 我的星钻 服务支持 我的收藏 我的订单 优惠券 企业购 学生购 地址管理 退出登录 Close menu 购物车中还没有商品. 完成 关闭浮层 对不起，目前库存不足 完成 关闭浮层 移除产品 如果没有这个产品，使用的优惠券或促销代码不能退还 您确定要删除这个产品？ 前往愿望清单 删除 关闭浮层 隐私政策 我已阅读并同意Samsung.com.cn 隐私政策 勾选此框进入Samsung.com.cn。 通过选中此框，我接受三星服务更新，包括： Samsung.com.cn服务和营销信息，新产品和服务公告以及特别优惠，活动和新闻通讯。 进入SAMSUNG.COM.CN 离开本页 关闭隐私政策 检查喜好选项 更新您的产品喜好，我们会为您提供更好的建议。 确认 稍后 关闭喜好选项 Search Form 清除 Scan Barcode 没有建议 AI Suggested Searches 建议搜索 热门搜索 最近搜索 Previous Next 相关产品 推荐 关闭 公告 公告数量 : 3 盖乐世 Tab A 2017 8.0 WLAN 服务政策 常见问题 三星Galaxy S21 Ultra无法识别S Pen如何处理？ 三星 Galaxy Z Fold3 5G手机如何使用实验室中的【自定义应用程序宽高比】？ Samsung Note20 Ultra 手机如何使用远程控制功能？ 三星S21系列手机如何使用截屏工具栏功能？ 盖乐世 Tab A 2017 8.0 WLAN SM-T380C 解决方案和提示 手册和下载 模拟操作指南 常用链接 更多信息 联系我们 服务公告 电池寿命测试程序 2025年01月16日 服务新闻 三星 Galaxy Ring 材质及佩戴注意事项 2024年09月09日 服务新闻 三星(其他应用与服务)客户服务热线变更通知 2024年06月03日 关闭浮层 返回列表 关闭浮层 cn SM-T380CZSECHN",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.samsung.com.cn/support/model/SM-T380CZSECHN/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:34:32.494Z",
+        "sourceSnapshotHash": "bbb3686d8a35f5ab478690717412707559a656bfc43e3e778315ced841be37b3"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星Galaxy Tab A 2017（WIFI版） 作为高端消费电子领域的佼佼者，三星其实也有不少&ldquo;实惠&rdquo;的电子产品。Galaxy Tab A 2017（WIFI版）机身设计简约，采用金属背板。净重360g，厚度为8.9 mm。搭载高通骁龙425处理器，辅以3GB RAM+32GB ROM",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://m.jiemian.com/article/1935541.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:35:51.634Z",
+        "sourceSnapshotHash": "b9c676fca0f0c6d015da6e7d0869cb3af9e4d2db3af6c1ce2d7e5fd5b760a24b"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2a.zol-img.com.cn/product/186_320x240/600/cefwlfUtW0YYQ.jpg",
+        "alt": "三星GALAXY Tab A 8.0（T380）",
+        "modelName": "Samsung Galaxy Tab A 2017 8.0 WLAN",
+        "sourceUrl": "https://detail.zol.com.cn/tablepc/index1182382.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T20:35:51.357Z",
+        "sourceSnapshotHash": "5fbac99342978dc9bf1cdc39ad768055226a4c792670d36096dc5a16656acc57"
+      },
+      "colorNames": [
+        "金色",
+        "黑色",
+        "银色"
+      ],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1862/index18612600_0_p1182382.shtml",
+        "fetchedAt": "2026-10-05T20:40:05.795Z",
+        "sourceSnapshotHash": "9a50812b4f95144913e5207750e6b2e9098a2dac9f9eb18bf231284690539968",
+        "colors": [
+          {
+            "name": "黑色"
+          },
+          {
+            "name": "银色"
+          },
+          {
+            "name": "金色"
+          }
+        ]
+      },
+      "sourceInputKind": "cn_launch_configuration_and_selected_parameter_rows"
+    },
+    {
+      "id": "samsung-galaxy-tab-a-2017-lte-2017",
+      "modelName": "Samsung Galaxy Tab A 2017 8.0 LTE",
+      "generation": "Tab A 2017 8.0 LTE",
+      "releaseYear": 2017,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1183/1182383/param.shtml",
+        "https://www.suning.com/item/0000000000/10176045525.html",
+        "https://www.samsung.com.cn/support/model/SM-T385CZKECHC/",
+        "https://detail.zol.com.cn/tablepc/index1182383.shtml",
+        "https://detail.zol.com.cn/picture_index_1862/index18612601_0_p1182383.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2017",
+        "rawText": "Galaxy Tab A SM-T385C 3GB/32GB 黑色 三星(SAMSUNG)Galaxy Tab A(2017)通话平板电脑 8.0英寸(3G 32GB 全网通) 黑色 T385 价格： 暂无报价 评价： 点击前往购买 综述介绍 参数 图片 视频 评价 报价 问答 排行 相似 热卖 高清显示屏 追剧神器 简约时尚 360g轻薄便携，5000mAh大容量电池！即时通讯！ 热门推荐 三星(SAMSUNG)Galaxy Tab A(2017)通话平板电脑 8.0英主要参数 品牌： 三星(SAMSUNG) 商品名称：三星(SAMSUNG)Galaxy Tab A SM-T385C 3GB/32GB 黑色 型号：SM-T385CZKECHC",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.suning.com/item/0000000000/10176045525.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:34:32.686Z",
+        "sourceSnapshotHash": "b1c13e5b61d1a858a2fd65d3096458454366382086a262ef72175b41ae9b106c",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未取得对应可信原文，留空；参数现价不作为首发价。"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "原参数页存在型号/代际或多来源冲突，未取得独立可信原文则隔离；不猜值。"
+        },
+        {
+          "field": "rearCamera",
+          "reason": "原参数页存在型号/代际或多来源冲突，未取得独立可信原文则隔离；不猜值。"
+        },
+        {
+          "field": "port",
+          "reason": "原参数页存在型号/代际或多来源冲突，未取得独立可信原文则隔离；不猜值。"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "fieldCorrections": [
+        {
+          "field": "memory",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "storage",
+          "reason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。"
+        },
+        {
+          "field": "operatingSystem",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "memoryType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "storageType",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "security",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "sim",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "hasNFC",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "wifi",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "bluetooth",
+          "reason": "混淆页或多值页不继承未经独立核验的可选字段。"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "rearCamera",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "port",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "盖乐世 Tab A 2017 8.0 4G | 三星电子 售后服务 CN --> --> --> --> 붙이던 부분 삭제함 필요시 search/를 붙여서 사용--> runmodeInfo 이름 변경--> Skip to content 三星与Cookies 为改善网站和用户体验，本网站会使用Cookie。 了解更多 了解更多 同意 关闭 选择您的位置和语言。 中国大陆 / 中文 Other Countries 继续 关闭 搜索 搜索 购物车 Number of Products : 登录 打开我的菜单 导航 global navigation bar 返回 搜索 探索全部星品 三星商城 商城优惠 三星商城 三星商城 Galaxy S26 Ultra Galaxy Z Fold8 Galaxy Z Fold8 Ultra Galaxy Z Flip8 Galaxy Tab S12 Ultra 新 Galaxy Watch Ultra2 Galaxy Buds4 Pro 探索 三星官网11.11 分期轻松购 14天无忧试用服务 3件9折 新品同享 新品上市 先买先享 SmartThings Samsung Care+ 领券中心 校园优惠 企业优惠 手机/平板 手机/平板 手机/平板 智能手机 智能平板 新 智能手表 智能耳机 Galaxy Ring 智能产品配件 探索 关于Samsung Galaxy Galaxy AI 挑选您的Samsung Galaxy设备 切换至Samsung Galaxy Samsung One UI 三星健康 应用服务概述 Galaxy AI 体验馆 Samsung Care+ 包外换屏维修服务 电视/影音 电视/影音 电视/影音 Micro RGB Neo QLED电视 OLED电视 QLED电视 Crystal UHD电视 三星画壁艺术电视 三星画境艺术电视 音响 智能投影仪 电视配件 音响配件 按尺寸选购电视 全部 91英寸以上电视 81~90英寸电视 71~80英寸电视 61~70英寸电视 51~60英寸电视 50英寸以下电视 探索 三星Vision AI电视 为什么选择三星电视 了解更多三星OLED电视 了解更多三星Neo QLED电视 了解更多三星画壁艺术电视 了解更多三星8K电视 了解更多三星MICRO LED 三星家电延长保修服务 3D云逛家电 生活家电 生活家电 生活家电 冰箱 洗衣机 衣物护理机 空调 探索 探索Bespoke AI AI 节能 为什么选择三星家电产品 冰箱购买指南 洗衣机购买指南 三星家电延长保修服务 常见问题 显示器/存储 显示器/存储 显示器/存储 显示器 存储产品 探索 为什么选择Odyssey游戏显示器 显示器购买指南 为什么选择 ViewFinity 绘域 办公系列显示器 选择值得信赖的存储产品 智能穿戴设备 智能穿戴设备 智能穿戴设备 Galaxy Watch Galaxy Buds Galaxy Ring 智能穿戴设备配件 探索 关于Samsung Galaxy 三星健康 Galaxy AI 挑选您的Samsung Galaxy设备 切换至Samsung Galaxy Samsung One UI 应用服务概述 Samsung Care+ 配件 配件 配件 智能手机配件 智能平板配件 新 智能穿戴设备配件 智能耳机配件 电视配件 音响配件 投影仪配件 冰箱配件 售后服务 售后服务 产品帮助 产品帮助 产品常见问题 S换机助手 手册和下载 自助服务 自助服务 服务状态查询 零配件价格查询 激活日期查询 联系我们 联系我们 服务中心查询 在线客服 微信服务 查看更多 查看更多 新闻公告 盖乐世社区 三星商城指南 售后在线客服 我要维修 服务政策 售后首页 商用用户 登录/注册 打开我的菜单 搜索 搜索 购物车 Number of Products : 登录/注册 登录/注册 为什么要创建三星账号 我的订单 打开我的菜单 为什么要创建三星账号 我的 我的星钻 服务支持 我的收藏 我的订单 优惠券 企业购 学生购 地址管理 退出登录 Close menu 购物车中还没有商品. 完成 关闭浮层 对不起，目前库存不足 完成 关闭浮层 移除产品 如果没有这个产品，使用的优惠券或促销代码不能退还 您确定要删除这个产品？ 前往愿望清单 删除 关闭浮层 隐私政策 我已阅读并同意Samsung.com.cn 隐私政策 勾选此框进入Samsung.com.cn。 通过选中此框，我接受三星服务更新，包括： Samsung.com.cn服务和营销信息，新产品和服务公告以及特别优惠，活动和新闻通讯。 进入SAMSUNG.COM.CN 离开本页 关闭隐私政策 检查喜好选项 更新您的产品喜好，我们会为您提供更好的建议。 确认 稍后 关闭喜好选项 Search Form 清除 Scan Barcode 没有建议 AI Suggested Searches 建议搜索 热门搜索 最近搜索 Previous Next 相关产品 推荐 关闭 公告 公告数量 : 3 盖乐世 Tab A 2017 8.0 4G 服务政策 常见问题 三星Galaxy S21 Ultra无法识别S Pen如何处理？ 三星 Galaxy Z Fold3 5G手机如何使用实验室中的【自定义应用程序宽高比】？ Samsung Note20 Ultra 手机如何使用远程控制功能？ 三星S21系列手机如何使用截屏工具栏功能？ 盖乐世 Tab A 2017 8.0 4G SM-T385C 解决方案和提示 手册和下载 模拟操作指南 常用链接 更多信息 联系我们 服务公告 电池寿命测试程序 2025年01月16日 服务新闻 三星 Galaxy Ring 材质及佩戴注意事项 2024年09月09日 服务新闻 三星(其他应用与服务)客户服务热线变更通知 2024年06月03日 关闭浮层 返回列表 关闭浮层 cn SM-T385CZKECHC",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.samsung.com.cn/support/model/SM-T385CZKECHC/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:40:05.978Z",
+        "sourceSnapshotHash": "18eda26cb5c42ecec130a6e9d553186c13d7a1a449dca56c8e6bacbbc71c651c"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "Galaxy Tab A SM-T385C 3GB/32GB 黑色 三星(SAMSUNG)Galaxy Tab A(2017)通话平板电脑 8.0英寸(3G 32GB 全网通) 黑色 T385 价格： 暂无报价 评价： 点击前往购买 综述介绍 参数 图片 视频 评价 报价 问答 排行 相似 热卖 高清显示屏 追剧神器 简约时尚 360g轻薄便携，5000mAh大容量电池！即时通讯！ 热门推荐 三星(SAMSUNG)Galaxy Tab A(2017)通话平板电脑 8.0英主要参数 品牌： 三星(SAMSUNG) 商品名称：三星(SAMSUNG)Galaxy Tab A SM-T385C 3GB/32GB 黑色 型号：SM-T385CZKECHC",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.suning.com/item/0000000000/10176045525.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:34:32.686Z",
+        "sourceSnapshotHash": "b1c13e5b61d1a858a2fd65d3096458454366382086a262ef72175b41ae9b106c"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2b.zol-img.com.cn/product/186_320x240/601/ce4MKC7WdpHrM.jpg",
+        "alt": "三星GALAXY Tab A 8.0（T385）",
+        "modelName": "Samsung Galaxy Tab A 2017 8.0 LTE",
+        "sourceUrl": "https://detail.zol.com.cn/tablepc/index1182383.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T20:40:06.831Z",
+        "sourceSnapshotHash": "71a0a1a7969c85d6addc842a9bee58d2e7b881a232df4bec0e5778ab4ad70ef4"
+      },
+      "colorNames": [
+        "金色",
+        "黑色",
+        "银色"
+      ],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1862/index18612601_0_p1182383.shtml",
+        "fetchedAt": "2026-10-05T20:40:06.987Z",
+        "sourceSnapshotHash": "89e39ec47d6912fd2ce5d99967e15459472cf3a2791557541ad24eabbf224f12",
+        "colors": [
+          {
+            "name": "黑色"
+          },
+          {
+            "name": "银色"
+          },
+          {
+            "name": "金色"
+          }
+        ]
+      },
+      "sourceInputKind": "cn_launch_configuration_and_selected_parameter_rows"
+    },
+    {
+      "id": "samsung-galaxy-tab-s10-lite-2025",
+      "modelName": "Samsung Galaxy Tab S10 Lite",
+      "generation": "Tab S10 Lite",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-lite-gray-128gb-sm-x400nzavchn/",
+        "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-lite-gray-128gb-sm-x400nzavchn/buy/",
+        "https://support-cn.samsung.com.cn/campaign/event/psg/2026/promotion/february/",
+        "https://www.samsung.com.cn/business/tablets/galaxy-tab-s/galaxy-tab-s10-lite-sm-x400nzagchn/",
+        "https://www.ithome.com/0/884/765.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2025",
+        "rawText": "2025/9/22 12:22:04 来源： IT之家 作者： 汪淼 责编： 汪淼 评论： 感谢IT之家网友 Ba 的线索投递！ IT之家 9 月 22 日消息，三星盖乐世社区今日发布 Android 16 （One UI 8）系统升级计划， Galaxy S25 系列手机已完成升级 ，2025 年 10 月、11 月、12 月将有更多机型升级。IT之家附具体计划如下： 2025 年 10 月： Galaxy A56 5G、Galaxy Z Flip6、Galaxy Z Fold6、Galaxy S24、Galaxy S24+、Galaxy S24 Ultra、心系天下三星 W25 Flip、心系天下三星 W25 2025 年 11 月： Galaxy A53、Galaxy A54 5G、Galaxy C55 5G、Galaxy Z Flip4、Galaxy Z Flip5、Gaalxy Z Fold4、Galaxy Z Fold5、Galaxy S21 FE 5G、Galaxy S23 FE、Galaxy S22、Galaxy S22+、Galaxy S22 Ultra、Galaxy S23、Galaxy S23+、Galaxy S23 Ultra、心系天下三星 W23 Flip、心系天下三星 W24 Flip、心系天下三星 W23、心系天下三星 W24 Galaxy Tab S10 Lite",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/884/765.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:07.182Z",
+        "sourceSnapshotHash": "c87c790387c18e52aecc25711b58f4f57f878cabab1e5e8faeb7f266b04a3afa",
+        "note": "大陆2025升级目录与CHN单SKU简中2025首版手册共同核验型号代际年份；实际大陆销售由2026官方活动核验。未取得大陆正式首售日，不借用海外日期。"
+      },
+      "fieldGaps": [
+        {
+          "field": "chip",
+          "reason": "未取得对应可信原文，留空；参数现价不作为首发价。"
+        },
+        {
+          "field": "launchPrice",
+          "reason": "未取得对应可信原文，留空；参数现价不作为首发价。"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 2 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "productImage": {
+        "url": "https://images.samsung.com.cn/is/image/samsung/p6pim/cn/sm-x400nzavchn/gallery/cn-galaxy-tab-s10-lite-sm-x406-sm-x400nzavchn-548606282?$1164_776_PNG$",
+        "alt": "Samsung Galaxy Tab S10 Lite 星空灰",
+        "modelName": "Samsung Galaxy Tab S10 Lite",
+        "sourceUrl": "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-lite-gray-128gb-sm-x400nzavchn/buy/",
+        "sourceName": "三星中国",
+        "fetchedAt": "2026-10-05T20:40:07.201Z",
+        "sourceSnapshotHash": "f1f0a3aace777d2c40837bcb0fff70302dc993d8cea3a563683aa0d085238015"
+      },
+      "colorGallery": {
+        "sourceUrl": "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-lite-gray-128gb-sm-x400nzavchn/buy/",
+        "fetchedAt": "2026-10-05T20:40:07.201Z",
+        "sourceSnapshotHash": "f1f0a3aace777d2c40837bcb0fff70302dc993d8cea3a563683aa0d085238015",
+        "colors": [
+          {
+            "name": "星空灰",
+            "url": "https://images.samsung.com.cn/is/image/samsung/p6pim/cn/sm-x400nzavchn/gallery/cn-galaxy-tab-s10-lite-sm-x406-sm-x400nzavchn-548606282?$1164_776_PNG$"
+          }
+        ]
+      },
+      "colorNames": [
+        "星空灰"
+      ],
+      "imageGaps": [
+        {
+          "field": "colorGallery",
+          "reason": "只核验该CHN/CHC单SKU配色；其他正式国行颜色尚待逐SKU原图绑定，不宣称全部配色。"
+        }
+      ],
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "Galaxy Tab S10 Lite、Galaxy Watch8 Classic、Galaxy Watch8、Galaxy Watch Ultra（2025）、Galaxy Buds3 Pro、Galaxy Buds3、Galaxy Fit3 额外享9折优惠。 是否可以叠加同期优惠？ 该活动可与同期其他购机优惠叠加享受。 三星手机购买用户加购如下产品可享专属优惠折扣？ 加购如下产品享9折： · 智能平板：Galaxy Tab S11系列、Galaxy Tab S10 Lite、Galaxy Tab S10 FE、Galaxy Tab S10 FE+、Galaxy Tab A11+ · 智能指环： Galaxy Ring · 智能手表：Galaxy Watch Ultra（2025）、Galaxy Watch8 Classic、Galaxy Watch8、Galaxy Fit3 · 智能耳机：Galaxy Buds3 Pro、Galaxy Buds3、Galaxy Buds3 FE 活动说明 1. 专属折扣在厂商建议零售价",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://support-cn.samsung.com.cn/campaign/event/psg/2026/promotion/february/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:41.248Z",
+        "sourceSnapshotHash": "2d64860a4283fc40099498fa17f104f45d256d76f1532d2975b313126c5a5289"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "Galaxy Tab S10 Lite提供两种内存配置选项：6GB运行内存+128GB存储空间，或8GB运行内存+256GB存储空间",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-lite-gray-128gb-sm-x400nzavchn/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:40.661Z",
+        "sourceSnapshotHash": "7a63438e9db7f89f0e540409a18622d2194dd8ec2e8004ca03ba8f667bc7e818"
+      },
+      "imageLicense": "unknown",
+      "sourceInputKind": "official_cn_single_sku_and_launch_configuration_snapshots"
+    }
+  ],
+  "laptop": []
+}

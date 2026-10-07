@@ -1,4 +1,10 @@
 import fs from "node:fs/promises";
+import { findBuiltInPortEvidence } from "./lib/apple-ports.mjs";
+import { parseAppleMemory } from "./lib/apple-memory.mjs";
+import { getSourceSnapshot } from "./lib/source-snapshot.mjs";
+
+const sourceSnapshots = new Map();
+const sourceStats = { uniqueUrls: 0, networkRequests: 0, cacheHits: 0 };
 
 const ROOT = new URL("../", import.meta.url);
 const EN_DEVICES_PATH = new URL("src/data/apple-devices-db.en-us.json", ROOT);
@@ -10,6 +16,8 @@ const VERIFIED_AT = new Intl.DateTimeFormat("sv-SE", { timeZone: "Asia/Shanghai"
 const IOS_REF_MEMORY_URL = "https://iosref.com/memory-processor";
 
 const ZH_LAUNCH_PRICES = {
+  "iphone-18-pro": [9999, "https://www.apple.com.cn/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/"],
+  "iphone-18-pro-max": [10999, "https://www.apple.com.cn/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/"],
   "iphone-7-2016": [5388, "https://www.apple.com.cn/newsroom/2016/09/07Apple-Introduces-iPhone-7-iPhone-7-Plus-The-Best-Most-Advanced-iPhone-Ever/"],
   "iphone-7-plus-2016": [6388, "https://www.apple.com.cn/newsroom/2016/09/07Apple-Introduces-iPhone-7-iPhone-7-Plus-The-Best-Most-Advanced-iPhone-Ever/"],
   "iphone-8-2017": [5888, "https://www.apple.com.cn/newsroom/2017/09/iphone-8-and-iphone-8-plus-a-new-generation-of-iphone/"],
@@ -445,6 +453,7 @@ const REFERENCE_CURRENT_PRICES = {
 const REFERENCE_USED_PRICES = {
   "macbook-pro-14-m3-2023": {
     value: 7899,
+    excludedReason: "屏幕老化及亮斑、亮点或坏点，不作为正常设备参考价",
     sourceUrl: "https://m2.9ji.com/secondHand/detail/1139126",
     sourceName: "九机二手良品",
     rawText: "苹果 MacBook Pro 2023 款 M3 版 14 英寸国行二手笔记本，深空灰色，16GB 内存，1TB 存储，8 成新，电池寿命 86%-90%，未检出维修痕迹，页面价 7899 元。",
@@ -661,6 +670,7 @@ const REFERENCE_USED_PRICES = {
   },
   "ipad-air-4th-2020": {
     value: 2079,
+    excludedReason: "屏幕老化、色差或透图，不作为正常设备参考价",
     sourceUrl: "https://m2.9ji.com/secondHand/detail/1172039",
     sourceName: "九机二手良品",
     rawText: "Apple iPad Air 2020 款国行二手平板电脑，绿色，64GB，Wi-Fi 版，95 成新，电池寿命 91%-95%，未检出维修痕迹，页面价 2079 元。",
@@ -679,6 +689,7 @@ const REFERENCE_USED_PRICES = {
   },
   "ipad-mini-6th-2021": {
     value: 2109,
+    excludedReason: "屏幕老化、色差或透图，不作为正常设备参考价",
     sourceUrl: "https://m2.9ji.com/secondHand/detail/1171585",
     sourceName: "九机二手良品",
     rawText: "Apple iPad mini 2021 款国行二手平板电脑，深空灰色，64GB，Wi-Fi 版，95 成新，电池寿命 91%-95%，未检出维修痕迹，页面价 2109 元。",
@@ -688,6 +699,7 @@ const REFERENCE_USED_PRICES = {
   },
   "ipad-pro-11-1st-2018": {
     value: 2449,
+    excludedReason: "屏幕老化、色差或透图，不作为正常设备参考价",
     sourceUrl: "https://m2.9ji.com/secondHand/detail/1172058",
     sourceName: "九机二手良品",
     rawText: "Apple iPad Pro 2018 款 11 英寸国行二手平板电脑，深空灰色，256GB，Wi-Fi 版，8 成新，电池寿命低于 80%，未检出维修痕迹，页面价 2449 元。",
@@ -716,6 +728,8 @@ const REFERENCE_USED_PRICES = {
 };
 
 const ZH_ONLY_IPHONES = [
+  ["iphone-18-pro", "Pro", "iPhone 18 Pro", "18 Pro", 2026, "https://support.apple.com/zh-cn/148590", "2026-09-18"],
+  ["iphone-18-pro-max", "Pro Max", "iPhone 18 Pro Max", "18 Pro Max", 2026, "https://support.apple.com/zh-cn/148591", "2026-09-18"],
   ["iphone-7-2016", "standard", "iPhone 7", "7", 2016, "https://support.apple.com/zh-cn/111943"],
   ["iphone-7-plus-2016", "Plus", "iPhone 7 Plus", "7 Plus", 2016, "https://support.apple.com/zh-cn/111953"],
   ["iphone-se-1-2016", "SE", "iPhone SE (第 1 代)", "SE 1", 2016, "https://support.apple.com/zh-cn/112005"],
@@ -729,7 +743,7 @@ const ZH_ONLY_IPHONES = [
   ["iphone-11-pro-2019", "Pro", "iPhone 11 Pro", "11 Pro", 2019, "https://support.apple.com/zh-cn/111879"],
   ["iphone-11-pro-max-2019", "Pro Max", "iPhone 11 Pro Max", "11 Pro Max", 2019, "https://support.apple.com/zh-cn/111878"],
   ["iphone-17e-2026", "e", "iPhone 17e", "17e", 2026, "https://support.apple.com/zh-cn/126470"],
-].map(([id, variant, modelName, generation, releaseYear, supportUrl]) => ({
+].map(([id, variant, modelName, generation, releaseYear, supportUrl, releaseDate]) => ({
   device: {
     id,
     brand: "Apple",
@@ -741,6 +755,7 @@ const ZH_ONLY_IPHONES = [
     generation,
     generationOrder: 1,
     releaseYear,
+    ...(releaseDate ? { releaseDate } : {}),
     specs: {},
     computed: {},
   },
@@ -884,8 +899,8 @@ const ZH_ONLY_MACBOOKS = [
 const IPHONE_GENERATION_GROUPS = [
   ["iphone-7-2016", "iphone-8-2017", "iphone-xr-2018", "iphone-11-2019", "iphone-12", "iphone-13", "iphone-14", "iphone-15", "iphone-16", "iphone-17"],
   ["iphone-7-plus-2016", "iphone-8-plus-2017", "iphone-14-plus", "iphone-15-plus", "iphone-16-plus"],
-  ["iphone-x-2017", "iphone-xs-2018", "iphone-11-pro-2019", "iphone-12-pro", "iphone-13-pro", "iphone-14-pro", "iphone-15-pro", "iphone-16-pro", "iphone-17-pro"],
-  ["iphone-xs-max-2018", "iphone-11-pro-max-2019", "iphone-12-pro-max", "iphone-13-pro-max", "iphone-14-pro-max", "iphone-15-pro-max", "iphone-16-pro-max", "iphone-17-pro-max"],
+  ["iphone-x-2017", "iphone-xs-2018", "iphone-11-pro-2019", "iphone-12-pro", "iphone-13-pro", "iphone-14-pro", "iphone-15-pro", "iphone-16-pro", "iphone-17-pro", "iphone-18-pro"],
+  ["iphone-xs-max-2018", "iphone-11-pro-max-2019", "iphone-12-pro-max", "iphone-13-pro-max", "iphone-14-pro-max", "iphone-15-pro-max", "iphone-16-pro-max", "iphone-17-pro-max", "iphone-18-pro-max"],
   ["iphone-se-1-2016", "iphone-se-2-2020", "iphone-se-3-2022"],
   ["iphone-16e-2025", "iphone-17e-2026"],
 ];
@@ -1009,8 +1024,8 @@ const SECTION_NAMES = {
   safety: /^安全功能$/,
   wireless: /^(蜂窝网络和\s*无线连接|无线连接)$/,
   externalButtons: /外部按键和\s*连接端口|按键和连接端口/,
-  charging: /^充电和外设扩展$/,
-  power: /^(电源和电池|电池和电源)$/,
+  charging: /^(充电和外设扩展|充電與擴充)$/,
+  power: /^(电源和电池|电池和电源|电池和电量|電池與電源)(?:\s*\d+)?$/,
   magsafe: /^MagSafe$/i,
   sim: /^SIM 卡$/i,
   speakers: /^扬声器$/,
@@ -1056,7 +1071,7 @@ function parseSections(html) {
     if (!text) continue;
     if (tag === "h4") {
       if (current && !current.blocks.includes(text)) current.blocks.push(text);
-    } else if (tag.startsWith("h")) {
+    } else if (tag.startsWith("h") || (tag === "p" && /^(处理器|處理器)$/.test(text))) {
       current = { heading: text, blocks: [] };
       sections.push(current);
     } else if (current) {
@@ -1078,6 +1093,12 @@ function tierBlocks(blocks, tier, label = "Apple") {
   const suffix = label === "Apple" ? " 芯片" : " 机型";
   const proIndex = blocks.findIndex((block) => new RegExp(`^${prefix}M\\d+ Pro${suffix}$`).test(block));
   const maxIndex = blocks.findIndex((block) => new RegExp(`^${prefix}M\\d+ Max${suffix}$`).test(block));
+  // Older shared pages list Max only as inline build-to-order chip options.
+  // Do not inherit the preceding Pro base CPU/GPU lines for those Max models.
+  if (tier === "max") {
+    const inlineMax = blocks.flatMap((block) => [...block.matchAll(/(?:Apple )?M\d+ Max \([^)]*\)/g)].map((match) => match[0]));
+    if (inlineMax.length) return [...new Set([...(maxIndex < 0 ? [] : blocks.slice(maxIndex)), ...inlineMax])];
+  }
   if (proIndex < 0 || maxIndex < 0) return blocks;
   return tier === "pro" ? blocks.slice(proIndex, maxIndex) : blocks.slice(maxIndex);
 }
@@ -1111,6 +1132,17 @@ function first(blocks, pattern) {
 
 function joined(blocks, pattern, limit = Infinity) {
   return matching(blocks, pattern).slice(0, limit).join("；");
+}
+
+function storageConditionalNote(blocks, pattern) {
+  let condition = "";
+  const entries = [];
+  for (const block of blocks) {
+    if (/^\d+(?:GB|TB).*存储容量机型[：:]$/.test(block)) condition = block.replace(/[：:]$/, "");
+    else if (condition && pattern.test(block)) entries.push(`${condition}：${block}`);
+    else if (pattern.test(block) && /存储容量.*机型/.test(block)) entries.push(block);
+  }
+  return entries.length > 1 ? entries.join("；") : "";
 }
 
 function numbers(text, pattern) {
@@ -1189,7 +1221,7 @@ function parseWeight(blocks, tier) {
   if (!raw) return null;
   const grams = raw.match(/重量(?:\s*\([^)]*\))?\s*[：:]?\s*([\d.]+)\s*克/);
   if (grams) return { value: Number(grams[1]), raw };
-  const kilograms = raw.match(/重量(?:\s*\([^)]*\))?\s*[：:]?\s*([\d.]+)\s*千克/);
+  const kilograms = raw.match(/重量(?:\s*\([^)]*\))?\s*[：:]?\s*([\d.]+)\s*(?:千克|公斤)/);
   if (kilograms) return { value: Math.round(Number(kilograms[1]) * 1000), raw };
   return null;
 }
@@ -1245,6 +1277,9 @@ function extractField(device, fieldName, sections, oldField, sourceUrl) {
   const allChipBlocks = section(sections, "chip");
   const chip = tierBlocks(allChipBlocks, device.tier)
     .filter((block) => device.tier !== "pro" || (!/^可选配/.test(block) && !/M\d+ Max/.test(block)));
+  // Shared nested option lists mix Pro and Max; retain only the explicit Pro clauses.
+  if (device.tier === "pro") chip.push(...unique(allChipBlocks.flatMap((block) =>
+    [...block.matchAll(/M\d+ Pro \([^)]*\)/g)].map((match) => match[0]))));
   const memory = tierBlocks(section(sections, "memory"), device.tier);
   const camera = section(sections, device.category === "laptop" ? "cameraLaptop" : "camera");
   const frontCamera = section(sections, "frontCamera");
@@ -1268,7 +1303,7 @@ function extractField(device, fieldName, sections, oldField, sourceUrl) {
   }
   if (fieldName === "weight") {
     const parsed = parseWeight(size, device.tier);
-    return parsed ? spec(parsed.value, parsed.raw, oldField, sourceUrl) : null;
+    return parsed ? spec(parsed.value, parsed.raw, oldField ?? { unit: "g" }, sourceUrl) : null;
   }
   if (fieldName === "dimensions" || fieldName === "thickness") {
     const parsed = parseDimensions(size);
@@ -1311,6 +1346,13 @@ function extractField(device, fieldName, sections, oldField, sourceUrl) {
     return values.length ? spec(Math.max(...values), raw, oldField, sourceUrl) : null;
   }
   if (fieldName === "chip") {
+    const intelBlocks = chip.filter((block) => /Intel Core/i.test(block));
+    if (intelBlocks.length) {
+      const models = unique([...intelBlocks.join(" ").matchAll(/Intel Core\s+([im]\d)/gi)].map((match) => match[1].toLowerCase()))
+        .sort((left, right) => Number(left.slice(1)) - Number(right.slice(1)));
+      return { ...spec(`Intel Core ${models.join(" / ")}`, intelBlocks.join("；"), oldField, sourceUrl),
+        note: "机型可选处理器；不表示任意处理器、内存与存储均可组合，具体报价配置需另行核验" };
+    }
     const tierChipName = device.modelName.match(/\((M\d+ (?:Pro|Max))\)/)?.[1];
     if (tierChipName) {
       const tierRaw = first(blocks, new RegExp(`(?:Apple )?${tierChipName}(?: 芯片| \\()`));
@@ -1326,14 +1368,22 @@ function extractField(device, fieldName, sections, oldField, sourceUrl) {
   }
   if (fieldName === "cpu") {
     const raw = ["pro", "max"].includes(device.tier)
-      ? joined(chip, device.tier === "max" ? /^(?:\d+ 核中央处理器|M\d+ Max \()/ : /^\d+ 核中央处理器/, 3)
+      ? joined(chip, device.tier === "max" ? /^(?:\d+ 核中央处理器|M\d+ Max \()/ : /^(?:\d+ 核中央处理器|M\d+ Pro \()/, 3)
         || joined(allChipBlocks, /^\d+ 核中央处理器/, 1)
       : joined(chip, /中央处理器/, 2);
-    return spec(raw, raw, oldField, sourceUrl);
+    const note = device.category === "tablet" ? storageConditionalNote(chip, /中央处理器/) : "";
+    return raw ? { ...spec(raw, raw, oldField, sourceUrl), ...(note ? { note } : {}) } : null;
   }
   if (fieldName === "gpu") {
+    if (device.id === "macbook-air-13-m1-2020") {
+      const tested = first(blocks, /已测试的配置.*Apple M1.*8 核图形处理器/);
+      if (tested) {
+        const base = joined(chip, /图形处理器/, 2);
+        return spec(`${base}；8 核图形处理器`, `${base}；${tested}`, oldField, sourceUrl);
+      }
+    }
     const raw = ["pro", "max"].includes(device.tier)
-      ? joined(chip, device.tier === "max" ? /^(?:\d+ 核图形处理器|M\d+ Max \()/ : /^\d+ 核图形处理器/, 3)
+      ? joined(chip, device.tier === "max" ? /^(?:\d+ 核图形处理器|M\d+ Max \()/ : /^(?:\d+ 核图形处理器|M\d+ Pro \()/, 3)
         || joined(allChipBlocks, /^\d+ 核图形处理器/, 1)
       : joined(chip, /图形处理器/, 2);
     return spec(raw, raw, oldField, sourceUrl);
@@ -1343,6 +1393,10 @@ function extractField(device, fieldName, sections, oldField, sourceUrl) {
     return spec(raw, raw, oldField, sourceUrl);
   }
   if (fieldName === "memory") {
+    if (device.category === "laptop" && section(sections, "memory").length) {
+      const parsed = parseAppleMemory(section(sections, "memory"), device.tier);
+      return spec(parsed.value, parsed.raw, oldField, sourceUrl);
+    }
     const source = memory.length ? memory : chip;
     const selected = ["pro", "max"].includes(device.tier)
       ? source.filter((block) => block.length <= 600 && !/内存带宽/.test(block) && /\b\d+GB\b/.test(block))
@@ -1351,7 +1405,8 @@ function extractField(device, fieldName, sections, oldField, sourceUrl) {
         || /記憶體|可选配/.test(block)
       ));
     const parsed = parseMemory(selected, device.tier);
-    return spec(parsed.value, parsed.raw, oldField, sourceUrl);
+    const note = device.category === "tablet" ? storageConditionalNote(chip, /^\d+GB\s*(?:统一内存|内存|RAM)/) : "";
+    return parsed.value ? { ...spec(parsed.value, parsed.raw, oldField, sourceUrl), ...(note ? { note } : {}) } : null;
   }
   if (fieldName === "storage") {
     const parsed = parseTieredStorage(capacity, device.tier);
@@ -1362,7 +1417,7 @@ function extractField(device, fieldName, sections, oldField, sourceUrl) {
     return spec(selected.join("；"), selected.join("；"), oldField, sourceUrl);
   }
   if (fieldName === "mainCamera") {
-    const raw = first(camera, /主摄|融合式|^(?!.*超广角).*广角摄像头/);
+    const raw = first(camera, /主摄/) ?? first(camera, /^(?!.*(?:超广角|系统)).*(?:融合式|广角摄像头)/);
     return spec(raw, raw, oldField, sourceUrl);
   }
   if (fieldName === "ultraWide") {
@@ -1370,7 +1425,9 @@ function extractField(device, fieldName, sections, oldField, sourceUrl) {
     return spec(raw, raw, oldField, sourceUrl);
   }
   if (fieldName === "telephoto") {
-    const raw = first(camera, /长焦/);
+    const raw = first(camera, /^长焦[：:]/)
+      ?? first(camera, /^(?!同时支持)(?!.*通过四合一像素传感器实现).*长焦/)
+      ?? first(camera, /长焦/);
     return spec(raw, raw, oldField, sourceUrl);
   }
   if (fieldName === "opticalZoom") {
@@ -1394,7 +1451,7 @@ function extractField(device, fieldName, sections, oldField, sourceUrl) {
     return spec(raw, raw, oldField, sourceUrl);
   }
   if (fieldName === "batteryLife") {
-    const selected = power.filter((block) => /视频播放|无线上网|浏览网页|观看视频|音频播放/.test(block)).slice(0, 4);
+    const selected = power.filter((block) => /视频播放|无线上网|无线网络浏览|無線上網|浏览网页|观看视频|音频播放|影片播放|电影播放|電影播放/.test(block)).slice(0, 4);
     return spec(selected.join("；"), selected.join("；"), oldField, sourceUrl);
   }
   if (fieldName === "wirelessWebBrowsing") {
@@ -1403,7 +1460,7 @@ function extractField(device, fieldName, sections, oldField, sourceUrl) {
   }
   if (fieldName === "port") {
     const source = charging.length ? charging : section(sections, "externalButtons");
-    const selected = source.filter((block) => block.length <= 600 && /接口|端口|雷雳|闪电|USB\s*[234]|DisplayPort|耳机/.test(block)).slice(0, 7);
+    const selected = source.filter((block) => block.length <= 600 && /接口|端口|連接埠|雷雳|闪电|USB\s*[234]|DisplayPort|耳机/.test(block)).slice(0, 7);
     return spec(selected.join("；"), selected.join("；"), oldField, sourceUrl);
   }
   if (fieldName === "thunderbolt") {
@@ -1473,7 +1530,11 @@ function extractField(device, fieldName, sections, oldField, sourceUrl) {
     const raw = first(keyboard, /力度触控板|触控板|Force Touch/i);
     return spec(raw, raw, oldField, sourceUrl);
   }
-  if (["hasNFC", "hasMagSafe", "hasSOS", "hasCrashDetection", "hasUWB", "magicKeyboard", "hasTouchId", "hasHDMI", "hasSDXC"].includes(fieldName)) {
+  if (["hasHDMI", "hasSDXC"].includes(fieldName)) {
+    const raw = findBuiltInPortEvidence(blocks, fieldName);
+    return raw ? spec(true, raw, oldField, sourceUrl) : null;
+  }
+  if (["hasNFC", "hasMagSafe", "hasSOS", "hasCrashDetection", "hasUWB", "magicKeyboard", "hasTouchId"].includes(fieldName)) {
     const patterns = {
       hasNFC: /NFC/,
       hasMagSafe: /MagSafe/,
@@ -1482,8 +1543,6 @@ function extractField(device, fieldName, sections, oldField, sourceUrl) {
       hasUWB: /超宽带/,
       magicKeyboard: /妙控键盘|Magic Keyboard/i,
       hasTouchId: /触控 ID|Touch ID/i,
-      hasHDMI: /HDMI/,
-      hasSDXC: /SDXC/,
     };
     const raw = first(blocks, patterns[fieldName]);
     return raw ? spec(true, raw, oldField, sourceUrl) : null;
@@ -1492,9 +1551,16 @@ function extractField(device, fieldName, sections, oldField, sourceUrl) {
 }
 
 async function fetchHtml(url) {
-  const response = await fetch(url, { headers: { "user-agent": "DeviceScope official-source audit" } });
-  if (!response.ok) throw new Error(`${response.status} ${url}`);
-  return response.text();
+  if (!sourceSnapshots.has(url)) {
+    sourceStats.uniqueUrls += 1;
+    sourceSnapshots.set(url, getSourceSnapshot(url, {
+      offline: process.argv.includes("--offline"), refresh: process.argv.includes("--refresh"),
+    }).then((snapshot) => {
+      sourceStats[snapshot.cacheHit ? "cacheHits" : "networkRequests"] += 1;
+      return snapshot;
+    }));
+  }
+  return (await sourceSnapshots.get(url)).html;
 }
 
 async function resolveTechSpecUrl(supportUrl) {
@@ -1556,10 +1622,20 @@ function marketPriceSnapshot(reference, priceType) {
     condition: reference.condition ?? "全新，识货聚合百亿补贴店铺最低价；优惠资格与库存以来源页为准",
     observedAt: reference.observedAt,
     sourceName: reference.sourceName,
+    ...(reference.excludedReason ? { excludedReason: reference.excludedReason } : {}),
   };
 }
 
-function referenceMemorySpec(device) {
+async function referenceMemorySpec(device) {
+  if (["iphone-18-pro", "iphone-18-pro-max"].includes(device.id)) {
+    const sourceUrl = `https://www.ifixit.com/Device/${device.modelName.replaceAll(" ", "_")}`;
+    const snapshot = await getSourceSnapshot(sourceUrl, { offline: process.argv.includes("--offline"), refresh: process.argv.includes("--refresh") });
+    const rawText = decodeHtml(snapshot.html).match(/RAM\s*:\s*12 GB LPDDR5X/)?.[0];
+    if (!rawText || !snapshot.html.includes(device.modelName)) throw new Error(`${device.id}: iFixit 型号或内存证据缺失`);
+    return { value: "12GB", rawText, sourceUrl, sourceType: "reference", confidence: 0.9,
+      verifiedAt: VERIFIED_AT, fetchedAt: snapshot.fetchedAt, sourceSnapshotHash: snapshot.sha256,
+      note: "运行内存取自 iFixit 设备规格，非 Apple 官方公布；不据此推定地区电池规格。" };
+  }
   const value = REFERENCE_MEMORY_SPECS[device.id];
   if (!value) return null;
   return {
@@ -1590,15 +1666,93 @@ const [englishDatabase, englishSources, previousZhDatabase, priceObservations] =
 ]);
 const currentPriceReferences = { ...REFERENCE_CURRENT_PRICES, ...priceObservations.current };
 const usedPriceReferences = { ...REFERENCE_USED_PRICES, ...priceObservations.used };
+if (process.argv.some((arg) => arg.startsWith("--devices=")) && process.argv.some((arg) =>
+  ["--prices-only", "--memory-only", "--chip-only"].includes(arg) || arg.startsWith("--field-only="))) {
+  throw new Error("--devices 不能与价格或单字段同步混用；单字段筛选请使用 --ids");
+}
+// 已核验价格可独立重建，不请求规格页、不改动规格证据日期。
+if (process.argv.includes("--prices-only")) {
+  const sources = JSON.parse(await fs.readFile(ZH_SOURCES_PATH, "utf8"));
+  const byId = new Map(Object.values(sources).flat().map((source) => [source.id, source]));
+  for (const device of previousZhDatabase.devices) {
+    const source = byId.get(device.id);
+    if (!source) throw new Error(`${device.id}: 来源登记缺失，未写入`);
+    const urls = new Set(source.referenceUrls ?? []);
+    for (const [type, references] of [["current", currentPriceReferences], ["used", usedPriceReferences]]) {
+      const observations = [references[device.id]].flat().filter(Boolean);
+      if (!observations.length) continue;
+      device.specs[`${type}Price`] = marketPriceSnapshot(observations[0], type);
+      for (const observation of observations) urls.add(observation.sourceUrl);
+    }
+    if (urls.size) source.referenceUrls = [...urls];
+  }
+  for (const [path, data] of [[ZH_DEVICES_PATH, previousZhDatabase], [ZH_SOURCES_PATH, sources]]) {
+    const output = `${JSON.stringify(data, null, 2)}\n`;
+    if (process.argv.includes("--check")) {
+      if (await fs.readFile(path, "utf8") !== output) throw new Error("价格或来源未同步，请执行 --prices-only；检查模式未写文件");
+    } else await fs.writeFile(path, output);
+  }
+  console.log(`prices-only: ${process.argv.includes("--check") ? "一致性检查通过，未写文件" : "已同步价格及其来源"}，未请求网络或修改规格`);
+  process.exit(0);
+}
+// 定向重采单个规格字段，不改价格、其他字段或来源清单。
+const targetedFields = process.argv.flatMap((arg) => arg === "--memory-only" ? ["memory"] : arg === "--chip-only" ? ["chip"] : arg.startsWith("--field-only=") ? [arg.slice(13)] : []);
+if (targetedFields.length) {
+  if (targetedFields.length !== 1) throw new Error("请一次指定一个定向规格字段");
+  const [fieldName] = targetedFields;
+  const category = ["mainCamera", "telephoto"].includes(fieldName) ? "phone" : "laptop";
+  if (!FIELD_TARGETS[category].includes(fieldName)) throw new Error("--field-only 必须为受支持的 MacBook 规格或 iPhone 主摄/长焦字段，不支持价格或任意属性");
+  let changed = 0;
+  const idsArgument = process.argv.find((argument) => argument.startsWith("--ids="));
+  const ids = idsArgument ? new Set(idsArgument.slice(6).split(",")) : null;
+  const selected = previousZhDatabase.devices.filter((item) => (!ids || ids.has(item.id))
+    && (item.category === category || (ids && ["cpu", "memory"].includes(fieldName) && item.category === "tablet")));
+  if (ids && selected.length !== ids.size) throw new Error("--ids 包含未知设备或不支持该字段同步的设备种类");
+  for (const device of selected) {
+    const previous = device.specs[fieldName];
+    const sourceUrl = previous?.sourceUrl ?? device.specs.chip.sourceUrl;
+    const sections = parseSections(await fetchHtml(sourceUrl));
+    const field = extractField(device, fieldName, sections, previous, sourceUrl);
+    if (!field) throw new Error(`${device.id}: ${fieldName} 解析为空，未写入`);
+    const { fetchedAt, sha256 } = await sourceSnapshots.get(sourceUrl);
+    const previousComparable = { ...previous };
+    delete previousComparable.fetchedAt;
+    delete previousComparable.sourceSnapshotHash;
+    const next = { ...preserveVerifiedAt(field, previousComparable), fetchedAt, sourceSnapshotHash: sha256 };
+    if (JSON.stringify(next) !== JSON.stringify(previous)) {
+      console.log(`${device.id}: ${previous?.value ?? "缺失"} -> ${next.value}`);
+      device.specs[fieldName] = next;
+      changed += 1;
+    }
+  }
+  if (changed) {
+    previousZhDatabase.metadata.generatedAt = VERIFIED_AT;
+    await fs.writeFile(ZH_DEVICES_PATH, `${JSON.stringify(previousZhDatabase, null, 2)}\n`);
+  }
+  console.log(`${fieldName}-only: ${changed} updated`);
+  console.log(JSON.stringify({ ...sourceStats, devices: selected.length, changed }));
+  process.exit(0);
+}
 const { devices: englishDevices } = englishDatabase;
 const zhOnlyDevices = [...ZH_ONLY_IPHONES, ...ZH_ONLY_IPADS, ...ZH_ONLY_MACBOOKS];
-const sourceDevices = [...englishDevices, ...zhOnlyDevices.map(({ device }) => device)];
+const allSourceDevices = [...englishDevices, ...zhOnlyDevices.map(({ device }) => device)];
+const selectedArgument = process.argv.find((argument) => argument.startsWith("--devices="));
+const selectedIds = selectedArgument ? new Set(selectedArgument.slice("--devices=".length).split(",")) : null;
+if (selectedIds && [...selectedIds].some((id) => !allSourceDevices.some((device) => device.id === id))) {
+  throw new Error("--devices 必须指定有效的来源设备 id；未写入数据");
+}
+const sourceDevices = selectedIds ? allSourceDevices.filter((device) => selectedIds.has(device.id)) : allSourceDevices;
+const selectedOutputIds = selectedIds ? new Set(sourceDevices.flatMap((device) =>
+  (MACBOOK_CHIP_SPLITS[device.id] ?? [{ id: device.id }]).map((split) => split.id))) : null;
 const sourceById = new Map([
   ...Object.values(englishSources).flat().map((row) => [row.id, row]),
   ...zhOnlyDevices.map(({ source }) => [source.id, source]),
 ]);
-const zhSources = Object.fromEntries(Object.keys(englishSources).map((category) => [category, []]));
-const zhDevices = [];
+const previousSources = selectedIds ? JSON.parse(await fs.readFile(ZH_SOURCES_PATH, "utf8")) : {};
+const zhSources = Object.fromEntries(Object.keys(englishSources).map((category) => [category,
+  selectedOutputIds ? (previousSources[category] ?? []).filter((source) => !selectedOutputIds.has(source.id)) : [],
+]));
+const zhDevices = selectedOutputIds ? previousZhDatabase.devices.filter((device) => !selectedOutputIds.has(device.id)) : [];
 const previousZhById = new Map(previousZhDatabase.devices.map((device) => [device.id, device]));
 const missing = [];
 
@@ -1670,14 +1824,15 @@ for (const sourceDevice of sourceDevices) {
   const splits = MACBOOK_CHIP_SPLITS[sourceDevice.id] ?? [null];
   for (const split of splits) {
     const device = splitDevice(sourceDevice, split);
-    const previousSpecs = previousZhById.get(device.id)?.specs ?? {};
+    const previousDevice = previousZhById.get(device.id);
+    const previousSpecs = previousDevice?.specs ?? {};
     const specs = {};
     for (const fieldName of FIELD_TARGETS[device.category]) {
       const field = extractField(device, fieldName, sections, device.specs[fieldName], supportUrl);
       if (field) specs[fieldName] = preserveVerifiedAt(field, previousSpecs[fieldName]);
       else if (device.specs[fieldName]?.value !== null && device.specs[fieldName]?.value !== undefined) missing.push(`${device.id}.${fieldName}`);
     }
-    const referenceMemory = referenceMemorySpec(device);
+    const referenceMemory = await referenceMemorySpec(device);
     if (!specs.memory && referenceMemory) specs.memory = preserveVerifiedAt(referenceMemory, previousSpecs.memory);
     const launchPrice = await refreshLaunchPrice(device);
     if (launchPrice) specs.launchPrice = preserveVerifiedAt(launchPrice, previousSpecs.launchPrice);
@@ -1691,6 +1846,7 @@ for (const sourceDevice of sourceDevices) {
     const releaseYear = device.id === "ipad-air-m4-2025" ? 2026 : device.releaseYear;
     zhDevices.push(recalculateGenerationUpgrade({
       ...device,
+      ...(previousDevice?.configurations ? { configurations: previousDevice.configurations } : {}),
       market: "CN",
       comparisonGroupId: comparisonGroupId(device),
       modelName,
@@ -1701,7 +1857,7 @@ for (const sourceDevice of sourceDevices) {
     if (REFERENCE_LAUNCH_PRICES[device.id]) referenceUrls.add(REFERENCE_LAUNCH_PRICES[device.id].sourceUrl);
     for (const reference of [currentPriceReferences[device.id]].flat().filter(Boolean)) referenceUrls.add(reference.sourceUrl);
     for (const reference of [usedPriceReferences[device.id]].flat().filter(Boolean)) referenceUrls.add(reference.sourceUrl);
-    if (REFERENCE_MEMORY_SPECS[device.id]) referenceUrls.add(IOS_REF_MEMORY_URL);
+    if (referenceMemory) referenceUrls.add(referenceMemory.sourceUrl);
     zhSources[device.category].push({
       ...oldSource,
       id: device.id,

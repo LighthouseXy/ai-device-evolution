@@ -1,0 +1,1152 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "totalDevices": 6,
+    "generatedAt": "2026-10-02"
+  },
+  "devices": [
+    {
+      "id": "xiaomi-pad-6-2023",
+      "brand": "Xiaomi",
+      "market": "CN",
+      "category": "tablet",
+      "series": "Xiaomi Pad",
+      "family": "Xiaomi Pad",
+      "variant": "standard",
+      "modelName": "小米平板 6",
+      "generation": "Pad 6",
+      "generationOrder": 1,
+      "releaseYear": 2023,
+      "releaseDate": "2023-04-18",
+      "comparisonGroupId": "xiaomi.tablet.pad.standard",
+      "configurations": [
+        {
+          "memory": "6GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "6GB + 128GB",
+            "rawText": "6GB+128GB 售价 1899 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/687/329.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:14:29.322Z",
+            "sourceSnapshotHash": "792611390c5e9b785aacd2b58c2e14a8b78fa86006a960a06ef49a59c334ed7c"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "8GB + 128GB",
+            "rawText": "8GB+128GB 售价 1999 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/687/329.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:14:29.322Z",
+            "sourceSnapshotHash": "792611390c5e9b785aacd2b58c2e14a8b78fa86006a960a06ef49a59c334ed7c"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "8GB+256GB 售价 2299 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/687/329.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:14:29.322Z",
+            "sourceSnapshotHash": "792611390c5e9b785aacd2b58c2e14a8b78fa86006a960a06ef49a59c334ed7c"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "骁龙 870",
+          "rawText": "小米平板 6 采用骁龙 870 芯片",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/687/329.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:29.322Z",
+          "sourceSnapshotHash": "792611390c5e9b785aacd2b58c2e14a8b78fa86006a960a06ef49a59c334ed7c"
+        },
+        "memory": {
+          "value": "6GB / 8GB",
+          "rawText": "6GB+128GB 售价 1899 元， 8GB+128GB 售价 1999 元， 8GB+256GB 售价 2299 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/687/329.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:29.322Z",
+          "sourceSnapshotHash": "792611390c5e9b785aacd2b58c2e14a8b78fa86006a960a06ef49a59c334ed7c"
+        },
+        "storage": {
+          "value": "128GB / 256GB",
+          "rawText": "6GB+128GB 售价 1899 元， 8GB+128GB 售价 1999 元， 8GB+256GB 售价 2299 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/687/329.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:29.322Z",
+          "sourceSnapshotHash": "792611390c5e9b785aacd2b58c2e14a8b78fa86006a960a06ef49a59c334ed7c"
+        },
+        "screenSize": {
+          "value": 11,
+          "unit": "inch",
+          "rawText": "小米平板 6 系列搭载 11 英寸的 2.8K 护眼屏",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/687/329.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:29.322Z",
+          "sourceSnapshotHash": "792611390c5e9b785aacd2b58c2e14a8b78fa86006a960a06ef49a59c334ed7c"
+        },
+        "displayType": {
+          "value": "LCD",
+          "rawText": "LCD 纠错",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1448/1447719/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:15:19.737Z",
+          "sourceSnapshotHash": "e0a8a6c9672912d84c44d5fdb03729967c5119f1d0a3f07d59f9064e74af9452"
+        },
+        "resolution": {
+          "value": "2880x1800",
+          "rawText": "屏幕分辨率 2880×1800",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1448/1447719/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:15:19.737Z",
+          "sourceSnapshotHash": "e0a8a6c9672912d84c44d5fdb03729967c5119f1d0a3f07d59f9064e74af9452"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "数据接口 USB Type-c",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1448/1447719/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:15:19.737Z",
+          "sourceSnapshotHash": "e0a8a6c9672912d84c44d5fdb03729967c5119f1d0a3f07d59f9064e74af9452"
+        },
+        "launchPrice": {
+          "value": 1899,
+          "unit": "CNY",
+          "rawText": "6GB+128GB 售价 1899 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/687/329.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:29.322Z",
+          "sourceSnapshotHash": "792611390c5e9b785aacd2b58c2e14a8b78fa86006a960a06ef49a59c334ed7c",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "6GB 运行内存 + 128GB 存储，国行",
+          "condition": "中国大陆首销价；非长期售价"
+        },
+        "memoryType": {
+          "value": "LPDDR5",
+          "rawText": "内存类型 LPDDR5",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1448/1447719/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:15:19.737Z",
+          "sourceSnapshotHash": "e0a8a6c9672912d84c44d5fdb03729967c5119f1d0a3f07d59f9064e74af9452"
+        },
+        "operatingSystem": {
+          "value": "MIUI Pad 14（基于 Android 13）",
+          "rawText": "操作系统 MIUI Pad 14（基于 Android 13）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1448/1447719/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:15:19.737Z",
+          "sourceSnapshotHash": "e0a8a6c9672912d84c44d5fdb03729967c5119f1d0a3f07d59f9064e74af9452"
+        },
+        "dimensions": {
+          "value": "253.95×165.18×6.51mm",
+          "rawText": "产品尺寸 253.95×165.18×6.51mm",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1448/1447719/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:15:19.737Z",
+          "sourceSnapshotHash": "e0a8a6c9672912d84c44d5fdb03729967c5119f1d0a3f07d59f9064e74af9452"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "xiaomi-pad-7-2024",
+      "brand": "Xiaomi",
+      "market": "CN",
+      "category": "tablet",
+      "series": "Xiaomi Pad",
+      "family": "Xiaomi Pad",
+      "variant": "standard",
+      "modelName": "小米平板 7",
+      "generation": "Pad 7",
+      "generationOrder": 2,
+      "releaseYear": 2024,
+      "releaseDate": "2024-10-29",
+      "comparisonGroupId": "xiaomi.tablet.pad.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "8GB + 128GB",
+            "rawText": "8GB + 128GB 售价 1999 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/806/236.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:14:23.753Z",
+            "sourceSnapshotHash": "a25cbb48463f50167a60fb95b42443547265d5a319a35d3f45728a403cb60a14"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "8GB + 256GB 售价 2299 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/806/236.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:14:23.753Z",
+            "sourceSnapshotHash": "a25cbb48463f50167a60fb95b42443547265d5a319a35d3f45728a403cb60a14"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "12GB + 256GB 售价 2599 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/806/236.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:14:23.753Z",
+            "sourceSnapshotHash": "a25cbb48463f50167a60fb95b42443547265d5a319a35d3f45728a403cb60a14"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "第三代骁龙 7+",
+          "rawText": "小米平板 7 搭载第三代骁龙 7+",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/806/236.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:23.753Z",
+          "sourceSnapshotHash": "a25cbb48463f50167a60fb95b42443547265d5a319a35d3f45728a403cb60a14"
+        },
+        "memory": {
+          "value": "8GB / 12GB",
+          "rawText": "8GB + 128GB 售价 1999 元 8GB + 256GB 售价 2299 元 12GB + 256GB 售价 2599 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/806/236.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:23.753Z",
+          "sourceSnapshotHash": "a25cbb48463f50167a60fb95b42443547265d5a319a35d3f45728a403cb60a14"
+        },
+        "storage": {
+          "value": "128GB / 256GB",
+          "rawText": "8GB + 128GB 售价 1999 元 8GB + 256GB 售价 2299 元 12GB + 256GB 售价 2599 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/806/236.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:23.753Z",
+          "sourceSnapshotHash": "a25cbb48463f50167a60fb95b42443547265d5a319a35d3f45728a403cb60a14"
+        },
+        "screenSize": {
+          "value": 11.2,
+          "unit": "inch",
+          "rawText": "11.2 英寸 3.2K 分辨率",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/806/236.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:23.753Z",
+          "sourceSnapshotHash": "a25cbb48463f50167a60fb95b42443547265d5a319a35d3f45728a403cb60a14"
+        },
+        "displayType": {
+          "value": "LCD",
+          "rawText": "LCD",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/34645/param_10907284_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:15:19.563Z",
+          "sourceSnapshotHash": "018dc783c5c6af443f1b80f7e1f5eebec138fc58d9a2729935f1bb753293d8cf"
+        },
+        "resolution": {
+          "value": "3200x2136",
+          "rawText": "屏幕分辨率 3200*2136",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/34645/param_10907284_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:15:19.563Z",
+          "sourceSnapshotHash": "018dc783c5c6af443f1b80f7e1f5eebec138fc58d9a2729935f1bb753293d8cf"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "支持 144Hz 高刷",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/806/236.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:23.753Z",
+          "sourceSnapshotHash": "a25cbb48463f50167a60fb95b42443547265d5a319a35d3f45728a403cb60a14"
+        },
+        "batteryCapacity": {
+          "value": 8850,
+          "unit": "mAh",
+          "rawText": "8850mAh 电池",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/806/236.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:23.753Z",
+          "sourceSnapshotHash": "a25cbb48463f50167a60fb95b42443547265d5a319a35d3f45728a403cb60a14"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "数据接口 Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/34645/param_10907284_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:15:19.563Z",
+          "sourceSnapshotHash": "018dc783c5c6af443f1b80f7e1f5eebec138fc58d9a2729935f1bb753293d8cf"
+        },
+        "launchPrice": {
+          "value": 1999,
+          "unit": "CNY",
+          "rawText": "8GB + 128GB 售价 1999 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/806/236.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:23.753Z",
+          "sourceSnapshotHash": "a25cbb48463f50167a60fb95b42443547265d5a319a35d3f45728a403cb60a14",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "8GB 运行内存 + 128GB 存储，国行",
+          "condition": "中国大陆首发定价"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "xiaomi-pad-8-2025",
+      "brand": "Xiaomi",
+      "market": "CN",
+      "category": "tablet",
+      "series": "Xiaomi Pad",
+      "family": "Xiaomi Pad",
+      "variant": "standard",
+      "modelName": "小米平板 8",
+      "generation": "Pad 8",
+      "generationOrder": 3,
+      "releaseYear": 2025,
+      "releaseDate": "2025-09-25",
+      "comparisonGroupId": "xiaomi.tablet.pad.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "8GB + 128GB",
+            "rawText": "8GB RAM + 128GB 存储：2199 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:33:46.343Z",
+            "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "8GB RAM + 256GB 存储：2499 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:33:46.343Z",
+            "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "12GB RAM + 256GB 存储：2799 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:33:46.343Z",
+            "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "第四代骁龙 8s",
+          "rawText": "小米平板 8 搭载第四代高通骁龙 8s 移动平台",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:33:46.343Z",
+          "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+        },
+        "memory": {
+          "value": "8GB / 12GB",
+          "rawText": "小米平板 8：2199 元起 8GB RAM + 128GB 存储：2199 元 8GB RAM + 256GB 存储：2499 元 8GB RAM + 256GB 存储（柔光版）：2699 元 12GB RAM + 256GB 存储：2799 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:33:46.343Z",
+          "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+        },
+        "storage": {
+          "value": "128GB / 256GB",
+          "rawText": "小米平板 8：2199 元起 8GB RAM + 128GB 存储：2199 元 8GB RAM + 256GB 存储：2499 元 8GB RAM + 256GB 存储（柔光版）：2699 元 12GB RAM + 256GB 存储：2799 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:33:46.343Z",
+          "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+        },
+        "screenSize": {
+          "value": 11.2,
+          "unit": "inch",
+          "rawText": "11.2 英寸 3200x2136 分辨率 144Hz IPS LCD 屏幕",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:33:46.343Z",
+          "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+        },
+        "displayType": {
+          "value": "IPS LCD",
+          "rawText": "IPS LCD 屏幕",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:33:46.343Z",
+          "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+        },
+        "resolution": {
+          "value": "3200x2136",
+          "rawText": "3200x2136 分辨率",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:33:46.343Z",
+          "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "144Hz IPS LCD 屏幕",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:33:46.343Z",
+          "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+        },
+        "batteryCapacity": {
+          "value": 9200,
+          "unit": "mAh",
+          "rawText": "两款机型均搭载 9200 毫安时电池",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:33:46.343Z",
+          "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "机身底部匹配 USB-C 接口",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:33:46.343Z",
+          "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+        },
+        "launchPrice": {
+          "value": 2199,
+          "unit": "CNY",
+          "rawText": "8GB RAM + 128GB 存储：2199 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:33:46.343Z",
+          "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "8GB 运行内存 + 128GB 存储，国行标准屏版",
+          "condition": "中国大陆发布定价；柔光版另有价格，不混入"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "xiaomi-pad-6-pro-2023",
+      "brand": "Xiaomi",
+      "market": "CN",
+      "category": "tablet",
+      "series": "Xiaomi Pad Pro",
+      "family": "Xiaomi Pad Pro",
+      "variant": "standard",
+      "modelName": "小米平板 6 Pro",
+      "generation": "Pad 6 Pro",
+      "generationOrder": 1,
+      "releaseYear": 2023,
+      "releaseDate": "2023-04-18",
+      "comparisonGroupId": "xiaomi.tablet.pad-pro.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "8GB + 128GB",
+            "rawText": "8GB+128GB 售价 2399 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/687/329.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:14:29.322Z",
+            "sourceSnapshotHash": "792611390c5e9b785aacd2b58c2e14a8b78fa86006a960a06ef49a59c334ed7c"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "8GB+256GB 售价 2699 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/687/329.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:14:29.322Z",
+            "sourceSnapshotHash": "792611390c5e9b785aacd2b58c2e14a8b78fa86006a960a06ef49a59c334ed7c"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "12GB+256GB 售价 2999 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/687/329.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:14:29.322Z",
+            "sourceSnapshotHash": "792611390c5e9b785aacd2b58c2e14a8b78fa86006a960a06ef49a59c334ed7c"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "12GB+512GB 售价 3299 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/687/329.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:14:29.322Z",
+            "sourceSnapshotHash": "792611390c5e9b785aacd2b58c2e14a8b78fa86006a960a06ef49a59c334ed7c"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "骁龙 8+ Gen 1",
+          "rawText": "小米平板 6 Pro 搭载骁龙 8+ Gen 1 芯片",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/687/329.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:29.322Z",
+          "sourceSnapshotHash": "792611390c5e9b785aacd2b58c2e14a8b78fa86006a960a06ef49a59c334ed7c"
+        },
+        "memory": {
+          "value": "8GB / 12GB",
+          "rawText": "小米平板 6 Pro 首销价： 8GB+128GB 售价 2399 元， 8GB+256GB 售价 2699 元， 12GB+256GB 售价 2999 元， 12GB+512GB 售价 3299 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/687/329.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:29.322Z",
+          "sourceSnapshotHash": "792611390c5e9b785aacd2b58c2e14a8b78fa86006a960a06ef49a59c334ed7c"
+        },
+        "storage": {
+          "value": "128GB / 256GB / 512GB",
+          "rawText": "小米平板 6 Pro 首销价： 8GB+128GB 售价 2399 元， 8GB+256GB 售价 2699 元， 12GB+256GB 售价 2999 元， 12GB+512GB 售价 3299 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/687/329.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:29.322Z",
+          "sourceSnapshotHash": "792611390c5e9b785aacd2b58c2e14a8b78fa86006a960a06ef49a59c334ed7c"
+        },
+        "screenSize": {
+          "value": 11,
+          "unit": "inch",
+          "rawText": "小米平板 6 系列搭载 11 英寸的 2.8K 护眼屏",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/687/329.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:29.322Z",
+          "sourceSnapshotHash": "792611390c5e9b785aacd2b58c2e14a8b78fa86006a960a06ef49a59c334ed7c"
+        },
+        "displayType": {
+          "value": "LCD",
+          "rawText": "屏幕类型 LCD",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/34645/param_10725213_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:22:30.378Z",
+          "sourceSnapshotHash": "f8f8740a836706a4e1060863e9cf7a12337bb13be0b980924fe8e08243d41d47"
+        },
+        "resolution": {
+          "value": "2880x1800",
+          "rawText": "屏幕分辨率 2880x1800",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/34645/param_10725213_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:22:30.378Z",
+          "sourceSnapshotHash": "f8f8740a836706a4e1060863e9cf7a12337bb13be0b980924fe8e08243d41d47"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "数据接口 USB Type-c",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/34645/param_10725213_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:22:30.378Z",
+          "sourceSnapshotHash": "f8f8740a836706a4e1060863e9cf7a12337bb13be0b980924fe8e08243d41d47"
+        },
+        "launchPrice": {
+          "value": 2399,
+          "unit": "CNY",
+          "rawText": "8GB+128GB 售价 2399 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/687/329.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:29.322Z",
+          "sourceSnapshotHash": "792611390c5e9b785aacd2b58c2e14a8b78fa86006a960a06ef49a59c334ed7c",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "8GB 运行内存 + 128GB 存储，国行标准屏版",
+          "condition": "中国大陆首销价；非长期售价"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "xiaomi-pad-7-pro-2024",
+      "brand": "Xiaomi",
+      "market": "CN",
+      "category": "tablet",
+      "series": "Xiaomi Pad Pro",
+      "family": "Xiaomi Pad Pro",
+      "variant": "standard",
+      "modelName": "小米平板 7 Pro",
+      "generation": "Pad 7 Pro",
+      "generationOrder": 2,
+      "releaseYear": 2024,
+      "releaseDate": "2024-10-29",
+      "comparisonGroupId": "xiaomi.tablet.pad-pro.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "8GB + 128GB",
+            "rawText": "8GB + 128GB 售价 2499 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/806/236.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:14:23.753Z",
+            "sourceSnapshotHash": "a25cbb48463f50167a60fb95b42443547265d5a319a35d3f45728a403cb60a14"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "8GB + 256GB 售价 2799 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/806/236.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:14:23.753Z",
+            "sourceSnapshotHash": "a25cbb48463f50167a60fb95b42443547265d5a319a35d3f45728a403cb60a14"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "12GB + 256GB 售价 3099 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/806/236.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:14:23.753Z",
+            "sourceSnapshotHash": "a25cbb48463f50167a60fb95b42443547265d5a319a35d3f45728a403cb60a14"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "12GB + 512GB 售价 3499 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/806/236.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:14:23.753Z",
+            "sourceSnapshotHash": "a25cbb48463f50167a60fb95b42443547265d5a319a35d3f45728a403cb60a14"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "第三代骁龙 8s",
+          "rawText": "小米平板 7 Pro 搭载第三代骁龙 8s",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/806/236.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:23.753Z",
+          "sourceSnapshotHash": "a25cbb48463f50167a60fb95b42443547265d5a319a35d3f45728a403cb60a14"
+        },
+        "memory": {
+          "value": "8GB / 12GB",
+          "rawText": "小米平板 7 Pro 8GB + 128GB 售价 2499 元 8GB + 256GB 售价 2799 元 12GB + 256GB 售价 3099 元 12GB + 512GB 售价 3499 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/806/236.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:23.753Z",
+          "sourceSnapshotHash": "a25cbb48463f50167a60fb95b42443547265d5a319a35d3f45728a403cb60a14"
+        },
+        "storage": {
+          "value": "128GB / 256GB / 512GB",
+          "rawText": "小米平板 7 Pro 8GB + 128GB 售价 2499 元 8GB + 256GB 售价 2799 元 12GB + 256GB 售价 3099 元 12GB + 512GB 售价 3499 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/806/236.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:23.753Z",
+          "sourceSnapshotHash": "a25cbb48463f50167a60fb95b42443547265d5a319a35d3f45728a403cb60a14"
+        },
+        "screenSize": {
+          "value": 11.2,
+          "unit": "inch",
+          "rawText": "11.2 英寸 3.2K 分辨率",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/806/236.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:23.753Z",
+          "sourceSnapshotHash": "a25cbb48463f50167a60fb95b42443547265d5a319a35d3f45728a403cb60a14"
+        },
+        "displayType": {
+          "value": "LCD",
+          "rawText": "屏幕类型 LCD",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/34645/param_10907264_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:22:30.564Z",
+          "sourceSnapshotHash": "1412a3d59d9315f9b8870cc6149dc8a65fba7fcf1150688e32552b0c52daa514"
+        },
+        "resolution": {
+          "value": "3200x2136",
+          "rawText": "屏幕分辨率 3200×2136",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/34645/param_10907264_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:22:30.564Z",
+          "sourceSnapshotHash": "1412a3d59d9315f9b8870cc6149dc8a65fba7fcf1150688e32552b0c52daa514"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "支持 144Hz 高刷",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/806/236.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:23.753Z",
+          "sourceSnapshotHash": "a25cbb48463f50167a60fb95b42443547265d5a319a35d3f45728a403cb60a14"
+        },
+        "batteryCapacity": {
+          "value": 8850,
+          "unit": "mAh",
+          "rawText": "8850mAh 电池",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/806/236.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:23.753Z",
+          "sourceSnapshotHash": "a25cbb48463f50167a60fb95b42443547265d5a319a35d3f45728a403cb60a14"
+        },
+        "port": {
+          "value": "USB Type-C（USB 3.2 Gen 1）",
+          "rawText": "数据接口 USB3.2 Gen1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/34645/param_10907264_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:22:30.564Z",
+          "sourceSnapshotHash": "1412a3d59d9315f9b8870cc6149dc8a65fba7fcf1150688e32552b0c52daa514"
+        },
+        "launchPrice": {
+          "value": 2499,
+          "unit": "CNY",
+          "rawText": "8GB + 128GB 售价 2499 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/806/236.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:23.753Z",
+          "sourceSnapshotHash": "a25cbb48463f50167a60fb95b42443547265d5a319a35d3f45728a403cb60a14",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "8GB 运行内存 + 128GB 存储，国行标准屏版",
+          "condition": "中国大陆首发定价"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "xiaomi-pad-8-pro-2025",
+      "brand": "Xiaomi",
+      "market": "CN",
+      "category": "tablet",
+      "series": "Xiaomi Pad Pro",
+      "family": "Xiaomi Pad Pro",
+      "variant": "standard",
+      "modelName": "小米平板 8 Pro",
+      "generation": "Pad 8 Pro",
+      "generationOrder": 3,
+      "releaseYear": 2025,
+      "releaseDate": "2025-09-25",
+      "comparisonGroupId": "xiaomi.tablet.pad-pro.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "8GB + 128GB",
+            "rawText": "8GB RAM + 128GB 存储：2799 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:33:46.343Z",
+            "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "8GB RAM + 256GB 存储：3099 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:33:46.343Z",
+            "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "12GB RAM + 256GB 存储：3399 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:33:46.343Z",
+            "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "12GB RAM + 512GB 存储：3699 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:33:46.343Z",
+            "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "16GB RAM + 512GB 存储：3899 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:33:46.343Z",
+            "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "骁龙 8 至尊版",
+          "rawText": "小米平板 8 Pro 搭载高通骁龙 8 至尊版移动平台",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:33:46.343Z",
+          "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+        },
+        "memory": {
+          "value": "8GB / 12GB / 16GB",
+          "rawText": "小米平板 8 Pro：2799 元起 8GB RAM + 128GB 存储：2799 元 8GB RAM + 256GB 存储：3099 元 12GB RAM + 256GB 存储：3399 元 12GB RAM + 256GB 存储（柔光版）：3599 元 12GB RAM + 512GB 存储：3699 元 12GB RAM + 512GB 存储（柔光版）：3899 元 16GB RAM + 512GB 存储：3899 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:33:46.343Z",
+          "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+        },
+        "storage": {
+          "value": "128GB / 256GB / 512GB",
+          "rawText": "小米平板 8 Pro：2799 元起 8GB RAM + 128GB 存储：2799 元 8GB RAM + 256GB 存储：3099 元 12GB RAM + 256GB 存储：3399 元 12GB RAM + 256GB 存储（柔光版）：3599 元 12GB RAM + 512GB 存储：3699 元 12GB RAM + 512GB 存储（柔光版）：3899 元 16GB RAM + 512GB 存储：3899 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:33:46.343Z",
+          "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+        },
+        "screenSize": {
+          "value": 11.2,
+          "unit": "inch",
+          "rawText": "11.2 英寸 3200x2136 分辨率 144Hz IPS LCD 屏幕",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:33:46.343Z",
+          "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+        },
+        "displayType": {
+          "value": "IPS LCD",
+          "rawText": "IPS LCD 屏幕",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:33:46.343Z",
+          "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+        },
+        "resolution": {
+          "value": "3200x2136",
+          "rawText": "3200x2136 分辨率",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:33:46.343Z",
+          "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "144Hz IPS LCD 屏幕",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:33:46.343Z",
+          "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+        },
+        "batteryCapacity": {
+          "value": 9200,
+          "unit": "mAh",
+          "rawText": "两款机型均搭载 9200 毫安时电池",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:33:46.343Z",
+          "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "机身底部匹配 USB-C 接口",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:33:46.343Z",
+          "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309"
+        },
+        "launchPrice": {
+          "value": 2799,
+          "unit": "CNY",
+          "rawText": "8GB RAM + 128GB 存储：2799 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:33:46.343Z",
+          "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "8GB 运行内存 + 128GB 存储，国行标准屏版",
+          "condition": "中国大陆发布定价；柔光版另有价格，不混入"
+        }
+      },
+      "computed": {}
+    }
+  ]
+}

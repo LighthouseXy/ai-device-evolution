@@ -1,10 +1,2561 @@
 {
   "metadata": {
     "version": "1.0",
-    "totalDevices": 3,
-    "generatedAt": "2026-09-07"
+    "totalDevices": 11,
+    "generatedAt": "2026-10-01"
   },
   "devices": [
+    {
+      "id": "vivo-x200-2024",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "phone",
+      "series": "vivo X",
+      "family": "vivo X",
+      "variant": "standard",
+      "modelName": "vivo X200",
+      "generation": "X200",
+      "generationOrder": 1,
+      "releaseYear": 2024,
+      "releaseDate": "2024-10-19",
+      "comparisonGroupId": "vivo.phone.x.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "建议零售价 全网通（V2415A）： vivo X200（12GB+256GB）：4299.00元 vivo X200（12GB+512GB）：4699.00元 vivo X200（16GB+512GB）：4999.00元 vivo X200（16GB+1TB）：5499.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:44.144Z",
+            "sourceSnapshotHash": "f8d4432943875ec6ffe0700899a8770e3e2ea758613264b71b16d1ac82fcd87c"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "建议零售价 全网通（V2415A）： vivo X200（12GB+256GB）：4299.00元 vivo X200（12GB+512GB）：4699.00元 vivo X200（16GB+512GB）：4999.00元 vivo X200（16GB+1TB）：5499.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:44.144Z",
+            "sourceSnapshotHash": "f8d4432943875ec6ffe0700899a8770e3e2ea758613264b71b16d1ac82fcd87c"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "建议零售价 全网通（V2415A）： vivo X200（12GB+256GB）：4299.00元 vivo X200（12GB+512GB）：4699.00元 vivo X200（16GB+512GB）：4999.00元 vivo X200（16GB+1TB）：5499.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:44.144Z",
+            "sourceSnapshotHash": "f8d4432943875ec6ffe0700899a8770e3e2ea758613264b71b16d1ac82fcd87c"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "建议零售价 全网通（V2415A）： vivo X200（12GB+256GB）：4299.00元 vivo X200（12GB+512GB）：4699.00元 vivo X200（16GB+512GB）：4999.00元 vivo X200（16GB+1TB）：5499.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:44.144Z",
+            "sourceSnapshotHash": "f8d4432943875ec6ffe0700899a8770e3e2ea758613264b71b16d1ac82fcd87c"
+          }
+        }
+      ],
+      "benchmarks": [],
+      "specs": {
+        "chip": {
+          "value": "天玑 9400",
+          "rawText": "CPU型号 天玑 9400",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.144Z",
+          "sourceSnapshotHash": "f8d4432943875ec6ffe0700899a8770e3e2ea758613264b71b16d1ac82fcd87c"
+        },
+        "screenSize": {
+          "value": 6.67,
+          "unit": "inch",
+          "rawText": "尺寸（英寸） 6.67英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.144Z",
+          "sourceSnapshotHash": "f8d4432943875ec6ffe0700899a8770e3e2ea758613264b71b16d1ac82fcd87c"
+        },
+        "displayType": {
+          "value": "AMOLED",
+          "rawText": "屏幕材质 AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.144Z",
+          "sourceSnapshotHash": "f8d4432943875ec6ffe0700899a8770e3e2ea758613264b71b16d1ac82fcd87c"
+        },
+        "resolution": {
+          "value": "2800x1260",
+          "rawText": "分辨率 2800 × 1260",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.144Z",
+          "sourceSnapshotHash": "f8d4432943875ec6ffe0700899a8770e3e2ea758613264b71b16d1ac82fcd87c"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "刷新率 120Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.144Z",
+          "sourceSnapshotHash": "f8d4432943875ec6ffe0700899a8770e3e2ea758613264b71b16d1ac82fcd87c"
+        },
+        "weight": {
+          "value": 202,
+          "unit": "g",
+          "rawText": "重量 宝石蓝、钛色、白月光：202g 辰夜黑：197g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.144Z",
+          "sourceSnapshotHash": "f8d4432943875ec6ffe0700899a8770e3e2ea758613264b71b16d1ac82fcd87c",
+          "note": "重量 宝石蓝、钛色、白月光：202g 辰夜黑：197g"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存（RAM） 12GB/16GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.144Z",
+          "sourceSnapshotHash": "f8d4432943875ec6ffe0700899a8770e3e2ea758613264b71b16d1ac82fcd87c"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "机身存储（ROM） 256GB/512GB/1TB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.144Z",
+          "sourceSnapshotHash": "f8d4432943875ec6ffe0700899a8770e3e2ea758613264b71b16d1ac82fcd87c"
+        },
+        "rearCamera": {
+          "value": "5000万像素超感光VCS仿生主摄 5000万像素蔡司超级长焦 5000万像素超视野超广角",
+          "rawText": "后置摄像头像素 5000万像素超感光VCS仿生主摄 5000万像素蔡司超级长焦 5000万像素超视野超广角",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.144Z",
+          "sourceSnapshotHash": "f8d4432943875ec6ffe0700899a8770e3e2ea758613264b71b16d1ac82fcd87c"
+        },
+        "mainCamera": {
+          "value": "50MP（5000万像素超感光VCS仿生主摄）",
+          "rawText": "后置摄像头像素 5000万像素超感光VCS仿生主摄",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.144Z",
+          "sourceSnapshotHash": "f8d4432943875ec6ffe0700899a8770e3e2ea758613264b71b16d1ac82fcd87c"
+        },
+        "telephoto": {
+          "value": "5000万像素蔡司超级长焦",
+          "rawText": "后置摄像头像素 5000万像素超感光VCS仿生主摄 5000万像素蔡司超级长焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.144Z",
+          "sourceSnapshotHash": "f8d4432943875ec6ffe0700899a8770e3e2ea758613264b71b16d1ac82fcd87c"
+        },
+        "frontCamera": {
+          "value": "3200万像素",
+          "rawText": "前置摄像头像素 3200万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.144Z",
+          "sourceSnapshotHash": "f8d4432943875ec6ffe0700899a8770e3e2ea758613264b71b16d1ac82fcd87c"
+        },
+        "batteryCapacity": {
+          "value": 5800,
+          "unit": "mAh",
+          "rawText": "典型容量：5800mAh",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.144Z",
+          "sourceSnapshotHash": "f8d4432943875ec6ffe0700899a8770e3e2ea758613264b71b16d1ac82fcd87c"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "USB接口类型 Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.144Z",
+          "sourceSnapshotHash": "f8d4432943875ec6ffe0700899a8770e3e2ea758613264b71b16d1ac82fcd87c"
+        },
+        "launchPrice": {
+          "value": 4299,
+          "unit": "CNY",
+          "rawText": "vivo X200有12GB+256GB、12GB+512GB、16GB+512GB、16GB+1TB版本，售价分别为4299元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/brand/news/detail?id=1273",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:45:42.000Z",
+          "sourceSnapshotHash": "8fbcb493ceff34ea942c7b26e4511e22199934c1ddbef269f7ea72b58b97fc82",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，国行基础版本",
+          "condition": "发布会公布的基础版本首发建议零售价，不采用后来修改的参数页价格"
+        },
+        "memoryType": {
+          "value": "LPDDR5X 四通道",
+          "rawText": "RAM类型 LPDDR5X 四通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.144Z",
+          "sourceSnapshotHash": "f8d4432943875ec6ffe0700899a8770e3e2ea758613264b71b16d1ac82fcd87c"
+        },
+        "storageType": {
+          "value": "UFS4.0",
+          "rawText": "ROM类型 UFS4.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.144Z",
+          "sourceSnapshotHash": "f8d4432943875ec6ffe0700899a8770e3e2ea758613264b71b16d1ac82fcd87c"
+        },
+        "chargingMethod": {
+          "value": "90W闪充",
+          "rawText": "充电规格 90W闪充",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.144Z",
+          "sourceSnapshotHash": "f8d4432943875ec6ffe0700899a8770e3e2ea758613264b71b16d1ac82fcd87c"
+        },
+        "security": {
+          "value": "屏下光学指纹 面部识别 支持",
+          "rawText": "指纹识别 屏下光学指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.144Z",
+          "sourceSnapshotHash": "f8d4432943875ec6ffe0700899a8770e3e2ea758613264b71b16d1ac82fcd87c"
+        },
+        "wifi": {
+          "value": "支持频段WLAN 2.4G、WLAN 5.1G、WLAN 5.8G;支持功能包括Wi-Fi Display、2*2 MIMO、MU-MIMO、Wi-Fi 6、Wi-Fi 7、2.4G&5G双路并发",
+          "rawText": "数据连接 WLAN 支持频段WLAN 2.4G、WLAN 5.1G、WLAN 5.8G;支持功能包括Wi-Fi Display、2*2 MIMO、MU-MIMO、Wi-Fi 6、Wi-Fi 7、2.4G&5G双路并发",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.144Z",
+          "sourceSnapshotHash": "f8d4432943875ec6ffe0700899a8770e3e2ea758613264b71b16d1ac82fcd87c"
+        },
+        "bluetooth": {
+          "value": "支持蓝牙5.4",
+          "rawText": "蓝牙传输 支持蓝牙5.4",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.144Z",
+          "sourceSnapshotHash": "f8d4432943875ec6ffe0700899a8770e3e2ea758613264b71b16d1ac82fcd87c"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "vivo-x200-pro-2024",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "phone",
+      "series": "vivo X Pro",
+      "family": "vivo X Pro",
+      "variant": "standard",
+      "modelName": "vivo X200 Pro",
+      "generation": "X200 Pro",
+      "generationOrder": 1,
+      "releaseYear": 2024,
+      "releaseDate": "2024-10-19",
+      "comparisonGroupId": "vivo.phone.x-pro.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "建议零售价 全网通（V2405A、V2405DA）： vivo X200 Pro（12GB+256GB）：5299.00元 vivo X200 Pro（16GB+512GB）：5999.00元 vivo X200 Pro（16GB+1TB）：6499.00元 vivo X200 Pro 卫星通信版（16GB+1TB）：6799.00元（宝石蓝、钛色、白月光）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:44.300Z",
+            "sourceSnapshotHash": "95cc0bd87267e7d20a54763dfb5a9305ffb2c46b7cfed9e3cb66c1fca22fddd4"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "建议零售价 全网通（V2405A、V2405DA）： vivo X200 Pro（12GB+256GB）：5299.00元 vivo X200 Pro（16GB+512GB）：5999.00元 vivo X200 Pro（16GB+1TB）：6499.00元 vivo X200 Pro 卫星通信版（16GB+1TB）：6799.00元（宝石蓝、钛色、白月光）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:44.300Z",
+            "sourceSnapshotHash": "95cc0bd87267e7d20a54763dfb5a9305ffb2c46b7cfed9e3cb66c1fca22fddd4"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "建议零售价 全网通（V2405A、V2405DA）： vivo X200 Pro（12GB+256GB）：5299.00元 vivo X200 Pro（16GB+512GB）：5999.00元 vivo X200 Pro（16GB+1TB）：6499.00元 vivo X200 Pro 卫星通信版（16GB+1TB）：6799.00元（宝石蓝、钛色、白月光）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:44.300Z",
+            "sourceSnapshotHash": "95cc0bd87267e7d20a54763dfb5a9305ffb2c46b7cfed9e3cb66c1fca22fddd4"
+          }
+        }
+      ],
+      "benchmarks": [],
+      "specs": {
+        "chip": {
+          "value": "天玑 9400",
+          "rawText": "CPU型号 天玑 9400",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.300Z",
+          "sourceSnapshotHash": "95cc0bd87267e7d20a54763dfb5a9305ffb2c46b7cfed9e3cb66c1fca22fddd4"
+        },
+        "screenSize": {
+          "value": 6.78,
+          "unit": "inch",
+          "rawText": "尺寸（英寸） 6.78英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.300Z",
+          "sourceSnapshotHash": "95cc0bd87267e7d20a54763dfb5a9305ffb2c46b7cfed9e3cb66c1fca22fddd4"
+        },
+        "displayType": {
+          "value": "AMOLED",
+          "rawText": "屏幕材质 AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.300Z",
+          "sourceSnapshotHash": "95cc0bd87267e7d20a54763dfb5a9305ffb2c46b7cfed9e3cb66c1fca22fddd4"
+        },
+        "resolution": {
+          "value": "2800x1260",
+          "rawText": "分辨率 2800 × 1260",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.300Z",
+          "sourceSnapshotHash": "95cc0bd87267e7d20a54763dfb5a9305ffb2c46b7cfed9e3cb66c1fca22fddd4"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "刷新率 0.1~120Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.300Z",
+          "sourceSnapshotHash": "95cc0bd87267e7d20a54763dfb5a9305ffb2c46b7cfed9e3cb66c1fca22fddd4"
+        },
+        "weight": {
+          "value": 228,
+          "unit": "g",
+          "rawText": "重量 宝石蓝、钛色、白月光：228g 辰夜黑：223g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.300Z",
+          "sourceSnapshotHash": "95cc0bd87267e7d20a54763dfb5a9305ffb2c46b7cfed9e3cb66c1fca22fddd4",
+          "note": "重量 宝石蓝、钛色、白月光：228g 辰夜黑：223g"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存（RAM） 12GB/16GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.300Z",
+          "sourceSnapshotHash": "95cc0bd87267e7d20a54763dfb5a9305ffb2c46b7cfed9e3cb66c1fca22fddd4"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "机身存储（ROM） 256GB/512GB/1TB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.300Z",
+          "sourceSnapshotHash": "95cc0bd87267e7d20a54763dfb5a9305ffb2c46b7cfed9e3cb66c1fca22fddd4"
+        },
+        "rearCamera": {
+          "value": "5000万像素蔡司大底T*主摄 2亿像素蔡司APO超级长焦 5000万像素超视野超广角",
+          "rawText": "后置摄像头像素 5000万像素蔡司大底T*主摄 2亿像素蔡司APO超级长焦 5000万像素超视野超广角",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.300Z",
+          "sourceSnapshotHash": "95cc0bd87267e7d20a54763dfb5a9305ffb2c46b7cfed9e3cb66c1fca22fddd4"
+        },
+        "mainCamera": {
+          "value": "50MP（5000万像素蔡司大底T*主摄）",
+          "rawText": "后置摄像头像素 5000万像素蔡司大底T*主摄",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.300Z",
+          "sourceSnapshotHash": "95cc0bd87267e7d20a54763dfb5a9305ffb2c46b7cfed9e3cb66c1fca22fddd4"
+        },
+        "telephoto": {
+          "value": "2亿像素蔡司APO超级长焦",
+          "rawText": "后置摄像头像素 5000万像素蔡司大底T*主摄 2亿像素蔡司APO超级长焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.300Z",
+          "sourceSnapshotHash": "95cc0bd87267e7d20a54763dfb5a9305ffb2c46b7cfed9e3cb66c1fca22fddd4"
+        },
+        "frontCamera": {
+          "value": "3200万像素",
+          "rawText": "前置摄像头像素 3200万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.300Z",
+          "sourceSnapshotHash": "95cc0bd87267e7d20a54763dfb5a9305ffb2c46b7cfed9e3cb66c1fca22fddd4"
+        },
+        "batteryCapacity": {
+          "value": 6000,
+          "unit": "mAh",
+          "rawText": "典型容量：6000mAh",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.300Z",
+          "sourceSnapshotHash": "95cc0bd87267e7d20a54763dfb5a9305ffb2c46b7cfed9e3cb66c1fca22fddd4"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "USB接口类型 Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.300Z",
+          "sourceSnapshotHash": "95cc0bd87267e7d20a54763dfb5a9305ffb2c46b7cfed9e3cb66c1fca22fddd4"
+        },
+        "launchPrice": {
+          "value": 5299,
+          "unit": "CNY",
+          "rawText": "vivo X200 Pro有12GB+256GB、16GB+512GB、16GB+1TB、16GB+1TB（卫星通信版）版本，售价分别为5299元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/brand/news/detail?id=1273",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:45:42.000Z",
+          "sourceSnapshotHash": "8fbcb493ceff34ea942c7b26e4511e22199934c1ddbef269f7ea72b58b97fc82",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，国行基础版本",
+          "condition": "发布会公布的基础版本首发建议零售价，不采用后来修改的参数页价格"
+        },
+        "memoryType": {
+          "value": "LPDDR5X 四通道 LPDDR5X Ultra Pro 四通道（仅1TB 卫星通信版支持）",
+          "rawText": "RAM类型 LPDDR5X 四通道 LPDDR5X Ultra Pro 四通道（仅1TB 卫星通信版支持）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.300Z",
+          "sourceSnapshotHash": "95cc0bd87267e7d20a54763dfb5a9305ffb2c46b7cfed9e3cb66c1fca22fddd4"
+        },
+        "storageType": {
+          "value": "UFS4.0",
+          "rawText": "ROM类型 UFS4.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.300Z",
+          "sourceSnapshotHash": "95cc0bd87267e7d20a54763dfb5a9305ffb2c46b7cfed9e3cb66c1fca22fddd4"
+        },
+        "chargingMethod": {
+          "value": "90W有线闪充&30W无线闪充",
+          "rawText": "充电规格 90W有线闪充&30W无线闪充",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.300Z",
+          "sourceSnapshotHash": "95cc0bd87267e7d20a54763dfb5a9305ffb2c46b7cfed9e3cb66c1fca22fddd4"
+        },
+        "security": {
+          "value": "3D超声波单点指纹 面部识别 支持",
+          "rawText": "指纹识别 3D超声波单点指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.300Z",
+          "sourceSnapshotHash": "95cc0bd87267e7d20a54763dfb5a9305ffb2c46b7cfed9e3cb66c1fca22fddd4"
+        },
+        "wifi": {
+          "value": "支持频段WLAN 2.4G、WLAN 5.1G、WLAN 5.8G;支持功能包括Wi-Fi Display、2*2 MIMO、MU-MIMO、Wi-Fi 6、Wi-Fi 7、2.4G&5G双路并发",
+          "rawText": "数据连接 WLAN 支持频段WLAN 2.4G、WLAN 5.1G、WLAN 5.8G;支持功能包括Wi-Fi Display、2*2 MIMO、MU-MIMO、Wi-Fi 6、Wi-Fi 7、2.4G&5G双路并发",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.300Z",
+          "sourceSnapshotHash": "95cc0bd87267e7d20a54763dfb5a9305ffb2c46b7cfed9e3cb66c1fca22fddd4"
+        },
+        "bluetooth": {
+          "value": "支持蓝牙5.4",
+          "rawText": "蓝牙传输 支持蓝牙5.4",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.300Z",
+          "sourceSnapshotHash": "95cc0bd87267e7d20a54763dfb5a9305ffb2c46b7cfed9e3cb66c1fca22fddd4"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "vivo-x200-pro-mini-2024",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "phone",
+      "series": "vivo X Pro mini",
+      "family": "vivo X Pro mini",
+      "variant": "standard",
+      "modelName": "vivo X200 Pro mini",
+      "generation": "X200 Pro mini",
+      "generationOrder": 1,
+      "releaseYear": 2024,
+      "releaseDate": "2024-10-25",
+      "comparisonGroupId": "vivo.phone.x-pro-mini.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "建议零售价 全网通（V2419A）： vivo X200 Pro mini（12GB+256GB）：4699.00元 vivo X200 Pro mini（12GB+512GB）：4999.00元 vivo X200 Pro mini（16GB+512GB）：5299.00元 vivo X200 Pro mini（16GB+1TB）：5799.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200promini",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:44.452Z",
+            "sourceSnapshotHash": "096002a039d4ad08a91ff5900717ad34d3f0b68e578e37af777cfd23f78f622f"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "建议零售价 全网通（V2419A）： vivo X200 Pro mini（12GB+256GB）：4699.00元 vivo X200 Pro mini（12GB+512GB）：4999.00元 vivo X200 Pro mini（16GB+512GB）：5299.00元 vivo X200 Pro mini（16GB+1TB）：5799.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200promini",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:44.452Z",
+            "sourceSnapshotHash": "096002a039d4ad08a91ff5900717ad34d3f0b68e578e37af777cfd23f78f622f"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "建议零售价 全网通（V2419A）： vivo X200 Pro mini（12GB+256GB）：4699.00元 vivo X200 Pro mini（12GB+512GB）：4999.00元 vivo X200 Pro mini（16GB+512GB）：5299.00元 vivo X200 Pro mini（16GB+1TB）：5799.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200promini",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:44.452Z",
+            "sourceSnapshotHash": "096002a039d4ad08a91ff5900717ad34d3f0b68e578e37af777cfd23f78f622f"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "建议零售价 全网通（V2419A）： vivo X200 Pro mini（12GB+256GB）：4699.00元 vivo X200 Pro mini（12GB+512GB）：4999.00元 vivo X200 Pro mini（16GB+512GB）：5299.00元 vivo X200 Pro mini（16GB+1TB）：5799.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200promini",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:44.452Z",
+            "sourceSnapshotHash": "096002a039d4ad08a91ff5900717ad34d3f0b68e578e37af777cfd23f78f622f"
+          }
+        }
+      ],
+      "benchmarks": [],
+      "specs": {
+        "chip": {
+          "value": "天玑 9400",
+          "rawText": "CPU型号 天玑 9400",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200promini",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.452Z",
+          "sourceSnapshotHash": "096002a039d4ad08a91ff5900717ad34d3f0b68e578e37af777cfd23f78f622f"
+        },
+        "screenSize": {
+          "value": 6.31,
+          "unit": "inch",
+          "rawText": "尺寸（英寸） 6.31英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200promini",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.452Z",
+          "sourceSnapshotHash": "096002a039d4ad08a91ff5900717ad34d3f0b68e578e37af777cfd23f78f622f"
+        },
+        "displayType": {
+          "value": "AMOLED",
+          "rawText": "屏幕材质 AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200promini",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.452Z",
+          "sourceSnapshotHash": "096002a039d4ad08a91ff5900717ad34d3f0b68e578e37af777cfd23f78f622f"
+        },
+        "resolution": {
+          "value": "2640x1216",
+          "rawText": "分辨率 2640 × 1216",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200promini",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.452Z",
+          "sourceSnapshotHash": "096002a039d4ad08a91ff5900717ad34d3f0b68e578e37af777cfd23f78f622f"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "刷新率 1~120Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200promini",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.452Z",
+          "sourceSnapshotHash": "096002a039d4ad08a91ff5900717ad34d3f0b68e578e37af777cfd23f78f622f"
+        },
+        "weight": {
+          "value": 187,
+          "unit": "g",
+          "rawText": "重量 187g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200promini",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.452Z",
+          "sourceSnapshotHash": "096002a039d4ad08a91ff5900717ad34d3f0b68e578e37af777cfd23f78f622f",
+          "note": "重量 187g"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存（RAM） 12GB/16GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200promini",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.452Z",
+          "sourceSnapshotHash": "096002a039d4ad08a91ff5900717ad34d3f0b68e578e37af777cfd23f78f622f"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "机身存储（ROM） 256GB/512GB/1TB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200promini",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.452Z",
+          "sourceSnapshotHash": "096002a039d4ad08a91ff5900717ad34d3f0b68e578e37af777cfd23f78f622f"
+        },
+        "rearCamera": {
+          "value": "5000万像素蔡司大底T*主摄 5000万像素蔡司超级长焦 5000万像素超视野超广角",
+          "rawText": "后置摄像头像素 5000万像素蔡司大底T*主摄 5000万像素蔡司超级长焦 5000万像素超视野超广角",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200promini",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.452Z",
+          "sourceSnapshotHash": "096002a039d4ad08a91ff5900717ad34d3f0b68e578e37af777cfd23f78f622f"
+        },
+        "mainCamera": {
+          "value": "50MP（5000万像素蔡司大底T*主摄）",
+          "rawText": "后置摄像头像素 5000万像素蔡司大底T*主摄",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200promini",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.452Z",
+          "sourceSnapshotHash": "096002a039d4ad08a91ff5900717ad34d3f0b68e578e37af777cfd23f78f622f"
+        },
+        "telephoto": {
+          "value": "5000万像素蔡司超级长焦",
+          "rawText": "后置摄像头像素 5000万像素蔡司大底T*主摄 5000万像素蔡司超级长焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200promini",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.452Z",
+          "sourceSnapshotHash": "096002a039d4ad08a91ff5900717ad34d3f0b68e578e37af777cfd23f78f622f"
+        },
+        "frontCamera": {
+          "value": "3200万像素",
+          "rawText": "前置摄像头像素 3200万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200promini",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.452Z",
+          "sourceSnapshotHash": "096002a039d4ad08a91ff5900717ad34d3f0b68e578e37af777cfd23f78f622f"
+        },
+        "batteryCapacity": {
+          "value": 5700,
+          "unit": "mAh",
+          "rawText": "典型容量：5700mAh",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200promini",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.452Z",
+          "sourceSnapshotHash": "096002a039d4ad08a91ff5900717ad34d3f0b68e578e37af777cfd23f78f622f"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "USB接口类型 Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200promini",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.452Z",
+          "sourceSnapshotHash": "096002a039d4ad08a91ff5900717ad34d3f0b68e578e37af777cfd23f78f622f"
+        },
+        "launchPrice": {
+          "value": 4699,
+          "unit": "CNY",
+          "rawText": "vivo X200 Pro mini有12GB+256GB、16GB+512GB、16GB+1TB版本，售价分别为4699元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/brand/news/detail?id=1273",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:45:42.000Z",
+          "sourceSnapshotHash": "8fbcb493ceff34ea942c7b26e4511e22199934c1ddbef269f7ea72b58b97fc82",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，国行基础版本",
+          "condition": "发布会公布的基础版本首发建议零售价，不采用后来修改的参数页价格"
+        },
+        "memoryType": {
+          "value": "LPDDR5X 四通道",
+          "rawText": "RAM类型 LPDDR5X 四通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200promini",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.452Z",
+          "sourceSnapshotHash": "096002a039d4ad08a91ff5900717ad34d3f0b68e578e37af777cfd23f78f622f"
+        },
+        "storageType": {
+          "value": "UFS4.0",
+          "rawText": "ROM类型 UFS4.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200promini",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.452Z",
+          "sourceSnapshotHash": "096002a039d4ad08a91ff5900717ad34d3f0b68e578e37af777cfd23f78f622f"
+        },
+        "chargingMethod": {
+          "value": "90W有线闪充&30W无线闪充",
+          "rawText": "充电规格 90W有线闪充&30W无线闪充",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200promini",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.452Z",
+          "sourceSnapshotHash": "096002a039d4ad08a91ff5900717ad34d3f0b68e578e37af777cfd23f78f622f"
+        },
+        "security": {
+          "value": "屏下光学指纹 面部识别 支持",
+          "rawText": "指纹识别 屏下光学指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200promini",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.452Z",
+          "sourceSnapshotHash": "096002a039d4ad08a91ff5900717ad34d3f0b68e578e37af777cfd23f78f622f"
+        },
+        "wifi": {
+          "value": "支持频段WLAN 2.4G、WLAN 5.1G、WLAN 5.8G;支持功能包括Wi-Fi Display、2*2 MIMO、MU-MIMO、Wi-Fi 6、Wi-Fi 7、2.4G&5G双路并发",
+          "rawText": "数据连接 WLAN 支持频段WLAN 2.4G、WLAN 5.1G、WLAN 5.8G;支持功能包括Wi-Fi Display、2*2 MIMO、MU-MIMO、Wi-Fi 6、Wi-Fi 7、2.4G&5G双路并发",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200promini",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.452Z",
+          "sourceSnapshotHash": "096002a039d4ad08a91ff5900717ad34d3f0b68e578e37af777cfd23f78f622f"
+        },
+        "bluetooth": {
+          "value": "支持蓝牙5.4",
+          "rawText": "蓝牙传输 支持蓝牙5.4",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200promini",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.452Z",
+          "sourceSnapshotHash": "096002a039d4ad08a91ff5900717ad34d3f0b68e578e37af777cfd23f78f622f"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "vivo-x300-2025",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "phone",
+      "series": "vivo X",
+      "family": "vivo X",
+      "variant": "standard",
+      "modelName": "vivo X300",
+      "generation": "X300",
+      "generationOrder": 2,
+      "releaseYear": 2025,
+      "releaseDate": "2025-10-17",
+      "comparisonGroupId": "vivo.phone.x.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "建议零售价 全网通（V2509A）： vivo X300（12GB+256GB）：4599.00元 vivo X300（16GB+256GB）：4999.00元 vivo X300（12GB+512GB）：5299.00元 vivo X300（16GB+512GB）：5699.00元 vivo X300（16GB+1TB）：6299.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:44.663Z",
+            "sourceSnapshotHash": "ed4f65d8fe4fbaaf046e58f6433d5bb876409cafec6b622cbd4b452577d464fc"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "16GB + 256GB",
+            "rawText": "建议零售价 全网通（V2509A）： vivo X300（12GB+256GB）：4599.00元 vivo X300（16GB+256GB）：4999.00元 vivo X300（12GB+512GB）：5299.00元 vivo X300（16GB+512GB）：5699.00元 vivo X300（16GB+1TB）：6299.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:44.663Z",
+            "sourceSnapshotHash": "ed4f65d8fe4fbaaf046e58f6433d5bb876409cafec6b622cbd4b452577d464fc"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "建议零售价 全网通（V2509A）： vivo X300（12GB+256GB）：4599.00元 vivo X300（16GB+256GB）：4999.00元 vivo X300（12GB+512GB）：5299.00元 vivo X300（16GB+512GB）：5699.00元 vivo X300（16GB+1TB）：6299.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:44.663Z",
+            "sourceSnapshotHash": "ed4f65d8fe4fbaaf046e58f6433d5bb876409cafec6b622cbd4b452577d464fc"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "建议零售价 全网通（V2509A）： vivo X300（12GB+256GB）：4599.00元 vivo X300（16GB+256GB）：4999.00元 vivo X300（12GB+512GB）：5299.00元 vivo X300（16GB+512GB）：5699.00元 vivo X300（16GB+1TB）：6299.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:44.663Z",
+            "sourceSnapshotHash": "ed4f65d8fe4fbaaf046e58f6433d5bb876409cafec6b622cbd4b452577d464fc"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "建议零售价 全网通（V2509A）： vivo X300（12GB+256GB）：4599.00元 vivo X300（16GB+256GB）：4999.00元 vivo X300（12GB+512GB）：5299.00元 vivo X300（16GB+512GB）：5699.00元 vivo X300（16GB+1TB）：6299.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:44.663Z",
+            "sourceSnapshotHash": "ed4f65d8fe4fbaaf046e58f6433d5bb876409cafec6b622cbd4b452577d464fc"
+          }
+        }
+      ],
+      "benchmarks": [],
+      "specs": {
+        "chip": {
+          "value": "天玑 9500",
+          "rawText": "CPU型号 天玑 9500",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.663Z",
+          "sourceSnapshotHash": "ed4f65d8fe4fbaaf046e58f6433d5bb876409cafec6b622cbd4b452577d464fc"
+        },
+        "screenSize": {
+          "value": 6.31,
+          "unit": "inch",
+          "rawText": "尺寸（英寸） 6.31英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.663Z",
+          "sourceSnapshotHash": "ed4f65d8fe4fbaaf046e58f6433d5bb876409cafec6b622cbd4b452577d464fc"
+        },
+        "displayType": {
+          "value": "AMOLED",
+          "rawText": "屏幕材质 AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.663Z",
+          "sourceSnapshotHash": "ed4f65d8fe4fbaaf046e58f6433d5bb876409cafec6b622cbd4b452577d464fc"
+        },
+        "resolution": {
+          "value": "2640x1216",
+          "rawText": "分辨率 2640 x 1216",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.663Z",
+          "sourceSnapshotHash": "ed4f65d8fe4fbaaf046e58f6433d5bb876409cafec6b622cbd4b452577d464fc"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "刷新率 1-120Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.663Z",
+          "sourceSnapshotHash": "ed4f65d8fe4fbaaf046e58f6433d5bb876409cafec6b622cbd4b452577d464fc"
+        },
+        "weight": {
+          "value": 190,
+          "unit": "g",
+          "rawText": "重量 190g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.663Z",
+          "sourceSnapshotHash": "ed4f65d8fe4fbaaf046e58f6433d5bb876409cafec6b622cbd4b452577d464fc",
+          "note": "重量 190g"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存（RAM） 12GB/16GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.663Z",
+          "sourceSnapshotHash": "ed4f65d8fe4fbaaf046e58f6433d5bb876409cafec6b622cbd4b452577d464fc"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "机身存储（ROM） 256GB/512GB/1TB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.663Z",
+          "sourceSnapshotHash": "ed4f65d8fe4fbaaf046e58f6433d5bb876409cafec6b622cbd4b452577d464fc"
+        },
+        "rearCamera": {
+          "value": "2亿像素蔡司超级主摄 5000万像素蔡司APO超级长焦 5000万像素蔡司超视野超广角",
+          "rawText": "后置摄像头像素 2亿像素蔡司超级主摄 5000万像素蔡司APO超级长焦 5000万像素蔡司超视野超广角",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.663Z",
+          "sourceSnapshotHash": "ed4f65d8fe4fbaaf046e58f6433d5bb876409cafec6b622cbd4b452577d464fc"
+        },
+        "mainCamera": {
+          "value": "200MP（2亿像素蔡司超级主摄）",
+          "rawText": "后置摄像头像素 2亿像素蔡司超级主摄",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.663Z",
+          "sourceSnapshotHash": "ed4f65d8fe4fbaaf046e58f6433d5bb876409cafec6b622cbd4b452577d464fc"
+        },
+        "telephoto": {
+          "value": "5000万像素蔡司APO超级长焦",
+          "rawText": "后置摄像头像素 2亿像素蔡司超级主摄 5000万像素蔡司APO超级长焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.663Z",
+          "sourceSnapshotHash": "ed4f65d8fe4fbaaf046e58f6433d5bb876409cafec6b622cbd4b452577d464fc"
+        },
+        "frontCamera": {
+          "value": "5000万像素",
+          "rawText": "前置摄像头像素 5000万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.663Z",
+          "sourceSnapshotHash": "ed4f65d8fe4fbaaf046e58f6433d5bb876409cafec6b622cbd4b452577d464fc"
+        },
+        "batteryCapacity": {
+          "value": 6040,
+          "unit": "mAh",
+          "rawText": "典型容量：6040mAh",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.663Z",
+          "sourceSnapshotHash": "ed4f65d8fe4fbaaf046e58f6433d5bb876409cafec6b622cbd4b452577d464fc"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "USB接口类型 Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.663Z",
+          "sourceSnapshotHash": "ed4f65d8fe4fbaaf046e58f6433d5bb876409cafec6b622cbd4b452577d464fc"
+        },
+        "launchPrice": {
+          "value": 4399,
+          "unit": "CNY",
+          "rawText": "vivo X300 提供12GB+256GB、16GB+256GB、12GB+512GB 、16GB+512GB、16GB+1TB共5个版本，售价分别为4399元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/brand/news/detail?id=1336&type=3",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:45:42.166Z",
+          "sourceSnapshotHash": "562985cadc1429deff23c2388f4ef9b5ca4d4a7e354843a4746372af175814c1",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，国行基础版本",
+          "condition": "发布会公布的基础版本首发建议零售价，不采用后来修改的参数页价格"
+        },
+        "memoryType": {
+          "value": "LPDDR5X Ultra 四通道",
+          "rawText": "RAM类型 LPDDR5X Ultra 四通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.663Z",
+          "sourceSnapshotHash": "ed4f65d8fe4fbaaf046e58f6433d5bb876409cafec6b622cbd4b452577d464fc"
+        },
+        "chargingMethod": {
+          "value": "90W有线闪充&40W无线闪充",
+          "rawText": "充电规格 90W有线闪充&40W无线闪充",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.663Z",
+          "sourceSnapshotHash": "ed4f65d8fe4fbaaf046e58f6433d5bb876409cafec6b622cbd4b452577d464fc"
+        },
+        "security": {
+          "value": "3D超声波单点指纹 面部识别 支持",
+          "rawText": "指纹识别 3D超声波单点指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.663Z",
+          "sourceSnapshotHash": "ed4f65d8fe4fbaaf046e58f6433d5bb876409cafec6b622cbd4b452577d464fc"
+        },
+        "wifi": {
+          "value": "支持频段WLAN 2.4G、WLAN 5.1G、WLAN 5.8G;支持功能包括Wi-Fi Display、2*2 MIMO、MU-MIMO、Wi-Fi 6、Wi-Fi 7、2.4G&5G双路并发",
+          "rawText": "数据连接 WLAN 支持频段WLAN 2.4G、WLAN 5.1G、WLAN 5.8G;支持功能包括Wi-Fi Display、2*2 MIMO、MU-MIMO、Wi-Fi 6、Wi-Fi 7、2.4G&5G双路并发",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.663Z",
+          "sourceSnapshotHash": "ed4f65d8fe4fbaaf046e58f6433d5bb876409cafec6b622cbd4b452577d464fc"
+        },
+        "bluetooth": {
+          "value": "支持蓝牙5.4",
+          "rawText": "蓝牙传输 支持蓝牙5.4",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.663Z",
+          "sourceSnapshotHash": "ed4f65d8fe4fbaaf046e58f6433d5bb876409cafec6b622cbd4b452577d464fc"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "vivo-x300-pro-2025",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "phone",
+      "series": "vivo X Pro",
+      "family": "vivo X Pro",
+      "variant": "standard",
+      "modelName": "vivo X300 Pro",
+      "generation": "X300 Pro",
+      "generationOrder": 2,
+      "releaseYear": 2025,
+      "releaseDate": "2025-10-17",
+      "comparisonGroupId": "vivo.phone.x-pro.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "建议零售价 全网通（V2502A）： vivo X300 Pro（12GB+256GB）：5599.00元 vivo X300 Pro（16GB+512GB）：6399.00元 vivo X300 Pro（16GB+1TB）：7199.00元 全网通（V2502DA）卫星通信版： vivo X300 Pro（12GB+256GB）：5699.00元 vivo X300 Pro（12GB+512GB）：5999.00元 vivo X300 Pro（16GB+512GB）：6499.00元 vivo X300 Pro（16GB+1TB）：7299.00元 vivo X300 Pro（16GB+1TB 摄影师套装）：8799.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:44.795Z",
+            "sourceSnapshotHash": "f752d9d3912ab572b73a857de680c309109af16d48c3208ecd50070da07bcf61"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "建议零售价 全网通（V2502A）： vivo X300 Pro（12GB+256GB）：5599.00元 vivo X300 Pro（16GB+512GB）：6399.00元 vivo X300 Pro（16GB+1TB）：7199.00元 全网通（V2502DA）卫星通信版： vivo X300 Pro（12GB+256GB）：5699.00元 vivo X300 Pro（12GB+512GB）：5999.00元 vivo X300 Pro（16GB+512GB）：6499.00元 vivo X300 Pro（16GB+1TB）：7299.00元 vivo X300 Pro（16GB+1TB 摄影师套装）：8799.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:44.795Z",
+            "sourceSnapshotHash": "f752d9d3912ab572b73a857de680c309109af16d48c3208ecd50070da07bcf61"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "建议零售价 全网通（V2502A）： vivo X300 Pro（12GB+256GB）：5599.00元 vivo X300 Pro（16GB+512GB）：6399.00元 vivo X300 Pro（16GB+1TB）：7199.00元 全网通（V2502DA）卫星通信版： vivo X300 Pro（12GB+256GB）：5699.00元 vivo X300 Pro（12GB+512GB）：5999.00元 vivo X300 Pro（16GB+512GB）：6499.00元 vivo X300 Pro（16GB+1TB）：7299.00元 vivo X300 Pro（16GB+1TB 摄影师套装）：8799.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:44.795Z",
+            "sourceSnapshotHash": "f752d9d3912ab572b73a857de680c309109af16d48c3208ecd50070da07bcf61"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "建议零售价 全网通（V2502A）： vivo X300 Pro（12GB+256GB）：5599.00元 vivo X300 Pro（16GB+512GB）：6399.00元 vivo X300 Pro（16GB+1TB）：7199.00元 全网通（V2502DA）卫星通信版： vivo X300 Pro（12GB+256GB）：5699.00元 vivo X300 Pro（12GB+512GB）：5999.00元 vivo X300 Pro（16GB+512GB）：6499.00元 vivo X300 Pro（16GB+1TB）：7299.00元 vivo X300 Pro（16GB+1TB 摄影师套装）：8799.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:44.795Z",
+            "sourceSnapshotHash": "f752d9d3912ab572b73a857de680c309109af16d48c3208ecd50070da07bcf61"
+          }
+        }
+      ],
+      "benchmarks": [],
+      "specs": {
+        "chip": {
+          "value": "天玑 9500",
+          "rawText": "CPU型号 天玑 9500",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.795Z",
+          "sourceSnapshotHash": "f752d9d3912ab572b73a857de680c309109af16d48c3208ecd50070da07bcf61"
+        },
+        "screenSize": {
+          "value": 6.78,
+          "unit": "inch",
+          "rawText": "尺寸（英寸） 6.78英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.795Z",
+          "sourceSnapshotHash": "f752d9d3912ab572b73a857de680c309109af16d48c3208ecd50070da07bcf61"
+        },
+        "displayType": {
+          "value": "AMOLED",
+          "rawText": "屏幕材质 AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.795Z",
+          "sourceSnapshotHash": "f752d9d3912ab572b73a857de680c309109af16d48c3208ecd50070da07bcf61"
+        },
+        "resolution": {
+          "value": "2800x1260",
+          "rawText": "分辨率 2800 x 1260",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.795Z",
+          "sourceSnapshotHash": "f752d9d3912ab572b73a857de680c309109af16d48c3208ecd50070da07bcf61"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "刷新率 1-120Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.795Z",
+          "sourceSnapshotHash": "f752d9d3912ab572b73a857de680c309109af16d48c3208ecd50070da07bcf61"
+        },
+        "weight": {
+          "value": 226,
+          "unit": "g",
+          "rawText": "重量 226g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.795Z",
+          "sourceSnapshotHash": "f752d9d3912ab572b73a857de680c309109af16d48c3208ecd50070da07bcf61",
+          "note": "重量 226g"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存（RAM） 12GB/16GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.795Z",
+          "sourceSnapshotHash": "f752d9d3912ab572b73a857de680c309109af16d48c3208ecd50070da07bcf61"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "机身存储（ROM） 256GB/512GB/1TB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.795Z",
+          "sourceSnapshotHash": "f752d9d3912ab572b73a857de680c309109af16d48c3208ecd50070da07bcf61"
+        },
+        "rearCamera": {
+          "value": "5000万像素蔡司云台级主摄 2亿像素蔡司APO超级长焦 5000万像素蔡司超视野超广角",
+          "rawText": "后置摄像头像素 5000万像素蔡司云台级主摄 2亿像素蔡司APO超级长焦 5000万像素蔡司超视野超广角",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.795Z",
+          "sourceSnapshotHash": "f752d9d3912ab572b73a857de680c309109af16d48c3208ecd50070da07bcf61"
+        },
+        "mainCamera": {
+          "value": "50MP（5000万像素蔡司云台级主摄）",
+          "rawText": "后置摄像头像素 5000万像素蔡司云台级主摄",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.795Z",
+          "sourceSnapshotHash": "f752d9d3912ab572b73a857de680c309109af16d48c3208ecd50070da07bcf61"
+        },
+        "telephoto": {
+          "value": "2亿像素蔡司APO超级长焦",
+          "rawText": "后置摄像头像素 5000万像素蔡司云台级主摄 2亿像素蔡司APO超级长焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.795Z",
+          "sourceSnapshotHash": "f752d9d3912ab572b73a857de680c309109af16d48c3208ecd50070da07bcf61"
+        },
+        "frontCamera": {
+          "value": "5000万像素",
+          "rawText": "前置摄像头像素 5000万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.795Z",
+          "sourceSnapshotHash": "f752d9d3912ab572b73a857de680c309109af16d48c3208ecd50070da07bcf61"
+        },
+        "batteryCapacity": {
+          "value": 6510,
+          "unit": "mAh",
+          "rawText": "典型容量：6510mAh",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.795Z",
+          "sourceSnapshotHash": "f752d9d3912ab572b73a857de680c309109af16d48c3208ecd50070da07bcf61"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "USB接口类型 Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.795Z",
+          "sourceSnapshotHash": "f752d9d3912ab572b73a857de680c309109af16d48c3208ecd50070da07bcf61"
+        },
+        "launchPrice": {
+          "value": 5299,
+          "unit": "CNY",
+          "rawText": "vivo X300 Pro提供12GB+256GB、16GB+512GB、16GB+1TB、16GB+1TB（卫星通信版）共4个版本，售价分别为5299元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/brand/news/detail?id=1336&type=3",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:45:42.166Z",
+          "sourceSnapshotHash": "562985cadc1429deff23c2388f4ef9b5ca4d4a7e354843a4746372af175814c1",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，国行基础版本",
+          "condition": "发布会公布的基础版本首发建议零售价，不采用后来修改的参数页价格"
+        },
+        "memoryType": {
+          "value": "LPDDR5X Ultra 四通道 LPDDR5X Ultra Pro 四通道【仅X300 Pro 16GB+1TB摄影师套装内手机机型（支持卫星通信）支持。】",
+          "rawText": "RAM类型 LPDDR5X Ultra 四通道 LPDDR5X Ultra Pro 四通道【仅X300 Pro 16GB+1TB摄影师套装内手机机型（支持卫星通信）支持。】",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.795Z",
+          "sourceSnapshotHash": "f752d9d3912ab572b73a857de680c309109af16d48c3208ecd50070da07bcf61"
+        },
+        "chargingMethod": {
+          "value": "90W有线闪充&40W无线闪充",
+          "rawText": "充电规格 90W有线闪充&40W无线闪充",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.795Z",
+          "sourceSnapshotHash": "f752d9d3912ab572b73a857de680c309109af16d48c3208ecd50070da07bcf61"
+        },
+        "security": {
+          "value": "3D超声波单点指纹 面部识别 支持",
+          "rawText": "指纹识别 3D超声波单点指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.795Z",
+          "sourceSnapshotHash": "f752d9d3912ab572b73a857de680c309109af16d48c3208ecd50070da07bcf61"
+        },
+        "wifi": {
+          "value": "支持频段WLAN 2.4G、WLAN 5.1G、WLAN 5.8G;支持功能包括Wi-Fi Display、2*2 MIMO、MU-MIMO、Wi-Fi 6、Wi-Fi 7、2.4G&5G双路并发",
+          "rawText": "数据连接 WLAN 支持频段WLAN 2.4G、WLAN 5.1G、WLAN 5.8G;支持功能包括Wi-Fi Display、2*2 MIMO、MU-MIMO、Wi-Fi 6、Wi-Fi 7、2.4G&5G双路并发",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.795Z",
+          "sourceSnapshotHash": "f752d9d3912ab572b73a857de680c309109af16d48c3208ecd50070da07bcf61"
+        },
+        "bluetooth": {
+          "value": "支持蓝牙5.4",
+          "rawText": "蓝牙传输 支持蓝牙5.4",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.795Z",
+          "sourceSnapshotHash": "f752d9d3912ab572b73a857de680c309109af16d48c3208ecd50070da07bcf61"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "vivo-x500-2026",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "phone",
+      "series": "vivo X",
+      "family": "vivo X",
+      "variant": "standard",
+      "modelName": "vivo X500",
+      "generation": "X500",
+      "generationOrder": 3,
+      "releaseYear": 2026,
+      "releaseDate": "2026-09-24",
+      "comparisonGroupId": "vivo.phone.x.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "建议零售价 全网通（V2609A）： vivo X500（12GB+256GB）：5499.00元 vivo X500（12GB+512GB）：5999.00元 vivo X500（16GB+512GB）：6499.00元 vivo X500（12GB+1TB）：6999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:44.923Z",
+            "sourceSnapshotHash": "d557f38382ecb049ac894ca32e8d9ef5691ef0e65ddc387d106a20d9da3af70f"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "建议零售价 全网通（V2609A）： vivo X500（12GB+256GB）：5499.00元 vivo X500（12GB+512GB）：5999.00元 vivo X500（16GB+512GB）：6499.00元 vivo X500（12GB+1TB）：6999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:44.923Z",
+            "sourceSnapshotHash": "d557f38382ecb049ac894ca32e8d9ef5691ef0e65ddc387d106a20d9da3af70f"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "建议零售价 全网通（V2609A）： vivo X500（12GB+256GB）：5499.00元 vivo X500（12GB+512GB）：5999.00元 vivo X500（16GB+512GB）：6499.00元 vivo X500（12GB+1TB）：6999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:44.923Z",
+            "sourceSnapshotHash": "d557f38382ecb049ac894ca32e8d9ef5691ef0e65ddc387d106a20d9da3af70f"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "12GB + 1TB",
+            "rawText": "建议零售价 全网通（V2609A）： vivo X500（12GB+256GB）：5499.00元 vivo X500（12GB+512GB）：5999.00元 vivo X500（16GB+512GB）：6499.00元 vivo X500（12GB+1TB）：6999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:44.923Z",
+            "sourceSnapshotHash": "d557f38382ecb049ac894ca32e8d9ef5691ef0e65ddc387d106a20d9da3af70f"
+          }
+        }
+      ],
+      "benchmarks": [],
+      "specs": {
+        "chip": {
+          "value": "天玑 9600M",
+          "rawText": "CPU型号 天玑 9600M",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.923Z",
+          "sourceSnapshotHash": "d557f38382ecb049ac894ca32e8d9ef5691ef0e65ddc387d106a20d9da3af70f"
+        },
+        "screenSize": {
+          "value": 6.59,
+          "unit": "inch",
+          "rawText": "尺寸（英寸） 6.59英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.923Z",
+          "sourceSnapshotHash": "d557f38382ecb049ac894ca32e8d9ef5691ef0e65ddc387d106a20d9da3af70f"
+        },
+        "displayType": {
+          "value": "AMOLED",
+          "rawText": "屏幕材质 AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.923Z",
+          "sourceSnapshotHash": "d557f38382ecb049ac894ca32e8d9ef5691ef0e65ddc387d106a20d9da3af70f"
+        },
+        "resolution": {
+          "value": "2750x1260",
+          "rawText": "分辨率 2750 x 1260",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.923Z",
+          "sourceSnapshotHash": "d557f38382ecb049ac894ca32e8d9ef5691ef0e65ddc387d106a20d9da3af70f"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "刷新率 30/60/90/120/144Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.923Z",
+          "sourceSnapshotHash": "d557f38382ecb049ac894ca32e8d9ef5691ef0e65ddc387d106a20d9da3af70f"
+        },
+        "weight": {
+          "value": 213,
+          "unit": "g",
+          "rawText": "重量 摄夜：213g 大地回声、晴天、晨曦：211g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.923Z",
+          "sourceSnapshotHash": "d557f38382ecb049ac894ca32e8d9ef5691ef0e65ddc387d106a20d9da3af70f",
+          "note": "重量 摄夜：213g 大地回声、晴天、晨曦：211g"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存（RAM） 12GB/16GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.923Z",
+          "sourceSnapshotHash": "d557f38382ecb049ac894ca32e8d9ef5691ef0e65ddc387d106a20d9da3af70f"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "机身存储（ROM） 256GB/512GB/1TB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.923Z",
+          "sourceSnapshotHash": "d557f38382ecb049ac894ca32e8d9ef5691ef0e65ddc387d106a20d9da3af70f"
+        },
+        "rearCamera": {
+          "value": "5000万像素蔡司高动态主摄 6400万像素蔡司APO超级长焦 5000万像素蔡司超视野超广角",
+          "rawText": "后置摄像头像素 5000万像素蔡司高动态主摄 6400万像素蔡司APO超级长焦 5000万像素蔡司超视野超广角",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.923Z",
+          "sourceSnapshotHash": "d557f38382ecb049ac894ca32e8d9ef5691ef0e65ddc387d106a20d9da3af70f"
+        },
+        "mainCamera": {
+          "value": "50MP（5000万像素蔡司高动态主摄）",
+          "rawText": "后置摄像头像素 5000万像素蔡司高动态主摄",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.923Z",
+          "sourceSnapshotHash": "d557f38382ecb049ac894ca32e8d9ef5691ef0e65ddc387d106a20d9da3af70f"
+        },
+        "telephoto": {
+          "value": "6400万像素蔡司APO超级长焦",
+          "rawText": "后置摄像头像素 5000万像素蔡司高动态主摄 6400万像素蔡司APO超级长焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.923Z",
+          "sourceSnapshotHash": "d557f38382ecb049ac894ca32e8d9ef5691ef0e65ddc387d106a20d9da3af70f"
+        },
+        "frontCamera": {
+          "value": "5000万像素",
+          "rawText": "前置摄像头像素 5000万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.923Z",
+          "sourceSnapshotHash": "d557f38382ecb049ac894ca32e8d9ef5691ef0e65ddc387d106a20d9da3af70f"
+        },
+        "batteryCapacity": {
+          "value": 7500,
+          "unit": "mAh",
+          "rawText": "典型容量：7500mAh",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.923Z",
+          "sourceSnapshotHash": "d557f38382ecb049ac894ca32e8d9ef5691ef0e65ddc387d106a20d9da3af70f"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "USB接口类型 Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.923Z",
+          "sourceSnapshotHash": "d557f38382ecb049ac894ca32e8d9ef5691ef0e65ddc387d106a20d9da3af70f"
+        },
+        "launchPrice": {
+          "value": 5499,
+          "unit": "CNY",
+          "rawText": "X500各版本售价分别为：12GB+256GB 5499元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/brand/news/detail?id=1393&type=0",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:45:42.247Z",
+          "sourceSnapshotHash": "8b94caaf8c756fb623e411d9312bbdc49620069b8050a84b5516d070086c5de0",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，国行基础版本",
+          "condition": "发布会公布的基础版本首发建议零售价，不采用后来修改的参数页价格"
+        },
+        "memoryType": {
+          "value": "LPDDR5X Ultra 四通道",
+          "rawText": "RAM类型 LPDDR5X Ultra 四通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.923Z",
+          "sourceSnapshotHash": "d557f38382ecb049ac894ca32e8d9ef5691ef0e65ddc387d106a20d9da3af70f"
+        },
+        "chargingMethod": {
+          "value": "手机支持的充电器最大输出功率90W&40W无线闪充 注：充电器最大输出功率为90W，实际充电功率会因场景变化、安全保障等多重因素而动态调节，请以实际使用情况为准。",
+          "rawText": "充电规格 手机支持的充电器最大输出功率90W&40W无线闪充 注：充电器最大输出功率为90W，实际充电功率会因场景变化、安全保障等多重因素而动态调节，请以实际使用情况为准。",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.923Z",
+          "sourceSnapshotHash": "d557f38382ecb049ac894ca32e8d9ef5691ef0e65ddc387d106a20d9da3af70f"
+        },
+        "security": {
+          "value": "3D超声波单点指纹 面部识别 支持",
+          "rawText": "指纹识别 3D超声波单点指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.923Z",
+          "sourceSnapshotHash": "d557f38382ecb049ac894ca32e8d9ef5691ef0e65ddc387d106a20d9da3af70f"
+        },
+        "wifi": {
+          "value": "支持频段WLAN 2.4G、WLAN 5G;支持功能包括Wi-Fi Display、2*2 MIMO、MU-MIMO、Wi-Fi 6、Wi-Fi 7、2.4G&5G双路并发",
+          "rawText": "数据连接 WLAN 支持频段WLAN 2.4G、WLAN 5G;支持功能包括Wi-Fi Display、2*2 MIMO、MU-MIMO、Wi-Fi 6、Wi-Fi 7、2.4G&5G双路并发",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.923Z",
+          "sourceSnapshotHash": "d557f38382ecb049ac894ca32e8d9ef5691ef0e65ddc387d106a20d9da3af70f"
+        },
+        "bluetooth": {
+          "value": "支持蓝牙5.4",
+          "rawText": "蓝牙传输 支持蓝牙5.4",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:44.923Z",
+          "sourceSnapshotHash": "d557f38382ecb049ac894ca32e8d9ef5691ef0e65ddc387d106a20d9da3af70f"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "vivo-x500-pro-2026",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "phone",
+      "series": "vivo X Pro",
+      "family": "vivo X Pro",
+      "variant": "standard",
+      "modelName": "vivo X500 Pro",
+      "generation": "X500 Pro",
+      "generationOrder": 3,
+      "releaseYear": 2026,
+      "releaseDate": "2026-09-29",
+      "comparisonGroupId": "vivo.phone.x-pro.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "建议零售价 全网通（V2608A、V2608DA）： vivo X500 Pro（12GB+256GB）：6499.00元 vivo X500 Pro（12GB+512GB）：7499.00元 vivo X500 Pro（16GB+512GB）：7999.00元 vivo X500 Pro（12GB+1TB）：8499.00元 vivo X500 Pro（16GB+1TB）：8999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:45.077Z",
+            "sourceSnapshotHash": "c9d70eb6a19c07429b0139c0d420779f31af4748cee89db36bb63d1f8b4267dc"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "建议零售价 全网通（V2608A、V2608DA）： vivo X500 Pro（12GB+256GB）：6499.00元 vivo X500 Pro（12GB+512GB）：7499.00元 vivo X500 Pro（16GB+512GB）：7999.00元 vivo X500 Pro（12GB+1TB）：8499.00元 vivo X500 Pro（16GB+1TB）：8999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:45.077Z",
+            "sourceSnapshotHash": "c9d70eb6a19c07429b0139c0d420779f31af4748cee89db36bb63d1f8b4267dc"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "建议零售价 全网通（V2608A、V2608DA）： vivo X500 Pro（12GB+256GB）：6499.00元 vivo X500 Pro（12GB+512GB）：7499.00元 vivo X500 Pro（16GB+512GB）：7999.00元 vivo X500 Pro（12GB+1TB）：8499.00元 vivo X500 Pro（16GB+1TB）：8999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:45.077Z",
+            "sourceSnapshotHash": "c9d70eb6a19c07429b0139c0d420779f31af4748cee89db36bb63d1f8b4267dc"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "12GB + 1TB",
+            "rawText": "建议零售价 全网通（V2608A、V2608DA）： vivo X500 Pro（12GB+256GB）：6499.00元 vivo X500 Pro（12GB+512GB）：7499.00元 vivo X500 Pro（16GB+512GB）：7999.00元 vivo X500 Pro（12GB+1TB）：8499.00元 vivo X500 Pro（16GB+1TB）：8999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:45.077Z",
+            "sourceSnapshotHash": "c9d70eb6a19c07429b0139c0d420779f31af4748cee89db36bb63d1f8b4267dc"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "建议零售价 全网通（V2608A、V2608DA）： vivo X500 Pro（12GB+256GB）：6499.00元 vivo X500 Pro（12GB+512GB）：7499.00元 vivo X500 Pro（16GB+512GB）：7999.00元 vivo X500 Pro（12GB+1TB）：8499.00元 vivo X500 Pro（16GB+1TB）：8999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:45.077Z",
+            "sourceSnapshotHash": "c9d70eb6a19c07429b0139c0d420779f31af4748cee89db36bb63d1f8b4267dc"
+          }
+        }
+      ],
+      "benchmarks": [],
+      "specs": {
+        "chip": {
+          "value": "天玑 9600 Pro",
+          "rawText": "CPU型号 天玑 9600 Pro",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.077Z",
+          "sourceSnapshotHash": "c9d70eb6a19c07429b0139c0d420779f31af4748cee89db36bb63d1f8b4267dc"
+        },
+        "screenSize": {
+          "value": 6.36,
+          "unit": "inch",
+          "rawText": "尺寸（英寸） 6.36英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.077Z",
+          "sourceSnapshotHash": "c9d70eb6a19c07429b0139c0d420779f31af4748cee89db36bb63d1f8b4267dc"
+        },
+        "displayType": {
+          "value": "AMOLED",
+          "rawText": "屏幕材质 AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.077Z",
+          "sourceSnapshotHash": "c9d70eb6a19c07429b0139c0d420779f31af4748cee89db36bb63d1f8b4267dc"
+        },
+        "resolution": {
+          "value": "2660x1216",
+          "rawText": "分辨率 2660 x 1216",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.077Z",
+          "sourceSnapshotHash": "c9d70eb6a19c07429b0139c0d420779f31af4748cee89db36bb63d1f8b4267dc"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "刷新率 1-144Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.077Z",
+          "sourceSnapshotHash": "c9d70eb6a19c07429b0139c0d420779f31af4748cee89db36bb63d1f8b4267dc"
+        },
+        "weight": {
+          "value": 192,
+          "unit": "g",
+          "rawText": "重量 摄夜：192g 大地回声、晴天、览霞：197g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.077Z",
+          "sourceSnapshotHash": "c9d70eb6a19c07429b0139c0d420779f31af4748cee89db36bb63d1f8b4267dc",
+          "note": "重量 摄夜：192g 大地回声、晴天、览霞：197g"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存（RAM） 12GB/16GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.077Z",
+          "sourceSnapshotHash": "c9d70eb6a19c07429b0139c0d420779f31af4748cee89db36bb63d1f8b4267dc"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "机身存储（ROM） 256GB/512GB/1TB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.077Z",
+          "sourceSnapshotHash": "c9d70eb6a19c07429b0139c0d420779f31af4748cee89db36bb63d1f8b4267dc"
+        },
+        "rearCamera": {
+          "value": "5000万像素蔡司超动态主摄 6400万像素蔡司APO超级长焦 5000万像素蔡司超视野超广角",
+          "rawText": "后置摄像头像素 5000万像素蔡司超动态主摄 6400万像素蔡司APO超级长焦 5000万像素蔡司超视野超广角",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.077Z",
+          "sourceSnapshotHash": "c9d70eb6a19c07429b0139c0d420779f31af4748cee89db36bb63d1f8b4267dc"
+        },
+        "mainCamera": {
+          "value": "50MP（5000万像素蔡司超动态主摄）",
+          "rawText": "后置摄像头像素 5000万像素蔡司超动态主摄",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.077Z",
+          "sourceSnapshotHash": "c9d70eb6a19c07429b0139c0d420779f31af4748cee89db36bb63d1f8b4267dc"
+        },
+        "telephoto": {
+          "value": "6400万像素蔡司APO超级长焦",
+          "rawText": "后置摄像头像素 5000万像素蔡司超动态主摄 6400万像素蔡司APO超级长焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.077Z",
+          "sourceSnapshotHash": "c9d70eb6a19c07429b0139c0d420779f31af4748cee89db36bb63d1f8b4267dc"
+        },
+        "frontCamera": {
+          "value": "5000万像素",
+          "rawText": "前置摄像头像素 5000万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.077Z",
+          "sourceSnapshotHash": "c9d70eb6a19c07429b0139c0d420779f31af4748cee89db36bb63d1f8b4267dc"
+        },
+        "batteryCapacity": {
+          "value": 6510,
+          "unit": "mAh",
+          "rawText": "典型容量：6510mAh",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.077Z",
+          "sourceSnapshotHash": "c9d70eb6a19c07429b0139c0d420779f31af4748cee89db36bb63d1f8b4267dc"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "USB接口类型 Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.077Z",
+          "sourceSnapshotHash": "c9d70eb6a19c07429b0139c0d420779f31af4748cee89db36bb63d1f8b4267dc"
+        },
+        "launchPrice": {
+          "value": 6499,
+          "unit": "CNY",
+          "rawText": "X500 Pro各版本售价分别为：12GB+256GB 6499元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/brand/news/detail?id=1393&type=0",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:45:42.247Z",
+          "sourceSnapshotHash": "8b94caaf8c756fb623e411d9312bbdc49620069b8050a84b5516d070086c5de0",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，国行基础版本",
+          "condition": "发布会公布的基础版本首发建议零售价，不采用后来修改的参数页价格"
+        },
+        "memoryType": {
+          "value": "LPDDR5X Ultra 四通道",
+          "rawText": "RAM类型 LPDDR5X Ultra 四通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.077Z",
+          "sourceSnapshotHash": "c9d70eb6a19c07429b0139c0d420779f31af4748cee89db36bb63d1f8b4267dc"
+        },
+        "chargingMethod": {
+          "value": "手机支持的充电器最大输出功率90W&40W无线闪充 注：充电器最大输出功率为90W，实际充电功率会因场景变化、安全保障等多重因素而动态调节，请以实际使用情况为准。",
+          "rawText": "充电规格 手机支持的充电器最大输出功率90W&40W无线闪充 注：充电器最大输出功率为90W，实际充电功率会因场景变化、安全保障等多重因素而动态调节，请以实际使用情况为准。",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.077Z",
+          "sourceSnapshotHash": "c9d70eb6a19c07429b0139c0d420779f31af4748cee89db36bb63d1f8b4267dc"
+        },
+        "security": {
+          "value": "3D超声波单点指纹 面部识别 支持",
+          "rawText": "指纹识别 3D超声波单点指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.077Z",
+          "sourceSnapshotHash": "c9d70eb6a19c07429b0139c0d420779f31af4748cee89db36bb63d1f8b4267dc"
+        },
+        "wifi": {
+          "value": "支持频段WLAN 2.4G、WLAN 5G;支持功能包括Wi-Fi Display、2*2 MIMO、MU-MIMO、Wi-Fi 6、Wi-Fi 7、2.4G&5G双路并发",
+          "rawText": "数据连接 WLAN 支持频段WLAN 2.4G、WLAN 5G;支持功能包括Wi-Fi Display、2*2 MIMO、MU-MIMO、Wi-Fi 6、Wi-Fi 7、2.4G&5G双路并发",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.077Z",
+          "sourceSnapshotHash": "c9d70eb6a19c07429b0139c0d420779f31af4748cee89db36bb63d1f8b4267dc"
+        },
+        "bluetooth": {
+          "value": "支持蓝牙5.4",
+          "rawText": "蓝牙传输 支持蓝牙5.4",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.077Z",
+          "sourceSnapshotHash": "c9d70eb6a19c07429b0139c0d420779f31af4748cee89db36bb63d1f8b4267dc"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "vivo-x500-pro-max-2026",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "phone",
+      "series": "vivo X Pro Max",
+      "family": "vivo X Pro Max",
+      "variant": "standard",
+      "modelName": "vivo X500 Pro Max",
+      "generation": "X500 Pro Max",
+      "generationOrder": 1,
+      "releaseYear": 2026,
+      "releaseDate": "2026-09-24",
+      "comparisonGroupId": "vivo.phone.x-pro-max.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "建议零售价 全网通（V2602A、V2602DA）： vivo X500 Pro Max（12GB+256GB）：6999.00元 vivo X500 Pro Max（12GB+512GB）：7999.00元 vivo X500 Pro Max（16GB+512GB）：8499.00元 vivo X500 Pro Max（12GB+1TB卫星通信版）：8999.00元 vivo X500 Pro Max（16GB+1TB卫星通信版）：9499.00元 vivo X500 Pro Max（16GB+1TB 创作者套装版）：12999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500promax",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:45.193Z",
+            "sourceSnapshotHash": "c85d07d8a7c4adc53cd454584f3ffc4a98331d906bd8fd0809a7d5b403740af5"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "建议零售价 全网通（V2602A、V2602DA）： vivo X500 Pro Max（12GB+256GB）：6999.00元 vivo X500 Pro Max（12GB+512GB）：7999.00元 vivo X500 Pro Max（16GB+512GB）：8499.00元 vivo X500 Pro Max（12GB+1TB卫星通信版）：8999.00元 vivo X500 Pro Max（16GB+1TB卫星通信版）：9499.00元 vivo X500 Pro Max（16GB+1TB 创作者套装版）：12999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500promax",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:45.193Z",
+            "sourceSnapshotHash": "c85d07d8a7c4adc53cd454584f3ffc4a98331d906bd8fd0809a7d5b403740af5"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "建议零售价 全网通（V2602A、V2602DA）： vivo X500 Pro Max（12GB+256GB）：6999.00元 vivo X500 Pro Max（12GB+512GB）：7999.00元 vivo X500 Pro Max（16GB+512GB）：8499.00元 vivo X500 Pro Max（12GB+1TB卫星通信版）：8999.00元 vivo X500 Pro Max（16GB+1TB卫星通信版）：9499.00元 vivo X500 Pro Max（16GB+1TB 创作者套装版）：12999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500promax",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:45.193Z",
+            "sourceSnapshotHash": "c85d07d8a7c4adc53cd454584f3ffc4a98331d906bd8fd0809a7d5b403740af5"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "12GB + 1TB",
+            "rawText": "建议零售价 全网通（V2602A、V2602DA）： vivo X500 Pro Max（12GB+256GB）：6999.00元 vivo X500 Pro Max（12GB+512GB）：7999.00元 vivo X500 Pro Max（16GB+512GB）：8499.00元 vivo X500 Pro Max（12GB+1TB卫星通信版）：8999.00元 vivo X500 Pro Max（16GB+1TB卫星通信版）：9499.00元 vivo X500 Pro Max（16GB+1TB 创作者套装版）：12999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500promax",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:45.193Z",
+            "sourceSnapshotHash": "c85d07d8a7c4adc53cd454584f3ffc4a98331d906bd8fd0809a7d5b403740af5"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "建议零售价 全网通（V2602A、V2602DA）： vivo X500 Pro Max（12GB+256GB）：6999.00元 vivo X500 Pro Max（12GB+512GB）：7999.00元 vivo X500 Pro Max（16GB+512GB）：8499.00元 vivo X500 Pro Max（12GB+1TB卫星通信版）：8999.00元 vivo X500 Pro Max（16GB+1TB卫星通信版）：9499.00元 vivo X500 Pro Max（16GB+1TB 创作者套装版）：12999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500promax",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:39:45.193Z",
+            "sourceSnapshotHash": "c85d07d8a7c4adc53cd454584f3ffc4a98331d906bd8fd0809a7d5b403740af5"
+          }
+        }
+      ],
+      "benchmarks": [],
+      "specs": {
+        "chip": {
+          "value": "天玑 9600 Pro",
+          "rawText": "CPU型号 天玑 9600 Pro",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500promax",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.193Z",
+          "sourceSnapshotHash": "c85d07d8a7c4adc53cd454584f3ffc4a98331d906bd8fd0809a7d5b403740af5"
+        },
+        "screenSize": {
+          "value": 6.85,
+          "unit": "inch",
+          "rawText": "尺寸（英寸） 6.85英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500promax",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.193Z",
+          "sourceSnapshotHash": "c85d07d8a7c4adc53cd454584f3ffc4a98331d906bd8fd0809a7d5b403740af5"
+        },
+        "displayType": {
+          "value": "AMOLED",
+          "rawText": "屏幕材质 AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500promax",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.193Z",
+          "sourceSnapshotHash": "c85d07d8a7c4adc53cd454584f3ffc4a98331d906bd8fd0809a7d5b403740af5"
+        },
+        "resolution": {
+          "value": "3168x1440",
+          "rawText": "分辨率 3168 x 1440",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500promax",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.193Z",
+          "sourceSnapshotHash": "c85d07d8a7c4adc53cd454584f3ffc4a98331d906bd8fd0809a7d5b403740af5"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "刷新率 1-144Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500promax",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.193Z",
+          "sourceSnapshotHash": "c85d07d8a7c4adc53cd454584f3ffc4a98331d906bd8fd0809a7d5b403740af5"
+        },
+        "weight": {
+          "value": 225,
+          "unit": "g",
+          "rawText": "重量 摄夜：225g 大地回声、晴天、览霞：229g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500promax",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.193Z",
+          "sourceSnapshotHash": "c85d07d8a7c4adc53cd454584f3ffc4a98331d906bd8fd0809a7d5b403740af5",
+          "note": "重量 摄夜：225g 大地回声、晴天、览霞：229g"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存（RAM） 12GB/16GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500promax",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.193Z",
+          "sourceSnapshotHash": "c85d07d8a7c4adc53cd454584f3ffc4a98331d906bd8fd0809a7d5b403740af5"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "机身存储（ROM） 256GB/512GB/1TB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500promax",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.193Z",
+          "sourceSnapshotHash": "c85d07d8a7c4adc53cd454584f3ffc4a98331d906bd8fd0809a7d5b403740af5"
+        },
+        "rearCamera": {
+          "value": "5000万像素蔡司超动态主摄 2亿像素蔡司APO超级长焦 5000万像素蔡司超视野超广角",
+          "rawText": "后置摄像头像素 5000万像素蔡司超动态主摄 2亿像素蔡司APO超级长焦 5000万像素蔡司超视野超广角",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500promax",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.193Z",
+          "sourceSnapshotHash": "c85d07d8a7c4adc53cd454584f3ffc4a98331d906bd8fd0809a7d5b403740af5"
+        },
+        "mainCamera": {
+          "value": "50MP（5000万像素蔡司超动态主摄）",
+          "rawText": "后置摄像头像素 5000万像素蔡司超动态主摄",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500promax",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.193Z",
+          "sourceSnapshotHash": "c85d07d8a7c4adc53cd454584f3ffc4a98331d906bd8fd0809a7d5b403740af5"
+        },
+        "telephoto": {
+          "value": "2亿像素蔡司APO超级长焦",
+          "rawText": "后置摄像头像素 5000万像素蔡司超动态主摄 2亿像素蔡司APO超级长焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500promax",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.193Z",
+          "sourceSnapshotHash": "c85d07d8a7c4adc53cd454584f3ffc4a98331d906bd8fd0809a7d5b403740af5"
+        },
+        "frontCamera": {
+          "value": "5000万像素",
+          "rawText": "前置摄像头像素 5000万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500promax",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.193Z",
+          "sourceSnapshotHash": "c85d07d8a7c4adc53cd454584f3ffc4a98331d906bd8fd0809a7d5b403740af5"
+        },
+        "batteryCapacity": {
+          "value": 8000,
+          "unit": "mAh",
+          "rawText": "典型容量：8000mAh",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500promax",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.193Z",
+          "sourceSnapshotHash": "c85d07d8a7c4adc53cd454584f3ffc4a98331d906bd8fd0809a7d5b403740af5"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "USB接口类型 Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500promax",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.193Z",
+          "sourceSnapshotHash": "c85d07d8a7c4adc53cd454584f3ffc4a98331d906bd8fd0809a7d5b403740af5"
+        },
+        "launchPrice": {
+          "value": 6999,
+          "unit": "CNY",
+          "rawText": "X500 Pro Max各版本售价分别为：12GB+256GB 6999元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/brand/news/detail?id=1393&type=0",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:45:42.247Z",
+          "sourceSnapshotHash": "8b94caaf8c756fb623e411d9312bbdc49620069b8050a84b5516d070086c5de0",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，国行基础版本",
+          "condition": "发布会公布的基础版本首发建议零售价，不采用后来修改的参数页价格"
+        },
+        "memoryType": {
+          "value": "LPDDR5X Ultra 四通道",
+          "rawText": "RAM类型 LPDDR5X Ultra 四通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500promax",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.193Z",
+          "sourceSnapshotHash": "c85d07d8a7c4adc53cd454584f3ffc4a98331d906bd8fd0809a7d5b403740af5"
+        },
+        "chargingMethod": {
+          "value": "手机支持的充电器最大输出功率90W&40W无线闪充 注：充电器最大输出功率为90W，实际充电功率会因场景变化、安全保障等多重因素而动态调节，请以实际使用情况为准。",
+          "rawText": "充电规格 手机支持的充电器最大输出功率90W&40W无线闪充 注：充电器最大输出功率为90W，实际充电功率会因场景变化、安全保障等多重因素而动态调节，请以实际使用情况为准。",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500promax",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.193Z",
+          "sourceSnapshotHash": "c85d07d8a7c4adc53cd454584f3ffc4a98331d906bd8fd0809a7d5b403740af5"
+        },
+        "security": {
+          "value": "3D超声波单点指纹 面部识别 支持",
+          "rawText": "指纹识别 3D超声波单点指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500promax",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.193Z",
+          "sourceSnapshotHash": "c85d07d8a7c4adc53cd454584f3ffc4a98331d906bd8fd0809a7d5b403740af5"
+        },
+        "wifi": {
+          "value": "支持频段WLAN 2.4G、WLAN 5G;支持功能包括Wi-Fi Display、2*2 MIMO、MU-MIMO、Wi-Fi 6、Wi-Fi 7、2.4G&5G双路并发",
+          "rawText": "数据连接 WLAN 支持频段WLAN 2.4G、WLAN 5G;支持功能包括Wi-Fi Display、2*2 MIMO、MU-MIMO、Wi-Fi 6、Wi-Fi 7、2.4G&5G双路并发",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500promax",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.193Z",
+          "sourceSnapshotHash": "c85d07d8a7c4adc53cd454584f3ffc4a98331d906bd8fd0809a7d5b403740af5"
+        },
+        "bluetooth": {
+          "value": "支持蓝牙5.4",
+          "rawText": "蓝牙传输 支持蓝牙5.4",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x500promax",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:39:45.193Z",
+          "sourceSnapshotHash": "c85d07d8a7c4adc53cd454584f3ffc4a98331d906bd8fd0809a7d5b403740af5"
+        }
+      },
+      "computed": {}
+    },
     {
       "id": "vivo-x100-ultra-2024",
       "brand": "vivo",
@@ -22,146 +2573,302 @@
       "configurations": [
         {
           "memory": "12GB",
-          "storage": "256GB"
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "vivo X100 Ultra（12GB+256GB）：6499.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:53:19.919Z",
+            "sourceSnapshotHash": "8ce3d70da3f8676e3ffb08082cedfb82d19351943472685ebe2e02ccadff3c5c"
+          }
         },
         {
           "memory": "16GB",
-          "storage": "512GB"
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "vivo X100 Ultra（16GB+512GB）：7299.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:53:19.919Z",
+            "sourceSnapshotHash": "8ce3d70da3f8676e3ffb08082cedfb82d19351943472685ebe2e02ccadff3c5c"
+          }
         },
         {
           "memory": "16GB",
-          "storage": "1TB"
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "vivo X100 Ultra（16GB+1TB）：7999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:53:19.919Z",
+            "sourceSnapshotHash": "8ce3d70da3f8676e3ffb08082cedfb82d19351943472685ebe2e02ccadff3c5c"
+          }
         }
       ],
       "benchmarks": [],
       "specs": {
         "chip": {
           "value": "高通 第三代骁龙 8",
-          "rawText": "CPU 型号：高通 第三代骁龙 8",
+          "rawText": "CPU型号 第三代骁龙8",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:19.919Z",
+          "sourceSnapshotHash": "8ce3d70da3f8676e3ffb08082cedfb82d19351943472685ebe2e02ccadff3c5c"
         },
         "screenSize": {
           "value": 6.78,
           "unit": "inch",
-          "rawText": "屏幕尺寸：6.78 英寸",
+          "rawText": "尺寸（英寸） 6.78英寸",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:19.919Z",
+          "sourceSnapshotHash": "8ce3d70da3f8676e3ffb08082cedfb82d19351943472685ebe2e02ccadff3c5c"
         },
         "displayType": {
           "value": "AMOLED",
-          "rawText": "屏幕材质：AMOLED",
+          "rawText": "屏幕材质 AMOLED",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:19.919Z",
+          "sourceSnapshotHash": "8ce3d70da3f8676e3ffb08082cedfb82d19351943472685ebe2e02ccadff3c5c"
         },
         "resolution": {
           "value": "3200x1440",
-          "rawText": "分辨率：3200x1440",
+          "rawText": "分辨率 3200 × 1440",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:19.919Z",
+          "sourceSnapshotHash": "8ce3d70da3f8676e3ffb08082cedfb82d19351943472685ebe2e02ccadff3c5c"
         },
         "refreshRate": {
           "value": 120,
           "unit": "Hz",
-          "rawText": "最高支持 120Hz 刷新率",
+          "rawText": "刷新率 最高支持120Hz",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:19.919Z",
+          "sourceSnapshotHash": "8ce3d70da3f8676e3ffb08082cedfb82d19351943472685ebe2e02ccadff3c5c"
         },
         "weight": {
           "value": 229,
           "unit": "g",
-          "rawText": "机身重量：229g",
+          "rawText": "重量 约229g",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:19.919Z",
+          "sourceSnapshotHash": "8ce3d70da3f8676e3ffb08082cedfb82d19351943472685ebe2e02ccadff3c5c"
         },
         "memory": {
           "value": "12GB / 16GB",
-          "rawText": "运行内存：12GB / 16GB",
+          "rawText": "运行内存（RAM） 12GB/16GB",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:19.919Z",
+          "sourceSnapshotHash": "8ce3d70da3f8676e3ffb08082cedfb82d19351943472685ebe2e02ccadff3c5c"
         },
         "storage": {
           "value": "256GB / 512GB / 1TB",
-          "rawText": "机身存储：256GB / 512GB / 1TB",
+          "rawText": "机身存储（ROM） 256GB/512GB/1TB",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:19.919Z",
+          "sourceSnapshotHash": "8ce3d70da3f8676e3ffb08082cedfb82d19351943472685ebe2e02ccadff3c5c"
         },
         "rearCamera": {
           "value": "5000 万像素主摄 + 2 亿像素长焦 + 5000 万像素超广角",
-          "rawText": "后置摄像头像素：5000 万像素主摄 + 2 亿像素长焦 + 5000 万像素超广角",
+          "rawText": "后置摄像头像素 5000万像素一英寸云台级主摄 2亿像素蔡司APO超级长焦 5000万像素超低畸变超广角",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:19.919Z",
+          "sourceSnapshotHash": "8ce3d70da3f8676e3ffb08082cedfb82d19351943472685ebe2e02ccadff3c5c"
         },
         "mainCamera": {
           "value": "50MP（5000 万像素）23mm 主摄",
-          "rawText": "50MP（5000 万像素）23mm 主摄",
-          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+          "rawText": "一英寸云台级主摄 5000 万像素 ｜ 光喻 LYT-900 ｜ f/1.75 23mm 焦距",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://m.vivo.com.cn/vivo/x100ultra/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:54:24.591Z",
+          "sourceSnapshotHash": "b45f4fb93971b887908dc4ab39330cce4d4dcc52eac84f699ef9e3481f41deae"
         },
         "telephoto": {
           "value": "200MP（2 亿像素）85mm 长焦",
-          "rawText": "200MP（2 亿像素）85mm 长焦",
-          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+          "rawText": "蔡司 2 亿 APO 超级长焦 2 亿像素 ｜ HP9 ｜ 1/1.4\" ｜ f/2.67 85mm 焦距",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://m.vivo.com.cn/vivo/x100ultra/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:54:24.591Z",
+          "sourceSnapshotHash": "b45f4fb93971b887908dc4ab39330cce4d4dcc52eac84f699ef9e3481f41deae"
         },
         "frontCamera": {
           "value": "5000 万像素",
-          "rawText": "前置摄像头像素：5000 万像素",
+          "rawText": "前置摄像头像素 5000万像素",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:19.919Z",
+          "sourceSnapshotHash": "8ce3d70da3f8676e3ffb08082cedfb82d19351943472685ebe2e02ccadff3c5c"
         },
-        "batteryLife": {
-          "value": "5500mAh",
-          "rawText": "电池典型容量：5500mAh",
+        "batteryCapacity": {
+          "value": 5500,
+          "unit": "mAh",
+          "rawText": "典型容量：5500mAh",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:19.919Z",
+          "sourceSnapshotHash": "8ce3d70da3f8676e3ffb08082cedfb82d19351943472685ebe2e02ccadff3c5c"
         },
         "port": {
           "value": "USB Type-C",
-          "rawText": "USB 接口类型：Type-C",
+          "rawText": "USB接口类型 Type-C",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:19.919Z",
+          "sourceSnapshotHash": "8ce3d70da3f8676e3ffb08082cedfb82d19351943472685ebe2e02ccadff3c5c"
         },
         "launchPrice": {
           "value": 6499,
           "unit": "CNY",
           "rawText": "vivo X100 Ultra（12GB+256GB）：6499.00元",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07",
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:19.919Z",
+          "sourceSnapshotHash": "8ce3d70da3f8676e3ffb08082cedfb82d19351943472685ebe2e02ccadff3c5c",
           "priceType": "launch",
           "market": "中国大陆",
           "configuration": "12GB 运行内存 + 256GB 存储，中国大陆全网通版本",
           "condition": "中国大陆官方建议零售价"
+        },
+        "memoryType": {
+          "value": "LPDDR5X 四通道",
+          "rawText": "RAM类型 LPDDR5X 四通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:19.919Z",
+          "sourceSnapshotHash": "8ce3d70da3f8676e3ffb08082cedfb82d19351943472685ebe2e02ccadff3c5c"
+        },
+        "storageType": {
+          "value": "UFS4.0",
+          "rawText": "ROM类型 UFS4.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:19.919Z",
+          "sourceSnapshotHash": "8ce3d70da3f8676e3ffb08082cedfb82d19351943472685ebe2e02ccadff3c5c"
+        },
+        "chargingMethod": {
+          "value": "80W有线闪充&30W无线闪充 80W (支持11V/7.3A，兼容9V/2A或5V/2A）",
+          "rawText": "充电规格 80W有线闪充&30W无线闪充 80W (支持11V/7.3A，兼容9V/2A或5V/2A）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:19.919Z",
+          "sourceSnapshotHash": "8ce3d70da3f8676e3ffb08082cedfb82d19351943472685ebe2e02ccadff3c5c"
+        },
+        "operatingSystem": {
+          "value": "基于Android 14 开发的OriginOS 4",
+          "rawText": "操作系统 操作系统 基于Android 14 开发的OriginOS 4",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:19.919Z",
+          "sourceSnapshotHash": "8ce3d70da3f8676e3ffb08082cedfb82d19351943472685ebe2e02ccadff3c5c"
+        },
+        "security": {
+          "value": "3D超声波单点指纹 面部识别 支持",
+          "rawText": "指纹识别 3D超声波单点指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:19.919Z",
+          "sourceSnapshotHash": "8ce3d70da3f8676e3ffb08082cedfb82d19351943472685ebe2e02ccadff3c5c"
+        },
+        "wifi": {
+          "value": "支持频段WLAN 2.4G、WLAN 5G;支持功能包括Wi-Fi Display、2*2 MIMO、MU-MIMO、Wi-Fi 6、Wi-Fi 7、2.4G&5G双路并发",
+          "rawText": "数据连接 WLAN 支持频段WLAN 2.4G、WLAN 5G;支持功能包括Wi-Fi Display、2*2 MIMO、MU-MIMO、Wi-Fi 6、Wi-Fi 7、2.4G&5G双路并发",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:19.919Z",
+          "sourceSnapshotHash": "8ce3d70da3f8676e3ffb08082cedfb82d19351943472685ebe2e02ccadff3c5c"
+        },
+        "bluetooth": {
+          "value": "支持蓝牙5.4",
+          "rawText": "蓝牙传输 支持蓝牙5.4",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x100ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:19.919Z",
+          "sourceSnapshotHash": "8ce3d70da3f8676e3ffb08082cedfb82d19351943472685ebe2e02ccadff3c5c"
         }
       },
       "computed": {
@@ -194,15 +2901,48 @@
       "configurations": [
         {
           "memory": "12GB",
-          "storage": "256GB"
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "vivo X200 Ultra（12GB+256GB）：6499.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:53:20.056Z",
+            "sourceSnapshotHash": "1bf3b0f5c22abeda157e40ff4b8b669aacd7494ba9c5893f1e7de0dd92f7831e"
+          }
         },
         {
           "memory": "16GB",
-          "storage": "512GB"
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "vivo X200 Ultra（16GB+512GB）：6999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:53:20.056Z",
+            "sourceSnapshotHash": "1bf3b0f5c22abeda157e40ff4b8b669aacd7494ba9c5893f1e7de0dd92f7831e"
+          }
         },
         {
           "memory": "16GB",
-          "storage": "1TB"
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "vivo X200 Ultra（16GB+1TB卫星通信版）：7999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:53:20.056Z",
+            "sourceSnapshotHash": "1bf3b0f5c22abeda157e40ff4b8b669aacd7494ba9c5893f1e7de0dd92f7831e"
+          }
         }
       ],
       "benchmarks": [
@@ -212,137 +2952,244 @@
           "score": 167,
           "protocolVersion": "Camera v6",
           "sourceUrl": "https://www.dxomark.com/vivo-x200-ultra-camera-test/",
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "rawText": "167",
+          "publishedAt": "2025-08-06",
+          "fetchedAt": "2026-09-22T09:56:32.707Z",
+          "sourceSnapshotHash": "79ed9ee321e79bf0344d82e5d87c637b454623e0ad3cb71cf6a6fdb012421b70",
+          "notes": "相机综合测试分数，不等于单独拍照分；协议标签为大版本，具体小版本、测试固件及与国行配置的一致性未核验。"
         }
       ],
       "specs": {
         "chip": {
           "value": "高通 骁龙 8 至尊版",
-          "rawText": "CPU 型号：高通 骁龙 8 至尊版",
+          "rawText": "CPU型号 骁龙8至尊版移动平台",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.056Z",
+          "sourceSnapshotHash": "1bf3b0f5c22abeda157e40ff4b8b669aacd7494ba9c5893f1e7de0dd92f7831e"
         },
         "screenSize": {
           "value": 6.82,
           "unit": "inch",
-          "rawText": "屏幕尺寸：6.82 英寸",
+          "rawText": "尺寸（英寸） 6.82英寸",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.056Z",
+          "sourceSnapshotHash": "1bf3b0f5c22abeda157e40ff4b8b669aacd7494ba9c5893f1e7de0dd92f7831e"
         },
         "displayType": {
           "value": "AMOLED",
-          "rawText": "屏幕材质：AMOLED",
+          "rawText": "屏幕材质 AMOLED",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.056Z",
+          "sourceSnapshotHash": "1bf3b0f5c22abeda157e40ff4b8b669aacd7494ba9c5893f1e7de0dd92f7831e"
         },
         "resolution": {
           "value": "3168x1440",
-          "rawText": "分辨率：3168x1440",
+          "rawText": "分辨率 3168 x 1440",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.056Z",
+          "sourceSnapshotHash": "1bf3b0f5c22abeda157e40ff4b8b669aacd7494ba9c5893f1e7de0dd92f7831e"
         },
         "refreshRate": {
           "value": 120,
           "unit": "Hz",
-          "rawText": "最高支持 120Hz 刷新率",
+          "rawText": "刷新率 1-120Hz",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.056Z",
+          "sourceSnapshotHash": "1bf3b0f5c22abeda157e40ff4b8b669aacd7494ba9c5893f1e7de0dd92f7831e"
         },
         "weight": {
           "value": 232,
           "unit": "g",
-          "rawText": "机身重量：232g",
+          "rawText": "重量 黑Ka、红圈：232g 银调：229g",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.056Z",
+          "sourceSnapshotHash": "1bf3b0f5c22abeda157e40ff4b8b669aacd7494ba9c5893f1e7de0dd92f7831e",
+          "note": "黑Ka、红圈约232g；银调约229g"
         },
         "memory": {
           "value": "12GB / 16GB",
-          "rawText": "运行内存：12GB / 16GB",
+          "rawText": "运行内存（RAM） 12GB/16GB",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.056Z",
+          "sourceSnapshotHash": "1bf3b0f5c22abeda157e40ff4b8b669aacd7494ba9c5893f1e7de0dd92f7831e"
         },
         "storage": {
           "value": "256GB / 512GB / 1TB",
-          "rawText": "机身存储：256GB / 512GB / 1TB",
+          "rawText": "机身存储（ROM） 256GB/512GB/1TB",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.056Z",
+          "sourceSnapshotHash": "1bf3b0f5c22abeda157e40ff4b8b669aacd7494ba9c5893f1e7de0dd92f7831e"
         },
         "rearCamera": {
           "value": "5000 万像素 35mm 主摄 + 2 亿像素 85mm 长焦 + 5000 万像素 14mm 超广角",
-          "rawText": "后置摄像头像素：5000 万像素 35mm 主摄 + 2 亿像素 85mm 长焦 + 5000 万像素 14mm 超广角",
+          "rawText": "后置摄像头像素 5000万像素35mm 蔡司人文纪实镜头 2亿像素85mm 蔡司APO超级长焦镜头 II 5000万像素14mm 蔡司超广角镜头",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.056Z",
+          "sourceSnapshotHash": "1bf3b0f5c22abeda157e40ff4b8b669aacd7494ba9c5893f1e7de0dd92f7831e"
         },
         "mainCamera": {
           "value": "50MP（5000 万像素）35mm 主摄",
-          "rawText": "50MP（5000 万像素）35mm 主摄",
+          "rawText": "5000万像素35mm 蔡司人文纪实镜头",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.056Z",
+          "sourceSnapshotHash": "1bf3b0f5c22abeda157e40ff4b8b669aacd7494ba9c5893f1e7de0dd92f7831e"
         },
         "telephoto": {
           "value": "200MP（2 亿像素）85mm 长焦",
-          "rawText": "200MP（2 亿像素）85mm 长焦",
+          "rawText": "2亿像素85mm 蔡司APO超级长焦镜头 II",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.056Z",
+          "sourceSnapshotHash": "1bf3b0f5c22abeda157e40ff4b8b669aacd7494ba9c5893f1e7de0dd92f7831e"
         },
         "frontCamera": {
           "value": "5000 万像素",
-          "rawText": "前置摄像头像素：5000 万像素",
+          "rawText": "前置摄像头像素 5000万像素",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.056Z",
+          "sourceSnapshotHash": "1bf3b0f5c22abeda157e40ff4b8b669aacd7494ba9c5893f1e7de0dd92f7831e"
         },
-        "batteryLife": {
-          "value": "6000mAh",
-          "rawText": "电池典型容量：6000mAh",
+        "batteryCapacity": {
+          "value": 6000,
+          "unit": "mAh",
+          "rawText": "典型容量：6000mAh",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.056Z",
+          "sourceSnapshotHash": "1bf3b0f5c22abeda157e40ff4b8b669aacd7494ba9c5893f1e7de0dd92f7831e"
         },
         "port": {
           "value": "USB Type-C",
-          "rawText": "USB 接口类型：Type-C",
+          "rawText": "USB接口类型 Type-C",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.056Z",
+          "sourceSnapshotHash": "1bf3b0f5c22abeda157e40ff4b8b669aacd7494ba9c5893f1e7de0dd92f7831e"
         },
         "launchPrice": {
           "value": 6499,
           "unit": "CNY",
           "rawText": "vivo X200 Ultra（12GB+256GB）：6499.00元",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07",
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.056Z",
+          "sourceSnapshotHash": "1bf3b0f5c22abeda157e40ff4b8b669aacd7494ba9c5893f1e7de0dd92f7831e",
           "priceType": "launch",
           "market": "中国大陆",
           "configuration": "12GB 运行内存 + 256GB 存储，中国大陆全网通版本",
           "condition": "中国大陆官方建议零售价"
+        },
+        "memoryType": {
+          "value": "LPDDR5X Ultra 四通道",
+          "rawText": "RAM类型 LPDDR5X Ultra 四通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.056Z",
+          "sourceSnapshotHash": "1bf3b0f5c22abeda157e40ff4b8b669aacd7494ba9c5893f1e7de0dd92f7831e"
+        },
+        "chargingMethod": {
+          "value": "90W有线闪充&40W无线闪充",
+          "rawText": "充电规格 90W有线闪充&40W无线闪充",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.056Z",
+          "sourceSnapshotHash": "1bf3b0f5c22abeda157e40ff4b8b669aacd7494ba9c5893f1e7de0dd92f7831e"
+        },
+        "security": {
+          "value": "3D超声波单点指纹 面部识别 支持",
+          "rawText": "指纹识别 3D超声波单点指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.056Z",
+          "sourceSnapshotHash": "1bf3b0f5c22abeda157e40ff4b8b669aacd7494ba9c5893f1e7de0dd92f7831e"
+        },
+        "wifi": {
+          "value": "支持频段WLAN 2.4G、WLAN 5.1G、WLAN 5.8G;支持功能包括Wi-Fi Display、2*2 MIMO、MU-MIMO、Wi-Fi 6、Wi-Fi 7、2.4G&5G双路并发",
+          "rawText": "数据连接 WLAN 支持频段WLAN 2.4G、WLAN 5.1G、WLAN 5.8G;支持功能包括Wi-Fi Display、2*2 MIMO、MU-MIMO、Wi-Fi 6、Wi-Fi 7、2.4G&5G双路并发",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.056Z",
+          "sourceSnapshotHash": "1bf3b0f5c22abeda157e40ff4b8b669aacd7494ba9c5893f1e7de0dd92f7831e"
+        },
+        "bluetooth": {
+          "value": "支持蓝牙5.4",
+          "rawText": "蓝牙传输 支持蓝牙5.4",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x200ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.056Z",
+          "sourceSnapshotHash": "1bf3b0f5c22abeda157e40ff4b8b669aacd7494ba9c5893f1e7de0dd92f7831e"
         }
       },
       "computed": {}
@@ -364,19 +3211,63 @@
       "configurations": [
         {
           "memory": "12GB",
-          "storage": "256GB"
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "vivo X300 Ultra（12GB+256GB）：6999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:53:20.201Z",
+            "sourceSnapshotHash": "d83e5c8121993e86bfcc4cafc4069e1e4f9e5a923f53ae7c51eb6564399a8eeb"
+          }
         },
         {
           "memory": "12GB",
-          "storage": "512GB"
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "vivo X300 Ultra（12GB+512GB）：7499.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:53:20.201Z",
+            "sourceSnapshotHash": "d83e5c8121993e86bfcc4cafc4069e1e4f9e5a923f53ae7c51eb6564399a8eeb"
+          }
         },
         {
           "memory": "16GB",
-          "storage": "512GB"
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "vivo X300 Ultra（16GB+512GB）：7999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:53:20.201Z",
+            "sourceSnapshotHash": "d83e5c8121993e86bfcc4cafc4069e1e4f9e5a923f53ae7c51eb6564399a8eeb"
+          }
         },
         {
           "memory": "16GB",
-          "storage": "1TB"
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "vivo X300 Ultra（16GB+1TB卫星通信版）：8999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:53:20.201Z",
+            "sourceSnapshotHash": "d83e5c8121993e86bfcc4cafc4069e1e4f9e5a923f53ae7c51eb6564399a8eeb"
+          }
         }
       ],
       "benchmarks": [
@@ -386,137 +3277,244 @@
           "score": 170,
           "protocolVersion": "Camera v6",
           "sourceUrl": "https://www.dxomark.com/vivo-x300-ultra-camera-test/",
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "rawText": "170",
+          "publishedAt": "2026-06-01",
+          "fetchedAt": "2026-09-22T09:56:33.073Z",
+          "sourceSnapshotHash": "4f2e0bcb472dcf3988c059702491c57dc7ffc8373f9b2e2c5960527b51026de5",
+          "notes": "相机综合测试分数，不等于单独拍照分；协议标签为大版本，具体小版本、测试固件及与国行配置的一致性未核验。"
         }
       ],
       "specs": {
         "chip": {
           "value": "高通 第五代骁龙 8 至尊版",
-          "rawText": "CPU 型号：高通 第五代骁龙 8 至尊版",
+          "rawText": "CPU型号 第五代骁龙8至尊版移动平台",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.201Z",
+          "sourceSnapshotHash": "d83e5c8121993e86bfcc4cafc4069e1e4f9e5a923f53ae7c51eb6564399a8eeb"
         },
         "screenSize": {
           "value": 6.82,
           "unit": "inch",
-          "rawText": "屏幕尺寸：6.82 英寸",
+          "rawText": "尺寸（英寸） 6.82英寸",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.201Z",
+          "sourceSnapshotHash": "d83e5c8121993e86bfcc4cafc4069e1e4f9e5a923f53ae7c51eb6564399a8eeb"
         },
         "displayType": {
           "value": "AMOLED",
-          "rawText": "屏幕材质：AMOLED",
+          "rawText": "屏幕材质 AMOLED",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.201Z",
+          "sourceSnapshotHash": "d83e5c8121993e86bfcc4cafc4069e1e4f9e5a923f53ae7c51eb6564399a8eeb"
         },
         "resolution": {
           "value": "3168x1440",
-          "rawText": "分辨率：3168x1440",
+          "rawText": "分辨率 3168 x 1440",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.201Z",
+          "sourceSnapshotHash": "d83e5c8121993e86bfcc4cafc4069e1e4f9e5a923f53ae7c51eb6564399a8eeb"
         },
         "refreshRate": {
           "value": 144,
           "unit": "Hz",
-          "rawText": "最高支持 144Hz 刷新率",
+          "rawText": "刷新率 144Hz",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.201Z",
+          "sourceSnapshotHash": "d83e5c8121993e86bfcc4cafc4069e1e4f9e5a923f53ae7c51eb6564399a8eeb"
         },
         "weight": {
           "value": 232,
           "unit": "g",
-          "rawText": "机身重量：232g",
+          "rawText": "重量 黑Ka：232g 胶片绿、银调：237g",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.201Z",
+          "sourceSnapshotHash": "d83e5c8121993e86bfcc4cafc4069e1e4f9e5a923f53ae7c51eb6564399a8eeb",
+          "note": "黑Ka约232g；胶片绿、银调约237g"
         },
         "memory": {
           "value": "12GB / 16GB",
-          "rawText": "运行内存：12GB / 16GB",
+          "rawText": "运行内存（RAM） 12GB/16GB",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.201Z",
+          "sourceSnapshotHash": "d83e5c8121993e86bfcc4cafc4069e1e4f9e5a923f53ae7c51eb6564399a8eeb"
         },
         "storage": {
           "value": "256GB / 512GB / 1TB",
-          "rawText": "机身存储：256GB / 512GB / 1TB",
+          "rawText": "机身存储（ROM） 256GB/512GB/1TB",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.201Z",
+          "sourceSnapshotHash": "d83e5c8121993e86bfcc4cafc4069e1e4f9e5a923f53ae7c51eb6564399a8eeb"
         },
         "rearCamera": {
           "value": "2 亿像素 35mm 主摄 + 2 亿像素 85mm 长焦 + 5000 万像素 14mm 超广角",
-          "rawText": "后置摄像头像素：2 亿像素 35mm 主摄 + 2 亿像素 85mm 长焦 + 5000 万像素 14mm 超广角",
+          "rawText": "后置摄像头像素 2亿像素35mm 蔡司人文纪实镜头 II 2亿像素85mm 蔡司云台级长焦镜头 5000万像素14mm 蔡司超广角镜头",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.201Z",
+          "sourceSnapshotHash": "d83e5c8121993e86bfcc4cafc4069e1e4f9e5a923f53ae7c51eb6564399a8eeb"
         },
         "mainCamera": {
           "value": "200MP（2 亿像素）35mm 主摄",
-          "rawText": "200MP（2 亿像素）35mm 主摄",
+          "rawText": "2亿像素35mm 蔡司人文纪实镜头 II",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.201Z",
+          "sourceSnapshotHash": "d83e5c8121993e86bfcc4cafc4069e1e4f9e5a923f53ae7c51eb6564399a8eeb"
         },
         "telephoto": {
           "value": "200MP（2 亿像素）85mm 长焦",
-          "rawText": "200MP（2 亿像素）85mm 长焦",
+          "rawText": "2亿像素85mm 蔡司云台级长焦镜头",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.201Z",
+          "sourceSnapshotHash": "d83e5c8121993e86bfcc4cafc4069e1e4f9e5a923f53ae7c51eb6564399a8eeb"
         },
         "frontCamera": {
           "value": "5000 万像素",
-          "rawText": "前置摄像头像素：5000 万像素",
+          "rawText": "前置摄像头像素 5000万像素",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.201Z",
+          "sourceSnapshotHash": "d83e5c8121993e86bfcc4cafc4069e1e4f9e5a923f53ae7c51eb6564399a8eeb"
         },
-        "batteryLife": {
-          "value": "6600mAh",
-          "rawText": "电池典型容量：6600mAh",
+        "batteryCapacity": {
+          "value": 6600,
+          "unit": "mAh",
+          "rawText": "典型容量：6600mAh",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.201Z",
+          "sourceSnapshotHash": "d83e5c8121993e86bfcc4cafc4069e1e4f9e5a923f53ae7c51eb6564399a8eeb"
         },
         "port": {
           "value": "USB Type-C",
-          "rawText": "USB 接口类型：Type-C",
+          "rawText": "USB接口类型 Type-C",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.201Z",
+          "sourceSnapshotHash": "d83e5c8121993e86bfcc4cafc4069e1e4f9e5a923f53ae7c51eb6564399a8eeb"
         },
         "launchPrice": {
           "value": 6999,
           "unit": "CNY",
           "rawText": "vivo X300 Ultra（12GB+256GB）：6999.00元",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07",
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.201Z",
+          "sourceSnapshotHash": "d83e5c8121993e86bfcc4cafc4069e1e4f9e5a923f53ae7c51eb6564399a8eeb",
           "priceType": "launch",
           "market": "中国大陆",
           "configuration": "12GB 运行内存 + 256GB 存储，中国大陆全网通版本",
           "condition": "中国大陆官方建议零售价"
+        },
+        "memoryType": {
+          "value": "LPDDR5X Ultra 四通道 LPDDR5X Ultra Pro 四通道【仅X300 Ultra 16GB+1TB卫星通信版本搭载。】",
+          "rawText": "RAM类型 LPDDR5X Ultra 四通道 LPDDR5X Ultra Pro 四通道【仅X300 Ultra 16GB+1TB卫星通信版本搭载。】",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.201Z",
+          "sourceSnapshotHash": "d83e5c8121993e86bfcc4cafc4069e1e4f9e5a923f53ae7c51eb6564399a8eeb"
+        },
+        "chargingMethod": {
+          "value": "100W有线充电器&40W无线闪充",
+          "rawText": "充电规格 100W有线充电器&40W无线闪充",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.201Z",
+          "sourceSnapshotHash": "d83e5c8121993e86bfcc4cafc4069e1e4f9e5a923f53ae7c51eb6564399a8eeb"
+        },
+        "security": {
+          "value": "3D超声波单点指纹 面部识别 支持",
+          "rawText": "指纹识别 3D超声波单点指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.201Z",
+          "sourceSnapshotHash": "d83e5c8121993e86bfcc4cafc4069e1e4f9e5a923f53ae7c51eb6564399a8eeb"
+        },
+        "wifi": {
+          "value": "支持频段WLAN 2.4G、WLAN 5G;支持功能包括Wi-Fi Display、2*2 MIMO、MU-MIMO、Wi-Fi 6、Wi-Fi 7、2.4G&5G双路并发",
+          "rawText": "数据连接 WLAN 支持频段WLAN 2.4G、WLAN 5G;支持功能包括Wi-Fi Display、2*2 MIMO、MU-MIMO、Wi-Fi 6、Wi-Fi 7、2.4G&5G双路并发",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.201Z",
+          "sourceSnapshotHash": "d83e5c8121993e86bfcc4cafc4069e1e4f9e5a923f53ae7c51eb6564399a8eeb"
+        },
+        "bluetooth": {
+          "value": "支持蓝牙5.4",
+          "rawText": "蓝牙传输 支持蓝牙5.4",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/x300ultra",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:53:20.201Z",
+          "sourceSnapshotHash": "d83e5c8121993e86bfcc4cafc4069e1e4f9e5a923f53ae7c51eb6564399a8eeb"
         }
       },
       "computed": {}

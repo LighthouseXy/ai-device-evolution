@@ -1,0 +1,1343 @@
+{
+  "tablet": [
+    {
+      "id": "huawei-matepad-pro-12-2026",
+      "modelName": "HUAWEI MatePad Pro 12 (2026)",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "officialSpecUrl": "https://consumer.huawei.com/cn/tablets/matepad-pro-12/specs/",
+      "referenceUrls": [
+        "https://consumer.huawei.com/cn/tablets/matepad-pro-12/specs/",
+        "https://consumer.huawei.com/cn/support/content/zh-cn16101616/",
+        "https://www.ithome.com/0/989/598.htm",
+        "https://www.ithome.com/0/986/155.htm"
+      ],
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "HUAWEI MatePad Pro 12 英寸规格参数",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-pro-12/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:42:55.618Z",
+        "sourceSnapshotHash": "af8c7ed18cbb2665b5c8314e64be9082221727a13d86a2e134fd83b24e72fb17"
+      },
+      "releaseEvidence": {
+        "value": "2026-08-14",
+        "rawText": "8 月 14 日，全新华为 MatePad Pro 12 英寸正式全渠道开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/989/598.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:42:55.863Z",
+        "sourceSnapshotHash": "e615497fcd97ee9658d645291e1c63bfb03fe3a186db95e135f1234e65f577a9",
+        "supportingEvidence": {
+          "value": "2026-08-14",
+          "rawText": "2026/8/14",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/989/598.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:42:55.863Z",
+          "sourceSnapshotHash": "e615497fcd97ee9658d645291e1c63bfb03fe3a186db95e135f1234e65f577a9"
+        }
+      },
+      "configurationEvidence": {
+        "value": "12GB+256GB",
+        "rawText": "适用产品： HUAWEI MatePad Pro(12英寸 悦享款 wifi 12gb+256gb、12英寸 wifi 12gb+512gb 柔光版 凝光工艺（含键盘）、12英寸 悦享款 wifi 12gb+256gb 柔光版、12英寸 wifi 12gb+256gb 柔光版 凝光工艺、12英寸 悦享款 wifi 12gb+512gb（含键盘）、12英寸 wifi 12gb+256gb、12英寸 wifi 12gb+512gb 凝光工艺（含键盘）) 适用版本",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16101616/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:44:51.474Z",
+        "sourceSnapshotHash": "0af05f5c2d775d7d28e20b0e8be287391bdd812959da3410c74e7f72e228ae0c"
+      },
+      "edition": "HUAWEI MatePad Pro 12",
+      "excludedConfigurations": "未跨配规格总页RAM/ROM；未将柔光、悦享、典藏及配件套装混入当前主机版型。",
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验该版型首发定价；促销、国补、教育优惠及当前官网起价不作首发价。"
+        }
+      ],
+      "notes": "只收标准屏独立主机12+256；512GB官网列为凝光工艺含键盘套装，未将套装伪成独立标准主机。首发价尚无可信逐SKU发布价证据，留空。 66W依据包装内适配器额定功率，不将40W反向功率当作输入充电功率。",
+      "sourceSnapshots": [
+        {
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-pro-12/specs/",
+          "sourceSnapshotHash": "af8c7ed18cbb2665b5c8314e64be9082221727a13d86a2e134fd83b24e72fb17",
+          "fetchedAt": "2026-10-05T20:42:55.618Z"
+        },
+        {
+          "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16101616/",
+          "sourceSnapshotHash": "0af05f5c2d775d7d28e20b0e8be287391bdd812959da3410c74e7f72e228ae0c",
+          "fetchedAt": "2026-10-05T20:44:51.474Z"
+        },
+        {
+          "sourceUrl": "https://www.ithome.com/0/989/598.htm",
+          "sourceSnapshotHash": "e615497fcd97ee9658d645291e1c63bfb03fe3a186db95e135f1234e65f577a9",
+          "fetchedAt": "2026-10-05T20:42:55.863Z"
+        },
+        {
+          "sourceUrl": "https://www.ithome.com/0/986/155.htm",
+          "sourceSnapshotHash": "ff9b6033c959abf7e348b866a7c4c2de7d11982ac409d23f091a098a3f6df802",
+          "fetchedAt": "2026-10-05T20:42:55.946Z"
+        }
+      ],
+      "primaryImageCandidate": {
+        "page": "pro12",
+        "targetIds": [
+          "huawei-matepad-pro-12-2026"
+        ],
+        "color": "皓月银",
+        "primary": true,
+        "relativeUrl": "/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-pro-12/specs/silver.png",
+        "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-pro-12/specs/silver.png",
+        "anchor": "<img src=\"/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-pro-12/specs/silver.png\" alt=\"皓月银\"/>",
+        "sourceSnapshotHash": "af8c7ed18cbb2665b5c8314e64be9082221727a13d86a2e134fd83b24e72fb17",
+        "sha256": "9fc73d93e26bbd956ade7355c8589f02d33f609f447b33b733795a96681d3eac",
+        "bytes": 283266,
+        "width": 756,
+        "height": 960,
+        "visualReview": "实际银色背面产品图，圆形相机模组、有闪光灯；无CPU、容量或套装文字。未自动用于缺红枫的悦享款。",
+        "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-pro-12/specs/",
+        "imageScope": "model_shared",
+        "licenseStatus": "unknown",
+        "status": "downloaded_and_visually_reviewed",
+        "note": "同型号共用外观图，不对应特定内存/硬盘配置"
+      },
+      "colorImageCandidates": [
+        {
+          "page": "pro12",
+          "targetIds": [
+            "huawei-matepad-pro-12-2026"
+          ],
+          "color": "皓月银",
+          "primary": true,
+          "relativeUrl": "/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-pro-12/specs/silver.png",
+          "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-pro-12/specs/silver.png",
+          "anchor": "<img src=\"/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-pro-12/specs/silver.png\" alt=\"皓月银\"/>",
+          "sourceSnapshotHash": "af8c7ed18cbb2665b5c8314e64be9082221727a13d86a2e134fd83b24e72fb17",
+          "sha256": "9fc73d93e26bbd956ade7355c8589f02d33f609f447b33b733795a96681d3eac",
+          "bytes": 283266,
+          "width": 756,
+          "height": 960,
+          "visualReview": "实际银色背面产品图，圆形相机模组、有闪光灯；无CPU、容量或套装文字。未自动用于缺红枫的悦享款。",
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-pro-12/specs/",
+          "imageScope": "model_shared",
+          "licenseStatus": "unknown",
+          "status": "downloaded_and_visually_reviewed",
+          "note": "同型号共用外观图，不对应特定内存/硬盘配置"
+        }
+      ],
+      "imageFieldGaps": [
+        {
+          "field": "colors",
+          "reason": "官网总页汇集普通、悦享、凝光颜色；未逐SKU核验标准屏颜色适用范围，不把系列全色当该版型全色。"
+        }
+      ]
+    },
+    {
+      "id": "huawei-matepad-pro-12-yuexiang-2026",
+      "modelName": "HUAWEI MatePad Pro 12 悦享款 (2026)",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "officialSpecUrl": "https://consumer.huawei.com/cn/tablets/matepad-pro-12/specs/",
+      "referenceUrls": [
+        "https://consumer.huawei.com/cn/tablets/matepad-pro-12/specs/",
+        "https://consumer.huawei.com/cn/support/content/zh-cn16101616/",
+        "https://www.ithome.com/0/989/598.htm",
+        "https://www.ithome.com/0/986/155.htm"
+      ],
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "HUAWEI MatePad Pro 12 英寸规格参数",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-pro-12/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:42:55.618Z",
+        "sourceSnapshotHash": "af8c7ed18cbb2665b5c8314e64be9082221727a13d86a2e134fd83b24e72fb17"
+      },
+      "releaseEvidence": {
+        "value": "2026-08-14",
+        "rawText": "8 月 14 日，全新华为 MatePad Pro 12 英寸正式全渠道开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/989/598.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:42:55.863Z",
+        "sourceSnapshotHash": "e615497fcd97ee9658d645291e1c63bfb03fe3a186db95e135f1234e65f577a9",
+        "supportingEvidence": {
+          "value": "2026-08-14",
+          "rawText": "2026/8/14",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/989/598.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:42:55.863Z",
+          "sourceSnapshotHash": "e615497fcd97ee9658d645291e1c63bfb03fe3a186db95e135f1234e65f577a9"
+        }
+      },
+      "configurationEvidence": {
+        "value": "12GB+256GB",
+        "rawText": "适用产品： HUAWEI MatePad Pro(12英寸 悦享款 wifi 12gb+256gb、12英寸 wifi 12gb+512gb 柔光版 凝光工艺（含键盘）、12英寸 悦享款 wifi 12gb+256gb 柔光版、12英寸 wifi 12gb+256gb 柔光版 凝光工艺、12英寸 悦享款 wifi 12gb+512gb（含键盘）、12英寸 wifi 12gb+256gb、12英寸 wifi 12gb+512gb 凝光工艺（含键盘）) 适用版本",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16101616/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:44:51.474Z",
+        "sourceSnapshotHash": "0af05f5c2d775d7d28e20b0e8be287391bdd812959da3410c74e7f72e228ae0c"
+      },
+      "edition": "HUAWEI MatePad Pro 12 悦享款",
+      "excludedConfigurations": "未跨配规格总页RAM/ROM；未将柔光、悦享、典藏及配件套装混入当前主机版型。",
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验该版型首发定价；促销、国补、教育优惠及当前官网起价不作首发价。"
+        }
+      ],
+      "notes": "悦享款T93A独立分组；不混用T93、柔光屏或含键盘配置。首发价未独立核验，留空。 66W依据包装内适配器额定功率，不将40W反向功率当作输入充电功率。",
+      "sourceSnapshots": [
+        {
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-pro-12/specs/",
+          "sourceSnapshotHash": "af8c7ed18cbb2665b5c8314e64be9082221727a13d86a2e134fd83b24e72fb17",
+          "fetchedAt": "2026-10-05T20:42:55.618Z"
+        },
+        {
+          "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16101616/",
+          "sourceSnapshotHash": "0af05f5c2d775d7d28e20b0e8be287391bdd812959da3410c74e7f72e228ae0c",
+          "fetchedAt": "2026-10-05T20:44:51.474Z"
+        },
+        {
+          "sourceUrl": "https://www.ithome.com/0/989/598.htm",
+          "sourceSnapshotHash": "e615497fcd97ee9658d645291e1c63bfb03fe3a186db95e135f1234e65f577a9",
+          "fetchedAt": "2026-10-05T20:42:55.863Z"
+        },
+        {
+          "sourceUrl": "https://www.ithome.com/0/986/155.htm",
+          "sourceSnapshotHash": "ff9b6033c959abf7e348b866a7c4c2de7d11982ac409d23f091a098a3f6df802",
+          "fetchedAt": "2026-10-05T20:42:55.946Z"
+        }
+      ],
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "官网图为跨版型规格总图；未证明该独立悦享款或柔光款外观绑定，不自动套图。"
+        },
+        {
+          "field": "colors",
+          "reason": "官网总页汇集普通、悦享、凝光颜色；未逐SKU核验标准屏颜色适用范围，不把系列全色当该版型全色。"
+        }
+      ]
+    },
+    {
+      "id": "huawei-matepad-pro-max-2026",
+      "modelName": "HUAWEI MatePad Pro Max (2026)",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "officialSpecUrl": "https://consumer.huawei.com/cn/tablets/matepad-pro-max/specs/",
+      "referenceUrls": [
+        "https://consumer.huawei.com/cn/tablets/matepad-pro-max/specs/",
+        "https://www.ithome.com/0/958/238.htm",
+        "https://www.ithome.com/0/958/320.htm"
+      ],
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "HUAWEI MatePad Pro Max 规格参数",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-pro-max/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:42:55.744Z",
+        "sourceSnapshotHash": "42ff57ce3651800ced3454b67eb7094b1120ed97f52707badc6369801cf43834"
+      },
+      "releaseEvidence": {
+        "value": "2026-06-01",
+        "rawText": "目前，华为 MatePad Pro Max 已正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/958/320.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:44:52.380Z",
+        "sourceSnapshotHash": "58ce8507e25d731b64f182737e62812cee9f8176096cd85f3be091cf38735069",
+        "supportingEvidence": {
+          "value": "2026-06-01",
+          "rawText": "2026/6/1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/958/320.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:44:52.380Z",
+          "sourceSnapshotHash": "58ce8507e25d731b64f182737e62812cee9f8176096cd85f3be091cf38735069"
+        }
+      },
+      "configurationEvidence": {
+        "value": "12GB+256GB / 12GB+512GB",
+        "rawText": "华为 MatePad Pro Max 12GB+256GB：6199 元 12GB+512GB：7199 元 12GB+256GB（柔光版 | 凝光工艺）：7399 元 12GB+512GB（柔光版 | 凝光工艺）：8399 元 20GB+1TB（柔光版 | 凝光工艺 | 含华为星跃键盘）：12999 元 华为 MatePad Pro Max 悦享款",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/958/238.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:43:28.774Z",
+        "sourceSnapshotHash": "cade866f4e20f04da7f26eb51afc0001f058d2d4f6d463ee1a8a7e158ae223db"
+      },
+      "edition": "HUAWEI MatePad Pro Max",
+      "excludedConfigurations": "未跨配规格总页RAM/ROM；未将柔光、悦享、典藏及配件套装混入当前主机版型。",
+      "fieldGaps": [],
+      "notes": "仅普通屏主机；柔光凝光工艺及20+1TB含键盘套装不混入。 官网包装为66W适配器；反向40W非前向充电。媒体提到最大120W，但本批不把未独立官网确认的上限写为前向快充。",
+      "sourceSnapshots": [
+        {
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-pro-max/specs/",
+          "sourceSnapshotHash": "42ff57ce3651800ced3454b67eb7094b1120ed97f52707badc6369801cf43834",
+          "fetchedAt": "2026-10-05T20:42:55.744Z"
+        },
+        {
+          "sourceUrl": "https://www.ithome.com/0/958/238.htm",
+          "sourceSnapshotHash": "cade866f4e20f04da7f26eb51afc0001f058d2d4f6d463ee1a8a7e158ae223db",
+          "fetchedAt": "2026-10-05T20:43:28.774Z"
+        },
+        {
+          "sourceUrl": "https://www.ithome.com/0/958/320.htm",
+          "sourceSnapshotHash": "58ce8507e25d731b64f182737e62812cee9f8176096cd85f3be091cf38735069",
+          "fetchedAt": "2026-10-05T20:44:52.380Z"
+        }
+      ],
+      "primaryImageCandidate": {
+        "page": "max",
+        "targetIds": [
+          "huawei-matepad-pro-max-2026"
+        ],
+        "color": "皓月银",
+        "primary": true,
+        "relativeUrl": "/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-pro-max/specs/silver.png",
+        "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-pro-max/specs/silver.png",
+        "anchor": "<img src=\"/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-pro-max/specs/silver.png\" alt=\"皓月银\"/>",
+        "sourceSnapshotHash": "42ff57ce3651800ced3454b67eb7094b1120ed97f52707badc6369801cf43834",
+        "sha256": "03dbeccaa603f64eeaa92147401b7a7a59018a23c77f139aae4fef33cc4499cf",
+        "bytes": 248907,
+        "width": 756,
+        "height": 960,
+        "visualReview": "实际银色背面产品图，宽屏比例与Pro12不同，独立Max原页图且不同字节哈希；未自动用于悦享款。",
+        "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-pro-max/specs/",
+        "imageScope": "model_shared",
+        "licenseStatus": "unknown",
+        "status": "downloaded_and_visually_reviewed",
+        "note": "同型号共用外观图，不对应特定内存/硬盘配置"
+      },
+      "colorImageCandidates": [
+        {
+          "page": "max",
+          "targetIds": [
+            "huawei-matepad-pro-max-2026"
+          ],
+          "color": "皓月银",
+          "primary": true,
+          "relativeUrl": "/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-pro-max/specs/silver.png",
+          "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-pro-max/specs/silver.png",
+          "anchor": "<img src=\"/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-pro-max/specs/silver.png\" alt=\"皓月银\"/>",
+          "sourceSnapshotHash": "42ff57ce3651800ced3454b67eb7094b1120ed97f52707badc6369801cf43834",
+          "sha256": "03dbeccaa603f64eeaa92147401b7a7a59018a23c77f139aae4fef33cc4499cf",
+          "bytes": 248907,
+          "width": 756,
+          "height": 960,
+          "visualReview": "实际银色背面产品图，宽屏比例与Pro12不同，独立Max原页图且不同字节哈希；未自动用于悦享款。",
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-pro-max/specs/",
+          "imageScope": "model_shared",
+          "licenseStatus": "unknown",
+          "status": "downloaded_and_visually_reviewed",
+          "note": "同型号共用外观图，不对应特定内存/硬盘配置"
+        }
+      ],
+      "imageFieldGaps": [
+        {
+          "field": "colors",
+          "reason": "官网总页汇集普通、悦享、凝光颜色；未逐SKU核验标准屏颜色适用范围，不把系列全色当该版型全色。"
+        }
+      ]
+    },
+    {
+      "id": "huawei-matepad-pro-max-yuexiang-2026",
+      "modelName": "HUAWEI MatePad Pro Max 悦享款 (2026)",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "officialSpecUrl": "https://consumer.huawei.com/cn/tablets/matepad-pro-max/specs/",
+      "referenceUrls": [
+        "https://consumer.huawei.com/cn/tablets/matepad-pro-max/specs/",
+        "https://www.ithome.com/0/958/238.htm",
+        "https://www.ithome.com/0/958/320.htm"
+      ],
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "HUAWEI MatePad Pro Max 规格参数",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-pro-max/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:42:55.744Z",
+        "sourceSnapshotHash": "42ff57ce3651800ced3454b67eb7094b1120ed97f52707badc6369801cf43834"
+      },
+      "releaseEvidence": {
+        "value": "2026-06-01",
+        "rawText": "目前，华为 MatePad Pro Max 已正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/958/320.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:44:52.380Z",
+        "sourceSnapshotHash": "58ce8507e25d731b64f182737e62812cee9f8176096cd85f3be091cf38735069",
+        "supportingEvidence": {
+          "value": "2026-06-01",
+          "rawText": "2026/6/1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/958/320.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:44:52.380Z",
+          "sourceSnapshotHash": "58ce8507e25d731b64f182737e62812cee9f8176096cd85f3be091cf38735069"
+        }
+      },
+      "configurationEvidence": {
+        "value": "12GB+256GB / 12GB+512GB / 16GB+512GB",
+        "rawText": "华为 MatePad Pro Max 悦享款 12GB+256GB：5999 元 12GB+512GB：6999 元 16GB+512GB：7999 元 16GB+512GB（含华为星跃键盘）：8899 元 据介绍",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/958/238.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:43:28.774Z",
+        "sourceSnapshotHash": "cade866f4e20f04da7f26eb51afc0001f058d2d4f6d463ee1a8a7e158ae223db"
+      },
+      "edition": "HUAWEI MatePad Pro Max 悦享款",
+      "excludedConfigurations": "未跨配规格总页RAM/ROM；未将柔光、悦享、典藏及配件套装混入当前主机版型。",
+      "fieldGaps": [],
+      "notes": "悦享款T93独立组；16+512含键盘8899套装不重复作主机配置。 官网包装为66W适配器；反向40W非前向充电。媒体提到最大120W，但本批不把未独立官网确认的上限写为前向快充。",
+      "sourceSnapshots": [
+        {
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-pro-max/specs/",
+          "sourceSnapshotHash": "42ff57ce3651800ced3454b67eb7094b1120ed97f52707badc6369801cf43834",
+          "fetchedAt": "2026-10-05T20:42:55.744Z"
+        },
+        {
+          "sourceUrl": "https://www.ithome.com/0/958/238.htm",
+          "sourceSnapshotHash": "cade866f4e20f04da7f26eb51afc0001f058d2d4f6d463ee1a8a7e158ae223db",
+          "fetchedAt": "2026-10-05T20:43:28.774Z"
+        },
+        {
+          "sourceUrl": "https://www.ithome.com/0/958/320.htm",
+          "sourceSnapshotHash": "58ce8507e25d731b64f182737e62812cee9f8176096cd85f3be091cf38735069",
+          "fetchedAt": "2026-10-05T20:44:52.380Z"
+        }
+      ],
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "官网图为跨版型规格总图；未证明该独立悦享款或柔光款外观绑定，不自动套图。"
+        },
+        {
+          "field": "colors",
+          "reason": "官网总页汇集普通、悦享、凝光颜色；未逐SKU核验标准屏颜色适用范围，不把系列全色当该版型全色。"
+        }
+      ]
+    },
+    {
+      "id": "huawei-matepad-air-z-2026",
+      "modelName": "HUAWEI MatePad Air Z (2026)",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "officialSpecUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+      "referenceUrls": [
+        "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+        "https://www.ithome.com/1/008/212.htm",
+        "https://consumer.huawei.com/cn/tablets/matepad-air-z/",
+        "https://www.ithome.com/1/006/535.htm"
+      ],
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "HUAWEI MatePad Air Z 规格参数",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:43:29.974Z",
+        "sourceSnapshotHash": "2604523ed7b58939fb2e6f5546624d3d6a1d3d8d7a3eee3e44cb8c9c2d3ba0c3"
+      },
+      "releaseEvidence": {
+        "value": "2026-09-29",
+        "rawText": "IT之家 9 月 29 日消息，华为 MatePad Air Z 平板今日正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/1/008/212.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:45:14.901Z",
+        "sourceSnapshotHash": "06ee432a2d38233639af65feb247935bfb729e4595a72fc99eb9f607ac69d4a2",
+        "supportingEvidence": {
+          "value": "2026-09-29",
+          "rawText": "2026/9/29",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/1/008/212.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:14.901Z",
+          "sourceSnapshotHash": "06ee432a2d38233639af65feb247935bfb729e4595a72fc99eb9f607ac69d4a2"
+        }
+      },
+      "configurationEvidence": {
+        "value": "8GB+256GB / 12GB+256GB",
+        "rawText": "华为 MatePad Air Z 8GB+256GB 版 3699 元 8GB+256GB / 柔光版 4299 元 12GB+256GB 版 4399 元 12GB+256GB / 柔光版 4999 元 华为 MatePad Air Z 悦享款",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/1/008/212.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:45:14.901Z",
+        "sourceSnapshotHash": "06ee432a2d38233639af65feb247935bfb729e4595a72fc99eb9f607ac69d4a2"
+      },
+      "edition": "HUAWEI MatePad Air Z",
+      "excludedConfigurations": "未跨配规格总页RAM/ROM；未将柔光、悦享、典藏及配件套装混入当前主机版型。",
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验该版型首发定价；促销、国补、教育优惠及当前官网起价不作首发价。"
+        }
+      ],
+      "notes": "标准屏T93SD；当日有200元优惠与国补，不将活动价当首发定价。",
+      "sourceSnapshots": [
+        {
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+          "sourceSnapshotHash": "2604523ed7b58939fb2e6f5546624d3d6a1d3d8d7a3eee3e44cb8c9c2d3ba0c3",
+          "fetchedAt": "2026-10-05T20:43:29.974Z"
+        },
+        {
+          "sourceUrl": "https://www.ithome.com/1/008/212.htm",
+          "sourceSnapshotHash": "06ee432a2d38233639af65feb247935bfb729e4595a72fc99eb9f607ac69d4a2",
+          "fetchedAt": "2026-10-05T20:45:14.901Z"
+        },
+        {
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/",
+          "sourceSnapshotHash": "88a377e4141bc4515bee58d65cdf4b352906ad02b5b960bb27facbaaf07fe183",
+          "fetchedAt": "2026-10-05T20:43:31.360Z"
+        },
+        {
+          "sourceUrl": "https://www.ithome.com/1/006/535.htm",
+          "sourceSnapshotHash": "1830d5d947b488ab4a9897ea539acafc45309e15ad21ec5bc06fceef6210a2b8",
+          "fetchedAt": "2026-10-05T20:42:55.989Z"
+        }
+      ],
+      "colorEvidence": {
+        "value": "珊瑚橙，海岛蓝，深空灰",
+        "rawText": "珊瑚橙，海岛蓝，深空灰",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:43:29.974Z",
+        "sourceSnapshotHash": "2604523ed7b58939fb2e6f5546624d3d6a1d3d8d7a3eee3e44cb8c9c2d3ba0c3"
+      },
+      "colorBindingEvidence": {
+        "value": "珊瑚橙，海岛蓝，深空灰",
+        "rawText": "标准版配备海岛蓝、珊瑚橙、深空灰颜色",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/1/008/212.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:45:14.901Z",
+        "sourceSnapshotHash": "06ee432a2d38233639af65feb247935bfb729e4595a72fc99eb9f607ac69d4a2"
+      },
+      "primaryImageCandidate": {
+        "page": "airz",
+        "targetIds": [
+          "huawei-matepad-air-z-2026",
+          "huawei-matepad-air-z-paper-2026"
+        ],
+        "color": "珊瑚橙",
+        "primary": true,
+        "relativeUrl": "/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/orange.png",
+        "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/orange.png",
+        "anchor": "<img src=\"/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/orange.png\" alt=\"珊瑚橙\"/>",
+        "sourceSnapshotHash": "2604523ed7b58939fb2e6f5546624d3d6a1d3d8d7a3eee3e44cb8c9c2d3ba0c3",
+        "sha256": "cde58ec5a1c4e8996ddc30d99c5c12e564b6dc0265c1556b2143c8440d0ac107",
+        "bytes": 596686,
+        "width": 800,
+        "height": 800,
+        "visualReview": "实际橙色背面，有LED闪光灯；同型号普通与柔光外观参考，不证明内部T93SD/T93S或RAM配置。官网脚注明确两个芯片；普通/柔光SKU分别核验。",
+        "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+        "imageScope": "model_shared",
+        "licenseStatus": "unknown",
+        "status": "downloaded_and_visually_reviewed",
+        "note": "同型号共用外观图，不对应特定内存/硬盘配置"
+      },
+      "colorImageCandidates": [
+        {
+          "page": "airz",
+          "targetIds": [
+            "huawei-matepad-air-z-2026",
+            "huawei-matepad-air-z-paper-2026"
+          ],
+          "color": "珊瑚橙",
+          "primary": true,
+          "relativeUrl": "/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/orange.png",
+          "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/orange.png",
+          "anchor": "<img src=\"/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/orange.png\" alt=\"珊瑚橙\"/>",
+          "sourceSnapshotHash": "2604523ed7b58939fb2e6f5546624d3d6a1d3d8d7a3eee3e44cb8c9c2d3ba0c3",
+          "sha256": "cde58ec5a1c4e8996ddc30d99c5c12e564b6dc0265c1556b2143c8440d0ac107",
+          "bytes": 596686,
+          "width": 800,
+          "height": 800,
+          "visualReview": "实际橙色背面，有LED闪光灯；同型号普通与柔光外观参考，不证明内部T93SD/T93S或RAM配置。官网脚注明确两个芯片；普通/柔光SKU分别核验。",
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+          "imageScope": "model_shared",
+          "licenseStatus": "unknown",
+          "status": "downloaded_and_visually_reviewed",
+          "note": "同型号共用外观图，不对应特定内存/硬盘配置"
+        },
+        {
+          "page": "airz",
+          "targetIds": [
+            "huawei-matepad-air-z-2026",
+            "huawei-matepad-air-z-paper-2026"
+          ],
+          "color": "海岛蓝",
+          "relativeUrl": "/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/blue.png",
+          "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/blue.png",
+          "anchor": "<img src=\"/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/blue.png\" alt=\"海岛蓝\"/>",
+          "sourceSnapshotHash": "2604523ed7b58939fb2e6f5546624d3d6a1d3d8d7a3eee3e44cb8c9c2d3ba0c3",
+          "sha256": "ad3d9ef5d99135a6fcf9a6c47aeb5fbd79ad39efebe758f86134e7010c999f1f",
+          "bytes": 550298,
+          "width": 800,
+          "height": 800,
+          "visualReview": "实际蓝色背面，有LED闪光灯；同型号普通/柔光共用外观参考，不证明芯片或内存。",
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+          "imageScope": "model_shared",
+          "licenseStatus": "unknown",
+          "status": "downloaded_and_visually_reviewed",
+          "note": "同型号共用外观图，不对应特定内存/硬盘配置"
+        },
+        {
+          "page": "airz",
+          "targetIds": [
+            "huawei-matepad-air-z-2026",
+            "huawei-matepad-air-z-paper-2026"
+          ],
+          "color": "深空灰",
+          "relativeUrl": "/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/grey.png",
+          "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/grey.png",
+          "anchor": "<img src=\"/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/grey.png\" alt=\"深空灰\"/>",
+          "sourceSnapshotHash": "2604523ed7b58939fb2e6f5546624d3d6a1d3d8d7a3eee3e44cb8c9c2d3ba0c3",
+          "sha256": "25d1c3fc6e929e166c5763cbde5de4c59b152827a29bd20b282b14a8beb045f7",
+          "bytes": 396766,
+          "width": 800,
+          "height": 800,
+          "visualReview": "实际灰色背面，有LED闪光灯；同型号普通/柔光共用外观参考，不证明芯片或内存。",
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+          "imageScope": "model_shared",
+          "licenseStatus": "unknown",
+          "status": "downloaded_and_visually_reviewed",
+          "note": "同型号共用外观图，不对应特定内存/硬盘配置"
+        }
+      ],
+      "imageFieldGaps": [],
+      "imageSharingBoundary": "普通屏与柔光屏使用该同型号官网共用背面图；仅产品外观参考，不证明内部T93SD/T93S、屏幕玻璃工艺或RAM配置。芯片、屏幕与容量分别按原文核验。"
+    },
+    {
+      "id": "huawei-matepad-air-z-yuexiang-2026",
+      "modelName": "HUAWEI MatePad Air Z 悦享款 (2026)",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "officialSpecUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+      "referenceUrls": [
+        "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+        "https://www.ithome.com/1/008/212.htm",
+        "https://consumer.huawei.com/cn/tablets/matepad-air-z/",
+        "https://www.ithome.com/1/006/535.htm"
+      ],
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "HUAWEI MatePad Air Z 规格参数",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:43:29.974Z",
+        "sourceSnapshotHash": "2604523ed7b58939fb2e6f5546624d3d6a1d3d8d7a3eee3e44cb8c9c2d3ba0c3"
+      },
+      "releaseEvidence": {
+        "value": "2026-09-29",
+        "rawText": "IT之家 9 月 29 日消息，华为 MatePad Air Z 平板今日正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/1/008/212.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:45:14.901Z",
+        "sourceSnapshotHash": "06ee432a2d38233639af65feb247935bfb729e4595a72fc99eb9f607ac69d4a2",
+        "supportingEvidence": {
+          "value": "2026-09-29",
+          "rawText": "2026/9/29",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/1/008/212.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:14.901Z",
+          "sourceSnapshotHash": "06ee432a2d38233639af65feb247935bfb729e4595a72fc99eb9f607ac69d4a2"
+        }
+      },
+      "configurationEvidence": {
+        "value": "8GB+128GB / 8GB+256GB / 12GB+256GB",
+        "rawText": "华为 MatePad Air Z 悦享款 8GB+128GB 版 2999 元 8GB+256GB 版 3499 元 12GB+256GB 版 4199 元 12GB+256GB / 柔光版 4499 元 华为 MatePad Air Z 系列平板",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/1/008/212.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:45:14.901Z",
+        "sourceSnapshotHash": "06ee432a2d38233639af65feb247935bfb729e4595a72fc99eb9f607ac69d4a2"
+      },
+      "edition": "HUAWEI MatePad Air Z 悦享款",
+      "excludedConfigurations": "未跨配规格总页RAM/ROM；未将柔光、悦享、典藏及配件套装混入当前主机版型。",
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验该版型首发定价；促销、国补、教育优惠及当前官网起价不作首发价。"
+        }
+      ],
+      "notes": "悦享款与普通版同为T93SD，但无后置闪光灯且标配40W充电器。设备官网支持Max66W；不把包装40W当最大充电上限。活动价不作首发价。",
+      "sourceSnapshots": [
+        {
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+          "sourceSnapshotHash": "2604523ed7b58939fb2e6f5546624d3d6a1d3d8d7a3eee3e44cb8c9c2d3ba0c3",
+          "fetchedAt": "2026-10-05T20:43:29.974Z"
+        },
+        {
+          "sourceUrl": "https://www.ithome.com/1/008/212.htm",
+          "sourceSnapshotHash": "06ee432a2d38233639af65feb247935bfb729e4595a72fc99eb9f607ac69d4a2",
+          "fetchedAt": "2026-10-05T20:45:14.901Z"
+        },
+        {
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/",
+          "sourceSnapshotHash": "88a377e4141bc4515bee58d65cdf4b352906ad02b5b960bb27facbaaf07fe183",
+          "fetchedAt": "2026-10-05T20:43:31.360Z"
+        },
+        {
+          "sourceUrl": "https://www.ithome.com/1/006/535.htm",
+          "sourceSnapshotHash": "1830d5d947b488ab4a9897ea539acafc45309e15ad21ec5bc06fceef6210a2b8",
+          "fetchedAt": "2026-10-05T20:42:55.989Z"
+        }
+      ],
+      "colorEvidence": {
+        "value": "星云粉，皓月银",
+        "rawText": "星云粉，皓月银",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:43:29.974Z",
+        "sourceSnapshotHash": "2604523ed7b58939fb2e6f5546624d3d6a1d3d8d7a3eee3e44cb8c9c2d3ba0c3"
+      },
+      "colorBindingEvidence": {
+        "value": "星云粉，皓月银",
+        "rawText": "悦享款配备星云粉、皓月银颜色",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/1/008/212.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:45:14.901Z",
+        "sourceSnapshotHash": "06ee432a2d38233639af65feb247935bfb729e4595a72fc99eb9f607ac69d4a2"
+      },
+      "primaryImageCandidate": {
+        "page": "airz",
+        "targetIds": [
+          "huawei-matepad-air-z-yuexiang-2026"
+        ],
+        "color": "星云粉",
+        "primary": true,
+        "relativeUrl": "/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/pink.png",
+        "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/pink.png",
+        "anchor": "<img src=\"/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/pink.png\" alt=\"星云粉\"/>",
+        "sourceSnapshotHash": "2604523ed7b58939fb2e6f5546624d3d6a1d3d8d7a3eee3e44cb8c9c2d3ba0c3",
+        "sha256": "4128f7f58232dfcabd0efcd27478153a18af9784d9360068b3a0df1c59ea92a8",
+        "bytes": 622218,
+        "width": 800,
+        "height": 800,
+        "visualReview": "实际粉色背面，椭圆摄像头岛没有LED闪光灯，与发布报道悦享款星云粉及无后置闪光灯吻合。",
+        "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+        "imageScope": "model_shared",
+        "licenseStatus": "unknown",
+        "status": "downloaded_and_visually_reviewed",
+        "note": "同型号共用外观图，不对应特定内存/硬盘配置"
+      },
+      "colorImageCandidates": [
+        {
+          "page": "airz",
+          "targetIds": [
+            "huawei-matepad-air-z-yuexiang-2026"
+          ],
+          "color": "星云粉",
+          "primary": true,
+          "relativeUrl": "/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/pink.png",
+          "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/pink.png",
+          "anchor": "<img src=\"/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/pink.png\" alt=\"星云粉\"/>",
+          "sourceSnapshotHash": "2604523ed7b58939fb2e6f5546624d3d6a1d3d8d7a3eee3e44cb8c9c2d3ba0c3",
+          "sha256": "4128f7f58232dfcabd0efcd27478153a18af9784d9360068b3a0df1c59ea92a8",
+          "bytes": 622218,
+          "width": 800,
+          "height": 800,
+          "visualReview": "实际粉色背面，椭圆摄像头岛没有LED闪光灯，与发布报道悦享款星云粉及无后置闪光灯吻合。",
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+          "imageScope": "model_shared",
+          "licenseStatus": "unknown",
+          "status": "downloaded_and_visually_reviewed",
+          "note": "同型号共用外观图，不对应特定内存/硬盘配置"
+        },
+        {
+          "page": "airz",
+          "targetIds": [
+            "huawei-matepad-air-z-yuexiang-2026"
+          ],
+          "color": "皓月银",
+          "relativeUrl": "/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/silver.png",
+          "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/silver.png",
+          "anchor": "<img src=\"/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/silver.png\" alt=\"皓月银\"/>",
+          "sourceSnapshotHash": "2604523ed7b58939fb2e6f5546624d3d6a1d3d8d7a3eee3e44cb8c9c2d3ba0c3",
+          "sha256": "51ededbb9642fd5389a69172689ec977808d7666575f5f857bf6d5891b63d964",
+          "bytes": 181004,
+          "width": 800,
+          "height": 800,
+          "visualReview": "实际银色背面，无LED闪光灯，与发布报道悦享款皓月银及无后置闪光灯吻合。",
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+          "imageScope": "model_shared",
+          "licenseStatus": "unknown",
+          "status": "downloaded_and_visually_reviewed",
+          "note": "同型号共用外观图，不对应特定内存/硬盘配置"
+        }
+      ],
+      "imageFieldGaps": []
+    },
+    {
+      "id": "huawei-matepad-air-z-paper-2026",
+      "modelName": "HUAWEI MatePad Air Z 柔光版 (2026)",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "officialSpecUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+      "referenceUrls": [
+        "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+        "https://www.ithome.com/1/008/212.htm",
+        "https://consumer.huawei.com/cn/tablets/matepad-air-z/",
+        "https://www.ithome.com/1/006/535.htm"
+      ],
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "HUAWEI MatePad Air Z 规格参数",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:43:29.974Z",
+        "sourceSnapshotHash": "2604523ed7b58939fb2e6f5546624d3d6a1d3d8d7a3eee3e44cb8c9c2d3ba0c3"
+      },
+      "releaseEvidence": {
+        "value": "2026-09-29",
+        "rawText": "IT之家 9 月 29 日消息，华为 MatePad Air Z 平板今日正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/1/008/212.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:45:14.901Z",
+        "sourceSnapshotHash": "06ee432a2d38233639af65feb247935bfb729e4595a72fc99eb9f607ac69d4a2",
+        "supportingEvidence": {
+          "value": "2026-09-29",
+          "rawText": "2026/9/29",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/1/008/212.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:14.901Z",
+          "sourceSnapshotHash": "06ee432a2d38233639af65feb247935bfb729e4595a72fc99eb9f607ac69d4a2"
+        }
+      },
+      "configurationEvidence": {
+        "value": "8GB+256GB / 12GB+256GB",
+        "rawText": "华为 MatePad Air Z 8GB+256GB 版 3699 元 8GB+256GB / 柔光版 4299 元 12GB+256GB 版 4399 元 12GB+256GB / 柔光版 4999 元 华为 MatePad Air Z 悦享款",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/1/008/212.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:45:14.901Z",
+        "sourceSnapshotHash": "06ee432a2d38233639af65feb247935bfb729e4595a72fc99eb9f607ac69d4a2"
+      },
+      "edition": "HUAWEI MatePad Air Z 柔光版",
+      "excludedConfigurations": "未跨配规格总页RAM/ROM；未将柔光、悦享、典藏及配件套装混入当前主机版型。",
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验该版型首发定价；促销、国补、教育优惠及当前官网起价不作首发价。"
+        }
+      ],
+      "notes": "官方脚注明确T93S，与T93SD普通屏独立。悦享款柔光版芯片绑定仍有歧义，不导入。活动价不作首发价。",
+      "sourceSnapshots": [
+        {
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+          "sourceSnapshotHash": "2604523ed7b58939fb2e6f5546624d3d6a1d3d8d7a3eee3e44cb8c9c2d3ba0c3",
+          "fetchedAt": "2026-10-05T20:43:29.974Z"
+        },
+        {
+          "sourceUrl": "https://www.ithome.com/1/008/212.htm",
+          "sourceSnapshotHash": "06ee432a2d38233639af65feb247935bfb729e4595a72fc99eb9f607ac69d4a2",
+          "fetchedAt": "2026-10-05T20:45:14.901Z"
+        },
+        {
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/",
+          "sourceSnapshotHash": "88a377e4141bc4515bee58d65cdf4b352906ad02b5b960bb27facbaaf07fe183",
+          "fetchedAt": "2026-10-05T20:43:31.360Z"
+        },
+        {
+          "sourceUrl": "https://www.ithome.com/1/006/535.htm",
+          "sourceSnapshotHash": "1830d5d947b488ab4a9897ea539acafc45309e15ad21ec5bc06fceef6210a2b8",
+          "fetchedAt": "2026-10-05T20:42:55.989Z"
+        }
+      ],
+      "colorEvidence": {
+        "value": "珊瑚橙，海岛蓝，深空灰",
+        "rawText": "珊瑚橙，海岛蓝，深空灰",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:43:29.974Z",
+        "sourceSnapshotHash": "2604523ed7b58939fb2e6f5546624d3d6a1d3d8d7a3eee3e44cb8c9c2d3ba0c3"
+      },
+      "colorBindingEvidence": {
+        "value": "珊瑚橙，海岛蓝，深空灰",
+        "rawText": "标准版配备海岛蓝、珊瑚橙、深空灰颜色",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/1/008/212.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:45:14.901Z",
+        "sourceSnapshotHash": "06ee432a2d38233639af65feb247935bfb729e4595a72fc99eb9f607ac69d4a2"
+      },
+      "primaryImageCandidate": {
+        "page": "airz",
+        "targetIds": [
+          "huawei-matepad-air-z-2026",
+          "huawei-matepad-air-z-paper-2026"
+        ],
+        "color": "珊瑚橙",
+        "primary": true,
+        "relativeUrl": "/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/orange.png",
+        "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/orange.png",
+        "anchor": "<img src=\"/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/orange.png\" alt=\"珊瑚橙\"/>",
+        "sourceSnapshotHash": "2604523ed7b58939fb2e6f5546624d3d6a1d3d8d7a3eee3e44cb8c9c2d3ba0c3",
+        "sha256": "cde58ec5a1c4e8996ddc30d99c5c12e564b6dc0265c1556b2143c8440d0ac107",
+        "bytes": 596686,
+        "width": 800,
+        "height": 800,
+        "visualReview": "实际橙色背面，有LED闪光灯；同型号普通与柔光外观参考，不证明内部T93SD/T93S或RAM配置。官网脚注明确两个芯片；普通/柔光SKU分别核验。",
+        "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+        "imageScope": "model_shared",
+        "licenseStatus": "unknown",
+        "status": "downloaded_and_visually_reviewed",
+        "note": "同型号共用外观图，不对应特定内存/硬盘配置"
+      },
+      "colorImageCandidates": [
+        {
+          "page": "airz",
+          "targetIds": [
+            "huawei-matepad-air-z-2026",
+            "huawei-matepad-air-z-paper-2026"
+          ],
+          "color": "珊瑚橙",
+          "primary": true,
+          "relativeUrl": "/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/orange.png",
+          "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/orange.png",
+          "anchor": "<img src=\"/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/orange.png\" alt=\"珊瑚橙\"/>",
+          "sourceSnapshotHash": "2604523ed7b58939fb2e6f5546624d3d6a1d3d8d7a3eee3e44cb8c9c2d3ba0c3",
+          "sha256": "cde58ec5a1c4e8996ddc30d99c5c12e564b6dc0265c1556b2143c8440d0ac107",
+          "bytes": 596686,
+          "width": 800,
+          "height": 800,
+          "visualReview": "实际橙色背面，有LED闪光灯；同型号普通与柔光外观参考，不证明内部T93SD/T93S或RAM配置。官网脚注明确两个芯片；普通/柔光SKU分别核验。",
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+          "imageScope": "model_shared",
+          "licenseStatus": "unknown",
+          "status": "downloaded_and_visually_reviewed",
+          "note": "同型号共用外观图，不对应特定内存/硬盘配置"
+        },
+        {
+          "page": "airz",
+          "targetIds": [
+            "huawei-matepad-air-z-2026",
+            "huawei-matepad-air-z-paper-2026"
+          ],
+          "color": "海岛蓝",
+          "relativeUrl": "/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/blue.png",
+          "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/blue.png",
+          "anchor": "<img src=\"/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/blue.png\" alt=\"海岛蓝\"/>",
+          "sourceSnapshotHash": "2604523ed7b58939fb2e6f5546624d3d6a1d3d8d7a3eee3e44cb8c9c2d3ba0c3",
+          "sha256": "ad3d9ef5d99135a6fcf9a6c47aeb5fbd79ad39efebe758f86134e7010c999f1f",
+          "bytes": 550298,
+          "width": 800,
+          "height": 800,
+          "visualReview": "实际蓝色背面，有LED闪光灯；同型号普通/柔光共用外观参考，不证明芯片或内存。",
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+          "imageScope": "model_shared",
+          "licenseStatus": "unknown",
+          "status": "downloaded_and_visually_reviewed",
+          "note": "同型号共用外观图，不对应特定内存/硬盘配置"
+        },
+        {
+          "page": "airz",
+          "targetIds": [
+            "huawei-matepad-air-z-2026",
+            "huawei-matepad-air-z-paper-2026"
+          ],
+          "color": "深空灰",
+          "relativeUrl": "/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/grey.png",
+          "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/grey.png",
+          "anchor": "<img src=\"/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-z/specs/grey.png\" alt=\"深空灰\"/>",
+          "sourceSnapshotHash": "2604523ed7b58939fb2e6f5546624d3d6a1d3d8d7a3eee3e44cb8c9c2d3ba0c3",
+          "sha256": "25d1c3fc6e929e166c5763cbde5de4c59b152827a29bd20b282b14a8beb045f7",
+          "bytes": 396766,
+          "width": 800,
+          "height": 800,
+          "visualReview": "实际灰色背面，有LED闪光灯；同型号普通/柔光共用外观参考，不证明芯片或内存。",
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-z/specs/",
+          "imageScope": "model_shared",
+          "licenseStatus": "unknown",
+          "status": "downloaded_and_visually_reviewed",
+          "note": "同型号共用外观图，不对应特定内存/硬盘配置"
+        }
+      ],
+      "imageFieldGaps": [],
+      "imageSharingBoundary": "普通屏与柔光屏使用该同型号官网共用背面图；仅产品外观参考，不证明内部T93SD/T93S、屏幕玻璃工艺或RAM配置。芯片、屏幕与容量分别按原文核验。"
+    },
+    {
+      "id": "huawei-matepad-mini-2025",
+      "modelName": "HUAWEI MatePad Mini (2025)",
+      "generation": "2025",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "officialSpecUrl": "https://consumer.huawei.com/cn/tablets/matepad-mini/specs/",
+      "referenceUrls": [
+        "https://consumer.huawei.com/cn/tablets/matepad-mini/specs/",
+        "https://www.ithome.com/0/880/418.htm",
+        "https://www.ithome.com/0/885/674.htm"
+      ],
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "HUAWEI MatePad Mini 规格参数",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-mini/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:43:32.504Z",
+        "sourceSnapshotHash": "1dafa36363fd14cf2d921545fc4ad75f4a932721b463fa9b1204de4fbca220e4"
+      },
+      "releaseEvidence": {
+        "value": "2025-09-12",
+        "rawText": "9 月 12 日，华为 MatePad Mini 已经正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/885/674.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:45:14.967Z",
+        "sourceSnapshotHash": "60f3887df7f975fb95d11b9e1a9a0bb467b56b15b9900a07731f105507945c43",
+        "supportingEvidence": {
+          "value": "2025-09-25",
+          "rawText": "2025/9/25",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/885/674.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:14.967Z",
+          "sourceSnapshotHash": "60f3887df7f975fb95d11b9e1a9a0bb467b56b15b9900a07731f105507945c43"
+        },
+        "note": "报道日期与首售日期不同；原文明确回顾该年9月12日已经开售，不把报道日9月25日当普通版首售。"
+      },
+      "configurationEvidence": {
+        "value": "12GB+256GB / 12GB+512GB",
+        "rawText": "IT之家附售价如下： 12+256GB 售价 3999 元 12+512GB 售价 4499 元 12+512GB 柔光屏售价 4999 元 12+256GB 悦读版售价 3299 元 12+256GB 悦读版柔光屏售价 3799 元 16GB + 512GB 典藏版（柔光屏、内含手写笔及皮套）售价 5999 元 16GB + 1TB 典藏版（柔光屏、内含手写笔及皮套）售价 6499 元 智能皮套 199 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/880/418.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:44:52.448Z",
+        "sourceSnapshotHash": "879289e05d8ce738e1c87d9e1bfeda48ef28cbc8c5ed28d6e22a5183f7e10a05"
+      },
+      "edition": "HUAWEI MatePad Mini",
+      "excludedConfigurations": "未跨配规格总页RAM/ROM；未将柔光、悦享、典藏及配件套装混入当前主机版型。",
+      "fieldGaps": [
+        {
+          "field": "chip",
+          "reason": "官网未披露芯片；国内发布报道的9010明确来自以往爆料，不作为已核验配置。"
+        }
+      ],
+      "notes": "2025首代普通屏全网通；悦读版、柔光版、寰宇红典藏版及2026紫色不混入。2026二代仍传闻未发售。",
+      "sourceSnapshots": [
+        {
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-mini/specs/",
+          "sourceSnapshotHash": "1dafa36363fd14cf2d921545fc4ad75f4a932721b463fa9b1204de4fbca220e4",
+          "fetchedAt": "2026-10-05T20:43:32.504Z"
+        },
+        {
+          "sourceUrl": "https://www.ithome.com/0/880/418.htm",
+          "sourceSnapshotHash": "879289e05d8ce738e1c87d9e1bfeda48ef28cbc8c5ed28d6e22a5183f7e10a05",
+          "fetchedAt": "2026-10-05T20:44:52.448Z"
+        },
+        {
+          "sourceUrl": "https://www.ithome.com/0/885/674.htm",
+          "sourceSnapshotHash": "60f3887df7f975fb95d11b9e1a9a0bb467b56b15b9900a07731f105507945c43",
+          "fetchedAt": "2026-10-05T20:45:14.967Z"
+        }
+      ],
+      "colorEvidence": {
+        "value": "云杉绿，曜石黑，雪域白",
+        "rawText": "云杉绿，曜石黑，雪域白",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-mini/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:43:32.504Z",
+        "sourceSnapshotHash": "1dafa36363fd14cf2d921545fc4ad75f4a932721b463fa9b1204de4fbca220e4"
+      },
+      "primaryImageCandidate": {
+        "page": "mini",
+        "targetIds": [
+          "huawei-matepad-mini-2025"
+        ],
+        "color": "云杉绿",
+        "primary": true,
+        "relativeUrl": "/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-mini/specs/green.png",
+        "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-mini/specs/green.png",
+        "anchor": "<img src=\"/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-mini/specs/green.png\" alt=\"云杉绿\"/>",
+        "sourceSnapshotHash": "1dafa36363fd14cf2d921545fc4ad75f4a932721b463fa9b1204de4fbca220e4",
+        "sha256": "17fd62600379d2f6f44979dafb38e567a2a495bdda941d7c48c047cc5c75981a",
+        "bytes": 463080,
+        "width": 800,
+        "height": 700,
+        "visualReview": "实际浅绿背面，圆形双摄+闪光灯；无寰宇红典藏版材质或套装。不按2026紫色首销重建年份。",
+        "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-mini/specs/",
+        "imageScope": "model_shared",
+        "licenseStatus": "unknown",
+        "status": "downloaded_and_visually_reviewed",
+        "note": "同型号共用外观图，不对应特定内存/硬盘配置"
+      },
+      "colorImageCandidates": [
+        {
+          "page": "mini",
+          "targetIds": [
+            "huawei-matepad-mini-2025"
+          ],
+          "color": "云杉绿",
+          "primary": true,
+          "relativeUrl": "/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-mini/specs/green.png",
+          "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-mini/specs/green.png",
+          "anchor": "<img src=\"/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-mini/specs/green.png\" alt=\"云杉绿\"/>",
+          "sourceSnapshotHash": "1dafa36363fd14cf2d921545fc4ad75f4a932721b463fa9b1204de4fbca220e4",
+          "sha256": "17fd62600379d2f6f44979dafb38e567a2a495bdda941d7c48c047cc5c75981a",
+          "bytes": 463080,
+          "width": 800,
+          "height": 700,
+          "visualReview": "实际浅绿背面，圆形双摄+闪光灯；无寰宇红典藏版材质或套装。不按2026紫色首销重建年份。",
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-mini/specs/",
+          "imageScope": "model_shared",
+          "licenseStatus": "unknown",
+          "status": "downloaded_and_visually_reviewed",
+          "note": "同型号共用外观图，不对应特定内存/硬盘配置"
+        }
+      ],
+      "imageFieldGaps": [
+        {
+          "field": "colorImage",
+          "color": "曜石黑",
+          "reason": "未完成该型号标准色图片的实际视觉和字节哈希核验；留空。"
+        },
+        {
+          "field": "colorImage",
+          "color": "雪域白",
+          "reason": "未完成该型号标准色图片的实际视觉和字节哈希核验；留空。"
+        }
+      ]
+    },
+    {
+      "id": "huawei-matepad-air-12-2026",
+      "modelName": "HUAWEI MatePad Air 12 (2026)",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "officialSpecUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-12/specs/",
+      "referenceUrls": [
+        "https://consumer.huawei.com/cn/tablets/matepad-air-12/specs/",
+        "https://www.ithome.com/0/999/366.htm",
+        "https://www.ithome.com/1/001/503.htm"
+      ],
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "HUAWEI MatePad Air 规格参数",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-12/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:46:26.441Z",
+        "sourceSnapshotHash": "aa36a4e3cafc0712cbf86fa958dbdc95150236d0e46864a94f082bcdf44bf6f9"
+      },
+      "releaseEvidence": {
+        "value": "2026-09-12",
+        "rawText": "IT之家 9 月 12 日消息，全新一代华为 MatePad Air 平板电脑今日 10:08 正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/1/001/503.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:46:26.580Z",
+        "sourceSnapshotHash": "3c601534ac0f04a1c79077bd015d1f6cfdfb1592fe84ce439c7181f5361033eb",
+        "supportingEvidence": {
+          "value": "2026-09-12",
+          "rawText": "2026/9/12",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/1/001/503.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:46:26.580Z",
+          "sourceSnapshotHash": "3c601534ac0f04a1c79077bd015d1f6cfdfb1592fe84ce439c7181f5361033eb"
+        }
+      },
+      "configurationEvidence": {
+        "value": "12GB+256GB / 12GB+512GB",
+        "rawText": "新一代华为 MatePad Air 标准版提供多个存储版本： 12GB+256GB：5299 元 12GB+256GB + M-Pencil Pro 套装：5699 元 12GB+512GB：6299 元 柔光版 12GB+256GB：5899 元 柔光版 12GB+512GB：6899 元 同步推出的线上专属",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/999/366.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:46:26.536Z",
+        "sourceSnapshotHash": "bf254a7cea559de2ea33ba3abf5cd0772998ad987627e73d911db441878a268e"
+      },
+      "edition": "HUAWEI MatePad Air 12",
+      "excludedConfigurations": "未跨配规格总页RAM/ROM；未将柔光、悦享、典藏及配件套装混入当前主机版型。",
+      "fieldGaps": [],
+      "notes": "官网标第三代，实际2026发行；OLED新代不是2025 LCD同一台。仅标准屏主机，柔光版、手写笔套装及T93C悦享款不混入。",
+      "sourceSnapshots": [
+        {
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-12/specs/",
+          "sourceSnapshotHash": "aa36a4e3cafc0712cbf86fa958dbdc95150236d0e46864a94f082bcdf44bf6f9",
+          "fetchedAt": "2026-10-05T20:46:26.441Z"
+        },
+        {
+          "sourceUrl": "https://www.ithome.com/0/999/366.htm",
+          "sourceSnapshotHash": "bf254a7cea559de2ea33ba3abf5cd0772998ad987627e73d911db441878a268e",
+          "fetchedAt": "2026-10-05T20:46:26.536Z"
+        },
+        {
+          "sourceUrl": "https://www.ithome.com/1/001/503.htm",
+          "sourceSnapshotHash": "3c601534ac0f04a1c79077bd015d1f6cfdfb1592fe84ce439c7181f5361033eb",
+          "fetchedAt": "2026-10-05T20:46:26.580Z"
+        }
+      ],
+      "primaryImageCandidate": {
+        "page": "air",
+        "targetIds": [
+          "huawei-matepad-air-12-2026"
+        ],
+        "color": "晴光蓝",
+        "primary": true,
+        "relativeUrl": "/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-12/specs/blue.png",
+        "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-12/specs/blue.png",
+        "anchor": "<img src=\"/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-12/specs/blue.png\" alt=\"晴光蓝\"/>",
+        "sourceSnapshotHash": "aa36a4e3cafc0712cbf86fa958dbdc95150236d0e46864a94f082bcdf44bf6f9",
+        "sha256": "c506bf1ad1d065d41a3c810c1e352609064a1e98c84d1b137d5bd1d8f03e875e",
+        "bytes": 495183,
+        "width": 800,
+        "height": 700,
+        "visualReview": "实际浅蓝背面，横向椭圆相机岛、单摄与闪光灯；独立第三代OLED/T93B规格页，与2025页面不同。",
+        "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-12/specs/",
+        "imageScope": "model_shared",
+        "licenseStatus": "unknown",
+        "status": "downloaded_and_visually_reviewed",
+        "note": "同型号共用外观图，不对应特定内存/硬盘配置"
+      },
+      "colorImageCandidates": [
+        {
+          "page": "air",
+          "targetIds": [
+            "huawei-matepad-air-12-2026"
+          ],
+          "color": "晴光蓝",
+          "primary": true,
+          "relativeUrl": "/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-12/specs/blue.png",
+          "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-12/specs/blue.png",
+          "anchor": "<img src=\"/content/dam/huawei-cbg-site/cn/mkt/pdp/tablets/matepad-air-12/specs/blue.png\" alt=\"晴光蓝\"/>",
+          "sourceSnapshotHash": "aa36a4e3cafc0712cbf86fa958dbdc95150236d0e46864a94f082bcdf44bf6f9",
+          "sha256": "c506bf1ad1d065d41a3c810c1e352609064a1e98c84d1b137d5bd1d8f03e875e",
+          "bytes": 495183,
+          "width": 800,
+          "height": 700,
+          "visualReview": "实际浅蓝背面，横向椭圆相机岛、单摄与闪光灯；独立第三代OLED/T93B规格页，与2025页面不同。",
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-air-12/specs/",
+          "imageScope": "model_shared",
+          "licenseStatus": "unknown",
+          "status": "downloaded_and_visually_reviewed",
+          "note": "同型号共用外观图，不对应特定内存/硬盘配置"
+        }
+      ],
+      "imageFieldGaps": [
+        {
+          "field": "colors",
+          "reason": "官网总页汇集普通、悦享、凝光颜色；未逐SKU核验标准屏颜色适用范围，不把系列全色当该版型全色。"
+        }
+      ]
+    }
+  ]
+}

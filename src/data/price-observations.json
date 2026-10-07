@@ -18,15 +18,84 @@
       "condition": "全新，ZOL 聚合中国大陆电商渠道公开价；优惠资格、库存和实际成交价以来源页及对应商家为准",
       "observedAt": "2026-09-07"
     },
-    "honor-magic8-pro-2025": {
-      "value": 5999,
-      "sourceUrl": "https://detail.zol.com.cn/2145/2144218/price.shtml",
-      "sourceName": "ZOL 中关村在线",
-      "rawText": "截至 2026 年 9 月 7 日，ZOL 荣耀 Magic8 Pro 16GB/512GB 比价页显示荣耀京东自营旗舰店渠道价 5999 元。",
-      "configuration": "16GB 运行内存 + 512GB 存储，国行全网通版本",
-      "condition": "全新，ZOL 聚合中国大陆电商渠道公开价；优惠资格、库存和实际成交价以来源页及对应商家为准",
-      "observedAt": "2026-09-07"
+    "honor-magic8-pro-2025": [
+      {
+        "value": 5999,
+        "sourceUrl": "https://detail.zol.com.cn/2145/2144218/price.shtml",
+        "sourceName": "ZOL 中关村在线",
+        "rawText": "截至 2026 年 9 月 7 日，ZOL 荣耀 Magic8 Pro 16GB/512GB 比价页显示荣耀京东自营旗舰店渠道价 5999 元。",
+        "configuration": "16GB 运行内存 + 512GB 存储，国行全网通版本",
+        "condition": "全新，ZOL 聚合中国大陆电商渠道公开价；优惠资格、库存和实际成交价以来源页及对应商家为准",
+        "observedAt": "2026-09-07"
+      },
+      {
+        "value": 5499,
+        "sourceUrl": "https://detail.zol.com.cn/2145/2144216/param.shtml",
+        "sourceName": "中关村在线电商报价",
+        "rawText": "荣耀Magic8 Pro 12+256 旭日金砂 YOYO智能体 2亿超夜神长焦 第五代骁龙8至尊版 谢霆锋同款 5G AI手机 ￥5499.00",
+        "configuration": "12GB 运行内存 + 256GB 存储，国行，旭日金砂",
+        "condition": "全新，ZOL 聚合电商展示价；未复核商家库存、优惠条件与结算价",
+        "observedAt": "2026-09-22"
+      },
+      {
+        "value": 5699,
+        "sourceUrl": "https://www.honor.com/cn/shop/product/10086048644581.html",
+        "sourceName": "荣耀中国官方商城",
+        "rawText": "荣耀Magic8 Pro 12GB+512GB 旭日金砂 双卡 全网通版；预估到手价 ¥5699.00 ¥5999.00；限时优惠：限时直降300元；商品编码10001010051807；已选择商品：旭日金砂 / 5G全网通 12GB+512GB / 单品；浙江杭州西湖区显示现货；加入购物车、立即下单。",
+        "configuration": "旭日金砂，12GB 运行内存 + 512GB 存储，国行，单品官方标配",
+        "condition": "全新，荣耀中国官方商城页面预估到手价，标价5999元、限时直降300元；未登录、未下单，不含换购抵扣或付费套餐；优惠及地区库存以实际结算为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 6699,
+        "sourceUrl": "https://www.honor.com/cn/shop/product/10086048644581.html",
+        "sourceName": "荣耀中国官方商城",
+        "rawText": "荣耀Magic8 Pro 16GB+1TB 旭日金砂 双卡 全网通版；价格¥6699.00；商品编码10001010051815；已选择商品：旭日金砂 / 5G全网通 16GB+1TB / 单品；浙江杭州西湖区显示现货；加入购物车、立即下单。",
+        "configuration": "旭日金砂，16GB 运行内存 + 1TB 存储，国行，单品官方标配",
+        "condition": "全新，荣耀中国官方商城公开标价；未登录、未下单，不含换购抵扣或付费套餐；优惠及地区库存以实际结算为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      }
+    ],
+    "huawei-mate-60-pro-2023": {
+      "value": 5899,
+      "sourceUrl": "https://detail.zol.com.cn/1428/1427338/param.shtml",
+      "sourceName": "中关村在线电商报价",
+      "rawText": "返回HUAWEI Mate 60 Pro（12GB/256GB）首页 HUAWEI Mate 60 Pro（12GB/256GB） 天猫 ¥5899",
+      "configuration": "12GB 运行内存 + 256GB 存储，国行",
+      "condition": "全新，ZOL 聚合电商展示价；未复核商家库存、优惠条件与结算价",
+      "observedAt": "2026-09-22"
     },
+    "huawei-mate-70-pro-2024": {
+      "value": 4498,
+      "sourceUrl": "https://detail.zol.com.cn/2115/2114266/param.shtml",
+      "sourceName": "中关村在线电商报价",
+      "rawText": "HUAWEI Mate 70 Pro 12GB+256GB云杉绿鸿蒙AI 红枫原色影像 超可靠玄武架构华为鸿蒙智能手机 ￥4498",
+      "configuration": "12GB 运行内存 + 256GB 存储，国行，云杉绿",
+      "condition": "全新，ZOL 聚合电商展示价；未复核商家库存、优惠条件与结算价",
+      "observedAt": "2026-09-22"
+    },
+    "huawei-mate-80-pro-2025": [
+      {
+        "value": 5999,
+        "sourceUrl": "https://detail.zol.com.cn/2149/2148014/param.shtml",
+        "sourceName": "中关村在线电商报价",
+        "rawText": "HUAWEI Mate 80 Pro 麒麟9030 12GB+256GB云杉绿 第二代红枫影像 鸿蒙AI 户外探索模式 华为直屏鸿蒙手机 ￥5999",
+        "configuration": "12GB 运行内存 + 256GB 存储，国行，云杉绿",
+        "condition": "全新，ZOL 聚合电商展示价；未复核商家库存、优惠条件与结算价",
+        "observedAt": "2026-09-22"
+      },
+      {
+        "value": 6999,
+        "sourceUrl": "https://detail.zol.com.cn/2150/2149092/param.shtml",
+        "sourceName": "中关村在线电商报价",
+        "rawText": "HUAWEI Mate 80 Pro 麒麟9030 Pro 16GB+512GB晨曦金第二代红枫影像鸿蒙AI户外探索模式华为直屏鸿蒙手机 ￥6999.00",
+        "configuration": "16GB 运行内存 + 512GB 存储，国行，晨曦金",
+        "condition": "全新，ZOL 聚合电商展示价；未复核商家库存、优惠条件与结算价",
+        "observedAt": "2026-09-22"
+      }
+    ],
     "huawei-pura-70-ultra-2024": {
       "value": 4498,
       "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1999701.shtml",
@@ -45,35 +114,6 @@
       "condition": "全新，ZOL 聚合中国大陆电商渠道公开价；优惠资格、库存和实际成交价以来源页及对应商家为准",
       "observedAt": "2026-09-07"
     },
-    "samsung-galaxy-s24-ultra-2024": {
-      "value": 5499,
-      "sourceUrl": "https://detail.zol.com.cn/ProductComp_param_s1465383.html",
-      "sourceName": "ZOL 中关村在线",
-      "rawText": "截至 2026 年 9 月 7 日，ZOL 三星 Galaxy S24 Ultra 12GB/256GB 对比页显示国行电商报价 5499 元。",
-      "configuration": "12GB 运行内存 + 256GB 存储，国行全网通 5G 版",
-      "condition": "全新，ZOL 聚合中国大陆电商渠道公开价；优惠资格、库存和实际成交价以来源页及对应商家为准",
-      "observedAt": "2026-09-07"
-    },
-    "samsung-galaxy-s25-ultra-2025": {
-      "value": 6999,
-      "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/buy/?modelCode=SM-S9380ZTDCHC",
-      "sourceName": "三星中国商城",
-      "rawText": "截至 2026 年 9 月 7 日，三星中国商城 Galaxy S25 Ultra 购买页显示 12GB/256GB 券后到手价 6999 元。",
-      "configuration": "12GB 运行内存 + 256GB 存储，国行版本",
-      "condition": "全新，三星中国商城券后到手价；优惠资格、颜色库存和实际成交价以来源页及结算页为准",
-      "observedAt": "2026-09-07",
-      "sourceType": "official"
-    },
-    "samsung-galaxy-s26-ultra-2026": {
-      "value": 10599,
-      "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/buy/",
-      "sourceName": "三星中国商城",
-      "rawText": "截至 2026 年 9 月 7 日，三星中国商城 Galaxy S26 Ultra 购买页显示 12GB/512GB 券后到手价 10599 元。",
-      "configuration": "12GB 运行内存 + 512GB 存储，国行版本",
-      "condition": "全新，三星中国商城券后到手价；优惠资格、颜色库存和实际成交价以来源页及结算页为准",
-      "observedAt": "2026-09-07",
-      "sourceType": "official"
-    },
     "ipad-10th-2022": {
       "value": 2850,
       "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=1998396&styleId=42546953&skuId=146547923",
@@ -81,7 +121,8 @@
       "rawText": "截至 2026 年 8 月 31 日，识货所选 SKU 146547923 显示银色、256GB、WLAN 版，当前显示价 2850 元。",
       "configuration": "银色，WLAN 版，4GB 运行内存 + 256GB 存储，中国大陆电商渠道参考",
       "condition": "全新，识货聚合中国大陆渠道公开价；优惠资格、库存和实际成交价以来源页为准",
-      "observedAt": "2026-08-31"
+      "observedAt": "2026-08-31",
+      "excludedReason": "仅证实中国大陆电商渠道，未明确国行硬件版本；保留历史记录，待复核，不参与国行报价比较"
     },
     "ipad-9th-2021": {
       "value": 1890,
@@ -90,8 +131,57 @@
       "rawText": "截至 2026 年 8 月 31 日，识货所选 SKU 90789686 显示银色、256G、无线局域网型，当前显示价 1890 元。",
       "configuration": "银色，无线局域网型，3GB 运行内存 + 256GB 存储，中国大陆电商渠道参考",
       "condition": "全新，识货聚合中国大陆渠道公开价；优惠资格、库存和实际成交价以来源页为准",
-      "observedAt": "2026-08-31"
+      "observedAt": "2026-08-31",
+      "excludedReason": "仅证实中国大陆电商渠道，未明确国行硬件版本；保留历史记录，待复核，不参与国行报价比较"
     },
+    "ipad-a16-2025": [
+      {
+        "value": 2830,
+        "unit": "CNY",
+        "rawText": "截至8月24日，识货为您实时监控全网14家正品放心店铺。当前同款同规格全网最低价为¥2830，来自百亿补贴店铺。",
+        "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=7124264&styleId=434762522",
+        "sourceType": "reference",
+        "confidence": 0.7,
+        "verifiedAt": "2026-08-24",
+        "priceType": "current",
+        "market": "中国大陆",
+        "configuration": "银色，128GB，WLAN 版",
+        "excludedReason": "原始报价未明确国行配置，待复核",
+        "condition": "全新，识货聚合百亿补贴店铺最低价；优惠资格与库存以来源页为准",
+        "observedAt": "2026-08-24",
+        "sourceName": "识货"
+      },
+      {
+        "value": 4299,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-ipad/ipad",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "iPad 无线局域网机型 256GB - 蓝色 RMB 4,299。",
+        "configuration": "蓝色，6GB 运行内存 + 256GB 存储，WiFi版，国行",
+        "condition": "全新，Apple 中国大陆官方在售价；不含折抵换购、Apple Pencil、键盘及 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 5999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-ipad/ipad",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "iPad 无线局域网机型 512GB - 蓝色 RMB 5,999。",
+        "configuration": "蓝色，6GB 运行内存 + 512GB 存储，WiFi版，国行",
+        "condition": "全新，Apple 中国大陆官方在售价；不含折抵换购、Apple Pencil、键盘及 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 3799,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-ipad/ipad",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "iPad 无线局域网机型 128GB - 蓝色 RMB 3,799 或 RMB 159/月 (24 期)。",
+        "configuration": "蓝色，6GB 运行内存 + 128GB 存储，WiFi版，国行",
+        "condition": "全新，Apple 中国大陆官方在售价；不含折抵换购、Apple Pencil、键盘及 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      }
+    ],
     "ipad-air-13-m2-2024": {
       "value": 5660,
       "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=4879720&styleId=172916390&skuId=436870092",
@@ -99,7 +189,8 @@
       "rawText": "截至 2026 年 8 月 31 日，识货页面所选紫色、WLAN 版、256GB 的 13 英寸 iPad Air6 (M2) 显示放心店铺最低价 5660 元。",
       "configuration": "紫色，WLAN 版，8GB 运行内存 + 256GB 存储，中国大陆电商渠道参考",
       "condition": "全新，识货当前可购价格快照",
-      "observedAt": "2026-08-31"
+      "observedAt": "2026-08-31",
+      "excludedReason": "仅证实中国大陆电商渠道，未明确国行硬件版本；保留历史记录，待复核，不参与国行报价比较"
     },
     "ipad-air-13-m3-2025": {
       "value": 5530,
@@ -110,6 +201,53 @@
       "condition": "全新，识货聚合中国大陆渠道公开价；优惠资格、库存和实际成交价以来源页为准",
       "observedAt": "2026-08-31"
     },
+    "ipad-air-13-m4-2026": [
+      {
+        "value": 6100,
+        "unit": "CNY",
+        "rawText": "截至8月24日，识货为您实时监控全网5家正品放心店铺。当前同款同规格全网最低价为¥6100，来自百亿补贴店铺。",
+        "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=8785062&styleId=954518428&skuId=3531042632",
+        "sourceType": "reference",
+        "confidence": 0.7,
+        "verifiedAt": "2026-08-24",
+        "priceType": "current",
+        "market": "中国大陆",
+        "configuration": "紫色，128GB，WLAN 版，官方标配，国行版",
+        "condition": "全新，识货聚合百亿补贴店铺最低价；优惠资格与库存以来源页为准",
+        "observedAt": "2026-08-24",
+        "sourceName": "识货"
+      },
+      {
+        "value": 8199,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-ipad/ipad-air",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "13 英寸 iPad Air 无线局域网机型 256GB - 蓝色 RMB 8,199。购买页同列 iPad Air M4 芯片。",
+        "configuration": "蓝色，12GB 运行内存 + 256GB 存储，WiFi版，国行",
+        "condition": "全新，Apple 中国大陆官方在售价；不含折抵换购、Apple Pencil、键盘及 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 9899,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-ipad/ipad-air",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "13 英寸 iPad Air 无线局域网机型 512GB - 蓝色 RMB 9,899。购买页同列 iPad Air M4 芯片。",
+        "configuration": "蓝色，12GB 运行内存 + 512GB 存储，WiFi版，国行",
+        "condition": "全新，Apple 中国大陆官方在售价；不含折抵换购、Apple Pencil、键盘及 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 12399,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-ipad/ipad-air",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "13 英寸 iPad Air 无线局域网机型 1TB - 蓝色 RMB 12,399。购买页同列 iPad Air M4 芯片。",
+        "configuration": "蓝色，12GB 运行内存 + 1TB 存储，WiFi版，国行",
+        "condition": "全新，Apple 中国大陆官方在售价；不含折抵换购、Apple Pencil、键盘及 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      }
+    ],
     "ipad-air-3rd-2019": {
       "value": 4520,
       "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=288925&styleId=4912119&skuId=18859528",
@@ -117,7 +255,8 @@
       "rawText": "截至 2026 年 8 月 31 日，识货所选 SKU 18859528 显示银色、256G、WLAN 版，当前显示价 4520 元。",
       "configuration": "银色，WLAN 版，3GB 运行内存 + 256GB 存储，中国大陆电商渠道参考",
       "condition": "全新，识货聚合中国大陆渠道公开价；优惠资格、库存和实际成交价以来源页为准",
-      "observedAt": "2026-08-31"
+      "observedAt": "2026-08-31",
+      "excludedReason": "仅证实中国大陆电商渠道，未明确国行硬件版本；保留历史记录，待复核，不参与国行报价比较"
     },
     "ipad-air-4th-2020": {
       "value": 4240,
@@ -126,7 +265,8 @@
       "rawText": "截至 2026 年 8 月 31 日，识货所选 SKU 18856510 显示玫瑰金、WLAN 版、256G，当前显示价 4240 元。",
       "configuration": "玫瑰金，WLAN 版，4GB 运行内存 + 256GB 存储，中国大陆电商渠道参考",
       "condition": "全新，识货聚合中国大陆渠道公开价；优惠资格、库存和实际成交价以来源页为准",
-      "observedAt": "2026-08-31"
+      "observedAt": "2026-08-31",
+      "excludedReason": "仅证实中国大陆电商渠道，未明确国行硬件版本；保留历史记录，待复核，不参与国行报价比较"
     },
     "ipad-air-m1-2022": {
       "value": 4800,
@@ -135,7 +275,8 @@
       "rawText": "截至 2026 年 8 月 31 日，识货所选 SKU 116883910 显示蓝色、WLAN 版、256G，当前显示价 4800 元。",
       "configuration": "蓝色，WLAN 版，8GB 运行内存 + 256GB 存储，中国大陆电商渠道参考",
       "condition": "全新，识货聚合中国大陆渠道公开价；优惠资格、库存和实际成交价以来源页为准",
-      "observedAt": "2026-08-31"
+      "observedAt": "2026-08-31",
+      "excludedReason": "仅证实中国大陆电商渠道，未明确国行硬件版本；保留历史记录，待复核，不参与国行报价比较"
     },
     "ipad-air-m2-2024": {
       "value": 5500,
@@ -144,7 +285,8 @@
       "rawText": "截至 2026 年 8 月 31 日，识货页面所选紫色、WLAN 版、256GB 的 11 英寸 iPad Air6 (M2) 显示放心店铺最低价 5500 元。",
       "configuration": "紫色，WLAN 版，8GB 运行内存 + 256GB 存储，中国大陆电商渠道参考",
       "condition": "全新，识货当前可购价格快照",
-      "observedAt": "2026-08-31"
+      "observedAt": "2026-08-31",
+      "excludedReason": "仅证实中国大陆电商渠道，未明确国行硬件版本；保留历史记录，待复核，不参与国行报价比较"
     },
     "ipad-air-m3-2025": {
       "value": 4400,
@@ -155,6 +297,53 @@
       "condition": "全新，识货聚合中国大陆渠道公开价；优惠资格、库存和实际成交价以来源页为准",
       "observedAt": "2026-08-31"
     },
+    "ipad-air-m4-2025": [
+      {
+        "value": 4540,
+        "unit": "CNY",
+        "rawText": "截至8月24日，识货为您实时监控全网9家正品放心店铺。当前同款同规格全网最低价为¥4540，来自百亿补贴店铺。",
+        "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=8785051&styleId=945737998",
+        "sourceType": "reference",
+        "confidence": 0.7,
+        "verifiedAt": "2026-08-24",
+        "priceType": "current",
+        "market": "中国大陆",
+        "configuration": "紫色，128GB，WLAN 版，官方标配，中国大陆版本",
+        "condition": "全新，识货聚合百亿补贴店铺最低价；优惠资格与库存以来源页为准",
+        "observedAt": "2026-08-24",
+        "sourceName": "识货"
+      },
+      {
+        "value": 6499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-ipad/ipad-air",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "11 英寸 iPad Air 无线局域网机型 256GB - 蓝色 RMB 6,499。购买页同列 iPad Air M4 芯片。",
+        "configuration": "蓝色，12GB 运行内存 + 256GB 存储，WiFi版，国行",
+        "condition": "全新，Apple 中国大陆官方在售价；不含折抵换购、Apple Pencil、键盘及 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 8199,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-ipad/ipad-air",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "11 英寸 iPad Air 无线局域网机型 512GB - 蓝色 RMB 8,199。购买页同列 iPad Air M4 芯片。",
+        "configuration": "蓝色，12GB 运行内存 + 512GB 存储，WiFi版，国行",
+        "condition": "全新，Apple 中国大陆官方在售价；不含折抵换购、Apple Pencil、键盘及 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 10699,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-ipad/ipad-air",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "11 英寸 iPad Air 无线局域网机型 1TB - 蓝色 RMB 10,699。购买页同列 iPad Air M4 芯片。",
+        "configuration": "蓝色，12GB 运行内存 + 1TB 存储，WiFi版，国行",
+        "condition": "全新，Apple 中国大陆官方在售价；不含折抵换购、Apple Pencil、键盘及 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      }
+    ],
     "ipad-mini-5th-2019": {
       "value": 3510,
       "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=324072&styleId=4913281&skuId=33012522",
@@ -162,7 +351,8 @@
       "rawText": "截至 2026 年 8 月 31 日，识货所选 SKU 33012522 显示金色、256G、WLAN 版，当前显示价 3510 元。",
       "configuration": "金色，WLAN 版，3GB 运行内存 + 256GB 存储，中国大陆电商渠道参考",
       "condition": "全新，识货聚合中国大陆渠道公开价；优惠资格、库存和实际成交价以来源页为准",
-      "observedAt": "2026-08-31"
+      "observedAt": "2026-08-31",
+      "excludedReason": "仅证实中国大陆电商渠道，未明确国行硬件版本；保留历史记录，待复核，不参与国行报价比较"
     },
     "ipad-mini-6th-2021": {
       "value": 2940,
@@ -173,6 +363,43 @@
       "condition": "全新，识货聚合中国大陆渠道公开价；256GB 国行 WLAN 当前无公开库存，优惠资格、库存和实际成交价以来源页为准",
       "observedAt": "2026-08-31"
     },
+    "ipad-mini-a17-pro-2024": [
+      {
+        "value": 4799,
+        "unit": "CNY",
+        "rawText": "购买 iPad mini；128GB 紫色无线局域网机型当前价格 RMB 4,799。",
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-ipad/ipad-mini",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-08-24",
+        "priceType": "current",
+        "market": "中国大陆",
+        "configuration": "紫色，128GB，无线局域网机型，中国大陆版本",
+        "condition": "全新，Apple 中国大陆官方在售价",
+        "observedAt": "2026-08-24",
+        "sourceName": "Apple 中国大陆在线商店"
+      },
+      {
+        "value": 5299,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-ipad/ipad-mini",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "iPad mini 无线局域网机型 256GB - 蓝色 RMB 5,299。",
+        "configuration": "蓝色，8GB 运行内存 + 256GB 存储，WiFi版，国行",
+        "condition": "全新，Apple 中国大陆官方在售价；不含折抵换购、Apple Pencil、键盘及 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 6999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-ipad/ipad-mini",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "iPad mini 无线局域网机型 512GB - 蓝色 RMB 6,999。",
+        "configuration": "蓝色，8GB 运行内存 + 512GB 存储，WiFi版，国行",
+        "condition": "全新，Apple 中国大陆官方在售价；不含折抵换购、Apple Pencil、键盘及 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      }
+    ],
     "ipad-pro-11-2nd-2020": {
       "value": 5630,
       "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=588459&styleId=4921662&skuId=18849414",
@@ -180,7 +407,8 @@
       "rawText": "截至 2026 年 8 月 31 日，识货所选 SKU 18849414 显示深空灰色、256G、WLAN 版，当前显示价 5630 元。",
       "configuration": "深空灰色，WLAN 版，6GB 运行内存 + 256GB 存储，中国大陆电商渠道参考",
       "condition": "全新，识货聚合中国大陆渠道公开价；优惠资格、库存和实际成交价以来源页为准",
-      "observedAt": "2026-08-31"
+      "observedAt": "2026-08-31",
+      "excludedReason": "仅证实中国大陆电商渠道，未明确国行硬件版本；保留历史记录，待复核，不参与国行报价比较"
     },
     "ipad-pro-11-m1-2021": {
       "value": 4680,
@@ -189,7 +417,8 @@
       "rawText": "截至 2026 年 8 月 31 日，识货所选 SKU 74075435 显示深空灰、256G、WLAN 版，当前显示价 4680 元。",
       "configuration": "深空灰，WLAN 版，8GB 运行内存 + 256GB 存储，中国大陆电商渠道参考",
       "condition": "全新，识货聚合中国大陆渠道公开价；优惠资格、库存和实际成交价以来源页为准",
-      "observedAt": "2026-08-31"
+      "observedAt": "2026-08-31",
+      "excludedReason": "仅证实中国大陆电商渠道，未明确国行硬件版本；保留历史记录，待复核，不参与国行报价比较"
     },
     "ipad-pro-m2-13-2022": {
       "value": 5910,
@@ -198,7 +427,8 @@
       "rawText": "截至 2026 年 8 月 31 日，识货所选 SKU 146548020 显示深空灰色、WLAN 版、256GB，当前显示价 5910 元。",
       "configuration": "深空灰色，WLAN 版，8GB 运行内存 + 256GB 存储，中国大陆电商渠道参考",
       "condition": "全新，识货聚合中国大陆渠道公开价；优惠资格、库存和实际成交价以来源页为准",
-      "observedAt": "2026-08-31"
+      "observedAt": "2026-08-31",
+      "excludedReason": "仅证实中国大陆电商渠道，未明确国行硬件版本；保留历史记录，待复核，不参与国行报价比较"
     },
     "ipad-pro-m2-2022": {
       "value": 5920,
@@ -207,7 +437,8 @@
       "rawText": "截至 2026 年 8 月 31 日，识货所选 SKU 146547943 显示深空灰色、WLAN 版、256GB，当前显示价 5920 元。",
       "configuration": "深空灰色，WLAN 版，8GB 运行内存 + 256GB 存储，中国大陆电商渠道参考",
       "condition": "全新，识货聚合中国大陆渠道公开价；优惠资格、库存和实际成交价以来源页为准",
-      "observedAt": "2026-08-31"
+      "observedAt": "2026-08-31",
+      "excludedReason": "仅证实中国大陆电商渠道，未明确国行硬件版本；保留历史记录，待复核，不参与国行报价比较"
     },
     "ipad-pro-m4-11-2024": {
       "value": 8650,
@@ -227,6 +458,100 @@
       "condition": "全新，识货聚合中国大陆渠道公开价；优惠资格、库存和实际成交价以来源页为准",
       "observedAt": "2026-08-31"
     },
+    "ipad-pro-m5-11-2025": [
+      {
+        "value": 8590,
+        "unit": "CNY",
+        "rawText": "截至8月24日，识货为您实时监控全网12家正品放心店铺。当前同款同规格全网最低价为¥8590，来自识货安心购店铺。",
+        "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=8212843&styleId=791957349&skuId=2833898713",
+        "sourceType": "reference",
+        "confidence": 0.7,
+        "verifiedAt": "2026-08-24",
+        "priceType": "current",
+        "market": "中国大陆",
+        "configuration": "深空黑色，256GB，WLAN 版，标准玻璃面板，国行版",
+        "condition": "全新，识货安心购店铺最低价；优惠资格与库存以来源页为准",
+        "observedAt": "2026-08-24",
+        "sourceName": "识货"
+      },
+      {
+        "value": 12499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-ipad/ipad-pro",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "11 英寸 iPad Pro 无线局域网机型 512GB 配标准玻璃面板 - 深空黑色 RMB 12,499。512GB 存储容量 12GB 内存 M5 芯片：9 核中央处理器、10 核图形处理器。",
+        "configuration": "深空黑色，12GB 运行内存 + 512GB 存储，9 核 CPU、10 核 GPU，标准玻璃，WiFi版，国行",
+        "condition": "全新，Apple 中国大陆官方在售价；标准玻璃，不含纳米纹理玻璃加价、折抵换购、Apple Pencil、键盘及 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 15899,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-ipad/ipad-pro",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "11 英寸 iPad Pro 无线局域网机型 1TB 配标准玻璃面板 - 深空黑色 RMB 15,899。1TB 存储容量 16GB 内存 M5 芯片：10 核中央处理器、10 核图形处理器。",
+        "configuration": "深空黑色，16GB 运行内存 + 1TB 存储，10 核 CPU、10 核 GPU，标准玻璃，WiFi版，国行",
+        "condition": "全新，Apple 中国大陆官方在售价；标准玻璃，不含纳米纹理玻璃加价、折抵换购、Apple Pencil、键盘及 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 20099,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-ipad/ipad-pro",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "11 英寸 iPad Pro 无线局域网机型 2TB 配标准玻璃面板 - 深空黑色 RMB 20,099。2TB 存储容量 16GB 内存 M5 芯片：10 核中央处理器、10 核图形处理器。",
+        "configuration": "深空黑色，16GB 运行内存 + 2TB 存储，10 核 CPU、10 核 GPU，标准玻璃，WiFi版，国行",
+        "condition": "全新，Apple 中国大陆官方在售价；标准玻璃，不含纳米纹理玻璃加价、折抵换购、Apple Pencil、键盘及 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      }
+    ],
+    "ipad-pro-m5-13-2025": [
+      {
+        "value": 8690,
+        "unit": "CNY",
+        "rawText": "截至8月24日，识货为您实时监控全网5家正品放心店铺。当前同款同规格全网最低价为¥8690，来自识货安心购店铺。",
+        "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=8212854&styleId=791957856&skuId=2834135690",
+        "sourceType": "reference",
+        "confidence": 0.7,
+        "verifiedAt": "2026-08-24",
+        "priceType": "current",
+        "market": "中国大陆",
+        "configuration": "深空黑色，256GB，WLAN 版，标准玻璃面板，国行版",
+        "condition": "全新，识货安心购店铺最低价；优惠资格与库存以来源页为准",
+        "observedAt": "2026-08-24",
+        "sourceName": "识货"
+      },
+      {
+        "value": 14999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-ipad/ipad-pro",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "13 英寸 iPad Pro 无线局域网机型 512GB 配标准玻璃面板 - 深空黑色 RMB 14,999。512GB 存储容量 12GB 内存 M5 芯片：9 核中央处理器、10 核图形处理器。",
+        "configuration": "深空黑色，12GB 运行内存 + 512GB 存储，9 核 CPU、10 核 GPU，标准玻璃，WiFi版，国行",
+        "condition": "全新，Apple 中国大陆官方在售价；标准玻璃，不含纳米纹理玻璃加价、折抵换购、Apple Pencil、键盘及 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 18399,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-ipad/ipad-pro",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "13 英寸 iPad Pro 无线局域网机型 1TB 配标准玻璃面板 - 深空黑色 RMB 18,399。1TB 存储容量 16GB 内存 M5 芯片：10 核中央处理器、10 核图形处理器。",
+        "configuration": "深空黑色，16GB 运行内存 + 1TB 存储，10 核 CPU、10 核 GPU，标准玻璃，WiFi版，国行",
+        "condition": "全新，Apple 中国大陆官方在售价；标准玻璃，不含纳米纹理玻璃加价、折抵换购、Apple Pencil、键盘及 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 22599,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-ipad/ipad-pro",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "13 英寸 iPad Pro 无线局域网机型 2TB 配标准玻璃面板 - 深空黑色 RMB 22,599。2TB 存储容量 16GB 内存 M5 芯片：10 核中央处理器、10 核图形处理器。",
+        "configuration": "深空黑色，16GB 运行内存 + 2TB 存储，10 核 CPU、10 核 GPU，标准玻璃，WiFi版，国行",
+        "condition": "全新，Apple 中国大陆官方在售价；标准玻璃，不含纳米纹理玻璃加价、折抵换购、Apple Pencil、键盘及 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      }
+    ],
     "iphone-14-plus": {
       "value": 5340,
       "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=1903983&styleId=41221609&skuId=141991722",
@@ -261,7 +586,8 @@
       "rawText": "识货商品页于 2026-08-31 显示所选 SKU 239168546（原色钛金属、8GB+256GB）安心购店铺公开最低价为 ¥7,090。",
       "configuration": "原色钛金属，8GB 运行内存 + 256GB 存储，双卡双待全网通，中国大陆电商渠道参考",
       "condition": "全新，识货安心购店铺公开最低价；优惠资格、库存和实际成交价以来源页为准",
-      "observedAt": "2026-08-31"
+      "observedAt": "2026-08-31",
+      "excludedReason": "仅证实中国大陆电商渠道，未明确国行硬件版本；保留历史记录，待复核，不参与国行报价比较"
     },
     "iphone-15-pro-max": {
       "value": 8110,
@@ -270,7 +596,8 @@
       "rawText": "识货商品页于 2026-08-31 显示所选 SKU 239168026（原色钛金属、8GB+256GB）安心购店铺公开最低价为 ¥8,110。",
       "configuration": "原色钛金属，8GB 运行内存 + 256GB 存储，双卡双待全网通，中国大陆电商渠道参考",
       "condition": "全新，识货安心购店铺公开最低价；优惠资格、库存和实际成交价以来源页为准",
-      "observedAt": "2026-08-31"
+      "observedAt": "2026-08-31",
+      "excludedReason": "仅证实中国大陆电商渠道，未明确国行硬件版本；保留历史记录，待复核，不参与国行报价比较"
     },
     "iphone-16-pro": {
       "value": 8410,
@@ -279,7 +606,8 @@
       "rawText": "截至8月31日，识货监控到该商品同款同规格全网最低价为8410元，来自识货安心购店铺；页面当前选择沙漠色钛金属、256GB。",
       "configuration": "沙漠色钛金属，8GB 运行内存 + 256GB 存储，双卡双待全网通，中国大陆电商渠道参考",
       "condition": "全新，识货安心购店铺公开最低价；优惠资格与库存以来源页为准",
-      "observedAt": "2026-08-31"
+      "observedAt": "2026-08-31",
+      "excludedReason": "仅证实中国大陆电商渠道，未明确国行硬件版本；保留历史记录，待复核，不参与国行报价比较"
     },
     "iphone-16-pro-max": {
       "value": 10162,
@@ -288,7 +616,8 @@
       "rawText": "截至8月31日，识货页面显示该商品256GB同款同规格价格区间为10162.44元，当前最低渠道为得物；结构化价格按人民币元取整记录为10162元。",
       "configuration": "原色钛金属，8GB 运行内存 + 256GB 存储，双卡双待全网通，中国大陆电商渠道参考",
       "condition": "全新，识货聚合渠道公开最低价；优惠资格与库存以来源页为准",
-      "observedAt": "2026-08-31"
+      "observedAt": "2026-08-31",
+      "excludedReason": "仅证实中国大陆电商渠道，未明确国行硬件版本；保留历史记录，待复核，不参与国行报价比较"
     },
     "iphone-16e-2025": {
       "value": 4000,
@@ -299,6 +628,139 @@
       "condition": "全新，识货聚合中国大陆渠道公开最低价；优惠资格、库存和实际成交价以来源页为准",
       "observedAt": "2026-08-31"
     },
+    "iphone-17": [
+      {
+        "value": 5380,
+        "unit": "CNY",
+        "rawText": "截至8月24日，识货为您实时监控全网16家正品放心店铺。当前同款同规格全网最低价为¥5380，来自百亿补贴店铺。",
+        "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=7929787&styleId=713169122",
+        "sourceType": "reference",
+        "confidence": 0.7,
+        "verifiedAt": "2026-08-24",
+        "priceType": "current",
+        "market": "中国大陆",
+        "configuration": "白色，256GB，中国大陆版本",
+        "condition": "全新，识货聚合百亿补贴店铺最低价；优惠资格与库存以来源页为准",
+        "observedAt": "2026-08-24",
+        "sourceName": "识货"
+      },
+      {
+        "value": 8799,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-iphone/iphone-17",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 iPhone 17，按你喜好，合你心意。iPhone 17 512GB 白色 RMB 8,799 或 RMB 367/月 (24 期)。结账时会显示你所在地区的送货详情。添加到购物袋。",
+        "configuration": "白色，8GB 运行内存 + 512GB 存储，国行",
+        "condition": "全新，Apple 中国大陆官方在售价，不含折抵换购或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      }
+    ],
+    "iphone-17e-2026": [
+      {
+        "value": 5299,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-iphone/iphone-17e/mhu64ch/a",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 iPhone 17e，按你喜好，合你心意。iPhone 17e 256GB 浅粉色 RMB 5,299 或 RMB 221/月 (24 期)。结账时会显示你所在地区的送货详情。添加到购物袋。",
+        "configuration": "浅粉色，8GB 运行内存 + 256GB 存储，国行",
+        "condition": "全新，Apple 中国大陆官方在售价，不含折抵换购或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 7299,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-iphone/iphone-17e/mhua4ch/a",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 iPhone 17e，按你喜好，合你心意。iPhone 17e 512GB 浅粉色 RMB 7,299 或 RMB 305/月 (24 期)。结账时会显示你所在地区的送货详情。添加到购物袋。",
+        "configuration": "浅粉色，8GB 运行内存 + 512GB 存储，国行",
+        "condition": "全新，Apple 中国大陆官方在售价，不含折抵换购或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      }
+    ],
+    "iphone-18-pro": [
+      {
+        "value": 9999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-iphone/iphone-18-pro",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 iPhone 18 Pro， 按你喜好， 合你心意。 iPhone 18 Pro 256GB 黑色 RMB 9,999 或 RMB 417/月 (24 期) 含增值税及其他法定税费：约 RMB 1,157 脚注 ∆。 可享免息分期付款 (iPhone 18 Pro 256GB 黑色 black 256gb 的分期付款选项) 需要考虑一下？ 将此设备加入你的收藏，即可先保留全部配置选择，之后随时回来再继续选购。 收藏 结账时会显示你所在地区的送货详情。 添加到购物袋",
+        "configuration": "黑色，12GB 运行内存 + 256GB 存储，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含折抵换购或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 11999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-iphone/iphone-18-pro",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 iPhone 18 Pro， 按你喜好， 合你心意。 iPhone 18 Pro 512GB 黑色 RMB 11,999 或 RMB 500/月 (24 期) 含增值税及其他法定税费：约 RMB 1,387 脚注 ∆。 可享免息分期付款 (iPhone 18 Pro 512GB 黑色 black 512gb 的分期付款选项) 需要考虑一下？ 将此设备加入你的收藏，即可先保留全部配置选择，之后随时回来再继续选购。 收藏 结账时会显示你所在地区的送货详情。 添加到购物袋",
+        "configuration": "黑色，12GB 运行内存 + 512GB 存储，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含折抵换购或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 15499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-iphone/iphone-18-pro",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 iPhone 18 Pro， 按你喜好， 合你心意。 iPhone 18 Pro 1TB 黑色 RMB 15,499 或 RMB 646/月 (24 期) 含增值税及其他法定税费：约 RMB 1,790 脚注 。 可享免息分期付款 (iPhone 18 Pro 1TB 黑色 black 1tb 的分期付款选项) 需要考虑一下？ 将此设备加入你的收藏，即可先保留全部配置选择，之后随时回来再继续选购。 收藏 结账时会显示你所在地区的送货详情。 添加到购物袋",
+        "configuration": "黑色，12GB 运行内存 + 1TB 存储，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含折抵换购或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 20499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-iphone/iphone-18-pro",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 iPhone 18 Pro， 按你喜好， 合你心意。 iPhone 18 Pro 2TB 黑色 RMB 20,499 或 RMB 855/月 (24 期) 含增值税及其他法定税费：约 RMB 2,365 脚注 ∆。 可享免息分期付款 (iPhone 18 Pro 2TB 黑色 black 2tb 的分期付款选项) 需要考虑一下？ 将此设备加入你的收藏，即可先保留全部配置选择，之后随时回来再继续选购。 收藏 结账时会显示你所在地区的送货详情。 添加到购物袋",
+        "configuration": "黑色，12GB 运行内存 + 2TB 存储，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含折抵换购或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      }
+    ],
+    "iphone-18-pro-max": [
+      {
+        "value": 10999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-iphone/iphone-18-pro",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 iPhone 18 Pro Max， 按你喜好， 合你心意。 iPhone 18 Pro Max 256GB 黑色 RMB 10,999 或 RMB 459/月 (24 期) 含增值税及其他法定税费：约 RMB 1,272 脚注 ∆。 可享免息分期付款 (iPhone 18 Pro Max 256GB 黑色 black 256gb 的分期付款选项) 需要考虑一下？ 将此设备加入你的收藏，即可先保留全部配置选择，之后随时回来再继续选购。 收藏 结账时会显示你所在地区的送货详情。 添加到购物袋",
+        "configuration": "黑色，12GB 运行内存 + 256GB 存储，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含折抵换购或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 12999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-iphone/iphone-18-pro",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 iPhone 18 Pro Max， 按你喜好， 合你心意。 iPhone 18 Pro Max 512GB 黑色 RMB 12,999 或 RMB 542/月 (24 期) 含增值税及其他法定税费：约 RMB 1,502 脚注 ∆。 可享免息分期付款 (iPhone 18 Pro Max 512GB 黑色 black 512gb 的分期付款选项) 需要考虑一下？ 将此设备加入你的收藏，即可先保留全部配置选择，之后随时回来再继续选购。 收藏 结账时会显示你所在地区的送货详情。 添加到购物袋",
+        "configuration": "黑色，12GB 运行内存 + 512GB 存储，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含折抵换购或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 16499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-iphone/iphone-18-pro",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 iPhone 18 Pro Max， 按你喜好， 合你心意。 iPhone 18 Pro Max 1TB 黑色 RMB 16,499 或 RMB 688/月 (24 期) 含增值税及其他法定税费：约 RMB 1,905 脚注 。 可享免息分期付款 (iPhone 18 Pro Max 1TB 黑色 black 1tb 的分期付款选项) 需要考虑一下？ 将此设备加入你的收藏，即可先保留全部配置选择，之后随时回来再继续选购。 收藏 结账时会显示你所在地区的送货详情。 添加到购物袋",
+        "configuration": "黑色，12GB 运行内存 + 1TB 存储，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含折抵换购或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 21499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-iphone/iphone-18-pro",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 iPhone 18 Pro Max， 按你喜好， 合你心意。 iPhone 18 Pro Max 2TB 黑色 RMB 21,499 或 RMB 896/月 (24 期) 含增值税及其他法定税费：约 RMB 2,480 脚注 ∆。 可享免息分期付款 (iPhone 18 Pro Max 2TB 黑色 black 2tb 的分期付款选项) 需要考虑一下？ 将此设备加入你的收藏，即可先保留全部配置选择，之后随时回来再继续选购。 收藏 结账时会显示你所在地区的送货详情。 添加到购物袋",
+        "configuration": "黑色，12GB 运行内存 + 2TB 存储，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含折抵换购或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      }
+    ],
     "macbook-air-13-m3-2024": [
       {
         "value": 7510,
@@ -307,7 +769,8 @@
         "rawText": "截至 2026 年 8 月 31 日，识货所选 SKU 385161950 显示午夜色、M3 芯片（8 核 CPU + 10 核 GPU）、16GB 内存、0.5TB 存储，放心店铺最低价 7510 元。",
         "configuration": "午夜色，Apple M3（8 核 CPU + 10 核 GPU），16GB 运行内存 + 512GB 存储，中国大陆电商渠道参考",
         "condition": "全新，识货聚合中国大陆渠道公开最低价；优惠资格、库存和实际成交价以来源页为准",
-        "observedAt": "2026-08-31"
+        "observedAt": "2026-08-31",
+        "excludedReason": "仅证实中国大陆电商渠道，未明确国行硬件版本；保留历史记录，待复核，不参与国行报价比较"
       },
       {
         "value": 6460,
@@ -316,7 +779,8 @@
         "rawText": "截至 2026 年 8 月 31 日，识货所列深空灰色、M3 芯片（8 核 CPU + 8 核 GPU）、8GB 内存、256GB 存储规格公开最低价为 6460 元。",
         "configuration": "深空灰色，Apple M3（8 核 CPU + 8 核 GPU），8GB 运行内存 + 256GB 存储，中国大陆电商渠道参考",
         "condition": "全新，识货聚合中国大陆渠道公开最低价；优惠资格、库存和实际成交价以来源页为准",
-        "observedAt": "2026-08-31"
+        "observedAt": "2026-08-31",
+        "excludedReason": "仅证实中国大陆电商渠道，未明确国行硬件版本；保留历史记录，待复核，不参与国行报价比较"
       },
       {
         "value": 6910,
@@ -325,18 +789,188 @@
         "rawText": "截至 2026 年 8 月 31 日，识货所列午夜色、M3 芯片（8 核 CPU + 8 核 GPU）、16GB 内存、256GB 存储规格公开最低价为 6910 元。",
         "configuration": "午夜色，Apple M3（8 核 CPU + 8 核 GPU），16GB 运行内存 + 256GB 存储，中国大陆电商渠道参考",
         "condition": "全新，识货聚合中国大陆渠道公开最低价；优惠资格、库存和实际成交价以来源页为准",
-        "observedAt": "2026-08-31"
+        "observedAt": "2026-08-31",
+        "excludedReason": "仅证实中国大陆电商渠道，未明确国行硬件版本；保留历史记录，待复核，不参与国行报价比较"
       }
     ],
-    "macbook-air-13-m4-2025": {
-      "value": 9400,
-      "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=7323757&styleId=505270367&skuId=1607028001",
-      "sourceName": "识货",
-      "rawText": "截至 2026 年 8 月 31 日，识货所选 SKU 1607028001 显示星光色、16GB 内存、0.5TB 存储，放心店铺最低价 9400 元。",
-      "configuration": "星光色，Apple M4，16GB 运行内存 + 512GB 存储，中国大陆电商渠道参考",
-      "condition": "全新，识货聚合中国大陆渠道公开最低价；优惠资格、库存和实际成交价以来源页为准",
-      "observedAt": "2026-08-31"
-    },
+    "macbook-air-13-m4-2025": [
+      {
+        "value": 9400,
+        "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=7323757&styleId=505270367&skuId=1607028001",
+        "sourceName": "识货",
+        "rawText": "截至 2026 年 8 月 31 日，识货所选 SKU 1607028001 显示星光色、16GB 内存、0.5TB 存储，放心店铺最低价 9400 元。",
+        "configuration": "星光色，Apple M4，16GB 运行内存 + 512GB 存储，中国大陆电商渠道参考",
+        "condition": "全新，识货聚合中国大陆渠道公开最低价；优惠资格、库存和实际成交价以来源页为准",
+        "observedAt": "2026-08-31",
+        "excludedReason": "仅证实中国大陆电商渠道，来源未明确国行版本；所选 SKU 当前无公开价格，保留历史记录，不参与国行报价比较"
+      },
+      {
+        "value": 7999,
+        "sourceUrl": "https://item.jd.com/product/QI3ptpSrC7UHi_6jOYlzzA.html",
+        "sourceName": "京东",
+        "rawText": "2026-09-26 浏览器公开商品页：苹果/苹果AI笔记本/2025款MacBook Air13英寸M4 (10+8核) 16G 256G银色电脑MW0W3CH/A；¥7999.00；登录查看到手价。仅记录商品自身公开标价，不使用看了又看推荐商品价格。",
+        "configuration": "银色，Apple M4，10 核 CPU / 8 核 GPU，16GB 运行内存 + 256GB 存储，MW0W3CH/A，国行",
+        "condition": "全新，京东公开标价，未登录；不含国补、会员券或其他优惠，到手价及库存以结算页为准",
+        "observedAt": "2026-09-26"
+      },
+      {
+        "value": 9499,
+        "sourceUrl": "https://item.jd.com/product/LQyPenV3rj2NTf6jL453LQ.html",
+        "sourceName": "京东",
+        "rawText": "2026-09-26 浏览器公开商品页：苹果/苹果AI笔记本/2025款MacBookAir13英寸M4(10+10核)16G 512G 午夜色电脑MW133CH/A；¥9499.00；登录查看到手价。仅记录商品自身公开标价，不使用看了又看推荐商品价格。",
+        "configuration": "午夜色，Apple M4，10 核 CPU / 10 核 GPU，16GB 运行内存 + 512GB 存储，MW133CH/A，国行",
+        "condition": "全新，京东公开标价，未登录；不含国补、会员券或其他优惠，到手价及库存以结算页为准",
+        "observedAt": "2026-09-26"
+      }
+    ],
+    "macbook-air-13-m5-2026": [
+      {
+        "value": 8000,
+        "unit": "CNY",
+        "rawText": "截至8月24日，识货为您实时监控全网5家正品放心店铺。当前同款同规格全网最低价为¥8000，来自官方店铺。",
+        "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=8785010&styleId=945732557",
+        "sourceType": "reference",
+        "confidence": 0.7,
+        "verifiedAt": "2026-08-24",
+        "priceType": "current",
+        "market": "中国大陆",
+        "configuration": "天蓝色，M5 10 核 CPU / 8 核 GPU，16GB 内存，512GB 存储",
+        "condition": "全新，识货聚合官方店铺最低价；优惠资格与库存以来源页为准",
+        "observedAt": "2026-08-24",
+        "sourceName": "识货",
+        "excludedReason": "原始报价未明确国行配置，待复核"
+      },
+      {
+        "value": 9999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/13-inch-sky-blue-m5-chip-10-core-cpu-8-core-gpu-16gb-memory-512gb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 天蓝色 13 英寸 MacBook Air (M5 芯片) 10 核中央处理器、8 核图形处理器、16 核神经网络引擎 16GB 统一内存 512GB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 9,999 或 RMB 417/月 (24 期) 含增值税及其他法定税费：约 RMB 1,160 脚注 。",
+        "configuration": "天蓝色，M5，10 核 CPU / 8 核 GPU，16GB 运行内存 + 512GB 存储，40W 动态电源适配器（最高60W），国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 10749,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/13-inch-sky-blue-m5-chip-10-core-cpu-10-core-gpu-16gb-memory-512gb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 天蓝色 13 英寸 MacBook Air (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 16GB 统一内存 512GB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 10,749 或 RMB 448/月 (24 期)",
+        "configuration": "天蓝色，M5，10 核 CPU / 10 核 GPU，16GB 运行内存 + 512GB 存储，40W 动态电源适配器（最高60W），国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 12249,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/13-inch-sky-blue-m5-chip-10-core-cpu-10-core-gpu-16gb-memory-1tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 天蓝色 13 英寸 MacBook Air (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 16GB 统一内存 1TB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 12,249 或 RMB 511/月 (24 期)",
+        "configuration": "天蓝色，M5，10 核 CPU / 10 核 GPU，16GB 运行内存 + 1TB 存储，40W 动态电源适配器（最高60W），国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 15999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/13-inch-sky-blue-m5-chip-10-core-cpu-10-core-gpu-16gb-memory-2tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 天蓝色 13 英寸 MacBook Air (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 16GB 统一内存 2TB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 15,999 或 RMB 667/月 (24 期)",
+        "configuration": "天蓝色，M5，10 核 CPU / 10 核 GPU，16GB 运行内存 + 2TB 存储，40W 动态电源适配器（最高60W），国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 23499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/13-inch-sky-blue-m5-chip-10-core-cpu-10-core-gpu-16gb-memory-4tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 天蓝色 13 英寸 MacBook Air (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 16GB 统一内存 4TB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 23,499 或 RMB 980/月 (24 期)",
+        "configuration": "天蓝色，M5，10 核 CPU / 10 核 GPU，16GB 运行内存 + 4TB 存储，40W 动态电源适配器（最高60W），国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 11499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/13-inch-sky-blue-m5-chip-10-core-cpu-10-core-gpu-24gb-memory-512gb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 天蓝色 13 英寸 MacBook Air (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 24GB 统一内存 512GB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 11,499 或 RMB 480/月 (24 期)",
+        "configuration": "天蓝色，M5，10 核 CPU / 10 核 GPU，24GB 运行内存 + 512GB 存储，40W 动态电源适配器（最高60W），国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 13749,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/13-inch-sky-blue-m5-chip-10-core-cpu-10-core-gpu-24gb-memory-1tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 天蓝色 13 英寸 MacBook Air (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 24GB 统一内存 1TB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 13,749 或 RMB 573/月 (24 期)",
+        "configuration": "天蓝色，M5，10 核 CPU / 10 核 GPU，24GB 运行内存 + 1TB 存储，40W 动态电源适配器（最高60W），国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 17499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/13-inch-sky-blue-m5-chip-10-core-cpu-10-core-gpu-24gb-memory-2tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 天蓝色 13 英寸 MacBook Air (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 24GB 统一内存 2TB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 17,499 或 RMB 730/月 (24 期)",
+        "configuration": "天蓝色，M5，10 核 CPU / 10 核 GPU，24GB 运行内存 + 2TB 存储，40W 动态电源适配器（最高60W），国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 24999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/13-inch-sky-blue-m5-chip-10-core-cpu-10-core-gpu-24gb-memory-4tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 天蓝色 13 英寸 MacBook Air (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 24GB 统一内存 4TB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 24,999 或 RMB 1042/月 (24 期)",
+        "configuration": "天蓝色，M5，10 核 CPU / 10 核 GPU，24GB 运行内存 + 4TB 存储，40W 动态电源适配器（最高60W），国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 12999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/13-inch-sky-blue-m5-chip-10-core-cpu-10-core-gpu-32gb-memory-512gb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 天蓝色 13 英寸 MacBook Air (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 32GB 统一内存 512GB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 12,999 或 RMB 542/月 (24 期)",
+        "configuration": "天蓝色，M5，10 核 CPU / 10 核 GPU，32GB 运行内存 + 512GB 存储，40W 动态电源适配器（最高60W），国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 15249,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/13-inch-sky-blue-m5-chip-10-core-cpu-10-core-gpu-32gb-memory-1tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 天蓝色 13 英寸 MacBook Air (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 32GB 统一内存 1TB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 15,249 或 RMB 636/月 (24 期)",
+        "configuration": "天蓝色，M5，10 核 CPU / 10 核 GPU，32GB 运行内存 + 1TB 存储，40W 动态电源适配器（最高60W），国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 18999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/13-inch-sky-blue-m5-chip-10-core-cpu-10-core-gpu-32gb-memory-2tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 天蓝色 13 英寸 MacBook Air (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 32GB 统一内存 2TB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 18,999 或 RMB 792/月 (24 期)",
+        "configuration": "天蓝色，M5，10 核 CPU / 10 核 GPU，32GB 运行内存 + 2TB 存储，40W 动态电源适配器（最高60W），国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 26499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/13-inch-sky-blue-m5-chip-10-core-cpu-10-core-gpu-32gb-memory-4tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 天蓝色 13 英寸 MacBook Air (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 32GB 统一内存 4TB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 26,499 或 RMB 1105/月 (24 期)",
+        "configuration": "天蓝色，M5，10 核 CPU / 10 核 GPU，32GB 运行内存 + 4TB 存储，40W 动态电源适配器（最高60W），国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      }
+    ],
     "macbook-air-15-m4-2025": {
       "value": 9560,
       "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=7323842&styleId=505291254&skuId=1607058673",
@@ -344,8 +978,158 @@
       "rawText": "截至 2026 年 8 月 31 日，识货所选 SKU 1607058673 显示星光色、16GB 内存、512GB 存储，放心店铺最低价 9560 元。",
       "configuration": "星光色，Apple M4，16GB 运行内存 + 512GB 存储，中国大陆电商渠道参考",
       "condition": "全新，识货聚合中国大陆渠道公开最低价；优惠资格、库存和实际成交价以来源页为准",
-      "observedAt": "2026-08-31"
+      "observedAt": "2026-08-31",
+      "excludedReason": "仅证实中国大陆电商渠道，未明确国行硬件版本；保留历史记录，待复核，不参与国行报价比较"
     },
+    "macbook-air-15-m5-2026": [
+      {
+        "value": 11999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/15-inch-midnight-m5-chip-10-core-cpu-10-core-gpu-16gb-memory-512gb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 午夜色 15 英寸 MacBook Air (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 16GB 统一内存 512GB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 11,999 或 RMB 500/月 (24 期) 含增值税及其他法定税费：约 RMB 1,390 脚注 ∆∆。 可享免息分期付款 (15 英寸 MacBook Air - 午夜色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "午夜色，M5 10 核 CPU / 10 核 GPU，16GB 内存，512GB 存储，中国大陆版本",
+        "condition": "全新，Apple 中国大陆官方在售价",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 14249,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/15-inch-midnight-m5-chip-10-core-cpu-10-core-gpu-16gb-memory-1tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 午夜色 15 英寸 MacBook Air (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 16GB 统一内存 1TB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 14,249 或 RMB 594/月 (24 期) 含增值税及其他法定税费：约 RMB 1,649 脚注 ∆∆。 可享免息分期付款 (15 英寸 MacBook Air - 午夜色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "午夜色，M5，10 核 CPU / 10 核 GPU，16GB 运行内存 + 1TB 存储，40W 动态电源适配器（最高60W），国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 17999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/15-inch-midnight-m5-chip-10-core-cpu-10-core-gpu-16gb-memory-2tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 午夜色 15 英寸 MacBook Air (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 16GB 统一内存 2TB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 17,999 或 RMB 750/月 (24 期) 可享免息分期付款 (15 英寸 MacBook Air - 午夜色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "午夜色，M5，10 核 CPU / 10 核 GPU，16GB 运行内存 + 2TB 存储，40W 动态电源适配器（最高60W），国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 25499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/15-inch-midnight-m5-chip-10-core-cpu-10-core-gpu-16gb-memory-4tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 午夜色 15 英寸 MacBook Air (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 16GB 统一内存 4TB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 25,499 或 RMB 1063/月 (24 期) 可享免息分期付款 (15 英寸 MacBook Air - 午夜色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "午夜色，M5，10 核 CPU / 10 核 GPU，16GB 运行内存 + 4TB 存储，40W 动态电源适配器（最高60W），国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 13499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/15-inch-midnight-m5-chip-10-core-cpu-10-core-gpu-24gb-memory-512gb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 午夜色 15 英寸 MacBook Air (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 24GB 统一内存 512GB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 13,499 或 RMB 563/月 (24 期) 可享免息分期付款 (15 英寸 MacBook Air - 午夜色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "午夜色，M5，10 核 CPU / 10 核 GPU，24GB 运行内存 + 512GB 存储，40W 动态电源适配器（最高60W），国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 15749,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/15-inch-midnight-m5-chip-10-core-cpu-10-core-gpu-24gb-memory-1tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 午夜色 15 英寸 MacBook Air (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 24GB 统一内存 1TB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 15,749 或 RMB 657/月 (24 期) 含增值税及其他法定税费：约 RMB 1,822 脚注 ∆∆。 可享免息分期付款 (15 英寸 MacBook Air - 午夜色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "午夜色，M5，10 核 CPU / 10 核 GPU，24GB 运行内存 + 1TB 存储，40W 动态电源适配器（最高60W），国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 19499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/15-inch-midnight-m5-chip-10-core-cpu-10-core-gpu-24gb-memory-2tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 午夜色 15 英寸 MacBook Air (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 24GB 统一内存 2TB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 19,499 或 RMB 813/月 (24 期) 可享免息分期付款 (15 英寸 MacBook Air - 午夜色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "午夜色，M5，10 核 CPU / 10 核 GPU，24GB 运行内存 + 2TB 存储，40W 动态电源适配器（最高60W），国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 26999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/15-inch-midnight-m5-chip-10-core-cpu-10-core-gpu-24gb-memory-4tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 午夜色 15 英寸 MacBook Air (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 24GB 统一内存 4TB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 26,999 或 RMB 1125/月 (24 期) 可享免息分期付款 (15 英寸 MacBook Air - 午夜色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "午夜色，M5，10 核 CPU / 10 核 GPU，24GB 运行内存 + 4TB 存储，40W 动态电源适配器（最高60W），国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 14999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/15-inch-midnight-m5-chip-10-core-cpu-10-core-gpu-32gb-memory-512gb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 午夜色 15 英寸 MacBook Air (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 32GB 统一内存 512GB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 14,999 或 RMB 625/月 (24 期) 可享免息分期付款 (15 英寸 MacBook Air - 午夜色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "午夜色，M5，10 核 CPU / 10 核 GPU，32GB 运行内存 + 512GB 存储，40W 动态电源适配器（最高60W），国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 17249,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/15-inch-midnight-m5-chip-10-core-cpu-10-core-gpu-32gb-memory-1tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 午夜色 15 英寸 MacBook Air (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 32GB 统一内存 1TB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 17,249 或 RMB 719/月 (24 期) 可享免息分期付款 (15 英寸 MacBook Air - 午夜色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "午夜色，M5，10 核 CPU / 10 核 GPU，32GB 运行内存 + 1TB 存储，40W 动态电源适配器（最高60W），国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 20999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/15-inch-midnight-m5-chip-10-core-cpu-10-core-gpu-32gb-memory-2tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 午夜色 15 英寸 MacBook Air (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 32GB 统一内存 2TB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 20,999 或 RMB 875/月 (24 期) 可享免息分期付款 (15 英寸 MacBook Air - 午夜色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "午夜色，M5，10 核 CPU / 10 核 GPU，32GB 运行内存 + 2TB 存储，40W 动态电源适配器（最高60W），国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 28499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-air/15-inch-midnight-m5-chip-10-core-cpu-10-core-gpu-32gb-memory-4tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 Macbook Air， 看看配置是否满意？ 午夜色 15 英寸 MacBook Air (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 32GB 统一内存 4TB 固态硬盘 40W 动态电源适配器 (最高 60W) 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 两个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、Wi-Fi、蓝牙 6 支持最多两台外接显示器 RMB 28,499 或 RMB 1188/月 (24 期) 可享免息分期付款 (15 英寸 MacBook Air - 午夜色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "午夜色，M5，10 核 CPU / 10 核 GPU，32GB 运行内存 + 4TB 存储，40W 动态电源适配器（最高60W），国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      }
+    ],
+    "macbook-neo-13-2026": [
+      {
+        "value": 5499,
+        "unit": "CNY",
+        "rawText": "购买 MacBook Neo；8GB 内存、256GB 存储版本当前价格 RMB 5,499。",
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-neo",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-08-24",
+        "priceType": "current",
+        "market": "中国大陆",
+        "configuration": "A18 Pro 6 核 CPU / 5 核 GPU，8GB 内存，256GB 存储，中国大陆版本",
+        "condition": "全新，Apple 中国大陆官方在售价",
+        "observedAt": "2026-08-24",
+        "sourceName": "Apple 中国大陆在线商店"
+      },
+      {
+        "value": 6299,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-neo",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Neo，按你喜好，合你心意。银色 13 英寸 MacBook Neo A18 Pro 芯片、6 核中央处理器、5 核图形处理器、16 核神经网络引擎 8GB 统一内存 512GB 固态硬盘 妙控键盘 (带有触控 ID) - 中文 (拼音) 20W USB-C 电源适配器 两个 USB-C 端口、一个 3.5 毫米耳机插孔 支持一台外接显示器 RMB 6,299 添加到购物袋",
+        "configuration": "银色，A18 Pro 6 核 CPU / 5 核 GPU，8GB 运行内存 + 512GB 存储，带触控 ID，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      }
+    ],
     "macbook-pro-14-m3-2023": {
       "value": 8360,
       "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=4394979&styleId=107899097&skuId=275796928",
@@ -353,7 +1137,8 @@
       "rawText": "截至 2026 年 8 月 31 日，识货所选 SKU 275796928 显示深空灰色、M3（8 核 CPU + 10 核 GPU）、8GB 内存、0.5TB 存储，放心店铺最低价 8360 元。",
       "configuration": "深空灰色，Apple M3（8 核 CPU + 10 核 GPU），8GB 运行内存 + 512GB 存储，中国大陆电商渠道参考",
       "condition": "全新，识货聚合中国大陆渠道公开最低价；优惠资格、库存和实际成交价以来源页为准",
-      "observedAt": "2026-08-31"
+      "observedAt": "2026-08-31",
+      "excludedReason": "仅证实中国大陆电商渠道，未明确国行硬件版本；保留历史记录，待复核，不参与国行报价比较"
     },
     "macbook-pro-14-m4-max-2024": {
       "value": 22200,
@@ -362,7 +1147,8 @@
       "rawText": "截至 2026 年 8 月 31 日，识货所选 SKU 1076069604 显示银色、M4 Max（14 核 CPU + 32 核 GPU）、36GB 内存、1TB 存储，放心店铺最低价 2.22 万元。",
       "configuration": "银色，Apple M4 Max（14 核 CPU + 32 核 GPU），36GB 运行内存 + 1TB 存储，标准显示屏，中国大陆电商渠道参考",
       "condition": "全新，识货聚合中国大陆渠道公开最低价；优惠资格、库存和实际成交价以来源页为准",
-      "observedAt": "2026-08-31"
+      "observedAt": "2026-08-31",
+      "excludedReason": "仅证实中国大陆电商渠道，未明确国行硬件版本；保留历史记录，待复核，不参与国行报价比较"
     },
     "macbook-pro-14-m4-pro-2024": {
       "value": 14500,
@@ -371,10 +1157,1133 @@
       "rawText": "截至 2026 年 8 月 31 日，识货所选 SKU 1076025963 显示银色、M4 Pro（12 核 CPU + 16 核 GPU）、24GB 内存、0.5TB 存储，放心店铺最低价 1.45 万元。",
       "configuration": "银色，Apple M4 Pro（12 核 CPU + 16 核 GPU），24GB 运行内存 + 512GB 存储，标准显示屏，中国大陆电商渠道参考",
       "condition": "全新，识货聚合中国大陆渠道公开最低价；优惠资格、库存和实际成交价以来源页为准",
-      "observedAt": "2026-08-31"
+      "observedAt": "2026-08-31",
+      "excludedReason": "仅证实中国大陆电商渠道，未明确国行硬件版本；保留历史记录，待复核，不参与国行报价比较"
+    },
+    "macbook-pro-14-m5-2025": [
+      {
+        "value": 13200,
+        "unit": "CNY",
+        "rawText": "截至8月24日，识货为您实时监控全网2家正品放心店铺。当前同款同规格全网最低价为¥1.32万，来自百亿补贴店铺。",
+        "sourceUrl": "https://www.shihuo.cn/page/pcGoodsDetail?goodsId=8212827&styleId=797735436",
+        "sourceType": "reference",
+        "confidence": 0.7,
+        "verifiedAt": "2026-08-24",
+        "priceType": "current",
+        "market": "中国大陆",
+        "configuration": "银色，M5 10 核 CPU / 10 核 GPU，16GB 内存，1TB 存储",
+        "condition": "全新，识货聚合百亿补贴店铺最低价；优惠资格与库存以来源页为准",
+        "observedAt": "2026-08-24",
+        "sourceName": "识货",
+        "excludedReason": "原始报价未明确国行配置，待复核"
+      },
+      {
+        "value": 15999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-chip-10-core-cpu-10-core-gpu-16gb-memory-1tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 16GB 统一内存 1TB 固态硬盘 标准显示屏 70W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多两台外接显示器 RMB 15,999 或 RMB 667/月 (24 期) 含增值税及其他法定税费：约 RMB 1,851 脚注 ∆。 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋",
+        "configuration": "银色，M5 10 核 CPU / 10 核 GPU，16GB 运行内存 + 1TB 存储，标准显示屏，70W USB-C 电源适配器，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 19749,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-chip-10-core-cpu-10-core-gpu-16gb-memory-2tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 16GB 统一内存 2TB 固态硬盘 标准显示屏 70W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多两台外接显示器 RMB 19,749 或 RMB 823/月 (24 期) 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，M5 10 核 CPU / 10 核 GPU，16GB 运行内存 + 2TB 存储，标准显示屏，70W USB-C 电源适配器，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 27249,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-chip-10-core-cpu-10-core-gpu-16gb-memory-4tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 16GB 统一内存 4TB 固态硬盘 标准显示屏 70W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多两台外接显示器 RMB 27,249 或 RMB 1136/月 (24 期) 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，M5 10 核 CPU / 10 核 GPU，16GB 运行内存 + 4TB 存储，标准显示屏，70W USB-C 电源适配器，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 21249,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-chip-10-core-cpu-10-core-gpu-24gb-memory-2tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 24GB 统一内存 2TB 固态硬盘 标准显示屏 70W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多两台外接显示器 RMB 21,249 或 RMB 886/月 (24 期) 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，M5 10 核 CPU / 10 核 GPU，24GB 运行内存 + 2TB 存储，标准显示屏，70W USB-C 电源适配器，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 17499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-chip-10-core-cpu-10-core-gpu-24gb-memory-1tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 24GB 统一内存 1TB 固态硬盘 标准显示屏 70W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多两台外接显示器 RMB 17,499 或 RMB 730/月 (24 期) 含增值税及其他法定税费：约 RMB 2,024 脚注 ∆。 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，M5 10 核 CPU / 10 核 GPU，24GB 运行内存 + 1TB 存储，标准显示屏，70W USB-C 电源适配器，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 28749,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-chip-10-core-cpu-10-core-gpu-24gb-memory-4tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 24GB 统一内存 4TB 固态硬盘 标准显示屏 70W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多两台外接显示器 RMB 28,749 或 RMB 1198/月 (24 期) 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，M5 10 核 CPU / 10 核 GPU，24GB 运行内存 + 4TB 存储，标准显示屏，70W USB-C 电源适配器，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 18999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-chip-10-core-cpu-10-core-gpu-32gb-memory-1tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 32GB 统一内存 1TB 固态硬盘 标准显示屏 70W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多两台外接显示器 RMB 18,999 或 RMB 792/月 (24 期) 含增值税及其他法定税费：约 RMB 2,196 脚注 ∆。 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，M5 10 核 CPU / 10 核 GPU，32GB 运行内存 + 1TB 存储，标准显示屏，70W USB-C 电源适配器，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 22749,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-chip-10-core-cpu-10-core-gpu-32gb-memory-2tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 32GB 统一内存 2TB 固态硬盘 标准显示屏 70W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多两台外接显示器 RMB 22,749 或 RMB 948/月 (24 期) 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，M5 10 核 CPU / 10 核 GPU，32GB 运行内存 + 2TB 存储，标准显示屏，70W USB-C 电源适配器，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 30249,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-chip-10-core-cpu-10-core-gpu-32gb-memory-4tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 芯片) 10 核中央处理器、10 核图形处理器、16 核神经网络引擎 32GB 统一内存 4TB 固态硬盘 标准显示屏 70W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 4 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多两台外接显示器 RMB 30,249 或 RMB 1261/月 (24 期) 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，M5 10 核 CPU / 10 核 GPU，32GB 运行内存 + 4TB 存储，标准显示屏，70W USB-C 电源适配器，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      }
+    ],
+    "macbook-pro-14-m5-max-2026": [
+      {
+        "value": 33999,
+        "unit": "CNY",
+        "rawText": "购买 MacBook Pro 14 英寸 (M5 Max) - 深空黑色 - 36GB/2TB；当前价格 RMB 33,999。",
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-space-black-standard-display-apple-m5-max-chip-18-core-cpu-32-core-gpu-36gb-memory-2tb-storage",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-08-24",
+        "priceType": "current",
+        "market": "中国大陆",
+        "configuration": "14 英寸，标准显示屏，M5 Max 18 核 CPU / 32 核 GPU，36GB 内存，2TB 存储，中国大陆版本",
+        "condition": "全新，Apple 中国大陆官方在售价",
+        "observedAt": "2026-08-24",
+        "sourceName": "Apple 中国大陆在线商店"
+      },
+      {
+        "value": 41499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-max-chip-18-core-cpu-40-core-gpu-64gb-memory-2tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 Max 芯片) 18 核中央处理器、40 核图形处理器、16 核神经网络引擎 64GB 统一内存 2TB 固态硬盘 标准显示屏 96W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多四台外接显示器 RMB 41,499 或 RMB 1730/月 (24 期) 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，14 英寸，M5 Max 18 核 CPU / 40 核 GPU，64GB 运行内存 + 2TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 38499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-max-chip-18-core-cpu-40-core-gpu-48gb-memory-2tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 Max 芯片) 18 核中央处理器、40 核图形处理器、16 核神经网络引擎 48GB 统一内存 2TB 固态硬盘 标准显示屏 96W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多四台外接显示器 RMB 38,499 或 RMB 1605/月 (24 期) 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，14 英寸，M5 Max 18 核 CPU / 40 核 GPU，48GB 运行内存 + 2TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 41499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-max-chip-18-core-cpu-32-core-gpu-36gb-memory-4tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 Max 芯片) 18 核中央处理器、32 核图形处理器、16 核神经网络引擎 36GB 统一内存 4TB 固态硬盘 标准显示屏 96W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多四台外接显示器 RMB 41,499 或 RMB 1730/月 (24 期) 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，14 英寸，M5 Max 18 核 CPU / 32 核 GPU，36GB 运行内存 + 4TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 45999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-max-chip-18-core-cpu-40-core-gpu-48gb-memory-4tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 Max 芯片) 18 核中央处理器、40 核图形处理器、16 核神经网络引擎 48GB 统一内存 4TB 固态硬盘 标准显示屏 96W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多四台外接显示器 RMB 45,999 或 RMB 1917/月 (24 期) 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，14 英寸，M5 Max 18 核 CPU / 40 核 GPU，48GB 运行内存 + 4TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 56499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-max-chip-18-core-cpu-32-core-gpu-36gb-memory-8tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 Max 芯片) 18 核中央处理器、32 核图形处理器、16 核神经网络引擎 36GB 统一内存 8TB 固态硬盘 标准显示屏 96W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多四台外接显示器 RMB 56,499 或 RMB 2355/月 (24 期) 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，14 英寸，M5 Max 18 核 CPU / 32 核 GPU，36GB 运行内存 + 8TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 60999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-max-chip-18-core-cpu-40-core-gpu-48gb-memory-8tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 Max 芯片) 18 核中央处理器、40 核图形处理器、16 核神经网络引擎 48GB 统一内存 8TB 固态硬盘 标准显示屏 96W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多四台外接显示器 RMB 60,999 或 RMB 2542/月 (24 期) 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，14 英寸，M5 Max 18 核 CPU / 40 核 GPU，48GB 运行内存 + 8TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 48999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-max-chip-18-core-cpu-40-core-gpu-64gb-memory-4tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 Max 芯片) 18 核中央处理器、40 核图形处理器、16 核神经网络引擎 64GB 统一内存 4TB 固态硬盘 标准显示屏 96W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多四台外接显示器 RMB 48,999 或 RMB 2042/月 (24 期) 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，14 英寸，M5 Max 18 核 CPU / 40 核 GPU，64GB 运行内存 + 4TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 63999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-max-chip-18-core-cpu-40-core-gpu-64gb-memory-8tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 Max 芯片) 18 核中央处理器、40 核图形处理器、16 核神经网络引擎 64GB 统一内存 8TB 固态硬盘 标准显示屏 96W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多四台外接显示器 RMB 63,999 或 RMB 2667/月 (24 期) 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，14 英寸，M5 Max 18 核 CPU / 40 核 GPU，64GB 运行内存 + 8TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 53499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-max-chip-18-core-cpu-40-core-gpu-128gb-memory-2tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 Max 芯片) 18 核中央处理器、40 核图形处理器、16 核神经网络引擎 128GB 统一内存 2TB 固态硬盘 标准显示屏 96W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多四台外接显示器 RMB 53,499 或 RMB 2230/月 (24 期) 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，14 英寸，M5 Max 18 核 CPU / 40 核 GPU，128GB 运行内存 + 2TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 60999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-max-chip-18-core-cpu-40-core-gpu-128gb-memory-4tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 Max 芯片) 18 核中央处理器、40 核图形处理器、16 核神经网络引擎 128GB 统一内存 4TB 固态硬盘 标准显示屏 96W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多四台外接显示器 RMB 60,999 或 RMB 2542/月 (24 期) 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，14 英寸，M5 Max 18 核 CPU / 40 核 GPU，128GB 运行内存 + 4TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 75999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-max-chip-18-core-cpu-40-core-gpu-128gb-memory-8tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 Max 芯片) 18 核中央处理器、40 核图形处理器、16 核神经网络引擎 128GB 统一内存 8TB 固态硬盘 标准显示屏 96W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多四台外接显示器 RMB 75,999 或 RMB 3167/月 (24 期) 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，14 英寸，M5 Max 18 核 CPU / 40 核 GPU，128GB 运行内存 + 8TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      }
+    ],
+    "macbook-pro-14-m5-pro-2026": [
+      {
+        "value": 19999,
+        "unit": "CNY",
+        "rawText": "购买 MacBook Pro 14 英寸 (M5 Pro) - 深空黑色 - 24GB/1TB；当前价格 RMB 19,999。",
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-space-black-standard-display-apple-m5-pro-chip-15-core-cpu-16-core-gpu-24gb-memory-1tb-storage",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-08-24",
+        "priceType": "current",
+        "market": "中国大陆",
+        "configuration": "14 英寸，标准显示屏，M5 Pro 15 核 CPU / 16 核 GPU，24GB 内存，1TB 存储，中国大陆版本",
+        "condition": "全新，Apple 中国大陆官方在售价",
+        "observedAt": "2026-08-24",
+        "sourceName": "Apple 中国大陆在线商店"
+      },
+      {
+        "value": 26749,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-pro-chip-18-core-cpu-20-core-gpu-48gb-memory-1tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 Pro 芯片) 18 核中央处理器、20 核图形处理器、16 核神经网络引擎 48GB 统一内存 1TB 固态硬盘 标准显示屏 96W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多三台外接显示器 RMB 26,749 或 RMB 1115/月 (24 期) 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，14 英寸，M5 Pro 18 核 CPU / 20 核 GPU，48GB 运行内存 + 1TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 33499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-pro-chip-18-core-cpu-20-core-gpu-64gb-memory-2tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 Pro 芯片) 18 核中央处理器、20 核图形处理器、16 核神经网络引擎 64GB 统一内存 2TB 固态硬盘 标准显示屏 96W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多三台外接显示器 RMB 33,499 或 RMB 1396/月 (24 期) 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，14 英寸，M5 Pro 18 核 CPU / 20 核 GPU，64GB 运行内存 + 2TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 25999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-pro-chip-18-core-cpu-20-core-gpu-24gb-memory-2tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 Pro 芯片) 18 核中央处理器、20 核图形处理器、16 核神经网络引擎 24GB 统一内存 2TB 固态硬盘 标准显示屏 96W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多三台外接显示器 RMB 25,999 或 RMB 1084/月 (24 期) 含增值税及其他法定税费：约 RMB 3,001 脚注 ∆。 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，14 英寸，M5 Pro 18 核 CPU / 20 核 GPU，24GB 运行内存 + 2TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 33499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-pro-chip-18-core-cpu-20-core-gpu-24gb-memory-4tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 Pro 芯片) 18 核中央处理器、20 核图形处理器、16 核神经网络引擎 24GB 统一内存 4TB 固态硬盘 标准显示屏 96W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多三台外接显示器 RMB 33,499 或 RMB 1396/月 (24 期) 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，14 英寸，M5 Pro 18 核 CPU / 20 核 GPU，24GB 运行内存 + 4TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 30499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-pro-chip-18-core-cpu-20-core-gpu-48gb-memory-2tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 Pro 芯片) 18 核中央处理器、20 核图形处理器、16 核神经网络引擎 48GB 统一内存 2TB 固态硬盘 标准显示屏 96W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多三台外接显示器 RMB 30,499 或 RMB 1271/月 (24 期) 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，14 英寸，M5 Pro 18 核 CPU / 20 核 GPU，48GB 运行内存 + 2TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 37999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-pro-chip-18-core-cpu-20-core-gpu-48gb-memory-4tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 Pro 芯片) 18 核中央处理器、20 核图形处理器、16 核神经网络引擎 48GB 统一内存 4TB 固态硬盘 标准显示屏 96W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多三台外接显示器 RMB 37,999 或 RMB 1584/月 (24 期) 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，14 英寸，M5 Pro 18 核 CPU / 20 核 GPU，48GB 运行内存 + 4TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 29749,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-pro-chip-18-core-cpu-20-core-gpu-64gb-memory-1tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 Pro 芯片) 18 核中央处理器、20 核图形处理器、16 核神经网络引擎 64GB 统一内存 1TB 固态硬盘 标准显示屏 96W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多三台外接显示器 RMB 29,749 或 RMB 1240/月 (24 期) 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，14 英寸，M5 Pro 18 核 CPU / 20 核 GPU，64GB 运行内存 + 1TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 40999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/14-inch-silver-standard-display-apple-m5-pro-chip-18-core-cpu-20-core-gpu-64gb-memory-4tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 14 英寸 MacBook Pro (M5 Pro 芯片) 18 核中央处理器、20 核图形处理器、16 核神经网络引擎 64GB 统一内存 4TB 固态硬盘 标准显示屏 96W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多三台外接显示器 RMB 40,999 或 RMB 1709/月 (24 期) 可享免息分期付款 (14 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，14 英寸，M5 Pro 18 核 CPU / 20 核 GPU，64GB 运行内存 + 4TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      }
+    ],
+    "macbook-pro-16-m5-2026": [
+      {
+        "value": 24999,
+        "unit": "CNY",
+        "rawText": "购买 MacBook Pro 16 英寸 (M5 Pro) - 深空黑色 - 24GB/1TB；当前价格 RMB 24,999。",
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/16-inch-space-black-standard-display-apple-m5-pro-chip-18-core-cpu-20-core-gpu-24gb-memory-1tb-storage",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-08-24",
+        "priceType": "current",
+        "market": "中国大陆",
+        "configuration": "16 英寸，标准显示屏，M5 Pro 18 核 CPU / 20 核 GPU，24GB 内存，1TB 存储，中国大陆版本",
+        "condition": "全新，Apple 中国大陆官方在售价",
+        "observedAt": "2026-08-24",
+        "sourceName": "Apple 中国大陆在线商店"
+      },
+      {
+        "value": 29499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/16-inch-silver-standard-display-apple-m5-pro-chip-18-core-cpu-20-core-gpu-48gb-memory-1tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 16 英寸 MacBook Pro (M5 Pro 芯片) 18 核中央处理器、20 核图形处理器、16 核神经网络引擎 48GB 统一内存 1TB 固态硬盘 标准显示屏 140W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多三台外接显示器 RMB 29,499 或 RMB 1230/月 (24 期) 可享免息分期付款 (16 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，16 英寸，M5 Pro 18 核 CPU / 20 核 GPU，48GB 运行内存 + 1TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 36249,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/16-inch-silver-standard-display-apple-m5-pro-chip-18-core-cpu-20-core-gpu-64gb-memory-2tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 16 英寸 MacBook Pro (M5 Pro 芯片) 18 核中央处理器、20 核图形处理器、16 核神经网络引擎 64GB 统一内存 2TB 固态硬盘 标准显示屏 140W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多三台外接显示器 RMB 36,249 或 RMB 1511/月 (24 期) 可享免息分期付款 (16 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，16 英寸，M5 Pro 18 核 CPU / 20 核 GPU，64GB 运行内存 + 2TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 28749,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/16-inch-silver-standard-display-apple-m5-pro-chip-18-core-cpu-20-core-gpu-24gb-memory-2tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 16 英寸 MacBook Pro (M5 Pro 芯片) 18 核中央处理器、20 核图形处理器、16 核神经网络引擎 24GB 统一内存 2TB 固态硬盘 标准显示屏 140W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多三台外接显示器 RMB 28,749 或 RMB 1198/月 (24 期) 可享免息分期付款 (16 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，16 英寸，M5 Pro 18 核 CPU / 20 核 GPU，24GB 运行内存 + 2TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 36249,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/16-inch-silver-standard-display-apple-m5-pro-chip-18-core-cpu-20-core-gpu-24gb-memory-4tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 16 英寸 MacBook Pro (M5 Pro 芯片) 18 核中央处理器、20 核图形处理器、16 核神经网络引擎 24GB 统一内存 4TB 固态硬盘 标准显示屏 140W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多三台外接显示器 RMB 36,249 或 RMB 1511/月 (24 期) 可享免息分期付款 (16 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，16 英寸，M5 Pro 18 核 CPU / 20 核 GPU，24GB 运行内存 + 4TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 33249,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/16-inch-silver-standard-display-apple-m5-pro-chip-18-core-cpu-20-core-gpu-48gb-memory-2tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 16 英寸 MacBook Pro (M5 Pro 芯片) 18 核中央处理器、20 核图形处理器、16 核神经网络引擎 48GB 统一内存 2TB 固态硬盘 标准显示屏 140W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多三台外接显示器 RMB 33,249 或 RMB 1386/月 (24 期) 可享免息分期付款 (16 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，16 英寸，M5 Pro 18 核 CPU / 20 核 GPU，48GB 运行内存 + 2TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 40749,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/16-inch-silver-standard-display-apple-m5-pro-chip-18-core-cpu-20-core-gpu-48gb-memory-4tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 16 英寸 MacBook Pro (M5 Pro 芯片) 18 核中央处理器、20 核图形处理器、16 核神经网络引擎 48GB 统一内存 4TB 固态硬盘 标准显示屏 140W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多三台外接显示器 RMB 40,749 或 RMB 1698/月 (24 期) 可享免息分期付款 (16 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，16 英寸，M5 Pro 18 核 CPU / 20 核 GPU，48GB 运行内存 + 4TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 32499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/16-inch-silver-standard-display-apple-m5-pro-chip-18-core-cpu-20-core-gpu-64gb-memory-1tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 16 英寸 MacBook Pro (M5 Pro 芯片) 18 核中央处理器、20 核图形处理器、16 核神经网络引擎 64GB 统一内存 1TB 固态硬盘 标准显示屏 140W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多三台外接显示器 RMB 32,499 或 RMB 1355/月 (24 期) 可享免息分期付款 (16 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，16 英寸，M5 Pro 18 核 CPU / 20 核 GPU，64GB 运行内存 + 1TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 43749,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/16-inch-silver-standard-display-apple-m5-pro-chip-18-core-cpu-20-core-gpu-64gb-memory-4tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 16 英寸 MacBook Pro (M5 Pro 芯片) 18 核中央处理器、20 核图形处理器、16 核神经网络引擎 64GB 统一内存 4TB 固态硬盘 标准显示屏 140W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多三台外接显示器 RMB 43,749 或 RMB 1823/月 (24 期) 可享免息分期付款 (16 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，16 英寸，M5 Pro 18 核 CPU / 20 核 GPU，64GB 运行内存 + 4TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      }
+    ],
+    "macbook-pro-16-m5-max-2026": [
+      {
+        "value": 35999,
+        "unit": "CNY",
+        "rawText": "购买 MacBook Pro 16 英寸 (M5 Max) - 深空黑色 - 36GB/2TB；当前价格 RMB 35,999。",
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/16-inch-space-black-standard-display-apple-m5-max-chip-18-core-cpu-32-core-gpu-36gb-memory-2tb-storage",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-08-24",
+        "priceType": "current",
+        "market": "中国大陆",
+        "configuration": "16 英寸，标准显示屏，M5 Max 18 核 CPU / 32 核 GPU，36GB 内存，2TB 存储，中国大陆版本",
+        "condition": "全新，Apple 中国大陆官方在售价",
+        "observedAt": "2026-08-24",
+        "sourceName": "Apple 中国大陆在线商店"
+      },
+      {
+        "value": 40999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/16-inch-silver-standard-display-apple-m5-max-chip-18-core-cpu-40-core-gpu-48gb-memory-2tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 16 英寸 MacBook Pro (M5 Max 芯片) 18 核中央处理器、40 核图形处理器、16 核神经网络引擎 48GB 统一内存 2TB 固态硬盘 标准显示屏 140W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多四台外接显示器 RMB 40,999 或 RMB 1709/月 (24 期) 含增值税及其他法定税费：约 RMB 4,727 脚注 ∆。 可享免息分期付款 (16 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，16 英寸，M5 Max 18 核 CPU / 40 核 GPU，48GB 运行内存 + 2TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 43999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/16-inch-silver-standard-display-apple-m5-max-chip-18-core-cpu-40-core-gpu-64gb-memory-2tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 16 英寸 MacBook Pro (M5 Max 芯片) 18 核中央处理器、40 核图形处理器、16 核神经网络引擎 64GB 统一内存 2TB 固态硬盘 标准显示屏 140W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多四台外接显示器 RMB 43,999 或 RMB 1834/月 (24 期) 可享免息分期付款 (16 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，16 英寸，M5 Max 18 核 CPU / 40 核 GPU，64GB 运行内存 + 2TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 43499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/16-inch-silver-standard-display-apple-m5-max-chip-18-core-cpu-32-core-gpu-36gb-memory-4tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 16 英寸 MacBook Pro (M5 Max 芯片) 18 核中央处理器、32 核图形处理器、16 核神经网络引擎 36GB 统一内存 4TB 固态硬盘 标准显示屏 140W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多四台外接显示器 RMB 43,499 或 RMB 1813/月 (24 期) 可享免息分期付款 (16 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，16 英寸，M5 Max 18 核 CPU / 32 核 GPU，36GB 运行内存 + 4TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 58499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/16-inch-silver-standard-display-apple-m5-max-chip-18-core-cpu-32-core-gpu-36gb-memory-8tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 16 英寸 MacBook Pro (M5 Max 芯片) 18 核中央处理器、32 核图形处理器、16 核神经网络引擎 36GB 统一内存 8TB 固态硬盘 标准显示屏 140W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多四台外接显示器 RMB 58,499 或 RMB 2438/月 (24 期) 可享免息分期付款 (16 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，16 英寸，M5 Max 18 核 CPU / 32 核 GPU，36GB 运行内存 + 8TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 48499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/16-inch-silver-standard-display-apple-m5-max-chip-18-core-cpu-40-core-gpu-48gb-memory-4tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 16 英寸 MacBook Pro (M5 Max 芯片) 18 核中央处理器、40 核图形处理器、16 核神经网络引擎 48GB 统一内存 4TB 固态硬盘 标准显示屏 140W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多四台外接显示器 RMB 48,499 或 RMB 2021/月 (24 期) 可享免息分期付款 (16 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，16 英寸，M5 Max 18 核 CPU / 40 核 GPU，48GB 运行内存 + 4TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 63499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/16-inch-silver-standard-display-apple-m5-max-chip-18-core-cpu-40-core-gpu-48gb-memory-8tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 16 英寸 MacBook Pro (M5 Max 芯片) 18 核中央处理器、40 核图形处理器、16 核神经网络引擎 48GB 统一内存 8TB 固态硬盘 标准显示屏 140W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多四台外接显示器 RMB 63,499 或 RMB 2646/月 (24 期) 可享免息分期付款 (16 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，16 英寸，M5 Max 18 核 CPU / 40 核 GPU，48GB 运行内存 + 8TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 51499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/16-inch-silver-standard-display-apple-m5-max-chip-18-core-cpu-40-core-gpu-64gb-memory-4tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 16 英寸 MacBook Pro (M5 Max 芯片) 18 核中央处理器、40 核图形处理器、16 核神经网络引擎 64GB 统一内存 4TB 固态硬盘 标准显示屏 140W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多四台外接显示器 RMB 51,499 或 RMB 2146/月 (24 期) 可享免息分期付款 (16 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，16 英寸，M5 Max 18 核 CPU / 40 核 GPU，64GB 运行内存 + 4TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 66499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/16-inch-silver-standard-display-apple-m5-max-chip-18-core-cpu-40-core-gpu-64gb-memory-8tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 16 英寸 MacBook Pro (M5 Max 芯片) 18 核中央处理器、40 核图形处理器、16 核神经网络引擎 64GB 统一内存 8TB 固态硬盘 标准显示屏 140W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多四台外接显示器 RMB 66,499 或 RMB 2771/月 (24 期) 可享免息分期付款 (16 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，16 英寸，M5 Max 18 核 CPU / 40 核 GPU，64GB 运行内存 + 8TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 55999,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/16-inch-silver-standard-display-apple-m5-max-chip-18-core-cpu-40-core-gpu-128gb-memory-2tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 16 英寸 MacBook Pro (M5 Max 芯片) 18 核中央处理器、40 核图形处理器、16 核神经网络引擎 128GB 统一内存 2TB 固态硬盘 标准显示屏 140W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多四台外接显示器 RMB 55,999 或 RMB 2334/月 (24 期) 可享免息分期付款 (16 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，16 英寸，M5 Max 18 核 CPU / 40 核 GPU，128GB 运行内存 + 2TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 63499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/16-inch-silver-standard-display-apple-m5-max-chip-18-core-cpu-40-core-gpu-128gb-memory-4tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 16 英寸 MacBook Pro (M5 Max 芯片) 18 核中央处理器、40 核图形处理器、16 核神经网络引擎 128GB 统一内存 4TB 固态硬盘 标准显示屏 140W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多四台外接显示器 RMB 63,499 或 RMB 2646/月 (24 期) 可享免息分期付款 (16 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，16 英寸，M5 Max 18 核 CPU / 40 核 GPU，128GB 运行内存 + 4TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 78499,
+        "sourceUrl": "https://www.apple.com.cn/shop/buy-mac/macbook-pro/16-inch-silver-standard-display-apple-m5-max-chip-18-core-cpu-40-core-gpu-128gb-memory-8tb-storage",
+        "sourceName": "Apple 中国大陆在线商店",
+        "rawText": "你的新 MacBook Pro， 看看配置是否满意？ 银色 16 英寸 MacBook Pro (M5 Max 芯片) 18 核中央处理器、40 核图形处理器、16 核神经网络引擎 128GB 统一内存 8TB 固态硬盘 标准显示屏 140W USB-C 电源适配器 背光妙控键盘 (带有触控 ID) - 中文 (拼音) 三个雷雳 5 端口、一个 MagSafe 3 端口、一个 3.5 毫米耳机插孔、一个 HDMI 端口、一个 SDXC 卡插槽 支持最多四台外接显示器 RMB 78,499 或 RMB 3271/月 (24 期) 可享免息分期付款 (16 英寸 MacBook Pro - 银色 的分期付款选项) 添加到购物袋 还拿不定主意？ 收藏全部配置以备后用，或将配置分享给朋友。 收藏 分享",
+        "configuration": "银色，16 英寸，M5 Max 18 核 CPU / 40 核 GPU，128GB 运行内存 + 8TB 存储，标准显示屏，国行",
+        "condition": "全新，Apple 中国大陆官方配置价；不含教育优惠、折抵换购、付费预装软件或 AppleCare+；未核实地区库存，实际结算与配送以商店为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      }
+    ],
+    "oppo-find-x10-2026": [
+      {
+        "value": 5499,
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/45215.html",
+        "sourceName": "OPPO 官方商城",
+        "rawText": "OPPO Find X10 冰蓝 12GB+256GB 官方标配；￥5499；已选：冰蓝 | 12GB+256GB | 官方标配 | 1件；立即购买。",
+        "configuration": "冰蓝，12GB 运行内存 + 256GB 存储，官方标配，国行",
+        "condition": "全新，官方商城所选配置公开标价；不计积分抵扣、学生优惠或以旧换新，未登录、未下单，库存和最终结算以商城为准",
+        "observedAt": "2026-10-01",
+        "sourceType": "official"
+      },
+      {
+        "value": 6499,
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/45215.html",
+        "sourceName": "OPPO 官方商城",
+        "rawText": "OPPO Find X10 冰蓝 16GB+512GB 官方标配；￥6499；已选：冰蓝 | 16GB+512GB | 官方标配 | 1件；立即购买。",
+        "configuration": "冰蓝，16GB 运行内存 + 512GB 存储，官方标配，国行",
+        "condition": "全新，官方商城所选配置公开标价；不计积分抵扣、学生优惠或以旧换新，未登录、未下单，库存和最终结算以商城为准",
+        "observedAt": "2026-10-01",
+        "sourceType": "official"
+      }
+    ],
+    "oppo-find-x10-e-2026": {
+      "value": 4999,
+      "sourceUrl": "https://www.opposhop.cn/cn/web/products/45221.html",
+      "sourceName": "OPPO 官方商城",
+      "rawText": "OPPO Find X10 E 浅钛 12GB+256GB 官方标配；￥4999；已选：浅钛 | 12GB+256GB | 官方标配 | 1件；立即购买。",
+      "configuration": "浅钛，12GB 运行内存 + 256GB 存储，官方标配，国行",
+      "condition": "全新，官方商城所选配置公开价；不计配件套餐、付费保障、积分抵扣、学生优惠或以旧换新，未登录、未下单，库存和最终结算以商城为准",
+      "observedAt": "2026-10-01",
+      "sourceType": "official"
+    },
+    "oppo-find-x10-pro-max-2026": {
+      "value": 6799,
+      "sourceUrl": "https://www.opposhop.cn/cn/web/products/45199.html",
+      "sourceName": "OPPO 官方商城",
+      "rawText": "OPPO Find X10 Pro Max 浅钛 12GB+256GB 官方标配；￥6799；已选：浅钛 | 12GB+256GB | 官方标配 | 1件；立即购买。",
+      "configuration": "浅钛，12GB 运行内存 + 256GB 存储，官方标配，国行",
+      "condition": "全新，官方商城所选配置公开标价；不计积分抵扣、学生优惠或以旧换新，未登录、未下单，库存和最终结算以商城为准",
+      "observedAt": "2026-10-01",
+      "sourceType": "official"
+    },
+    "oppo-find-x8-pro-2024": {
+      "value": 5299,
+      "sourceUrl": "https://www.opposhop.cn/cn/web/products/29560.html",
+      "sourceName": "OPPO 官方商城",
+      "rawText": "OPPO Find X8 Pro 晴空航线 12GB+256GB 官方标配；￥5299 到手价￥4599；已选：晴空航线 | 12GB+256GB | 官方标配 | 1件；立即购买。",
+      "configuration": "晴空航线，12GB 运行内存 + 256GB 存储，国行普通版，官方标配",
+      "condition": "全新，官方商城已选配置公开标价；页面另列优惠到手参考，优惠资格未复核，本记录不计积分抵扣、学生优惠或换新补贴，未登录、未下单，库存与最终结算以商城为准",
+      "observedAt": "2026-10-01",
+      "sourceType": "official"
+    },
+    "oppo-find-x9-2025": [
+      {
+        "value": 4599,
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/36846.html",
+        "sourceName": "OPPO 官方商城",
+        "rawText": "OPPO Find X9 追光红 12GB+256GB 官方标配；￥4599 到手价￥4399；已选：追光红 | 12GB+256GB | 官方标配 | 1件；立即购买。",
+        "configuration": "追光红，12GB 运行内存 + 256GB 存储，国行普通版，官方标配",
+        "condition": "全新，官方商城已选配置公开标价；页面另列优惠到手参考，优惠资格未复核，本记录不计积分抵扣、学生优惠或换新补贴，未登录、未下单，库存与最终结算以商城为准",
+        "observedAt": "2026-10-01",
+        "sourceType": "official"
+      },
+      {
+        "value": 5299,
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/36846.html",
+        "sourceName": "OPPO 官方商城",
+        "rawText": "OPPO Find X9 追光红 12GB+512GB 官方标配；￥5299 到手价￥4999；已选：追光红 | 12GB+512GB | 官方标配 | 1件；立即购买。",
+        "configuration": "追光红，12GB 运行内存 + 512GB 存储，国行普通版，官方标配",
+        "condition": "全新，官方商城已选配置公开标价；页面另列优惠到手参考，优惠资格未复核，本记录不计积分抵扣、学生优惠或换新补贴，未登录、未下单，库存与最终结算以商城为准",
+        "observedAt": "2026-10-01",
+        "sourceType": "official"
+      },
+      {
+        "value": 5599,
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/36846.html",
+        "sourceName": "OPPO 官方商城",
+        "rawText": "OPPO Find X9 追光红 16GB+512GB 官方标配；￥5599 到手价￥5299；已选：追光红 | 16GB+512GB | 官方标配 | 1件；立即购买。",
+        "configuration": "追光红，16GB 运行内存 + 512GB 存储，国行普通版，官方标配",
+        "condition": "全新，官方商城已选配置公开标价；页面另列优惠到手参考，优惠资格未复核，本记录不计积分抵扣、学生优惠或换新补贴，未登录、未下单，库存与最终结算以商城为准",
+        "observedAt": "2026-10-01",
+        "sourceType": "official"
+      }
+    ],
+    "oppo-find-x9-pro-2025": [
+      {
+        "value": 5599,
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/36873.html",
+        "sourceName": "OPPO 官方商城",
+        "rawText": "OPPO Find X9 Pro 绒砂钛 12GB+256GB 官方标配；￥5599 到手价￥5299；已选：绒砂钛 | 12GB+256GB | 官方标配 | 1件；立即购买。",
+        "configuration": "绒砂钛，12GB 运行内存 + 256GB 存储，国行普通版，官方标配",
+        "condition": "全新，官方商城已选配置公开标价；页面另列优惠到手参考，优惠资格未复核，本记录不计积分抵扣、学生优惠或换新补贴，未登录、未下单，库存与最终结算以商城为准",
+        "observedAt": "2026-10-01",
+        "sourceType": "official"
+      },
+      {
+        "value": 5999,
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/36873.html",
+        "sourceName": "OPPO 官方商城",
+        "rawText": "OPPO Find X9 Pro 绒砂钛 12GB+512GB 官方标配；￥5999 到手价￥5699；已选：绒砂钛 | 12GB+512GB | 官方标配 | 1件；立即购买。",
+        "configuration": "绒砂钛，12GB 运行内存 + 512GB 存储，国行普通版，官方标配",
+        "condition": "全新，官方商城已选配置公开标价；页面另列优惠到手参考，优惠资格未复核，本记录不计积分抵扣、学生优惠或换新补贴，未登录、未下单，库存与最终结算以商城为准",
+        "observedAt": "2026-10-01",
+        "sourceType": "official"
+      },
+      {
+        "value": 6299,
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/36873.html",
+        "sourceName": "OPPO 官方商城",
+        "rawText": "OPPO Find X9 Pro 绒砂钛 16GB+512GB 官方标配；￥6299 到手价￥5999；已选：绒砂钛 | 16GB+512GB | 官方标配 | 1件；立即购买。",
+        "configuration": "绒砂钛，16GB 运行内存 + 512GB 存储，国行普通版，官方标配",
+        "condition": "全新，官方商城已选配置公开标价；页面另列优惠到手参考，优惠资格未复核，本记录不计积分抵扣、学生优惠或换新补贴，未登录、未下单，库存与最终结算以商城为准",
+        "observedAt": "2026-10-01",
+        "sourceType": "official"
+      }
+    ],
+    "oppo-find-x9-ultra-2026": [
+      {
+        "value": 7499,
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/39828.html",
+        "sourceName": "OPPO 官方商城",
+        "rawText": "OPPO Find X9 Ultra 大地苔原 12GB+256GB 官方标配 ￥7499；已选：大地苔原 | 12GB+256GB | 官方标配 | 1件；加入购物车 立即购买。",
+        "configuration": "大地苔原，12GB 运行内存 + 256GB 存储，国行，普通版官方标配",
+        "condition": "全新，OPPO 中国官方商城公开价；不含学生优惠、换购抵扣、积分抵扣及付费保障；未核实地区库存，实际结算以来源页为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 7999,
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/39828.html",
+        "sourceName": "OPPO 官方商城",
+        "rawText": "OPPO Find X9 Ultra 大地苔原 12GB+512GB 官方标配 ￥7999；已选：大地苔原 | 12GB+512GB | 官方标配 | 1件；加入购物车 立即购买。",
+        "configuration": "大地苔原，12GB 运行内存 + 512GB 存储，国行，普通版官方标配",
+        "condition": "全新，OPPO 中国官方商城公开价；不含学生优惠、换购抵扣、积分抵扣及付费保障；未核实地区库存，实际结算以来源页为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 8499,
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/39828.html",
+        "sourceName": "OPPO 官方商城",
+        "rawText": "OPPO Find X9 Ultra 绒砂峡谷 16GB+512GB 官方标配 ￥8499；已选：绒砂峡谷 | 16GB+512GB | 官方标配 | 1件；加入购物车 立即购买。",
+        "configuration": "绒砂峡谷，16GB 运行内存 + 512GB 存储，国行，普通版官方标配",
+        "condition": "全新，OPPO 中国官方商城公开价；不含学生优惠、换购抵扣、积分抵扣及付费保障；未核实地区库存，实际结算以来源页为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      }
+    ],
+    "samsung-galaxy-s24-ultra-2024": {
+      "value": 5499,
+      "sourceUrl": "https://detail.zol.com.cn/ProductComp_param_s1465383.html",
+      "sourceName": "ZOL 中关村在线",
+      "rawText": "截至 2026 年 9 月 7 日，ZOL 三星 Galaxy S24 Ultra 12GB/256GB 对比页显示国行电商报价 5499 元。",
+      "configuration": "12GB 运行内存 + 256GB 存储，国行全网通 5G 版",
+      "condition": "全新，ZOL 聚合中国大陆电商渠道公开价；优惠资格、库存和实际成交价以来源页及对应商家为准",
+      "observedAt": "2026-09-07"
+    },
+    "samsung-galaxy-s25-ultra-2025": {
+      "value": 6999,
+      "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/buy/?modelCode=SM-S9380ZTDCHC",
+      "sourceName": "三星中国商城",
+      "rawText": "截至 2026 年 9 月 7 日，三星中国商城 Galaxy S25 Ultra 购买页显示 12GB/256GB 券后到手价 6999 元。",
+      "configuration": "12GB 运行内存 + 256GB 存储，国行版本",
+      "condition": "全新，三星中国商城券后到手价；优惠资格、颜色库存和实际成交价以来源页及结算页为准",
+      "observedAt": "2026-09-07",
+      "sourceType": "official"
+    },
+    "samsung-galaxy-s26-2026": {
+      "value": 7799,
+      "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/buy/?modelCode=SM-S9420ZVGCHC",
+      "sourceName": "三星中国官方商城",
+      "rawText": "Galaxy S26；已选 256GB | 12GB、幽夜紫；SM-S9420ZVGCHC；配置选项和商品汇总均显示 ¥7,799.00；加入购物车、立即购买。页面另有指定手机1800元普惠券和券后5999元横幅，未领取或验证优惠资格，未将横幅优惠价套用为该SKU标价。",
+      "configuration": "12GB 运行内存 + 256GB 存储，国行，幽夜紫，SM-S9420ZVGCHC",
+      "condition": "全新，三星中国官方商城所选SKU公开标价；未登录、未下单，不含优惠券、补贴、星钻抵扣、以旧换新或付费套餐；优惠资格和实际结算价以来源页为准",
+      "observedAt": "2026-10-01",
+      "sourceType": "official"
+    },
+    "samsung-galaxy-s26-plus-2026": [
+      {
+        "value": 8999,
+        "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/buy/?modelCode=SM-S9470ZVDCHC",
+        "sourceName": "三星中国官方商城",
+        "rawText": "Galaxy S26+；已选 256GB | 12GB、幽夜紫；SM-S9470ZVDCHC；配置选项和商品汇总均显示 ¥8,999.00；加入购物车、立即购买；Samsung Care+ 另列付费选项，未选择。",
+        "configuration": "12GB 运行内存 + 256GB 存储，国行，幽夜紫，SM-S9470ZVDCHC",
+        "condition": "全新，三星中国官方商城所选SKU公开标价；未登录、未下单，不含优惠券、补贴、星钻抵扣、以旧换新或付费套餐；优惠资格和实际结算价以来源页为准",
+        "observedAt": "2026-10-01",
+        "sourceType": "official"
+      },
+      {
+        "value": 10599,
+        "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/buy/?modelCode=SM-S9470ZVGCHC",
+        "sourceName": "三星中国官方商城",
+        "rawText": "Galaxy S26+；已选 512GB | 12GB、幽夜紫；SM-S9470ZVGCHC；配置选项和商品汇总均显示 ¥10,599.00；加入购物车、立即购买；Samsung Care+ 另列付费选项，未选择。",
+        "configuration": "12GB 运行内存 + 512GB 存储，国行，幽夜紫，SM-S9470ZVGCHC",
+        "condition": "全新，三星中国官方商城所选SKU公开标价；未登录、未下单，不含优惠券、补贴、星钻抵扣、以旧换新或付费套餐；优惠资格和实际结算价以来源页为准",
+        "observedAt": "2026-10-01",
+        "sourceType": "official"
+      }
+    ],
+    "samsung-galaxy-s26-ultra-2026": [
+      {
+        "value": 10599,
+        "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/buy/",
+        "sourceName": "三星中国商城",
+        "rawText": "Galaxy S26 Ultra；存储丨内存：512GB | 12GB ¥11,599.00 券后到手价￥10,599。优惠信息请以结算页面或活动规则为准。中国大陆/中文。",
+        "configuration": "12GB 运行内存 + 512GB 存储，国行版本",
+        "condition": "全新，三星中国商城券后到手价；优惠资格、颜色库存和实际成交价以来源页及结算页为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 9999,
+        "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/buy/",
+        "sourceName": "三星中国商城",
+        "rawText": "Galaxy S26 Ultra；存储丨内存：256GB | 12GB ¥9,999.00 至高享12期0利率；Galaxy S26 Ultra SM-S9480ZDDCHC 256GB | 12GB 绯霞金 ¥9,999.00。中国大陆/中文。",
+        "configuration": "绯霞金，12GB 运行内存 + 256GB 存储，国行版本，SM-S9480ZDDCHC",
+        "condition": "全新，三星中国商城公开价；未核实地区库存，优惠资格和实际成交价以来源页及结算页为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 12999,
+        "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/buy/",
+        "sourceName": "三星中国商城",
+        "rawText": "Galaxy S26 Ultra；存储丨内存：1TB | 16GB ¥13,999.00 券后到手价￥12,999。优惠信息请以结算页面或活动规则为准。中国大陆/中文。",
+        "configuration": "16GB 运行内存 + 1TB 存储，国行版本",
+        "condition": "全新，三星中国商城券后到手价；优惠资格、颜色库存和实际成交价以来源页及结算页为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      }
+    ],
+    "vivo-x300-2025": [
+      {
+        "value": 4499,
+        "sourceUrl": "https://shop.vivo.com.cn/product/10011289",
+        "sourceName": "vivo 中国大陆官方商城",
+        "rawText": "vivo X300 12GB+256GB 幸运彩；￥4499.00；4499 已选：12GB+256GB 幸运彩 1件；立即购买。",
+        "configuration": "幸运彩，12GB 运行内存 + 256GB 存储，国行普通版",
+        "condition": "全新，官方商城已选配置公开价；不计付费配件套餐、保障、积分抵扣或换新补贴，未登录、未下单，库存与最终结算以商城为准",
+        "observedAt": "2026-10-01",
+        "sourceType": "official"
+      },
+      {
+        "value": 4999,
+        "sourceUrl": "https://shop.vivo.com.cn/product/10011289",
+        "sourceName": "vivo 中国大陆官方商城",
+        "rawText": "vivo X300 12GB+512GB 幸运彩；￥4999.00；4999 已选：12GB+512GB 幸运彩 1件；立即购买。",
+        "configuration": "幸运彩，12GB 运行内存 + 512GB 存储，国行普通版",
+        "condition": "全新，官方商城已选配置公开价；不计付费配件套餐、保障、积分抵扣或换新补贴，未登录、未下单，库存与最终结算以商城为准",
+        "observedAt": "2026-10-01",
+        "sourceType": "official"
+      },
+      {
+        "value": 5499,
+        "sourceUrl": "https://shop.vivo.com.cn/product/10011289",
+        "sourceName": "vivo 中国大陆官方商城",
+        "rawText": "vivo X300 16GB+512GB 幸运彩；￥5499.00；5499 已选：16GB+512GB 幸运彩 1件；立即购买。",
+        "configuration": "幸运彩，16GB 运行内存 + 512GB 存储，国行普通版",
+        "condition": "全新，官方商城已选配置公开价；不计付费配件套餐、保障、积分抵扣或换新补贴，未登录、未下单，库存与最终结算以商城为准",
+        "observedAt": "2026-10-01",
+        "sourceType": "official"
+      }
+    ],
+    "vivo-x300-ultra-2026": [
+      {
+        "value": 7499,
+        "sourceUrl": "https://shop.vivo.com.cn/product/10011836",
+        "sourceName": "vivo 官方商城",
+        "rawText": "vivo X300 Ultra 12GB+256GB 胶片绿；秒杀中 ￥7499.00；已选：12GB+256GB 胶片绿 官方标配 1件；加入购物车立即购买。",
+        "configuration": "胶片绿，12GB 运行内存 + 256GB 存储，国行，官方标配",
+        "condition": "全新，vivo 中国官方商城页面活动价；不含换购抵扣、加购套装及付费保障；未核实地区库存，活动时效和实际结算以来源页为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 7999,
+        "sourceUrl": "https://shop.vivo.com.cn/product/10011836",
+        "sourceName": "vivo 官方商城",
+        "rawText": "vivo X300 Ultra 12GB+512GB 胶片绿；秒杀中 ￥7999.00；已选：12GB+512GB 胶片绿 官方标配 1件；加入购物车立即购买。",
+        "configuration": "胶片绿，12GB 运行内存 + 512GB 存储，国行，官方标配",
+        "condition": "全新，vivo 中国官方商城页面活动价；不含换购抵扣、加购套装及付费保障；未核实地区库存，活动时效和实际结算以来源页为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      },
+      {
+        "value": 8999,
+        "sourceUrl": "https://shop.vivo.com.cn/product/10011836",
+        "sourceName": "vivo 官方商城",
+        "rawText": "vivo X300 Ultra 16GB+512GB 胶片绿；秒杀中 ￥8999.00；已选：16GB+512GB 胶片绿 官方标配 1件；加入购物车立即购买。",
+        "configuration": "胶片绿，16GB 运行内存 + 512GB 存储，国行，官方标配",
+        "condition": "全新，vivo 中国官方商城页面活动价；不含换购抵扣、加购套装及付费保障；未核实地区库存，活动时效和实际结算以来源页为准",
+        "observedAt": "2026-09-26",
+        "sourceType": "official"
+      }
+    ],
+    "vivo-x500-2026": [
+      {
+        "value": 5499,
+        "sourceUrl": "https://shop.vivo.com.cn/product/10062330",
+        "sourceName": "vivo 中国大陆官方商城",
+        "rawText": "vivo X500 12GB+256GB 晴天；￥5499.00；5499 已选：12GB+256GB 晴天 官方标配 1件；立即购买。",
+        "configuration": "晴天，12GB 运行内存 + 256GB 存储，官方标配，国行",
+        "condition": "全新，官方商城所选配置公开价；不含配件套餐、保障、积分抵扣或以旧换新，未登录、未下单，库存和最终结算以商城为准",
+        "observedAt": "2026-10-01",
+        "sourceType": "official"
+      },
+      {
+        "value": 5999,
+        "sourceUrl": "https://shop.vivo.com.cn/product/10062330",
+        "sourceName": "vivo 中国大陆官方商城",
+        "rawText": "vivo X500 12GB+512GB 晴天；￥5999.00；5999 已选：12GB+512GB 晴天 官方标配 1件；立即购买。",
+        "configuration": "晴天，12GB 运行内存 + 512GB 存储，官方标配，国行",
+        "condition": "全新，官方商城所选配置公开价；不含配件套餐、保障、积分抵扣或以旧换新，未登录、未下单，库存和最终结算以商城为准",
+        "observedAt": "2026-10-01",
+        "sourceType": "official"
+      }
+    ],
+    "vivo-x500-pro-2026": {
+      "value": 6499,
+      "sourceUrl": "https://shop.vivo.com.cn/product/10064609",
+      "sourceName": "vivo 中国大陆官方商城",
+      "rawText": "vivo X500 Pro 12GB+256GB 览霞；￥6499.00；6499 已选：12GB+256GB 览霞 官方标配 1件；立即购买。",
+      "configuration": "览霞，12GB 运行内存 + 256GB 存储，官方标配，国行",
+      "condition": "全新，官方商城所选配置公开价；不计配件套餐、付费保障、积分抵扣、学生优惠或以旧换新，未登录、未下单，库存和最终结算以商城为准",
+      "observedAt": "2026-10-01",
+      "sourceType": "official"
+    },
+    "vivo-x500-pro-max-2026": {
+      "value": 6999,
+      "sourceUrl": "https://shop.vivo.com.cn/product/10064611",
+      "sourceName": "vivo 中国大陆官方商城",
+      "rawText": "vivo X500 Pro Max 12GB+256GB 晴天；￥6999.00；6999 已选：12GB+256GB 晴天 官方标配 1件；立即购买。",
+      "configuration": "晴天，12GB 运行内存 + 256GB 存储，官方标配，国行普通版",
+      "condition": "全新，官方商城所选配置公开价；不计配件套餐、付费保障、积分抵扣、学生优惠或以旧换新，未登录、未下单，库存和最终结算以商城为准",
+      "observedAt": "2026-10-01",
+      "sourceType": "official"
+    },
+    "xiaomi-17-2025": [
+      {
+        "value": 5099,
+        "sourceUrl": "https://www.mi.com/shop/buy/detail?product_id=21931",
+        "sourceName": "小米中国大陆商城",
+        "rawText": "Xiaomi 17；5099 元；选择版本已选12GB+256GB，选择颜色已选黑色；加入购物车。",
+        "configuration": "黑色，12GB 运行内存 + 256GB 存储，国行普通版",
+        "condition": "全新，官方商城已选普通版公开价；不含付费保障、积分抵扣或以旧换新，未登录、未下单，库存和最终结算以商城为准",
+        "observedAt": "2026-10-01",
+        "sourceType": "official"
+      },
+      {
+        "value": 5199,
+        "sourceUrl": "https://www.mi.com/shop/buy/detail?product_id=21931",
+        "sourceName": "小米中国大陆商城",
+        "rawText": "Xiaomi 17；5199 元；选择版本已选12GB+512GB，选择颜色已选黑色；加入购物车。",
+        "configuration": "黑色，12GB 运行内存 + 512GB 存储，国行普通版",
+        "condition": "全新，官方商城已选普通版公开价；不含付费保障、积分抵扣或以旧换新，未登录、未下单，库存和最终结算以商城为准",
+        "observedAt": "2026-10-01",
+        "sourceType": "official"
+      },
+      {
+        "value": 5499,
+        "sourceUrl": "https://www.mi.com/shop/buy/detail?product_id=21931",
+        "sourceName": "小米中国大陆商城",
+        "rawText": "Xiaomi 17；5499 元；选择版本已选16GB+512GB，选择颜色已选黑色；加入购物车。",
+        "configuration": "黑色，16GB 运行内存 + 512GB 存储，国行普通版",
+        "condition": "全新，官方商城已选普通版公开价；不含付费保障、积分抵扣或以旧换新，未登录、未下单，库存和最终结算以商城为准",
+        "observedAt": "2026-10-01",
+        "sourceType": "official"
+      }
+    ],
+    "xiaomi-17-pro-2025": [
+      {
+        "value": 5699,
+        "sourceUrl": "https://www.mi.com/shop/buy/detail?product_id=21932",
+        "sourceName": "小米中国大陆商城",
+        "rawText": "Xiaomi 17 Pro；5699 元；选择版本已选12GB+256GB，选择颜色已选黑色；加入购物车。",
+        "configuration": "黑色，12GB 运行内存 + 256GB 存储，国行普通版",
+        "condition": "全新，官方商城已选普通版公开价；不含付费保障、积分抵扣或以旧换新，未登录、未下单，库存和最终结算以商城为准",
+        "observedAt": "2026-10-01",
+        "sourceType": "official"
+      },
+      {
+        "value": 5999,
+        "sourceUrl": "https://www.mi.com/shop/buy/detail?product_id=21932",
+        "sourceName": "小米中国大陆商城",
+        "rawText": "Xiaomi 17 Pro；5999 元；选择版本已选12GB+512GB，选择颜色已选黑色；加入购物车。",
+        "configuration": "黑色，12GB 运行内存 + 512GB 存储，国行普通版",
+        "condition": "全新，官方商城已选普通版公开价；不含付费保障、积分抵扣或以旧换新，未登录、未下单，库存和最终结算以商城为准",
+        "observedAt": "2026-10-01",
+        "sourceType": "official"
+      },
+      {
+        "value": 6299,
+        "sourceUrl": "https://www.mi.com/shop/buy/detail?product_id=21932",
+        "sourceName": "小米中国大陆商城",
+        "rawText": "Xiaomi 17 Pro；6299 元；选择版本已选16GB+512GB，选择颜色已选黑色；加入购物车。",
+        "configuration": "黑色，16GB 运行内存 + 512GB 存储，国行普通版",
+        "condition": "全新，官方商城已选普通版公开价；不含付费保障、积分抵扣或以旧换新，未登录、未下单，库存和最终结算以商城为准",
+        "observedAt": "2026-10-01",
+        "sourceType": "official"
+      }
+    ],
+    "xiaomi-17-pro-max-2025": [
+      {
+        "value": 6999,
+        "sourceUrl": "https://www.mi.com/shop/buy/detail?product_id=21936",
+        "sourceName": "小米中国大陆商城",
+        "rawText": "Xiaomi 17 Pro Max；6999 元；选择版本已选12GB+512GB，选择颜色已选黑色；加入购物车。",
+        "configuration": "黑色，12GB 运行内存 + 512GB 存储，国行普通版",
+        "condition": "全新，官方商城已选普通版公开价；不含付费保障、积分抵扣或以旧换新，未登录、未下单，库存和最终结算以商城为准",
+        "observedAt": "2026-10-01",
+        "sourceType": "official"
+      },
+      {
+        "value": 7299,
+        "sourceUrl": "https://www.mi.com/shop/buy/detail?product_id=21936",
+        "sourceName": "小米中国大陆商城",
+        "rawText": "Xiaomi 17 Pro Max；7299 元；选择版本已选16GB+512GB，选择颜色已选黑色；加入购物车。",
+        "configuration": "黑色，16GB 运行内存 + 512GB 存储，国行普通版",
+        "condition": "全新，官方商城已选普通版公开价；不含付费保障、积分抵扣或以旧换新，未登录、未下单，库存和最终结算以商城为准",
+        "observedAt": "2026-10-01",
+        "sourceType": "official"
+      }
+    ],
+    "xiaomi-18-pro-2026": {
+      "value": 5999,
+      "sourceUrl": "https://www.mi.com/shop/buy/detail?product_id=25524",
+      "sourceName": "小米中国大陆商城",
+      "rawText": "Xiaomi 18 Pro；5999 元；选择版本已选12GB+256GB，选择颜色已选黑色；加入购物车。",
+      "configuration": "黑色，12GB 运行内存 + 256GB 存储，国行普通版",
+      "condition": "全新，官方商城已选普通版公开价；不含付费保障、积分抵扣或以旧换新，未登录、未下单，库存和最终结算以商城为准",
+      "observedAt": "2026-10-01",
+      "sourceType": "official"
+    },
+    "xiaomi-18-pro-max-2026": {
+      "value": 6999,
+      "sourceUrl": "https://www.mi.com/shop/buy/detail?product_id=25526",
+      "sourceName": "小米中国大陆商城",
+      "rawText": "Xiaomi 18 Pro Max；6999 元；选择版本已选12GB+256GB，选择颜色已选黑色；加入购物车。",
+      "configuration": "黑色，12GB 运行内存 + 256GB 存储，国行普通版",
+      "condition": "全新，官方商城已选普通版公开价；不含付费保障、积分抵扣或以旧换新，未登录、未下单，库存和最终结算以商城为准",
+      "observedAt": "2026-10-01",
+      "sourceType": "official"
     }
   },
   "used": {
+    "honor-magic6-pro-2024": {
+      "value": 2279,
+      "sourceUrl": "https://m2.9ji.com/secondHand/detail/1163819",
+      "sourceName": "九机二手",
+      "rawText": "截至 2026 年 9 月 7 日，九机公开库存显示荣耀 Magic6 Pro 祁连雪 16G+512G 国行，8 成新，电池健康度 94%，未检出维修痕迹，页面价 2279 元。",
+      "configuration": "祁连雪，16GB 运行内存 + 512GB 存储，国行",
+      "condition": "二手，8 成新，电池健康度 94%，未检出维修痕迹；库存和实际成交价以来源页为准",
+      "observedAt": "2026-09-07"
+    },
+    "honor-magic7-pro-2024": {
+      "value": 2949,
+      "sourceUrl": "https://m2.9ji.com/secondHand/detail/1158678",
+      "sourceName": "九机二手",
+      "rawText": "截至 2026 年 9 月 7 日，九机公开库存显示荣耀 Magic7 Pro 雪域白 16G+512G 国行，8 成新，电池健康度 99%，未检出维修痕迹，页面价 2949 元。",
+      "configuration": "雪域白，16GB 运行内存 + 512GB 存储，国行",
+      "condition": "二手，8 成新，电池健康度 99%，未检出维修痕迹；库存和实际成交价以来源页为准",
+      "observedAt": "2026-09-07"
+    },
+    "honor-magic8-pro-2025": [
+      {
+        "value": 4479,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1177013",
+        "sourceName": "九机二手",
+        "rawText": "截至 2026 年 9 月 7 日，九机公开库存显示荣耀 Magic8 Pro 雪域白 16G+512G 国行，95 成新，电池健康度 100%，未检出维修痕迹，页面价 4479 元。",
+        "configuration": "雪域白，16GB 运行内存 + 512GB 存储，国行",
+        "condition": "二手，95 成新，电池健康度 100%，未检出维修痕迹；库存和实际成交价以来源页为准",
+        "observedAt": "2026-09-07"
+      },
+      {
+        "value": 3729,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1165149",
+        "sourceName": "九机二手单机详情",
+        "rawText": "¥3729 已优惠200 9成新 新机价¥5699 荣耀Magic8 Pro 绒黑色 12G+256G 国行 机况 100% 电池寿命 未检出维修痕迹 维修历史 客户回收 来源 参数 6.71英寸 屏幕尺寸 120Hz 屏幕刷新率 骁龙8 Elite Gen5 处理器 120W 充电功率 支持 NFC 7200mAh 电池容量",
+        "configuration": "12GB 运行内存 + 256GB 存储，国行，绒黑色",
+        "condition": "二手9成新，页面已优惠200元；电池100%；未检出维修痕迹；外壳少量明显划痕、轻微磕碰和印渍，屏幕少量明显划痕，后摄少量灰点",
+        "observedAt": "2026-09-22"
+      }
+    ],
+    "huawei-mate-60-pro-2023": {
+      "value": 2249,
+      "sourceUrl": "https://m2.9ji.com/secondHand/detail/1202216",
+      "sourceName": "九机二手单机详情",
+      "rawText": "¥2249 已优惠50 9成新 券¥50积分兑券 139享355全能大礼包 华为 Mate 60 Pro 白沙银 12G+1T 国行 机况 HarmonyOS4.2.0 操作系统 81% 电池寿命 未检出维修痕迹 维修历史",
+      "configuration": "12GB 运行内存 + 1TB 存储，国行，白沙银",
+      "condition": "二手9成新，页面已优惠50元；电池81%；未检出维修痕迹；外壳轻微划痕、少量明显磕碰和印渍，屏幕细微划痕，后摄少量灰点",
+      "observedAt": "2026-09-22"
+    },
+    "huawei-mate-70-pro-2024": {
+      "value": 2949,
+      "sourceUrl": "https://m2.9ji.com/secondHand/detail/1198531",
+      "sourceName": "九机二手单机详情",
+      "rawText": "¥2949 8成新 新机价¥4399 积分兑券 139享355全能大礼包 华为 Mate 70 Pro 曜石黑 12G+256G 国行 机况 HarmonyOS6.1.0 操作系统 100% 电池寿命 未检出维修痕迹 维修历史",
+      "configuration": "12GB 运行内存 + 256GB 存储，国行，曜石黑",
+      "condition": "二手8成新；电池100%；未检出维修痕迹；外壳明显划痕和印渍、轻微磕碰，屏幕明显划痕",
+      "observedAt": "2026-09-22"
+    },
+    "huawei-mate-80-pro-2025": [
+      {
+        "value": 4299,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1204508",
+        "sourceName": "九机二手单机详情",
+        "rawText": "¥4299 已优惠200 95成新 新机价¥5499 券¥200 139享355全能大礼包 领200元券 华为 Mate 80 Pro 晨曦金 12G+256G 国行 机况 HarmonyOS6.1.0 操作系统 100% 电池寿命 未检出维修痕迹 维修历史 客户回收 来源 参数 6.75英寸 屏幕尺寸 120Hz 屏幕刷新率 麒麟9030 处理器 100W 充电功率 支持 NFC 5750mAh 电池容量",
+        "configuration": "12GB 运行内存 + 256GB 存储，国行，晨曦金",
+        "condition": "二手95成新，页面已优惠200元；电池100%；未检出维修痕迹；该机器外壳轻微划痕;外壳细微磕点;外壳轻微印渍;屏幕细微划痕;",
+        "observedAt": "2026-09-22"
+      },
+      {
+        "value": 4599,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1199318",
+        "sourceName": "九机二手单机详情",
+        "rawText": "¥4599 已优惠200 9成新 新机价¥5999 券¥200 139享355全能大礼包 领200元券 华为 Mate 80 Pro 晨曦金 12G+512G 国行 机况 HarmonyOS6.1.0 操作系统 96% 电池寿命 未检出维修痕迹 维修历史 客户回收 来源 参数 6.75英寸 屏幕尺寸 120Hz 屏幕刷新率 麒麟9030 处理器 100W 充电功率 支持 NFC 5750mAh 电池容量",
+        "configuration": "12GB 运行内存 + 512GB 存储，国行，晨曦金",
+        "condition": "二手9成新，页面已优惠200元；电池96%；未检出维修痕迹；该机器外壳少量明显划痕;外壳少量明显磕碰/掉漆;外壳轻微印渍;屏幕轻微划痕;",
+        "observedAt": "2026-09-22"
+      },
+      {
+        "value": 5399,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1204766",
+        "sourceName": "九机二手单机详情",
+        "rawText": "¥5399 已优惠200 9成新 新机价¥6499 券¥200 139享355全能大礼包 领200元券 华为 Mate 80 Pro 晨曦金 16G+512G 国行 机况 HarmonyOS7.0.0 操作系统 100% 电池寿命 未检出维修痕迹 维修历史 客户回收 来源 参数 6.75英寸 屏幕尺寸 120Hz 屏幕刷新率 麒麟9030 Pro 处理器 100W 充电功率 支持 NFC 5750mAh 电池容量",
+        "configuration": "16GB 运行内存 + 512GB 存储，国行，晨曦金",
+        "condition": "二手9成新，页面已优惠200元；电池100%；未检出维修痕迹；该机器外壳轻微划痕;外壳细微磕点;外壳少量明显印渍;屏幕细微划痕;后摄少量灰点;",
+        "observedAt": "2026-09-22"
+      },
+      {
+        "value": 5999,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1189847",
+        "sourceName": "九机二手单机详情",
+        "rawText": "¥5999 已优惠200 9成新 新机价¥7199 券¥200 139享355全能大礼包 领200元券 华为 Mate 80 Pro 晨曦金 16G+1T 国行 机况 HarmonyOS6.1.0 操作系统 99% 电池寿命 未检出维修痕迹 维修历史 客户回收 来源 参数 6.75英寸 屏幕尺寸 120Hz 屏幕刷新率 麒麟9030 Pro 处理器；库存编号：4774542；国行 版本；16G+1T 内存；功能检测 21项正常",
+        "configuration": "晨曦金，16GB 运行内存 + 1TB 存储，麒麟 9030 Pro，国行",
+        "condition": "二手，9成新，电池寿命99%，未检出维修痕迹；外壳少量明显划痕、磕碰/掉漆及印渍；功能检测21项正常；无充电头和数据线；页面显示已优惠200元及领券入口，实际结算和库存以来源页为准",
+        "observedAt": "2026-09-26"
+      }
+    ],
+    "huawei-pura-70-ultra-2024": [
+      {
+        "value": 2899,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1188601",
+        "sourceName": "九机二手",
+        "rawText": "截至 2026 年 9 月 7 日，九机公开库存显示华为 Pura70 Ultra 香颂绿 16G+512G 国行，8 成新，电池健康度 91%，未检出维修痕迹，页面价 2899 元。",
+        "configuration": "香颂绿，16GB 运行内存 + 512GB 存储，国行",
+        "condition": "二手，8 成新，电池健康度 91%，未检出维修痕迹；库存和实际成交价以来源页为准",
+        "observedAt": "2026-09-07"
+      },
+      {
+        "value": 2849,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1192746",
+        "sourceName": "九机二手单机详情",
+        "rawText": "¥2849 9成新 积分兑券 139享355全能大礼包 华为 Pura70 Ultra 香颂绿 12G+512G 国行 机况 HarmonyOS6.1.0 操作系统 99% 电池寿命 未检出维修痕迹 维修历史 客户回收 来源 参数 6.8英寸 屏幕尺寸 120Hz 屏幕刷新率 麒麟9010 处理器 100W 充电功率 支持 NFC 5200mAh 电池容量",
+        "configuration": "12GB 运行内存 + 512GB 存储，国行，香颂绿",
+        "condition": "二手9成新；电池99%；未检出维修痕迹；外壳少量明显划痕、轻微磕碰和缝隙，屏幕细微划痕，前后摄少量灰点",
+        "observedAt": "2026-09-22"
+      }
+    ],
+    "huawei-pura-80-ultra-2025": {
+      "value": 4749,
+      "sourceUrl": "https://m2.9ji.com/secondHand/detail/1182704",
+      "sourceName": "九机二手",
+      "rawText": "截至 2026 年 9 月 7 日，九机公开库存显示华为 Pura80 Ultra 鎏光黑 16G+512G 国行，95 成新，电池健康度 100%，未检出维修痕迹，页面价 4749 元。",
+      "configuration": "鎏光黑，16GB 运行内存 + 512GB 存储，国行",
+      "condition": "二手，95 成新，电池健康度 100%，未检出维修痕迹；库存和实际成交价以来源页为准",
+      "observedAt": "2026-09-07"
+    },
     "ipad-7th-2019": {
       "value": 1049,
       "sourceUrl": "https://m2.9ji.com/secondHand/detail/1180339",
@@ -420,15 +2329,44 @@
       "condition": "二手展示机，8 成新，电池健康度 91%-95%，未检出维修痕迹；一机一价，以来源页库存状态为准",
       "observedAt": "2026-08-31"
     },
-    "ipad-air-13-m4-2026": {
-      "value": 8599,
-      "sourceUrl": "https://m2.9ji.com/secondHand/detail/1171994",
-      "sourceName": "九机二手良品",
-      "rawText": "九机二手良品页面于 2026-08-31 显示库存 4723575：13 英寸 iPad Air 2026 款 WiFi 版深空灰色 512G 国行，99成新，当前页面价 ¥8,599，电池寿命 100%，未检出维修痕迹。",
-      "configuration": "深空灰色，12GB 运行内存 + 512GB 存储，WiFi 版，国行，型号 A3461",
-      "condition": "二手，99成新；电池寿命100%，未检出维修痕迹；外壳细微印渍；无充电头和数据线，带专属包装盒；一机一价，库存及优惠以来源页为准",
-      "observedAt": "2026-08-31"
-    },
+    "ipad-air-13-m4-2026": [
+      {
+        "value": 8599,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1171994",
+        "sourceName": "九机二手良品",
+        "rawText": "九机二手良品页面于 2026-08-31 显示库存 4723575：13 英寸 iPad Air 2026 款 WiFi 版深空灰色 512G 国行，99成新，当前页面价 ¥8,599，电池寿命 100%，未检出维修痕迹。",
+        "configuration": "深空灰色，12GB 运行内存 + 512GB 存储，WiFi 版，国行，型号 A3461",
+        "condition": "二手，99成新；电池寿命100%，未检出维修痕迹；外壳细微印渍；无充电头和数据线，带专属包装盒；一机一价，库存及优惠以来源页为准",
+        "observedAt": "2026-08-31"
+      },
+      {
+        "value": 6899,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1199505",
+        "sourceName": "九机二手单机详情",
+        "rawText": "¥6899 99成新 新机价¥7499 积分兑券 Apple iPad Air 2026款/第8代 13英寸 WiFi版 深空灰色 256GB 国行 机况 未检出维修痕迹 维修历史 100% 电池寿命 WiFi版 网络制式 iPadOS26.3 操作系统 参数 13英寸 屏幕尺寸 2732 x 2048 像素分辨率 屏幕分辨率",
+        "configuration": "12GB 运行内存 + 256GB 存储，国行，Wi-Fi，深空灰色",
+        "condition": "二手99成新；电池100%；未检出维修痕迹；外壳细微划痕和磕点；不含充电头和数据线",
+        "observedAt": "2026-09-22"
+      },
+      {
+        "value": 5749,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1198015",
+        "sourceName": "九机二手单机详情",
+        "rawText": "¥5749 99成新 新机价¥6999 积分兑券 Apple iPad Air 2026款/第8代 13英寸 WiFi版 深空灰色 128G 国行 机况 未检出维修痕迹 维修历史 100% 电池寿命 WiFi版 网络制式 iPadOS26.3 操作系统 参数 13英寸 屏幕尺寸 2732 x 2048 像素分辨率 屏幕分辨率",
+        "configuration": "12GB 运行内存 + 128GB 存储，国行，Wi-Fi，深空灰色",
+        "condition": "二手99成新；电池100%；未检出维修痕迹；平台报告外观12项、功能13项正常；不含充电头和数据线",
+        "observedAt": "2026-09-22"
+      },
+      {
+        "value": 8599,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1208385",
+        "sourceName": "九机二手单机详情",
+        "rawText": "¥8599 95成新 新机价¥10399 积分兑券 Apple iPad Air 2026款/第8代 13英寸 WiFi版 深空灰色 1TB 国行 机况 未检出维修痕迹 维修历史 100% 电池寿命 WiFi版 网络制式 iPadOS26.4.2 操作系统；库存编号4836170；A3461 型号号码；功能检测13项正常",
+        "configuration": "深空灰色，12GB 运行内存 + 1TB 存储，WiFi版，国行，型号 A3461",
+        "condition": "二手，95成新，电池寿命100%，未检出维修痕迹；外壳轻微划痕、磕碰/掉漆及细微印渍，屏幕细微划痕；功能检测13项正常；无充电头和数据线；实际结算和库存以来源页为准",
+        "observedAt": "2026-09-26"
+      }
+    ],
     "ipad-air-3rd-2019": {
       "value": 999,
       "sourceUrl": "https://m2.9ji.com/secondHand/detail/1181048",
@@ -436,8 +2374,36 @@
       "rawText": "页面显示 Apple iPad Air 2019款10.5英寸WiFi版金色64G国行，9成新，公开价999元；电池寿命81%-85%，未检出维修痕迹，型号A2152，页面可立即购买。",
       "configuration": "金色，3GB 运行内存 + 64GB 存储，WiFi 版，国行，型号 A2152",
       "condition": "二手，9成新；电池寿命81%-85%，未检出维修痕迹；外壳有少量明显划痕、轻微磕碰/掉漆和细微印渍，屏幕细微划痕并有少量灰点和亮点/坏点；无充电头和数据线；一机一价，库存以来源页为准",
-      "observedAt": "2026-08-31"
+      "observedAt": "2026-08-31",
+      "excludedReason": "屏幕亮点或坏点，不作为正常设备参考价"
     },
+    "ipad-air-4th-2020": [
+      {
+        "value": 2079,
+        "unit": "CNY",
+        "rawText": "Apple iPad Air 2020 款国行二手平板电脑，绿色，64GB，Wi-Fi 版，95 成新，电池寿命 91%-95%，未检出维修痕迹，页面价 2079 元。",
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1172039",
+        "sourceType": "reference",
+        "confidence": 0.7,
+        "verifiedAt": "2026-08-25",
+        "priceType": "used",
+        "market": "中国大陆",
+        "configuration": "iPad Air（第 4 代），绿色，64GB，国行，Wi-Fi 版",
+        "condition": "二手，95 成新，电池寿命 91%-95%，未检出维修痕迹；外壳有轻微划痕、磕碰或掉漆及印渍，屏幕有细微老化、色差或透图；不含充电头和数据线；一机一价，以来源页库存为准",
+        "observedAt": "2026-08-25",
+        "sourceName": "九机二手良品",
+        "excludedReason": "屏幕老化、色差或透图，不作为正常设备参考价"
+      },
+      {
+        "value": 1999,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1198689",
+        "sourceName": "九机二手单机详情",
+        "rawText": "¥1999 已优惠50 99成新 券¥50积分兑券 Apple iPad Air 2020款 10.9英寸 WiFi版 天蓝色 64G 国行 机况 未检出维修痕迹 维修历史 86%-90% 电池寿命 WiFi版 网络制式 iPadOS18.5 操作系统 参数 A14 处理器 2360 x 1640 屏幕分辨率；库存编号：4810570；功能检测 13项正常",
+        "configuration": "天蓝色，4GB 运行内存 + 64GB 存储，WiFi版，国行",
+        "condition": "二手，99成新，电池寿命86%-90%，未检出维修痕迹；屏幕细微划痕；功能检测13项正常；无充电头和数据线；页面显示已优惠50元及积分兑券，实际结算和库存以来源页为准",
+        "observedAt": "2026-09-22"
+      }
+    ],
     "ipad-air-m2-2024": {
       "value": 4099,
       "sourceUrl": "https://m2.9ji.com/secondHand/detail/1172025",
@@ -447,15 +2413,46 @@
       "condition": "二手，95 成新，电池寿命 96%-99%，未检出维修痕迹；一机一价，以来源页库存状态为准",
       "observedAt": "2026-08-31"
     },
-    "ipad-air-m3-2025": {
-      "value": 3989,
-      "sourceUrl": "https://m2.9ji.com/secondHand/detail/1171984",
-      "sourceName": "九机二手良品",
-      "rawText": "截至 2026 年 8 月 31 日，九机库存 4640799 为星光色、256G、国行 WiFi 版，95 成新，电池寿命 100%，未检出维修痕迹，外壳轻微磕碰/掉漆，页面价 3989 元。",
-      "configuration": "星光色，国行 WiFi 版，8GB 运行内存 + 256GB 存储",
-      "condition": "二手，95 成新，电池寿命 100%，未检出维修痕迹；一机一价，以来源页库存状态为准",
-      "observedAt": "2026-08-31"
-    },
+    "ipad-air-m3-2025": [
+      {
+        "value": 3989,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1171984",
+        "sourceName": "九机二手良品",
+        "rawText": "截至 2026 年 8 月 31 日，九机库存 4640799 为星光色、256G、国行 WiFi 版，95 成新，电池寿命 100%，未检出维修痕迹，外壳轻微磕碰/掉漆，页面价 3989 元。",
+        "configuration": "星光色，国行 WiFi 版，8GB 运行内存 + 256GB 存储",
+        "condition": "二手，95 成新，电池寿命 100%，未检出维修痕迹；一机一价，以来源页库存状态为准",
+        "observedAt": "2026-08-31"
+      },
+      {
+        "value": 3739,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1197102",
+        "sourceName": "九机二手单机详情",
+        "rawText": "¥3739 95成新 积分兑券 Apple iPad Air 2025款/第7代 11英寸 WiFi版 紫色 128G 国行 机况 未检出维修痕迹 维修历史 96%-99% 电池寿命 WiFi版 网络制式 iPadOS26.3 操作系统 参数 M3芯片 处理器 11英寸 屏幕尺寸 2360x1640 屏幕分辨率",
+        "configuration": "8GB 运行内存 + 128GB 存储，国行，Wi-Fi，紫色",
+        "condition": "二手95成新；电池96%-99%；未检出维修痕迹；屏幕轻微划痕",
+        "observedAt": "2026-09-22"
+      }
+    ],
+    "ipad-air-m4-2025": [
+      {
+        "value": 4659,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1193938",
+        "sourceName": "九机二手单机详情",
+        "rawText": "¥4659 已优惠150 99成新 新机价¥5899 券¥150 领150元券 Apple iPad Air 2026款/第8代 11英寸 WiFi版 深空灰色 256G 国行 机况 未检出维修痕迹 维修历史 100% 电池寿命 WiFi版 网络制式 iPadOS26.6.1 操作系统 参数 M4 处理器 11英寸 屏幕尺寸 2360 x 1640 像素分辨率 屏幕分辨率",
+        "configuration": "12GB 运行内存 + 256GB 存储，国行，Wi-Fi，深空灰色",
+        "condition": "二手99成新，页面已优惠150元；电池100%；未检出维修痕迹；外壳细微印渍；不含充电头和数据线",
+        "observedAt": "2026-09-22"
+      },
+      {
+        "value": 4089,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1171283",
+        "sourceName": "九机二手单机详情",
+        "rawText": "¥4089 已优惠200 95成新 新机价¥5499 Apple iPad Air 2026款/第8代 11英寸 WiFi版 星光色 128G 国行 机况 未检出维修痕迹 维修历史 100% 电池寿命 WiFi版 网络制式 iPadOS26.5 操作系统 参数 M4 处理器 11英寸 屏幕尺寸 2360 x 1640 像素分辨率 屏幕分辨率",
+        "configuration": "12GB 运行内存 + 128GB 存储，国行，Wi-Fi，星光色",
+        "condition": "二手95成新，页面已优惠200元；电池100%；未检出维修痕迹；外壳轻微印渍、屏幕细微划痕；不含充电头和数据线",
+        "observedAt": "2026-09-22"
+      }
+    ],
     "ipad-mini-5th-2019": {
       "value": 899,
       "sourceUrl": "https://m2.9ji.com/secondHand/detail/1181527",
@@ -463,8 +2460,36 @@
       "rawText": "页面显示 Apple iPad mini 2019款7.9英寸WiFi版深空灰色64G国行，8成新，公开价899元；电池寿命81%-85%，未检出维修痕迹，型号A2133，页面可立即购买。",
       "configuration": "深空灰色，3GB 运行内存 + 64GB 存储，WiFi 版，国行，型号 A2133",
       "condition": "二手，8成新；电池寿命81%-85%，未检出维修痕迹；外壳明显磕碰/掉漆并有轻微印渍，屏幕细微划痕和少量亮点/坏点；无充电头和数据线；一机一价，库存以来源页为准",
-      "observedAt": "2026-08-31"
+      "observedAt": "2026-08-31",
+      "excludedReason": "屏幕亮点或坏点，不作为正常设备参考价"
     },
+    "ipad-mini-6th-2021": [
+      {
+        "value": 2109,
+        "unit": "CNY",
+        "rawText": "Apple iPad mini 2021 款国行二手平板电脑，深空灰色，64GB，Wi-Fi 版，95 成新，电池寿命 91%-95%，未检出维修痕迹，页面价 2109 元。",
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1171585",
+        "sourceType": "reference",
+        "confidence": 0.7,
+        "verifiedAt": "2026-08-25",
+        "priceType": "used",
+        "market": "中国大陆",
+        "configuration": "iPad mini（第 6 代），深空灰色，64GB，国行，Wi-Fi 版",
+        "condition": "二手，95 成新，电池寿命 91%-95%，未检出维修痕迹；外壳有细微划痕、磕点及轻微印渍，屏幕有细微老化、色差或透图；不含充电头和数据线；一机一价，以来源页库存为准",
+        "observedAt": "2026-08-25",
+        "sourceName": "九机二手良品",
+        "excludedReason": "屏幕老化、色差或透图，不作为正常设备参考价"
+      },
+      {
+        "value": 2459,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1204575",
+        "sourceName": "九机二手单机详情",
+        "rawText": "¥2459 95成新 积分兑券 Apple iPad mini 2021款 8.3英寸 WiFi版 深空灰色 256G 国行 机况 未检出维修痕迹 维修历史 100% 电池寿命 WiFi版 网络制式 iPadOS15.6.1 操作系统 参数 A15 处理器 8.3英寸 屏幕尺寸 2266 x 1488 屏幕分辨率；库存编号：4832603；功能检测 13项正常",
+        "configuration": "深空灰色，4GB 运行内存 + 256GB 存储，WiFi版，国行，型号 A2567",
+        "condition": "二手，95成新，电池寿命100%，未检出维修痕迹；外壳细微划痕，屏幕轻微划痕，前摄外观少量灰点；功能检测13项正常；无充电头和数据线；一机一价，以库存为准",
+        "observedAt": "2026-09-22"
+      }
+    ],
     "ipad-pro-11-m1-2021": {
       "value": 4149,
       "sourceUrl": "https://m2.9ji.com/secondHand/detail/1171234",
@@ -519,15 +2544,35 @@
       "condition": "二手，8 成新，电池寿命 86%-90%，未检出维修痕迹；一机一价，以来源页库存状态为准",
       "observedAt": "2026-08-31"
     },
-    "ipad-pro-m5-13-2025": {
-      "value": 8399,
-      "sourceUrl": "https://m2.9ji.com/secondHand/detail/1171876",
-      "sourceName": "九机二手良品",
-      "rawText": "截至 2026 年 8 月 31 日，九机库存 4702123 为深空黑色、256G、国行 WiFi 版，9 成新，电池寿命 100%，未检出维修痕迹；外壳有轻微使用痕迹、屏幕少量明显划痕，页面价 8399 元。",
-      "configuration": "深空黑色，国行 WiFi 版，12GB 运行内存 + 256GB 存储",
-      "condition": "二手，9 成新，电池寿命 100%，未检出维修痕迹；一机一价，以来源页库存状态为准",
-      "observedAt": "2026-08-31"
+    "ipad-pro-m5-11-2025": {
+      "value": 11249,
+      "sourceUrl": "https://m2.9ji.com/secondHand/detail/1178571",
+      "sourceName": "九机二手单机详情",
+      "rawText": "¥11249 99成新 新机价¥11599 积分兑券 Apple iPad Pro 2025款/第8代 11英寸 WiFi版 银色 512G 国行；库存编号4745326；96%-99% 电池寿命；未检出维修痕迹 维修历史；国行 版本；WiFi版 网络制式；A3357 型号号码；512G 内存；外观检测10项正常；功能检测13项正常",
+      "configuration": "银色，12GB 运行内存 + 512GB 存储，WiFi版，国行，型号 A3357",
+      "condition": "二手，99成新，电池寿命96%-99%，未检出维修痕迹；外观检测10项正常，功能检测13项正常；无充电头和数据线；实际结算和库存以来源页为准",
+      "observedAt": "2026-09-26"
     },
+    "ipad-pro-m5-13-2025": [
+      {
+        "value": 8399,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1171876",
+        "sourceName": "九机二手良品",
+        "rawText": "截至 2026 年 8 月 31 日，九机库存 4702123 为深空黑色、256G、国行 WiFi 版，9 成新，电池寿命 100%，未检出维修痕迹；外壳有轻微使用痕迹、屏幕少量明显划痕，页面价 8399 元。",
+        "configuration": "深空黑色，国行 WiFi 版，12GB 运行内存 + 256GB 存储",
+        "condition": "二手，9 成新，电池寿命 100%，未检出维修痕迹；一机一价，以来源页库存状态为准",
+        "observedAt": "2026-08-31"
+      },
+      {
+        "value": 9899,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1207382",
+        "sourceName": "九机二手单机详情",
+        "rawText": "¥9899 99成新 新机价¥13999 积分兑券 Apple iPad Pro 2025款/第8代 13英寸 WiFi版 银色 512G 国行 机况 未检出维修痕迹 维修历史 100% 电池寿命 WiFi版 网络制式；库存编号4830484；A3360 型号号码；功能检测13项正常",
+        "configuration": "银色，12GB 运行内存 + 512GB 存储，WiFi版，国行，型号 A3360",
+        "condition": "二手，99成新，电池寿命100%，未检出维修痕迹；外壳及屏幕细微划痕；功能检测13项正常；无充电头和数据线；实际结算和库存以来源页为准",
+        "observedAt": "2026-09-26"
+      }
+    ],
     "iphone-11-pro-2019": {
       "value": 1219,
       "sourceUrl": "https://m2.9ji.com/secondHand/detail/1159844",
@@ -582,15 +2627,27 @@
       "condition": "二手，9成新；电池健康度88%，未检出维修痕迹；外壳少量明显磕碰/掉漆，屏幕细微划痕，前摄少量灰点；无充电头和数据线；一机一价，库存及优惠以来源页为准",
       "observedAt": "2026-08-31"
     },
-    "iphone-15-pro-max": {
-      "value": 4789,
-      "sourceUrl": "https://m2.9ji.com/secondHand/detail/1181419",
-      "sourceName": "九机二手良品",
-      "rawText": "页面显示 Apple iPhone 15 Pro Max 白色钛金属256G国行，9成新，公开价4789元；电池寿命81%，未检出维修痕迹，型号A3108，页面可领券购买。",
-      "configuration": "白色钛金属，8GB 运行内存 + 256GB 存储，国行，双 Nano-SIM，型号 A3108",
-      "condition": "二手，9成新；电池健康度81%，未检出维修痕迹；外壳有细微磕点和印渍，屏幕轻微划痕，后摄拍照有少量灰斑；无充电头和数据线；一机一价，库存及优惠以来源页为准",
-      "observedAt": "2026-08-31"
-    },
+    "iphone-15-pro-max": [
+      {
+        "value": 4789,
+        "excludedReason": "后摄拍照有灰斑，不作为正常设备参考价",
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1181419",
+        "sourceName": "九机二手良品",
+        "rawText": "页面显示 Apple iPhone 15 Pro Max 白色钛金属256G国行，9成新，公开价4789元；电池寿命81%，未检出维修痕迹，型号A3108，页面可领券购买。",
+        "configuration": "白色钛金属，8GB 运行内存 + 256GB 存储，国行，双 Nano-SIM，型号 A3108",
+        "condition": "二手，9成新；电池健康度81%，未检出维修痕迹；外壳有细微磕点和印渍，屏幕轻微划痕，后摄拍照有少量灰斑；无充电头和数据线；一机一价，库存及优惠以来源页为准",
+        "observedAt": "2026-08-31"
+      },
+      {
+        "value": 4929,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1208184",
+        "sourceName": "九机二手单机详情",
+        "rawText": "¥4929 已优惠200 95成新 券¥200 199享504全能大礼包 领200元券 Apple iPhone 15 Pro Max 原色钛金属 256G 国行 机况 iOS27.0 操作系统 86% 电池寿命 未检出维修痕迹 维修历史 客户回收 来源；库存编号：4831250；A3108 型号号码；国行 版本；256G 内存；功能检测 21项正常",
+        "configuration": "原色钛金属，8GB 运行内存 + 256GB 存储，国行，型号 A3108",
+        "condition": "二手，95成新，电池寿命86%，未检出维修痕迹；外壳细微划痕、磕点及轻微印渍，屏幕细微划痕，前后摄外观少量灰点；功能检测21项正常；无充电头和数据线；页面显示已优惠200元及领券入口，实际结算和库存以来源页为准",
+        "observedAt": "2026-09-26"
+      }
+    ],
     "iphone-16": {
       "value": 4079,
       "sourceUrl": "https://m2.9ji.com/secondHand/detail/1175459",
@@ -636,33 +2693,66 @@
       "condition": "二手，95 成新，电池健康度 93%，未检出维修痕迹；一机一价，以来源页库存状态为准",
       "observedAt": "2026-08-31"
     },
-    "iphone-17": {
-      "value": 4849,
-      "sourceUrl": "https://m2.9ji.com/secondHand/detail/1182542",
-      "sourceName": "九机二手良品",
-      "rawText": "页面显示 Apple iPhone 17 白色256G国行，95成新，公开价4849元；电池寿命99%，未检出维修痕迹，型号A3521，页面可立即购买。",
-      "configuration": "白色，8GB 运行内存 + 256GB 存储，国行，双 Nano-SIM，型号 A3521",
-      "condition": "二手，95成新；电池健康度99%，未检出维修痕迹；外壳有细微划痕和轻微磕碰/掉漆；无充电头和数据线；一机一价，库存以来源页为准",
-      "observedAt": "2026-08-31"
-    },
-    "iphone-17-pro": {
-      "value": 7499,
-      "sourceUrl": "https://m2.9ji.com/secondHand/detail/1027841",
-      "sourceName": "九机二手良品",
-      "rawText": "九机二手良品页面于 2026-08-31 显示库存 4065359：iPhone 17 Pro 深蓝色 256G 国行，95成新，当前页面价 ¥7,499，电池寿命 100%，未检出维修痕迹。",
-      "configuration": "深蓝色，12GB 运行内存 + 256GB 存储，国行，双 Nano-SIM，型号 A3524",
-      "condition": "二手，95成新；电池健康度100%，未检出维修痕迹；外壳轻微印渍、屏幕细微划痕；无充电头和数据线；一机一价，库存及优惠以来源页为准",
-      "observedAt": "2026-08-31"
-    },
-    "iphone-17-pro-max": {
-      "value": 8099,
-      "sourceUrl": "https://m2.9ji.com/secondHand/detail/1183068",
-      "sourceName": "九机二手良品",
-      "rawText": "九机二手良品页面于 2026-08-31 显示库存 4761903：iPhone 17 Pro Max 深蓝色 256G 国行，95成新，优惠后页面价 ¥8,099，电池寿命 100%，未检出维修痕迹，页面可下单。",
-      "configuration": "深蓝色，12GB 运行内存 + 256GB 存储，国行，双 Nano-SIM，型号 A3527",
-      "condition": "二手，95成新；电池健康度100%，未检出维修痕迹；外壳细微印渍、前摄少量灰点；一机一价，库存及优惠以来源页为准",
-      "observedAt": "2026-08-31"
-    },
+    "iphone-17": [
+      {
+        "value": 4849,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1182542",
+        "sourceName": "九机二手良品",
+        "rawText": "页面显示 Apple iPhone 17 白色256G国行，95成新，公开价4849元；电池寿命99%，未检出维修痕迹，型号A3521，页面可立即购买。",
+        "configuration": "白色，8GB 运行内存 + 256GB 存储，国行，双 Nano-SIM，型号 A3521",
+        "condition": "二手，95成新；电池健康度99%，未检出维修痕迹；外壳有细微划痕和轻微磕碰/掉漆；无充电头和数据线；一机一价，库存以来源页为准",
+        "observedAt": "2026-08-31"
+      },
+      {
+        "value": 6589,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1194812",
+        "sourceName": "九机二手单机详情",
+        "rawText": "¥6589 已优惠100 95成新 新机价¥7999 券¥100 199享504全能大礼包 领100元券 Apple iPhone 17 薰衣草紫色 512G 国行 机况 iOS26.4.2 操作系统 96% 电池寿命 未检出维修痕迹 维修历史 客户回收 来源；库存编号：4797339；A3521 型号号码；国行 版本；512G 内存；功能检测 21项正常",
+        "configuration": "薰衣草紫色，8GB 运行内存 + 512GB 存储，国行，型号 A3521",
+        "condition": "二手，95成新，电池寿命96%，未检出维修痕迹；外壳细微划痕、磕点及轻微印渍，屏幕细微划痕；功能检测21项正常；无充电头和数据线；页面显示已优惠100元及领券入口，实际结算和库存以来源页为准",
+        "observedAt": "2026-09-26"
+      }
+    ],
+    "iphone-17-pro": [
+      {
+        "value": 7499,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1027841",
+        "sourceName": "九机二手良品",
+        "rawText": "九机二手良品页面于 2026-08-31 显示库存 4065359：iPhone 17 Pro 深蓝色 256G 国行，95成新，当前页面价 ¥7,499，电池寿命 100%，未检出维修痕迹。",
+        "configuration": "深蓝色，12GB 运行内存 + 256GB 存储，国行，双 Nano-SIM，型号 A3524",
+        "condition": "二手，95成新；电池健康度100%，未检出维修痕迹；外壳轻微印渍、屏幕细微划痕；无充电头和数据线；一机一价，库存及优惠以来源页为准",
+        "observedAt": "2026-08-31"
+      },
+      {
+        "value": 8799,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1205612",
+        "sourceName": "九机二手单机详情",
+        "rawText": "¥8799 已优惠200 95成新 新机价¥10099 券¥200 199享504全能大礼包 领200元券 Apple iPhone 17 Pro 星宇橙色 512G 国行 机况 iOS26.6.2 操作系统 93% 电池寿命 未检出维修痕迹 维修历史 客户回收 来源；库存编号：4830447；A3524 型号号码；国行 版本；512G 内存；功能检测 21项正常",
+        "configuration": "星宇橙色，12GB 运行内存 + 512GB 存储，国行，型号 A3524",
+        "condition": "二手，95成新，电池寿命93%，未检出维修痕迹；外壳细微划痕、磕点及轻微印渍，屏幕细微划痕，前后摄外观少量灰点；功能检测21项正常；无充电头和数据线；页面显示已优惠200元及领券入口，实际结算和库存以来源页为准",
+        "observedAt": "2026-09-23"
+      }
+    ],
+    "iphone-17-pro-max": [
+      {
+        "value": 8099,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1183068",
+        "sourceName": "九机二手良品",
+        "rawText": "九机二手良品页面于 2026-08-31 显示库存 4761903：iPhone 17 Pro Max 深蓝色 256G 国行，95成新，优惠后页面价 ¥8,099，电池寿命 100%，未检出维修痕迹，页面可下单。",
+        "configuration": "深蓝色，12GB 运行内存 + 256GB 存储，国行，双 Nano-SIM，型号 A3527",
+        "condition": "二手，95成新；电池健康度100%，未检出维修痕迹；外壳细微印渍、前摄少量灰点；一机一价，库存及优惠以来源页为准",
+        "observedAt": "2026-08-31"
+      },
+      {
+        "value": 9399,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1205456",
+        "sourceName": "九机二手单机详情",
+        "rawText": "¥9399 已优惠300 95成新 新机价¥11299 券¥300 199享504全能大礼包 领300元券 Apple iPhone 17 Pro Max 银色 512G 国行 机况 iOS27.0 操作系统 100% 电池寿命 未检出维修痕迹 维修历史 客户回收 来源；库存编号：4822501；A3527 型号号码；国行 版本；512G 内存；功能检测 21项正常",
+        "configuration": "银色，12GB 运行内存 + 512GB 存储，国行，型号 A3527",
+        "condition": "二手，95成新，电池寿命100%，未检出维修痕迹；外壳细微印渍，屏幕轻微划痕；功能检测21项正常；无充电头和数据线；页面显示已优惠300元及领券入口，实际结算和库存以来源页为准",
+        "observedAt": "2026-09-23"
+      }
+    ],
     "iphone-17e-2026": {
       "value": 3259,
       "sourceUrl": "https://m2.9ji.com/secondHand/detail/1179412",
@@ -681,6 +2771,93 @@
       "condition": "二手，8 成新，电池健康度 76%，未检出维修痕迹；一机一价，以来源页库存状态为准",
       "observedAt": "2026-08-31"
     },
+    "macbook-air-13-m2-2022": [
+      {
+        "value": 3979,
+        "unit": "CNY",
+        "rawText": "Apple MacBook Air（M2）2022 款 13 英寸二手笔记本，午夜色，8G+256G，8 成新，电池效率 90% 以上，购买渠道国行，页面价 3979 元。",
+        "sourceUrl": "https://item.m.jd.com/product/10073708140429.html",
+        "sourceType": "reference",
+        "confidence": 0.7,
+        "verifiedAt": "2026-08-25",
+        "priceType": "used",
+        "market": "中国大陆",
+        "configuration": "午夜色，M2，8GB 内存，256GB 存储，购买渠道国行",
+        "condition": "二手，8 成新，电池效率 90% 以上，官方验；优惠与库存以来源页为准",
+        "observedAt": "2026-08-25",
+        "sourceName": "京东爱回收严选官方旗舰店"
+      },
+      {
+        "value": 5959,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1209501",
+        "sourceName": "九机二手良品",
+        "rawText": "¥ 5959 9 成新 积分兑券 苹果 MacBook Air 2022款 M2版 13.6英寸 星光色 16G 512GB 机况 未检出维修痕迹 维修历史 81%-85% 电池寿命 Apple M2 CPU Apple M2 8 核集显 显卡 13.6英寸 屏幕尺寸；国行 版本 客户回收 来源",
+        "configuration": "星光色，Apple M2，16GB 运行内存 + 512GB 存储，8 核 GPU，国行",
+        "condition": "二手，9成新，电池寿命81%-85%，未检出维修痕迹；一机一价，库存编号4819405，以来源页库存为准",
+        "observedAt": "2026-09-26"
+      }
+    ],
+    "macbook-air-13-m3-2024": [
+      {
+        "value": 4799,
+        "unit": "CNY",
+        "rawText": "苹果 MacBook Air 2024 款 M3 版 13.6 英寸二手笔记本，午夜色，8G+256GB，9 成新，电池寿命 91%-95%，未检出维修痕迹，中国大陆昆明仓在售，页面价 4799 元。2026-09-26 复核同一来源验机报告：库存编号4598720，国行版本，Apple M3 8核集显；页面已售罄。保留2026-08-25历史采集价，不将已售罄页面标价当作新的可购买报价。",
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1151113",
+        "sourceType": "reference",
+        "confidence": 0.7,
+        "verifiedAt": "2026-08-25",
+        "priceType": "used",
+        "market": "中国大陆",
+        "configuration": "午夜色，M3，8GB 内存，256GB 存储，8 核 GPU，国行，中国大陆昆明仓",
+        "condition": "二手，9 成新，电池寿命 91%-95%，未检出维修痕迹；2026-09-26复核已售罄，仅保留2026-08-25历史价格参考，不代表当前可购买",
+        "observedAt": "2026-08-25",
+        "sourceName": "九机二手良品"
+      },
+      {
+        "value": 8499,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1208964",
+        "sourceName": "九机二手良品",
+        "rawText": "¥ 8499 99 成新 积分兑券 苹果 MacBook Air M3版 2024款 13英寸 深空灰色 24G 512GB 机况 未检出维修痕迹 维修历史 100% 电池寿命 Apple M3 CPU Apple M3 10核集显 显卡 13.6英寸 屏幕尺寸；国行 版本 客户回收 来源",
+        "configuration": "深空灰色，Apple M3，24GB 运行内存 + 512GB 存储，10 核 GPU，国行",
+        "condition": "二手，99成新，电池寿命100%，未检出维修痕迹；一机一价，库存编号4827784，以来源页库存为准",
+        "observedAt": "2026-09-26"
+      }
+    ],
+    "macbook-air-13-m4-2025": [
+      {
+        "value": 8649,
+        "unit": "CNY",
+        "rawText": "苹果 MacBook Air 2025 款 M4 版 13.6 英寸国行二手笔记本，午夜色，24GB 内存，512GB 存储，9 成新，电池寿命 100%，未检出维修痕迹，页面价 8649 元。",
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1150301",
+        "sourceType": "reference",
+        "confidence": 0.7,
+        "verifiedAt": "2026-08-25",
+        "priceType": "used",
+        "market": "中国大陆",
+        "configuration": "13.6 英寸 MacBook Air，M4，午夜色，24GB 内存，512GB 存储，国行",
+        "condition": "二手，9 成新，电池寿命 100%，未检出维修痕迹；屏幕背面、屏幕边框、键盘面边框和底部有轻微使用痕迹；不含充电线和充电适配器；一机一价，以来源页库存为准",
+        "observedAt": "2026-08-25",
+        "sourceName": "九机二手良品"
+      },
+      {
+        "value": 5899,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1209028",
+        "sourceName": "九机二手良品",
+        "rawText": "¥ 5899 9 成新 积分兑券 苹果 MacBook Air M4版 2025款 13.6英寸 天蓝色 16G 256GB 机况 未检出维修痕迹 维修历史 100% 电池寿命 Apple M4 CPU Apple M4 8核集显 显卡 13.6英寸 屏幕尺寸；国行 版本 客户回收 来源",
+        "configuration": "天蓝色，Apple M4，16GB 运行内存 + 256GB 存储，8 核 GPU，国行",
+        "condition": "二手，9成新，电池寿命100%，未检出维修痕迹；一机一价，库存编号4818026，以来源页库存为准",
+        "observedAt": "2026-09-26"
+      },
+      {
+        "value": 7299,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1200758",
+        "sourceName": "九机二手良品",
+        "rawText": "¥ 7299 95 成新 积分兑券 苹果 MacBook Air 2025款 M4版 13.6英寸 银色 16G 512GB 机况 未检出维修痕迹 维修历史 96%-99% 电池寿命 Apple M4 CPU Apple M4 10核集显 显卡 13.6英寸 屏幕尺寸；国行 版本 客户回收 来源",
+        "configuration": "银色，Apple M4，16GB 运行内存 + 512GB 存储，10 核 GPU，国行",
+        "condition": "二手，95成新，电池寿命96%-99%，未检出维修痕迹；一机一价，库存编号4815950，以来源页库存为准",
+        "observedAt": "2026-09-26"
+      }
+    ],
     "macbook-air-13-m5-2026": {
       "value": 7399,
       "sourceUrl": "https://m2.9ji.com/secondHand/detail/1181296",
@@ -708,15 +2885,52 @@
       "condition": "二手，9 成新，电池健康度 96%-99%，未检出维修痕迹；一机一价，以来源页库存状态为准",
       "observedAt": "2026-08-31"
     },
-    "macbook-air-15-m5-2026": {
-      "value": 8699,
-      "sourceUrl": "https://m2.9ji.com/secondHand/detail/1179547",
-      "sourceName": "九机二手良品",
-      "rawText": "截至 2026 年 8 月 31 日，九机库存 4742499 为天蓝色、16G + 512GB、国行 15.3 英寸 MacBook Air 2026 款 M5 版，99 成新，未检出维修痕迹；电脑底部有细微使用痕迹，页面价 8699 元。",
-      "configuration": "天蓝色，Apple M5，16GB 运行内存 + 512GB 存储，国行",
-      "condition": "二手，99 成新，未检出维修痕迹；页面未展示电池寿命，一机一价，以来源页库存状态为准",
-      "observedAt": "2026-08-31"
-    },
+    "macbook-air-15-m4-2025": [
+      {
+        "value": 7899,
+        "unit": "CNY",
+        "rawText": "苹果 MacBook Air 2025 款 M4 版 15.3 英寸国行二手笔记本，银色，16GB 内存，512GB 存储，95 成新，电池寿命 100%，未检出维修痕迹，页面价 7899 元。",
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1140539",
+        "sourceType": "reference",
+        "confidence": 0.7,
+        "verifiedAt": "2026-08-25",
+        "priceType": "used",
+        "market": "中国大陆",
+        "configuration": "15.3 英寸 MacBook Air，M4，银色，16GB 内存，512GB 存储，国行",
+        "condition": "二手，95 成新，电池寿命 100%，未检出维修痕迹；屏幕背面和键盘面边框有轻微使用痕迹，底部和屏幕有细微使用痕迹；不含充电适配器和充电线；一机一价，以来源页库存为准",
+        "observedAt": "2026-08-25",
+        "sourceName": "九机二手良品"
+      },
+      {
+        "value": 10799,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1202004",
+        "sourceName": "九机二手良品",
+        "rawText": "¥ 10799 99 成新 积分兑券 苹果 MacBook Air M4版 2025款 15.3英寸 天蓝色 24G 1TB；库存编号：4812906；Apple M4 CPU；Apple M4 10核集显 显卡；1TB 硬盘；国行 版本；24G 内存。",
+        "configuration": "天蓝色，Apple M4，10 核 GPU，24GB 运行内存 + 1TB 存储，国行",
+        "condition": "二手，99成新，单机参考价；实际结算和库存以来源页为准",
+        "observedAt": "2026-09-26"
+      }
+    ],
+    "macbook-air-15-m5-2026": [
+      {
+        "value": 8699,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1179547",
+        "sourceName": "九机二手良品",
+        "rawText": "截至 2026 年 8 月 31 日，九机库存 4742499 为天蓝色、16G + 512GB、国行 15.3 英寸 MacBook Air 2026 款 M5 版，99 成新，未检出维修痕迹；电脑底部有细微使用痕迹，页面价 8699 元。",
+        "configuration": "天蓝色，Apple M5，16GB 运行内存 + 512GB 存储，国行",
+        "condition": "二手，99 成新，未检出维修痕迹；页面未展示电池寿命，一机一价，以来源页库存状态为准",
+        "observedAt": "2026-08-31"
+      },
+      {
+        "value": 11699,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1185555",
+        "sourceName": "九机二手良品",
+        "rawText": "【二手良品】苹果 MacBook Air 2026款 M5版 15.3英寸 九机首页 旧机回收 二手良品 我的订单 滑动查看详情 实拍图 细节图 新机图 验机报告 1/11 官方质检 1年质保 7天无理由 15天质量问题退 ¥11699 95成新 新机价¥15299 积分兑券 苹果 MacBook Air 2026款 M5版 15.3英寸 星光色 24G 1TB 机况 未检出维修痕迹 维修历史 100% 电池寿命 Apple M5 CPU Apple M5 10核集显 显卡 15.3英寸 屏幕尺寸 降价通知 商品对比 活动 旧机换钱，限时高价回收 付款价=良品价-旧机回收价 优选 新机 ¥15299起 分期 特惠 低至 ¥487.46×24 首付¥0 查看分期规则 已选 星光色 1TB 95成新 24G 多款可选 送至 云南省昆明市五华区 现在下单，预计今天 12:12 前送达 库存位置昆明 良品总仓*dc 门店 昆明佰腾店 现在下单，预计可在今天 14:50后到店取货 营业中9:00-21:30 验机报告 先验机再付款 ｜ 一机一验 ｜ 32道质检工序 苹果 MacBook Air 2026款 M5版 15.3英寸 库存编号： 4760212 外观95成新 黄*瑞 已质检 9230台 检测结果 经检测：该机器屏幕背面轻微划痕/磕碰/掉漆;键盘面边框细微使用痕迹;详细检测结果请参考质检信息和真机实拍图。 Apple M5 CPU Apple M5 10核集显 显卡 15.3英寸 屏幕尺寸 1TB 硬盘 未检出维修痕迹 维修历史 100% 电池寿命 国行 版本 客户回收 来源 macOSTahoe26.5 操作系统 24G 内存 2026-05 激活日期 2027-05-22 厂家保修到期日期 外观检测 2项异常 7项正常 细节图(1) 屏幕背面 轻微使用痕迹 键盘面边框 细微使用痕迹 功能检测 13项正常 附件清单 常用配件： 充电适配器、充电线（无） 附加配件： 原装包装盒 二手良品需人工一机一验，可能存在人工失误或检测软件不同导致验机报告信息、上传图片与实物存在差异，该类信息差异不涉及虚假宣传，支持到店验机后再",
+        "configuration": "星光色，15.3 英寸，Apple M5，10 核 GPU，24GB 运行内存 + 1TB 存储，国行",
+        "condition": "二手，95成新，电池寿命100%，未检出维修痕迹，功能检测13项正常；屏幕背面轻微划痕/磕碰/掉漆，键盘面边框细微使用痕迹；无充电线；单机参考价，不含旧机回收折抵，实际结算和库存以来源页为准",
+        "observedAt": "2026-09-26"
+      }
+    ],
     "macbook-neo-13-2026": {
       "value": 3749,
       "sourceUrl": "https://m2.9ji.com/secondHand/detail/1151968",
@@ -771,6 +2985,26 @@
       "condition": "二手，8 成新，电池健康度 100%，未检出维修痕迹；一机一价，以来源页库存状态为准",
       "observedAt": "2026-08-31"
     },
+    "macbook-pro-14-m5-2025": [
+      {
+        "value": 14199,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1198737",
+        "sourceName": "九机二手良品",
+        "rawText": "【二手良品】苹果 MacBook Pro 2025款 M5版 14英寸 九机首页 旧机回收 二手良品 我的订单 滑动查看详情 实拍图 细节图 新机图 验机报告 1/10 官方质检 1年质保 7天无理由 15天质量问题退 ¥14199 95成新 新机价¥17499 积分兑券 苹果 MacBook Pro 2025款 M5版 14英寸 银色 24G 1TB 机况 未检出维修痕迹 维修历史 100% 电池寿命 Apple M5 CPU Apple M5 10核集显 显卡 14英寸 屏幕尺寸 降价通知 商品对比 活动 旧机换钱，限时高价回收 付款价=良品价-旧机回收价 优选 新机 ¥17499起 分期 特惠 低至 ¥591.63×24 首付¥0 查看分期规则 已选 银色 1TB 95成新 24G 多款可选 送至 云南省昆明市五华区 现在下单，预计今天 12:12 前送达 库存位置昆明 良品总仓*dc 门店 昆明佰腾店 现在下单，预计可在今天 14:50后到店取货 营业中9:00-21:30 验机报告 先验机再付款 ｜ 一机一验 ｜ 32道质检工序 苹果 MacBook Pro 2025款 M5版 14英寸 库存编号： 4805524 外观95成新 黄*瑞 已质检 9230台 检测结果 经检测：该机器屏幕背面细微使用痕迹;屏幕边框细微使用痕迹;键盘面边框细微使用痕迹;电脑底部细微使用痕迹;详细检测结果请参考质检信息和真机实拍图。 Apple M5 CPU Apple M5 10核集显 显卡 14英寸 屏幕尺寸 1TB 硬盘 未检出维修痕迹 维修历史 100% 电池寿命 国行 版本 客户回收 来源 macOSTahoe26.6 操作系统 24G 内存 2026-06 激活日期 2027-06-01 厂家保修到期日期 外观检测 4项异常 5项正常 细节图(10) 屏幕背面 细微使用痕迹 屏幕正面边框 细微使用痕迹 键盘面边框 细微使用痕迹 电脑底部面 细微使用痕迹 功能检测 13项正常 附件清单 常用配件： 充电适配器（无）、充电线（无） 附加配件： 专属包装盒 二手良品需人工一机一验，可能存在人工失误或检测软件不同导致验机报告信息、上传图片与实物存在差异，该类信息差异不涉及虚假宣传，支持到店验机后再",
+        "configuration": "银色，14 英寸，Apple M5，10 核 GPU，24GB 运行内存 + 1TB 存储，国行",
+        "condition": "二手，95成新，电池寿命100%，未检出维修痕迹，功能检测13项正常；屏幕背面、屏幕边框、键盘面边框、电脑底部细微使用痕迹；无充电适配器和充电线；单机参考价，不含旧机回收折抵，实际结算和库存以来源页为准",
+        "observedAt": "2026-09-26"
+      },
+      {
+        "value": 10999,
+        "sourceUrl": "https://m2.9ji.com/secondHand/detail/1202778",
+        "sourceName": "九机二手良品",
+        "rawText": "【二手良品】苹果 MacBook Pro 2025款 M5版 14英寸 九机首页 旧机回收 二手良品 我的订单 滑动查看详情 实拍图 细节图 新机图 验机报告 1/11 官方质检 1年质保 7天无理由 15天质量问题退 ¥10999 95成新 积分兑券 苹果 MacBook Pro 2025款 M5版 14英寸 银色 16G 512GB 机况 未检出维修痕迹 维修历史 100% 电池寿命 Apple M5 CPU Apple M5 10核集显 显卡 14英寸 屏幕尺寸 降价通知 商品对比 活动 旧机换钱，限时高价回收 付款价=良品价-旧机回收价 分期 特惠 低至 ¥458.29×24 首付¥0 查看分期规则 已选 银色 512GB 95成新 16G 多款可选 送至 云南省昆明市五华区 现在下单，预计今天 12:13 前送达 库存位置昆明 良品总仓*dc 门店 昆明佰腾店 现在下单，预计可在今天 14:50后到店取货 营业中9:00-21:30 验机报告 先验机再付款 ｜ 一机一验 ｜ 32道质检工序 苹果 MacBook Pro 2025款 M5版 14英寸 库存编号： 4818895 外观95成新 黄*瑞 已质检 9230台 检测结果 经检测：该机器屏幕背面细微使用痕迹;屏幕边框细微使用痕迹;键盘面边框细微使用痕迹;电脑底部细微使用痕迹;详细检测结果请参考质检信息和真机实拍图。 Apple M5 CPU Apple M5 10核集显 显卡 14英寸 屏幕尺寸 512GB 硬盘 未检出维修痕迹 维修历史 100% 电池寿命 国行 版本 客户回收 来源 macOSTahoe 操作系统 16G 内存 2025-10 激活日期 2027-09-15 有延保 厂家保修到期日期 外观检测 4项异常 5项正常 细节图(7) 屏幕背面 细微使用痕迹 屏幕正面边框 细微使用痕迹 键盘面边框 细微使用痕迹 电脑底部面 细微使用痕迹 功能检测 13项正常 附件清单 常用配件： 充电适配器、充电线（无） 附加配件： 专属包装盒",
+        "configuration": "银色，14 英寸，Apple M5，10 核 GPU，16GB 运行内存 + 512GB 存储，国行",
+        "condition": "二手，95成新，电池寿命100%，未检出维修痕迹，功能检测13项正常；屏幕背面、屏幕边框、键盘面边框、电脑底部细微使用痕迹；无充电线；单机参考价，不含旧机回收折抵，实际结算和库存以来源页为准",
+        "observedAt": "2026-09-26"
+      }
+    ],
     "macbook-pro-14-m5-pro-2026": {
       "value": 17199,
       "sourceUrl": "https://m2.9ji.com/secondHand/detail/1170148",
@@ -806,51 +3040,6 @@
       "configuration": "深空黑色，Apple M4 Max，36GB 运行内存 + 1TB 存储，国行",
       "condition": "二手，9 成新，电池健康度 100%，未检出维修痕迹；一机一价，以来源页库存状态为准",
       "observedAt": "2026-08-31"
-    },
-    "honor-magic6-pro-2024": {
-      "value": 2279,
-      "sourceUrl": "https://m2.9ji.com/secondHand/detail/1163819",
-      "sourceName": "九机二手",
-      "rawText": "截至 2026 年 9 月 7 日，九机公开库存显示荣耀 Magic6 Pro 祁连雪 16G+512G 国行，8 成新，电池健康度 94%，未检出维修痕迹，页面价 2279 元。",
-      "configuration": "祁连雪，16GB 运行内存 + 512GB 存储，国行",
-      "condition": "二手，8 成新，电池健康度 94%，未检出维修痕迹；库存和实际成交价以来源页为准",
-      "observedAt": "2026-09-07"
-    },
-    "honor-magic7-pro-2024": {
-      "value": 2949,
-      "sourceUrl": "https://m2.9ji.com/secondHand/detail/1158678",
-      "sourceName": "九机二手",
-      "rawText": "截至 2026 年 9 月 7 日，九机公开库存显示荣耀 Magic7 Pro 雪域白 16G+512G 国行，8 成新，电池健康度 99%，未检出维修痕迹，页面价 2949 元。",
-      "configuration": "雪域白，16GB 运行内存 + 512GB 存储，国行",
-      "condition": "二手，8 成新，电池健康度 99%，未检出维修痕迹；库存和实际成交价以来源页为准",
-      "observedAt": "2026-09-07"
-    },
-    "honor-magic8-pro-2025": {
-      "value": 4479,
-      "sourceUrl": "https://m2.9ji.com/secondHand/detail/1177013",
-      "sourceName": "九机二手",
-      "rawText": "截至 2026 年 9 月 7 日，九机公开库存显示荣耀 Magic8 Pro 雪域白 16G+512G 国行，95 成新，电池健康度 100%，未检出维修痕迹，页面价 4479 元。",
-      "configuration": "雪域白，16GB 运行内存 + 512GB 存储，国行",
-      "condition": "二手，95 成新，电池健康度 100%，未检出维修痕迹；库存和实际成交价以来源页为准",
-      "observedAt": "2026-09-07"
-    },
-    "huawei-pura-70-ultra-2024": {
-      "value": 2899,
-      "sourceUrl": "https://m2.9ji.com/secondHand/detail/1188601",
-      "sourceName": "九机二手",
-      "rawText": "截至 2026 年 9 月 7 日，九机公开库存显示华为 Pura70 Ultra 香颂绿 16G+512G 国行，8 成新，电池健康度 91%，未检出维修痕迹，页面价 2899 元。",
-      "configuration": "香颂绿，16GB 运行内存 + 512GB 存储，国行",
-      "condition": "二手，8 成新，电池健康度 91%，未检出维修痕迹；库存和实际成交价以来源页为准",
-      "observedAt": "2026-09-07"
-    },
-    "huawei-pura-80-ultra-2025": {
-      "value": 4749,
-      "sourceUrl": "https://m2.9ji.com/secondHand/detail/1182704",
-      "sourceName": "九机二手",
-      "rawText": "截至 2026 年 9 月 7 日，九机公开库存显示华为 Pura80 Ultra 鎏光黑 16G+512G 国行，95 成新，电池健康度 100%，未检出维修痕迹，页面价 4749 元。",
-      "configuration": "鎏光黑，16GB 运行内存 + 512GB 存储，国行",
-      "condition": "二手，95 成新，电池健康度 100%，未检出维修痕迹；库存和实际成交价以来源页为准",
-      "observedAt": "2026-09-07"
     },
     "oppo-find-x7-ultra-2024": {
       "value": 2499,

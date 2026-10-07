@@ -1,0 +1,797 @@
+{
+  "metadata": {
+    "scope": "Xiaomi/Redmi 中国大陆已发售手机、平板和笔记本，2017-2026，截至2026-10-06",
+    "coverageStatus": "partial",
+    "notes": "第二批差集清单；历史blocked重试会记录补证过程，未做pending与证据阻塞分开。不声明年度所有型号已覆盖。",
+    "catalogSources": [
+      "https://detail.zol.com.cn/cell_phone_index/subcate57_34645_list_1.html",
+      "https://detail.zol.com.cn/cell_phone_index/subcate57_55731_list_1.html"
+    ],
+    "batch": 2
+  },
+  "imageEvidence": {
+    "xiaomi-8-2018": { "url": "https://2d.zol-img.com.cn/product/191_320x240/557/cessHobf7QwFM.jpg", "sha256": "3b41f35d91662a1d3100d075ac338da2ec6379a1aa67936adc30fa4382ca3331", "format": "JPEG", "width": 320, "height": 240, "checkedAt": "2026-10-06", "visualReview": "真实下载并查看：白色机身、后置双摄与指纹、刘海屏，与型号系列页的小米8外观一致；水印保留", "licenseStatus": "unknown" },
+    "xiaomi-mix-3-2018": { "url": "https://2e.zol-img.com.cn/product/193_320x240/762/cegBcDPKSs.jpg", "sha256": "4945ef6cc903d5bb6fb17fc1ed3b205af52c4e5a826d36de81bb92e39c73dafc", "format": "JPEG", "width": 320, "height": 240, "checkedAt": "2026-10-06", "visualReview": "真实下载并查看：黑色陶瓷机身、后置双摄与指纹、无刘海全面屏，与型号系列页的MIX3外观一致；水印保留", "licenseStatus": "unknown" }
+  },
+  "targets": [
+    {
+      "slug": "xiaomi-8",
+      "name": "小米8",
+      "year": 2018,
+      "seriesId": 23927,
+      "family": "Xiaomi",
+      "generation": "小米8",
+      "priorStatus": "not_attempted",
+      "configurationFallback": {
+        "sourceUrl": "https://www.ithome.com/0/362/796.htm",
+        "entries": [
+          {
+            "memory": "6GB",
+            "storage": "64GB",
+            "rawPattern": "6GB\\+64GB版定价2699元"
+          },
+          {
+            "memory": "6GB",
+            "storage": "128GB",
+            "rawPattern": "6GB\\+128GB版定价2999元"
+          },
+          {
+            "memory": "6GB",
+            "storage": "256GB",
+            "rawPattern": "6GB\\+256GB版定价3299元"
+          }
+        ]
+      },
+      "marketFallback": {
+        "sourceUrl": "https://www.ithome.com/0/362/796.htm",
+        "rawPattern": "小米在深圳正式发布了旗下年度旗舰小米8"
+      }
+    },
+    {
+      "slug": "xiaomi-8-se",
+      "name": "小米8 SE",
+      "year": 2018,
+      "seriesId": 23661,
+      "family": "Xiaomi SE",
+      "generation": "小米8 SE",
+      "priorStatus": "not_attempted",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/mi8i/specs",
+        "rawPattern": "支持移动\\s*(?:/|、)\\s*联通\\s*(?:/|、)\\s*电信\\s*4G",
+        "sourceType": "official"
+      }
+    },
+    {
+      "slug": "xiaomi-8-lite",
+      "name": "小米8青春版",
+      "year": 2018,
+      "seriesId": 24123,
+      "family": "Xiaomi Lite",
+      "generation": "小米8青春版",
+      "priorStatus": "not_attempted",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/mi8youth/specs",
+        "rawPattern": "支持移动\\s*(?:/|、)\\s*联通\\s*(?:/|、)\\s*电信\\s*4G",
+        "sourceType": "official"
+      }
+    },
+    {
+      "slug": "xiaomi-8-screen-fingerprint",
+      "name": "小米8屏幕指纹版",
+      "year": 2018,
+      "seriesId": 24125,
+      "family": "Xiaomi Screen Fingerprint",
+      "generation": "小米8屏幕指纹版",
+      "priorStatus": "not_attempted",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/mi8ud/specs",
+        "rawPattern": "(?:支持移动\\s*(?:/|、)\\s*联通\\s*(?:/|、)\\s*电信|主卡移动、联通、电信)\\s*4G",
+        "sourceType": "official"
+      }
+    },
+    {
+      "slug": "xiaomi-6x",
+      "name": "小米6X",
+      "year": 2018,
+      "seriesId": 23452,
+      "family": "Xiaomi X",
+      "generation": "小米6X",
+      "priorStatus": "not_attempted",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/mi6x/specs",
+        "rawPattern": "(?:支持移动\\s*(?:/|、)\\s*联通\\s*(?:/|、)\\s*电信|主卡移动、联通、电信)\\s*4G",
+        "sourceType": "official"
+      },
+      "configurationFallback": {
+        "sourceUrl": "https://www.mi.com/mi6x/specs",
+        "sourceType": "official",
+        "entries": [
+          {
+            "memory": "6GB",
+            "storage": "128GB",
+            "rawPattern": "6GB \\+ 128GB 最高可选"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "xiaomi-note-3",
+      "name": "小米Note3",
+      "year": 2017,
+      "seriesId": 22903,
+      "family": "Xiaomi Note",
+      "generation": "小米Note3",
+      "priorStatus": "not_attempted",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/minote3/specs",
+        "rawPattern": "(?:支持移动\\s*(?:/|、)\\s*联通\\s*(?:/|、)\\s*电信|主卡移动、联通、电信)\\s*4G",
+        "sourceType": "official"
+      },
+      "configurationFallback": {
+        "sourceUrl": "https://mobile.zol.com.cn/655/6552128_all.html",
+        "identityBodyPattern": "小米Note 3最终定价",
+        "entries": [
+          {
+            "memory": "6GB",
+            "storage": "64GB",
+            "rawPattern": "6GB\\+64GB（亮黑）售2499元"
+          },
+          {
+            "memory": "6GB",
+            "storage": "128GB",
+            "rawPattern": "6GB\\+128GB（亮黑）售2899元"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "xiaomi-max-3",
+      "name": "小米Max 3",
+      "year": 2018,
+      "seriesId": 23834,
+      "family": "Xiaomi Max",
+      "generation": "小米Max 3",
+      "priorStatus": "not_attempted",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/max3/specs",
+        "rawPattern": "(?:支持移动\\s*(?:/|、)\\s*联通\\s*(?:/|、)\\s*电信|主卡移动、联通、电信)\\s*4G",
+        "sourceType": "official"
+      }
+    },
+    {
+      "slug": "xiaomi-play",
+      "name": "小米Play",
+      "year": 2018,
+      "seriesId": 28117,
+      "family": "Xiaomi Play",
+      "generation": "小米Play",
+      "priorStatus": "not_attempted",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/miplay/specs",
+        "rawPattern": "支持移动\\s*(?:/|、)\\s*联通\\s*(?:/|、)\\s*电信\\s*4G",
+        "sourceType": "official"
+      }
+    },
+    {
+      "slug": "redmi-note-4x",
+      "name": "红米Note 4X",
+      "year": 2017,
+      "seriesId": 21808,
+      "family": "REDMI Note X",
+      "generation": "红米Note 4X",
+      "priorStatus": "not_attempted",
+      "expectedName": [
+        "红米Note 4X",
+        "小米红米Note 4X"
+      ],
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/redminote4x/specs",
+        "rawPattern": "(?:支持移动\\s*(?:/|、)\\s*联通\\s*(?:/|、)\\s*电信|主卡移动、联通、电信)\\s*4G",
+        "sourceType": "official"
+      },
+      "excludeVariants": [
+        "高配",
+        "2GB"
+      ],
+      "parameterChipPattern": "骁龙625",
+      "configurationFallback": {
+        "sourceUrl": "https://www.mi.com/redminote4x/specs",
+        "sourceType": "official",
+        "entries": [
+          {
+            "memory": "3GB",
+            "storage": "16GB",
+            "rawPattern": "超值版：3GB \\+ 16GB 骁龙625"
+          },
+          {
+            "memory": "3GB",
+            "storage": "32GB",
+            "rawPattern": "标配版：3GB \\+ 32GB 骁龙625"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "redmi-4x",
+      "name": "红米4X",
+      "year": 2017,
+      "seriesId": 21868,
+      "family": "REDMI Number X",
+      "generation": "红米4X",
+      "priorStatus": "not_attempted",
+      "expectedName": [
+        "红米4X",
+        "小米红米4X"
+      ],
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/redmi4x/specs",
+        "rawPattern": "(?:支持移动\\s*(?:/|、)\\s*联通\\s*(?:/|、)\\s*电信|主卡移动、联通、电信)\\s*4G",
+        "sourceType": "official"
+      }
+    },
+    {
+      "slug": "redmi-note-5a",
+      "name": "红米Note 5A",
+      "year": 2017,
+      "seriesId": 22592,
+      "family": "REDMI Note A",
+      "generation": "红米Note 5A",
+      "priorStatus": "not_attempted",
+      "expectedName": [
+        "红米Note 5A",
+        "小米红米Note 5A"
+      ],
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/redminote5a/specs",
+        "rawPattern": "(?:支持移动\\s*(?:/|、)\\s*联通\\s*(?:/|、)\\s*电信|主卡移动、联通、电信)\\s*4G",
+        "sourceType": "official"
+      },
+      "excludeVariants": [
+        "高配"
+      ]
+    },
+    {
+      "slug": "redmi-5",
+      "name": "红米5",
+      "year": 2017,
+      "seriesId": 22966,
+      "family": "REDMI",
+      "generation": "红米5",
+      "priorStatus": "not_attempted",
+      "expectedName": [
+        "红米5",
+        "小米红米5"
+      ],
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/redmi5/specs",
+        "rawPattern": "(?:支持移动\\s*(?:/|、)\\s*联通\\s*(?:/|、)\\s*电信|主卡移动、联通、电信)\\s*4G",
+        "sourceType": "official"
+      }
+    },
+    {
+      "slug": "redmi-5-plus",
+      "name": "红米5 Plus",
+      "year": 2017,
+      "seriesId": 22965,
+      "family": "REDMI Plus",
+      "generation": "红米5 Plus",
+      "priorStatus": "not_attempted",
+      "expectedName": [
+        "红米5 Plus",
+        "小米红米5 Plus"
+      ],
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/redmi5/specs",
+        "rawPattern": "(?:支持移动\\s*(?:/|、)\\s*联通\\s*(?:/|、)\\s*电信|主卡移动、联通、电信)\\s*4G",
+        "sourceType": "official"
+      }
+    },
+    {
+      "slug": "redmi-note-5",
+      "name": "红米Note 5",
+      "year": 2018,
+      "seriesId": 23229,
+      "family": "REDMI Note",
+      "generation": "红米Note 5",
+      "priorStatus": "not_attempted",
+      "expectedName": [
+        "红米Note 5",
+        "小米红米Note 5"
+      ],
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/redminote5/specs",
+        "rawPattern": "支持移动\\s*(?:/|、)\\s*联通\\s*(?:/|、)\\s*电信\\s*4G",
+        "sourceType": "official"
+      }
+    },
+    {
+      "slug": "redmi-6",
+      "name": "Redmi 6",
+      "year": 2018,
+      "seriesId": 23702,
+      "family": "REDMI",
+      "generation": "Redmi 6",
+      "priorStatus": "not_attempted",
+      "expectedName": [
+        "Redmi 6",
+        "小米红米6"
+      ],
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/redmi6/specs",
+        "rawPattern": "(?:支持移动\\s*(?:/|、)\\s*联通\\s*(?:/|、)\\s*电信|主卡移动、联通、电信)\\s*4G",
+        "sourceType": "official"
+      }
+    },
+    {
+      "slug": "redmi-6-pro",
+      "name": "Redmi 6 Pro",
+      "year": 2018,
+      "seriesId": 23748,
+      "family": "REDMI Pro",
+      "generation": "Redmi 6 Pro",
+      "priorStatus": "not_attempted",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/redmi6pro/specs",
+        "rawPattern": "(?:支持移动\\s*(?:/|、)\\s*联通\\s*(?:/|、)\\s*电信|主卡移动、联通、电信)\\s*4G",
+        "sourceType": "official"
+      }
+    },
+    {
+      "slug": "redmi-6a",
+      "name": "Redmi 6A",
+      "year": 2018,
+      "seriesId": 23855,
+      "family": "REDMI A",
+      "generation": "Redmi 6A",
+      "priorStatus": "not_attempted",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/redmi6a/specs",
+        "rawPattern": "(?:支持移动\\s*(?:/|、)\\s*联通\\s*(?:/|、)\\s*电信|主卡移动、联通、电信)\\s*4G",
+        "sourceType": "official",
+        "identityBodyPattern": "红米6A 红米6A AI人脸解锁"
+      }
+    },
+    {
+      "slug": "redmi-s2",
+      "name": "Redmi S2",
+      "year": 2018,
+      "seriesId": 23543,
+      "family": "REDMI S",
+      "generation": "Redmi S2",
+      "priorStatus": "not_attempted",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/redmis2/specs",
+        "rawPattern": "(?:支持移动\\s*(?:/|、)\\s*联通\\s*(?:/|、)\\s*电信|主卡移动、联通、电信)\\s*4G",
+        "sourceType": "official",
+        "identityName": "红米自拍手机S2"
+      }
+    },
+    {
+      "slug": "redmi-7",
+      "name": "Redmi 7",
+      "year": 2019,
+      "seriesId": 25772,
+      "family": "REDMI",
+      "generation": "Redmi 7",
+      "priorStatus": "not_attempted",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/redmi7/specs",
+        "rawPattern": "(?:支持移动\\s*(?:/|、)\\s*联通\\s*(?:/|、)\\s*电信|主卡移动、联通、电信)\\s*4G",
+        "sourceType": "official"
+      }
+    },
+    {
+      "slug": "redmi-7a",
+      "name": "Redmi 7A",
+      "year": 2019,
+      "seriesId": 26573,
+      "family": "REDMI A",
+      "generation": "Redmi 7A",
+      "priorStatus": "not_attempted",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/redmi7a/specs",
+        "rawPattern": "(?:支持移动\\s*(?:/|、)\\s*联通\\s*(?:/|、)\\s*电信|主卡移动、联通、电信)\\s*4G",
+        "sourceType": "official"
+      }
+    },
+    {
+      "slug": "redmi-8",
+      "name": "Redmi 8",
+      "year": 2019,
+      "seriesId": 27972,
+      "family": "REDMI",
+      "generation": "Redmi 8",
+      "priorStatus": "not_attempted"
+    },
+    {
+      "slug": "redmi-8a",
+      "name": "Redmi 8A",
+      "year": 2019,
+      "seriesId": 27973,
+      "family": "REDMI A",
+      "generation": "Redmi 8A",
+      "priorStatus": "not_attempted"
+    },
+    {
+      "slug": "redmi-9",
+      "name": "Redmi 9",
+      "year": 2020,
+      "seriesId": 30594,
+      "family": "REDMI",
+      "generation": "Redmi 9",
+      "priorStatus": "not_attempted"
+    },
+    {
+      "slug": "redmi-9a",
+      "name": "Redmi 9A",
+      "year": 2020,
+      "seriesId": 31583,
+      "family": "REDMI A",
+      "generation": "Redmi 9A",
+      "priorStatus": "not_attempted"
+    },
+    {
+      "slug": "redmi-10x-4g",
+      "name": "Redmi 10X 4G",
+      "year": 2020,
+      "seriesId": 30211,
+      "family": "REDMI X 4G",
+      "generation": "Redmi 10X 4G",
+      "priorStatus": "not_attempted"
+    },
+    {
+      "slug": "redmi-note-11-4g",
+      "name": "Redmi Note 11 4G",
+      "year": 2021,
+      "seriesId": 37245,
+      "family": "REDMI Note 4G",
+      "generation": "Redmi Note 11 4G",
+      "priorStatus": "not_attempted"
+    },
+    {
+      "slug": "xiaomi-mix-2",
+      "name": "小米MIX 2",
+      "seriesId": 22669,
+      "year": 2017,
+      "family": "Xiaomi MIX",
+      "generation": "MIX 2",
+      "excludeVariants": [
+        "尊享"
+      ],
+      "sourceUrl": "https://detail.zol.com.cn/series/57/22669_1.html",
+      "reason": "缺少明确绑定的内存/存储SKU",
+      "priorStatus": "attempted_blocked",
+      "priorReason": "缺少明确绑定的内存/存储SKU",
+      "configurationFallback": {
+        "sourceUrl": "https://mobile.zol.com.cn/655/6552128_all.html",
+        "entries": [
+          {
+            "memory": "6GB",
+            "storage": "64GB",
+            "rawPattern": "6GB\\+64GB版本售3299元"
+          },
+          {
+            "memory": "6GB",
+            "storage": "128GB",
+            "rawPattern": "6GB\\+128GB版本售3599元"
+          },
+          {
+            "memory": "6GB",
+            "storage": "256GB",
+            "rawPattern": "6GB\\+256GB版本售价3999元"
+          }
+        ]
+      },
+      "marketFallback": {
+        "sourceUrl": "https://mobile.zol.com.cn/655/6552128_all.html",
+        "rawPattern": "小米科技在北京工业大学奥林匹克体育馆正式发布了第二代全面屏\\s*手机\\s*小米MIX 2"
+      }
+    },
+    {
+      "slug": "xiaomi-mix-2s",
+      "name": "小米MIX 2s",
+      "seriesId": 23291,
+      "year": 2018,
+      "family": "Xiaomi MIX S",
+      "generation": "MIX 2S",
+      "sourceUrl": "https://detail.zol.com.cn/series/57/23291_1.html",
+      "reason": "缺少中国大陆发布或具体型号行货证据，暂不把中文页面默认作国行",
+      "priorStatus": "attempted_blocked",
+      "priorReason": "缺少中国大陆发布或具体型号行货证据，暂不把中文页面默认作国行",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/mix2s/specs",
+        "rawPattern": "(?:支持移动\\s*(?:/|、)\\s*联通\\s*(?:/|、)\\s*电信|主卡移动、联通、电信)\\s*4G",
+        "sourceType": "official"
+      },
+      "configurationFallback": {
+        "sourceUrl": "https://www.mi.com/mix2s/specs",
+        "sourceType": "official",
+        "entries": [
+          {
+            "memory": "6GB",
+            "storage": "128GB",
+            "rawPattern": "6GB \\+ 128GB 标准版最高可选"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "xiaomi-mix-3",
+      "name": "小米MIX 3",
+      "seriesId": 24585,
+      "year": 2018,
+      "family": "Xiaomi MIX",
+      "generation": "MIX 3",
+      "sourceUrl": "https://detail.zol.com.cn/series/57/24585_1.html",
+      "reason": "缺少中国大陆发布或具体型号行货证据，暂不把中文页面默认作国行",
+      "priorStatus": "attempted_blocked",
+      "priorReason": "缺少中国大陆发布或具体型号行货证据，暂不把中文页面默认作国行",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/mix3/specs",
+        "rawPattern": "(?:支持移动\\s*(?:/|、)\\s*联通\\s*(?:/|、)\\s*电信|主卡移动、联通、电信)\\s*4G",
+        "sourceType": "official"
+      },
+      "excludeVariants": [
+        "故宫",
+        "5G版"
+      ],
+      "configurationFallback": {
+        "sourceUrl": "https://www.mi.com/mix3/specs",
+        "sourceType": "official",
+        "entries": [
+          {
+            "memory": "6GB",
+            "storage": "128GB",
+            "rawPattern": "6GB \\+ 128GB 版 （黑色）"
+          },
+          {
+            "memory": "8GB",
+            "storage": "128GB",
+            "rawPattern": "8GB \\+ 128GB 版 （黑色、宝石蓝、翡翠色）"
+          },
+          {
+            "memory": "8GB",
+            "storage": "256GB",
+            "rawPattern": "8GB \\+ 256GB 版 （黑色）"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "xiaomi-9",
+      "name": "小米9",
+      "seriesId": 25550,
+      "year": 2019,
+      "family": "Xiaomi",
+      "generation": "9",
+      "sourceUrl": "https://detail.zol.com.cn/series/57/25550_1.html",
+      "reason": "缺少中国大陆发布或具体型号行货证据，暂不把中文页面默认作国行",
+      "priorStatus": "attempted_blocked",
+      "priorReason": "缺少中国大陆发布或具体型号行货证据，暂不把中文页面默认作国行",
+      "marketFallback": {
+        "sourceUrl": "https://www.ithome.com/0/410/304.htm",
+        "rawPattern": "小米在北京工业大学体育馆正式发布了小米9手机"
+      }
+    }
+  ],
+  "pending": [
+    {
+      "name": "小米9 SE",
+      "category": "phone",
+      "year": 2019,
+      "sourceUrl": "https://detail.zol.com.cn/cell_phone_index/subcate57_list_series308_1.html"
+    },
+    {
+      "name": "小米Civi 1S",
+      "category": "phone",
+      "year": 2022,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/38213_1.html"
+    },
+    {
+      "name": "小米MIX FOLD 2",
+      "category": "phone",
+      "year": 2022,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10700703_1.html"
+    },
+    {
+      "name": "小米MIX FOLD 3",
+      "category": "phone",
+      "year": 2023,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10734524_1.html"
+    },
+    {
+      "name": "小米MIX FOLD 4",
+      "category": "phone",
+      "year": 2024,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10890027_1.html"
+    },
+    {
+      "name": "小米MIX Flip",
+      "category": "phone",
+      "year": 2024,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10867279_1.html"
+    },
+    {
+      "name": "小米MIX Flip 2",
+      "category": "phone",
+      "year": 2025,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10915080_1.html"
+    },
+    {
+      "name": "Redmi 10A",
+      "category": "phone",
+      "year": 2022,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/37955_1.html"
+    },
+    {
+      "name": "Redmi 12C",
+      "category": "phone",
+      "year": 2022,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10723103_1.html"
+    },
+    {
+      "name": "Redmi 12 5G",
+      "category": "phone",
+      "year": 2023,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10813071_1.html"
+    },
+    {
+      "name": "Redmi 13C 5G",
+      "category": "phone",
+      "year": 2023,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10849282_1.html"
+    },
+    {
+      "name": "Redmi Note 11E",
+      "category": "phone",
+      "year": 2022,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/37724_1.html"
+    },
+    {
+      "name": "Redmi Note 11E Pro",
+      "category": "phone",
+      "year": 2022,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/37708_1.html"
+    },
+    {
+      "name": "Redmi Note 11SE",
+      "category": "phone",
+      "year": 2022,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10709325_1.html"
+    },
+    {
+      "name": "Redmi Note 11R",
+      "category": "phone",
+      "year": 2022,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10718260_1.html"
+    },
+    {
+      "name": "Redmi Note 12 Pro 极速版",
+      "category": "phone",
+      "year": 2022,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10722452_1.html"
+    },
+    {
+      "name": "Redmi Note 12R Pro",
+      "category": "phone",
+      "year": 2023,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10760121_1.html"
+    },
+    {
+      "name": "Redmi Note 12R",
+      "category": "phone",
+      "year": 2023,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10800596_1.html"
+    },
+    {
+      "name": "Redmi Note 13R",
+      "category": "phone",
+      "year": 2024,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10864501_1.html"
+    },
+    {
+      "name": "小米平板3",
+      "category": "tablet",
+      "year": 2017,
+      "sourceUrl": "https://detail.zol.com.cn/series/702/21949_1.html",
+      "reason": "待补实际规格与中国大陆发布原文；系列摘要存在9.7英寸/Windows错误，不能直接采用摘要"
+    },
+    {
+      "name": "小米平板4 Wi-Fi",
+      "category": "tablet",
+      "year": 2018,
+      "sourceUrl": "https://detail.zol.com.cn/series/702/23746_1.html",
+      "reason": "Wi-Fi与LTE须拆分，待补国行身份与逐SKU证据"
+    },
+    {
+      "name": "小米平板4 LTE",
+      "category": "tablet",
+      "year": 2018,
+      "sourceUrl": "https://detail.zol.com.cn/tablepc/index1221130.shtml",
+      "reason": "不可套用Wi-Fi版重量、存储或网络参数"
+    },
+    {
+      "name": "小米平板4 Plus LTE",
+      "category": "tablet",
+      "year": 2018,
+      "sourceUrl": "https://detail.zol.com.cn/series/702/34645/param_23932_0_1.html"
+    },
+    {
+      "name": "小米平板5",
+      "category": "tablet",
+      "year": 2021,
+      "sourceUrl": "https://detail.zol.com.cn/series/702/34645/param_35148_0_1.html"
+    },
+    {
+      "name": "小米平板5 Pro Wi-Fi",
+      "category": "tablet",
+      "year": 2021,
+      "sourceUrl": "https://detail.zol.com.cn/series/702/10723391_1.html",
+      "reason": "Wi-Fi与5G版主摄/重量不同，需独立目标"
+    },
+    {
+      "name": "小米平板5 Pro 5G",
+      "category": "tablet",
+      "year": 2021,
+      "sourceUrl": "https://detail.zol.com.cn/tablepc/index1440534.shtml"
+    },
+    {
+      "name": "小米笔记本Air 12.5 (2017)",
+      "category": "laptop",
+      "year": 2017,
+      "sourceUrl": "https://detail.zol.com.cn/series/16/34645/param_22008_0_1.html",
+      "reason": "原系列混合2016/2017和4G版本，需要逐SKU年份/CPU筛选"
+    },
+    {
+      "name": "小米笔记本 Pro (2017)",
+      "category": "laptop",
+      "year": 2017,
+      "sourceUrl": "https://detail.zol.com.cn/series/16/34645/param_22670_0_1.html",
+      "reason": "原系列混合2017/2019，需独立SKU筛选"
+    },
+    {
+      "name": "小米笔记本 Pro (2019)",
+      "category": "laptop",
+      "year": 2019,
+      "sourceUrl": "https://detail.zol.com.cn/series/16/34645/param_22670_0_1.html"
+    },
+    {
+      "name": "小米游戏本 (2018)",
+      "category": "laptop",
+      "year": 2018,
+      "sourceUrl": "https://detail.zol.com.cn/series/16/23289_1.html",
+      "reason": "混合CPU代际、独显与SSD+HDD组合，不能截取第一容量或跨显卡合并"
+    },
+    {
+      "name": "小米笔记本 15.6 (2018)",
+      "category": "laptop",
+      "year": 2018,
+      "sourceUrl": "https://detail.zol.com.cn/series/16/23973_1.html"
+    },
+    {
+      "name": "Redmi Book 14 (2019)",
+      "category": "laptop",
+      "year": 2019,
+      "sourceUrl": "https://detail.zol.com.cn/series/16/34645/price_26570_127556.html"
+    },
+    {
+      "name": "Redmi Book 16 锐龙版 (2020)",
+      "category": "laptop",
+      "year": 2020,
+      "sourceUrl": "https://detail.zol.com.cn/series/16/30210_1.html"
+    },
+    {
+      "name": "Redmi Book 16 酷睿版 (2020)",
+      "category": "laptop",
+      "year": 2020,
+      "sourceUrl": "https://detail.zol.com.cn/series/16/30694_1.html"
+    },
+    { "name": "小米5C", "category": "phone", "year": 2017, "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1156607.shtml", "reason": "新增目录缺口；移动4G版本须单独核对，不按全网通导入" },
+    { "name": "小米5X", "category": "phone", "year": 2017, "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1175015.shtml", "reason": "新增目录缺口；国行MIUI版不能混用海外Mi A1参数" },
+    { "name": "小米Max 2", "category": "phone", "year": 2017, "sourceUrl": "https://www.mi.com/shop/buy/detail?product_id=10000101", "reason": "新增目录缺口；仍需具体SKU年份和完整参数核验" },
+    { "name": "小米8透明探索版", "category": "phone", "year": 2018, "sourceUrl": "https://www.mi.com/mi8/specs", "reason": "与标准8电池、解锁和重量不同，需独立目标" },
+    { "name": "红米Note 5A 高配版", "category": "phone", "year": 2017, "sourceUrl": "https://www.mi.com/redminote5as/specs", "reason": "骁龙435及前摄/重量不同，本批标准425目标排除，不跨版本套用" },
+    { "name": "红米Note 4X 高配版 Helio X20", "category": "phone", "year": 2017, "sourceUrl": "https://www.mi.com/redminote4x/specs", "reason": "处理器不同，本批标准骁龙625目标排除，待独立目标" },
+    { "name": "红米Note 4X 高配版 骁龙625", "category": "phone", "year": 2017, "sourceUrl": "https://www.mi.com/redminote4x/specs", "reason": "4GB/64GB高配SKU本批未收，只录原文逐条补证的3GB标准/超值组合" }
+  ]
+}

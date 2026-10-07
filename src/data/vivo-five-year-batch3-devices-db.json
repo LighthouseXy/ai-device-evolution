@@ -1,0 +1,4342 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "generatedAt": "2026-10-05",
+    "totalDevices": 8,
+    "coverage": {
+      "market": "CN",
+      "minReleaseYear": 2022,
+      "asOf": "2026-10-06",
+      "scope": "持续扩展的来源已知候选；非品牌全量，未处理不等于不存在。"
+    },
+    "audit": {
+      "inventory": [
+        {
+          "id": "vivo-x80-2022",
+          "brand": "vivo",
+          "modelName": "vivo X80",
+          "releaseYear": 2022,
+          "series": "vivo X",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x80",
+            "https://detail.zol.com.cn/series/57/38339_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_38339_0_1.html",
+            "https://detail.zol.com.cn/1393/1392791/param.shtml",
+            "https://detail.zol.com.cn/1406/1405719/param.shtml",
+            "https://detail.zol.com.cn/1406/1405718/param.shtml",
+            "https://detail.zol.com.cn/1406/1405722/param.shtml",
+            "https://www.vivo.com.cn/brand/news/detail?id=1055&type=3",
+            "https://detail.zol.com.cn/picture_index_2216/index22154540_0_p1392791.shtml",
+            "https://detail.zol.com.cn/picture_index_2216/index22154555_0_p1392791.shtml"
+          ]
+        },
+        {
+          "id": "vivo-x80-pro-2022",
+          "brand": "vivo",
+          "modelName": "vivo X80 Pro",
+          "releaseYear": 2022,
+          "series": "vivo X Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/38338_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_38338_0_1.html",
+            "https://detail.zol.com.cn/1393/1392797/param.shtml",
+            "https://detail.zol.com.cn/1406/1405720/param.shtml",
+            "https://detail.zol.com.cn/1406/1405721/param.shtml",
+            "https://www.vivo.com.cn/brand/news/detail?id=1055&type=3",
+            "https://detail.zol.com.cn/picture_index_2217/index22162699_0_p1392797.shtml",
+            "https://detail.zol.com.cn/picture_index_2217/index22162691_0_p1392798.shtml"
+          ]
+        },
+        {
+          "id": "vivo-x90-2022",
+          "brand": "vivo",
+          "modelName": "vivo X90",
+          "releaseYear": 2022,
+          "series": "vivo X",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10716267_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10716267_0_1.html",
+            "https://detail.zol.com.cn/1435/1434230/param.shtml",
+            "https://detail.zol.com.cn/1426/1425422/param.shtml",
+            "https://detail.zol.com.cn/1435/1434229/param.shtml",
+            "https://detail.zol.com.cn/1435/1434231/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2250/index22499314_0_p1434230.shtml",
+            "https://detail.zol.com.cn/picture_index_2250/index22499318_0_p1434231.shtml"
+          ]
+        },
+        {
+          "id": "vivo-x90-pro-2022",
+          "brand": "vivo",
+          "modelName": "vivo X90 Pro",
+          "releaseYear": 2022,
+          "series": "vivo X Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10717690_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10717690_0_1.html",
+            "https://detail.zol.com.cn/1435/1434232/param.shtml",
+            "https://detail.zol.com.cn/1429/1428478/param.shtml",
+            "https://detail.zol.com.cn/1435/1434233/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2250/index22499550_0_p1434232.shtml",
+            "https://detail.zol.com.cn/picture_index_2250/index22499517_0_p1434232.shtml"
+          ]
+        },
+        {
+          "id": "vivo-s15-2022",
+          "brand": "vivo",
+          "modelName": "vivo S15",
+          "releaseYear": 2022,
+          "series": "vivo S",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/38890_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_38890_0_1.html",
+            "https://detail.zol.com.cn/1403/1402543/param.shtml",
+            "https://detail.zol.com.cn/1410/1409694/param.shtml",
+            "https://detail.zol.com.cn/1410/1409693/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2198/index21974936_0_p1402543.shtml",
+            "https://detail.zol.com.cn/picture_index_2198/index21974937_0_p1409694.shtml"
+          ]
+        },
+        {
+          "id": "vivo-s15-pro-2022",
+          "brand": "vivo",
+          "modelName": "vivo S15 Pro",
+          "releaseYear": 2022,
+          "series": "vivo S Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/38891_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_38891_0_1.html",
+            "https://detail.zol.com.cn/1403/1402545/param.shtml",
+            "https://detail.zol.com.cn/1410/1409695/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2198/index21975010_0_p1402545.shtml",
+            "https://detail.zol.com.cn/picture_index_2198/index21975009_0_p1402545.shtml"
+          ]
+        },
+        {
+          "id": "vivo-s16-2022",
+          "brand": "vivo",
+          "modelName": "vivo S16",
+          "releaseYear": 2022,
+          "series": "vivo S",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10718404_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10718404_0_1.html",
+            "https://detail.zol.com.cn/1430/1429771/param.shtml",
+            "https://detail.zol.com.cn/1439/1438555/param.shtml",
+            "https://detail.zol.com.cn/1439/1438556/param.shtml",
+            "https://detail.zol.com.cn/1439/1438554/param.shtml",
+            "https://www.ithome.com/0/664/500.htm",
+            "https://detail.zol.com.cn/picture_index_2258/index22576940_0_p1429771.shtml",
+            "https://detail.zol.com.cn/picture_index_2297/index22962435_0_p1429771.shtml"
+          ]
+        },
+        {
+          "id": "vivo-s16-pro-2022",
+          "brand": "vivo",
+          "modelName": "vivo S16 Pro",
+          "releaseYear": 2022,
+          "series": "vivo S Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10718407_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10718407_0_1.html",
+            "https://detail.zol.com.cn/1430/1429777/param.shtml",
+            "https://detail.zol.com.cn/1439/1438558/param.shtml",
+            "https://www.ithome.com/0/664/500.htm",
+            "https://detail.zol.com.cn/picture_index_2258/index22576997_0_p1429777.shtml",
+            "https://detail.zol.com.cn/picture_index_2258/index22576981_0_p1429777.shtml"
+          ]
+        },
+        {
+          "id": "iqoo-neo7-2022",
+          "brand": "vivo",
+          "modelName": "iQOO Neo7",
+          "releaseYear": 2022,
+          "series": "iQOO Neo",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10592901_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10592901_0_1.html",
+            "https://detail.zol.com.cn/1432/1431600/param.shtml",
+            "https://detail.zol.com.cn/1432/1431601/param.shtml",
+            "https://detail.zol.com.cn/1432/1431602/param.shtml",
+            "https://detail.zol.com.cn/1360/1359372/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2233/index22323685_0_p1431600.shtml",
+            "https://detail.zol.com.cn/picture_index_2233/index22323693_0_p1431600.shtml"
+          ]
+        },
+        {
+          "id": "iqoo-neo8-2023",
+          "brand": "vivo",
+          "modelName": "iQOO Neo8",
+          "releaseYear": 2023,
+          "series": "iQOO Neo",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10734528_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10734528_0_1.html",
+            "https://detail.zol.com.cn/1461/1460901/param.shtml",
+            "https://detail.zol.com.cn/1628/1627566/param.shtml",
+            "https://detail.zol.com.cn/1628/1627567/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2389/index23880808_0_p1460901.shtml",
+            "https://detail.zol.com.cn/picture_index_2389/index23880812_0_p1460901.shtml"
+          ]
+        },
+        {
+          "id": "vivo-s17-2023",
+          "brand": "vivo",
+          "modelName": "vivo S17",
+          "releaseYear": 2023,
+          "series": "vivo S",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10745151_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10745151_0_1.html",
+            "https://detail.zol.com.cn/1487/1486867/param.shtml",
+            "https://detail.zol.com.cn/1638/1637674/param.shtml",
+            "https://detail.zol.com.cn/1638/1637673/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2497/index24967747_0_p1486867.shtml",
+            "https://detail.zol.com.cn/picture_index_2389/index23887660_0_p1637673.shtml"
+          ]
+        },
+        {
+          "id": "vivo-s18-2023",
+          "brand": "vivo",
+          "modelName": "vivo S18",
+          "releaseYear": 2023,
+          "series": "vivo S",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10845107_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10845107_0_1.html",
+            "https://detail.zol.com.cn/1960/1959978/param.shtml",
+            "https://detail.zol.com.cn/1967/1966881/param.shtml",
+            "https://detail.zol.com.cn/1967/1966880/param.shtml",
+            "https://www.ithome.com/0/739/298.htm",
+            "https://detail.zol.com.cn/picture_index_2638/index26375880_0_p1959978.shtml",
+            "https://detail.zol.com.cn/picture_index_2581/index25803347_0_p1966880.shtml"
+          ]
+        },
+        {
+          "id": "vivo-s19-2024",
+          "brand": "vivo",
+          "modelName": "vivo S19",
+          "releaseYear": 2024,
+          "series": "vivo S",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10860268_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10860268_0_1.html",
+            "https://detail.zol.com.cn/2003/2002133/param.shtml",
+            "https://detail.zol.com.cn/2019/2018382/param.shtml",
+            "https://detail.zol.com.cn/2019/2018384/param.shtml",
+            "https://detail.zol.com.cn/2019/2018383/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2639/index26381656_0_p2002133.shtml",
+            "https://detail.zol.com.cn/picture_index_2639/index26381655_0_p2018383.shtml"
+          ]
+        },
+        {
+          "id": "vivo-y200-2024",
+          "brand": "vivo",
+          "modelName": "vivo Y200",
+          "releaseYear": 2024,
+          "series": "vivo Y",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10863439_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10863439_0_1.html",
+            "https://detail.zol.com.cn/2014/2013465/param.shtml",
+            "https://detail.zol.com.cn/2018/2017383/param.shtml",
+            "https://detail.zol.com.cn/2018/2017384/param.shtml",
+            "https://detail.zol.com.cn/2018/2017382/param.shtml",
+            "https://www.ithome.com/0/769/269.htm",
+            "https://detail.zol.com.cn/picture_index_2637/index26368796_0_p2013465.shtml",
+            "https://detail.zol.com.cn/picture_index_2637/index26368765_0_p2017384.shtml"
+          ]
+        },
+        {
+          "id": "iqoo-11-2022",
+          "brand": "vivo",
+          "modelName": "iQOO 11",
+          "releaseYear": 2022,
+          "series": "iQOO",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10716277_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10716277_0_1.html",
+            "https://detail.zol.com.cn/1426/1425508/param.shtml",
+            "https://detail.zol.com.cn/1436/1435912/param.shtml",
+            "https://detail.zol.com.cn/1436/1435914/param.shtml",
+            "https://detail.zol.com.cn/1436/1435911/param.shtml",
+            "https://detail.zol.com.cn/1436/1435913/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2254/index22536895_0_p1425508.shtml",
+            "https://detail.zol.com.cn/picture_index_2254/index22536690_0_p1425508.shtml"
+          ]
+        },
+        {
+          "id": "iqoo-12-2023",
+          "brand": "vivo",
+          "modelName": "iQOO 12",
+          "releaseYear": 2023,
+          "series": "iQOO",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10757813_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10757813_0_1.html",
+            "https://detail.zol.com.cn/1545/1544390/param.shtml",
+            "https://detail.zol.com.cn/1948/1947968/param.shtml",
+            "https://detail.zol.com.cn/1948/1947969/param.shtml",
+            "https://www.ithome.com/0/730/761.htm",
+            "https://detail.zol.com.cn/picture_index_2563/index25621637_0_p1544390.shtml",
+            "https://detail.zol.com.cn/picture_index_2563/index25621633_0_p1544390.shtml"
+          ]
+        },
+        {
+          "id": "iqoo-neo9-2023",
+          "brand": "vivo",
+          "modelName": "iQOO Neo9",
+          "releaseYear": 2023,
+          "series": "iQOO Neo",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10771110_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10771110_0_1.html",
+            "https://detail.zol.com.cn/1611/1610856/param.shtml",
+            "https://detail.zol.com.cn/1971/1970768/param.shtml",
+            "https://detail.zol.com.cn/1971/1970767/param.shtml",
+            "https://detail.zol.com.cn/1971/1970769/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2585/index25841564_0_p1610856.shtml",
+            "https://detail.zol.com.cn/picture_index_2585/index25841559_0_p1610856.shtml"
+          ]
+        },
+        {
+          "id": "vivo-pad2-2023",
+          "brand": "vivo",
+          "modelName": "vivo Pad2",
+          "releaseYear": 2023,
+          "series": "vivo Pad",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/vivopad2",
+            "https://detail.zol.com.cn/series/702/10747585_1.html",
+            "https://detail.zol.com.cn/series/702/1795/param_10747585_0_1.html",
+            "https://detail.zol.com.cn/1495/1494631/param.shtml",
+            "https://detail.zol.com.cn/1535/1534569/param.shtml",
+            "https://detail.zol.com.cn/1535/1534570/param.shtml",
+            "https://detail.zol.com.cn/1535/1534568/param.shtml",
+            "https://www.ithome.com/0/688/467.htm",
+            "https://detail.zol.com.cn/picture_index_2346/index23457609_0_p1494631.shtml",
+            "https://detail.zol.com.cn/picture_index_2346/index23457608_0_p1494631.shtml"
+          ]
+        },
+        {
+          "id": "vivo-pad3-2024",
+          "brand": "vivo",
+          "modelName": "vivo Pad3",
+          "releaseYear": 2024,
+          "series": "vivo Pad",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/vivopad3",
+            "https://detail.zol.com.cn/series/702/10867427_1.html",
+            "https://detail.zol.com.cn/series/702/1795/param_10867427_0_1.html",
+            "https://detail.zol.com.cn/2035/2034235/param.shtml",
+            "https://detail.zol.com.cn/2035/2034238/param.shtml",
+            "https://detail.zol.com.cn/2035/2034237/param.shtml",
+            "https://detail.zol.com.cn/2035/2034236/param.shtml",
+            "https://www.ithome.com/0/779/800.htm",
+            "https://detail.zol.com.cn/picture_index_2655/index26546280_0_p2034235.shtml",
+            "https://detail.zol.com.cn/picture_index_2655/index26546279_0_p2034235.shtml"
+          ]
+        },
+        {
+          "id": "vivo-x200-2024",
+          "brand": "vivo",
+          "modelName": "vivo X200",
+          "releaseYear": 2024,
+          "series": "vivo X",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x200"
+          ]
+        },
+        {
+          "id": "vivo-x200-pro-2024",
+          "brand": "vivo",
+          "modelName": "vivo X200 Pro",
+          "releaseYear": 2024,
+          "series": "vivo X Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x200pro"
+          ]
+        },
+        {
+          "id": "vivo-x200-pro-mini-2024",
+          "brand": "vivo",
+          "modelName": "vivo X200 Pro mini",
+          "releaseYear": 2024,
+          "series": "vivo X Pro mini",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x200promini"
+          ]
+        },
+        {
+          "id": "vivo-x300-2025",
+          "brand": "vivo",
+          "modelName": "vivo X300",
+          "releaseYear": 2025,
+          "series": "vivo X",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x300"
+          ]
+        },
+        {
+          "id": "vivo-x300-pro-2025",
+          "brand": "vivo",
+          "modelName": "vivo X300 Pro",
+          "releaseYear": 2025,
+          "series": "vivo X Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x300pro"
+          ]
+        },
+        {
+          "id": "vivo-x500-2026",
+          "brand": "vivo",
+          "modelName": "vivo X500",
+          "releaseYear": 2026,
+          "series": "vivo X",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x500"
+          ]
+        },
+        {
+          "id": "vivo-x500-pro-2026",
+          "brand": "vivo",
+          "modelName": "vivo X500 Pro",
+          "releaseYear": 2026,
+          "series": "vivo X Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x500pro"
+          ]
+        },
+        {
+          "id": "vivo-x500-pro-max-2026",
+          "brand": "vivo",
+          "modelName": "vivo X500 Pro Max",
+          "releaseYear": 2026,
+          "series": "vivo X Pro Max",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x500promax"
+          ]
+        },
+        {
+          "id": "vivo-x100-ultra-2024",
+          "brand": "vivo",
+          "modelName": "vivo X100 Ultra",
+          "releaseYear": 2024,
+          "series": "vivo X Ultra",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x100ultra",
+            "https://www.ithome.com/0/767/652.htm",
+            "https://m.vivo.com.cn/vivo/x100ultra/"
+          ]
+        },
+        {
+          "id": "vivo-x200-ultra-2025",
+          "brand": "vivo",
+          "modelName": "vivo X200 Ultra",
+          "releaseYear": 2025,
+          "series": "vivo X Ultra",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x200ultra",
+            "https://www.ithome.com/0/849/704.htm",
+            "https://www.dxomark.com/vivo-x200-ultra-camera-test/"
+          ]
+        },
+        {
+          "id": "vivo-x300-ultra-2026",
+          "brand": "vivo",
+          "modelName": "vivo X300 Ultra",
+          "releaseYear": 2026,
+          "series": "vivo X Ultra",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x300ultra",
+            "https://www.ithome.com/0/935/594.htm",
+            "https://www.dxomark.com/vivo-x300-ultra-camera-test/"
+          ]
+        },
+        {
+          "id": "iqoo-neo7-se-2022",
+          "brand": "vivo",
+          "modelName": "iQOO Neo7 SE",
+          "releaseYear": 2022,
+          "series": "iQOO Neo SE",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10719871_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10719871_0_1.html",
+            "https://detail.zol.com.cn/1433/1432705/param.shtml",
+            "https://detail.zol.com.cn/1435/1434874/param.shtml",
+            "https://detail.zol.com.cn/1435/1434873/param.shtml",
+            "https://detail.zol.com.cn/1436/1435921/param.shtml",
+            "https://detail.zol.com.cn/1436/1435922/param.shtml",
+            "https://www.vivo.com.cn/vivo/param/iqooneo7se",
+            "https://detail.zol.com.cn/picture_index_2254/index22536822_0_p1432705.shtml",
+            "https://detail.zol.com.cn/picture_index_2254/index22536818_0_p1432705.shtml"
+          ]
+        },
+        {
+          "id": "iqoo-neo7-racing-2023",
+          "brand": "vivo",
+          "modelName": "iQOO Neo7 竞速版",
+          "releaseYear": 2023,
+          "series": "iQOO Neo 竞速版",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10721905_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10721905_0_1.html",
+            "https://detail.zol.com.cn/1438/1437735/param.shtml",
+            "https://detail.zol.com.cn/1440/1439145/param.shtml",
+            "https://detail.zol.com.cn/1440/1439144/param.shtml",
+            "https://detail.zol.com.cn/1440/1439143/param.shtml",
+            "https://www.vivo.com.cn/vivo/param/iqooneo7js",
+            "https://detail.zol.com.cn/picture_index_2259/index22586651_0_p1437735.shtml",
+            "https://detail.zol.com.cn/picture_index_2259/index22586657_0_p1439143.shtml"
+          ]
+        },
+        {
+          "id": "iqoo-neo8-pro-2023",
+          "brand": "vivo",
+          "modelName": "iQOO Neo8 Pro",
+          "releaseYear": 2023,
+          "series": "iQOO Neo Pro",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10750330_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10750330_0_1.html",
+            "https://detail.zol.com.cn/1506/1505443/param.shtml",
+            "https://detail.zol.com.cn/1628/1627568/param.shtml",
+            "https://detail.zol.com.cn/1768/1767604/param.shtml",
+            "https://www.vivo.com.cn/vivo/param/iqooneo8pro",
+            "https://detail.zol.com.cn/picture_index_2389/index23880882_0_p1505443.shtml",
+            "https://detail.zol.com.cn/picture_index_2389/index23880878_0_p1505443.shtml"
+          ]
+        },
+        {
+          "id": "vivo-y100-2023",
+          "brand": "vivo",
+          "modelName": "vivo Y100",
+          "releaseYear": 2023,
+          "series": "vivo Y",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10831503_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10831503_0_1.html",
+            "https://detail.zol.com.cn/1931/1930410/param.shtml",
+            "https://detail.zol.com.cn/1937/1936186/param.shtml",
+            "https://detail.zol.com.cn/1937/1936187/param.shtml",
+            "https://detail.zol.com.cn/1937/1936185/param.shtml",
+            "https://www.vivo.com.cn/vivo/param/y100",
+            "https://detail.zol.com.cn/picture_index_2548/index25475951_0_p1930410.shtml",
+            "https://detail.zol.com.cn/picture_index_2548/index25475950_0_p1936187.shtml"
+          ]
+        },
+        {
+          "id": "vivo-y300-pro-2024",
+          "brand": "vivo",
+          "modelName": "vivo Y300 Pro",
+          "releaseYear": 2024,
+          "series": "vivo Y Pro",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10904994_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10904994_0_1.html",
+            "https://detail.zol.com.cn/2105/2104254/param.shtml",
+            "https://detail.zol.com.cn/2106/2105044/param.shtml",
+            "https://detail.zol.com.cn/2106/2105042/param.shtml",
+            "https://detail.zol.com.cn/2106/2105043/param.shtml",
+            "https://www.ithome.com/0/795/794.htm",
+            "https://www.vivo.com.cn/vivo/param/y300pro",
+            "https://detail.zol.com.cn/picture_index_2697/index26961094_0_p2104254.shtml",
+            "https://detail.zol.com.cn/picture_index_2697/index26961113_0_p2105042.shtml"
+          ]
+        },
+        {
+          "id": "vivo-y200-gt-2024",
+          "brand": "vivo",
+          "modelName": "vivo Y200 GT",
+          "releaseYear": 2024,
+          "series": "vivo Y GT",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10862324_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10862324_0_1.html",
+            "https://detail.zol.com.cn/2010/2009378/param.shtml",
+            "https://m.zol.com.cn/sjbbs/d1795_671359.html",
+            "https://www.vivo.com.cn/vivo/param/y200gt",
+            "https://detail.zol.com.cn/picture_index_2637/index26368808_0_p2009378.shtml",
+            "https://detail.zol.com.cn/picture_index_2637/index26368809_0_p2017387.shtml"
+          ]
+        },
+        {
+          "id": "iqoo-neo10-2024",
+          "brand": "vivo",
+          "modelName": "iQOO Neo10",
+          "releaseYear": 2024,
+          "series": "iQOO Neo",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10907848_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10907848_0_1.html",
+            "https://detail.zol.com.cn/2114/2113676/param.shtml",
+            "https://detail.zol.com.cn/2116/2115503/param.shtml",
+            "https://detail.zol.com.cn/2116/2115501/param.shtml",
+            "https://detail.zol.com.cn/2116/2115500/param.shtml",
+            "https://detail.zol.com.cn/2116/2115502/param.shtml",
+            "https://www.vivo.com.cn/vivo/param/iqooneo10",
+            "https://detail.zol.com.cn/picture_index_2706/index27056454_0_p2113676.shtml",
+            "https://detail.zol.com.cn/picture_index_2706/index27056456_0_p2113676.shtml"
+          ]
+        },
+        {
+          "id": "iqoo-neo10-pro-2024",
+          "brand": "vivo",
+          "modelName": "iQOO Neo10 Pro",
+          "releaseYear": 2024,
+          "series": "iQOO Neo Pro",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10907941_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10907941_0_1.html",
+            "https://detail.zol.com.cn/2114/2113956/param.shtml",
+            "https://detail.zol.com.cn/2116/2115497/param.shtml",
+            "https://detail.zol.com.cn/2116/2115498/param.shtml",
+            "https://detail.zol.com.cn/2116/2115499/param.shtml",
+            "https://detail.zol.com.cn/2116/2115496/param.shtml",
+            "https://www.vivo.com.cn/vivo/param/iqooneo10pro",
+            "https://detail.zol.com.cn/picture_index_2706/index27056460_0_p2113956.shtml",
+            "https://detail.zol.com.cn/picture_index_2706/index27056470_0_p2113956.shtml"
+          ]
+        },
+        {
+          "id": "vivo-y77-2022",
+          "brand": "vivo",
+          "modelName": "vivo Y77",
+          "family": "vivo Y",
+          "releaseYear": 2022,
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10713285_1.html",
+          "series": "vivo Y",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10713285_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Y77",
+            "rawText": "vivo Y77",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10713285_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:37.979Z",
+            "sourceSnapshotHash": "7d38377cda209da1ae95fd65a5575fd21488b1639205bb819edbadfccac8c1b5"
+          },
+          "listedYearEvidence": {
+            "value": 2022,
+            "rawText": "系列手机，是vivo2022年07月11日推出的手机",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10713285_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:37.979Z",
+            "sourceSnapshotHash": "7d38377cda209da1ae95fd65a5575fd21488b1639205bb819edbadfccac8c1b5"
+          },
+          "yearBasis": "目录或参数年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "vivo-y78-2023",
+          "brand": "vivo",
+          "modelName": "vivo Y78",
+          "family": "vivo Y",
+          "releaseYear": 2023,
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10739534_1.html",
+          "series": "vivo Y",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10739534_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Y78",
+            "rawText": "vivo Y78",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10739534_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:38.811Z",
+            "sourceSnapshotHash": "e56c2713d5e340095c759392cb5fa581fbe26cf71e0928547445f9bef7f76433"
+          },
+          "listedYearEvidence": {
+            "value": 2023,
+            "rawText": "系列手机，是vivo2023年05月13日推出的手机",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10739534_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:38.811Z",
+            "sourceSnapshotHash": "e56c2713d5e340095c759392cb5fa581fbe26cf71e0928547445f9bef7f76433"
+          },
+          "yearBasis": "目录或参数年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "vivo-y200i-2024",
+          "brand": "vivo",
+          "modelName": "vivo Y200i",
+          "family": "vivo Y i",
+          "releaseYear": 2024,
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10860154_1.html",
+          "series": "vivo Y i",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10860154_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Y200i",
+            "rawText": "vivo Y200i",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10860154_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:39.613Z",
+            "sourceSnapshotHash": "210d71423335757853309948b0c2bb26e98bcfb81eb9030968495f259151d788"
+          },
+          "listedYearEvidence": {
+            "value": 2024,
+            "rawText": "系列手机，是vivo2024年4月27日推出的手机",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10860154_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:39.613Z",
+            "sourceSnapshotHash": "210d71423335757853309948b0c2bb26e98bcfb81eb9030968495f259151d788"
+          },
+          "yearBasis": "目录或参数年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "vivo-y300-2024",
+          "brand": "vivo",
+          "modelName": "vivo Y300",
+          "family": "vivo Y",
+          "releaseYear": 2024,
+          "sourceUrl": "https://detail.zol.com.cn/series/57/1795/param_10908654_0_1.html",
+          "series": "vivo Y",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/1795/param_10908654_0_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Y300",
+            "rawText": "vivo Y300参数",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/1795/param_10908654_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:39.825Z",
+            "sourceSnapshotHash": "0c617d5eb2359e079f1b4c3ccba9bebfe5e214d21b782829f0ea08ff04ebceb1"
+          },
+          "listedYearEvidence": {
+            "value": 2024,
+            "rawText": "国内发布时间 2024年12月16日",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/1795/param_10908654_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:39.825Z",
+            "sourceSnapshotHash": "0c617d5eb2359e079f1b4c3ccba9bebfe5e214d21b782829f0ea08ff04ebceb1"
+          },
+          "yearBasis": "目录或参数年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "vivo-y300-gt-2025",
+          "brand": "vivo",
+          "modelName": "vivo Y300 GT",
+          "family": "vivo Y GT",
+          "releaseYear": 2025,
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10913609_1.html",
+          "series": "vivo Y GT",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10913609_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Y300 GT",
+            "rawText": "vivo Y300 GT",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10913609_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:40.030Z",
+            "sourceSnapshotHash": "039d947f0adbe567ee54a2de6cb0e87f1af39dfa098c00ac3736ccea651cb169"
+          },
+          "listedYearEvidence": {
+            "value": 2025,
+            "rawText": "系列手机，是vivo2025年05月9日推出的手机",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10913609_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:40.030Z",
+            "sourceSnapshotHash": "039d947f0adbe567ee54a2de6cb0e87f1af39dfa098c00ac3736ccea651cb169"
+          },
+          "yearBasis": "目录或参数年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "vivo-y500-2025",
+          "brand": "vivo",
+          "modelName": "vivo Y500",
+          "family": "vivo Y",
+          "releaseYear": 2025,
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10918495_1.html",
+          "series": "vivo Y",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10918495_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Y500",
+            "rawText": "vivo Y500",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10918495_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:40.825Z",
+            "sourceSnapshotHash": "56170186aecba11f347eb353c819549aed919176236659324ef2031ae03945d4"
+          },
+          "listedYearEvidence": {
+            "value": 2025,
+            "rawText": "系列手机，是vivo2025年09月01日推出的手机",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10918495_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:40.825Z",
+            "sourceSnapshotHash": "56170186aecba11f347eb353c819549aed919176236659324ef2031ae03945d4"
+          },
+          "yearBasis": "目录或参数年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "iqoo-neo9s-pro-plus-2024",
+          "brand": "vivo",
+          "modelName": "iQOO Neo9S Pro+",
+          "family": "iQOO Neo S Pro+",
+          "releaseYear": 2024,
+          "sourceUrl": "https://detail.zol.com.cn/series/57/55075/param_10869558_0_1.html",
+          "series": "iQOO Neo S Pro+",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/55075/param_10869558_0_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "iQOO Neo9S Pro+",
+            "rawText": "iQOO Neo9S Pro+参数",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/55075/param_10869558_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:40.942Z",
+            "sourceSnapshotHash": "2c1af26b9210309be305d904aede55ea9e16a81ba3ca878da14c66b74907cf35"
+          },
+          "listedYearEvidence": {
+            "value": 2024,
+            "rawText": "上市日期 2024年7月16日",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/55075/param_10869558_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:40.942Z",
+            "sourceSnapshotHash": "2c1af26b9210309be305d904aede55ea9e16a81ba3ca878da14c66b74907cf35"
+          },
+          "yearBasis": "目录或参数年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "iqoo-neo11-2025",
+          "brand": "vivo",
+          "modelName": "iQOO Neo11",
+          "family": "iQOO Neo",
+          "releaseYear": 2025,
+          "sourceUrl": "https://detail.zol.com.cn/series/57/55075/param_10920633_0_1.html",
+          "series": "iQOO Neo",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/55075/param_10920633_0_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "iQOO Neo11",
+            "rawText": "iQOO Neo11参数",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/55075/param_10920633_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:41.150Z",
+            "sourceSnapshotHash": "d223eed4acb4d2eceeff0ad8214df408a1a94898b6f3a696fec07be82a65bd56"
+          },
+          "listedYearEvidence": {
+            "value": 2025,
+            "rawText": "上市日期 2025年10月30日",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/55075/param_10920633_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:41.150Z",
+            "sourceSnapshotHash": "d223eed4acb4d2eceeff0ad8214df408a1a94898b6f3a696fec07be82a65bd56"
+          },
+          "yearBasis": "目录或参数年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "vivo-y600-pro-2026",
+          "brand": "vivo",
+          "modelName": "vivo Y600 Pro",
+          "family": "vivo Y Pro",
+          "releaseYear": 2026,
+          "sourceUrl": "https://m.vivo.com.cn/brand/news/detail?id=1355&type=0",
+          "articlePattern": "2026年4月27日，vivo Y600 Pro正式发布",
+          "series": "vivo Y Pro",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://m.vivo.com.cn/brand/news/detail?id=1355&type=0"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Y600 Pro",
+            "rawText": "2026年4月27日，vivo Y600 Pro正式发布",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://m.vivo.com.cn/brand/news/detail?id=1355&type=0",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:41.656Z",
+            "sourceSnapshotHash": "6ee0cd9e5f4f0b3184812e1b2f40a2ff796e64cf3805b2b21de41aac84047359"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "2026年4月27日，vivo Y600 Pro正式发布",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://m.vivo.com.cn/brand/news/detail?id=1355&type=0",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:41.656Z",
+            "sourceSnapshotHash": "6ee0cd9e5f4f0b3184812e1b2f40a2ff796e64cf3805b2b21de41aac84047359"
+          },
+          "yearBasis": "发布报道年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        }
+      ],
+      "pending": [
+        {
+          "id": "vivo-y77-2022",
+          "brand": "vivo",
+          "modelName": "vivo Y77",
+          "family": "vivo Y",
+          "releaseYear": 2022,
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10713285_1.html",
+          "series": "vivo Y",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10713285_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Y77",
+            "rawText": "vivo Y77",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10713285_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:37.979Z",
+            "sourceSnapshotHash": "7d38377cda209da1ae95fd65a5575fd21488b1639205bb819edbadfccac8c1b5"
+          },
+          "listedYearEvidence": {
+            "value": 2022,
+            "rawText": "系列手机，是vivo2022年07月11日推出的手机",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10713285_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:37.979Z",
+            "sourceSnapshotHash": "7d38377cda209da1ae95fd65a5575fd21488b1639205bb819edbadfccac8c1b5"
+          },
+          "yearBasis": "目录或参数年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "vivo-y78-2023",
+          "brand": "vivo",
+          "modelName": "vivo Y78",
+          "family": "vivo Y",
+          "releaseYear": 2023,
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10739534_1.html",
+          "series": "vivo Y",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10739534_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Y78",
+            "rawText": "vivo Y78",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10739534_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:38.811Z",
+            "sourceSnapshotHash": "e56c2713d5e340095c759392cb5fa581fbe26cf71e0928547445f9bef7f76433"
+          },
+          "listedYearEvidence": {
+            "value": 2023,
+            "rawText": "系列手机，是vivo2023年05月13日推出的手机",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10739534_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:38.811Z",
+            "sourceSnapshotHash": "e56c2713d5e340095c759392cb5fa581fbe26cf71e0928547445f9bef7f76433"
+          },
+          "yearBasis": "目录或参数年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "vivo-y200i-2024",
+          "brand": "vivo",
+          "modelName": "vivo Y200i",
+          "family": "vivo Y i",
+          "releaseYear": 2024,
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10860154_1.html",
+          "series": "vivo Y i",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10860154_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Y200i",
+            "rawText": "vivo Y200i",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10860154_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:39.613Z",
+            "sourceSnapshotHash": "210d71423335757853309948b0c2bb26e98bcfb81eb9030968495f259151d788"
+          },
+          "listedYearEvidence": {
+            "value": 2024,
+            "rawText": "系列手机，是vivo2024年4月27日推出的手机",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10860154_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:39.613Z",
+            "sourceSnapshotHash": "210d71423335757853309948b0c2bb26e98bcfb81eb9030968495f259151d788"
+          },
+          "yearBasis": "目录或参数年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "vivo-y300-2024",
+          "brand": "vivo",
+          "modelName": "vivo Y300",
+          "family": "vivo Y",
+          "releaseYear": 2024,
+          "sourceUrl": "https://detail.zol.com.cn/series/57/1795/param_10908654_0_1.html",
+          "series": "vivo Y",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/1795/param_10908654_0_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Y300",
+            "rawText": "vivo Y300参数",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/1795/param_10908654_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:39.825Z",
+            "sourceSnapshotHash": "0c617d5eb2359e079f1b4c3ccba9bebfe5e214d21b782829f0ea08ff04ebceb1"
+          },
+          "listedYearEvidence": {
+            "value": 2024,
+            "rawText": "国内发布时间 2024年12月16日",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/1795/param_10908654_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:39.825Z",
+            "sourceSnapshotHash": "0c617d5eb2359e079f1b4c3ccba9bebfe5e214d21b782829f0ea08ff04ebceb1"
+          },
+          "yearBasis": "目录或参数年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "vivo-y300-gt-2025",
+          "brand": "vivo",
+          "modelName": "vivo Y300 GT",
+          "family": "vivo Y GT",
+          "releaseYear": 2025,
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10913609_1.html",
+          "series": "vivo Y GT",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10913609_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Y300 GT",
+            "rawText": "vivo Y300 GT",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10913609_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:40.030Z",
+            "sourceSnapshotHash": "039d947f0adbe567ee54a2de6cb0e87f1af39dfa098c00ac3736ccea651cb169"
+          },
+          "listedYearEvidence": {
+            "value": 2025,
+            "rawText": "系列手机，是vivo2025年05月9日推出的手机",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10913609_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:40.030Z",
+            "sourceSnapshotHash": "039d947f0adbe567ee54a2de6cb0e87f1af39dfa098c00ac3736ccea651cb169"
+          },
+          "yearBasis": "目录或参数年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "vivo-y500-2025",
+          "brand": "vivo",
+          "modelName": "vivo Y500",
+          "family": "vivo Y",
+          "releaseYear": 2025,
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10918495_1.html",
+          "series": "vivo Y",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10918495_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Y500",
+            "rawText": "vivo Y500",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10918495_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:40.825Z",
+            "sourceSnapshotHash": "56170186aecba11f347eb353c819549aed919176236659324ef2031ae03945d4"
+          },
+          "listedYearEvidence": {
+            "value": 2025,
+            "rawText": "系列手机，是vivo2025年09月01日推出的手机",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10918495_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:40.825Z",
+            "sourceSnapshotHash": "56170186aecba11f347eb353c819549aed919176236659324ef2031ae03945d4"
+          },
+          "yearBasis": "目录或参数年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "iqoo-neo9s-pro-plus-2024",
+          "brand": "vivo",
+          "modelName": "iQOO Neo9S Pro+",
+          "family": "iQOO Neo S Pro+",
+          "releaseYear": 2024,
+          "sourceUrl": "https://detail.zol.com.cn/series/57/55075/param_10869558_0_1.html",
+          "series": "iQOO Neo S Pro+",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/55075/param_10869558_0_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "iQOO Neo9S Pro+",
+            "rawText": "iQOO Neo9S Pro+参数",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/55075/param_10869558_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:40.942Z",
+            "sourceSnapshotHash": "2c1af26b9210309be305d904aede55ea9e16a81ba3ca878da14c66b74907cf35"
+          },
+          "listedYearEvidence": {
+            "value": 2024,
+            "rawText": "上市日期 2024年7月16日",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/55075/param_10869558_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:40.942Z",
+            "sourceSnapshotHash": "2c1af26b9210309be305d904aede55ea9e16a81ba3ca878da14c66b74907cf35"
+          },
+          "yearBasis": "目录或参数年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "iqoo-neo11-2025",
+          "brand": "vivo",
+          "modelName": "iQOO Neo11",
+          "family": "iQOO Neo",
+          "releaseYear": 2025,
+          "sourceUrl": "https://detail.zol.com.cn/series/57/55075/param_10920633_0_1.html",
+          "series": "iQOO Neo",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/55075/param_10920633_0_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "iQOO Neo11",
+            "rawText": "iQOO Neo11参数",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/55075/param_10920633_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:41.150Z",
+            "sourceSnapshotHash": "d223eed4acb4d2eceeff0ad8214df408a1a94898b6f3a696fec07be82a65bd56"
+          },
+          "listedYearEvidence": {
+            "value": 2025,
+            "rawText": "上市日期 2025年10月30日",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/55075/param_10920633_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:41.150Z",
+            "sourceSnapshotHash": "d223eed4acb4d2eceeff0ad8214df408a1a94898b6f3a696fec07be82a65bd56"
+          },
+          "yearBasis": "目录或参数年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "vivo-y600-pro-2026",
+          "brand": "vivo",
+          "modelName": "vivo Y600 Pro",
+          "family": "vivo Y Pro",
+          "releaseYear": 2026,
+          "sourceUrl": "https://m.vivo.com.cn/brand/news/detail?id=1355&type=0",
+          "articlePattern": "2026年4月27日，vivo Y600 Pro正式发布",
+          "series": "vivo Y Pro",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://m.vivo.com.cn/brand/news/detail?id=1355&type=0"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Y600 Pro",
+            "rawText": "2026年4月27日，vivo Y600 Pro正式发布",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://m.vivo.com.cn/brand/news/detail?id=1355&type=0",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:41.656Z",
+            "sourceSnapshotHash": "6ee0cd9e5f4f0b3184812e1b2f40a2ff796e64cf3805b2b21de41aac84047359"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "2026年4月27日，vivo Y600 Pro正式发布",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://m.vivo.com.cn/brand/news/detail?id=1355&type=0",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:41.656Z",
+            "sourceSnapshotHash": "6ee0cd9e5f4f0b3184812e1b2f40a2ff796e64cf3805b2b21de41aac84047359"
+          },
+          "yearBasis": "发布报道年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        }
+      ],
+      "blocked": [],
+      "scopeChecks": [],
+      "differenceFromExisting": [
+        {
+          "id": "iqoo-neo7-se-2022",
+          "brand": "vivo",
+          "modelName": "iQOO Neo7 SE",
+          "releaseYear": 2022,
+          "series": "iQOO Neo SE",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10719871_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10719871_0_1.html",
+            "https://detail.zol.com.cn/1433/1432705/param.shtml",
+            "https://detail.zol.com.cn/1435/1434874/param.shtml",
+            "https://detail.zol.com.cn/1435/1434873/param.shtml",
+            "https://detail.zol.com.cn/1436/1435921/param.shtml",
+            "https://detail.zol.com.cn/1436/1435922/param.shtml",
+            "https://www.vivo.com.cn/vivo/param/iqooneo7se",
+            "https://detail.zol.com.cn/picture_index_2254/index22536822_0_p1432705.shtml",
+            "https://detail.zol.com.cn/picture_index_2254/index22536818_0_p1432705.shtml"
+          ]
+        },
+        {
+          "id": "iqoo-neo7-racing-2023",
+          "brand": "vivo",
+          "modelName": "iQOO Neo7 竞速版",
+          "releaseYear": 2023,
+          "series": "iQOO Neo 竞速版",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10721905_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10721905_0_1.html",
+            "https://detail.zol.com.cn/1438/1437735/param.shtml",
+            "https://detail.zol.com.cn/1440/1439145/param.shtml",
+            "https://detail.zol.com.cn/1440/1439144/param.shtml",
+            "https://detail.zol.com.cn/1440/1439143/param.shtml",
+            "https://www.vivo.com.cn/vivo/param/iqooneo7js",
+            "https://detail.zol.com.cn/picture_index_2259/index22586651_0_p1437735.shtml",
+            "https://detail.zol.com.cn/picture_index_2259/index22586657_0_p1439143.shtml"
+          ]
+        },
+        {
+          "id": "iqoo-neo8-pro-2023",
+          "brand": "vivo",
+          "modelName": "iQOO Neo8 Pro",
+          "releaseYear": 2023,
+          "series": "iQOO Neo Pro",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10750330_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10750330_0_1.html",
+            "https://detail.zol.com.cn/1506/1505443/param.shtml",
+            "https://detail.zol.com.cn/1628/1627568/param.shtml",
+            "https://detail.zol.com.cn/1768/1767604/param.shtml",
+            "https://www.vivo.com.cn/vivo/param/iqooneo8pro",
+            "https://detail.zol.com.cn/picture_index_2389/index23880882_0_p1505443.shtml",
+            "https://detail.zol.com.cn/picture_index_2389/index23880878_0_p1505443.shtml"
+          ]
+        },
+        {
+          "id": "vivo-y100-2023",
+          "brand": "vivo",
+          "modelName": "vivo Y100",
+          "releaseYear": 2023,
+          "series": "vivo Y",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10831503_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10831503_0_1.html",
+            "https://detail.zol.com.cn/1931/1930410/param.shtml",
+            "https://detail.zol.com.cn/1937/1936186/param.shtml",
+            "https://detail.zol.com.cn/1937/1936187/param.shtml",
+            "https://detail.zol.com.cn/1937/1936185/param.shtml",
+            "https://www.vivo.com.cn/vivo/param/y100",
+            "https://detail.zol.com.cn/picture_index_2548/index25475951_0_p1930410.shtml",
+            "https://detail.zol.com.cn/picture_index_2548/index25475950_0_p1936187.shtml"
+          ]
+        },
+        {
+          "id": "vivo-y300-pro-2024",
+          "brand": "vivo",
+          "modelName": "vivo Y300 Pro",
+          "releaseYear": 2024,
+          "series": "vivo Y Pro",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10904994_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10904994_0_1.html",
+            "https://detail.zol.com.cn/2105/2104254/param.shtml",
+            "https://detail.zol.com.cn/2106/2105044/param.shtml",
+            "https://detail.zol.com.cn/2106/2105042/param.shtml",
+            "https://detail.zol.com.cn/2106/2105043/param.shtml",
+            "https://www.ithome.com/0/795/794.htm",
+            "https://www.vivo.com.cn/vivo/param/y300pro",
+            "https://detail.zol.com.cn/picture_index_2697/index26961094_0_p2104254.shtml",
+            "https://detail.zol.com.cn/picture_index_2697/index26961113_0_p2105042.shtml"
+          ]
+        },
+        {
+          "id": "vivo-y200-gt-2024",
+          "brand": "vivo",
+          "modelName": "vivo Y200 GT",
+          "releaseYear": 2024,
+          "series": "vivo Y GT",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10862324_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10862324_0_1.html",
+            "https://detail.zol.com.cn/2010/2009378/param.shtml",
+            "https://m.zol.com.cn/sjbbs/d1795_671359.html",
+            "https://www.vivo.com.cn/vivo/param/y200gt",
+            "https://detail.zol.com.cn/picture_index_2637/index26368808_0_p2009378.shtml",
+            "https://detail.zol.com.cn/picture_index_2637/index26368809_0_p2017387.shtml"
+          ]
+        },
+        {
+          "id": "iqoo-neo10-2024",
+          "brand": "vivo",
+          "modelName": "iQOO Neo10",
+          "releaseYear": 2024,
+          "series": "iQOO Neo",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10907848_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10907848_0_1.html",
+            "https://detail.zol.com.cn/2114/2113676/param.shtml",
+            "https://detail.zol.com.cn/2116/2115503/param.shtml",
+            "https://detail.zol.com.cn/2116/2115501/param.shtml",
+            "https://detail.zol.com.cn/2116/2115500/param.shtml",
+            "https://detail.zol.com.cn/2116/2115502/param.shtml",
+            "https://www.vivo.com.cn/vivo/param/iqooneo10",
+            "https://detail.zol.com.cn/picture_index_2706/index27056454_0_p2113676.shtml",
+            "https://detail.zol.com.cn/picture_index_2706/index27056456_0_p2113676.shtml"
+          ]
+        },
+        {
+          "id": "iqoo-neo10-pro-2024",
+          "brand": "vivo",
+          "modelName": "iQOO Neo10 Pro",
+          "releaseYear": 2024,
+          "series": "iQOO Neo Pro",
+          "status": "added",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10907941_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10907941_0_1.html",
+            "https://detail.zol.com.cn/2114/2113956/param.shtml",
+            "https://detail.zol.com.cn/2116/2115497/param.shtml",
+            "https://detail.zol.com.cn/2116/2115498/param.shtml",
+            "https://detail.zol.com.cn/2116/2115499/param.shtml",
+            "https://detail.zol.com.cn/2116/2115496/param.shtml",
+            "https://www.vivo.com.cn/vivo/param/iqooneo10pro",
+            "https://detail.zol.com.cn/picture_index_2706/index27056460_0_p2113956.shtml",
+            "https://detail.zol.com.cn/picture_index_2706/index27056470_0_p2113956.shtml"
+          ]
+        },
+        {
+          "id": "vivo-y77-2022",
+          "brand": "vivo",
+          "modelName": "vivo Y77",
+          "family": "vivo Y",
+          "releaseYear": 2022,
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10713285_1.html",
+          "series": "vivo Y",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10713285_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Y77",
+            "rawText": "vivo Y77",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10713285_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:37.979Z",
+            "sourceSnapshotHash": "7d38377cda209da1ae95fd65a5575fd21488b1639205bb819edbadfccac8c1b5"
+          },
+          "listedYearEvidence": {
+            "value": 2022,
+            "rawText": "系列手机，是vivo2022年07月11日推出的手机",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10713285_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:37.979Z",
+            "sourceSnapshotHash": "7d38377cda209da1ae95fd65a5575fd21488b1639205bb819edbadfccac8c1b5"
+          },
+          "yearBasis": "目录或参数年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "vivo-y78-2023",
+          "brand": "vivo",
+          "modelName": "vivo Y78",
+          "family": "vivo Y",
+          "releaseYear": 2023,
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10739534_1.html",
+          "series": "vivo Y",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10739534_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Y78",
+            "rawText": "vivo Y78",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10739534_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:38.811Z",
+            "sourceSnapshotHash": "e56c2713d5e340095c759392cb5fa581fbe26cf71e0928547445f9bef7f76433"
+          },
+          "listedYearEvidence": {
+            "value": 2023,
+            "rawText": "系列手机，是vivo2023年05月13日推出的手机",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10739534_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:38.811Z",
+            "sourceSnapshotHash": "e56c2713d5e340095c759392cb5fa581fbe26cf71e0928547445f9bef7f76433"
+          },
+          "yearBasis": "目录或参数年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "vivo-y200i-2024",
+          "brand": "vivo",
+          "modelName": "vivo Y200i",
+          "family": "vivo Y i",
+          "releaseYear": 2024,
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10860154_1.html",
+          "series": "vivo Y i",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10860154_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Y200i",
+            "rawText": "vivo Y200i",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10860154_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:39.613Z",
+            "sourceSnapshotHash": "210d71423335757853309948b0c2bb26e98bcfb81eb9030968495f259151d788"
+          },
+          "listedYearEvidence": {
+            "value": 2024,
+            "rawText": "系列手机，是vivo2024年4月27日推出的手机",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10860154_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:39.613Z",
+            "sourceSnapshotHash": "210d71423335757853309948b0c2bb26e98bcfb81eb9030968495f259151d788"
+          },
+          "yearBasis": "目录或参数年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "vivo-y300-2024",
+          "brand": "vivo",
+          "modelName": "vivo Y300",
+          "family": "vivo Y",
+          "releaseYear": 2024,
+          "sourceUrl": "https://detail.zol.com.cn/series/57/1795/param_10908654_0_1.html",
+          "series": "vivo Y",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/1795/param_10908654_0_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Y300",
+            "rawText": "vivo Y300参数",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/1795/param_10908654_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:39.825Z",
+            "sourceSnapshotHash": "0c617d5eb2359e079f1b4c3ccba9bebfe5e214d21b782829f0ea08ff04ebceb1"
+          },
+          "listedYearEvidence": {
+            "value": 2024,
+            "rawText": "国内发布时间 2024年12月16日",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/1795/param_10908654_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:39.825Z",
+            "sourceSnapshotHash": "0c617d5eb2359e079f1b4c3ccba9bebfe5e214d21b782829f0ea08ff04ebceb1"
+          },
+          "yearBasis": "目录或参数年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "vivo-y300-gt-2025",
+          "brand": "vivo",
+          "modelName": "vivo Y300 GT",
+          "family": "vivo Y GT",
+          "releaseYear": 2025,
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10913609_1.html",
+          "series": "vivo Y GT",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10913609_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Y300 GT",
+            "rawText": "vivo Y300 GT",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10913609_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:40.030Z",
+            "sourceSnapshotHash": "039d947f0adbe567ee54a2de6cb0e87f1af39dfa098c00ac3736ccea651cb169"
+          },
+          "listedYearEvidence": {
+            "value": 2025,
+            "rawText": "系列手机，是vivo2025年05月9日推出的手机",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10913609_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:40.030Z",
+            "sourceSnapshotHash": "039d947f0adbe567ee54a2de6cb0e87f1af39dfa098c00ac3736ccea651cb169"
+          },
+          "yearBasis": "目录或参数年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "vivo-y500-2025",
+          "brand": "vivo",
+          "modelName": "vivo Y500",
+          "family": "vivo Y",
+          "releaseYear": 2025,
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10918495_1.html",
+          "series": "vivo Y",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10918495_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Y500",
+            "rawText": "vivo Y500",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10918495_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:40.825Z",
+            "sourceSnapshotHash": "56170186aecba11f347eb353c819549aed919176236659324ef2031ae03945d4"
+          },
+          "listedYearEvidence": {
+            "value": 2025,
+            "rawText": "系列手机，是vivo2025年09月01日推出的手机",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/10918495_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:40.825Z",
+            "sourceSnapshotHash": "56170186aecba11f347eb353c819549aed919176236659324ef2031ae03945d4"
+          },
+          "yearBasis": "目录或参数年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "iqoo-neo9s-pro-plus-2024",
+          "brand": "vivo",
+          "modelName": "iQOO Neo9S Pro+",
+          "family": "iQOO Neo S Pro+",
+          "releaseYear": 2024,
+          "sourceUrl": "https://detail.zol.com.cn/series/57/55075/param_10869558_0_1.html",
+          "series": "iQOO Neo S Pro+",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/55075/param_10869558_0_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "iQOO Neo9S Pro+",
+            "rawText": "iQOO Neo9S Pro+参数",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/55075/param_10869558_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:40.942Z",
+            "sourceSnapshotHash": "2c1af26b9210309be305d904aede55ea9e16a81ba3ca878da14c66b74907cf35"
+          },
+          "listedYearEvidence": {
+            "value": 2024,
+            "rawText": "上市日期 2024年7月16日",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/55075/param_10869558_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:40.942Z",
+            "sourceSnapshotHash": "2c1af26b9210309be305d904aede55ea9e16a81ba3ca878da14c66b74907cf35"
+          },
+          "yearBasis": "目录或参数年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "iqoo-neo11-2025",
+          "brand": "vivo",
+          "modelName": "iQOO Neo11",
+          "family": "iQOO Neo",
+          "releaseYear": 2025,
+          "sourceUrl": "https://detail.zol.com.cn/series/57/55075/param_10920633_0_1.html",
+          "series": "iQOO Neo",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/55075/param_10920633_0_1.html"
+          ],
+          "sourceEvidence": {
+            "value": "iQOO Neo11",
+            "rawText": "iQOO Neo11参数",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/55075/param_10920633_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:41.150Z",
+            "sourceSnapshotHash": "d223eed4acb4d2eceeff0ad8214df408a1a94898b6f3a696fec07be82a65bd56"
+          },
+          "listedYearEvidence": {
+            "value": 2025,
+            "rawText": "上市日期 2025年10月30日",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/series/57/55075/param_10920633_0_1.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:41.150Z",
+            "sourceSnapshotHash": "d223eed4acb4d2eceeff0ad8214df408a1a94898b6f3a696fec07be82a65bd56"
+          },
+          "yearBasis": "目录或参数年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "vivo-y600-pro-2026",
+          "brand": "vivo",
+          "modelName": "vivo Y600 Pro",
+          "family": "vivo Y Pro",
+          "releaseYear": 2026,
+          "sourceUrl": "https://m.vivo.com.cn/brand/news/detail?id=1355&type=0",
+          "articlePattern": "2026年4月27日，vivo Y600 Pro正式发布",
+          "series": "vivo Y Pro",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://m.vivo.com.cn/brand/news/detail?id=1355&type=0"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Y600 Pro",
+            "rawText": "2026年4月27日，vivo Y600 Pro正式发布",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://m.vivo.com.cn/brand/news/detail?id=1355&type=0",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:41.656Z",
+            "sourceSnapshotHash": "6ee0cd9e5f4f0b3184812e1b2f40a2ff796e64cf3805b2b21de41aac84047359"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "2026年4月27日，vivo Y600 Pro正式发布",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://m.vivo.com.cn/brand/news/detail?id=1355&type=0",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:17:41.656Z",
+            "sourceSnapshotHash": "6ee0cd9e5f4f0b3184812e1b2f40a2ff796e64cf3805b2b21de41aac84047359"
+          },
+          "yearBasis": "发布报道年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        }
+      ],
+      "statusMeaning": {
+        "present": "现有数据已收录",
+        "added": "本批已核验新增",
+        "pending": "SKU等关键证据本批未开展",
+        "blocked": "实际检查证据仍不能核验",
+        "outsideScope": "来源证实年份或市场在范围外"
+      }
+    }
+  },
+  "devices": [
+    {
+      "id": "iqoo-neo7-se-2022",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "phone",
+      "series": "iQOO Neo SE",
+      "family": "iQOO Neo SE",
+      "variant": "standard",
+      "modelName": "iQOO Neo7 SE",
+      "generation": "iQOO Neo7 SE",
+      "generationOrder": 1,
+      "releaseYear": 2022,
+      "releaseDate": "2022-12-08",
+      "comparisonGroupId": "vivo.phone.iqoo-neo-se.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "8GB + 128GB",
+            "rawText": "iQOO Neo7 SE（8GB/128GB）；RAM容量 8GB> 游戏运行流畅；ROM容量 128GB> 2.6万张照片 1.1万首歌曲；CPU型号 联发科 天玑8200",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1433/1432705/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:20.937Z",
+            "sourceSnapshotHash": "db4a72d98a10f525752351eabb540f9fd2f4c796649c237d555de5b498e08e9f"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "iQOO Neo7 SE（12GB/512GB）；RAM容量 12GB> 游戏运行流畅；ROM容量 512GB> 10.5万张照片 4.4万首歌曲；CPU型号 联发科 天玑8200",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1435/1434874/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:20.873Z",
+            "sourceSnapshotHash": "5dc8d389bba8ba1e2e69d30b165702e85ecec1ff09ede4292af2fe0497e53c91"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "iQOO Neo7 SE（12GB/256GB）；RAM容量 12GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 联发科 天玑8200",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1435/1434873/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:20.956Z",
+            "sourceSnapshotHash": "7cde341f83f838dda5d8b2cc6dacbe0abb76ddbb61cf5de229b3003ac7d6de3b"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "iQOO Neo7 SE（8GB/256GB）；RAM容量 8GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 联发科 天玑8200",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1436/1435921/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:21.231Z",
+            "sourceSnapshotHash": "9f2bd744797f31df8d391ef808279c0f25f1f6246eaf3c2d821b6e1170dbf49b"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "16GB + 256GB",
+            "rawText": "iQOO Neo7 SE（16GB/256GB）；RAM容量 16GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 联发科 天玑8200",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1436/1435922/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:21.338Z",
+            "sourceSnapshotHash": "017e626a27cec0d06b9301a2784fce3908bde57eae12e5ad160a06c5533ba963"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "联发科 天玑8200",
+          "rawText": "CPU型号 联发科 天玑8200",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1433/1432705/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:20.937Z",
+          "sourceSnapshotHash": "db4a72d98a10f525752351eabb540f9fd2f4c796649c237d555de5b498e08e9f",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "memory": {
+          "value": "8GB / 12GB / 16GB",
+          "rawText": "RAM容量 8GB> 游戏运行流畅",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1433/1432705/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:20.937Z",
+          "sourceSnapshotHash": "db4a72d98a10f525752351eabb540f9fd2f4c796649c237d555de5b498e08e9f",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "storage": {
+          "value": "128GB / 512GB / 256GB",
+          "rawText": "ROM容量 128GB> 2.6万张照片 1.1万首歌曲",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1433/1432705/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:20.937Z",
+          "sourceSnapshotHash": "db4a72d98a10f525752351eabb540f9fd2f4c796649c237d555de5b498e08e9f",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "screenSize": {
+          "value": 6.78,
+          "unit": "inch",
+          "rawText": "屏幕尺寸 6.78英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1433/1432705/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:20.937Z",
+          "sourceSnapshotHash": "db4a72d98a10f525752351eabb540f9fd2f4c796649c237d555de5b498e08e9f"
+        },
+        "displayType": {
+          "value": "AMOLED",
+          "rawText": "屏幕材质 AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1433/1432705/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:20.937Z",
+          "sourceSnapshotHash": "db4a72d98a10f525752351eabb540f9fd2f4c796649c237d555de5b498e08e9f"
+        },
+        "resolution": {
+          "value": "2400x1080px",
+          "rawText": "分辨率 2400x1080px",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1433/1432705/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:20.937Z",
+          "sourceSnapshotHash": "db4a72d98a10f525752351eabb540f9fd2f4c796649c237d555de5b498e08e9f"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "屏幕刷新率 120Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1433/1432705/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:20.937Z",
+          "sourceSnapshotHash": "db4a72d98a10f525752351eabb540f9fd2f4c796649c237d555de5b498e08e9f"
+        },
+        "weight": {
+          "value": 193,
+          "unit": "g",
+          "rawText": "重量 193g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1433/1432705/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:20.937Z",
+          "sourceSnapshotHash": "db4a72d98a10f525752351eabb540f9fd2f4c796649c237d555de5b498e08e9f"
+        },
+        "batteryCapacity": {
+          "value": 5000,
+          "unit": "mAh",
+          "rawText": "电池容量 5000mAh 大电池",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1433/1432705/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:20.937Z",
+          "sourceSnapshotHash": "db4a72d98a10f525752351eabb540f9fd2f4c796649c237d555de5b498e08e9f"
+        },
+        "port": {
+          "value": "USB Type-C接口",
+          "rawText": "机身接口 USB Type-C接口",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1433/1432705/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:20.937Z",
+          "sourceSnapshotHash": "db4a72d98a10f525752351eabb540f9fd2f4c796649c237d555de5b498e08e9f"
+        },
+        "wifi": {
+          "value": "三频WiFi（2.4GHz/5.1GHz/5.8GHz），WiFi6（IEEE 802.11 a/b/g/n/ac/ax）",
+          "rawText": "WLAN功能 三频WiFi（2.4GHz/5.1GHz/5.8GHz），WiFi6（IEEE 802.11 a/b/g/n/ac/ax）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1433/1432705/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:20.937Z",
+          "sourceSnapshotHash": "db4a72d98a10f525752351eabb540f9fd2f4c796649c237d555de5b498e08e9f"
+        },
+        "bluetooth": {
+          "value": "蓝牙5.3，支持SBC/AAC/aptX/aptX HD/LDAC",
+          "rawText": "蓝牙 蓝牙5.3，支持SBC/AAC/aptX/aptX HD/LDAC",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1433/1432705/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:20.937Z",
+          "sourceSnapshotHash": "db4a72d98a10f525752351eabb540f9fd2f4c796649c237d555de5b498e08e9f"
+        },
+        "rearCamera": {
+          "value": "后置摄像头1：6400万像素 后置摄像头2：200万像素 后置摄像头3：200万像素",
+          "rawText": "像素 后置摄像头1：6400万像素 后置摄像头2：200万像素 后置摄像头3：200万像素 前置摄像头1：1600万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1433/1432705/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:20.937Z",
+          "sourceSnapshotHash": "db4a72d98a10f525752351eabb540f9fd2f4c796649c237d555de5b498e08e9f"
+        },
+        "frontCamera": {
+          "value": "前置摄像头1：1600万像素",
+          "rawText": "像素 后置摄像头1：6400万像素 后置摄像头2：200万像素 后置摄像头3：200万像素 前置摄像头1：1600万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1433/1432705/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:20.937Z",
+          "sourceSnapshotHash": "db4a72d98a10f525752351eabb540f9fd2f4c796649c237d555de5b498e08e9f"
+        },
+        "memoryType": {
+          "value": "LPDDR5 四通道",
+          "rawText": "RAM类型 LPDDR5 四通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo7se",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:14:01.821Z",
+          "sourceSnapshotHash": "78f23a227bbe7927f9b268efb6f55b72e8434639d79992ac75dce700fe983419"
+        },
+        "storageType": {
+          "value": "UFS3.1",
+          "rawText": "ROM类型 UFS3.1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo7se",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:14:01.821Z",
+          "sourceSnapshotHash": "78f23a227bbe7927f9b268efb6f55b72e8434639d79992ac75dce700fe983419"
+        },
+        "chargingMethod": {
+          "value": "120W 超快闪充",
+          "rawText": "充电规格 120W 超快闪充",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo7se",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:14:01.821Z",
+          "sourceSnapshotHash": "78f23a227bbe7927f9b268efb6f55b72e8434639d79992ac75dce700fe983419"
+        },
+        "operatingSystem": {
+          "value": "基于Android 13.0开发的OriginOS 3",
+          "rawText": "操作系统 操作系统 基于Android 13.0开发的OriginOS 3",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo7se",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:14:01.821Z",
+          "sourceSnapshotHash": "78f23a227bbe7927f9b268efb6f55b72e8434639d79992ac75dce700fe983419"
+        },
+        "security": {
+          "value": "屏幕指纹 面部识别 Face Wake面部识别",
+          "rawText": "指纹识别 屏幕指纹 面部识别 Face Wake面部识别",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo7se",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:14:01.821Z",
+          "sourceSnapshotHash": "78f23a227bbe7927f9b268efb6f55b72e8434639d79992ac75dce700fe983419"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo7se",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:14:01.821Z",
+          "sourceSnapshotHash": "78f23a227bbe7927f9b268efb6f55b72e8434639d79992ac75dce700fe983419"
+        },
+        "sim": {
+          "value": "双卡（Nano SIM卡）",
+          "rawText": "SIM卡类型 双卡（Nano SIM卡）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1433/1432705/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:20.937Z",
+          "sourceSnapshotHash": "db4a72d98a10f525752351eabb540f9fd2f4c796649c237d555de5b498e08e9f"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "iqoo-neo7-racing-2023",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "phone",
+      "series": "iQOO Neo 竞速版",
+      "family": "iQOO Neo 竞速版",
+      "variant": "standard",
+      "modelName": "iQOO Neo7 竞速版",
+      "generation": "iQOO Neo7 竞速版",
+      "generationOrder": 1,
+      "releaseYear": 2023,
+      "releaseDate": "2023-01-05",
+      "comparisonGroupId": "vivo.phone.iqoo-neo-racing.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "iQOO Neo7 竞速版（8GB/256GB）；RAM容量 8GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙8+ Gen1",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1438/1437735/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:22.408Z",
+            "sourceSnapshotHash": "d93d9753c9e53785a2718c866e9137ecda115943be093cca5e6993864bdafd49"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "iQOO Neo7 竞速版（16GB/512GB）；RAM容量 16GB> 游戏运行流畅；ROM容量 512GB> 10.5万张照片 4.4万首歌曲；CPU型号 高通 骁龙8+ Gen1",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1440/1439145/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:22.350Z",
+            "sourceSnapshotHash": "be82785a828359e12a526f644a4413e6a9e5db0daed02a158f92bb817cee26bb"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "16GB + 256GB",
+            "rawText": "iQOO Neo7 竞速版（16GB/256GB）；RAM容量 16GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙8+ Gen1",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1440/1439144/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:22.146Z",
+            "sourceSnapshotHash": "0a150d9e7c571520f6c6bceec4a904f9d5445472abbc5c2aba260df967633e8a"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "iQOO Neo7 竞速版（12GB/256GB）；RAM容量 12GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙8+ Gen1",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1440/1439143/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:22.770Z",
+            "sourceSnapshotHash": "0eb4229374436186cc6a17bdb21598940739b329af2e39bd98c876cf7180d971"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通 骁龙8+ Gen1",
+          "rawText": "CPU型号 高通 骁龙8+ Gen1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1438/1437735/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:22.408Z",
+          "sourceSnapshotHash": "d93d9753c9e53785a2718c866e9137ecda115943be093cca5e6993864bdafd49",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "memory": {
+          "value": "8GB / 16GB / 12GB",
+          "rawText": "RAM容量 8GB> 游戏运行流畅",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1438/1437735/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:22.408Z",
+          "sourceSnapshotHash": "d93d9753c9e53785a2718c866e9137ecda115943be093cca5e6993864bdafd49",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "storage": {
+          "value": "256GB / 512GB",
+          "rawText": "ROM容量 256GB> 5.2万张照片 2.2万首歌曲",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1438/1437735/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:22.408Z",
+          "sourceSnapshotHash": "d93d9753c9e53785a2718c866e9137ecda115943be093cca5e6993864bdafd49",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "screenSize": {
+          "value": 6.78,
+          "unit": "inch",
+          "rawText": "屏幕尺寸 6.78英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1438/1437735/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:22.408Z",
+          "sourceSnapshotHash": "d93d9753c9e53785a2718c866e9137ecda115943be093cca5e6993864bdafd49"
+        },
+        "displayType": {
+          "value": "AMOLED（E5）",
+          "rawText": "屏幕材质 AMOLED（E5）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1438/1437735/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:22.408Z",
+          "sourceSnapshotHash": "d93d9753c9e53785a2718c866e9137ecda115943be093cca5e6993864bdafd49"
+        },
+        "resolution": {
+          "value": "2400x1080px",
+          "rawText": "分辨率 2400x1080px",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1438/1437735/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:22.408Z",
+          "sourceSnapshotHash": "d93d9753c9e53785a2718c866e9137ecda115943be093cca5e6993864bdafd49"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "屏幕刷新率 120Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1438/1437735/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:22.408Z",
+          "sourceSnapshotHash": "d93d9753c9e53785a2718c866e9137ecda115943be093cca5e6993864bdafd49"
+        },
+        "weight": {
+          "value": 202,
+          "unit": "g",
+          "rawText": "重量 几何黑：202g 印象蓝、波普橙：197g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1438/1437735/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:22.408Z",
+          "sourceSnapshotHash": "d93d9753c9e53785a2718c866e9137ecda115943be093cca5e6993864bdafd49"
+        },
+        "batteryCapacity": {
+          "value": 5000,
+          "unit": "mAh",
+          "rawText": "电池容量 5000mAh 大电池",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1438/1437735/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:22.408Z",
+          "sourceSnapshotHash": "d93d9753c9e53785a2718c866e9137ecda115943be093cca5e6993864bdafd49"
+        },
+        "port": {
+          "value": "USB Type-C接口",
+          "rawText": "机身接口 USB Type-C接口",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1438/1437735/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:22.408Z",
+          "sourceSnapshotHash": "d93d9753c9e53785a2718c866e9137ecda115943be093cca5e6993864bdafd49"
+        },
+        "wifi": {
+          "value": "三频WiFi（2.4GHz/5.1GHz/5.8GHz），WiFi6（IEEE 802.11 a/b/g/n/ac/ax）",
+          "rawText": "WLAN功能 三频WiFi（2.4GHz/5.1GHz/5.8GHz），WiFi6（IEEE 802.11 a/b/g/n/ac/ax）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1438/1437735/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:22.408Z",
+          "sourceSnapshotHash": "d93d9753c9e53785a2718c866e9137ecda115943be093cca5e6993864bdafd49"
+        },
+        "bluetooth": {
+          "value": "蓝牙5.3，支持SBC/AAC/aptX/aptX HD/LDAC",
+          "rawText": "蓝牙 蓝牙5.3，支持SBC/AAC/aptX/aptX HD/LDAC",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1438/1437735/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:22.408Z",
+          "sourceSnapshotHash": "d93d9753c9e53785a2718c866e9137ecda115943be093cca5e6993864bdafd49"
+        },
+        "rearCamera": {
+          "value": "后置摄像头1：5000万像素 后置摄像头2：800万像素 后置摄像头3：200万像素",
+          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：800万像素 后置摄像头3：200万像素 前置摄像头1：1600万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1438/1437735/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:22.408Z",
+          "sourceSnapshotHash": "d93d9753c9e53785a2718c866e9137ecda115943be093cca5e6993864bdafd49"
+        },
+        "frontCamera": {
+          "value": "前置摄像头1：1600万像素",
+          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：800万像素 后置摄像头3：200万像素 前置摄像头1：1600万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1438/1437735/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:22.408Z",
+          "sourceSnapshotHash": "d93d9753c9e53785a2718c866e9137ecda115943be093cca5e6993864bdafd49"
+        },
+        "memoryType": {
+          "value": "LPDDR5 四通道",
+          "rawText": "RAM类型 LPDDR5 四通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo7js",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:30.874Z",
+          "sourceSnapshotHash": "b42ff188cf915ce50ea6870f3625b18ff65347e20257727cf2ec19461d6ada06"
+        },
+        "storageType": {
+          "value": "UFS3.1",
+          "rawText": "ROM类型 UFS3.1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo7js",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:30.874Z",
+          "sourceSnapshotHash": "b42ff188cf915ce50ea6870f3625b18ff65347e20257727cf2ec19461d6ada06"
+        },
+        "chargingMethod": {
+          "value": "120W 超快闪充",
+          "rawText": "充电规格 120W 超快闪充",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo7js",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:30.874Z",
+          "sourceSnapshotHash": "b42ff188cf915ce50ea6870f3625b18ff65347e20257727cf2ec19461d6ada06"
+        },
+        "operatingSystem": {
+          "value": "基于Android 13.0开发的OriginOS 3.0",
+          "rawText": "操作系统 操作系统 基于Android 13.0开发的OriginOS 3.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo7js",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:30.874Z",
+          "sourceSnapshotHash": "b42ff188cf915ce50ea6870f3625b18ff65347e20257727cf2ec19461d6ada06"
+        },
+        "security": {
+          "value": "屏幕指纹 面部识别 Face Wake面部识别",
+          "rawText": "指纹识别 屏幕指纹 面部识别 Face Wake面部识别",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo7js",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:30.874Z",
+          "sourceSnapshotHash": "b42ff188cf915ce50ea6870f3625b18ff65347e20257727cf2ec19461d6ada06"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo7js",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:30.874Z",
+          "sourceSnapshotHash": "b42ff188cf915ce50ea6870f3625b18ff65347e20257727cf2ec19461d6ada06"
+        },
+        "sim": {
+          "value": "双卡（Nano SIM卡）",
+          "rawText": "SIM卡类型 双卡（Nano SIM卡）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1438/1437735/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:22.408Z",
+          "sourceSnapshotHash": "d93d9753c9e53785a2718c866e9137ecda115943be093cca5e6993864bdafd49"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "iqoo-neo8-pro-2023",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "phone",
+      "series": "iQOO Neo Pro",
+      "family": "iQOO Neo Pro",
+      "variant": "standard",
+      "modelName": "iQOO Neo8 Pro",
+      "generation": "iQOO Neo8 Pro",
+      "generationOrder": 1,
+      "releaseYear": 2023,
+      "releaseDate": "2023-05-31",
+      "comparisonGroupId": "vivo.phone.iqoo-neo-pro.standard",
+      "configurations": [
+        {
+          "memory": "16GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "16GB + 256GB",
+            "rawText": "iQOO Neo8 Pro（16GB/256GB）；RAM容量 16GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 联发科 天玑9200+",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1506/1505443/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:23.450Z",
+            "sourceSnapshotHash": "265345fbf17858cb7bb284711f5a2277cc2050a23538a1aeaeb86a7e1628236b"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "iQOO Neo8 Pro（16GB/512GB）；RAM容量 16GB> 游戏运行流畅；ROM容量 512GB> 10.5万张照片 4.4万首歌曲；CPU型号 联发科 天玑9200+",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1628/1627568/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:23.608Z",
+            "sourceSnapshotHash": "a11ffcc41d2bb9f0c6c8a414e647904641a0c900b2c2e9b5cd4163dae12167e6"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "iQOO Neo8 Pro（16GB/1TB）；RAM容量 16GB> 游戏运行流畅；ROM容量 1TB> 20.5万张照片 8.5万首歌曲；CPU型号 联发科 天玑9200+",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1768/1767604/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:23.399Z",
+            "sourceSnapshotHash": "ac598c5bc7603d6a6d60b9ac4b6199020f7187e777d8ece3e51eac2ed2678bc8"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "联发科 天玑9200+",
+          "rawText": "CPU型号 联发科 天玑9200+",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1506/1505443/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:23.450Z",
+          "sourceSnapshotHash": "265345fbf17858cb7bb284711f5a2277cc2050a23538a1aeaeb86a7e1628236b",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "memory": {
+          "value": "16GB",
+          "rawText": "RAM容量 16GB> 游戏运行流畅",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1506/1505443/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:23.450Z",
+          "sourceSnapshotHash": "265345fbf17858cb7bb284711f5a2277cc2050a23538a1aeaeb86a7e1628236b",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "ROM容量 256GB> 5.2万张照片 2.2万首歌曲",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1506/1505443/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:23.450Z",
+          "sourceSnapshotHash": "265345fbf17858cb7bb284711f5a2277cc2050a23538a1aeaeb86a7e1628236b",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "screenSize": {
+          "value": 6.78,
+          "unit": "inch",
+          "rawText": "屏幕尺寸 6.78英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1506/1505443/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:23.450Z",
+          "sourceSnapshotHash": "265345fbf17858cb7bb284711f5a2277cc2050a23538a1aeaeb86a7e1628236b"
+        },
+        "displayType": {
+          "value": "AMOLED",
+          "rawText": "屏幕材质 AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1506/1505443/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:23.450Z",
+          "sourceSnapshotHash": "265345fbf17858cb7bb284711f5a2277cc2050a23538a1aeaeb86a7e1628236b"
+        },
+        "resolution": {
+          "value": "2800x1260px",
+          "rawText": "分辨率 2800x1260px",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1506/1505443/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:23.450Z",
+          "sourceSnapshotHash": "265345fbf17858cb7bb284711f5a2277cc2050a23538a1aeaeb86a7e1628236b"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "屏幕刷新率 144Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1506/1505443/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:23.450Z",
+          "sourceSnapshotHash": "265345fbf17858cb7bb284711f5a2277cc2050a23538a1aeaeb86a7e1628236b"
+        },
+        "weight": {
+          "value": 192.3,
+          "unit": "g",
+          "rawText": "重量 赛点：192.3g 夜岩、冲浪：196.9g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1506/1505443/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:23.450Z",
+          "sourceSnapshotHash": "265345fbf17858cb7bb284711f5a2277cc2050a23538a1aeaeb86a7e1628236b"
+        },
+        "batteryCapacity": {
+          "value": 5000,
+          "unit": "mAh",
+          "rawText": "电池容量 5000mAh 大电池",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1506/1505443/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:23.450Z",
+          "sourceSnapshotHash": "265345fbf17858cb7bb284711f5a2277cc2050a23538a1aeaeb86a7e1628236b"
+        },
+        "port": {
+          "value": "USB Type-C接口",
+          "rawText": "机身接口 USB Type-C接口",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1506/1505443/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:23.450Z",
+          "sourceSnapshotHash": "265345fbf17858cb7bb284711f5a2277cc2050a23538a1aeaeb86a7e1628236b"
+        },
+        "wifi": {
+          "value": "双频WiFi，WiFi7（IEEE 802.11 a/b/g/n/ac/ax/be ）",
+          "rawText": "WLAN功能 双频WiFi，WiFi7（IEEE 802.11 a/b/g/n/ac/ax/be ）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1506/1505443/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:23.450Z",
+          "sourceSnapshotHash": "265345fbf17858cb7bb284711f5a2277cc2050a23538a1aeaeb86a7e1628236b"
+        },
+        "bluetooth": {
+          "value": "蓝牙5.3，支持SBC/AAC/aptX/aptX HD/LDAC",
+          "rawText": "蓝牙 蓝牙5.3，支持SBC/AAC/aptX/aptX HD/LDAC",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1506/1505443/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:23.450Z",
+          "sourceSnapshotHash": "265345fbf17858cb7bb284711f5a2277cc2050a23538a1aeaeb86a7e1628236b"
+        },
+        "rearCamera": {
+          "value": "后置摄像头1：5000万像素 后置摄像头2：800万像素",
+          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：800万像素 前置摄像头1：1600万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1506/1505443/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:23.450Z",
+          "sourceSnapshotHash": "265345fbf17858cb7bb284711f5a2277cc2050a23538a1aeaeb86a7e1628236b"
+        },
+        "frontCamera": {
+          "value": "前置摄像头1：1600万像素",
+          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：800万像素 前置摄像头1：1600万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1506/1505443/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:23.450Z",
+          "sourceSnapshotHash": "265345fbf17858cb7bb284711f5a2277cc2050a23538a1aeaeb86a7e1628236b"
+        },
+        "memoryType": {
+          "value": "LPDDR5X 四通道",
+          "rawText": "RAM类型 LPDDR5X 四通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo8pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:31.025Z",
+          "sourceSnapshotHash": "7ddececd96e8be5ccee5519dfd588c32a9d870cd61f35b91b374771aed6d0b3e"
+        },
+        "storageType": {
+          "value": "UFS4.0",
+          "rawText": "ROM类型 UFS4.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo8pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:31.025Z",
+          "sourceSnapshotHash": "7ddececd96e8be5ccee5519dfd588c32a9d870cd61f35b91b374771aed6d0b3e"
+        },
+        "chargingMethod": {
+          "value": "120W超快闪充，支持最大输入充电规格20V/6A，兼容20V/4A、20V/3.3A、11V/5A、11V/4A、11V/3A、10V/2.25A、9V/2A或 5V/2A",
+          "rawText": "充电规格 120W超快闪充，支持最大输入充电规格20V/6A，兼容20V/4A、20V/3.3A、11V/5A、11V/4A、11V/3A、10V/2.25A、9V/2A或 5V/2A",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo8pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:31.025Z",
+          "sourceSnapshotHash": "7ddececd96e8be5ccee5519dfd588c32a9d870cd61f35b91b374771aed6d0b3e"
+        },
+        "operatingSystem": {
+          "value": "基于Android 13.0开发的OriginOS 3",
+          "rawText": "操作系统 操作系统 基于Android 13.0开发的OriginOS 3",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo8pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:31.025Z",
+          "sourceSnapshotHash": "7ddececd96e8be5ccee5519dfd588c32a9d870cd61f35b91b374771aed6d0b3e"
+        },
+        "security": {
+          "value": "屏幕指纹 面部识别 Face Wake面部识别",
+          "rawText": "指纹识别 屏幕指纹 面部识别 Face Wake面部识别",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo8pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:31.025Z",
+          "sourceSnapshotHash": "7ddececd96e8be5ccee5519dfd588c32a9d870cd61f35b91b374771aed6d0b3e"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo8pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:31.025Z",
+          "sourceSnapshotHash": "7ddececd96e8be5ccee5519dfd588c32a9d870cd61f35b91b374771aed6d0b3e"
+        },
+        "sim": {
+          "value": "双卡（Nano SIM卡）",
+          "rawText": "SIM卡类型 双卡（Nano SIM卡）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1506/1505443/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:23.450Z",
+          "sourceSnapshotHash": "265345fbf17858cb7bb284711f5a2277cc2050a23538a1aeaeb86a7e1628236b"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "vivo-y100-2023",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "phone",
+      "series": "vivo Y",
+      "family": "vivo Y",
+      "variant": "standard",
+      "modelName": "vivo Y100",
+      "generation": "Y100",
+      "generationOrder": 1,
+      "releaseYear": 2023,
+      "releaseDate": "2023-10-31",
+      "comparisonGroupId": "vivo.phone.y.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "8GB + 128GB",
+            "rawText": "vivo Y100(8GB/128GB)；RAM容量 8GB> 游戏运行流畅；ROM容量 128GB> 2.6万张照片 1.1万首歌曲；CPU型号 高通 骁龙 695",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1931/1930410/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:42.518Z",
+            "sourceSnapshotHash": "f9dc3313e4e4c000a789c1014b76d15b9c14f55876276fdc9533fbd6a0542386"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "vivo Y100(12GB/256GB)；RAM容量 12GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙 695",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1937/1936186/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:42.307Z",
+            "sourceSnapshotHash": "9a479f7d1e2566c3da0159910e677297ca8b4420964e90a7e4126cf96cadd1ac"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "vivo Y100(12GB/512GB)；RAM容量 12GB> 游戏运行流畅；ROM容量 512GB> 10.5万张照片 4.4万首歌曲；CPU型号 高通 骁龙 695",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1937/1936187/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:42.566Z",
+            "sourceSnapshotHash": "22f9deb740d599f819aa42e261cdccfdaae276f65626d362b462c4dfaa6e6628"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "vivo Y100(8GB/256GB)；RAM容量 8GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙 695",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1937/1936185/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:42.894Z",
+            "sourceSnapshotHash": "15bce568a1364ea12a602b0a91661f0897b338da0a823bfb3528fa42394556b4"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通 骁龙 695",
+          "rawText": "CPU型号 高通 骁龙 695",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1931/1930410/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:42.518Z",
+          "sourceSnapshotHash": "f9dc3313e4e4c000a789c1014b76d15b9c14f55876276fdc9533fbd6a0542386",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "memory": {
+          "value": "8GB / 12GB",
+          "rawText": "RAM容量 8GB> 游戏运行流畅",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1931/1930410/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:42.518Z",
+          "sourceSnapshotHash": "f9dc3313e4e4c000a789c1014b76d15b9c14f55876276fdc9533fbd6a0542386",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "storage": {
+          "value": "128GB / 256GB / 512GB",
+          "rawText": "ROM容量 128GB> 2.6万张照片 1.1万首歌曲",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1931/1930410/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:42.518Z",
+          "sourceSnapshotHash": "f9dc3313e4e4c000a789c1014b76d15b9c14f55876276fdc9533fbd6a0542386",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "screenSize": {
+          "value": 6.78,
+          "unit": "inch",
+          "rawText": "屏幕尺寸 6.78英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1931/1930410/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:42.518Z",
+          "sourceSnapshotHash": "f9dc3313e4e4c000a789c1014b76d15b9c14f55876276fdc9533fbd6a0542386"
+        },
+        "displayType": {
+          "value": "AMOLED",
+          "rawText": "屏幕材质 AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1931/1930410/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:42.518Z",
+          "sourceSnapshotHash": "f9dc3313e4e4c000a789c1014b76d15b9c14f55876276fdc9533fbd6a0542386"
+        },
+        "resolution": {
+          "value": "2400x1080px",
+          "rawText": "分辨率 2400x1080px",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1931/1930410/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:42.518Z",
+          "sourceSnapshotHash": "f9dc3313e4e4c000a789c1014b76d15b9c14f55876276fdc9533fbd6a0542386"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "屏幕刷新率 120Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1931/1930410/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:42.518Z",
+          "sourceSnapshotHash": "f9dc3313e4e4c000a789c1014b76d15b9c14f55876276fdc9533fbd6a0542386"
+        },
+        "weight": {
+          "value": 172,
+          "unit": "g",
+          "rawText": "重量 172g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1931/1930410/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:42.518Z",
+          "sourceSnapshotHash": "f9dc3313e4e4c000a789c1014b76d15b9c14f55876276fdc9533fbd6a0542386"
+        },
+        "batteryCapacity": {
+          "value": 5000,
+          "unit": "mAh",
+          "rawText": "电池容量 5000mAh 大电池",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1931/1930410/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:42.518Z",
+          "sourceSnapshotHash": "f9dc3313e4e4c000a789c1014b76d15b9c14f55876276fdc9533fbd6a0542386"
+        },
+        "port": {
+          "value": "USB Type-C接口",
+          "rawText": "机身接口 USB Type-C接口",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1931/1930410/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:42.518Z",
+          "sourceSnapshotHash": "f9dc3313e4e4c000a789c1014b76d15b9c14f55876276fdc9533fbd6a0542386"
+        },
+        "wifi": {
+          "value": "三频WiFi：WLAN 2.4G;WLAN 5.1G;WLAN 5.8G;Wi-Fi Display;MU-MIMO",
+          "rawText": "WLAN功能 三频WiFi：WLAN 2.4G;WLAN 5.1G;WLAN 5.8G;Wi-Fi Display;MU-MIMO",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1931/1930410/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:42.518Z",
+          "sourceSnapshotHash": "f9dc3313e4e4c000a789c1014b76d15b9c14f55876276fdc9533fbd6a0542386"
+        },
+        "bluetooth": {
+          "value": "蓝牙5.1，支持SBC/AAC/aptX/aptX HD/aptX Adaptive/LDAC",
+          "rawText": "蓝牙 蓝牙5.1，支持SBC/AAC/aptX/aptX HD/aptX Adaptive/LDAC",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1931/1930410/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:42.518Z",
+          "sourceSnapshotHash": "f9dc3313e4e4c000a789c1014b76d15b9c14f55876276fdc9533fbd6a0542386"
+        },
+        "rearCamera": {
+          "value": "后置摄像头1：6400万像素 后置摄像头2：200万像素",
+          "rawText": "像素 后置摄像头1：6400万像素 后置摄像头2：200万像素 前置摄像头1：800万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1931/1930410/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:42.518Z",
+          "sourceSnapshotHash": "f9dc3313e4e4c000a789c1014b76d15b9c14f55876276fdc9533fbd6a0542386"
+        },
+        "frontCamera": {
+          "value": "前置摄像头1：800万像素",
+          "rawText": "像素 后置摄像头1：6400万像素 后置摄像头2：200万像素 前置摄像头1：800万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1931/1930410/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:42.518Z",
+          "sourceSnapshotHash": "f9dc3313e4e4c000a789c1014b76d15b9c14f55876276fdc9533fbd6a0542386"
+        },
+        "memoryType": {
+          "value": "LPDDR4X双通道",
+          "rawText": "RAM类型 LPDDR4X双通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y100",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:43.129Z",
+          "sourceSnapshotHash": "b2515ee2739fe3e9623a52e30b910f19dea0f1bb6395e0c45efabc964aee13a2"
+        },
+        "storageType": {
+          "value": "UFS2.2",
+          "rawText": "ROM类型 UFS2.2",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y100",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:43.129Z",
+          "sourceSnapshotHash": "b2515ee2739fe3e9623a52e30b910f19dea0f1bb6395e0c45efabc964aee13a2"
+        },
+        "chargingMethod": {
+          "value": "44W单芯闪充",
+          "rawText": "充电规格 44W单芯闪充",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y100",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:43.129Z",
+          "sourceSnapshotHash": "b2515ee2739fe3e9623a52e30b910f19dea0f1bb6395e0c45efabc964aee13a2"
+        },
+        "security": {
+          "value": "屏幕光学指纹 面部识别 Face Wake面部识别",
+          "rawText": "指纹识别 屏幕光学指纹 面部识别 Face Wake面部识别",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y100",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:43.129Z",
+          "sourceSnapshotHash": "b2515ee2739fe3e9623a52e30b910f19dea0f1bb6395e0c45efabc964aee13a2"
+        },
+        "operatingSystem": {
+          "value": "OriginOS 3",
+          "rawText": "操作系统 OriginOS 3",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1931/1930410/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:42.518Z",
+          "sourceSnapshotHash": "f9dc3313e4e4c000a789c1014b76d15b9c14f55876276fdc9533fbd6a0542386"
+        },
+        "sim": {
+          "value": "双卡（Nano-Sim卡）",
+          "rawText": "SIM卡类型 双卡（Nano-Sim卡）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1931/1930410/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:42.518Z",
+          "sourceSnapshotHash": "f9dc3313e4e4c000a789c1014b76d15b9c14f55876276fdc9533fbd6a0542386"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "vivo-y300-pro-2024",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "phone",
+      "series": "vivo Y Pro",
+      "family": "vivo Y Pro",
+      "variant": "standard",
+      "modelName": "vivo Y300 Pro",
+      "generation": "Y300 Pro",
+      "generationOrder": 1,
+      "releaseYear": 2024,
+      "releaseDate": "2024-09-14",
+      "comparisonGroupId": "vivo.phone.y-pro.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "8GB + 128GB",
+            "rawText": "vivo Y300 Pro(8GB/128GB)；RAM容量 8GB> 游戏运行流畅；ROM容量 128GB> 2.6万张照片 1.1万首歌曲；CPU型号 高通 骁龙6 Gen1",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2105/2104254/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:44.691Z",
+            "sourceSnapshotHash": "cfae19777bd7f00a879e325531c3dbb9e229824fef8a27218214b8cdcc413db9"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "vivo Y300 Pro(12GB/512GB)；RAM容量 12GB> 游戏运行流畅；ROM容量 512GB> 10.5万张照片 4.4万首歌曲；CPU型号 高通 骁龙6 Gen1",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2106/2105044/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:44.745Z",
+            "sourceSnapshotHash": "18d785326223ead157200ac7e77b05d146c6e3a6fb661d3ba8ebd45e3d904131"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "vivo Y300 Pro(8GB/256GB)；RAM容量 8GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙6 Gen1",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2106/2105042/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:44.696Z",
+            "sourceSnapshotHash": "6d0629793131db320651133cd161b996c1f3dbd66040eb6d16976ef21c8147d7"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "vivo Y300 Pro(12GB/256GB)；RAM容量 12GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙6 Gen1",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2106/2105043/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:45.023Z",
+            "sourceSnapshotHash": "2e4f3879958bd5569e6ebbfcd07495dcd7a9b482c83d7a7f3d05c79b2405c0cf"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通 骁龙6 Gen1",
+          "rawText": "CPU型号 高通 骁龙6 Gen1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2105/2104254/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:44.691Z",
+          "sourceSnapshotHash": "cfae19777bd7f00a879e325531c3dbb9e229824fef8a27218214b8cdcc413db9",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "memory": {
+          "value": "8GB / 12GB",
+          "rawText": "RAM容量 8GB> 游戏运行流畅",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2105/2104254/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:44.691Z",
+          "sourceSnapshotHash": "cfae19777bd7f00a879e325531c3dbb9e229824fef8a27218214b8cdcc413db9",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "storage": {
+          "value": "128GB / 512GB / 256GB",
+          "rawText": "ROM容量 128GB> 2.6万张照片 1.1万首歌曲",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2105/2104254/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:44.691Z",
+          "sourceSnapshotHash": "cfae19777bd7f00a879e325531c3dbb9e229824fef8a27218214b8cdcc413db9",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "screenSize": {
+          "value": 6.77,
+          "unit": "inch",
+          "rawText": "屏幕尺寸 6.77英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2105/2104254/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:44.691Z",
+          "sourceSnapshotHash": "cfae19777bd7f00a879e325531c3dbb9e229824fef8a27218214b8cdcc413db9"
+        },
+        "displayType": {
+          "value": "AMOLED",
+          "rawText": "屏幕材质 AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2105/2104254/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:44.691Z",
+          "sourceSnapshotHash": "cfae19777bd7f00a879e325531c3dbb9e229824fef8a27218214b8cdcc413db9"
+        },
+        "resolution": {
+          "value": "2392x1080px",
+          "rawText": "分辨率 2392x1080px",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2105/2104254/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:44.691Z",
+          "sourceSnapshotHash": "cfae19777bd7f00a879e325531c3dbb9e229824fef8a27218214b8cdcc413db9"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "屏幕刷新率 120Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2105/2104254/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:44.691Z",
+          "sourceSnapshotHash": "cfae19777bd7f00a879e325531c3dbb9e229824fef8a27218214b8cdcc413db9"
+        },
+        "weight": {
+          "value": 193.6,
+          "unit": "g",
+          "rawText": "重量 193.6g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2105/2104254/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:44.691Z",
+          "sourceSnapshotHash": "cfae19777bd7f00a879e325531c3dbb9e229824fef8a27218214b8cdcc413db9"
+        },
+        "batteryCapacity": {
+          "value": 6500,
+          "unit": "mAh",
+          "rawText": "电池容量 6500mAh 大电池",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2105/2104254/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:44.691Z",
+          "sourceSnapshotHash": "cfae19777bd7f00a879e325531c3dbb9e229824fef8a27218214b8cdcc413db9"
+        },
+        "port": {
+          "value": "USB Type-C接口",
+          "rawText": "机身接口 USB Type-C接口",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2105/2104254/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:44.691Z",
+          "sourceSnapshotHash": "cfae19777bd7f00a879e325531c3dbb9e229824fef8a27218214b8cdcc413db9"
+        },
+        "wifi": {
+          "value": "2.4G/5.1G/5.8G，802.11 a/b/g/n/ac",
+          "rawText": "WLAN功能 2.4G/5.1G/5.8G，802.11 a/b/g/n/ac",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2105/2104254/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:44.691Z",
+          "sourceSnapshotHash": "cfae19777bd7f00a879e325531c3dbb9e229824fef8a27218214b8cdcc413db9"
+        },
+        "bluetooth": {
+          "value": "蓝牙 5.1，规格：SBC;AAC;aptX;aptX HD;aptX Adaptive;LDAC",
+          "rawText": "蓝牙 蓝牙 5.1，规格：SBC;AAC;aptX;aptX HD;aptX Adaptive;LDAC",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2105/2104254/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:44.691Z",
+          "sourceSnapshotHash": "cfae19777bd7f00a879e325531c3dbb9e229824fef8a27218214b8cdcc413db9"
+        },
+        "rearCamera": {
+          "value": "后置摄像头1：5000万像素 后置摄像头2：200万像素",
+          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：200万像素 前置摄像头1：3200万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2105/2104254/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:44.691Z",
+          "sourceSnapshotHash": "cfae19777bd7f00a879e325531c3dbb9e229824fef8a27218214b8cdcc413db9"
+        },
+        "frontCamera": {
+          "value": "前置摄像头1：3200万像素",
+          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：200万像素 前置摄像头1：3200万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2105/2104254/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:44.691Z",
+          "sourceSnapshotHash": "cfae19777bd7f00a879e325531c3dbb9e229824fef8a27218214b8cdcc413db9"
+        },
+        "memoryType": {
+          "value": "LPDDR4X双通道",
+          "rawText": "RAM类型 LPDDR4X双通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:45.294Z",
+          "sourceSnapshotHash": "f9893198121b2c790bbd7bceaec497db8c75689d13c961d5c7cc209f59db6662"
+        },
+        "storageType": {
+          "value": "UFS2.2",
+          "rawText": "ROM类型 UFS2.2",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:45.294Z",
+          "sourceSnapshotHash": "f9893198121b2c790bbd7bceaec497db8c75689d13c961d5c7cc209f59db6662"
+        },
+        "chargingMethod": {
+          "value": "80W",
+          "rawText": "充电规格 80W",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:45.294Z",
+          "sourceSnapshotHash": "f9893198121b2c790bbd7bceaec497db8c75689d13c961d5c7cc209f59db6662"
+        },
+        "operatingSystem": {
+          "value": "OriginOS 4",
+          "rawText": "操作系统 操作系统 OriginOS 4",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:45.294Z",
+          "sourceSnapshotHash": "f9893198121b2c790bbd7bceaec497db8c75689d13c961d5c7cc209f59db6662"
+        },
+        "security": {
+          "value": "屏下光学指纹 面部识别 Face Wake面部识别",
+          "rawText": "指纹识别 屏下光学指纹 面部识别 Face Wake面部识别",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y300pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:45.294Z",
+          "sourceSnapshotHash": "f9893198121b2c790bbd7bceaec497db8c75689d13c961d5c7cc209f59db6662"
+        },
+        "sim": {
+          "value": "双卡（Nano-Sim卡）",
+          "rawText": "SIM卡类型 双卡（Nano-Sim卡）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2105/2104254/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:44.691Z",
+          "sourceSnapshotHash": "cfae19777bd7f00a879e325531c3dbb9e229824fef8a27218214b8cdcc413db9"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "vivo-y200-gt-2024",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "phone",
+      "series": "vivo Y GT",
+      "family": "vivo Y GT",
+      "variant": "standard",
+      "modelName": "vivo Y200 GT",
+      "generation": "Y200 GT",
+      "generationOrder": 1,
+      "releaseYear": 2024,
+      "releaseDate": "2024-05-24",
+      "comparisonGroupId": "vivo.phone.y-gt.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "8GB + 128GB",
+            "rawText": "vivo Y200 GT(8GB/128GB)；RAM容量 8GB> 游戏运行流畅；ROM容量 128GB> 2.6万张照片 1.1万首歌曲；CPU型号 高通 骁龙7 Gen3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2010/2009378/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:45.922Z",
+            "sourceSnapshotHash": "86b56ab2bfe7e2ae24a2036eec0fabfb5cc34fbf6569c24e62c60c7c67c9b26f"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通 骁龙7 Gen3",
+          "rawText": "CPU型号 高通 骁龙7 Gen3",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2010/2009378/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:45.922Z",
+          "sourceSnapshotHash": "86b56ab2bfe7e2ae24a2036eec0fabfb5cc34fbf6569c24e62c60c7c67c9b26f"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "RAM容量 8GB> 游戏运行流畅",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2010/2009378/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:45.922Z",
+          "sourceSnapshotHash": "86b56ab2bfe7e2ae24a2036eec0fabfb5cc34fbf6569c24e62c60c7c67c9b26f"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "ROM容量 128GB> 2.6万张照片 1.1万首歌曲",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2010/2009378/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:45.922Z",
+          "sourceSnapshotHash": "86b56ab2bfe7e2ae24a2036eec0fabfb5cc34fbf6569c24e62c60c7c67c9b26f"
+        },
+        "screenSize": {
+          "value": 6.78,
+          "unit": "inch",
+          "rawText": "屏幕尺寸 6.78英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2010/2009378/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:45.922Z",
+          "sourceSnapshotHash": "86b56ab2bfe7e2ae24a2036eec0fabfb5cc34fbf6569c24e62c60c7c67c9b26f"
+        },
+        "displayType": {
+          "value": "AMOLED",
+          "rawText": "屏幕材质 AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2010/2009378/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:45.922Z",
+          "sourceSnapshotHash": "86b56ab2bfe7e2ae24a2036eec0fabfb5cc34fbf6569c24e62c60c7c67c9b26f"
+        },
+        "resolution": {
+          "value": "2800x1260px",
+          "rawText": "分辨率 2800x1260px",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2010/2009378/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:45.922Z",
+          "sourceSnapshotHash": "86b56ab2bfe7e2ae24a2036eec0fabfb5cc34fbf6569c24e62c60c7c67c9b26f"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "屏幕刷新率 144Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2010/2009378/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:45.922Z",
+          "sourceSnapshotHash": "86b56ab2bfe7e2ae24a2036eec0fabfb5cc34fbf6569c24e62c60c7c67c9b26f"
+        },
+        "weight": {
+          "value": 194.6,
+          "unit": "g",
+          "rawText": "重量 风暴、星光：194.6g 雷鸣：187g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2010/2009378/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:45.922Z",
+          "sourceSnapshotHash": "86b56ab2bfe7e2ae24a2036eec0fabfb5cc34fbf6569c24e62c60c7c67c9b26f"
+        },
+        "batteryCapacity": {
+          "value": 6000,
+          "unit": "mAh",
+          "rawText": "电池容量 6000mAh 大电池",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2010/2009378/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:45.922Z",
+          "sourceSnapshotHash": "86b56ab2bfe7e2ae24a2036eec0fabfb5cc34fbf6569c24e62c60c7c67c9b26f"
+        },
+        "port": {
+          "value": "USB Type-C接口",
+          "rawText": "机身接口 USB Type-C接口",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2010/2009378/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:45.922Z",
+          "sourceSnapshotHash": "86b56ab2bfe7e2ae24a2036eec0fabfb5cc34fbf6569c24e62c60c7c67c9b26f"
+        },
+        "wifi": {
+          "value": "2.4G/5.1G/5.8G，802.11 a/b/g/n/ac，Wi-Fi 6/Wi-Fi双天线",
+          "rawText": "WLAN功能 2.4G/5.1G/5.8G，802.11 a/b/g/n/ac，Wi-Fi 6/Wi-Fi双天线",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2010/2009378/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:45.922Z",
+          "sourceSnapshotHash": "86b56ab2bfe7e2ae24a2036eec0fabfb5cc34fbf6569c24e62c60c7c67c9b26f"
+        },
+        "bluetooth": {
+          "value": "蓝牙5.4",
+          "rawText": "蓝牙 蓝牙5.4",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2010/2009378/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:45.922Z",
+          "sourceSnapshotHash": "86b56ab2bfe7e2ae24a2036eec0fabfb5cc34fbf6569c24e62c60c7c67c9b26f"
+        },
+        "rearCamera": {
+          "value": "后置摄像头1：5000万像素 后置摄像头2：200万像素",
+          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：200万像素 前置摄像头1：1600万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2010/2009378/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:45.922Z",
+          "sourceSnapshotHash": "86b56ab2bfe7e2ae24a2036eec0fabfb5cc34fbf6569c24e62c60c7c67c9b26f"
+        },
+        "frontCamera": {
+          "value": "前置摄像头1：1600万像素",
+          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：200万像素 前置摄像头1：1600万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2010/2009378/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:45.922Z",
+          "sourceSnapshotHash": "86b56ab2bfe7e2ae24a2036eec0fabfb5cc34fbf6569c24e62c60c7c67c9b26f"
+        },
+        "memoryType": {
+          "value": "LPDDR4X双通道",
+          "rawText": "RAM类型 LPDDR4X双通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y200gt",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:34.660Z",
+          "sourceSnapshotHash": "ed38308f06a40a96fb8adf8279e437420bab226fff1033894dfce66ad91113bd"
+        },
+        "storageType": {
+          "value": "UFS2.2",
+          "rawText": "ROM类型 UFS2.2",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y200gt",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:34.660Z",
+          "sourceSnapshotHash": "ed38308f06a40a96fb8adf8279e437420bab226fff1033894dfce66ad91113bd"
+        },
+        "chargingMethod": {
+          "value": "80W",
+          "rawText": "充电规格 80W",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y200gt",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:34.660Z",
+          "sourceSnapshotHash": "ed38308f06a40a96fb8adf8279e437420bab226fff1033894dfce66ad91113bd"
+        },
+        "operatingSystem": {
+          "value": "OriginOS 4",
+          "rawText": "操作系统 操作系统 OriginOS 4",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y200gt",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:34.660Z",
+          "sourceSnapshotHash": "ed38308f06a40a96fb8adf8279e437420bab226fff1033894dfce66ad91113bd"
+        },
+        "security": {
+          "value": "屏下光学指纹 面部识别 Face Wake面部识别",
+          "rawText": "指纹识别 屏下光学指纹 面部识别 Face Wake面部识别",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/y200gt",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:34.660Z",
+          "sourceSnapshotHash": "ed38308f06a40a96fb8adf8279e437420bab226fff1033894dfce66ad91113bd"
+        },
+        "sim": {
+          "value": "双卡（Nano-Sim卡）",
+          "rawText": "SIM卡类型 双卡（Nano-Sim卡）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2010/2009378/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:45.922Z",
+          "sourceSnapshotHash": "86b56ab2bfe7e2ae24a2036eec0fabfb5cc34fbf6569c24e62c60c7c67c9b26f"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持NFC",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2010/2009378/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:45.922Z",
+          "sourceSnapshotHash": "86b56ab2bfe7e2ae24a2036eec0fabfb5cc34fbf6569c24e62c60c7c67c9b26f"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "iqoo-neo10-2024",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "phone",
+      "series": "iQOO Neo",
+      "family": "iQOO Neo",
+      "variant": "standard",
+      "modelName": "iQOO Neo10",
+      "generation": "iQOO Neo10",
+      "generationOrder": 1,
+      "releaseYear": 2024,
+      "releaseDate": "2024-11-29",
+      "comparisonGroupId": "vivo.phone.iqoo-neo.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "iQOO Neo10(12GB/256GB)；RAM容量 12GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通骁龙8 Gen3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2114/2113676/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:47.195Z",
+            "sourceSnapshotHash": "00735b89c079fe8ea9466c357896e4b802731f95d23689fc8924d074c6f846e0"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "iQOO Neo10(16GB/1TB)；RAM容量 16GB> 游戏运行流畅；ROM容量 1TB> 20.5万张照片 8.5万首歌曲；CPU型号 高通骁龙8 Gen3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2116/2115503/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:46.980Z",
+            "sourceSnapshotHash": "9e833517d894eae41b4dc83f1864843ba3ce2aaa97332b4264de0d8f2dc3a246"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "16GB + 256GB",
+            "rawText": "iQOO Neo10(16GB/256GB)；RAM容量 16GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通骁龙8 Gen3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2116/2115501/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:47.019Z",
+            "sourceSnapshotHash": "c39f2f25c6016b3976bd44ff6df5ab80205cfed337a0d4049c9b696d3eed909b"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "iQOO Neo10(12GB/512GB)；RAM容量 12GB> 游戏运行流畅；ROM容量 512GB> 10.5万张照片 4.4万首歌曲；CPU型号 高通骁龙8 Gen3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2116/2115500/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:47.323Z",
+            "sourceSnapshotHash": "af98c4dafadf9eb334cd556a405302ed133a5b0c35abc1f5f64ab61e587d4940"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "iQOO Neo10(16GB/512GB)；RAM容量 16GB> 游戏运行流畅；ROM容量 512GB> 10.5万张照片 4.4万首歌曲；CPU型号 高通骁龙8 Gen3",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2116/2115502/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:47.268Z",
+            "sourceSnapshotHash": "8ce9935cefaa70e9106292a91bacfa2152fbb480e59adb61d60bae482260e87c"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通骁龙8 Gen3",
+          "rawText": "CPU型号 高通骁龙8 Gen3",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113676/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:47.195Z",
+          "sourceSnapshotHash": "00735b89c079fe8ea9466c357896e4b802731f95d23689fc8924d074c6f846e0",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "RAM容量 12GB> 游戏运行流畅",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113676/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:47.195Z",
+          "sourceSnapshotHash": "00735b89c079fe8ea9466c357896e4b802731f95d23689fc8924d074c6f846e0",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "storage": {
+          "value": "256GB / 1TB / 512GB",
+          "rawText": "ROM容量 256GB> 5.2万张照片 2.2万首歌曲",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113676/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:47.195Z",
+          "sourceSnapshotHash": "00735b89c079fe8ea9466c357896e4b802731f95d23689fc8924d074c6f846e0",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "screenSize": {
+          "value": 6.78,
+          "unit": "inch",
+          "rawText": "屏幕尺寸 6.78英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113676/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:47.195Z",
+          "sourceSnapshotHash": "00735b89c079fe8ea9466c357896e4b802731f95d23689fc8924d074c6f846e0"
+        },
+        "displayType": {
+          "value": "AMOLED（8T LTPO）",
+          "rawText": "屏幕材质 AMOLED（8T LTPO）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113676/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:47.195Z",
+          "sourceSnapshotHash": "00735b89c079fe8ea9466c357896e4b802731f95d23689fc8924d074c6f846e0"
+        },
+        "resolution": {
+          "value": "2800x1260px",
+          "rawText": "分辨率 2800x1260px",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113676/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:47.195Z",
+          "sourceSnapshotHash": "00735b89c079fe8ea9466c357896e4b802731f95d23689fc8924d074c6f846e0"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "屏幕刷新率 144Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113676/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:47.195Z",
+          "sourceSnapshotHash": "00735b89c079fe8ea9466c357896e4b802731f95d23689fc8924d074c6f846e0"
+        },
+        "weight": {
+          "value": 206,
+          "unit": "g",
+          "rawText": "重量 拉力橙、驰光白：206g 疾彩黑：199g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113676/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:47.195Z",
+          "sourceSnapshotHash": "00735b89c079fe8ea9466c357896e4b802731f95d23689fc8924d074c6f846e0"
+        },
+        "batteryCapacity": {
+          "value": 6100,
+          "unit": "mAh",
+          "rawText": "电池容量 6100mAh 大电池",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113676/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:47.195Z",
+          "sourceSnapshotHash": "00735b89c079fe8ea9466c357896e4b802731f95d23689fc8924d074c6f846e0"
+        },
+        "port": {
+          "value": "USB Type-C接口",
+          "rawText": "机身接口 USB Type-C接口",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113676/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:47.195Z",
+          "sourceSnapshotHash": "00735b89c079fe8ea9466c357896e4b802731f95d23689fc8924d074c6f846e0"
+        },
+        "wifi": {
+          "value": "WiFi7（IEEE 802.11 a/b/g/n/ac/ax/be）",
+          "rawText": "WLAN功能 WiFi7（IEEE 802.11 a/b/g/n/ac/ax/be）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113676/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:47.195Z",
+          "sourceSnapshotHash": "00735b89c079fe8ea9466c357896e4b802731f95d23689fc8924d074c6f846e0"
+        },
+        "bluetooth": {
+          "value": "蓝牙5.4，支持SBC，AAC，aptX，aptX HD，aptX Adaptive，aptX Lossless，LDAC，LHDC 5.0",
+          "rawText": "蓝牙 蓝牙5.4，支持SBC，AAC，aptX，aptX HD，aptX Adaptive，aptX Lossless，LDAC，LHDC 5.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113676/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:47.195Z",
+          "sourceSnapshotHash": "00735b89c079fe8ea9466c357896e4b802731f95d23689fc8924d074c6f846e0"
+        },
+        "rearCamera": {
+          "value": "后置摄像头1：5000万像素 后置摄像头2：800万像素",
+          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：800万像素 前置摄像头1：1600万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113676/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:47.195Z",
+          "sourceSnapshotHash": "00735b89c079fe8ea9466c357896e4b802731f95d23689fc8924d074c6f846e0"
+        },
+        "frontCamera": {
+          "value": "前置摄像头1：1600万像素",
+          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：800万像素 前置摄像头1：1600万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113676/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:47.195Z",
+          "sourceSnapshotHash": "00735b89c079fe8ea9466c357896e4b802731f95d23689fc8924d074c6f846e0"
+        },
+        "memoryType": {
+          "value": "LPDDR5X 四通道",
+          "rawText": "RAM类型 LPDDR5X 四通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo10",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:35.154Z",
+          "sourceSnapshotHash": "c0f3c3670467219fa621fd9bc2d5949e7dd32ff79733c71ca32f677c90702785"
+        },
+        "storageType": {
+          "value": "UFS4.1",
+          "rawText": "ROM类型 UFS4.1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo10",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:35.154Z",
+          "sourceSnapshotHash": "c0f3c3670467219fa621fd9bc2d5949e7dd32ff79733c71ca32f677c90702785"
+        },
+        "chargingMethod": {
+          "value": "120W超快闪充，支持最大输入充电规格20V/6A，兼容20V/5A，20V/3A，11V/5A、11V/4A、11V/3A、9V/2A或5V/2A",
+          "rawText": "充电规格 120W超快闪充，支持最大输入充电规格20V/6A，兼容20V/5A，20V/3A，11V/5A、11V/4A、11V/3A、9V/2A或5V/2A",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo10",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:35.154Z",
+          "sourceSnapshotHash": "c0f3c3670467219fa621fd9bc2d5949e7dd32ff79733c71ca32f677c90702785"
+        },
+        "security": {
+          "value": "超声波3D指纹 面部识别 Face Wake面部识别",
+          "rawText": "指纹识别 超声波3D指纹 面部识别 Face Wake面部识别",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo10",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:35.154Z",
+          "sourceSnapshotHash": "c0f3c3670467219fa621fd9bc2d5949e7dd32ff79733c71ca32f677c90702785"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo10",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:35.154Z",
+          "sourceSnapshotHash": "c0f3c3670467219fa621fd9bc2d5949e7dd32ff79733c71ca32f677c90702785"
+        },
+        "operatingSystem": {
+          "value": "OriginOS 5",
+          "rawText": "操作系统 OriginOS 5",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113676/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:47.195Z",
+          "sourceSnapshotHash": "00735b89c079fe8ea9466c357896e4b802731f95d23689fc8924d074c6f846e0"
+        },
+        "sim": {
+          "value": "双卡（Nano SIM卡）",
+          "rawText": "SIM卡类型 双卡（Nano SIM卡）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113676/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:47.195Z",
+          "sourceSnapshotHash": "00735b89c079fe8ea9466c357896e4b802731f95d23689fc8924d074c6f846e0"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "iqoo-neo10-pro-2024",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "phone",
+      "series": "iQOO Neo Pro",
+      "family": "iQOO Neo Pro",
+      "variant": "standard",
+      "modelName": "iQOO Neo10 Pro",
+      "generation": "iQOO Neo10 Pro",
+      "generationOrder": 2,
+      "releaseYear": 2024,
+      "releaseDate": "2024-11-29",
+      "comparisonGroupId": "vivo.phone.iqoo-neo-pro.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "iQOO Neo10 Pro(12GB/256GB)；RAM容量 12GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 联发科 天玑9400",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2114/2113956/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:48.876Z",
+            "sourceSnapshotHash": "3740f6269157424deb2945becbfc7475d654440c866b025d57b710848575ec9b"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "iQOO Neo10 Pro(12GB/512GB)；RAM容量 12GB> 游戏运行流畅；ROM容量 512GB> 10.5万张照片 4.4万首歌曲；CPU型号 联发科 天玑9400",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2116/2115497/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:48.746Z",
+            "sourceSnapshotHash": "7f916c7d4fd4850e044cecd6fb05c78ef899abf3af1453257dc79b57743c893c"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "iQOO Neo10 Pro(16GB/512GB)；RAM容量 16GB> 游戏运行流畅；ROM容量 512GB> 10.5万张照片 4.4万首歌曲；CPU型号 联发科 天玑9400",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2116/2115498/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:48.821Z",
+            "sourceSnapshotHash": "379eb75f8c5f2b039482c5fab70d1fc766b82b6e3481aa4cf7247549f2b17281"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "iQOO Neo10 Pro(16GB/1TB)；RAM容量 16GB> 游戏运行流畅；ROM容量 1TB> 20.5万张照片 8.5万首歌曲；CPU型号 联发科 天玑9400",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2116/2115499/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:49.008Z",
+            "sourceSnapshotHash": "49c0451c39ef4b6b26721b25d202d34eaa42a2425f963a680fddfbdedb781ee5"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "16GB + 256GB",
+            "rawText": "iQOO Neo10 Pro(16GB/256GB)；RAM容量 16GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 联发科 天玑9400",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2116/2115496/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:11:49.155Z",
+            "sourceSnapshotHash": "157489c50e1417acff7d64cdca0fdfce276087ce288c16ec3afa3b9691c2e55d"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "联发科 天玑9400",
+          "rawText": "CPU型号 联发科 天玑9400",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113956/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:48.876Z",
+          "sourceSnapshotHash": "3740f6269157424deb2945becbfc7475d654440c866b025d57b710848575ec9b",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "RAM容量 12GB> 游戏运行流畅",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113956/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:48.876Z",
+          "sourceSnapshotHash": "3740f6269157424deb2945becbfc7475d654440c866b025d57b710848575ec9b",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "ROM容量 256GB> 5.2万张照片 2.2万首歌曲",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113956/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:48.876Z",
+          "sourceSnapshotHash": "3740f6269157424deb2945becbfc7475d654440c866b025d57b710848575ec9b",
+          "note": "可选值汇总自本设备各配置 evidence 对应的具体规格页。"
+        },
+        "screenSize": {
+          "value": 6.78,
+          "unit": "inch",
+          "rawText": "屏幕尺寸 6.78英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113956/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:48.876Z",
+          "sourceSnapshotHash": "3740f6269157424deb2945becbfc7475d654440c866b025d57b710848575ec9b"
+        },
+        "displayType": {
+          "value": "AMOLED",
+          "rawText": "屏幕材质 AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113956/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:48.876Z",
+          "sourceSnapshotHash": "3740f6269157424deb2945becbfc7475d654440c866b025d57b710848575ec9b"
+        },
+        "resolution": {
+          "value": "2800x1260px",
+          "rawText": "分辨率 2800x1260px",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113956/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:48.876Z",
+          "sourceSnapshotHash": "3740f6269157424deb2945becbfc7475d654440c866b025d57b710848575ec9b"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "屏幕刷新率 144Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113956/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:48.876Z",
+          "sourceSnapshotHash": "3740f6269157424deb2945becbfc7475d654440c866b025d57b710848575ec9b"
+        },
+        "weight": {
+          "value": 206,
+          "unit": "g",
+          "rawText": "重量 206g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113956/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:48.876Z",
+          "sourceSnapshotHash": "3740f6269157424deb2945becbfc7475d654440c866b025d57b710848575ec9b"
+        },
+        "batteryCapacity": {
+          "value": 6100,
+          "unit": "mAh",
+          "rawText": "电池容量 6100mAh 大电池",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113956/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:48.876Z",
+          "sourceSnapshotHash": "3740f6269157424deb2945becbfc7475d654440c866b025d57b710848575ec9b"
+        },
+        "port": {
+          "value": "USB Type-C接口",
+          "rawText": "机身接口 USB Type-C接口",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113956/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:48.876Z",
+          "sourceSnapshotHash": "3740f6269157424deb2945becbfc7475d654440c866b025d57b710848575ec9b"
+        },
+        "wifi": {
+          "value": "三频Wi-Fi：支持WLAN 2.4G;WLAN 5.1G;WLAN 5.8G频率；支持Wi-Fi 6;Wi-Fi 7",
+          "rawText": "WLAN功能 三频Wi-Fi：支持WLAN 2.4G;WLAN 5.1G;WLAN 5.8G频率；支持Wi-Fi 6;Wi-Fi 7",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113956/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:48.876Z",
+          "sourceSnapshotHash": "3740f6269157424deb2945becbfc7475d654440c866b025d57b710848575ec9b"
+        },
+        "bluetooth": {
+          "value": "蓝牙5.4，支持 SBC;AAC;aptX;aptX HD;LDAC;LHDC 5.0",
+          "rawText": "蓝牙 蓝牙5.4，支持 SBC;AAC;aptX;aptX HD;LDAC;LHDC 5.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113956/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:48.876Z",
+          "sourceSnapshotHash": "3740f6269157424deb2945becbfc7475d654440c866b025d57b710848575ec9b"
+        },
+        "rearCamera": {
+          "value": "后置摄像头1：5000万像素 后置摄像头2：5000万像素",
+          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：5000万像素 前置摄像头1：1600万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113956/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:48.876Z",
+          "sourceSnapshotHash": "3740f6269157424deb2945becbfc7475d654440c866b025d57b710848575ec9b"
+        },
+        "frontCamera": {
+          "value": "前置摄像头1：1600万像素",
+          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：5000万像素 前置摄像头1：1600万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113956/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:48.876Z",
+          "sourceSnapshotHash": "3740f6269157424deb2945becbfc7475d654440c866b025d57b710848575ec9b"
+        },
+        "memoryType": {
+          "value": "LPDDR5X Ultra 四通道",
+          "rawText": "RAM类型 LPDDR5X Ultra 四通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo10pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:35.344Z",
+          "sourceSnapshotHash": "91fe87e1f70f74f572b9326b5dce296ad13f8311df2a949c11355d3b16e50ba4"
+        },
+        "storageType": {
+          "value": "UFS4.1",
+          "rawText": "ROM类型 UFS4.1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo10pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:35.344Z",
+          "sourceSnapshotHash": "91fe87e1f70f74f572b9326b5dce296ad13f8311df2a949c11355d3b16e50ba4"
+        },
+        "chargingMethod": {
+          "value": "120W超快闪充，支持最大输入充电规格20V/6A，兼容20V/5A，20V/3A，11V/5A、11V/4A、11V/3A、9V/1.3A或5V/2A",
+          "rawText": "充电规格 120W超快闪充，支持最大输入充电规格20V/6A，兼容20V/5A，20V/3A，11V/5A、11V/4A、11V/3A、9V/1.3A或5V/2A",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo10pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:35.344Z",
+          "sourceSnapshotHash": "91fe87e1f70f74f572b9326b5dce296ad13f8311df2a949c11355d3b16e50ba4"
+        },
+        "security": {
+          "value": "超声波3D指纹 面部识别 Face Wake面部识别",
+          "rawText": "指纹识别 超声波3D指纹 面部识别 Face Wake面部识别",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo10pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:35.344Z",
+          "sourceSnapshotHash": "91fe87e1f70f74f572b9326b5dce296ad13f8311df2a949c11355d3b16e50ba4"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqooneo10pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:17:35.344Z",
+          "sourceSnapshotHash": "91fe87e1f70f74f572b9326b5dce296ad13f8311df2a949c11355d3b16e50ba4"
+        },
+        "operatingSystem": {
+          "value": "OriginOS 5",
+          "rawText": "操作系统 OriginOS 5",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113956/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:48.876Z",
+          "sourceSnapshotHash": "3740f6269157424deb2945becbfc7475d654440c866b025d57b710848575ec9b"
+        },
+        "sim": {
+          "value": "双卡（Nano SIM卡）",
+          "rawText": "SIM卡类型 双卡（Nano SIM卡）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2114/2113956/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:11:48.876Z",
+          "sourceSnapshotHash": "3740f6269157424deb2945becbfc7475d654440c866b025d57b710848575ec9b"
+        }
+      },
+      "computed": {}
+    }
+  ]
+}

@@ -1,0 +1,1428 @@
+{
+  "watch": [
+    {
+      "id": "honor-watch-fit-2025",
+      "modelName": "荣耀手表 Fit 活力版",
+      "generation": "2025",
+      "releaseYear": 2025,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2025",
+        "rawText": "荣耀手表 Fit 正式发布",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/856/695.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-06",
+        "fetchedAt": "2026-10-06T15:35:50.242Z",
+        "sourceSnapshotHash": "26d9e192c6149f1155b9544515266ade68f042ce67af5b13c1bd329dd7aaec8c"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/2130/2129139/param.shtml",
+        "https://www.ithome.com/0/856/695.htm",
+        "https://detail.zol.com.cn/GPSwatch/index2129139.shtml"
+      ],
+      "fieldGaps": [
+        {
+          "field": "compatibility",
+          "reason": "本型号原页未提供可明确归属的参数；不借同系列或其他版本填补"
+        }
+      ],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2a.zol-img.com.cn/product/272_320x240/618/ce9AyZ4pMIBHY.jpg",
+          "alt": "荣耀手表Fit 活力版",
+          "modelName": "荣耀手表 Fit 活力版",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index2129139.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-06T15:35:50.467Z",
+          "sourceSnapshotHash": "cfbb56dce79c0d74929b22d01799967c4ea5eec77851088868d7e463e7feb86e",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "honor-watch-gs-3-2022",
+      "modelName": "荣耀手表 GS 3（竞速先锋）",
+      "generation": "2022",
+      "releaseYear": 2022,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2022",
+        "rawText": "荣耀首款高端智能手表 GS 3 于 1 月 10 日发布",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/598/478.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:49:03.102Z",
+        "sourceSnapshotHash": "dd94b9647165ea5731ec163b6c6359319ebae48442c910f3cdf39841cfc1e918"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1395/1394395/param.shtml",
+        "https://www.ithome.com/0/598/478.htm",
+        "https://detail.zol.com.cn/GPSwatch/index1394395.shtml"
+      ],
+      "fieldGaps": [],
+      "excludedFields": [
+        {
+          "field": "dimensions",
+          "reason": "45.9*5.9*10.5mm明显缺位，保留原文证据但撤下展示，不猜测修复",
+          "rejectedEvidence": {
+            "value": "45.9*5.9*10.5mm",
+            "rawText": "45.9*5.9*10.5mm",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1395/1394395/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-07",
+            "fetchedAt": "2026-10-07T07:24:05.919Z",
+            "sourceSnapshotHash": "fc53051a6cf67a0bf71657c10e18206c6d0430c274ed523dd0b2fe2315b771c3"
+          },
+          "conflictEvidence": {
+            "value": "45.9*5.9*10.5mm",
+            "rawText": "45.9*5.9*10.5mm",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1395/1394395/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-07",
+            "fetchedAt": "2026-10-07T07:24:05.919Z",
+            "sourceSnapshotHash": "fc53051a6cf67a0bf71657c10e18206c6d0430c274ed523dd0b2fe2315b771c3"
+          }
+        }
+      ],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2f.zol-img.com.cn/product/220_320x240/151/cec44RTewFY.jpg",
+          "alt": "荣耀手表 GS 3（竞速先锋）",
+          "modelName": "荣耀手表 GS 3（竞速先锋）",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index1394395.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:25.237Z",
+          "sourceSnapshotHash": "40a512d5beec35ee0ba5cb42893dbde275e1df5c91f211afc471440332808daa",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "honor-watch-gs-3-leather-2022",
+      "modelName": "荣耀手表 GS 3（环球远航）",
+      "generation": "2022",
+      "releaseYear": 2022,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2022",
+        "rawText": "荣耀首款高端智能手表 GS 3 于 1 月 10 日发布",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/598/478.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:49:03.102Z",
+        "sourceSnapshotHash": "dd94b9647165ea5731ec163b6c6359319ebae48442c910f3cdf39841cfc1e918"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1397/1396507/param.shtml",
+        "https://www.ithome.com/0/598/478.htm",
+        "https://detail.zol.com.cn/GPSwatch/index1396507.shtml"
+      ],
+      "fieldGaps": [],
+      "excludedFields": [
+        {
+          "field": "wearableChip",
+          "reason": "第三方将处理器写作Apple 4，疑似拼写错误；没有本版本补充证据时撤下，不推定为其他芯片",
+          "rejectedEvidence": {
+            "value": "Apple 4",
+            "rawText": "Apple 4",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1397/1396507/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-07",
+            "fetchedAt": "2026-10-07T07:25:58.694Z",
+            "sourceSnapshotHash": "bc984f2e3eb09c927a537e61501e607f45796247ef360f7197f06a9c91629a92"
+          },
+          "conflictEvidence": {
+            "value": "Apple 4",
+            "rawText": "Apple 4",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1397/1396507/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-07",
+            "fetchedAt": "2026-10-07T07:25:58.694Z",
+            "sourceSnapshotHash": "bc984f2e3eb09c927a537e61501e607f45796247ef360f7197f06a9c91629a92"
+          }
+        },
+        {
+          "field": "dimensions",
+          "reason": "45.9*5.9*10.5mm明显缺位，保留原文证据但撤下展示，不猜测修复",
+          "rejectedEvidence": {
+            "value": "45.9*5.9*10.5mm",
+            "rawText": "45.9*5.9*10.5mm",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1397/1396507/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-07",
+            "fetchedAt": "2026-10-07T07:25:58.694Z",
+            "sourceSnapshotHash": "bc984f2e3eb09c927a537e61501e607f45796247ef360f7197f06a9c91629a92"
+          },
+          "conflictEvidence": {
+            "value": "45.9*5.9*10.5mm",
+            "rawText": "45.9*5.9*10.5mm",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1397/1396507/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-07",
+            "fetchedAt": "2026-10-07T07:25:58.694Z",
+            "sourceSnapshotHash": "bc984f2e3eb09c927a537e61501e607f45796247ef360f7197f06a9c91629a92"
+          }
+        }
+      ],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2a.zol-img.com.cn/product/221_320x240/336/ceElEzWxWOtA.jpg",
+          "alt": "荣耀手表 GS 3（环球远航）",
+          "modelName": "荣耀手表 GS 3（环球远航）",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index1396507.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:25.304Z",
+          "sourceSnapshotHash": "79044ed5026472131be126a3b9a0bbc4b9ae27f85950d7e23fe0cc814b59a400",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "honor-watch-gs-3i-2023",
+      "modelName": "荣耀手表 GS 3i（运动版/黑色氟橡胶表带）",
+      "generation": "2023",
+      "releaseYear": 2023,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2023",
+        "rawText": "荣耀手表 GS 3i 于今日正式发布",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/677/757.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:55:25.375Z",
+        "sourceSnapshotHash": "3bb44d5055e826a281ff9451fedbb429d22cf3f156ab098088756f8291d882fd"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1467/1466626/param.shtml",
+        "https://www.ithome.com/0/677/757.htm",
+        "https://detail.zol.com.cn/GPSwatch/index1466626.shtml"
+      ],
+      "fieldGaps": [
+        {
+          "field": "batteryLife",
+          "reason": "本型号原页未提供可明确归属的参数；不借同系列或其他版本填补"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "本型号原页未提供可明确归属的参数；不借同系列或其他版本填补"
+        },
+        {
+          "field": "compatibility",
+          "reason": "本型号原页未提供可明确归属的参数；不借同系列或其他版本填补"
+        }
+      ],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2a.zol-img.com.cn/product/229_320x240/486/ceyWIR8zW7mIw.jpg",
+          "alt": "荣耀手表 GS 3i（运动版/黑色氟橡胶表带）",
+          "modelName": "荣耀手表 GS 3i（运动版/黑色氟橡胶表带）",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index1466626.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:26.165Z",
+          "sourceSnapshotHash": "f71cc9bebdfe550c52742a758ef896e74e4c93852299213255b445bce6e60b15",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "honor-watch-gs-3i-leather-2023",
+      "modelName": "荣耀手表 GS 3i（时尚版/棕色真皮表带）",
+      "generation": "2023",
+      "releaseYear": 2023,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2023",
+        "rawText": "荣耀手表 GS 3i 于今日正式发布",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/677/757.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:55:25.375Z",
+        "sourceSnapshotHash": "3bb44d5055e826a281ff9451fedbb429d22cf3f156ab098088756f8291d882fd"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1467/1466627/param.shtml",
+        "https://www.ithome.com/0/677/757.htm",
+        "https://detail.zol.com.cn/GPSwatch/index1466627.shtml"
+      ],
+      "fieldGaps": [
+        {
+          "field": "batteryLife",
+          "reason": "本型号原页未提供可明确归属的参数；不借同系列或其他版本填补"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "本型号原页未提供可明确归属的参数；不借同系列或其他版本填补"
+        },
+        {
+          "field": "compatibility",
+          "reason": "本型号原页未提供可明确归属的参数；不借同系列或其他版本填补"
+        }
+      ],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2b.zol-img.com.cn/product/229_320x240/487/ce2BfZ3klSbf6.jpg",
+          "alt": "荣耀手表 GS 3i（时尚版/棕色真皮表带）",
+          "modelName": "荣耀手表 GS 3i（时尚版/棕色真皮表带）",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index1466627.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:26.258Z",
+          "sourceSnapshotHash": "5f6774d1b698855eb33aef8d0aaaee9048fb77792cd7d145c074d4a3bec9ae60",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "honor-watch-4-2023",
+      "modelName": "荣耀手表4",
+      "generation": "2023",
+      "releaseYear": 2023,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2023",
+        "rawText": "荣耀手表 4 正式发布",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/705/443.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:49:03.113Z",
+        "sourceSnapshotHash": "b9bfe231b5e220bc8e11d7de8efd124c8b4f131459566b3de262b2e878dacd16"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1795/1794992/param.shtml",
+        "https://www.ithome.com/0/705/443.htm",
+        "https://detail.zol.com.cn/GPSwatch/index1794992.shtml"
+      ],
+      "fieldGaps": [],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2b.zol-img.com.cn/product/248_320x240/225/ceG5JReHPPq6.jpg",
+          "alt": "荣耀手表4",
+          "modelName": "荣耀手表4",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index1794992.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:26.956Z",
+          "sourceSnapshotHash": "e46bd6070c02c9b0c5d23a995feb258a120c5d1529c82a8293e0fe8f039d5afc",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "honor-watch-4-pro-2023",
+      "modelName": "荣耀手表4 Pro",
+      "generation": "2023",
+      "releaseYear": 2023,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2023",
+        "rawText": "荣耀正式推出了全新的荣耀手表 4 Pro",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/724/567.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:49:03.157Z",
+        "sourceSnapshotHash": "acfb67ee6d01d9a17a75621dfe477d737cb38463aceb5c3bb1ec8540c43f7c0b"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1922/1921031/param.shtml",
+        "https://www.ithome.com/0/724/567.htm",
+        "https://detail.zol.com.cn/GPSwatch/index1921031.shtml"
+      ],
+      "fieldGaps": [],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2e.zol-img.com.cn/product/253_320x240/516/ceLx0hrYM866U.png",
+          "alt": "荣耀手表4 Pro",
+          "modelName": "荣耀手表4 Pro",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index1921031.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:27.736Z",
+          "sourceSnapshotHash": "fc3b6948cc5ce2ca25b4a641dbc9c940b4d834741f8811c4d98ad8aee4cc35ff",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "honor-watch-5-2024",
+      "modelName": "荣耀手表5",
+      "generation": "2024",
+      "releaseYear": 2024,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2024",
+        "rawText": "荣耀手表 5 今晚正式发布",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/806/544.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:49:03.162Z",
+        "sourceSnapshotHash": "054801467fdac75a28b348a3106117747660ddf1c2251a9fc813363fac563a8f"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/2113/2112195/param.shtml",
+        "https://www.ithome.com/0/806/544.htm",
+        "https://detail.zol.com.cn/GPSwatch/index2112195.shtml"
+      ],
+      "fieldGaps": [
+        {
+          "field": "batteryLife",
+          "reason": "本型号原页未提供可明确归属的参数；不借同系列或其他版本填补"
+        }
+      ],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2e.zol-img.com.cn/product/270_320x240/124/ceY5pxb2f9t.jpg",
+          "alt": "荣耀手表5",
+          "modelName": "荣耀手表5",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index2112195.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:27.767Z",
+          "sourceSnapshotHash": "a8b22e5f8d15824ff830c30d36151a202a720ebf5fc9717098e2f7f925d95028",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "honor-watch-6-plus-2026",
+      "modelName": "荣耀手表6 Plus(标准版/暗影黑)",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2026",
+        "rawText": "荣耀手表 6 Plus 今晚发布",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/955/024.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:49:03.215Z",
+        "sourceSnapshotHash": "891ad166841df2015a30b4b3bd228acd97905c9226d7c8a89c0723bdff855e25"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/2168/2167393/param.shtml",
+        "https://www.ithome.com/0/955/024.htm",
+        "https://detail.zol.com.cn/GPSwatch/index2167393.shtml",
+        "https://detail.zol.com.cn/GPSwatch/index2167393.shtml",
+        "https://detail.zol.com.cn/GPSwatch/index2167394.shtml",
+        "https://detail.zol.com.cn/GPSwatch/index2167395.shtml",
+        "https://detail.zol.com.cn/GPSwatch/index2167396.shtml"
+      ],
+      "fieldGaps": [
+        {
+          "field": "displayType",
+          "reason": "本型号原页未提供可明确归属的参数；不借同系列或其他版本填补"
+        }
+      ],
+      "excludedFields": [
+        {
+          "field": "displayType",
+          "reason": "来源之间存在AMOLED/LTPS冲突，未完成官方核验前不展示屏幕类型",
+          "rejectedEvidence": {
+            "value": "AMOLED",
+            "rawText": "AMOLED",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2168/2167393/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-07",
+            "fetchedAt": "2026-10-07T07:25:57.930Z",
+            "sourceSnapshotHash": "2a086518c0c8c17aa6c139410228ae0f4f223f1c4af59664ad5de059274fffdd"
+          },
+          "conflictEvidence": {
+            "value": "AMOLED",
+            "rawText": "AMOLED",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2168/2167393/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-07",
+            "fetchedAt": "2026-10-07T07:25:57.930Z",
+            "sourceSnapshotHash": "2a086518c0c8c17aa6c139410228ae0f4f223f1c4af59664ad5de059274fffdd"
+          }
+        }
+      ],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2f.zol-img.com.cn/product/275_320x240/83/ceYqwZym7GErE.png",
+          "alt": "荣耀手表6 Plus(标准版/暗影黑)",
+          "modelName": "荣耀手表6 Plus(标准版/暗影黑)",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index2167393.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:28.495Z",
+          "sourceSnapshotHash": "6f5180de389286205834c7d7d6fe1989105f85748b4cf87efccc61f557fe1fe1",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown",
+        "colors": [
+          {
+            "name": "暗影黑",
+            "image": {
+              "url": "https://2f.zol-img.com.cn/product/275_320x240/83/ceYqwZym7GErE.png",
+              "alt": "荣耀手表6 Plus(标准版/暗影黑)",
+              "modelName": "荣耀手表6 Plus(标准版/暗影黑)",
+              "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index2167393.shtml",
+              "sourceName": "中关村在线",
+              "fetchedAt": "2026-10-07T07:55:28.495Z",
+              "sourceSnapshotHash": "6f5180de389286205834c7d7d6fe1989105f85748b4cf87efccc61f557fe1fe1",
+              "licenseStatus": "unknown"
+            }
+          },
+          {
+            "name": "赛装灰",
+            "image": {
+              "url": "https://2e.zol-img.com.cn/product/275_320x240/94/ceK8MQhZ1qPhM.png",
+              "alt": "荣耀手表6 Plus(标准版/赛装灰)",
+              "modelName": "荣耀手表6 Plus(标准版/暗影黑)",
+              "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index2167394.shtml",
+              "sourceName": "中关村在线",
+              "fetchedAt": "2026-10-07T08:49:29.489Z",
+              "sourceSnapshotHash": "d3767601db807d9ea0a85c0b56c79ca949021c2a0cdb48eab40fce691ed21a33",
+              "licenseStatus": "unknown"
+            }
+          },
+          {
+            "name": "暮光棕",
+            "image": {
+              "url": "https://2a.zol-img.com.cn/product/275_320x240/84/cedNJJ5YZHH4k.png",
+              "alt": "荣耀手表6 Plus(标准版/暮光棕)",
+              "modelName": "荣耀手表6 Plus(标准版/暗影黑)",
+              "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index2167395.shtml",
+              "sourceName": "中关村在线",
+              "fetchedAt": "2026-10-07T08:49:29.589Z",
+              "sourceSnapshotHash": "1bcf46cac5d9ce350f781825909b6f54d887c6319672dd08f5dd2308c0af49a8",
+              "licenseStatus": "unknown"
+            }
+          },
+          {
+            "name": "飞驰蓝",
+            "image": {
+              "url": "https://2a.zol-img.com.cn/product/275_320x240/96/ceWuNYBHitDUE.png",
+              "alt": "荣耀手表6 Plus(标准版/飞驰蓝)",
+              "modelName": "荣耀手表6 Plus(标准版/暗影黑)",
+              "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index2167396.shtml",
+              "sourceName": "中关村在线",
+              "fetchedAt": "2026-10-07T08:49:29.662Z",
+              "sourceSnapshotHash": "ac6dcf2eb4f6091697186670ee32e1d8d638162377a208923bbc1a0bbe476e77",
+              "licenseStatus": "unknown"
+            }
+          }
+        ]
+      },
+      "category": "watch"
+    },
+    {
+      "id": "honor-watch-6-plus-yuanqi-2026",
+      "modelName": "荣耀手表6 Plus(元气版/暗影黑)",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2026",
+        "rawText": "荣耀手表 6 Plus 今晚发布",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/955/024.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:49:03.215Z",
+        "sourceSnapshotHash": "891ad166841df2015a30b4b3bd228acd97905c9226d7c8a89c0723bdff855e25"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/2168/2167397/param.shtml",
+        "https://www.ithome.com/0/955/024.htm",
+        "https://detail.zol.com.cn/GPSwatch/index2167397.shtml"
+      ],
+      "fieldGaps": [
+        {
+          "field": "displayType",
+          "reason": "本型号原页未提供可明确归属的参数；不借同系列或其他版本填补"
+        }
+      ],
+      "excludedFields": [
+        {
+          "field": "displayType",
+          "reason": "来源之间存在AMOLED/LTPS冲突，未完成官方核验前不展示屏幕类型",
+          "rejectedEvidence": {
+            "value": "AMOLED",
+            "rawText": "AMOLED",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2168/2167397/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-07",
+            "fetchedAt": "2026-10-07T07:25:58.197Z",
+            "sourceSnapshotHash": "091755e6376ab58c9d17daeff3fa2559a9855efaf85eccc5e141e72722a5d24a"
+          },
+          "conflictEvidence": {
+            "value": "AMOLED",
+            "rawText": "AMOLED",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2168/2167397/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-07",
+            "fetchedAt": "2026-10-07T07:25:58.197Z",
+            "sourceSnapshotHash": "091755e6376ab58c9d17daeff3fa2559a9855efaf85eccc5e141e72722a5d24a"
+          }
+        }
+      ],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2f.zol-img.com.cn/product/275_320x240/95/cenW1vcWLR26.png",
+          "alt": "荣耀手表6 Plus(元气版/暗影黑)",
+          "modelName": "荣耀手表6 Plus(元气版/暗影黑)",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index2167397.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:28.571Z",
+          "sourceSnapshotHash": "053f20afbaea58cccdec7b0c4b80006850238adf0b38dec630b4fcd8fae60e0c",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "honor-watch-6-pro-2026",
+      "modelName": "荣耀手表6 Pro 标准版",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2026",
+        "rawText": "荣耀正式发布荣耀手表 6 Pro",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/1/007/864.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:49:03.185Z",
+        "sourceSnapshotHash": "2351f10a9615b6e58de2a7f3ddd1714c8d44087f1e2c308f21b3251815a58a6b"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/2180/2179012/param.shtml",
+        "https://www.ithome.com/1/007/864.htm",
+        "https://detail.zol.com.cn/GPSwatch/index2179012.shtml"
+      ],
+      "fieldGaps": [],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2f.zol-img.com.cn/product/276_320x240/601/ce7A267gMRN3s.png",
+          "alt": "荣耀手表6 Pro 标准版",
+          "modelName": "荣耀手表6 Pro 标准版",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index2179012.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:28.625Z",
+          "sourceSnapshotHash": "97fa8d94b7a489f6b44f39c8ab3b363f35fe70f65f4a4dfc325045816d16d27f",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "honor-watch-5-pro-bluetooth-2025",
+      "modelName": "荣耀手表5 Pro 蓝牙版",
+      "generation": "2025",
+      "releaseYear": 2025,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2025",
+        "rawText": "推出荣耀手表 5 Pro",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/889/760.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T08:19:37.200Z",
+        "sourceSnapshotHash": "d5a0c156984407f760ad995ffa030d6c481ead7589b352fc167ba6dbc1f2d747"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/2145/2144663/param.shtml",
+        "https://www.ithome.com/0/889/760.htm",
+        "https://detail.zol.com.cn/GPSwatch/index2144663.shtml",
+        "https://www.honor.com/cn/wearables/honor-watch-5-pro/spec/"
+      ],
+      "fieldGaps": [],
+      "excludedFields": [
+        {
+          "field": "cellular",
+          "reason": "参数页存在尺寸/版本或类型混用；保留可确认的对应发布原文，未核实部分留空。",
+          "rejectedEvidence": {
+            "value": "支持 ，eSIM卡",
+            "rawText": "支持 ，eSIM卡",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2145/2144663/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-07",
+            "fetchedAt": "2026-10-07T07:25:58.093Z",
+            "sourceSnapshotHash": "b09dc4c2c620785023cfb618ba290e45d6e4433602f6ab23eb2cb0a054374c3a"
+          },
+          "conflictEvidence": {
+            "value": "支持 ，eSIM卡",
+            "rawText": "支持 ，eSIM卡",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/2145/2144663/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-07",
+            "fetchedAt": "2026-10-07T07:25:58.093Z",
+            "sourceSnapshotHash": "b09dc4c2c620785023cfb618ba290e45d6e4433602f6ab23eb2cb0a054374c3a"
+          }
+        }
+      ],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2f.zol-img.com.cn/product/273_320x240/449/ceKcnhJwnjIn.jpg",
+          "alt": "荣耀手表5 Pro 蓝牙版",
+          "modelName": "荣耀手表5 Pro 蓝牙版",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index2144663.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T08:25:07.415Z",
+          "sourceSnapshotHash": "33f220ed13c0d9d20173e3b2bf826b3047d425689e488bf2f3cef6226b9e394c",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "honor-watch-5-ultra-2025",
+      "modelName": "荣耀手表5 Ultra",
+      "generation": "2025",
+      "releaseYear": 2025,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2025",
+        "rawText": "荣耀手表 5 Ultra 今日晚正式发布",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/865/368.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T08:19:37.236Z",
+        "sourceSnapshotHash": "ed83bd42cc0b23a61551b7f174afb66f4af821538dbcc13745b7767412bb0070"
+      },
+      "referenceUrls": [
+        "https://www.honor.com/cn/wearables/honor-watch-5-ultra/spec/",
+        "https://www.ithome.com/0/865/368.htm"
+      ],
+      "fieldGaps": [],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "name": "纵横家",
+          "url": "https://www-file.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-5-ultra/cn/honor-watch-5-ultra-yin-spec.png",
+          "alt": "荣耀手表5 Ultra",
+          "modelName": "荣耀手表5 Ultra",
+          "sourceUrl": "https://www.honor.com/cn/wearables/honor-watch-5-ultra/spec/",
+          "sourceName": "HONOR 中国官网",
+          "fetchedAt": "2026-10-07T08:22:40.805Z",
+          "sourceSnapshotHash": "4086ee10b388c223522af5f682ae961b76a5a30cefac27bf435fcdd6d5037619",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown",
+        "colors": [
+          {
+            "name": "纵横家",
+            "image": {
+              "name": "纵横家",
+              "url": "https://www-file.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-5-ultra/cn/honor-watch-5-ultra-yin-spec.png",
+              "alt": "荣耀手表5 Ultra",
+              "modelName": "荣耀手表5 Ultra",
+              "sourceUrl": "https://www.honor.com/cn/wearables/honor-watch-5-ultra/spec/",
+              "sourceName": "HONOR 中国官网",
+              "fetchedAt": "2026-10-07T08:22:40.805Z",
+              "sourceSnapshotHash": "4086ee10b388c223522af5f682ae961b76a5a30cefac27bf435fcdd6d5037619",
+              "licenseStatus": "unknown"
+            }
+          },
+          {
+            "name": "指挥官",
+            "image": {
+              "name": "指挥官",
+              "url": "https://www-file.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-5-ultra/cn/honor-watch-5-ultra-zong-spec.png",
+              "alt": "荣耀手表5 Ultra",
+              "modelName": "荣耀手表5 Ultra",
+              "sourceUrl": "https://www.honor.com/cn/wearables/honor-watch-5-ultra/spec/",
+              "sourceName": "HONOR 中国官网",
+              "fetchedAt": "2026-10-07T08:22:40.805Z",
+              "sourceSnapshotHash": "4086ee10b388c223522af5f682ae961b76a5a30cefac27bf435fcdd6d5037619",
+              "licenseStatus": "unknown"
+            }
+          },
+          {
+            "name": "极速者",
+            "image": {
+              "name": "极速者",
+              "url": "https://www-file.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-5-ultra/cn/honor-watch-5-ultra-hei-spec.png",
+              "alt": "荣耀手表5 Ultra",
+              "modelName": "荣耀手表5 Ultra",
+              "sourceUrl": "https://www.honor.com/cn/wearables/honor-watch-5-ultra/spec/",
+              "sourceName": "HONOR 中国官网",
+              "fetchedAt": "2026-10-07T08:22:40.805Z",
+              "sourceSnapshotHash": "4086ee10b388c223522af5f682ae961b76a5a30cefac27bf435fcdd6d5037619",
+              "licenseStatus": "unknown"
+            }
+          }
+        ]
+      },
+      "category": "watch"
+    },
+    {
+      "id": "honor-watch-x5i-2026",
+      "modelName": "荣耀手表 X5i",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2026",
+        "rawText": "荣耀手表 X5i 今日开启预售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/927/721.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T08:33:36.894Z",
+        "sourceSnapshotHash": "2c68a250cf7638ad7f4b350c8b9a094562d4f69fb8706809fb7115c7987b1d91"
+      },
+      "referenceUrls": [
+        "https://www.honor.com/cn/wearables/honor-watch-x5i/spec/",
+        "https://www.ithome.com/0/927/721.htm"
+      ],
+      "fieldGaps": [],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "name": "幻夜黑",
+          "url": "https://www-file.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-x5i/honor-watch-x5i-b-spec.png",
+          "alt": "荣耀手表 X5i",
+          "modelName": "荣耀手表 X5i",
+          "sourceUrl": "https://www.honor.com/cn/wearables/honor-watch-x5i/spec/",
+          "sourceName": "HONOR 中国官网",
+          "fetchedAt": "2026-10-07T08:33:36.768Z",
+          "sourceSnapshotHash": "ada07141bbfb81913495a53102338f40207bcccec1d49e025f3b94a1a4b38592",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown",
+        "colors": [
+          {
+            "name": "幻夜黑",
+            "image": {
+              "name": "幻夜黑",
+              "url": "https://www-file.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-x5i/honor-watch-x5i-b-spec.png",
+              "alt": "荣耀手表 X5i",
+              "modelName": "荣耀手表 X5i",
+              "sourceUrl": "https://www.honor.com/cn/wearables/honor-watch-x5i/spec/",
+              "sourceName": "HONOR 中国官网",
+              "fetchedAt": "2026-10-07T08:33:36.768Z",
+              "sourceSnapshotHash": "ada07141bbfb81913495a53102338f40207bcccec1d49e025f3b94a1a4b38592",
+              "licenseStatus": "unknown"
+            }
+          },
+          {
+            "name": "星光白",
+            "image": {
+              "name": "星光白",
+              "url": "https://www-file.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-x5i/honor-watch-x5i-w-spec.png",
+              "alt": "荣耀手表 X5i",
+              "modelName": "荣耀手表 X5i",
+              "sourceUrl": "https://www.honor.com/cn/wearables/honor-watch-x5i/spec/",
+              "sourceName": "HONOR 中国官网",
+              "fetchedAt": "2026-10-07T08:33:36.768Z",
+              "sourceSnapshotHash": "ada07141bbfb81913495a53102338f40207bcccec1d49e025f3b94a1a4b38592",
+              "licenseStatus": "unknown"
+            }
+          },
+          {
+            "name": "幻夜黑（线下版）",
+            "image": {
+              "name": "幻夜黑（线下版）",
+              "url": "https://www-file.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-x5i/honor-watch-x5i-b-spec-xianxia.png",
+              "alt": "荣耀手表 X5i",
+              "modelName": "荣耀手表 X5i",
+              "sourceUrl": "https://www.honor.com/cn/wearables/honor-watch-x5i/spec/",
+              "sourceName": "HONOR 中国官网",
+              "fetchedAt": "2026-10-07T08:33:36.768Z",
+              "sourceSnapshotHash": "ada07141bbfb81913495a53102338f40207bcccec1d49e025f3b94a1a4b38592",
+              "licenseStatus": "unknown"
+            }
+          },
+          {
+            "name": "星光白（线下版）",
+            "image": {
+              "name": "星光白（线下版）",
+              "url": "https://www-file.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-x5i/honor-watch-x5i-w-spec-xianxia.png",
+              "alt": "荣耀手表 X5i",
+              "modelName": "荣耀手表 X5i",
+              "sourceUrl": "https://www.honor.com/cn/wearables/honor-watch-x5i/spec/",
+              "sourceName": "HONOR 中国官网",
+              "fetchedAt": "2026-10-07T08:33:36.768Z",
+              "sourceSnapshotHash": "ada07141bbfb81913495a53102338f40207bcccec1d49e025f3b94a1a4b38592",
+              "licenseStatus": "unknown"
+            }
+          }
+        ]
+      },
+      "category": "watch"
+    },
+    {
+      "id": "honor-watch-gs5-2026",
+      "modelName": "荣耀手表 GS 5",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2026",
+        "rawText": "全新 荣耀 手表 GS 5 正式发布",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://club.honor.com/cn/thread-29997051-1-1.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T08:29:25.856Z",
+        "sourceSnapshotHash": "296831c4bbf86ee87946304ac6408bb642d94428098da5615ca226753500e53d"
+      },
+      "referenceUrls": [
+        "https://www.honor.com/cn/wearables/honor-watch-gs-5/spec/",
+        "https://club.honor.com/cn/thread-29997051-1-1.html"
+      ],
+      "fieldGaps": [],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "name": "卡其色",
+          "url": "https://www-file.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-gs-5/honor-watch-gs-5-gold-spec.png",
+          "alt": "卡其色",
+          "modelName": "荣耀手表 GS 5",
+          "sourceUrl": "https://www.honor.com/cn/wearables/honor-watch-gs-5/spec/",
+          "sourceName": "HONOR 中国官网",
+          "fetchedAt": "2026-10-07T08:33:37.169Z",
+          "sourceSnapshotHash": "c5cb7ff7594624f0c9e855823a9fbad51ee954494163ed2833e456bce59c067a",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown",
+        "colors": [
+          {
+            "name": "卡其色",
+            "image": {
+              "name": "卡其色",
+              "url": "https://www-file.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-gs-5/honor-watch-gs-5-gold-spec.png",
+              "alt": "卡其色",
+              "modelName": "荣耀手表 GS 5",
+              "sourceUrl": "https://www.honor.com/cn/wearables/honor-watch-gs-5/spec/",
+              "sourceName": "HONOR 中国官网",
+              "fetchedAt": "2026-10-07T08:33:37.169Z",
+              "sourceSnapshotHash": "c5cb7ff7594624f0c9e855823a9fbad51ee954494163ed2833e456bce59c067a",
+              "licenseStatus": "unknown"
+            }
+          },
+          {
+            "name": "黑色",
+            "image": {
+              "name": "黑色",
+              "url": "https://www-file.honor.com/content/dam/honor/common/product-list/wearables/product-series/honor-watch-gs-5/honor-watch-gs-5-black-spec.png",
+              "alt": "黑色",
+              "modelName": "荣耀手表 GS 5",
+              "sourceUrl": "https://www.honor.com/cn/wearables/honor-watch-gs-5/spec/",
+              "sourceName": "HONOR 中国官网",
+              "fetchedAt": "2026-10-07T08:33:37.169Z",
+              "sourceSnapshotHash": "c5cb7ff7594624f0c9e855823a9fbad51ee954494163ed2833e456bce59c067a",
+              "licenseStatus": "unknown"
+            }
+          }
+        ]
+      },
+      "category": "watch"
+    }
+  ],
+  "band": [
+    {
+      "id": "honor-band-9-2024",
+      "modelName": "荣耀手环9 标准版",
+      "generation": "2024",
+      "releaseYear": 2024,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2024",
+        "rawText": "荣耀手环 9 发布：14 天续航，标准版 249 元 / NFC 版 299 元 - IT之家 首页 IT圈 最会买 设置 日夜间 随系统 浅色 深色 主题色 黑色 投稿 订阅 RSS订阅 收藏IT之家 软媒应用 App客户端 要知App 软媒魔方 业界 手",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/756/521.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-06",
+        "fetchedAt": "2026-10-06T15:29:37.305Z",
+        "sourceSnapshotHash": "1ca4869cfe77541ca98a9c2b6e7abcdc2dee73c6691e7d7017b2a9673f1db35d"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/2004/2003753/param.shtml",
+        "https://www.ithome.com/0/756/521.htm",
+        "https://detail.zol.com.cn/IntelligentBracelet/index2003753.shtml"
+      ],
+      "fieldGaps": [],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2e.zol-img.com.cn/product/262_320x240/418/ceddz3movloFs.jpg",
+          "alt": "荣耀手环9 标准版",
+          "modelName": "荣耀手环9 标准版",
+          "sourceUrl": "https://detail.zol.com.cn/IntelligentBracelet/index2003753.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-06T15:29:38.033Z",
+          "sourceSnapshotHash": "374a8efc8278bb83d0fc58dba35344027d37067841153bd0f3828e9beacf719e",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "band"
+    },
+    {
+      "id": "honor-band-7-2022",
+      "modelName": "荣耀手环 7（标准版）",
+      "generation": "2022",
+      "releaseYear": 2022,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2022",
+        "rawText": "荣耀手环 7 正式发布",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/663/671.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:49:03.384Z",
+        "sourceSnapshotHash": "8925c01b8aed9272cbfc4854a3c2d76667828f95c4f20b89e45158488c96be60"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1439/1438717/param.shtml",
+        "https://www.ithome.com/0/663/671.htm",
+        "https://detail.zol.com.cn/IntelligentBracelet/index1438717.shtml"
+      ],
+      "fieldGaps": [
+        {
+          "field": "resolution",
+          "reason": "本型号原页未提供可明确归属的参数；不借同系列或其他版本填补"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "本型号原页未提供可明确归属的参数；不借同系列或其他版本填补"
+        }
+      ],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2f.zol-img.com.cn/product/225_320x240/763/ceGIekzL0H0cM.jpg",
+          "alt": "荣耀手环 7（标准版）",
+          "modelName": "荣耀手环 7（标准版）",
+          "sourceUrl": "https://detail.zol.com.cn/IntelligentBracelet/index1438717.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:29.143Z",
+          "sourceSnapshotHash": "cd5fa3371b967519fff14687f8eff63ae9534dfbaf3a0a2e65fe9cab1f050f1d",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "band"
+    },
+    {
+      "id": "honor-band-7-nfc-2023",
+      "modelName": "荣耀手环 7（NFC版）",
+      "generation": "2023",
+      "releaseYear": 2023,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2023",
+        "rawText": "该手环今日迎来了 NFC 版",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/677/749.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:49:03.383Z",
+        "sourceSnapshotHash": "0652e34bc7cc5563335c65017c6c12bc5712f7272cb68929465ebe8da3e29265"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1467/1466628/param.shtml",
+        "https://www.ithome.com/0/677/749.htm",
+        "https://detail.zol.com.cn/IntelligentBracelet/index1466628.shtml"
+      ],
+      "fieldGaps": [
+        {
+          "field": "resolution",
+          "reason": "本型号原页未提供可明确归属的参数；不借同系列或其他版本填补"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "本型号原页未提供可明确归属的参数；不借同系列或其他版本填补"
+        }
+      ],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2f.zol-img.com.cn/product/225_320x240/763/ceGIekzL0H0cM.jpg",
+          "alt": "荣耀手环 7（NFC版）",
+          "modelName": "荣耀手环 7（NFC版）",
+          "sourceUrl": "https://detail.zol.com.cn/IntelligentBracelet/index1466628.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:29.676Z",
+          "sourceSnapshotHash": "57817149673d3803e954fa6d422abfb2e6e98252fb9ccc0fe2987ab66fb9855d",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "band"
+    },
+    {
+      "id": "honor-band-9-nfc-2024",
+      "modelName": "荣耀手环9 NFC版",
+      "generation": "2024",
+      "releaseYear": 2024,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2024",
+        "rawText": "荣耀手环 9 发布",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/756/521.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-06",
+        "fetchedAt": "2026-10-06T15:29:37.305Z",
+        "sourceSnapshotHash": "1ca4869cfe77541ca98a9c2b6e7abcdc2dee73c6691e7d7017b2a9673f1db35d"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/2004/2003754/param.shtml",
+        "https://www.ithome.com/0/756/521.htm",
+        "https://detail.zol.com.cn/IntelligentBracelet/index2003754.shtml"
+      ],
+      "fieldGaps": [],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2e.zol-img.com.cn/product/262_320x240/418/ceddz3movloFs.jpg",
+          "alt": "荣耀手环9 NFC版",
+          "modelName": "荣耀手环9 NFC版",
+          "sourceUrl": "https://detail.zol.com.cn/IntelligentBracelet/index2003754.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:29.736Z",
+          "sourceSnapshotHash": "bb777bd7ffc2ae0bf54d47937837b16d2f59345918b803f6c4d947afc3f74a6e",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "band"
+    },
+    {
+      "id": "honor-band-11-2026",
+      "modelName": "荣耀手环11 标准版",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2026",
+        "rawText": "荣耀手环 11 系列现已开启预售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/984/943.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:49:03.409Z",
+        "sourceSnapshotHash": "0a9980014eabb439b73bb50476a4e83bde36f2162ca5f3104584e7610489a032"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/2180/2179009/param.shtml",
+        "https://www.ithome.com/0/984/943.htm",
+        "https://detail.zol.com.cn/IntelligentBracelet/index2179009.shtml"
+      ],
+      "fieldGaps": [],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2d.zol-img.com.cn/product/276_320x240/521/ceUDXNuhVDNjM.jpg",
+          "alt": "荣耀手环11 标准版",
+          "modelName": "荣耀手环11 标准版",
+          "sourceUrl": "https://detail.zol.com.cn/IntelligentBracelet/index2179009.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:29.811Z",
+          "sourceSnapshotHash": "1e3c01c7c195857e266f08a18f157b2e006795fe87a3624949a40d0faa3c88a0",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "band"
+    },
+    {
+      "id": "honor-band-11-pro-2026",
+      "modelName": "荣耀手环11 Pro版 标准",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2026",
+        "rawText": "荣耀手环 11 系列现已开启预售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/984/943.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:49:03.409Z",
+        "sourceSnapshotHash": "0a9980014eabb439b73bb50476a4e83bde36f2162ca5f3104584e7610489a032"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/2180/2179010/param.shtml",
+        "https://www.ithome.com/0/984/943.htm",
+        "https://detail.zol.com.cn/IntelligentBracelet/index2179010.shtml"
+      ],
+      "fieldGaps": [],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2a.zol-img.com.cn/product/276_320x240/560/cejhCtDJdgc.jpg",
+          "alt": "荣耀手环11 Pro版 标准",
+          "modelName": "荣耀手环11 Pro版 标准",
+          "sourceUrl": "https://detail.zol.com.cn/IntelligentBracelet/index2179010.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:30.186Z",
+          "sourceSnapshotHash": "79fdf5e8cabb21befb5e9a95163f6e66a5f9e68c5495adace6944f737eb502f8",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "band"
+    },
+    {
+      "id": "honor-band-11-pro-gps-2026",
+      "modelName": "荣耀手环11 Pro版 GPS版",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2026",
+        "rawText": "荣耀手环 11 系列现已开启预售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/984/943.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:49:03.409Z",
+        "sourceSnapshotHash": "0a9980014eabb439b73bb50476a4e83bde36f2162ca5f3104584e7610489a032"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/2180/2179011/param.shtml",
+        "https://www.ithome.com/0/984/943.htm",
+        "https://detail.zol.com.cn/IntelligentBracelet/index2179011.shtml"
+      ],
+      "fieldGaps": [],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2a.zol-img.com.cn/product/276_320x240/560/cejhCtDJdgc.jpg",
+          "alt": "荣耀手环11 Pro版 GPS版",
+          "modelName": "荣耀手环11 Pro版 GPS版",
+          "sourceUrl": "https://detail.zol.com.cn/IntelligentBracelet/index2179011.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:30.618Z",
+          "sourceSnapshotHash": "fbac8b07549b8b04a57427054b2d8cbe3a36955a75e8ec6747d0f718d958887c",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "band"
+    },
+    {
+      "id": "honor-band-10-2025",
+      "modelName": "荣耀手环10",
+      "generation": "2025",
+      "releaseYear": 2025,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2025",
+        "rawText": "荣耀手环 10 今日正式发布",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/848/379.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T08:29:25.463Z",
+        "sourceSnapshotHash": "e2d52fdffb8c458363bacae05ad98da7cf6de421fda7948b65373a35eb246937"
+      },
+      "referenceUrls": [
+        "https://www.honor.com/cn/wearables/honor-band-10/spec/",
+        "https://www.ithome.com/0/848/379.htm"
+      ],
+      "fieldGaps": [],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "name": "薄荷绿",
+          "url": "https://www-file.honor.com/content/dam/honor/cn/specs/wearables/honor-band-10/honor-band-10-green.png",
+          "alt": "荣耀手环10",
+          "modelName": "荣耀手环10",
+          "sourceUrl": "https://www.honor.com/cn/wearables/honor-band-10/spec/",
+          "sourceName": "HONOR 中国官网",
+          "fetchedAt": "2026-10-07T08:33:36.756Z",
+          "sourceSnapshotHash": "850d3a5f5857cc975dedd0aba44b1c1b167744d914fac7839a2ecf0bb94ca0cd",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown",
+        "colors": [
+          {
+            "name": "薄荷绿",
+            "image": {
+              "name": "薄荷绿",
+              "url": "https://www-file.honor.com/content/dam/honor/cn/specs/wearables/honor-band-10/honor-band-10-green.png",
+              "alt": "荣耀手环10",
+              "modelName": "荣耀手环10",
+              "sourceUrl": "https://www.honor.com/cn/wearables/honor-band-10/spec/",
+              "sourceName": "HONOR 中国官网",
+              "fetchedAt": "2026-10-07T08:33:36.756Z",
+              "sourceSnapshotHash": "850d3a5f5857cc975dedd0aba44b1c1b167744d914fac7839a2ecf0bb94ca0cd",
+              "licenseStatus": "unknown"
+            }
+          },
+          {
+            "name": "曜石黑",
+            "image": {
+              "name": "曜石黑",
+              "url": "https://www-file.honor.com/content/dam/honor/cn/specs/wearables/honor-band-10/honor-band-10-black.png",
+              "alt": "荣耀手环10",
+              "modelName": "荣耀手环10",
+              "sourceUrl": "https://www.honor.com/cn/wearables/honor-band-10/spec/",
+              "sourceName": "HONOR 中国官网",
+              "fetchedAt": "2026-10-07T08:33:36.756Z",
+              "sourceSnapshotHash": "850d3a5f5857cc975dedd0aba44b1c1b167744d914fac7839a2ecf0bb94ca0cd",
+              "licenseStatus": "unknown"
+            }
+          },
+          {
+            "name": "海岸蓝",
+            "image": {
+              "name": "海岸蓝",
+              "url": "https://www-file.honor.com/content/dam/honor/cn/specs/wearables/honor-band-10/honor-band-10-blue.png",
+              "alt": "荣耀手环10",
+              "modelName": "荣耀手环10",
+              "sourceUrl": "https://www.honor.com/cn/wearables/honor-band-10/spec/",
+              "sourceName": "HONOR 中国官网",
+              "fetchedAt": "2026-10-07T08:33:36.756Z",
+              "sourceSnapshotHash": "850d3a5f5857cc975dedd0aba44b1c1b167744d914fac7839a2ecf0bb94ca0cd",
+              "licenseStatus": "unknown"
+            }
+          },
+          {
+            "name": "银石灰",
+            "image": {
+              "name": "银石灰",
+              "url": "https://www-file.honor.com/content/dam/honor/cn/specs/wearables/honor-band-10/honor-band-10-grey.png",
+              "alt": "荣耀手环10",
+              "modelName": "荣耀手环10",
+              "sourceUrl": "https://www.honor.com/cn/wearables/honor-band-10/spec/",
+              "sourceName": "HONOR 中国官网",
+              "fetchedAt": "2026-10-07T08:33:36.756Z",
+              "sourceSnapshotHash": "850d3a5f5857cc975dedd0aba44b1c1b167744d914fac7839a2ecf0bb94ca0cd",
+              "licenseStatus": "unknown"
+            }
+          }
+        ]
+      },
+      "category": "band"
+    }
+  ]
+}

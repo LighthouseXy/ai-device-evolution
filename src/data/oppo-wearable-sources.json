@@ -1,0 +1,830 @@
+{
+  "watch": [
+    {
+      "id": "oppo-watch-x-2024",
+      "modelName": "OPPO Watch X 星夜飞行",
+      "generation": "2024",
+      "releaseYear": 2024,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2024",
+        "rawText": "OPPO Watch X 智能手表正式发布",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/757/506.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-06",
+        "fetchedAt": "2026-10-06T15:29:38.875Z",
+        "sourceSnapshotHash": "ad802a772ffed548cf074c4422210407352e6f0c8623bc554250789d8f953945"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1991/1990660/param.shtml",
+        "https://www.ithome.com/0/757/506.htm",
+        "https://detail.zol.com.cn/GPSwatch/index1990660.shtml"
+      ],
+      "fieldGaps": [
+        {
+          "field": "compatibility",
+          "reason": "本型号原页未提供可明确归属的参数；不借同系列或其他版本填补"
+        }
+      ],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2e.zol-img.com.cn/product/260_320x240/894/ceUSf3OmPq4M.png",
+          "alt": "OPPO Watch X 星夜飞行 氟橡胶表带款",
+          "modelName": "OPPO Watch X 星夜飞行",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index1990660.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-06T15:29:39.674Z",
+          "sourceSnapshotHash": "7f3bceab00edb9f3b61738088391cdb8b41a3c7b1f83a3505b3861cdbe05e205",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "oppo-watch-3-2022",
+      "modelName": "OPPO Watch 3(氟橡胶表带款)",
+      "generation": "2022",
+      "releaseYear": 2022,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2022",
+        "rawText": "OPPO 为我们带来 OPPO Watch 3 及 OPPO Watch 3 Pro 两款智能手表",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/634/383.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:44:35.797Z",
+        "sourceSnapshotHash": "2dc82769d116c3fbe76782a06616078ff035bdf49e794557d0b5ae6338067ee2"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1424/1423115/param.shtml",
+        "https://www.ithome.com/0/634/383.htm",
+        "https://detail.zol.com.cn/GPSwatch/index1423115.shtml"
+      ],
+      "fieldGaps": [],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2d.zol-img.com.cn/product/221_320x240/269/ceSVdtFuoNqpg.jpg",
+          "alt": "OPPO Watch 3(氟橡胶表带款)",
+          "modelName": "OPPO Watch 3(氟橡胶表带款)",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index1423115.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:20.314Z",
+          "sourceSnapshotHash": "17b3895a711e068d2fac91be4258a8920e64013eb84f32903dfb096eb5b2132f",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "oppo-watch-3-pro-2022",
+      "modelName": "OPPO Watch 3 Pro 氟橡胶表带款",
+      "generation": "2022",
+      "releaseYear": 2022,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2022",
+        "rawText": "OPPO 为我们带来 OPPO Watch 3 及 OPPO Watch 3 Pro 两款智能手表",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/634/383.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:44:35.797Z",
+        "sourceSnapshotHash": "2dc82769d116c3fbe76782a06616078ff035bdf49e794557d0b5ae6338067ee2"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1425/1424038/param.shtml",
+        "https://www.ithome.com/0/634/383.htm",
+        "https://detail.zol.com.cn/GPSwatch/index1424038.shtml"
+      ],
+      "fieldGaps": [],
+      "excludedFields": [
+        {
+          "field": "chargingMethod",
+          "reason": "原页无线充电描述缺少与本机充电底座匹配的可靠证据，待补充，不当成已确认功能",
+          "rejectedEvidence": {
+            "value": "无线充电",
+            "rawText": "无线充电",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1425/1424038/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-07",
+            "fetchedAt": "2026-10-07T07:25:56.153Z",
+            "sourceSnapshotHash": "2540a607f0d5cf210678ec9325aa2bfa9be7f2959f44d82b889eb7b06cfc1b84"
+          },
+          "conflictEvidence": {
+            "value": "无线充电",
+            "rawText": "无线充电",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1425/1424038/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-07",
+            "fetchedAt": "2026-10-07T07:25:56.153Z",
+            "sourceSnapshotHash": "2540a607f0d5cf210678ec9325aa2bfa9be7f2959f44d82b889eb7b06cfc1b84"
+          }
+        }
+      ],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2f.zol-img.com.cn/product/221_320x240/271/cedAMMe8LQg4U.jpg",
+          "alt": "OPPO Watch 3 Pro 氟橡胶表带款",
+          "modelName": "OPPO Watch 3 Pro 氟橡胶表带款",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index1424038.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:20.371Z",
+          "sourceSnapshotHash": "b07367bb912ed314f831d49df048418554f9f225dcadda986732fc05e7836ee8",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "oppo-watch-3-leather-2022",
+      "modelName": "OPPO Watch 3(真皮表带款)",
+      "generation": "2022",
+      "releaseYear": 2022,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2022",
+        "rawText": "OPPO 为我们带来 OPPO Watch 3 及 OPPO Watch 3 Pro 两款智能手表",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/634/383.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:44:35.797Z",
+        "sourceSnapshotHash": "2dc82769d116c3fbe76782a06616078ff035bdf49e794557d0b5ae6338067ee2"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1425/1424037/param.shtml",
+        "https://www.ithome.com/0/634/383.htm",
+        "https://detail.zol.com.cn/GPSwatch/index1424037.shtml"
+      ],
+      "fieldGaps": [],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2e.zol-img.com.cn/product/221_320x240/246/cev6zGYCZtfuA.jpg",
+          "alt": "OPPO Watch 3(真皮表带款)",
+          "modelName": "OPPO Watch 3(真皮表带款)",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index1424037.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:20.901Z",
+          "sourceSnapshotHash": "b13d9e235ae2405683cf337b5a5847e13f199942a0625a53a01bccc3f3852a77",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "oppo-watch-3-pro-leather-2022",
+      "modelName": "OPPO Watch 3 Pro 真皮表带款",
+      "generation": "2022",
+      "releaseYear": 2022,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2022",
+        "rawText": "OPPO 为我们带来 OPPO Watch 3 及 OPPO Watch 3 Pro 两款智能手表",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/634/383.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:44:35.797Z",
+        "sourceSnapshotHash": "2dc82769d116c3fbe76782a06616078ff035bdf49e794557d0b5ae6338067ee2"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1425/1424039/param.shtml",
+        "https://www.ithome.com/0/634/383.htm",
+        "https://detail.zol.com.cn/GPSwatch/index1424039.shtml"
+      ],
+      "fieldGaps": [],
+      "excludedFields": [
+        {
+          "field": "chargingMethod",
+          "reason": "原页无线充电描述缺少与本机充电底座匹配的可靠证据，待补充，不当成已确认功能",
+          "rejectedEvidence": {
+            "value": "无线充电",
+            "rawText": "无线充电",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1425/1424039/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-07",
+            "fetchedAt": "2026-10-07T07:25:56.619Z",
+            "sourceSnapshotHash": "598f46771801a8d11620c935c617b755a6aa4c16bbfa073747bee340a6e580b2"
+          },
+          "conflictEvidence": {
+            "value": "无线充电",
+            "rawText": "无线充电",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1425/1424039/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-07",
+            "fetchedAt": "2026-10-07T07:25:56.619Z",
+            "sourceSnapshotHash": "598f46771801a8d11620c935c617b755a6aa4c16bbfa073747bee340a6e580b2"
+          }
+        }
+      ],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2f.zol-img.com.cn/product/221_320x240/289/ceLMtILARqibs.jpg",
+          "alt": "OPPO Watch 3 Pro 真皮表带款",
+          "modelName": "OPPO Watch 3 Pro 真皮表带款",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index1424039.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:21.471Z",
+          "sourceSnapshotHash": "71a3f66e0c2df228e41a5d4181b8963f6a1c945a3c0550adfd648235107d8a38",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "oppo-watch-se-gray-2022",
+      "modelName": "OPPO Watch SE/深云灰",
+      "generation": "2022",
+      "releaseYear": 2022,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2022",
+        "rawText": "OPPO Watch SE 深云灰、墨棕配色正式发布",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/656/381.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:44:35.791Z",
+        "sourceSnapshotHash": "7e02dfe0e6f29532e4c189b13e287b4dcaff5fae5110cfa878dd0d0b790f04ce"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1435/1434483/param.shtml",
+        "https://www.ithome.com/0/656/381.htm",
+        "https://detail.zol.com.cn/GPSwatch/index1434483.shtml"
+      ],
+      "fieldGaps": [],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2c.zol-img.com.cn/product/225_320x240/176/cebPNKXAlqw6Y.jpg",
+          "alt": "OPPO Watch SE/深云灰",
+          "modelName": "OPPO Watch SE/深云灰",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index1434483.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:21.563Z",
+          "sourceSnapshotHash": "e3229ad2d6cdfc984b48cd84afe8f1bbad55ef42ce14ce0ee8ac78b48153b331",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "oppo-watch-se-brown-2022",
+      "modelName": "OPPO Watch SE/墨棕",
+      "generation": "2022",
+      "releaseYear": 2022,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2022",
+        "rawText": "OPPO Watch SE 深云灰、墨棕配色正式发布",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/656/381.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:44:35.791Z",
+        "sourceSnapshotHash": "7e02dfe0e6f29532e4c189b13e287b4dcaff5fae5110cfa878dd0d0b790f04ce"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1435/1434484/param.shtml",
+        "https://www.ithome.com/0/656/381.htm",
+        "https://detail.zol.com.cn/GPSwatch/index1434484.shtml"
+      ],
+      "fieldGaps": [],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2d.zol-img.com.cn/product/225_320x240/177/ceGHgF8iS4FoE.jpg",
+          "alt": "OPPO Watch SE/墨棕",
+          "modelName": "OPPO Watch SE/墨棕",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index1434484.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:22.266Z",
+          "sourceSnapshotHash": "b628c91e4382df3adebd258b71adbd1a38bf1ac6ccfc66fca8b5349c663158a1",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "oppo-watch-4-pro-2023",
+      "modelName": "OPPO Watch 4 Pro 黑色氟橡胶",
+      "generation": "2023",
+      "releaseYear": 2023,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2023",
+        "rawText": "OPPO 发布了新款智能手表 OPPO Watch4 Pro",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/715/534.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:44:35.802Z",
+        "sourceSnapshotHash": "54351e4668e294c02a7bfc412e184a736cef67cba9a6c13ca9c81d89727643c6"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1857/1856837/param.shtml",
+        "https://www.ithome.com/0/715/534.htm",
+        "https://detail.zol.com.cn/GPSwatch/index1856837.shtml"
+      ],
+      "fieldGaps": [
+        {
+          "field": "compatibility",
+          "reason": "本型号原页未提供可明确归属的参数；不借同系列或其他版本填补"
+        }
+      ],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2f.zol-img.com.cn/product/250_320x240/625/cew78nEaCXSZA.png",
+          "alt": "OPPO Watch 4 Pro 黑色氟橡胶",
+          "modelName": "OPPO Watch 4 Pro 黑色氟橡胶",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index1856837.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:22.309Z",
+          "sourceSnapshotHash": "709893ec3f95e14126f2b97a97288f2bf80dff4bda57703e51040aabf60e0cd3",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "oppo-watch-4-pro-leather-2023",
+      "modelName": "OPPO Watch 4 Pro 棕色牛皮+黑色氟橡胶",
+      "generation": "2023",
+      "releaseYear": 2023,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2023",
+        "rawText": "OPPO 发布了新款智能手表 OPPO Watch4 Pro",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/715/534.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:44:35.802Z",
+        "sourceSnapshotHash": "54351e4668e294c02a7bfc412e184a736cef67cba9a6c13ca9c81d89727643c6"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1858/1857457/param.shtml",
+        "https://www.ithome.com/0/715/534.htm",
+        "https://detail.zol.com.cn/GPSwatch/index1857457.shtml"
+      ],
+      "fieldGaps": [
+        {
+          "field": "compatibility",
+          "reason": "本型号原页未提供可明确归属的参数；不借同系列或其他版本填补"
+        }
+      ],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2e.zol-img.com.cn/product/250_320x240/630/ceb9NvnzNgzqE.png",
+          "alt": "OPPO Watch 4 Pro 棕色牛皮+黑色氟橡胶",
+          "modelName": "OPPO Watch 4 Pro 棕色牛皮+黑色氟橡胶",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index1857457.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:23.060Z",
+          "sourceSnapshotHash": "78cbacbbe89c4798e6967572bf002afe2e33e0158503c2ac36c467c673f593ad",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "oppo-watch-x2-2025",
+      "modelName": "OPPO Watch X2",
+      "generation": "2025",
+      "releaseYear": 2025,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2025",
+        "rawText": "OPPO Watch X2 智能手表今晚正式发布",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/832/426.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:49:03.501Z",
+        "sourceSnapshotHash": "7273eb6f169c6396e273a7d7bd234477c7c5803647f5f6a36423e102e8bed4bf"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/2122/2121194/param.shtml",
+        "https://www.ithome.com/0/832/426.htm",
+        "https://detail.zol.com.cn/GPSwatch/index2121194.shtml"
+      ],
+      "fieldGaps": [
+        {
+          "field": "compatibility",
+          "reason": "本型号原页未提供可明确归属的参数；不借同系列或其他版本填补"
+        }
+      ],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2e.zol-img.com.cn/product/271_320x240/730/ceFrQhRX4CM5A.png",
+          "alt": "OPPO Watch X2",
+          "modelName": "OPPO Watch X2",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index2121194.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:23.094Z",
+          "sourceSnapshotHash": "085e22ede9144125881e76417106bfd4a0e4f7908c69ca6b110d5ec673170f47",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "oppo-watch-x3-2026",
+      "modelName": "OPPO Watch X3",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2026",
+        "rawText": "Watch X3 智能手表也在今晚同台亮相",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://m.ithome.com/html/930005.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:49:03.505Z",
+        "sourceSnapshotHash": "1c074bc10556205f54242dbd2a60d83deefba8e902ed4098cbacc4fd8efb05a2"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/2161/2160957/param.shtml",
+        "https://m.ithome.com/html/930005.htm",
+        "https://detail.zol.com.cn/GPSwatch/index2160957.shtml"
+      ],
+      "fieldGaps": [
+        {
+          "field": "waterResistance",
+          "reason": "本型号原页未提供可明确归属的参数；不借同系列或其他版本填补"
+        }
+      ],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2f.zol-img.com.cn/product/274_320x240/629/ce0Tes6lAabo.png",
+          "alt": "OPPO Watch X3",
+          "modelName": "OPPO Watch X3",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index2160957.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:23.138Z",
+          "sourceSnapshotHash": "3826481fedbc5bdb9b841b894cffa7ac8be3782e618e0ec3ef3c91e2833a5ebf",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "oppo-watch-s2-2026",
+      "modelName": "OPPO Watch S2",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2026",
+        "rawText": "带来了 Watch S2 和 Watch X3 手表",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/1/005/947.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T07:49:03.510Z",
+        "sourceSnapshotHash": "d8b3b8548904335e01b374c64fddb255f36fc884d521345f22be8a1e0117e402"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/2179/2178643/param.shtml",
+        "https://www.ithome.com/1/005/947.htm",
+        "https://detail.zol.com.cn/GPSwatch/index2178643.shtml"
+      ],
+      "fieldGaps": [],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2f.zol-img.com.cn/product/276_320x240/693/ce59tg7GdWeW.jpg",
+          "alt": "OPPO Watch S2",
+          "modelName": "OPPO Watch S2",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index2178643.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:23.812Z",
+          "sourceSnapshotHash": "2544dcaf7a6447d67f4aaf8aa203eda28984605be03a011c42b4cab197ba53a3",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "oppo-watch-s-2025",
+      "modelName": "OPPO Watch S",
+      "generation": "2025",
+      "releaseYear": 2025,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2025",
+        "rawText": "OPPO Watch S",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/890/055.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T08:09:02.499Z",
+        "sourceSnapshotHash": "829232e5e3f4382e1b3cd22557bdd6d0773330b2a3aea16fa5200cdc5c46e77e"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/2145/2144808/param.shtml",
+        "https://www.ithome.com/0/890/055.htm",
+        "https://detail.zol.com.cn/GPSwatch/index2144808.shtml"
+      ],
+      "fieldGaps": [
+        {
+          "field": "compatibility",
+          "reason": "本型号原页未提供可明确归属的参数；不借同系列或其他版本填补"
+        }
+      ],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2b.zol-img.com.cn/product/273_320x240/695/ceWDtlVuqa5Xo.jpg",
+          "alt": "OPPO Watch S",
+          "modelName": "OPPO Watch S",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index2144808.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T08:25:06.624Z",
+          "sourceSnapshotHash": "c3f0c2f7e4ba4d963283ede41381453f8a21d28e434619754c78bc3325c800fa",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "oppo-watch-x2-mini-2025",
+      "modelName": "OPPO Watch X2 Mini",
+      "generation": "2025",
+      "releaseYear": 2025,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2025",
+        "rawText": "OPPO Watch X2 Mini",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/845/596.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T08:09:02.444Z",
+        "sourceSnapshotHash": "0ac5e1ea3998e814bcbed2212f8e88d64a5f03262b930b0d8398f46e2a280b4b"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/2126/2125526/param.shtml",
+        "https://www.ithome.com/0/845/596.htm",
+        "https://detail.zol.com.cn/GPSwatch/index2125526.shtml"
+      ],
+      "fieldGaps": [],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2c.zol-img.com.cn/product/271_320x240/492/ceTwvZldwuzeo.png",
+          "alt": "OPPO Watch X2 Mini",
+          "modelName": "OPPO Watch X2 Mini",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index2125526.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T08:05:26.125Z",
+          "sourceSnapshotHash": "edef47db15cb42c87213ddc33d16e2ce7319da26bb003900d218c4a5986f335b",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "oppo-watch-x3-mini-esim-2026",
+      "modelName": "OPPO Watch X3 Mini（eSIM版）",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2026",
+        "rawText": "Watch X3 Mini 智能手表",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/941/822.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T08:09:02.538Z",
+        "sourceSnapshotHash": "9b826fa93e86c94336dba301790997e988e930d71b7f6042e6ff5c4796aa85c7"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/2165/2164101/param.shtml",
+        "https://www.ithome.com/0/941/822.htm",
+        "https://detail.zol.com.cn/GPSwatch/index2164101.shtml"
+      ],
+      "fieldGaps": [],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2f.zol-img.com.cn/product/275_320x240/811/ce1C4CZDVPRJI.png",
+          "alt": "OPPO Watch X3 Mini（eSIM版）",
+          "modelName": "OPPO Watch X3 Mini（eSIM版）",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index2164101.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T08:25:07.100Z",
+          "sourceSnapshotHash": "c7296c82f6d3ee33da21044d98a802115c604c04f774c394bce3b7624f2be597",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    },
+    {
+      "id": "oppo-watch-x3-mini-bluetooth-2026",
+      "modelName": "OPPO Watch X3 Mini（蓝牙版）",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2026",
+        "rawText": "Watch X3 Mini 智能手表",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/941/822.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-07",
+        "fetchedAt": "2026-10-07T08:09:02.538Z",
+        "sourceSnapshotHash": "9b826fa93e86c94336dba301790997e988e930d71b7f6042e6ff5c4796aa85c7"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/2165/2164102/param.shtml",
+        "https://www.ithome.com/0/941/822.htm",
+        "https://detail.zol.com.cn/GPSwatch/index2164102.shtml"
+      ],
+      "fieldGaps": [],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2f.zol-img.com.cn/product/275_320x240/811/ce1C4CZDVPRJI.png",
+          "alt": "OPPO Watch X3 Mini（蓝牙版）",
+          "modelName": "OPPO Watch X3 Mini（蓝牙版）",
+          "sourceUrl": "https://detail.zol.com.cn/GPSwatch/index2164102.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T08:25:07.241Z",
+          "sourceSnapshotHash": "0003d5fe583c5a55f51051d48ddb3af1d6819dc89ff0e595145e44e745ccb4dd",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "watch"
+    }
+  ],
+  "band": [
+    {
+      "id": "oppo-band-2-2022",
+      "modelName": "OPPO 手环2 标准版",
+      "generation": "2022",
+      "releaseYear": 2022,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2022",
+        "rawText": "OPPO 手环 2 正式发布， 标准版首发价 239 元，NFC 版首发价 279 元 ",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/634/379.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-06",
+        "fetchedAt": "2026-10-06T15:32:59.552Z",
+        "sourceSnapshotHash": "3403a47d177f40309653d8b6c10f1549e845d1b0ed39a8889eab263e7caf74f8"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1425/1424040/param.shtml",
+        "https://www.ithome.com/0/634/379.htm",
+        "https://detail.zol.com.cn/IntelligentBracelet/index1424040.shtml"
+      ],
+      "fieldGaps": [],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2b.zol-img.com.cn/product/221_320x240/315/ceFLvVmLB1ff6.jpg",
+          "alt": "OPPO 手环 2 标准版",
+          "modelName": "OPPO 手环2 标准版",
+          "sourceUrl": "https://detail.zol.com.cn/IntelligentBracelet/index1424040.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-06T15:33:00.140Z",
+          "sourceSnapshotHash": "e5caf02ad978edaf523189c17383abf09a6fe1459a5f0f7cfe61012e51411d07",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "band"
+    },
+    {
+      "id": "oppo-band-2-nfc-2022",
+      "modelName": "OPPO 手环 2 NFC版",
+      "generation": "2022",
+      "releaseYear": 2022,
+      "sourcePageType": "wearable_spec_snapshots",
+      "sourceStatus": "verified",
+      "releaseDatePrecision": "year",
+      "releaseEvidence": {
+        "value": "2022",
+        "rawText": "OPPO 手环 2 正式发布",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/634/379.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-06",
+        "fetchedAt": "2026-10-06T15:32:59.552Z",
+        "sourceSnapshotHash": "3403a47d177f40309653d8b6c10f1549e845d1b0ed39a8889eab263e7caf74f8"
+      },
+      "referenceUrls": [
+        "https://detail.zol.com.cn/1425/1424041/param.shtml",
+        "https://www.ithome.com/0/634/379.htm",
+        "https://detail.zol.com.cn/IntelligentBracelet/index1424041.shtml"
+      ],
+      "fieldGaps": [],
+      "notes": "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。",
+      "productImages": {
+        "primary": {
+          "url": "https://2b.zol-img.com.cn/product/221_320x240/315/ceFLvVmLB1ff6.jpg",
+          "alt": "OPPO 手环 2 NFC版",
+          "modelName": "OPPO 手环 2 NFC版",
+          "sourceUrl": "https://detail.zol.com.cn/IntelligentBracelet/index1424041.shtml",
+          "sourceName": "中关村在线",
+          "fetchedAt": "2026-10-07T07:55:24.467Z",
+          "sourceSnapshotHash": "02f7427c8cd0c5be791a1830e7bfd42f022d3bad2451d76346e12ac52499328d",
+          "licenseStatus": "unknown"
+        },
+        "licenseStatus": "unknown"
+      },
+      "category": "band"
+    }
+  ]
+}

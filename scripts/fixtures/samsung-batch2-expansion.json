@@ -1,0 +1,93 @@
+{
+  "scope": "Samsung 中国大陆已售 2017–2026，截至2026-10-06；第二批证据补录，不宣称全部型号/配置覆盖",
+  "expectedDevices": 25,
+  "metadata": {
+    "existingImageEvidence": [{"deviceId":"samsung-galaxy-s22-2022","productId":"1364781","sourceUrl":"https://detail.zol.com.cn/picture_index_2218/index22177270_0_p1364781.shtml","colorNames":["曜夜黑","羽梦白","雾松绿","浮光粉"],"imageLicense":"unknown","note":"只绑定具体S22型号与四种标准色；公开照片不表示已获授权许可。",
+      "productImage":{"url":"https://2e.zol-img.com.cn/product/221/306/ce96FnOMdLLzE.jpg","alt":"Samsung Galaxy S22 曜夜黑","modelName":"Samsung Galaxy S22","sourceUrl":"https://detail.zol.com.cn/picture_index_2218/index22177270_0_p1364781.shtml","sourceName":"中关村在线","fetchedAt":"2026-10-05T18:48:16.805Z","sourceSnapshotHash":"9eb90d7e3aca02b83467687e32dced64c1244d7fd0b7750677a05cfd039ffa02"},
+      "colorGallery":{"sourceUrl":"https://detail.zol.com.cn/picture_index_2218/index22177270_0_p1364781.shtml","fetchedAt":"2026-10-05T18:48:16.805Z","sourceSnapshotHash":"9eb90d7e3aca02b83467687e32dced64c1244d7fd0b7750677a05cfd039ffa02","colors":[
+        {"name":"曜夜黑","url":"https://2e.zol-img.com.cn/product/221/306/ce96FnOMdLLzE.jpg"},
+        {"name":"羽梦白","url":"https://2d.zol-img.com.cn/product/221/317/cel5mhN0XMW0I.jpg"},
+        {"name":"雾松绿","url":"https://2f.zol-img.com.cn/product/221/355/cekSNSSqZLPJ2.jpg"},
+        {"name":"浮光粉","url":"https://2a.zol-img.com.cn/product/221/284/ceCw980SB7zUk.jpg"}
+      ]}}
+    ]
+  },
+  "catalogUrls": [
+    "https://detail.zol.com.cn/cell_phone_index/subcate57_98_list_1.html",
+    "https://detail.zol.com.cn/cell_phone_index/subcate57_98_list_1_0_1_2_0_2.html",
+    "https://detail.zol.com.cn/cell_phone_index/subcate57_98_list_1_0_1_2_0_3.html",
+    "https://detail.zol.com.cn/cell_phone_index/subcate57_98_list_1_0_1_2_0_4.html",
+    "https://detail.zol.com.cn/cell_phone_index/subcate57_list_series323_1.html",
+    "https://detail.zol.com.cn/cell_phone_index/subcate57_list_series325_1.html",
+    "https://detail.zol.com.cn/cell_phone_index/subcate57_list_series326_1.html",
+    "https://detail.zol.com.cn/cell_phone_index/subcate57_list_series326_2.html",
+    "https://detail.zol.com.cn/tablepc/samsung/",
+    "https://detail.zol.com.cn/tablepc/samsung/2.html",
+    "https://detail.zol.com.cn/tablepc/samsung/3.html",
+    "https://detail.zol.com.cn/tablepc/samsung/4.html",
+    "https://detail.zol.com.cn/tablepc/samsung/5.html"
+  ],
+  "markets": {
+    "s10e":{"url":"https://m.ithome.com/html/413024.htm","pattern":"三星S10e[^]*?6GB\\+128GB售价4999元","date":"2019-03-08","datePattern":"三星S10系列手机国行将在3月8日0点正式开售"},
+    "a52":{"url":"https://www.ithome.com/0/540/641.htm","pattern":"国内仅推出了 三星 Galaxy A52 5G，售价 2999 元起","date":"2021-03-26","datePattern":"国内仅有 5G 版本，售价 2999/3399 元[^]*?3 月 26 日开售"},
+    "a53":{"url":"https://www.ithome.com/0/609/429.htm","pattern":"新机国行版的售价已经公布，8\\+128GB 售价 3299，8\\+256GB 售价 3699 元","date":"2022-04-01","datePattern":"4 月 1 日正式开售"},
+    "a54":{"url":"https://www.ithome.com/0/685/106.htm","pattern":"Galaxy A54 5G 国行版本正式推出，并已上线各渠道官方商城[^]*?3399 元"},
+    "a55":{"url":"https://www.ithome.com/0/758/296.htm","pattern":"三星 Galaxy A55 手机国行版将于明天 0 点开售[^]*?3299 元","date":"2024-03-25","datePattern":"3 月 24 日消息， 三星 Galaxy A55 手机国行版将于明天 0 点开售"},
+    "a56":{"url":"https://m.ithome.com/html/840061.htm","pattern":"三星 Galaxy A56 手机今日在京东平台上架并开启预约[^]*?12GB\\+256GB 版 3299 元","identityUrl":"https://www.samsung.com.cn/business/smartphones/galaxy-a/galaxy-a56-5g-sm-a5660zadchc/buy/","identityPattern":"SM-A5660ZADCHC","date":"2025-03-28","datePattern":"3 月 28 日 0 点开售"},
+    "a8s":{"url":"https://www.ithome.com/0/400/428.htm","pattern":"A8s搭载的人工智能平台[^]*?最终选出了现在上市的几款配色","identityPattern":"在中国市场首发"},
+    "a9s":{"url":"https://www.ithome.com/0/390/635.htm","pattern":"三星Galaxy A9s采用[^]*?配备6GB\\+128GB机身存储规格","identityPattern":"三星今晚在西安举行了发布会，正式发布了旗下两款新手机Galaxy A9s和A6s"},
+    "a2019":{"url":"https://www.ithome.com/0/450/503.htm","pattern":"在国内一口气发布了Galaxy A40s/A60/A70/A80四款产品"},
+    "a51":{"url":"https://www.ithome.com/0/490/199.htm","pattern":"Galaxy A51 5G 开启国内首销[^]*?8GB\\+128GB 的存储组合","date":"2020-06-01","datePattern":"6月1日消息 今日，三星新机 Galaxy A51 5G 开启国内首销"},
+    "a71":{"url":"https://www.ithome.com/0/482/045.htm","pattern":"三星中国今日表示[^]*?配备8GB内存与128GB机身存储，售价3399元"},
+    "s20fe":{"url":"https://www.ithome.com/0/514/043.htm","pattern":"三星 Galaxy S20 粉丝版 5G 手机今日正式在国内市场发布[^]*?国内三星 Galaxy S20 FE 5G 采用的是骁龙 865 芯片组"},
+    "s21fe":{"url":"https://m.ithome.com/html/597802.htm","pattern":"该机的国行版本正式开售[^]*?8GB\\+256GB：4999 元","date":"2022-01-11","datePattern":"1 月 11 日消息[^]*?国行版本正式开售"},
+    "s23fe":{"url":"https://www.ithome.com/0/726/260.htm","pattern":"三星 Galaxy S23 FE 手机国行版现已公布售价[^]*?8GB\\+256GB 版 4899 元","date":"2023-10-27","datePattern":"将于 10 月 27 日开售"},
+    "edge":{"url":"https://www.ithome.com/0/855/271.htm","pattern":"三星 Galaxy S25 Edge 国行售价 7999 元起，5 月 23 日正式上市","date":"2025-05-23","datePattern":"三星 Galaxy S25 Edge 国行售价 7999 元起，5 月 23 日正式上市"},
+    "tabs6lite":{"url":"https://www.ithome.com/0/488/940.htm","pattern":"三星Galaxy Tab S6 Lite国行已经开始上架，4GB\\+64GB版本售价2799元"},
+    "tabs7":{"url":"https://www.ithome.com/0/503/203.htm","pattern":"三星公布了 Galaxy Tab S7 平板国行价格，S7 售价 5199 元起，S7\\+ 售价 6699 元起"},
+    "taba8":{"url":"https://www.ithome.com/0/597/085.htm","pattern":"Galaxy Tab A8，并在国内正式开启预售[^]*?Wi-Fi 及 LTE 两种版本"},
+    "taba9plus":{"url":"https://www.ithome.com/0/729/439.htm","pattern":"三星 Galaxy Tab A9 \\+ 平板国行版现已开售[^]*?8GB\\+128GB WLAN 版 1699 元","date":"2023-11-02","datePattern":"11 月 2 日消息[^]*?平板国行版现已开售"},
+    "tabs10":{"url":"https://www.ithome.com/0/801/368.htm","pattern":"三星中国官网页面显示，Galaxy Tab S10 系列平板电脑[^]*?16GB\\+1TB：12199 元","date":"2024-10-17","datePattern":"10 月 17 日 20 时 在国内正式开售"},
+    "tabs11":{"url":"https://www.samsung.com.cn/news/product/galaxy-tab-s11-ultra/","pattern":"三星Galaxy Tab S11系列包括Galaxy Tab S11 Ultra与Galaxy Tab S11两款产品[^]*?全渠道正式开售","identityPattern":"在国内市场正式开启预约","date":"2025-09-19","datePattern":"9月19日全渠道正式开售"}
+  },
+  "targets": [
+    {"slug":"galaxy-s10e","name":"Galaxy S10e","year":2019,"productId":"1227273","variantFilter":"6GB RAM","group":"galaxy-s-e","marketKey":"s10e","pairs":[["6GB","128GB"]]},
+    {"slug":"galaxy-a52","name":"Galaxy A52","year":2021,"seriesId":"33380","group":"galaxy-a5x","marketKey":"a52","pairs":[["8GB","128GB"],["8GB","256GB"]]},
+    {"slug":"galaxy-a53","name":"Galaxy A53","year":2022,"seriesId":"37878","group":"galaxy-a5x","marketKey":"a53","pairs":[["8GB","128GB"],["8GB","256GB"]]},
+    {"slug":"galaxy-a54","name":"Galaxy A54","year":2023,"seriesId":"10718412","group":"galaxy-a5x","marketKey":"a54","pairs":[["8GB","128GB"],["8GB","256GB"]]},
+    {"slug":"galaxy-a55","name":"Galaxy A55","expectedName":["三星Galaxy A55","Samsung（三星）Galaxy A55"],"variantFilter":"Galaxy A55","year":2024,"seriesId":"10864209","group":"galaxy-a5x","marketKey":"a55","pairs":[["8GB","256GB"],["12GB","256GB"]]},
+    {"slug":"galaxy-a56","name":"Galaxy A56","year":2025,"seriesId":"10912165","group":"galaxy-a5x","marketKey":"a56","pairs":[["8GB","256GB"],["12GB","256GB"]]},
+    {"slug":"galaxy-a8s","name":"Galaxy A8s","year":2018,"seriesId":"24997","variantFilter":"6GB RAM","group":"galaxy-a8s","marketKey":"a8s","pairs":[["6GB","128GB"]]},
+    {"slug":"galaxy-a9s","name":"Galaxy A9s","year":2018,"seriesId":"25301","variantFilter":"6GB RAM","group":"galaxy-a9s","marketKey":"a9s","pairs":[["6GB","128GB"]]},
+    {"slug":"galaxy-a60","name":"Galaxy A60","expectedName":"三星GALAXY A60","year":2019,"seriesId":"26089","group":"galaxy-a6x","marketKey":"a2019","pairs":[["6GB","64GB"],["6GB","128GB"]]},
+    {"slug":"galaxy-a70","name":"Galaxy A70","expectedName":"三星GALAXY A70","year":2019,"seriesId":"26212","group":"galaxy-a7x","marketKey":"a2019","pairs":[["6GB","128GB"],["8GB","128GB"]]},
+    {"slug":"galaxy-a51-5g","name":"Galaxy A51 5G","expectedName":"三星Galaxy A51","year":2020,"productId":"1300183","group":"galaxy-a5x","marketKey":"a51","pairs":[["8GB","128GB"]]},
+    {"slug":"galaxy-a71-5g","name":"Galaxy A71 5G","expectedName":"三星GALAXY A71","year":2020,"productId":"1301238","group":"galaxy-a7x","marketKey":"a71","pairs":[["8GB","128GB"]]},
+    {"slug":"galaxy-s20-fe","name":"Galaxy S20 FE","year":2020,"seriesId":"31679","group":"galaxy-s-fe","marketKey":"s20fe","pairs":[["8GB","128GB"],["8GB","256GB"]]},
+    {"slug":"galaxy-s21-fe","name":"Galaxy S21 FE","year":2022,"seriesId":"37428","group":"galaxy-s-fe","marketKey":"s21fe","pairs":[["8GB","128GB"],["8GB","256GB"]]},
+    {"slug":"galaxy-s23-fe","name":"Galaxy S23 FE","year":2023,"productId":"1463249","group":"galaxy-s-fe","marketKey":"s23fe","pairs":[["8GB","128GB"]],"chipCorrection":{"value":"高通 骁龙8 Gen 1","pattern":"该手机搭载骁龙 8 Gen 1 处理器","reason":"参数页错误写成8 Gen2 for Galaxy；国行发布报道明确8 Gen1，不混用海外Exynos2200。"}},
+    {"slug":"galaxy-s25-edge","name":"Galaxy S25 Edge","year":2025,"seriesId":"10913408","group":"galaxy-s-edge","marketKey":"edge","pairs":[["12GB","256GB"],["12GB","512GB"]]},
+    {"slug":"galaxy-tab-s6-lite","name":"Galaxy Tab S6 Lite","category":"tablet","year":2020,"seriesId":"29772","group":"galaxy-tab-s-lite","marketKey":"tabs6lite","pairs":[["4GB","64GB"]],"excludeVariants":["4g"]},
+    {"slug":"galaxy-tab-s7","name":"Galaxy Tab S7","category":"tablet","year":2020,"seriesId":"31129","group":"galaxy-tab-s","marketKey":"tabs7","pairs":[["6GB","128GB"],["8GB","256GB"]]},
+    {"slug":"galaxy-tab-s7-plus","name":"Galaxy Tab S7+","category":"tablet","year":2020,"seriesId":"31130","group":"galaxy-tab-s-plus","marketKey":"tabs7","pairs":[["6GB","128GB"],["8GB","256GB"]]},
+    {"slug":"galaxy-tab-a8","name":"Galaxy Tab A8","category":"tablet","year":2022,"seriesId":"37430","group":"galaxy-tab-a","marketKey":"taba8","pairs":[["4GB","64GB"],["4GB","128GB"]]},
+    {"slug":"galaxy-tab-a9-plus","name":"Galaxy Tab A9+","category":"tablet","year":2023,"seriesId":"10911692","group":"galaxy-tab-a-plus","marketKey":"taba9plus","pairs":[["4GB","64GB"],["8GB","128GB"]]},
+    {"slug":"galaxy-tab-s10-plus","name":"Galaxy Tab S10+","category":"tablet","year":2024,"seriesId":"10907477","group":"galaxy-tab-s-plus","marketKey":"tabs10","pairs":[["12GB","256GB"],["12GB","512GB"]]},
+    {"slug":"galaxy-tab-s10-ultra","name":"Galaxy Tab S10 Ultra","category":"tablet","year":2024,"seriesId":"10907476","group":"galaxy-tab-s-ultra","marketKey":"tabs10","pairs":[["12GB","256GB"],["12GB","512GB"]]},
+    {"slug":"galaxy-tab-s11","name":"Galaxy Tab S11","category":"tablet","year":2025,"seriesId":"10918942","group":"galaxy-tab-s","marketKey":"tabs11","pairs":[["12GB","128GB"],["12GB","256GB"],["12GB","512GB"]]},
+    {"slug":"galaxy-tab-s11-ultra","name":"Galaxy Tab S11 Ultra","category":"tablet","year":2025,"seriesId":"10918943","group":"galaxy-tab-s-ultra","marketKey":"tabs11","pairs":[["12GB","256GB"],["12GB","512GB"]]}
+  ],
+  "catalogSeries": [
+    {"name":"Galaxy S9","sourceUrl":"https://detail.zol.com.cn/cell_phone/index1164497.shtml"},
+    {"name":"Galaxy S9+","sourceUrl":"https://detail.zol.com.cn/cell_phone/index1177170.shtml"},
+    {"name":"Galaxy S10","sourceUrl":"https://detail.zol.com.cn/cell_phone/index1203197.shtml"},
+    {"name":"Galaxy S10+","sourceUrl":"https://detail.zol.com.cn/series/57/25553_1.html"}
+    ,{"name":"Galaxy Note 8","sourceUrl":"https://detail.zol.com.cn/cell_phone/index1161385.shtml"}
+  ],
+  "blockedModels": [
+    {"name":"Galaxy Tab S7 FE Wi-Fi","year":2021,"sourceUrl":"https://detail.zol.com.cn/series/702/34332_1.html","marketUrl":"https://www.ithome.com/0/580/851.htm","reason":"公开系列页仅列LTE SKU（骁龙750G），Wi-Fi国行为骁龙778G，不能把LTE参数当Wi-Fi。"},
+    {"name":"Galaxy A80","year":2019,"sourceUrl":"https://detail.zol.com.cn/1268/1267070/param.shtml","marketUrl":"https://www.ithome.com/0/432/944.htm","reason":"SKU标题8GB/128GB，但参数ROM写8GB；阻止错误组合入库。"},
+    {"name":"Galaxy Z Flip6","year":2024,"sourceUrl":"https://detail.zol.com.cn/series/57/10874088_1.html","reason":"首批已核验标题12GB、具体参数8GB冲突；需独立官方规格流程，不填猜测配置。"},
+    {"name":"Galaxy Book系列","category":"laptop","sourceUrl":"https://www.samsung.com.cn/news/product/samsung-galaxy-fe-series/","reason":"该中文官网报道的Galaxy Book兼容性范围只列2021年后中国大陆之外发布设备；此报道不能证明大陆发售，缺少大陆正式销售SKU，不借用海外上市信息。"}
+  ]
+}

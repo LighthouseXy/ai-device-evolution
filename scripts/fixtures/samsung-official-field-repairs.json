@@ -1,0 +1,401 @@
+{
+  "metadata": {
+    "scope": "仅Fold5/Fold6/Flip5旧页面复制风险的大陆CHC单SKU官方字段修复证据",
+    "repairs": 3,
+    "boundary": "仅specs内字段可直接补回；specRows是原始上下文不是全字段验收，缺值保持缺失。"
+  },
+  "repairs": [
+    {
+      "id": "samsung-galaxy-z-fold5-2023",
+      "modelName": "Samsung Galaxy Z Fold5",
+      "market": "CN",
+      "modelCode": "SM-F9460LBGCHC",
+      "configuration": {
+        "memory": "12GB",
+        "storage": "512GB"
+      },
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceInputKind": "official_cn_exact_sku_static_spec_rows",
+      "referenceUrls": [
+        "https://www.samsung.com.cn/smartphones/galaxy-z/galaxy-z-fold5-icy-blue-512gb-sm-f9460lbgchc/"
+      ],
+      "fetchedAt": "2026-10-05T20:22:35.006Z",
+      "sourceSnapshotHash": "6f61e7b34e81ae0dcbeeadd2c61ae3938668a7b3adde8df47b93d60e6f09a5d0",
+      "specs": {
+        "operatingSystem": {
+          "value": "Android",
+          "rawText": "OS Android",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-z/galaxy-z-fold5-icy-blue-512gb-sm-f9460lbgchc/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:22:35.006Z",
+          "sourceSnapshotHash": "6f61e7b34e81ae0dcbeeadd2c61ae3938668a7b3adde8df47b93d60e6f09a5d0",
+          "note": "只核验官方当前参数的generic Android，不声称原始出厂Android/One UI数字版本。"
+        },
+        "displayType": {
+          "value": "主屏：第二代动态AMOLED；外屏：动态AMOLED 2X",
+          "rawText": "类型 第二代动态AMOLED；类型 (外屏) 动态AMOLED 2X",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-z/galaxy-z-fold5-icy-blue-512gb-sm-f9460lbgchc/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:22:35.006Z",
+          "sourceSnapshotHash": "6f61e7b34e81ae0dcbeeadd2c61ae3938668a7b3adde8df47b93d60e6f09a5d0"
+        }
+      },
+      "unavailableFields": [
+        {
+          "field": "storageType",
+          "status": "no_official_value",
+          "reason": "所核验的官方单SKU静态规格未明确UFS、LPDDR或出厂One UI数字版本；保持隔离，不从记忆或更新手册补值。"
+        },
+        {
+          "field": "memoryType",
+          "status": "no_official_value",
+          "reason": "所核验的官方单SKU静态规格未明确UFS、LPDDR或出厂One UI数字版本；保持隔离，不从记忆或更新手册补值。"
+        },
+        {
+          "field": "launchOperatingSystemVersion",
+          "status": "no_official_value",
+          "reason": "所核验的官方单SKU静态规格未明确UFS、LPDDR或出厂One UI数字版本；保持隔离，不从记忆或更新手册补值。"
+        }
+      ],
+      "specRows": {
+        "处理器": "3.36GHz,2.8GHz,2GHz",
+        "重量（g）": "253",
+        "CPU核数": "八核",
+        "分辨率": "2176 x 1812 (QXGA+)",
+        "CPU 主频": "3.36GHz, 2.8GHz, 2GHz",
+        "CPU 核数": "八核",
+        "尺寸": "7.6英寸(直角)/7.4英寸(圆角)",
+        "类型": "第二代动态AMOLED",
+        "色彩": "1600万色",
+        "最高刷新率": "120 Hz",
+        "尺寸 (外屏)": "6.2英寸(直角)/6.1英寸(圆角)",
+        "分辨率 (外屏)": "2316 x 904 (HD+)",
+        "类型 (外屏)": "动态AMOLED 2X",
+        "色彩 (外屏)": "1600万色",
+        "后置摄像头 - 分辨率 (多重)": "5000万像素+1200万像素+1000万像素",
+        "后置摄像头 - 光圈 (多重)": "F1.8 , F2.2 , F2.4",
+        "后置摄像头 - 自动对焦": "支持",
+        "后置摄像头 - OIS": "支持",
+        "后置摄像头 - 变焦": "光学变焦3倍，数码变焦高达30倍",
+        "屏下摄像头 - 分辨率": "400万像素",
+        "屏下摄像头 - 光圈": "F1.8",
+        "后置摄像头 - 闪光灯": "支持",
+        "外部前置自拍摄像头 - 分辨率": "1000万像素",
+        "外部前置自拍摄像头 - 光圈": "F2.2",
+        "视频拍摄": "UHD 8K (7680 x 4320)@30fps",
+        "慢动作": "960fps @FHD, 240fps @FHD",
+        "内存(GB)": "12",
+        "存储 (GB)": "512",
+        "用户可用存储(GB)": "442.0（二进制） 480.3（十进制） *可用存储计算方式从现有的二进制改为十进制。计算方式的改变本身不会影响实际物理容量。",
+        "卡槽数量": "双卡",
+        "SIM size": "Nano-SIM(4FF)",
+        "卡槽类型": "SIM 1 + SIM 2",
+        "Infra": "2G GSM, 3G WCDMA, 4G LTE FDD, 4G LTE TDD, 5G Sub6 FDD, 5G Sub6 TDD",
+        "2G GSM": "GSM850, GSM900, DCS1800, PCS1900",
+        "3G UMTS": "B1(2100), B2(1900), B5(850), B8(900)",
+        "4G FDD LTE": "B1(2100), B2(1900), B3(1800), B4(AWS), B5(850), B7(2600), B8(900), B12(700), B13(700), B18(800), B19(800), B20(800), B25(1900), B26(850), B28(700), B66(AWS-3)",
+        "4G TDD LTE": "B34(2010), B38(2600), B39(1900), B40(2300), B41(2500)",
+        "5G FDD Sub6": "N1(2100), N2(1900), N3(1800), N5(850), N7(2600), N8(900), N12(700), N20(800), N25(1900), N28(700), N66(AWS-3)",
+        "5G TDD Sub6": "N38(2600), N40(2300), N41(2500), N77(3700), N78(3500), N79(4500)",
+        "USB 接口": "USB Type-C",
+        "USB 版本": "USB 3.2 Gen 1",
+        "位置服务": "GPS, Glonass, Beidou, Galileo, QZSS",
+        "耳机接口": "USB Type-C",
+        "WLAN（Wi-Fi）": "802.11 a/b/g/n/ac/ax 2.4G+5GHz, HE160, MIMO, 1024-QAM",
+        "WLAN（Wi-Fi）直连": "支持",
+        "蓝牙版本": "蓝牙 v5.3",
+        "NFC": "支持",
+        "超宽带 (UWB)": "支持",
+        "PC Sync.": "S 换机助手（PC 版）",
+        "外形": "折叠",
+        "尺寸 (高*宽*厚, mm)": "154.9 x 129.9 x 6.1",
+        "折叠尺寸 (高*宽*厚, mm)": "154.9 x 67.1 x 13.4",
+        "重量 (g)": "253",
+        "电池容量 (mAh, 典型值)": "4400",
+        "立体声": "支持",
+        "视频播放格式": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
+        "视频播放分辨率": "UHD 8K (7680 x 4320)@60fps",
+        "音频播放格式": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
+        "OS": "Android",
+        "设备支持": "Galaxy Buds2 Pro, Galaxy Buds Pro, Galaxy Buds Live, Galaxy Buds+, Galaxy Buds2, Galaxy Buds, Galaxy Fit2, Galaxy Watch6, Galaxy Watch5, Galaxy Watch4, Galaxy Watch3, Galaxy Watch, Galaxy Watch Active2, Galaxy Watch Active, Gear Fit2 Pro, Gear Fit2, Gear Sport, Gear S3, Gear S2",
+        "三星 DeX 扩展坞": "支持",
+        "蓝牙助听器支持": "安卓ASHA协议"
+      },
+      "note": "本文件仅为root修复历史字段的正式原文证据，不代表核验所有规格；未改历史DB。"
+    },
+    {
+      "id": "samsung-galaxy-z-fold6-2024",
+      "modelName": "Samsung Galaxy Z Fold6",
+      "market": "CN",
+      "modelCode": "SM-F9560LIGCHC",
+      "configuration": {
+        "memory": "12GB",
+        "storage": "512GB"
+      },
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceInputKind": "official_cn_exact_sku_static_spec_rows",
+      "referenceUrls": [
+        "https://www.samsung.com.cn/business/smartphones/galaxy-z/galaxy-z-fold6-sm-f9560ligchc/"
+      ],
+      "fetchedAt": "2026-10-05T20:22:35.107Z",
+      "sourceSnapshotHash": "6f05f1cbb29e486bdb0cd6789954d024950cab9f96a93b43b57c2c0b59313da6",
+      "specs": {
+        "operatingSystem": {
+          "value": "Android",
+          "rawText": "OS Android",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/business/smartphones/galaxy-z/galaxy-z-fold6-sm-f9560ligchc/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:22:35.107Z",
+          "sourceSnapshotHash": "6f05f1cbb29e486bdb0cd6789954d024950cab9f96a93b43b57c2c0b59313da6",
+          "note": "只核验官方当前参数的generic Android，不声称原始出厂Android/One UI数字版本。"
+        },
+        "displayType": {
+          "value": "主屏：第二代动态AMOLED；外屏：第二代动态AMOLED",
+          "rawText": "类型 第二代动态AMOLED；类型 (外屏) 第二代动态AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/business/smartphones/galaxy-z/galaxy-z-fold6-sm-f9560ligchc/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:22:35.107Z",
+          "sourceSnapshotHash": "6f05f1cbb29e486bdb0cd6789954d024950cab9f96a93b43b57c2c0b59313da6"
+        }
+      },
+      "unavailableFields": [
+        {
+          "field": "storageType",
+          "status": "no_official_value",
+          "reason": "所核验的官方单SKU静态规格未明确UFS、LPDDR或出厂One UI数字版本；保持隔离，不从记忆或更新手册补值。"
+        },
+        {
+          "field": "memoryType",
+          "status": "no_official_value",
+          "reason": "所核验的官方单SKU静态规格未明确UFS、LPDDR或出厂One UI数字版本；保持隔离，不从记忆或更新手册补值。"
+        },
+        {
+          "field": "launchOperatingSystemVersion",
+          "status": "no_official_value",
+          "reason": "所核验的官方单SKU静态规格未明确UFS、LPDDR或出厂One UI数字版本；保持隔离，不从记忆或更新手册补值。"
+        }
+      ],
+      "specRows": {
+        "处理器": "3.39GHz, 3.1GHz, 2.9GHz, 2.2GHz",
+        "重量（g）": "239g",
+        "CPU核数": "八核",
+        "分辨率": "2160 x 1856 (QXGA+)",
+        "CPU 主频": "3.39GHz, 3.1GHz, 2.9GHz, 2.2GHz",
+        "CPU 核数": "八核",
+        "尺寸": "7.6英寸(直角)/7.6英寸(圆角)",
+        "类型": "第二代动态AMOLED",
+        "色彩": "1600万色",
+        "最高刷新率": "120 Hz",
+        "尺寸 (外屏)": "6.3英寸(直角)/6.2英寸(圆角)",
+        "分辨率 (外屏)": "968 x 2376 (HD+)",
+        "类型 (外屏)": "第二代动态AMOLED",
+        "色彩 (外屏)": "1600万色",
+        "后置摄像头 - 分辨率 (多重)": "5000万像素+1200万像素+1000万像素",
+        "后置摄像头 - 光圈 (多重)": "F1.8 , F2.2 , F2.4",
+        "后置摄像头 - 自动对焦": "支持",
+        "后置摄像头 - OIS": "支持",
+        "后置摄像头 - 变焦": "光学变焦3倍，光学品质变焦2倍 (通过自适应像素传感器实现)，数码变焦高达30倍。",
+        "屏下摄像头 - 分辨率": "400万像素",
+        "屏下摄像头 - 光圈": "F1.8",
+        "后置摄像头 - 闪光灯": "支持",
+        "外部前置自拍摄像头 - 分辨率": "1000万像素",
+        "外部前置自拍摄像头 - 光圈": "F2.2",
+        "视频拍摄": "UHD 8K (7680 x 4320)@30fps",
+        "慢动作": "240fps @FHD, 120fps @FHD, 120fps @UHD",
+        "内存(GB)": "12",
+        "存储 (GB)": "512",
+        "用户可用存储(GB)": "478.3",
+        "卡槽数量": "双卡",
+        "SIM size": "Nano-SIM(4FF)",
+        "卡槽类型": "SIM 1 + SIM 2",
+        "2G GSM": "GSM850, GSM900, DCS1800, PCS1900",
+        "3G UMTS": "B1(2100), B2(1900), B5(850), B8(900)",
+        "4G FDD LTE": "B1(2100), B2(1900), B3(1800), B4(AWS), B5(850), B7(2600), B8(900), B12(700), B13(700), B18(800), B19(800), B20(800), B25(1900), B26(850), B28(700), B66(AWS-3)",
+        "4G TDD LTE": "B34(2010), B38(2600), B39(1900), B40(2300), B41(2500)",
+        "5G FDD Sub6": "N1(2100), N2(1900), N5(850), N7(2600), N8(900), N12(700), N20(800), N25(1900), N28(700), N66(AWS-3)",
+        "5G TDD Sub6": "N38(2600), N40(2300), N41(2500), N77(3700), N78(3500), N79(4500)",
+        "USB 接口": "USB Type-C",
+        "USB 版本": "USB 3.2 Gen 1",
+        "位置服务": "GPS, Glonass, Beidou, Galileo, QZSS",
+        "耳机接口": "USB Type-C",
+        "WLAN（Wi-Fi）": "802.11a/b/g/n/ac/ax 2.4GHz+5GHz, HE160, MIMO, 1024-QAM",
+        "WLAN（Wi-Fi）直连": "支持",
+        "蓝牙版本": "蓝牙 v5.3",
+        "NFC": "支持",
+        "超宽带 (UWB)": "支持",
+        "PC Sync.": "S 换机助手（PC 版）",
+        "外形": "折叠",
+        "尺寸 (高*宽*厚, mm)": "153.5 x 132.6 x 5.6",
+        "折叠尺寸 (高*宽*厚, mm)": "153.5 x 68.1 x 12.1",
+        "重量 (g)": "239",
+        "电池容量 (mAh, 典型值)": "4400",
+        "立体声": "支持",
+        "视频播放格式": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
+        "视频播放分辨率": "UHD 8K (7680 x 4320)@60fps",
+        "音频播放格式": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
+        "OS": "Android",
+        "设备支持": "Galaxy Ring, Galaxy Buds3 Pro, Galaxy Buds2 Pro, Galaxy Buds Pro, Galaxy Buds Live, Galaxy Buds+, Galaxy Buds3, Galaxy Buds2, Galaxy Buds, Galaxy Buds FE, Galaxy Fit3, Galaxy Fit2, Galaxy Watch Ultra, Galaxy Watch7, Galaxy Watch6, Galaxy Watch5, Galaxy Watch4, Galaxy Watch3, Galaxy Watch, Galaxy Watch Active2, Galaxy Watch Active",
+        "三星 DeX 扩展坞": "支持",
+        "蓝牙助听器支持": "安卓ASHA协议",
+        "SmartThings": "支持"
+      },
+      "note": "本文件仅为root修复历史字段的正式原文证据，不代表核验所有规格；未改历史DB。"
+    },
+    {
+      "id": "samsung-galaxy-z-flip5-2023",
+      "modelName": "Samsung Galaxy Z Flip5",
+      "market": "CN",
+      "modelCode": "SM-F7310ZEECHC",
+      "configuration": {
+        "memory": "8GB",
+        "storage": "512GB"
+      },
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceInputKind": "official_cn_exact_sku_static_spec_rows",
+      "referenceUrls": [
+        "https://www.samsung.com.cn/smartphones/galaxy-z/galaxy-z-flip5-cream-512gb-sm-f7310zeechc/"
+      ],
+      "fetchedAt": "2026-10-05T20:21:30.979Z",
+      "sourceSnapshotHash": "0369c050d35115d188c7db60377d6e26ac0acf7a36212a3b19a9445254fd6320",
+      "specs": {
+        "operatingSystem": {
+          "value": "Android",
+          "rawText": "OS Android",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-z/galaxy-z-flip5-cream-512gb-sm-f7310zeechc/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:21:30.979Z",
+          "sourceSnapshotHash": "0369c050d35115d188c7db60377d6e26ac0acf7a36212a3b19a9445254fd6320",
+          "note": "只核验官方当前参数的generic Android，不声称原始出厂Android/One UI数字版本。"
+        },
+        "displayType": {
+          "value": "主屏：第二代动态AMOLED；外屏：Super AMOLED",
+          "rawText": "类型 第二代动态AMOLED；类型 (外屏) Super AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-z/galaxy-z-flip5-cream-512gb-sm-f7310zeechc/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:21:30.979Z",
+          "sourceSnapshotHash": "0369c050d35115d188c7db60377d6e26ac0acf7a36212a3b19a9445254fd6320"
+        }
+      },
+      "unavailableFields": [
+        {
+          "field": "storageType",
+          "status": "no_official_value",
+          "reason": "所核验的官方单SKU静态规格未明确UFS、LPDDR或出厂One UI数字版本；保持隔离，不从记忆或更新手册补值。"
+        },
+        {
+          "field": "memoryType",
+          "status": "no_official_value",
+          "reason": "所核验的官方单SKU静态规格未明确UFS、LPDDR或出厂One UI数字版本；保持隔离，不从记忆或更新手册补值。"
+        },
+        {
+          "field": "launchOperatingSystemVersion",
+          "status": "no_official_value",
+          "reason": "所核验的官方单SKU静态规格未明确UFS、LPDDR或出厂One UI数字版本；保持隔离，不从记忆或更新手册补值。"
+        }
+      ],
+      "specRows": {
+        "处理器": "3.36GHz,2.8GHz,2GHz",
+        "重量（g）": "187",
+        "CPU核数": "八核",
+        "分辨率": "2640 x 1080 (FHD+)",
+        "CPU 主频": "3.36GHz,2.8GHz,2GHz",
+        "CPU 核数": "八核",
+        "尺寸": "6.7英寸(直角)/6.6英寸(圆角)",
+        "类型": "第二代动态AMOLED",
+        "色彩": "1600万色",
+        "最高刷新率": "120 Hz",
+        "尺寸 (外屏)": "3.4英寸(直角)/3.3英寸(圆角)",
+        "分辨率 (外屏)": "720 x 748",
+        "类型 (外屏)": "Super AMOLED",
+        "色彩 (外屏)": "1600万色",
+        "慢动作": "960fps @FHD, 240fps @FHD",
+        "后置摄像头 - 分辨率 (多重)": "1200万像素+1200万像素",
+        "后置摄像头 - 光圈 (多重)": "F1.8 , F2.2",
+        "后置摄像头 - 自动对焦": "支持",
+        "后置摄像头 - OIS": "支持",
+        "后置摄像头 - 变焦": "数码变焦高达10倍",
+        "前置摄像头 - 分辨率": "1000万像素",
+        "前置摄像头 - 光圈": "F2.2",
+        "后置摄像头 - 闪光灯": "支持",
+        "视频拍摄": "UHD 4K (3840 x 2160)@60fps",
+        "内存(GB)": "8",
+        "存储 (GB)": "512",
+        "用户可用存储(GB)": "442.1（二进制） 480.4（十进制） *可用存储计算方式从现有的二进制改为十进制。计算方式的改变本身不会影响实际物理容量。",
+        "卡槽数量": "单卡",
+        "SIM size": "Nano-SIM(4FF)",
+        "卡槽类型": "SIM 1",
+        "Infra": "2G GSM, 3G WCDMA, 4G LTE FDD, 4G LTE TDD, 5G Sub6 FDD, 5G Sub6 TDD",
+        "2G GSM": "GSM850, GSM900, DCS1800, PCS1900",
+        "3G UMTS": "B1(2100), B2(1900), B5(850), B8(900)",
+        "4G FDD LTE": "B1(2100), B2(1900), B3(1800), B4(AWS), B5(850), B7(2600), B8(900), B12(700), B13(700), B18(800), B19(800), B20(800), B25(1900), B26(850), B28(700), B66(AWS-3)",
+        "4G TDD LTE": "B34(2010), B38(2600), B39(1900), B40(2300), B41(2500)",
+        "5G FDD Sub6": "N1(2100), N2(1900), N3(1800), N5(850), N7(2600), N8(900), N12(700), N20(800), N25(1900), N28(700), N66(AWS-3)",
+        "5G TDD Sub6": "N38(2600), N40(2300), N41(2500), N77(3700), N78(3500), N79(4500)",
+        "USB 接口": "USB Type-C",
+        "USB 版本": "USB 3.2 Gen 1",
+        "位置服务": "GPS, Glonass, Beidou, Galileo, QZSS",
+        "耳机接口": "USB Type-C",
+        "WLAN（Wi-Fi）": "802.11 a/b/g/n/ac/ax 2.4G+5GHz, HE160, MIMO, 1024-QAM",
+        "WLAN（Wi-Fi）直连": "支持",
+        "蓝牙版本": "蓝牙 v5.3",
+        "NFC": "支持",
+        "蓝牙配置文件": "A2DP, AVRCP, DI, HFP, HID, HOGP, HSP, MAP, OPP, PAN, PBAP, PBP, TMAP",
+        "PC Sync.": "S 换机助手（PC 版）",
+        "外形": "折叠",
+        "尺寸 (高*宽*厚, mm)": "165.1 x 71.9 x 6.9",
+        "折叠尺寸 (高*宽*厚, mm)": "85.1 x 71.9 x 15.1",
+        "重量 (g)": "187",
+        "电池容量 (mAh, 典型值)": "3700",
+        "立体声": "支持",
+        "视频播放格式": "MP4, M4V, 3GP, 3G2, AVI, FLV, MKV, WEBM",
+        "视频播放分辨率": "UHD 8K (7680 x 4320)@60fps",
+        "音频播放格式": "MP3, M4A, 3GA, AAC, OGG, OGA, WAV, AMR, AWB, FLAC, MID, MIDI, XMF, MXMF, IMY, RTTTL, RTX, OTA, DFF, DSF, APE",
+        "OS": "Android",
+        "设备支持": "Galaxy Buds2 Pro,Galaxy Buds Pro,Galaxy Buds Live,Galaxy Buds+,Galaxy Buds2,Galaxy Buds,Galaxy Fit2,Galaxy Watch6,Galaxy Watch5,Galaxy Watch4,Galaxy Watch3,Galaxy Watch,Galaxy Watch Active2,Galaxy Watch Active,Gear Fit2 Pro,Gear Fit2,Gear Sport,Gear S3,Gear S2",
+        "蓝牙助听器支持": "安卓ASHA协议"
+      },
+      "note": "本文件仅为root修复历史字段的正式原文证据，不代表核验所有规格；未改历史DB。"
+    }
+  ],
+  "rejectedPages": [
+    {
+      "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-z-fold5/specs/",
+      "fetchedAt": "2026-10-05T20:19:12.224Z",
+      "sourceSnapshotHash": "0b82baa1a18fc427e028c55eb17efa1f8391c59d5d89602c2b06c4ef4e564330",
+      "observedTitle": "三星智能手机-Galaxy Z系列 | 三星电子 中国",
+      "reason": "旧款家族地址现在返回新款Z系列内容；型号不匹配，不能用来修旧Fold5/Flip5。"
+    },
+    {
+      "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-z-flip5/specs/",
+      "fetchedAt": "2026-10-05T20:19:12.487Z",
+      "sourceSnapshotHash": "0b82baa1a18fc427e028c55eb17efa1f8391c59d5d89602c2b06c4ef4e564330",
+      "observedTitle": "三星智能手机-Galaxy Z系列 | 三星电子 中国",
+      "reason": "旧款家族地址现在返回新款Z系列内容；型号不匹配，不能用来修旧Fold5/Flip5。"
+    },
+    {
+      "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-z-fold6/specs/",
+      "fetchedAt": "2026-10-05T20:19:12.269Z",
+      "sourceSnapshotHash": "f6047076eac26b5b18eb15ec311e13c3770f8abde38e54af3f724481286a9589",
+      "observedTitle": "规格参数 | Samsung Galaxy Z Fold6 | 三星电子 中国",
+      "reason": "家族规格页只有标签/交互入口，不能从标签补不存在的实际参数值；使用准确CHC商用单SKU页替代。"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "metadata": {
     "version": "1.0",
     "totalDevices": 2,
-    "generatedAt": "2026-09-07"
+    "generatedAt": "2026-09-22"
   },
   "devices": [
     {
@@ -21,12 +21,49 @@
       "comparisonGroupId": "huawei.phone.pura-ultra.standard",
       "configurations": [
         {
-          "memory": "16GB",
-          "storage": "512GB"
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "HUAWEI Pura 70 Ultra(全网通 16gb+512gb 双卡、全网通 16gb+1t 双卡、12gb+512gb 双卡)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16090854/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T10:34:32.326Z",
+            "sourceSnapshotHash": "1032437c3453bcca2d624d1b237a826691fa1654893874f9894bedea9fa70af3"
+          }
         },
         {
           "memory": "16GB",
-          "storage": "1TB"
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "HUAWEI Pura 70 Ultra(全网通 16gb+512gb 双卡、全网通 16gb+1t 双卡、12gb+512gb 双卡)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16090854/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T10:34:32.326Z",
+            "sourceSnapshotHash": "1032437c3453bcca2d624d1b237a826691fa1654893874f9894bedea9fa70af3"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "HUAWEI Pura 70 Ultra(全网通 16gb+512gb 双卡、全网通 16gb+1t 双卡、12gb+512gb 双卡)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16090854/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T10:34:32.326Z",
+            "sourceSnapshotHash": "1032437c3453bcca2d624d1b237a826691fa1654893874f9894bedea9fa70af3"
+          }
         }
       ],
       "benchmarks": [
@@ -36,137 +73,254 @@
           "score": 163,
           "protocolVersion": "Camera v5",
           "sourceUrl": "https://www.dxomark.com/huawei-pura-70-ultra-camera-test/",
-          "verifiedAt": "2026-09-07"
+          "rawText": "163",
+          "publishedAt": "2024-05-07",
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:37:07.341Z",
+          "sourceSnapshotHash": "e5da63330d8d49f8642b3bdfd242e1ad87d107db5b24a9ace87b39b68c5ce15c",
+          "notes": "相机综合测试分数，不等于单独拍照分；协议标签为大版本，具体小版本、测试固件及与国行配置的一致性未核验。"
         }
       ],
       "specs": {
         "chip": {
           "value": "麒麟 9010",
-          "rawText": "处理器：麒麟 9010",
-          "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
-          "sourceType": "official",
-          "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "rawText": "CPU品牌 华为海思 CPU 麒麟9010",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://g.pconline.com.cn/product/mobile/huawei/2191939_detail.html",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:09:37.120Z",
+          "sourceSnapshotHash": "2dd81d0f88ce89519ed09a9f427dd06cfe4120cfd87dddc9db34e040e0d1713e"
         },
         "screenSize": {
           "value": 6.8,
           "unit": "inch",
-          "rawText": "屏幕尺寸：6.8 英寸",
-          "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
-          "sourceType": "official",
-          "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "rawText": "6.8 英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/819/021.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:37:06.792Z",
+          "sourceSnapshotHash": "175cc55368e26d3a4224c97a7eebec4ae3c7349bfb03fe042f492c96ca1b2e70"
         },
         "displayType": {
           "value": "LTPO OLED",
-          "rawText": "屏幕类型：LTPO OLED，支持 1-120Hz 自适应刷新率",
-          "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
-          "sourceType": "official",
-          "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "rawText": "OLED 屏，支持 1-120Hz LTPO 自适应刷新率",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/819/021.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:37:06.792Z",
+          "sourceSnapshotHash": "175cc55368e26d3a4224c97a7eebec4ae3c7349bfb03fe042f492c96ca1b2e70"
         },
         "resolution": {
           "value": "2844x1260",
-          "rawText": "分辨率：2844x1260",
-          "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
-          "sourceType": "official",
-          "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "rawText": "2844×1260",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/819/021.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:37:06.792Z",
+          "sourceSnapshotHash": "175cc55368e26d3a4224c97a7eebec4ae3c7349bfb03fe042f492c96ca1b2e70"
         },
         "refreshRate": {
           "value": 120,
           "unit": "Hz",
-          "rawText": "支持 1-120Hz 自适应刷新率",
-          "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
-          "sourceType": "official",
-          "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "rawText": "1-120Hz LTPO 自适应刷新率",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/819/021.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:37:06.792Z",
+          "sourceSnapshotHash": "175cc55368e26d3a4224c97a7eebec4ae3c7349bfb03fe042f492c96ca1b2e70"
         },
         "weight": {
           "value": 226,
           "unit": "g",
-          "rawText": "重量约 226 克（含电池）",
-          "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
-          "sourceType": "official",
-          "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "rawText": "约 226 克",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/819/021.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:37:06.792Z",
+          "sourceSnapshotHash": "175cc55368e26d3a4224c97a7eebec4ae3c7349bfb03fe042f492c96ca1b2e70"
         },
         "memory": {
-          "value": "16GB",
-          "rawText": "运行内存：16GB",
+          "value": "12GB / 16GB",
+          "rawText": "HUAWEI Pura 70 Ultra(全网通 16gb+512gb 双卡、全网通 16gb+1t 双卡、12gb+512gb 双卡)",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16090854/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:34:32.326Z",
+          "sourceSnapshotHash": "1032437c3453bcca2d624d1b237a826691fa1654893874f9894bedea9fa70af3"
         },
         "storage": {
           "value": "512GB / 1TB",
-          "rawText": "机身存储：512GB / 1TB",
+          "rawText": "HUAWEI Pura 70 Ultra(全网通 16gb+512gb 双卡、全网通 16gb+1t 双卡、12gb+512gb 双卡)",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16090854/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:34:32.326Z",
+          "sourceSnapshotHash": "1032437c3453bcca2d624d1b237a826691fa1654893874f9894bedea9fa70af3"
         },
         "rearCamera": {
           "value": "5000 万像素一英寸主摄 + 4000 万像素超广角 + 5000 万像素长焦",
-          "rawText": "5000 万像素一英寸主摄 + 4000 万像素超广角 + 5000 万像素长焦",
-          "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
-          "sourceType": "official",
-          "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "rawText": "摄像头名称 后置摄像头1：超聚光伸缩摄像头 后置摄像头2：超广角摄像头 后置摄像头3：超聚光微距长焦摄像头 前置摄像头1：超广角摄像头 纠错 像素 后置摄像头1：5000万像素 后置摄像头2：4000万像素 后置摄像头3：5000万像素 前置摄像头1：1300万像素 纠错 光圈 后置摄像头1：f/1.6-f/4.0 后置摄像头2：f/2.2 后置摄像头3：f/2.1 前置摄像头1：f/2.4 纠错 传感器尺寸 1/1\"",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2000/1999701/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:09:34.519Z",
+          "sourceSnapshotHash": "ede1adfae7487f00e324e0338e6533b2970da3fc78bad5f1db92428c548f9a52"
         },
         "mainCamera": {
           "value": "50MP（5000 万像素）一英寸主摄",
-          "rawText": "5000 万像素一英寸主摄",
-          "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
-          "sourceType": "official",
-          "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "rawText": "摄像头名称 后置摄像头1：超聚光伸缩摄像头 后置摄像头2：超广角摄像头 后置摄像头3：超聚光微距长焦摄像头 前置摄像头1：超广角摄像头 纠错 像素 后置摄像头1：5000万像素 后置摄像头2：4000万像素 后置摄像头3：5000万像素 前置摄像头1：1300万像素 纠错 光圈 后置摄像头1：f/1.6-f/4.0 后置摄像头2：f/2.2 后置摄像头3：f/2.1 前置摄像头1：f/2.4 纠错 传感器尺寸 1/1\"",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2000/1999701/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:09:34.519Z",
+          "sourceSnapshotHash": "ede1adfae7487f00e324e0338e6533b2970da3fc78bad5f1db92428c548f9a52"
         },
         "telephoto": {
           "value": "5000 万像素超聚光微距长焦",
-          "rawText": "5000 万像素超聚光微距长焦",
-          "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
-          "sourceType": "official",
-          "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "rawText": "5000 万像素超聚光微距长焦摄像头（F2.1 光圈，OIS 光学防抖）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/762/559.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:57:07.647Z",
+          "sourceSnapshotHash": "8e1bb5c02c26f71523120fe1f8f380bb25c21de14c0c8796c9463cb33467c9d9"
         },
         "frontCamera": {
           "value": "1300 万像素",
-          "rawText": "前置摄像头：1300 万像素",
-          "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
-          "sourceType": "official",
-          "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "rawText": "1300 万像素超广角摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/819/021.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:37:06.792Z",
+          "sourceSnapshotHash": "175cc55368e26d3a4224c97a7eebec4ae3c7349bfb03fe042f492c96ca1b2e70"
         },
-        "batteryLife": {
-          "value": "5200mAh",
-          "rawText": "电池典型容量：5200mAh",
-          "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
-          "sourceType": "official",
-          "confidence": 1,
-          "verifiedAt": "2026-09-07"
+        "batteryCapacity": {
+          "value": 5200,
+          "unit": "mAh",
+          "rawText": "5200mAh",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/819/021.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:37:06.792Z",
+          "sourceSnapshotHash": "175cc55368e26d3a4224c97a7eebec4ae3c7349bfb03fe042f492c96ca1b2e70"
         },
         "port": {
           "value": "USB Type-C",
-          "rawText": "数据线接口：USB Type-C",
-          "sourceUrl": "https://consumer.huawei.com/sg/phones/pura70-ultra/specs/",
-          "sourceType": "official",
-          "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "rawText": "Type-C（USB 3.1 Gen1）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/819/021.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:37:06.792Z",
+          "sourceSnapshotHash": "175cc55368e26d3a4224c97a7eebec4ae3c7349bfb03fe042f492c96ca1b2e70"
         },
         "launchPrice": {
           "value": 9999,
           "unit": "CNY",
-          "rawText": "中国大陆首发价 9999 元起",
-          "sourceUrl": "https://feeds-drcn.cloud.huawei.com.cn/landingpage/latest?channel=-1&cpid=666&ctype=news&docid=10510413dba49eb6bc59d7e050c8bb2507afa16&dy_scenario=relate&ifl=zh_CN&r=CN&tn=fe5602e1e67153885a098aa1ea73fc5445fcb4a97e34f75510a0287f89d83525&to_app=hwbrowser",
-          "sourceType": "official",
-          "confidence": 1,
-          "verifiedAt": "2026-09-07",
+          "rawText": "16GB + 512GB 定价 9999 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/762/559.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:57:07.647Z",
+          "sourceSnapshotHash": "8e1bb5c02c26f71523120fe1f8f380bb25c21de14c0c8796c9463cb33467c9d9",
           "priceType": "launch",
           "market": "中国大陆",
           "configuration": "16GB 运行内存 + 512GB 存储，中国大陆版本",
           "condition": "中国大陆官方首发价"
+        },
+        "operatingSystem": {
+          "value": "HarmonyOS 4.2",
+          "rawText": "操作系统 HarmonyOS 4.2",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2000/1999701/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:09:34.519Z",
+          "sourceSnapshotHash": "ede1adfae7487f00e324e0338e6533b2970da3fc78bad5f1db92428c548f9a52"
+        },
+        "security": {
+          "value": "屏幕指纹识别",
+          "rawText": "指纹识别 屏幕指纹识别",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2000/1999701/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:09:34.519Z",
+          "sourceSnapshotHash": "ede1adfae7487f00e324e0338e6533b2970da3fc78bad5f1db92428c548f9a52"
+        },
+        "waterResistance": {
+          "value": "防尘抗水（IP68）",
+          "rawText": "三防功能 防尘抗水（IP68）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2000/1999701/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:09:34.519Z",
+          "sourceSnapshotHash": "ede1adfae7487f00e324e0338e6533b2970da3fc78bad5f1db92428c548f9a52"
+        },
+        "sim": {
+          "value": "双卡（Nano SIM卡）",
+          "rawText": "SIM卡类型 双卡（Nano SIM卡）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2000/1999701/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:09:34.519Z",
+          "sourceSnapshotHash": "ede1adfae7487f00e324e0338e6533b2970da3fc78bad5f1db92428c548f9a52"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持NFC",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2000/1999701/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:09:34.519Z",
+          "sourceSnapshotHash": "ede1adfae7487f00e324e0338e6533b2970da3fc78bad5f1db92428c548f9a52"
+        },
+        "chargingMethod": {
+          "value": "有线充电：100w；无线充电：80w",
+          "rawText": "有线充电 100w；无线充电 80w",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2000/1999701/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:09:34.519Z",
+          "sourceSnapshotHash": "ede1adfae7487f00e324e0338e6533b2970da3fc78bad5f1db92428c548f9a52"
         }
       },
       "computed": {
@@ -199,11 +353,33 @@
       "configurations": [
         {
           "memory": "16GB",
-          "storage": "512GB"
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "HUAWEI Pura 80 Ultra(全网通 16+512gb、全网通 16+1tb)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16053353/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T10:34:35.509Z",
+            "sourceSnapshotHash": "cef2702f2bbd42599e50ff992ce07bca32d3ad1bc6825d641cdd848ba20a205e"
+          }
         },
         {
           "memory": "16GB",
-          "storage": "1TB"
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "HUAWEI Pura 80 Ultra(全网通 16+512gb、全网通 16+1tb)",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16053353/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T10:34:35.509Z",
+            "sourceSnapshotHash": "cef2702f2bbd42599e50ff992ce07bca32d3ad1bc6825d641cdd848ba20a205e"
+          }
         }
       ],
       "benchmarks": [
@@ -213,133 +389,185 @@
           "score": 175,
           "protocolVersion": "Camera v6",
           "sourceUrl": "https://www.dxomark.com/huawei-pura-80-ultra-camera-test/",
-          "verifiedAt": "2026-09-07"
+          "rawText": "175",
+          "publishedAt": "2025-08-12",
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:37:07.474Z",
+          "sourceSnapshotHash": "33fc96c6983e3a8f9bfbd3a12ac88ae74cef0821d05bd5d625ec934f9dbf43df",
+          "notes": "相机综合测试分数，不等于单独拍照分；协议标签为大版本，具体小版本、测试固件及与国行配置的一致性未核验。"
         }
       ],
       "specs": {
         "chip": {
           "value": "麒麟 9020",
-          "rawText": "处理器：麒麟 9020",
-          "sourceUrl": "https://consumer.huawei.com/hk/phones/pura80-ultra/specs/",
-          "sourceType": "official",
-          "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "rawText": "CPU型号： 华为海思 麒麟9020",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://ku.ithome.com/item/46651/canshu.html",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:56:58.335Z",
+          "sourceSnapshotHash": "010def31670fd44769109d542c34f3e2084adf0d973136e247567d366394c6c3"
         },
         "screenSize": {
           "value": 6.8,
           "unit": "inch",
-          "rawText": "屏幕尺寸：6.8 英寸",
+          "rawText": "6.8 英寸",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:06:43.961Z",
+          "sourceSnapshotHash": "0b289787086cd7c7ab9688bde5a7882a1e4b54ef117c91a9aa6a5a4200115d4a"
         },
         "displayType": {
           "value": "LTPO OLED",
-          "rawText": "屏幕类型：LTPO OLED，支持 1-120Hz 自适应刷新率",
+          "rawText": "OLED，支持 1-120 Hz LTPO 自适应刷新率",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:06:43.961Z",
+          "sourceSnapshotHash": "0b289787086cd7c7ab9688bde5a7882a1e4b54ef117c91a9aa6a5a4200115d4a"
         },
         "resolution": {
           "value": "2848x1276",
-          "rawText": "分辨率：2848x1276",
+          "rawText": "2848 × 1276",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:06:43.961Z",
+          "sourceSnapshotHash": "0b289787086cd7c7ab9688bde5a7882a1e4b54ef117c91a9aa6a5a4200115d4a"
         },
         "refreshRate": {
           "value": 120,
           "unit": "Hz",
-          "rawText": "支持 1-120Hz 自适应刷新率",
+          "rawText": "1-120 Hz LTPO 自适应刷新率",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:06:43.961Z",
+          "sourceSnapshotHash": "0b289787086cd7c7ab9688bde5a7882a1e4b54ef117c91a9aa6a5a4200115d4a"
         },
         "weight": {
           "value": 233.5,
           "unit": "g",
-          "rawText": "重量约 233.5 克（含电池）",
+          "rawText": "约 233.5 克",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:06:43.961Z",
+          "sourceSnapshotHash": "0b289787086cd7c7ab9688bde5a7882a1e4b54ef117c91a9aa6a5a4200115d4a"
         },
         "memory": {
           "value": "16GB",
-          "rawText": "运行内存：16GB",
+          "rawText": "HUAWEI Pura 80 Ultra(全网通 16+512gb、全网通 16+1tb)",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16053353/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:34:35.509Z",
+          "sourceSnapshotHash": "cef2702f2bbd42599e50ff992ce07bca32d3ad1bc6825d641cdd848ba20a205e"
         },
         "storage": {
           "value": "512GB / 1TB",
-          "rawText": "机身存储：512GB / 1TB",
+          "rawText": "HUAWEI Pura 80 Ultra(全网通 16+512gb、全网通 16+1tb)",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16053353/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:34:35.509Z",
+          "sourceSnapshotHash": "cef2702f2bbd42599e50ff992ce07bca32d3ad1bc6825d641cdd848ba20a205e"
         },
         "rearCamera": {
           "value": "5000 万像素一英寸主摄 + 4000 万像素超广角 + 5000 万像素长焦 + 1250 万像素超长焦",
-          "rawText": "5000 万像素一英寸主摄 + 4000 万像素超广角 + 5000 万像素长焦 + 1250 万像素超长焦",
+          "rawText": "5000 万像素一英寸超高动态摄像头（F1.6-F4.0 光圈，OIS 光学防抖） 5000 万像素超大底长焦摄像头（F2.4 光圈，传感器位移防抖） 1250 万像素大底超长焦摄像头（F3.6 光圈，传感器位移防抖） 4000 万像素超广角摄像头（F2.2 光圈） 150 万多光谱通道红枫原色摄像头",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:06:43.961Z",
+          "sourceSnapshotHash": "0b289787086cd7c7ab9688bde5a7882a1e4b54ef117c91a9aa6a5a4200115d4a",
+          "note": "另有 150 万多光谱通道红枫原色摄像头"
         },
         "mainCamera": {
           "value": "50MP（5000 万像素）一英寸主摄",
-          "rawText": "5000 万像素一英寸主摄",
+          "rawText": "5000 万像素一英寸超高动态摄像头（F1.6-F4.0 光圈，OIS 光学防抖）",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:06:43.961Z",
+          "sourceSnapshotHash": "0b289787086cd7c7ab9688bde5a7882a1e4b54ef117c91a9aa6a5a4200115d4a"
         },
         "telephoto": {
           "value": "5000 万像素 3.7 倍长焦 + 1250 万像素 9.4 倍超长焦",
-          "rawText": "5000 万像素 3.7 倍长焦 + 1250 万像素 9.4 倍超长焦",
+          "rawText": "5000 万像素超大底长焦摄像头（F2.4 光圈，传感器位移防抖） 1250 万像素大底超长焦摄像头（F3.6 光圈，传感器位移防抖） 4000 万像素超广角摄像头（F2.2 光圈） 150 万多光谱通道红枫原色摄像头 *不同模式的照片和视频像素可能有差异，请以实际为准。 后置摄像头变焦模式 支持 3.7 倍和 9.4 倍光学变焦（3.7 倍、9.4 倍变焦为近似值，镜头焦段分别为 13 mm，22.5 mm，83 mm，212 mm）",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:06:43.961Z",
+          "sourceSnapshotHash": "0b289787086cd7c7ab9688bde5a7882a1e4b54ef117c91a9aa6a5a4200115d4a"
         },
         "frontCamera": {
           "value": "1300 万像素",
-          "rawText": "前置摄像头：1300 万像素",
+          "rawText": "1300 万像素超广角摄像头",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:06:43.961Z",
+          "sourceSnapshotHash": "0b289787086cd7c7ab9688bde5a7882a1e4b54ef117c91a9aa6a5a4200115d4a"
         },
-        "batteryLife": {
-          "value": "5700mAh",
-          "rawText": "电池典型容量：5700mAh",
+        "batteryCapacity": {
+          "value": 5700,
+          "unit": "mAh",
+          "rawText": "5700 mAh（典型值）",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:06:43.961Z",
+          "sourceSnapshotHash": "0b289787086cd7c7ab9688bde5a7882a1e4b54ef117c91a9aa6a5a4200115d4a"
         },
         "port": {
           "value": "USB Type-C",
-          "rawText": "数据线接口：USB Type-C",
+          "rawText": "数据线接口 USB Type-C，USB 3.1 Gen 1",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:06:43.961Z",
+          "sourceSnapshotHash": "0b289787086cd7c7ab9688bde5a7882a1e4b54ef117c91a9aa6a5a4200115d4a"
         },
         "launchPrice": {
           "value": 9999,
           "unit": "CNY",
-          "rawText": "中国大陆首发价 9999 元起",
-          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-ultra/",
-          "sourceType": "official",
-          "confidence": 1,
-          "verifiedAt": "2026-09-07",
+          "rawText": "16GB+512GB 版 9999 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/863/748.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:56:37.237Z",
+          "sourceSnapshotHash": "601433f6fbab7b2c2fbc3cbd8ab374f9e7c150cd01e114fb01f64382bb055d3b",
           "priceType": "launch",
           "market": "中国大陆",
           "configuration": "16GB 运行内存 + 512GB 存储，中国大陆版本",

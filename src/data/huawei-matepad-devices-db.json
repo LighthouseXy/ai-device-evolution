@@ -1,0 +1,282 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "totalDevices": 2,
+    "generatedAt": "2026-10-02"
+  },
+  "devices": [
+    {
+      "id": "huawei-matepad-11-5-2024",
+      "brand": "Huawei",
+      "market": "CN",
+      "category": "tablet",
+      "series": "HUAWEI MatePad 11.5",
+      "family": "HUAWEI MatePad 11.5",
+      "variant": "standard",
+      "modelName": "HUAWEI MatePad 11.5 (2024)",
+      "generation": "2024",
+      "generationOrder": 1,
+      "releaseYear": 2024,
+      "releaseDate": "2024-10-30",
+      "comparisonGroupId": "huawei.tablet.matepad-11-5.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "8GB + 128GB",
+            "rawText": "8GB + 128GB Wi-Fi 版 1699 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/806/317.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:30:27.947Z",
+            "sourceSnapshotHash": "ed80f37ffa3bb0dfdfe12ba0f8ea639a9ef4fd5835bb228cb8789e266c91e831"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "8GB + 256GB Wi-Fi 版 1899 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/806/317.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:30:27.947Z",
+            "sourceSnapshotHash": "ed80f37ffa3bb0dfdfe12ba0f8ea639a9ef4fd5835bb228cb8789e266c91e831"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "麒麟 8000",
+          "rawText": "处理器更换为麒麟 8000",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/806/317.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:30:27.947Z",
+          "sourceSnapshotHash": "ed80f37ffa3bb0dfdfe12ba0f8ea639a9ef4fd5835bb228cb8789e266c91e831"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "8GB + 128GB Wi-Fi 版 1699 元（首发可享 100 元优惠，到手价 1599 元） 8GB + 128GB Wi-Fi 柔光版 1899 元 8GB + 256GB Wi-Fi 版 1899 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/806/317.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:30:27.947Z",
+          "sourceSnapshotHash": "ed80f37ffa3bb0dfdfe12ba0f8ea639a9ef4fd5835bb228cb8789e266c91e831"
+        },
+        "storage": {
+          "value": "128GB / 256GB",
+          "rawText": "8GB + 128GB Wi-Fi 版 1699 元（首发可享 100 元优惠，到手价 1599 元） 8GB + 128GB Wi-Fi 柔光版 1899 元 8GB + 256GB Wi-Fi 版 1899 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/806/317.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:30:27.947Z",
+          "sourceSnapshotHash": "ed80f37ffa3bb0dfdfe12ba0f8ea639a9ef4fd5835bb228cb8789e266c91e831"
+        },
+        "screenSize": {
+          "value": 11.5,
+          "unit": "inch",
+          "rawText": "MatePad 11.5 英寸 2024 款",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/806/317.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:30:27.947Z",
+          "sourceSnapshotHash": "ed80f37ffa3bb0dfdfe12ba0f8ea639a9ef4fd5835bb228cb8789e266c91e831"
+        },
+        "displayType": {
+          "value": "TFT LCD（IPS）",
+          "rawText": "屏幕类型 TFT LCD（IPS）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/613/param_10907304_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:30:30.402Z",
+          "sourceSnapshotHash": "8d561969e7b7da12dbaa87b642b8dc3357be18beb3704ddebeec7de2ad92bdd1"
+        },
+        "resolution": {
+          "value": "2200x1440",
+          "rawText": "屏幕分辨率 2200*1440",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/613/param_10907304_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:30:30.402Z",
+          "sourceSnapshotHash": "8d561969e7b7da12dbaa87b642b8dc3357be18beb3704ddebeec7de2ad92bdd1"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "数据接口 USB Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/613/param_10907304_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:30:30.402Z",
+          "sourceSnapshotHash": "8d561969e7b7da12dbaa87b642b8dc3357be18beb3704ddebeec7de2ad92bdd1"
+        },
+        "launchPrice": {
+          "value": 1699,
+          "unit": "CNY",
+          "rawText": "8GB + 128GB Wi-Fi 版 1699 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/806/317.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:30:27.947Z",
+          "sourceSnapshotHash": "ed80f37ffa3bb0dfdfe12ba0f8ea639a9ef4fd5835bb228cb8789e266c91e831",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "Wi-Fi 标准屏，8GB 运行内存 + 128GB 存储，国行",
+          "condition": "中国大陆上市定价 1699 元；首发优惠到手价 1599 元不作首发定价"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "huawei-matepad-11-5-2026",
+      "brand": "Huawei",
+      "market": "CN",
+      "category": "tablet",
+      "series": "HUAWEI MatePad 11.5",
+      "family": "HUAWEI MatePad 11.5",
+      "variant": "standard",
+      "modelName": "HUAWEI MatePad 11.5 (2026)",
+      "generation": "2026",
+      "generationOrder": 2,
+      "releaseYear": 2025,
+      "releaseDate": "2025-12-22",
+      "comparisonGroupId": "huawei.tablet.matepad-11-5.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "8GB + 128GB",
+            "rawText": "WiFi 8GB+128GB：1799 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://m.ithome.com/html/907078.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:30:28.086Z",
+            "sourceSnapshotHash": "ca28ff96f95fc20d6cde004ce2ae2a6dee953cf11837c7b1cafc054fbe0bdbf5"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "麒麟 T82B",
+          "rawText": "标准版：麒麟T82B",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-11-5-2026/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:30:33.711Z",
+          "sourceSnapshotHash": "558eba188ec5e67dc192c1ffac179232294ae4a1a2ca91f2f90cbaa5ae5583f9"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "WiFi 8GB+128GB：1799 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://m.ithome.com/html/907078.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:30:28.086Z",
+          "sourceSnapshotHash": "ca28ff96f95fc20d6cde004ce2ae2a6dee953cf11837c7b1cafc054fbe0bdbf5"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "WiFi 8GB+128GB：1799 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://m.ithome.com/html/907078.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:30:28.086Z",
+          "sourceSnapshotHash": "ca28ff96f95fc20d6cde004ce2ae2a6dee953cf11837c7b1cafc054fbe0bdbf5"
+        },
+        "screenSize": {
+          "value": 11.5,
+          "unit": "inch",
+          "rawText": "尺寸 11.5 英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-11-5-2026/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:30:33.711Z",
+          "sourceSnapshotHash": "558eba188ec5e67dc192c1ffac179232294ae4a1a2ca91f2f90cbaa5ae5583f9"
+        },
+        "displayType": {
+          "value": "IPS 触控屏",
+          "rawText": "类型 IPS 触控屏",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-11-5-2026/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:30:33.711Z",
+          "sourceSnapshotHash": "558eba188ec5e67dc192c1ffac179232294ae4a1a2ca91f2f90cbaa5ae5583f9"
+        },
+        "resolution": {
+          "value": "2456x1600",
+          "rawText": "分辨率 2456 × 1600 像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-11-5-2026/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:30:33.711Z",
+          "sourceSnapshotHash": "558eba188ec5e67dc192c1ffac179232294ae4a1a2ca91f2f90cbaa5ae5583f9"
+        },
+        "port": {
+          "value": "USB Type-C（USB 2.0）",
+          "rawText": "USB Type-C，支持 USB 2.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/tablets/matepad-11-5-2026/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:30:33.711Z",
+          "sourceSnapshotHash": "558eba188ec5e67dc192c1ffac179232294ae4a1a2ca91f2f90cbaa5ae5583f9"
+        },
+        "launchPrice": {
+          "value": 1799,
+          "unit": "CNY",
+          "rawText": "WiFi 8GB+128GB：1799 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://m.ithome.com/html/907078.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:30:28.086Z",
+          "sourceSnapshotHash": "ca28ff96f95fc20d6cde004ce2ae2a6dee953cf11837c7b1cafc054fbe0bdbf5",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "Wi-Fi 标准屏，8GB 运行内存 + 128GB 存储，国行",
+          "condition": "中国大陆发布定价"
+        }
+      },
+      "computed": {}
+    }
+  ]
+}

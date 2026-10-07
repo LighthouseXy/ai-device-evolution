@@ -1,0 +1,971 @@
+{
+  "metadata": {
+    "scope": "Xiaomi/Redmi 中国大陆已发售手机、平板和笔记本，2017-2026，截至2026-10-06",
+    "batch": 3,
+    "coverageStatus": "partial",
+    "notes": "年度清单仅已发现型号；本批优先历史手机和computing独立SKU，未证明所有系列穷尽"
+  },
+  "targets": [
+    {
+      "slug": "xiaomi-cc9",
+      "name": "小米CC9",
+      "seriesId": 26966,
+      "year": 2019,
+      "family": "Xiaomi CC",
+      "generation": "CC9",
+      "category": "phone",
+      "variant": "standard",
+      "priorStatus": "attempted_blocked",
+      "priorReason": "缺少国行身份证据，第三批补独立发布/官方来源",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/micc9/specs",
+        "sourceType": "official",
+        "rawPattern": "支持移动\\s*[/、]\\s*联通\\s*[/、]\\s*电信|中国移动.{0,20}中国电信"
+      }
+    },
+    {
+      "slug": "xiaomi-cc9e",
+      "name": "小米CC9e",
+      "seriesId": 26968,
+      "year": 2019,
+      "family": "Xiaomi CC E",
+      "generation": "CC9e",
+      "category": "phone",
+      "variant": "standard",
+      "priorStatus": "attempted_blocked",
+      "priorReason": "缺少国行身份证据，第三批补独立发布/官方来源",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/micc9e/specs",
+        "sourceType": "official",
+        "rawPattern": "支持移动\\s*[/、]\\s*联通\\s*[/、]\\s*电信|中国移动.{0,20}中国电信"
+      }
+    },
+    {
+      "slug": "redmi-k20-pro",
+      "name": "Redmi K20 Pro",
+      "seriesId": 26571,
+      "year": 2019,
+      "family": "REDMI K Pro",
+      "generation": "K20",
+      "variant": "standard",
+      "excludeVariants": [
+        "尊享版"
+      ],
+      "category": "phone",
+      "priorStatus": "attempted_blocked",
+      "priorReason": "缺少国行身份证据，第三批补独立发布/官方来源",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/redmik20pro/specs",
+        "sourceType": "official",
+        "rawPattern": "支持移动\\s*[/、]\\s*联通\\s*[/、]\\s*电信|中国移动.{0,20}中国电信"
+      }
+    },
+    {
+      "slug": "redmi-k20",
+      "name": "Redmi K20",
+      "seriesId": 26572,
+      "year": 2019,
+      "family": "REDMI K",
+      "generation": "K20",
+      "category": "phone",
+      "variant": "standard",
+      "priorStatus": "attempted_blocked",
+      "priorReason": "缺少国行身份证据，第三批补独立发布/官方来源",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/redmik20/specs",
+        "sourceType": "official",
+        "rawPattern": "支持移动\\s*[/、]\\s*联通\\s*[/、]\\s*电信|中国移动.{0,20}中国电信"
+      }
+    },
+    {
+      "slug": "redmi-note-7",
+      "name": "Redmi Note 7",
+      "seriesId": 25342,
+      "year": 2019,
+      "family": "REDMI Note",
+      "generation": "Note 7",
+      "category": "phone",
+      "variant": "standard",
+      "priorStatus": "attempted_blocked",
+      "priorReason": "缺少国行身份证据，第三批补独立发布/官方来源",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/redminote7/specs",
+        "sourceType": "official",
+        "rawPattern": "支持移动\\s*[/、]\\s*联通\\s*[/、]\\s*电信|中国移动.{0,20}中国电信"
+      }
+    },
+    {
+      "slug": "redmi-note-7-pro",
+      "name": "Redmi Note 7 Pro",
+      "seriesId": 25629,
+      "year": 2019,
+      "family": "REDMI Note Pro",
+      "generation": "Note 7",
+      "variant": "standard",
+      "excludeVariants": [
+        "4GB RAM"
+      ],
+      "category": "phone",
+      "priorStatus": "attempted_blocked",
+      "priorReason": "缺少国行身份证据，第三批补独立发布/官方来源",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/redminote7pro/specs",
+        "sourceType": "official",
+        "rawPattern": "支持移动\\s*[/、]\\s*联通\\s*[/、]\\s*电信|中国移动.{0,20}中国电信"
+      }
+    },
+    {
+      "slug": "xiaomi-5c",
+      "name": "小米5C",
+      "year": 2017,
+      "category": "phone",
+      "family": "Xiaomi C",
+      "seriesUrl": "https://detail.zol.com.cn/cell_phone/index1156607.shtml",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/mi5c/specs",
+        "sourceType": "official",
+        "rawPattern": "网络与通话 移动2G/3G/4G"
+      },
+      "priorStatus": "not_attempted"
+    },
+    {
+      "slug": "xiaomi-5x",
+      "name": "小米5X",
+      "year": 2017,
+      "category": "phone",
+      "family": "Xiaomi X",
+      "seriesUrl": "https://detail.zol.com.cn/cell_phone/index1175015.shtml",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/mi5x/specs",
+        "sourceType": "official",
+        "rawPattern": "支持移动\\s*[/、]\\s*联通\\s*[/、]\\s*电信|中国移动.{0,20}中国电信"
+      },
+      "priorStatus": "not_attempted",
+      "configurationFallback": {
+        "sourceUrl": "https://www.mi.com/mi5x/specs",
+        "sourceType": "official",
+        "entries": [
+          {
+            "memory": "4GB",
+            "storage": "64GB",
+            "rawPattern": "4GB \\+ 64GB"
+          },
+          {
+            "memory": "4GB",
+            "storage": "32GB",
+            "rawPattern": "4GB \\+ 32GB"
+          }
+        ]
+      },
+      "excludedColors": [
+        "红色"
+      ]
+    },
+    {
+      "slug": "xiaomi-max-2",
+      "name": "小米Max 2",
+      "year": 2017,
+      "category": "phone",
+      "family": "Xiaomi Max",
+      "seriesUrl": "https://detail.zol.com.cn/cell_phone/index1165765.shtml",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/max2/specs",
+        "sourceType": "official",
+        "rawPattern": "支持移动\\s*[/、]\\s*联通\\s*[/、]\\s*电信|中国移动.{0,20}中国电信"
+      },
+      "priorStatus": "not_attempted",
+      "configurationFallback": {
+        "sourceUrl": "https://www.mi.com/max2/specs",
+        "sourceType": "official",
+        "entries": [
+          {
+            "memory": "4GB",
+            "storage": "32GB",
+            "rawPattern": "4GB \\+ 32GB"
+          },
+          {
+            "memory": "4GB",
+            "storage": "64GB",
+            "rawPattern": "4GB \\+ 64GB"
+          },
+          {
+            "memory": "4GB",
+            "storage": "128GB",
+            "rawPattern": "4GB \\+ 128GB"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "xiaomi-9-se",
+      "name": "小米9 SE",
+      "year": 2019,
+      "category": "phone",
+      "family": "Xiaomi SE",
+      "seriesUrl": "https://detail.zol.com.cn/cell_phone/index1257265.shtml",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/mi9se/specs",
+        "sourceType": "official",
+        "rawPattern": "支持移动\\s*[/、]\\s*联通\\s*[/、]\\s*电信|中国移动.{0,20}中国电信"
+      },
+      "priorStatus": "not_attempted",
+      "configurationFallback": {
+        "sourceUrl": "https://www.mi.com/mi9se/specs",
+        "sourceType": "official",
+        "entries": [
+          {
+            "memory": "6GB",
+            "storage": "128GB",
+            "rawPattern": "6GB \\+ 128GB"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "redmi-note-5a-high",
+      "name": "红米Note 5A 高配版",
+      "expectedName": [
+        "小米红米Note 5A",
+        "红米Note 5A"
+      ],
+      "year": 2017,
+      "category": "phone",
+      "family": "REDMI Note A High",
+      "seriesUrl": "https://detail.zol.com.cn/cell_phone/index1180705.shtml",
+      "variantFilter": "高配版",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/redminote5as/specs",
+        "sourceType": "official",
+        "rawPattern": "支持移动\\s*[/、]\\s*联通\\s*[/、]\\s*电信|中国移动.{0,20}中国电信"
+      },
+      "excludeVariants": [
+        "标准版"
+      ],
+      "priorStatus": "not_attempted"
+    },
+    {
+      "slug": "xiaomi-8-explorer",
+      "name": "小米8透明探索版",
+      "year": 2018,
+      "category": "phone",
+      "family": "Xiaomi Explorer",
+      "seriesUrl": "https://detail.zol.com.cn/cell_phone/index1216973.shtml",
+      "priorStatus": "not_attempted",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/mi8/specs",
+        "sourceType": "official",
+        "rawPattern": "支持移动\\s*[/、]\\s*联通\\s*[/、]\\s*电信|中国移动.{0,20}中国电信",
+        "identityBodyPattern": "8GB\\+128GB 小米8 透明探索版"
+      }
+    },
+    {
+      "slug": "redmi-10a",
+      "name": "Redmi 10A",
+      "year": 2022,
+      "seriesId": 37955,
+      "family": "REDMI Number A",
+      "category": "phone",
+      "priorStatus": "not_attempted"
+    },
+    {
+      "slug": "redmi-12c",
+      "name": "Redmi 12C",
+      "year": 2023,
+      "seriesId": 10723103,
+      "family": "REDMI Number C",
+      "category": "phone",
+      "priorStatus": "not_attempted",
+      "priorReason": "此前目录按公告年份2022记录；独立首销原文确认2023-01-01中国大陆开售，按实际已发售年份修正",
+      "releaseFallback": {
+        "sourceUrl": "https://www.ithome.com/0/664/913.htm",
+        "rawPattern": "2023/1/1 9:18:11",
+        "releaseDate": "2023-01-01"
+      },
+      "marketFallback": {
+        "sourceUrl": "https://www.ithome.com/0/664/913.htm",
+        "rawPattern": "Redmi 12C，4GB\\+64GB 版本 699 元，4\\+128GB 版本 799 元，6\\+128GB 版本 899 元，今日 10 点正式开售"
+      }
+    },
+    {
+      "slug": "redmi-note-11e",
+      "name": "Redmi Note 11E",
+      "year": 2022,
+      "seriesId": 37724,
+      "family": "REDMI Note E",
+      "category": "phone",
+      "priorStatus": "not_attempted"
+    },
+    {
+      "slug": "redmi-note-11e-pro",
+      "name": "Redmi Note 11E Pro",
+      "year": 2022,
+      "seriesId": 37708,
+      "family": "REDMI Note E Pro",
+      "category": "phone",
+      "priorStatus": "not_attempted",
+      "blockReason": "公开系列页响应无法按声明的GBK编码解码，未得到有效快照；保留阻塞，不推断参数或绕过验证"
+    },
+    {
+      "slug": "redmi-note-11se",
+      "name": "Redmi Note 11SE",
+      "year": 2022,
+      "seriesId": 10709325,
+      "family": "REDMI Note SE",
+      "category": "phone",
+      "priorStatus": "not_attempted"
+    },
+    {
+      "slug": "xiaomi-pad-3",
+      "name": "小米平板3",
+      "year": 2017,
+      "seriesId": 21949,
+      "family": "Xiaomi Pad",
+      "category": "tablet",
+      "comparisonGroupId": "xiaomi.tablet.pad.standard",
+      "priorStatus": "not_attempted",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/mipad3/specs",
+        "sourceType": "official",
+        "rawPattern": "内存：4GB LPDDR3 双通道 存储：64GB eMMC5.0"
+      }
+    },
+    {
+      "slug": "xiaomi-pad-4-wifi",
+      "name": "小米平板4 Wi-Fi",
+      "year": 2018,
+      "seriesId": 23746,
+      "family": "Xiaomi Pad",
+      "category": "tablet",
+      "expectedName": "小米平板4",
+      "variantFilter": "WiFi",
+      "comparisonGroupId": "xiaomi.tablet.pad.standard",
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/mipad4/specs",
+        "sourceType": "official",
+        "rawPattern": "赠送米粉卡：1 元 1GB 流量",
+        "identityName": "小米平板4"
+      },
+      "priorStatus": "not_attempted"
+    },
+    {
+      "slug": "xiaomi-pad-4-plus-lte",
+      "name": "小米平板4 Plus LTE",
+      "year": 2018,
+      "seriesId": 23932,
+      "family": "Xiaomi Pad Plus LTE",
+      "category": "tablet",
+      "expectedName": "小米平板4 Plus",
+      "variantFilter": "LTE",
+      "excludeVariants": [],
+      "marketFallback": {
+        "sourceUrl": "https://www.mi.com/mipad4/specs",
+        "sourceType": "official",
+        "rawPattern": "小米平板4 Plus 赠小米移动",
+        "identityName": "小米平板4"
+      },
+      "priorStatus": "not_attempted"
+    },
+    {
+      "slug": "xiaomi-pad-5",
+      "name": "小米平板5",
+      "year": 2021,
+      "seriesId": 35148,
+      "family": "Xiaomi Pad",
+      "category": "tablet",
+      "comparisonGroupId": "xiaomi.tablet.pad.standard",
+      "variantFilter": "WiFi",
+      "priorStatus": "not_attempted",
+      "marketFallback": {
+        "sourceUrl": "https://www.ithome.com/0/569/524.htm",
+        "rawPattern": "小米平板 5 6\\+128G 版本 1999 元，京东等平台首销 1899 元"
+      }
+    },
+    {
+      "slug": "xiaomi-pad-5-pro-wifi",
+      "name": "小米平板5 Pro Wi-Fi",
+      "year": 2021,
+      "seriesId": 10723391,
+      "family": "Xiaomi Pad Pro",
+      "category": "tablet",
+      "expectedName": "小米平板5 Pro",
+      "comparisonGroupId": "xiaomi.tablet.pad-pro.standard",
+      "variantFilter": "WiFi",
+      "priorStatus": "not_attempted",
+      "marketFallback": {
+        "sourceUrl": "https://www.ithome.com/0/569/524.htm",
+        "rawPattern": "小米平板 5 Pro 6\\+128G 版本 2499 元，首销 2399 元起"
+      },
+      "allowedConfigurations": [
+        [
+          "6GB",
+          "128GB"
+        ],
+        [
+          "6GB",
+          "256GB"
+        ]
+      ]
+    },
+    {
+      "slug": "xiaomi-book-air-12-5",
+      "name": "小米笔记本Air 12.5 (2017)",
+      "year": 2017,
+      "seriesId": 22008,
+      "family": "Xiaomi Book Air 12.5",
+      "category": "laptop",
+      "expectedName": "小米笔记本Air",
+      "excludeVariants": [
+        "4G"
+      ],
+      "variantFilter": "7Y",
+      "priorStatus": "not_attempted",
+      "marketFallback": {
+        "sourceUrl": "https://www.ithome.com/0/311/969.htm",
+        "rawPattern": "采用英特尔Core M-7Y30、4GB运存、128GB固态硬盘版本的小米笔记本Air12.5英寸价格由之前的3599元降为3499元"
+      }
+    },
+    {
+      "slug": "xiaomi-book-pro-15",
+      "name": "小米笔记本 Pro (2017)",
+      "year": 2017,
+      "seriesId": 22670,
+      "family": "Xiaomi Book Pro 15",
+      "category": "laptop",
+      "expectedName": "小米笔记本 Pro",
+      "excludeVariants": [
+        "2019",
+        "GTX"
+      ],
+      "priorStatus": "not_attempted",
+      "marketFallback": {
+        "sourceUrl": "https://www.ithome.com/0/338/133.htm",
+        "rawPattern": "小米笔记本Pro i5版本立减200元（到手价5399元）"
+      },
+      "configurationEvidence": {
+        "sourceUrl": "https://www.mi.com/mibookpro",
+        "entries": [
+          {
+            "memory": "16GB",
+            "storage": "256GB",
+            "chip": "Intel 酷睿i7 8550U",
+            "rawPattern": "i7处理器 16GB／256GB 第八代英特尔 ® 酷睿™ i7-8550U NVIDIA GeForce ® MX150 独立显卡 2GB GDDR5显存 16GB DDR4 双通道内存 256G PCIe SSD"
+          },
+          {
+            "memory": "8GB",
+            "storage": "256GB",
+            "chip": "Intel 酷睿i7 8550U",
+            "rawPattern": "i7处理器 8GB／256GB 第八代英特尔 ® 酷睿™ i7-8550U NVIDIA GeForce ® MX150 独立显卡 2GB GDDR5 显存 8GB DDR4 双通道内存 256G PCIe SSD"
+          },
+          {
+            "memory": "8GB",
+            "storage": "256GB",
+            "chip": "Intel 酷睿i5 8250U",
+            "rawPattern": "i5处理器 8GB／256GB 第八代英特尔 ® 酷睿™ i5-8250U NVIDIA GeForce ® MX150 独立显卡 2GB GDDR5显存 8GB DDR4 双通道内存 256G PCIe SSD"
+          }
+        ]
+      },
+      "imageExcludedReason": "该系列共用多个年份外观图，不能据相同主图确定2017或2019实际SKU；主图留空等待独立年月/型号取证"
+    },
+    {
+      "slug": "xiaomi-book-pro-15",
+      "name": "小米笔记本 Pro (2019)",
+      "year": 2019,
+      "seriesId": 22670,
+      "family": "Xiaomi Book Pro 15",
+      "category": "laptop",
+      "expectedName": [
+        "小米笔记本 Pro",
+        "小米笔记本 Pro 2019"
+      ],
+      "variantFilter": "2019",
+      "priorStatus": "not_attempted",
+      "marketFallback": {
+        "sourceUrl": "https://www.ithome.com/0/448/626.htm",
+        "rawPattern": "小米笔记本Pro i5/8GB/512GB版本现已降到5499元"
+      },
+      "imageExcludedReason": "该系列共用多个年份外观图，不能据相同主图确定2017或2019实际SKU；主图留空等待独立年月/型号取证"
+    },
+    {
+      "slug": "redmi-book-14",
+      "name": "Redmi Book 14 (2019)",
+      "year": 2019,
+      "seriesId": 26570,
+      "family": "REDMI Book 14",
+      "category": "laptop",
+      "expectedName": [
+        "RedmiBook 14",
+        "Redmi Book 14"
+      ],
+      "priorStatus": "not_attempted",
+      "marketFallback": {
+        "sourceUrl": "https://www.ithome.com/0/425/532.htm",
+        "rawPattern": "Redmi在北京大学生体育馆召开新品发布会，发布了Redmi K20、Redmi K20 Pro、Redmi红米7A和Redmibook 14"
+      }
+    },
+    {
+      "slug": "redmi-book-16-ryzen",
+      "name": "Redmi Book 16 锐龙版 (2020)",
+      "year": 2020,
+      "seriesId": 30210,
+      "family": "REDMI Book 16 Ryzen",
+      "category": "laptop",
+      "expectedName": [
+        "红米Book 16 锐龙版",
+        "Redmi Book 16 锐龙版"
+      ],
+      "priorStatus": "not_attempted",
+      "marketFallback": {
+        "sourceUrl": "https://www.ithome.com/0/489/287.htm",
+        "rawPattern": "RedmiBook 16锐龙版R5/16GB/512首销优惠200元，到手价3799元"
+      }
+    },
+    {
+      "slug": "redmi-book-16",
+      "name": "Redmi Book 16 酷睿版 (2020)",
+      "year": 2020,
+      "seriesId": 30694,
+      "family": "REDMI Book 16",
+      "category": "laptop",
+      "expectedName": [
+        "红米Book 16",
+        "Redmi Book 16"
+      ],
+      "priorStatus": "not_attempted",
+      "marketFallback": {
+        "sourceUrl": "https://www.ithome.com/0/496/650.htm",
+        "rawPattern": "i5/16GB/512GB 版 4999 元，i7/16GB/512GB 价格 5699 元"
+      }
+    }
+  ],
+  "pending": [
+    {
+      "name": "小米Civi 1S",
+      "year": 2022,
+      "category": "phone",
+      "sourceUrl": "https://detail.zol.com.cn/series/57/38213_1.html",
+      "reason": null,
+      "priorStatus": "not_attempted"
+    },
+    {
+      "name": "小米MIX FOLD 2",
+      "year": 2022,
+      "category": "phone",
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10700703_1.html",
+      "reason": null,
+      "priorStatus": "not_attempted"
+    },
+    {
+      "name": "小米MIX FOLD 3",
+      "year": 2023,
+      "category": "phone",
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10734524_1.html",
+      "reason": null,
+      "priorStatus": "not_attempted"
+    },
+    {
+      "name": "小米MIX FOLD 4",
+      "year": 2024,
+      "category": "phone",
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10890027_1.html",
+      "reason": null,
+      "priorStatus": "not_attempted"
+    },
+    {
+      "name": "小米MIX Flip",
+      "year": 2024,
+      "category": "phone",
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10867279_1.html",
+      "reason": null,
+      "priorStatus": "not_attempted"
+    },
+    {
+      "name": "小米MIX Flip 2",
+      "year": 2025,
+      "category": "phone",
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10915080_1.html",
+      "reason": null,
+      "priorStatus": "not_attempted"
+    },
+    {
+      "name": "Redmi 12 5G",
+      "year": 2023,
+      "category": "phone",
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10813071_1.html",
+      "reason": null,
+      "priorStatus": "not_attempted"
+    },
+    {
+      "name": "Redmi 13C 5G",
+      "year": 2023,
+      "category": "phone",
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10849282_1.html",
+      "reason": null,
+      "priorStatus": "not_attempted"
+    },
+    {
+      "name": "Redmi Note 11R",
+      "year": 2022,
+      "category": "phone",
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10718260_1.html",
+      "reason": null,
+      "priorStatus": "not_attempted"
+    },
+    {
+      "name": "Redmi Note 12 Pro 极速版",
+      "year": 2022,
+      "category": "phone",
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10722452_1.html",
+      "reason": null,
+      "priorStatus": "not_attempted"
+    },
+    {
+      "name": "Redmi Note 12R Pro",
+      "year": 2023,
+      "category": "phone",
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10760121_1.html",
+      "reason": null,
+      "priorStatus": "not_attempted"
+    },
+    {
+      "name": "Redmi Note 12R",
+      "year": 2023,
+      "category": "phone",
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10800596_1.html",
+      "reason": null,
+      "priorStatus": "not_attempted"
+    },
+    {
+      "name": "Redmi Note 13R",
+      "year": 2024,
+      "category": "phone",
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10864501_1.html",
+      "reason": null,
+      "priorStatus": "not_attempted"
+    },
+    {
+      "name": "小米平板4 LTE",
+      "year": 2018,
+      "category": "tablet",
+      "sourceUrl": "https://detail.zol.com.cn/tablepc/index1221130.shtml",
+      "reason": "不可套用Wi-Fi版重量、存储或网络参数",
+      "priorStatus": "not_attempted"
+    },
+    {
+      "name": "小米平板5 Pro 5G",
+      "year": 2021,
+      "category": "tablet",
+      "sourceUrl": "https://detail.zol.com.cn/tablepc/index1440534.shtml",
+      "reason": null,
+      "priorStatus": "not_attempted"
+    },
+    {
+      "name": "小米游戏本 (2018)",
+      "year": 2018,
+      "category": "laptop",
+      "sourceUrl": "https://detail.zol.com.cn/series/16/23289_1.html",
+      "reason": "混合CPU代际、独显与SSD+HDD组合，不能截取第一容量或跨显卡合并",
+      "priorStatus": "not_attempted"
+    },
+    {
+      "name": "小米笔记本 15.6 (2018)",
+      "year": 2018,
+      "category": "laptop",
+      "sourceUrl": "https://detail.zol.com.cn/series/16/23973_1.html",
+      "reason": null,
+      "priorStatus": "not_attempted"
+    },
+    {
+      "name": "红米Note 4X 高配版 Helio X20",
+      "year": 2017,
+      "category": "phone",
+      "sourceUrl": "https://www.mi.com/redminote4x/specs",
+      "reason": "处理器不同，本批标准骁龙625目标排除，待独立目标",
+      "priorStatus": "not_attempted"
+    },
+    {
+      "name": "红米Note 4X 高配版 骁龙625",
+      "year": 2017,
+      "category": "phone",
+      "sourceUrl": "https://www.mi.com/redminote4x/specs",
+      "reason": "4GB/64GB高配SKU本批未收，只录原文逐条补证的3GB标准/超值组合",
+      "priorStatus": "not_attempted"
+    },
+    {
+      "name": "小米9 透明尊享版",
+      "year": 2019,
+      "category": "phone",
+      "sourceUrl": "https://detail.zol.com.cn/series/57/26155_1.html",
+      "reason": "缺少中国大陆发布或具体型号行货证据，暂不把中文页面默认作国行",
+      "priorStatus": "blocked_prior_batch"
+    },
+    {
+      "name": "Redmi K30i",
+      "year": 2020,
+      "category": "phone",
+      "sourceUrl": "https://detail.zol.com.cn/series/57/30625_1.html",
+      "reason": "缺少中国大陆发布或具体型号行货证据，暂不把中文页面默认作国行",
+      "priorStatus": "blocked_prior_batch"
+    },
+    {
+      "name": "Redmi 10X 4G",
+      "year": 2020,
+      "category": "phone",
+      "sourceUrl": "https://detail.zol.com.cn/series/57/30211_1.html",
+      "reason": "redmi-10x-4g-2020: 无匹配的具体配置",
+      "priorStatus": "attempted_blocked"
+    },
+    {
+      "name": "小米笔记本Air 13.3 (2017)",
+      "year": 2017,
+      "category": "laptop",
+      "sourceUrl": "https://www.ithome.com/0/313/405.htm",
+      "priorStatus": "not_attempted",
+      "reason": "国内发布/开售原文已确认名称及年份，完整逐SKU/网络/显卡版本规格尚未导入",
+      "catalogVerification": {
+        "rawPattern": "新款13.3英寸版小米笔记本Air升级i5-7200U",
+        "yearPattern": "2017/\\d{1,2}/\\d{1,2}"
+      }
+    },
+    {
+      "name": "小米笔记本 Pro GTX (2018)",
+      "year": 2018,
+      "category": "laptop",
+      "sourceUrl": "https://www.ithome.com/0/374/583.htm",
+      "priorStatus": "not_attempted",
+      "reason": "国内发布/开售原文已确认名称及年份，完整逐SKU/网络/显卡版本规格尚未导入",
+      "catalogVerification": {
+        "rawPattern": "小米笔记本Pro GTX版采用GTX 1050 Max-Q独显",
+        "yearPattern": "2018/\\d{1,2}/\\d{1,2}"
+      }
+    },
+    {
+      "name": "小米游戏本 八代增强版 (2018)",
+      "year": 2018,
+      "category": "laptop",
+      "sourceUrl": "https://www.ithome.com/0/374/583.htm",
+      "priorStatus": "not_attempted",
+      "reason": "国内发布/开售原文已确认名称及年份，完整逐SKU/网络/显卡版本规格尚未导入",
+      "catalogVerification": {
+        "rawPattern": "小米游戏本八代增强版搭载Intel第八代英特尔酷睿处理器",
+        "yearPattern": "2018/\\d{1,2}/\\d{1,2}"
+      }
+    },
+    {
+      "name": "小米笔记本 Pro 增强版 (2019)",
+      "year": 2019,
+      "category": "laptop",
+      "sourceUrl": "https://www.ithome.com/0/451/478.htm",
+      "priorStatus": "not_attempted",
+      "reason": "国内发布/开售原文已确认名称及年份，完整逐SKU/网络/显卡版本规格尚未导入",
+      "catalogVerification": {
+        "rawPattern": "小米公布了小米笔记本Pro增强版",
+        "yearPattern": "2019/\\d{1,2}/\\d{1,2}"
+      }
+    },
+    {
+      "name": "小米游戏本 (2019)",
+      "year": 2019,
+      "category": "laptop",
+      "sourceUrl": "https://www.ithome.com/0/437/221.htm",
+      "priorStatus": "not_attempted",
+      "reason": "国内发布/开售原文已确认名称及年份，完整逐SKU/网络/显卡版本规格尚未导入",
+      "catalogVerification": {
+        "rawPattern": "小米正式发布了小米游戏本2019",
+        "yearPattern": "2019/\\d{1,2}/\\d{1,2}"
+      }
+    },
+    {
+      "name": "Redmi Book 14 增强版 (2019)",
+      "year": 2019,
+      "category": "laptop",
+      "sourceUrl": "https://www.ithome.com/0/442/048.htm",
+      "priorStatus": "not_attempted",
+      "reason": "国内发布/开售原文已确认名称及年份，完整逐SKU/网络/显卡版本规格尚未导入",
+      "catalogVerification": {
+        "rawPattern": "Redmi品牌笔记本新品RedmiBook 14增强版正式发布",
+        "yearPattern": "2019/\\d{1,2}/\\d{1,2}"
+      }
+    },
+    {
+      "name": "Redmi Book 14 锐龙版 (2019)",
+      "year": 2019,
+      "category": "laptop",
+      "sourceUrl": "https://www.ithome.com/0/453/925.htm",
+      "priorStatus": "not_attempted",
+      "reason": "国内发布/开售原文已确认名称及年份，完整逐SKU/网络/显卡版本规格尚未导入",
+      "catalogVerification": {
+        "rawPattern": "RedmiBook 14锐龙版今日开售",
+        "yearPattern": "2019/\\d{1,2}/\\d{1,2}"
+      }
+    },
+    {
+      "name": "小米笔记本 Pro 14 (2021)",
+      "year": 2021,
+      "category": "laptop",
+      "sourceUrl": "https://www.ithome.com/0/543/208.htm",
+      "priorStatus": "not_attempted",
+      "reason": "国内发布/开售原文已确认名称及年份，完整逐SKU/网络/显卡版本规格尚未导入",
+      "catalogVerification": {
+        "rawPattern": "小米发布了小米笔记本 Pro 14 和 15",
+        "yearPattern": "2021/\\d{1,2}/\\d{1,2}"
+      }
+    },
+    {
+      "name": "小米笔记本 Pro 15 OLED (2021)",
+      "year": 2021,
+      "category": "laptop",
+      "sourceUrl": "https://www.ithome.com/0/543/208.htm",
+      "priorStatus": "not_attempted",
+      "reason": "国内发布/开售原文已确认名称及年份，完整逐SKU/网络/显卡版本规格尚未导入",
+      "catalogVerification": {
+        "rawPattern": "小米发布了小米笔记本 Pro 14 和 15",
+        "yearPattern": "2021/\\d{1,2}/\\d{1,2}"
+      }
+    },
+    {
+      "name": "小米笔记本 Pro 15 OLED 锐龙版 (2021)",
+      "year": 2021,
+      "category": "laptop",
+      "sourceUrl": "https://www.ithome.com/0/553/707.htm",
+      "priorStatus": "not_attempted",
+      "reason": "国内发布/开售原文已确认名称及年份，完整逐SKU/网络/显卡版本规格尚未导入",
+      "catalogVerification": {
+        "rawPattern": "小米笔记本 Pro 15 OLED 锐龙版",
+        "yearPattern": "2021/\\d{1,2}/\\d{1,2}"
+      }
+    },
+    {
+      "name": "Redmi Book Pro 14 (2021)",
+      "year": 2021,
+      "category": "laptop",
+      "sourceUrl": "https://www.ithome.com/0/536/826.htm",
+      "priorStatus": "not_attempted",
+      "reason": "国内发布/开售原文已确认名称及年份，完整逐SKU/网络/显卡版本规格尚未导入",
+      "catalogVerification": {
+        "rawPattern": "Redmi 发布了 RedmiBook Pro 14 和 15 两款笔记本",
+        "yearPattern": "2021/\\d{1,2}/\\d{1,2}"
+      }
+    },
+    {
+      "name": "Redmi Book Pro 15 (2021)",
+      "year": 2021,
+      "category": "laptop",
+      "sourceUrl": "https://www.ithome.com/0/536/826.htm",
+      "priorStatus": "not_attempted",
+      "reason": "国内发布/开售原文已确认名称及年份，完整逐SKU/网络/显卡版本规格尚未导入",
+      "catalogVerification": {
+        "rawPattern": "Redmi 发布了 RedmiBook Pro 14 和 15 两款笔记本",
+        "yearPattern": "2021/\\d{1,2}/\\d{1,2}"
+      }
+    },
+    {
+      "name": "Redmi Book Pro 14 锐龙版 (2021)",
+      "year": 2021,
+      "category": "laptop",
+      "sourceUrl": "https://www.ithome.com/0/553/707.htm",
+      "priorStatus": "not_attempted",
+      "reason": "国内发布/开售原文已确认名称及年份，完整逐SKU/网络/显卡版本规格尚未导入",
+      "catalogVerification": {
+        "rawPattern": "RedmiBook Pro 14 锐龙版 R5 5500U",
+        "yearPattern": "2021/\\d{1,2}/\\d{1,2}"
+      }
+    },
+    {
+      "name": "Redmi Book Pro 15 锐龙版 (2021)",
+      "year": 2021,
+      "category": "laptop",
+      "sourceUrl": "https://www.ithome.com/0/553/707.htm",
+      "priorStatus": "not_attempted",
+      "reason": "国内发布/开售原文已确认名称及年份，完整逐SKU/网络/显卡版本规格尚未导入",
+      "catalogVerification": {
+        "rawPattern": "RedmiBook Pro 15 锐龙版 R5 5600H",
+        "yearPattern": "2021/\\d{1,2}/\\d{1,2}"
+      }
+    }
+  ],
+  "imageEvidence": {
+    "xiaomi-5c-2017": {
+      "url": "https://2e.zol-img.com.cn/product/185_320x240/496/ceuUFYU9c3E.jpg",
+      "sha256": "1253e42a730f7bbb2a2f8308373bf01955f9be60107aad18309505d2e9b054f1",
+      "format": "JPEG",
+      "width": 320,
+      "height": 240,
+      "checkedAt": "2026-10-06",
+      "visualReview": "玫瑰金金属机身、单摄、实体前指纹，与小米5C型号页及规格外观一致",
+      "verifiedColor": "玫瑰金",
+      "licenseStatus": "unknown"
+    },
+    "xiaomi-5x-2017": {
+      "url": "https://2c.zol-img.com.cn/product/185_320x240/460/cenDls11SnF0o.jpg",
+      "sha256": "552cee4712c480d2880e8ff33254f8225f16967d95ecc7ebbc61892542cf1272",
+      "format": "JPEG",
+      "width": 320,
+      "height": 240,
+      "checkedAt": "2026-10-06",
+      "visualReview": "玫瑰金机身、后置横向双摄与指纹、MIUI界面，与国行5X型号外观一致，非海外Mi A1",
+      "verifiedColor": "玫瑰金",
+      "licenseStatus": "unknown"
+    },
+    "xiaomi-8-explorer-2018": {
+      "url": "https://2d.zol-img.com.cn/product/192_320x240/691/cehidUnCe9zE.jpg",
+      "sha256": "5d5f2c2d6a59b240234aec790a91d8d70b43f50304a6589fe9f3e90ca925c0d0",
+      "format": "JPEG",
+      "width": 320,
+      "height": 240,
+      "checkedAt": "2026-10-06",
+      "visualReview": "透明背盖、竖向双摄、刘海屏，与独立小米8透明探索版一致，不用于标准8",
+      "verifiedColor": "黑色",
+      "licenseStatus": "unknown"
+    },
+    "xiaomi-pad-3-2017": {
+      "url": "https://2b.zol-img.com.cn/product/181_320x240/551/cecdNa9MdjSa.jpg",
+      "sha256": "4a5d1aacc1aab200db3e4daabe4ae67aefdc989e2ec780e306b36fcb0dd4b9e6",
+      "format": "JPEG",
+      "width": 320,
+      "height": 240,
+      "checkedAt": "2026-10-06",
+      "visualReview": "金色背盖、单摄、4:3黑色前面板，与平板3型号页外观一致",
+      "licenseStatus": "unknown"
+    },
+    "xiaomi-pad-4-wifi-2018": {
+      "url": "https://2b.zol-img.com.cn/product/220_320x240/965/ceeXfb2i3iwA.png",
+      "sha256": "3889a5c24587fa767f503c942322afa9ff1f136938756aea20d4a2513020b243",
+      "format": "JPEG",
+      "width": 320,
+      "height": 240,
+      "checkedAt": "2026-10-06",
+      "visualReview": "黑色单摄机身、较窄长屏幕，与平板4 Wi-Fi具体来源外观一致，未标注LTE",
+      "licenseStatus": "unknown"
+    },
+    "xiaomi-pad-5-pro-wifi-2021": {
+      "url": "https://2e.zol-img.com.cn/product/226_320x240/840/cesA1NvmwDI7I.jpg",
+      "sha256": "1ca4b1f0e47eac6c4401c54bed8be0a301f87c8019d61acffbc8aed5211a96e8",
+      "format": "JPEG",
+      "width": 320,
+      "height": 240,
+      "checkedAt": "2026-10-06",
+      "visualReview": "深灰色背盖和后摄模组，与11英寸5 Pro具体参数页外观一致，非12.4大屏型号",
+      "licenseStatus": "unknown"
+    },
+    "xiaomi-book-pro-15-2017": {
+      "url": "https://2f.zol-img.com.cn/product/186_320x240/807/ceAvRvkHkVlqE.jpg",
+      "sha256": "e8c36c1817dba877e02e023c84b76fcfdfc7920156bc4b3906a61ce029aa7091",
+      "format": "JPEG",
+      "width": 320,
+      "height": 240,
+      "checkedAt": "2026-10-06",
+      "visualReview": "已下载查看，但系列主图由多个年份共用，不能据图片确认2017具体型号",
+      "licenseStatus": "unknown"
+    },
+    "redmi-book-16-2020": {
+      "url": "https://2c.zol-img.com.cn/product/223_320x240/932/cedKFOw8R9z.jpg",
+      "sha256": "0a1142a113a5cb51cc72bbe1e24599fecffb68fd8c6b1b7577f2e7e2ec25a19a",
+      "format": "JPEG",
+      "width": 320,
+      "height": 240,
+      "checkedAt": "2026-10-06",
+      "visualReview": "窄边框笔记本主图，来自已核对2020酷睿版系列；不据该图片断言具体CPU或颜色",
+      "licenseStatus": "unknown"
+    }
+  }
+}

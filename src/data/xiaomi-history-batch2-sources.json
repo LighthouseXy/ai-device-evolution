@@ -1,0 +1,2226 @@
+{
+  "phone": [
+    {
+      "id": "xiaomi-8-2018",
+      "modelName": "小米8",
+      "releaseYear": 2018,
+      "sourceStatus": "verified",
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/23927_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_23927_0_1.html",
+        "https://detail.zol.com.cn/1214/1213787/param.shtml",
+        "https://www.ithome.com/0/362/796.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2018-06-05",
+        "rawText": "上市日期 2018年06月05日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1214/1213787/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:53:55.164Z",
+        "sourceSnapshotHash": "62d85f8ebcac6663d3a180a14973b2daabca27f7ad938a5551df4d49dc450f9e"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "本批发布原文仅用作型号与SKU补证；不将市场参考报价当首发价"
+        },
+        {
+          "field": "rearCamera",
+          "reason": "已核验的标准版参数与配置补证页没有明确、无冲突的该字段；不从相近型号推断"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "已核验的标准版参数与配置补证页没有明确、无冲突的该字段；不从相近型号推断"
+        }
+      ],
+      "notes": "旧容量汇总参数页不拆配；单独读取标准版非容量字段，配置另由发布原文逐条补证。 配置另由独立发布评测原文逐条补证，仅采用该原文列明组合。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "小米在深圳正式发布了旗下年度旗舰小米8",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/362/796.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:32.339Z",
+        "sourceSnapshotHash": "6a5de46f0bd3952b38ac3439de0b1f578cce179cd902403325741d7424ef1c07"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_23927.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "黑色，白色，金色，蓝色 查看外观",
+        "rawText": "机身颜色 黑色，白色，金色，蓝色 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1214/1213787/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:53:55.164Z",
+        "sourceSnapshotHash": "62d85f8ebcac6663d3a180a14973b2daabca27f7ad938a5551df4d49dc450f9e"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "独立发布/官方原文逐SKU补证"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2d.zol-img.com.cn/product/191_320x240/557/cessHobf7QwFM.jpg",
+        "alt": "小米8",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/23927_1.html",
+        "sourceSnapshotHash": "952287c7de5b6bc32ed9dc2ada5133b44822fbca079cddc9f48db8b5d9eef650",
+        "license": "unknown",
+        "status": "downloaded_and_visually_reviewed",
+        "actualImageEvidence": {
+          "url": "https://2d.zol-img.com.cn/product/191_320x240/557/cessHobf7QwFM.jpg",
+          "sha256": "3b41f35d91662a1d3100d075ac338da2ec6379a1aa67936adc30fa4382ca3331",
+          "format": "JPEG",
+          "width": 320,
+          "height": 240,
+          "checkedAt": "2026-10-06",
+          "visualReview": "真实下载并查看：白色机身、后置双摄与指纹、刘海屏，与型号系列页的小米8外观一致；水印保留",
+          "licenseStatus": "unknown"
+        }
+      }
+    },
+    {
+      "id": "xiaomi-8-se-2018",
+      "modelName": "小米8 SE",
+      "generation": "小米8 SE",
+      "releaseYear": 2018,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/23661_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_23661_0_1.html",
+        "https://detail.zol.com.cn/1218/1217453/param.shtml",
+        "https://www.mi.com/mi8i/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2018-05",
+        "rawText": "上市日期 2018年05月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1218/1217453/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:53:56.556Z",
+        "sourceSnapshotHash": "a984ed5f567c02a367a46e069feb63fb53b7cbaa5fdedc15f8e7cd285c5eab56"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "excludedConfigurations": [
+        {
+          "name": "小米8 SE（6GB RAM/全网通）",
+          "sourceUrl": "https://detail.zol.com.cn/1218/1217457/param.shtml",
+          "reason": "内存或存储是多值汇总，不能绑定独立 SKU"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 1 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "支持移动/联通/电信 4G",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/mi8i/specs",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:04:20.364Z",
+        "sourceSnapshotHash": "22edd74ad7797802d1356c0f6b5188e0aed067f30eb700f17d64378ff126af85"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_23661.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "金色，灰色，红色，蓝色 查看外观",
+        "rawText": "机身颜色 金色，灰色，红色，蓝色 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1218/1217453/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:53:56.556Z",
+        "sourceSnapshotHash": "a984ed5f567c02a367a46e069feb63fb53b7cbaa5fdedc15f8e7cd285c5eab56"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2c.zol-img.com.cn/product/191_320x240/574/cedZwTDSZzzA.jpg",
+        "alt": "小米8 SE",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/23661_1.html",
+        "sourceSnapshotHash": "7eb54af46cd0725ed8257415b8a412c3111b18f7f426db4bce610f1e9d8ce6aa",
+        "license": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      }
+    },
+    {
+      "id": "xiaomi-8-lite-2018",
+      "modelName": "小米8青春版",
+      "generation": "小米8青春版",
+      "releaseYear": 2018,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/24123_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_24123_0_1.html",
+        "https://detail.zol.com.cn/1232/1231048/param.shtml",
+        "https://www.mi.com/mi8youth/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2018-09-19",
+        "rawText": "上市日期 2018年09月19日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1232/1231048/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:53:57.340Z",
+        "sourceSnapshotHash": "1101d27344d2a4bba3638a570dcd3c0c458790972637556a15cb9e2e368271eb"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "excludedConfigurations": [
+        {
+          "name": "小米8青春版（6GB RAM/全网通）",
+          "sourceUrl": "https://detail.zol.com.cn/1233/1232008/param.shtml",
+          "reason": "内存或存储是多值汇总，不能绑定独立 SKU"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 1 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "支持移动/联通/电信 4G",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/mi8youth/specs",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:59:58.206Z",
+        "sourceSnapshotHash": "054a41a6c515d2a5a98d2f9bc24b618cb88f841300e1f69ef26c5399cbf69a99"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_24123.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "暮光金，梦幻蓝，深空灰 查看外观",
+        "rawText": "机身颜色 暮光金，梦幻蓝，深空灰 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1232/1231048/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:53:57.340Z",
+        "sourceSnapshotHash": "1101d27344d2a4bba3638a570dcd3c0c458790972637556a15cb9e2e368271eb"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2f.zol-img.com.cn/product/193_320x240/591/cePhu5MYiW2s.jpg",
+        "alt": "小米8青春版",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/24123_1.html",
+        "sourceSnapshotHash": "efabc74cdb148b342430621abdc87fb64011e366207945ca71b54009a6fc8c7e",
+        "license": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      }
+    },
+    {
+      "id": "xiaomi-8-screen-fingerprint-2018",
+      "modelName": "小米8屏幕指纹版",
+      "generation": "小米8屏幕指纹版",
+      "releaseYear": 2018,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/24125_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_24125_0_1.html",
+        "https://detail.zol.com.cn/1233/1232014/param.shtml",
+        "https://detail.zol.com.cn/1233/1232023/param.shtml",
+        "https://www.mi.com/mi8ud/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2018-09-19",
+        "rawText": "上市日期 2018年09月19日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1233/1232014/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:53:58.524Z",
+        "sourceSnapshotHash": "5cafec620a5396ea83697c2f7252999611da6d4ae191e0f5d87a8bcd280c8975"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "支持移动/联通/电信 4G",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/mi8ud/specs",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:55:08.457Z",
+        "sourceSnapshotHash": "6682415cdea503746cd1064b04020c408ebc84c8adcdf5bb531e1497ac71896e"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_24125.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "曜石黑，暮光金，透明 查看外观",
+        "rawText": "机身颜色 曜石黑，暮光金，透明 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1233/1232014/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:53:58.524Z",
+        "sourceSnapshotHash": "5cafec620a5396ea83697c2f7252999611da6d4ae191e0f5d87a8bcd280c8975"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2c.zol-img.com.cn/product/193_200x150/684/ceTjUkn76Fc2.jpg",
+        "alt": "小米8屏幕指纹版（6GB RAM/全网通）官方图0",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/24125_1.html",
+        "sourceSnapshotHash": "b5221a5c2dbc5f824e5e413a3189d67711808db7c64b08261e70d4ab3557707e",
+        "license": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      }
+    },
+    {
+      "id": "xiaomi-6x-2018",
+      "modelName": "小米6X",
+      "releaseYear": 2018,
+      "sourceStatus": "verified",
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/23452_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_23452_0_1.html",
+        "https://detail.zol.com.cn/1171/1170480/param.shtml",
+        "https://www.mi.com/mi6x/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2018-04-27",
+        "rawText": "上市日期 2018年04月27日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1171/1170480/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:00.682Z",
+        "sourceSnapshotHash": "e2ab1d76c16d6446a78246a51336437b738976eddc309f18167508eee50e2805"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "本批发布原文仅用作型号与SKU补证；不将市场参考报价当首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "已核验的标准版参数与配置补证页没有明确、无冲突的该字段；不从相近型号推断"
+        },
+        {
+          "field": "rearCamera",
+          "reason": "已核验的标准版参数与配置补证页没有明确、无冲突的该字段；不从相近型号推断"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "已核验的标准版参数与配置补证页没有明确、无冲突的该字段；不从相近型号推断"
+        }
+      ],
+      "notes": "旧容量汇总参数页不拆配；单独读取标准版非容量字段，配置另由发布原文逐条补证。 配置另由独立发布评测原文逐条补证，仅采用该原文列明组合。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "支持移动/联通/电信 4G",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/mi6x/specs",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:55:08.779Z",
+        "sourceSnapshotHash": "6db1876451cb04c5711443a220cf3c2f7f25225fddcdde57cbd856dccb30f58e"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_23452.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "冰川蓝，流沙金，曜石黑，赤焰红，樱花粉 查看外观",
+        "rawText": "机身颜色 冰川蓝，流沙金，曜石黑，赤焰红，樱花粉 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1171/1170480/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:00.682Z",
+        "sourceSnapshotHash": "e2ab1d76c16d6446a78246a51336437b738976eddc309f18167508eee50e2805"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "独立发布/官方原文逐SKU补证"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2c.zol-img.com.cn/product/190_320x240/592/cepiPCapqsDgk.jpg",
+        "alt": "小米6X",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/23452_1.html",
+        "sourceSnapshotHash": "b8678302bcf2b8b5d72c39fd89cfc2b0241f98b1010695bba6ced1cc3fd6f714",
+        "license": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      }
+    },
+    {
+      "id": "xiaomi-note-3-2017",
+      "modelName": "小米Note3",
+      "releaseYear": 2017,
+      "sourceStatus": "verified",
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/22903_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_22903_0_1.html",
+        "https://detail.zol.com.cn/1204/1203753/param.shtml",
+        "https://mobile.zol.com.cn/655/6552128_all.html",
+        "https://www.mi.com/minote3/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2017-09-12",
+        "rawText": "上市日期 2017年09月12日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1204/1203753/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:01.669Z",
+        "sourceSnapshotHash": "aab6cb9e1d360db3165ba935e1cfe971cd895606b19e2ca5382bbe85e36bcae3"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "本批发布原文仅用作型号与SKU补证；不将市场参考报价当首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "已核验的标准版参数与配置补证页没有明确、无冲突的该字段；不从相近型号推断"
+        },
+        {
+          "field": "rearCamera",
+          "reason": "已核验的标准版参数与配置补证页没有明确、无冲突的该字段；不从相近型号推断"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "已核验的标准版参数与配置补证页没有明确、无冲突的该字段；不从相近型号推断"
+        }
+      ],
+      "notes": "旧容量汇总参数页不拆配；单独读取标准版非容量字段，配置另由发布原文逐条补证。 配置另由独立发布评测原文逐条补证，仅采用该原文列明组合。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "支持移动、联通、电信4G",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/minote3/specs",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:55:08.855Z",
+        "sourceSnapshotHash": "06294bd21eced85d8af194f64e2e0230e08edc8da494b5ce90ae5dfbd3c5a461"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_22903.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "亮黑色，亮蓝色 查看外观",
+        "rawText": "机身颜色 亮黑色，亮蓝色 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1204/1203753/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:01.669Z",
+        "sourceSnapshotHash": "aab6cb9e1d360db3165ba935e1cfe971cd895606b19e2ca5382bbe85e36bcae3"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "独立发布/官方原文逐SKU补证"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2e.zol-img.com.cn/product/187_320x240/564/cer1bnXIRzZC6.jpg",
+        "alt": "小米Note3",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/22903_1.html",
+        "sourceSnapshotHash": "7e8f478be5b28996e30179aa1dbd1869fe1bfc67c120a2fb018ae8a5dd886089",
+        "license": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      }
+    },
+    {
+      "id": "xiaomi-max-3-2018",
+      "modelName": "小米Max 3",
+      "generation": "小米Max 3",
+      "releaseYear": 2018,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/23834_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_23834_0_1.html",
+        "https://detail.zol.com.cn/1206/1205304/param.shtml",
+        "https://detail.zol.com.cn/1225/1224445/param.shtml",
+        "https://www.mi.com/max3/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2018-07",
+        "rawText": "上市日期 2018年07月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1206/1205304/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:03.136Z",
+        "sourceSnapshotHash": "76ac59f81daf06ef8385c738b2eb445153e503d613821d0985b628466c69c58a"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        },
+        {
+          "field": "displayType",
+          "reason": "对应具体配置参数页未提供可核验的字段原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "支持移动/联通/电信 4G",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/max3/specs",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:55:08.630Z",
+        "sourceSnapshotHash": "af971921057bc3151621e77bf33a572feb31195b9b7b2a2df541869a2dc4c1f3"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_23834.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "梦幻金，深海蓝，曜石黑 查看外观",
+        "rawText": "机身颜色 梦幻金，深海蓝，曜石黑 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1206/1205304/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:03.136Z",
+        "sourceSnapshotHash": "76ac59f81daf06ef8385c738b2eb445153e503d613821d0985b628466c69c58a"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2c.zol-img.com.cn/product/192_320x240/158/ceD6tW1b3PyUU.jpg",
+        "alt": "小米Max 3",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/23834_1.html",
+        "sourceSnapshotHash": "6d0742063d3f909dae731b3c819a5b5cfa29d6387b1efa3c2db1d4b42dad99a6",
+        "license": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      }
+    },
+    {
+      "id": "xiaomi-play-2018",
+      "modelName": "小米Play",
+      "generation": "小米Play",
+      "releaseYear": 2018,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/28117_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_28117_0_1.html",
+        "https://detail.zol.com.cn/1247/1246506/param.shtml",
+        "https://detail.zol.com.cn/1299/1298842/param.shtml",
+        "https://www.mi.com/miplay/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2018-12-24",
+        "rawText": "上市日期 2018年12月24日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1247/1246506/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:06.762Z",
+        "sourceSnapshotHash": "1a1729d02d16d5c02892cbffabc98b776ee2ba0777cf05b66b6e627394655e54"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "支持移动/联通/电信 4G",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/miplay/specs",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:59:33.578Z",
+        "sourceSnapshotHash": "7989c5cd829eaa2ae4b43ce371f4f70ab401f92297f2f3eedf0e013d580512fd"
+      },
+      "imageReferenceStatus": "series_gallery_link_missing",
+      "imageReferenceNote": "已核对系列页未提供可读取的系列图库链接；可另查具体SKU参数页中的产品主图，不构造图库地址。",
+      "colorEvidence": {
+        "value": "梦幻蓝，黑色，暮光金 查看外观",
+        "rawText": "机身颜色 梦幻蓝，黑色，暮光金 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1247/1246506/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:06.762Z",
+        "sourceSnapshotHash": "1a1729d02d16d5c02892cbffabc98b776ee2ba0777cf05b66b6e627394655e54"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2d.zol-img.com.cn/product/194_200x150/597/ceNe2LKtOjw6I.jpg",
+        "alt": "小米Play（全网通）官方图0",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/28117_1.html",
+        "sourceSnapshotHash": "91a298ac66b9300841ff713ef359ec7e72cd5488f680f9bf9c41779930526f55",
+        "license": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      }
+    },
+    {
+      "id": "redmi-note-4x-2017",
+      "modelName": "红米Note 4X",
+      "releaseYear": 2017,
+      "sourceStatus": "verified",
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/21808_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_21808_0_1.html",
+        "https://detail.zol.com.cn/1164/1163122/param.shtml",
+        "https://www.mi.com/redminote4x/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2017-02",
+        "rawText": "上市日期 2017年02月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1164/1163122/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:58:27.057Z",
+        "sourceSnapshotHash": "991028087f7e13f6a9ef85c0c16f36cb7ef60db149592e265dfd93e94b8e31aa"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "本批发布原文仅用作型号与SKU补证；不将市场参考报价当首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "已核验的标准版参数与配置补证页没有明确、无冲突的该字段；不从相近型号推断"
+        },
+        {
+          "field": "rearCamera",
+          "reason": "已核验的标准版参数与配置补证页没有明确、无冲突的该字段；不从相近型号推断"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "已核验的标准版参数与配置补证页没有明确、无冲突的该字段；不从相近型号推断"
+        }
+      ],
+      "notes": "旧容量汇总参数页不拆配；单独读取标准版非容量字段，配置另由发布原文逐条补证。 配置另由独立发布评测原文逐条补证，仅采用该原文列明组合。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "支持移动、联通、电信4G",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/redminote4x/specs",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:55:09.218Z",
+        "sourceSnapshotHash": "5ea286332e5f53bf340571848fa712d51cd5a1a99626ec9976583f15c54b27bb"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_21808.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "樱花粉，香槟金，铂银灰，磨砂黑，蓝绿色，浅蓝色 查看外观",
+        "rawText": "机身颜色 樱花粉，香槟金，铂银灰，磨砂黑，蓝绿色，浅蓝色 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1164/1163122/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:58:27.057Z",
+        "sourceSnapshotHash": "991028087f7e13f6a9ef85c0c16f36cb7ef60db149592e265dfd93e94b8e31aa"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "独立发布/官方原文逐SKU补证"
+      }
+    },
+    {
+      "id": "redmi-4x-2017",
+      "modelName": "红米4X",
+      "generation": "红米4X",
+      "releaseYear": 2017,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/21868_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_21868_0_1.html",
+        "https://detail.zol.com.cn/1167/1166005/param.shtml",
+        "https://detail.zol.com.cn/1171/1170481/param.shtml",
+        "https://detail.zol.com.cn/1167/1166002/param.shtml",
+        "https://detail.zol.com.cn/1181/1180367/param.shtml",
+        "https://www.mi.com/redmi4x/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2017-03-03",
+        "rawText": "上市日期 2017年03月03日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1167/1166005/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:58:28.241Z",
+        "sourceSnapshotHash": "93c158fe408977d8d3b8c6aab84e7539fdf205bb5fda048f8cd496f3ae09b93e"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        },
+        {
+          "field": "displayType",
+          "reason": "对应具体配置参数页未提供可核验的字段原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "支持移动、联通、电信4G",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/redmi4x/specs",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:55:09.073Z",
+        "sourceSnapshotHash": "76c0a9b4b79c5dbedac742851904ceba2bfa3c1b7b9c759402663d8c52f7e6e1"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_21868.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "樱花粉，香槟金，磨砂黑 查看外观",
+        "rawText": "机身颜色 樱花粉，香槟金，磨砂黑 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1167/1166005/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:58:28.241Z",
+        "sourceSnapshotHash": "93c158fe408977d8d3b8c6aab84e7539fdf205bb5fda048f8cd496f3ae09b93e"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      }
+    },
+    {
+      "id": "redmi-note-5a-2017",
+      "modelName": "红米Note 5A",
+      "generation": "红米Note 5A",
+      "releaseYear": 2017,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/22592_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_22592_0_1.html",
+        "https://detail.zol.com.cn/1177/1176292/param.shtml",
+        "https://www.mi.com/redminote5a/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2017-08-22",
+        "rawText": "上市日期 2017年08月22日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1177/1176292/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:58:29.245Z",
+        "sourceSnapshotHash": "3ed3fe4a352c2bcd4e2ff3c0e1b1761576e823d9cc5e1e74a09926df5b26d364"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        },
+        {
+          "field": "displayType",
+          "reason": "对应具体配置参数页未提供可核验的字段原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 1 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "支持移动、联通、电信4G",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/redminote5a/specs",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:55:09.429Z",
+        "sourceSnapshotHash": "418179ffe77dad112a229ba4ac7e50e3dd6b09974bb0fe2783ff9511e86ab17a"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_22592.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "铂银灰，玫瑰金，香槟金 查看外观",
+        "rawText": "机身颜色 铂银灰，玫瑰金，香槟金 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1177/1176292/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:58:29.245Z",
+        "sourceSnapshotHash": "3ed3fe4a352c2bcd4e2ff3c0e1b1761576e823d9cc5e1e74a09926df5b26d364"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2f.zol-img.com.cn/product/185_320x240/243/ceG0dZao610zM.jpg",
+        "alt": "小米红米Note 5A",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/22592_1.html",
+        "sourceSnapshotHash": "6bb5923bb9d4130c16c186bd16007131e442ce1b97415927f159b0da238b90f7",
+        "license": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      }
+    },
+    {
+      "id": "redmi-5-2017",
+      "modelName": "红米5",
+      "generation": "红米5",
+      "releaseYear": 2017,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/22966_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_22966_0_1.html",
+        "https://detail.zol.com.cn/1166/1165565/param.shtml",
+        "https://detail.zol.com.cn/1205/1204739/param.shtml",
+        "https://detail.zol.com.cn/1206/1205855/param.shtml",
+        "https://www.mi.com/redmi5/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2017-12-12",
+        "rawText": "上市日期 2017年12月12日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1166/1165565/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:58:29.930Z",
+        "sourceSnapshotHash": "d4858b6ed6b0c44ff29a1be19ac5ebba3befa834c54fc8ae3ee82bf7b918e08c"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        },
+        {
+          "field": "displayType",
+          "reason": "对应具体配置参数页未提供可核验的字段原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "主卡移动、联通、电信4G",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/redmi5/specs",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:55:09.518Z",
+        "sourceSnapshotHash": "2f81feec649f1416855be15fcbbafb09d6b7f2edd115c2c0802f0caad0579e99"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_22966.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "黑色，金色，浅蓝色，玫瑰金 查看外观",
+        "rawText": "机身颜色 黑色，金色，浅蓝色，玫瑰金 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1166/1165565/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:58:29.930Z",
+        "sourceSnapshotHash": "d4858b6ed6b0c44ff29a1be19ac5ebba3befa834c54fc8ae3ee82bf7b918e08c"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2e.zol-img.com.cn/product/188_320x240/176/ce7GLNcmgSZTc.jpg",
+        "alt": "小米红米5",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/22966_1.html",
+        "sourceSnapshotHash": "70a188f7ceeb369360261ffeb49809cde88a3469215f9154e78bbbed2db20c33",
+        "license": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      }
+    },
+    {
+      "id": "redmi-5-plus-2017",
+      "modelName": "红米5 Plus",
+      "generation": "红米5 Plus",
+      "releaseYear": 2017,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/22965_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_22965_0_1.html",
+        "https://detail.zol.com.cn/1184/1183689/param.shtml",
+        "https://detail.zol.com.cn/1205/1204738/param.shtml",
+        "https://www.mi.com/redmi5/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2017-12-07",
+        "rawText": "上市日期 2017年12月07日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1205/1204738/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:58:30.447Z",
+        "sourceSnapshotHash": "a658f437fe6c073c497b5e31649c84035e92a2fce9b0672450fd56b61ffbbf8a"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        },
+        {
+          "field": "displayType",
+          "reason": "对应具体配置参数页未提供可核验的字段原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "主卡移动、联通、电信4G",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/redmi5/specs",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:55:09.518Z",
+        "sourceSnapshotHash": "2f81feec649f1416855be15fcbbafb09d6b7f2edd115c2c0802f0caad0579e99"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_22965.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "黑色，金色，浅蓝色，玫瑰金 查看外观",
+        "rawText": "机身颜色 黑色，金色，浅蓝色，玫瑰金 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1184/1183689/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:58:30.523Z",
+        "sourceSnapshotHash": "251708a8778d784d4e9543051cc78826a8ede10740423980b25a7f469c8cd2f0"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2f.zol-img.com.cn/product/188_320x240/177/ceEJotp3uemLY.jpg",
+        "alt": "小米红米5 Plus",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/22965_1.html",
+        "sourceSnapshotHash": "779e0677409bd3aa9767cf00fec144380fa402795e8a6178d9a720c731ed987d",
+        "license": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      }
+    },
+    {
+      "id": "redmi-note-5-2018",
+      "modelName": "红米Note 5",
+      "generation": "红米Note 5",
+      "releaseYear": 2018,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/23229_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_23229_0_1.html",
+        "https://detail.zol.com.cn/1176/1175353/param.shtml",
+        "https://detail.zol.com.cn/1210/1209455/param.shtml",
+        "https://www.mi.com/redminote5/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2018-03-20",
+        "rawText": "上市日期 2018年03月20日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1176/1175353/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:58:30.792Z",
+        "sourceSnapshotHash": "f3c917f3b75bc46c0d000f3f6ffb84661169d6f3273c76d4f76203d7795da995"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        },
+        {
+          "field": "displayType",
+          "reason": "对应具体配置参数页未提供可核验的字段原文"
+        }
+      ],
+      "excludedConfigurations": [
+        {
+          "name": "小米红米Note 5（6GB RAM/全网通）",
+          "sourceUrl": "https://detail.zol.com.cn/1210/1209456/param.shtml",
+          "reason": "内存或存储是多值汇总，不能绑定独立 SKU"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "支持移动、联通、电信4G",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/redminote5/specs",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:59:59.061Z",
+        "sourceSnapshotHash": "e0372efc18e9d32dddd2e6e8d58aa86a9fd29b61c5818e5a83edcd180147dd79"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_23229.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "魔力蓝，玫瑰金，金色，黑色 查看外观",
+        "rawText": "机身颜色 魔力蓝，玫瑰金，金色，黑色 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1176/1175353/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:58:30.792Z",
+        "sourceSnapshotHash": "f3c917f3b75bc46c0d000f3f6ffb84661169d6f3273c76d4f76203d7795da995"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2c.zol-img.com.cn/product/189_320x240/990/ceVo2FJ7IYL3s.jpg",
+        "alt": "小米红米Note 5",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/23229_1.html",
+        "sourceSnapshotHash": "672fd6932298737342683b2eac62cc128fae521753519c97f5a2478a1c1570d6",
+        "license": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      }
+    },
+    {
+      "id": "redmi-6-2018",
+      "modelName": "Redmi 6",
+      "generation": "Redmi 6",
+      "releaseYear": 2018,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/23702_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_23702_0_1.html",
+        "https://detail.zol.com.cn/1216/1215069/param.shtml",
+        "https://detail.zol.com.cn/1220/1219676/param.shtml",
+        "https://www.mi.com/redmi6/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2018-06-15",
+        "rawText": "上市日期 2018年6月15日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1216/1215069/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:58:33.575Z",
+        "sourceSnapshotHash": "3594506e4ce7ef18ea4209c45ba251ffa2ebd4b1374c304da180b1e31dd3320b"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        },
+        {
+          "field": "displayType",
+          "reason": "对应具体配置参数页未提供可核验的字段原文"
+        },
+        {
+          "field": "port",
+          "reason": "对应具体配置参数页未提供可核验的字段原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "支持移动/联通/电信 4G",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/redmi6/specs",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:55:09.620Z",
+        "sourceSnapshotHash": "e988d3e5929d05a367435596c8a04d33da4cc1eb34bcaace1ba08c562cd6ba5f"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_23702.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "铂银灰，巴厘蓝，流沙金，樱花粉 查看外观",
+        "rawText": "机身颜色 铂银灰，巴厘蓝，流沙金，樱花粉 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1216/1215069/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:58:33.575Z",
+        "sourceSnapshotHash": "3594506e4ce7ef18ea4209c45ba251ffa2ebd4b1374c304da180b1e31dd3320b"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2e.zol-img.com.cn/product/191_320x240/90/ceAIvPl2FYeGs.jpg",
+        "alt": "小米红米6",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/23702_1.html",
+        "sourceSnapshotHash": "3d3039e85576e777241e9bb890630056b324ea8bc13b6027948d073b5efb7e6d",
+        "license": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      }
+    },
+    {
+      "id": "redmi-6-pro-2018",
+      "modelName": "Redmi 6 Pro",
+      "generation": "Redmi 6 Pro",
+      "releaseYear": 2018,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/23748_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_23748_0_1.html",
+        "https://detail.zol.com.cn/1221/1220665/param.shtml",
+        "https://www.mi.com/redmi6pro/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2018-06",
+        "rawText": "上市日期 2018年06月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1221/1220665/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:13.489Z",
+        "sourceSnapshotHash": "4ca2f604bce8c6b0d747b9b142a3f9755d52a4b0229d3a90a8af7c8e2b436a1c"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "excludedConfigurations": [
+        {
+          "name": "Redmi 6 Pro（4GB RAM/全网通）",
+          "sourceUrl": "https://detail.zol.com.cn/1222/1221136/param.shtml",
+          "reason": "内存或存储是多值汇总，不能绑定独立 SKU"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 1 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "支持移动/联通/电信 4G",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/redmi6pro/specs",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:55:09.746Z",
+        "sourceSnapshotHash": "b8eb99304d7121de44d242e947296e75c11f61ed6fe0c0bd5e2596d0f08fd32d"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_23748.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "赤焰红，樱花粉，流沙金，巴厘蓝，曜石黑 查看外观",
+        "rawText": "机身颜色 赤焰红，樱花粉，流沙金，巴厘蓝，曜石黑 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1221/1220665/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:13.489Z",
+        "sourceSnapshotHash": "4ca2f604bce8c6b0d747b9b142a3f9755d52a4b0229d3a90a8af7c8e2b436a1c"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2c.zol-img.com.cn/product/191_320x240/408/celeibJxmGVVI.jpg",
+        "alt": "Redmi 6 Pro",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/23748_1.html",
+        "sourceSnapshotHash": "6aa7daf669cac1b0c7987c284c4dd804d4e77aa29da329e77e468c0450eee5c8",
+        "license": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      }
+    },
+    {
+      "id": "redmi-6a-2018",
+      "modelName": "Redmi 6A",
+      "generation": "Redmi 6A",
+      "releaseYear": 2018,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/23855_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_23855_0_1.html",
+        "https://detail.zol.com.cn/1217/1216196/param.shtml",
+        "https://detail.zol.com.cn/1226/1225116/param.shtml",
+        "https://www.mi.com/redmi6a/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2018-06-15",
+        "rawText": "上市日期 2018年06月15日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1217/1216196/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:15.314Z",
+        "sourceSnapshotHash": "0cc4be0cdcb5520d596c09758d7cd20b763293a43dd8e5cfacaf65df4fb870e9"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "支持移动 / 联通 / 电信 4G",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/redmi6a/specs",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:55:09.949Z",
+        "sourceSnapshotHash": "c486ae0a42f765865c062579bb96e188848ba3f1fba1730255626025156e8b09"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_23855.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "流沙金，铂银灰，樱花粉，巴厘蓝 查看外观",
+        "rawText": "机身颜色 流沙金，铂银灰，樱花粉，巴厘蓝 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1217/1216196/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:15.314Z",
+        "sourceSnapshotHash": "0cc4be0cdcb5520d596c09758d7cd20b763293a43dd8e5cfacaf65df4fb870e9"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      }
+    },
+    {
+      "id": "redmi-s2-2018",
+      "modelName": "Redmi S2",
+      "generation": "Redmi S2",
+      "releaseYear": 2018,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/23543_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_23543_0_1.html",
+        "https://detail.zol.com.cn/1214/1213595/param.shtml",
+        "https://www.mi.com/redmis2/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2018",
+        "rawText": "上市日期 2018年",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1214/1213595/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:18.379Z",
+        "sourceSnapshotHash": "ef9b58c47161090f4de4c740572d33e027c8c391a471938926f7e8978af8f8a3"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 1 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "支持移动、联通、电信 4G",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/redmis2/specs",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:55:10.052Z",
+        "sourceSnapshotHash": "e7fbe62236ab28027e6dedb604a2062438666e3769ab44a989a583dfac10df7e"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_23543.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "玫瑰金，香槟金，铂银灰 查看外观",
+        "rawText": "机身颜色 玫瑰金，香槟金，铂银灰 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1214/1213595/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:18.379Z",
+        "sourceSnapshotHash": "ef9b58c47161090f4de4c740572d33e027c8c391a471938926f7e8978af8f8a3"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2b.zol-img.com.cn/product/190_320x240/129/ceKHTGZ4BtNCI.jpg",
+        "alt": "Redmi S2",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/23543_1.html",
+        "sourceSnapshotHash": "ff022027a4adad0118fe6b9324e0453ee98dd1f90d6ae0020bc5a62679bb920d",
+        "license": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      }
+    },
+    {
+      "id": "redmi-7-2019",
+      "modelName": "Redmi 7",
+      "generation": "Redmi 7",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/25772_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_25772_0_1.html",
+        "https://detail.zol.com.cn/1253/1252207/param.shtml",
+        "https://detail.zol.com.cn/1263/1262613/param.shtml",
+        "https://detail.zol.com.cn/1263/1262615/param.shtml",
+        "https://www.mi.com/redmi7/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2019-03",
+        "rawText": "上市日期 2019年03月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1253/1252207/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:19.782Z",
+        "sourceSnapshotHash": "737c1a4c1f543439a9b3064462d022a6140bc3ce401c6b764c87fbcd2a70fcb2"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        },
+        {
+          "field": "port",
+          "reason": "对应具体配置参数页未提供可核验的字段原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "支持移动 / 联通 / 电信 4G",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/redmi7/specs",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:55:10.026Z",
+        "sourceSnapshotHash": "3c80759316dcc16702e7dbe2e2418e112ef0195a81cd446a3e2b4de7edb1d916"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_25772.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "魅夜红，梦幻蓝，亮黑色 查看外观",
+        "rawText": "机身颜色 魅夜红，梦幻蓝，亮黑色 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1253/1252207/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:19.782Z",
+        "sourceSnapshotHash": "737c1a4c1f543439a9b3064462d022a6140bc3ce401c6b764c87fbcd2a70fcb2"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2b.zol-img.com.cn/product/196_320x240/491/ceWP5Me66lYHU.jpg",
+        "alt": "Redmi 7",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/25772_1.html",
+        "sourceSnapshotHash": "82f700bc18630530e58129bdb578ebdcf0640c0e6a34c86dfcce27df4ac7b92c",
+        "license": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      }
+    },
+    {
+      "id": "redmi-7a-2019",
+      "modelName": "Redmi 7A",
+      "generation": "Redmi 7A",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/26573_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_26573_0_1.html",
+        "https://detail.zol.com.cn/1276/1275176/param.shtml",
+        "https://detail.zol.com.cn/1278/1277036/param.shtml",
+        "https://detail.zol.com.cn/1278/1277037/param.shtml",
+        "https://www.mi.com/redmi7a/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2019-05-28",
+        "rawText": "上市日期 2019年05月28日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1276/1275176/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:24.084Z",
+        "sourceSnapshotHash": "14e403fdf2b54a46d8d0a70c4ef5e47553dcc2487679b14539be81b6c3900c7d"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "支持移动 / 联通 / 电信 4G",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/redmi7a/specs",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:55:10.318Z",
+        "sourceSnapshotHash": "7179fb8ae5271403bee537e7202a2bfce6d73c3edd3604acdbda250562b1d8e8"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_26573.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "磨砂黑，晨曦蓝，雾光金 查看外观",
+        "rawText": "机身颜色 磨砂黑，晨曦蓝，雾光金 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1276/1275176/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:24.084Z",
+        "sourceSnapshotHash": "14e403fdf2b54a46d8d0a70c4ef5e47553dcc2487679b14539be81b6c3900c7d"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2c.zol-img.com.cn/product/198_320x240/182/ceS8LaMVHI3E2.jpg",
+        "alt": "Redmi 7A",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/26573_1.html",
+        "sourceSnapshotHash": "7ce01eff7b90b9dc426de97d568d100748d593a81338be4e8139f26a4d8a3a3b",
+        "license": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      }
+    },
+    {
+      "id": "redmi-8-2019",
+      "modelName": "Redmi 8",
+      "generation": "Redmi 8",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/27972_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_27972_0_1.html",
+        "https://detail.zol.com.cn/1296/1295334/param.shtml",
+        "https://detail.zol.com.cn/1297/1296322/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2019-10-15",
+        "rawText": "上市日期 2019年10月15日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1296/1295334/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:26.881Z",
+        "sourceSnapshotHash": "2f6a7d26bf3fea37305cd28764f5c63e91774b3976ed09b44d073665474ab618"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2019年10月14日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1296/1295334/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:26.881Z",
+        "sourceSnapshotHash": "2f6a7d26bf3fea37305cd28764f5c63e91774b3976ed09b44d073665474ab618"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_27972.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "宝石蓝，仙踪绿，碳岩灰 查看外观",
+        "rawText": "机身颜色 宝石蓝，仙踪绿，碳岩灰 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1296/1295334/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:26.881Z",
+        "sourceSnapshotHash": "2f6a7d26bf3fea37305cd28764f5c63e91774b3976ed09b44d073665474ab618"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "逐SKU参数及行货证据核验"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2d.zol-img.com.cn/product/202_320x240/601/ceSC8v0hnqWis.jpg",
+        "alt": "Redmi 8",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/27972_1.html",
+        "sourceSnapshotHash": "c0b074d17a1ddcc16aecd20f23e0ff3c67f806b7ba84c93a9c76dffe8d449788",
+        "license": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      }
+    },
+    {
+      "id": "redmi-8a-2019",
+      "modelName": "Redmi 8A",
+      "generation": "Redmi 8A",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/27973_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_27973_0_1.html",
+        "https://detail.zol.com.cn/1289/1288897/param.shtml",
+        "https://detail.zol.com.cn/1297/1296328/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2019-10-15",
+        "rawText": "上市日期 2019年10月15日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1289/1288897/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:27.430Z",
+        "sourceSnapshotHash": "7b2a56adef57fe8dc4ce12b98aa7bc1d20bec4896231b789970501b9117fa7a3"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2019年10月14日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1289/1288897/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:27.430Z",
+        "sourceSnapshotHash": "7b2a56adef57fe8dc4ce12b98aa7bc1d20bec4896231b789970501b9117fa7a3"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_27973.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "珊瑚橙，深海蓝，耀夜黑 查看外观",
+        "rawText": "机身颜色 珊瑚橙，深海蓝，耀夜黑 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1289/1288897/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:27.430Z",
+        "sourceSnapshotHash": "7b2a56adef57fe8dc4ce12b98aa7bc1d20bec4896231b789970501b9117fa7a3"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "逐SKU参数及行货证据核验"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2e.zol-img.com.cn/product/202_320x240/308/ceJNkL5E8xg6w.jpg",
+        "alt": "Redmi 8A",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/27973_1.html",
+        "sourceSnapshotHash": "352a85e390113fd0bd256cf346d23aebd3eb523c8048c43d3dbbf06dab60c1ae",
+        "license": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      }
+    },
+    {
+      "id": "redmi-9-2020",
+      "modelName": "Redmi 9",
+      "generation": "Redmi 9",
+      "releaseYear": 2020,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/30594_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_30594_0_1.html",
+        "https://detail.zol.com.cn/1306/1305658/param.shtml",
+        "https://detail.zol.com.cn/1330/1329084/param.shtml",
+        "https://detail.zol.com.cn/1330/1329087/param.shtml",
+        "https://detail.zol.com.cn/cell_phone/index1305658.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2020-06-30",
+        "rawText": "上市日期 2020年06月30日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1306/1305658/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:28.918Z",
+        "sourceSnapshotHash": "1d4f8708609b7837524af0d4c1146c65712274f7360bf420f523f41d1065cc4e"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "Redmi 9（4GB/64GB/全网通）；参考报价： ￥ 799 [北京 64GB行货]",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1305658.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:29.115Z",
+        "sourceSnapshotHash": "790f85dc5dcb900eb80f6fad90c27f0605e4537a8baca8cc4253060649b204f1"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_30594.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "藕荷粉，墨黛青，碳素黑，霓虹蓝 查看外观",
+        "rawText": "机身颜色 藕荷粉，墨黛青，碳素黑，霓虹蓝 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1306/1305658/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:28.918Z",
+        "sourceSnapshotHash": "1d4f8708609b7837524af0d4c1146c65712274f7360bf420f523f41d1065cc4e"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "逐SKU参数及行货证据核验"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2b.zol-img.com.cn/product/206_320x240/259/ceOENvsQYFdYI.jpg",
+        "alt": "Redmi 9",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/30594_1.html",
+        "sourceSnapshotHash": "3bf2f71ec095824820b0e9ed7147412f6bd66d10b18e7507452464a4e9e85969",
+        "license": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      }
+    },
+    {
+      "id": "redmi-9a-2020",
+      "modelName": "Redmi 9A",
+      "generation": "Redmi 9A",
+      "releaseYear": 2020,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/31583_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_31583_0_1.html",
+        "https://detail.zol.com.cn/1334/1333351/param.shtml",
+        "https://detail.zol.com.cn/1343/1342318/param.shtml",
+        "https://detail.zol.com.cn/1340/1339588/param.shtml",
+        "https://detail.zol.com.cn/1340/1339589/param.shtml",
+        "https://detail.zol.com.cn/cell_phone/index1333351.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2020-08-01",
+        "rawText": "上市日期 2020年08月01日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1334/1333351/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:31.084Z",
+        "sourceSnapshotHash": "5e6e24d6507605e3a60f6ae4c2f3086f6343b0d7a381c19543d468bbfa851075"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "Redmi 9A（4GB/64GB/全网通）；参考报价： ￥ 579 [北京 64GB行货]",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1333351.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:31.543Z",
+        "sourceSnapshotHash": "60a743a12dcce29b94251e894ad951776cd9f0401842a9dcf8657fde186f879a"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_31583.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "砂石黑，晴空蓝，湖光绿 查看外观",
+        "rawText": "机身颜色 砂石黑，晴空蓝，湖光绿 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1334/1333351/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:31.084Z",
+        "sourceSnapshotHash": "5e6e24d6507605e3a60f6ae4c2f3086f6343b0d7a381c19543d468bbfa851075"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "逐SKU参数及行货证据核验"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2f.zol-img.com.cn/product/206_320x240/541/cejoG4RtlYFJo.jpg",
+        "alt": "Redmi 9A",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/31583_1.html",
+        "sourceSnapshotHash": "025daf11b0ad6d9820ceb55d3a42fdd7a7373c76471f8e0287967ad939b9fe10",
+        "license": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      }
+    },
+    {
+      "id": "redmi-note-11-4g-2021",
+      "modelName": "Redmi Note 11 4G",
+      "generation": "Redmi Note 11 4G",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/37245_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_37245_0_1.html",
+        "https://detail.zol.com.cn/1396/1395073/param.shtml",
+        "https://detail.zol.com.cn/1396/1395075/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2021-12-01",
+        "rawText": "上市日期 2021年12月01日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1396/1395073/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:33.833Z",
+        "sourceSnapshotHash": "59d844426e50cab9eeb046495b1c13834e3028a3c193d9c0322c7ccd95a49ed2"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "国内发布时间 2021年11月25日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1396/1395073/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:33.833Z",
+        "sourceSnapshotHash": "59d844426e50cab9eeb046495b1c13834e3028a3c193d9c0322c7ccd95a49ed2"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_37245.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "时光独白，神秘黑境，梦幻晴空 查看外观",
+        "rawText": "机身颜色 时光独白，神秘黑境，梦幻晴空 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1396/1395073/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:33.833Z",
+        "sourceSnapshotHash": "59d844426e50cab9eeb046495b1c13834e3028a3c193d9c0322c7ccd95a49ed2"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "逐SKU参数及行货证据核验"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2b.zol-img.com.cn/product/222_320x240/511/cerf49L6wQAE.jpg",
+        "alt": "红米Note 11 4G",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/37245_1.html",
+        "sourceSnapshotHash": "b7c646e390146d949a0d6dc21d144292a43c3975b21789765fd1f75a19d41a04",
+        "license": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      }
+    },
+    {
+      "id": "xiaomi-mix-2-2017",
+      "modelName": "小米MIX 2",
+      "releaseYear": 2017,
+      "sourceStatus": "verified",
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/22669_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_22669_0_1.html",
+        "https://detail.zol.com.cn/1161/1160797/param.shtml",
+        "https://mobile.zol.com.cn/655/6552128_all.html"
+      ],
+      "releaseEvidence": {
+        "value": "2017-09-15",
+        "rawText": "上市日期 2017年09月15日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1161/1160797/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:42.918Z",
+        "sourceSnapshotHash": "0412049ce86952a46d2dfbadacd3e3f77ab3ca55430a136c6c94d0ea66f3a8fb"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "本批发布原文仅用作型号与SKU补证；不将市场参考报价当首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "已核验的标准版参数与配置补证页没有明确、无冲突的该字段；不从相近型号推断"
+        },
+        {
+          "field": "rearCamera",
+          "reason": "已核验的标准版参数与配置补证页没有明确、无冲突的该字段；不从相近型号推断"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "已核验的标准版参数与配置补证页没有明确、无冲突的该字段；不从相近型号推断"
+        }
+      ],
+      "notes": "旧容量汇总参数页不拆配；单独读取标准版非容量字段，配置另由发布原文逐条补证。 配置另由独立发布评测原文逐条补证，仅采用该原文列明组合。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "小米科技在北京工业大学奥林匹克体育馆正式发布了第二代全面屏 手机 小米MIX 2",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://mobile.zol.com.cn/655/6552128_all.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:32.424Z",
+        "sourceSnapshotHash": "5c9b6d10627838ef532187812e2883389450edcda153600e181691684cffed2a"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_22669.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "黑色 查看外观",
+        "rawText": "机身颜色 黑色 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1161/1160797/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:42.918Z",
+        "sourceSnapshotHash": "0412049ce86952a46d2dfbadacd3e3f77ab3ca55430a136c6c94d0ea66f3a8fb"
+      },
+      "priorReview": {
+        "status": "attempted_blocked",
+        "reason": "缺少明确绑定的内存/存储SKU",
+        "resolution": "独立发布/官方原文逐SKU补证"
+      }
+    },
+    {
+      "id": "xiaomi-mix-2s-2018",
+      "modelName": "小米MIX 2s",
+      "releaseYear": 2018,
+      "sourceStatus": "verified",
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/23291_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_23291_0_1.html",
+        "https://detail.zol.com.cn/1203/1202983/param.shtml",
+        "https://www.mi.com/mix2s/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2018-03",
+        "rawText": "上市日期 2018年03月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1203/1202983/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:43.296Z",
+        "sourceSnapshotHash": "71392bfcb98833ef4d41a7e70925308c22d6a46d13bdcac355d28c6942acbcb1"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "本批发布原文仅用作型号与SKU补证；不将市场参考报价当首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "已核验的标准版参数与配置补证页没有明确、无冲突的该字段；不从相近型号推断"
+        },
+        {
+          "field": "rearCamera",
+          "reason": "已核验的标准版参数与配置补证页没有明确、无冲突的该字段；不从相近型号推断"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "已核验的标准版参数与配置补证页没有明确、无冲突的该字段；不从相近型号推断"
+        }
+      ],
+      "notes": "旧容量汇总参数页不拆配；单独读取标准版非容量字段，配置另由发布原文逐条补证。 配置另由独立发布评测原文逐条补证，仅采用该原文列明组合。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "支持移动/联通/电信 4G",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/mix2s/specs",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:55:11.339Z",
+        "sourceSnapshotHash": "2c2adc5f646435e1b09b3b9af55ec0fead17a9d1a8295b494dee05bcc7b18bc3"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_23291.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "黑色，白色，翡翠色 查看外观",
+        "rawText": "机身颜色 黑色，白色，翡翠色 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1203/1202983/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:43.296Z",
+        "sourceSnapshotHash": "71392bfcb98833ef4d41a7e70925308c22d6a46d13bdcac355d28c6942acbcb1"
+      },
+      "priorReview": {
+        "status": "attempted_blocked",
+        "reason": "缺少中国大陆发布或具体型号行货证据，暂不把中文页面默认作国行",
+        "resolution": "独立发布/官方原文逐SKU补证"
+      }
+    },
+    {
+      "id": "xiaomi-mix-3-2018",
+      "modelName": "小米MIX 3",
+      "releaseYear": 2018,
+      "sourceStatus": "verified",
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/24585_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_24585_0_1.html",
+        "https://detail.zol.com.cn/1204/1203931/param.shtml",
+        "https://www.mi.com/mix3/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2018-11-01",
+        "rawText": "上市日期 2018年11月01日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1204/1203931/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:44.559Z",
+        "sourceSnapshotHash": "6dd09d319e60f5165cb892b7cab8a9a8725305972b3356d8af9f3d6e08b3c74a"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "本批发布原文仅用作型号与SKU补证；不将市场参考报价当首发价"
+        },
+        {
+          "field": "rearCamera",
+          "reason": "已核验的标准版参数与配置补证页没有明确、无冲突的该字段；不从相近型号推断"
+        },
+        {
+          "field": "frontCamera",
+          "reason": "已核验的标准版参数与配置补证页没有明确、无冲突的该字段；不从相近型号推断"
+        }
+      ],
+      "notes": "旧容量汇总参数页不拆配；单独读取标准版非容量字段，配置另由发布原文逐条补证。 配置另由独立发布评测原文逐条补证，仅采用该原文列明组合。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "支持移动/联通/电信 4G",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/mix3/specs",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:32.798Z",
+        "sourceSnapshotHash": "f7322034d004a49c5c580034d80eac239d692a3755b98862770d197fd5f56c15"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_24585.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "黑色，翡翠色，宝石蓝 查看外观",
+        "rawText": "机身颜色 黑色，翡翠色，宝石蓝 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1204/1203931/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:44.559Z",
+        "sourceSnapshotHash": "6dd09d319e60f5165cb892b7cab8a9a8725305972b3356d8af9f3d6e08b3c74a"
+      },
+      "priorReview": {
+        "status": "attempted_blocked",
+        "reason": "缺少中国大陆发布或具体型号行货证据，暂不把中文页面默认作国行",
+        "resolution": "独立发布/官方原文逐SKU补证"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2e.zol-img.com.cn/product/193_320x240/762/cegBcDPKSs.jpg",
+        "alt": "小米MIX 3",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/24585_1.html",
+        "sourceSnapshotHash": "b28fc104052621a28ebce7de39ffb9a7c25f6e1589601fff4ab2a504a68b81fa",
+        "license": "unknown",
+        "status": "downloaded_and_visually_reviewed",
+        "actualImageEvidence": {
+          "url": "https://2e.zol-img.com.cn/product/193_320x240/762/cegBcDPKSs.jpg",
+          "sha256": "4945ef6cc903d5bb6fb17fc1ed3b205af52c4e5a826d36de81bb92e39c73dafc",
+          "format": "JPEG",
+          "width": 320,
+          "height": 240,
+          "checkedAt": "2026-10-06",
+          "visualReview": "真实下载并查看：黑色陶瓷机身、后置双摄与指纹、无刘海全面屏，与型号系列页的MIX3外观一致；水印保留",
+          "licenseStatus": "unknown"
+        }
+      }
+    },
+    {
+      "id": "xiaomi-9-2019",
+      "modelName": "小米9",
+      "generation": "9",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/25550_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_25550_0_1.html",
+        "https://detail.zol.com.cn/1225/1224655/param.shtml",
+        "https://detail.zol.com.cn/1289/1288341/param.shtml",
+        "https://detail.zol.com.cn/1258/1257258/param.shtml",
+        "https://www.ithome.com/0/410/304.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2019-02-20",
+        "rawText": "上市日期 2019年02月20日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1289/1288341/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:51.528Z",
+        "sourceSnapshotHash": "31a32e4c56f7be8a43232a452de36cdc68bfe009cc635e29303a90859e11221b"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "小米在北京工业大学体育馆正式发布了小米9手机",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/410/304.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:54:32.344Z",
+        "sourceSnapshotHash": "7f605e697f4fd54d1953bba3065af1c9952628a9589334b49968002ac6172b9a"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_25550.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "深空灰，全息幻彩蓝，全息幻彩紫 查看外观",
+        "rawText": "机身颜色 深空灰，全息幻彩蓝，全息幻彩紫 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1225/1224655/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:51.756Z",
+        "sourceSnapshotHash": "8fb92d658556ee1ccdb46478fda13d7b061e34affb623b355c3ed7530c861c13"
+      },
+      "priorReview": {
+        "status": "attempted_blocked",
+        "reason": "缺少中国大陆发布或具体型号行货证据，暂不把中文页面默认作国行",
+        "resolution": "补充独立国行来源"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2b.zol-img.com.cn/product/196_320x240/53/ceQ1jgZ7vlT8.jpg",
+        "alt": "小米9",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/25550_1.html",
+        "sourceSnapshotHash": "241e8223ff5938bde5c079e08af84d975234b2ec79e824c43ae9de5136a4da33",
+        "license": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      }
+    }
+  ]
+}

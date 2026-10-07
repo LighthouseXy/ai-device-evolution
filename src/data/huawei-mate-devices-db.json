@@ -1,0 +1,980 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "totalDevices": 3,
+    "generatedAt": "2026-09-22"
+  },
+  "devices": [
+    {
+      "id": "huawei-mate-60-pro-2023",
+      "brand": "Huawei",
+      "market": "CN",
+      "category": "phone",
+      "series": "HUAWEI Mate Pro",
+      "family": "HUAWEI Mate Pro",
+      "variant": "standard",
+      "modelName": "HUAWEI Mate 60 Pro",
+      "generation": "Mate 60 Pro",
+      "generationOrder": 1,
+      "releaseYear": 2023,
+      "releaseDate": "2023-08-29",
+      "comparisonGroupId": "huawei.phone.mate-pro.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "12GB+256GB 版 6499 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/716/940.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:39:42.176Z",
+            "sourceSnapshotHash": "e869b9238fa8b04214d099cbcea56a08d2a05e599599bab0e49a2eebd4e3a87b"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "12GB+512GB 版 6999 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/716/940.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:39:42.176Z",
+            "sourceSnapshotHash": "e869b9238fa8b04214d099cbcea56a08d2a05e599599bab0e49a2eebd4e3a87b"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "12GB + 1TB",
+            "rawText": "12GB+1TB 版 7999 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/716/940.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:39:42.176Z",
+            "sourceSnapshotHash": "e869b9238fa8b04214d099cbcea56a08d2a05e599599bab0e49a2eebd4e3a87b"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "麒麟 9000S",
+          "rawText": "华为海思 麒麟9000S 5G",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://ku.ithome.com/item/22284/canshu.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:38:57.358Z",
+          "sourceSnapshotHash": "fc36ba117bb809cb6715ff787b6d791deb467df804e5cd0291daceed7dbb0ccc"
+        },
+        "screenSize": {
+          "value": 6.82,
+          "unit": "inch",
+          "rawText": "6.82 英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/715/482.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:39:42.089Z",
+          "sourceSnapshotHash": "c01727be49ba1f45a4f8dc307e1f4d65d3d1bfde519d494508abd1ca0ef5b17d"
+        },
+        "displayType": {
+          "value": "LTPO OLED",
+          "rawText": "OLED 屏幕，屏幕分辨率为 FHD+ 2720 × 1260 像素，支持 10.7 亿色和 P3 广色域，支持 1-120Hz LTPO 自适应刷新率",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/715/482.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:39:42.089Z",
+          "sourceSnapshotHash": "c01727be49ba1f45a4f8dc307e1f4d65d3d1bfde519d494508abd1ca0ef5b17d"
+        },
+        "resolution": {
+          "value": "2720x1260",
+          "rawText": "2720 × 1260 像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/715/482.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:39:42.089Z",
+          "sourceSnapshotHash": "c01727be49ba1f45a4f8dc307e1f4d65d3d1bfde519d494508abd1ca0ef5b17d"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "1-120Hz LTPO 自适应刷新率",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/715/482.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:39:42.089Z",
+          "sourceSnapshotHash": "c01727be49ba1f45a4f8dc307e1f4d65d3d1bfde519d494508abd1ca0ef5b17d"
+        },
+        "memory": {
+          "value": "12GB",
+          "rawText": "运行内存（RAM）为 12GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/715/482.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:39:42.089Z",
+          "sourceSnapshotHash": "c01727be49ba1f45a4f8dc307e1f4d65d3d1bfde519d494508abd1ca0ef5b17d"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "256GB / 512GB / 1TB 三种版本",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/715/482.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:39:42.089Z",
+          "sourceSnapshotHash": "c01727be49ba1f45a4f8dc307e1f4d65d3d1bfde519d494508abd1ca0ef5b17d"
+        },
+        "weight": {
+          "value": 225,
+          "unit": "g",
+          "rawText": "机身重量约 225 克（含电池）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/715/482.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:39:42.089Z",
+          "sourceSnapshotHash": "c01727be49ba1f45a4f8dc307e1f4d65d3d1bfde519d494508abd1ca0ef5b17d"
+        },
+        "rearCamera": {
+          "value": "5000 万像素主摄 + 1200 万像素超广角 + 4800 万像素长焦",
+          "rawText": "5000 万像素超光变摄像头（F1.4~F4.0 光圈，OIS 光学防抖）+ 1200 万像素超广角摄像头（F2.2 光圈）+ 4800 万像素超微距长焦摄像头（F3.0 光圈，OIS 光学防抖）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/715/482.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:39:42.089Z",
+          "sourceSnapshotHash": "c01727be49ba1f45a4f8dc307e1f4d65d3d1bfde519d494508abd1ca0ef5b17d"
+        },
+        "frontCamera": {
+          "value": "1300 万像素超广角 + 3D 深感摄像头",
+          "rawText": "前置摄像头为 1300 万像素超广角摄像头（F2.4 光圈）+ 3D 深感摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/715/482.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:39:42.089Z",
+          "sourceSnapshotHash": "c01727be49ba1f45a4f8dc307e1f4d65d3d1bfde519d494508abd1ca0ef5b17d"
+        },
+        "batteryCapacity": {
+          "value": 5000,
+          "unit": "mAh",
+          "rawText": "5000mAh（典型值）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/715/482.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:39:42.089Z",
+          "sourceSnapshotHash": "c01727be49ba1f45a4f8dc307e1f4d65d3d1bfde519d494508abd1ca0ef5b17d"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "USB Type-C接口",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1428/1427338/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:42:18.214Z",
+          "sourceSnapshotHash": "303ca2b38a35064f3e3f3ac5478e6a6bd0d24a617bde856200de6ce8f35fe544"
+        },
+        "mainCamera": {
+          "value": "5000 万像素超光变主摄（OIS）",
+          "rawText": "5000 万像素超光变摄像头（F1.4~F4.0 光圈，OIS 光学防抖）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/715/482.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:39:42.089Z",
+          "sourceSnapshotHash": "c01727be49ba1f45a4f8dc307e1f4d65d3d1bfde519d494508abd1ca0ef5b17d"
+        },
+        "ultraWide": {
+          "value": "1200 万像素超广角",
+          "rawText": "1200 万像素超广角摄像头（F2.2 光圈）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/715/482.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:39:42.089Z",
+          "sourceSnapshotHash": "c01727be49ba1f45a4f8dc307e1f4d65d3d1bfde519d494508abd1ca0ef5b17d"
+        },
+        "telephoto": {
+          "value": "4800 万像素长焦（OIS）",
+          "rawText": "4800 万像素超微距长焦摄像头（F3.0 光圈，OIS 光学防抖）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/715/482.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:39:42.089Z",
+          "sourceSnapshotHash": "c01727be49ba1f45a4f8dc307e1f4d65d3d1bfde519d494508abd1ca0ef5b17d"
+        },
+        "opticalZoom": {
+          "value": "3.5 倍光学变焦",
+          "rawText": "3.5 倍光学变焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/715/482.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:39:42.089Z",
+          "sourceSnapshotHash": "c01727be49ba1f45a4f8dc307e1f4d65d3d1bfde519d494508abd1ca0ef5b17d"
+        },
+        "chargingMethod": {
+          "value": "最高 88W 有线 / 50W 无线",
+          "rawText": "最大 88W 的有线超级快充和 50W 的无线超级快充",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/715/482.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:39:42.089Z",
+          "sourceSnapshotHash": "c01727be49ba1f45a4f8dc307e1f4d65d3d1bfde519d494508abd1ca0ef5b17d"
+        },
+        "wifi": {
+          "value": "Wi-Fi 6",
+          "rawText": "Wi-Fi 6",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/715/482.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:39:42.089Z",
+          "sourceSnapshotHash": "c01727be49ba1f45a4f8dc307e1f4d65d3d1bfde519d494508abd1ca0ef5b17d"
+        },
+        "bluetooth": {
+          "value": "蓝牙 5.2",
+          "rawText": "蓝牙 5.2",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/715/482.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:39:42.089Z",
+          "sourceSnapshotHash": "c01727be49ba1f45a4f8dc307e1f4d65d3d1bfde519d494508abd1ca0ef5b17d"
+        },
+        "waterResistance": {
+          "value": "IP68（防护性能并非永久有效）",
+          "rawText": "IP68 级别的防溅、抗水、防尘功能",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/715/482.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:39:42.089Z",
+          "sourceSnapshotHash": "c01727be49ba1f45a4f8dc307e1f4d65d3d1bfde519d494508abd1ca0ef5b17d"
+        },
+        "launchPrice": {
+          "value": 6499,
+          "unit": "CNY",
+          "rawText": "华为 Mate 60 Pro 12GB+256GB 版 6499 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/716/940.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:39:42.176Z",
+          "sourceSnapshotHash": "e869b9238fa8b04214d099cbcea56a08d2a05e599599bab0e49a2eebd4e3a87b",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，中国大陆版本",
+          "condition": "最低配首发定价；最初先锋计划先售 512GB，非当日唯一开售配置"
+        },
+        "operatingSystem": {
+          "value": "鸿蒙操作系统 4.0",
+          "rawText": "操作系统 鸿蒙操作系统 4.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1428/1427338/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:09:30.204Z",
+          "sourceSnapshotHash": "303ca2b38a35064f3e3f3ac5478e6a6bd0d24a617bde856200de6ce8f35fe544"
+        },
+        "security": {
+          "value": "屏幕指纹识别",
+          "rawText": "指纹识别 屏幕指纹识别",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1428/1427338/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:09:30.204Z",
+          "sourceSnapshotHash": "303ca2b38a35064f3e3f3ac5478e6a6bd0d24a617bde856200de6ce8f35fe544"
+        },
+        "sim": {
+          "value": "双卡",
+          "rawText": "SIM卡类型 双卡",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1428/1427338/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:09:30.204Z",
+          "sourceSnapshotHash": "303ca2b38a35064f3e3f3ac5478e6a6bd0d24a617bde856200de6ce8f35fe544"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持NFC",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1428/1427338/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:09:30.204Z",
+          "sourceSnapshotHash": "303ca2b38a35064f3e3f3ac5478e6a6bd0d24a617bde856200de6ce8f35fe544"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "huawei-mate-70-pro-2024",
+      "brand": "Huawei",
+      "market": "CN",
+      "category": "phone",
+      "series": "HUAWEI Mate Pro",
+      "family": "HUAWEI Mate Pro",
+      "variant": "standard",
+      "modelName": "HUAWEI Mate 70 Pro",
+      "generation": "Mate 70 Pro",
+      "generationOrder": 2,
+      "releaseYear": 2024,
+      "releaseDate": "2024-11-26",
+      "comparisonGroupId": "huawei.phone.mate-pro.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "12GB + 256GB 定价 6499 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://m.ithome.com/html/813323.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:38:57.788Z",
+            "sourceSnapshotHash": "559d3418a6e15dfdc8bab54c2d0c6c3274e609e9b96989cc90112c48f50203bf"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "12GB + 512GB 定价 6999 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://m.ithome.com/html/813323.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:38:57.788Z",
+            "sourceSnapshotHash": "559d3418a6e15dfdc8bab54c2d0c6c3274e609e9b96989cc90112c48f50203bf"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "12GB + 1TB",
+            "rawText": "12GB + 1TB 定价 7999 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://m.ithome.com/html/813323.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:38:57.788Z",
+            "sourceSnapshotHash": "559d3418a6e15dfdc8bab54c2d0c6c3274e609e9b96989cc90112c48f50203bf"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "16GB+512GB 6799 元 6799 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://m.ithome.com/html/883505.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:38:57.866Z",
+            "sourceSnapshotHash": "8efbdbf280e5c122f2efdb5ca1085466eb5ca9a63e14b05582e2dae176d432b9"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "麒麟 9020",
+          "rawText": "华为海思 麒麟9020",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://ku.ithome.com/item/46018/canshu.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:38:57.530Z",
+          "sourceSnapshotHash": "d48830de25e3d9a104cc80472e51e61db09da7aef41314db3cb8710a41a5146c"
+        },
+        "screenSize": {
+          "value": 6.9,
+          "unit": "inch",
+          "rawText": "6.9 英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate70-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.797Z",
+          "sourceSnapshotHash": "5f0ad0beba727a76feb4f8239eebf70f6a19279a5184c1217cdcfbc6338bfcb2"
+        },
+        "displayType": {
+          "value": "LTPO OLED",
+          "rawText": "OLED，支持 1-120 Hz LTPO 自适应刷新率",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate70-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.797Z",
+          "sourceSnapshotHash": "5f0ad0beba727a76feb4f8239eebf70f6a19279a5184c1217cdcfbc6338bfcb2"
+        },
+        "resolution": {
+          "value": "2832x1316",
+          "rawText": "2832 × 1316 像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate70-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.797Z",
+          "sourceSnapshotHash": "5f0ad0beba727a76feb4f8239eebf70f6a19279a5184c1217cdcfbc6338bfcb2"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "1-120 Hz LTPO 自适应刷新率",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate70-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.797Z",
+          "sourceSnapshotHash": "5f0ad0beba727a76feb4f8239eebf70f6a19279a5184c1217cdcfbc6338bfcb2"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "12 GB / 16 GB RAM",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate70-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.797Z",
+          "sourceSnapshotHash": "5f0ad0beba727a76feb4f8239eebf70f6a19279a5184c1217cdcfbc6338bfcb2"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "256 GB / 512 GB / 1 TB ROM",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate70-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.797Z",
+          "sourceSnapshotHash": "5f0ad0beba727a76feb4f8239eebf70f6a19279a5184c1217cdcfbc6338bfcb2"
+        },
+        "weight": {
+          "value": 221,
+          "unit": "g",
+          "rawText": "约 221 g（含电池）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate70-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.797Z",
+          "sourceSnapshotHash": "5f0ad0beba727a76feb4f8239eebf70f6a19279a5184c1217cdcfbc6338bfcb2"
+        },
+        "rearCamera": {
+          "value": "5000 万像素主摄 + 4000 万像素超广角 + 4800 万像素长焦 + 红枫原色摄像头",
+          "rawText": "5000 万像素超聚光摄像头（F1.4-F4.0 光圈，OIS 光学防抖） 4000 万像素超广角摄像头（F2.2 光圈） 4800 万像素超聚光微距长焦摄像头（F2.1 光圈，OIS 光学防抖） 150 万多光谱通道红枫原色摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate70-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.797Z",
+          "sourceSnapshotHash": "5f0ad0beba727a76feb4f8239eebf70f6a19279a5184c1217cdcfbc6338bfcb2"
+        },
+        "frontCamera": {
+          "value": "1300 万像素超广角 + 3D 深感摄像头",
+          "rawText": "1300 万像素超广角摄像头（F2.4 光圈） 3D 深感摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate70-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.797Z",
+          "sourceSnapshotHash": "5f0ad0beba727a76feb4f8239eebf70f6a19279a5184c1217cdcfbc6338bfcb2"
+        },
+        "batteryCapacity": {
+          "value": 5500,
+          "unit": "mAh",
+          "rawText": "5500 mAh（典型值）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate70-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.797Z",
+          "sourceSnapshotHash": "5f0ad0beba727a76feb4f8239eebf70f6a19279a5184c1217cdcfbc6338bfcb2"
+        },
+        "port": {
+          "value": "USB Type-C（USB 3.1 Gen 1）",
+          "rawText": "USB Type-C，USB 3.1 Gen 1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate70-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.797Z",
+          "sourceSnapshotHash": "5f0ad0beba727a76feb4f8239eebf70f6a19279a5184c1217cdcfbc6338bfcb2"
+        },
+        "mainCamera": {
+          "value": "5000 万像素超聚光主摄（OIS）",
+          "rawText": "5000 万像素超聚光摄像头（F1.4-F4.0 光圈，OIS 光学防抖）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate70-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.797Z",
+          "sourceSnapshotHash": "5f0ad0beba727a76feb4f8239eebf70f6a19279a5184c1217cdcfbc6338bfcb2"
+        },
+        "ultraWide": {
+          "value": "4000 万像素超广角",
+          "rawText": "4000 万像素超广角摄像头（F2.2 光圈）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate70-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.797Z",
+          "sourceSnapshotHash": "5f0ad0beba727a76feb4f8239eebf70f6a19279a5184c1217cdcfbc6338bfcb2"
+        },
+        "telephoto": {
+          "value": "4800 万像素微距长焦（OIS）",
+          "rawText": "4800 万像素超聚光微距长焦摄像头（F2.1 光圈，OIS 光学防抖）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate70-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.797Z",
+          "sourceSnapshotHash": "5f0ad0beba727a76feb4f8239eebf70f6a19279a5184c1217cdcfbc6338bfcb2"
+        },
+        "opticalZoom": {
+          "value": "4 倍光学变焦",
+          "rawText": "支持 4 倍光学变焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate70-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.797Z",
+          "sourceSnapshotHash": "5f0ad0beba727a76feb4f8239eebf70f6a19279a5184c1217cdcfbc6338bfcb2"
+        },
+        "chargingMethod": {
+          "value": "最高 100W 有线 / 80W 无线；需兼容充电器",
+          "rawText": "手机支持最大超级快充 100 W（20V/5A），兼容 20V/4.4A 或 11V/6A 或 10V/4A 或 10V/2.25A 或 4.5V/5A 或 5V/4.5A 超级快充，兼容 9V/2A 快充，支持 18 W 有线反向充电。 无线充电： 支持 80 W 华为无线超级快充",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate70-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.797Z",
+          "sourceSnapshotHash": "5f0ad0beba727a76feb4f8239eebf70f6a19279a5184c1217cdcfbc6338bfcb2"
+        },
+        "waterResistance": {
+          "value": "IP68 / IP69（实验室条件，防护性能并非永久有效）",
+          "rawText": "IP68 级 6 米抗水，IP69 级抗高温高压喷水",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate70-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.797Z",
+          "sourceSnapshotHash": "5f0ad0beba727a76feb4f8239eebf70f6a19279a5184c1217cdcfbc6338bfcb2"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持读卡器模式",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate70-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.797Z",
+          "sourceSnapshotHash": "5f0ad0beba727a76feb4f8239eebf70f6a19279a5184c1217cdcfbc6338bfcb2"
+        },
+        "launchPrice": {
+          "value": 6499,
+          "unit": "CNY",
+          "rawText": "华为 Mate70 Pro： 12GB + 256GB 定价 6499 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://m.ithome.com/html/813323.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:38:57.788Z",
+          "sourceSnapshotHash": "559d3418a6e15dfdc8bab54c2d0c6c3274e609e9b96989cc90112c48f50203bf",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，中国大陆版本",
+          "condition": "中国大陆最低配首发定价"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "huawei-mate-80-pro-2025",
+      "brand": "Huawei",
+      "market": "CN",
+      "category": "phone",
+      "series": "HUAWEI Mate Pro",
+      "family": "HUAWEI Mate Pro",
+      "variant": "standard",
+      "modelName": "HUAWEI Mate 80 Pro",
+      "generation": "Mate 80 Pro",
+      "generationOrder": 3,
+      "releaseYear": 2025,
+      "releaseDate": "2025-11-25",
+      "comparisonGroupId": "huawei.phone.mate-pro.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "chip": "麒麟 9030",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "12GB+256GB 版本：5999 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/900/075.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:38:57.631Z",
+            "sourceSnapshotHash": "c0f69b65adbaef510b8c6e0586d52c912b1a33d7f1ed272d76d29876ebd5011c"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "chip": "麒麟 9030",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "12GB+512GB 版本：6499 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/900/075.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:38:57.631Z",
+            "sourceSnapshotHash": "c0f69b65adbaef510b8c6e0586d52c912b1a33d7f1ed272d76d29876ebd5011c"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "chip": "麒麟 9030 Pro",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "16GB+512GB 版本：6999 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/900/075.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:38:57.631Z",
+            "sourceSnapshotHash": "c0f69b65adbaef510b8c6e0586d52c912b1a33d7f1ed272d76d29876ebd5011c"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB",
+          "chip": "麒麟 9030 Pro",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "16GB+1TB 版本：7999 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/900/075.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:38:57.631Z",
+            "sourceSnapshotHash": "c0f69b65adbaef510b8c6e0586d52c912b1a33d7f1ed272d76d29876ebd5011c"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "麒麟 9030（12GB）；麒麟 9030 Pro（16GB）",
+          "rawText": "麒麟9030 Pro（16 GB RAM 版本） 麒麟9030（12 GB RAM 版本）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.889Z",
+          "sourceSnapshotHash": "665170875a3cf5358a4d5b80c7dde5f2c954a97263c560e3593323ce2e55662b"
+        },
+        "screenSize": {
+          "value": 6.75,
+          "unit": "inch",
+          "rawText": "6.75 英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.889Z",
+          "sourceSnapshotHash": "665170875a3cf5358a4d5b80c7dde5f2c954a97263c560e3593323ce2e55662b"
+        },
+        "displayType": {
+          "value": "LTPO OLED",
+          "rawText": "OLED，支持 1-120 Hz LTPO 自适应刷新率",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.889Z",
+          "sourceSnapshotHash": "665170875a3cf5358a4d5b80c7dde5f2c954a97263c560e3593323ce2e55662b"
+        },
+        "resolution": {
+          "value": "2832x1280",
+          "rawText": "2832 × 1280 像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.889Z",
+          "sourceSnapshotHash": "665170875a3cf5358a4d5b80c7dde5f2c954a97263c560e3593323ce2e55662b"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "1-120 Hz LTPO 自适应刷新率",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.889Z",
+          "sourceSnapshotHash": "665170875a3cf5358a4d5b80c7dde5f2c954a97263c560e3593323ce2e55662b"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "12 GB / 16 GB RAM",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.889Z",
+          "sourceSnapshotHash": "665170875a3cf5358a4d5b80c7dde5f2c954a97263c560e3593323ce2e55662b"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "256 GB / 512 GB / 1 TB ROM",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.889Z",
+          "sourceSnapshotHash": "665170875a3cf5358a4d5b80c7dde5f2c954a97263c560e3593323ce2e55662b"
+        },
+        "weight": {
+          "value": 219,
+          "unit": "g",
+          "rawText": "约 219 g（含电池）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.889Z",
+          "sourceSnapshotHash": "665170875a3cf5358a4d5b80c7dde5f2c954a97263c560e3593323ce2e55662b"
+        },
+        "rearCamera": {
+          "value": "5000 万像素主摄 + 4000 万像素超广角 + 4800 万像素长焦 + 红枫原色摄像头",
+          "rawText": "5000 万像素超聚光摄像头（F1.4-F4.0 光圈，OIS 光学防抖，RYYB 传感器） 4000 万像素超广角摄像头（F2.2 光圈，RYYB 传感器） 4800 万像素超聚光微距长焦摄像头（F2.1 光圈，OIS 光学防抖） 第二代红枫原色摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.889Z",
+          "sourceSnapshotHash": "665170875a3cf5358a4d5b80c7dde5f2c954a97263c560e3593323ce2e55662b"
+        },
+        "frontCamera": {
+          "value": "1300 万像素超广角 + 3D 深感摄像头",
+          "rawText": "1300 万像素超广角摄像头（F2.0 光圈，自动对焦） 3D 深感摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.889Z",
+          "sourceSnapshotHash": "665170875a3cf5358a4d5b80c7dde5f2c954a97263c560e3593323ce2e55662b"
+        },
+        "batteryCapacity": {
+          "value": 5750,
+          "unit": "mAh",
+          "rawText": "5750 mAh（典型值）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.889Z",
+          "sourceSnapshotHash": "665170875a3cf5358a4d5b80c7dde5f2c954a97263c560e3593323ce2e55662b"
+        },
+        "port": {
+          "value": "USB Type-C（USB 3.1 Gen 1）",
+          "rawText": "USB Type-C，USB 3.1 Gen 1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.889Z",
+          "sourceSnapshotHash": "665170875a3cf5358a4d5b80c7dde5f2c954a97263c560e3593323ce2e55662b"
+        },
+        "mainCamera": {
+          "value": "5000 万像素超聚光主摄（OIS）",
+          "rawText": "5000 万像素超聚光摄像头（F1.4-F4.0 光圈，OIS 光学防抖，RYYB 传感器）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.889Z",
+          "sourceSnapshotHash": "665170875a3cf5358a4d5b80c7dde5f2c954a97263c560e3593323ce2e55662b"
+        },
+        "ultraWide": {
+          "value": "4000 万像素超广角",
+          "rawText": "4000 万像素超广角摄像头（F2.2 光圈，RYYB 传感器）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.889Z",
+          "sourceSnapshotHash": "665170875a3cf5358a4d5b80c7dde5f2c954a97263c560e3593323ce2e55662b"
+        },
+        "telephoto": {
+          "value": "4800 万像素微距长焦（OIS）",
+          "rawText": "4800 万像素超聚光微距长焦摄像头（F2.1 光圈，OIS 光学防抖）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.889Z",
+          "sourceSnapshotHash": "665170875a3cf5358a4d5b80c7dde5f2c954a97263c560e3593323ce2e55662b"
+        },
+        "opticalZoom": {
+          "value": "4 倍光学变焦",
+          "rawText": "支持 4 倍光学变焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.889Z",
+          "sourceSnapshotHash": "665170875a3cf5358a4d5b80c7dde5f2c954a97263c560e3593323ce2e55662b"
+        },
+        "chargingMethod": {
+          "value": "最高 100W 有线 / 80W 无线；需兼容充电器",
+          "rawText": "手机支持最大超级快充 100 W（20V/5A），兼容 20V/4.4A 或 11V/6A 或 10V/4A 或 10V/2.25A 或 4.5V/5A 或 5V/4.5A 超级快充，兼容 9V/2A 快充，支持 18 W 有线反向充电。 无线充电 支持 80 W 华为无线超级快充",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.889Z",
+          "sourceSnapshotHash": "665170875a3cf5358a4d5b80c7dde5f2c954a97263c560e3593323ce2e55662b"
+        },
+        "waterResistance": {
+          "value": "IP68 / IP69（实验室条件，防护性能并非永久有效）",
+          "rawText": "IP68 级 6 米抗水，IP69 级抗高温高压喷水",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.889Z",
+          "sourceSnapshotHash": "665170875a3cf5358a4d5b80c7dde5f2c954a97263c560e3593323ce2e55662b"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持读卡器模式",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/mate80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:33:02.889Z",
+          "sourceSnapshotHash": "665170875a3cf5358a4d5b80c7dde5f2c954a97263c560e3593323ce2e55662b"
+        },
+        "launchPrice": {
+          "value": 5999,
+          "unit": "CNY",
+          "rawText": "HUAWEI Mate 80 Pro （SGT-AL00/50） 12GB+256GB 版本：5999 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/900/075.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:38:57.631Z",
+          "sourceSnapshotHash": "c0f69b65adbaef510b8c6e0586d52c912b1a33d7f1ed272d76d29876ebd5011c",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，中国大陆版本",
+          "condition": "中国大陆最低配首发定价"
+        }
+      },
+      "computed": {}
+    }
+  ]
+}

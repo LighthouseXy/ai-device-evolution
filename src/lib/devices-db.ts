@@ -3,12 +3,19 @@
 // 1. 带来源元数据的原始 DbDevice 查询；
 // 2. 面向旧页面/AI 分析输入的扁平 FlattenedDevice 适配层。
 
+import "server-only";
 import db from "@/data/devices-db.json";
 import priceObservationData from "@/data/price-observations.json";
+import { deviceCategories, type DeviceCategory } from "@/lib/device-categories";
+import { compareCatalogSeries, getCatalogBrand, getCatalogProductSeries } from "@/lib/catalog-order";
+import { getDeviceModelId, organizeDeviceModels } from "@/lib/device-models";
+
+export { categoryLabels } from "@/lib/device-categories";
+export type { DeviceCategory } from "@/lib/device-categories";
+export { formatCurrency, formatCompactCurrency, formatMaybeCurrency } from "@/lib/number-format";
 
 // ==================== 类型定义 ====================
 
-export type DeviceCategory = "phone" | "tablet" | "laptop";
 export type SpecSourceType = "official" | "reference";
 
 // SpecField 带元数据的规格字段
@@ -16,9 +23,16 @@ export type SpecField<T> = {
   value: T | null;
   unit?: string | null;
   rawText?: string | null;
+  // 整理描述不是逐字原文；历史记录未标注时也不能默认当成原文快照。
+  summaryText?: string;
+  note?: string;
+  evidenceKind?: "excerpt" | "summary";
+  fetchedAt?: string;
+  sourceSnapshotHash?: string;
   sourceUrl: string;
   sourceType: SpecSourceType;
   confidence: number;
+  // 历史核验记录日期，不随 JSON 重建刷新；fetchedAt 只在真实请求后记录。
   verifiedAt: string;
 };
 
@@ -29,10 +43,14 @@ export type PriceField = SpecField<number> & {
   condition?: string;
   observedAt?: string;
   sourceName?: string;
+  // 保留报价证据，但不作为正常设备的参考价或 AI 预算依据。
+  excludedReason?: string;
 };
 
 type StoredPriceObservation = {
   value: number;
+  unit?: string;
+  market?: string;
   sourceUrl: string;
   sourceName: string;
   rawText: string;
@@ -40,6 +58,7 @@ type StoredPriceObservation = {
   condition: string;
   observedAt: string;
   sourceType?: SpecSourceType;
+  excludedReason?: string;
 };
 
 const priceObservations = priceObservationData as {
@@ -57,12 +76,12 @@ export function getDevicePriceFields(
 
   return (Array.isArray(stored) ? stored : [stored]).map((observation): PriceField => ({
     ...observation,
-    unit: "CNY",
+    unit: observation.unit ?? "CNY",
     sourceType: observation.sourceType ?? "reference",
     confidence: observation.sourceType === "official" ? 1 : 0.7,
     verifiedAt: observation.observedAt,
     priceType,
-    market: "中国大陆",
+    market: observation.market ?? "中国大陆",
   }));
 }
 
@@ -81,6 +100,10 @@ export type ComputedField = {
 export type DeviceConfiguration = {
   memory: string;
   storage: string;
+  chip?: string;
+  cpuCores?: number;
+  gpuCores?: number;
+  evidence?: SpecField<string>;
 };
 
 export type DeviceBenchmark = {
@@ -90,12 +113,34 @@ export type DeviceBenchmark = {
   protocolVersion: string;
   sourceUrl: string;
   verifiedAt: string;
+  publishedAt?: string;
+  rawText?: string;
+  fetchedAt?: string;
+  sourceSnapshotHash?: string;
+  notes?: string;
 };
 
 // 设备 specs 中的字段集合（部分，按需扩展）
 export type DeviceSpecs = {
+  wearableCamera?: SpecField<string>;
+  wearableChip?: SpecField<string>;
+  wearableWeight?: SpecField<string>;
+  batteryCapacityDetails?: SpecField<string>;
+  connectivity?: SpecField<string>;
+  onboardStorage?: SpecField<string>;
+  healthFeatures?: SpecField<string>;
+  wearableFeatures?: SpecField<string>;
+  sportsModes?: SpecField<string>;
+  sensors?: SpecField<string>;
+  compatibility?: SpecField<string>;
+  positioning?: SpecField<string>;
+  cellular?: SpecField<string>;
+  caseSize?: SpecField<string>;
+  strapMaterial?: SpecField<string>;
+  chargingTime?: SpecField<string>;
   chip?: SpecField<string>;
   screenSize?: SpecField<number>;
+  screenSizeDetails?: SpecField<string>;
   displayType?: SpecField<string>;
   resolution?: SpecField<string>;
   refreshRate?: SpecField<number>;
@@ -105,6 +150,9 @@ export type DeviceSpecs = {
   material?: SpecField<string>;
   storage?: SpecField<string>;
   memory?: SpecField<string>;
+  memoryType?: SpecField<string>;
+  storageType?: SpecField<string>;
+  operatingSystem?: SpecField<string>;
   cpu?: SpecField<string>;
   gpu?: SpecField<string>;
   neuralEngine?: SpecField<string>;
@@ -117,6 +165,7 @@ export type DeviceSpecs = {
   videoRecording?: SpecField<string>;
   videoPlayback?: SpecField<string>;
   batteryLife?: SpecField<string>;
+  batteryCapacity?: SpecField<number>;
   port?: SpecField<string>;
   chargingMethod?: SpecField<string>;
   security?: SpecField<string>;
@@ -182,17 +231,13 @@ export type DbDevice = {
 
 // ==================== 数据加载 ====================
 
-export const allDevices: DbDevice[] = db.devices as DbDevice[];
+export const allDevices: DbDevice[] = (db.devices as DbDevice[]).map((device) => ({
+  ...device, brand: getCatalogBrand(device),
+}));
 
 // ==================== 分类和系列查询 ====================
 
-export const categoryLabels: Record<DeviceCategory, string> = {
-  phone: "手机",
-  tablet: "平板电脑",
-  laptop: "笔记本电脑",
-};
-
-export const categoryNames = Array.from(new Set(allDevices.map((d) => d.category))) as DeviceCategory[];
+export const categoryNames = deviceCategories.filter(category => allDevices.some(device => device.category === category));
 
 export const seriesNames = Array.from(new Set(allDevices.map((d) => d.series)));
 
@@ -250,23 +295,6 @@ export function computedVal(field: ComputedField | undefined): number | undefine
   return field?.value ?? undefined;
 }
 
-// 格式化价格
-export const formatCurrency = (value: number) =>
-  new Intl.NumberFormat("zh-CN", {
-    style: "currency",
-    currency: "CNY",
-    maximumFractionDigits: 0,
-  }).format(value);
-
-export const formatCompactCurrency = (value: number) =>
-  new Intl.NumberFormat("zh-CN", {
-    notation: "compact",
-    maximumFractionDigits: 1,
-  }).format(value);
-
-export const formatMaybeCurrency = (value?: number) =>
-  typeof value === "number" ? formatCurrency(value) : "待补充";
-
 // ==================== 统计数据 ====================
 
 export const summaryStats = {
@@ -307,6 +335,8 @@ export type FlattenedDevice = {
   port?: string;
   weight?: number;
   launchPrice?: number;
+  launchPrices?: PriceField[];
+  editions?: Array<{ label: string; device: FlattenedDevice }>;
   currentPrice?: PriceField;
   usedPrice?: PriceField;
   currentPrices?: PriceField[];
@@ -322,12 +352,13 @@ export function flattenDevice(db: DbDevice): FlattenedDevice {
   const flatSpecs: Record<string, string | number | boolean | undefined> = {};
   const s = db.specs;
   for (const key of Object.keys(s)) {
-    const field = (s as Record<string, { value: unknown } | undefined>)[key];
+    const field = (s as Record<string, { value: unknown; note?: string } | undefined>)[key];
     if (field && typeof field === "object" && "value" in field) {
       const v = field.value;
       if (Array.isArray(v)) flatSpecs[key] = v.join(", ");
       else if (typeof v === "string" || typeof v === "number" || typeof v === "boolean")
         flatSpecs[key] = v;
+      if (field.note) flatSpecs[`${key}Note`] = field.note;
     }
   }
 
@@ -352,7 +383,7 @@ export function flattenDevice(db: DbDevice): FlattenedDevice {
     comparisonGroupId: db.comparisonGroupId,
     configurations: db.configurations,
     benchmarks: db.benchmarks,
-    chip: specStr(db.specs?.chip),
+    chip: specStr(db.specs?.chip) || specStr(db.specs?.wearableChip),
     screenSize: specNum(db.specs?.screenSize) ?? undefined,
     refreshRate: specNum(db.specs?.refreshRate),
     mainCameraMp,
@@ -360,23 +391,28 @@ export function flattenDevice(db: DbDevice): FlattenedDevice {
     port: specStr(db.specs?.port) || undefined,
     weight: specNum(db.specs?.weight),
     launchPrice: specNum(db.specs?.launchPrice),
+    launchPrices: db.specs?.launchPrice ? [db.specs.launchPrice] : [],
     currentPrice: db.specs?.currentPrice,
     usedPrice: db.specs?.usedPrice,
     currentPrices: getDevicePriceFields(db.id, "current", db.specs?.currentPrice),
     usedPrices: getDevicePriceFields(db.id, "used", db.specs?.usedPrice),
     aiFeatureLevel: computedVal(db.computed?.aiCapabilityLevel),
-    sourceUrl: db.specs?.chip?.sourceUrl ?? "",
+    sourceUrl: db.specs?.chip?.sourceUrl ?? db.specs?.wearableChip?.sourceUrl ?? Object.values(db.specs).find(field => field?.sourceUrl)?.sourceUrl ?? "",
     specs: flatSpecs,
   };
 }
 
 /** 预展平的全部设备列表 */
 export const allDevicesFlat: FlattenedDevice[] = allDevices.map(flattenDevice);
+// 来源及报价版型不改写；浏览入口统一使用机型目录。
+export const catalogDevicesFlat: FlattenedDevice[] = organizeDeviceModels(allDevicesFlat);
+const catalogById = new Map(catalogDevicesFlat.map(device => [device.id, device]));
+export const getCatalogDevice = (id: string) => catalogById.get(getDeviceModelId(id));
 
 const devicesBySeriesFlat = new Map<string, FlattenedDevice[]>(
   seriesNames.map((series) => [
     series,
-    allDevicesFlat
+    catalogDevicesFlat
       .filter((device) => device.series === series)
       .sort(
         (left, right) =>
@@ -390,7 +426,7 @@ export const getComparisonGroupKey = (family: string, variant: string, tier?: st
 
 const devicesByComparisonGroupFlat = new Map<string, FlattenedDevice[]>();
 const legacyComparisonGroupAliases = new Map<string, string>();
-for (const device of allDevicesFlat) {
+for (const device of catalogDevicesFlat) {
   const key = device.comparisonGroupId;
   const group = devicesByComparisonGroupFlat.get(key) ?? [];
   group.push(device);
@@ -400,14 +436,20 @@ for (const device of allDevicesFlat) {
     legacyComparisonGroupAliases.set(legacyKey, device.comparisonGroupId);
   }
 }
+// 旧配色/表带链接仍定位到对应机型，不能变成另一条独立代际。
+for (const device of allDevicesFlat) {
+  const model = getCatalogDevice(device.id)!;
+  legacyComparisonGroupAliases.set(device.comparisonGroupId, model.comparisonGroupId);
+  legacyComparisonGroupAliases.set(getComparisonGroupKey(device.family, device.variant, device.tier), model.comparisonGroupId);
+}
 for (const group of devicesByComparisonGroupFlat.values()) {
-  group.sort((left, right) => left.generationOrder - right.generationOrder);
+  group.sort((left, right) => left.releaseYear - right.releaseYear || left.generationOrder - right.generationOrder);
 }
 
 const tieredComparisonGroups = new Set(
-  allDevicesFlat
+  catalogDevicesFlat
     .filter((device) =>
-      allDevicesFlat.some(
+      catalogDevicesFlat.some(
         (other) =>
           other.family === device.family &&
           other.variant === device.variant &&
@@ -419,7 +461,20 @@ const tieredComparisonGroups = new Set(
 
 /** 生成面向用户的比较组名称；芯片档位只作为必要的附加维度，不混入产品族。 */
 export function getComparisonGroupLabelFlat(family: string, variant: string, tier?: string) {
-  const displayVariant = variant.replace(/^(\d+(?:\.\d+)?)-inch$/, "$1 英寸");
+  const variantWords: Record<string, string> = {
+    pro: "Pro", max: "Max", ultra: "Ultra", mini: "mini", nfc: "NFC 版", gps: "GPS 版",
+    bluetooth: "蓝牙版", esim: "eSIM 版", lte: "LTE 版", stainless: "不锈钢", steel: "不锈钢",
+    titanium: "钛合金", aluminum: "铝合金", leather: "真皮版", ceramic: "陶瓷版", metal: "全金属版",
+    sport: "运动版", active: "活力款", yuanqi: "元气版", anniversary: "15 周年纪念版",
+    photochromic: "感光炫彩版", cyber: "Cyber", runner: "Runner", "5x": "5X", c: "C", x: "X", a: "A",
+  };
+  const displayVariant = ({ "ceramic-tricolor": "三彩釉陶瓷版",
+    "pro-43mm-composite": "Pro 43mm 素皮复合表带", "pro-43mm-ceramic": "Pro 43mm 陶瓷表带",
+    "pro-46mm-composite": "Pro 46mm 素皮复合表带", "pro-46mm-titanium": "Pro 46mm 钛金属表带",
+    "pro-46mm-space": "Pro 46mm 太空探索",
+  } as Record<string, string>)[variant]
+    ?? (/^(\d+(?:\.\d+)?)-inch$/.test(variant) ? variant.replace(/-inch$/, " 英寸")
+      : variant.split("-").map(word => variantWords[word] ?? word).join(" "));
   const baseLabel = variant === "standard" ? family : `${family} ${displayVariant}`;
   if (!tieredComparisonGroups.has(`${family}::${variant}`)) return baseLabel;
   const tierLabel = tier === "pro" ? "Pro 芯片" : tier === "max" ? "Max 芯片" : "标准芯片";
@@ -439,24 +494,46 @@ export const comparisonGroupsFlat = Array.from(devicesByComparisonGroupFlat, ([k
   };
 });
 
+export function getCatalogSeriesOptions(minimumDevices = 1) {
+  return comparisonGroupsFlat.filter((group) => group.devices.length >= minimumDevices).map((group) => ({
+    key: group.key, label: group.label.replace(/^Xiaomi\b/, "小米").replace(/^REDMI\b/i, "红米"),
+    brand: group.devices[0].brand, category: group.category, family: group.family,
+    variant: group.variant, tier: group.tier, count: group.devices.length,
+  })).map((group) => {
+    const productSeries = getCatalogProductSeries(group);
+    return { ...group, catalogKey: productSeries.key, catalogLabel: productSeries.label };
+  }).sort(compareCatalogSeries);
+}
+
+/** 浏览系列合并版本后缀；严格比较组仍独立，不能用于推断直接前代。 */
+export function getCatalogFamilyOptions() {
+  const families = new Map<string, ReturnType<typeof getCatalogSeriesOptions>[number] & { groupKeys: string[] }>();
+  for (const group of getCatalogSeriesOptions()) {
+    const family = families.get(group.catalogKey);
+    if (family) { family.count += group.count; family.groupKeys.push(group.key); }
+    else families.set(group.catalogKey, { ...group, key: group.catalogKey, label: group.catalogLabel, groupKeys: [group.key] });
+  }
+  return [...families.values()];
+}
+
 const seriesByCategoryFlat = new Map<DeviceCategory, string[]>(
   categoryNames.map((category) => [
     category,
-    Array.from(new Set(allDevicesFlat.filter((device) => device.category === category).map((device) => device.series))),
+    Array.from(new Set(catalogDevicesFlat.filter((device) => device.category === category).map((device) => device.series))),
   ]),
 );
 
 export const deviceCountByCategory = Object.fromEntries(
   categoryNames.map((category) => [
     category,
-    allDevicesFlat.filter((device) => device.category === category).length,
+    catalogDevicesFlat.filter((device) => device.category === category).length,
   ]),
 ) as Record<DeviceCategory, number>;
 
 /** 展平版 summaryStats */
 export const summaryStatsFlat = {
   ...summaryStats,
-  modelCount: allDevicesFlat.length,
+  modelCount: catalogDevicesFlat.length,
 };
 
 /** 展平版 getDevicesBySeries */

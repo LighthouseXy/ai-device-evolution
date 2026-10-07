@@ -1,0 +1,906 @@
+{
+  "targets": [
+    {
+      "id": "oppo-pad-2022",
+      "brand": "OPPO",
+      "modelName": "OPPO Pad",
+      "family": "OPPO Pad",
+      "group": "pad",
+      "seriesId": "37647",
+      "releaseYear": 2022,
+      "officialSpecUrl": "https://www.oppo.com/cn/accessories/oppo-pad/specs/",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ],
+      "releaseFallback": {
+        "sourceUrl": "https://m.cnmo.com/news/725342.html",
+        "releaseDate": "2022-03-03",
+        "rawPattern": "3月3日，OPPO Pad正式迎来首销"
+      },
+      "excludeColors": [
+        {
+          "name": "银色",
+          "reason": "艺术限定套装专属配色，不并入标准版"
+        },
+        {
+          "name": "艺术家限量定制版",
+          "reason": "艺术家限定定制版，不属于标准版配色"
+        },
+        {
+          "name": "艺术家定制版",
+          "reason": "艺术家限定定制版，不属于标准版配色"
+        }
+      ]
+    },
+    {
+      "id": "oppo-pad-air-2022",
+      "brand": "OPPO",
+      "modelName": "OPPO Pad Air",
+      "family": "OPPO Pad Air",
+      "group": "pad-air",
+      "seriesId": "39000",
+      "releaseYear": 2022,
+      "officialSpecUrl": "https://www.oppo.com/cn/accessories/oppo-pad-air/specs/",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ]
+    },
+    {
+      "id": "oppo-pad-air2-2023",
+      "brand": "OPPO",
+      "modelName": "OPPO Pad Air 2",
+      "family": "OPPO Pad Air",
+      "group": "pad-air",
+      "seriesId": "10842592",
+      "releaseYear": 2023,
+      "officialSpecUrl": "https://www.oppo.com/cn/accessories/oppo-pad-air2/specs/",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ],
+      "releaseFallback": {
+        "sourceUrl": "https://www.ithome.com/0/734/935.htm",
+        "releaseDate": "2023-11-25",
+        "rawPattern": "OPPO Pad Air2 平板今日首销"
+      }
+    },
+    {
+      "id": "oppo-pad3-pro-2024",
+      "brand": "OPPO",
+      "modelName": "OPPO Pad3 Pro",
+      "family": "OPPO Pad Pro",
+      "group": "pad-pro",
+      "seriesId": "10906415",
+      "releaseYear": 2024,
+      "officialSpecUrl": "https://www.oppo.com/cn/accessories/oppo-pad-3-pro/specs/",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ],
+      "officialProductUrl": "https://www.opposhop.cn/cn/web/products/29618.html"
+    },
+    {
+      "id": "oppo-pad4-pro-2025",
+      "brand": "OPPO",
+      "modelName": "OPPO Pad 4 Pro",
+      "family": "OPPO Pad Pro",
+      "group": "pad-pro",
+      "seriesId": "10911839",
+      "releaseYear": 2025,
+      "officialSpecUrl": "https://www.oppo.com/cn/accessories/oppo-pad-4-pro/specs/",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ],
+      "releaseFallback": {
+        "sourceUrl": "https://m.ithome.com/html/845595.htm",
+        "releaseDate": "2025-04-16",
+        "rawPattern": "OPPO Pad 4 Pro 平板今日正式开售"
+      },
+      "officialProductUrl": "https://www.opposhop.cn/cn/web/products/33984.html"
+    },
+    {
+      "id": "oppo-pad5-2025",
+      "brand": "OPPO",
+      "modelName": "OPPO Pad 5",
+      "family": "OPPO Pad",
+      "group": "pad",
+      "seriesId": "10920259",
+      "releaseYear": 2025,
+      "officialSpecUrl": "https://www.oppo.com/cn/accessories/oppo-pad-5/specs/",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ],
+      "officialProductUrl": "https://www.oppo.com/cn/tablets/",
+      "releaseFallback": {
+        "sourceUrl": "https://news.mydrivers.com/1/1081/1081593.htm",
+        "releaseDate": "2025-10-22",
+        "rawPattern": "与此同时，OPPO Pad5、OPPO Watch S同步开售"
+      },
+      "officialProductRawPattern": "OPPO Pad 5 天玑 9400\\+ 旗舰芯[^]{0,100}?ColorOS",
+      "verifiedColors": [
+        "深空灰",
+        "星河银"
+      ],
+      "standardColorEvidence": {
+        "sourceUrl": "https://www.ifanr.com/1642326",
+        "rawPattern": "普通版的配色有深空灰和星河银，柔光版的话可选幸运紫和星河银"
+      },
+      "excludeColors": [
+        {
+          "name": "幸运紫",
+          "reason": "柔光版专属配色，不并入标准版"
+        },
+        {
+          "name": "星空银",
+          "reason": "图库色名与已核实标准色星河银不一致，未确认图片映射；保留候选而不虚称已验证标准色"
+        },
+        {
+          "name": "星光银",
+          "reason": "参数色名与已核实标准色星河银不一致，未确认配色映射"
+        }
+      ]
+    },
+    {
+      "id": "oppo-pad-se-2025",
+      "brand": "OPPO",
+      "modelName": "OPPO Pad SE",
+      "family": "OPPO Pad SE",
+      "group": "pad-se",
+      "seriesId": "10913513",
+      "releaseYear": 2025,
+      "officialSpecUrl": "https://www.oppo.com/cn/accessories/oppo-pad-se/specs/",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ],
+      "officialProductUrl": "https://www.opposhop.cn/cn/web/products/34632.html",
+      "releaseFallback": {
+        "sourceUrl": "https://m.ithome.com/html/855353.htm",
+        "releaseDate": "2025-05-23",
+        "rawPattern": "OPPO Reno14 系列、OPPO Pad SE 今日正式开售"
+      }
+    },
+    {
+      "id": "oppo-pad-mini-2026",
+      "brand": "OPPO",
+      "modelName": "OPPO Pad Mini",
+      "family": "OPPO Pad Mini",
+      "group": "pad-mini",
+      "seriesId": "10925840",
+      "releaseYear": 2026,
+      "officialSpecUrl": "https://www.oppo.com/cn/accessories/oppo-pad-mini/specs/",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ],
+      "releaseFallback": {
+        "sourceUrl": "https://m.cnmo.com/news/808210.html",
+        "releaseDate": "2026-04-30",
+        "rawPattern": "4月30日上午10点，[^。]*OPPO Pad mini已正式开售"
+      },
+      "officialProductUrl": "https://www.opposhop.cn/cn/web/products/39996.html"
+    },
+    {
+      "id": "vivo-pad-2022",
+      "brand": "vivo",
+      "modelName": "vivo Pad",
+      "family": "vivo Pad",
+      "group": "pad",
+      "seriesId": "38004",
+      "releaseYear": 2022,
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/vivopad",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ],
+      "releaseFallback": {
+        "sourceUrl": "https://www.ithome.com/0/613/096.htm",
+        "releaseDate": "2022-04-15",
+        "rawPattern": "今天上午 10 点，vivo Pad 正式开售"
+      },
+      "officialProductUrl": "https://www.vivo.com.cn/vivo/param/vivopad"
+    },
+    {
+      "id": "vivo-pad-air-2023",
+      "brand": "vivo",
+      "modelName": "vivo Pad Air",
+      "family": "vivo Pad Air",
+      "group": "pad-air",
+      "seriesId": "10812028",
+      "releaseYear": 2023,
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/vivopadair",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ],
+      "releaseFallback": {
+        "sourceUrl": "https://m.ithome.com/html/712174.htm",
+        "releaseDate": "2023-08-14",
+        "rawPattern": "8 月 14 日线上限时先享开售"
+      }
+    },
+    {
+      "id": "vivo-pad3-pro-2024",
+      "brand": "vivo",
+      "modelName": "vivo Pad3 Pro",
+      "family": "vivo Pad Pro",
+      "group": "pad-pro",
+      "seriesId": "10854182",
+      "releaseYear": 2024,
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/vivopad3pro",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ],
+      "releaseFallback": {
+        "sourceUrl": "https://www.ithome.com/0/759/806.htm",
+        "releaseDate": "2024-04-03",
+        "rawPattern": "vivo Pad3 Pro 平板电脑今日正式开售"
+      }
+    },
+    {
+      "id": "vivo-pad5-pro-2025",
+      "brand": "vivo",
+      "modelName": "vivo Pad5 Pro",
+      "family": "vivo Pad Pro",
+      "group": "pad-pro",
+      "seriesId": "10912805",
+      "releaseYear": 2025,
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术",
+        "超轻"
+      ],
+      "releaseFallback": {
+        "sourceUrl": "https://www.cnmo.com/news/791414.html",
+        "releaseDate": "2025-04-25",
+        "rawPattern": "vivo两款平板——vivo Pad 5 Pro和vivo Pad SE已于今日开售"
+      },
+      "excludeColors": [
+        {
+          "name": "轻羽白",
+          "reason": "独立超轻版配色，标准版不包含；超轻版首售为2025-04-29"
+        }
+      ],
+      "observedFailure": {
+        "reason": "HTTP200原响应按声明GBK严格解码失败，UTF8/GB18030严格解码亦失败；没有以替换字符宽松解码或收录损坏HTML",
+        "diagnostic": {
+          "sourceUrl": "https://detail.zol.com.cn/series/702/1795/param_10912805_0_1.html",
+          "checkedAt": "2026-10-05T19:52:06.024Z",
+          "status": 200,
+          "contentType": "text/html; charset=GBK",
+          "byteLength": 132204,
+          "rawResponseSha256": "239cb2ec66ced478043f48a4341e0da06e73e4b2c2931bcca409a4bf3265362c",
+          "hashBasis": "HTTP原响应字节，仅诊断指纹；不是可用HTML参数证据"
+        }
+      }
+    },
+    {
+      "id": "vivo-pad5-2025",
+      "brand": "vivo",
+      "modelName": "vivo Pad5",
+      "family": "vivo Pad",
+      "group": "pad",
+      "seriesId": "10914124",
+      "releaseYear": 2025,
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ],
+      "releaseFallback": {
+        "sourceUrl": "https://www.ithome.com/0/858/723.htm",
+        "releaseDate": "2025-06-06",
+        "rawPattern": "vivo Pad5 今日正式开售"
+      },
+      "observedFailure": {
+        "reason": "HTTP200原响应按声明GBK严格解码失败，UTF8/GB18030严格解码亦失败；没有以替换字符宽松解码或收录损坏HTML",
+        "diagnostic": {
+          "sourceUrl": "https://detail.zol.com.cn/series/702/1795/param_10914124_0_1.html",
+          "checkedAt": "2026-10-05T19:52:06.024Z",
+          "status": 200,
+          "contentType": "text/html; charset=GBK",
+          "byteLength": 111131,
+          "rawResponseSha256": "a62e782672ae5b1c29924e12d3ff49ca6ccfd4aab0ee7e2da59feac68704b83d",
+          "hashBasis": "HTTP原响应字节，仅诊断指纹；不是可用HTML参数证据"
+        }
+      }
+    },
+    {
+      "id": "vivo-pad-se-2025",
+      "brand": "vivo",
+      "modelName": "vivo Pad SE",
+      "family": "vivo Pad SE",
+      "group": "pad-se",
+      "seriesId": "10912802",
+      "releaseYear": 2025,
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/vivopadse",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ],
+      "releaseFallback": {
+        "sourceUrl": "https://www.cnmo.com/news/791414.html",
+        "releaseDate": "2025-04-25",
+        "rawPattern": "vivo两款平板——vivo Pad 5 Pro和vivo Pad SE已于今日开售"
+      },
+      "excludeColors": [
+        {
+          "name": "钛色",
+          "reason": "柔光版配色，不并入标准版"
+        }
+      ]
+    },
+    {
+      "id": "iqoo-pad-2023",
+      "brand": "vivo",
+      "modelName": "iQOO Pad",
+      "family": "iQOO Pad",
+      "group": "iqoo-pad",
+      "seriesId": "10771004",
+      "releaseYear": 2023,
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/iqoopad",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ],
+      "useOfficialColorGallery": true,
+      "excludeColors": [
+        {
+          "name": "银翼",
+          "reason": "该国行型号官网仅确认星际灰/星海漫航；此图库银翼版型归属未核实，不纳入已验证标准配色"
+        }
+      ]
+    },
+    {
+      "id": "iqoo-pad2-2024",
+      "brand": "vivo",
+      "modelName": "iQOO Pad2",
+      "family": "iQOO Pad",
+      "group": "iqoo-pad",
+      "seriesId": "10864203",
+      "releaseYear": 2024,
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/iqoopad2",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ]
+    },
+    {
+      "id": "iqoo-pad2-pro-2024",
+      "brand": "vivo",
+      "modelName": "iQOO Pad2 Pro",
+      "family": "iQOO Pad Pro",
+      "group": "iqoo-pad-pro",
+      "seriesId": "10864204",
+      "releaseYear": 2024,
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/iqoopad2pro",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ]
+    },
+    {
+      "id": "honor-pad8-2022",
+      "brand": "HONOR",
+      "modelName": "荣耀平板8",
+      "family": "荣耀平板",
+      "group": "pad",
+      "seriesId": "10713746",
+      "releaseYear": 2022,
+      "officialSpecUrl": "https://www.honor.com/cn/tablets/honor-pad-8/spec/",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ],
+      "releaseFallback": {
+        "sourceUrl": "https://www.ithome.com/0/632/202.htm",
+        "releaseDate": "2022-07-29",
+        "rawPattern": "荣耀平板 8 于今天 10 : 08 线上线下全渠道正式开售"
+      }
+    },
+    {
+      "id": "honor-pad-x8-2022",
+      "brand": "HONOR",
+      "modelName": "荣耀平板X8",
+      "family": "荣耀平板 X",
+      "group": "pad-x",
+      "seriesId": "10717460",
+      "releaseYear": 2022,
+      "officialSpecUrl": "https://www.honor.com/cn/tablets/honor-pad-x8/spec/",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ],
+      "releaseFallback": {
+        "sourceUrl": "https://www.ithome.com/0/642/627.htm",
+        "releaseDate": "2022-09-22",
+        "rawPattern": "今日，荣耀平板 X8 正式开售"
+      }
+    },
+    {
+      "id": "honor-pad-x9-2024",
+      "brand": "HONOR",
+      "modelName": "荣耀平板X9",
+      "family": "荣耀平板 X",
+      "group": "pad-x",
+      "seriesId": "10775717",
+      "releaseYear": 2024,
+      "officialSpecUrl": "https://www.honor.com/cn/tablets/honor-pad-x9/spec/",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ],
+      "verificationUrls": [
+        "https://www.ithome.com/0/802/849.htm",
+        "https://m.ithome.com/html/704270.htm",
+        "https://h5.ifeng.com/c/vivoArticle/v002ds8VtRisDufz79A-_gtUvJFEpnw1TXh2Xgjk-_878UO7w__?isNews=1&showComments=0"
+      ],
+      "releaseDatePrecision": "year",
+      "officialProductUrl": "https://www.honor.com/cn/tablets/honor-pad-x9/",
+      "expectedChipPattern": "骁龙\\s*680",
+      "expectedScreenSize": 11,
+      "releaseEvidenceYear": {
+        "sourceUrl": "https://www.ithome.com/0/802/849.htm",
+        "yearPattern": "2024/10/16 22:08:03",
+        "rawPattern": "荣耀平板 X9 正式发布，现已上架京东开售"
+      },
+      "releaseDateConflicts": [
+        {
+          "date": "2024-10-16",
+          "sourceUrl": "https://www.ithome.com/0/802/849.htm",
+          "rawPattern": "荣耀平板 X9 正式发布，现已上架京东开售"
+        },
+        {
+          "date": "2024-10-25",
+          "sourceUrl": "https://h5.ifeng.com/c/vivoArticle/v002ds8VtRisDufz79A-_gtUvJFEpnw1TXh2Xgjk-_878UO7w__?isNews=1&showComments=0",
+          "rawPattern": "2024-10-25[^]{0,100}?荣耀平板X9正式开售"
+        }
+      ]
+    },
+    {
+      "id": "honor-pad-v8-2023",
+      "brand": "HONOR",
+      "modelName": "荣耀平板V8",
+      "family": "荣耀平板 V",
+      "group": "pad-v",
+      "seriesId": "10760518",
+      "releaseYear": 2023,
+      "officialSpecUrl": "https://www.honor.com/cn/tablets/honor-pad-v8/spec/",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ]
+    },
+    {
+      "id": "honor-magicpad13-2023",
+      "brand": "HONOR",
+      "modelName": "荣耀平板MagicPad 13",
+      "family": "荣耀 MagicPad",
+      "group": "magicpad",
+      "seriesId": "10725202",
+      "releaseYear": 2023,
+      "officialSpecUrl": "https://www.honor.com/cn/tablets/honor-magicpad-13/spec/",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ]
+    },
+    {
+      "id": "honor-magicpad2-2024",
+      "brand": "HONOR",
+      "modelName": "荣耀平板MagicPad2",
+      "family": "荣耀 MagicPad",
+      "group": "magicpad",
+      "seriesId": "10876583",
+      "releaseYear": 2024,
+      "officialSpecUrl": "https://www.honor.com/cn/tablets/honor-magicpad-2/spec/",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ],
+      "releaseFallback": {
+        "sourceUrl": "https://news.zol.com.cn/885/8852902.html",
+        "releaseDate": "2024-07-19",
+        "rawPattern": "7月19日，荣耀平板MagicPad2全平台正式开售"
+      }
+    },
+    {
+      "id": "honor-magicpad3-2025",
+      "brand": "HONOR",
+      "modelName": "荣耀平板MagicPad3",
+      "family": "荣耀 MagicPad",
+      "group": "magicpad",
+      "seriesId": "10915289",
+      "releaseYear": 2025,
+      "officialSpecUrl": "https://www.honor.com/cn/tablets/honor-magicpad-3/spec/",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ]
+    },
+    {
+      "id": "honor-pad10-2025",
+      "brand": "HONOR",
+      "modelName": "荣耀平板10",
+      "family": "荣耀平板",
+      "group": "pad",
+      "seriesId": "10914111",
+      "releaseYear": 2025,
+      "officialSpecUrl": "https://www.honor.com/cn/tablets/honor-pad-10/spec/",
+      "category": "tablet",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ],
+      "releaseFallback": {
+        "sourceUrl": "https://www.ithome.com/0/857/405.htm",
+        "releaseDate": "2025-05-31",
+        "rawPattern": "荣耀平板 10 今日在京东等平台开售"
+      }
+    },
+    {
+      "id": "oppo-k11x-2023",
+      "brand": "OPPO",
+      "modelName": "OPPO K11x",
+      "family": "K x",
+      "group": "k-x",
+      "seriesId": "10771286",
+      "releaseYear": 2023,
+      "officialSpecUrl": "https://www.oppo.com/cn/smartphones/series-k/k11x/specs/",
+      "category": "phone",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ],
+      "releaseFallback": {
+        "sourceUrl": "https://www.ithome.com/0/697/019.htm",
+        "releaseDate": "2023-05-31",
+        "rawPattern": "5 月 31 日晚上 20 点，在 618 大促正式打响之际，OPPO K11x 5G 手机也正式迎来开售"
+      }
+    },
+    {
+      "id": "vivo-y77-2022",
+      "brand": "vivo",
+      "modelName": "vivo Y77",
+      "family": "vivo Y",
+      "group": "y",
+      "seriesId": "10713285",
+      "releaseYear": 2022,
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/y77",
+      "category": "phone",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ]
+    },
+    {
+      "id": "honor-300-pro-2024",
+      "brand": "HONOR",
+      "modelName": "荣耀300 Pro",
+      "family": "荣耀数字 Pro",
+      "group": "number-pro",
+      "seriesId": "10907846",
+      "releaseYear": 2024,
+      "officialSpecUrl": "https://www.honor.com/cn/phones/honor-300-pro/spec/",
+      "category": "phone",
+      "excludeVariants": [
+        "柔光",
+        "悦享",
+        "限定",
+        "限量",
+        "蜂窝",
+        "LTE",
+        "5G版",
+        "全网通版",
+        "艺术"
+      ],
+      "releaseFallback": {
+        "sourceUrl": "https://www.ithome.com/0/815/726.htm",
+        "releaseDate": "2024-12-06",
+        "rawPattern": "荣耀 300 系列手机将于今日 10 时 08 分正式开售"
+      }
+    }
+  ],
+  "catalogues": [
+    {
+      "brand": "OPPO",
+      "url": "https://detail.zol.com.cn/tablepc/oppo/"
+    },
+    {
+      "brand": "vivo",
+      "url": "https://detail.zol.com.cn/tablepc/vivo/"
+    },
+    {
+      "brand": "vivo",
+      "url": "https://detail.zol.com.cn/tablepc/iqoo/"
+    },
+    {
+      "brand": "HONOR",
+      "url": "https://detail.zol.com.cn/tablepc/honor/"
+    }
+  ],
+  "pendingFromFixture": "android-five-year-batch3.json",
+  "scopeChecks": [],
+  "extraCatalogueSeries": [
+    {
+      "brand": "vivo",
+      "seriesId": "10771004",
+      "catalogueUrl": "https://detail.zol.com.cn/tablepc/iqoo/",
+      "discovery": "ZOL搜索索引与参数页可见系列"
+    },
+    {
+      "brand": "vivo",
+      "seriesId": "10854642",
+      "catalogueUrl": "https://detail.zol.com.cn/tablepc/iqoo/",
+      "discovery": "ZOL搜索索引与参数页可见系列"
+    },
+    {
+      "brand": "vivo",
+      "seriesId": "10864203",
+      "catalogueUrl": "https://detail.zol.com.cn/tablepc/iqoo/",
+      "discovery": "ZOL搜索索引与参数页可见系列"
+    },
+    {
+      "brand": "vivo",
+      "seriesId": "10864204",
+      "catalogueUrl": "https://detail.zol.com.cn/tablepc/iqoo/",
+      "discovery": "ZOL搜索索引与参数页可见系列"
+    },
+    {
+      "brand": "vivo",
+      "seriesId": "10913809",
+      "catalogueUrl": "https://detail.zol.com.cn/tablepc/iqoo/",
+      "discovery": "ZOL搜索索引与参数页可见系列"
+    },
+    {
+      "brand": "vivo",
+      "seriesId": "10913812",
+      "catalogueUrl": "https://detail.zol.com.cn/tablepc/iqoo/",
+      "discovery": "ZOL搜索索引与参数页可见系列"
+    },
+    {
+      "brand": "vivo",
+      "seriesId": "10920361",
+      "catalogueUrl": "https://detail.zol.com.cn/tablepc/iqoo/",
+      "discovery": "ZOL搜索索引与参数页可见系列"
+    },
+    {
+      "brand": "vivo",
+      "seriesId": "10926866",
+      "catalogueUrl": "https://detail.zol.com.cn/tablepc/iqoo/",
+      "discovery": "ZOL搜索索引与参数页可见系列"
+    }
+  ],
+  "articleCandidates": [
+    {
+      "id": "iqoo-pad-ultra-2026",
+      "brand": "vivo",
+      "modelName": "iQOO Pad Ultra",
+      "family": "iQOO Pad",
+      "category": "tablet",
+      "releaseYear": 2026,
+      "sourceUrl": "https://www.xinhuanet.com/tech/20260930/309cbd7f91aa416a8c34a70b35bb48fe/c.html",
+      "articlePattern": "9月29日，iQOO在深圳举办新品发布会[^]{0,120}?iQOO Pad Ultra[^]{0,200}?正式开售",
+      "articleYearPattern": "2026-09-30 13:45:45"
+    }
+  ]
+}

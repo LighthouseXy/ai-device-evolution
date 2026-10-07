@@ -1,0 +1,798 @@
+{
+  "scope": "Samsung 中国大陆实际发售手机/平板，2017–2026，截至2026-10-06；第五批有限公开目录增补，非大陆全部型号清单",
+  "expectedDevices": 16,
+  "markets": {
+    "w24": {
+      "url": "https://www.ithome.com/0/719/456.htm",
+      "pattern": "三星“心系天下”W24 系列今日正式发布[^]*?9999 元（12GB\\+512GB）",
+      "identityUrl": "https://www.samsung.com.cn/smartphones/samsung-w24-flip/",
+      "identityPattern": "三星 W24 Flip拥有12GB运行内存和512GB的存储空间"
+    },
+    "flip6": {
+      "url": "https://www.ithome.com/0/782/466.htm",
+      "pattern": "小折叠手机国行今晚发布[^]*?12GB \\+ 512GB：8999 元",
+      "identityUrl": "https://www.samsung.com.cn/news/product/z-fold6-and-z-flip6/",
+      "identityPattern": "2024年7月17日，三星电子举行Galaxy新品中国发布会[^]*?Galaxy Z Flip6"
+    },
+    "c5": {
+      "url": "https://www.cnmo.com/news/570565.html",
+      "pattern": "三星C5 Pro终于在三星中国官网上线[^]*?2600mAh电池"
+    },
+    "c7": {
+      "url": "https://www.cnmo.com/news/567830.html",
+      "pattern": "三星在中国区官网上发布了新机Galaxy C7 Pro[^]*?4GB内存\\+64GB可扩展存储"
+    },
+    "c8": {
+      "url": "https://www.ithome.com/0/331/383.htm",
+      "pattern": "三星在北京正式发布[^]*?3GB\\+32GB和4GB\\+64GB两个版本可选"
+    },
+    "w18": {
+      "url": "https://www.sohu.com/a/207824053_115565",
+      "pattern": "北京时间12月1日，三星在厦门举办新机发布会[^]*?2300mAh容量电池"
+    },
+    "w19": {
+      "url": "https://www.ithome.com/0/393/950.htm",
+      "pattern": "三星在江苏无锡举办了发布会[^]*?运行内存为6GB，内置存储为128GB"
+    },
+    "w20": {
+      "url": "https://www.ithome.com/0/457/986.htm",
+      "pattern": "三星联合中国电信在武汉召开新品发布会[^]*?12GB运存\\+512GB机身存储"
+    },
+    "w21": {
+      "url": "https://www.ithome.com/0/517/663.htm",
+      "pattern": "2020 年 11 月 4 日，三星&中国电信[^]*?12GB\\+512GB 的存储组合"
+    },
+    "w22": {
+      "url": "https://www.ithome.com/0/580/356.htm",
+      "pattern": "三星今日在杭州[^]*?配备 16GB＋512GB 存储"
+    },
+    "a6": {
+      "url": "https://www.cnmo.com/news/646544.html",
+      "pattern": "三星在西安举行别开生面的发布盛典[^]*?6GB\\+128GB两种内存组合"
+    },
+    "light": {
+      "url": "https://www.ithome.com/0/360/835.htm",
+      "pattern": "三星在京东大厦正式举行了发布会[^]*?4GB运存和64GB存储"
+    },
+    "leader": {
+      "url": "https://www.3elife.net/Art/mobile/201708/03/19380.html",
+      "pattern": "三星今日与中国移动合作推出[^]*?4GB RAM\\+64GB ROM机身存储"
+    },
+    "j3": {
+      "url": "https://detail.zol.com.cn/1146/1145593/param.shtml",
+      "pattern": "上市日期 2017年08月[^]*?RAM容量 3GB[^]*?ROM容量 32GB",
+      "identityUrl": "https://www.samsung.com.cn/support/model/SM-J3300ZKDCHC/",
+      "identityPattern": "盖乐世 J3 2017[^]*?SM-J3300ZKDCHC"
+    },
+    "a2017wifi": {
+      "url": "https://m.jiemian.com/article/1935541.html",
+      "pattern": "三星Galaxy Tab A 2017（WIFI版）[^]*?3GB RAM\\+32GB ROM",
+      "identityUrl": "https://www.samsung.com.cn/support/model/SM-T380CZSECHN/",
+      "identityPattern": "盖乐世 Tab A 2017 8.0 WLAN[^]*?SM-T380CZSECHN"
+    },
+    "a2017lte": {
+      "url": "https://www.suning.com/item/0000000000/10176045525.html",
+      "pattern": "Galaxy Tab A SM-T385C 3GB/32GB 黑色[^]*?SM-T385CZKECHC",
+      "identityUrl": "https://www.samsung.com.cn/support/model/SM-T385CZKECHC/",
+      "identityPattern": "盖乐世 Tab A 2017 8.0[^]*?SM-T385CZKECHC"
+    },
+    "s10lite": {
+      "url": "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-lite-gray-128gb-sm-x400nzavchn/",
+      "pattern": "Galaxy Tab S10 Lite提供两种内存配置选项：6GB运行内存\\+128GB存储空间，或8GB运行内存\\+256GB存储空间",
+      "identityUrl": "https://support-cn.samsung.com.cn/campaign/event/psg/2026/promotion/february/",
+      "identityPattern": "Galaxy Tab S10 Lite[^]*?厂商建议零售价"
+    }
+  },
+  "targets": [
+    {
+      "slug": "w24-flip",
+      "name": "W24 Flip",
+      "year": 2023,
+      "family": "Samsung W Flip",
+      "group": "w-flip",
+      "marketKey": "w24",
+      "productId": null,
+      "pairs": [
+        [
+          "12GB",
+          "512GB",
+          "9999 元（12GB\\+512GB）"
+        ]
+      ],
+      "kind": "official-marketing",
+      "correctionReason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。",
+      "productUrl": "https://www.samsung.com.cn/smartphones/samsung-w24-flip/",
+      "pageNames": [
+        "三星 W24 Flip-时间仰止 风雅不移 | 三星电子 中国"
+      ],
+      "launch": [
+        9999,
+        "12GB",
+        "512GB",
+        "9999 元（12GB\\+512GB）"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "chip",
+          "value": "第二代骁龙8移动平台 (for Galaxy)",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/samsung-w24-flip/",
+          "pattern": "第二代骁龙8移动平台 \\(for Galaxy\\)",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        },
+        {
+          "field": "screenSize",
+          "value": 6.7,
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/samsung-w24-flip/",
+          "pattern": "展开6.7英寸",
+          "reason": "官方内屏直角对角线",
+          "unit": "inch"
+        },
+        {
+          "field": "batteryCapacity",
+          "value": 3700,
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/samsung-w24-flip/",
+          "pattern": "3700毫安时（典型值）",
+          "reason": "官方典型值",
+          "unit": "mAh"
+        },
+        {
+          "field": "operatingSystem",
+          "value": "One UI 5.1.1",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/samsung-w24-flip/",
+          "pattern": "新版Samsung One UI 5.1.1为您的三星设备",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        },
+        {
+          "field": "resolution",
+          "value": "内屏2640 x 1080；外屏720 x 748",
+          "sourceUrl": "https://www.ithome.com/0/719/456.htm",
+          "pattern": "三星 W24 Flip 内屏尺寸[^]*?720 x 748",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        },
+        {
+          "field": "rearCamera",
+          "value": "1200万像素广角 + 1200万像素超广角",
+          "sourceUrl": "https://www.ithome.com/0/719/456.htm",
+          "pattern": "此外，该手机配备 1000 万像素前置镜头，后置 1200 万像素广角镜头和超广角镜头",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        },
+        {
+          "field": "frontCamera",
+          "value": "1000万像素",
+          "sourceUrl": "https://www.ithome.com/0/719/456.htm",
+          "pattern": "此外，该手机配备 1000 万像素前置镜头",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        }
+      ],
+      "productImageEvidence": {
+        "sourceUrl": "https://www.samsung.com.cn/smartphones/samsung-w24-flip/",
+        "url": "https://images.samsung.com.cn/is/image/samsung/assets/cn/smartphones/samsung-w24-flip/images/W24-flip-KV-new-1019-1.jpg"
+      }
+    },
+    {
+      "slug": "galaxy-z-flip6",
+      "name": "Galaxy Z Flip6",
+      "year": 2024,
+      "family": "Samsung Galaxy Z Flip",
+      "group": "galaxy-z-flip",
+      "marketKey": "flip6",
+      "productId": null,
+      "pairs": [
+        [
+          "12GB",
+          "256GB",
+          "12GB \\+ 256GB：7999 元"
+        ],
+        [
+          "12GB",
+          "512GB",
+          "12GB \\+ 512GB：8999 元"
+        ]
+      ],
+      "kind": "official",
+      "correctionReason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。",
+      "productUrl": "https://www.samsung.com.cn/business/smartphones/galaxy-z/galaxy-z-flip6-sm-f7410zyachc/",
+      "productImageEvidence": {
+        "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-z/galaxy-z-flip6-yellow-256gb-sm-f7410zyachc/buy/",
+        "url": "https://images.samsung.com.cn/is/image/samsung/p6pim/cn/2407/gallery/cn-galaxy-zflip6-f741-512828-sm-f7410zyachc-542291268"
+      },
+      "launch": [
+        7999,
+        "12GB",
+        "256GB",
+        "12GB \\+ 256GB：7999 元"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "chip",
+          "value": "第三代骁龙8移动平台（for Galaxy）",
+          "sourceUrl": "https://www.samsung.com.cn/news/product/z-fold6-and-z-flip6/",
+          "pattern": "三星Galaxy Z Flip6还搭载了第三代骁龙[^]*?8移动平台（for Galaxy）",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        }
+      ]
+    },
+    {
+      "slug": "galaxy-c5-pro",
+      "name": "Galaxy C5 Pro",
+      "year": 2017,
+      "family": "Samsung Galaxy C Pro",
+      "group": "galaxy-c-pro",
+      "marketKey": "c5",
+      "productId": 1160787,
+      "pairs": [
+        [
+          "4GB",
+          "64GB",
+          "4GB内存\\+64GB可扩展存储"
+        ]
+      ],
+      "kind": "verified-config",
+      "correctionReason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。",
+      "singleCapacityPair": true,
+      "pageNames": [
+        "三星GALAXY C5 Pro"
+      ],
+      "launch": [
+        2499,
+        "4GB",
+        "64GB",
+        "三星C5 Pro终于在三星中国官网上线[^]*?售价2499元"
+      ]
+    },
+    {
+      "slug": "galaxy-c7-pro",
+      "name": "Galaxy C7 Pro",
+      "year": 2017,
+      "family": "Samsung Galaxy C Pro",
+      "group": "galaxy-c-pro",
+      "marketKey": "c7",
+      "productId": 1160785,
+      "pairs": [
+        [
+          "4GB",
+          "64GB",
+          "4GB内存\\+64GB可扩展存储"
+        ]
+      ],
+      "kind": "verified-config",
+      "correctionReason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。",
+      "singleCapacityPair": true,
+      "pageNames": [
+        "三星GALAXY C7 Pro"
+      ],
+      "launch": [
+        2899,
+        "4GB",
+        "64GB",
+        "三星在中国区官网上发布了新机Galaxy C7 Pro[^]*?其售价为2899元"
+      ]
+    },
+    {
+      "slug": "galaxy-c8",
+      "productImageEvidence": {
+        "sourceUrl": "https://www.samsung.com.cn/support/model/SM-C7100ZDGCHC/",
+        "url": "https://images.samsung.com.cn/is/image/samsung/cn-galaxy-c8-sm-c7100zdgchc-76162460?$624_624_PNG$"
+      },
+      "name": "Galaxy C8",
+      "year": 2017,
+      "family": "Samsung Galaxy C",
+      "group": "galaxy-c",
+      "marketKey": "c8",
+      "productId": null,
+      "pairs": [
+        [
+          "3GB",
+          "32GB",
+          "3GB\\+32GB和4GB\\+64GB两个版本"
+        ],
+        [
+          "4GB",
+          "64GB",
+          "3GB\\+32GB和4GB\\+64GB两个版本"
+        ]
+      ],
+      "kind": "article",
+      "correctionReason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。",
+      "productUrl": "https://www.ithome.com/0/331/383.htm",
+      "pageNames": [
+        "Galaxy C8实拍图赏：三星的第二款双摄手机"
+      ],
+      "launch": [
+        1999,
+        "3GB",
+        "32GB",
+        "3GB\\+32GB和4GB\\+64GB两个版本可选，售价分别为1999元和2399元"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "chip",
+          "value": "联发科Helio P25",
+          "sourceUrl": "https://www.ithome.com/0/331/383.htm",
+          "pattern": "搭载联发科Helio P25处理器",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        },
+        {
+          "field": "screenSize",
+          "value": 5.5,
+          "sourceUrl": "https://www.ithome.com/0/331/383.htm",
+          "pattern": "三星Galaxy C8采用5.5英寸",
+          "reason": "发布报道",
+          "unit": "inch"
+        },
+        {
+          "field": "displayType",
+          "value": "Super AMOLED",
+          "sourceUrl": "https://www.ithome.com/0/331/383.htm",
+          "pattern": "三星Galaxy C8采用5.5英寸1080p Super AMOLED显示屏",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        },
+        {
+          "field": "resolution",
+          "value": "1080p",
+          "sourceUrl": "https://www.ithome.com/0/331/383.htm",
+          "pattern": "三星Galaxy C8采用5.5英寸1080p Super AMOLED显示屏",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        },
+        {
+          "field": "rearCamera",
+          "value": "1300万像素RGB + 500万像素黑白",
+          "sourceUrl": "https://www.ithome.com/0/331/383.htm",
+          "pattern": "后置1300万像素RGB镜头\\+500万像素黑白镜头",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        },
+        {
+          "field": "frontCamera",
+          "value": "1600万像素",
+          "sourceUrl": "https://www.ithome.com/0/331/383.htm",
+          "pattern": "前置1600万像素镜头",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        },
+        {
+          "field": "batteryCapacity",
+          "value": 3000,
+          "sourceUrl": "https://www.ithome.com/0/331/383.htm",
+          "pattern": "电池容量为3000mAh",
+          "reason": "发布原文",
+          "unit": "mAh"
+        },
+        {
+          "field": "operatingSystem",
+          "value": "Android 7.1.1（SE8.5）",
+          "sourceUrl": "https://www.ithome.com/0/331/383.htm",
+          "pattern": "运行Android 7.1.1操作系统（SE8.5）",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        }
+      ]
+    },
+    {
+      "slug": "w2018",
+      "name": "W2018",
+      "year": 2017,
+      "family": "Samsung W",
+      "group": "w",
+      "marketKey": "w18",
+      "productId": 1184217,
+      "pairs": [
+        [
+          "6GB",
+          "64GB",
+          "内置6GB内存，机身存储有64GB至尊版以及256GB典藏版"
+        ],
+        [
+          "6GB",
+          "256GB",
+          "内置6GB内存，机身存储有64GB至尊版以及256GB典藏版"
+        ]
+      ],
+      "kind": "verified-config",
+      "correctionReason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。",
+      "pageNames": [
+        "三星W2018"
+      ]
+    },
+    {
+      "slug": "w2019",
+      "name": "W2019",
+      "year": 2018,
+      "family": "Samsung W",
+      "group": "w",
+      "marketKey": "w19",
+      "productId": 1222360,
+      "pairs": [
+        [
+          "6GB",
+          "128GB",
+          "运行内存为6GB，内置存储为128GB"
+        ]
+      ],
+      "kind": "verified-config",
+      "correctionReason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。",
+      "pageNames": [
+        "三星W2019"
+      ],
+      "dropFields": [
+        "frontCamera"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "operatingSystem",
+          "value": "Android 8.1",
+          "sourceUrl": "https://www.ithome.com/0/393/950.htm",
+          "pattern": "安卓系统版本为Android 8.1",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        }
+      ]
+    },
+    {
+      "slug": "w20",
+      "name": "W20",
+      "year": 2019,
+      "family": "Samsung W",
+      "group": "w",
+      "marketKey": "w20",
+      "productId": 1292551,
+      "pairs": [
+        [
+          "12GB",
+          "512GB",
+          "12GB运存\\+512GB机身存储"
+        ]
+      ],
+      "kind": "verified-config",
+      "correctionReason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。",
+      "pageNames": [
+        "三星W20"
+      ],
+      "singleCapacityPair": true,
+      "dropFields": [
+        "frontCamera",
+        "displayType",
+        "port"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "screenSizeDetails",
+          "value": "内屏7.3英寸；外屏4.6英寸",
+          "sourceUrl": "https://www.ithome.com/0/457/986.htm",
+          "pattern": "三星W20 5G外屏配一块[^]*?展开后屏幕大小为7.3英寸",
+          "reason": "发布原文，不借用Fold参数"
+        }
+      ]
+    },
+    {
+      "slug": "w21",
+      "name": "W21",
+      "year": 2020,
+      "family": "Samsung W",
+      "group": "w",
+      "marketKey": "w21",
+      "productId": 1342805,
+      "pairs": [
+        [
+          "12GB",
+          "512GB",
+          "12GB\\+512GB 的存储组合"
+        ]
+      ],
+      "kind": "verified-config",
+      "correctionReason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。",
+      "pageNames": [
+        "三星W21"
+      ],
+      "singleCapacityPair": true,
+      "launch": [
+        19999,
+        "12GB",
+        "512GB",
+        "售价持平前代（19999 元）"
+      ],
+      "dropFields": [
+        "batteryCapacity",
+        "frontCamera"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "batteryCapacity",
+          "value": 4500,
+          "sourceUrl": "https://www.ithome.com/0/517/663.htm",
+          "pattern": "内置 4500mAh 电池",
+          "reason": "发布典型值，不用ZOL4390额定值",
+          "unit": "mAh"
+        },
+        {
+          "field": "frontCamera",
+          "value": "两枚1000万像素摄像头",
+          "sourceUrl": "https://www.ithome.com/0/517/663.htm",
+          "pattern": "该机配备两枚像素为 1000 万的前置摄像头",
+          "reason": "发布原文明确对应本型号；不继承冲突字段。"
+        }
+      ]
+    },
+    {
+      "slug": "w22",
+      "name": "W22",
+      "year": 2021,
+      "family": "Samsung W",
+      "group": "w",
+      "marketKey": "w22",
+      "productId": 1390597,
+      "pairs": [
+        [
+          "16GB",
+          "512GB",
+          "配备 16GB＋512GB 存储"
+        ]
+      ],
+      "kind": "verified-config",
+      "correctionReason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。",
+      "pageNames": [
+        "三星W22"
+      ],
+      "singleCapacityPair": true,
+      "launch": [
+        16999,
+        "16GB",
+        "512GB",
+        "配备 16GB＋512GB 存储[^]*?售价 16999 元"
+      ]
+    },
+    {
+      "slug": "galaxy-a6s",
+      "name": "Galaxy A6s",
+      "year": 2018,
+      "family": "Samsung Galaxy A",
+      "group": "galaxy-a",
+      "marketKey": "a6",
+      "productId": 1235376,
+      "pairs": [
+        [
+          "6GB",
+          "64GB",
+          "三星A6s 6GB\\+64GB版售价1799元"
+        ],
+        [
+          "6GB",
+          "128GB",
+          "6GB\\+128GB版售价2199元"
+        ]
+      ],
+      "kind": "verified-config",
+      "correctionReason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。",
+      "pageNames": [
+        "三星GALAXY A6s"
+      ],
+      "launch": [
+        1799,
+        "6GB",
+        "64GB",
+        "三星A6s 6GB\\+64GB版售价1799元"
+      ],
+      "dropFields": [
+        "rearCamera",
+        "frontCamera",
+        "batteryCapacity",
+        "resolution"
+      ],
+      "fieldEvidence": [
+        {
+          "field": "displayType",
+          "value": "LCD",
+          "sourceUrl": "https://www.cnmo.com/news/646544.html",
+          "pattern": "A6s搭载一块6英寸LCD全面屏",
+          "reason": "明确屏幕原文；3300/3200容量和摄像头像素冲突暂隔离"
+        }
+      ]
+    },
+    {
+      "slug": "galaxy-s-light-luxury",
+      "name": "Galaxy S轻奢版",
+      "year": 2018,
+      "family": "Samsung Galaxy S Light Luxury",
+      "group": "galaxy-s-light-luxury",
+      "marketKey": "light",
+      "productId": 1212923,
+      "pairs": [
+        [
+          "4GB",
+          "64GB",
+          "配以4GB运存和64GB存储"
+        ]
+      ],
+      "kind": "verified-config",
+      "correctionReason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。",
+      "pageNames": [
+        "三星Galaxy S轻奢版"
+      ],
+      "singleCapacityPair": true
+    },
+    {
+      "slug": "leader8",
+      "name": "领世旗舰8",
+      "year": 2017,
+      "family": "Samsung 领世旗舰",
+      "group": "leader",
+      "marketKey": "leader",
+      "productId": 1172306,
+      "pairs": [
+        [
+          "4GB",
+          "64GB",
+          "4GB RAM\\+64GB ROM机身存储"
+        ]
+      ],
+      "kind": "verified-config",
+      "correctionReason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。",
+      "pageNames": [
+        "三星领世旗舰8"
+      ],
+      "singleCapacityPair": true
+    },
+    {
+      "slug": "galaxy-j3-2017",
+      "catalogAliases": ["2017版GALAXY J3"],
+      "name": "Galaxy J3 2017",
+      "year": 2017,
+      "family": "Samsung Galaxy J",
+      "group": "galaxy-j",
+      "marketKey": "j3",
+      "productId": 1145593,
+      "pairs": [
+        [
+          "3GB",
+          "32GB",
+          "RAM容量 3GB[^]*?ROM容量 32GB"
+        ]
+      ],
+      "kind": "verified-config",
+      "correctionReason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。",
+      "pageNames": [
+        "三星2017版GALAXY J3"
+      ],
+      "singleCapacityPair": true
+    },
+    {
+      "slug": "galaxy-tab-a-2017-wifi",
+      "catalogAliases": ["GALAXY Tab A 8.0"],
+      "name": "Galaxy Tab A 2017 8.0 WLAN",
+      "year": 2017,
+      "family": "Samsung Galaxy Tab A",
+      "group": "galaxy-tab-a",
+      "marketKey": "a2017wifi",
+      "productId": 1182382,
+      "pairs": [
+        [
+          "3GB",
+          "32GB",
+          "3GB RAM\\+32GB ROM"
+        ]
+      ],
+      "kind": "verified-config",
+      "correctionReason": "T380 ZOL标2GB属海外/混淆参数；独立大陆T380C/CHN为3GB+32GB，由官方身份和具体国内评测组合交叉证明。",
+      "category": "tablet",
+      "variant": "wifi",
+      "pageNames": [
+        "三星GALAXY Tab A 8.0"
+      ],
+      "dropFields": [
+        "frontCamera",
+        "rearCamera",
+        "port"
+      ]
+    },
+    {
+      "slug": "galaxy-tab-a-2017-lte",
+      "name": "Galaxy Tab A 2017 8.0 LTE",
+      "year": 2017,
+      "family": "Samsung Galaxy Tab A",
+      "group": "galaxy-tab-a",
+      "marketKey": "a2017lte",
+      "productId": 1182383,
+      "pairs": [
+        [
+          "3GB",
+          "32GB",
+          "Galaxy Tab A SM-T385C 3GB/32GB 黑色"
+        ]
+      ],
+      "kind": "verified-config",
+      "correctionReason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。",
+      "category": "tablet",
+      "variant": "lte",
+      "pageNames": [
+        "三星GALAXY Tab A 8.0"
+      ],
+      "singleCapacityPair": true,
+      "dropFields": [
+        "frontCamera",
+        "rearCamera",
+        "port"
+      ]
+    },
+    {
+      "slug": "galaxy-tab-s10-lite",
+      "name": "Galaxy Tab S10 Lite",
+      "year": 2025,
+      "family": "Samsung Galaxy Tab S Lite",
+      "group": "galaxy-tab-s-lite",
+      "marketKey": "s10lite",
+      "productId": null,
+      "pairs": [
+        [
+          "6GB",
+          "128GB",
+          "内存\\(GB\\) 6 存储 \\(GB\\) 128",
+          "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-lite-gray-128gb-sm-x400nzavchn/"
+        ],
+        [
+          "8GB",
+          "256GB",
+          "内存\\(GB\\) 8 存储 \\(GB\\) 256",
+          "https://www.samsung.com.cn/business/tablets/galaxy-tab-s/galaxy-tab-s10-lite-sm-x400nzagchn/"
+        ]
+      ],
+      "kind": "official",
+      "correctionReason": "只使用国行逐配置原文，不从参数多值首选、相乘或推断容量。可选规格不继承未经核验的页面字段。",
+      "category": "tablet",
+      "variant": "wifi",
+      "productUrl": "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-lite-gray-128gb-sm-x400nzavchn/",
+      "yearEvidence": {
+        "sourceUrl": "https://www.ithome.com/0/884/765.htm",
+        "pattern": "2025/9/22[^]*?Galaxy Tab S10 Lite",
+        "note": "大陆2025升级目录与CHN单SKU简中2025首版手册共同核验型号代际年份；实际大陆销售由2026官方活动核验。未取得大陆正式首售日，不借用海外日期。"
+      }
+    }
+  ],
+  "catalogUrls": [
+    "https://detail.zol.com.cn/cell_phone/index1184217.shtml",
+    "https://detail.zol.com.cn/series/57/24896_1.html",
+    "https://detail.zol.com.cn/tablepc/index1182382.shtml",
+    "https://detail.zol.com.cn/cell_phone/index1145593.shtml"
+  ],
+  "blockedModels": [
+    {
+      "name": "Galaxy Tab A7 Lite LTE",
+      "year": 2021,
+      "category": "tablet",
+      "sourceUrl": "https://www.samsung.com.cn/support/model/SM-T225CZAFCHC/",
+      "pattern": "Galaxy Tab A7 Lite LTE",
+      "reason": "官方CHC身份已证，但参数目录4/64与全球3/32、商户模板混杂，仍缺确切大陆RAM/ROM单SKU原文；不因容量缺失硬填。"
+    }
+  ],
+  "additionalPending": [],
+  "officialRepairTargets": [
+  {
+    "id": "samsung-galaxy-z-fold5-2023",
+    "name": "Galaxy Z Fold5",
+    "code": "SM-F9460LBGCHC",
+    "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-z/galaxy-z-fold5-icy-blue-512gb-sm-f9460lbgchc/",
+    "ram": "12",
+    "rom": "512"
+  },
+  {
+    "id": "samsung-galaxy-z-fold6-2024",
+    "name": "Galaxy Z Fold6",
+    "code": "SM-F9560LIGCHC",
+    "sourceUrl": "https://www.samsung.com.cn/business/smartphones/galaxy-z/galaxy-z-fold6-sm-f9560ligchc/",
+    "ram": "12",
+    "rom": "512"
+  },
+  {
+    "id": "samsung-galaxy-z-flip5-2023",
+    "name": "Galaxy Z Flip5",
+    "code": "SM-F7310ZEECHC",
+    "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-z/galaxy-z-flip5-cream-512gb-sm-f7310zeechc/",
+    "ram": "8",
+    "rom": "512"
+  }
+],
+  "officialRepairRejectedUrls": [
+  "https://www.samsung.com.cn/smartphones/galaxy-z-fold5/specs/",
+  "https://www.samsung.com.cn/smartphones/galaxy-z-flip5/specs/",
+  "https://www.samsung.com.cn/smartphones/galaxy-z-fold6/specs/"
+],
+  "metadata": {
+    "catalogLimit": "延续历史公开ZOL目录、系列页和官方中国更新清单的有限差集，非中国大陆全集。未穷尽全部2017–2026 A/J/M/Tab A、商用Tab Active、渠道特供、运营商网络版及Galaxy Book/Notebook目录；已记录状态仅对本次实际枚举成员成立。",
+    "imageLicense": "unknown"
+  }
+}

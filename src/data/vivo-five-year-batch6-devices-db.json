@@ -1,0 +1,4364 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "generatedAt": "2026-10-05",
+    "totalDevices": 10,
+    "coverage": {
+      "market": "CN",
+      "minReleaseYear": 2022,
+      "asOf": "2026-10-06",
+      "scope": "2022–2026中国大陆已发售平板有限差集；标准/柔光/网络版型独立，仍partial",
+      "partial": true
+    },
+    "audit": {
+      "replayValidation": {
+        "offline": true,
+        "specFieldsChecked": 158,
+        "fieldHashesChecked": 270,
+        "configurationsChecked": 39,
+        "imagePageHashesChecked": 35,
+        "sourcePageType": "expanded_core_spec_snapshots",
+        "configurationMethod": "官方实际成对SKU或严格单值逐SKU；标准/柔光/网络版型独立，无首值/交叉相乘",
+        "coreFieldGapsComplete": true
+      },
+      "inventory": [
+        {
+          "id": "iqoo-neo7-se-2022",
+          "brand": "vivo",
+          "modelName": "iQOO Neo7 SE",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "iQOO Neo SE",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/iqooneo7se",
+            "https://detail.zol.com.cn/series/57/10719871_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10719871_0_1.html",
+            "https://detail.zol.com.cn/1433/1432705/param.shtml",
+            "https://detail.zol.com.cn/1435/1434874/param.shtml",
+            "https://detail.zol.com.cn/1435/1434873/param.shtml",
+            "https://detail.zol.com.cn/1436/1435921/param.shtml",
+            "https://detail.zol.com.cn/1436/1435922/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2254/index22536822_0_p1432705.shtml",
+            "https://detail.zol.com.cn/picture_index_2254/index22536818_0_p1432705.shtml"
+          ]
+        },
+        {
+          "id": "iqoo-neo7-racing-2023",
+          "brand": "vivo",
+          "modelName": "iQOO Neo7 竞速版",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "iQOO Neo 竞速版",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/iqooneo7js",
+            "https://detail.zol.com.cn/series/57/10721905_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10721905_0_1.html",
+            "https://detail.zol.com.cn/1438/1437735/param.shtml",
+            "https://detail.zol.com.cn/1440/1439145/param.shtml",
+            "https://detail.zol.com.cn/1440/1439144/param.shtml",
+            "https://detail.zol.com.cn/1440/1439143/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2259/index22586651_0_p1437735.shtml",
+            "https://detail.zol.com.cn/picture_index_2259/index22586657_0_p1439143.shtml"
+          ]
+        },
+        {
+          "id": "iqoo-neo8-pro-2023",
+          "brand": "vivo",
+          "modelName": "iQOO Neo8 Pro",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "iQOO Neo Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/iqooneo8pro",
+            "https://detail.zol.com.cn/series/57/10750330_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10750330_0_1.html",
+            "https://detail.zol.com.cn/1506/1505443/param.shtml",
+            "https://detail.zol.com.cn/1628/1627568/param.shtml",
+            "https://detail.zol.com.cn/1768/1767604/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2389/index23880882_0_p1505443.shtml",
+            "https://detail.zol.com.cn/picture_index_2389/index23880878_0_p1505443.shtml"
+          ]
+        },
+        {
+          "id": "vivo-y100-2023",
+          "brand": "vivo",
+          "modelName": "vivo Y100",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "vivo Y",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/y100",
+            "https://detail.zol.com.cn/series/57/10831503_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10831503_0_1.html",
+            "https://detail.zol.com.cn/1931/1930410/param.shtml",
+            "https://detail.zol.com.cn/1937/1936186/param.shtml",
+            "https://detail.zol.com.cn/1937/1936187/param.shtml",
+            "https://detail.zol.com.cn/1937/1936185/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2548/index25475951_0_p1930410.shtml",
+            "https://detail.zol.com.cn/picture_index_2548/index25475950_0_p1936187.shtml"
+          ]
+        },
+        {
+          "id": "vivo-y300-pro-2024",
+          "brand": "vivo",
+          "modelName": "vivo Y300 Pro",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "vivo Y Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/y300pro",
+            "https://detail.zol.com.cn/series/57/10904994_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10904994_0_1.html",
+            "https://detail.zol.com.cn/2105/2104254/param.shtml",
+            "https://detail.zol.com.cn/2106/2105044/param.shtml",
+            "https://detail.zol.com.cn/2106/2105042/param.shtml",
+            "https://detail.zol.com.cn/2106/2105043/param.shtml",
+            "https://www.ithome.com/0/795/794.htm",
+            "https://detail.zol.com.cn/picture_index_2697/index26961094_0_p2104254.shtml",
+            "https://detail.zol.com.cn/picture_index_2697/index26961113_0_p2105042.shtml"
+          ]
+        },
+        {
+          "id": "vivo-y200-gt-2024",
+          "brand": "vivo",
+          "modelName": "vivo Y200 GT",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "vivo Y GT",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/y200gt",
+            "https://detail.zol.com.cn/series/57/10862324_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10862324_0_1.html",
+            "https://detail.zol.com.cn/2010/2009378/param.shtml",
+            "https://m.zol.com.cn/sjbbs/d1795_671359.html",
+            "https://detail.zol.com.cn/picture_index_2637/index26368808_0_p2009378.shtml",
+            "https://detail.zol.com.cn/picture_index_2637/index26368809_0_p2017387.shtml"
+          ]
+        },
+        {
+          "id": "iqoo-neo10-2024",
+          "brand": "vivo",
+          "modelName": "iQOO Neo10",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "iQOO Neo",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/iqooneo10",
+            "https://detail.zol.com.cn/series/57/10907848_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10907848_0_1.html",
+            "https://detail.zol.com.cn/2114/2113676/param.shtml",
+            "https://detail.zol.com.cn/2116/2115503/param.shtml",
+            "https://detail.zol.com.cn/2116/2115501/param.shtml",
+            "https://detail.zol.com.cn/2116/2115500/param.shtml",
+            "https://detail.zol.com.cn/2116/2115502/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2706/index27056454_0_p2113676.shtml",
+            "https://detail.zol.com.cn/picture_index_2706/index27056456_0_p2113676.shtml"
+          ]
+        },
+        {
+          "id": "iqoo-neo10-pro-2024",
+          "brand": "vivo",
+          "modelName": "iQOO Neo10 Pro",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "iQOO Neo Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/iqooneo10pro",
+            "https://detail.zol.com.cn/series/57/10907941_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10907941_0_1.html",
+            "https://detail.zol.com.cn/2114/2113956/param.shtml",
+            "https://detail.zol.com.cn/2116/2115497/param.shtml",
+            "https://detail.zol.com.cn/2116/2115498/param.shtml",
+            "https://detail.zol.com.cn/2116/2115499/param.shtml",
+            "https://detail.zol.com.cn/2116/2115496/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2706/index27056460_0_p2113956.shtml",
+            "https://detail.zol.com.cn/picture_index_2706/index27056470_0_p2113956.shtml"
+          ]
+        },
+        {
+          "id": "vivo-x80-2022",
+          "brand": "vivo",
+          "modelName": "vivo X80",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "vivo X",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x80",
+            "https://detail.zol.com.cn/series/57/38339_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_38339_0_1.html",
+            "https://detail.zol.com.cn/1393/1392791/param.shtml",
+            "https://detail.zol.com.cn/1406/1405719/param.shtml",
+            "https://detail.zol.com.cn/1406/1405718/param.shtml",
+            "https://detail.zol.com.cn/1406/1405722/param.shtml",
+            "https://www.vivo.com.cn/brand/news/detail?id=1055&type=3",
+            "https://detail.zol.com.cn/picture_index_2216/index22154540_0_p1392791.shtml",
+            "https://detail.zol.com.cn/picture_index_2216/index22154555_0_p1392791.shtml"
+          ]
+        },
+        {
+          "id": "vivo-x80-pro-2022",
+          "brand": "vivo",
+          "modelName": "vivo X80 Pro",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "vivo X Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/38338_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_38338_0_1.html",
+            "https://detail.zol.com.cn/1393/1392797/param.shtml",
+            "https://detail.zol.com.cn/1406/1405720/param.shtml",
+            "https://detail.zol.com.cn/1406/1405721/param.shtml",
+            "https://www.vivo.com.cn/brand/news/detail?id=1055&type=3",
+            "https://detail.zol.com.cn/picture_index_2217/index22162699_0_p1392797.shtml",
+            "https://detail.zol.com.cn/picture_index_2217/index22162691_0_p1392798.shtml"
+          ]
+        },
+        {
+          "id": "vivo-x90-2022",
+          "brand": "vivo",
+          "modelName": "vivo X90",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "vivo X",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10716267_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10716267_0_1.html",
+            "https://detail.zol.com.cn/1435/1434230/param.shtml",
+            "https://detail.zol.com.cn/1426/1425422/param.shtml",
+            "https://detail.zol.com.cn/1435/1434229/param.shtml",
+            "https://detail.zol.com.cn/1435/1434231/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2250/index22499314_0_p1434230.shtml",
+            "https://detail.zol.com.cn/picture_index_2250/index22499318_0_p1434231.shtml"
+          ]
+        },
+        {
+          "id": "vivo-x90-pro-2022",
+          "brand": "vivo",
+          "modelName": "vivo X90 Pro",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "vivo X Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10717690_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10717690_0_1.html",
+            "https://detail.zol.com.cn/1435/1434232/param.shtml",
+            "https://detail.zol.com.cn/1429/1428478/param.shtml",
+            "https://detail.zol.com.cn/1435/1434233/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2250/index22499550_0_p1434232.shtml",
+            "https://detail.zol.com.cn/picture_index_2250/index22499517_0_p1434232.shtml"
+          ]
+        },
+        {
+          "id": "vivo-s15-2022",
+          "brand": "vivo",
+          "modelName": "vivo S15",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "vivo S",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/38890_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_38890_0_1.html",
+            "https://detail.zol.com.cn/1403/1402543/param.shtml",
+            "https://detail.zol.com.cn/1410/1409694/param.shtml",
+            "https://detail.zol.com.cn/1410/1409693/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2198/index21974936_0_p1402543.shtml",
+            "https://detail.zol.com.cn/picture_index_2198/index21974937_0_p1409694.shtml"
+          ]
+        },
+        {
+          "id": "vivo-s15-pro-2022",
+          "brand": "vivo",
+          "modelName": "vivo S15 Pro",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "vivo S Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/38891_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_38891_0_1.html",
+            "https://detail.zol.com.cn/1403/1402545/param.shtml",
+            "https://detail.zol.com.cn/1410/1409695/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2198/index21975010_0_p1402545.shtml",
+            "https://detail.zol.com.cn/picture_index_2198/index21975009_0_p1402545.shtml"
+          ]
+        },
+        {
+          "id": "vivo-s16-2022",
+          "brand": "vivo",
+          "modelName": "vivo S16",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "vivo S",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10718404_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10718404_0_1.html",
+            "https://detail.zol.com.cn/1430/1429771/param.shtml",
+            "https://detail.zol.com.cn/1439/1438555/param.shtml",
+            "https://detail.zol.com.cn/1439/1438556/param.shtml",
+            "https://detail.zol.com.cn/1439/1438554/param.shtml",
+            "https://www.ithome.com/0/664/500.htm",
+            "https://detail.zol.com.cn/picture_index_2258/index22576940_0_p1429771.shtml",
+            "https://detail.zol.com.cn/picture_index_2297/index22962435_0_p1429771.shtml"
+          ]
+        },
+        {
+          "id": "vivo-s16-pro-2022",
+          "brand": "vivo",
+          "modelName": "vivo S16 Pro",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "vivo S Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10718407_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10718407_0_1.html",
+            "https://detail.zol.com.cn/1430/1429777/param.shtml",
+            "https://detail.zol.com.cn/1439/1438558/param.shtml",
+            "https://www.ithome.com/0/664/500.htm",
+            "https://detail.zol.com.cn/picture_index_2258/index22576997_0_p1429777.shtml",
+            "https://detail.zol.com.cn/picture_index_2258/index22576981_0_p1429777.shtml"
+          ]
+        },
+        {
+          "id": "iqoo-neo7-2022",
+          "brand": "vivo",
+          "modelName": "iQOO Neo7",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "iQOO Neo",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10592901_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10592901_0_1.html",
+            "https://detail.zol.com.cn/1432/1431600/param.shtml",
+            "https://detail.zol.com.cn/1432/1431601/param.shtml",
+            "https://detail.zol.com.cn/1432/1431602/param.shtml",
+            "https://detail.zol.com.cn/1360/1359372/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2233/index22323685_0_p1431600.shtml",
+            "https://detail.zol.com.cn/picture_index_2233/index22323693_0_p1431600.shtml"
+          ]
+        },
+        {
+          "id": "iqoo-neo8-2023",
+          "brand": "vivo",
+          "modelName": "iQOO Neo8",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "iQOO Neo",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10734528_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10734528_0_1.html",
+            "https://detail.zol.com.cn/1461/1460901/param.shtml",
+            "https://detail.zol.com.cn/1628/1627566/param.shtml",
+            "https://detail.zol.com.cn/1628/1627567/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2389/index23880808_0_p1460901.shtml",
+            "https://detail.zol.com.cn/picture_index_2389/index23880812_0_p1460901.shtml"
+          ]
+        },
+        {
+          "id": "vivo-s17-2023",
+          "brand": "vivo",
+          "modelName": "vivo S17",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "vivo S",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10745151_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10745151_0_1.html",
+            "https://detail.zol.com.cn/1487/1486867/param.shtml",
+            "https://detail.zol.com.cn/1638/1637674/param.shtml",
+            "https://detail.zol.com.cn/1638/1637673/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2497/index24967747_0_p1486867.shtml",
+            "https://detail.zol.com.cn/picture_index_2389/index23887660_0_p1637673.shtml"
+          ]
+        },
+        {
+          "id": "vivo-s18-2023",
+          "brand": "vivo",
+          "modelName": "vivo S18",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "vivo S",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10845107_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10845107_0_1.html",
+            "https://detail.zol.com.cn/1960/1959978/param.shtml",
+            "https://detail.zol.com.cn/1967/1966881/param.shtml",
+            "https://detail.zol.com.cn/1967/1966880/param.shtml",
+            "https://www.ithome.com/0/739/298.htm",
+            "https://detail.zol.com.cn/picture_index_2638/index26375880_0_p1959978.shtml",
+            "https://detail.zol.com.cn/picture_index_2581/index25803347_0_p1966880.shtml"
+          ]
+        },
+        {
+          "id": "vivo-s19-2024",
+          "brand": "vivo",
+          "modelName": "vivo S19",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "vivo S",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10860268_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10860268_0_1.html",
+            "https://detail.zol.com.cn/2003/2002133/param.shtml",
+            "https://detail.zol.com.cn/2019/2018382/param.shtml",
+            "https://detail.zol.com.cn/2019/2018384/param.shtml",
+            "https://detail.zol.com.cn/2019/2018383/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2639/index26381656_0_p2002133.shtml",
+            "https://detail.zol.com.cn/picture_index_2639/index26381655_0_p2018383.shtml"
+          ]
+        },
+        {
+          "id": "vivo-y200-2024",
+          "brand": "vivo",
+          "modelName": "vivo Y200",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "vivo Y",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10863439_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10863439_0_1.html",
+            "https://detail.zol.com.cn/2014/2013465/param.shtml",
+            "https://detail.zol.com.cn/2018/2017383/param.shtml",
+            "https://detail.zol.com.cn/2018/2017384/param.shtml",
+            "https://detail.zol.com.cn/2018/2017382/param.shtml",
+            "https://www.ithome.com/0/769/269.htm",
+            "https://detail.zol.com.cn/picture_index_2637/index26368796_0_p2013465.shtml",
+            "https://detail.zol.com.cn/picture_index_2637/index26368765_0_p2017384.shtml"
+          ]
+        },
+        {
+          "id": "iqoo-11-2022",
+          "brand": "vivo",
+          "modelName": "iQOO 11",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "iQOO",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10716277_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10716277_0_1.html",
+            "https://detail.zol.com.cn/1426/1425508/param.shtml",
+            "https://detail.zol.com.cn/1436/1435912/param.shtml",
+            "https://detail.zol.com.cn/1436/1435914/param.shtml",
+            "https://detail.zol.com.cn/1436/1435911/param.shtml",
+            "https://detail.zol.com.cn/1436/1435913/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2254/index22536895_0_p1425508.shtml",
+            "https://detail.zol.com.cn/picture_index_2254/index22536690_0_p1425508.shtml"
+          ]
+        },
+        {
+          "id": "iqoo-12-2023",
+          "brand": "vivo",
+          "modelName": "iQOO 12",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "iQOO",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10757813_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10757813_0_1.html",
+            "https://detail.zol.com.cn/1545/1544390/param.shtml",
+            "https://detail.zol.com.cn/1948/1947968/param.shtml",
+            "https://detail.zol.com.cn/1948/1947969/param.shtml",
+            "https://www.ithome.com/0/730/761.htm",
+            "https://detail.zol.com.cn/picture_index_2563/index25621637_0_p1544390.shtml",
+            "https://detail.zol.com.cn/picture_index_2563/index25621633_0_p1544390.shtml"
+          ]
+        },
+        {
+          "id": "iqoo-neo9-2023",
+          "brand": "vivo",
+          "modelName": "iQOO Neo9",
+          "releaseYear": 2023,
+          "category": "phone",
+          "series": "iQOO Neo",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10771110_1.html",
+            "https://detail.zol.com.cn/series/57/55075/param_10771110_0_1.html",
+            "https://detail.zol.com.cn/1611/1610856/param.shtml",
+            "https://detail.zol.com.cn/1971/1970768/param.shtml",
+            "https://detail.zol.com.cn/1971/1970767/param.shtml",
+            "https://detail.zol.com.cn/1971/1970769/param.shtml",
+            "https://detail.zol.com.cn/picture_index_2585/index25841564_0_p1610856.shtml",
+            "https://detail.zol.com.cn/picture_index_2585/index25841559_0_p1610856.shtml"
+          ]
+        },
+        {
+          "id": "vivo-pad2-2023",
+          "brand": "vivo",
+          "modelName": "vivo Pad2",
+          "releaseYear": 2023,
+          "category": "tablet",
+          "series": "vivo Pad",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/vivopad2",
+            "https://detail.zol.com.cn/series/702/10747585_1.html",
+            "https://detail.zol.com.cn/series/702/1795/param_10747585_0_1.html",
+            "https://detail.zol.com.cn/1495/1494631/param.shtml",
+            "https://detail.zol.com.cn/1535/1534569/param.shtml",
+            "https://detail.zol.com.cn/1535/1534570/param.shtml",
+            "https://detail.zol.com.cn/1535/1534568/param.shtml",
+            "https://www.ithome.com/0/688/467.htm",
+            "https://detail.zol.com.cn/picture_index_2346/index23457609_0_p1494631.shtml",
+            "https://detail.zol.com.cn/picture_index_2346/index23457608_0_p1494631.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/vivo/",
+            "https://detail.zol.com.cn/series/702/10747585_1.html"
+          ]
+        },
+        {
+          "id": "vivo-pad3-2024",
+          "brand": "vivo",
+          "modelName": "vivo Pad3",
+          "releaseYear": 2024,
+          "category": "tablet",
+          "series": "vivo Pad",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/vivopad3",
+            "https://detail.zol.com.cn/series/702/10867427_1.html",
+            "https://detail.zol.com.cn/series/702/1795/param_10867427_0_1.html",
+            "https://detail.zol.com.cn/2035/2034235/param.shtml",
+            "https://detail.zol.com.cn/2035/2034238/param.shtml",
+            "https://detail.zol.com.cn/2035/2034237/param.shtml",
+            "https://detail.zol.com.cn/2035/2034236/param.shtml",
+            "https://www.ithome.com/0/779/800.htm",
+            "https://detail.zol.com.cn/picture_index_2655/index26546280_0_p2034235.shtml",
+            "https://detail.zol.com.cn/picture_index_2655/index26546279_0_p2034235.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/vivo/",
+            "https://detail.zol.com.cn/series/702/10867427_1.html"
+          ]
+        },
+        {
+          "id": "vivo-x200-2024",
+          "brand": "vivo",
+          "modelName": "vivo X200",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "vivo X",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x200"
+          ]
+        },
+        {
+          "id": "vivo-x200-pro-2024",
+          "brand": "vivo",
+          "modelName": "vivo X200 Pro",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "vivo X Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x200pro"
+          ]
+        },
+        {
+          "id": "vivo-x200-pro-mini-2024",
+          "brand": "vivo",
+          "modelName": "vivo X200 Pro mini",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "vivo X Pro mini",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x200promini"
+          ]
+        },
+        {
+          "id": "vivo-x300-2025",
+          "brand": "vivo",
+          "modelName": "vivo X300",
+          "releaseYear": 2025,
+          "category": "phone",
+          "series": "vivo X",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x300"
+          ]
+        },
+        {
+          "id": "vivo-x300-pro-2025",
+          "brand": "vivo",
+          "modelName": "vivo X300 Pro",
+          "releaseYear": 2025,
+          "category": "phone",
+          "series": "vivo X Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x300pro"
+          ]
+        },
+        {
+          "id": "vivo-x500-2026",
+          "brand": "vivo",
+          "modelName": "vivo X500",
+          "releaseYear": 2026,
+          "category": "phone",
+          "series": "vivo X",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x500"
+          ]
+        },
+        {
+          "id": "vivo-x500-pro-2026",
+          "brand": "vivo",
+          "modelName": "vivo X500 Pro",
+          "releaseYear": 2026,
+          "category": "phone",
+          "series": "vivo X Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x500pro"
+          ]
+        },
+        {
+          "id": "vivo-x500-pro-max-2026",
+          "brand": "vivo",
+          "modelName": "vivo X500 Pro Max",
+          "releaseYear": 2026,
+          "category": "phone",
+          "series": "vivo X Pro Max",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x500promax"
+          ]
+        },
+        {
+          "id": "vivo-x100-ultra-2024",
+          "brand": "vivo",
+          "modelName": "vivo X100 Ultra",
+          "releaseYear": 2024,
+          "category": "phone",
+          "series": "vivo X Ultra",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x100ultra",
+            "https://www.ithome.com/0/767/652.htm",
+            "https://m.vivo.com.cn/vivo/x100ultra/"
+          ]
+        },
+        {
+          "id": "vivo-x200-ultra-2025",
+          "brand": "vivo",
+          "modelName": "vivo X200 Ultra",
+          "releaseYear": 2025,
+          "category": "phone",
+          "series": "vivo X Ultra",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x200ultra",
+            "https://www.ithome.com/0/849/704.htm",
+            "https://www.dxomark.com/vivo-x200-ultra-camera-test/"
+          ]
+        },
+        {
+          "id": "vivo-x300-ultra-2026",
+          "brand": "vivo",
+          "modelName": "vivo X300 Ultra",
+          "releaseYear": 2026,
+          "category": "phone",
+          "series": "vivo X Ultra",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x300ultra",
+            "https://www.ithome.com/0/935/594.htm",
+            "https://www.dxomark.com/vivo-x300-ultra-camera-test/"
+          ]
+        },
+        {
+          "id": "vivo-pad-2022",
+          "brand": "vivo",
+          "modelName": "vivo Pad",
+          "releaseYear": 2022,
+          "category": "tablet",
+          "series": "vivo Pad",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/38004_1.html",
+            "https://detail.zol.com.cn/series/702/1795/param_38004_0_1.html",
+            "https://detail.zol.com.cn/1401/1400500/param.shtml",
+            "https://detail.zol.com.cn/1404/1403277/param.shtml",
+            "https://detail.zol.com.cn/1435/1434234/param.shtml",
+            "https://detail.zol.com.cn/1404/1403281/param.shtml",
+            "https://detail.zol.com.cn/1434/1433979/param.shtml",
+            "https://detail.zol.com.cn/1404/1403280/param.shtml",
+            "https://detail.zol.com.cn/1404/1403279/param.shtml",
+            "https://detail.zol.com.cn/1404/1403278/param.shtml",
+            "https://www.ithome.com/0/613/096.htm",
+            "https://www.vivo.com.cn/vivo/param/vivopad",
+            "https://detail.zol.com.cn/picture_index_2188/index21877875_0_p1400500.shtml",
+            "https://detail.zol.com.cn/picture_index_2188/index21877876_0_p1400500.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/vivo/",
+            "https://detail.zol.com.cn/series/702/38004_1.html"
+          ]
+        },
+        {
+          "id": "vivo-pad-air-2023",
+          "brand": "vivo",
+          "modelName": "vivo Pad Air",
+          "releaseYear": 2023,
+          "category": "tablet",
+          "series": "vivo Pad Air",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10812028_1.html",
+            "https://detail.zol.com.cn/series/702/1795/param_10812028_0_1.html",
+            "https://detail.zol.com.cn/1842/1841992/param.shtml",
+            "https://detail.zol.com.cn/1842/1841995/param.shtml",
+            "https://detail.zol.com.cn/1842/1841994/param.shtml",
+            "https://detail.zol.com.cn/1842/1841993/param.shtml",
+            "https://m.ithome.com/html/712174.htm",
+            "https://www.vivo.com.cn/vivo/param/vivopadair",
+            "https://detail.zol.com.cn/picture_index_2497/index24965451_0_p1841992.shtml",
+            "https://detail.zol.com.cn/picture_index_2497/index24965436_0_p1841992.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/vivo/",
+            "https://detail.zol.com.cn/series/702/10812028_1.html"
+          ]
+        },
+        {
+          "id": "vivo-pad3-pro-2024",
+          "brand": "vivo",
+          "modelName": "vivo Pad3 Pro",
+          "releaseYear": 2024,
+          "category": "tablet",
+          "series": "vivo Pad Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10854182_1.html",
+            "https://detail.zol.com.cn/series/702/1795/param_10854182_0_1.html",
+            "https://detail.zol.com.cn/1984/1983715/param.shtml",
+            "https://detail.zol.com.cn/1994/1993037/param.shtml",
+            "https://detail.zol.com.cn/1994/1993036/param.shtml",
+            "https://detail.zol.com.cn/1994/1993035/param.shtml",
+            "https://www.ithome.com/0/759/806.htm",
+            "https://www.vivo.com.cn/vivo/param/vivopad3pro",
+            "https://detail.zol.com.cn/picture_index_2633/index26325730_0_p1983715.shtml",
+            "https://detail.zol.com.cn/picture_index_2633/index26325729_0_p1983715.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/vivo/",
+            "https://detail.zol.com.cn/series/702/10854182_1.html"
+          ]
+        },
+        {
+          "id": "vivo-pad-se-2025",
+          "brand": "vivo",
+          "modelName": "vivo Pad SE",
+          "releaseYear": 2025,
+          "category": "tablet",
+          "series": "vivo Pad SE",
+          "status": "blocked",
+          "reason": "vivo-pad-se-2025: 所有具体配置证据缺失或冲突",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10912802_1.html"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/vivo/",
+            "https://detail.zol.com.cn/series/702/10912802_1.html"
+          ]
+        },
+        {
+          "id": "iqoo-pad-2023",
+          "brand": "vivo",
+          "modelName": "iQOO Pad",
+          "releaseYear": 2023,
+          "category": "tablet",
+          "series": "iQOO Pad",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10771004_1.html",
+            "https://detail.zol.com.cn/series/702/55075/param_10771004_0_1.html",
+            "https://detail.zol.com.cn/1611/1610676/param.shtml",
+            "https://detail.zol.com.cn/1628/1627570/param.shtml",
+            "https://detail.zol.com.cn/1628/1627571/param.shtml",
+            "https://detail.zol.com.cn/1628/1627569/param.shtml",
+            "https://www.vivo.com.cn/vivo/param/iqoopad",
+            "https://detail.zol.com.cn/picture_index_2474/index24738082_0_p1610676.shtml",
+            "https://detail.zol.com.cn/picture_index_2474/index24738048_0_p1610676.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/iqoo/",
+            "https://detail.zol.com.cn/series/702/10771004_1.html"
+          ]
+        },
+        {
+          "id": "iqoo-pad2-2024",
+          "brand": "vivo",
+          "modelName": "iQOO Pad2",
+          "releaseYear": 2024,
+          "category": "tablet",
+          "series": "iQOO Pad",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10864203_1.html",
+            "https://detail.zol.com.cn/series/702/55075/param_10864203_0_1.html",
+            "https://detail.zol.com.cn/2018/2017642/param.shtml",
+            "https://detail.zol.com.cn/2018/2017644/param.shtml",
+            "https://detail.zol.com.cn/2018/2017645/param.shtml",
+            "https://detail.zol.com.cn/2018/2017643/param.shtml",
+            "https://www.vivo.com.cn/vivo/param/iqoopad2",
+            "https://detail.zol.com.cn/picture_index_2639/index26383701_0_p2017642.shtml",
+            "https://detail.zol.com.cn/picture_index_2639/index26383697_0_p2017642.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/iqoo/",
+            "https://detail.zol.com.cn/series/702/10864203_1.html"
+          ]
+        },
+        {
+          "id": "iqoo-pad2-pro-2024",
+          "brand": "vivo",
+          "modelName": "iQOO Pad2 Pro",
+          "releaseYear": 2024,
+          "category": "tablet",
+          "series": "iQOO Pad Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10864204_1.html",
+            "https://detail.zol.com.cn/series/702/55075/param_10864204_0_1.html",
+            "https://detail.zol.com.cn/2018/2017646/param.shtml",
+            "https://detail.zol.com.cn/2018/2017648/param.shtml",
+            "https://detail.zol.com.cn/2082/2081484/param.shtml",
+            "https://detail.zol.com.cn/2018/2017647/param.shtml",
+            "https://www.vivo.com.cn/vivo/param/iqoopad2pro",
+            "https://detail.zol.com.cn/picture_index_2639/index26383646_0_p2017646.shtml",
+            "https://detail.zol.com.cn/picture_index_2639/index26383644_0_p2017646.shtml"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/iqoo/",
+            "https://detail.zol.com.cn/series/702/10864204_1.html"
+          ]
+        },
+        {
+          "id": "vivo-y77-2022",
+          "brand": "vivo",
+          "modelName": "vivo Y77",
+          "releaseYear": 2022,
+          "category": "phone",
+          "series": "vivo Y",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10713285_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10713285_0_1.html",
+            "https://detail.zol.com.cn/1419/1418991/param.shtml",
+            "https://detail.zol.com.cn/1420/1419243/param.shtml",
+            "https://detail.zol.com.cn/1420/1419241/param.shtml",
+            "https://detail.zol.com.cn/1420/1419242/param.shtml",
+            "https://www.vivo.com.cn/vivo/param/y77",
+            "https://detail.zol.com.cn/picture_index_2220/index22197669_0_p1418991.shtml",
+            "https://detail.zol.com.cn/picture_index_2220/index22197673_0_p1419243.shtml"
+          ]
+        },
+        {
+          "id": "iqoo-pad-ultra-2026",
+          "brand": "vivo",
+          "modelName": "iQOO Pad Ultra",
+          "family": "iQOO Pad",
+          "category": "tablet",
+          "releaseYear": 2026,
+          "sourceUrl": "https://www.xinhuanet.com/tech/20260930/309cbd7f91aa416a8c34a70b35bb48fe/c.html",
+          "articlePattern": "9月29日，iQOO在深圳举办新品发布会[^]{0,120}?iQOO Pad Ultra[^]{0,200}?正式开售",
+          "articleYearPattern": "2026-09-30 13:45:45",
+          "series": "iQOO Pad",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://www.xinhuanet.com/tech/20260930/309cbd7f91aa416a8c34a70b35bb48fe/c.html"
+          ],
+          "sourceEvidence": {
+            "value": "iQOO Pad Ultra",
+            "rawText": "9月29日，iQOO在深圳举办新品发布会，推出手机产品iQOO16与平板产品iQOO Pad Ultra，两款新品均搭载第六代骁龙8超级至尊版芯片，围绕屏幕、游戏性能、影像、操控等维度进行升级，面向消费市场正式开售",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.xinhuanet.com/tech/20260930/309cbd7f91aa416a8c34a70b35bb48fe/c.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:52.714Z",
+            "sourceSnapshotHash": "cca9905efde6b1b5bd3ca8d045c3d3285fe594cca4adfb3b7b16145ac5608a72"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "2026-09-30 13:45:45",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.xinhuanet.com/tech/20260930/309cbd7f91aa416a8c34a70b35bb48fe/c.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:52.714Z",
+            "sourceSnapshotHash": "cca9905efde6b1b5bd3ca8d045c3d3285fe594cca4adfb3b7b16145ac5608a72"
+          },
+          "yearBasis": "发布报道年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "vivo-x100-2023",
+          "brand": "vivo",
+          "modelName": "vivo X100",
+          "category": "phone",
+          "releaseYear": 2023,
+          "series": "vivo X",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x100",
+            "https://mobile.zol.com.cn/842/8429509_all.html",
+            "https://www.vivo.com.cn/brand/news/detail?id=1206"
+          ]
+        },
+        {
+          "id": "vivo-x100-lpddr5t-limited-2023",
+          "brand": "vivo",
+          "modelName": "vivo X100 LPDDR5T限量版",
+          "category": "phone",
+          "releaseYear": 2023,
+          "series": "vivo X",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x100",
+            "https://mobile.zol.com.cn/842/8429509_all.html",
+            "https://www.vivo.com.cn/brand/news/detail?id=1206"
+          ]
+        },
+        {
+          "id": "vivo-x100pro-2023",
+          "brand": "vivo",
+          "modelName": "vivo X100 Pro",
+          "category": "phone",
+          "releaseYear": 2023,
+          "series": "vivo X Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x100pro",
+            "https://mobile.zol.com.cn/842/8429509_all.html",
+            "https://www.vivo.com.cn/brand/news/detail?id=1206"
+          ]
+        },
+        {
+          "id": "vivo-x100s-2024",
+          "brand": "vivo",
+          "modelName": "vivo X100s",
+          "category": "phone",
+          "releaseYear": 2024,
+          "series": "vivo X s",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x100s",
+            "https://m.ithome.com/html/768604.htm",
+            "https://m.vivo.com.cn/brand/news/detail?id=1243&type=0"
+          ]
+        },
+        {
+          "id": "vivo-x100spro-2024",
+          "brand": "vivo",
+          "modelName": "vivo X100s Pro",
+          "category": "phone",
+          "releaseYear": 2024,
+          "series": "vivo X s Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/x100spro",
+            "https://m.ithome.com/html/768604.htm",
+            "https://m.vivo.com.cn/brand/news/detail?id=1243&type=0"
+          ]
+        },
+        {
+          "id": "vivo-y78-2023",
+          "brand": "vivo",
+          "modelName": "vivo Y78",
+          "category": "phone",
+          "releaseYear": 2023,
+          "series": "vivo Y",
+          "status": "present",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/57/10739534_1.html",
+            "https://detail.zol.com.cn/series/57/1795/param_10739534_0_1.html",
+            "https://detail.zol.com.cn/1474/1473778/param.shtml",
+            "https://detail.zol.com.cn/1602/1601423/param.shtml",
+            "https://detail.zol.com.cn/1602/1601422/param.shtml",
+            "https://www.vivo.com.cn/vivo/param/y78"
+          ]
+        },
+        {
+          "id": "vivo-y200i-2024",
+          "brand": "vivo",
+          "modelName": "vivo Y200i",
+          "category": "phone",
+          "releaseYear": 2024,
+          "series": "vivo Y i",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/y200i",
+            "https://detail.zol.com.cn/series/57/1795/param_10860154_0_1.html"
+          ]
+        },
+        {
+          "id": "vivo-y300-2024",
+          "brand": "vivo",
+          "modelName": "vivo Y300",
+          "category": "phone",
+          "releaseYear": 2024,
+          "series": "vivo Y",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/y300",
+            "https://www.ithome.com/0/818/905.htm"
+          ]
+        },
+        {
+          "id": "vivo-y300-gt-2025",
+          "brand": "vivo",
+          "modelName": "vivo Y300 GT",
+          "category": "phone",
+          "releaseYear": 2025,
+          "series": "vivo Y GT",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/y300gt",
+            "https://www.ithome.com/0/851/690.htm"
+          ]
+        },
+        {
+          "id": "vivo-y500-2025",
+          "brand": "vivo",
+          "modelName": "vivo Y500",
+          "category": "phone",
+          "releaseYear": 2025,
+          "series": "vivo Y",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/y500",
+            "https://www.ithome.com/0/880/573.htm"
+          ]
+        },
+        {
+          "id": "iqoo-neo9s-pro-plus-2024",
+          "brand": "vivo",
+          "modelName": "iQOO Neo9S Pro+",
+          "category": "phone",
+          "releaseYear": 2024,
+          "series": "iQOO Neo S Pro+",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/iqooneo9sproplus",
+            "https://www.3elife.net/Art/mobile/202407/16/95318.html"
+          ]
+        },
+        {
+          "id": "iqoo-neo11-2025",
+          "brand": "vivo",
+          "modelName": "iQOO Neo11",
+          "category": "phone",
+          "releaseYear": 2025,
+          "series": "iQOO Neo",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/iqooneo11",
+            "https://www.ithome.com/0/893/627.htm"
+          ]
+        },
+        {
+          "id": "vivo-y600-pro-2026",
+          "brand": "vivo",
+          "modelName": "vivo Y600 Pro",
+          "category": "phone",
+          "releaseYear": 2026,
+          "series": "vivo Y Pro",
+          "status": "present",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/y600pro",
+            "https://www.ithome.com/0/945/295.htm"
+          ]
+        },
+        {
+          "id": "vivo-pad5-2025-soft-light",
+          "brand": "vivo",
+          "modelName": "vivo Pad5 柔光版",
+          "category": "tablet",
+          "releaseYear": 2025,
+          "series": "vivo Pad",
+          "status": "pending",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+          "rawPattern": "2025年10月（柔光版）",
+          "reason": "官网明确独立柔光成对SKU；本批未查实际首售与逐版配色",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/vivopad5"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Pad5 柔光版",
+            "rawText": "2025年10月（柔光版）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.740Z",
+            "sourceSnapshotHash": "1c2efd2671a895f5780944c2c857863c4790a2669a9f60136cfe29e688d961c5"
+          }
+        },
+        {
+          "id": "vivo-pad5-pro-2025-ultralight",
+          "brand": "vivo",
+          "modelName": "vivo Pad5 Pro 超轻版",
+          "category": "tablet",
+          "releaseYear": 2025,
+          "series": "vivo Pad Pro",
+          "status": "pending",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+          "rawPattern": "轻羽白（超轻版）",
+          "reason": "官网明确不同重量/厚度和2组真实SKU；本批仅排除标准版，不沿用4月25日首售",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/vivopad5pro"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Pad5 Pro 超轻版",
+            "rawText": "轻羽白（超轻版）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.727Z",
+            "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+          }
+        },
+        {
+          "id": "vivo-pad5-pro-2025-soft-light",
+          "brand": "vivo",
+          "modelName": "vivo Pad5 Pro 柔光版",
+          "category": "tablet",
+          "releaseYear": 2025,
+          "series": "vivo Pad Pro",
+          "status": "pending",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+          "rawPattern": "2025年12月（柔光版）",
+          "reason": "官网明确独立柔光版和2组真实SKU，实际首售未做",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/vivopad5pro"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Pad5 Pro 柔光版",
+            "rawText": "2025年12月（柔光版）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.727Z",
+            "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+          }
+        },
+        {
+          "id": "vivo-pad6-pro-2026",
+          "brand": "vivo",
+          "modelName": "vivo Pad6 Pro",
+          "category": "tablet",
+          "releaseYear": 2026,
+          "series": "vivo Pad Pro",
+          "status": "added",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/vivopad6pro",
+            "https://www.ithome.com/0/935/620.htm"
+          ]
+        },
+        {
+          "id": "vivo-pad5e-2025",
+          "brand": "vivo",
+          "modelName": "vivo Pad5e",
+          "category": "tablet",
+          "releaseYear": 2025,
+          "series": "vivo Pad e",
+          "status": "added",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+            "https://www.ithome.com/0/890/238.htm"
+          ]
+        },
+        {
+          "id": "vivo-pad5e-2025-soft-light",
+          "brand": "vivo",
+          "modelName": "vivo Pad5e 柔光版",
+          "category": "tablet",
+          "releaseYear": 2025,
+          "series": "vivo Pad e",
+          "status": "added",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+            "https://www.ithome.com/0/890/238.htm"
+          ]
+        },
+        {
+          "id": "iqoo-pad-air-2024",
+          "brand": "vivo",
+          "modelName": "iQOO Pad Air",
+          "category": "tablet",
+          "releaseYear": 2024,
+          "series": "iQOO Pad Air",
+          "status": "added",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/iqoopadair",
+            "https://www.ithome.com/0/753/939.htm",
+            "https://news.zol.com.cn/858/8582977_all.html"
+          ]
+        },
+        {
+          "id": "iqoo-pad5-2025",
+          "brand": "vivo",
+          "modelName": "iQOO Pad5",
+          "category": "tablet",
+          "releaseYear": 2025,
+          "series": "iQOO Pad",
+          "status": "added",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/iqoopad5",
+            "https://www.ithome.com/0/854/609.htm",
+            "https://www.ithome.com/0/853/071.htm"
+          ]
+        },
+        {
+          "id": "iqoo-pad5-pro-2025",
+          "brand": "vivo",
+          "modelName": "iQOO Pad5 Pro",
+          "category": "tablet",
+          "releaseYear": 2025,
+          "series": "iQOO Pad Pro",
+          "status": "added",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/iqoopad5pro",
+            "https://www.ithome.com/0/854/609.htm",
+            "https://www.ithome.com/0/853/071.htm"
+          ]
+        },
+        {
+          "id": "iqoo-pad5e-2025",
+          "brand": "vivo",
+          "modelName": "iQOO Pad5e",
+          "category": "tablet",
+          "releaseYear": 2025,
+          "series": "iQOO Pad e",
+          "status": "added",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/iqoopad5e",
+            "https://www.ithome.com/0/890/925.htm"
+          ]
+        },
+        {
+          "id": "iqoo-pad6-pro-2026",
+          "brand": "vivo",
+          "modelName": "iQOO Pad6 Pro",
+          "category": "tablet",
+          "releaseYear": 2026,
+          "series": "iQOO Pad Pro",
+          "status": "added",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/iqoopad6pro",
+            "https://www.ithome.com/0/953/035.htm"
+          ]
+        },
+        {
+          "id": "vivo-pad5-2025",
+          "brand": "vivo",
+          "modelName": "vivo Pad5",
+          "category": "tablet",
+          "releaseYear": 2025,
+          "series": "vivo Pad",
+          "status": "added",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/vivopad5",
+            "https://www.ithome.com/0/858/723.htm"
+          ]
+        },
+        {
+          "id": "vivo-pad5-pro-2025",
+          "brand": "vivo",
+          "modelName": "vivo Pad5 Pro",
+          "category": "tablet",
+          "releaseYear": 2025,
+          "series": "vivo Pad Pro",
+          "status": "added",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+            "https://www.ithome.com/0/848/819.htm"
+          ]
+        }
+      ],
+      "pending": [
+        {
+          "id": "iqoo-pad-ultra-2026",
+          "brand": "vivo",
+          "modelName": "iQOO Pad Ultra",
+          "family": "iQOO Pad",
+          "category": "tablet",
+          "releaseYear": 2026,
+          "sourceUrl": "https://www.xinhuanet.com/tech/20260930/309cbd7f91aa416a8c34a70b35bb48fe/c.html",
+          "articlePattern": "9月29日，iQOO在深圳举办新品发布会[^]{0,120}?iQOO Pad Ultra[^]{0,200}?正式开售",
+          "articleYearPattern": "2026-09-30 13:45:45",
+          "series": "iQOO Pad",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://www.xinhuanet.com/tech/20260930/309cbd7f91aa416a8c34a70b35bb48fe/c.html"
+          ],
+          "sourceEvidence": {
+            "value": "iQOO Pad Ultra",
+            "rawText": "9月29日，iQOO在深圳举办新品发布会，推出手机产品iQOO16与平板产品iQOO Pad Ultra，两款新品均搭载第六代骁龙8超级至尊版芯片，围绕屏幕、游戏性能、影像、操控等维度进行升级，面向消费市场正式开售",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.xinhuanet.com/tech/20260930/309cbd7f91aa416a8c34a70b35bb48fe/c.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:52.714Z",
+            "sourceSnapshotHash": "cca9905efde6b1b5bd3ca8d045c3d3285fe594cca4adfb3b7b16145ac5608a72"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "2026-09-30 13:45:45",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.xinhuanet.com/tech/20260930/309cbd7f91aa416a8c34a70b35bb48fe/c.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:52.714Z",
+            "sourceSnapshotHash": "cca9905efde6b1b5bd3ca8d045c3d3285fe594cca4adfb3b7b16145ac5608a72"
+          },
+          "yearBasis": "发布报道年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "vivo-pad5-2025-soft-light",
+          "brand": "vivo",
+          "modelName": "vivo Pad5 柔光版",
+          "category": "tablet",
+          "releaseYear": 2025,
+          "series": "vivo Pad",
+          "status": "pending",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+          "rawPattern": "2025年10月（柔光版）",
+          "reason": "官网明确独立柔光成对SKU；本批未查实际首售与逐版配色",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/vivopad5"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Pad5 柔光版",
+            "rawText": "2025年10月（柔光版）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.740Z",
+            "sourceSnapshotHash": "1c2efd2671a895f5780944c2c857863c4790a2669a9f60136cfe29e688d961c5"
+          }
+        },
+        {
+          "id": "vivo-pad5-pro-2025-ultralight",
+          "brand": "vivo",
+          "modelName": "vivo Pad5 Pro 超轻版",
+          "category": "tablet",
+          "releaseYear": 2025,
+          "series": "vivo Pad Pro",
+          "status": "pending",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+          "rawPattern": "轻羽白（超轻版）",
+          "reason": "官网明确不同重量/厚度和2组真实SKU；本批仅排除标准版，不沿用4月25日首售",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/vivopad5pro"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Pad5 Pro 超轻版",
+            "rawText": "轻羽白（超轻版）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.727Z",
+            "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+          }
+        },
+        {
+          "id": "vivo-pad5-pro-2025-soft-light",
+          "brand": "vivo",
+          "modelName": "vivo Pad5 Pro 柔光版",
+          "category": "tablet",
+          "releaseYear": 2025,
+          "series": "vivo Pad Pro",
+          "status": "pending",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+          "rawPattern": "2025年12月（柔光版）",
+          "reason": "官网明确独立柔光版和2组真实SKU，实际首售未做",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/vivopad5pro"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Pad5 Pro 柔光版",
+            "rawText": "2025年12月（柔光版）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.727Z",
+            "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+          }
+        }
+      ],
+      "blocked": [
+        {
+          "id": "vivo-pad-se-2025",
+          "brand": "vivo",
+          "modelName": "vivo Pad SE",
+          "releaseYear": 2025,
+          "category": "tablet",
+          "series": "vivo Pad SE",
+          "status": "blocked",
+          "reason": "vivo-pad-se-2025: 所有具体配置证据缺失或冲突",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10912802_1.html"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/vivo/",
+            "https://detail.zol.com.cn/series/702/10912802_1.html"
+          ]
+        }
+      ],
+      "checkedThisBatchIds": [
+        "vivo-tablet-catalogue-10925361",
+        "vivo-tablet-catalogue-10920148",
+        "vivo-pad5e-2025-soft-light",
+        "vivo-tablet-catalogue-10854642",
+        "vivo-tablet-catalogue-10913809",
+        "vivo-tablet-catalogue-10913812",
+        "vivo-tablet-catalogue-10920361",
+        "vivo-tablet-catalogue-10926866",
+        "vivo-pad5-2025",
+        "vivo-pad5-pro-2025"
+      ],
+      "inheritedBlockedIds": [
+        "vivo-pad-se-2025"
+      ],
+      "resolvedInheritedBlockedIds": [
+        "vivo-pad5-pro-2025",
+        "vivo-pad5-2025"
+      ],
+      "newBlockedIds": [],
+      "differenceFromExisting": [
+        {
+          "id": "vivo-pad-se-2025",
+          "brand": "vivo",
+          "modelName": "vivo Pad SE",
+          "releaseYear": 2025,
+          "category": "tablet",
+          "series": "vivo Pad SE",
+          "status": "blocked",
+          "reason": "vivo-pad-se-2025: 所有具体配置证据缺失或冲突",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/series/702/10912802_1.html"
+          ],
+          "catalogueSourceUrls": [
+            "https://detail.zol.com.cn/tablepc/vivo/",
+            "https://detail.zol.com.cn/series/702/10912802_1.html"
+          ]
+        },
+        {
+          "id": "iqoo-pad-ultra-2026",
+          "brand": "vivo",
+          "modelName": "iQOO Pad Ultra",
+          "family": "iQOO Pad",
+          "category": "tablet",
+          "releaseYear": 2026,
+          "sourceUrl": "https://www.xinhuanet.com/tech/20260930/309cbd7f91aa416a8c34a70b35bb48fe/c.html",
+          "articlePattern": "9月29日，iQOO在深圳举办新品发布会[^]{0,120}?iQOO Pad Ultra[^]{0,200}?正式开售",
+          "articleYearPattern": "2026-09-30 13:45:45",
+          "series": "iQOO Pad",
+          "status": "pending",
+          "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+          "sourceUrls": [
+            "https://www.xinhuanet.com/tech/20260930/309cbd7f91aa416a8c34a70b35bb48fe/c.html"
+          ],
+          "sourceEvidence": {
+            "value": "iQOO Pad Ultra",
+            "rawText": "9月29日，iQOO在深圳举办新品发布会，推出手机产品iQOO16与平板产品iQOO Pad Ultra，两款新品均搭载第六代骁龙8超级至尊版芯片，围绕屏幕、游戏性能、影像、操控等维度进行升级，面向消费市场正式开售",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.xinhuanet.com/tech/20260930/309cbd7f91aa416a8c34a70b35bb48fe/c.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:52.714Z",
+            "sourceSnapshotHash": "cca9905efde6b1b5bd3ca8d045c3d3285fe594cca4adfb3b7b16145ac5608a72"
+          },
+          "listedYearEvidence": {
+            "value": 2026,
+            "rawText": "2026-09-30 13:45:45",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.xinhuanet.com/tech/20260930/309cbd7f91aa416a8c34a70b35bb48fe/c.html",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:44:52.714Z",
+            "sourceSnapshotHash": "cca9905efde6b1b5bd3ca8d045c3d3285fe594cca4adfb3b7b16145ac5608a72"
+          },
+          "yearBasis": "发布报道年份；首售尚未核验",
+          "marketVerification": "尚未核验"
+        },
+        {
+          "id": "vivo-pad5-2025-soft-light",
+          "brand": "vivo",
+          "modelName": "vivo Pad5 柔光版",
+          "category": "tablet",
+          "releaseYear": 2025,
+          "series": "vivo Pad",
+          "status": "pending",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+          "rawPattern": "2025年10月（柔光版）",
+          "reason": "官网明确独立柔光成对SKU；本批未查实际首售与逐版配色",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/vivopad5"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Pad5 柔光版",
+            "rawText": "2025年10月（柔光版）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.740Z",
+            "sourceSnapshotHash": "1c2efd2671a895f5780944c2c857863c4790a2669a9f60136cfe29e688d961c5"
+          }
+        },
+        {
+          "id": "vivo-pad5-pro-2025-ultralight",
+          "brand": "vivo",
+          "modelName": "vivo Pad5 Pro 超轻版",
+          "category": "tablet",
+          "releaseYear": 2025,
+          "series": "vivo Pad Pro",
+          "status": "pending",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+          "rawPattern": "轻羽白（超轻版）",
+          "reason": "官网明确不同重量/厚度和2组真实SKU；本批仅排除标准版，不沿用4月25日首售",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/vivopad5pro"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Pad5 Pro 超轻版",
+            "rawText": "轻羽白（超轻版）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.727Z",
+            "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+          }
+        },
+        {
+          "id": "vivo-pad5-pro-2025-soft-light",
+          "brand": "vivo",
+          "modelName": "vivo Pad5 Pro 柔光版",
+          "category": "tablet",
+          "releaseYear": 2025,
+          "series": "vivo Pad Pro",
+          "status": "pending",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+          "rawPattern": "2025年12月（柔光版）",
+          "reason": "官网明确独立柔光版和2组真实SKU，实际首售未做",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/vivopad5pro"
+          ],
+          "sourceEvidence": {
+            "value": "vivo Pad5 Pro 柔光版",
+            "rawText": "2025年12月（柔光版）",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.727Z",
+            "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+          }
+        },
+        {
+          "id": "vivo-pad6-pro-2026",
+          "brand": "vivo",
+          "modelName": "vivo Pad6 Pro",
+          "category": "tablet",
+          "releaseYear": 2026,
+          "series": "vivo Pad Pro",
+          "status": "added",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/vivopad6pro",
+            "https://www.ithome.com/0/935/620.htm"
+          ]
+        },
+        {
+          "id": "vivo-pad5e-2025",
+          "brand": "vivo",
+          "modelName": "vivo Pad5e",
+          "category": "tablet",
+          "releaseYear": 2025,
+          "series": "vivo Pad e",
+          "status": "added",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+            "https://www.ithome.com/0/890/238.htm"
+          ]
+        },
+        {
+          "id": "vivo-pad5e-2025-soft-light",
+          "brand": "vivo",
+          "modelName": "vivo Pad5e 柔光版",
+          "category": "tablet",
+          "releaseYear": 2025,
+          "series": "vivo Pad e",
+          "status": "added",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+            "https://www.ithome.com/0/890/238.htm"
+          ]
+        },
+        {
+          "id": "iqoo-pad-air-2024",
+          "brand": "vivo",
+          "modelName": "iQOO Pad Air",
+          "category": "tablet",
+          "releaseYear": 2024,
+          "series": "iQOO Pad Air",
+          "status": "added",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/iqoopadair",
+            "https://www.ithome.com/0/753/939.htm",
+            "https://news.zol.com.cn/858/8582977_all.html"
+          ]
+        },
+        {
+          "id": "iqoo-pad5-2025",
+          "brand": "vivo",
+          "modelName": "iQOO Pad5",
+          "category": "tablet",
+          "releaseYear": 2025,
+          "series": "iQOO Pad",
+          "status": "added",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/iqoopad5",
+            "https://www.ithome.com/0/854/609.htm",
+            "https://www.ithome.com/0/853/071.htm"
+          ]
+        },
+        {
+          "id": "iqoo-pad5-pro-2025",
+          "brand": "vivo",
+          "modelName": "iQOO Pad5 Pro",
+          "category": "tablet",
+          "releaseYear": 2025,
+          "series": "iQOO Pad Pro",
+          "status": "added",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/iqoopad5pro",
+            "https://www.ithome.com/0/854/609.htm",
+            "https://www.ithome.com/0/853/071.htm"
+          ]
+        },
+        {
+          "id": "iqoo-pad5e-2025",
+          "brand": "vivo",
+          "modelName": "iQOO Pad5e",
+          "category": "tablet",
+          "releaseYear": 2025,
+          "series": "iQOO Pad e",
+          "status": "added",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/iqoopad5e",
+            "https://www.ithome.com/0/890/925.htm"
+          ]
+        },
+        {
+          "id": "iqoo-pad6-pro-2026",
+          "brand": "vivo",
+          "modelName": "iQOO Pad6 Pro",
+          "category": "tablet",
+          "releaseYear": 2026,
+          "series": "iQOO Pad Pro",
+          "status": "added",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/iqoopad6pro",
+            "https://www.ithome.com/0/953/035.htm"
+          ]
+        },
+        {
+          "id": "vivo-pad5-2025",
+          "brand": "vivo",
+          "modelName": "vivo Pad5",
+          "category": "tablet",
+          "releaseYear": 2025,
+          "series": "vivo Pad",
+          "status": "added",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/vivopad5",
+            "https://www.ithome.com/0/858/723.htm"
+          ]
+        },
+        {
+          "id": "vivo-pad5-pro-2025",
+          "brand": "vivo",
+          "modelName": "vivo Pad5 Pro",
+          "category": "tablet",
+          "releaseYear": 2025,
+          "series": "vivo Pad Pro",
+          "status": "added",
+          "sourceUrls": [
+            "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+            "https://www.ithome.com/0/848/819.htm"
+          ]
+        }
+      ],
+      "scopeChecks": [],
+      "catalogueEvidence": [
+        {
+          "brand": "vivo",
+          "category": "tablet",
+          "status": "verified_partial",
+          "sourceUrls": [
+            "https://detail.zol.com.cn/tablepc/vivo/"
+          ],
+          "seriesIds": [
+            "10912805",
+            "10925361",
+            "10854182",
+            "10912802",
+            "10920148",
+            "38004",
+            "10747585",
+            "10914124",
+            "10812028",
+            "10867427"
+          ],
+          "evidence": {
+            "value": 10,
+            "rawText": "<a href=\"/series/702/10912805_1.html\" target=\"_blank\">",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/tablepc/vivo/",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T19:23:25.629Z",
+            "sourceSnapshotHash": "54fa303506ec452a64ea56e2c8a45f1d9f926023a7e4de05710ef38010e3afa2"
+          },
+          "enumeration": "数量由此页实际可见唯一系列链接计算；仅公开导航，不包含隐藏历史目录和所有特殊SKU"
+        },
+        {
+          "brand": "vivo",
+          "url": "https://detail.zol.com.cn/tablepc/iqoo/",
+          "category": "tablet",
+          "status": "blocked",
+          "reason": "实际响应没有系列导航（不可把搜索索引当成功抓取的目录）",
+          "enumeration": "实际目录不可读，下面仅使用已核验的具体系列索引补充，仍partial"
+        }
+      ],
+      "enumerationScope": {
+        "phone": "本批未扩展，partial",
+        "tablet": "既有有限候选的实际身份/年份差集；柔光/网络版型另列，仍partial，未枚举范围不表示不存在",
+        "laptop": "本批未开展，partial"
+      },
+      "statusMeaning": {
+        "present": "当前manifest已收录",
+        "added": "本批新实际证据通过",
+        "pending": "尚未开展关键证据核验",
+        "blocked": "本批实际检查失败或继承旧阻塞；inheritedBlockedIds未在本批重试"
+      }
+    }
+  },
+  "devices": [
+    {
+      "id": "vivo-pad6-pro-2026",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "tablet",
+      "series": "vivo Pad Pro",
+      "family": "vivo Pad Pro",
+      "variant": "standard",
+      "modelName": "vivo Pad6 Pro",
+      "generation": "Pad6 Pro",
+      "generationOrder": 2026,
+      "releaseYear": 2026,
+      "releaseDate": "2026-04-03",
+      "comparisonGroupId": "vivo.tablet.pad-pro.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "vivo Pad6 Pro（8GB+256GB）：4499.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad6pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.759Z",
+            "sourceSnapshotHash": "136fc6d8c2645fedc1675d9d5326f3d3b457487e3ba8a573a08de53681049039"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "vivo Pad6 Pro（12GB+256GB）：4999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad6pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.759Z",
+            "sourceSnapshotHash": "136fc6d8c2645fedc1675d9d5326f3d3b457487e3ba8a573a08de53681049039"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "vivo Pad6 Pro（12GB+512GB）：5799.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad6pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.759Z",
+            "sourceSnapshotHash": "136fc6d8c2645fedc1675d9d5326f3d3b457487e3ba8a573a08de53681049039"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "vivo Pad6 Pro（16GB+512GB）：6699.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad6pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.759Z",
+            "sourceSnapshotHash": "136fc6d8c2645fedc1675d9d5326f3d3b457487e3ba8a573a08de53681049039"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "第五代骁龙®8至尊版移动平台",
+          "rawText": "第五代骁龙®8至尊版移动平台",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.759Z",
+          "sourceSnapshotHash": "136fc6d8c2645fedc1675d9d5326f3d3b457487e3ba8a573a08de53681049039"
+        },
+        "memoryType": {
+          "value": "LPDDR5X 四通道",
+          "rawText": "LPDDR5X 四通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.759Z",
+          "sourceSnapshotHash": "136fc6d8c2645fedc1675d9d5326f3d3b457487e3ba8a573a08de53681049039"
+        },
+        "storageType": {
+          "value": "UFS 4.1",
+          "rawText": "UFS 4.1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.759Z",
+          "sourceSnapshotHash": "136fc6d8c2645fedc1675d9d5326f3d3b457487e3ba8a573a08de53681049039"
+        },
+        "screenSize": {
+          "value": 13.2,
+          "unit": "inch",
+          "rawText": "13.2英寸（显示屏采用圆角设计，按照标准矩形测量时，屏幕的对角线长度是13.2英寸。）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.759Z",
+          "sourceSnapshotHash": "136fc6d8c2645fedc1675d9d5326f3d3b457487e3ba8a573a08de53681049039"
+        },
+        "resolution": {
+          "value": "3840x2512",
+          "rawText": "3840x2512",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.759Z",
+          "sourceSnapshotHash": "136fc6d8c2645fedc1675d9d5326f3d3b457487e3ba8a573a08de53681049039"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "最高支持144Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.759Z",
+          "sourceSnapshotHash": "136fc6d8c2645fedc1675d9d5326f3d3b457487e3ba8a573a08de53681049039"
+        },
+        "batteryCapacity": {
+          "value": 13000,
+          "unit": "mAh",
+          "rawText": "典型值：13000mAh 额定值：12700mAh",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.759Z",
+          "sourceSnapshotHash": "136fc6d8c2645fedc1675d9d5326f3d3b457487e3ba8a573a08de53681049039"
+        },
+        "rearCamera": {
+          "value": "1300万像素",
+          "rawText": "1300万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.759Z",
+          "sourceSnapshotHash": "136fc6d8c2645fedc1675d9d5326f3d3b457487e3ba8a573a08de53681049039"
+        },
+        "frontCamera": {
+          "value": "800万像素",
+          "rawText": "800万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.759Z",
+          "sourceSnapshotHash": "136fc6d8c2645fedc1675d9d5326f3d3b457487e3ba8a573a08de53681049039"
+        },
+        "port": {
+          "value": "Type-C",
+          "rawText": "Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.759Z",
+          "sourceSnapshotHash": "136fc6d8c2645fedc1675d9d5326f3d3b457487e3ba8a573a08de53681049039"
+        },
+        "weight": {
+          "value": 663,
+          "unit": "g",
+          "rawText": "663g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.759Z",
+          "sourceSnapshotHash": "136fc6d8c2645fedc1675d9d5326f3d3b457487e3ba8a573a08de53681049039"
+        },
+        "operatingSystem": {
+          "value": "OriginOS 6 平板定制系统",
+          "rawText": "OriginOS 6 平板定制系统",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.759Z",
+          "sourceSnapshotHash": "136fc6d8c2645fedc1675d9d5326f3d3b457487e3ba8a573a08de53681049039"
+        },
+        "memory": {
+          "value": "8GB / 12GB / 16GB",
+          "rawText": "vivo Pad6 Pro（8GB+256GB）：4499.00元 vivo Pad6 Pro（12GB+256GB）：4999.00元 vivo Pad6 Pro（12GB+512GB）：5799.00元 vivo Pad6 Pro（16GB+512GB）：6699.00元 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.759Z",
+          "sourceSnapshotHash": "136fc6d8c2645fedc1675d9d5326f3d3b457487e3ba8a573a08de53681049039"
+        },
+        "storage": {
+          "value": "256GB / 512GB",
+          "rawText": "vivo Pad6 Pro（8GB+256GB）：4499.00元 vivo Pad6 Pro（12GB+256GB）：4999.00元 vivo Pad6 Pro（12GB+512GB）：5799.00元 vivo Pad6 Pro（16GB+512GB）：6699.00元 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.759Z",
+          "sourceSnapshotHash": "136fc6d8c2645fedc1675d9d5326f3d3b457487e3ba8a573a08de53681049039"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "vivo-pad5e-2025",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "tablet",
+      "series": "vivo Pad e",
+      "family": "vivo Pad e",
+      "variant": "standard",
+      "modelName": "vivo Pad5e",
+      "generation": "Pad5e",
+      "generationOrder": 2025,
+      "releaseYear": 2025,
+      "releaseDate": "2025-10-17",
+      "comparisonGroupId": "vivo.tablet.pad-e.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "8GB + 128GB",
+            "rawText": "vivo Pad5e（8GB+128GB）：1999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.731Z",
+            "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "vivo Pad5e（8GB+256GB）：2299.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.731Z",
+            "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "vivo Pad5e（12GB+256GB）：2599.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.731Z",
+            "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "vivo Pad5e（16GB+512GB）：2999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.731Z",
+            "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "第三代骁龙8s",
+          "rawText": "第三代骁龙8s",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "memoryType": {
+          "value": "LPDDR5X 四通道",
+          "rawText": "LPDDR5X 四通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "storageType": {
+          "value": "UFS 3.1（128GB支持） UFS 4.1（256GB/512GB支持）",
+          "rawText": "UFS 3.1（128GB支持） UFS 4.1（256GB/512GB支持）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "screenSize": {
+          "value": 12.1,
+          "unit": "inch",
+          "rawText": "12.1英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "displayType": {
+          "value": "LCD屏幕",
+          "rawText": "LCD屏幕",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "resolution": {
+          "value": "2800x1968",
+          "rawText": "2800x1968",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "最高支持144Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "batteryCapacity": {
+          "value": 10000,
+          "unit": "mAh",
+          "rawText": "典型值：10000mAh 额定值：9790mAh",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "rearCamera": {
+          "value": "800万像素",
+          "rawText": "800万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "frontCamera": {
+          "value": "500万像素",
+          "rawText": "500万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "port": {
+          "value": "Type-C",
+          "rawText": "Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "chargingMethod": {
+          "value": "44W",
+          "rawText": "44W",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "weight": {
+          "value": 584,
+          "unit": "g",
+          "rawText": "584g（标准版）；591g（柔光版）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "operatingSystem": {
+          "value": "OriginOS 5 平板定制系统",
+          "rawText": "OriginOS 5 平板定制系统",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "memory": {
+          "value": "8GB / 12GB / 16GB",
+          "rawText": "vivo Pad5e（8GB+128GB）：1999.00元 vivo Pad5e 柔光版（8GB+128GB）：2199.00元 vivo Pad5e（8GB+256GB）：2299.00元 vivo Pad5e 柔光版（8GB+256GB）：2499.00元 vivo Pad5e（12GB+256GB）：2599.00元 vivo Pad5e（16GB+512GB）：2999.00元 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "storage": {
+          "value": "128GB / 256GB / 512GB",
+          "rawText": "vivo Pad5e（8GB+128GB）：1999.00元 vivo Pad5e 柔光版（8GB+128GB）：2199.00元 vivo Pad5e（8GB+256GB）：2299.00元 vivo Pad5e 柔光版（8GB+256GB）：2499.00元 vivo Pad5e（12GB+256GB）：2599.00元 vivo Pad5e（16GB+512GB）：2999.00元 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "vivo-pad5e-2025-soft-light",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "tablet",
+      "series": "vivo Pad e",
+      "family": "vivo Pad e",
+      "variant": "soft-light",
+      "modelName": "vivo Pad5e 柔光版",
+      "generation": "Pad5e",
+      "generationOrder": 2025,
+      "releaseYear": 2025,
+      "releaseDate": "2025-10-17",
+      "comparisonGroupId": "vivo.tablet.pad-e.soft-light",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "8GB + 128GB",
+            "rawText": "vivo Pad5e 柔光版（8GB+128GB）：2199.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.731Z",
+            "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "vivo Pad5e 柔光版（8GB+256GB）：2499.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.731Z",
+            "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "第三代骁龙8s",
+          "rawText": "第三代骁龙8s",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "memoryType": {
+          "value": "LPDDR5X 四通道",
+          "rawText": "LPDDR5X 四通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "storageType": {
+          "value": "UFS 3.1（128GB支持） UFS 4.1（256GB/512GB支持）",
+          "rawText": "UFS 3.1（128GB支持） UFS 4.1（256GB/512GB支持）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "screenSize": {
+          "value": 12.1,
+          "unit": "inch",
+          "rawText": "12.1英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "displayType": {
+          "value": "LCD屏幕",
+          "rawText": "LCD屏幕",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "resolution": {
+          "value": "2800x1968",
+          "rawText": "2800x1968",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "最高支持144Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "batteryCapacity": {
+          "value": 10000,
+          "unit": "mAh",
+          "rawText": "典型值：10000mAh 额定值：9790mAh",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "rearCamera": {
+          "value": "800万像素",
+          "rawText": "800万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "frontCamera": {
+          "value": "500万像素",
+          "rawText": "500万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "port": {
+          "value": "Type-C",
+          "rawText": "Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "chargingMethod": {
+          "value": "44W",
+          "rawText": "44W",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "weight": {
+          "value": 591,
+          "unit": "g",
+          "rawText": "584g（标准版）；591g（柔光版）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "operatingSystem": {
+          "value": "OriginOS 5 平板定制系统",
+          "rawText": "OriginOS 5 平板定制系统",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "vivo Pad5e（8GB+128GB）：1999.00元 vivo Pad5e 柔光版（8GB+128GB）：2199.00元 vivo Pad5e（8GB+256GB）：2299.00元 vivo Pad5e 柔光版（8GB+256GB）：2499.00元 vivo Pad5e（12GB+256GB）：2599.00元 vivo Pad5e（16GB+512GB）：2999.00元 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        },
+        "storage": {
+          "value": "128GB / 256GB",
+          "rawText": "vivo Pad5e（8GB+128GB）：1999.00元 vivo Pad5e 柔光版（8GB+128GB）：2199.00元 vivo Pad5e（8GB+256GB）：2299.00元 vivo Pad5e 柔光版（8GB+256GB）：2499.00元 vivo Pad5e（12GB+256GB）：2599.00元 vivo Pad5e（16GB+512GB）：2999.00元 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivoPad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.731Z",
+          "sourceSnapshotHash": "4d055ae1d2a6e252287408c68d1ae4327fb799de93003f83d682ca2e865e8ec5"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "iqoo-pad-air-2024",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "tablet",
+      "series": "iQOO Pad Air",
+      "family": "iQOO Pad Air",
+      "variant": "standard",
+      "modelName": "iQOO Pad Air",
+      "generation": "iQOO Pad Air",
+      "generationOrder": 2024,
+      "releaseYear": 2024,
+      "comparisonGroupId": "vivo.tablet.iqoo-pad-air.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "8GB + 128GB",
+            "rawText": "iQOO Pad Air（8GB+128GB）：1799.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopadair",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.758Z",
+            "sourceSnapshotHash": "2ce6f141fd487e7f72fda03a7178320d1c6b6b34a6473b0a71b3d0b18a3e314c"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "iQOO Pad Air（8GB+256GB）：1999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopadair",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.758Z",
+            "sourceSnapshotHash": "2ce6f141fd487e7f72fda03a7178320d1c6b6b34a6473b0a71b3d0b18a3e314c"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "iQOO Pad Air（12GB+256GB）：2299.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopadair",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.758Z",
+            "sourceSnapshotHash": "2ce6f141fd487e7f72fda03a7178320d1c6b6b34a6473b0a71b3d0b18a3e314c"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "iQOO Pad Air（12GB+512GB）：2599.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopadair",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.758Z",
+            "sourceSnapshotHash": "2ce6f141fd487e7f72fda03a7178320d1c6b6b34a6473b0a71b3d0b18a3e314c"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "高通骁龙870",
+          "rawText": "高通骁龙870",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopadair",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.758Z",
+          "sourceSnapshotHash": "2ce6f141fd487e7f72fda03a7178320d1c6b6b34a6473b0a71b3d0b18a3e314c"
+        },
+        "memoryType": {
+          "value": "LPDDR5 四通道",
+          "rawText": "LPDDR5 四通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopadair",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.758Z",
+          "sourceSnapshotHash": "2ce6f141fd487e7f72fda03a7178320d1c6b6b34a6473b0a71b3d0b18a3e314c"
+        },
+        "storageType": {
+          "value": "UFS3.1",
+          "rawText": "UFS3.1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopadair",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.758Z",
+          "sourceSnapshotHash": "2ce6f141fd487e7f72fda03a7178320d1c6b6b34a6473b0a71b3d0b18a3e314c"
+        },
+        "screenSize": {
+          "value": 11.5,
+          "unit": "inch",
+          "rawText": "11.5英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopadair",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.758Z",
+          "sourceSnapshotHash": "2ce6f141fd487e7f72fda03a7178320d1c6b6b34a6473b0a71b3d0b18a3e314c"
+        },
+        "displayType": {
+          "value": "LCD屏幕",
+          "rawText": "LCD屏幕",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopadair",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.758Z",
+          "sourceSnapshotHash": "2ce6f141fd487e7f72fda03a7178320d1c6b6b34a6473b0a71b3d0b18a3e314c"
+        },
+        "resolution": {
+          "value": "2800x1840",
+          "rawText": "2800x1840",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopadair",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.758Z",
+          "sourceSnapshotHash": "2ce6f141fd487e7f72fda03a7178320d1c6b6b34a6473b0a71b3d0b18a3e314c"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "最高支持144Hz（支持60/90/120/144Hz档位）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopadair",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.758Z",
+          "sourceSnapshotHash": "2ce6f141fd487e7f72fda03a7178320d1c6b6b34a6473b0a71b3d0b18a3e314c"
+        },
+        "batteryCapacity": {
+          "value": 8500,
+          "unit": "mAh",
+          "rawText": "典型值：8500mAh 额定值：8310mAh",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopadair",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.758Z",
+          "sourceSnapshotHash": "2ce6f141fd487e7f72fda03a7178320d1c6b6b34a6473b0a71b3d0b18a3e314c"
+        },
+        "rearCamera": {
+          "value": "800万像素",
+          "rawText": "800万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopadair",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.758Z",
+          "sourceSnapshotHash": "2ce6f141fd487e7f72fda03a7178320d1c6b6b34a6473b0a71b3d0b18a3e314c"
+        },
+        "frontCamera": {
+          "value": "500万像素",
+          "rawText": "500万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopadair",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.758Z",
+          "sourceSnapshotHash": "2ce6f141fd487e7f72fda03a7178320d1c6b6b34a6473b0a71b3d0b18a3e314c"
+        },
+        "port": {
+          "value": "Type-C",
+          "rawText": "Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopadair",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.758Z",
+          "sourceSnapshotHash": "2ce6f141fd487e7f72fda03a7178320d1c6b6b34a6473b0a71b3d0b18a3e314c"
+        },
+        "chargingMethod": {
+          "value": "44W闪充",
+          "rawText": "44W闪充",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopadair",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.758Z",
+          "sourceSnapshotHash": "2ce6f141fd487e7f72fda03a7178320d1c6b6b34a6473b0a71b3d0b18a3e314c"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopadair",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.758Z",
+          "sourceSnapshotHash": "2ce6f141fd487e7f72fda03a7178320d1c6b6b34a6473b0a71b3d0b18a3e314c"
+        },
+        "weight": {
+          "value": 530,
+          "unit": "g",
+          "rawText": "530g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopadair",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.758Z",
+          "sourceSnapshotHash": "2ce6f141fd487e7f72fda03a7178320d1c6b6b34a6473b0a71b3d0b18a3e314c"
+        },
+        "operatingSystem": {
+          "value": "OriginOS 3 平板定制系统 ",
+          "rawText": "OriginOS 3 平板定制系统 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopadair",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.758Z",
+          "sourceSnapshotHash": "2ce6f141fd487e7f72fda03a7178320d1c6b6b34a6473b0a71b3d0b18a3e314c"
+        },
+        "memory": {
+          "value": "8GB / 12GB",
+          "rawText": "iQOO Pad Air（8GB+128GB）：1799.00元 iQOO Pad Air（8GB+256GB）：1999.00元 iQOO Pad Air（12GB+256GB）：2299.00元 iQOO Pad Air（12GB+512GB）：2599.00元 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopadair",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.758Z",
+          "sourceSnapshotHash": "2ce6f141fd487e7f72fda03a7178320d1c6b6b34a6473b0a71b3d0b18a3e314c"
+        },
+        "storage": {
+          "value": "128GB / 256GB / 512GB",
+          "rawText": "iQOO Pad Air（8GB+128GB）：1799.00元 iQOO Pad Air（8GB+256GB）：1999.00元 iQOO Pad Air（12GB+256GB）：2299.00元 iQOO Pad Air（12GB+512GB）：2599.00元 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopadair",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.758Z",
+          "sourceSnapshotHash": "2ce6f141fd487e7f72fda03a7178320d1c6b6b34a6473b0a71b3d0b18a3e314c"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "iqoo-pad5-2025",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "tablet",
+      "series": "iQOO Pad",
+      "family": "iQOO Pad",
+      "variant": "standard",
+      "modelName": "iQOO Pad5",
+      "generation": "iQOO Pad5",
+      "generationOrder": 2025,
+      "releaseYear": 2025,
+      "releaseDate": "2025-05-20",
+      "comparisonGroupId": "vivo.tablet.iqoo-pad.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "8GB + 128GB",
+            "rawText": "iQOO Pad5（8GB+128GB）：2499.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.741Z",
+            "sourceSnapshotHash": "2986ca7a96ecfd5fbdabc5de2a07641a17be0c583fa7b54adee2c1b94d77cbfc"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "iQOO Pad5（8GB+256GB）：2799.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.741Z",
+            "sourceSnapshotHash": "2986ca7a96ecfd5fbdabc5de2a07641a17be0c583fa7b54adee2c1b94d77cbfc"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "iQOO Pad5（12GB+256GB）：3099.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.741Z",
+            "sourceSnapshotHash": "2986ca7a96ecfd5fbdabc5de2a07641a17be0c583fa7b54adee2c1b94d77cbfc"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "iQOO Pad5（16GB+512GB）：3499.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.741Z",
+            "sourceSnapshotHash": "2986ca7a96ecfd5fbdabc5de2a07641a17be0c583fa7b54adee2c1b94d77cbfc"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "天玑 9300+",
+          "rawText": "天玑 9300+",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.741Z",
+          "sourceSnapshotHash": "2986ca7a96ecfd5fbdabc5de2a07641a17be0c583fa7b54adee2c1b94d77cbfc"
+        },
+        "memoryType": {
+          "value": "LPDDR5X 四通道",
+          "rawText": "LPDDR5X 四通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.741Z",
+          "sourceSnapshotHash": "2986ca7a96ecfd5fbdabc5de2a07641a17be0c583fa7b54adee2c1b94d77cbfc"
+        },
+        "storageType": {
+          "value": "UFS4.1",
+          "rawText": "UFS4.1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.741Z",
+          "sourceSnapshotHash": "2986ca7a96ecfd5fbdabc5de2a07641a17be0c583fa7b54adee2c1b94d77cbfc"
+        },
+        "screenSize": {
+          "value": 12.1,
+          "unit": "inch",
+          "rawText": "12.1英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.741Z",
+          "sourceSnapshotHash": "2986ca7a96ecfd5fbdabc5de2a07641a17be0c583fa7b54adee2c1b94d77cbfc"
+        },
+        "displayType": {
+          "value": "LCD",
+          "rawText": "LCD",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.741Z",
+          "sourceSnapshotHash": "2986ca7a96ecfd5fbdabc5de2a07641a17be0c583fa7b54adee2c1b94d77cbfc"
+        },
+        "resolution": {
+          "value": "2800x1968",
+          "rawText": "2800x1968",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.741Z",
+          "sourceSnapshotHash": "2986ca7a96ecfd5fbdabc5de2a07641a17be0c583fa7b54adee2c1b94d77cbfc"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "最高支持144Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.741Z",
+          "sourceSnapshotHash": "2986ca7a96ecfd5fbdabc5de2a07641a17be0c583fa7b54adee2c1b94d77cbfc"
+        },
+        "batteryCapacity": {
+          "value": 10000,
+          "unit": "mAh",
+          "rawText": "典型值：10000mAh 额定值：9790mAh",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.741Z",
+          "sourceSnapshotHash": "2986ca7a96ecfd5fbdabc5de2a07641a17be0c583fa7b54adee2c1b94d77cbfc"
+        },
+        "rearCamera": {
+          "value": "800万像素",
+          "rawText": "800万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.741Z",
+          "sourceSnapshotHash": "2986ca7a96ecfd5fbdabc5de2a07641a17be0c583fa7b54adee2c1b94d77cbfc"
+        },
+        "frontCamera": {
+          "value": "500万像素",
+          "rawText": "500万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.741Z",
+          "sourceSnapshotHash": "2986ca7a96ecfd5fbdabc5de2a07641a17be0c583fa7b54adee2c1b94d77cbfc"
+        },
+        "port": {
+          "value": "Type-C",
+          "rawText": "Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.741Z",
+          "sourceSnapshotHash": "2986ca7a96ecfd5fbdabc5de2a07641a17be0c583fa7b54adee2c1b94d77cbfc"
+        },
+        "chargingMethod": {
+          "value": "44W",
+          "rawText": "44W",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.741Z",
+          "sourceSnapshotHash": "2986ca7a96ecfd5fbdabc5de2a07641a17be0c583fa7b54adee2c1b94d77cbfc"
+        },
+        "weight": {
+          "value": 590,
+          "unit": "g",
+          "rawText": "590g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.741Z",
+          "sourceSnapshotHash": "2986ca7a96ecfd5fbdabc5de2a07641a17be0c583fa7b54adee2c1b94d77cbfc"
+        },
+        "operatingSystem": {
+          "value": "OriginOS 5 平板定制系统 ",
+          "rawText": "OriginOS 5 平板定制系统 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.741Z",
+          "sourceSnapshotHash": "2986ca7a96ecfd5fbdabc5de2a07641a17be0c583fa7b54adee2c1b94d77cbfc"
+        },
+        "memory": {
+          "value": "8GB / 12GB / 16GB",
+          "rawText": "iQOO Pad5（8GB+128GB）：2499.00元 iQOO Pad5（8GB+256GB）：2799.00元 iQOO Pad5（12GB+256GB）：3099.00元 iQOO Pad5（16GB+512GB）：3499.00元 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.741Z",
+          "sourceSnapshotHash": "2986ca7a96ecfd5fbdabc5de2a07641a17be0c583fa7b54adee2c1b94d77cbfc"
+        },
+        "storage": {
+          "value": "128GB / 256GB / 512GB",
+          "rawText": "iQOO Pad5（8GB+128GB）：2499.00元 iQOO Pad5（8GB+256GB）：2799.00元 iQOO Pad5（12GB+256GB）：3099.00元 iQOO Pad5（16GB+512GB）：3499.00元 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.741Z",
+          "sourceSnapshotHash": "2986ca7a96ecfd5fbdabc5de2a07641a17be0c583fa7b54adee2c1b94d77cbfc"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "iqoo-pad5-pro-2025",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "tablet",
+      "series": "iQOO Pad Pro",
+      "family": "iQOO Pad Pro",
+      "variant": "standard",
+      "modelName": "iQOO Pad5 Pro",
+      "generation": "iQOO Pad5 Pro",
+      "generationOrder": 2025,
+      "releaseYear": 2025,
+      "releaseDate": "2025-05-20",
+      "comparisonGroupId": "vivo.tablet.iqoo-pad-pro.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "iQOO Pad5 Pro（8GB+256GB）：3199.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.747Z",
+            "sourceSnapshotHash": "ee0af26228dc161e7a9a95cfbb81d0d43e42361115f68011e225a98536c5fc4c"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "iQOO Pad5 Pro（12GB+256GB）：3499.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.747Z",
+            "sourceSnapshotHash": "ee0af26228dc161e7a9a95cfbb81d0d43e42361115f68011e225a98536c5fc4c"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "iQOO Pad5 Pro（12GB+512GB）：3799.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.747Z",
+            "sourceSnapshotHash": "ee0af26228dc161e7a9a95cfbb81d0d43e42361115f68011e225a98536c5fc4c"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "iQOO Pad5 Pro（16GB+512GB）：3999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.747Z",
+            "sourceSnapshotHash": "ee0af26228dc161e7a9a95cfbb81d0d43e42361115f68011e225a98536c5fc4c"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "天玑 9400+",
+          "rawText": "天玑 9400+",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.747Z",
+          "sourceSnapshotHash": "ee0af26228dc161e7a9a95cfbb81d0d43e42361115f68011e225a98536c5fc4c"
+        },
+        "memoryType": {
+          "value": "LPDDR5X 四通道",
+          "rawText": "LPDDR5X 四通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.747Z",
+          "sourceSnapshotHash": "ee0af26228dc161e7a9a95cfbb81d0d43e42361115f68011e225a98536c5fc4c"
+        },
+        "storageType": {
+          "value": "UFS4.1",
+          "rawText": "UFS4.1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.747Z",
+          "sourceSnapshotHash": "ee0af26228dc161e7a9a95cfbb81d0d43e42361115f68011e225a98536c5fc4c"
+        },
+        "screenSize": {
+          "value": 13,
+          "unit": "inch",
+          "rawText": "13英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.747Z",
+          "sourceSnapshotHash": "ee0af26228dc161e7a9a95cfbb81d0d43e42361115f68011e225a98536c5fc4c"
+        },
+        "displayType": {
+          "value": "LCD",
+          "rawText": "LCD",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.747Z",
+          "sourceSnapshotHash": "ee0af26228dc161e7a9a95cfbb81d0d43e42361115f68011e225a98536c5fc4c"
+        },
+        "resolution": {
+          "value": "3096x2064",
+          "rawText": "3096x2064",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.747Z",
+          "sourceSnapshotHash": "ee0af26228dc161e7a9a95cfbb81d0d43e42361115f68011e225a98536c5fc4c"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "最高支持144Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.747Z",
+          "sourceSnapshotHash": "ee0af26228dc161e7a9a95cfbb81d0d43e42361115f68011e225a98536c5fc4c"
+        },
+        "batteryCapacity": {
+          "value": 12050,
+          "unit": "mAh",
+          "rawText": "典型值：12050mAh 额定值：11790mAh",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.747Z",
+          "sourceSnapshotHash": "ee0af26228dc161e7a9a95cfbb81d0d43e42361115f68011e225a98536c5fc4c"
+        },
+        "rearCamera": {
+          "value": "1300万像素",
+          "rawText": "1300万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.747Z",
+          "sourceSnapshotHash": "ee0af26228dc161e7a9a95cfbb81d0d43e42361115f68011e225a98536c5fc4c"
+        },
+        "frontCamera": {
+          "value": "800万像素",
+          "rawText": "800万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.747Z",
+          "sourceSnapshotHash": "ee0af26228dc161e7a9a95cfbb81d0d43e42361115f68011e225a98536c5fc4c"
+        },
+        "port": {
+          "value": "Type-C",
+          "rawText": "Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.747Z",
+          "sourceSnapshotHash": "ee0af26228dc161e7a9a95cfbb81d0d43e42361115f68011e225a98536c5fc4c"
+        },
+        "chargingMethod": {
+          "value": "66W",
+          "rawText": "66W",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.747Z",
+          "sourceSnapshotHash": "ee0af26228dc161e7a9a95cfbb81d0d43e42361115f68011e225a98536c5fc4c"
+        },
+        "weight": {
+          "value": 635,
+          "unit": "g",
+          "rawText": "635g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.747Z",
+          "sourceSnapshotHash": "ee0af26228dc161e7a9a95cfbb81d0d43e42361115f68011e225a98536c5fc4c"
+        },
+        "operatingSystem": {
+          "value": "OriginOS 5 平板定制系统 ",
+          "rawText": "OriginOS 5 平板定制系统 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.747Z",
+          "sourceSnapshotHash": "ee0af26228dc161e7a9a95cfbb81d0d43e42361115f68011e225a98536c5fc4c"
+        },
+        "memory": {
+          "value": "8GB / 12GB / 16GB",
+          "rawText": "iQOO Pad5 Pro（8GB+256GB）：3199.00元 iQOO Pad5 Pro（12GB+256GB）：3499.00元 iQOO Pad5 Pro（12GB+512GB）：3799.00元 iQOO Pad5 Pro（16GB+512GB）：3999.00元 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.747Z",
+          "sourceSnapshotHash": "ee0af26228dc161e7a9a95cfbb81d0d43e42361115f68011e225a98536c5fc4c"
+        },
+        "storage": {
+          "value": "256GB / 512GB",
+          "rawText": "iQOO Pad5 Pro（8GB+256GB）：3199.00元 iQOO Pad5 Pro（12GB+256GB）：3499.00元 iQOO Pad5 Pro（12GB+512GB）：3799.00元 iQOO Pad5 Pro（16GB+512GB）：3999.00元 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.747Z",
+          "sourceSnapshotHash": "ee0af26228dc161e7a9a95cfbb81d0d43e42361115f68011e225a98536c5fc4c"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "iqoo-pad5e-2025",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "tablet",
+      "series": "iQOO Pad e",
+      "family": "iQOO Pad e",
+      "variant": "standard",
+      "modelName": "iQOO Pad5e",
+      "generation": "iQOO Pad5e",
+      "generationOrder": 2025,
+      "releaseYear": 2025,
+      "releaseDate": "2025-10-20",
+      "comparisonGroupId": "vivo.tablet.iqoo-pad-e.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "8GB + 128GB",
+            "rawText": "8GB+128GB：1999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5e",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.737Z",
+            "sourceSnapshotHash": "68b010a428cea15657f57e53d0842e9b15a224d37f5baebbe71d9debe5e0d98d"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "8GB+256GB：2299.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5e",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.737Z",
+            "sourceSnapshotHash": "68b010a428cea15657f57e53d0842e9b15a224d37f5baebbe71d9debe5e0d98d"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "12GB+256GB：2599.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5e",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.737Z",
+            "sourceSnapshotHash": "68b010a428cea15657f57e53d0842e9b15a224d37f5baebbe71d9debe5e0d98d"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "16GB+512GB：2999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5e",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.737Z",
+            "sourceSnapshotHash": "68b010a428cea15657f57e53d0842e9b15a224d37f5baebbe71d9debe5e0d98d"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "第三代骁龙8s",
+          "rawText": "第三代骁龙8s",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.737Z",
+          "sourceSnapshotHash": "68b010a428cea15657f57e53d0842e9b15a224d37f5baebbe71d9debe5e0d98d"
+        },
+        "memoryType": {
+          "value": "LPDDR5X 四通道",
+          "rawText": "LPDDR5X 四通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.737Z",
+          "sourceSnapshotHash": "68b010a428cea15657f57e53d0842e9b15a224d37f5baebbe71d9debe5e0d98d"
+        },
+        "storageType": {
+          "value": "UFS 3.1 (128GB支持) UFS 4.1 (256GB/512GB支持)",
+          "rawText": "UFS 3.1 (128GB支持) UFS 4.1 (256GB/512GB支持)",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.737Z",
+          "sourceSnapshotHash": "68b010a428cea15657f57e53d0842e9b15a224d37f5baebbe71d9debe5e0d98d"
+        },
+        "screenSize": {
+          "value": 12.1,
+          "unit": "inch",
+          "rawText": "12.1英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.737Z",
+          "sourceSnapshotHash": "68b010a428cea15657f57e53d0842e9b15a224d37f5baebbe71d9debe5e0d98d"
+        },
+        "displayType": {
+          "value": "LCD",
+          "rawText": "LCD",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.737Z",
+          "sourceSnapshotHash": "68b010a428cea15657f57e53d0842e9b15a224d37f5baebbe71d9debe5e0d98d"
+        },
+        "resolution": {
+          "value": "2800x1968",
+          "rawText": "2800x1968",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.737Z",
+          "sourceSnapshotHash": "68b010a428cea15657f57e53d0842e9b15a224d37f5baebbe71d9debe5e0d98d"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "144Hz、120Hz、90Hz、 60Hz、 48Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.737Z",
+          "sourceSnapshotHash": "68b010a428cea15657f57e53d0842e9b15a224d37f5baebbe71d9debe5e0d98d"
+        },
+        "batteryCapacity": {
+          "value": 10000,
+          "unit": "mAh",
+          "rawText": "10000mAh（典型值） 9790mAh（最小值）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.737Z",
+          "sourceSnapshotHash": "68b010a428cea15657f57e53d0842e9b15a224d37f5baebbe71d9debe5e0d98d"
+        },
+        "rearCamera": {
+          "value": "800万像素",
+          "rawText": "800万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.737Z",
+          "sourceSnapshotHash": "68b010a428cea15657f57e53d0842e9b15a224d37f5baebbe71d9debe5e0d98d"
+        },
+        "frontCamera": {
+          "value": "500万像素",
+          "rawText": "500万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.737Z",
+          "sourceSnapshotHash": "68b010a428cea15657f57e53d0842e9b15a224d37f5baebbe71d9debe5e0d98d"
+        },
+        "port": {
+          "value": "Type-C",
+          "rawText": "Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.737Z",
+          "sourceSnapshotHash": "68b010a428cea15657f57e53d0842e9b15a224d37f5baebbe71d9debe5e0d98d"
+        },
+        "chargingMethod": {
+          "value": "最高支持充电方案：44W",
+          "rawText": "最高支持充电方案：44W",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.737Z",
+          "sourceSnapshotHash": "68b010a428cea15657f57e53d0842e9b15a224d37f5baebbe71d9debe5e0d98d"
+        },
+        "weight": {
+          "value": 584,
+          "unit": "g",
+          "rawText": "584g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.737Z",
+          "sourceSnapshotHash": "68b010a428cea15657f57e53d0842e9b15a224d37f5baebbe71d9debe5e0d98d"
+        },
+        "operatingSystem": {
+          "value": "OriginOS 5 平板定制系统 安卓版本：Android 15 ",
+          "rawText": "OriginOS 5 平板定制系统 安卓版本：Android 15 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.737Z",
+          "sourceSnapshotHash": "68b010a428cea15657f57e53d0842e9b15a224d37f5baebbe71d9debe5e0d98d"
+        },
+        "memory": {
+          "value": "8GB / 12GB / 16GB",
+          "rawText": "8GB+128GB：1999.00元 8GB+256GB：2299.00元 12GB+256GB：2599.00元 16GB+512GB：2999.00元 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.737Z",
+          "sourceSnapshotHash": "68b010a428cea15657f57e53d0842e9b15a224d37f5baebbe71d9debe5e0d98d"
+        },
+        "storage": {
+          "value": "128GB / 256GB / 512GB",
+          "rawText": "8GB+128GB：1999.00元 8GB+256GB：2299.00元 12GB+256GB：2599.00元 16GB+512GB：2999.00元 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad5e",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.737Z",
+          "sourceSnapshotHash": "68b010a428cea15657f57e53d0842e9b15a224d37f5baebbe71d9debe5e0d98d"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "iqoo-pad6-pro-2026",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "tablet",
+      "series": "iQOO Pad Pro",
+      "family": "iQOO Pad Pro",
+      "variant": "standard",
+      "modelName": "iQOO Pad6 Pro",
+      "generation": "iQOO Pad6 Pro",
+      "generationOrder": 2026,
+      "releaseYear": 2026,
+      "releaseDate": "2026-05-20",
+      "comparisonGroupId": "vivo.tablet.iqoo-pad-pro.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "iQOO Pad6 Pro（8GB+256GB）：4499.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad6pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.768Z",
+            "sourceSnapshotHash": "c57ac0bb8d2bca0803f3bedc68ec980673fd671460ccce698ab5ed540b1d7b5a"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "iQOO Pad6 Pro（12GB+256GB）：4999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad6pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.768Z",
+            "sourceSnapshotHash": "c57ac0bb8d2bca0803f3bedc68ec980673fd671460ccce698ab5ed540b1d7b5a"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "iQOO Pad6 Pro（12GB+512GB）：5799.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad6pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.768Z",
+            "sourceSnapshotHash": "c57ac0bb8d2bca0803f3bedc68ec980673fd671460ccce698ab5ed540b1d7b5a"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "iQOO Pad6 Pro（16GB+512GB）：6699.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad6pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.768Z",
+            "sourceSnapshotHash": "c57ac0bb8d2bca0803f3bedc68ec980673fd671460ccce698ab5ed540b1d7b5a"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "第五代骁龙8至尊版移动平台",
+          "rawText": "第五代骁龙8至尊版移动平台",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.768Z",
+          "sourceSnapshotHash": "c57ac0bb8d2bca0803f3bedc68ec980673fd671460ccce698ab5ed540b1d7b5a"
+        },
+        "memoryType": {
+          "value": "LPDDR5X 四通道",
+          "rawText": "LPDDR5X 四通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.768Z",
+          "sourceSnapshotHash": "c57ac0bb8d2bca0803f3bedc68ec980673fd671460ccce698ab5ed540b1d7b5a"
+        },
+        "storageType": {
+          "value": "UFS4.1",
+          "rawText": "UFS4.1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.768Z",
+          "sourceSnapshotHash": "c57ac0bb8d2bca0803f3bedc68ec980673fd671460ccce698ab5ed540b1d7b5a"
+        },
+        "screenSize": {
+          "value": 13.2,
+          "unit": "inch",
+          "rawText": "13.2英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.768Z",
+          "sourceSnapshotHash": "c57ac0bb8d2bca0803f3bedc68ec980673fd671460ccce698ab5ed540b1d7b5a"
+        },
+        "displayType": {
+          "value": "LCD",
+          "rawText": "LCD",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.768Z",
+          "sourceSnapshotHash": "c57ac0bb8d2bca0803f3bedc68ec980673fd671460ccce698ab5ed540b1d7b5a"
+        },
+        "resolution": {
+          "value": "3840x2512",
+          "rawText": "3840x2512",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.768Z",
+          "sourceSnapshotHash": "c57ac0bb8d2bca0803f3bedc68ec980673fd671460ccce698ab5ed540b1d7b5a"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "最高支持144Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.768Z",
+          "sourceSnapshotHash": "c57ac0bb8d2bca0803f3bedc68ec980673fd671460ccce698ab5ed540b1d7b5a"
+        },
+        "batteryCapacity": {
+          "value": 13000,
+          "unit": "mAh",
+          "rawText": "典型值：13000mAh 额定值：12700mAh",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.768Z",
+          "sourceSnapshotHash": "c57ac0bb8d2bca0803f3bedc68ec980673fd671460ccce698ab5ed540b1d7b5a"
+        },
+        "rearCamera": {
+          "value": "1300万像素",
+          "rawText": "1300万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.768Z",
+          "sourceSnapshotHash": "c57ac0bb8d2bca0803f3bedc68ec980673fd671460ccce698ab5ed540b1d7b5a"
+        },
+        "frontCamera": {
+          "value": "800万像素",
+          "rawText": "800万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.768Z",
+          "sourceSnapshotHash": "c57ac0bb8d2bca0803f3bedc68ec980673fd671460ccce698ab5ed540b1d7b5a"
+        },
+        "port": {
+          "value": "Type-C",
+          "rawText": "Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.768Z",
+          "sourceSnapshotHash": "c57ac0bb8d2bca0803f3bedc68ec980673fd671460ccce698ab5ed540b1d7b5a"
+        },
+        "chargingMethod": {
+          "value": "66W",
+          "rawText": "66W",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.768Z",
+          "sourceSnapshotHash": "c57ac0bb8d2bca0803f3bedc68ec980673fd671460ccce698ab5ed540b1d7b5a"
+        },
+        "weight": {
+          "value": 663,
+          "unit": "g",
+          "rawText": "663g",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.768Z",
+          "sourceSnapshotHash": "c57ac0bb8d2bca0803f3bedc68ec980673fd671460ccce698ab5ed540b1d7b5a"
+        },
+        "operatingSystem": {
+          "value": "OriginOS 6 平板定制系统 ",
+          "rawText": "OriginOS 6 平板定制系统 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.768Z",
+          "sourceSnapshotHash": "c57ac0bb8d2bca0803f3bedc68ec980673fd671460ccce698ab5ed540b1d7b5a"
+        },
+        "memory": {
+          "value": "8GB / 12GB / 16GB",
+          "rawText": "iQOO Pad6 Pro（8GB+256GB）：4499.00元 iQOO Pad6 Pro（12GB+256GB）：4999.00元 iQOO Pad6 Pro（12GB+512GB）：5799.00元 iQOO Pad6 Pro（16GB+512GB）：6699.00元 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.768Z",
+          "sourceSnapshotHash": "c57ac0bb8d2bca0803f3bedc68ec980673fd671460ccce698ab5ed540b1d7b5a"
+        },
+        "storage": {
+          "value": "256GB / 512GB",
+          "rawText": "iQOO Pad6 Pro（8GB+256GB）：4499.00元 iQOO Pad6 Pro（12GB+256GB）：4999.00元 iQOO Pad6 Pro（12GB+512GB）：5799.00元 iQOO Pad6 Pro（16GB+512GB）：6699.00元 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad6pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.768Z",
+          "sourceSnapshotHash": "c57ac0bb8d2bca0803f3bedc68ec980673fd671460ccce698ab5ed540b1d7b5a"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "vivo-pad5-2025",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "tablet",
+      "series": "vivo Pad",
+      "family": "vivo Pad",
+      "variant": "standard",
+      "modelName": "vivo Pad5",
+      "generation": "Pad5",
+      "generationOrder": 2025,
+      "releaseYear": 2025,
+      "releaseDate": "2025-06-06",
+      "comparisonGroupId": "vivo.tablet.pad.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "8GB + 128GB",
+            "rawText": "vivo Pad5（8GB+128GB）：2499.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.740Z",
+            "sourceSnapshotHash": "1c2efd2671a895f5780944c2c857863c4790a2669a9f60136cfe29e688d961c5"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "vivo Pad5（8GB+256GB）：2799.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.740Z",
+            "sourceSnapshotHash": "1c2efd2671a895f5780944c2c857863c4790a2669a9f60136cfe29e688d961c5"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "vivo Pad5（12GB+256GB）：3099.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.740Z",
+            "sourceSnapshotHash": "1c2efd2671a895f5780944c2c857863c4790a2669a9f60136cfe29e688d961c5"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "vivo Pad5（16GB+512GB）：3499.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.740Z",
+            "sourceSnapshotHash": "1c2efd2671a895f5780944c2c857863c4790a2669a9f60136cfe29e688d961c5"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "天玑 9300+",
+          "rawText": "天玑 9300+",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.740Z",
+          "sourceSnapshotHash": "1c2efd2671a895f5780944c2c857863c4790a2669a9f60136cfe29e688d961c5"
+        },
+        "memoryType": {
+          "value": "LPDDR5X 四通道",
+          "rawText": "LPDDR5X 四通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.740Z",
+          "sourceSnapshotHash": "1c2efd2671a895f5780944c2c857863c4790a2669a9f60136cfe29e688d961c5"
+        },
+        "storageType": {
+          "value": "UFS 3.1（128GB支持） UFS 4.1（256GB/512GB支持）",
+          "rawText": "UFS 3.1（128GB支持） UFS 4.1（256GB/512GB支持）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.740Z",
+          "sourceSnapshotHash": "1c2efd2671a895f5780944c2c857863c4790a2669a9f60136cfe29e688d961c5"
+        },
+        "screenSize": {
+          "value": 12.1,
+          "unit": "inch",
+          "rawText": "12.1英寸（显示屏采用圆角设计，按照标准矩形测量时，屏幕的对角线长度是12.1英寸。）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.740Z",
+          "sourceSnapshotHash": "1c2efd2671a895f5780944c2c857863c4790a2669a9f60136cfe29e688d961c5"
+        },
+        "displayType": {
+          "value": "LCD屏幕",
+          "rawText": "LCD屏幕",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.740Z",
+          "sourceSnapshotHash": "1c2efd2671a895f5780944c2c857863c4790a2669a9f60136cfe29e688d961c5"
+        },
+        "resolution": {
+          "value": "2800x1968",
+          "rawText": "2800x1968",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.740Z",
+          "sourceSnapshotHash": "1c2efd2671a895f5780944c2c857863c4790a2669a9f60136cfe29e688d961c5"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "最高支持144Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.740Z",
+          "sourceSnapshotHash": "1c2efd2671a895f5780944c2c857863c4790a2669a9f60136cfe29e688d961c5"
+        },
+        "batteryCapacity": {
+          "value": 10000,
+          "unit": "mAh",
+          "rawText": "典型值：10000mAh 额定值：9790mAh",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.740Z",
+          "sourceSnapshotHash": "1c2efd2671a895f5780944c2c857863c4790a2669a9f60136cfe29e688d961c5"
+        },
+        "rearCamera": {
+          "value": "800万像素",
+          "rawText": "800万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.740Z",
+          "sourceSnapshotHash": "1c2efd2671a895f5780944c2c857863c4790a2669a9f60136cfe29e688d961c5"
+        },
+        "frontCamera": {
+          "value": "500万像素",
+          "rawText": "500万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.740Z",
+          "sourceSnapshotHash": "1c2efd2671a895f5780944c2c857863c4790a2669a9f60136cfe29e688d961c5"
+        },
+        "port": {
+          "value": "Type-C",
+          "rawText": "Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.740Z",
+          "sourceSnapshotHash": "1c2efd2671a895f5780944c2c857863c4790a2669a9f60136cfe29e688d961c5"
+        },
+        "chargingMethod": {
+          "value": "44W",
+          "rawText": "44W",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.740Z",
+          "sourceSnapshotHash": "1c2efd2671a895f5780944c2c857863c4790a2669a9f60136cfe29e688d961c5"
+        },
+        "weight": {
+          "value": 590,
+          "unit": "g",
+          "rawText": "590g（标准版）；597g（柔光版）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.740Z",
+          "sourceSnapshotHash": "1c2efd2671a895f5780944c2c857863c4790a2669a9f60136cfe29e688d961c5"
+        },
+        "operatingSystem": {
+          "value": "OriginOS 5 平板定制系统",
+          "rawText": "OriginOS 5 平板定制系统",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.740Z",
+          "sourceSnapshotHash": "1c2efd2671a895f5780944c2c857863c4790a2669a9f60136cfe29e688d961c5"
+        },
+        "memory": {
+          "value": "8GB / 12GB / 16GB",
+          "rawText": "vivo Pad5（8GB+128GB）：2499.00元 vivo Pad5（8GB+256GB）：2799.00元 vivo Pad5 柔光版（8GB+256GB）：2799.00元 vivo Pad5（12GB+256GB）：3099.00元 vivo Pad5 柔光版（12GB+256GB）：3099.00元 vivo Pad5（16GB+512GB）：3499.00元 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.740Z",
+          "sourceSnapshotHash": "1c2efd2671a895f5780944c2c857863c4790a2669a9f60136cfe29e688d961c5"
+        },
+        "storage": {
+          "value": "128GB / 256GB / 512GB",
+          "rawText": "vivo Pad5（8GB+128GB）：2499.00元 vivo Pad5（8GB+256GB）：2799.00元 vivo Pad5 柔光版（8GB+256GB）：2799.00元 vivo Pad5（12GB+256GB）：3099.00元 vivo Pad5 柔光版（12GB+256GB）：3099.00元 vivo Pad5（16GB+512GB）：3499.00元 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.740Z",
+          "sourceSnapshotHash": "1c2efd2671a895f5780944c2c857863c4790a2669a9f60136cfe29e688d961c5"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "vivo-pad5-pro-2025",
+      "brand": "vivo",
+      "market": "CN",
+      "category": "tablet",
+      "series": "vivo Pad Pro",
+      "family": "vivo Pad Pro",
+      "variant": "standard",
+      "modelName": "vivo Pad5 Pro",
+      "generation": "Pad5 Pro",
+      "generationOrder": 2025,
+      "releaseYear": 2025,
+      "releaseDate": "2025-04-25",
+      "comparisonGroupId": "vivo.tablet.pad-pro.standard",
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "evidence": {
+            "value": "8GB + 128GB",
+            "rawText": "vivo Pad5 Pro（8GB+128GB）：2999.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.727Z",
+            "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+          }
+        },
+        {
+          "memory": "8GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "8GB + 256GB",
+            "rawText": "vivo Pad5 Pro（8GB+256GB）：3099.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.727Z",
+            "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "vivo Pad5 Pro（12GB+256GB）：3399.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.727Z",
+            "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "vivo Pad5 Pro（12GB+512GB）：3699.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.727Z",
+            "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "vivo Pad5 Pro（16GB+512GB）：3899.00元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T20:45:41.727Z",
+            "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "天玑 9400",
+          "rawText": "天玑 9400",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.727Z",
+          "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+        },
+        "memoryType": {
+          "value": "LPDDR5X 四通道",
+          "rawText": "LPDDR5X 四通道",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.727Z",
+          "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+        },
+        "storageType": {
+          "value": "UFS 3.1（128GB支持） UFS 4.1（256GB/512GB支持）",
+          "rawText": "UFS 3.1（128GB支持） UFS 4.1（256GB/512GB支持）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.727Z",
+          "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+        },
+        "screenSize": {
+          "value": 13,
+          "unit": "inch",
+          "rawText": "13英寸（显示屏采用圆角设计，按照标准矩形测量时，屏幕的对角线长度是12.95英寸。）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.727Z",
+          "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+        },
+        "displayType": {
+          "value": "LCD屏幕",
+          "rawText": "LCD屏幕",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.727Z",
+          "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+        },
+        "resolution": {
+          "value": "3096x2064",
+          "rawText": "3096x2064",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.727Z",
+          "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "最高支持144Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.727Z",
+          "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+        },
+        "batteryCapacity": {
+          "value": 12050,
+          "unit": "mAh",
+          "rawText": "典型值：12050mAh 额定值：11790mAh",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.727Z",
+          "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+        },
+        "rearCamera": {
+          "value": "1300万像素",
+          "rawText": "1300万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.727Z",
+          "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+        },
+        "frontCamera": {
+          "value": "800万像素",
+          "rawText": "800万像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.727Z",
+          "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+        },
+        "port": {
+          "value": "Type-C",
+          "rawText": "Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.727Z",
+          "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+        },
+        "chargingMethod": {
+          "value": "66W闪充",
+          "rawText": "66W闪充",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.727Z",
+          "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+        },
+        "operatingSystem": {
+          "value": "OriginOS 5 平板定制系统",
+          "rawText": "OriginOS 5 平板定制系统",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.727Z",
+          "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+        },
+        "memory": {
+          "value": "8GB / 12GB / 16GB",
+          "rawText": "寒星灰、春潮蓝、云霞粉 vivo Pad5 Pro（8GB+128GB）：2999.00元 vivo Pad5 Pro（8GB+256GB）：3099.00元 vivo Pad5 Pro（12GB+256GB）：3399.00元 vivo Pad5 Pro（12GB+512GB）：3699.00元 vivo Pad5 Pro（16GB+512GB）：3899.00元 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.727Z",
+          "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+        },
+        "storage": {
+          "value": "128GB / 256GB / 512GB",
+          "rawText": "寒星灰、春潮蓝、云霞粉 vivo Pad5 Pro（8GB+128GB）：2999.00元 vivo Pad5 Pro（8GB+256GB）：3099.00元 vivo Pad5 Pro（12GB+256GB）：3399.00元 vivo Pad5 Pro（12GB+512GB）：3699.00元 vivo Pad5 Pro（16GB+512GB）：3899.00元 ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad5pro",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:45:41.727Z",
+          "sourceSnapshotHash": "f4c31cb8809be31c2fb1ff7ed4bc302cfc462ac64e7da9f1e10715544a35d3af"
+        }
+      },
+      "computed": {}
+    }
+  ]
+}

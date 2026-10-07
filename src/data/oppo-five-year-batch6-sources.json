@@ -1,0 +1,703 @@
+{
+  "phone": [],
+  "tablet": [
+    {
+      "id": "oppo-pad6-2026",
+      "modelName": "OPPO Pad 6",
+      "generation": "Pad 6",
+      "releaseYear": 2026,
+      "sourceStatus": "verified",
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "officialSpecUrl": "https://www.opposhop.cn/cn/web/products/41012.html",
+      "officialSpecEvidence": {
+        "value": "OPPO Pad 6",
+        "rawText": "OPPO Pad 6 星河银",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/41012.html",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:46:19.973Z",
+        "sourceSnapshotHash": "48e5463f9cc3de948dcaf75955a4d660a1a50acbe2692e59d0b7a53436bcbdc4"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "OPPO Pad 6 星河银",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/41012.html",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:46:19.973Z",
+        "sourceSnapshotHash": "48e5463f9cc3de948dcaf75955a4d660a1a50acbe2692e59d0b7a53436bcbdc4"
+      },
+      "configurationMethod": "中国官方商城skuItems实际skuId逐页可见标题；单值成对版本、网络、柔光逐条绑定，不交叉推导",
+      "configurationEvidence": [
+        {
+          "value": "12GB + 256GB",
+          "rawText": "OPPO Pad 6 星河银 12GB+256GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.opposhop.cn/cn/web/products/41009.html",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:56:50.163Z",
+          "sourceSnapshotHash": "446c304b3b691b51d8ef3a05e4f3ba57e14fb81dfa46111f96b3cd95f1c09cc6"
+        },
+        {
+          "value": "8GB + 256GB",
+          "rawText": "OPPO Pad 6 星河银 8GB+256GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.opposhop.cn/cn/web/products/41005.html",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:56:50.563Z",
+          "sourceSnapshotHash": "e4e4566a61ecdcaa9ab7b1cf98fc34ffea0a5cce987d40ddf1cb5956195942bd"
+        },
+        {
+          "value": "16GB + 512GB",
+          "rawText": "OPPO Pad 6 星河银 16GB+512GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.opposhop.cn/cn/web/products/41012.html",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:46:19.973Z",
+          "sourceSnapshotHash": "48e5463f9cc3de948dcaf75955a4d660a1a50acbe2692e59d0b7a53436bcbdc4"
+        },
+        {
+          "value": "8GB + 128GB",
+          "rawText": "OPPO Pad 6 月光银 8GB+128GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.opposhop.cn/cn/web/products/46933.html",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:56:50.903Z",
+          "sourceSnapshotHash": "2f9802b60c657547294a5a8512cab5c7c64b361df64ba345dce8f972d47406e8"
+        }
+      ],
+      "referenceUrls": [
+        "https://www.opposhop.cn/cn/web/products/41012.html",
+        "https://www.opposhop.cn/cn/web/products/41009.html",
+        "https://www.opposhop.cn/cn/web/products/41005.html",
+        "https://www.opposhop.cn/cn/web/products/46933.html",
+        "https://www.ithome.com/0/956/957.htm"
+      ],
+      "notes": "仅本批有限平板实际SKU；中国官网区域身份+独立已售证据，上市月份与页面现价不当首售日期/首售价。",
+      "officialSpecSnapshotStatus": "official_shop_static_spec_data",
+      "versionVerification": {
+        "variant": "standard",
+        "configurationMethod": "中国官方商城skuItems实际skuId逐页可见标题；单值成对版本、网络、柔光逐条绑定，不交叉推导",
+        "officialSkuIds": [
+          "41009",
+          "41005",
+          "41012",
+          "46933"
+        ],
+        "excludedEditionTerms": [
+          "柔光版",
+          "超轻版"
+        ],
+        "note": "网络/柔光依据实际逐SKU字段，不从厂商分类页或外观颜色推断；同容量不同实际版型独立device。"
+      },
+      "releaseEvidence": {
+        "value": "2026-05-29",
+        "rawText": "OPPO Pad 6 平板现已开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/956/957.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:50:41.693Z",
+        "sourceSnapshotHash": "fdcc4318934bc8e2275a35d0c82c46eafc98db35635af82e8655624a12a04de4"
+      },
+      "releaseDatePrecision": "day",
+      "productImages": {
+        "modelName": "OPPO Pad 6",
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/41012.html",
+        "sourceSnapshotHash": "48e5463f9cc3de948dcaf75955a4d660a1a50acbe2692e59d0b7a53436bcbdc4",
+        "fetchedAt": "2026-10-05T20:46:19.973Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。",
+        "primary": {
+          "url": "https://msecfs.opposhop.cn/commons-media-picture/GOODS/20260518/4f2aacab974e18a1c3692993e7a183a8-1904959679.png?_w_=480&_h_=480&x-oss-process=image%2Fresize%2Cm_mfit%2Climit_1%2Cw_750%2Ch_750",
+          "alt": "OPPO Pad 6 星河银 16GB+512GB",
+          "modelName": "OPPO Pad 6",
+          "sourceUrl": "https://www.opposhop.cn/cn/web/products/41012.html",
+          "sourceSnapshotHash": "48e5463f9cc3de948dcaf75955a4d660a1a50acbe2692e59d0b7a53436bcbdc4",
+          "fetchedAt": "2026-10-05T20:46:19.973Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "深空灰",
+            "url": "https://msecfs.opposhop.cn/commons-media-picture/GOODS/20260518/d8e06fd1c7b452fedd21ba624177c0991365471713.png?_w_=1440&_h_=1440&x-oss-process=image%2Fresize%2Cm_mfit%2Climit_1%2Cw_1440%2Ch_1440",
+            "modelName": "OPPO Pad 6",
+            "sourceUrl": "https://www.opposhop.cn/cn/web/products/41012.html",
+            "sourceSnapshotHash": "48e5463f9cc3de948dcaf75955a4d660a1a50acbe2692e59d0b7a53436bcbdc4",
+            "fetchedAt": "2026-10-05T20:46:19.973Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。"
+          },
+          {
+            "name": "星河银",
+            "url": "https://msecfs.opposhop.cn/commons-media-picture/GOODS/20260518/2f80224263b120cc876ae2cadc1869c31732527817.png?_w_=1440&_h_=1440&x-oss-process=image%2Fresize%2Cm_mfit%2Climit_1%2Cw_1440%2Ch_1440",
+            "modelName": "OPPO Pad 6",
+            "sourceUrl": "https://www.opposhop.cn/cn/web/products/41012.html",
+            "sourceSnapshotHash": "48e5463f9cc3de948dcaf75955a4d660a1a50acbe2692e59d0b7a53436bcbdc4",
+            "fetchedAt": "2026-10-05T20:46:19.973Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。"
+          },
+          {
+            "name": "月光银",
+            "url": "https://msecfs.opposhop.cn/commons-media-picture/GOODS/20260831/2f80224263b120cc876ae2cadc1869c3-1156508093.png?_w_=1440&_h_=1440&x-oss-process=image%2Fresize%2Cm_mfit%2Climit_1%2Cw_1440%2Ch_1440",
+            "modelName": "OPPO Pad 6",
+            "sourceUrl": "https://www.opposhop.cn/cn/web/products/41012.html",
+            "sourceSnapshotHash": "48e5463f9cc3de948dcaf75955a4d660a1a50acbe2692e59d0b7a53436bcbdc4",
+            "fetchedAt": "2026-10-05T20:46:19.973Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。"
+          }
+        ],
+        "excludedColors": [
+          {
+            "name": "星河银 柔光版",
+            "reason": "柔光版独立SKU，不并入标准版颜色"
+          },
+          {
+            "name": "星光蓝 柔光版",
+            "reason": "柔光版独立SKU，不并入标准版颜色"
+          }
+        ],
+        "gaps": []
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未登记本版型首发定价独立原文；官网现价/上市价目只用于SKU，不当首售价"
+        }
+      ]
+    },
+    {
+      "id": "oppo-pad5-pro-2026",
+      "modelName": "OPPO Pad 5 Pro",
+      "generation": "Pad 5 Pro",
+      "releaseYear": 2026,
+      "sourceStatus": "verified",
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "officialSpecUrl": "https://www.opposhop.cn/cn/web/products/40016.html",
+      "officialSpecEvidence": {
+        "value": "OPPO Pad 5 Pro",
+        "rawText": "OPPO Pad 5 Pro 晨曦金",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/40016.html",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:46:20.001Z",
+        "sourceSnapshotHash": "3d19d0011b2944a7015d5e924cb7bf5ac3cfbbcea5c071976614eb302a2ebdcc"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "OPPO Pad 5 Pro 晨曦金",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/40016.html",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:46:20.001Z",
+        "sourceSnapshotHash": "3d19d0011b2944a7015d5e924cb7bf5ac3cfbbcea5c071976614eb302a2ebdcc"
+      },
+      "configurationMethod": "中国官方商城skuItems实际skuId逐页可见标题；单值成对版本、网络、柔光逐条绑定，不交叉推导",
+      "configurationEvidence": [
+        {
+          "value": "12GB + 256GB",
+          "rawText": "OPPO Pad 5 Pro 莫奈紫 12GB+256GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.opposhop.cn/cn/web/products/40015.html",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:56:51.275Z",
+          "sourceSnapshotHash": "be6175e505a550282b547cc239af512a0518a8ebe1f6352de6d9c5e018cdd4e0"
+        },
+        {
+          "value": "12GB + 512GB",
+          "rawText": "OPPO Pad 5 Pro 晨曦金 12GB+512GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.opposhop.cn/cn/web/products/40016.html",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:46:20.001Z",
+          "sourceSnapshotHash": "3d19d0011b2944a7015d5e924cb7bf5ac3cfbbcea5c071976614eb302a2ebdcc"
+        },
+        {
+          "value": "8GB + 256GB",
+          "rawText": "OPPO Pad 5 Pro 晨曦金 8GB+256GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.opposhop.cn/cn/web/products/40012.html",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:56:51.637Z",
+          "sourceSnapshotHash": "c2fb604d7b9353cce2c82217ae0a09eb6b28243d0529a2dad4d8462f93c795d7"
+        },
+        {
+          "value": "16GB + 512GB",
+          "rawText": "OPPO Pad 5 Pro 莫奈紫 16GB+512GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.opposhop.cn/cn/web/products/40020.html",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:56:52.099Z",
+          "sourceSnapshotHash": "69aab6bba59df3fae992c38f618a929a168ecc027216e05e9fc82f01ef2156c4"
+        }
+      ],
+      "referenceUrls": [
+        "https://www.opposhop.cn/cn/web/products/40016.html",
+        "https://www.opposhop.cn/cn/web/products/40015.html",
+        "https://www.opposhop.cn/cn/web/products/40012.html",
+        "https://www.opposhop.cn/cn/web/products/40020.html",
+        "https://m.ithome.com/html/943152.htm"
+      ],
+      "notes": "仅本批有限平板实际SKU；中国官网区域身份+独立已售证据，上市月份与页面现价不当首售日期/首售价。",
+      "officialSpecSnapshotStatus": "official_shop_static_spec_data",
+      "versionVerification": {
+        "variant": "standard",
+        "configurationMethod": "中国官方商城skuItems实际skuId逐页可见标题；单值成对版本、网络、柔光逐条绑定，不交叉推导",
+        "officialSkuIds": [
+          "40015",
+          "40016",
+          "40012",
+          "40020"
+        ],
+        "excludedEditionTerms": [
+          "柔光版",
+          "超轻版"
+        ],
+        "note": "网络/柔光依据实际逐SKU字段，不从厂商分类页或外观颜色推断；同容量不同实际版型独立device。"
+      },
+      "releaseEvidence": {
+        "value": "2026-04-24",
+        "rawText": "OPPO Pad 5 平板现已在京东正式发售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://m.ithome.com/html/943152.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:50:41.745Z",
+        "sourceSnapshotHash": "6be2afd96cb25d7afeaffdaefa39a8f6986ce4883c40d125af5c0973810c43ac"
+      },
+      "releaseDatePrecision": "day",
+      "productImages": {
+        "modelName": "OPPO Pad 5 Pro",
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/40016.html",
+        "sourceSnapshotHash": "3d19d0011b2944a7015d5e924cb7bf5ac3cfbbcea5c071976614eb302a2ebdcc",
+        "fetchedAt": "2026-10-05T20:46:20.001Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。",
+        "primary": {
+          "url": "https://msecfs.opposhop.cn/commons-media-picture/GOODS/20260411/ee3bdc1ab6841bd858fb5c94836df8102106726588.png?_w_=480&_h_=480&x-oss-process=image%2Fresize%2Cm_mfit%2Climit_1%2Cw_750%2Ch_750",
+          "alt": "OPPO Pad 5 Pro 晨曦金 12GB+512GB",
+          "modelName": "OPPO Pad 5 Pro",
+          "sourceUrl": "https://www.opposhop.cn/cn/web/products/40016.html",
+          "sourceSnapshotHash": "3d19d0011b2944a7015d5e924cb7bf5ac3cfbbcea5c071976614eb302a2ebdcc",
+          "fetchedAt": "2026-10-05T20:46:20.001Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "晨曦金",
+            "url": "https://msecfs.opposhop.cn/commons-media-picture/GOODS/20260411/27f191275485fb8ccddd1ceef2f99895-1074916570.png?_w_=1440&_h_=1440&x-oss-process=image%2Fresize%2Cm_mfit%2Climit_1%2Cw_1440%2Ch_1440",
+            "modelName": "OPPO Pad 5 Pro",
+            "sourceUrl": "https://www.opposhop.cn/cn/web/products/40016.html",
+            "sourceSnapshotHash": "3d19d0011b2944a7015d5e924cb7bf5ac3cfbbcea5c071976614eb302a2ebdcc",
+            "fetchedAt": "2026-10-05T20:46:20.001Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。"
+          },
+          {
+            "name": "摩卡棕",
+            "url": "https://msecfs.opposhop.cn/commons-media-picture/GOODS/20260411/62a50fc17c2499d97d5ef6eeb8f8e86c886822022.png?_w_=1440&_h_=1440&x-oss-process=image%2Fresize%2Cm_mfit%2Climit_1%2Cw_1440%2Ch_1440",
+            "modelName": "OPPO Pad 5 Pro",
+            "sourceUrl": "https://www.opposhop.cn/cn/web/products/40016.html",
+            "sourceSnapshotHash": "3d19d0011b2944a7015d5e924cb7bf5ac3cfbbcea5c071976614eb302a2ebdcc",
+            "fetchedAt": "2026-10-05T20:46:20.001Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。"
+          },
+          {
+            "name": "莫奈紫",
+            "url": "https://msecfs.opposhop.cn/commons-media-picture/GOODS/20260411/ba56185cd4eb865124bf4e0e53af1d5f1949784562.png?_w_=1440&_h_=1440&x-oss-process=image%2Fresize%2Cm_mfit%2Climit_1%2Cw_1440%2Ch_1440",
+            "modelName": "OPPO Pad 5 Pro",
+            "sourceUrl": "https://www.opposhop.cn/cn/web/products/40016.html",
+            "sourceSnapshotHash": "3d19d0011b2944a7015d5e924cb7bf5ac3cfbbcea5c071976614eb302a2ebdcc",
+            "fetchedAt": "2026-10-05T20:46:20.001Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。"
+          }
+        ],
+        "gaps": []
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未登记本版型首发定价独立原文；官网现价/上市价目只用于SKU，不当首售价"
+        }
+      ]
+    },
+    {
+      "id": "oppo-pad-air5-2025-wifi",
+      "modelName": "OPPO Pad Air5 Wi-Fi版",
+      "generation": "Pad Air5",
+      "releaseYear": 2025,
+      "sourceStatus": "verified",
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "officialSpecUrl": "https://www.opposhop.cn/cn/web/products/38509.html",
+      "officialSpecEvidence": {
+        "value": "OPPO Pad Air5",
+        "rawText": "OPPO Pad Air5 浅粉 8GB+256GB WIFI版",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/38509.html",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:46:20.000Z",
+        "sourceSnapshotHash": "48944d53f9653bed0ca1bb136d05244f3c1698fdde168daa96e78c9acbced1fa"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "OPPO Pad Air5 浅粉 8GB+256GB WIFI版",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/38509.html",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:46:20.000Z",
+        "sourceSnapshotHash": "48944d53f9653bed0ca1bb136d05244f3c1698fdde168daa96e78c9acbced1fa"
+      },
+      "configurationMethod": "中国官方商城skuItems实际skuId逐页可见标题；单值成对版本、网络、柔光逐条绑定，不交叉推导",
+      "configurationEvidence": [
+        {
+          "value": "12GB + 256GB",
+          "rawText": "OPPO Pad Air5 深灰 12GB+256GB  WIFI版",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.opposhop.cn/cn/web/products/38513.html",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:56:52.573Z",
+          "sourceSnapshotHash": "fdbb64fd88785456f183a1ced8d90dc0ff11de7053263f0751e3f4faa32756b3"
+        },
+        {
+          "value": "8GB + 256GB",
+          "rawText": "OPPO Pad Air5 深灰 8GB+256GB  WIFI版",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.opposhop.cn/cn/web/products/38510.html",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:56:53.019Z",
+          "sourceSnapshotHash": "6d65758b861369eb308f51f3fc8a5e8baf5ed01298183e3c30a8f165d33bd953"
+        },
+        {
+          "value": "8GB + 128GB",
+          "rawText": "OPPO Pad Air5 深灰 8GB+128GB  WIFI版",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.opposhop.cn/cn/web/products/38508.html",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:56:53.374Z",
+          "sourceSnapshotHash": "e6ff45f6f1ecf96286bac0106ef1c5ea2e69df397942fe7178888affba90e01a"
+        }
+      ],
+      "referenceUrls": [
+        "https://www.opposhop.cn/cn/web/products/38509.html",
+        "https://www.opposhop.cn/cn/web/products/38513.html",
+        "https://www.opposhop.cn/cn/web/products/38510.html",
+        "https://www.opposhop.cn/cn/web/products/38508.html",
+        "https://pad.zol.com.cn/1109/11094618_all.html"
+      ],
+      "notes": "仅本批有限平板实际SKU；中国官网区域身份+独立已售证据，上市月份与页面现价不当首售日期/首售价。",
+      "officialSpecSnapshotStatus": "official_shop_static_spec_data",
+      "versionVerification": {
+        "variant": "wifi",
+        "configurationMethod": "中国官方商城skuItems实际skuId逐页可见标题；单值成对版本、网络、柔光逐条绑定，不交叉推导",
+        "officialSkuIds": [
+          "38513",
+          "38510",
+          "38508"
+        ],
+        "networkType": "WIFI版",
+        "excludedEditionTerms": [
+          "柔光版",
+          "超轻版"
+        ],
+        "note": "网络/柔光依据实际逐SKU字段，不从厂商分类页或外观颜色推断；同容量不同实际版型独立device。"
+      },
+      "releaseEvidence": {
+        "value": "2025-12-31",
+        "rawText": "2025年12月31日， OPPO Pad Air5正式开启销售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://pad.zol.com.cn/1109/11094618_all.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:56:55.646Z",
+        "sourceSnapshotHash": "cc271e48a9e1643e9640fbd6a2ebb50bec8202e8c90896e244b0186973269732"
+      },
+      "releaseDatePrecision": "day",
+      "productImages": {
+        "modelName": "OPPO Pad Air5 Wi-Fi版",
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/38509.html",
+        "sourceSnapshotHash": "48944d53f9653bed0ca1bb136d05244f3c1698fdde168daa96e78c9acbced1fa",
+        "fetchedAt": "2026-10-05T20:46:20.000Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。",
+        "primary": {
+          "url": "https://msecfs.opposhop.cn/commons-media-picture/GOODS/20260907/b24f29ccebdbe4c48449dce68ad635e3-1364527521.png?_w_=750&_h_=750&x-oss-process=image%2Fresize%2Cm_mfit%2Climit_1%2Cw_750%2Ch_750",
+          "alt": "OPPO Pad Air5 浅粉 8GB+256GB  WIFI版",
+          "modelName": "OPPO Pad Air5 Wi-Fi版",
+          "sourceUrl": "https://www.opposhop.cn/cn/web/products/38509.html",
+          "sourceSnapshotHash": "48944d53f9653bed0ca1bb136d05244f3c1698fdde168daa96e78c9acbced1fa",
+          "fetchedAt": "2026-10-05T20:46:20.000Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "浅粉",
+            "url": "https://msecfs.opposhop.cn/commons-media-picture/GOODS/20251218/e5bc11ec90a9a2a9f3f0b22e12d10ac51769005911.png?_w_=1440&_h_=1440&x-oss-process=image%2Fresize%2Cm_mfit%2Climit_1%2Cw_1440%2Ch_1440",
+            "modelName": "OPPO Pad Air5 Wi-Fi版",
+            "sourceUrl": "https://www.opposhop.cn/cn/web/products/38509.html",
+            "sourceSnapshotHash": "48944d53f9653bed0ca1bb136d05244f3c1698fdde168daa96e78c9acbced1fa",
+            "fetchedAt": "2026-10-05T20:46:20.000Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。"
+          },
+          {
+            "name": "深灰",
+            "url": "https://msecfs.opposhop.cn/commons-media-picture/GOODS/20251218/5c1aaaa51817e069b70ce5ed611c03b6-1482371536.png?_w_=1440&_h_=1440&x-oss-process=image%2Fresize%2Cm_mfit%2Climit_1%2Cw_1440%2Ch_1440",
+            "modelName": "OPPO Pad Air5 Wi-Fi版",
+            "sourceUrl": "https://www.opposhop.cn/cn/web/products/38509.html",
+            "sourceSnapshotHash": "48944d53f9653bed0ca1bb136d05244f3c1698fdde168daa96e78c9acbced1fa",
+            "fetchedAt": "2026-10-05T20:46:20.000Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。"
+          },
+          {
+            "name": "星动白",
+            "url": "https://msecfs.opposhop.cn/commons-media-picture/GOODS/20260520/cfe2ea5c8652937c0d0799df45344f351250520972.png?_w_=1440&_h_=1440&x-oss-process=image%2Fresize%2Cm_mfit%2Climit_1%2Cw_1440%2Ch_1440",
+            "modelName": "OPPO Pad Air5 Wi-Fi版",
+            "sourceUrl": "https://www.opposhop.cn/cn/web/products/38509.html",
+            "sourceSnapshotHash": "48944d53f9653bed0ca1bb136d05244f3c1698fdde168daa96e78c9acbced1fa",
+            "fetchedAt": "2026-10-05T20:46:20.000Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。"
+          }
+        ],
+        "excludedColors": [
+          {
+            "name": "浅粉 柔光版",
+            "reason": "柔光版独立SKU，不并入标准版颜色"
+          },
+          {
+            "name": "深灰 柔光版",
+            "reason": "柔光版独立SKU，不并入标准版颜色"
+          },
+          {
+            "name": "星动白 柔光版",
+            "reason": "柔光版独立SKU，不并入标准版颜色"
+          }
+        ],
+        "gaps": []
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未登记本版型首发定价独立原文；官网现价/上市价目只用于SKU，不当首售价"
+        }
+      ]
+    },
+    {
+      "id": "oppo-pad-air5-2025-wifi-soft-light",
+      "modelName": "OPPO Pad Air5 Wi-Fi柔光版",
+      "generation": "Pad Air5",
+      "releaseYear": 2025,
+      "sourceStatus": "verified",
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "officialSpecUrl": "https://www.opposhop.cn/cn/web/products/38511.html",
+      "officialSpecEvidence": {
+        "value": "OPPO Pad Air5",
+        "rawText": "OPPO Pad Air5 浅粉 柔光版 8GB+256GB WIFI版",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/38511.html",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:55:37.253Z",
+        "sourceSnapshotHash": "6e2b328166b692ff4a8a902fcdc538501d329f50bcc8ffa9c8b9bac0633e9a60"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "OPPO Pad Air5 浅粉 柔光版 8GB+256GB WIFI版",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/38511.html",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:55:37.253Z",
+        "sourceSnapshotHash": "6e2b328166b692ff4a8a902fcdc538501d329f50bcc8ffa9c8b9bac0633e9a60"
+      },
+      "configurationMethod": "中国官方商城skuItems实际skuId逐页可见标题；单值成对版本、网络、柔光逐条绑定，不交叉推导",
+      "configurationEvidence": [
+        {
+          "value": "12GB + 256GB",
+          "rawText": "OPPO Pad Air5 浅粉 柔光版 12GB+256GB  WIFI版",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.opposhop.cn/cn/web/products/38514.html",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:56:56.010Z",
+          "sourceSnapshotHash": "b3306ebb26184d7c8496adf82256c85ad041690580c4f3b201d526ff5a33021d"
+        },
+        {
+          "value": "8GB + 256GB",
+          "rawText": "OPPO Pad Air5 深灰 柔光版 8GB+256GB  WIFI版",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.opposhop.cn/cn/web/products/38512.html",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:56:56.713Z",
+          "sourceSnapshotHash": "eb9913beefee20d0a5e5910ee99c9573cf72307306d312e6ada6bd17e50e348e"
+        }
+      ],
+      "referenceUrls": [
+        "https://www.opposhop.cn/cn/web/products/38511.html",
+        "https://www.opposhop.cn/cn/web/products/38514.html",
+        "https://www.opposhop.cn/cn/web/products/38512.html",
+        "https://pad.zol.com.cn/1109/11094618_all.html"
+      ],
+      "notes": "仅本批有限平板实际SKU；中国官网区域身份+独立已售证据，上市月份与页面现价不当首售日期/首售价。",
+      "officialSpecSnapshotStatus": "official_shop_static_spec_data",
+      "versionVerification": {
+        "variant": "wifi-soft-light",
+        "configurationMethod": "中国官方商城skuItems实际skuId逐页可见标题；单值成对版本、网络、柔光逐条绑定，不交叉推导",
+        "officialSkuIds": [
+          "38514",
+          "38512"
+        ],
+        "networkType": "WIFI版",
+        "excludedEditionTerms": [
+          "标准版"
+        ],
+        "note": "网络/柔光依据实际逐SKU字段，不从厂商分类页或外观颜色推断；同容量不同实际版型独立device。"
+      },
+      "releaseEvidence": {
+        "value": "2025-12-31",
+        "rawText": "2025年12月31日， OPPO Pad Air5正式开启销售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://pad.zol.com.cn/1109/11094618_all.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:56:55.646Z",
+        "sourceSnapshotHash": "cc271e48a9e1643e9640fbd6a2ebb50bec8202e8c90896e244b0186973269732"
+      },
+      "releaseDatePrecision": "day",
+      "variantEvidence": {
+        "value": "柔光版",
+        "rawText": "OPPO Pad Air5 浅粉 柔光版 8GB+256GB WIFI版",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/38511.html",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:55:37.253Z",
+        "sourceSnapshotHash": "6e2b328166b692ff4a8a902fcdc538501d329f50bcc8ffa9c8b9bac0633e9a60"
+      },
+      "productImages": {
+        "modelName": "OPPO Pad Air5 Wi-Fi柔光版",
+        "sourceUrl": "https://www.opposhop.cn/cn/web/products/38511.html",
+        "sourceSnapshotHash": "6e2b328166b692ff4a8a902fcdc538501d329f50bcc8ffa9c8b9bac0633e9a60",
+        "fetchedAt": "2026-10-05T20:55:37.253Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。",
+        "primary": {
+          "url": "https://msecfs.opposhop.cn/commons-media-picture/GOODS/20251218/c7ff67d74a2f1a9ffd84201298d34160-335742320.png?_w_=480&_h_=480&x-oss-process=image%2Fresize%2Cm_mfit%2Climit_1%2Cw_750%2Ch_750",
+          "alt": "OPPO Pad Air5 浅粉 柔光版 8GB+256GB  WIFI版",
+          "modelName": "OPPO Pad Air5 Wi-Fi柔光版",
+          "sourceUrl": "https://www.opposhop.cn/cn/web/products/38511.html",
+          "sourceSnapshotHash": "6e2b328166b692ff4a8a902fcdc538501d329f50bcc8ffa9c8b9bac0633e9a60",
+          "fetchedAt": "2026-10-05T20:55:37.253Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "浅粉",
+            "url": "https://msecfs.opposhop.cn/commons-media-picture/GOODS/20251218/e5bc11ec90a9a2a9f3f0b22e12d10ac51769005911.png?_w_=1440&_h_=1440&x-oss-process=image%2Fresize%2Cm_mfit%2Climit_1%2Cw_1440%2Ch_1440",
+            "modelName": "OPPO Pad Air5 Wi-Fi柔光版",
+            "sourceUrl": "https://www.opposhop.cn/cn/web/products/38511.html",
+            "sourceSnapshotHash": "6e2b328166b692ff4a8a902fcdc538501d329f50bcc8ffa9c8b9bac0633e9a60",
+            "fetchedAt": "2026-10-05T20:55:37.253Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。"
+          },
+          {
+            "name": "深灰",
+            "url": "https://msecfs.opposhop.cn/commons-media-picture/GOODS/20251218/5c1aaaa51817e069b70ce5ed611c03b6-1482371536.png?_w_=1440&_h_=1440&x-oss-process=image%2Fresize%2Cm_mfit%2Climit_1%2Cw_1440%2Ch_1440",
+            "modelName": "OPPO Pad Air5 Wi-Fi柔光版",
+            "sourceUrl": "https://www.opposhop.cn/cn/web/products/38511.html",
+            "sourceSnapshotHash": "6e2b328166b692ff4a8a902fcdc538501d329f50bcc8ffa9c8b9bac0633e9a60",
+            "fetchedAt": "2026-10-05T20:55:37.253Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。"
+          },
+          {
+            "name": "星动白",
+            "url": "https://msecfs.opposhop.cn/commons-media-picture/GOODS/20260520/cfe2ea5c8652937c0d0799df45344f351250520972.png?_w_=1440&_h_=1440&x-oss-process=image%2Fresize%2Cm_mfit%2Climit_1%2Cw_1440%2Ch_1440",
+            "modelName": "OPPO Pad Air5 Wi-Fi柔光版",
+            "sourceUrl": "https://www.opposhop.cn/cn/web/products/38511.html",
+            "sourceSnapshotHash": "6e2b328166b692ff4a8a902fcdc538501d329f50bcc8ffa9c8b9bac0633e9a60",
+            "fetchedAt": "2026-10-05T20:55:37.253Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开产品身份和原页URL已核验；未取得版权授权或商业转载许可。"
+          }
+        ],
+        "excludedColors": [
+          {
+            "name": "浅粉",
+            "reason": "标准版颜色不沿用至柔光独立版型"
+          },
+          {
+            "name": "深灰",
+            "reason": "标准版颜色不沿用至柔光独立版型"
+          },
+          {
+            "name": "星动白",
+            "reason": "标准版颜色不沿用至柔光独立版型"
+          }
+        ],
+        "gaps": []
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未登记本版型首发定价独立原文；官网现价/上市价目只用于SKU，不当首售价"
+        }
+      ]
+    }
+  ],
+  "laptop": []
+}

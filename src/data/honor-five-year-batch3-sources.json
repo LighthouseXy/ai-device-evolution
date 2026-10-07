@@ -1,0 +1,985 @@
+{
+  "phone": [
+    {
+      "id": "honor-90-gt-2023",
+      "modelName": "荣耀90 GT",
+      "generation": "90 GT",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10847947_1.html",
+        "https://detail.zol.com.cn/series/57/50840/param_10847947_0_1.html",
+        "https://detail.zol.com.cn/1968/1967015/param.shtml",
+        "https://detail.zol.com.cn/1969/1968651/param.shtml",
+        "https://detail.zol.com.cn/1969/1968650/param.shtml",
+        "https://detail.zol.com.cn/1969/1968649/param.shtml",
+        "https://www.honor.com/cn/phones/honor-90-gt/spec/",
+        "https://detail.zol.com.cn/picture_index_2583/index25820069_0_p1967015.shtml",
+        "https://detail.zol.com.cn/picture_index_2583/index25820071_0_p1968651.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-12-26",
+        "rawText": "上市日期 2023年12月26日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1968/1967015/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:11:24.600Z",
+        "sourceSnapshotHash": "1f96d473e6ebdf1d02383c8ed2de78b3bf4077d2c543b6ac1e893789f4d95984"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2023年12月21日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1968/1967015/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:11:24.600Z",
+        "sourceSnapshotHash": "1f96d473e6ebdf1d02383c8ed2de78b3bf4077d2c543b6ac1e893789f4d95984"
+      },
+      "officialSpecUrl": "https://www.honor.com/cn/phones/honor-90-gt/spec/",
+      "officialSpecEvidence": {
+        "value": "荣耀90 GT",
+        "rawText": "荣耀90 GT-参数-配置-怎么样 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/phones/honor-90-gt/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:11:25.322Z",
+        "sourceSnapshotHash": "98be75cbc9208d05198957d864d766784c9df75cd3178cd2023542fc2c341dde"
+      },
+      "productImages": {
+        "modelName": "荣耀90 GT",
+        "seriesId": "10847947",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2583/index25820069_0_p1967015.shtml",
+        "sourceSnapshotHash": "924f2a52964f7301b02c77a442bf49c5e10f3506760ec4d043e8f68451d147fb",
+        "fetchedAt": "2026-10-05T19:11:25.458Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2a.zol-img.com.cn/product/258_320x240/64/cehxh6giLdAeI.jpg",
+          "alt": "荣耀90 GT",
+          "modelName": "荣耀90 GT",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10847947_1.html",
+          "sourceSnapshotHash": "e7fb35b04b979066d3f083e9ff6a7462d3fb43aa2f0c349eb356b4088187dfc9",
+          "fetchedAt": "2026-10-05T19:11:25.458Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "GT蓝",
+            "url": "https://2a.zol-img.com.cn/product/258/64/cehxh6giLdAeI.jpg",
+            "modelName": "荣耀90 GT",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2583/index25820069_0_p1967015.shtml",
+            "sourceSnapshotHash": "924f2a52964f7301b02c77a442bf49c5e10f3506760ec4d043e8f68451d147fb",
+            "fetchedAt": "2026-10-05T19:11:25.458Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "燃速金",
+            "url": "https://2a.zol-img.com.cn/product/258/82/ceqlewC3AMi1E.jpg",
+            "modelName": "荣耀90 GT",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2583/index25820069_0_p1967015.shtml",
+            "sourceSnapshotHash": "924f2a52964f7301b02c77a442bf49c5e10f3506760ec4d043e8f68451d147fb",
+            "fetchedAt": "2026-10-05T19:11:25.458Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "星曜黑",
+            "url": "https://2f.zol-img.com.cn/product/258/69/ceRWGOlEquh5k.jpg",
+            "modelName": "荣耀90 GT",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2583/index25820069_0_p1967015.shtml",
+            "sourceSnapshotHash": "924f2a52964f7301b02c77a442bf49c5e10f3506760ec4d043e8f68451d147fb",
+            "fetchedAt": "2026-10-05T19:11:25.458Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2583/index25820069_0_p1967015.shtml",
+          "https://detail.zol.com.cn/picture_index_2583/index25820071_0_p1968651.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "honor-100-pro-2023",
+      "modelName": "荣耀100 Pro",
+      "generation": "100 Pro",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10842307_1.html",
+        "https://detail.zol.com.cn/series/57/50840/param_10842307_0_1.html",
+        "https://detail.zol.com.cn/1950/1949055/param.shtml",
+        "https://detail.zol.com.cn/1958/1957929/param.shtml",
+        "https://detail.zol.com.cn/1958/1957928/param.shtml",
+        "https://detail.zol.com.cn/1958/1957930/param.shtml",
+        "https://www.honor.com/cn/phones/honor-100-pro/spec/",
+        "https://detail.zol.com.cn/picture_index_2564/index25636577_0_p1949055.shtml",
+        "https://detail.zol.com.cn/picture_index_2570/index25696143_0_p1949055.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-12-01",
+        "rawText": "上市日期 2023年12月1日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1950/1949055/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:11:50.328Z",
+        "sourceSnapshotHash": "c598da0eccf9743eaeb94e41a0ca3a08024b5290b617fb7d478b36e6c1b5ed11"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2023年11月23日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1950/1949055/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:11:50.328Z",
+        "sourceSnapshotHash": "c598da0eccf9743eaeb94e41a0ca3a08024b5290b617fb7d478b36e6c1b5ed11"
+      },
+      "officialSpecUrl": "https://www.honor.com/cn/phones/honor-100-pro/spec/",
+      "officialSpecEvidence": {
+        "value": "荣耀100 Pro",
+        "rawText": "荣耀100 Pro-参数-配置-怎么样 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/phones/honor-100-pro/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:11:51.591Z",
+        "sourceSnapshotHash": "73320508aa09898b46af08c2660963c563986587b74ea47a8772c9e77694e11d"
+      },
+      "productImages": {
+        "modelName": "荣耀100 Pro",
+        "seriesId": "10842307",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2564/index25636577_0_p1949055.shtml",
+        "sourceSnapshotHash": "074e9e2cdb12d21508d2485ad396132b68871c87aa80ac0db55d74cc27150cf8",
+        "fetchedAt": "2026-10-05T19:11:51.689Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2b.zol-img.com.cn/product/256_320x240/147/cepSNuhVlrLvg.jpg",
+          "alt": "荣耀100 Pro",
+          "modelName": "荣耀100 Pro",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10842307_1.html",
+          "sourceSnapshotHash": "2fa85bfd4e1bd37540d98dad00f67766d7ed67064d50e02a4d92e771c6465cca",
+          "fetchedAt": "2026-10-05T19:11:51.689Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "莫奈紫",
+            "url": "https://2b.zol-img.com.cn/product/256/147/cepSNuhVlrLvg.jpg",
+            "modelName": "荣耀100 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2564/index25636577_0_p1949055.shtml",
+            "sourceSnapshotHash": "074e9e2cdb12d21508d2485ad396132b68871c87aa80ac0db55d74cc27150cf8",
+            "fetchedAt": "2026-10-05T19:11:51.689Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "迷蝶蓝",
+            "url": "https://2d.zol-img.com.cn/product/256/143/cebfSthlr3vXg.jpg",
+            "modelName": "荣耀100 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2564/index25636577_0_p1949055.shtml",
+            "sourceSnapshotHash": "074e9e2cdb12d21508d2485ad396132b68871c87aa80ac0db55d74cc27150cf8",
+            "fetchedAt": "2026-10-05T19:11:51.689Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "月影白",
+            "url": "https://2a.zol-img.com.cn/product/256/146/ceN2qjEvy451E.jpg",
+            "modelName": "荣耀100 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2564/index25636577_0_p1949055.shtml",
+            "sourceSnapshotHash": "074e9e2cdb12d21508d2485ad396132b68871c87aa80ac0db55d74cc27150cf8",
+            "fetchedAt": "2026-10-05T19:11:51.689Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "亮黑色",
+            "url": "https://2e.zol-img.com.cn/product/256/162/ceP2gZzIC3pM.jpg",
+            "modelName": "荣耀100 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2564/index25636577_0_p1949055.shtml",
+            "sourceSnapshotHash": "074e9e2cdb12d21508d2485ad396132b68871c87aa80ac0db55d74cc27150cf8",
+            "fetchedAt": "2026-10-05T19:11:51.689Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2564/index25636577_0_p1949055.shtml",
+          "https://detail.zol.com.cn/picture_index_2570/index25696143_0_p1949055.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "honor-200-pro-2024",
+      "modelName": "荣耀200 Pro",
+      "generation": "200 Pro",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10863459_1.html",
+        "https://detail.zol.com.cn/series/57/50840/param_10863459_0_1.html",
+        "https://detail.zol.com.cn/2014/2013490/param.shtml",
+        "https://detail.zol.com.cn/2019/2018018/param.shtml",
+        "https://detail.zol.com.cn/2019/2018017/param.shtml",
+        "https://detail.zol.com.cn/2019/2018019/param.shtml",
+        "https://www.ithome.com/0/772/314.htm",
+        "https://www.honor.com/cn/phones/honor-200-pro/spec/",
+        "https://detail.zol.com.cn/picture_index_2638/index26376393_0_p2013490.shtml",
+        "https://detail.zol.com.cn/picture_index_2638/index26376380_0_p2013490.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2024-05-31",
+        "rawText": "荣耀 200 / Pro 手机昨日（5 月 31 日）迎来首销",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/772/314.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:35.585Z",
+        "sourceSnapshotHash": "53497818f999ef1fc3573b88ecd7783b2f0cb566dbafab7ceb0635013b409f58"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2024年5月27日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2014/2013490/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:11:53.086Z",
+        "sourceSnapshotHash": "2260fcdd55df2286fc8747bf3037182d505addffa68bf8e87f4c658cc02590d7"
+      },
+      "officialSpecUrl": "https://www.honor.com/cn/phones/honor-200-pro/spec/",
+      "officialSpecEvidence": {
+        "value": "荣耀200 Pro",
+        "rawText": "荣耀200 Pro-参数-配置-怎么样 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/phones/honor-200-pro/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:11:54.897Z",
+        "sourceSnapshotHash": "20d5b4d6ae5ff93197491f905deb376d54c025da20d80b07883493cdbacb8bcb"
+      },
+      "productImages": {
+        "modelName": "荣耀200 Pro",
+        "seriesId": "10863459",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2638/index26376393_0_p2013490.shtml",
+        "sourceSnapshotHash": "42583d7a6b5718aaa2ef611fc3ddedb97d8379ccd77849433116d734634df55c",
+        "fetchedAt": "2026-10-05T19:11:55.034Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2c.zol-img.com.cn/product/263_320x240/386/ceoz2mKQsUcQ.jpg",
+          "alt": "荣耀200 Pro",
+          "modelName": "荣耀200 Pro",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10863459_1.html",
+          "sourceSnapshotHash": "bfcd751de815df1a7592f4495364ac6392aefe73b5aa12b314d0df01fbfae9fa",
+          "fetchedAt": "2026-10-05T19:11:55.034Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "月影白",
+            "url": "https://2c.zol-img.com.cn/product/263/386/ceoz2mKQsUcQ.jpg",
+            "modelName": "荣耀200 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2638/index26376393_0_p2013490.shtml",
+            "sourceSnapshotHash": "42583d7a6b5718aaa2ef611fc3ddedb97d8379ccd77849433116d734634df55c",
+            "fetchedAt": "2026-10-05T19:11:55.034Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "绒黑色",
+            "url": "https://2c.zol-img.com.cn/product/263/380/ceALprjVEXvmg.jpg",
+            "modelName": "荣耀200 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2638/index26376393_0_p2013490.shtml",
+            "sourceSnapshotHash": "42583d7a6b5718aaa2ef611fc3ddedb97d8379ccd77849433116d734634df55c",
+            "fetchedAt": "2026-10-05T19:11:55.034Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "天海青",
+            "url": "https://2e.zol-img.com.cn/product/263/394/ceQUaJUoL4yfQ.jpg",
+            "modelName": "荣耀200 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2638/index26376393_0_p2013490.shtml",
+            "sourceSnapshotHash": "42583d7a6b5718aaa2ef611fc3ddedb97d8379ccd77849433116d734634df55c",
+            "fetchedAt": "2026-10-05T19:11:55.034Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "珊瑚粉",
+            "url": "https://2f.zol-img.com.cn/product/263/419/cewDH52LDmXA.jpg",
+            "modelName": "荣耀200 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2638/index26376393_0_p2013490.shtml",
+            "sourceSnapshotHash": "42583d7a6b5718aaa2ef611fc3ddedb97d8379ccd77849433116d734634df55c",
+            "fetchedAt": "2026-10-05T19:11:55.034Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2638/index26376393_0_p2013490.shtml",
+          "https://detail.zol.com.cn/picture_index_2638/index26376380_0_p2013490.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "honor-80-pro-2022",
+      "modelName": "荣耀80 Pro",
+      "generation": "80 Pro",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10717479_1.html",
+        "https://detail.zol.com.cn/series/57/50840/param_10717479_0_1.html",
+        "https://detail.zol.com.cn/1428/1427936/param.shtml",
+        "https://detail.zol.com.cn/1435/1434368/param.shtml",
+        "https://detail.zol.com.cn/1435/1434369/param.shtml",
+        "https://www.honor.com/cn/phones/honor-80-pro/spec/",
+        "https://detail.zol.com.cn/picture_index_2251/index22503317_0_p1427936.shtml",
+        "https://detail.zol.com.cn/picture_index_2251/index22503314_0_p1427936.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-12-02",
+        "rawText": "上市日期 2022年12月02日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1428/1427936/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:11:56.443Z",
+        "sourceSnapshotHash": "9047020c74496dfe3aad904a820f86ed026324b0811636fa3dee8a4e169c40f6"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2022年11月23日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1428/1427936/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:11:56.443Z",
+        "sourceSnapshotHash": "9047020c74496dfe3aad904a820f86ed026324b0811636fa3dee8a4e169c40f6"
+      },
+      "officialSpecUrl": "https://www.honor.com/cn/phones/honor-80-pro/spec/",
+      "officialSpecEvidence": {
+        "value": "荣耀80 Pro",
+        "rawText": "荣耀80 Pro参数配置-怎么样 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/phones/honor-80-pro/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:11:56.626Z",
+        "sourceSnapshotHash": "1451fe81d5249bb51f1457a65e0ea781b475f858cadeee5ffa2f47d01880d8bd"
+      },
+      "productImages": {
+        "modelName": "荣耀80 Pro",
+        "seriesId": "10717479",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2251/index22503317_0_p1427936.shtml",
+        "sourceSnapshotHash": "f0a973a94cec5984f05f21f539bf84176425eaf0e22943b95e79abaadd423fc3",
+        "fetchedAt": "2026-10-05T19:11:56.733Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "name": "碧波微蓝",
+          "url": "https://2f.zol-img.com.cn/product/225/311/celBtrRHWKqM.jpg",
+          "modelName": "荣耀80 Pro",
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2251/index22503317_0_p1427936.shtml",
+          "sourceSnapshotHash": "f0a973a94cec5984f05f21f539bf84176425eaf0e22943b95e79abaadd423fc3",
+          "fetchedAt": "2026-10-05T19:11:56.733Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "碧波微蓝",
+            "url": "https://2f.zol-img.com.cn/product/225/311/celBtrRHWKqM.jpg",
+            "modelName": "荣耀80 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2251/index22503317_0_p1427936.shtml",
+            "sourceSnapshotHash": "f0a973a94cec5984f05f21f539bf84176425eaf0e22943b95e79abaadd423fc3",
+            "fetchedAt": "2026-10-05T19:11:56.733Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "粉映晨辉",
+            "url": "https://2b.zol-img.com.cn/product/225/319/ceDF45GCMNZfA.png",
+            "modelName": "荣耀80 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2251/index22503317_0_p1427936.shtml",
+            "sourceSnapshotHash": "f0a973a94cec5984f05f21f539bf84176425eaf0e22943b95e79abaadd423fc3",
+            "fetchedAt": "2026-10-05T19:11:56.733Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "亮黑色",
+            "url": "https://2a.zol-img.com.cn/product/225/318/ce55UGhyDYTU.png",
+            "modelName": "荣耀80 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2251/index22503317_0_p1427936.shtml",
+            "sourceSnapshotHash": "f0a973a94cec5984f05f21f539bf84176425eaf0e22943b95e79abaadd423fc3",
+            "fetchedAt": "2026-10-05T19:11:56.733Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "墨玉青",
+            "url": "https://2f.zol-img.com.cn/product/225/317/ce45BChEzLTnk.png",
+            "modelName": "荣耀80 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2251/index22503317_0_p1427936.shtml",
+            "sourceSnapshotHash": "f0a973a94cec5984f05f21f539bf84176425eaf0e22943b95e79abaadd423fc3",
+            "fetchedAt": "2026-10-05T19:11:56.733Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2251/index22503317_0_p1427936.shtml",
+          "https://detail.zol.com.cn/picture_index_2251/index22503314_0_p1427936.shtml"
+        ],
+        "excludedColors": [
+          {
+            "name": "三体动画限量版",
+            "reason": "独立联名限量版，不能作为标准版配色缺图"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "honor-magic-v-2022",
+      "modelName": "荣耀Magic V",
+      "generation": "Magic V",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/37443_1.html",
+        "https://detail.zol.com.cn/series/57/50840/param_37443_0_1.html",
+        "https://detail.zol.com.cn/1397/1396078/param.shtml",
+        "https://detail.zol.com.cn/1397/1396769/param.shtml",
+        "https://www.honor.com/cn/phones/honor-magic-v/spec/",
+        "https://detail.zol.com.cn/picture_index_2207/index22069644_0_p1396078.shtml",
+        "https://detail.zol.com.cn/picture_index_2207/index22069645_0_p1396769.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-01-18",
+        "rawText": "上市日期 2022年01月18日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1397/1396078/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:09:09.137Z",
+        "sourceSnapshotHash": "0435b8087f8c6f010d01f88dc52aab1108fc3990629f0d88fe817bdf65c1d510"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2022年01月11日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1397/1396078/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:09:09.137Z",
+        "sourceSnapshotHash": "0435b8087f8c6f010d01f88dc52aab1108fc3990629f0d88fe817bdf65c1d510"
+      },
+      "officialSpecUrl": "https://www.honor.com/cn/phones/honor-magic-v/spec/",
+      "officialSpecEvidence": {
+        "value": "荣耀Magic V",
+        "rawText": "荣耀Magic V-参数配置-处理器-芯片 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-v/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:11:58.043Z",
+        "sourceSnapshotHash": "3cb21909ff4f66e7504b4dcec194445f20d6e5563ec7a138aa055b7216d48d54"
+      },
+      "productImages": {
+        "modelName": "荣耀Magic V",
+        "seriesId": "37443",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2207/index22069644_0_p1396078.shtml",
+        "sourceSnapshotHash": "9372876ebc0f7a4b7cc5aa4bdf77bbc19040dde5b1ac17a9add58da94121e2b8",
+        "fetchedAt": "2026-10-05T19:17:36.011Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2a.zol-img.com.cn/product/220_200x150/644/ceD6Z3bj4Ox5Y.jpg",
+          "alt": "荣耀Magic V（12GB/256GB/5G版）外观图0",
+          "modelName": "荣耀Magic V",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/37443_1.html",
+          "sourceSnapshotHash": "6c246fbcbaabd4766fa7bfd8404329e0d5bdc464f3e713c3b9ff1c9d5dcb8447",
+          "fetchedAt": "2026-10-05T19:17:36.011Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "钛空银",
+            "url": "https://2e.zol-img.com.cn/product/220/654/ceiJ61D1EUKXg.jpg",
+            "modelName": "荣耀Magic V",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2207/index22069644_0_p1396078.shtml",
+            "sourceSnapshotHash": "9372876ebc0f7a4b7cc5aa4bdf77bbc19040dde5b1ac17a9add58da94121e2b8",
+            "fetchedAt": "2026-10-05T19:17:36.011Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "亮黑色",
+            "url": "https://2a.zol-img.com.cn/product/220/644/ceD6Z3bj4Ox5Y.jpg",
+            "modelName": "荣耀Magic V",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2207/index22069644_0_p1396078.shtml",
+            "sourceSnapshotHash": "9372876ebc0f7a4b7cc5aa4bdf77bbc19040dde5b1ac17a9add58da94121e2b8",
+            "fetchedAt": "2026-10-05T19:17:36.011Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "燃橙色"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2207/index22069644_0_p1396078.shtml",
+          "https://detail.zol.com.cn/picture_index_2207/index22069645_0_p1396769.shtml"
+        ],
+        "gaps": [
+          "燃橙色配色图未核实"
+        ]
+      }
+    },
+    {
+      "id": "honor-magic-v2-2023",
+      "modelName": "荣耀Magic V2",
+      "generation": "Magic V2",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10760399_1.html",
+        "https://detail.zol.com.cn/series/57/50840/param_10760399_0_1.html",
+        "https://detail.zol.com.cn/1555/1554341/param.shtml",
+        "https://detail.zol.com.cn/1816/1815127/param.shtml",
+        "https://www.honor.com/cn/phones/honor-magic-v2/spec/",
+        "https://detail.zol.com.cn/picture_index_2488/index24871166_0_p1554341.shtml",
+        "https://detail.zol.com.cn/picture_index_2488/index24871126_0_p1554341.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-07-20",
+        "rawText": "上市日期 2023年07月20日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1555/1554341/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:11:59.570Z",
+        "sourceSnapshotHash": "7e3dee475a284cf696ab930618a986df60d4228145a96621d42ae1ae1a24d16d"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2023年07月12日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1555/1554341/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:11:59.570Z",
+        "sourceSnapshotHash": "7e3dee475a284cf696ab930618a986df60d4228145a96621d42ae1ae1a24d16d"
+      },
+      "officialSpecUrl": "https://www.honor.com/cn/phones/honor-magic-v2/spec/",
+      "officialSpecEvidence": {
+        "value": "荣耀Magic V2",
+        "rawText": "荣耀Magic V2-手机参数-配置-怎么样 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-v2/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:11:59.616Z",
+        "sourceSnapshotHash": "f3543e834f8e05a366687621662871e8c1f8d993dba1827b97ad651c5ebaeedc"
+      },
+      "productImages": {
+        "modelName": "荣耀Magic V2",
+        "seriesId": "10760399",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2488/index24871166_0_p1554341.shtml",
+        "sourceSnapshotHash": "bc83825470b2c95963931173e22b3e2c70e116dfa3263d51c4af03a002dae485",
+        "fetchedAt": "2026-10-05T19:11:59.713Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2f.zol-img.com.cn/product/248_320x240/127/ceORLsF5isNxw.jpg",
+          "alt": "荣耀Magic V2",
+          "modelName": "荣耀Magic V2",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10760399_1.html",
+          "sourceSnapshotHash": "979f7cf61c0cb7896eec06cf65602cfa49f1a98f8c9fc946da92de15f4d204a0",
+          "fetchedAt": "2026-10-05T19:11:59.713Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "绒紫色",
+            "url": "https://2f.zol-img.com.cn/product/248/127/ceORLsF5isNxw.jpg",
+            "modelName": "荣耀Magic V2",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2488/index24871166_0_p1554341.shtml",
+            "sourceSnapshotHash": "bc83825470b2c95963931173e22b3e2c70e116dfa3263d51c4af03a002dae485",
+            "fetchedAt": "2026-10-05T19:11:59.713Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "绒黑色",
+            "url": "https://2c.zol-img.com.cn/product/248/166/cerd4w9zUvSJA.jpg",
+            "modelName": "荣耀Magic V2",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2488/index24871166_0_p1554341.shtml",
+            "sourceSnapshotHash": "bc83825470b2c95963931173e22b3e2c70e116dfa3263d51c4af03a002dae485",
+            "fetchedAt": "2026-10-05T19:11:59.713Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "云霞金",
+            "url": "https://2f.zol-img.com.cn/product/248/175/ceLG0kDQf6I2.jpg",
+            "modelName": "荣耀Magic V2",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2488/index24871166_0_p1554341.shtml",
+            "sourceSnapshotHash": "bc83825470b2c95963931173e22b3e2c70e116dfa3263d51c4af03a002dae485",
+            "fetchedAt": "2026-10-05T19:11:59.713Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "雅黑色",
+            "url": "https://2f.zol-img.com.cn/product/248/145/ce3o9onhgUdY.jpg",
+            "modelName": "荣耀Magic V2",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2488/index24871166_0_p1554341.shtml",
+            "sourceSnapshotHash": "bc83825470b2c95963931173e22b3e2c70e116dfa3263d51c4af03a002dae485",
+            "fetchedAt": "2026-10-05T19:11:59.713Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2488/index24871166_0_p1554341.shtml",
+          "https://detail.zol.com.cn/picture_index_2488/index24871126_0_p1554341.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "honor-magic-v3-2024",
+      "modelName": "荣耀Magic V3",
+      "generation": "Magic V3",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10867494_1.html",
+        "https://detail.zol.com.cn/series/57/50840/param_10867494_0_1.html",
+        "https://detail.zol.com.cn/2035/2034383/param.shtml",
+        "https://detail.zol.com.cn/2083/2082442/param.shtml",
+        "https://detail.zol.com.cn/2083/2082443/param.shtml",
+        "https://www.honor.com/cn/phones/honor-magic-v3/spec/",
+        "https://detail.zol.com.cn/picture_index_2682/index26815212_0_p2034383.shtml",
+        "https://detail.zol.com.cn/picture_index_2682/index26815268_0_p2082443.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2024-07-19",
+        "rawText": "上市日期 2024年7月19日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2035/2034383/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:12:00.647Z",
+        "sourceSnapshotHash": "02242fcb9aeafb323ecb1723eee6251d004f58ae39c16b1d36c918ba507b9342"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2024年7月12日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2035/2034383/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:12:00.647Z",
+        "sourceSnapshotHash": "02242fcb9aeafb323ecb1723eee6251d004f58ae39c16b1d36c918ba507b9342"
+      },
+      "officialSpecUrl": "https://www.honor.com/cn/phones/honor-magic-v3/spec/",
+      "officialSpecEvidence": {
+        "value": "荣耀Magic V3",
+        "rawText": "荣耀Magic V3-手机参数-配置-怎么样 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-v3/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:12:00.822Z",
+        "sourceSnapshotHash": "0b4042a018cf949ca1538fa9686e0388000b2d82a5ad502fecd7caa367c6971c"
+      },
+      "productImages": {
+        "modelName": "荣耀Magic V3",
+        "seriesId": "10867494",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2682/index26815212_0_p2034383.shtml",
+        "sourceSnapshotHash": "db4004e37a506b656a204e2e3f1eba721961612c01c17468d472757d28232e3b",
+        "fetchedAt": "2026-10-05T19:12:00.994Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2c.zol-img.com.cn/product/268_320x240/214/ceDq48WuVCU2.jpg",
+          "alt": "荣耀Magic V3",
+          "modelName": "荣耀Magic V3",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10867494_1.html",
+          "sourceSnapshotHash": "dbdf43ed379b608001b81a8bc124a55955fa5738e05f8d902a7e75800c7356c5",
+          "fetchedAt": "2026-10-05T19:12:00.994Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "绒黑色",
+            "url": "https://2c.zol-img.com.cn/product/268/214/ceDq48WuVCU2.jpg",
+            "modelName": "荣耀Magic V3",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2682/index26815212_0_p2034383.shtml",
+            "sourceSnapshotHash": "db4004e37a506b656a204e2e3f1eba721961612c01c17468d472757d28232e3b",
+            "fetchedAt": "2026-10-05T19:12:00.994Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "苔原绿",
+            "url": "https://2a.zol-img.com.cn/product/268/212/cePGSAMjHT3uQ.jpg",
+            "modelName": "荣耀Magic V3",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2682/index26815212_0_p2034383.shtml",
+            "sourceSnapshotHash": "db4004e37a506b656a204e2e3f1eba721961612c01c17468d472757d28232e3b",
+            "fetchedAt": "2026-10-05T19:12:00.994Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "祁连雪",
+            "url": "https://2f.zol-img.com.cn/product/268/223/ceO2mIsnlOmXk.jpg",
+            "modelName": "荣耀Magic V3",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2682/index26815212_0_p2034383.shtml",
+            "sourceSnapshotHash": "db4004e37a506b656a204e2e3f1eba721961612c01c17468d472757d28232e3b",
+            "fetchedAt": "2026-10-05T19:12:00.994Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "丝路敦煌"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2682/index26815212_0_p2034383.shtml",
+          "https://detail.zol.com.cn/picture_index_2682/index26815268_0_p2082443.shtml"
+        ],
+        "gaps": [
+          "丝路敦煌配色图未核实"
+        ]
+      }
+    },
+    {
+      "id": "honor-magic-v5-2025",
+      "modelName": "荣耀Magic V5",
+      "generation": "Magic V5",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10915256_1.html",
+        "https://detail.zol.com.cn/series/57/50840/param_10915256_0_1.html",
+        "https://detail.zol.com.cn/2132/2131995/param.shtml",
+        "https://detail.zol.com.cn/2133/2132091/param.shtml",
+        "https://detail.zol.com.cn/2133/2132092/param.shtml",
+        "https://www.ithome.com/0/865/826.htm",
+        "https://www.honor.com/cn/phones/honor-magic-v5/spec/",
+        "https://detail.zol.com.cn/picture_index_2727/index27260122_0_p2131995.shtml",
+        "https://detail.zol.com.cn/picture_index_2727/index27260143_0_p2132092.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2025-07-04",
+        "rawText": "荣耀 Magic V5 折叠屏手机今日已开始首销",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/865/826.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:36.174Z",
+        "sourceSnapshotHash": "1c538ee484b208f66f7ea548d18f2b999cd79ed880492769bae72f7b883a7359"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2025年7月2日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2132/2131995/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:12:01.413Z",
+        "sourceSnapshotHash": "1d33281c003e6e4068d782dcb0fd851b6bbeab80c1e41183915706b1fccc8015"
+      },
+      "officialSpecUrl": "https://www.honor.com/cn/phones/honor-magic-v5/spec/",
+      "officialSpecEvidence": {
+        "value": "荣耀Magic V5",
+        "rawText": "荣耀Magic V5-手机参数-配置-怎么样 | 荣耀官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-v5/spec/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:12:01.585Z",
+        "sourceSnapshotHash": "213b118ad3ccdd700af8d4cb30e4b8c9254b11321792d1a77eac03a90aaba75f"
+      },
+      "productImages": {
+        "modelName": "荣耀Magic V5",
+        "seriesId": "10915256",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2727/index27260122_0_p2131995.shtml",
+        "sourceSnapshotHash": "9f3dcf0740a58dc5b58fd317386b7052e95ff41c8c536c3ea82f45f7164f77c5",
+        "fetchedAt": "2026-10-05T19:12:01.698Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2a.zol-img.com.cn/product/272_320x240/142/ceoEpu1J3zT.png",
+          "alt": "荣耀Magic V5",
+          "modelName": "荣耀Magic V5",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10915256_1.html",
+          "sourceSnapshotHash": "3a34baafb1e36beae2679fbe07fb9be3901ca7eec7db30e11d77ac42ad49ad44",
+          "fetchedAt": "2026-10-05T19:12:01.698Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "暖白色",
+            "url": "https://2a.zol-img.com.cn/product/272/142/ceoEpu1J3zT.png",
+            "modelName": "荣耀Magic V5",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2727/index27260122_0_p2131995.shtml",
+            "sourceSnapshotHash": "9f3dcf0740a58dc5b58fd317386b7052e95ff41c8c536c3ea82f45f7164f77c5",
+            "fetchedAt": "2026-10-05T19:12:01.698Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "曙光金",
+            "url": "https://2e.zol-img.com.cn/product/272/122/ceyqX5C7WKBuM.png",
+            "modelName": "荣耀Magic V5",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2727/index27260122_0_p2131995.shtml",
+            "sourceSnapshotHash": "9f3dcf0740a58dc5b58fd317386b7052e95ff41c8c536c3ea82f45f7164f77c5",
+            "fetchedAt": "2026-10-05T19:12:01.698Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "丝路敦煌",
+            "url": "https://2a.zol-img.com.cn/product/272/148/ceadd7Uwf9N3A.png",
+            "modelName": "荣耀Magic V5",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2727/index27260122_0_p2131995.shtml",
+            "sourceSnapshotHash": "9f3dcf0740a58dc5b58fd317386b7052e95ff41c8c536c3ea82f45f7164f77c5",
+            "fetchedAt": "2026-10-05T19:12:01.698Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "绒黑色",
+            "url": "https://2d.zol-img.com.cn/product/272/97/ce1pgK3cf59GY.png",
+            "modelName": "荣耀Magic V5",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2727/index27260122_0_p2131995.shtml",
+            "sourceSnapshotHash": "9f3dcf0740a58dc5b58fd317386b7052e95ff41c8c536c3ea82f45f7164f77c5",
+            "fetchedAt": "2026-10-05T19:12:01.698Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2727/index27260122_0_p2131995.shtml",
+          "https://detail.zol.com.cn/picture_index_2727/index27260143_0_p2132092.shtml"
+        ],
+        "gaps": []
+      }
+    }
+  ],
+  "tablet": [],
+  "laptop": []
+}

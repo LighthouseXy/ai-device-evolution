@@ -1,0 +1,2019 @@
+{
+  "phone": [
+    {
+      "id": "samsung-galaxy-z-fold7-2025",
+      "modelName": "Samsung Galaxy Z Fold7",
+      "generation": "Z Fold7",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10915606_1.html",
+        "https://detail.zol.com.cn/series/57/98/param_10915606_0_1.html",
+        "https://detail.zol.com.cn/2133/2132972/param.shtml",
+        "https://detail.zol.com.cn/2133/2132973/param.shtml",
+        "https://detail.zol.com.cn/2133/2132974/param.shtml",
+        "https://www.ithome.com/0/866/987.htm",
+        "https://detail.zol.com.cn/picture_index_2727/index27267025_0_p2132972.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2025",
+        "rawText": "IT之家附国行定价： 12GB+256GB 售价 13999 元 12GB+512GB 售价 14999 元， 首发价 13999 元 （相当于免费从 256GB 升级 512GB） 16GB+1TB 售价 17499 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/866/987.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:21:16.750Z",
+        "sourceSnapshotHash": "79c82e01193ef3b2bbcac24a81283e8802ef2a9eec32c697abab132e286cca33",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 3 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "IT之家附国行定价： 12GB+256GB 售价 13999 元 12GB+512GB 售价 14999 元， 首发价 13999 元 （相当于免费从 256GB 升级 512GB） 16GB+1TB 售价 17499 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/866/987.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:21:16.750Z",
+        "sourceSnapshotHash": "79c82e01193ef3b2bbcac24a81283e8802ef2a9eec32c697abab132e286cca33"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "IT之家附国行定价： 12GB+256GB 售价 13999 元 12GB+512GB 售价 14999 元， 首发价 13999 元 （相当于免费从 256GB 升级 512GB） 16GB+1TB 售价 17499 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/866/987.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:21:16.750Z",
+        "sourceSnapshotHash": "79c82e01193ef3b2bbcac24a81283e8802ef2a9eec32c697abab132e286cca33"
+      },
+      "fieldCorrections": [
+        {
+          "field": "memoryType",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "wifi",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        }
+      ],
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2a.zol-img.com.cn/product/272_320x240/102/ceQR9DtsHSVIg.jpg",
+        "alt": "三星Galaxy Z Fold7",
+        "modelName": "Samsung Galaxy Z Fold7",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10915606_1.html",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:28:51.424Z",
+        "sourceSnapshotHash": "db6dcfd68be04210d670d16be410bb9f52d8fd8a3a0f3413ce8e25f6bfb0226e"
+      },
+      "colorNames": [
+        "暗影蓝",
+        "秘影黑",
+        "星夜银",
+        "青霜绿"
+      ],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2727/index27267025_0_p2132972.shtml",
+        "fetchedAt": "2026-10-05T19:28:52.226Z",
+        "sourceSnapshotHash": "c946bfdfe2dc006ae1e7747cdf20f8af3a3eae23e1230c57cb91a3fa55f0c9e9",
+        "colors": [
+          {
+            "name": "星夜银",
+            "url": "https://2d.zol-img.com.cn/product/272/33/ce6UbSh3Qfe7c.jpg"
+          },
+          {
+            "name": "暗影蓝",
+            "url": "https://2a.zol-img.com.cn/product/272/102/ceQR9DtsHSVIg.jpg"
+          },
+          {
+            "name": "秘影黑",
+            "url": "https://2b.zol-img.com.cn/product/272/25/cebMfY8WpcLY.jpg"
+          },
+          {
+            "name": "青霜绿",
+            "url": "https://2b.zol-img.com.cn/product/272/43/cebjLZcEBcgvw.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "samsung-galaxy-z-flip7-2025",
+      "modelName": "Samsung Galaxy Z Flip7",
+      "generation": "Z Flip7",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10915610_1.html",
+        "https://detail.zol.com.cn/series/57/98/param_10915610_0_1.html",
+        "https://detail.zol.com.cn/2133/2132978/param.shtml",
+        "https://detail.zol.com.cn/2133/2132979/param.shtml",
+        "https://www.ithome.com/0/866/988.htm",
+        "https://www.ithome.com/0/867/148.htm",
+        "https://detail.zol.com.cn/picture_index_2727/index27267598_0_p2132978.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2025",
+        "rawText": "上市日期 2025年7月22日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2133/2132978/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:04:44.320Z",
+        "sourceSnapshotHash": "3900f8135456102eb95d62845474654b70c6234d4a7e385124b6620a94986de9",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 2 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "国行三星 Galaxy Z Fold / Flip7、Z Flip7 FE 内置火山引擎",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/867/148.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:21:16.846Z",
+        "sourceSnapshotHash": "f4ef7395092fdc32de4e74795d4e74a8304d9dc4740a9a6ffc295177fe2852e8"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星 Galaxy Z Flip7 的 12+256GB 版本售价 7999 元（预售免费升杯至 512GB 版本），12+512GB 售价 8999 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/866/988.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:21:16.788Z",
+        "sourceSnapshotHash": "61b5f70aef3d69ca7d2a97014cd2c8fc9c9d4ffceec6ac61a591379b2622a443"
+      },
+      "fieldCorrections": [
+        {
+          "field": "chip",
+          "reason": "具体SKU参数未写CPU型号，使用正式发布报道补充；不借用其他Z Flip代际的骁龙。"
+        }
+      ],
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2f.zol-img.com.cn/product/272_320x240/611/ceoeTjukvmL0w.jpg",
+        "alt": "三星Galaxy Z Flip7",
+        "modelName": "Samsung Galaxy Z Flip7",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10915610_1.html",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:28:52.325Z",
+        "sourceSnapshotHash": "0b361eb18644bfbe54eba5790d3b4663fba5b8de760630aa971c2f483971afa3"
+      },
+      "colorNames": [
+        "暗影蓝",
+        "秘影黑",
+        "珊瑚红",
+        "青霜绿"
+      ],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2727/index27267598_0_p2132978.shtml",
+        "fetchedAt": "2026-10-05T19:28:52.986Z",
+        "sourceSnapshotHash": "47e3b41c2939009823d2cdbeada587bc553fdb36bf839c31a5fe1f3fafdb277c",
+        "colors": [
+          {
+            "name": "珊瑚红",
+            "url": "https://2e.zol-img.com.cn/product/272/610/ceVdZOEFzLIzU.jpg"
+          },
+          {
+            "name": "暗影蓝",
+            "url": "https://2f.zol-img.com.cn/product/272/611/ceoeTjukvmL0w.jpg"
+          },
+          {
+            "name": "秘影黑",
+            "url": "https://2d.zol-img.com.cn/product/272/603/cedgVxH5khzHA.jpg"
+          },
+          {
+            "name": "青霜绿",
+            "url": "https://2e.zol-img.com.cn/product/272/598/cepXZ0DF738XU.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "samsung-galaxy-z-flip7-fe-2025",
+      "modelName": "Samsung Galaxy Z Flip7 FE",
+      "generation": "Z Flip7 FE",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/cell_phone/index2133000.shtml",
+        "https://detail.zol.com.cn/2134/2133000/param.shtml",
+        "https://www.ithome.com/0/866/992.htm",
+        "https://detail.zol.com.cn/picture_index_2727/index27267652_0_p2133000.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2025",
+        "rawText": "上市日期 2025年7月22日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2134/2133000/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:20:06.055Z",
+        "sourceSnapshotHash": "5854cf3c7b9b4fd3efc3260ad386f410050d26d1231e774b6e4c8163c3328826",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "Galaxy Z Flip7 FE 国行提供 8GB 内存 + 256GB 存储一个版本，售价 6499 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/866/992.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:21:16.812Z",
+        "sourceSnapshotHash": "b9a785c911e2ac7cd3b99ac5098c72086e398441558b4e917b261c677c8b9de7"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "Galaxy Z Flip7 FE 国行提供 8GB 内存 + 256GB 存储一个版本，售价 6499 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/866/992.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:21:16.812Z",
+        "sourceSnapshotHash": "b9a785c911e2ac7cd3b99ac5098c72086e398441558b4e917b261c677c8b9de7"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2e.zol-img.com.cn/product/272_320x240/652/cegmU6Uf44Rl2.png",
+        "alt": "三星Galaxy Z Flip7 FE（8GB/256GB）",
+        "modelName": "Samsung Galaxy Z Flip7 FE",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index2133000.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:28:53.521Z",
+        "sourceSnapshotHash": "1a9a4a2b2dbe86f7e90098871c9e266ee6ff80ecfea1cf4b3deb15e247dccb31"
+      },
+      "colorNames": [
+        "炫熠黑",
+        "炫羽白"
+      ],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2727/index27267652_0_p2133000.shtml",
+        "fetchedAt": "2026-10-05T19:28:53.688Z",
+        "sourceSnapshotHash": "56b035a0c6b4f146a17081a8fd9bb8830f4041889f3099cde94c8e46a882e362",
+        "colors": [
+          {
+            "name": "炫熠黑",
+            "url": "https://2e.zol-img.com.cn/product/272/652/cegmU6Uf44Rl2.png"
+          },
+          {
+            "name": "炫羽白",
+            "url": "https://2e.zol-img.com.cn/product/272/658/ce7nwJLDJ9rY.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "samsung-galaxy-a9-star-2018",
+      "modelName": "Samsung Galaxy A9 Star",
+      "generation": "A9 Star",
+      "releaseYear": 2018,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/cell_phone/index1216612.shtml",
+        "https://detail.zol.com.cn/1217/1216612/param.shtml",
+        "https://news.mydrivers.com/1/579/579860.htm",
+        "https://detail.zol.com.cn/picture_index_1925/index19247628_0_p1216612.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2018",
+        "rawText": "上市日期 2018年06月15日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1217/1216612/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:20:06.337Z",
+        "sourceSnapshotHash": "4406c76db3c97793c70e212ca2aa44b807c6a8b37a285eec08faf47f4f2a4e2a",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星今天在国内发布盖乐世A9 Star/Star Lite两款新机",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://news.mydrivers.com/1/579/579860.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:21:04.374Z",
+        "sourceSnapshotHash": "61a8f5a28f6de842effdd2f2d0994a998f611fce640873b8f60be287651d188f"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "搭载骁龙660芯片，4GB RAM，64GB ROM ，前置2400万像素镜头，后置1600万+2400万像素（双F/1.7光圈，4倍超采样技术），支持前置自拍影棚光效、人脸识别、3700mAh电池（USB-C），预装Bixby语音助手。 同时，A9 Star保留3.5mm耳机孔，支持NFC和蓝牙5.0，还加入了杜比全景声音效。 A9 Star Lit e拥有6英寸Super AMOLED显示屏（2220 x1080），金属后壳+反&ldquo;双括号&rdquo;天线，三围160.2 x 75.7 x 7.9mm，重191g，提供黑色和蓝色。 配置上， 搭载骁龙450芯片，4GB RAM，64GB ROM ，前置2400万纯粹自拍镜头，后置1600万+500万像素主镜头，支持人脸识别、实时虚化，3500mAh电池（MicroUSB接口），预装Bixby语音助手。 另外，A9 Lite也保留了3.5耳机孔、三卡槽设计，支持NFC/蓝牙4.2并加入杜比全景声音效。 三星官方给出的售价是， A9 Star 2999元，A9 Star Lite 1999元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://news.mydrivers.com/1/579/579860.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:21:04.374Z",
+        "sourceSnapshotHash": "61a8f5a28f6de842effdd2f2d0994a998f611fce640873b8f60be287651d188f"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2d.zol-img.com.cn/product/191_320x240/585/cev71NIc7PKmc.jpg",
+        "alt": "三星Galaxy A9 Star（全网通）",
+        "modelName": "Samsung Galaxy A9 Star",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1216612.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:28:54.521Z",
+        "sourceSnapshotHash": "e3cece3520b5779e2692bbef1ed4aa6b3161a07d255d8a01f2e333dd22719e08"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1925/index19247628_0_p1216612.shtml",
+        "fetchedAt": "2026-10-05T19:28:54.667Z",
+        "sourceSnapshotHash": "cf5c298965bd4adea49574a0c4461c1d80ae11d151aa2663e6c7c6c2250ee800",
+        "colors": [
+          {
+            "name": "极夜黑",
+            "url": "https://2c.zol-img.com.cn/product/192/690/ceLOtYE25je0A.jpg"
+          },
+          {
+            "name": "极昼白",
+            "url": "https://2a.zol-img.com.cn/product/192/628/ceP778rt4yqzk.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "samsung-galaxy-a9-star-lite-2018",
+      "modelName": "Samsung Galaxy A9 Star Lite",
+      "generation": "A9 Star Lite",
+      "releaseYear": 2018,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/cell_phone/index1217851.shtml",
+        "https://detail.zol.com.cn/1218/1217851/param.shtml",
+        "https://news.mydrivers.com/1/579/579860.htm",
+        "https://detail.zol.com.cn/picture_index_1915/index19140651_0_p1217851.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2018",
+        "rawText": "上市日期 2018年06月15日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1218/1217851/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:20:06.389Z",
+        "sourceSnapshotHash": "9b7b58cc9db2ed00a6ddae2272470f486c542eff9982bba5eacac9ed0629115e",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星今天在国内发布盖乐世A9 Star/Star Lite两款新机",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://news.mydrivers.com/1/579/579860.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:21:04.374Z",
+        "sourceSnapshotHash": "61a8f5a28f6de842effdd2f2d0994a998f611fce640873b8f60be287651d188f"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "搭载骁龙450芯片，4GB RAM，64GB ROM ，前置2400万纯粹自拍镜头，后置1600万+500万像素主镜头，支持人脸识别、实时虚化，3500mAh电池（MicroUSB接口），预装Bixby语音助手。 另外，A9 Lite也保留了3.5耳机孔、三卡槽设计，支持NFC/蓝牙4.2并加入杜比全景声音效。 三星官方给出的售价是， A9 Star 2999元，A9 Star Lite 1999元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://news.mydrivers.com/1/579/579860.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:21:04.374Z",
+        "sourceSnapshotHash": "61a8f5a28f6de842effdd2f2d0994a998f611fce640873b8f60be287651d188f"
+      },
+      "fieldCorrections": [
+        {
+          "field": "chip",
+          "reason": "具体参数页未写芯片，以中国发布报道明确型号补充。"
+        }
+      ],
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2d.zol-img.com.cn/product/191_320x240/651/cesqyEsOtHG7k.jpg",
+        "alt": "三星Galaxy A9 Star Lite（全网通）",
+        "modelName": "Samsung Galaxy A9 Star Lite",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1217851.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:28:55.636Z",
+        "sourceSnapshotHash": "4f6f4aaf1250a5b848ab5dc09cc241efd38b015bfd9df6064238db3ecdf19bea"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1915/index19140651_0_p1217851.shtml",
+        "fetchedAt": "2026-10-05T19:28:55.743Z",
+        "sourceSnapshotHash": "24715483ac2594767617e25536ed191d1e26e328cac098e6f8d958e22f62ae57",
+        "colors": [
+          {
+            "name": "深海蓝",
+            "url": "https://2d.zol-img.com.cn/product/191/651/cesqyEsOtHG7k.jpg"
+          },
+          {
+            "name": "夜空黑",
+            "url": "https://2e.zol-img.com.cn/product/191/676/cet473PyBWQ.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "samsung-galaxy-a40s-2019",
+      "modelName": "Samsung Galaxy A40s",
+      "generation": "A40s",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/cell_phone/index1268498.shtml",
+        "https://detail.zol.com.cn/1269/1268498/param.shtml",
+        "https://m.cnmo.com/news/661253.html",
+        "https://www.samsung.com.cn/support/model/SM-A3050ZKFCHC/",
+        "https://detail.zol.com.cn/picture_index_1977/index19768995_0_p1268498.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2019",
+        "rawText": "上市日期 2019年04月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1269/1268498/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:48.446Z",
+        "sourceSnapshotHash": "6ab0c864c8e0a49470ff0fbb82948a67a280fea8cd37abf9e39d1fa5d96afae2",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "SM-A3050ZKFCHC",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.samsung.com.cn/support/model/SM-A3050ZKFCHC/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:28:55.935Z",
+        "sourceSnapshotHash": "5ca8c3855d8c4ce585d1154488112275e0dd2f8d8c684314568f4e83a49078aa"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星A40s已正式上架京东商城，6GB+64GB版本仅售1499元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://m.cnmo.com/news/661253.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:22:56.423Z",
+        "sourceSnapshotHash": "d7d487d8b332c06398d8cb5154bf9e0e5f3b62739e1fbe2700d964c0f1111ccb"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2d.zol-img.com.cn/product/197_320x240/995/ceg6ASPcSnYoE.jpg",
+        "alt": "三星GALAXY A40S（6GB/64GB/全网通）",
+        "modelName": "Samsung Galaxy A40s",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1268498.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:18:51.467Z",
+        "sourceSnapshotHash": "ef250efea5fc9ca96183001889bb928bbff75c06b5d04b37b448b3be404a8c27"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1977/index19768995_0_p1268498.shtml",
+        "fetchedAt": "2026-10-05T19:28:56.064Z",
+        "sourceSnapshotHash": "d183208312fb1549ef72a4a8083de1b52a8a8c7b2a12df7badc74eedaa1fcbe7",
+        "colors": [
+          {
+            "name": "晨曦金",
+            "url": "https://2f.zol-img.com.cn/product/197/33/ceD0WycLJM9A.jpg"
+          },
+          {
+            "name": "魅夜黑",
+            "url": "https://2d.zol-img.com.cn/product/197/995/ceg6ASPcSnYoE.jpg"
+          },
+          {
+            "name": "水光蓝",
+            "url": "https://2f.zol-img.com.cn/product/199/525/ce29poAnXfF2U.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "samsung-galaxy-a70s-2019",
+      "modelName": "Samsung Galaxy A70s",
+      "generation": "A70s",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/cell_phone/index1276068.shtml",
+        "https://detail.zol.com.cn/1277/1276068/param.shtml",
+        "https://www.ithome.com/0/477/714.htm",
+        "https://detail.zol.com.cn/picture_index_2030/index20293573_0_p1276068.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2019",
+        "rawText": "上市日期 2019年11月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1277/1276068/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:20:06.067Z",
+        "sourceSnapshotHash": "9177989b3bdcfda07ac528485cbe27504a6b5af6d9b659f0aaed7f3791147072",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星Galaxy A70s国行首发价格为2699元（8+128GB）",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/477/714.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:28:56.142Z",
+        "sourceSnapshotHash": "b1dbce01f876bf4e6e9024eee67bc7c270c2c10123a28ff47a8e503f65222b8a"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星Galaxy A70s国行首发价格为2699元（8+128GB）",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/477/714.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:28:56.142Z",
+        "sourceSnapshotHash": "b1dbce01f876bf4e6e9024eee67bc7c270c2c10123a28ff47a8e503f65222b8a"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2b.zol-img.com.cn/product/202_320x240/573/ceP7DHw00skGg.jpg",
+        "alt": "三星GALAXY A70s（8GB/128GB/全网通）",
+        "modelName": "Samsung Galaxy A70s",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1276068.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:28:57.557Z",
+        "sourceSnapshotHash": "01c7ec1b5060ff1186ddd7e451d4b8b8d19aa74aeb31256baab3bb228c333b30"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2030/index20293573_0_p1276068.shtml",
+        "fetchedAt": "2026-10-05T19:28:57.697Z",
+        "sourceSnapshotHash": "1c084bfdbd3a0ecfb8056ec070122694045ea1876e21a8495fc7753cff09e517",
+        "colors": [
+          {
+            "name": "钻石白",
+            "url": "https://2c.zol-img.com.cn/product/202/598/ceKMKV6sQYcAQ.jpg"
+          },
+          {
+            "name": "光谱黑",
+            "url": "https://2c.zol-img.com.cn/product/202/592/cedAavkDtAqvw.jpg"
+          },
+          {
+            "name": "炫目红",
+            "url": "https://2b.zol-img.com.cn/product/202/573/ceP7DHw00skGg.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "samsung-galaxy-a90-2019",
+      "modelName": "Samsung Galaxy A90",
+      "generation": "A90",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/cell_phone/index1290066.shtml",
+        "https://detail.zol.com.cn/1291/1290066/param.shtml",
+        "https://www.ithome.com/0/451/007.htm",
+        "https://detail.zol.com.cn/picture_index_2030/index20292645_0_p1290066.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2019",
+        "rawText": "上市日期 2019年10月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1291/1290066/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:20:06.075Z",
+        "sourceSnapshotHash": "7174a454484d0a3907424ec6cdb48d2a5385129d699fce99ebcb38eb4cdde2f9",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星Galaxy A90 5G国行版本上架开启预约，搭载高通骁龙855处理器，全息3D格纹设计，4499元。 据了解，三星Galaxy A90 5G国行版本具有全息黑和空间白两种配色，手机尺寸为164.8×76.4×8.4mm，重量为206g，机身采用全息3D格纹设计。 采用6.7英寸FHD+SuperAMOLED屏幕，分辨率为2400×1080，屏幕比例为20:9。此外，距离传感器、光线传感器和屏幕指纹识别传感器隐藏在显示屏下方。 摄像方面，采用后置三摄设计，为4800万像素主摄、800万像素超广角和500万像素景深摄像头；具有123度视野、超级稳定模式、实时虚化等功能，前置摄像头为3200万像素。 硬件方面，搭载高通骁龙855处理器，8GB+128GB存储组合",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/451/007.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:28:57.779Z",
+        "sourceSnapshotHash": "6af301983dc8d727889efdccf096a5fd57298af7e58c89f049a92b9bb19758fc"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星Galaxy A90 5G国行版本上架开启预约，搭载高通骁龙855处理器，全息3D格纹设计，4499元。 据了解，三星Galaxy A90 5G国行版本具有全息黑和空间白两种配色，手机尺寸为164.8×76.4×8.4mm，重量为206g，机身采用全息3D格纹设计。 采用6.7英寸FHD+SuperAMOLED屏幕，分辨率为2400×1080，屏幕比例为20:9。此外，距离传感器、光线传感器和屏幕指纹识别传感器隐藏在显示屏下方。 摄像方面，采用后置三摄设计，为4800万像素主摄、800万像素超广角和500万像素景深摄像头；具有123度视野、超级稳定模式、实时虚化等功能，前置摄像头为3200万像素。 硬件方面，搭载高通骁龙855处理器，8GB+128GB存储组合",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/451/007.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:28:57.779Z",
+        "sourceSnapshotHash": "6af301983dc8d727889efdccf096a5fd57298af7e58c89f049a92b9bb19758fc"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2f.zol-img.com.cn/product/202_320x240/953/ceRpiBqhuEPoE.jpg",
+        "alt": "三星Galaxy A90（8GB/128GB/全网通/5G版）",
+        "modelName": "Samsung Galaxy A90",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1290066.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:28:58.429Z",
+        "sourceSnapshotHash": "06bf6d0bd040a425209dfc02dc94a14b3092617ad95305199bc494a09f0a0139"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2030/index20292645_0_p1290066.shtml",
+        "fetchedAt": "2026-10-05T19:28:58.567Z",
+        "sourceSnapshotHash": "f3498609e83c943bf27e801ada6a9adfb00e5e0e6dced054720e1822b9d562dc",
+        "colors": [
+          {
+            "name": "全息黑",
+            "url": "https://2f.zol-img.com.cn/product/202/953/ceRpiBqhuEPoE.jpg"
+          },
+          {
+            "name": "空间白",
+            "url": "https://2c.zol-img.com.cn/product/202/944/cehSbTsY0HkSE.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "samsung-galaxy-c55-2024",
+      "modelName": "Samsung Galaxy C55",
+      "generation": "C55",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10862539_1.html",
+        "https://detail.zol.com.cn/series/57/98/param_10862539_0_1.html",
+        "https://detail.zol.com.cn/2010/2009819/param.shtml",
+        "https://detail.zol.com.cn/2010/2009820/param.shtml",
+        "https://www.ithome.com/0/763/560.htm",
+        "https://support-cn.samsung.com.cn/campaign/event/psg/2024/sl/galaxyc55/index.html",
+        "https://detail.zol.com.cn/picture_index_2633/index26325318_0_p2009819.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2024-04-26",
+        "rawText": "4 月 26 日 0 点正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/763/560.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:28:58.648Z",
+        "sourceSnapshotHash": "53388c03bb75d35a940d40ab456c7ee75f622bffd4be95bce4a2b1895d9952a1"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 2 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "本促销活动仅限中国大陆地区行货手机、平板电脑和智能手表参与",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://support-cn.samsung.com.cn/campaign/event/psg/2024/sl/galaxyc55/index.html",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:22:57.029Z",
+        "sourceSnapshotHash": "bfa3db098f3a8130eb5cfd13ae855510cf589da41307c5d26db2e81388f18e57"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "8GB + 256GB 风尚黑 / 缤纷橙：1999 元 12GB + 256GB 风尚黑 / 缤纷橙：2299 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/763/560.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:28:58.648Z",
+        "sourceSnapshotHash": "53388c03bb75d35a940d40ab456c7ee75f622bffd4be95bce4a2b1895d9952a1"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2d.zol-img.com.cn/product/263_320x240/309/ce1u41fI8fGQ.png",
+        "alt": "三星Galaxy C55",
+        "modelName": "Samsung Galaxy C55",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10862539_1.html",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:18:49.900Z",
+        "sourceSnapshotHash": "814a0a317fca98e622776686a15f0bfa81b71346b8b00bfdae238feb2150dceb"
+      },
+      "colorNames": [
+        "风尚黑",
+        "缤纷橙"
+      ],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2633/index26325318_0_p2009819.shtml",
+        "fetchedAt": "2026-10-05T19:28:59.358Z",
+        "sourceSnapshotHash": "b76e2b36e65b61ff278ce706d6cf48d0c8c2bf91bcb609337dd6fb862fbef18f",
+        "colors": [
+          {
+            "name": "风尚黑",
+            "url": "https://2d.zol-img.com.cn/product/263/309/ce1u41fI8fGQ.png"
+          },
+          {
+            "name": "缤纷橙",
+            "url": "https://2a.zol-img.com.cn/product/263/318/censwX7XBTCQ.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "samsung-galaxy-f52-2021",
+      "modelName": "Samsung Galaxy F52",
+      "generation": "F52",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/cell_phone/index1370969.shtml",
+        "https://detail.zol.com.cn/1371/1370969/param.shtml",
+        "https://www.ithome.com/0/554/742.htm",
+        "https://detail.zol.com.cn/picture_index_2129/index21288594_0_p1370969.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2021-06-01",
+        "rawText": "2021/6/1 11:05:16 来源： IT之家 作者： 玉笛 责编： 远洋 评论： IT之家 6 月 1 日消息 三星 Galaxy F52 5G 手机今日正式上市首销",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/554/742.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:28:59.527Z",
+        "sourceSnapshotHash": "699d07ba42aa4d06ed78fff35a06fad31a9b41978d57f60f87cb2c80f19f9a87"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星 Galaxy F52 5G 手机国行版",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/554/742.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:28:59.527Z",
+        "sourceSnapshotHash": "699d07ba42aa4d06ed78fff35a06fad31a9b41978d57f60f87cb2c80f19f9a87"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星 Galaxy F52 5G 手机今日正式上市首销。 该手机搭载高通骁龙 750G 处理器，8GB 内存和 128G 储存，后置四摄像头，价格为 1999 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/554/742.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:28:59.527Z",
+        "sourceSnapshotHash": "699d07ba42aa4d06ed78fff35a06fad31a9b41978d57f60f87cb2c80f19f9a87"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2c.zol-img.com.cn/product/212_320x240/590/ce7Yp0TYMmQdI.jpg",
+        "alt": "三星Galaxy F52（8GB/128GB/全网通/5G版）",
+        "modelName": "Samsung Galaxy F52",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1370969.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:29:00.299Z",
+        "sourceSnapshotHash": "a0055238fb9574cfc4b81de53bdea178a0778bcc81a992e75308523c4a2bafbe"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2129/index21288594_0_p1370969.shtml",
+        "fetchedAt": "2026-10-05T19:29:00.491Z",
+        "sourceSnapshotHash": "a494b51d8caa9b63d30811b410a03545cad45ad747fbb1b5512127bf1af9d038",
+        "colors": [
+          {
+            "name": "薄暮黑",
+            "url": "https://2c.zol-img.com.cn/product/212/590/ce7Yp0TYMmQdI.jpg"
+          },
+          {
+            "name": "幻璧白",
+            "url": "https://2c.zol-img.com.cn/product/212/668/cezENcheNieLw.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "samsung-galaxy-fold-2019",
+      "modelName": "Samsung Galaxy Fold",
+      "generation": "Fold",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/cell_phone/index1225416.shtml",
+        "https://detail.zol.com.cn/1226/1225416/param.shtml",
+        "https://www.ithome.com/0/455/471.htm",
+        "https://detail.zol.com.cn/picture_index_2025/index20249415_0_p1225416.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2019-11-08",
+        "rawText": "2019/11/8 6:43:23 来源： IT之家 作者： 懒猫 责编： 懒猫 评论： IT之家 11月8日消息 今日上午10:00",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/455/471.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:00.622Z",
+        "sourceSnapshotHash": "e7743e8cc6da83b2287873c9f33d41e9e1048e0a89ac630607ac59cafd86c920"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星Galaxy Fold折叠屏手机国行版正式开售，搭载骁龙855处理器，拥有夜雾银和量子黑两种配色，12GB+512GB售价15999元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/455/471.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:00.622Z",
+        "sourceSnapshotHash": "e7743e8cc6da83b2287873c9f33d41e9e1048e0a89ac630607ac59cafd86c920"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星Galaxy Fold折叠屏手机国行版正式开售，搭载骁龙855处理器，拥有夜雾银和量子黑两种配色，12GB+512GB售价15999元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/455/471.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:00.622Z",
+        "sourceSnapshotHash": "e7743e8cc6da83b2287873c9f33d41e9e1048e0a89ac630607ac59cafd86c920"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2b.zol-img.com.cn/product/202_320x240/1/ceehMHGSPIEqw.jpg",
+        "alt": "三星Galaxy Fold（12GB/512GB/全网通）",
+        "modelName": "Samsung Galaxy Fold",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1225416.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:29:00.700Z",
+        "sourceSnapshotHash": "0e84899d750efb7168097bd89527fd54c9bcbd37c8c32ac959eacbc7a5775be5"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2025/index20249415_0_p1225416.shtml",
+        "fetchedAt": "2026-10-05T19:29:01.081Z",
+        "sourceSnapshotHash": "8b1db7af9bf4df6c8ebde2e12bdba08bc3422ab4536f389322c254633e7c19e4",
+        "colors": [
+          {
+            "name": "夜雾银",
+            "url": "https://2a.zol-img.com.cn/product/202/418/ceBjBOQ8t4RM.jpg"
+          },
+          {
+            "name": "量子黑",
+            "url": "https://2f.zol-img.com.cn/product/202/453/ce2tZxCQSitU.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "samsung-galaxy-z-flip-5g-2020",
+      "modelName": "Samsung Galaxy Z Flip 5G",
+      "generation": "Z Flip 5G",
+      "releaseYear": 2020,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/cell_phone/index1330789.shtml",
+        "https://detail.zol.com.cn/1331/1330789/param.shtml",
+        "https://www.ithome.com/0/572/133.htm",
+        "https://detail.zol.com.cn/picture_index_2070/index20698737_0_p1330789.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2020-08-07",
+        "rawText": "Galaxy Z Flip 5G 在 2020 年 8 月 7 日陆续发货，价格 12499 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/572/133.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:01.220Z",
+        "sourceSnapshotHash": "5dd4fd4a65d76f010bd1f3387dd7b6d2823cf3328828344ab425d31429825555"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星 Galaxy Z Flip 5G 国行版去年 8 月发售，定价 12499 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/572/133.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:01.220Z",
+        "sourceSnapshotHash": "5dd4fd4a65d76f010bd1f3387dd7b6d2823cf3328828344ab425d31429825555"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星 Galaxy Z Flip 5G 国行版去年 8 月发售，定价 12499 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/572/133.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:01.220Z",
+        "sourceSnapshotHash": "5dd4fd4a65d76f010bd1f3387dd7b6d2823cf3328828344ab425d31429825555"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2d.zol-img.com.cn/product/206_320x240/369/ceOi4Pb9MFlAo.jpg",
+        "alt": "三星Galaxy Z Flip（8GB/256GB/全网通/5G版）",
+        "modelName": "Samsung Galaxy Z Flip 5G",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1330789.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:29:01.295Z",
+        "sourceSnapshotHash": "290f3dc5ab091bcd244c9e81f447423fa8cc7c676a62783751d51cb3a180c38e"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2070/index20698737_0_p1330789.shtml",
+        "fetchedAt": "2026-10-05T19:29:01.592Z",
+        "sourceSnapshotHash": "fc94d500a45e39eefcca83de42d312a40fa0533e03ef0967f85d0f8f99f567c3",
+        "colors": [
+          {
+            "name": "冷山灰",
+            "url": "https://2c.zol-img.com.cn/product/206/374/cers8FYwJti2.jpg"
+          },
+          {
+            "name": "迷雾金",
+            "url": "https://2f.zol-img.com.cn/product/206/359/ceWM3EKzunlwQ.jpg"
+          },
+          {
+            "name": "秘境白",
+            "url": "https://2f.zol-img.com.cn/product/207/51/cepPrmQ7topCA.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "samsung-w23-2022",
+      "modelName": "Samsung W23",
+      "generation": "W23",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/cell_phone/index1430375.shtml",
+        "https://detail.zol.com.cn/1431/1430375/param.shtml",
+        "https://www.ithome.com/0/648/098.htm",
+        "https://www.samsung.com.cn/smartphones/samsung-w23/",
+        "https://detail.zol.com.cn/picture_index_2292/index22916896_0_p1430375.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022",
+        "rawText": "上市日期 2022年10月28日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1431/1430375/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:04:47.351Z",
+        "sourceSnapshotHash": "0983f24a7845ce6940fdbd486b9812a89137bdbc77a93875a6c4dd8c2c2c5bea",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星“心系天下”W 系列是中国电信和三星联手打造的超高端手机",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/648/098.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:01.661Z",
+        "sourceSnapshotHash": "c9e70443b91f30c5247398954722a8a4cc6ef359b2d9f70d10698085a8a97547"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "W23 及首款掌心折叠屏机型 W23 Flip，价格分别是 15999（16+512GB）和 9999（12+512GB）",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/648/098.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:01.661Z",
+        "sourceSnapshotHash": "c9e70443b91f30c5247398954722a8a4cc6ef359b2d9f70d10698085a8a97547"
+      },
+      "fieldCorrections": [
+        {
+          "field": "waterResistance",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "chargingMethod",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "waterResistance",
+          "reason": "官方原文明确IPX8，第三方IP68不可接受。"
+        }
+      ],
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2e.zol-img.com.cn/product/229_320x240/896/ceaCIHm53yw8g.png",
+        "alt": "三星W23（16GB/512GB）",
+        "modelName": "Samsung W23",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1430375.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:04:47.047Z",
+        "sourceSnapshotHash": "950728fdd7e0862deb9fdba5b483b3c6276e0a019bf6fbc0b2beb6cacaf0d7c1"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2292/index22916896_0_p1430375.shtml",
+        "fetchedAt": "2026-10-05T19:29:01.762Z",
+        "sourceSnapshotHash": "5c76a2d6c2be2fc714bac66cb7040cbfc055d553d4eac1335668fb971f35ee36",
+        "colors": [
+          {
+            "name": "熠金黑",
+            "url": "https://2e.zol-img.com.cn/product/229/896/ceaCIHm53yw8g.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "samsung-w23-flip-2022",
+      "modelName": "Samsung W23 Flip",
+      "generation": "W23 Flip",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/cell_phone/index1430379.shtml",
+        "https://detail.zol.com.cn/1431/1430379/param.shtml",
+        "https://www.ithome.com/0/648/098.htm",
+        "https://detail.zol.com.cn/picture_index_2292/index22919357_0_p1430379.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022",
+        "rawText": "上市日期 2022年10月28日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1431/1430379/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:21:50.676Z",
+        "sourceSnapshotHash": "cb120a4eee8b6bf99c16b6d7c48e7ff759f532442336f6319b1f4ff27f36efa8",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星“心系天下”W 系列是中国电信和三星联手打造的超高端手机",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/648/098.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:01.661Z",
+        "sourceSnapshotHash": "c9e70443b91f30c5247398954722a8a4cc6ef359b2d9f70d10698085a8a97547"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "W23 及首款掌心折叠屏机型 W23 Flip，价格分别是 15999（16+512GB）和 9999（12+512GB）",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/648/098.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:01.661Z",
+        "sourceSnapshotHash": "c9e70443b91f30c5247398954722a8a4cc6ef359b2d9f70d10698085a8a97547"
+      },
+      "fieldCorrections": [
+        {
+          "field": "chargingMethod",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        },
+        {
+          "field": "sim",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        }
+      ],
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2f.zol-img.com.cn/product/229_320x240/357/cefrAA69RQ96.png",
+        "alt": "三星W23 Flip（12GB/512GB）",
+        "modelName": "Samsung W23 Flip",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1430379.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:29:01.837Z",
+        "sourceSnapshotHash": "9471f926b013fee6ab5a4edbd6828ca7432267e17cd5074581c4429a80b9b00b"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2292/index22919357_0_p1430379.shtml",
+        "fetchedAt": "2026-10-05T19:29:01.950Z",
+        "sourceSnapshotHash": "b23e679ff86e0f4f0f6e6424aa7ca144d70cdeb7c1989b2fe5a8c4a74593b771",
+        "colors": [
+          {
+            "name": "熠金黑",
+            "url": "https://2f.zol-img.com.cn/product/229/357/cefrAA69RQ96.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "samsung-w25-2024",
+      "modelName": "Samsung W25",
+      "generation": "W25",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/cell_phone/index1772411.shtml",
+        "https://detail.zol.com.cn/1773/1772411/param.shtml",
+        "https://www.ithome.com/0/809/335.htm",
+        "https://www.ithome.com/0/803/920.htm",
+        "https://detail.zol.com.cn/picture_index_2703/index27029578_0_p1772411.shtml",
+        "https://www.samsung.com.cn/smartphones/samsung-w25/specs/"
+      ],
+      "releaseEvidence": {
+        "value": "2024-11-15",
+        "rawText": "11 月 15 日 10:08 开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/809/335.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:02.625Z",
+        "sourceSnapshotHash": "33408eb7f5b65677451975fcca7615cecb9d37654343e2d381824e2dd5ae3a6f"
+      },
+      "fieldGaps": [
+        {
+          "field": "frontCamera",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星 W25（型号为 SM-W9025）和 W25 Flip 手机（型号为 SM-W7025） 已于今年 8 月通过工信部认证",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/803/920.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:02.852Z",
+        "sourceSnapshotHash": "c9be55d99082018e9c8adc55083546beb06f4d3d58767987e590083a8b44bf39"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星 W25 Flip（12GB+512GB）售价 9999 元 三星 W25 （16GB+512GB）售价 15999 元 三星 W25 （16GB+1TB）售价 17999 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/809/335.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:02.625Z",
+        "sourceSnapshotHash": "33408eb7f5b65677451975fcca7615cecb9d37654343e2d381824e2dd5ae3a6f"
+      },
+      "fieldCorrections": [
+        {
+          "field": "frontCamera",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        }
+      ],
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2c.zol-img.com.cn/product/270_320x240/576/ceUNB8SgRaI.jpg",
+        "alt": "三星W25(16GB/512GB)",
+        "modelName": "Samsung W25",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1772411.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:04:45.200Z",
+        "sourceSnapshotHash": "70efc81206c72a8723297afe3ea336e5ffff5f8c99605081208b0789cf0ad827"
+      },
+      "colorNames": [
+        "陶瓷黑"
+      ],
+      "colorGallery": {
+        "sourceUrl": "https://www.samsung.com.cn/smartphones/samsung-w25/specs/",
+        "fetchedAt": "2026-10-05T19:24:14.563Z",
+        "sourceSnapshotHash": "a6170121ba0ce8a5e2029c24e50c4b819244d5dd77e2f7bcea889849c5f3a8a3",
+        "colors": [
+          {
+            "name": "陶瓷黑",
+            "url": "https://images.samsung.com.cn/is/image/samsung/assets/cn/smartphones/samsung-w25/163-346.png?$163_346_PNG$"
+          }
+        ]
+      }
+    },
+    {
+      "id": "samsung-w25-flip-2024",
+      "modelName": "Samsung W25 Flip",
+      "generation": "W25 Flip",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/cell_phone/index1772412.shtml",
+        "https://detail.zol.com.cn/1773/1772412/param.shtml",
+        "https://www.ithome.com/0/809/335.htm",
+        "https://www.ithome.com/0/803/920.htm",
+        "https://detail.zol.com.cn/picture_index_2704/index27030933_0_p1772412.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2024-11-15",
+        "rawText": "11 月 15 日 10:08 开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/809/335.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:02.625Z",
+        "sourceSnapshotHash": "33408eb7f5b65677451975fcca7615cecb9d37654343e2d381824e2dd5ae3a6f"
+      },
+      "fieldGaps": [
+        {
+          "field": "frontCamera",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星 W25（型号为 SM-W9025）和 W25 Flip 手机（型号为 SM-W7025） 已于今年 8 月通过工信部认证",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/803/920.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:02.852Z",
+        "sourceSnapshotHash": "c9be55d99082018e9c8adc55083546beb06f4d3d58767987e590083a8b44bf39"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星 W25 Flip（12GB+512GB）售价 9999 元 三星 W25 （16GB+512GB）售价 15999 元 三星 W25 （16GB+1TB）售价 17999 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/809/335.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:02.625Z",
+        "sourceSnapshotHash": "33408eb7f5b65677451975fcca7615cecb9d37654343e2d381824e2dd5ae3a6f"
+      },
+      "fieldCorrections": [
+        {
+          "field": "frontCamera",
+          "reason": "原页字段存在代际/型号错误，未取得可靠原文则删除而非猜测。"
+        }
+      ],
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2d.zol-img.com.cn/product/270_320x240/933/ceZYy10Rovmlw.png",
+        "alt": "三星W25 Flip(12GB/512GB)",
+        "modelName": "Samsung W25 Flip",
+        "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1772412.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:36:16.513Z",
+        "sourceSnapshotHash": "81e889b8be7d69cb8ea5c8c6ec52a380d2e21ee0040f533d62da470cf712203f"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2704/index27030933_0_p1772412.shtml",
+        "fetchedAt": "2026-10-05T19:36:16.822Z",
+        "sourceSnapshotHash": "16cc33961df2f4593437a43f58d5085eefc96187863c5e350a3d94aa4036df8b",
+        "colors": [
+          {
+            "name": "陶瓷黑",
+            "url": "https://2d.zol-img.com.cn/product/270/933/ceZYy10Rovmlw.png"
+          }
+        ]
+      }
+    }
+  ],
+  "tablet": [
+    {
+      "id": "samsung-galaxy-tab-s3-lte-2017",
+      "modelName": "Samsung Galaxy Tab S3 LTE",
+      "generation": "Tab S3 LTE",
+      "releaseYear": 2017,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/21860_1.html",
+        "https://detail.zol.com.cn/series/702/98/param_21860_0_1.html",
+        "https://detail.zol.com.cn/1139/1138523/param.shtml",
+        "https://www.ithome.com/0/305/012.htm",
+        "https://detail.zol.com.cn/picture_index_1810/index18095450_0_p1138523.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2017",
+        "rawText": "上市时间 2017年02月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1139/1138523/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:20:06.436Z",
+        "sourceSnapshotHash": "47bccf5bbe4d1384ccc002624aa80d1319e64b21489fc0a9fb3565326d774764",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "目前国行版三星Galaxy Tab S3仅提供4GB RAM+32GB容量4G版可选，有银色跟黑色两种配色，售价为5799元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/305/012.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:22:55.404Z",
+        "sourceSnapshotHash": "2fac094c90ea12a107f167bcece920571ec20f019410afb8b345362a713d1671"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "目前国行版三星Galaxy Tab S3仅提供4GB RAM+32GB容量4G版可选，有银色跟黑色两种配色，售价为5799元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/305/012.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:22:55.404Z",
+        "sourceSnapshotHash": "2fac094c90ea12a107f167bcece920571ec20f019410afb8b345362a713d1671"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2f.zol-img.com.cn/product/182_320x240/473/ce6SzLcRLJFv6.jpg",
+        "alt": "三星Galaxy Tab S3",
+        "modelName": "Samsung Galaxy Tab S3 LTE",
+        "sourceUrl": "https://detail.zol.com.cn/series/702/21860_1.html",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:19:19.986Z",
+        "sourceSnapshotHash": "889583654eb7832fb39a9cb97be3003c0d2e3b56cfc05716c25d52f47b92f2ff"
+      },
+      "colorNames": [
+        "黑色",
+        "银色"
+      ],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1810/index18095450_0_p1138523.shtml",
+        "fetchedAt": "2026-10-05T19:29:03.221Z",
+        "sourceSnapshotHash": "a718b0419e9cff2b194ddfc608f0bff19c23314080b38cec13142ccc68bff824",
+        "colors": [
+          {
+            "name": "黑色"
+          },
+          {
+            "name": "银色"
+          }
+        ]
+      }
+    },
+    {
+      "id": "samsung-galaxy-tab-s4-lte-2018",
+      "modelName": "Samsung Galaxy Tab S4 LTE",
+      "generation": "Tab S4 LTE",
+      "releaseYear": 2018,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/tablepc/index1208241.shtml",
+        "https://detail.zol.com.cn/1209/1208241/param.shtml",
+        "https://detail.zol.com.cn/1231/1230192/param.shtml",
+        "https://www.ithome.com/0/377/073.htm",
+        "https://www.samsung.com.cn/support/model/SM-T835CZKACHC/",
+        "https://detail.zol.com.cn/picture_index_1918/index19178886_0_p1208241.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2018",
+        "rawText": "上市时间 2018年08月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1209/1208241/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:04:57.528Z",
+        "sourceSnapshotHash": "60499f6e9acfb7ac14add792885fdaf5cd2a44e90518d88d28fc2577cba00de7",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 2 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "Galaxy Tab S4 4G",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.samsung.com.cn/support/model/SM-T835CZKACHC/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:38:38.254Z",
+        "sourceSnapshotHash": "203fc89dcdafeda9476e83b2cb3046fb5e98447a71c14f52eefa2ba6565531f1"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "正式发布了国行新款智能手表Galaxy Watch和Galaxy Tab S4平板。 三星Galaxy Watch Galaxy Watch继承三星智能手表原有的风格：圆形旋转表圈，同时新增息屏提醒功能，提高了可用性。Galaxy Watch可实现模拟真实手表的滴答声和整点报时，以及利用明暗度，呈现出如同光线照射在真实手表上的视觉效果，营造出传统的外观和感觉。 Galaxy Watch提供钛泽银46mm和42mm的午夜黑色或玫瑰金款式。 Galaxy Watch具有新的压力和睡眠监控功能，能够帮助用户完成更多的工作。另外还提供更为丰富的色彩选择，包括钛泽银、午夜黑和玫瑰金等三款表盘以及全新的可定制颜色的表带。 Galaxy Watch的电池续航时间已被提高至80小时以上，Galaxy Watch的LTE智能互联。 Galaxy Watch通过新一代压力管理跟踪器，为用户提供了一种真实的、可监控全身健康的智能体验。这种压力管理跟踪器能自动检测出较高强度的压力并提供呼吸练习，以帮助用户保证注意力的集中。 此外，新一代高级睡眠监测仪能够监测用户的所有睡眠质量水平，包括快速眼动（REM）周期，以帮助用户调整睡眠习惯。 Galaxy Watch还可以帮助用户实现健康目标，例如健身。Galaxy Watch增加了21个新的室内运动，共计能够追踪39项运动，让用户能够定制和改变日常运动习惯。 此外，还支持康宁Gorilla Glass DX +的军用级耐用性，LTE连接、GPS和5 ATM防水功能等等。 国行价格方面暂未公布。 三星平板电脑Galaxy Tab S4 8月初，三星发布了旗下新款平板电脑Galaxy Tab S4，今天晚间，这款产品也来到了国内。 Galaxy Tab S4拥有10.5英寸的屏幕，支持AKG四扬声器，支持Spen，也支持DeX模式；S4还可以连接外接显示器，拥有两种连接模式。 屏占比达到79%；支持AKG的四扬声器，可以自动调节左右声道；SPen支持4096级压感，不需要充电，重量只有9.3g（免费赠送），可以创建gif 信息，也支持息屏速写功能。 三星S4平板搭载用高通骁龙835处理器，还有4GB的内存，辅以64GB/256GB的存储空间",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/377/073.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:03.312Z",
+        "sourceSnapshotHash": "00cd40ea87f0573eb2963ff27e1ae1710a0e50531614c3d13e3d5d3c1f3d94f7"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2a.zol-img.com.cn/product/191_320x240/886/ceha1spoNBOw.jpg",
+        "alt": "三星Galaxy Tab S4 4G（64GB）",
+        "modelName": "Samsung Galaxy Tab S4 LTE",
+        "sourceUrl": "https://detail.zol.com.cn/tablepc/index1208241.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:04:57.287Z",
+        "sourceSnapshotHash": "13475e88219176b828f4cd4058c65f6c97164de4bf987a80a25cdecfb52be6fa"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1918/index19178886_0_p1208241.shtml",
+        "fetchedAt": "2026-10-05T19:29:03.632Z",
+        "sourceSnapshotHash": "86152a8e7df0204875bd2df6194c7dfe428855ce8e0f4911deacf8b64388390a",
+        "colors": [
+          {
+            "name": "黑色",
+            "url": "https://2a.zol-img.com.cn/product/191/886/ceha1spoNBOw.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "samsung-galaxy-tab-s5e-2019",
+      "modelName": "Samsung Galaxy Tab S5e",
+      "generation": "Tab S5e",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/26688_1.html",
+        "https://detail.zol.com.cn/series/702/98/param_26688_0_1.html",
+        "https://detail.zol.com.cn/1280/1279118/param.shtml",
+        "https://www.ithome.com/0/425/956.htm",
+        "https://detail.zol.com.cn/picture_index_1962/index19612245_0_p1256875.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2019",
+        "rawText": "上市时间 2019年02月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1280/1279118/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:04.011Z",
+        "sourceSnapshotHash": "01911d9c029841b2b87d19d431789d4b054b8d3e468e1f3212f331b573a0aedf",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        },
+        {
+          "field": "port",
+          "reason": "对应具体配置参数页未提供可核验的字段原文"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "Galaxy Tab S5e和Galaxy Tab A (2019,10.1英寸)两款平板电脑带入中国。 三星Galaxy Tab S5e采用金属一体化机身，主打轻薄设计，机身厚度5.5mm，重400g。其正面采用10.5英寸Super AMOLED屏幕，分辨率为2K，亮度最高能够达到500nit。同时屏幕边框四边等宽，均为8.7毫米，屏占比为84.8%。配色方面共有鎏砂金、铂光银、锡墨黑三种选择。 Galaxy Tab S5e搭载骁龙670处理器，最高提供6+128GB存储组合",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/425/956.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:22:55.146Z",
+        "sourceSnapshotHash": "18e004ded86c1bce61bc264bb21a8a6b227fbedfa8e4d7cc337549c3096e8e6b"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "Galaxy Tab S5e和Galaxy Tab A (2019,10.1英寸)两款平板电脑带入中国。 三星Galaxy Tab S5e采用金属一体化机身，主打轻薄设计，机身厚度5.5mm，重400g。其正面采用10.5英寸Super AMOLED屏幕，分辨率为2K，亮度最高能够达到500nit。同时屏幕边框四边等宽，均为8.7毫米，屏占比为84.8%。配色方面共有鎏砂金、铂光银、锡墨黑三种选择。 Galaxy Tab S5e搭载骁龙670处理器，最高提供6+128GB存储组合",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/425/956.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:22:55.146Z",
+        "sourceSnapshotHash": "18e004ded86c1bce61bc264bb21a8a6b227fbedfa8e4d7cc337549c3096e8e6b"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2d.zol-img.com.cn/product/196_320x240/245/cezloz6QT4jxQ.jpg",
+        "alt": "三星Galaxy Tab S5e",
+        "modelName": "Samsung Galaxy Tab S5e",
+        "sourceUrl": "https://detail.zol.com.cn/series/702/26688_1.html",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:19:20.526Z",
+        "sourceSnapshotHash": "438552ca75faa117ed1c8093879a3d0e64cfe9caa9fb42fc7701d87cd80267c5"
+      },
+      "colorNames": [
+        "黑色",
+        "银色",
+        "鎏砂金"
+      ],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1962/index19612245_0_p1256875.shtml",
+        "fetchedAt": "2026-10-05T19:29:04.163Z",
+        "sourceSnapshotHash": "2170c179aec91f304d8a292167807b6224b15a50635f7efd3aef55bbccfe96b3",
+        "colors": [
+          {
+            "name": "黑色",
+            "url": "https://2d.zol-img.com.cn/product/196/245/cezloz6QT4jxQ.jpg"
+          },
+          {
+            "name": "银色",
+            "url": "https://2c.zol-img.com.cn/product/199/362/ce5WRm59XpIc.jpg"
+          },
+          {
+            "name": "鎏砂金",
+            "url": "https://2e.zol-img.com.cn/product/199/352/cerNIlfk3F0k.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "samsung-galaxy-tab-s6-2019",
+      "modelName": "Samsung Galaxy Tab S6",
+      "generation": "Tab S6",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/27360_1.html",
+        "https://detail.zol.com.cn/series/702/98/param_27360_0_1.html",
+        "https://detail.zol.com.cn/1287/1286261/param.shtml",
+        "https://detail.zol.com.cn/1287/1286272/param.shtml",
+        "https://www.ithome.com/0/440/434.htm",
+        "https://detail.zol.com.cn/picture_index_2051/index20501483_0_p1286261.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2019",
+        "rawText": "上市时间 2019年09月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1287/1286261/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:04:56.479Z",
+        "sourceSnapshotHash": "784b0d8c093efac926d2e5282ccf13d08c4c29fd6939e323f04eafa7709f7909",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 2 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "Galaxy Tab S6国行发布：骁龙855，光学屏下指纹，AKG四声道扬声器 - IT之家 首页 IT圈 最会买 设置 日夜间 随系统 浅色 深色 主题色 黑色 投稿 订阅 RSS订阅 收藏IT之家 软媒应用 App客户端 要知App 软媒魔方 业界 手机 电脑 测评 视频 AI 苹果 iPhone 鸿蒙 软件 智车 数码 学院 游戏 直播 5G 微软 Win10 Win11 专题 搜索 首页 > 安卓之家 > 安卓平板 三星Galaxy Tab S6国行发布：骁龙855，光学屏下指纹，AKG四声道扬声器 2019/8/21 18:06:27 来源： IT之家 作者： 骑士 责编： 骑士 评论： IT之家 8月21日消息 在今天下午的Galaxy Note10 |Note10+ 中国发布会上， 三星带来了Galaxy Note10、Galaxy Note10+ 5G手机 。三星正式发布了旗舰平板电脑Galaxy Tab S6，搭载了骁龙855旗舰处理器，支持光学屏下指纹，AKG调教四声道扬声器，支持蓝牙S Pen。现场未公布售价。 三星Galaxy Tab S6平板电脑采用10.5英寸Super AMOLED面板，分辨率为2560 x 1600px，比例为16:10，四扬声器调谐由AKG调校，支持杜比Atmos，搭载最新的骁龙855芯片，辅以6GB/128GB或8GB/256GB内存",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/440/434.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:04.334Z",
+        "sourceSnapshotHash": "c715a230256994130594a3ef132aa353fc7a9f6f21c22abc20fc10e75e209df6"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "Galaxy Tab S6国行发布：骁龙855，光学屏下指纹，AKG四声道扬声器 - IT之家 首页 IT圈 最会买 设置 日夜间 随系统 浅色 深色 主题色 黑色 投稿 订阅 RSS订阅 收藏IT之家 软媒应用 App客户端 要知App 软媒魔方 业界 手机 电脑 测评 视频 AI 苹果 iPhone 鸿蒙 软件 智车 数码 学院 游戏 直播 5G 微软 Win10 Win11 专题 搜索 首页 > 安卓之家 > 安卓平板 三星Galaxy Tab S6国行发布：骁龙855，光学屏下指纹，AKG四声道扬声器 2019/8/21 18:06:27 来源： IT之家 作者： 骑士 责编： 骑士 评论： IT之家 8月21日消息 在今天下午的Galaxy Note10 |Note10+ 中国发布会上， 三星带来了Galaxy Note10、Galaxy Note10+ 5G手机 。三星正式发布了旗舰平板电脑Galaxy Tab S6，搭载了骁龙855旗舰处理器，支持光学屏下指纹，AKG调教四声道扬声器，支持蓝牙S Pen。现场未公布售价。 三星Galaxy Tab S6平板电脑采用10.5英寸Super AMOLED面板，分辨率为2560 x 1600px，比例为16:10，四扬声器调谐由AKG调校，支持杜比Atmos，搭载最新的骁龙855芯片，辅以6GB/128GB或8GB/256GB内存",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/440/434.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:04.334Z",
+        "sourceSnapshotHash": "c715a230256994130594a3ef132aa353fc7a9f6f21c22abc20fc10e75e209df6"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2b.zol-img.com.cn/product/221_320x240/25/ceKu1iv44Lqks.jpg",
+        "alt": "三星Galaxy Tab S6",
+        "modelName": "Samsung Galaxy Tab S6",
+        "sourceUrl": "https://detail.zol.com.cn/series/702/27360_1.html",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:22:22.578Z",
+        "sourceSnapshotHash": "d66ed1fd0baebcc8cac6e5064595db3ee64dcfd8082d2a994cf44643e6a56816"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2051/index20501483_0_p1286261.shtml",
+        "fetchedAt": "2026-10-05T19:29:04.835Z",
+        "sourceSnapshotHash": "d1b0ebea4659a691446008f9f5224486a298ccab522ba2a9c633a6b2f037dd9f",
+        "colors": []
+      }
+    },
+    {
+      "id": "samsung-galaxy-tab-a-t510-2019",
+      "modelName": "Samsung Galaxy Tab A T510",
+      "generation": "Tab A T510",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/tablepc/index1279119.shtml",
+        "https://detail.zol.com.cn/1280/1279119/param.shtml",
+        "https://detail.zol.com.cn/1281/1280329/param.shtml",
+        "https://www.ithome.com/0/425/956.htm",
+        "https://detail.zol.com.cn/picture_index_1991/index19902313_0_p1279119.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2019",
+        "rawText": "上市时间 2019年",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1280/1279119/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:04:57.860Z",
+        "sourceSnapshotHash": "4b1467b247a4371d8dff88716b8db5d037bdadc0b1ec5a175ccac71ddab4cea3",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [
+        {
+          "field": "chip",
+          "reason": "对应具体配置参数页未提供可核验的字段原文"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [
+        {
+          "name": "三星Galaxy Tab A T510(3GB/128GB/WiFi版)",
+          "sourceUrl": "https://detail.zol.com.cn/1281/1280329/param.shtml",
+          "reason": "未取得本批国行单值配对SKU证据，或参数多值/冲突"
+        }
+      ],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "Galaxy Tab S5e和Galaxy Tab A (2019,10.1英寸)两款平板电脑带入中国",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/425/956.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:22:55.146Z",
+        "sourceSnapshotHash": "18e004ded86c1bce61bc264bb21a8a6b227fbedfa8e4d7cc337549c3096e8e6b"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "Galaxy Tab A (2019,10.1英寸)定位中端，同样采用金属一体化机身，机身厚度7.5毫米，重469g，正面采用10.1英寸LCD屏幕，分辨率为1920x1200，亮度最高达到400nit。 Galaxy Tab A (2019,10.1英寸)搭载Exynos 7904处理器，采用3+32GB存储组合",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/425/956.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:22:55.146Z",
+        "sourceSnapshotHash": "18e004ded86c1bce61bc264bb21a8a6b227fbedfa8e4d7cc337549c3096e8e6b"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2b.zol-img.com.cn/product/199_320x240/313/cedjfRPHdN7Q.jpg",
+        "alt": "三星Galaxy Tab A T510(3GB/32GB/WiFi版)",
+        "modelName": "Samsung Galaxy Tab A T510",
+        "sourceUrl": "https://detail.zol.com.cn/tablepc/index1279119.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:04:57.740Z",
+        "sourceSnapshotHash": "e4359ef2f19ca4f5259fcb67a9f2f66470bfa5d17f41bb270c7366eeffb4e806"
+      },
+      "colorNames": [
+        "银色",
+        "鎏砂金",
+        "黑色"
+      ],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_1991/index19902313_0_p1279119.shtml",
+        "fetchedAt": "2026-10-05T19:29:05.156Z",
+        "sourceSnapshotHash": "0d78d06604b8d831c749a748a27f9dfb8af37a8891a9c320d5c99188ed561dee",
+        "colors": [
+          {
+            "name": "黑色",
+            "url": "https://2a.zol-img.com.cn/product/199/342/ceQxycAw9Z3LY.jpg"
+          },
+          {
+            "name": "银色",
+            "url": "https://2b.zol-img.com.cn/product/199/313/cedjfRPHdN7Q.jpg"
+          },
+          {
+            "name": "鎏砂金",
+            "url": "https://2e.zol-img.com.cn/product/199/334/cemz4VVZoOB0E.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "samsung-galaxy-tab-a7-2020",
+      "modelName": "Samsung Galaxy Tab A7",
+      "generation": "Tab A7",
+      "releaseYear": 2020,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/tablepc/index1343599.shtml",
+        "https://detail.zol.com.cn/1339/1338408/param.shtml",
+        "https://finance.sina.cn/tech/2020-10-16/detail-iiznctkc5976766.d.html?vt=4",
+        "https://detail.zol.com.cn/picture_index_2227/index22269949_0_p1343599.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2020",
+        "rawText": "上市时间 2020年10月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1339/1338408/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:05.367Z",
+        "sourceSnapshotHash": "bd196b541fa9e97c2922c04a0e3bc987f57fe1df41c2f3883f7de90c8245259f",
+        "note": "仅保留已证大陆年份，不将海外/发布/预售/少量优先发货日当中国大陆正式首销日。"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 1 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星 Tab A7 平板国行上架：10.4 英寸 2K 屏 + 四声道扬声器，1499 元_手机新浪网 新浪科技 三星 Tab A7 平板国行上架：10.4 英寸 2K 屏 + 四声道扬声器，1499 元 IT之家 IT之家官方账号 2020.10.16 21:26 关注 原标题：三星 Tab A7 平板国行上架：10.4 英寸 2K 屏 + 四声道扬声器，1499 元 IT之家 10 月 16 日消息 9 月份，三星海外发布了 Galaxy Tab A7 平板，现在这款产品已经在 京东 上架，10.4 英寸 2K 屏 + 四声道扬声器，处理器为骁龙 662，3+32GB 售价 1499 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://finance.sina.cn/tech/2020-10-16/detail-iiznctkc5976766.d.html?vt=4",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:24:31.222Z",
+        "sourceSnapshotHash": "76648769c74d20fdc2481c51368e2dae9b9bb58515144de9940d0225d338b031"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "三星 Tab A7 平板国行上架：10.4 英寸 2K 屏 + 四声道扬声器，1499 元_手机新浪网 新浪科技 三星 Tab A7 平板国行上架：10.4 英寸 2K 屏 + 四声道扬声器，1499 元 IT之家 IT之家官方账号 2020.10.16 21:26 关注 原标题：三星 Tab A7 平板国行上架：10.4 英寸 2K 屏 + 四声道扬声器，1499 元 IT之家 10 月 16 日消息 9 月份，三星海外发布了 Galaxy Tab A7 平板，现在这款产品已经在 京东 上架，10.4 英寸 2K 屏 + 四声道扬声器，处理器为骁龙 662，3+32GB 售价 1499 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://finance.sina.cn/tech/2020-10-16/detail-iiznctkc5976766.d.html?vt=4",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:24:31.222Z",
+        "sourceSnapshotHash": "76648769c74d20fdc2481c51368e2dae9b9bb58515144de9940d0225d338b031"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2b.zol-img.com.cn/product/222_320x240/949/ceYypjhKZBKFw.jpg",
+        "alt": "三星Galaxy Tab A7(3GB/64GB/WLAN版)",
+        "modelName": "Samsung Galaxy Tab A7",
+        "sourceUrl": "https://detail.zol.com.cn/tablepc/index1343599.shtml",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:04:58.803Z",
+        "sourceSnapshotHash": "e729b3e968d3284fd8f6d80510b1f1e6d61423a634a070fc271a59c5a08c0f7e"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2227/index22269949_0_p1343599.shtml",
+        "fetchedAt": "2026-10-05T19:36:17.119Z",
+        "sourceSnapshotHash": "13ae215a2141e1ee17928d53811680cc27714fc07c4a3b3ad18f52e470130e1d",
+        "colors": []
+      }
+    },
+    {
+      "id": "samsung-galaxy-tab-s9-fe-plus-2023",
+      "modelName": "Samsung Galaxy Tab S9 FE+",
+      "generation": "Tab S9 FE+",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10911698_1.html",
+        "https://detail.zol.com.cn/series/702/98/param_10911698_0_1.html",
+        "https://detail.zol.com.cn/2124/2123952/param.shtml",
+        "https://detail.zol.com.cn/2124/2123953/param.shtml",
+        "https://www.ithome.com/0/726/301.htm",
+        "https://detail.zol.com.cn/picture_index_2716/index27152589_0_p2123952.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-10-27",
+        "rawText": "将于 10 月 27 日开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/726/301.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:05.726Z",
+        "sourceSnapshotHash": "2e7a18796dfb5b9d4d0f47a4f44395d68628b35dbf01ba08dc732982ae9aab7b"
+      },
+      "fieldGaps": [],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 2 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "三星 Galaxy Tab S9 FE / FE + 平板国行版现已上架京东平台",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/726/301.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:05.726Z",
+        "sourceSnapshotHash": "2e7a18796dfb5b9d4d0f47a4f44395d68628b35dbf01ba08dc732982ae9aab7b"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "Galaxy Tab S9 FE+ 8+128GB WLAN 版 3999 元 8+128GB 5G 版 4599 元 12+256GB WLAN 版 4599 元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/726/301.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:29:05.726Z",
+        "sourceSnapshotHash": "2e7a18796dfb5b9d4d0f47a4f44395d68628b35dbf01ba08dc732982ae9aab7b"
+      },
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2b.zol-img.com.cn/product/271_320x240/587/cehHhBJW2i0Q.png",
+        "alt": "三星Galaxy Tab S9 FE+",
+        "modelName": "Samsung Galaxy Tab S9 FE+",
+        "sourceUrl": "https://detail.zol.com.cn/series/702/10911698_1.html",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:24:31.733Z",
+        "sourceSnapshotHash": "9284674d3340f9175aef30ccdda808aeb79a27a3327f37e2bbd38408c4b825b5"
+      },
+      "colorNames": [
+        "薄荷绿",
+        "星系银",
+        "石墨灰"
+      ],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2716/index27152589_0_p2123952.shtml",
+        "fetchedAt": "2026-10-05T19:29:06.445Z",
+        "sourceSnapshotHash": "02d4fe3c9292efdc17f88261e18348cab018aaebda61f461102385090efb8814",
+        "colors": [
+          {
+            "name": "薄荷绿",
+            "url": "https://2b.zol-img.com.cn/product/271/581/ceaRuyDL1t4Mg.png"
+          },
+          {
+            "name": "石墨灰",
+            "url": "https://2c.zol-img.com.cn/product/271/576/ceqzHLLV9UKSM.png"
+          },
+          {
+            "name": "星系银",
+            "url": "https://2b.zol-img.com.cn/product/271/587/cehHhBJW2i0Q.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "samsung-galaxy-tab-a11-plus-2026",
+      "modelName": "Samsung Galaxy Tab A11+",
+      "generation": "Tab A11+",
+      "releaseYear": 2026,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10923621_1.html",
+        "https://detail.zol.com.cn/series/702/98/param_10923621_0_1.html",
+        "https://detail.zol.com.cn/2157/2156442/param.shtml",
+        "https://detail.zol.com.cn/2157/2156443/param.shtml",
+        "https://pad.zol.com.cn/1110/11109147.html",
+        "https://detail.zol.com.cn/picture_index_2747/index27464074_0_p2156442.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2026-01-04",
+        "rawText": "2026年1月4日，三星面向国内市场推出新款Galaxy Tab A11+平板电脑，提供WLAN版与5G版本，起售价为1699元，参与国家补贴后价格低至1444.15元起。 该产品于2025年11月率先在部分海外市场发布，定位为入门级安卓平板，搭载联发科天玑7300芯片。此次国行版本延续了此前的设计语言，外观设计灵感源自旗舰Galaxy S系列，配备一块11英寸LCD屏幕，分辨率为1920×1200，支持90Hz刷新率，带来更为流畅的视觉体验。 在续航方面，Galaxy Tab A11+内置7040mAh（典型值）电池，支持25W有线快充，满足日常使用需求。存储扩展方面，设备支持MicroSD卡拓展（需另购），最高可扩展至2TB，便于用户存储更多内容。 影像配置上，设备前置500万像素摄像头，后置800万像素单摄，满足视频通话与基础拍摄场景。音频部分则配备经杜比音效调校的四扬声器系统，并保留3.5毫米耳机接口，兼顾音质输出与设备兼容性。 具体定价如下： 6GB + 128GB WLAN版售价1699元，补贴后1444.15元 8GB + 256GB WLAN版售价2299元，补贴后1954.15元 6GB + 128GB 5G版售价2099元，补贴后1784.15元 目前该机型已在主要电商平台开启销售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://pad.zol.com.cn/1110/11109147.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:22:56.678Z",
+        "sourceSnapshotHash": "ca32ddc53836d2276be75362271565773a2436072aea4ea18c43112d569283e0"
+      },
+      "fieldGaps": [
+        {
+          "field": "port",
+          "reason": "对应具体配置参数页未提供可核验的字段原文"
+        }
+      ],
+      "notes": "具体国行配置交叉核验；只登记实际读取的 2 个配置。网络版本与海外命名不混用。公开产品照片许可unknown，不表示图片授权或全部大陆配色已覆盖。",
+      "excludedConfigurations": [],
+      "marketEvidence": {
+        "value": "中国大陆已发布销售型号",
+        "rawText": "2026年1月4日，三星面向国内市场推出新款Galaxy Tab A11+平板电脑",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://pad.zol.com.cn/1110/11109147.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:22:56.678Z",
+        "sourceSnapshotHash": "ca32ddc53836d2276be75362271565773a2436072aea4ea18c43112d569283e0"
+      },
+      "configurationMarketEvidence": {
+        "value": "国行配对配置核验范围",
+        "rawText": "6GB + 128GB WLAN版售价1699元，补贴后1444.15元 8GB + 256GB WLAN版售价2299元，补贴后1954.15元 6GB + 128GB 5G版售价2099元",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://pad.zol.com.cn/1110/11109147.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:22:56.678Z",
+        "sourceSnapshotHash": "ca32ddc53836d2276be75362271565773a2436072aea4ea18c43112d569283e0"
+      },
+      "fieldCorrections": [
+        {
+          "field": "chip",
+          "reason": "参数页写芯片内部代号MT8775，国行发售报道明确商业型号。"
+        }
+      ],
+      "imageLicense": "unknown",
+      "productImage": {
+        "url": "https://2d.zol-img.com.cn/product/274_320x240/55/ce4FpIQ2NGa3M.jpg",
+        "alt": "三星Galaxy Tab A11+",
+        "modelName": "Samsung Galaxy Tab A11+",
+        "sourceUrl": "https://detail.zol.com.cn/series/702/10923621_1.html",
+        "sourceName": "中关村在线",
+        "fetchedAt": "2026-10-05T19:24:32.770Z",
+        "sourceSnapshotHash": "9b5a4497b0adcc0fbea794c54444797392a3460a6f80ee2d6ea1d101e6bd2620"
+      },
+      "colorNames": [],
+      "colorGallery": {
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2747/index27464074_0_p2156442.shtml",
+        "fetchedAt": "2026-10-05T19:29:06.754Z",
+        "sourceSnapshotHash": "58ed8c921e8152c535f9777c09a943de58f39196d95d9f53484a22c5fce3b495",
+        "colors": [
+          {
+            "name": "月隐灰",
+            "url": "https://2d.zol-img.com.cn/product/274/55/ce4FpIQ2NGa3M.jpg"
+          },
+          {
+            "name": "月汐银",
+            "url": "https://2b.zol-img.com.cn/product/274/59/cequPd5TjcLp2.jpg"
+          }
+        ]
+      }
+    }
+  ],
+  "laptop": []
+}

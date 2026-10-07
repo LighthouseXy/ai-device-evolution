@@ -1,0 +1,349 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "totalDevices": 2,
+    "generatedAt": "2026-10-02"
+  },
+  "devices": [
+    {
+      "id": "huawei-matebook-14-2024",
+      "brand": "Huawei",
+      "market": "CN",
+      "category": "laptop",
+      "series": "HUAWEI MateBook 14",
+      "family": "HUAWEI MateBook 14",
+      "variant": "standard",
+      "modelName": "HUAWEI MateBook 14 (2024)",
+      "generation": "2024",
+      "generationOrder": 1,
+      "releaseYear": 2024,
+      "releaseDate": "2024-05-15",
+      "comparisonGroupId": "huawei.laptop.matebook-14.standard",
+      "configurations": [
+        {
+          "chip": "英特尔酷睿 Ultra 5 125H",
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "Ultra 5 125H / 16GB / 512GB",
+            "rawText": "Ultra 5/16GB / 512GB，售价 6099 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/768/168.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:18:02.608Z",
+            "sourceSnapshotHash": "c00f25f2085af5ea27dfa89dcc234723b6e759c157ab093403f73ded53906c6f"
+          }
+        },
+        {
+          "chip": "英特尔酷睿 Ultra 5 125H",
+          "memory": "16GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "Ultra 5 125H / 16GB / 1TB",
+            "rawText": "Ultra 5/16GB / 1TB，售价 6499 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/768/168.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:18:02.608Z",
+            "sourceSnapshotHash": "c00f25f2085af5ea27dfa89dcc234723b6e759c157ab093403f73ded53906c6f"
+          }
+        },
+        {
+          "chip": "英特尔酷睿 Ultra 5 125H",
+          "memory": "32GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "Ultra 5 125H / 32GB / 1TB",
+            "rawText": "Ultra 5/32GB / 1TB，售价 7399 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/768/168.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:18:02.608Z",
+            "sourceSnapshotHash": "c00f25f2085af5ea27dfa89dcc234723b6e759c157ab093403f73ded53906c6f"
+          }
+        },
+        {
+          "chip": "英特尔酷睿 Ultra 7 155H",
+          "memory": "32GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "Ultra 7 155H / 32GB / 1TB",
+            "rawText": "Ultra 7/32GB / 1TB，售价 8499 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/768/168.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:18:02.608Z",
+            "sourceSnapshotHash": "c00f25f2085af5ea27dfa89dcc234723b6e759c157ab093403f73ded53906c6f"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "英特尔酷睿 Ultra 5 125H / 英特尔酷睿 Ultra 7 155H",
+          "rawText": "英特尔® 酷睿™ Ultra 7 155H 处理器 *仅限 Windows 版本产品搭载。 英特尔® 酷睿™ Ultra 5 125H 处理器",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/laptops/matebook-14-2024/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:17:06.204Z",
+          "sourceSnapshotHash": "d7212437299180923e810b4128b7029c51b90e06bd658c05145ce6dfc31b6e7e"
+        },
+        "memory": {
+          "value": "16GB / 32GB",
+          "rawText": "Ultra 5/16GB / 512GB，售价 6099 元；Ultra 5/16GB / 1TB，售价 6499 元；Ultra 5/32GB / 1TB，售价 7399 元；Ultra 7/32GB / 1TB，售价 8499 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/768/168.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:18:02.608Z",
+          "sourceSnapshotHash": "c00f25f2085af5ea27dfa89dcc234723b6e759c157ab093403f73ded53906c6f"
+        },
+        "storage": {
+          "value": "512GB / 1TB",
+          "rawText": "Ultra 5/16GB / 512GB，售价 6099 元；Ultra 5/16GB / 1TB，售价 6499 元；Ultra 5/32GB / 1TB，售价 7399 元；Ultra 7/32GB / 1TB，售价 8499 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/768/168.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:18:02.608Z",
+          "sourceSnapshotHash": "c00f25f2085af5ea27dfa89dcc234723b6e759c157ab093403f73ded53906c6f"
+        },
+        "screenSize": {
+          "value": 14.2,
+          "unit": "inch",
+          "rawText": "尺寸 14.2 英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/laptops/matebook-14-2024/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:17:06.204Z",
+          "sourceSnapshotHash": "d7212437299180923e810b4128b7029c51b90e06bd658c05145ce6dfc31b6e7e"
+        },
+        "displayType": {
+          "value": "OLED",
+          "rawText": "类型 OLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/laptops/matebook-14-2024/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:17:06.204Z",
+          "sourceSnapshotHash": "d7212437299180923e810b4128b7029c51b90e06bd658c05145ce6dfc31b6e7e"
+        },
+        "resolution": {
+          "value": "2880x1920",
+          "rawText": "分辨率 2880 × 1920",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/laptops/matebook-14-2024/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:17:06.204Z",
+          "sourceSnapshotHash": "d7212437299180923e810b4128b7029c51b90e06bd658c05145ce6dfc31b6e7e"
+        },
+        "port": {
+          "value": "USB-C（全功能） / USB-A / HDMI / 3.5mm",
+          "rawText": "接口 USB-C 接口 × 1（全功能） USB3.2 Gen1 × 2 HDMI × 1 3.5 mm 耳机",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/laptops/matebook-14-2024/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:17:06.204Z",
+          "sourceSnapshotHash": "d7212437299180923e810b4128b7029c51b90e06bd658c05145ce6dfc31b6e7e"
+        },
+        "launchPrice": {
+          "value": 6099,
+          "unit": "CNY",
+          "rawText": "Ultra 5/16GB / 512GB，售价 6099 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/768/168.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:18:02.608Z",
+          "sourceSnapshotHash": "c00f25f2085af5ea27dfa89dcc234723b6e759c157ab093403f73ded53906c6f",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "酷睿 Ultra 5 125H + 16GB 运行内存 + 512GB 存储，国行 Windows 版",
+          "condition": "中国大陆上市定价；不含后续促销或补贴"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "huawei-matebook-14-harmonyos-2026",
+      "brand": "Huawei",
+      "market": "CN",
+      "category": "laptop",
+      "series": "HUAWEI MateBook 14",
+      "family": "HUAWEI MateBook 14",
+      "variant": "standard",
+      "modelName": "HUAWEI MateBook 14 鸿蒙版 (2026)",
+      "generation": "2026 鸿蒙版",
+      "generationOrder": 2,
+      "releaseYear": 2026,
+      "releaseDate": "2026-04-20",
+      "comparisonGroupId": "huawei.laptop.matebook-14.standard",
+      "configurations": [
+        {
+          "chip": "麒麟 X90",
+          "memory": "24GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "24GB + 512GB",
+            "rawText": "24GB RAM + 512GB SSD：6599 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/941/273.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:35:13.218Z",
+            "sourceSnapshotHash": "818d703964bde5d6c0e2b23c83866f552c98fa1b320f2bacab4dc5ee4b9a5df6"
+          }
+        },
+        {
+          "chip": "麒麟 X90",
+          "memory": "24GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "24GB + 1TB",
+            "rawText": "24GB RAM + 1TB SSD：7599 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/941/273.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:35:13.218Z",
+            "sourceSnapshotHash": "818d703964bde5d6c0e2b23c83866f552c98fa1b320f2bacab4dc5ee4b9a5df6"
+          }
+        },
+        {
+          "chip": "麒麟 X90",
+          "memory": "32GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "32GB + 1TB",
+            "rawText": "32GB RAM + 1TB SSD：8599 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/941/273.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:35:13.218Z",
+            "sourceSnapshotHash": "818d703964bde5d6c0e2b23c83866f552c98fa1b320f2bacab4dc5ee4b9a5df6"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "麒麟 X90",
+          "rawText": "CPU 麒麟 X90",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/harmonyos-computer/matebook-14-harmonyos-version/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:35:13.083Z",
+          "sourceSnapshotHash": "7b5e38f26573f09af76246bbc17fdad0f70b32b5b22441e45b179437f77a9c67"
+        },
+        "memory": {
+          "value": "24GB / 32GB",
+          "rawText": "内存 24 GB / 32 GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/harmonyos-computer/matebook-14-harmonyos-version/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:35:13.083Z",
+          "sourceSnapshotHash": "7b5e38f26573f09af76246bbc17fdad0f70b32b5b22441e45b179437f77a9c67"
+        },
+        "storage": {
+          "value": "512GB / 1TB",
+          "rawText": "存储 512 GB / 1 TB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/harmonyos-computer/matebook-14-harmonyos-version/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:35:13.083Z",
+          "sourceSnapshotHash": "7b5e38f26573f09af76246bbc17fdad0f70b32b5b22441e45b179437f77a9c67"
+        },
+        "screenSize": {
+          "value": 14.2,
+          "unit": "inch",
+          "rawText": "尺寸 14.2 英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/harmonyos-computer/matebook-14-harmonyos-version/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:35:13.083Z",
+          "sourceSnapshotHash": "7b5e38f26573f09af76246bbc17fdad0f70b32b5b22441e45b179437f77a9c67"
+        },
+        "displayType": {
+          "value": "OLED（抗反射屏）",
+          "rawText": "类型 OLED（抗反射屏）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/harmonyos-computer/matebook-14-harmonyos-version/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:35:13.083Z",
+          "sourceSnapshotHash": "7b5e38f26573f09af76246bbc17fdad0f70b32b5b22441e45b179437f77a9c67"
+        },
+        "resolution": {
+          "value": "2880x1920",
+          "rawText": "分辨率 2880 × 1920",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/harmonyos-computer/matebook-14-harmonyos-version/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:35:13.083Z",
+          "sourceSnapshotHash": "7b5e38f26573f09af76246bbc17fdad0f70b32b5b22441e45b179437f77a9c67"
+        },
+        "port": {
+          "value": "USB-C / USB-A / HDMI / 3.5mm",
+          "rawText": "左侧：HDMI2.1 TMDS × 1；USB-C × 1*；USB -A × 1**；3.5 mm 耳机和麦克风二合一接口",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/harmonyos-computer/matebook-14-harmonyos-version/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:35:13.083Z",
+          "sourceSnapshotHash": "7b5e38f26573f09af76246bbc17fdad0f70b32b5b22441e45b179437f77a9c67"
+        },
+        "launchPrice": {
+          "value": 6599,
+          "unit": "CNY",
+          "rawText": "24GB RAM + 512GB SSD：6599 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/941/273.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:35:13.218Z",
+          "sourceSnapshotHash": "818d703964bde5d6c0e2b23c83866f552c98fa1b320f2bacab4dc5ee4b9a5df6",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "麒麟 X90 + 24GB 运行内存 + 512GB 存储，国行标准屏版",
+          "condition": "中国大陆发布定价；鸿蒙版，不与 Windows 版配置混用"
+        }
+      },
+      "computed": {}
+    }
+  ]
+}

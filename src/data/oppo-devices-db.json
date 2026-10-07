@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0",
-    "totalDevices": 3,
-    "generatedAt": "2026-09-07"
+    "totalDevices": 10,
+    "generatedAt": "2026-10-01"
   },
   "devices": [
     {
@@ -22,15 +22,48 @@
       "configurations": [
         {
           "memory": "12GB",
-          "storage": "256GB"
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，16GB+256GB，16GB+512GB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:59:13.600Z",
+            "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
+          }
         },
         {
           "memory": "16GB",
-          "storage": "256GB"
+          "storage": "256GB",
+          "evidence": {
+            "value": "16GB + 256GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，16GB+256GB，16GB+512GB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:59:13.600Z",
+            "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
+          }
         },
         {
           "memory": "16GB",
-          "storage": "512GB"
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，16GB+256GB，16GB+512GB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:59:13.600Z",
+            "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
+          }
         }
       ],
       "benchmarks": [
@@ -40,145 +73,300 @@
           "score": 157,
           "protocolVersion": "Camera v5",
           "sourceUrl": "https://www.dxomark.com/oppo-find-x7-ultra-camera-test/",
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "rawText": "157",
+          "publishedAt": "2024-03-12",
+          "fetchedAt": "2026-09-22T10:05:02.627Z",
+          "sourceSnapshotHash": "33636724be0db51a4a57dc072f2d3b5576d8a859cefca742d50abd2da3e5b8d9",
+          "notes": "相机综合测试分数，不等于单独拍照分；协议标签为大版本，具体小版本、测试固件及与国行配置的一致性未核验。"
         }
       ],
       "specs": {
         "chip": {
           "value": "高通 第三代骁龙 8",
-          "rawText": "移动平台：高通 第三代骁龙 8",
+          "rawText": "移动平台 第三代骁龙®8移动平台",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.600Z",
+          "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
         },
         "screenSize": {
           "value": 6.82,
           "unit": "inch",
-          "rawText": "显示尺寸：6.82 英寸",
+          "rawText": "尺寸 6.82 英寸",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.600Z",
+          "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
         },
         "displayType": {
           "value": "AMOLED LTPO 柔性屏",
-          "rawText": "显示类型：AMOLED LTPO 柔性屏",
+          "rawText": "类型 AMOLED LTPO 柔性屏",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.600Z",
+          "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
         },
         "resolution": {
           "value": "3168x1440",
-          "rawText": "分辨率：3168x1440 像素",
+          "rawText": "分辨率 3168×1440 像素",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.600Z",
+          "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
         },
         "refreshRate": {
           "value": 120,
           "unit": "Hz",
-          "rawText": "最高支持 120Hz 刷新率",
+          "rawText": "1～120Hz 自适应刷新率",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.600Z",
+          "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
         },
         "weight": {
           "value": 221,
           "unit": "g",
-          "rawText": "重量：约 221 克",
+          "rawText": "重量 221 克",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.600Z",
+          "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
         },
         "memory": {
           "value": "12GB / 16GB",
-          "rawText": "运行内存容量：12GB / 16GB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，16GB+256GB，16GB+512GB ",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.600Z",
+          "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
         },
         "storage": {
           "value": "256GB / 512GB",
-          "rawText": "机身存储容量：256GB / 512GB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，16GB+256GB，16GB+512GB ",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.600Z",
+          "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
         },
         "rearCamera": {
           "value": "5000 万像素主摄 + 5000 万像素超广角 + 5000 万像素长焦 + 5000 万像素超长焦",
-          "rawText": "后置摄像头：5000 万像素主摄 + 5000 万像素超广角 + 5000 万像素长焦 + 5000 万像素超长焦",
+          "rawText": "摄像头 后置 5000 万像素 1 英寸大底广角摄像头：ƒ/1.8，等效焦距 23 毫米，1G7P 镜头，支持 AF 自动对焦，支持 OIS 防抖 5000 万像素超广角摄像头：ƒ/2.0，等效焦距 14 毫米，123° 广视角，六镜式镜头，支持 AF 自动对焦，支持 4 厘米微距拍摄 5000 万像素超光感潜望长焦摄像头：ƒ/2.6，等效焦距 65 毫米，五镜式镜头，支持 AF 自动对焦，支持 OIS 防抖 5000 万像素特写潜望长焦摄像头：ƒ/4.3，等效焦距 135 毫米，1G3P 镜头，支持 AF 自动对焦，支持 OIS 防抖 照片拍摄支持最高 6 倍光学变焦，最高 120 倍数码变焦 支持：照片，视频，夜景，大师，全景，人像，延时摄影，慢动作，超级文本，高像素，XPan，电影，长曝光，多景录像，萌拍，AI 证件照等 照片格式：HEIF，JPEG，DNG",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.600Z",
+          "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
         },
         "mainCamera": {
           "value": "5000 万像素 23mm 主摄",
-          "rawText": "5000 万像素 23mm 主摄",
+          "rawText": "5000 万像素 1 英寸大底广角摄像头：ƒ/1.8，等效焦距 23 毫米",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.600Z",
+          "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
         },
         "telephoto": {
           "value": "5000 万像素 65mm 长焦 + 5000 万像素 135mm 超长焦",
-          "rawText": "5000 万像素 65mm 长焦 + 5000 万像素 135mm 超长焦",
+          "rawText": "5000 万像素超光感潜望长焦摄像头：ƒ/2.6，等效焦距 65 毫米，五镜式镜头，支持 AF 自动对焦，支持 OIS 防抖 5000 万像素特写潜望长焦摄像头：ƒ/4.3，等效焦距 135 毫米",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.600Z",
+          "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
         },
         "frontCamera": {
           "value": "3200 万像素",
-          "rawText": "前置摄像头：3200 万像素",
+          "rawText": "前置 3200 万像素摄像头：f/2.4",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.600Z",
+          "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
         },
-        "batteryLife": {
-          "value": "5000mAh",
-          "rawText": "电池典型容量：5000mAh",
+        "batteryCapacity": {
+          "value": 5000,
+          "unit": "mAh",
+          "rawText": "典型容量：2500 mAh（双电芯串联设计，等效于 5000 mAh）",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.600Z",
+          "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
         },
         "port": {
           "value": "USB Type-C",
-          "rawText": "数据接口：USB Type-C",
+          "rawText": "数据接口 USB Type-C",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.600Z",
+          "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
         },
         "waterResistance": {
           "value": "IP68",
-          "rawText": "防护等级：IP68",
-          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "rawText": "IP68 级防尘抗水",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:55:23.886Z",
+          "sourceSnapshotHash": "94f17ded5f9196118d691430615186a552910f7fc897cebacd180d2b20c54cdd",
+          "note": "受控实验室测试等级，防护能力可能随磨损下降；不代表可日常浸水使用。"
         },
         "launchPrice": {
           "value": 5999,
           "unit": "CNY",
-          "rawText": "12GB+256GB 售价 5999 元",
+          "rawText": "12GB + 256GB 售价 5999 元",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.ithome.com/0/743/979.htm",
           "sourceType": "reference",
           "confidence": 0.7,
-          "verifiedAt": "2026-09-07",
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:21:42.939Z",
+          "sourceSnapshotHash": "48c79182afd3fd53a975d06495eaee4432600487d5da299c5d74f5f8cf141df6",
           "priceType": "launch",
           "market": "中国大陆",
           "configuration": "12GB 运行内存 + 256GB 存储，中国大陆版本",
           "condition": "中国大陆首发起售价"
+        },
+        "memoryType": {
+          "value": "LPDDR5X",
+          "rawText": "RAM 规格 LPDDR5X",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.600Z",
+          "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
+        },
+        "storageType": {
+          "value": "UFS 4.0",
+          "rawText": "ROM 规格 UFS 4.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.600Z",
+          "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
+        },
+        "operatingSystem": {
+          "value": "ColorOS 14.0",
+          "rawText": "操作系统 6 ColorOS 14.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.600Z",
+          "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
+        },
+        "chargingMethod": {
+          "value": "100 W 超级闪充。兼容 80 W 超级闪充，67 W 超级闪充，65 W 超级闪充，50 W 超级闪充，33 W 超级闪充，18 W 闪充 支持 18 W PD，18 W QC，33 W UFCS 50 W 无线闪充，兼容 Qi 无线快充协议，支持 10 W 反向充电",
+          "rawText": "快速充电 100 W 超级闪充。兼容 80 W 超级闪充，67 W 超级闪充，65 W 超级闪充，50 W 超级闪充，33 W 超级闪充，18 W 闪充 支持 18 W PD，18 W QC，33 W UFCS 50 W 无线闪充，兼容 Qi 无线快充协议，支持 10 W 反向充电",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.600Z",
+          "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
+        },
+        "security": {
+          "value": "指纹 屏下指纹 面部识别 支持",
+          "rawText": "生物识别 指纹 屏下指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.600Z",
+          "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
+        },
+        "wifi": {
+          "value": "支持 Wi-Fi 7（802.11be），Wi-Fi 6（802.11ax），Wi-Fi 5（802.11ac），802.11a/b/g/n/ 支持 WLAN 2.4G/WLAN 5G 支持 2×2 MIMO，MU-MIMO 支持 WLAN Display，WLAN 网络分享，支持网络叠加",
+          "rawText": "WLAN 功能 支持 Wi-Fi 7（802.11be），Wi-Fi 6（802.11ax），Wi-Fi 5（802.11ac），802.11a/b/g/n/ 支持 WLAN 2.4G/WLAN 5G 支持 2×2 MIMO，MU-MIMO 支持 WLAN Display，WLAN 网络分享，支持网络叠加",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.600Z",
+          "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
+        },
+        "bluetooth": {
+          "value": "5.4",
+          "rawText": "蓝牙 蓝牙 5.4",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.600Z",
+          "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持读写 NFC 卡片（13.56MHz 的 NFC 卡片） 支持 NFC-SIM（只支持 SIM1 卡槽），HCE，eSE 现已支持 300+城市地铁公交乘车，支持 OPPO Pay，门禁卡，车钥匙及公民网络电子身份标识（eID）等多项功能。轻触一下，便捷通行，安全支付。",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.600Z",
+          "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
+        },
+        "peakBrightness": {
+          "value": 4500,
+          "unit": "nit",
+          "rawText": "亮度 4500 尼特峰值亮度",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.600Z",
+          "sourceSnapshotHash": "4bc87bc1664750efe190b69887f1a108c3c0a6bc3136dceef39fa21fb6f708f9"
         }
       },
       "computed": {
@@ -211,11 +399,33 @@
       "configurations": [
         {
           "memory": "12GB",
-          "storage": "256GB"
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，16GB+512GB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:59:13.704Z",
+            "sourceSnapshotHash": "f867107f7b4fc7ac5b0009789f8089d745379e725e3f6ffa7bd5e4a4123fd694"
+          }
         },
         {
           "memory": "16GB",
-          "storage": "512GB"
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，16GB+512GB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:59:13.704Z",
+            "sourceSnapshotHash": "f867107f7b4fc7ac5b0009789f8089d745379e725e3f6ffa7bd5e4a4123fd694"
+          }
         }
       ],
       "benchmarks": [
@@ -225,145 +435,289 @@
           "score": 168,
           "protocolVersion": "Camera v6",
           "sourceUrl": "https://www.dxomark.com/oppo-find-x8-ultra-camera-test/",
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "rawText": "168",
+          "publishedAt": "2025-06-25",
+          "fetchedAt": "2026-09-22T10:05:02.814Z",
+          "sourceSnapshotHash": "1ef6de1130f02fc6b1fc60ff878e60f7a718adf9dbccc24dc2d326f2b61fe086",
+          "notes": "相机综合测试分数，不等于单独拍照分；协议标签为大版本，具体小版本、测试固件及与国行配置的一致性未核验。"
         }
       ],
       "specs": {
         "chip": {
           "value": "高通 骁龙 8 至尊版",
-          "rawText": "移动平台：高通 骁龙 8 至尊版",
+          "rawText": "移动平台 高通骁龙®8至尊版移动平台",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.704Z",
+          "sourceSnapshotHash": "f867107f7b4fc7ac5b0009789f8089d745379e725e3f6ffa7bd5e4a4123fd694"
         },
         "screenSize": {
           "value": 6.82,
           "unit": "inch",
-          "rawText": "显示尺寸：6.82 英寸",
+          "rawText": "尺寸 6.82 英寸",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.704Z",
+          "sourceSnapshotHash": "f867107f7b4fc7ac5b0009789f8089d745379e725e3f6ffa7bd5e4a4123fd694"
         },
         "displayType": {
           "value": "AMOLED 柔性屏",
-          "rawText": "显示类型：AMOLED 柔性屏",
+          "rawText": "类型 AMOLED 柔性屏",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.704Z",
+          "sourceSnapshotHash": "f867107f7b4fc7ac5b0009789f8089d745379e725e3f6ffa7bd5e4a4123fd694"
         },
         "resolution": {
           "value": "3168x1440",
-          "rawText": "分辨率：3168x1440 像素",
+          "rawText": "分辨率 QHD+ 3168×1440 像素",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.704Z",
+          "sourceSnapshotHash": "f867107f7b4fc7ac5b0009789f8089d745379e725e3f6ffa7bd5e4a4123fd694"
         },
         "refreshRate": {
           "value": 120,
           "unit": "Hz",
           "rawText": "最高支持 120Hz 刷新率",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.704Z",
+          "sourceSnapshotHash": "f867107f7b4fc7ac5b0009789f8089d745379e725e3f6ffa7bd5e4a4123fd694"
         },
         "weight": {
           "value": 226,
           "unit": "g",
-          "rawText": "重量：约 226 克",
+          "rawText": "重量 约 226 克",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.704Z",
+          "sourceSnapshotHash": "f867107f7b4fc7ac5b0009789f8089d745379e725e3f6ffa7bd5e4a4123fd694"
         },
         "memory": {
           "value": "12GB / 16GB",
-          "rawText": "运行内存容量：12GB / 16GB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，16GB+512GB ",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.704Z",
+          "sourceSnapshotHash": "f867107f7b4fc7ac5b0009789f8089d745379e725e3f6ffa7bd5e4a4123fd694"
         },
         "storage": {
           "value": "256GB / 512GB",
-          "rawText": "机身存储容量：256GB / 512GB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，16GB+512GB ",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.704Z",
+          "sourceSnapshotHash": "f867107f7b4fc7ac5b0009789f8089d745379e725e3f6ffa7bd5e4a4123fd694"
         },
         "rearCamera": {
           "value": "5000 万像素主摄 + 5000 万像素超广角 + 5000 万像素长焦 + 5000 万像素超长焦",
-          "rawText": "后置摄像头：5000 万像素主摄 + 5000 万像素超广角 + 5000 万像素长焦 + 5000 万像素超长焦",
+          "rawText": "摄像头 后置 5000 万像素广角摄像头：f/1.8，等效焦距 23 毫米，1G7P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 5000 万像素超广角摄像头：f/2.0，等效焦距 15 毫米，6P 镜头，支持 AF 自动对焦，120° 广视角 5000 万像素长焦摄像头：f/2.1，等效焦距 70 毫米，3P + 3P 两群式镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 5000 万像素超长焦摄像头：f/3.1，等效焦距 135 毫米，1G3P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 200 万像素丹霞原彩镜头：f/2.5，等效焦距 23 毫米，3P 镜头 支持：照片，视频，人像，夜景，大师，全景，电影，慢动作，长曝光，多景录像，延时摄影，萌拍，AI 证件照，XPAN，高像素，文档，水下相机 照片格式：JPG（默认），HEIF，RAW",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.704Z",
+          "sourceSnapshotHash": "f867107f7b4fc7ac5b0009789f8089d745379e725e3f6ffa7bd5e4a4123fd694",
+          "note": "另有200万像素丹霞原彩镜头"
         },
         "mainCamera": {
           "value": "5000 万像素 23mm 主摄",
-          "rawText": "5000 万像素 23mm 主摄",
+          "rawText": "5000 万像素广角摄像头：f/1.8，等效焦距 23 毫米",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.704Z",
+          "sourceSnapshotHash": "f867107f7b4fc7ac5b0009789f8089d745379e725e3f6ffa7bd5e4a4123fd694"
         },
         "telephoto": {
           "value": "5000 万像素 70mm 长焦 + 5000 万像素 135mm 超长焦",
-          "rawText": "5000 万像素 70mm 长焦 + 5000 万像素 135mm 超长焦",
+          "rawText": "5000 万像素长焦摄像头：f/2.1，等效焦距 70 毫米，3P + 3P 两群式镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 5000 万像素超长焦摄像头：f/3.1，等效焦距 135 毫米",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.704Z",
+          "sourceSnapshotHash": "f867107f7b4fc7ac5b0009789f8089d745379e725e3f6ffa7bd5e4a4123fd694"
         },
         "frontCamera": {
           "value": "3200 万像素",
-          "rawText": "前置摄像头：3200 万像素",
+          "rawText": "前置 3200 万像素摄像头：f/2.4",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.704Z",
+          "sourceSnapshotHash": "f867107f7b4fc7ac5b0009789f8089d745379e725e3f6ffa7bd5e4a4123fd694"
         },
-        "batteryLife": {
-          "value": "6100mAh",
-          "rawText": "电池典型容量：6100mAh",
+        "batteryCapacity": {
+          "value": 6100,
+          "unit": "mAh",
+          "rawText": "2×3050 mAh/23.38 Wh（典型值），等效 6100 mAh",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.704Z",
+          "sourceSnapshotHash": "f867107f7b4fc7ac5b0009789f8089d745379e725e3f6ffa7bd5e4a4123fd694"
         },
         "port": {
           "value": "USB Type-C",
-          "rawText": "数据接口：USB Type-C",
+          "rawText": "数据接口 USB Type-C",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.704Z",
+          "sourceSnapshotHash": "f867107f7b4fc7ac5b0009789f8089d745379e725e3f6ffa7bd5e4a4123fd694"
         },
         "waterResistance": {
           "value": "IP68 / IP69",
-          "rawText": "防护等级：IP68 / IP69",
-          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+          "rawText": "IP69 & IP68 级防尘抗水",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:55:23.941Z",
+          "sourceSnapshotHash": "922b884a6a33645071296716950299d264d8e66debff03123de4a967ded667ad",
+          "note": "受控实验室测试等级，防护能力可能随磨损下降；不代表可日常浸水使用。"
         },
         "launchPrice": {
           "value": 6499,
           "unit": "CNY",
           "rawText": "12GB+256GB 版 6499 元",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://m.ithome.com/html/844379.htm",
           "sourceType": "reference",
           "confidence": 0.7,
-          "verifiedAt": "2026-09-07",
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:21:43.090Z",
+          "sourceSnapshotHash": "ccef6da06e17b5397bee5130dd9aa50c2554625760d96352083f1b810b865be9",
           "priceType": "launch",
           "market": "中国大陆",
           "configuration": "12GB 运行内存 + 256GB 存储，中国大陆版本",
           "condition": "中国大陆首发起售价"
+        },
+        "memoryType": {
+          "value": "LPDDR5X",
+          "rawText": "RAM 规格 LPDDR5X",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.704Z",
+          "sourceSnapshotHash": "f867107f7b4fc7ac5b0009789f8089d745379e725e3f6ffa7bd5e4a4123fd694"
+        },
+        "storageType": {
+          "value": "UFS 4.1",
+          "rawText": "ROM 规格 UFS 4.1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.704Z",
+          "sourceSnapshotHash": "f867107f7b4fc7ac5b0009789f8089d745379e725e3f6ffa7bd5e4a4123fd694"
+        },
+        "operatingSystem": {
+          "value": "ColorOS 15.0",
+          "rawText": "操作系统 5 ColorOS 15.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.704Z",
+          "sourceSnapshotHash": "f867107f7b4fc7ac5b0009789f8089d745379e725e3f6ffa7bd5e4a4123fd694"
+        },
+        "chargingMethod": {
+          "value": "100 W 超级闪充，兼容 80 W 超级闪充、67 W 超级闪充、65 W 超级闪充、50 W 超级闪充、33 W 超级闪充，55 W PPS（11V/5A），44 W 融合快充，18 W PD（9V/2A），18 W QC（9V/2A） 50 W 无线闪充 10 W 无线反向充电 注：55 W PPS 需升级到最新版本后支持",
+          "rawText": "快速充电 100 W 超级闪充，兼容 80 W 超级闪充、67 W 超级闪充、65 W 超级闪充、50 W 超级闪充、33 W 超级闪充，55 W PPS（11V/5A），44 W 融合快充，18 W PD（9V/2A），18 W QC（9V/2A） 50 W 无线闪充 10 W 无线反向充电 注：55 W PPS 需升级到最新版本后支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.704Z",
+          "sourceSnapshotHash": "f867107f7b4fc7ac5b0009789f8089d745379e725e3f6ffa7bd5e4a4123fd694"
+        },
+        "security": {
+          "value": "指纹 屏下指纹 面部识别 支持",
+          "rawText": "生物识别 指纹 屏下指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.704Z",
+          "sourceSnapshotHash": "f867107f7b4fc7ac5b0009789f8089d745379e725e3f6ffa7bd5e4a4123fd694"
+        },
+        "wifi": {
+          "value": "支持 Wi-Fi 7 (802.11be) 支持 Wi-Fi 6 (802.11ax) 支持 Wi-Fi 5 (802.11ac) 支持 802.11 a/b/g/n 支持 WLAN Display 支持 WLAN 网络分享 支持网络叠加：Wi-Fi 2.4GHz 2×2+Wi-Fi 5GHz 2×2 并发 支持 Wi-Fi 5GHz 160MHz 支持 2×2 MIMO，MU-MIMO",
+          "rawText": "WLAN 功能 支持 Wi-Fi 7 (802.11be) 支持 Wi-Fi 6 (802.11ax) 支持 Wi-Fi 5 (802.11ac) 支持 802.11 a/b/g/n 支持 WLAN Display 支持 WLAN 网络分享 支持网络叠加：Wi-Fi 2.4GHz 2×2+Wi-Fi 5GHz 2×2 并发 支持 Wi-Fi 5GHz 160MHz 支持 2×2 MIMO，MU-MIMO",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.704Z",
+          "sourceSnapshotHash": "f867107f7b4fc7ac5b0009789f8089d745379e725e3f6ffa7bd5e4a4123fd694"
+        },
+        "bluetooth": {
+          "value": "5.4",
+          "rawText": "蓝牙 蓝牙 5.4",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.704Z",
+          "sourceSnapshotHash": "f867107f7b4fc7ac5b0009789f8089d745379e725e3f6ffa7bd5e4a4123fd694"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持读写 NFC 卡片（13.56MHz 的 NFC 卡片） 支持 NFC-SIM（只支持 SIM1 卡槽） 支持 HCE 支持 eSE（支持 300+城市地铁公交乘车，支持 OPPO Pay、门禁卡、车钥匙及公民网络电子身份标识（eID）等多项功能。轻触一下，便捷通行，安全支付。）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.704Z",
+          "sourceSnapshotHash": "f867107f7b4fc7ac5b0009789f8089d745379e725e3f6ffa7bd5e4a4123fd694"
         }
       },
       "computed": {}
@@ -385,19 +739,63 @@
       "configurations": [
         {
           "memory": "12GB",
-          "storage": "256GB"
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:59:13.864Z",
+            "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710"
+          }
         },
         {
           "memory": "12GB",
-          "storage": "512GB"
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:59:13.864Z",
+            "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710"
+          }
         },
         {
           "memory": "16GB",
-          "storage": "512GB"
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:59:13.864Z",
+            "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710"
+          }
         },
         {
           "memory": "16GB",
-          "storage": "1TB"
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-22",
+            "fetchedAt": "2026-09-22T09:59:13.864Z",
+            "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710"
+          }
         }
       ],
       "benchmarks": [
@@ -407,147 +805,2714 @@
           "score": 170,
           "protocolVersion": "Camera v6",
           "sourceUrl": "https://www.dxomark.com/oppo-find-x9-ultra-camera-test/",
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "rawText": "170",
+          "publishedAt": "2026-07-28",
+          "fetchedAt": "2026-09-22T10:05:02.938Z",
+          "sourceSnapshotHash": "cfb1ab3c166907f65cf07124f4b7943d84612c070d931623284494c6e84ad114",
+          "notes": "相机综合测试分数，不等于单独拍照分；协议标签为大版本，具体小版本、测试固件及与国行配置的一致性未核验。"
         }
       ],
       "specs": {
         "chip": {
           "value": "高通 第五代骁龙 8 至尊版",
-          "rawText": "移动平台：高通 第五代骁龙 8 至尊版",
+          "rawText": "移动平台 第五代骁龙®8至尊版移动平台",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.864Z",
+          "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710"
         },
         "screenSize": {
           "value": 6.82,
           "unit": "inch",
-          "rawText": "显示尺寸：6.82 英寸",
+          "rawText": "尺寸 6.82 英寸",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.864Z",
+          "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710"
         },
         "displayType": {
           "value": "AMOLED 直面屏",
-          "rawText": "显示类型：AMOLED 直面屏",
-          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
-          "sourceType": "official",
-          "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "rawText": "屏幕类型 全面屏（中置挖孔屏）， 直面屏> 纠错 分辨率 3168x1440px 纠错 屏幕材质 柔性AMOLED",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2165/2164063/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:12:33.364Z",
+          "sourceSnapshotHash": "9e1a32d7c0530b285975cd4711158e8758a824f484c74d92696c04067ad92f2f"
         },
         "resolution": {
           "value": "3168x1440",
-          "rawText": "分辨率：3168x1440 像素",
+          "rawText": "分辨率 QHD+ 3168×1440 像素",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.864Z",
+          "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710"
         },
         "refreshRate": {
           "value": 144,
           "unit": "Hz",
-          "rawText": "最高支持 144Hz 刷新率",
+          "rawText": "最高支持 144Hz 刷新率（144Hz 只在部分游戏场景生效）",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.864Z",
+          "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710",
+          "note": "144Hz 只在部分游戏场景生效"
         },
         "weight": {
           "value": 235,
           "unit": "g",
-          "rawText": "重量：约 235 克",
+          "rawText": "重量 约 236 克（大地苔原） 约 235 克（极地冰川，绒砂峡谷）",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.864Z",
+          "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710",
+          "note": "极地冰川、绒砂峡谷约235g；大地苔原约236g"
         },
         "memory": {
           "value": "12GB / 16GB",
-          "rawText": "运行内存容量：12GB / 16GB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.864Z",
+          "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710"
         },
         "storage": {
           "value": "256GB / 512GB / 1TB",
-          "rawText": "机身存储容量：256GB / 512GB / 1TB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.864Z",
+          "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710"
         },
         "rearCamera": {
           "value": "2 亿像素主摄 + 5000 万像素超广角 + 2 亿像素长焦 + 5000 万像素超长焦",
-          "rawText": "后置摄像头：2 亿像素主摄 + 5000 万像素超广角 + 2 亿像素长焦 + 5000 万像素超长焦",
+          "rawText": "摄像头 后置 2 亿像素广角摄像头：f/1.5，等效焦距 23 毫米，7P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 5000 万像素超广角摄像头：f/2.0，等效焦距 14 毫米，6P 镜头，支持 AF 自动对焦，123° 广视角 2 亿像素长焦摄像头：f/2.2，等效焦距 70 毫米，光焦度 Prism（OIS）+3P+3P（AF） 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 5000 万像素超长焦摄像头：f/3.5，等效焦距 230 毫米，1G3P+PRISM 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 第二代丹霞色彩还原镜头：f/2.4，等效焦距 19 毫米，3P 镜头 照片拍摄最高支持 10 倍光学变焦，最高支持 120 倍数码变焦 支持：照片，视频，人像，夜景，全景，慢动作，长曝光，多景录像，延时摄影，萌拍，XPAN，哈苏超清，水下相机，大师，AI 证件照，超级文本，扫一扫，专业视频，哈苏增距 照片格式：JPG（默认），HEIF，RAW",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.864Z",
+          "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710",
+          "note": "另有第二代丹霞色彩还原镜头，官网未列像素数"
         },
         "mainCamera": {
           "value": "200MP（2 亿像素）23mm 主摄",
-          "rawText": "200MP（2 亿像素）23mm 主摄",
+          "rawText": "2 亿像素广角摄像头：f/1.5，等效焦距 23 毫米",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.864Z",
+          "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710"
         },
         "telephoto": {
           "value": "2 亿像素 70mm 长焦 + 5000 万像素 230mm 超长焦",
-          "rawText": "2 亿像素 70mm 长焦 + 5000 万像素 230mm 超长焦",
+          "rawText": "2 亿像素长焦摄像头：f/2.2，等效焦距 70 毫米，光焦度 Prism（OIS）+3P+3P（AF） 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 5000 万像素超长焦摄像头：f/3.5，等效焦距 230 毫米",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.864Z",
+          "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710"
         },
         "frontCamera": {
           "value": "5000 万像素",
-          "rawText": "前置摄像头：5000 万像素",
+          "rawText": "前置 5000 万像素摄像头：f/2.4",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.864Z",
+          "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710"
         },
-        "batteryLife": {
-          "value": "7050mAh",
-          "rawText": "电池典型容量：7050mAh",
+        "batteryCapacity": {
+          "value": 7050,
+          "unit": "mAh",
+          "rawText": "7050 mAh/26.23 Wh（典型值）",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.864Z",
+          "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710"
         },
         "port": {
           "value": "USB Type-C",
-          "rawText": "数据接口：USB Type-C",
+          "rawText": "数据接口 USB Type-C",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.864Z",
+          "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710"
         },
         "waterResistance": {
           "value": "IP66 / IP68 / IP69",
-          "rawText": "防护等级：IP66 / IP68 / IP69",
-          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+          "rawText": "IP66 & IP68 & IP69 超强防水",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/",
           "sourceType": "official",
           "confidence": 1,
-          "verifiedAt": "2026-09-07"
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T10:55:23.996Z",
+          "sourceSnapshotHash": "8c2f122a54735a079c3e6d5d480e669e366d062b3aa1dd3d5921d99d6c54ec5c",
+          "note": "受控实验室测试等级，防护能力可能随磨损下降；不代表可日常浸水使用。"
         },
         "launchPrice": {
           "value": 7499,
           "unit": "CNY",
           "rawText": "12GB+256GB 规格：定价 7499 元",
+          "evidenceKind": "excerpt",
           "sourceUrl": "https://www.ithome.com/0/941/820.htm",
           "sourceType": "reference",
           "confidence": 0.7,
-          "verifiedAt": "2026-09-07",
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:21:43.114Z",
+          "sourceSnapshotHash": "b3705dca45110b207fd7295f86f6b41a07918e7d6a7de526780f6327cc6118cc",
           "priceType": "launch",
           "market": "中国大陆",
           "configuration": "12GB 运行内存 + 256GB 存储，中国大陆版本",
           "condition": "中国大陆首发起售价"
+        },
+        "memoryType": {
+          "value": "LPDDR5X",
+          "rawText": "RAM 规格 LPDDR5X",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.864Z",
+          "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710"
+        },
+        "storageType": {
+          "value": "UFS 4.1",
+          "rawText": "ROM 规格 UFS 4.1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.864Z",
+          "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710"
+        },
+        "operatingSystem": {
+          "value": "ColorOS 16.0",
+          "rawText": "操作系统 6 ColorOS 16.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.864Z",
+          "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710"
+        },
+        "chargingMethod": {
+          "value": "最大支持：100 W 超级闪充，100 W UFCS 兼容：80 W 超级闪充，50 W 超级闪充，33 W 超级闪充，44 W 三方 UFCS 融合快充，18 W PD，18 W QC，55 W PPS 最大支持：50 W 无线闪充",
+          "rawText": "快速充电 最大支持：100 W 超级闪充，100 W UFCS 兼容：80 W 超级闪充，50 W 超级闪充，33 W 超级闪充，44 W 三方 UFCS 融合快充，18 W PD，18 W QC，55 W PPS 最大支持：50 W 无线闪充",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.864Z",
+          "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710"
+        },
+        "security": {
+          "value": "指纹 屏下指纹 面部识别 支持",
+          "rawText": "生物识别 指纹 屏下指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.864Z",
+          "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710"
+        },
+        "wifi": {
+          "value": "支持 Wi-Fi 7（802.11be） 支持 Wi-Fi 6（802.11ax） 支持 Wi-Fi 5（802.11ac） 支持 802.11a/b/g/n 支持 Wi-Fi Display 支持 WLAN 网络分享 支持网络叠加：Wi-Fi 2.4GHz 2×2+Wi-Fi 5GHz 2×2 并发 支持 Wi-Fi 5GHz 160MHz 支持 2×2 MIMO",
+          "rawText": "WLAN 功能 支持 Wi-Fi 7（802.11be） 支持 Wi-Fi 6（802.11ax） 支持 Wi-Fi 5（802.11ac） 支持 802.11a/b/g/n 支持 Wi-Fi Display 支持 WLAN 网络分享 支持网络叠加：Wi-Fi 2.4GHz 2×2+Wi-Fi 5GHz 2×2 并发 支持 Wi-Fi 5GHz 160MHz 支持 2×2 MIMO",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.864Z",
+          "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710"
+        },
+        "bluetooth": {
+          "value": "6.0",
+          "rawText": "蓝牙 蓝牙 6.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.864Z",
+          "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持读写 NFC 卡片（13.56MHz 的 NFC 卡片） 支持 NFC-SIM（只支持 SIM1 卡槽） 支持 HCE 支付 支持 eSE（支持 300+城市地铁公交乘车，支持 OPPO Pay，门禁卡，车钥匙及公民网络电子身份标识（eID）等多项功能。轻触一下，便捷通行，安全支付。）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-ultra/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T09:59:13.864Z",
+          "sourceSnapshotHash": "fb10e79593a0663c5be96b1e74f6c0a5079b766fc088f71e12d2dcee44535710"
+        },
+        "sim": {
+          "value": "双卡（Nano-SIM卡，Nano-USIM卡）",
+          "rawText": "SIM卡类型 双卡（Nano-SIM卡，Nano-USIM卡）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/2165/2164063/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:12:33.364Z",
+          "sourceSnapshotHash": "9e1a32d7c0530b285975cd4711158e8758a824f484c74d92696c04067ad92f2f"
         }
       },
+      "computed": {}
+    },
+    {
+      "id": "oppo-find-x8-2024",
+      "brand": "OPPO",
+      "market": "CN",
+      "category": "phone",
+      "series": "Find X",
+      "family": "Find X",
+      "variant": "standard",
+      "modelName": "OPPO Find X8",
+      "generation": "X8",
+      "generationOrder": 1,
+      "releaseYear": 2024,
+      "releaseDate": "2024-10-30",
+      "comparisonGroupId": "oppo.phone.find-x.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+256GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:17.245Z",
+            "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+256GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:17.245Z",
+            "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "16GB + 256GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+256GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:17.245Z",
+            "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+256GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:17.245Z",
+            "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+256GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:17.245Z",
+            "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "天玑9400",
+          "rawText": "芯片 移动平台 天玑9400",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.245Z",
+          "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+        },
+        "screenSize": {
+          "value": 6.59,
+          "unit": "inch",
+          "rawText": "显示 尺寸 6.59 英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.245Z",
+          "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+        },
+        "displayType": {
+          "value": "AMOLED（柔）",
+          "rawText": " 类型 AMOLED（柔）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.245Z",
+          "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+        },
+        "resolution": {
+          "value": "2760x1256",
+          "rawText": "分辨率 2760×1256 像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.245Z",
+          "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "最高支持 120Hz 刷新率",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.245Z",
+          "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+        },
+        "weight": {
+          "value": 193,
+          "unit": "g",
+          "rawText": " 重量 约 193 克",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.245Z",
+          "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af",
+          "note": " 重量 约 193 克"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+256GB，16GB+512GB，16GB+1TB ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.245Z",
+          "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+256GB，16GB+512GB，16GB+1TB ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.245Z",
+          "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+        },
+        "rearCamera": {
+          "value": "5000 万像素超广角摄像头 + 5000 万像素大底广角摄像头 + 5000 万像素哈苏人像摄像头",
+          "rawText": "摄像头 后置 5000 万像素超广角摄像头：f/2.0，等效焦距 15 毫米，120° 广视角，六镜式镜头，支持 AF 自动对焦 5000 万像素大底广角摄像头：f/1.8，等效焦距 24 毫米，六镜式镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 5000 万像素哈苏人像摄像头：f/2.6，等效焦距 73 毫米，1G3P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 照片拍摄支持最高 3 倍光学变焦，最高 120 倍数码变焦 支持：照片，视频，人像，夜景，全景，电影，慢动作，长曝光，多景录像，延时摄影，萌拍，AI 证件照，XPAN，高像素，大师，文档 照片格式：JPG，HEIF，DNG",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.245Z",
+          "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+        },
+        "mainCamera": {
+          "value": "50MP（5000 万像素大底广角摄像头：f/1.8，等效焦距 24 毫米）",
+          "rawText": "5000 万像素大底广角摄像头：f/1.8，等效焦距 24 毫米",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.245Z",
+          "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+        },
+        "telephoto": {
+          "value": "5000 万像素哈苏人像摄像头",
+          "rawText": "摄像头 后置 5000 万像素超广角摄像头：f/2.0，等效焦距 15 毫米，120° 广视角，六镜式镜头，支持 AF 自动对焦 5000 万像素大底广角摄像头：f/1.8，等效焦距 24 毫米，六镜式镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 5000 万像素哈苏人像摄像头：f/2.6，等效焦距 73 毫米，1G3P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 照片拍摄支持最高 3 倍光学变焦，最高 120 倍数码变焦 支持：照片，视频，人像，夜景，全景，电影，慢动作，长曝光，多景录像，延时摄影，萌拍，AI 证件照，XPAN，高像素，大师，文档 照片格式：JPG，HEIF，DNG",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.245Z",
+          "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+        },
+        "frontCamera": {
+          "value": "3200 万像素",
+          "rawText": "前置 3200 万像素摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.245Z",
+          "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+        },
+        "batteryCapacity": {
+          "value": 5630,
+          "unit": "mAh",
+          "rawText": "电池容量 3 5630 mAh/21.79 Wh（典型值）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.245Z",
+          "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "数据接口 Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.245Z",
+          "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+        },
+        "launchPrice": {
+          "value": 4199,
+          "unit": "CNY",
+          "rawText": "OPPO Find X8 / Pro 系列手机正式发布：潮汐引擎 x 天玑 9400，支持 AI 一键问屏、超高速无影抓拍 - IT之家 首页 IT圈 最会买 设置 日夜间 随系统 浅色 深色 主题色 黑色 投稿 订阅 RSS订阅 收藏IT之家 软媒应用 App客户端 要知App 软媒魔方 业界 手机 电脑 测评 视频 AI 苹果 iPhone 鸿蒙 软件 智车 数码 学院 游戏 直播 5G 微软 Win10 Win11 专题 搜索 首页 &gt; 安卓之家 &gt; 安卓手机 4199/5299 元起的 OPPO Find X8 / Pro 系列手机正式发布：潮汐引擎 x 天玑 9400，支持 AI 一键问屏、超高速无影抓拍 2024/10/24 21:12:39 来源： IT之家 作者： 问舟 责编： 问舟 评论： IT之家 10 月 24 日消息，在今晚举行的发布会上，OPPO Find X8 / Pro 系列手机正式发布，现已开启全渠道预订，10 月 30 日正式开售。 OPPO Find X8 12+256GB 售价 4199 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/804/972.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T19:01:51.746Z",
+          "sourceSnapshotHash": "7b7f9bea08782f7eff0e61e7850f16f13d5bc81385d76dd76abe6b3e1fa85a98",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，国行基础版本",
+          "condition": "发布报道中的基础版首发价格，非当前价"
+        },
+        "memoryType": {
+          "value": "LPDDR5X",
+          "rawText": "RAM 规格 LPDDR5X",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.245Z",
+          "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+        },
+        "storageType": {
+          "value": "UFS 4.0",
+          "rawText": "ROM 规格 UFS 4.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.245Z",
+          "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+        },
+        "operatingSystem": {
+          "value": "ColorOS 15.0",
+          "rawText": "操作系统 6 ColorOS 15.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.245Z",
+          "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+        },
+        "chargingMethod": {
+          "value": "80 W 超级闪充。兼容 67 W 超级闪充，65 W 超级闪充，50 W 超级闪充，33 W 超级闪充，44 W UFCS 融合快充，PD（9V/1.3A），PPS （11V/3A） 50 W 无线闪充",
+          "rawText": "快速充电 80 W 超级闪充。兼容 67 W 超级闪充，65 W 超级闪充，50 W 超级闪充，33 W 超级闪充，44 W UFCS 融合快充，PD（9V/1.3A），PPS （11V/3A） 50 W 无线闪充",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.245Z",
+          "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+        },
+        "security": {
+          "value": "指纹 屏下指纹 面部识别 支持",
+          "rawText": "生物识别 指纹 屏下指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.245Z",
+          "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+        },
+        "wifi": {
+          "value": "支持 Wi-Fi 7（802.11be） 支持 Wi-Fi 6（802.11ax） 支持 Wi-Fi 5（802.11ac） 支持 802.11a/b/g/n/ 支持 WLAN Display 支持 WLAN 网络分享 支持网络叠加：Wi-Fi 2.4GHz 2×2+Wi-Fi 5GHz 2×2 并发 支持 Wi-Fi 5GHz 160MHz 支持 2×2 MIMO，MU-MIMO",
+          "rawText": "WLAN 功能 支持 Wi-Fi 7（802.11be） 支持 Wi-Fi 6（802.11ax） 支持 Wi-Fi 5（802.11ac） 支持 802.11a/b/g/n/ 支持 WLAN Display 支持 WLAN 网络分享 支持网络叠加：Wi-Fi 2.4GHz 2×2+Wi-Fi 5GHz 2×2 并发 支持 Wi-Fi 5GHz 160MHz 支持 2×2 MIMO，MU-MIMO",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.245Z",
+          "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+        },
+        "bluetooth": {
+          "value": "5.4",
+          "rawText": "蓝牙 蓝牙 5.4",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.245Z",
+          "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持读写 NFC 卡片（13.56MHz 的 NFC 卡片） 支持 NFC-SIM（只支持 SIM1 卡槽） 支持 HCE 支持 eSE（支持 300+城市地铁公交乘车，支持 OPPO Pay，门禁卡，车钥匙及公民网络电子身份标识（eID）等多项功能。轻触一下，便捷通行，安全支付。）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.245Z",
+          "sourceSnapshotHash": "14d8708fd7c7521571a0b7722a694a208aae35c9d515dcd524f5e3adf61223af"
+        }
+      },
+      "benchmarks": [],
+      "computed": {}
+    },
+    {
+      "id": "oppo-find-x8-pro-2024",
+      "brand": "OPPO",
+      "market": "CN",
+      "category": "phone",
+      "series": "Find X Pro",
+      "family": "Find X Pro",
+      "variant": "standard",
+      "modelName": "OPPO Find X8 Pro",
+      "generation": "X8 Pro",
+      "generationOrder": 1,
+      "releaseYear": 2024,
+      "releaseDate": "2024-10-30",
+      "comparisonGroupId": "oppo.phone.find-x-pro.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:17.671Z",
+            "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:17.671Z",
+            "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:17.671Z",
+            "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:17.671Z",
+            "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "天玑9400",
+          "rawText": "芯片 移动平台 天玑9400",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.671Z",
+          "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+        },
+        "screenSize": {
+          "value": 6.78,
+          "unit": "inch",
+          "rawText": "显示 尺寸 6.78 英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.671Z",
+          "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+        },
+        "displayType": {
+          "value": "AMOLED（柔）",
+          "rawText": " 类型 AMOLED（柔）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.671Z",
+          "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+        },
+        "resolution": {
+          "value": "2780x1264",
+          "rawText": "分辨率 2780×1264 像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.671Z",
+          "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "最高支持 120Hz 刷新率",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.671Z",
+          "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+        },
+        "weight": {
+          "value": 215,
+          "unit": "g",
+          "rawText": " 重量 约 215 克",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.671Z",
+          "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467",
+          "note": " 重量 约 215 克"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.671Z",
+          "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.671Z",
+          "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+        },
+        "rearCamera": {
+          "value": "5000 万像素超广角摄像头 + 5000 万像素大底广角摄像头 + 5000 万像素哈苏人像摄像头 + 5000 万像素望远长焦摄像头",
+          "rawText": "摄像头 后置 5000 万像素超广角摄像头：f/2.0，等效焦距 15 毫米，120° 广视角，六镜式镜头，支持 AF 自动对焦 5000 万像素大底广角摄像头：f/1.6，等效焦距 23 毫米，七镜式镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 5000 万像素哈苏人像摄像头：f/2.6，等效焦距 73 毫米，1G3P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 5000 万像素望远长焦摄像头：f/4.3，等效焦距 135 毫米 ，1G3P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 照片拍摄支持最高 6 倍光学变焦，最高 120 倍数码变焦 支持：照片，视频，人像，夜景，全景，电影，慢动作，长曝光，多景录像，延时摄影，萌拍，AI 证件照，文档，XPAN，高像素，大师 照片格式：JPG，HEIF，DNG",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.671Z",
+          "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+        },
+        "mainCamera": {
+          "value": "50MP（5000 万像素大底广角摄像头：f/1.6，等效焦距 23 毫米）",
+          "rawText": "5000 万像素大底广角摄像头：f/1.6，等效焦距 23 毫米",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.671Z",
+          "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+        },
+        "telephoto": {
+          "value": "5000 万像素哈苏人像摄像头 + 5000 万像素望远长焦摄像头",
+          "rawText": "摄像头 后置 5000 万像素超广角摄像头：f/2.0，等效焦距 15 毫米，120° 广视角，六镜式镜头，支持 AF 自动对焦 5000 万像素大底广角摄像头：f/1.6，等效焦距 23 毫米，七镜式镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 5000 万像素哈苏人像摄像头：f/2.6，等效焦距 73 毫米，1G3P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 5000 万像素望远长焦摄像头：f/4.3，等效焦距 135 毫米 ，1G3P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 照片拍摄支持最高 6 倍光学变焦，最高 120 倍数码变焦 支持：照片，视频，人像，夜景，全景，电影，慢动作，长曝光，多景录像，延时摄影，萌拍，AI 证件照，文档，XPAN，高像素，大师 照片格式：JPG，HEIF，DNG",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.671Z",
+          "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+        },
+        "frontCamera": {
+          "value": "3200 万像素",
+          "rawText": "前置 3200 万像素摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.671Z",
+          "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+        },
+        "batteryCapacity": {
+          "value": 5910,
+          "unit": "mAh",
+          "rawText": "电池容量 3 5910 mAh/22.88 Wh（典型值）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.671Z",
+          "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "数据接口 Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.671Z",
+          "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+        },
+        "launchPrice": {
+          "value": 5299,
+          "unit": "CNY",
+          "rawText": "OPPO Find X8 Pro 12+256GB 售价 5299 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/804/972.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T19:01:51.746Z",
+          "sourceSnapshotHash": "7b7f9bea08782f7eff0e61e7850f16f13d5bc81385d76dd76abe6b3e1fa85a98",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，国行基础版本",
+          "condition": "发布报道中的基础版首发价格，非当前价"
+        },
+        "memoryType": {
+          "value": "LPDDR5X",
+          "rawText": "RAM 规格 LPDDR5X",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.671Z",
+          "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+        },
+        "storageType": {
+          "value": "UFS 4.0",
+          "rawText": "ROM 规格 UFS 4.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.671Z",
+          "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+        },
+        "operatingSystem": {
+          "value": "ColorOS 15.0",
+          "rawText": "操作系统 6 ColorOS 15.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.671Z",
+          "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+        },
+        "chargingMethod": {
+          "value": "80 W 超级闪充。兼容 67 W 超级闪充，65 W 超级闪充，50 W 超级闪充，33 W 超级闪充，44 W UFCS 融合快充，PD（9V/1.3A），PPS （11V/3A） 50 W 无线闪充",
+          "rawText": "快速充电 80 W 超级闪充。兼容 67 W 超级闪充，65 W 超级闪充，50 W 超级闪充，33 W 超级闪充，44 W UFCS 融合快充，PD（9V/1.3A），PPS （11V/3A） 50 W 无线闪充",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.671Z",
+          "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+        },
+        "security": {
+          "value": "指纹 屏下指纹 面部识别 支持",
+          "rawText": "生物识别 指纹 屏下指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.671Z",
+          "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+        },
+        "wifi": {
+          "value": "支持 Wi-Fi 7（802.11be） 支持 Wi-Fi 6（802.11ax） 支持 Wi-Fi 5（802.11ac） 支持 802.11a/b/g/n/ 支持 WLAN Display 支持 WLAN 网络分享 支持网络叠加：Wi-Fi 2.4GHz 2×2+Wi-Fi 5GHz 2×2 并发 支持 Wi-Fi 5GHz 160MHz 支持 2×2 MIMO，MU-MIMO",
+          "rawText": "WLAN 功能 支持 Wi-Fi 7（802.11be） 支持 Wi-Fi 6（802.11ax） 支持 Wi-Fi 5（802.11ac） 支持 802.11a/b/g/n/ 支持 WLAN Display 支持 WLAN 网络分享 支持网络叠加：Wi-Fi 2.4GHz 2×2+Wi-Fi 5GHz 2×2 并发 支持 Wi-Fi 5GHz 160MHz 支持 2×2 MIMO，MU-MIMO",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.671Z",
+          "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+        },
+        "bluetooth": {
+          "value": "5.4",
+          "rawText": "蓝牙 蓝牙 5.4",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.671Z",
+          "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持读写 NFC 卡片（13.56MHz 的 NFC 卡片） 支持 NFC-SIM（只支持 SIM1 卡槽） 支持 HCE 支持 eSE（支持 300+城市地铁公交乘车，支持 OPPO Pay，门禁卡，车钥匙及公民网络电子身份标识（eID）等多项功能。轻触一下，便捷通行，安全支付。）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x8-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.671Z",
+          "sourceSnapshotHash": "97a197de769cf8f7254243d8f268867532c02f68fcdf081f2b6b659adcebe467"
+        }
+      },
+      "benchmarks": [],
+      "computed": {}
+    },
+    {
+      "id": "oppo-find-x9-2025",
+      "brand": "OPPO",
+      "market": "CN",
+      "category": "phone",
+      "series": "Find X",
+      "family": "Find X",
+      "variant": "standard",
+      "modelName": "OPPO Find X9",
+      "generation": "X9",
+      "generationOrder": 2,
+      "releaseYear": 2025,
+      "releaseDate": "2025-10-22",
+      "comparisonGroupId": "oppo.phone.find-x.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+256GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:17.721Z",
+            "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+256GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:17.721Z",
+            "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "16GB + 256GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+256GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:17.721Z",
+            "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+256GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:17.721Z",
+            "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+256GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:17.721Z",
+            "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "MediaTek 天玑9500",
+          "rawText": "芯片 移动平台 MediaTek 天玑9500",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.721Z",
+          "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+        },
+        "screenSize": {
+          "value": 6.59,
+          "unit": "inch",
+          "rawText": "显示 尺寸 6.59 英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.721Z",
+          "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+        },
+        "displayType": {
+          "value": "AMOLED 柔性屏",
+          "rawText": " 类型 AMOLED 柔性屏",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.721Z",
+          "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+        },
+        "resolution": {
+          "value": "2760x1256",
+          "rawText": "分辨率 FHD+ 2760×1256 像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.721Z",
+          "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "最高支持 120Hz 刷新率",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.721Z",
+          "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+        },
+        "weight": {
+          "value": 203,
+          "unit": "g",
+          "rawText": " 重量 约 203 克",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.721Z",
+          "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c",
+          "note": " 重量 约 203 克"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+256GB，16GB+512GB，16GB+1TB ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.721Z",
+          "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+256GB，16GB+512GB，16GB+1TB ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.721Z",
+          "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+        },
+        "rearCamera": {
+          "value": "5000 万像素广角摄像头 + 5000 万像素超广角摄像头 + 5000 万像素长焦摄像头",
+          "rawText": "摄像头 后置 5000 万像素广角摄像头：f/1.6，等效焦距 23 毫米，七镜式镜头，支持 AF 自动对焦，支持 OIS 防抖 5000 万像素超广角摄像头：f/2.0，等效焦距 15 毫米，六镜式镜头，支持 AF 自动对焦，120° 广视角 5000 万像素长焦摄像头：f/2.6，等效焦距 73 毫米，1G3P 镜头，支持 AF 自动对焦，支持 OIS 防抖 丹霞色彩还原镜头：f/2.4，等效焦距 21 毫米，三镜式镜头 照片拍摄最高支持 3 倍光学变焦，最高支持 120 倍数码变焦 支持：照片，视频，人像，夜景，全景，专业视频，慢动作，长曝光，多景录像，延时摄影，萌拍，XPAN，哈苏超清，水下相机，大师，AI 证件照，超级文本，扫一扫 照片格式：JPG（默认），HEIF，RAW",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.721Z",
+          "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+        },
+        "mainCamera": {
+          "value": "50MP（5000 万像素广角摄像头：f/1.6，等效焦距 23 毫米）",
+          "rawText": "5000 万像素广角摄像头：f/1.6，等效焦距 23 毫米",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.721Z",
+          "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+        },
+        "telephoto": {
+          "value": "5000 万像素长焦摄像头",
+          "rawText": "摄像头 后置 5000 万像素广角摄像头：f/1.6，等效焦距 23 毫米，七镜式镜头，支持 AF 自动对焦，支持 OIS 防抖 5000 万像素超广角摄像头：f/2.0，等效焦距 15 毫米，六镜式镜头，支持 AF 自动对焦，120° 广视角 5000 万像素长焦摄像头：f/2.6，等效焦距 73 毫米，1G3P 镜头，支持 AF 自动对焦，支持 OIS 防抖 丹霞色彩还原镜头：f/2.4，等效焦距 21 毫米，三镜式镜头 照片拍摄最高支持 3 倍光学变焦，最高支持 120 倍数码变焦 支持：照片，视频，人像，夜景，全景，专业视频，慢动作，长曝光，多景录像，延时摄影，萌拍，XPAN，哈苏超清，水下相机，大师，AI 证件照，超级文本，扫一扫 照片格式：JPG（默认），HEIF，RAW",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.721Z",
+          "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+        },
+        "frontCamera": {
+          "value": "3200 万像素",
+          "rawText": "前置 3200 万像素摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.721Z",
+          "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+        },
+        "batteryCapacity": {
+          "value": 7025,
+          "unit": "mAh",
+          "rawText": "电池容量 3 7025 mAh/26.35 Wh（典型值）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.721Z",
+          "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "数据接口 Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.721Z",
+          "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+        },
+        "launchPrice": {
+          "value": 4399,
+          "unit": "CNY",
+          "rawText": "OPPO Find X9 / Pro 正式发布：搭载联发科天玑 9500，卫星通信版支持&#160;eSIM - IT之家 首页 安卓之家 安卓手机 4399/5299 元起 OPPO Find X9 / Pro 正式发布：搭载联发科天玑 9500，卫星通信版支持&#160;eSIM 2025-10-16 20:49 IT之家 - 问舟 感谢IT之家网友 風見暉一 、 肖战割割 的线索投递！ IT之家 10 月 16 日消息，在今晚的发布会上，OPPO 首席产品官一加创始人刘作虎正式发布了新一代旗舰机型 —— OPPO Find X9 系列，10 月 22 日正式开售。IT之家汇总价格如下： OPPO Find X9 追光红、绒光钛、霜白、雾黑四种配色可选，厚 7.99mm，重 203g： 12GB+256GB 版本 4399 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://m.ithome.com/html/890054.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T19:04:51.250Z",
+          "sourceSnapshotHash": "6c3cfe26b9f43c6d07a741774fcd25e021a6f1b5fbef438f0ea9dd5884b7d582",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，国行基础版本",
+          "condition": "发布报道中的基础版首发价格，非当前价"
+        },
+        "memoryType": {
+          "value": "LPDDR5X",
+          "rawText": "RAM 规格 LPDDR5X",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.721Z",
+          "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+        },
+        "storageType": {
+          "value": "UFS 4.1",
+          "rawText": "ROM 规格 UFS 4.1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.721Z",
+          "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+        },
+        "operatingSystem": {
+          "value": "ColorOS 16.0",
+          "rawText": "操作系统 6 ColorOS 16.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.721Z",
+          "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+        },
+        "chargingMethod": {
+          "value": "最大支持：80 W 超级闪充，80 W UFCS 融合快充 兼容：67 W 及以下超级闪充，44 W 三方 UFCS 融合快充，55 W PPS，11.7 W PD 最大支持：50 W 无线闪充",
+          "rawText": "快速充电 最大支持：80 W 超级闪充，80 W UFCS 融合快充 兼容：67 W 及以下超级闪充，44 W 三方 UFCS 融合快充，55 W PPS，11.7 W PD 最大支持：50 W 无线闪充",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.721Z",
+          "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+        },
+        "security": {
+          "value": "指纹 屏下指纹 面部识别 支持",
+          "rawText": "生物识别 指纹 屏下指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.721Z",
+          "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+        },
+        "wifi": {
+          "value": "支持 Wi-Fi 7（802.11be） 支持 Wi-Fi 6（802.11ax） 支持 Wi-Fi 5（802.11ac） 支持 802.11a/b/g/n 支持 Wi-Fi Display 支持 WLAN 网络分享 支持网络叠加：Wi-Fi 2.4GHz 2×2+Wi-Fi 5GHz 2×2 并发 支持 Wi-Fi 5GHz 160MHz 支持 2×2 MIMO",
+          "rawText": "WLAN 功能 支持 Wi-Fi 7（802.11be） 支持 Wi-Fi 6（802.11ax） 支持 Wi-Fi 5（802.11ac） 支持 802.11a/b/g/n 支持 Wi-Fi Display 支持 WLAN 网络分享 支持网络叠加：Wi-Fi 2.4GHz 2×2+Wi-Fi 5GHz 2×2 并发 支持 Wi-Fi 5GHz 160MHz 支持 2×2 MIMO",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.721Z",
+          "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+        },
+        "bluetooth": {
+          "value": "6.0",
+          "rawText": "蓝牙 蓝牙 6.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.721Z",
+          "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持读写 NFC 卡片（13.56MHz 的 NFC 卡片） 支持 NFC-SIM（只支持 SIM1 卡槽） 支持 HCE 支持 eSE（支持 300+城市地铁公交乘车，支持 OPPO Pay，门禁卡，车钥匙及公民网络电子身份标识（eID）等多项功能。轻触一下，便捷通行，安全支付。）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.721Z",
+          "sourceSnapshotHash": "73bae21dd34db77f9f44b204446824abd4ee0a8c0a3ee0580015797a3316fb3c"
+        }
+      },
+      "benchmarks": [],
+      "computed": {}
+    },
+    {
+      "id": "oppo-find-x9-pro-2025",
+      "brand": "OPPO",
+      "market": "CN",
+      "category": "phone",
+      "series": "Find X Pro",
+      "family": "Find X Pro",
+      "variant": "standard",
+      "modelName": "OPPO Find X9 Pro",
+      "generation": "X9 Pro",
+      "generationOrder": 2,
+      "releaseYear": 2025,
+      "releaseDate": "2025-10-22",
+      "comparisonGroupId": "oppo.phone.find-x-pro.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:17.846Z",
+            "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:17.846Z",
+            "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:17.846Z",
+            "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:17.846Z",
+            "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "MediaTek 天玑9500",
+          "rawText": "芯片 移动平台 MediaTek 天玑9500",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.846Z",
+          "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+        },
+        "screenSize": {
+          "value": 6.78,
+          "unit": "inch",
+          "rawText": "显示 尺寸 6.78 英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.846Z",
+          "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+        },
+        "displayType": {
+          "value": "AMOLED 柔性屏",
+          "rawText": " 类型 AMOLED 柔性屏",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.846Z",
+          "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+        },
+        "resolution": {
+          "value": "2772x1272",
+          "rawText": "分辨率 FHD+ 2772×1272 像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.846Z",
+          "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "最高支持 120Hz 刷新率",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.846Z",
+          "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+        },
+        "weight": {
+          "value": 224,
+          "unit": "g",
+          "rawText": " 重量 约 224 克",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.846Z",
+          "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd",
+          "note": " 重量 约 224 克"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.846Z",
+          "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.846Z",
+          "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+        },
+        "rearCamera": {
+          "value": "5000 万像素广角摄像头 + 5000 万像素超广角摄像头 + 2 亿像素长焦摄像头",
+          "rawText": "摄像头 后置 5000 万像素广角摄像头：f/1.5，等效焦距 23 毫米，七镜式镜头，支持 AF 自动对焦，支持 OIS 防抖 5000 万像素超广角摄像头：f/2.0，等效焦距 15 毫米，六镜式镜头，支持 AF 自动对焦，120° 广视角 2 亿像素长焦摄像头：f/2.1，等效焦距 70 毫米，六镜式镜头，支持 AF 自动对焦，支持 OIS 防抖 丹霞色彩还原镜头：f/2.4，等效焦距 21 毫米，三镜式镜头 照片拍摄最高支持 3 倍光学变焦，最高支持 120 倍数码变焦 支持：照片，视频，人像，夜景，全景，专业视频，慢动作，长曝光，多景录像，延时摄影，萌拍，XPAN，哈苏超清，水下相机，大师，AI 证件照，超级文本，扫一扫 照片格式：JPG（默认），HEIF，RAW",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.846Z",
+          "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+        },
+        "mainCamera": {
+          "value": "50MP（5000 万像素广角摄像头：f/1.5，等效焦距 23 毫米）",
+          "rawText": "5000 万像素广角摄像头：f/1.5，等效焦距 23 毫米",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.846Z",
+          "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+        },
+        "telephoto": {
+          "value": "2 亿像素长焦摄像头",
+          "rawText": "摄像头 后置 5000 万像素广角摄像头：f/1.5，等效焦距 23 毫米，七镜式镜头，支持 AF 自动对焦，支持 OIS 防抖 5000 万像素超广角摄像头：f/2.0，等效焦距 15 毫米，六镜式镜头，支持 AF 自动对焦，120° 广视角 2 亿像素长焦摄像头：f/2.1，等效焦距 70 毫米，六镜式镜头，支持 AF 自动对焦，支持 OIS 防抖 丹霞色彩还原镜头：f/2.4，等效焦距 21 毫米，三镜式镜头 照片拍摄最高支持 3 倍光学变焦，最高支持 120 倍数码变焦 支持：照片，视频，人像，夜景，全景，专业视频，慢动作，长曝光，多景录像，延时摄影，萌拍，XPAN，哈苏超清，水下相机，大师，AI 证件照，超级文本，扫一扫 照片格式：JPG（默认），HEIF，RAW",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.846Z",
+          "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+        },
+        "frontCamera": {
+          "value": "5000 万像素",
+          "rawText": "前置 5000 万像素摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.846Z",
+          "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+        },
+        "batteryCapacity": {
+          "value": 7500,
+          "unit": "mAh",
+          "rawText": "电池容量 3 7500 mAh/28.13 Wh（典型值）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.846Z",
+          "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "数据接口 Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.846Z",
+          "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+        },
+        "launchPrice": {
+          "value": 5299,
+          "unit": "CNY",
+          "rawText": "OPPO Find X9 Pro 追光红、绒砂钛、霜白三种配色可选，厚 8.25mm，重 224g： 12GB+256GB 版本 5299 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://m.ithome.com/html/890054.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T19:04:51.250Z",
+          "sourceSnapshotHash": "6c3cfe26b9f43c6d07a741774fcd25e021a6f1b5fbef438f0ea9dd5884b7d582",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，国行基础版本",
+          "condition": "发布报道中的基础版首发价格，非当前价"
+        },
+        "memoryType": {
+          "value": "LPDDR5X",
+          "rawText": "RAM 规格 LPDDR5X",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.846Z",
+          "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+        },
+        "storageType": {
+          "value": "UFS 4.1",
+          "rawText": "ROM 规格 UFS 4.1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.846Z",
+          "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+        },
+        "operatingSystem": {
+          "value": "ColorOS 16.0",
+          "rawText": "操作系统 6 ColorOS 16.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.846Z",
+          "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+        },
+        "chargingMethod": {
+          "value": "最大支持：80 W 超级闪充，80 W UFCS 融合快充 兼容：67 W 及以下超级闪充，44 W 三方 UFCS 融合快充，55 W PPS，11.7 W PD 最大支持：50 W 无线闪充",
+          "rawText": "快速充电 最大支持：80 W 超级闪充，80 W UFCS 融合快充 兼容：67 W 及以下超级闪充，44 W 三方 UFCS 融合快充，55 W PPS，11.7 W PD 最大支持：50 W 无线闪充",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.846Z",
+          "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+        },
+        "security": {
+          "value": "指纹 屏下指纹 面部识别 支持",
+          "rawText": "生物识别 指纹 屏下指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.846Z",
+          "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+        },
+        "wifi": {
+          "value": "支持 Wi-Fi 7（802.11be） 支持 Wi-Fi 6（802.11ax） 支持 Wi-Fi 5（802.11ac） 支持 802.11a/b/g/n 支持 Wi-Fi Display 支持 WLAN 网络分享 支持网络叠加：Wi-Fi 2.4GHz 2×2+Wi-Fi 5GHz 2×2 并发 支持 Wi-Fi 5GHz 160MHz 支持 2×2 MIMO",
+          "rawText": "WLAN 功能 支持 Wi-Fi 7（802.11be） 支持 Wi-Fi 6（802.11ax） 支持 Wi-Fi 5（802.11ac） 支持 802.11a/b/g/n 支持 Wi-Fi Display 支持 WLAN 网络分享 支持网络叠加：Wi-Fi 2.4GHz 2×2+Wi-Fi 5GHz 2×2 并发 支持 Wi-Fi 5GHz 160MHz 支持 2×2 MIMO",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.846Z",
+          "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+        },
+        "bluetooth": {
+          "value": "6.0",
+          "rawText": "蓝牙 蓝牙 6.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.846Z",
+          "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持读写 NFC 卡片（13.56MHz 的 NFC 卡片） 支持 NFC-SIM（只支持 SIM1 卡槽） 支持 HCE 支持 eSE（支持 300+城市地铁公交乘车，支持 OPPO Pay，门禁卡，车钥匙及公民网络电子身份标识（eID）等多项功能。轻触一下，便捷通行，安全支付。）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x9-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.846Z",
+          "sourceSnapshotHash": "718f2d431342e01830f0132613dffea5fa9c387160d18fa1c8682573773559cd"
+        }
+      },
+      "benchmarks": [],
+      "computed": {}
+    },
+    {
+      "id": "oppo-find-x10-2026",
+      "brand": "OPPO",
+      "market": "CN",
+      "category": "phone",
+      "series": "Find X",
+      "family": "Find X",
+      "variant": "standard",
+      "modelName": "OPPO Find X10",
+      "generation": "X10",
+      "generationOrder": 3,
+      "releaseYear": 2026,
+      "releaseDate": "2026-09-24",
+      "comparisonGroupId": "oppo.phone.find-x.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:17.961Z",
+            "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:17.961Z",
+            "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:17.961Z",
+            "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:17.961Z",
+            "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "MediaTek 天玑 9600M",
+          "rawText": "芯片 移动平台 MediaTek 天玑 9600M",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.961Z",
+          "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682"
+        },
+        "screenSize": {
+          "value": 6.59,
+          "unit": "inch",
+          "rawText": "显示 尺寸 6.59 英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.961Z",
+          "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682"
+        },
+        "displayType": {
+          "value": "直面屏",
+          "rawText": " 类型 直面屏",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.961Z",
+          "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682"
+        },
+        "resolution": {
+          "value": "2768x1272",
+          "rawText": "分辨率 FHD+ 2768×1272 像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.961Z",
+          "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "最高支持 144Hz（144Hz 只在部分游戏场景生效）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.961Z",
+          "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682",
+          "note": "144Hz 只在部分游戏场景生效"
+        },
+        "weight": {
+          "value": 216,
+          "unit": "g",
+          "rawText": " 重量 约 216 克",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.961Z",
+          "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682",
+          "note": " 重量 约 216 克"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.961Z",
+          "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.961Z",
+          "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682"
+        },
+        "rearCamera": {
+          "value": "2 亿像素广角摄像头 + 5000 万像素超广角摄像头 + 2 亿像素长焦摄像头",
+          "rawText": "摄像头 后置 2 亿像素广角摄像头：f/1.6，等效焦距 23 毫米，7P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 5000 万像素超广角摄像头：f/2.0，等效焦距 15 毫米，6P 镜头，支持 AF 自动对焦，120° 广视角 2 亿像素长焦摄像头：f/2.6，等效焦距 65 毫米，5P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 第二代丹霞色彩还原镜头：f/2.4，等效焦距 19 毫米，3P 镜头 照片拍摄最高支持 2.8 倍光学变焦，最高支持 120 倍数码变焦 支持：照片，视频，人像，夜景，全景，慢动作，长曝光，延时摄影，萌拍，XPAN，水下相机，大师，AI 证件照，超级文本，扫一扫，专业视频，哈苏超清，哈苏增距 照片格式：JPG（默认），HEIF，RAW",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.961Z",
+          "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682"
+        },
+        "mainCamera": {
+          "value": "200MP（2 亿像素广角摄像头：f/1.6，等效焦距 23 毫米）",
+          "rawText": "2 亿像素广角摄像头：f/1.6，等效焦距 23 毫米",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.961Z",
+          "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682"
+        },
+        "telephoto": {
+          "value": "2 亿像素长焦摄像头",
+          "rawText": "摄像头 后置 2 亿像素广角摄像头：f/1.6，等效焦距 23 毫米，7P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 5000 万像素超广角摄像头：f/2.0，等效焦距 15 毫米，6P 镜头，支持 AF 自动对焦，120° 广视角 2 亿像素长焦摄像头：f/2.6，等效焦距 65 毫米，5P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 第二代丹霞色彩还原镜头：f/2.4，等效焦距 19 毫米，3P 镜头 照片拍摄最高支持 2.8 倍光学变焦，最高支持 120 倍数码变焦 支持：照片，视频，人像，夜景，全景，慢动作，长曝光，延时摄影，萌拍，XPAN，水下相机，大师，AI 证件照，超级文本，扫一扫，专业视频，哈苏超清，哈苏增距 照片格式：JPG（默认），HEIF，RAW",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.961Z",
+          "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682"
+        },
+        "frontCamera": {
+          "value": "5000 万像素",
+          "rawText": "前置 5000 万像素摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.961Z",
+          "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682"
+        },
+        "batteryCapacity": {
+          "value": 8000,
+          "unit": "mAh",
+          "rawText": "电池容量 3 8000 mAh/30 Wh（典型值）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.961Z",
+          "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "数据接口 USB Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.961Z",
+          "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682"
+        },
+        "launchPrice": {
+          "value": 5499,
+          "unit": "CNY",
+          "rawText": "OPPO Find X10 标准版手机发布，天玑 9600M 芯片、双 2 亿镜头群 - IT之家 首页 IT圈 最会买 设置 日夜间 随系统 浅色 深色 主题色 黑色 投稿 订阅 RSS订阅 收藏IT之家 软媒应用 App客户端 要知App 软媒魔方 业界 手机 电脑 测评 视频 AI 苹果 iPhone 鸿蒙 软件 智车 数码 学院 游戏 直播 5G 微软 Win10 Win11 专题 搜索 首页 &gt; 数码之家 &gt; 智能手机 5499 元起：OPPO Find X10 标准版手机发布，天玑 9600M 芯片、双 2 亿镜头群 2026/9/22 20:38:04 来源： IT之家 作者： 潞源 责编： 潞源 评论： 感谢IT之家网友 files 、 風見暉一 、 野原小哀 、 Autumn_Dream 的线索投递！ IT之家 9 月 22 日消息，OPPO 今晚召开新品发布会，推出 Find X10 标准版手机。新品搭载联发科天玑 9600M 旗舰芯片，配备 8000mAh 冰川电池，拥有新一代 1nit 明眸护眼屏，采用双 2 亿镜头群方案， 定价 5499 元起 ，9 月 24 日起开售。 IT之家附 OPPO Find X10 手机各版本定价如下： 12+256GB：5499 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/1/005/944.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T19:01:51.817Z",
+          "sourceSnapshotHash": "d5c843028ec0914dae37e0a0d69fe9d854c34ffb790090e9e5fa43fc0ff8fd96",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，国行基础版本",
+          "condition": "发布报道中的基础版首发价格，非当前价"
+        },
+        "memoryType": {
+          "value": "LPDDR5X",
+          "rawText": "RAM 规格 LPDDR5X",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.961Z",
+          "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682"
+        },
+        "storageType": {
+          "value": "UFS 4.1",
+          "rawText": "ROM 规格 UFS 4.1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.961Z",
+          "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682"
+        },
+        "operatingSystem": {
+          "value": "ColorOS 17.0",
+          "rawText": "操作系统 6 ColorOS 17.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.961Z",
+          "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682"
+        },
+        "chargingMethod": {
+          "value": "最大支持：80 W 超级闪充，80 W UFCS 融合快充 兼容：67 W 及以下超级闪充，44 W 三方 UFCS 融合快充，55 W PPS，13.5 W PD 最大支持：50 W 无线闪充",
+          "rawText": "快速充电 最大支持：80 W 超级闪充，80 W UFCS 融合快充 兼容：67 W 及以下超级闪充，44 W 三方 UFCS 融合快充，55 W PPS，13.5 W PD 最大支持：50 W 无线闪充",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.961Z",
+          "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682"
+        },
+        "security": {
+          "value": "指纹 屏下指纹 面部识别 支持",
+          "rawText": "生物识别 指纹 屏下指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.961Z",
+          "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682"
+        },
+        "wifi": {
+          "value": "支持 Wi-Fi 7（802.11be） 支持 Wi-Fi 6（802.11ax） 支持 Wi-Fi 5（802.11ac） 支持 802.11a/b/g/n 支持 Wi-Fi Display 支持 WLAN 网络分享 支持网络叠加：Wi-Fi 2.4GHz 2×2+Wi-Fi 5GHz 2×2 并发 支持 Wi-Fi 5GHz 160MHz 支持 2×2 MIMO",
+          "rawText": "WLAN 功能 支持 Wi-Fi 7（802.11be） 支持 Wi-Fi 6（802.11ax） 支持 Wi-Fi 5（802.11ac） 支持 802.11a/b/g/n 支持 Wi-Fi Display 支持 WLAN 网络分享 支持网络叠加：Wi-Fi 2.4GHz 2×2+Wi-Fi 5GHz 2×2 并发 支持 Wi-Fi 5GHz 160MHz 支持 2×2 MIMO",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.961Z",
+          "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682"
+        },
+        "bluetooth": {
+          "value": "6.2",
+          "rawText": "蓝牙 蓝牙 6.2",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.961Z",
+          "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持读写 NFC 卡片（13.56MHz 的 NFC 卡片） 支持 NFC-SIM（只支持 SIM1 卡槽） 支持 HCE 支付 支持 eSE（支持 300+城市地铁公交乘车，支持 OPPO Pay，门禁卡，车钥匙及公民网络电子身份标识（eID）等多项功能。轻触一下，便捷通行，安全支付。）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:17.961Z",
+          "sourceSnapshotHash": "7ecbcf145d71acc7fcae326de1297de7b788001ce1bcc37baaf60028118af682"
+        }
+      },
+      "benchmarks": [],
+      "computed": {}
+    },
+    {
+      "id": "oppo-find-x10-pro-max-2026",
+      "brand": "OPPO",
+      "market": "CN",
+      "category": "phone",
+      "series": "Find X Pro Max",
+      "family": "Find X Pro Max",
+      "variant": "standard",
+      "modelName": "OPPO Find X10 Pro Max",
+      "generation": "X10 Pro Max",
+      "generationOrder": 1,
+      "releaseYear": 2026,
+      "releaseDate": "2026-09-24",
+      "comparisonGroupId": "oppo.phone.find-x-pro-max.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:18.203Z",
+            "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e"
+          }
+        },
+        {
+          "memory": "12GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "12GB + 512GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:18.203Z",
+            "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:18.203Z",
+            "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "16GB + 1TB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:18.203Z",
+            "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "MediaTek 天玑 9600 Pro",
+          "rawText": "芯片 移动平台 MediaTek 天玑 9600 Pro",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.203Z",
+          "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e"
+        },
+        "screenSize": {
+          "value": 6.78,
+          "unit": "inch",
+          "rawText": "显示 尺寸 6.78 英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.203Z",
+          "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e"
+        },
+        "displayType": {
+          "value": "直面屏",
+          "rawText": " 类型 直面屏",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.203Z",
+          "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e"
+        },
+        "resolution": {
+          "value": "2772x1272",
+          "rawText": "分辨率 FHD+ 2772×1272 像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.203Z",
+          "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e"
+        },
+        "refreshRate": {
+          "value": 144,
+          "unit": "Hz",
+          "rawText": "最高支持 144Hz（144Hz 只在部分游戏场景生效）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.203Z",
+          "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e",
+          "note": "144Hz 只在部分游戏场景生效"
+        },
+        "weight": {
+          "value": 235,
+          "unit": "g",
+          "rawText": " 重量 约 235 克（暖橙，浅钛） 约 233 克（月白）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.203Z",
+          "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e",
+          "note": " 重量 约 235 克（暖橙，浅钛） 约 233 克（月白）"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.203Z",
+          "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e"
+        },
+        "storage": {
+          "value": "256GB / 512GB / 1TB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，12GB+512GB，16GB+512GB，16GB+1TB ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.203Z",
+          "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e"
+        },
+        "rearCamera": {
+          "value": "2 亿像素广角摄像头 + 2 亿像素超广角摄像头 + 2 亿像素长焦摄像头",
+          "rawText": "摄像头 后置 2 亿像素广角摄像头：f/1.5，等效焦距 24 毫米，7P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 2 亿像素超广角摄像头：f/2.2，等效焦距 13 毫米，7P 镜头，支持 AF 自动对焦，124° 广视角 2 亿像素长焦摄像头：f/2.1，等效焦距 70 毫米，3P+3P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 第二代丹霞色彩还原镜头：f/2.4，等效焦距 19 毫米，3P 镜头 照片拍摄最高支持 3 倍光学变焦，最高支持 120 倍数码变焦 支持：照片，视频，人像，夜景，全景，慢动作，长曝光，延时摄影，萌拍，XPAN，水下相机，大师，AI 证件照，超级文本，扫一扫，专业视频，哈苏超清，哈苏增距 照片格式：JPG（默认），HEIF，RAW",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.203Z",
+          "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e"
+        },
+        "mainCamera": {
+          "value": "200MP（2 亿像素广角摄像头：f/1.5，等效焦距 24 毫米）",
+          "rawText": "2 亿像素广角摄像头：f/1.5，等效焦距 24 毫米",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.203Z",
+          "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e"
+        },
+        "telephoto": {
+          "value": "2 亿像素长焦摄像头",
+          "rawText": "摄像头 后置 2 亿像素广角摄像头：f/1.5，等效焦距 24 毫米，7P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 2 亿像素超广角摄像头：f/2.2，等效焦距 13 毫米，7P 镜头，支持 AF 自动对焦，124° 广视角 2 亿像素长焦摄像头：f/2.1，等效焦距 70 毫米，3P+3P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 第二代丹霞色彩还原镜头：f/2.4，等效焦距 19 毫米，3P 镜头 照片拍摄最高支持 3 倍光学变焦，最高支持 120 倍数码变焦 支持：照片，视频，人像，夜景，全景，慢动作，长曝光，延时摄影，萌拍，XPAN，水下相机，大师，AI 证件照，超级文本，扫一扫，专业视频，哈苏超清，哈苏增距 照片格式：JPG（默认），HEIF，RAW",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.203Z",
+          "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e"
+        },
+        "frontCamera": {
+          "value": "5000 万像素",
+          "rawText": "前置 5000 万像素摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.203Z",
+          "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e"
+        },
+        "batteryCapacity": {
+          "value": 8000,
+          "unit": "mAh",
+          "rawText": "电池容量 3 8000 mAh/29.76 Wh（典型值）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.203Z",
+          "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "数据接口 USB Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.203Z",
+          "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e"
+        },
+        "launchPrice": {
+          "value": 6799,
+          "unit": "CNY",
+          "rawText": "OPPO Find X10 Pro Max 发布：首发三 2 亿像素镜头群，售价 6799 元起 - IT之家 首页 安卓之家 安卓手机 OPPO Find X10 Pro Max 发布：首发三 2 亿像素镜头群，售价 6799 元起 2026-09-22 20:37 IT之家 - 远洋 感谢IT之家网友 不一样的体验 、 files 、 風見暉一 、 补药吖 、 Autumn_Dream 的线索投递！ IT之家 9 月 22 日消息，在今晚的 OPPO Find X10 系列新品发布会上，OPPO Find X10 Pro Max 正式发布，OPPO 称这不只是 Find 的第一台 Pro Max，更是一台大家前所未见的相机。OPPO Find X10 Pro Max 售价 6799 元起。 IT之家附具体售价如下： 12+256GB 售价 6799 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://m.ithome.com/html/1005943.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T19:01:51.946Z",
+          "sourceSnapshotHash": "d0b38cf0e420460a42ac6a06fdc9f2ba6df64cdb6cf417058ce5be07750e1306",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，国行基础版本",
+          "condition": "发布报道中的基础版首发价格，非当前价"
+        },
+        "memoryType": {
+          "value": "LPDDR5X",
+          "rawText": "RAM 规格 LPDDR5X",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.203Z",
+          "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e"
+        },
+        "storageType": {
+          "value": "UFS 4.1",
+          "rawText": "ROM 规格 UFS 4.1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.203Z",
+          "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e"
+        },
+        "operatingSystem": {
+          "value": "ColorOS 17.0",
+          "rawText": "操作系统 6 ColorOS 17.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.203Z",
+          "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e"
+        },
+        "chargingMethod": {
+          "value": "最大支持：80 W 超级闪充，80 W UFCS 融合快充 兼容：67 W 及以下超级闪充，44 W 三方 UFCS 融合快充，55 W PPS，13.5 W PD 最大支持：50 W 无线闪充",
+          "rawText": "快速充电 最大支持：80 W 超级闪充，80 W UFCS 融合快充 兼容：67 W 及以下超级闪充，44 W 三方 UFCS 融合快充，55 W PPS，13.5 W PD 最大支持：50 W 无线闪充",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.203Z",
+          "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e"
+        },
+        "security": {
+          "value": "指纹 屏下指纹 面部识别 支持",
+          "rawText": "生物识别 指纹 屏下指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.203Z",
+          "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e"
+        },
+        "wifi": {
+          "value": "支持 Wi-Fi 7（802.11be） 支持 Wi-Fi 6（802.11ax） 支持 Wi-Fi 5（802.11ac） 支持 802.11a/b/g/n 支持 Wi-Fi Display 支持 WLAN 网络分享 支持网络叠加：Wi-Fi 2.4GHz 2×2+Wi-Fi 5GHz 2×2 并发 支持 Wi-Fi 5GHz 160MHz 支持 2×2 MIMO",
+          "rawText": "WLAN 功能 支持 Wi-Fi 7（802.11be） 支持 Wi-Fi 6（802.11ax） 支持 Wi-Fi 5（802.11ac） 支持 802.11a/b/g/n 支持 Wi-Fi Display 支持 WLAN 网络分享 支持网络叠加：Wi-Fi 2.4GHz 2×2+Wi-Fi 5GHz 2×2 并发 支持 Wi-Fi 5GHz 160MHz 支持 2×2 MIMO",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.203Z",
+          "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e"
+        },
+        "bluetooth": {
+          "value": "6.2",
+          "rawText": "蓝牙 蓝牙 6.2",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.203Z",
+          "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持读写 NFC 卡片（13.56MHz 的 NFC 卡片） 支持 NFC-SIM（只支持 SIM1 卡槽） 支持 HCE 支付 支持 eSE（支持 300+城市地铁公交乘车，支持 OPPO Pay，门禁卡，车钥匙及公民网络电子身份标识（eID）等多项功能。轻触一下，便捷通行，安全支付。）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-pro-max/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.203Z",
+          "sourceSnapshotHash": "a00315be25f6c2ab9bd600db6635fb002e0d5ce8b352ff0008b826c8be77c96e"
+        }
+      },
+      "benchmarks": [],
+      "computed": {}
+    },
+    {
+      "id": "oppo-find-x10-e-2026",
+      "brand": "OPPO",
+      "market": "CN",
+      "category": "phone",
+      "series": "Find X E",
+      "family": "Find X E",
+      "variant": "standard",
+      "modelName": "OPPO Find X10 E",
+      "generation": "X10 E",
+      "generationOrder": 1,
+      "releaseYear": 2026,
+      "releaseDate": "2026-09-24",
+      "comparisonGroupId": "oppo.phone.find-x-e.standard",
+      "configurations": [
+        {
+          "memory": "12GB",
+          "storage": "256GB",
+          "evidence": {
+            "value": "12GB + 256GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，16GB+512GB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:18.240Z",
+            "sourceSnapshotHash": "17f3f8fd1257605368514a92f290a90557f9e4831e0038d90b5d3f2c70f1db54"
+          }
+        },
+        {
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "16GB + 512GB",
+            "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，16GB+512GB ",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+            "sourceType": "official",
+            "confidence": 1,
+            "verifiedAt": "2026-09-30",
+            "fetchedAt": "2026-09-30T18:52:18.240Z",
+            "sourceSnapshotHash": "17f3f8fd1257605368514a92f290a90557f9e4831e0038d90b5d3f2c70f1db54"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "MediaTek 天玑9500s",
+          "rawText": "芯片 移动平台 MediaTek 天玑9500s",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.240Z",
+          "sourceSnapshotHash": "17f3f8fd1257605368514a92f290a90557f9e4831e0038d90b5d3f2c70f1db54"
+        },
+        "screenSize": {
+          "value": 6.59,
+          "unit": "inch",
+          "rawText": "显示 尺寸 6.59 英寸",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.240Z",
+          "sourceSnapshotHash": "17f3f8fd1257605368514a92f290a90557f9e4831e0038d90b5d3f2c70f1db54"
+        },
+        "displayType": {
+          "value": "直面屏",
+          "rawText": " 类型 直面屏",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.240Z",
+          "sourceSnapshotHash": "17f3f8fd1257605368514a92f290a90557f9e4831e0038d90b5d3f2c70f1db54"
+        },
+        "resolution": {
+          "value": "2760x1256",
+          "rawText": "分辨率 FHD+ 2760×1256 像素",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.240Z",
+          "sourceSnapshotHash": "17f3f8fd1257605368514a92f290a90557f9e4831e0038d90b5d3f2c70f1db54"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "最高支持 120Hz",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.240Z",
+          "sourceSnapshotHash": "17f3f8fd1257605368514a92f290a90557f9e4831e0038d90b5d3f2c70f1db54"
+        },
+        "weight": {
+          "value": 203,
+          "unit": "g",
+          "rawText": " 重量 约 203 克",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.240Z",
+          "sourceSnapshotHash": "17f3f8fd1257605368514a92f290a90557f9e4831e0038d90b5d3f2c70f1db54",
+          "note": " 重量 约 203 克"
+        },
+        "memory": {
+          "value": "12GB / 16GB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，16GB+512GB ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.240Z",
+          "sourceSnapshotHash": "17f3f8fd1257605368514a92f290a90557f9e4831e0038d90b5d3f2c70f1db54"
+        },
+        "storage": {
+          "value": "256GB / 512GB",
+          "rawText": "运行内存容量 + 机身存储容量 12GB+256GB，16GB+512GB ",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.240Z",
+          "sourceSnapshotHash": "17f3f8fd1257605368514a92f290a90557f9e4831e0038d90b5d3f2c70f1db54"
+        },
+        "rearCamera": {
+          "value": "5000 万像素广角摄像头 + 5000 万像素超广角摄像头 + 5000 万像素长焦摄像头",
+          "rawText": "摄像头 后置 5000 万像素广角摄像头：f/1.6，等效焦距 23 毫米，7P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 5000 万像素超广角摄像头：f/2.0，等效焦距 15 毫米，6P 镜头，支持 AF 自动对焦，120° 广视角 5000 万像素长焦摄像头：f/2.6，等效焦距 73 毫米，1G3P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 照片拍摄最高支持 3 倍光学变焦，最高支持 120 倍数码变焦 支持：照片，视频，人像，夜景，全景，慢动作，长曝光，延时摄影，萌拍，XPAN，高像素，水下相机，大师，AI 证件照，超级文本，扫一扫，专业视频 照片格式：JPG（默认），HEIF，RAW",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.240Z",
+          "sourceSnapshotHash": "17f3f8fd1257605368514a92f290a90557f9e4831e0038d90b5d3f2c70f1db54"
+        },
+        "mainCamera": {
+          "value": "50MP（5000 万像素广角摄像头：f/1.6，等效焦距 23 毫米）",
+          "rawText": "5000 万像素广角摄像头：f/1.6，等效焦距 23 毫米",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.240Z",
+          "sourceSnapshotHash": "17f3f8fd1257605368514a92f290a90557f9e4831e0038d90b5d3f2c70f1db54"
+        },
+        "telephoto": {
+          "value": "5000 万像素长焦摄像头",
+          "rawText": "摄像头 后置 5000 万像素广角摄像头：f/1.6，等效焦距 23 毫米，7P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 5000 万像素超广角摄像头：f/2.0，等效焦距 15 毫米，6P 镜头，支持 AF 自动对焦，120° 广视角 5000 万像素长焦摄像头：f/2.6，等效焦距 73 毫米，1G3P 镜头，支持 AF 自动对焦，支持两轴 OIS 防抖 照片拍摄最高支持 3 倍光学变焦，最高支持 120 倍数码变焦 支持：照片，视频，人像，夜景，全景，慢动作，长曝光，延时摄影，萌拍，XPAN，高像素，水下相机，大师，AI 证件照，超级文本，扫一扫，专业视频 照片格式：JPG（默认），HEIF，RAW",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.240Z",
+          "sourceSnapshotHash": "17f3f8fd1257605368514a92f290a90557f9e4831e0038d90b5d3f2c70f1db54"
+        },
+        "frontCamera": {
+          "value": "3200 万像素",
+          "rawText": "前置 3200 万像素摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.240Z",
+          "sourceSnapshotHash": "17f3f8fd1257605368514a92f290a90557f9e4831e0038d90b5d3f2c70f1db54"
+        },
+        "batteryCapacity": {
+          "value": 7025,
+          "unit": "mAh",
+          "rawText": "电池容量 3 7025 mAh/26.35 Wh（典型值）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.240Z",
+          "sourceSnapshotHash": "17f3f8fd1257605368514a92f290a90557f9e4831e0038d90b5d3f2c70f1db54"
+        },
+        "port": {
+          "value": "USB Type-C",
+          "rawText": "数据接口 USB Type-C",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.240Z",
+          "sourceSnapshotHash": "17f3f8fd1257605368514a92f290a90557f9e4831e0038d90b5d3f2c70f1db54"
+        },
+        "launchPrice": {
+          "value": 4999,
+          "unit": "CNY",
+          "rawText": "OPPO Find X10 E 手机发布，天玑 9500s 芯片 - IT之家 首页 IT圈 最会买 设置 日夜间 随系统 浅色 深色 主题色 黑色 投稿 订阅 RSS订阅 收藏IT之家 软媒应用 App客户端 要知App 软媒魔方 业界 手机 电脑 测评 视频 AI 苹果 iPhone 鸿蒙 软件 智车 数码 学院 游戏 直播 5G 微软 Win10 Win11 专题 搜索 首页 &gt; 数码之家 &gt; 智能手机 4999 元起：OPPO Find X10 E 手机发布，天玑 9500s 芯片 2026/9/22 21:05:48 来源： IT之家 作者： 潞源 责编： 潞源 评论： 感谢IT之家网友 野原小哀 、 Autumn_Dream 、 肖战割割 、 files 、 氺评座 、 绫波丽 、 曙光一直都在 的线索投递！ IT之家 9 月 22 日消息，OPPO 今晚召开新品发布会推出 Find X10 E 手机。新品采用联发科天玑 9500s 芯片，配备 7025mAh 冰川电池，拥有哈苏超清影像系统，售价 4999 元起。 IT之家附 OPPO Find X10 E 定价： 12GB+256GB：4999 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/1/005/955.htm",
+          "sourceType": "reference",
+          "confidence": 0.85,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T19:04:52.432Z",
+          "sourceSnapshotHash": "78883ab5804cd457b58ef2156c3bfb9966c0824e7d8e471ee380e89f007edbb4",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "12GB 运行内存 + 256GB 存储，国行基础版本",
+          "condition": "发布报道中的基础版首发价格，非当前价"
+        },
+        "memoryType": {
+          "value": "LPDDR5X",
+          "rawText": "RAM 规格 LPDDR5X",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.240Z",
+          "sourceSnapshotHash": "17f3f8fd1257605368514a92f290a90557f9e4831e0038d90b5d3f2c70f1db54"
+        },
+        "storageType": {
+          "value": "UFS 4.1",
+          "rawText": "ROM 规格 UFS 4.1",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.240Z",
+          "sourceSnapshotHash": "17f3f8fd1257605368514a92f290a90557f9e4831e0038d90b5d3f2c70f1db54"
+        },
+        "operatingSystem": {
+          "value": "ColorOS 17.0",
+          "rawText": "操作系统 6 ColorOS 17.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.240Z",
+          "sourceSnapshotHash": "17f3f8fd1257605368514a92f290a90557f9e4831e0038d90b5d3f2c70f1db54"
+        },
+        "chargingMethod": {
+          "value": "最大支持：80 W 超级闪充，80 W UFCS 融合快充 兼容：67 W 及以下超级闪充，44 W 三方 UFCS 融合快充，55 W PPS，13.5 W PD 最大支持：50 W 无线闪充",
+          "rawText": "快速充电 最大支持：80 W 超级闪充，80 W UFCS 融合快充 兼容：67 W 及以下超级闪充，44 W 三方 UFCS 融合快充，55 W PPS，13.5 W PD 最大支持：50 W 无线闪充",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.240Z",
+          "sourceSnapshotHash": "17f3f8fd1257605368514a92f290a90557f9e4831e0038d90b5d3f2c70f1db54"
+        },
+        "security": {
+          "value": "指纹 屏下指纹 面部识别 支持",
+          "rawText": "生物识别 指纹 屏下指纹 面部识别 支持",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.240Z",
+          "sourceSnapshotHash": "17f3f8fd1257605368514a92f290a90557f9e4831e0038d90b5d3f2c70f1db54"
+        },
+        "wifi": {
+          "value": "支持 Wi-Fi 7（802.11be） 支持 Wi-Fi 6（802.11ax） 支持 Wi-Fi 5（802.11ac） 支持 802.11a/b/g/n 支持 Wi-Fi Display 支持 WLAN 网络分享 支持网络叠加：Wi-Fi 2.4GHz 2×2+Wi-Fi 5GHz 2×2 并发 支持 Wi-Fi 5GHz 160MHz 支持 2×2 MIMO",
+          "rawText": "WLAN 功能 支持 Wi-Fi 7（802.11be） 支持 Wi-Fi 6（802.11ax） 支持 Wi-Fi 5（802.11ac） 支持 802.11a/b/g/n 支持 Wi-Fi Display 支持 WLAN 网络分享 支持网络叠加：Wi-Fi 2.4GHz 2×2+Wi-Fi 5GHz 2×2 并发 支持 Wi-Fi 5GHz 160MHz 支持 2×2 MIMO",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.240Z",
+          "sourceSnapshotHash": "17f3f8fd1257605368514a92f290a90557f9e4831e0038d90b5d3f2c70f1db54"
+        },
+        "bluetooth": {
+          "value": "6.2",
+          "rawText": "蓝牙 蓝牙 6.2",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.240Z",
+          "sourceSnapshotHash": "17f3f8fd1257605368514a92f290a90557f9e4831e0038d90b5d3f2c70f1db54"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "NFC 支持读写 NFC 卡片（13.56MHz 的 NFC 卡片） 支持 NFC-SIM（只支持 SIM1 卡槽） 支持 HCE 支付 支持 eSE（支持 300+城市地铁公交乘车，支持 OPPO Pay，门禁卡，车钥匙及公民网络电子身份标识（eID）等多项功能。轻触一下，便捷通行，安全支付。）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x10-e/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:52:18.240Z",
+          "sourceSnapshotHash": "17f3f8fd1257605368514a92f290a90557f9e4831e0038d90b5d3f2c70f1db54"
+        }
+      },
+      "benchmarks": [],
       "computed": {}
     }
   ]

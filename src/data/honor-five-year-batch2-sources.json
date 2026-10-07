@@ -1,0 +1,467 @@
+{
+  "phone": [
+    {
+      "id": "honor-magic4-2022",
+      "modelName": "荣耀 Magic4",
+      "generation": "Magic4",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/37704_1.html",
+        "https://detail.zol.com.cn/series/57/50840/param_37704_0_1.html",
+        "https://detail.zol.com.cn/1395/1394399/param.shtml",
+        "https://detail.zol.com.cn/1400/1399437/param.shtml",
+        "https://detail.zol.com.cn/1400/1399436/param.shtml",
+        "https://detail.zol.com.cn/1400/1399438/param.shtml",
+        "https://www.ithome.com/0/609/595.htm",
+        "https://detail.zol.com.cn/picture_index_2268/index22677591_0_p1394399.shtml",
+        "https://detail.zol.com.cn/picture_index_2268/index22677594_0_p1394399.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-03-25",
+        "rawText": "将于今日（3 月 25 日）10 点 08 分全面开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/609/595.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:53:03.509Z",
+        "sourceSnapshotHash": "6e3513b89cc9d8e9e6e659e55127b1f99af9c5daeb62a86e3e50bfe1cd40ff81"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 仅登记本批实际核验的SKU，不代表全部配置、配色或五年全型号覆盖；图片授权状态未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 全球：2022年02月28日 国内：2022年03月17日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1395/1394399/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:50:34.768Z",
+        "sourceSnapshotHash": "4f5618c9137e84cb1e3147416d1b06f73bb0827965e049d08a7b1f6dc4943b4e"
+      },
+      "productImages": {
+        "modelName": "荣耀 Magic4",
+        "seriesId": "37704",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2268/index22677591_0_p1394399.shtml",
+        "sourceSnapshotHash": "167481d443ebb63067c2dbc7ab99d53eb4d72377f26e66dba34cccf610e2e326",
+        "fetchedAt": "2026-10-05T18:50:35.236Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2d.zol-img.com.cn/product/226_320x240/615/ceHNdy1SzrH2s.png",
+          "alt": "荣耀Magic4",
+          "modelName": "荣耀 Magic4",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/37704_1.html",
+          "sourceSnapshotHash": "8ef0e376cc4678c96eb08be7013bee17020be9a34341b23a1597255ce0708361",
+          "fetchedAt": "2026-10-05T18:50:34.182Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "亮黑",
+            "url": "https://2d.zol-img.com.cn/product/226/615/ceHNdy1SzrH2s.png",
+            "modelName": "荣耀 Magic4",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2268/index22677591_0_p1394399.shtml",
+            "sourceSnapshotHash": "167481d443ebb63067c2dbc7ab99d53eb4d72377f26e66dba34cccf610e2e326",
+            "fetchedAt": "2026-10-05T18:50:35.236Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "釉白",
+            "url": "https://2d.zol-img.com.cn/product/226/591/ce6z8Zo4b24g.png",
+            "modelName": "荣耀 Magic4",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2268/index22677591_0_p1394399.shtml",
+            "sourceSnapshotHash": "167481d443ebb63067c2dbc7ab99d53eb4d72377f26e66dba34cccf610e2e326",
+            "fetchedAt": "2026-10-05T18:50:35.236Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "流金",
+            "url": "https://2b.zol-img.com.cn/product/226/619/ceeaI1OhCbCCY.png",
+            "modelName": "荣耀 Magic4",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2268/index22677591_0_p1394399.shtml",
+            "sourceSnapshotHash": "167481d443ebb63067c2dbc7ab99d53eb4d72377f26e66dba34cccf610e2e326",
+            "fetchedAt": "2026-10-05T18:50:35.236Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "瓷青",
+            "url": "https://2a.zol-img.com.cn/product/226/642/ceSJPufS9sevI.png",
+            "modelName": "荣耀 Magic4",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2268/index22677591_0_p1394399.shtml",
+            "sourceSnapshotHash": "167481d443ebb63067c2dbc7ab99d53eb4d72377f26e66dba34cccf610e2e326",
+            "fetchedAt": "2026-10-05T18:50:35.236Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2268/index22677591_0_p1394399.shtml",
+          "https://detail.zol.com.cn/picture_index_2268/index22677594_0_p1394399.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "honor-magic4-pro-2022",
+      "modelName": "荣耀 Magic4 Pro",
+      "generation": "Magic4 Pro",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/37705_1.html",
+        "https://detail.zol.com.cn/series/57/50840/param_37705_0_1.html",
+        "https://detail.zol.com.cn/1400/1399065/param.shtml",
+        "https://detail.zol.com.cn/1400/1399440/param.shtml",
+        "https://detail.zol.com.cn/1400/1399439/param.shtml",
+        "https://www.ithome.com/0/614/358.htm",
+        "https://detail.zol.com.cn/picture_index_2225/index22241850_0_p1399065.shtml",
+        "https://detail.zol.com.cn/picture_index_2225/index22241839_0_p1399065.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-04-22",
+        "rawText": "4 月 22 日消息，据荣耀手机官方宣布，新一代智慧旗舰荣耀 Magic4 Pro / 至臻版 会在 4 月 22 日 10 : 08 正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/614/358.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:53:03.650Z",
+        "sourceSnapshotHash": "7439202fc7c3c356f797799b3e628ed77b4edd2596a82dd0b9b222c28aa1b5aa"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。原计划4月2日首售被延期；实际首售采用4月22日开售报道，不用计划日期。 仅登记本批实际核验的SKU，不代表全部配置、配色或五年全型号覆盖；图片授权状态未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 全球：2022年02月28日 国内：2022年03月17日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1400/1399065/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:50:36.407Z",
+        "sourceSnapshotHash": "5b68f71c5ad5ee86d250c44002cfe08b3526987791eceeef5e8b72f71478133c"
+      },
+      "productImages": {
+        "modelName": "荣耀 Magic4 Pro",
+        "seriesId": "37705",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2225/index22241850_0_p1399065.shtml",
+        "sourceSnapshotHash": "21f2ea52b73d124c0633052c78c93c0a5110fce0550dcdfe495aa006878fcfe2",
+        "fetchedAt": "2026-10-05T18:50:36.789Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2f.zol-img.com.cn/product/222_320x240/843/cefcTyqTR3qmg.jpg",
+          "alt": "荣耀Magic4 Pro",
+          "modelName": "荣耀 Magic4 Pro",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/37705_1.html",
+          "sourceSnapshotHash": "1b064ec11ca62cf13c4a463cbf0ebc27a4d002148ce873be299cab38b2454302",
+          "fetchedAt": "2026-10-05T18:50:35.917Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "亮黑",
+            "url": "https://2f.zol-img.com.cn/product/222/843/cefcTyqTR3qmg.jpg",
+            "modelName": "荣耀 Magic4 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2225/index22241850_0_p1399065.shtml",
+            "sourceSnapshotHash": "21f2ea52b73d124c0633052c78c93c0a5110fce0550dcdfe495aa006878fcfe2",
+            "fetchedAt": "2026-10-05T18:50:36.789Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "釉白",
+            "url": "https://2c.zol-img.com.cn/product/222/882/ceYrgfurzS0BQ.jpg",
+            "modelName": "荣耀 Magic4 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2225/index22241850_0_p1399065.shtml",
+            "sourceSnapshotHash": "21f2ea52b73d124c0633052c78c93c0a5110fce0550dcdfe495aa006878fcfe2",
+            "fetchedAt": "2026-10-05T18:50:36.789Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "燃橙色",
+            "url": "https://2a.zol-img.com.cn/product/222/850/ce8L6TrHsmc.jpg",
+            "modelName": "荣耀 Magic4 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2225/index22241850_0_p1399065.shtml",
+            "sourceSnapshotHash": "21f2ea52b73d124c0633052c78c93c0a5110fce0550dcdfe495aa006878fcfe2",
+            "fetchedAt": "2026-10-05T18:50:36.789Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "流金",
+            "url": "https://2f.zol-img.com.cn/product/222/885/cezcuTmV1UcQ.jpg",
+            "modelName": "荣耀 Magic4 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2225/index22241850_0_p1399065.shtml",
+            "sourceSnapshotHash": "21f2ea52b73d124c0633052c78c93c0a5110fce0550dcdfe495aa006878fcfe2",
+            "fetchedAt": "2026-10-05T18:50:36.789Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "瓷青",
+            "url": "https://2c.zol-img.com.cn/product/222/894/cel5ORlL7yZDg.jpg",
+            "modelName": "荣耀 Magic4 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2225/index22241850_0_p1399065.shtml",
+            "sourceSnapshotHash": "21f2ea52b73d124c0633052c78c93c0a5110fce0550dcdfe495aa006878fcfe2",
+            "fetchedAt": "2026-10-05T18:50:36.789Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2225/index22241850_0_p1399065.shtml",
+          "https://detail.zol.com.cn/picture_index_2225/index22241839_0_p1399065.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "honor-90-2023",
+      "modelName": "荣耀 90",
+      "generation": "90",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10725205_1.html",
+        "https://detail.zol.com.cn/series/57/50840/param_10725205_0_1.html",
+        "https://detail.zol.com.cn/1448/1447713/param.shtml",
+        "https://detail.zol.com.cn/1630/1629850/param.shtml",
+        "https://detail.zol.com.cn/1630/1629849/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2390/index23890700_0_p1447713.shtml",
+        "https://detail.zol.com.cn/picture_index_2390/index23890719_0_p1629850.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-06-07",
+        "rawText": "上市日期 2023年06月07日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1448/1447713/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:50:37.920Z",
+        "sourceSnapshotHash": "5cf2aa6f64571d26707aa739125ee39fdadf4c484d542986141ae67d77164f6f"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 仅登记本批实际核验的SKU，不代表全部配置、配色或五年全型号覆盖；图片授权状态未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2023年05月29日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1448/1447713/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:50:37.920Z",
+        "sourceSnapshotHash": "5cf2aa6f64571d26707aa739125ee39fdadf4c484d542986141ae67d77164f6f"
+      },
+      "productImages": {
+        "modelName": "荣耀 90",
+        "seriesId": "10725205",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2390/index23890700_0_p1447713.shtml",
+        "sourceSnapshotHash": "5486ab3f685404c2e978e15c96bc1cdc7f81525f3044a5557e67f4cbcc542d23",
+        "fetchedAt": "2026-10-05T18:50:38.137Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2a.zol-img.com.cn/product/238_320x240/698/cenc9sCEe1rkU.jpg",
+          "alt": "荣耀90",
+          "modelName": "荣耀 90",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10725205_1.html",
+          "sourceSnapshotHash": "e1c3b4fa9f6c79461e862e2a3ecc1f48942a33cfa5d2feeb947040b28deb381d",
+          "fetchedAt": "2026-10-05T18:50:37.512Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "冰羽蓝",
+            "url": "https://2a.zol-img.com.cn/product/238/698/cenc9sCEe1rkU.jpg",
+            "modelName": "荣耀 90",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2390/index23890700_0_p1447713.shtml",
+            "sourceSnapshotHash": "5486ab3f685404c2e978e15c96bc1cdc7f81525f3044a5557e67f4cbcc542d23",
+            "fetchedAt": "2026-10-05T18:50:38.137Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "亮黑色",
+            "url": "https://2c.zol-img.com.cn/product/238/700/ce94uYaZ2YuyY.jpg",
+            "modelName": "荣耀 90",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2390/index23890700_0_p1447713.shtml",
+            "sourceSnapshotHash": "5486ab3f685404c2e978e15c96bc1cdc7f81525f3044a5557e67f4cbcc542d23",
+            "fetchedAt": "2026-10-05T18:50:38.137Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "墨玉青",
+            "url": "https://2a.zol-img.com.cn/product/238/704/ceuwtJuauzfFg.jpg",
+            "modelName": "荣耀 90",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2390/index23890700_0_p1447713.shtml",
+            "sourceSnapshotHash": "5486ab3f685404c2e978e15c96bc1cdc7f81525f3044a5557e67f4cbcc542d23",
+            "fetchedAt": "2026-10-05T18:50:38.137Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "星钻银",
+            "url": "https://2f.zol-img.com.cn/product/238/721/cem95G3dq5H0o.jpg",
+            "modelName": "荣耀 90",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2390/index23890700_0_p1447713.shtml",
+            "sourceSnapshotHash": "5486ab3f685404c2e978e15c96bc1cdc7f81525f3044a5557e67f4cbcc542d23",
+            "fetchedAt": "2026-10-05T18:50:38.137Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2390/index23890700_0_p1447713.shtml",
+          "https://detail.zol.com.cn/picture_index_2390/index23890719_0_p1629850.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "honor-90-pro-2023",
+      "modelName": "荣耀 90 Pro",
+      "generation": "90 Pro",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10725207_1.html",
+        "https://detail.zol.com.cn/series/57/50840/param_10725207_0_1.html",
+        "https://detail.zol.com.cn/1448/1447715/param.shtml",
+        "https://detail.zol.com.cn/1632/1631435/param.shtml",
+        "https://detail.zol.com.cn/1632/1631434/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2390/index23898978_0_p1447715.shtml",
+        "https://detail.zol.com.cn/picture_index_2390/index23898975_0_p1447715.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-06-07",
+        "rawText": "上市日期 2023年06月07日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1448/1447715/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:50:39.506Z",
+        "sourceSnapshotHash": "f66672d7d009812dc87310afa96a46f15267b8a1cc577eb6a585c7bae5944988"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 仅登记本批实际核验的SKU，不代表全部配置、配色或五年全型号覆盖；图片授权状态未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2023年05月29日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1448/1447715/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:50:39.506Z",
+        "sourceSnapshotHash": "f66672d7d009812dc87310afa96a46f15267b8a1cc577eb6a585c7bae5944988"
+      },
+      "productImages": {
+        "modelName": "荣耀 90 Pro",
+        "seriesId": "10725207",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2390/index23898978_0_p1447715.shtml",
+        "sourceSnapshotHash": "712b008801108497aac37bde429bfc1c324e9959985c1785ad5a5b977fee8ac0",
+        "fetchedAt": "2026-10-05T18:50:39.647Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2c.zol-img.com.cn/product/238_320x240/992/ceRmXfT8grasY.png",
+          "alt": "荣耀90 Pro",
+          "modelName": "荣耀 90 Pro",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10725207_1.html",
+          "sourceSnapshotHash": "932503c0d889a48b5e4cb8aec70886679dcd181954da39d1d5367133ac01dac4",
+          "fetchedAt": "2026-10-05T18:50:39.017Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "星钻银",
+            "url": "https://2c.zol-img.com.cn/product/238/992/ceRmXfT8grasY.png",
+            "modelName": "荣耀 90 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2390/index23898978_0_p1447715.shtml",
+            "sourceSnapshotHash": "712b008801108497aac37bde429bfc1c324e9959985c1785ad5a5b977fee8ac0",
+            "fetchedAt": "2026-10-05T18:50:39.647Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "亮黑色",
+            "url": "https://2a.zol-img.com.cn/product/238/978/cej82IDas4TE.png",
+            "modelName": "荣耀 90 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2390/index23898978_0_p1447715.shtml",
+            "sourceSnapshotHash": "712b008801108497aac37bde429bfc1c324e9959985c1785ad5a5b977fee8ac0",
+            "fetchedAt": "2026-10-05T18:50:39.647Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "墨玉青",
+            "url": "https://2c.zol-img.com.cn/product/238/986/ceMTN2bHZNLSo.png",
+            "modelName": "荣耀 90 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2390/index23898978_0_p1447715.shtml",
+            "sourceSnapshotHash": "712b008801108497aac37bde429bfc1c324e9959985c1785ad5a5b977fee8ac0",
+            "fetchedAt": "2026-10-05T18:50:39.647Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "冰羽蓝",
+            "url": "https://2e.zol-img.com.cn/product/238/0/ceVPoeIqnJAU.png",
+            "modelName": "荣耀 90 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2390/index23898978_0_p1447715.shtml",
+            "sourceSnapshotHash": "712b008801108497aac37bde429bfc1c324e9959985c1785ad5a5b977fee8ac0",
+            "fetchedAt": "2026-10-05T18:50:39.647Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2390/index23898978_0_p1447715.shtml",
+          "https://detail.zol.com.cn/picture_index_2390/index23898975_0_p1447715.shtml"
+        ],
+        "gaps": []
+      }
+    }
+  ],
+  "tablet": [],
+  "laptop": []
+}

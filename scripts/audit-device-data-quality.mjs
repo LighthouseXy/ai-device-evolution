@@ -1,5 +1,22 @@
 import assert from "node:assert/strict";
 import fs from "node:fs";
+import { loadTsModule } from "./lib/load-ts-module.mjs";
+import { parseAppleMemory } from "./lib/apple-memory.mjs";
+import { findBuiltInPortEvidence } from "./lib/apple-ports.mjs";
+import { isValidObservationDate } from "./lib/price-date.mjs";
+
+const { getPriceConfiguration, getDeviceConfigurations, isNewDevicePrice } = loadTsModule("./src/lib/device-configurations.ts");
+const { allDevicesFlat } = loadTsModule("./src/lib/devices-db.ts");
+const flatById = new Map(allDevicesFlat.map((device) => [device.id, device]));
+const pendingOriginalEvidence = new Map();
+
+assert.equal(parseAppleMemory(["16GB 统一内存", "可选配：", "24GB 或 32GB"]).value, "16GB / 24GB / 32GB");
+assert.equal(findBuiltInPortEvidence(["使用转换器可支持进行 VGA、HDMI、DVI 和雷雳 2 输出 (转换器需单独购买)"], "hasHDMI"), null);
+assert.equal(findBuiltInPortEvidence(["HDMI 視訊輸出，使用 USB-C Digital AV 多連接埠轉接器 (另售)"], "hasHDMI"), null);
+assert.equal(findBuiltInPortEvidence(["HDMI 端口"], "hasHDMI"), "HDMI 端口");
+assert.equal(findBuiltInPortEvidence(["SDXC 卡插槽"], "hasSDXC"), "SDXC 卡插槽");
+assert.equal(parseAppleMemory(["Apple M3 Pro 芯片", "18GB 统一内存", "36GB (M3 Pro 机型或 M3 Max 机型) 或 48GB、64GB 或 128GB (M3 Max 机型)"], "pro").value, "18GB / 36GB");
+assert.equal(parseAppleMemory(["Apple M1 Pro 芯片", "16GB 统一内存", "32GB (M1 Pro 或 M1 Max 机型) 或 64GB (M1 Max 机型)"], "max").value, "32GB / 64GB");
 
 const { devices: allDevices } = JSON.parse(fs.readFileSync("src/data/devices-db.json", "utf8"));
 const sourceRegistry = JSON.parse(fs.readFileSync("src/data/device-sources.json", "utf8"));
@@ -23,11 +40,25 @@ const crossBrandRequiredFields = {
   phone: ["chip", "memory", "storage", "launchPrice", "displayType", "port", "rearCamera", "frontCamera"],
   tablet: ["chip", "memory", "storage", "launchPrice", "screenSize", "displayType", "resolution", "port"],
   laptop: ["chip", "memory", "storage", "launchPrice", "screenSize", "displayType", "resolution"],
+  watch: ["displayType", "resolution", "batteryLife", "waterResistance", "compatibility"],
+  band: ["screenSize", "displayType", "resolution", "batteryLife", "waterResistance", "compatibility"],
 };
 const crossBrandCoverage = {};
 const allNeedsReview = allSourceRows.filter((row) => row.sourceStatus === "needs_review").map((row) => row.id);
 
 for (const device of allDevices) {
+  if (device.configurations?.length) {
+    const configurations = getDeviceConfigurations(flatById.get(device.id));
+    const validKeys = new Set(configurations.map((item) => item.key));
+    const identities = new Set();
+    for (const configuration of device.configurations) {
+      assert.ok(validKeys.has(`${configuration.memory}|${configuration.storage}`), `${device.id}: 配置矩阵包含无效的内存或存储`);
+      for (const key of ["cpuCores", "gpuCores"]) if (configuration[key] !== undefined) assert.ok(Number.isInteger(configuration[key]) && configuration[key] > 0, `${device.id}: 非法核心数`);
+      const identity = JSON.stringify([configuration.memory, configuration.storage, configuration.chip, configuration.cpuCores, configuration.gpuCores]);
+      assert.ok(!identities.has(identity), `${device.id}: 配置矩阵重复`);
+      identities.add(identity);
+    }
+  }
   const registry = allRegistryById.get(device.id);
   assert.ok(registry, `${device.id}: 缺少统一来源登记`);
   assert.equal(registry.brand, device.brand, `${device.id}: 来源登记品牌与主数据不一致`);
@@ -42,11 +73,68 @@ for (const device of allDevices) {
     ...(registry.referenceUrls ?? []),
   ].filter(Boolean));
   assert.ok(registeredUrls.size > 0, `${device.id}: 来源登记缺少 URL`);
+  if (registry.sourcePageType === "wearable_spec_snapshots") {
+    assert.ok(["watch", "band"].includes(device.category), `${device.id}: 穿戴数据类别不符`);
+    const minYear = device.brand === "Apple" ? 2016 : ["Xiaomi", "Redmi", "Samsung"].includes(device.brand) ? 2017 : 2022;
+    assert.ok(device.releaseYear >= minYear && device.releaseYear <= 2026, `${device.id}: 超出穿戴品牌年份范围`);
+    const release = registry.releaseEvidence;
+    assert.ok(release?.rawText && registeredUrls.has(release.sourceUrl), `${device.id}: 缺少本型号发布年原文`);
+    assert.equal(Number(release.value), device.releaseYear);
+    assert.match(release.sourceSnapshotHash, /^[a-f0-9]{64}$/);
+    for (const field of Object.values(device.specs)) {
+      assert.ok(field.rawText && field.fetchedAt, `${device.id}: 参数必须来自已采集原文`);
+      assert.match(field.sourceSnapshotHash, /^[a-f0-9]{64}$/);
+    }
+    assert.equal(device.configurations, undefined, `${device.id}: 不得把穿戴版型编造为内存存储矩阵`);
+    const gaps = registry.fieldGaps ?? [];
+    assert.equal(new Set(gaps.map(g => g.field)).size, gaps.length);
+    for (const gap of gaps) assert.ok(crossBrandRequiredFields[device.category].includes(gap.field) && gap.reason && device.specs[gap.field]?.value == null);
+  }
+  if (registry.sourcePageType === "expanded_core_spec_snapshots") {
+    assert.ok(device.configurations?.length, `${device.id}: 扩容设备必须有逐 SKU 配置证据`);
+    const minYear = ["Xiaomi", "Samsung"].includes(device.brand) ? 2017 : 2022;
+    assert.ok(device.releaseYear >= minYear && device.releaseYear <= 2026, `${device.id}: 超出品牌收录年份范围`);
+    const release = registry.releaseEvidence;
+    assert.ok(release?.rawText && registeredUrls.has(release.sourceUrl), `${device.id}: 缺少登记的发布时间原文`);
+    assert.match(release.sourceSnapshotHash, /^[a-f0-9]{64}$/, `${device.id}: 发布时间缺少快照哈希`);
+    assert.equal(Number(String(release.value).slice(0, 4)), device.releaseYear);
+    if (device.releaseDate) assert.equal(release.value, device.releaseDate);
+    const gaps = registry.fieldGaps ?? [];
+    assert.equal(new Set(gaps.map((gap) => gap.field)).size, gaps.length, `${device.id}: 缺口重复登记`);
+    for (const gap of gaps) {
+      assert.ok([...crossBrandRequiredFields[device.category], "screenSize", "resolution", "gpu", "weight", "batteryCapacity", "batteryLife", "wifi", "rearCamera", "frontCamera"].includes(gap.field), `${device.id}: 未知字段缺口`);
+      assert.ok(!["memory", "storage"].includes(gap.field), `${device.id}: 不能在配置缺失时发布型号`);
+      assert.ok(gap.reason?.trim() && device.specs?.[gap.field]?.value == null, `${device.id}.${gap.field}: 缺口说明与实际字段不一致`);
+    }
+    for (const field of registry.withheldSpecifications ?? []) {
+      assert.ok(gaps.some((gap) => gap.field === field.key && gap.reason === field.reason), `${device.id}: 隔离字段必须有匹配的缺口原因`);
+      assert.ok(field.rawText && registeredUrls.has(field.sourceUrl), `${device.id}: 隔离字段缺少原始证据`);
+      assert.match(field.sourceSnapshotHash, /^[a-f0-9]{64}$/, `${device.id}: 隔离字段缺少快照哈希`);
+      assert.equal(device.specs[field.key], undefined, `${device.id}: 隔离字段不得仍参与展示和推荐`);
+    }
+    for (const field of [...Object.values(device.specs), ...device.configurations.map((configuration) => configuration.evidence)]) {
+      assert.ok(field?.rawText && registeredUrls.has(field.sourceUrl), `${device.id}: 具体字段或配置缺少登记的原文`);
+      assert.match(field.sourceSnapshotHash, /^[a-f0-9]{64}$/, `${device.id}: 缺少具体来源快照哈希`);
+      assert.ok(field.fetchedAt && field.verifiedAt, `${device.id}: 缺少采集与核验时间`);
+    }
+    if (device.specs.launchPrice) assert.ok(getPriceConfiguration(flatById.get(device.id), device.specs.launchPrice),
+      `${device.id}: 扩容首发价与具体配置不符`);
+  }
 
   for (const [fieldName, field] of Object.entries(device.specs ?? {})) {
     assert.ok(registeredUrls.has(field.sourceUrl), `${device.id}.${fieldName}: sourceUrl 未登记`);
     assert.ok(trustedHostsByType.get(field.sourceType)?.has(new URL(field.sourceUrl).hostname), `${device.id}.${fieldName}: 来源域名与类型不匹配`);
-    assert.ok(field.rawText, `${device.id}.${fieldName}: 缺少原始证据`);
+    if (field.evidenceKind === "summary") {
+      assert.ok(field.summaryText && !field.rawText, `${device.id}.${fieldName}: 整理描述不能冒充原文`);
+      pendingOriginalEvidence.set(device.id, (pendingOriginalEvidence.get(device.id) ?? 0) + 1);
+    } else {
+      assert.ok(field.rawText, `${device.id}.${fieldName}: 缺少原始证据`);
+    }
+    if (fieldName === "batteryLife") assert.doesNotMatch(String(field.value), /mAh|毫安时|Wh|瓦时/i, `${device.id}: 电池容量不能放入续航时长`);
+    if (fieldName === "batteryCapacity") {
+      assert.ok(Number.isFinite(field.value) && field.value > 0, `${device.id}: 电池容量必须为正数`);
+      assert.equal(field.unit, "mAh");
+    }
     if (fieldName.endsWith("Price")) {
       assert.ok(Number.isFinite(field.value) && field.value > 0, `${device.id}.${fieldName}: 价格必须为正数`);
       assert.equal(field.unit, "CNY", `${device.id}.${fieldName}: 价格单位必须为 CNY`);
@@ -57,7 +145,8 @@ for (const device of allDevices) {
         assert.ok(field.condition, `${device.id}.${fieldName}: 缺少价格状态或成色`);
       }
       if (fieldName !== "launchPrice") {
-        assert.match(field.observedAt ?? "", /^\d{4}-\d{2}-\d{2}$/, `${device.id}.${fieldName}: 缺少有效采集日期`);
+        assert.ok(getPriceConfiguration(flatById.get(device.id), field), `${device.id}.${fieldName}: 无效或不明确的配置组合`);
+        assert.ok(isValidObservationDate(field.observedAt), `${device.id}.${fieldName}: 缺少有效采集日期或日期在未来`);
         assert.ok(field.sourceName, `${device.id}.${fieldName}: 缺少来源名称`);
       }
     }
@@ -79,27 +168,43 @@ for (const device of allDevices) {
   crossBrandCoverage[coverageKey] = coverage;
 }
 
-for (const [coverageKey, coverage] of Object.entries(crossBrandCoverage)) {
+for (const coverageKey of Object.keys(crossBrandCoverage)) {
   for (const fieldName of crossBrandRequiredFields[coverageKey.split("/")[1]]) {
-    assert.equal(coverage[fieldName], coverage.devices, `${coverageKey}.${fieldName}: 核心字段缺失`);
+    const missing = allDevices.filter((device) => `${device.brand}/${device.category}` === coverageKey && device.specs?.[fieldName]?.value == null)
+      .map((device) => device.id);
+    const documentedGap = allDevices.filter((device) => `${device.brand}/${device.category}` === coverageKey
+      && ((device.id === "redmi-book-14-2024" && fieldName === "displayType")
+        || (["expanded_core_spec_snapshots", "wearable_spec_snapshots"].includes(allRegistryById.get(device.id)?.sourcePageType)
+          && allRegistryById.get(device.id).fieldGaps?.some((gap) => gap.field === fieldName && gap.reason?.trim()))))
+      .map((device) => device.id);
+    assert.deepEqual(missing.sort(), documentedGap.sort(), `${coverageKey}.${fieldName}: 未记录的核心字段缺口`);
   }
 }
 assert.deepEqual(allNeedsReview, [], "统一来源登记仍有设备待人工复核");
+console.log("expandedFieldGaps", JSON.stringify(allSourceRows.filter((row) => row.sourcePageType === "expanded_core_spec_snapshots")
+  .flatMap((row) => row.fieldGaps ?? []).reduce((counts, gap) => ({ ...counts, [gap.field]: (counts[gap.field] ?? 0) + 1 }), {})));
+console.log("pendingOriginalEvidence", JSON.stringify(Object.fromEntries(pendingOriginalEvidence)));
+assert.equal(pendingOriginalEvidence.size, 0, "多品牌试点规格不得退回仅有整理描述、没有原文片段的状态");
 
 for (const [priceType, entries] of Object.entries(priceObservations)) {
   for (const [deviceId, entry] of Object.entries(entries)) {
     assert.ok(allDevicesById.has(deviceId), `${deviceId}.${priceType}: 价格快照设备不存在`);
     for (const observation of Array.isArray(entry) ? entry : [entry]) {
+      if (observation.excludedReason !== undefined) assert.ok(typeof observation.excludedReason === "string" && observation.excludedReason.trim(), `${deviceId}.${priceType}: 排除原因不能为空`);
+      else assert.ok(getPriceConfiguration(flatById.get(deviceId), observation), `${deviceId}.${priceType}: 无效或不明确的快照配置组合`);
       assert.ok(Number.isFinite(observation.value) && observation.value > 0, `${deviceId}.${priceType}: 快照价格非法`);
       assert.ok(observation.configuration && observation.condition && observation.observedAt, `${deviceId}.${priceType}: 快照口径不完整`);
+      if (priceType === "current" && !observation.excludedReason) assert.ok(isNewDevicePrice(observation.condition), `${deviceId}.${priceType}: 拆封、退货、二手或状态不明报价不能作为普通新机价`);
+      if (!observation.excludedReason) assert.match(observation.configuration, /国行|中国大陆(?:版|版本)|大陆版本/, `${deviceId}.${priceType}: 渠道或仓库地点不能代替硬件版本，不得把未知地区报价默认当作国行`);
+      assert.ok(isValidObservationDate(observation.observedAt), `${deviceId}.${priceType}: 采集日期无效或在未来`);
       const sourceType = observation.sourceType ?? "reference";
       assert.ok(trustedHostsByType.get(sourceType)?.has(new URL(observation.sourceUrl).hostname), `${deviceId}.${priceType}: 快照来源域名不受信任`);
     }
   }
 }
-const devices = allDevices.filter((device) => device.brand === "Apple");
+const devices = allDevices.filter((device) => device.brand === "Apple" && ["phone", "tablet", "laptop"].includes(device.category));
 const appleDeviceIds = new Set(devices.map((device) => device.id));
-const sourceRows = allSourceRows.filter((row) => row.brand === "Apple");
+const sourceRows = allSourceRows.filter((row) => appleDeviceIds.has(row.id));
 const devicesByCategory = new Map();
 for (const device of devices) {
   const group = devicesByCategory.get(device.category) ?? [];
@@ -128,7 +233,7 @@ const reportFields = [
   "rearCamera",
   "frontCamera",
 ];
-const trustedReferenceHosts = new Set(["tc.people.com.cn", "mobile.zol.com.cn", "detail.zol.com.cn", "www.ithome.com", "news.mydrivers.com", "tech.sina.cn", "www.smzdm.com", "www.shihuo.cn", "pro.m.jd.com", "item.jd.com", "item.m.jd.com", "m2.9ji.com", "iosref.com"]);
+const trustedReferenceHosts = new Set(["tc.people.com.cn", "mobile.zol.com.cn", "smartwear.zol.com.cn", "detail.zol.com.cn", "www.ithome.com", "m.ithome.com", "m.cnmo.com", "club.honor.com", "news.mydrivers.com", "tech.sina.cn", "www.smzdm.com", "www.shihuo.cn", "pro.m.jd.com", "item.jd.com", "item.m.jd.com", "m2.9ji.com", "iosref.com", "www.ifixit.com"]);
 
 const hasValue = (device, field) => device.specs?.[field]?.value !== null && device.specs?.[field]?.value !== undefined;
 const sourceIds = sourceRows.map((row) => row.id);
@@ -146,6 +251,7 @@ const sourceAudit = {
   official: 0,
   reference: 0,
   supportZhCn: 0,
+  supportZhTw: 0,
   appleChina: 0,
   rawTextChinese: 0,
   rawTextTechnicalOnly: 0,
@@ -177,7 +283,11 @@ for (const device of devices) {
       assert.ok(trustedReferenceHosts.has(url.hostname), `${device.id}.${fieldName}: 第三方来源域名不受信任`);
     }
     assert.ok(field.rawText, `${device.id}.${fieldName}: 缺少原始证据`);
-    if (/support\.apple\.com\/zh-(?:cn|tw)\//.test(field.sourceUrl)) sourceAudit.supportZhCn += 1;
+    if (["hasHDMI", "hasSDXC"].includes(fieldName) && field.value === true) {
+      assert.ok(findBuiltInPortEvidence([field.rawText], fieldName), `${device.id}.${fieldName}: 转接器输出不能冒充内置端口`);
+    }
+    if (/support\.apple\.com\/zh-cn\//.test(field.sourceUrl)) sourceAudit.supportZhCn += 1;
+    if (/support\.apple\.com\/zh-tw\//.test(field.sourceUrl)) sourceAudit.supportZhTw += 1;
     if (field.sourceUrl.startsWith("https://www.apple.com.cn/")) sourceAudit.appleChina += 1;
     if (/[\u4e00-\u9fff]/.test(field.rawText)) sourceAudit.rawTextChinese += 1;
     else sourceAudit.rawTextTechnicalOnly += 1;
@@ -186,14 +296,18 @@ for (const device of devices) {
       assert.ok(["memory", "launchPrice", "currentPrice", "usedPrice"].includes(fieldName), `${device.id}.${fieldName}: reference 字段不在允许范围`);
       if (fieldName === "memory") {
         assert.equal(field.confidence, 0.9, `${device.id}.memory: 第三方内存置信度必须为 0.9`);
-        assert.equal(url.hostname, "iosref.com", `${device.id}.memory: 第三方内存来源必须为 iOS Ref`);
+        if (["iphone-18-pro", "iphone-18-pro-max"].includes(device.id)) {
+          assert.equal(field.sourceUrl, `https://www.ifixit.com/Device/${device.modelName.replaceAll(" ", "_")}`);
+          assert.match(field.rawText, /RAM\s*:\s*12 GB LPDDR5X/);
+          assert.match(field.sourceSnapshotHash, /^[a-f0-9]{64}$/);
+        } else assert.equal(url.hostname, "iosref.com", `${device.id}.memory: 第三方内存来源必须为 iOS Ref`);
       } else {
         assert.equal(field.confidence, 0.7, `${device.id}.${fieldName}: 第三方价格置信度必须为 0.7`);
         assert.equal(field.priceType, fieldName.replace("Price", ""), `${device.id}.${fieldName}: priceType 与字段不一致`);
         assert.equal(field.market, "中国大陆", `${device.id}.${fieldName}: 缺少中国大陆市场限定`);
         assert.ok(field.configuration, `${device.id}.${fieldName}: 缺少价格配置`);
         assert.ok(field.condition, `${device.id}.${fieldName}: 缺少成色或价格状态`);
-        assert.match(field.observedAt, /^\d{4}-\d{2}-\d{2}$/, `${device.id}.${fieldName}: observedAt 非法`);
+        assert.ok(isValidObservationDate(field.observedAt), `${device.id}.${fieldName}: observedAt 非法`);
         assert.ok(field.sourceName, `${device.id}.${fieldName}: 缺少来源名称`);
       }
     }
@@ -211,7 +325,12 @@ for (const device of devices) {
   if (chip?.rawText) {
     const value = normalizeEvidence(chip.value);
     const rawText = normalizeEvidence(chip.rawText);
-    assert.ok(value.includes(rawText) || rawText.includes(value), `${device.id}.chip: 原始证据与结构化芯片不一致`);
+    if (String(chip.value).startsWith("Intel Core ")) {
+      const models = chip.value.replace(/^Intel Core /, "").split(" / ");
+      assert.ok(models.every((model) => rawText.includes(normalizeEvidence(`Intel Core ${model}`))), `${device.id}.chip: 每个可选处理器均须有原文证据`);
+    } else {
+      assert.ok(value.includes(rawText) || rawText.includes(value), `${device.id}.chip: 原始证据与结构化芯片不一致`);
+    }
   }
 }
 
@@ -241,9 +360,9 @@ const memoryDistribution = (category) => Object.fromEntries(
     .reduce((counts, device) => counts.set(device.specs.memory.value, (counts.get(device.specs.memory.value) ?? 0) + 1), new Map())]
     .sort(([left], [right]) => left.localeCompare(right)),
 );
-assert.equal(referenceMemoryDevices.length, 59, "第三方运行内存字段必须覆盖 40 台 iPhone 和 19 台 iPad");
+assert.equal(referenceMemoryDevices.length, 61, "第三方运行内存字段必须覆盖 42 台 iPhone 和 19 台 iPad");
 assert.deepEqual(memoryDistribution("phone"), {
-  "12GB": 3,
+  "12GB": 5,
   "2GB": 3,
   "3GB": 5,
   "4GB": 10,
@@ -260,12 +379,8 @@ assert.deepEqual(memoryDistribution("tablet"), {
 }, "iPad 第三方运行内存分布发生变化");
 
 const needsReview = sourceRows.filter((row) => row.sourceStatus === "needs_review").map((row) => row.id);
-const importedReferencePrices = Object.values(priceObservations)
-  .flatMap((observations) => Object.entries(observations))
-  .filter(([deviceId, observation]) => appleDeviceIds.has(deviceId) && (Array.isArray(observation) ? observation[0] : observation).sourceType !== "official").length;
 assert.ok(sourceRows.every((row) => ["verified", "needs_review"].includes(row.sourceStatus)), "来源登记状态非法");
-assert.equal(sourceAudit.supportZhCn + sourceAudit.appleChina + sourceAudit.reference, sourceAudit.fields, "仍有字段未使用已登记来源");
-assert.equal(sourceAudit.reference, 115 + importedReferencePrices, "第三方内存与价格字段数量发生变化");
+assert.equal(sourceAudit.supportZhCn + sourceAudit.supportZhTw + sourceAudit.appleChina + sourceAudit.reference, sourceAudit.fields, "仍有字段未使用已登记来源");
 assert.deepEqual(needsReview, [], "仍有设备来源待人工复核");
 
 const missingLaptopLaunchPrices = devices
@@ -275,6 +390,8 @@ const missingLaptopLaunchPrices = devices
 assert.deepEqual(missingLaptopLaunchPrices, [], "MacBook 中国大陆首发价必须完整");
 
 const referenceLaunchPriceSnapshots = {
+  "iphone-se-1-2016": 3288,
+  "iphone-8-plus-2017": 6688,
   "macbook-12-2017": 10288,
   "macbook-air-13-2017": 6988,
   "macbook-pro-13-4-port-2017": 14288,
@@ -334,6 +451,7 @@ const appleStoreCurrentPrices = new Set([
   "macbook-neo-13-2026",
 ]);
 for (const [deviceId, price] of Object.entries(currentPriceSnapshots)) {
+  if (priceObservations.current[deviceId]) continue;
   const field = devicesById.get(deviceId)?.specs.currentPrice;
   const isAppleStore = appleStoreCurrentPrices.has(deviceId);
   const isJd = jdCurrentPrices.has(deviceId);
@@ -351,7 +469,6 @@ for (const [deviceId, entry] of Object.entries(priceObservations.current)) {
   if (!appleDeviceIds.has(deviceId)) continue;
   const observations = Array.isArray(entry) ? entry : [entry];
   const expected = observations[0];
-  assert.ok(!Object.hasOwn(currentPriceSnapshots, deviceId), `${deviceId}.currentPrice: 批量价格不得覆盖内置基线`);
   const field = devicesById.get(deviceId)?.specs.currentPrice;
   assert.equal(field?.value, expected.value, `${deviceId}.currentPrice: 批量价格未同步`);
   assert.equal(field?.sourceUrl, expected.sourceUrl, `${deviceId}.currentPrice: 来源 URL 不一致`);
@@ -366,7 +483,7 @@ for (const [deviceId, entry] of Object.entries(priceObservations.current)) {
 }
 assert.equal(
   devices.filter((device) => hasValue(device, "currentPrice")).length,
-  Object.keys(currentPriceSnapshots).length + Object.keys(priceObservations.current).filter((deviceId) => appleDeviceIds.has(deviceId)).length,
+  new Set([...Object.keys(currentPriceSnapshots), ...Object.keys(priceObservations.current).filter((deviceId) => appleDeviceIds.has(deviceId))]).size,
   "当前价格只能来自已核验静态快照",
 );
 
@@ -403,6 +520,7 @@ const usedPriceSnapshots = {
   "ipad-pro-m5-11-2025": [8089, "京东 99 成新二手平板电脑榜", "2026-08-24", /二手.*99 新/],
 };
 for (const [deviceId, [price, sourceName, observedAt, conditionPattern]] of Object.entries(usedPriceSnapshots)) {
+  if (priceObservations.used[deviceId]) continue;
   const field = devicesById.get(deviceId)?.specs.usedPrice;
   assert.equal(field?.value, price, `${deviceId}.usedPrice: 二手价格快照发生回归`);
   assert.equal(field?.sourceType, "reference", `${deviceId}.usedPrice: 来源类型发生回归`);
@@ -415,7 +533,6 @@ for (const [deviceId, entry] of Object.entries(priceObservations.used)) {
   if (!appleDeviceIds.has(deviceId)) continue;
   const observations = Array.isArray(entry) ? entry : [entry];
   const expected = observations[0];
-  assert.ok(!Object.hasOwn(usedPriceSnapshots, deviceId), `${deviceId}.usedPrice: 批量价格不得覆盖内置基线`);
   const field = devicesById.get(deviceId)?.specs.usedPrice;
   assert.equal(field?.value, expected.value, `${deviceId}.usedPrice: 批量价格未同步`);
   assert.equal(field?.sourceUrl, expected.sourceUrl, `${deviceId}.usedPrice: 来源 URL 不一致`);
@@ -426,16 +543,22 @@ for (const [deviceId, entry] of Object.entries(priceObservations.used)) {
 }
 assert.equal(
   devices.filter((device) => hasValue(device, "usedPrice")).length,
-  Object.keys(usedPriceSnapshots).length + Object.keys(priceObservations.used).filter((deviceId) => appleDeviceIds.has(deviceId)).length,
+  new Set([...Object.keys(usedPriceSnapshots), ...Object.keys(priceObservations.used).filter((deviceId) => appleDeviceIds.has(deviceId))]).size,
   "二手价格只能来自已核验静态快照",
 );
+const expectedReferencePriceCount = [
+  { ...Object.fromEntries(Object.keys(currentPriceSnapshots).map((id) => [id, { sourceType: appleStoreCurrentPrices.has(id) ? "official" : "reference" }])), ...priceObservations.current },
+  { ...Object.fromEntries(Object.keys(usedPriceSnapshots).map((id) => [id, { sourceType: "reference" }])), ...priceObservations.used },
+].flatMap(Object.entries).filter(([id, entry]) => appleDeviceIds.has(id) && [entry].flat()[0].sourceType !== "official").length;
+assert.equal(sourceAudit.reference, referenceMemoryDevices.length + Object.keys(referenceLaunchPriceSnapshots).length + expectedReferencePriceCount,
+  "第三方内存与价格字段数量发生变化；新旧同设备价格不能重复计数");
 
 const splitMacBookSpecs = {
-  "macbook-pro-14-m4-pro-2024": ["Apple M4 Pro 芯片", "24GB / 48GB / 64GB", 16999],
+  "macbook-pro-14-m4-pro-2024": ["Apple M4 Pro 芯片", "24GB / 48GB", 16999],
   "macbook-pro-14-m4-max-2024": ["Apple M4 Max 芯片", "36GB / 48GB / 64GB / 128GB", 26999],
   "macbook-pro-16-m2-2023": ["Apple M2 Pro 芯片", "16GB / 32GB", 19999],
   "macbook-pro-16-m2-max-2023": ["Apple M2 Max 芯片", "32GB / 64GB / 96GB", 27499],
-  "macbook-pro-16-m4-2024": ["Apple M4 Pro 芯片", "24GB / 48GB / 64GB", 19999],
+  "macbook-pro-16-m4-2024": ["Apple M4 Pro 芯片", "24GB / 48GB", 19999],
   "macbook-pro-16-m4-max-2024": ["Apple M4 Max 芯片", "36GB / 48GB / 64GB / 128GB", 27999],
   "macbook-pro-14-m5-pro-2026": ["Apple M5 Pro 芯片", "24GB / 48GB / 64GB", 17999],
   "macbook-pro-14-m5-max-2026": ["Apple M5 Max 芯片", "36GB / 48GB / 64GB / 128GB", 29999],

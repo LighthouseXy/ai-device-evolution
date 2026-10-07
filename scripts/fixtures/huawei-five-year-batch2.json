@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "scope": "Huawei中国大陆手机、平板、笔记本，2022–2026，截至2026-10-06；第二批已发现差集，不是完整目录",
+    "coverageStatus": "partial",
+    "catalogSources": [
+      "https://detail.zol.com.cn/cell_phone_index/subcate57_613_list_1.html",
+      "https://detail.zol.com.cn/notebook_index/subcate16_613_list_1.html"
+    ],
+    "notes": "接续第一批登记的未处理目标；逐型号核验国行、上市日期和单值SKU，缺口不填，活力版和特别版单独隔离。"
+  },
+  "targets": [
+    { "id": "huawei-nova-15-2025", "category": "phone", "modelName": "HUAWEI nova 15", "expectedName": "华为nova 15", "family": "HUAWEI nova", "group": "nova", "seriesId": 10922119, "releaseYear": 2025 },
+    { "id": "huawei-nova-15-pro-2025", "category": "phone", "modelName": "HUAWEI nova 15 Pro", "expectedName": "华为nova 15 Pro", "family": "HUAWEI nova Pro", "group": "nova-pro", "seriesId": 10922336, "releaseYear": 2025 },
+    { "id": "huawei-nova-15-ultra-2025", "category": "phone", "modelName": "HUAWEI nova 15 Ultra", "expectedName": "华为nova 15 Ultra", "family": "HUAWEI nova Ultra", "group": "nova-ultra", "seriesId": 10922120, "releaseYear": 2025 },
+    { "id": "huawei-nova-16-2026", "category": "phone", "modelName": "HUAWEI nova 16", "expectedName": "华为nova 16", "family": "HUAWEI nova", "group": "nova", "seriesId": 10927087, "releaseYear": 2026 },
+    { "id": "huawei-nova-16-pro-2026", "category": "phone", "modelName": "HUAWEI nova 16 Pro", "expectedName": "华为nova 16 Pro", "family": "HUAWEI nova Pro", "group": "nova-pro", "seriesId": 10927090, "releaseYear": 2026 },
+    { "id": "huawei-nova-16-ultra-2026", "category": "phone", "modelName": "HUAWEI nova 16 Ultra", "expectedName": "华为nova 16 Ultra", "family": "HUAWEI nova Ultra", "group": "nova-ultra", "seriesId": 10927091, "releaseYear": 2026 },
+    { "id": "huawei-mate-xt-2024", "category": "phone", "modelName": "HUAWEI Mate XT 非凡大师", "expectedName": "华为Mate XT 非凡大师", "family": "HUAWEI Mate XT", "group": "mate-xt", "seriesId": 10905167, "releaseYear": 2024 },
+    { "id": "huawei-mate-xts-2025", "category": "phone", "modelName": "HUAWEI Mate XTs 非凡大师", "expectedName": "华为Mate XTs 非凡大师", "family": "HUAWEI Mate XT", "group": "mate-xt", "seriesId": 10918585, "releaseYear": 2025 },
+    { "id": "huawei-pura-x-2025", "category": "phone", "modelName": "HUAWEI Pura X", "expectedName": "华为Pura X", "family": "HUAWEI Pura X", "group": "pura-x", "seriesId": 10911699, "releaseYear": 2025 },
+    { "id": "huawei-pura-x-max-2026", "category": "phone", "modelName": "HUAWEI Pura X Max", "expectedName": "华为Pura X Max", "family": "HUAWEI Pura X Max", "group": "pura-x-max", "seriesId": 10925655, "releaseYear": 2026 },
+    { "id": "huawei-matepad-se-11-2024", "category": "tablet", "modelName": "HUAWEI MatePad SE 11 英寸 (2024)", "expectedName": "华为MatePad SE 11英寸 2024款", "family": "HUAWEI MatePad SE 11", "group": "matepad-se-11", "seriesId": 10874327, "releaseYear": 2024, "excludeVariants": ["活力版"], "marketFallback": { "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16007420/", "rawPattern": "HUAWEI MatePad SE 11英寸 2024款", "sourceType": "official" } },
+    { "id": "huawei-matepad-se-10-4-2022", "category": "tablet", "modelName": "HUAWEI MatePad SE 10.4 英寸", "expectedName": "华为MatePad SE 10.4", "family": "HUAWEI MatePad SE 10.4", "group": "matepad-se-10.4", "seriesId": 10734790, "releaseYear": 2022 },
+    { "id": "huawei-matebook-d15-2022", "category": "laptop", "modelName": "HUAWEI MateBook D 15 (2022)", "expectedName": "华为MateBook D 15 2022款", "family": "HUAWEI MateBook D15", "group": "matebook-d15", "seriesId": 37359, "releaseYear": 2022 },
+    { "id": "huawei-matebook-d16-se-2024", "category": "laptop", "modelName": "HUAWEI MateBook D 16 SE 版 (2024)", "expectedName": "华为MateBook D 16 SE版 2024", "family": "HUAWEI MateBook D16 SE", "group": "matebook-d16-se", "seriesId": 10851144, "releaseYear": 2024, "marketFallback": { "sourceUrl": "https://consumer.huawei.com/cn/laptops/matebook-d-16-se-2024/specs/", "rawPattern": "HUAWEI MateBook D 16 SE 版 2024", "sourceType": "official" } },
+    { "id": "huawei-matebook-d16-high-2024", "category": "laptop", "modelName": "HUAWEI MateBook D 16 高能版 (2024)", "expectedName": "华为MateBook D 16 高能版 2024", "family": "HUAWEI MateBook D16 高能版", "group": "matebook-d16-high", "seriesId": 10857618, "releaseYear": 2024, "marketFallback": { "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16038951/", "rawPattern": "高能版 linux 13代酷睿/i5/16g/1tb/集显/非触屏", "sourceType": "official" } },
+    { "id": "huawei-matebook-e-2023", "category": "laptop", "modelName": "HUAWEI MateBook E (2023)", "expectedName": "华为MateBook E 2023", "family": "HUAWEI MateBook E", "group": "matebook-e", "seriesId": 10715811, "releaseYear": 2023, "marketFallback": { "sourceUrl": "https://consumer.huawei.com/cn/support/laptops/matebook-e-2023/", "rawPattern": "华为MateBook E 2023售后服务和维修", "sourceType": "official" } },
+    { "id": "huawei-matebook-e-go-2023", "category": "laptop", "modelName": "HUAWEI MateBook E Go (2023)", "expectedName": "华为MateBook E Go 2023", "family": "HUAWEI MateBook E Go", "group": "matebook-e-go", "seriesId": 10734601, "releaseYear": 2023, "marketFallback": { "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16012892/", "rawPattern": "HUAWEI MateBook E Go 2023款/性能版使用过程中出现死机卡顿", "sourceType": "official" } },
+    { "id": "huawei-matebook-14-linux-2025", "category": "laptop", "modelName": "HUAWEI MateBook 14 Linux 版", "expectedName": "华为MateBook 14 Linux版", "family": "HUAWEI MateBook 14 Linux", "group": "matebook-14-linux", "seriesId": 10920336, "releaseYear": 2025, "marketFallback": { "sourceUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16038951/", "rawPattern": "HUAWEI MateBook 14\\(linux版 酷睿 ultra/u5/16g/1tb/集显/触屏", "sourceType": "official" } }
+  ],
+  "pending": []
+}

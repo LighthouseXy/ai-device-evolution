@@ -1,0 +1,319 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "totalDevices": 2,
+    "generatedAt": "2026-10-02"
+  },
+  "devices": [
+    {
+      "id": "redmi-book-14-2024",
+      "brand": "Xiaomi",
+      "market": "CN",
+      "category": "laptop",
+      "series": "REDMI Book 14",
+      "family": "REDMI Book 14",
+      "variant": "standard",
+      "modelName": "REDMI Book 14 (2024)",
+      "generation": "2024",
+      "generationOrder": 1,
+      "releaseYear": 2023,
+      "releaseDate": "2023-11-29",
+      "comparisonGroupId": "xiaomi.laptop.redmi-book-14.standard",
+      "configurations": [
+        {
+          "chip": "英特尔酷睿 i5-13500H",
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "英特尔酷睿 i5-13500H + 16GB + 512GB",
+            "rawText": "i5-13500H + 16G + 512G：4199 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/735/954.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:14:29.393Z",
+            "sourceSnapshotHash": "8d37f43ab66d8c436c8b0fb3ceb4d1515a71197bb9b3b9c80f2e8cc94acffec7"
+          }
+        },
+        {
+          "chip": "英特尔酷睿 i5-13500H",
+          "memory": "16GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "英特尔酷睿 i5-13500H + 16GB + 1TB",
+            "rawText": "i5-13500H + 16G + 1T：4499 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/735/954.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:14:29.393Z",
+            "sourceSnapshotHash": "8d37f43ab66d8c436c8b0fb3ceb4d1515a71197bb9b3b9c80f2e8cc94acffec7"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "英特尔酷睿 i5-13500H",
+          "rawText": "搭载 i5-13500H 处理器",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/735/954.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:29.393Z",
+          "sourceSnapshotHash": "8d37f43ab66d8c436c8b0fb3ceb4d1515a71197bb9b3b9c80f2e8cc94acffec7"
+        },
+        "memory": {
+          "value": "16GB",
+          "rawText": "i5-13500H + 16G + 512G：4199 元 i5-13500H + 16G + 1T：4499 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/735/954.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:29.393Z",
+          "sourceSnapshotHash": "8d37f43ab66d8c436c8b0fb3ceb4d1515a71197bb9b3b9c80f2e8cc94acffec7"
+        },
+        "storage": {
+          "value": "512GB / 1TB",
+          "rawText": "i5-13500H + 16G + 512G：4199 元 i5-13500H + 16G + 1T：4499 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/735/954.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:29.393Z",
+          "sourceSnapshotHash": "8d37f43ab66d8c436c8b0fb3ceb4d1515a71197bb9b3b9c80f2e8cc94acffec7"
+        },
+        "screenSize": {
+          "value": 14,
+          "unit": "inch",
+          "rawText": "14 英寸 2.8K 屏",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/735/954.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:29.393Z",
+          "sourceSnapshotHash": "8d37f43ab66d8c436c8b0fb3ceb4d1515a71197bb9b3b9c80f2e8cc94acffec7"
+        },
+        "resolution": {
+          "value": "2.8K",
+          "rawText": "14 英寸 2.8K 屏",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/735/954.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:29.393Z",
+          "sourceSnapshotHash": "8d37f43ab66d8c436c8b0fb3ceb4d1515a71197bb9b3b9c80f2e8cc94acffec7"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "120Hz 刷新率",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/735/954.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:29.393Z",
+          "sourceSnapshotHash": "8d37f43ab66d8c436c8b0fb3ceb4d1515a71197bb9b3b9c80f2e8cc94acffec7"
+        },
+        "port": {
+          "value": "雷电 4 / USB-A / HDMI / 3.5mm",
+          "rawText": "接口包括一个雷电 4、三个 USB-A、一个 HDMI 以及一个 3.5mm 音频接口",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/735/954.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:29.393Z",
+          "sourceSnapshotHash": "8d37f43ab66d8c436c8b0fb3ceb4d1515a71197bb9b3b9c80f2e8cc94acffec7"
+        },
+        "launchPrice": {
+          "value": 4199,
+          "unit": "CNY",
+          "rawText": "i5-13500H + 16G + 512G：4199 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/735/954.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:14:29.393Z",
+          "sourceSnapshotHash": "8d37f43ab66d8c436c8b0fb3ceb4d1515a71197bb9b3b9c80f2e8cc94acffec7",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "英特尔酷睿 i5-13500H + 16GB 运行内存 + 512GB 存储，国行",
+          "condition": "中国大陆首销价；不等于建议零售价"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "redmi-book-14-2025",
+      "brand": "Xiaomi",
+      "market": "CN",
+      "category": "laptop",
+      "series": "REDMI Book 14",
+      "family": "REDMI Book 14",
+      "variant": "standard",
+      "modelName": "REDMI Book 14 (2025)",
+      "generation": "2025",
+      "generationOrder": 2,
+      "releaseYear": 2025,
+      "releaseDate": "2025-01-02",
+      "comparisonGroupId": "xiaomi.laptop.redmi-book-14.standard",
+      "configurations": [
+        {
+          "chip": "英特尔酷睿 5 220H",
+          "memory": "16GB",
+          "storage": "512GB",
+          "evidence": {
+            "value": "英特尔酷睿 5 220H + 16GB + 512GB",
+            "rawText": "16GB + 512GB 首发价 4599 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/821/829.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:48:35.798Z",
+            "sourceSnapshotHash": "23431bdb18333796ad39e0f995e644706256626d54d5ec59e1824032fa8fe2ec"
+          }
+        },
+        {
+          "chip": "英特尔酷睿 5 220H",
+          "memory": "16GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "英特尔酷睿 5 220H + 16GB + 1TB",
+            "rawText": "16GB + 1TB 首发价 4899 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/821/829.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:48:35.798Z",
+            "sourceSnapshotHash": "23431bdb18333796ad39e0f995e644706256626d54d5ec59e1824032fa8fe2ec"
+          }
+        },
+        {
+          "chip": "英特尔酷睿 5 220H",
+          "memory": "32GB",
+          "storage": "1TB",
+          "evidence": {
+            "value": "英特尔酷睿 5 220H + 32GB + 1TB",
+            "rawText": "32GB + 1TB 首发价 5199 元",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://www.ithome.com/0/821/829.htm",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-02",
+            "fetchedAt": "2026-10-02T16:48:35.798Z",
+            "sourceSnapshotHash": "23431bdb18333796ad39e0f995e644706256626d54d5ec59e1824032fa8fe2ec"
+          }
+        }
+      ],
+      "specs": {
+        "chip": {
+          "value": "英特尔酷睿 5 220H",
+          "rawText": "搭载英特尔 酷睿 5 220H 处理器",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/821/829.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:48:35.798Z",
+          "sourceSnapshotHash": "23431bdb18333796ad39e0f995e644706256626d54d5ec59e1824032fa8fe2ec"
+        },
+        "memory": {
+          "value": "16GB / 32GB",
+          "rawText": "16GB + 512GB 首发价 4599 元 16GB + 1TB 首发价 4899 元 32GB + 1TB 首发价 5199 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/821/829.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:48:35.798Z",
+          "sourceSnapshotHash": "23431bdb18333796ad39e0f995e644706256626d54d5ec59e1824032fa8fe2ec"
+        },
+        "storage": {
+          "value": "512GB / 1TB",
+          "rawText": "16GB + 512GB 首发价 4599 元 16GB + 1TB 首发价 4899 元 32GB + 1TB 首发价 5199 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/821/829.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:48:35.798Z",
+          "sourceSnapshotHash": "23431bdb18333796ad39e0f995e644706256626d54d5ec59e1824032fa8fe2ec"
+        },
+        "screenSize": {
+          "value": 14,
+          "unit": "inch",
+          "rawText": "REDMI Book 14 2025 搭载 2.8K 120Hz 屏",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/821/829.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:48:35.798Z",
+          "sourceSnapshotHash": "23431bdb18333796ad39e0f995e644706256626d54d5ec59e1824032fa8fe2ec"
+        },
+        "displayType": {
+          "value": "LCD",
+          "rawText": "屏幕类型 LCD屏",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://g.pconline.com.cn/product/notebook/redmi/2498099_detail.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:54:30.624Z",
+          "sourceSnapshotHash": "94aa5b22813c5765e6e3703cad6ad5a029fce8ec4bd19a802ef6d570d3442a2f"
+        },
+        "resolution": {
+          "value": "2.8K",
+          "rawText": "REDMI Book 14 2025 搭载 2.8K 120Hz 屏",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/821/829.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:48:35.798Z",
+          "sourceSnapshotHash": "23431bdb18333796ad39e0f995e644706256626d54d5ec59e1824032fa8fe2ec"
+        },
+        "refreshRate": {
+          "value": 120,
+          "unit": "Hz",
+          "rawText": "2.8K 120Hz 屏",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/821/829.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:48:35.798Z",
+          "sourceSnapshotHash": "23431bdb18333796ad39e0f995e644706256626d54d5ec59e1824032fa8fe2ec"
+        },
+        "launchPrice": {
+          "value": 4599,
+          "unit": "CNY",
+          "rawText": "16GB + 512GB 首发价 4599 元",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.ithome.com/0/821/829.htm",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-02",
+          "fetchedAt": "2026-10-02T16:48:35.798Z",
+          "sourceSnapshotHash": "23431bdb18333796ad39e0f995e644706256626d54d5ec59e1824032fa8fe2ec",
+          "priceType": "launch",
+          "market": "中国大陆",
+          "configuration": "英特尔酷睿 5 220H + 16GB 运行内存 + 512GB 存储，国行",
+          "condition": "中国大陆首发定价；不含后续补贴"
+        }
+      },
+      "computed": {}
+    }
+  ]
+}

@@ -1,0 +1,953 @@
+{
+  "phone": [
+    {
+      "id": "redmi-note-4x-high-helio-2017",
+      "modelName": "红米Note 4X 高配版 Helio X20",
+      "generation": "2017",
+      "releaseYear": 2017,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/21808_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_21808_0_1.html",
+        "https://detail.zol.com.cn/1166/1165050/param.shtml",
+        "https://www.ithome.com/0/302/469.htm",
+        "https://www.mi.com/redminote4x/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2017-04-06",
+        "rawText": "4月6日0点米粉节首发开卖",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/302/469.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:03:52.128Z",
+        "sourceSnapshotHash": "9ab8345ae5d381a96b603dbf88bb034f166220a37d166357aae071405043e39c"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "实际标准版参数页无可核验字段原文；留空不推断"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 1 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "支持移动、联通、电信4G",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/redminote4x/specs",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:55:09.218Z",
+        "sourceSnapshotHash": "5ea286332e5f53bf340571848fa712d51cd5a1a99626ec9976583f15c54b27bb"
+      },
+      "officialSpecificationEvidence": [
+        {
+          "value": "红米Note 4X 高配版 Helio X20",
+          "rawText": "高配版（Helio X20）：4GB + 64GB MTK Helio X20",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.mi.com/redminote4x/specs",
+          "sourceType": "official",
+          "confidence": 0.95,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:55:09.218Z",
+          "sourceSnapshotHash": "5ea286332e5f53bf340571848fa712d51cd5a1a99626ec9976583f15c54b27bb",
+          "note": "官方逐条CPU与容量绑定，不与高通版互换"
+        }
+      ],
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_21808.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "rejectedColorEvidence": {
+        "value": "樱花粉，香槟金，铂银灰，磨砂黑",
+        "rawText": "机身颜色 樱花粉，香槟金，铂银灰，磨砂黑，蓝绿色 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1166/1165050/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:58:27.380Z",
+        "sourceSnapshotHash": "d8eb730724e0ecf32b47635b746970d46c973d4fb8611a371f874c7c1a8d9c68",
+        "note": "排除特别版颜色：蓝绿色、初音绿；原始参数引文保留。",
+        "reason": "参数页混入初音绿；官网配色段明确只展示3GB+32GB标准配置，不能套给Helio高配。高配标准色缺独立原文，留空"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "官网明示产品图为骁龙625版本，不同处理器外观略有差异；Helio X20缺少独立实图，不套用标准版"
+        }
+      ]
+    },
+    {
+      "id": "redmi-note-4x-high-snapdragon-2017",
+      "modelName": "红米Note 4X 高配版 骁龙625",
+      "generation": "2017",
+      "releaseYear": 2017,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/21808_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_21808_0_1.html",
+        "https://detail.zol.com.cn/1172/1171728/param.shtml",
+        "https://www.ithome.com/0/310/039.htm",
+        "https://www.mi.com/redminote4x/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2017-05-23",
+        "rawText": "这款手机将于明天上午10点，小米商城、迪信通首发开卖",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/310/039.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:07:48.001Z",
+        "sourceSnapshotHash": "6df83d3a9e2728bd93fdee878a42e2646752b2a4eca525008aabbab45ec9f2ef"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "实际标准版参数页无可核验字段原文；留空不推断"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 1 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "支持移动、联通、电信4G",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/redminote4x/specs",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:55:09.218Z",
+        "sourceSnapshotHash": "5ea286332e5f53bf340571848fa712d51cd5a1a99626ec9976583f15c54b27bb"
+      },
+      "officialSpecificationEvidence": [
+        {
+          "value": "红米Note 4X 高配版 骁龙625",
+          "rawText": "高配版（骁龙625）：4GB + 64GB 骁龙625",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.mi.com/redminote4x/specs",
+          "sourceType": "official",
+          "confidence": 0.95,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T18:55:09.218Z",
+          "sourceSnapshotHash": "5ea286332e5f53bf340571848fa712d51cd5a1a99626ec9976583f15c54b27bb",
+          "note": "仅该高配4/64，已有3/16及3/32不重复"
+        }
+      ],
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/34645/pic_21808.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "浅蓝色",
+        "rawText": "新版本的红米Note 4X拥有浅蓝色的全新配色，售价为1299元，搭载了骁龙625处理器，并且辅以4GB+64GB",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/310/039.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:07:48.001Z",
+        "sourceSnapshotHash": "6df83d3a9e2728bd93fdee878a42e2646752b2a4eca525008aabbab45ec9f2ef"
+      },
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "系列图混标准版、高配版及初音限量配色，无4/64高配独立实图绑定"
+        },
+        {
+          "field": "colorImage",
+          "color": "浅蓝色",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-9-transparent-2019",
+      "modelName": "小米9 透明尊享版",
+      "generation": "2019",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/26155_1.html",
+        "https://detail.zol.com.cn/series/57/34645/param_26155_0_1.html",
+        "https://detail.zol.com.cn/1258/1257263/param.shtml",
+        "https://detail.zol.com.cn/1266/1265178/param.shtml",
+        "https://www.ithome.com/0/412/922.htm",
+        "https://www.ithome.com/0/411/690.htm",
+        "https://www.mi.com/mi9tr"
+      ],
+      "releaseEvidence": {
+        "value": "2019-03-01",
+        "rawText": "小米9透明尊享版已经于3月1日在小米商城进行首轮开卖",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/412/922.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:03:52.384Z",
+        "sourceSnapshotHash": "677fb3035bee3021387dd5eeeb8fb6ef25f48711328ab5008966e8f94d52ed8f"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 1 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "excludedConfigurations": [
+        {
+          "name": "小米9 透明尊享版（8GB RAM/全网通）；RAM容量 8GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙855",
+          "sourceUrl": "https://detail.zol.com.cn/1266/1265178/param.shtml",
+          "reason": "本目标仅收已由独立国内发布原文列明的标准配置，其他容量版暂不核验"
+        }
+      ],
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "小米9透明尊享版只有12+256GB版本，售价3999元。 小米9 SE搭载了5.97英寸三星AMOLED屏幕，2.5D玻璃，搭载屏幕指纹，额头只有2.05mm，比小米9还要窄，下巴3.8mm，屏占比90.45%。电池容量为3070mAh，主摄像头与小米9相同都是索尼4800万广角，另外两颗是800万和1300万。性能方面，小米9 SE搭载骁龙712。 小米9透明尊享版是全球首批量产12GB大内存的机型，采用7P镜头+f/1.47大光圈，相较于小米9普通版的全息幻彩机身，小米9透明尊享版采用全曲面透明机身设计。 需要注意的是， 明日两款机型在小米商城开卖",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/411/690.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:03:52.428Z",
+        "sourceSnapshotHash": "3945354d1ceca5a1ad930ac05b2b0f8f07db098c6bb7d96192c29790d148762d"
+      },
+      "officialSpecificationEvidence": [
+        {
+          "value": "小米9 透明尊享版",
+          "rawText": "12GB+256GB 巅峰配置",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.mi.com/mi9tr",
+          "sourceType": "official",
+          "confidence": 0.95,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:57:11.614Z",
+          "sourceSnapshotHash": "70f892a58d9dfcb8a39365ee107b676b29a899dc8bf0b21169511c0784b86c88",
+          "note": "独立透明尊享原页，不用普通小米9或8GB透明版本参数"
+        }
+      ],
+      "imageReferenceStatus": "series_gallery_link_missing",
+      "imageReferenceNote": "已核对系列页未提供可读取的系列图库链接；可另查具体SKU参数页中的产品主图，不构造图库地址。",
+      "colorEvidence": {
+        "value": "透明",
+        "rawText": "机身颜色 透明 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1258/1257263/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:20:56.623Z",
+        "sourceSnapshotHash": "63a7d3579655301daccc8defb68ea6bf3ffdb5bce1e2694639f4bab31fa1703b"
+      },
+      "priorReview": {
+        "status": "attempted_blocked",
+        "reason": "缺少中国大陆发布或具体型号行货证据，暂不把中文页面默认作国行",
+        "resolution": "补充独立国行来源"
+      },
+      "primaryImageCandidate": {
+        "url": "https://2e.zol-img.com.cn/product/196_320x240/200/cecGRgnFAo15s.jpg",
+        "alt": "小米9 透明尊享版",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/26155_1.html",
+        "sourceSnapshotHash": "18d7f79ff49d86994ce3adc9468e9f24813685b402af71bbedeec7ede4e82547",
+        "licenseStatus": "unknown",
+        "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "仅有具体型号来源候选，尚无下载及视觉核验；不标为已获取产品照片"
+        },
+        {
+          "field": "colorImage",
+          "color": "透明",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        }
+      ]
+    },
+    {
+      "id": "redmi-k30i-2020",
+      "modelName": "Redmi K30i",
+      "generation": "2020",
+      "releaseYear": 2020,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/30625_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_30625_0_1.html",
+        "https://detail.zol.com.cn/1321/1320019/param.shtml",
+        "https://detail.zol.com.cn/1330/1329732/param.shtml",
+        "https://detail.zol.com.cn/1330/1329729/param.shtml",
+        "https://www.ithome.com/0/490/122.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2020-06-01",
+        "rawText": "Redmi K30i新机6月1日凌晨正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/490/122.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:03:52.595Z",
+        "sourceSnapshotHash": "16776da5db530149f5c9258ef8e6c7a3e466af06e85879ee90bf53e041293b55"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 1 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "excludedConfigurations": [
+        {
+          "name": "Redmi K30i（8GB/128GB/全网通/5G版）；RAM容量 8GB> 游戏运行流畅；ROM容量 128GB> 2.6万张照片 1.1万首歌曲；CPU型号 高通 骁龙765G",
+          "sourceUrl": "https://detail.zol.com.cn/1330/1329732/param.shtml",
+          "reason": "本目标仅收已由独立国内发布原文列明的标准配置，其他容量版暂不核验"
+        },
+        {
+          "name": "Redmi K30i（8GB/256GB/全网通/5G版）；RAM容量 8GB> 游戏运行流畅；ROM容量 256GB> 5.2万张照片 2.2万首歌曲；CPU型号 高通 骁龙765G",
+          "sourceUrl": "https://detail.zol.com.cn/1330/1329729/param.shtml",
+          "reason": "本目标仅收已由独立国内发布原文列明的标准配置，其他容量版暂不核验"
+        }
+      ],
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "小米官方宣布 Redmi K30i新机6月1日凌晨正式开售，6GB+128GB",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/490/122.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:03:52.595Z",
+        "sourceSnapshotHash": "16776da5db530149f5c9258ef8e6c7a3e466af06e85879ee90bf53e041293b55"
+      },
+      "fieldCorrections": [
+        {
+          "field": "rearCamera",
+          "reason": "ZOL超微距像素行写500万且重复万像素，无法独立确认；国内首售原文仅确认此镜头组合，其他镜头像素不推断",
+          "rejectedEvidence": {
+            "value": "后置摄像头1：4800万像素 后置摄像头2：800万像素 后置摄像头3：500万像素万像素 后置摄像头4：200万像素",
+            "rawText": "像素 后置摄像头1：4800万像素 后置摄像头2：800万像素 后置摄像头3：500万像素万像素 后置摄像头4：200万像素 前置摄像头1：2000万像素 前置摄像头2：200万像素",
+            "evidenceKind": "excerpt",
+            "sourceUrl": "https://detail.zol.com.cn/1321/1320019/param.shtml",
+            "sourceType": "reference",
+            "confidence": 0.8,
+            "verifiedAt": "2026-10-05",
+            "fetchedAt": "2026-10-05T18:21:11.809Z",
+            "sourceSnapshotHash": "069efed24592698375bac3f3dad3083fab24a35fa981c505b15f60889b809824"
+          },
+          "sourceUrl": "https://www.ithome.com/0/490/122.htm",
+          "sourceSnapshotHash": "16776da5db530149f5c9258ef8e6c7a3e466af06e85879ee90bf53e041293b55"
+        }
+      ],
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_30625.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "时光独白，深海微光",
+        "rawText": "机身颜色 时光独白，深海微光 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1321/1320019/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:21:11.809Z",
+        "sourceSnapshotHash": "069efed24592698375bac3f3dad3083fab24a35fa981c505b15f60889b809824"
+      },
+      "priorReview": {
+        "status": "attempted_blocked",
+        "reason": "缺少中国大陆发布或具体型号行货证据，暂不把中文页面默认作国行",
+        "resolution": "补充独立国行来源"
+      },
+      "rejectedImageCandidate": {
+        "url": "https://2c.zol-img.com.cn/product/205_320x240/976/ceqk1Uco53VX2.jpg",
+        "alt": "Redmi K30i",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/30625_1.html",
+        "sourceSnapshotHash": "467d01edc7b733c34b2b443a96934f897cefe4c54af38ba2f801fd26fc7d933d",
+        "licenseStatus": "unknown",
+        "status": "ambiguous_generation_or_variant",
+        "reason": "K30i系列主图可能共用K30 5G外观，尚无48MP K30i独立图片绑定"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "K30i系列主图可能共用K30 5G外观，尚无48MP K30i独立图片绑定"
+        },
+        {
+          "field": "colorImage",
+          "color": "时光独白",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        },
+        {
+          "field": "colorImage",
+          "color": "深海微光",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        }
+      ]
+    },
+    {
+      "id": "redmi-10x-4g-2020",
+      "modelName": "Redmi 10X 4G",
+      "generation": "2020",
+      "releaseYear": 2020,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/30211_1.html",
+        "https://detail.zol.com.cn/series/57/55731/param_30211_0_1.html",
+        "https://detail.zol.com.cn/1326/1325117/param.shtml",
+        "https://detail.zol.com.cn/1326/1325131/param.shtml",
+        "https://www.ithome.com/0/505/017.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2020-05-26",
+        "rawText": "上市日期 2020年05月26日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1326/1325117/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:03:52.819Z",
+        "sourceSnapshotHash": "317fcc430082454843859d1b6b1d9e77bff9453ecbc013c964f954291f96179e"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "Redmi 10X 4G 首发版本拥有天际蓝、松晨绿、冰雾白三种配色，搭载联发科曦力 G85 芯片，拥有 4GB+128GB/6GB+128GB",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/505/017.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:03:52.922Z",
+        "sourceSnapshotHash": "0d0f76c3c0a8f50355aa87546b02f243292f6323d16479dffb12ea9c87a6c7ff"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/57/55731/pic_30211.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "colorEvidence": {
+        "value": "天际蓝，冰雾白，松晨绿，明月灰",
+        "rawText": "机身颜色 天际蓝，冰雾白，松晨绿，明月灰 查看外观",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1326/1325117/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:03:52.819Z",
+        "sourceSnapshotHash": "317fcc430082454843859d1b6b1d9e77bff9453ecbc013c964f954291f96179e"
+      },
+      "priorReview": {
+        "status": "attempted_blocked",
+        "reason": "redmi-10x-4g-2020: 无匹配的具体配置",
+        "resolution": "补充独立国行来源"
+      },
+      "rejectedImageCandidate": {
+        "url": "https://2e.zol-img.com.cn/product/205_320x240/678/ce3A06HGixpVo.jpg",
+        "alt": "Redmi 10X 4G",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/30211_1.html",
+        "sourceSnapshotHash": "962c2477578c753bd757a19281a6807efc14bbeb4c05af539fcf9ad71f8e3059",
+        "licenseStatus": "unknown",
+        "status": "ambiguous_generation_or_variant",
+        "reason": "系列存在10X 5G相关推荐，未取得独立4G实图绑定，不采用跨网络版本图片"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "系列存在10X 5G相关推荐，未取得独立4G实图绑定，不采用跨网络版本图片"
+        },
+        {
+          "field": "colorImage",
+          "color": "天际蓝",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        },
+        {
+          "field": "colorImage",
+          "color": "冰雾白",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        },
+        {
+          "field": "colorImage",
+          "color": "松晨绿",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        },
+        {
+          "field": "colorImage",
+          "color": "明月灰",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        }
+      ]
+    }
+  ],
+  "tablet": [],
+  "laptop": [
+    {
+      "id": "xiaomi-gaming-rtx2060-2019",
+      "modelName": "小米游戏本2019款 RTX2060",
+      "generation": "2019",
+      "releaseYear": 2019,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/notebook/index1286776.shtml",
+        "https://detail.zol.com.cn/1287/1286776/param.shtml",
+        "https://www.ithome.com/0/437/221.htm",
+        "https://www.mi.com/milaptop/gaming-2019/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2019-08-16",
+        "rawText": "8月16日早10点全平台首卖",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/437/221.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:42.748Z",
+        "sourceSnapshotHash": "391c62c1c79c84523863c35100281e107818956b343777f628904be0d5f9cc5f"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "实际标准版参数页无可核验字段原文；留空不推断"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 1 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "小米正式发布了小米游戏本2019，升级了图灵系列显卡，包括RTX 2060和GTX 1660Ti，处理器也升级到了九代i7版本，售价最低为7499元，8月16日早10点全平台首卖",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/437/221.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:42.748Z",
+        "sourceSnapshotHash": "391c62c1c79c84523863c35100281e107818956b343777f628904be0d5f9cc5f"
+      },
+      "officialSpecificationEvidence": [
+        {
+          "value": "小米游戏本2019款 RTX2060",
+          "rawText": "NVIDIA ® GeForce RTX™ 2060 第九代英特尔 ® 酷睿™ i7标压处理器 16GB DDR4 2666MHz 内存 1TB / 512GB PCIe SSD",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.mi.com/milaptop/gaming-2019/specs",
+          "sourceType": "official",
+          "confidence": 0.95,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:57:12.670Z",
+          "sourceSnapshotHash": "9a2971f5fe8cac9da0ccfb7b6c5530ebb1df20ba92d6551f7c2c22d09670b2a8",
+          "note": "仅导入ZOL具体单值16/512，官方汇总1TB/512GB不交叉生成SKU；GTX1660Ti暂未导入"
+        }
+      ],
+      "imageReferenceStatus": "series_gallery_link_missing",
+      "imageReferenceNote": "已核对系列页未提供可读取的系列图库链接；可另查具体SKU参数页中的产品主图，不构造图库地址。",
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "rejectedImageCandidate": {
+        "url": "https://2f.zol-img.com.cn/product/200_320x240/113/ce5AjUej9Do8.jpg",
+        "alt": "小米游戏本2019款(i7 9750H/16GB/512GB/RTX2060)",
+        "sourceUrl": "https://detail.zol.com.cn/notebook/index1286776.shtml",
+        "sourceSnapshotHash": "d1d5e3b8d288b5cf16d84cdada31d10c3602b74a971fad4610a634ee567244d2",
+        "licenseStatus": "unknown",
+        "status": "ambiguous_generation_or_variant",
+        "reason": "2019系列图尚无RTX2060具体显卡版本及年份独立照片绑定"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "2019系列图尚无RTX2060具体显卡版本及年份独立照片绑定"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-book-pro-14-enhanced-2021",
+      "modelName": "小米笔记本 Pro 14 增强版 2021款",
+      "generation": "2021",
+      "releaseYear": 2021,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/35337_1.html",
+        "https://detail.zol.com.cn/series/16/34645/param_35337_0_1.html",
+        "https://detail.zol.com.cn/1384/1383951/param.shtml",
+        "https://detail.zol.com.cn/1384/1383954/param.shtml",
+        "https://www.ithome.com/0/571/209.htm",
+        "https://www.ithome.com/0/570/549.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2021-08-25",
+        "rawText": "小米笔记本 Pro 14 增强版与小米笔记本 Pro 15 增强版将于明日开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/571/209.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:07:47.955Z",
+        "sourceSnapshotHash": "34ee8027ba2c510d312db99210a6bfd29a464f7703d3b02036b0169b5c8b8145"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "实际标准版参数页无可核验字段原文；留空不推断"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 2 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "全新小米笔记本 Pro 14 增强版现已上架",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/570/549.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:47:36.524Z",
+        "sourceSnapshotHash": "85c4b8193ed11967c05c56ccd42d27f33accf6ec8ce38a2e01d02d0128e92466"
+      },
+      "imageReferenceUrls": [
+        "https://detail.zol.com.cn/series/16/34645/pic_35337.html"
+      ],
+      "imageReferenceStatus": "candidate_from_verified_model_series",
+      "imageReferenceNote": "图库链接由已核对型号的系列页提供；图片内容和颜色尚待独立核验，部分图库返回验证页，不视作已获取产品照片。",
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "rejectedImageCandidate": {
+        "url": "https://2f.zol-img.com.cn/product/221_320x240/557/ce62Wgkaf6alo.jpg",
+        "alt": "小米笔记本Pro 14 增强版 2021款",
+        "sourceUrl": "https://detail.zol.com.cn/series/16/35337_1.html",
+        "sourceSnapshotHash": "d9ab872ad889e53be244f3e464f4eff640bc7d003775e695581bc2675d3509cd",
+        "licenseStatus": "unknown",
+        "status": "ambiguous_generation_or_variant",
+        "reason": "原版与增强版沿用机身，未有11320H/11390H年度版本的独立照片绑定"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "原版与增强版沿用机身，未有11320H/11390H年度版本的独立照片绑定"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-book-15-i3-2018",
+      "modelName": "小米笔记本 15.6 i3 (2018)",
+      "generation": "2018",
+      "releaseYear": 2018,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/notebook/index1244271.shtml",
+        "https://detail.zol.com.cn/1245/1244271/param.shtml",
+        "https://www.ithome.com/0/399/994.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2018-12-12",
+        "rawText": "小米Ruby笔记本15.6英寸白色i3版于双十二当天在苏宁易购首发",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/399/994.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:03:58.101Z",
+        "sourceSnapshotHash": "072f822affc650812c021e5cb6e868ded57487526ddc8451b8979ad49633cb6b"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "实际标准版参数页无可核验字段原文；留空不推断"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 1 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "小米Ruby笔记本还配置了256GB的固态硬盘",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/399/994.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:03:58.101Z",
+        "sourceSnapshotHash": "072f822affc650812c021e5cb6e868ded57487526ddc8451b8979ad49633cb6b"
+      },
+      "imageReferenceStatus": "series_gallery_link_missing",
+      "imageReferenceNote": "已核对系列页未提供可读取的系列图库链接；可另查具体SKU参数页中的产品主图，不构造图库地址。",
+      "priorReview": {
+        "status": "not_attempted",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "rejectedImageCandidate": {
+        "url": "https://2b.zol-img.com.cn/product/194_320x240/53/cedB8aLjIqFjc.jpg",
+        "alt": "小米笔记本 15.6(i3 8130U/4GB/256GB)",
+        "sourceUrl": "https://detail.zol.com.cn/notebook/index1244271.shtml",
+        "sourceSnapshotHash": "c2652c8e6b589025981ccdbf7d5762b8469265c92f163459eb85c9375433bf7c",
+        "licenseStatus": "unknown",
+        "status": "ambiguous_generation_or_variant",
+        "reason": "15.6系列混i3集显和i5/i7独显，且128/256容量版不同；无具体256GB版独立照片绑定"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "15.6系列混i3集显和i5/i7独显，且128/256容量版不同；无具体256GB版独立照片绑定"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-gaming-gtx1060-2018",
+      "modelName": "小米游戏本 (2018)",
+      "generation": "2018",
+      "releaseYear": 2018,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/notebook/index1210050.shtml",
+        "https://detail.zol.com.cn/1211/1210050/param.shtml",
+        "https://www.ithome.com/0/352/829.htm",
+        "https://www.mi.com/migaminglaptop/specs",
+        "https://detail.zol.com.cn/1211/1210033/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2018-04-13",
+        "rawText": "两款小米游戏本将于4月13日上午10点正式首发",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/352/829.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:07:47.851Z",
+        "sourceSnapshotHash": "76d655cf48e3f9670658f635cb7cf147103e53382b6c671261568c7454f19364"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "实际标准版参数页无可核验字段原文；留空不推断"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 1 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "小米在上海举行新品发布会，除了万众瞩目的小米MIX 2S之外，小米今天还发布了传闻已久的小米游戏本",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/352/829.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:07:47.851Z",
+        "sourceSnapshotHash": "76d655cf48e3f9670658f635cb7cf147103e53382b6c671261568c7454f19364"
+      },
+      "officialSpecificationEvidence": [
+        {
+          "value": "小米游戏本 (2018)",
+          "rawText": "NVIDIA ® GeForce ® GTX 1060 英特尔 ® 酷睿™ i7 标压处理器 8GB DDR4 2400MHz 内存 128GB SSD+ 1TB 机械硬盘 深空灰",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.mi.com/migaminglaptop/specs",
+          "sourceType": "official",
+          "confidence": 0.95,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:18.927Z",
+          "sourceSnapshotHash": "31bddfda4f64efa345f9a84b20c0043b55ba29a61fef77b96311a1ff86ade9cf",
+          "note": "官方逐SKU完整128GB SSD+1TB HDD；具体参数页CPU为7700HQ，与官网第七代i7一致"
+        }
+      ],
+      "imageReferenceStatus": "series_gallery_link_missing",
+      "imageReferenceNote": "已核对系列页未提供可读取的系列图库链接；可另查具体SKU参数页中的产品主图，不构造图库地址。",
+      "colorEvidence": {
+        "value": "深空灰",
+        "rawText": "8GB DDR4 2400MHz 内存 128GB SSD+ 1TB 机械硬盘 深空灰",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/migaminglaptop/specs",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:12:18.927Z",
+        "sourceSnapshotHash": "31bddfda4f64efa345f9a84b20c0043b55ba29a61fef77b96311a1ff86ade9cf"
+      },
+      "rejectedParameterSources": [
+        {
+          "sourceUrl": "https://detail.zol.com.cn/1211/1210033/param.shtml",
+          "reason": "初代2018年04月参数页16GB/256GB+1TB型号误写八代i7-8750H、DDR4 2666MHz；与初代官网第七代7700HQ/2400MHz冲突，不导入此SKU或继承其字段",
+          "sourceSnapshotHash": "e7ef5eb63ec941c4f4e14d26fe543c693a40189ba10a2448ad9e26d325be72c9",
+          "fetchedAt": "2026-10-05T20:08:33.156Z",
+          "rawText": "上市时间 2018年04月；CPU型号 Intel 酷睿i7 8750H 高端机；内存容量 16GB 极速运行 热门游戏本；内存类型 DDR4 2666MHz；硬盘容量 256GB+1TB"
+        }
+      ],
+      "priorReview": {
+        "status": "reviewed_blocked",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "rejectedImageCandidate": {
+        "url": "https://2c.zol-img.com.cn/product/190_320x240/32/cewVdLdiHqn3M.jpg",
+        "alt": "小米游戏本(i7/8GB/128GB+1TB/GTX 1060)",
+        "sourceUrl": "https://detail.zol.com.cn/notebook/index1210050.shtml",
+        "sourceSnapshotHash": "fc6e0bfa7518d2024f4fe34fb27dc6508bcc1b9f9178f79ccd9eaefb659e40b0",
+        "licenseStatus": "unknown",
+        "status": "ambiguous_generation_or_variant",
+        "reason": "2018初代与八代外观近似，未核验独立具体代际图片字节；不采用系列共享图"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "2018初代与八代外观近似，未核验独立具体代际图片字节；不采用系列共享图"
+        },
+        {
+          "field": "colorImage",
+          "color": "深空灰",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi-gaming-gtx1060-enhanced-2018",
+      "modelName": "小米游戏本 八代增强版 (2018)",
+      "generation": "2018",
+      "releaseYear": 2018,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/notebook/index1227223.shtml",
+        "https://detail.zol.com.cn/1228/1227223/param.shtml",
+        "https://www.ithome.com/0/374/583.htm",
+        "https://www.ithome.com/0/374/572.htm",
+        "https://www.mi.com/gamelaptop",
+        "https://www.mi.com/gamelaptop/specs"
+      ],
+      "releaseEvidence": {
+        "value": "2018-08-16",
+        "rawText": "小米商城/京东/小米之家预约，8月16日开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/374/583.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:19:42.666Z",
+        "sourceSnapshotHash": "f3256e1bff288c894fb9e5d6869ef5f7ef63cb2ab5e22c75ced2009db8d0a0c7"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "未独立核验首发价；不将市场参考报价或活动价用作首发价"
+        },
+        {
+          "field": "displayType",
+          "reason": "实际标准版参数页无可核验字段原文；留空不推断"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记核对通过的 1 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。 国行身份另存marketEvidence；首发价未补证则留空；图库URL仅供后续实图核验，未生成照片。",
+      "marketEvidence": {
+        "value": "CN",
+        "rawText": "Intel酷睿i7-8750H八代处理器，六核心，配置16GB DDR4内存，256GB SSD+ 1TB的存储硬盘，还有GTX 1060 6GB显存显卡",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/374/572.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:07:47.915Z",
+        "sourceSnapshotHash": "eaf141463e89dabd846c4d5eb8e84905910951e3cbdc5e53bfa8821c39c74390"
+      },
+      "officialSpecificationEvidence": [
+        {
+          "value": "小米游戏本 八代增强版 (2018)",
+          "rawText": "酷睿™ i7-8750H 第八代英特尔 ® 六核处理器 GeForce ® GTX 1060 6GB显存 16GB DDR4 2666MHz 内存 可升级双内存槽 5 256GB PCIe SSD+1TB 机械硬盘",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.mi.com/gamelaptop",
+          "sourceType": "official",
+          "confidence": 0.95,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:11:59.895Z",
+          "sourceSnapshotHash": "bd1b3fe95309d912c5117911a4ae174a3965c21837c6c7318b61abd5658d5ac7",
+          "note": "明确8750H+GTX1060+16GB+256GB SSD/1TB HDD同配置，不把另有512GB可选硬盘交叉组合"
+        }
+      ],
+      "imageReferenceStatus": "series_gallery_link_missing",
+      "imageReferenceNote": "已核对系列页未提供可读取的系列图库链接；可另查具体SKU参数页中的产品主图，不构造图库地址。",
+      "colorEvidence": {
+        "value": "深空灰",
+        "rawText": "16GB DDR4 2666MHz 内存 512GB SSD / 256GB SSD+ 1TB 机械硬盘 深空灰",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.mi.com/gamelaptop/specs",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:12:19.184Z",
+        "sourceSnapshotHash": "21c015d6e53d642d3c8e501a69a7fb60903bf6e9a23e64d209a9a78612de2da4"
+      },
+      "priorReview": {
+        "status": "reviewed_blocked",
+        "reason": null,
+        "resolution": "补充独立国行来源"
+      },
+      "rejectedImageCandidate": {
+        "url": "https://2f.zol-img.com.cn/product/192_320x240/945/ceRS24paerztw.jpg",
+        "alt": "小米游戏本 八代增强版(i7/16GB/256GB+1TB/GTX 1060)",
+        "sourceUrl": "https://detail.zol.com.cn/notebook/index1227223.shtml",
+        "sourceSnapshotHash": "a4d0acc214d77e63f52e303a6e1d67d29dcc2638012a6a691b98e505220b5ff2",
+        "licenseStatus": "unknown",
+        "status": "ambiguous_generation_or_variant",
+        "reason": "仅有初代/八代相似系列候选，尚无八代独立年份实图哈希与视觉核验；不混用初代图"
+      },
+      "imageFieldGaps": [
+        {
+          "field": "primaryImage",
+          "reason": "仅有初代/八代相似系列候选，尚无八代独立年份实图哈希与视觉核验；不混用初代图"
+        },
+        {
+          "field": "colorImage",
+          "color": "深空灰",
+          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+        }
+      ]
+    }
+  ]
+}

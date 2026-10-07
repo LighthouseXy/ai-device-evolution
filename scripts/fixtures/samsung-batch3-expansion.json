@@ -1,0 +1,858 @@
+{
+  "scope": "Samsung 中国大陆已发售手机/平板/笔记本，2017–2026，截至2026-10-06；第三批有限增补，不声称大陆全集",
+  "expectedDevices": 24,
+  "markets": {
+    "fold7": {
+      "url": "https://www.ithome.com/0/866/987.htm",
+      "pattern": "IT之家附国行定价[^]*?16GB\\+1TB 售价 17499 元"
+    },
+    "flip7": {
+      "url": "https://www.ithome.com/0/866/988.htm",
+      "pattern": "三星 Galaxy Z Flip7 的 12\\+256GB 版本售价 7999 元[^]*?12\\+512GB 售价 8999 元",
+      "identityUrl": "https://www.ithome.com/0/867/148.htm",
+      "identityPattern": "国行三星 Galaxy Z Fold / Flip7、Z Flip7 FE 内置火山引擎"
+    },
+    "flip7fe": {
+      "url": "https://www.ithome.com/0/866/992.htm",
+      "pattern": "Galaxy Z Flip7 FE 国行提供 8GB 内存 \\+ 256GB 存储一个版本，售价 6499 元"
+    },
+    "a9star": {
+      "url": "https://news.mydrivers.com/1/579/579860.htm",
+      "pattern": "搭载骁龙660芯片，4GB RAM，64GB ROM[^]*?A9 Star 2999元，A9 Star Lite 1999元",
+      "identityPattern": "三星今天在国内发布盖乐世A9 Star/Star Lite两款新机"
+    },
+    "a9starlite": {
+      "url": "https://news.mydrivers.com/1/579/579860.htm",
+      "pattern": "搭载骁龙450芯片，4GB RAM，64GB ROM[^]*?A9 Star Lite 1999元",
+      "identityPattern": "三星今天在国内发布盖乐世A9 Star/Star Lite两款新机"
+    },
+    "a40s": {
+      "url": "https://m.cnmo.com/news/661253.html",
+      "pattern": "三星A40s已正式上架京东商城，6GB\\+64GB版本仅售1499元",
+      "identityUrl": "https://www.samsung.com.cn/support/model/SM-A3050ZKFCHC/",
+      "identityPattern": "SM-A3050ZKFCHC"
+    },
+    "a70s": {
+      "url": "https://www.ithome.com/0/477/714.htm",
+      "pattern": "三星Galaxy A70s国行首发价格为2699元（8\\+128GB）"
+    },
+    "a90": {
+      "url": "https://www.ithome.com/0/451/007.htm",
+      "pattern": "三星Galaxy A90 5G国行版本[^]*?8GB\\+128GB存储组合"
+    },
+    "c55": {
+      "url": "https://www.ithome.com/0/763/560.htm",
+      "pattern": "8GB \\+ 256GB 风尚黑 / 缤纷橙：1999 元[^]*?12GB \\+ 256GB 风尚黑 / 缤纷橙：2299 元",
+      "identityUrl": "https://support-cn.samsung.com.cn/campaign/event/psg/2024/sl/galaxyc55/index.html",
+      "identityPattern": "本促销活动仅限中国大陆地区行货手机、平板电脑和智能手表参与",
+      "date": "2024-04-26",
+      "datePattern": "4 月 26 日 0 点正式开售"
+    },
+    "f52": {
+      "url": "https://www.ithome.com/0/554/742.htm",
+      "pattern": "三星 Galaxy F52 5G 手机今日正式上市首销[^]*?8GB 内存和 128G 储存[^]*?1999 元",
+      "identityPattern": "三星 Galaxy F52 5G 手机国行版",
+      "date": "2021-06-01",
+      "datePattern": "2021/6/1[^]*?今日正式上市首销"
+    },
+    "fold": {
+      "url": "https://www.ithome.com/0/455/471.htm",
+      "pattern": "三星Galaxy Fold折叠屏手机国行版正式开售[^]*?12GB\\+512GB售价15999元",
+      "date": "2019-11-08",
+      "datePattern": "2019/11/8[^]*?今日上午10:00"
+    },
+    "flip5g": {
+      "url": "https://www.ithome.com/0/572/133.htm",
+      "pattern": "三星 Galaxy Z Flip 5G 国行版去年 8 月发售，定价 12499 元",
+      "date": "2020-08-07",
+      "datePattern": "Galaxy Z Flip 5G 在 2020 年 8 月 7 日陆续发货，价格 12499 元"
+    },
+    "w23": {
+      "url": "https://www.ithome.com/0/648/098.htm",
+      "pattern": "W23 及首款掌心折叠屏机型 W23 Flip，价格分别是 15999（16\\+512GB）和 9999（12\\+512GB）",
+      "identityPattern": "三星“心系天下”W 系列是中国电信和三星联手打造的超高端手机"
+    },
+    "w24": {
+      "url": "https://www.ithome.com/0/719/456.htm",
+      "pattern": "包括 W24 和 W24 Flip 两款机型，售价分别为 15999 元（16GB\\+1TB）和 9999 元（12GB\\+512GB）",
+      "identityUrl": "https://www.samsung.com.cn/smartphones/samsung-w24/specs/",
+      "identityPattern": "进网许可证号：SM-W9024:00-D726-238829",
+      "date": "2023-09-22",
+      "datePattern": "9 月 22 日全渠道开售"
+    },
+    "w24flip": {
+      "url": "https://www.ithome.com/0/719/456.htm",
+      "pattern": "包括 W24 和 W24 Flip 两款机型，售价分别为 15999 元（16GB\\+1TB）和 9999 元（12GB\\+512GB）",
+      "identityUrl": "https://www.samsung.com.cn/smartphones/samsung-w24-flip/specs/",
+      "identityPattern": "进网许可证号：SM-W7024:00-D726-238824",
+      "date": "2023-09-22",
+      "datePattern": "9 月 22 日全渠道开售"
+    },
+    "w25": {
+      "url": "https://www.ithome.com/0/809/335.htm",
+      "pattern": "三星 W25 Flip（12GB\\+512GB）售价 9999 元[^]*?三星 W25 （16GB\\+512GB）售价 15999 元[^]*?三星 W25 （16GB\\+1TB）售价 17999 元",
+      "identityUrl": "https://www.ithome.com/0/803/920.htm",
+      "identityPattern": "三星 W25（型号为 SM-W9025）和 W25 Flip 手机（型号为 SM-W7025）\\s*已于今年 8 月通过工信部认证",
+      "date": "2024-11-15",
+      "datePattern": "11 月 15 日 10:08 开售"
+    },
+    "tabs3": {
+      "url": "https://www.ithome.com/0/305/012.htm",
+      "pattern": "目前国行版三星Galaxy Tab S3仅提供4GB RAM\\+32GB容量4G版可选[^]*?售价为5799元"
+    },
+    "tabs4": {
+      "url": "https://www.ithome.com/0/377/073.htm",
+      "pattern": "正式发布了国行新款智能手表Galaxy Watch和Galaxy Tab S4平板[^]*?4GB的内存，辅以64GB/256GB的存储空间",
+      "identityUrl": "https://www.samsung.com.cn/support/model/SM-T835CZKACHC/",
+      "identityPattern": "Galaxy Tab S4 4G"
+    },
+    "tabs5e": {
+      "url": "https://www.ithome.com/0/425/956.htm",
+      "pattern": "Galaxy Tab S5e和Galaxy Tab A \\(2019,10.1英寸\\)两款平板电脑带入中国[^]*?最高提供6\\+128GB存储组合"
+    },
+    "tabs6": {
+      "url": "https://www.ithome.com/0/440/434.htm",
+      "pattern": "Galaxy Tab S6国行发布[^]*?辅以6GB/128GB或8GB/256GB内存"
+    },
+    "taba2019": {
+      "url": "https://www.ithome.com/0/425/956.htm",
+      "pattern": "Galaxy Tab A \\(2019,10.1英寸\\)定位中端[^]*?采用3\\+32GB存储组合",
+      "identityPattern": "Galaxy Tab S5e和Galaxy Tab A \\(2019,10.1英寸\\)两款平板电脑带入中国"
+    },
+    "taba7": {
+      "url": "https://finance.sina.cn/tech/2020-10-16/detail-iiznctkc5976766.d.html?vt=4",
+      "pattern": "三星 Tab A7 平板国行上架[^]*?3\\+32GB 售价 1499 元"
+    },
+    "tabs9feplus": {
+      "url": "https://www.ithome.com/0/726/301.htm",
+      "pattern": "Galaxy Tab S9 FE\\+ 8\\+128GB WLAN 版 3999 元[^]*?12\\+256GB WLAN 版 4599 元",
+      "identityPattern": "三星 Galaxy Tab S9 FE / FE \\+ 平板国行版现已上架京东平台",
+      "date": "2023-10-27",
+      "datePattern": "将于 10 月 27 日开售"
+    },
+    "taba11plus": {
+      "url": "https://pad.zol.com.cn/1110/11109147.html",
+      "pattern": "6GB \\+ 128GB WLAN版售价1699元[^]*?8GB \\+ 256GB WLAN版售价2299元[^]*?6GB \\+ 128GB 5G版售价2099元",
+      "identityPattern": "2026年1月4日，三星面向国内市场推出新款Galaxy Tab A11\\+平板电脑",
+      "date": "2026-01-04",
+      "datePattern": "2026年1月4日，三星面向国内市场推出新款Galaxy Tab A11\\+平板电脑[^]*?目前该机型已在主要电商平台开启销售"
+    }
+  },
+  "targets": [
+    {
+      "slug": "galaxy-z-fold7",
+      "name": "Galaxy Z Fold7",
+      "year": 2025,
+      "dropFields": ["memoryType", "wifi"],
+      "seriesId": 10915606,
+      "group": "galaxy-z-fold",
+      "family": "Samsung Galaxy Z Fold",
+      "marketKey": "fold7",
+      "pairs": [
+        [
+          "12GB",
+          "256GB"
+        ],
+        [
+          "12GB",
+          "512GB"
+        ],
+        [
+          "16GB",
+          "1TB"
+        ]
+      ],
+      "fallbackDate": "2025-07-09",
+      "launch": [
+        13999,
+        "12GB",
+        "256GB",
+        "12GB\\+256GB 售价 13999 元"
+      ]
+    },
+    {
+      "slug": "galaxy-z-flip7",
+      "name": "Galaxy Z Flip7",
+      "year": 2025,
+      "seriesId": 10915610,
+      "group": "galaxy-z-flip",
+      "family": "Samsung Galaxy Z Flip",
+      "marketKey": "flip7",
+      "pairs": [
+        [
+          "12GB",
+          "256GB"
+        ],
+        [
+          "12GB",
+          "512GB"
+        ]
+      ],
+      "launch": [
+        7999,
+        "12GB",
+        "256GB",
+        "12\\+256GB 版本售价 7999 元"
+      ],
+      "chipEvidence": {
+        "value": "三星 Exynos 2500",
+        "pattern": "具体型号为 Exynos 2500",
+        "reason": "具体SKU参数未写CPU型号，使用正式发布报道补充；不借用其他Z Flip代际的骁龙。"
+      }
+    },
+    {
+      "slug": "galaxy-z-flip7-fe",
+      "name": "Galaxy Z Flip7 FE",
+      "year": 2025,
+      "productId": 2133000,
+      "group": "galaxy-z-flip-fe",
+      "family": "Samsung Galaxy Z Flip FE",
+      "marketKey": "flip7fe",
+      "pairs": [
+        [
+          "8GB",
+          "256GB"
+        ]
+      ],
+      "launch": [
+        6499,
+        "8GB",
+        "256GB",
+        "国行提供 8GB 内存 \\+ 256GB 存储一个版本，售价 6499 元"
+      ]
+    },
+    {
+      "slug": "galaxy-a9-star",
+      "name": "Galaxy A9 Star",
+      "year": 2018,
+      "productId": 1216612,
+      "group": "galaxy-a-star",
+      "family": "Samsung Galaxy A Star",
+      "marketKey": "a9star",
+      "pairs": [
+        [
+          "4GB",
+          "64GB"
+        ]
+      ],
+      "launch": [
+        2999,
+        "4GB",
+        "64GB",
+        "A9 Star 2999元"
+      ]
+    },
+    {
+      "slug": "galaxy-a9-star-lite",
+      "name": "Galaxy A9 Star Lite",
+      "year": 2018,
+      "productId": 1217851,
+      "group": "galaxy-a-star-lite",
+      "family": "Samsung Galaxy A Star Lite",
+      "marketKey": "a9starlite",
+      "pairs": [
+        [
+          "4GB",
+          "64GB"
+        ]
+      ],
+      "launch": [
+        1999,
+        "4GB",
+        "64GB",
+        "A9 Star Lite 1999元"
+      ],
+      "chipEvidence": {
+        "value": "高通 骁龙450",
+        "pattern": "搭载骁龙450芯片，4GB RAM，64GB ROM",
+        "reason": "具体参数页未写芯片，以中国发布报道明确型号补充。"
+      }
+    },
+    {
+      "slug": "galaxy-a40s",
+      "name": "Galaxy A40s",
+      "expectedName": "三星GALAXY A40S",
+      "year": 2019,
+      "productId": 1268498,
+      "group": "galaxy-a4x",
+      "family": "Samsung Galaxy A4x",
+      "marketKey": "a40s",
+      "pairs": [
+        [
+          "6GB",
+          "64GB"
+        ]
+      ],
+      "launch": [
+        1499,
+        "6GB",
+        "64GB",
+        "6GB\\+64GB版本仅售1499元"
+      ]
+    },
+    {
+      "slug": "galaxy-a70s",
+      "name": "Galaxy A70s",
+      "year": 2019,
+      "productId": 1276068,
+      "group": "galaxy-a7x",
+      "family": "Samsung Galaxy A7x",
+      "marketKey": "a70s",
+      "pairs": [
+        [
+          "8GB",
+          "128GB"
+        ]
+      ],
+      "launch": [
+        2699,
+        "8GB",
+        "128GB",
+        "国行首发价格为2699元（8\\+128GB）"
+      ]
+    },
+    {
+      "slug": "galaxy-a90",
+      "name": "Galaxy A90",
+      "year": 2019,
+      "productId": 1290066,
+      "group": "galaxy-a9x",
+      "family": "Samsung Galaxy A9x",
+      "marketKey": "a90",
+      "pairs": [
+        [
+          "8GB",
+          "128GB"
+        ]
+      ]
+    },
+    {
+      "slug": "galaxy-c55",
+      "name": "Galaxy C55",
+      "year": 2024,
+      "seriesId": 10862539,
+      "group": "galaxy-c",
+      "family": "Samsung Galaxy C",
+      "marketKey": "c55",
+      "pairs": [
+        [
+          "8GB",
+          "256GB"
+        ],
+        [
+          "12GB",
+          "256GB"
+        ]
+      ],
+      "launch": [
+        1999,
+        "8GB",
+        "256GB",
+        "8GB \\+ 256GB 风尚黑 / 缤纷橙：1999 元"
+      ]
+    },
+    {
+      "slug": "galaxy-f52",
+      "name": "Galaxy F52",
+      "year": 2021,
+      "productId": 1370969,
+      "group": "galaxy-f",
+      "family": "Samsung Galaxy F",
+      "marketKey": "f52",
+      "pairs": [
+        [
+          "8GB",
+          "128GB"
+        ]
+      ],
+      "launch": [
+        1999,
+        "8GB",
+        "128GB",
+        "8GB 内存和 128G 储存[^]*?价格为 1999 元"
+      ]
+    },
+    {
+      "slug": "galaxy-fold",
+      "name": "Galaxy Fold",
+      "year": 2019,
+      "productId": 1225416,
+      "group": "galaxy-z-fold",
+      "family": "Samsung Galaxy Z Fold",
+      "marketKey": "fold",
+      "pairs": [
+        [
+          "12GB",
+          "512GB"
+        ]
+      ],
+      "launch": [
+        15999,
+        "12GB",
+        "512GB",
+        "12GB\\+512GB售价15999元"
+      ]
+    },
+    {
+      "slug": "galaxy-z-flip-5g",
+      "name": "Galaxy Z Flip",
+      "displayName": "Galaxy Z Flip 5G",
+      "year": 2020,
+      "productId": 1330789,
+      "variant": "5g",
+      "variantFilter": "5G版",
+      "group": "galaxy-z-flip",
+      "family": "Samsung Galaxy Z Flip",
+      "marketKey": "flip5g",
+      "pairs": [
+        [
+          "8GB",
+          "256GB"
+        ]
+      ],
+      "launch": [
+        12499,
+        "8GB",
+        "256GB",
+        "Galaxy Z Flip 5G 在 2020 年 8 月 7 日陆续发货，价格 12499 元"
+      ]
+    },
+    {
+      "slug": "w23",
+      "name": "W23",
+      "year": 2022,
+      "dropFields": ["waterResistance", "chargingMethod"],
+      "fieldEvidence": [{"field":"waterResistance","value":"IPX8","sourceUrl":"https://www.samsung.com.cn/smartphones/samsung-w23/","pattern":"三星W23具备IEC 60529中界定的IPX8防水等级","reason":"官方原文明确IPX8，第三方IP68不可接受。"}],
+      "productId": 1430375,
+      "group": "w",
+      "family": "Samsung W",
+      "marketKey": "w23",
+      "pairs": [
+        [
+          "16GB",
+          "512GB"
+        ]
+      ],
+      "launch": [
+        15999,
+        "16GB",
+        "512GB",
+        "价格分别是 15999（16\\+512GB）"
+      ]
+    },
+    {
+      "slug": "w23-flip",
+      "name": "W23 Flip",
+      "year": 2022,
+      "dropFields": ["chargingMethod", "sim"],
+      "productId": 1430379,
+      "group": "w-flip",
+      "family": "Samsung W Flip",
+      "marketKey": "w23",
+      "pairs": [
+        [
+          "12GB",
+          "512GB"
+        ]
+      ],
+      "launch": [
+        9999,
+        "12GB",
+        "512GB",
+        "9999（12\\+512GB）"
+      ]
+    },
+    {
+      "slug": "w24",
+      "name": "W24",
+      "year": 2023,
+      "blockedReason": "已确认国行发布及16GB+1TB，但概览无可导入的具体配置链接；参数存在Android12、IP68等混杂错误，暂隔离等待准确页面。",
+      "productId": 1897373,
+      "group": "w",
+      "family": "Samsung W",
+      "marketKey": "w24",
+      "pairs": [
+        [
+          "16GB",
+          "1TB"
+        ]
+      ],
+      "launch": [
+        15999,
+        "16GB",
+        "1TB",
+        "15999 元（16GB\\+1TB）"
+      ],
+      "chipEvidence": {
+        "value": "高通 骁龙8 Gen2 for Galaxy",
+        "pattern": "均搭载骁龙 8 Gen 2 for Galaxy 处理器",
+        "reason": "参数只标8 Gen2，正式国行发布报道明确for Galaxy版本。"
+      },
+      "dropFields": [
+        "gpu"
+      ]
+    },
+    {
+      "slug": "w24-flip",
+      "name": "W24 Flip",
+      "year": 2023,
+      "blockedReason": "已确认国行发布及12GB+512GB，但概览无可导入的具体配置链接；参数存在Adreno730/UFS3.1等代际错误，暂隔离等待准确页面。",
+      "productId": 1897371,
+      "group": "w-flip",
+      "family": "Samsung W Flip",
+      "marketKey": "w24flip",
+      "pairs": [
+        [
+          "12GB",
+          "512GB"
+        ]
+      ],
+      "launch": [
+        9999,
+        "12GB",
+        "512GB",
+        "9999 元（12GB\\+512GB）"
+      ],
+      "chipEvidence": {
+        "value": "高通 骁龙8 Gen2 for Galaxy",
+        "pattern": "均搭载骁龙 8 Gen 2 for Galaxy 处理器",
+        "reason": "参数只标8 Gen2，正式国行发布报道明确for Galaxy版本。"
+      },
+      "dropFields": [
+        "gpu"
+      ]
+    },
+    {
+      "slug": "w25",
+      "name": "W25",
+      "year": 2024,
+      "dropFields": ["frontCamera"],
+      "productId": 1772411,
+      "group": "w",
+      "family": "Samsung W",
+      "marketKey": "w25",
+      "colorEvidence": {"name":"陶瓷黑","url":"https://images.samsung.com.cn/is/image/samsung/assets/cn/smartphones/samsung-w25/163-346.png?$163_346_PNG$","sourceUrl":"https://www.samsung.com.cn/smartphones/samsung-w25/specs/"},
+      "pairs": [
+        [
+          "16GB",
+          "512GB"
+        ],
+        [
+          "16GB",
+          "1TB"
+        ]
+      ],
+      "launch": [
+        15999,
+        "16GB",
+        "512GB",
+        "三星 W25 （16GB\\+512GB）售价 15999 元"
+      ]
+    },
+    {
+      "slug": "w25-flip",
+      "name": "W25 Flip",
+      "year": 2024,
+      "dropFields": ["frontCamera"],
+      "productId": 1772412,
+      "group": "w-flip",
+      "family": "Samsung W Flip",
+      "marketKey": "w25",
+      "pairs": [
+        [
+          "12GB",
+          "512GB"
+        ]
+      ],
+      "launch": [
+        9999,
+        "12GB",
+        "512GB",
+        "三星 W25 Flip（12GB\\+512GB）售价 9999 元"
+      ]
+    },
+    {
+      "slug": "galaxy-tab-s3-lte",
+      "name": "Galaxy Tab S3",
+      "displayName": "Galaxy Tab S3 LTE",
+      "category": "tablet",
+      "variant": "lte",
+      "variantFilter": "LTE版",
+      "year": 2017,
+      "seriesId": 21860,
+      "group": "galaxy-tab-s",
+      "family": "Samsung Galaxy Tab S",
+      "marketKey": "tabs3",
+      "pairs": [
+        [
+          "4GB",
+          "32GB"
+        ]
+      ],
+      "launch": [
+        5799,
+        "4GB",
+        "32GB",
+        "国行版三星Galaxy Tab S3仅提供4GB RAM\\+32GB容量4G版可选[^]*?售价为5799元"
+      ]
+    },
+    {
+      "slug": "galaxy-tab-s4-lte",
+      "name": "Galaxy Tab S4 4G",
+      "displayName": "Galaxy Tab S4 LTE",
+      "category": "tablet",
+      "variant": "lte",
+      "variantFilter": "4G",
+      "year": 2018,
+      "productId": 1208241,
+      "group": "galaxy-tab-s",
+      "family": "Samsung Galaxy Tab S",
+      "marketKey": "tabs4",
+      "pairs": [
+        [
+          "4GB",
+          "64GB"
+        ],
+        [
+          "4GB",
+          "256GB"
+        ]
+      ]
+    },
+    {
+      "slug": "galaxy-tab-s5e",
+      "name": "Galaxy Tab S5e",
+      "expectedName": [
+        "三星Galaxy Tab S5e",
+        "三星Galaxy Tab S5e WLAN"
+      ],
+      "category": "tablet",
+      "variant": "wifi",
+      "variantFilter": "6GB/128GB",
+      "year": 2019,
+      "seriesId": 26688,
+      "group": "galaxy-tab-s-e",
+      "family": "Samsung Galaxy Tab S E",
+      "marketKey": "tabs5e",
+      "pairs": [
+        [
+          "6GB",
+          "128GB"
+        ]
+      ]
+    },
+    {
+      "slug": "galaxy-tab-s6",
+      "name": "Galaxy Tab S6",
+      "expectedName": [
+        "三星Galaxy Tab S6",
+        "三星Galaxy Tab S6 WLAN"
+      ],
+      "category": "tablet",
+      "variant": "wifi",
+      "year": 2019,
+      "seriesId": 27360,
+      "group": "galaxy-tab-s",
+      "family": "Samsung Galaxy Tab S",
+      "marketKey": "tabs6",
+      "pairs": [
+        [
+          "6GB",
+          "128GB"
+        ],
+        [
+          "8GB",
+          "256GB"
+        ]
+      ]
+    },
+    {
+      "slug": "galaxy-tab-a-t510",
+      "name": "Galaxy Tab A T510",
+      "category": "tablet",
+      "variant": "wifi",
+      "year": 2019,
+      "productId": 1279119,
+      "group": "galaxy-tab-a",
+      "family": "Samsung Galaxy Tab A",
+      "marketKey": "taba2019",
+      "pairs": [
+        [
+          "3GB",
+          "32GB"
+        ]
+      ],
+      "launch": [
+        1599,
+        "3GB",
+        "32GB",
+        "Galaxy Tab A（2019,10.1英寸）售价1599元起"
+      ]
+    },
+    {
+      "slug": "galaxy-tab-a7",
+      "name": "Galaxy Tab A7",
+      "category": "tablet",
+      "variant": "wifi",
+      "year": 2020,
+      "productId": 1343599,
+      "group": "galaxy-tab-a",
+      "family": "Samsung Galaxy Tab A",
+      "marketKey": "taba7",
+      "pairs": [
+        [
+          "3GB",
+          "32GB"
+        ],
+        [
+          "3GB",
+          "64GB"
+        ]
+      ],
+      "launch": [
+        1499,
+        "3GB",
+        "32GB",
+        "3\\+32GB 售价 1499 元"
+      ]
+    },
+    {
+      "slug": "galaxy-tab-s9-fe-plus",
+      "name": "Galaxy Tab S9 FE+",
+      "category": "tablet",
+      "variant": "wifi",
+      "year": 2023,
+      "seriesId": 10911698,
+      "group": "galaxy-tab-s-fe-plus",
+      "family": "Samsung Galaxy Tab S FE Plus",
+      "marketKey": "tabs9feplus",
+      "pairs": [
+        [
+          "8GB",
+          "128GB"
+        ],
+        [
+          "12GB",
+          "256GB"
+        ]
+      ],
+      "launch": [
+        3999,
+        "8GB",
+        "128GB",
+        "8\\+128GB WLAN 版 3999 元"
+      ]
+    },
+    {
+      "slug": "galaxy-tab-a11-plus",
+      "name": "Galaxy Tab A11+",
+      "category": "tablet",
+      "variant": "wifi",
+      "year": 2026,
+      "seriesId": 10923621,
+      "group": "galaxy-tab-a-plus",
+      "family": "Samsung Galaxy Tab A Plus",
+      "marketKey": "taba11plus",
+      "pairs": [
+        [
+          "6GB",
+          "128GB"
+        ],
+        [
+          "8GB",
+          "256GB"
+        ]
+      ],
+      "launch": [
+        1699,
+        "6GB",
+        "128GB",
+        "6GB \\+ 128GB WLAN版售价1699元"
+      ],
+      "chipEvidence": {
+        "value": "联发科 天玑7300",
+        "pattern": "搭载联发科天玑7300芯片",
+        "reason": "参数页写芯片内部代号MT8775，国行发售报道明确商业型号。"
+      }
+    }
+  ],
+  "catalogUrls": [
+    "https://detail.zol.com.cn/tablepc/samsung/",
+    "https://detail.zol.com.cn/series/702/21860_1.html",
+    "https://detail.zol.com.cn/series/702/26688_1.html",
+    "https://detail.zol.com.cn/series/702/27360_1.html",
+    "https://detail.zol.com.cn/series/702/10911698_1.html",
+    "https://detail.zol.com.cn/series/702/10923621_1.html",
+    "https://detail.zol.com.cn/series/57/10915606_1.html",
+    "https://detail.zol.com.cn/series/57/10915610_1.html",
+    "https://detail.zol.com.cn/series/57/10862539_1.html"
+  ],
+  "blockedModels": [
+    {
+      "name": "Galaxy A6s",
+      "year": 2018,
+      "category": "phone",
+      "sourceUrl": "https://detail.zol.com.cn/1236/1235376/param.shtml",
+      "pattern": "64GB/128GB",
+      "reason": "具体参数页ROM64GB/128GB多值；所谓行货64/128标题均指同一个页面，不能绑定独立SKU。"
+    },
+    {
+      "name": "Galaxy Tab A7 Lite LTE",
+      "year": 2021,
+      "category": "tablet",
+      "sourceUrl": "https://www.samsung.com.cn/support/model/SM-T225CZAFCHC/",
+      "pattern": "Galaxy Tab A7 Lite LTE",
+      "reason": "CHC型号证明大陆存在，但本批未取得国行RAM/ROM组合和独立SKU绑定，不采用海外4GB/64GB推定。"
+    },
+    {
+      "name": "Galaxy S24 FE",
+      "year": 2024,
+      "category": "phone",
+      "sourceUrl": "https://www.ithome.com/0/807/875.htm",
+      "pattern": "消息称三星不会推出 Galaxy S24 FE 国行版手机",
+      "reason": "仅有海外发布及不会出国行的消息报道；未获得大陆实际发售证据，此消息不作为确定未上市结论。"
+    },
+    {
+      "name": "Galaxy S25 FE",
+      "year": 2025,
+      "category": "phone",
+      "sourceUrl": "https://www.ithome.com/0/880/465.htm",
+      "pattern": "英国提供全部三种存储配置",
+      "reason": "已验证报道仅为IFA/英国市场发布，中文更新名单不等于大陆发售，缺国行销售与配对SKU。"
+    }
+  ],
+  "additionalPending": [
+    {
+      "name": "Galaxy Tab S9 FE",
+      "year": 2023,
+      "category": "tablet",
+      "sourceUrl": "https://www.ithome.com/0/726/301.htm",
+      "reason": "已证大陆发布6/128与8/256，但ZOL标准版页面仍标概念产品，无可信具体SKU参数；需官方独立SKU规格导入。"
+    },
+    {
+      "name": "Galaxy Tab S10 FE",
+      "year": 2025,
+      "category": "tablet",
+      "sourceUrl": "https://www.ithome.com/0/846/381.htm",
+      "reason": "已证国行发售与8/128、12/256配对；ZOL没有精确SKU页，需官方独立SKU规格导入。"
+    },
+    {
+      "name": "Galaxy Tab S10 FE+",
+      "year": 2025,
+      "category": "tablet",
+      "sourceUrl": "https://www.ithome.com/0/846/381.htm",
+      "reason": "已证国行发售与8/128、12/256配对；ZOL没有精确SKU页，需官方独立SKU规格导入。"
+    },
+    {
+      "name": "Galaxy Tab S10 Lite",
+      "year": 2025,
+      "category": "tablet",
+      "sourceUrl": "https://www.ithome.com/0/884/765.htm",
+      "reason": "国行升级清单出现；尚缺大陆正式销售、发布日期和独立SKU规格组合。"
+    }
+  ],
+  "metadata": {
+    "photoLicense": "unknown",
+    "catalogLimit": "延续第二批公开目录121候选并增补精确系列/发布目录差集。ZOL候选混含海外与概念型号、验证跳转分页未枚举；不能视为大陆全集。"
+  }
+}

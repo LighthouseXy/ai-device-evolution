@@ -1,0 +1,462 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "verifiedAt": "2026-10-06",
+    "scope": "本轮仅8项既有存量机型图片恢复；不扩充设备，不自动写入旧来源或全库图片",
+    "licenseStatus": "unknown",
+    "imagePolicy": "模型年份与官方页面逐项绑定；同型号共用外观允许作为参考，但不声称内存/硬盘/芯片可从照片确定",
+    "rootIntegrationRequired": true,
+    "reviewedCandidateImages": 11,
+    "usableModelCandidates": 6,
+    "unresolvedModels": 2,
+    "excludedScope": "不反复访问两个GBK阻塞，不重下载已完整补证机型。2017 Pro由根代理单独处理。"
+  },
+  "candidates": [
+    {
+      "deviceId": "xiaomi-gaming-gtx1060-2018",
+      "model": "小米游戏本 (2018)",
+      "modelYear": 2018,
+      "releaseDate": "2018-04-13",
+      "sourceUrl": "https://www.mi.com/migaminglaptop",
+      "sourceSnapshotHash": "c571e09e885bf40e1ee05d15b73dcdb074d62094593d2a983b656a689a6a06e4",
+      "imageUrl": "https://i1.mifile.cn/f/i/18/migaminglaptop/banner.jpg",
+      "imageScope": "model_shared",
+      "note": "同型号共用外观图，不对应特定内存/硬盘配置",
+      "licenseStatus": "unknown",
+      "status": "available_for_model_exterior_reference",
+      "rootIntegrationRequired": true,
+      "imageAnchor": {
+        "sourceUrl": "https://www.mi.com/migaminglaptop",
+        "sourceSnapshotHash": "c571e09e885bf40e1ee05d15b73dcdb074d62094593d2a983b656a689a6a06e4",
+        "fetchedAt": "2026-10-05T20:11:59.610Z",
+        "rawText": "data-src=\"//i1.mifile.cn/f/i/18/migaminglaptop/banner.jpg\""
+      },
+      "versionEvidence": {
+        "sourceUrl": "https://www.mi.com/migaminglaptop",
+        "sourceSnapshotHash": "c571e09e885bf40e1ee05d15b73dcdb074d62094593d2a983b656a689a6a06e4",
+        "fetchedAt": "2026-10-05T20:11:59.610Z",
+        "rawText": "本页产品的配置信息、主板及相关图片均以小米游戏本顶配版（i7/GTX1060/256GB）为主进行宣传"
+      },
+      "releaseEvidence": {
+        "sourceUrl": "https://www.ithome.com/0/352/829.htm",
+        "sourceSnapshotHash": "76d655cf48e3f9670658f635cb7cf147103e53382b6c671261568c7454f19364",
+        "fetchedAt": "2026-10-05T20:07:47.851Z"
+      },
+      "actualImageEvidence": {
+        "sha256": "5cb79e6771c101e2fe17086b12b4db03865f02611e7ca2946ef08f71ea6958df",
+        "bytes": 379337,
+        "mimeType": "image/jpeg",
+        "width": 2560,
+        "height": 1958,
+        "localVerificationPath": "/tmp/xiaomi-image-recovery/game-2018.jpg",
+        "visuallyVerified": true,
+        "verifiedAt": "2026-10-06",
+        "visualDescription": "黑灰色半开笔记本、彩色背光键盘和侧面红光，深色背景；不是文字参数图。"
+      },
+      "usageBoundary": "官网独立第七代i7-7700HQ/GTX1060初代页；宣传顶配16GB/256GB与现存8GB/128GB不同，仅使用同型号共用外观，不推断容量。不用于八代增强或2019款。"
+    },
+    {
+      "deviceId": "xiaomi-gaming-gtx1060-enhanced-2018",
+      "model": "小米游戏本 八代增强版 (2018)",
+      "modelYear": 2018,
+      "releaseDate": "2018-08-16",
+      "sourceUrl": "https://www.mi.com/gamelaptop",
+      "sourceSnapshotHash": "bd1b3fe95309d912c5117911a4ae174a3965c21837c6c7318b61abd5658d5ac7",
+      "imageUrl": "https://i1.mifile.cn/f/i/18/gamelaptop//banner.jpg",
+      "imageScope": "model_shared",
+      "note": "同型号共用外观图，不对应特定内存/硬盘配置",
+      "licenseStatus": "unknown",
+      "status": "available_for_model_exterior_reference",
+      "rootIntegrationRequired": true,
+      "imageAnchor": {
+        "sourceUrl": "https://www.mi.com/gamelaptop",
+        "sourceSnapshotHash": "bd1b3fe95309d912c5117911a4ae174a3965c21837c6c7318b61abd5658d5ac7",
+        "fetchedAt": "2026-10-05T20:11:59.895Z",
+        "rawText": "data-src=\"//i1.mifile.cn/f/i/18/gamelaptop//banner.jpg\""
+      },
+      "versionEvidence": {
+        "sourceUrl": "https://www.mi.com/gamelaptop",
+        "sourceSnapshotHash": "bd1b3fe95309d912c5117911a4ae174a3965c21837c6c7318b61abd5658d5ac7",
+        "fetchedAt": "2026-10-05T20:11:59.895Z",
+        "rawText": "酷睿™ i7-8750H 第八代英特尔 ® 六核处理器"
+      },
+      "releaseEvidence": {
+        "sourceUrl": "https://www.ithome.com/0/374/583.htm",
+        "sourceSnapshotHash": "f3256e1bff288c894fb9e5d6869ef5f7ef63cb2ab5e22c75ced2009db8d0a0c7",
+        "fetchedAt": "2026-10-05T19:19:42.666Z"
+      },
+      "actualImageEvidence": {
+        "sha256": "40496491fdb690288206d3785dedcdd44ee97e4de837533a34fe4d5c61b48cb1",
+        "bytes": 296838,
+        "mimeType": "image/jpeg",
+        "width": 2559,
+        "height": 1787,
+        "localVerificationPath": "/tmp/xiaomi-image-recovery/game-enhanced-2018.jpg",
+        "visuallyVerified": true,
+        "verifiedAt": "2026-10-06",
+        "visualDescription": "深空灰打开笔记本、蓝紫屏幕、彩色背光键盘，侧前视角；图片无CPU文字。"
+      },
+      "usageBoundary": "独立八代官网banner，不采用其仍引用初代的其他机身素材；官网明确图片宣传i7/GTX1060/256GB版本，不据外观自行猜处理器。"
+    },
+    {
+      "deviceId": "xiaomi-gaming-rtx2060-2019",
+      "model": "小米游戏本2019款 RTX2060",
+      "modelYear": 2019,
+      "releaseDate": "2019-08-16",
+      "sourceUrl": "https://www.mi.com/milaptop/gaming-2019",
+      "sourceSnapshotHash": "9963909ff2c4eefe49314a0c419bf567944c2ec40a9c3eefe48624803567e1d2",
+      "imageUrl": "https://i1.mifile.cn/f/i/2019/milaptop/gaming-2019/section01_bg.jpg",
+      "imageScope": "model_shared",
+      "note": "同型号共用外观图，不对应特定内存/硬盘配置",
+      "licenseStatus": "unknown",
+      "status": "available_for_model_exterior_reference",
+      "rootIntegrationRequired": true,
+      "imageAnchor": {
+        "sourceUrl": "https://s01.mifile.cn/css/product/milaptop/gaming-2019/index.min.css?39cb84",
+        "sourceSnapshotHash": "c7d58a3ff9b9f11a9432f041974b8f41e3011af24ac665a947d1ae3a00102016",
+        "fetchedAt": "2026-10-05T20:19:21.103Z",
+        "rawText": "section-01.preload{background:url(\"//i1.mifile.cn/f/i/2019/milaptop/gaming-2019/section01_bg.jpg\")"
+      },
+      "versionEvidence": {
+        "sourceUrl": "https://www.mi.com/milaptop/gaming-2019",
+        "sourceSnapshotHash": "9963909ff2c4eefe49314a0c419bf567944c2ec40a9c3eefe48624803567e1d2",
+        "fetchedAt": "2026-10-05T20:18:35.614Z",
+        "rawText": "本页产品的配置信息、主板及相关图片均以小米游戏本（i7/RTX 2060/16GB/512GB）为主进行宣传"
+      },
+      "releaseEvidence": {
+        "sourceUrl": "https://www.ithome.com/0/437/221.htm",
+        "sourceSnapshotHash": "391c62c1c79c84523863c35100281e107818956b343777f628904be0d5f9cc5f",
+        "fetchedAt": "2026-10-05T19:19:42.748Z"
+      },
+      "actualImageEvidence": {
+        "sha256": "dfc87a75c343b3146b9529957b9fa9d7111b36d4c0fad1a3ab90dbfdb0037b7f",
+        "bytes": 455652,
+        "mimeType": "image/jpeg",
+        "width": 2560,
+        "height": 1788,
+        "localVerificationPath": "/tmp/xiaomi-image-recovery/game-2019.jpg",
+        "visuallyVerified": true,
+        "verifiedAt": "2026-10-06",
+        "visualDescription": "蓝色岩石背景中的黑灰半开游戏本和彩色键盘，官网2019款独立首屏图。"
+      },
+      "usageBoundary": "页面明示i7/RTX2060/16GB/512GB为宣传版本；仅作为2019 RTX2060型号外观图，屏幕内容及内部结构不作配置证据，不借给2018款。"
+    },
+    {
+      "deviceId": "redmi-book-14-2024",
+      "model": "REDMI Book 14 (2024)",
+      "modelYear": 2024,
+      "releaseDate": "2023-11-29",
+      "sourceUrl": "https://www.mi.com/redmi-books/14-2024",
+      "sourceSnapshotHash": "cdc32cc41829f24f81d821d04ed28086b173bb132b5c42351baf33bb68205aca",
+      "imageUrl": "https://cdn.cnbj1.fds.api.mi-img.com/product-images/redmiBooks/14-20248abe56/section-16.jpg",
+      "imageScope": "model_shared",
+      "note": "同型号共用外观图，不对应特定内存/硬盘配置",
+      "licenseStatus": "unknown",
+      "status": "available_for_model_exterior_reference",
+      "rootIntegrationRequired": true,
+      "imageAnchor": {
+        "sourceUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi.com-assets/shop/pro/css/product/redmi-books/14-2024/index.89274830.css",
+        "sourceSnapshotHash": "1a95726933c7837d65c67efe2cd2349f52feb97a8fca05e7516b320fa42c7fd7",
+        "fetchedAt": "2026-10-05T20:20:57.847Z",
+        "rawText": "https://cdn.cnbj1.fds.api.mi-img.com/product-images/redmiBooks/14-20248abe56/section-16.jpg"
+      },
+      "versionEvidence": {
+        "sourceUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi.com-assets/shop/pro/js/product/redmi-books/14-2024/index.6d918d4a.js",
+        "sourceSnapshotHash": "e0b2bbbea0e28c51338e12a6e0804eaf9a9f6ceccfba76aea2c68aadd281f149",
+        "fetchedAt": "2026-10-05T20:19:21.245Z",
+        "rawText": "本页产品的配置信息及相关图片均以 Redmi Book 14 2024（i5-13500H / 16GB / 1TB / UMA）为主进行宣传"
+      },
+      "releaseEvidence": {
+        "sourceUrl": "https://www.ithome.com/0/735/954.htm",
+        "sourceSnapshotHash": "8d37f43ab66d8c436c8b0fb3ceb4d1515a71197bb9b3b9c80f2e8cc94acffec7",
+        "fetchedAt": "2026-10-02T16:14:29.393Z"
+      },
+      "actualImageEvidence": {
+        "sha256": "7aa6d8fb2259736eaae58cdc8d9e27a725bde239247e7edf717330c725336108",
+        "bytes": 203477,
+        "mimeType": "image/jpeg",
+        "width": 2560,
+        "height": 1880,
+        "localVerificationPath": "/tmp/xiaomi-image-recovery/redmi14-2024-body.jpg",
+        "visuallyVerified": true,
+        "verifiedAt": "2026-10-06",
+        "visualDescription": "黑背景中两台灰色合盖/侧视笔记本，完整呈现上盖与接口；无Intel i7或处理器广告文字。"
+      },
+      "usageBoundary": "2024款实际2023年发布。i7文字hero另行拒绝；该无CPU宣传的官方机身图仅覆盖本型号外观，不作为i7与i5相同内部配置证据。"
+    },
+    {
+      "deviceId": "xiaomi-pad-8-2025",
+      "model": "小米平板 8",
+      "modelYear": 2025,
+      "releaseDate": "2025-09-25",
+      "sourceUrl": "https://www.mi.com/prod/xiaomi-pad-8",
+      "sourceSnapshotHash": "36fe883c9de4d43b27e442c58a11cd62932424bff16de3518ca34f757ac36611",
+      "imageUrl": "https://cdn.cnbj1.fds.api.mi-img.com/product-images/new-product-images/xiaomi-pad-8_66003/images/7101.png",
+      "imageScope": "model_shared",
+      "note": "同型号共用外观图，不对应特定内存/硬盘配置",
+      "licenseStatus": "unknown",
+      "status": "available_for_model_exterior_reference",
+      "rootIntegrationRequired": true,
+      "imageAnchor": {
+        "sourceUrl": "https://mishop-pc.cnbj1.mi-fds.com/mishop-pc/production/mishop_pc/xiaomi-pad-8/entry-1781262831057.js",
+        "sourceSnapshotHash": "620fc064f23c8a6daf705e807f21d7562615ec2504db9ac36294e7b5d9d37090",
+        "fetchedAt": "2026-10-05T20:24:08.244Z",
+        "rawText": "\"data-src\":d.imgPath+\"/images/7101.png\""
+      },
+      "versionEvidence": {
+        "sourceUrl": "https://mishop-pc.cnbj1.mi-fds.com/mishop-pc/production/mishop_pc/xiaomi-pad-8/entry-1781262831057.js",
+        "sourceSnapshotHash": "620fc064f23c8a6daf705e807f21d7562615ec2504db9ac36294e7b5d9d37090",
+        "fetchedAt": "2026-10-05T20:24:08.244Z",
+        "value": "第四代 骁龙 8s 移动平台",
+        "note": "脚本中独立产品文案确认芯片；不通过图片相似度猜CPU。"
+      },
+      "releaseEvidence": {
+        "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+        "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309",
+        "fetchedAt": "2026-10-02T16:33:46.343Z"
+      },
+      "actualImageEvidence": {
+        "sha256": "6f7941cf941d9214fb1eb3f16ef220db219e836455d4c116797847c92b99cabc",
+        "bytes": 6177888,
+        "mimeType": "image/png",
+        "width": 3602,
+        "height": 3601,
+        "localVerificationPath": "/tmp/xiaomi-image-recovery/xiaomi-pad-8-product.png",
+        "visuallyVerified": true,
+        "verifiedAt": "2026-10-06",
+        "visualDescription": "独立官网首屏透明背景场景素材：两台前视平板搭配键盘，一支手写笔；黑色/蓝紫屏幕与HyperOS内容。"
+      },
+      "usageBoundary": "独立Pad8或Pro官网资源，不冒充容量/柔光配置特有图。键盘和手写笔仅为场景配件，不能推断为平板标配；未标注独立标准色，不用于颜色精确匹配。",
+      "resourceChain": [
+        {
+          "sourceUrl": "https://www.mi.com/prod/xiaomi-pad-8",
+          "sourceSnapshotHash": "36fe883c9de4d43b27e442c58a11cd62932424bff16de3518ca34f757ac36611",
+          "fetchedAt": "2026-10-05T20:20:15.310Z"
+        },
+        {
+          "sourceUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi.com-assets/shop/pro/js/product/prod-template/index.2595d681.js",
+          "sourceSnapshotHash": "c22cc02191993c0835fd49a758e15f8f1252090250425992d763c23239bdcab1",
+          "fetchedAt": "2026-10-05T20:22:57.720Z",
+          "rawText": "https://mishop-pc.cnbj1.mi-fds.com/mishop-pc/production/mishop_pc/src/pages"
+        },
+        {
+          "sourceUrl": "https://mishop-pc.cnbj1.mi-fds.com/mishop-pc/production/mishop_pc/src/pages/xiaomi-pad-8/index.html",
+          "sourceSnapshotHash": "c3966e741c2f5bfd5bab77f5dfca5d5e18f66f21ff868e6b31b1fec2e24937da",
+          "fetchedAt": "2026-10-05T20:23:27.595Z",
+          "rawText": "https://mishop-pc.cnbj1.mi-fds.com/mishop-pc/production/mishop_pc/xiaomi-pad-8/entry-1781262831057.js"
+        },
+        {
+          "sourceUrl": "https://mishop-pc.cnbj1.mi-fds.com/mishop-pc/production/mishop_pc/xiaomi-pad-8/entry-1781262831057.js",
+          "sourceSnapshotHash": "620fc064f23c8a6daf705e807f21d7562615ec2504db9ac36294e7b5d9d37090",
+          "fetchedAt": "2026-10-05T20:24:08.244Z",
+          "baseUrl": "https://cdn.cnbj1.fds.api.mi-img.com/product-images/new-product-images/xiaomi-pad-8_66003",
+          "imagePath": "/images/7101.png"
+        }
+      ]
+    },
+    {
+      "deviceId": "xiaomi-pad-8-pro-2025",
+      "model": "小米平板 8 Pro",
+      "modelYear": 2025,
+      "releaseDate": "2025-09-25",
+      "sourceUrl": "https://www.mi.com/prod/xiaomi-pad-8-pro",
+      "sourceSnapshotHash": "edc0661561bdd6ee1accead3a4b8b9500c7732b3ce54af9e9a031adc43937186",
+      "imageUrl": "https://cdn.cnbj1.fds.api.mi-img.com/product-images/new-product-images/xiaomi-pad-8-pro_3305/images/8416.png",
+      "imageScope": "model_shared",
+      "note": "同型号共用外观图，不对应特定内存/硬盘配置",
+      "licenseStatus": "unknown",
+      "status": "available_for_model_exterior_reference",
+      "rootIntegrationRequired": true,
+      "imageAnchor": {
+        "sourceUrl": "https://mishop-pc.cnbj1.mi-fds.com/mishop-pc/production/mishop_pc/xiaomi-pad-8-pro/entry-1781262530731.js",
+        "sourceSnapshotHash": "7b47d098352113fbad3290eb4a785e15955fd3996e309f9768f959de634c1266",
+        "fetchedAt": "2026-10-05T20:24:08.446Z",
+        "rawText": "\"data-src\":a.imgPath+\"/images/8416.png\""
+      },
+      "versionEvidence": {
+        "sourceUrl": "https://mishop-pc.cnbj1.mi-fds.com/mishop-pc/production/mishop_pc/xiaomi-pad-8-pro/entry-1781262530731.js",
+        "sourceSnapshotHash": "7b47d098352113fbad3290eb4a785e15955fd3996e309f9768f959de634c1266",
+        "fetchedAt": "2026-10-05T20:24:08.446Z",
+        "value": "骁龙 8 至尊版 移动平台",
+        "note": "脚本中独立产品文案确认芯片；不通过图片相似度猜CPU。"
+      },
+      "releaseEvidence": {
+        "sourceUrl": "https://www.ithome.com/0/885/838.htm",
+        "sourceSnapshotHash": "0feef63de3cd12eba5d5b8fb97d18a728d1a31475d3641326101dc3fbf28c309",
+        "fetchedAt": "2026-10-02T16:33:46.343Z"
+      },
+      "actualImageEvidence": {
+        "sha256": "d314bbed1c9d5981dc0f3c44cba78710fe15422cce2676f67877d2c5928f8548",
+        "bytes": 4963661,
+        "mimeType": "image/png",
+        "width": 3051,
+        "height": 3601,
+        "localVerificationPath": "/tmp/xiaomi-image-recovery/xiaomi-pad-8-pro-product.png",
+        "visuallyVerified": true,
+        "verifiedAt": "2026-10-06",
+        "visualDescription": "独立官网首屏透明背景场景素材：两台前视平板搭配键盘，一支手写笔；黑色/蓝紫屏幕与HyperOS内容。"
+      },
+      "usageBoundary": "独立Pad8或Pro官网资源，不冒充容量/柔光配置特有图。键盘和手写笔仅为场景配件，不能推断为平板标配；未标注独立标准色，不用于颜色精确匹配。",
+      "resourceChain": [
+        {
+          "sourceUrl": "https://www.mi.com/prod/xiaomi-pad-8-pro",
+          "sourceSnapshotHash": "edc0661561bdd6ee1accead3a4b8b9500c7732b3ce54af9e9a031adc43937186",
+          "fetchedAt": "2026-10-05T20:20:15.613Z"
+        },
+        {
+          "sourceUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi.com-assets/shop/pro/js/product/prod-template/index.2595d681.js",
+          "sourceSnapshotHash": "c22cc02191993c0835fd49a758e15f8f1252090250425992d763c23239bdcab1",
+          "fetchedAt": "2026-10-05T20:22:57.720Z",
+          "rawText": "https://mishop-pc.cnbj1.mi-fds.com/mishop-pc/production/mishop_pc/src/pages"
+        },
+        {
+          "sourceUrl": "https://mishop-pc.cnbj1.mi-fds.com/mishop-pc/production/mishop_pc/src/pages/xiaomi-pad-8-pro/index.html",
+          "sourceSnapshotHash": "d846b72080ced8f1df4f26f76a1bea40e3d61fb355c8ec292ee4f03311577e89",
+          "fetchedAt": "2026-10-05T20:23:27.653Z",
+          "rawText": "https://mishop-pc.cnbj1.mi-fds.com/mishop-pc/production/mishop_pc/xiaomi-pad-8-pro/entry-1781262530731.js"
+        },
+        {
+          "sourceUrl": "https://mishop-pc.cnbj1.mi-fds.com/mishop-pc/production/mishop_pc/xiaomi-pad-8-pro/entry-1781262530731.js",
+          "sourceSnapshotHash": "7b47d098352113fbad3290eb4a785e15955fd3996e309f9768f959de634c1266",
+          "fetchedAt": "2026-10-05T20:24:08.446Z",
+          "baseUrl": "https://cdn.cnbj1.fds.api.mi-img.com/product-images/new-product-images/xiaomi-pad-8-pro_3305",
+          "imagePath": "/images/8416.png"
+        }
+      ]
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "deviceId": "redmi-book-14-2024",
+      "model": "REDMI Book 14 (2024)",
+      "sourceUrl": "https://www.mi.com/redmi-books/14-2024",
+      "imageAnchor": {
+        "sourceUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi.com-assets/shop/pro/css/product/redmi-books/14-2024/index.89274830.css",
+        "sourceSnapshotHash": "1a95726933c7837d65c67efe2cd2349f52feb97a8fca05e7516b320fa42c7fd7",
+        "fetchedAt": "2026-10-05T20:20:57.847Z"
+      },
+      "imageUrl": "https://cdn.cnbj1.fds.api.mi-img.com/product-images/redmiBooks/14-20248abe56/section-01.jpg?v2=",
+      "imageScope": "rejected",
+      "status": "rejected_cpu_text_conflict",
+      "licenseStatus": "unknown",
+      "reason": "图片右下Intel Core i7标志及搭载第13代酷睿i7广告与现存i5-13500H设备冲突；虽然官网脚注以i5为主，不能忽略图片直接矛盾。",
+      "actualImageEvidence": {
+        "sha256": "d10cf41816af898083c4136c658ba90833aa0952d841a374e0e6533ce5fe2e8a",
+        "bytes": 483636,
+        "width": 2560,
+        "height": 2046,
+        "mimeType": "image/jpeg",
+        "visuallyVerified": true,
+        "localVerificationPath": "/tmp/xiaomi-image-recovery/redmi14-2024.jpg"
+      }
+    },
+    {
+      "deviceId": "xiaomi-pad-8-2025",
+      "sourceUrl": "https://www.mi.com/shop/category/list",
+      "imageAnchor": {
+        "sourceUrl": "https://www.mi.com/shop/category/list",
+        "sourceSnapshotHash": "096e15f249d2ccbae79be4e9cf5b68082d77eb9df5a7a23446f85bc12b889dfa",
+        "fetchedAt": "2026-10-05T20:19:02.004Z"
+      },
+      "imageUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8bbc3eff99ad032bddb9b6d40f6e9e8a.png",
+      "imageScope": "rejected",
+      "status": "rejected_low_resolution_shared_navigation_montage",
+      "licenseStatus": "unknown",
+      "reason": "80×80多色导航拼图，标准版与Pro肉眼近同；不能冒充独立高分辨率单型号主图或标准色图。",
+      "actualImageEvidence": {
+        "sha256": "b588907103da4e2a81cb699458b83793e85271fbf63b71d8ede956e05f337934",
+        "bytes": 7413,
+        "width": 80,
+        "height": 80,
+        "mimeType": "image/png",
+        "visuallyVerified": true,
+        "localVerificationPath": "/tmp/xiaomi-image-recovery/pad8.png"
+      }
+    },
+    {
+      "deviceId": "xiaomi-pad-8-pro-2025",
+      "sourceUrl": "https://www.mi.com/shop/category/list",
+      "imageAnchor": {
+        "sourceUrl": "https://www.mi.com/shop/category/list",
+        "sourceSnapshotHash": "096e15f249d2ccbae79be4e9cf5b68082d77eb9df5a7a23446f85bc12b889dfa",
+        "fetchedAt": "2026-10-05T20:19:02.004Z"
+      },
+      "imageUrl": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/7bbfbaac81b01c1a56fc761a08797931.png",
+      "imageScope": "rejected",
+      "status": "rejected_low_resolution_shared_navigation_montage",
+      "licenseStatus": "unknown",
+      "reason": "80×80多色导航拼图，标准版与Pro肉眼近同；不能冒充独立高分辨率单型号主图或标准色图。",
+      "actualImageEvidence": {
+        "sha256": "7f5cfdbd62db1a8cb69bcdd73d5b4dccd5c3525890f0e8c7eeb33bf87ef5bc15",
+        "bytes": 7385,
+        "width": 80,
+        "height": 80,
+        "mimeType": "image/png",
+        "visuallyVerified": true,
+        "localVerificationPath": "/tmp/xiaomi-image-recovery/pad8pro.png"
+      }
+    },
+    {
+      "deviceIds": [
+        "xiaomi-pad-8-2025",
+        "xiaomi-pad-8-pro-2025"
+      ],
+      "imageUrls": [
+        "https://cdn.cnbj1.fds.api.mi-img.com/product-images/new-product-images/xiaomi-pad-8_66003/images/10.png",
+        "https://cdn.cnbj1.fds.api.mi-img.com/product-images/new-product-images/xiaomi-pad-8-pro_3305/images/10.png"
+      ],
+      "sourceUrl": "https://www.mi.com/prod/xiaomi-pad-8",
+      "imageAnchor": {
+        "sourceUrl": "https://mishop-pc.cnbj1.mi-fds.com/mishop-pc/production/mishop_pc/xiaomi-pad-8/entry-1781262831057.js",
+        "sourceSnapshotHash": "620fc064f23c8a6daf705e807f21d7562615ec2504db9ac36294e7b5d9d37090",
+        "fetchedAt": "2026-10-05T20:24:08.244Z"
+      },
+      "imageScope": "rejected",
+      "status": "rejected_blank_layout_asset",
+      "licenseStatus": "unknown",
+      "reason": "官网floor_1布局素材，标准版JS明确style opacity:0。视觉为空白，不能仅凭产品目录与文件名当主图。",
+      "actualImageEvidence": {
+        "sha256": "ac4019ad66b76ebcd1b579a6e2c5b894db01059dfbafd1adbd18de17adc9f145",
+        "bytes": 121477,
+        "width": 2560,
+        "height": 9885,
+        "mimeType": "image/png",
+        "visuallyVerified": true,
+        "localVerificationPath": "/tmp/xiaomi-image-recovery/xiaomi-pad-8-hero.png"
+      }
+    }
+  ],
+  "unresolved": [
+    {
+      "deviceId": "xiaomi-book-15-i3-2018",
+      "model": "小米笔记本15.6 白色i3 (2018)",
+      "status": "unresolved_exact_white_i3_image",
+      "imageUrl": null,
+      "evidence": {
+        "sourceUrl": "https://www.ithome.com/0/399/994.htm",
+        "sourceSnapshotHash": "072f822affc650812c021e5cb6e868ded57487526ddc8451b8979ad49633cb6b",
+        "fetchedAt": "2026-10-05T20:03:58.101Z"
+      },
+      "releaseDate": "2018-12-12",
+      "reason": "国内白色i3/256GB首发原文可读，但当前正文图片节点已为空段落；不套用深空灰i5/i7机型图。本轮没有新增独立官网白色i3实图证据。"
+    },
+    {
+      "deviceId": "redmi-book-14-2025",
+      "model": "REDMI Book 14 (2025)",
+      "status": "unresolved_official_cpu_variant_binding",
+      "imageUrl": null,
+      "evidence": {
+        "sourceUrl": "https://www.mi.com/shop/buy/detail?product_id=20870",
+        "sourceSnapshotHash": "2e3ca15b56f3ef86b4058e407d20c84af1c25decff0af06e446a38060a1fd44b",
+        "fetchedAt": "2026-10-05T20:19:02.569Z"
+      },
+      "releaseEvidence": {
+        "sourceUrl": "https://www.ithome.com/0/821/829.htm",
+        "sourceSnapshotHash": "23431bdb18333796ad39e0f995e644706256626d54d5ec59e1824032fa8fe2ec",
+        "fetchedAt": "2026-10-02T16:48:35.798Z"
+      },
+      "releaseDate": "2025-01-02",
+      "reason": "当前官网购买页的产品名仍2025，公开搜索结果列有210H、220H、i5-12450H及13420H焕新版；已读取的公开HTML未提供可绑定220H的主体图片，未执行CPU选项交互，不套当前其他版本图。不重复下载根代理已补的同ID参数图库。"
+    }
+  ]
+}

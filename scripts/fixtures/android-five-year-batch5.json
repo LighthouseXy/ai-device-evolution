@@ -1,0 +1,892 @@
+{
+  "targets": [
+    {
+      "id": "vivo-x100-2023",
+      "brand": "vivo",
+      "modelName": "vivo X100",
+      "officialName": "vivo X100",
+      "family": "vivo X",
+      "group": "x",
+      "category": "phone",
+      "releaseYear": 2023,
+      "officialImporter": true,
+      "variant": "standard",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/x100",
+      "releaseFallback": {
+        "sourceUrl": "https://mobile.zol.com.cn/842/8429509_all.html",
+        "releaseDate": "2023-11-21",
+        "rawPattern": "vivo X100系列于今日正式开售"
+      },
+      "launchNewsUrl": "https://www.vivo.com.cn/brand/news/detail?id=1206"
+    },
+    {
+      "id": "vivo-x100-lpddr5t-limited-2023",
+      "brand": "vivo",
+      "modelName": "vivo X100 LPDDR5T限量版",
+      "officialName": "vivo X100",
+      "family": "vivo X",
+      "group": "x",
+      "category": "phone",
+      "releaseYear": 2023,
+      "officialImporter": true,
+      "variant": "lpddr5t",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/x100",
+      "releaseFallback": {
+        "sourceUrl": "https://mobile.zol.com.cn/842/8429509_all.html",
+        "releaseDate": "2023-11-21",
+        "rawPattern": "vivo X100系列于今日正式开售"
+      },
+      "launchNewsUrl": "https://www.vivo.com.cn/brand/news/detail?id=1206"
+    },
+    {
+      "id": "vivo-x100pro-2023",
+      "brand": "vivo",
+      "modelName": "vivo X100 Pro",
+      "officialName": "vivo X100 Pro",
+      "family": "vivo X Pro",
+      "group": "x-pro",
+      "category": "phone",
+      "releaseYear": 2023,
+      "officialImporter": true,
+      "variant": "standard",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/x100pro",
+      "releaseFallback": {
+        "sourceUrl": "https://mobile.zol.com.cn/842/8429509_all.html",
+        "releaseDate": "2023-11-21",
+        "rawPattern": "vivo X100系列于今日正式开售"
+      },
+      "launchNewsUrl": "https://www.vivo.com.cn/brand/news/detail?id=1206"
+    },
+    {
+      "id": "vivo-x100s-2024",
+      "brand": "vivo",
+      "modelName": "vivo X100s",
+      "officialName": "vivo X100s",
+      "family": "vivo X s",
+      "group": "x-s",
+      "category": "phone",
+      "releaseYear": 2024,
+      "officialImporter": true,
+      "variant": "standard",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/x100s",
+      "releaseFallback": {
+        "sourceUrl": "https://m.ithome.com/html/768604.htm",
+        "releaseDate": "2024-05-17",
+        "rawPattern": "vivo X100s / Pro 手机今日开售"
+      },
+      "launchNewsUrl": "https://m.vivo.com.cn/brand/news/detail?id=1243&type=0"
+    },
+    {
+      "id": "vivo-x100spro-2024",
+      "brand": "vivo",
+      "modelName": "vivo X100s Pro",
+      "officialName": "vivo X100s Pro",
+      "family": "vivo X s Pro",
+      "group": "x-s-pro",
+      "category": "phone",
+      "releaseYear": 2024,
+      "officialImporter": true,
+      "variant": "standard",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/x100spro",
+      "releaseFallback": {
+        "sourceUrl": "https://m.ithome.com/html/768604.htm",
+        "releaseDate": "2024-05-17",
+        "rawPattern": "vivo X100s / Pro 手机今日开售"
+      },
+      "launchNewsUrl": "https://m.vivo.com.cn/brand/news/detail?id=1243&type=0"
+    },
+    {
+      "id": "oppo-find-x7-2024",
+      "brand": "OPPO",
+      "modelName": "OPPO Find X7",
+      "family": "Find X",
+      "group": "find-x",
+      "category": "phone",
+      "releaseYear": 2024,
+      "officialImporter": true,
+      "officialSpecUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+      "releaseFallback": {
+        "sourceUrl": "https://m.ithome.com/html/744795.htm",
+        "releaseDate": "2024-01-12",
+        "rawPattern": "OPPO Find X7\\s*、Find X7 Ultra 今日正式开售"
+      },
+      "launch": {
+        "url": "https://m.ithome.com/html/744795.htm",
+        "memory": "12GB",
+        "storage": "256GB",
+        "value": 3999,
+        "rawPattern": "OPPO Find X7 12GB \\+ 256GB 售价 3999 元"
+      },
+      "seriesId": "10844009"
+    },
+    {
+      "id": "oppo-k12s-2025",
+      "brand": "OPPO",
+      "modelName": "OPPO K12s",
+      "family": "K s",
+      "releaseYear": 2025,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10912778_1.html",
+      "category": "phone",
+      "series": "K s",
+      "status": "pending",
+      "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+      "sourceUrls": [
+        "https://detail.zol.com.cn/series/57/10912778_1.html"
+      ],
+      "sourceEvidence": {
+        "value": "OPPO K12s",
+        "rawText": "OPPO K12s",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10912778_1.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:14:01.645Z",
+        "sourceSnapshotHash": "201333d46392454f0a3e4406e62706839f87f5faef049cf28f22be51e741e757"
+      },
+      "listedYearEvidence": {
+        "value": 2025,
+        "rawText": "系列手机，是OPPO2025年04月25日推出的手机",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10912778_1.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:14:01.645Z",
+        "sourceSnapshotHash": "201333d46392454f0a3e4406e62706839f87f5faef049cf28f22be51e741e757"
+      },
+      "yearBasis": "目录或参数年份；首售尚未核验",
+      "marketVerification": "尚未核验",
+      "group": "k-s",
+      "seriesId": "10912778",
+      "officialSpecUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+      "releaseFallback": {
+        "sourceUrl": "https://mobile.zol.com.cn/977/9775638.html",
+        "releaseDate": "2025-04-25",
+        "rawPattern": "这款手机于4月25日上午10点正式开售"
+      },
+      "preferOfficialCore": true
+    },
+    {
+      "id": "oppo-k13s-2025",
+      "brand": "OPPO",
+      "modelName": "OPPO K13s",
+      "family": "K s",
+      "releaseYear": 2025,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10920401_1.html",
+      "category": "phone",
+      "series": "K s",
+      "status": "pending",
+      "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+      "sourceUrls": [
+        "https://detail.zol.com.cn/series/57/10920401_1.html"
+      ],
+      "sourceEvidence": {
+        "value": "OPPO K13s",
+        "rawText": "OPPO K13s",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10920401_1.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:37.178Z",
+        "sourceSnapshotHash": "2f9f6b3c685af985a4dc225ae725ea6988e7d8160162927b75d8563fa932687a"
+      },
+      "listedYearEvidence": {
+        "value": 2025,
+        "rawText": "系列手机，是OPPO2025年9月17日推出的手机",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10920401_1.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:37.178Z",
+        "sourceSnapshotHash": "2f9f6b3c685af985a4dc225ae725ea6988e7d8160162927b75d8563fa932687a"
+      },
+      "yearBasis": "目录或参数年份；首售尚未核验",
+      "marketVerification": "尚未核验",
+      "group": "k-s",
+      "seriesId": "10920401",
+      "releaseFallback": {
+        "sourceUrl": "https://www.ithome.com/0/883/682.htm",
+        "releaseDate": "2025-09-17",
+        "rawPattern": "OPPO K13s\\s*/K13x 手机现已开售"
+      }
+    },
+    {
+      "id": "oppo-k15-pro-2026",
+      "brand": "OPPO",
+      "modelName": "OPPO K15 Pro",
+      "family": "K Pro",
+      "releaseYear": 2026,
+      "sourceUrl": "https://www.ithome.com/0/934/935.htm",
+      "articlePattern": "2026/4/1[^]*?OPPO K15 Pro 系列手机今日正式发布",
+      "category": "phone",
+      "series": "K Pro",
+      "status": "pending",
+      "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+      "sourceUrls": [
+        "https://www.ithome.com/0/934/935.htm"
+      ],
+      "sourceEvidence": {
+        "value": "OPPO K15 Pro",
+        "rawText": "2026/4/1 14:51:16 来源： IT之家 作者： 归泷 责编： 归泷 评论： 感谢IT之家网友 Autumn_Dream 、 肖战割割 、 软媒新友2545448 、 软媒新友2314428 、 很宅很怕生 、 Flit_刘 、 顺势而为 、 斯文当不了饭吃 、 風見暉一 、 Trey 、 蛋炒鱼 的线索投递！ IT之家 4 月 1 日消息，OPPO K15 Pro 系列手机今日正式发布",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/934/935.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:37.222Z",
+        "sourceSnapshotHash": "1112b10b535b09a14ccae1fb4ccdefa224bdf372461d0136ba9960bb9b901978"
+      },
+      "listedYearEvidence": {
+        "value": 2026,
+        "rawText": "2026/4/1 14:51:16 来源： IT之家 作者： 归泷 责编： 归泷 评论： 感谢IT之家网友 Autumn_Dream 、 肖战割割 、 软媒新友2545448 、 软媒新友2314428 、 很宅很怕生 、 Flit_刘 、 顺势而为 、 斯文当不了饭吃 、 風見暉一 、 Trey 、 蛋炒鱼 的线索投递！ IT之家 4 月 1 日消息，OPPO K15 Pro 系列手机今日正式发布",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/934/935.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:37.222Z",
+        "sourceSnapshotHash": "1112b10b535b09a14ccae1fb4ccdefa224bdf372461d0136ba9960bb9b901978"
+      },
+      "yearBasis": "发布报道年份；首售尚未核验",
+      "marketVerification": "尚未核验",
+      "group": "k-pro",
+      "seriesId": "10925333",
+      "officialSpecUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+      "releaseFallback": {
+        "sourceUrl": "https://phone.cnmo.com/news/806677.html",
+        "releaseDate": "2026-04-03",
+        "rawPattern": "4月3日上午10点，OPPO官方宣布，OPPO K15 Pro及OPPO K15 Pro[＋+]开售"
+      },
+      "preferOfficialCore": true
+    },
+    {
+      "id": "oppo-k15-pro-plus-2026",
+      "brand": "OPPO",
+      "modelName": "OPPO K15 Pro+",
+      "family": "K Pro+",
+      "releaseYear": 2026,
+      "sourceUrl": "https://www.ithome.com/0/934/935.htm",
+      "articlePattern": "2026/4/1[^]*?分 Pro 和 Pro\\+“两杯”",
+      "category": "phone",
+      "series": "K Pro+",
+      "status": "pending",
+      "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+      "sourceUrls": [
+        "https://www.ithome.com/0/934/935.htm"
+      ],
+      "sourceEvidence": {
+        "value": "OPPO K15 Pro+",
+        "rawText": "2026/4/1 14:51:16 来源： IT之家 作者： 归泷 责编： 归泷 评论： 感谢IT之家网友 Autumn_Dream 、 肖战割割 、 软媒新友2545448 、 软媒新友2314428 、 很宅很怕生 、 Flit_刘 、 顺势而为 、 斯文当不了饭吃 、 風見暉一 、 Trey 、 蛋炒鱼 的线索投递！ IT之家 4 月 1 日消息，OPPO K15 Pro 系列手机今日正式发布，分 Pro 和 Pro+“两杯”",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/934/935.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:37.222Z",
+        "sourceSnapshotHash": "1112b10b535b09a14ccae1fb4ccdefa224bdf372461d0136ba9960bb9b901978"
+      },
+      "listedYearEvidence": {
+        "value": 2026,
+        "rawText": "2026/4/1 14:51:16 来源： IT之家 作者： 归泷 责编： 归泷 评论： 感谢IT之家网友 Autumn_Dream 、 肖战割割 、 软媒新友2545448 、 软媒新友2314428 、 很宅很怕生 、 Flit_刘 、 顺势而为 、 斯文当不了饭吃 、 風見暉一 、 Trey 、 蛋炒鱼 的线索投递！ IT之家 4 月 1 日消息，OPPO K15 Pro 系列手机今日正式发布，分 Pro 和 Pro+“两杯”",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/934/935.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:37.222Z",
+        "sourceSnapshotHash": "1112b10b535b09a14ccae1fb4ccdefa224bdf372461d0136ba9960bb9b901978"
+      },
+      "yearBasis": "发布报道年份；首售尚未核验",
+      "marketVerification": "尚未核验",
+      "group": "k-pro-plus",
+      "seriesId": "10925334",
+      "officialSpecUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+      "releaseFallback": {
+        "sourceUrl": "https://phone.cnmo.com/news/806677.html",
+        "releaseDate": "2026-04-03",
+        "rawPattern": "4月3日上午10点，OPPO官方宣布，OPPO K15 Pro及OPPO K15 Pro[＋+]开售"
+      },
+      "preferOfficialCore": true
+    },
+    {
+      "id": "vivo-y78-2023",
+      "brand": "vivo",
+      "modelName": "vivo Y78",
+      "family": "vivo Y",
+      "releaseYear": 2023,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10739534_1.html",
+      "category": "phone",
+      "series": "vivo Y",
+      "status": "pending",
+      "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+      "sourceUrls": [
+        "https://detail.zol.com.cn/series/57/10739534_1.html"
+      ],
+      "sourceEvidence": {
+        "value": "vivo Y78",
+        "rawText": "vivo Y78",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10739534_1.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:38.811Z",
+        "sourceSnapshotHash": "e56c2713d5e340095c759392cb5fa581fbe26cf71e0928547445f9bef7f76433"
+      },
+      "listedYearEvidence": {
+        "value": 2023,
+        "rawText": "系列手机，是vivo2023年05月13日推出的手机",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10739534_1.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:38.811Z",
+        "sourceSnapshotHash": "e56c2713d5e340095c759392cb5fa581fbe26cf71e0928547445f9bef7f76433"
+      },
+      "yearBasis": "目录或参数年份；首售尚未核验",
+      "marketVerification": "尚未核验",
+      "group": "y",
+      "seriesId": "10739534",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/y78",
+      "withheldOfficialFields": [
+        "releaseDate",
+        "weight"
+      ],
+      "officialWarning": "官网上市2023年10月与2023年5月实际首售不符；重量配色183g璃光蓝/琉云青172g星夜黑不属于该机型标准色。日期使用国行逐SKU与实际首售报道，不扩展可疑重量字段。"
+    },
+    {
+      "id": "vivo-y200i-2024",
+      "brand": "vivo",
+      "modelName": "vivo Y200i",
+      "family": "vivo Y i",
+      "releaseYear": 2024,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10860154_1.html",
+      "category": "phone",
+      "series": "vivo Y i",
+      "status": "pending",
+      "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+      "sourceUrls": [
+        "https://detail.zol.com.cn/series/57/10860154_1.html"
+      ],
+      "sourceEvidence": {
+        "value": "vivo Y200i",
+        "rawText": "vivo Y200i",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10860154_1.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:39.613Z",
+        "sourceSnapshotHash": "210d71423335757853309948b0c2bb26e98bcfb81eb9030968495f259151d788"
+      },
+      "listedYearEvidence": {
+        "value": 2024,
+        "rawText": "系列手机，是vivo2024年4月27日推出的手机",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10860154_1.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:39.613Z",
+        "sourceSnapshotHash": "210d71423335757853309948b0c2bb26e98bcfb81eb9030968495f259151d788"
+      },
+      "yearBasis": "目录或参数年份；首售尚未核验",
+      "marketVerification": "尚未核验",
+      "group": "y-i",
+      "seriesId": "10860154",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/y200i",
+      "officialImporter": true,
+      "releaseFallback": {
+        "sourceUrl": "https://detail.zol.com.cn/series/57/1795/param_10860154_0_1.html",
+        "releaseDate": "2024-04-27",
+        "rawPattern": "上市日期 2024年4月27日"
+      }
+    },
+    {
+      "id": "vivo-y300-2024",
+      "brand": "vivo",
+      "modelName": "vivo Y300",
+      "family": "vivo Y",
+      "releaseYear": 2024,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/1795/param_10908654_0_1.html",
+      "category": "phone",
+      "series": "vivo Y",
+      "status": "pending",
+      "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+      "sourceUrls": [
+        "https://detail.zol.com.cn/series/57/1795/param_10908654_0_1.html"
+      ],
+      "sourceEvidence": {
+        "value": "vivo Y300",
+        "rawText": "vivo Y300参数",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/1795/param_10908654_0_1.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:39.825Z",
+        "sourceSnapshotHash": "0c617d5eb2359e079f1b4c3ccba9bebfe5e214d21b782829f0ea08ff04ebceb1"
+      },
+      "listedYearEvidence": {
+        "value": 2024,
+        "rawText": "国内发布时间 2024年12月16日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/1795/param_10908654_0_1.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:39.825Z",
+        "sourceSnapshotHash": "0c617d5eb2359e079f1b4c3ccba9bebfe5e214d21b782829f0ea08ff04ebceb1"
+      },
+      "yearBasis": "目录或参数年份；首售尚未核验",
+      "marketVerification": "尚未核验",
+      "group": "y",
+      "seriesId": "10908654",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/y300",
+      "officialImporter": true,
+      "releaseFallback": {
+        "sourceUrl": "https://www.ithome.com/0/818/905.htm",
+        "releaseDate": "2024-12-20",
+        "rawPattern": "vivo Y300 手机今日正式开售"
+      }
+    },
+    {
+      "id": "vivo-y300-gt-2025",
+      "brand": "vivo",
+      "modelName": "vivo Y300 GT",
+      "family": "vivo Y GT",
+      "releaseYear": 2025,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10913609_1.html",
+      "category": "phone",
+      "series": "vivo Y GT",
+      "status": "pending",
+      "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+      "sourceUrls": [
+        "https://detail.zol.com.cn/series/57/10913609_1.html"
+      ],
+      "sourceEvidence": {
+        "value": "vivo Y300 GT",
+        "rawText": "vivo Y300 GT",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10913609_1.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:40.030Z",
+        "sourceSnapshotHash": "039d947f0adbe567ee54a2de6cb0e87f1af39dfa098c00ac3736ccea651cb169"
+      },
+      "listedYearEvidence": {
+        "value": 2025,
+        "rawText": "系列手机，是vivo2025年05月9日推出的手机",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10913609_1.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:40.030Z",
+        "sourceSnapshotHash": "039d947f0adbe567ee54a2de6cb0e87f1af39dfa098c00ac3736ccea651cb169"
+      },
+      "yearBasis": "目录或参数年份；首售尚未核验",
+      "marketVerification": "尚未核验",
+      "group": "y-gt",
+      "seriesId": "10913609",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/y300gt",
+      "officialImporter": true,
+      "releaseFallback": {
+        "sourceUrl": "https://www.ithome.com/0/851/690.htm",
+        "releaseDate": "2025-05-09",
+        "rawPattern": "vivo Y300 GT 手机今日正式上市"
+      }
+    },
+    {
+      "id": "vivo-y500-2025",
+      "brand": "vivo",
+      "modelName": "vivo Y500",
+      "family": "vivo Y",
+      "releaseYear": 2025,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10918495_1.html",
+      "category": "phone",
+      "series": "vivo Y",
+      "status": "pending",
+      "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+      "sourceUrls": [
+        "https://detail.zol.com.cn/series/57/10918495_1.html"
+      ],
+      "sourceEvidence": {
+        "value": "vivo Y500",
+        "rawText": "vivo Y500",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10918495_1.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:40.825Z",
+        "sourceSnapshotHash": "56170186aecba11f347eb353c819549aed919176236659324ef2031ae03945d4"
+      },
+      "listedYearEvidence": {
+        "value": 2025,
+        "rawText": "系列手机，是vivo2025年09月01日推出的手机",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10918495_1.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:40.825Z",
+        "sourceSnapshotHash": "56170186aecba11f347eb353c819549aed919176236659324ef2031ae03945d4"
+      },
+      "yearBasis": "目录或参数年份；首售尚未核验",
+      "marketVerification": "尚未核验",
+      "group": "y",
+      "seriesId": "10918495",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/y500",
+      "officialImporter": true,
+      "releaseFallback": {
+        "sourceUrl": "https://www.ithome.com/0/880/573.htm",
+        "releaseDate": "2025-09-05",
+        "rawPattern": "vivo Y500 正式开售"
+      }
+    },
+    {
+      "id": "iqoo-neo9s-pro-plus-2024",
+      "brand": "vivo",
+      "modelName": "iQOO Neo9S Pro+",
+      "family": "iQOO Neo S Pro+",
+      "releaseYear": 2024,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/55075/param_10869558_0_1.html",
+      "category": "phone",
+      "series": "iQOO Neo S Pro+",
+      "status": "pending",
+      "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+      "sourceUrls": [
+        "https://detail.zol.com.cn/series/57/55075/param_10869558_0_1.html"
+      ],
+      "sourceEvidence": {
+        "value": "iQOO Neo9S Pro+",
+        "rawText": "iQOO Neo9S Pro+参数",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/55075/param_10869558_0_1.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:40.942Z",
+        "sourceSnapshotHash": "2c1af26b9210309be305d904aede55ea9e16a81ba3ca878da14c66b74907cf35"
+      },
+      "listedYearEvidence": {
+        "value": 2024,
+        "rawText": "上市日期 2024年7月16日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/55075/param_10869558_0_1.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:40.942Z",
+        "sourceSnapshotHash": "2c1af26b9210309be305d904aede55ea9e16a81ba3ca878da14c66b74907cf35"
+      },
+      "yearBasis": "目录或参数年份；首售尚未核验",
+      "marketVerification": "尚未核验",
+      "group": "iqoo-neo-s-pro-plus",
+      "seriesId": "10869558",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/iqooneo9sproplus",
+      "officialImporter": true,
+      "releaseFallback": {
+        "sourceUrl": "https://www.3elife.net/Art/mobile/202407/16/95318.html",
+        "releaseDate": "2024-07-16",
+        "rawPattern": "今天上午这款机型也已正式上市"
+      }
+    },
+    {
+      "id": "iqoo-neo11-2025",
+      "brand": "vivo",
+      "modelName": "iQOO Neo11",
+      "family": "iQOO Neo",
+      "releaseYear": 2025,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/55075/param_10920633_0_1.html",
+      "category": "phone",
+      "series": "iQOO Neo",
+      "status": "pending",
+      "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+      "sourceUrls": [
+        "https://detail.zol.com.cn/series/57/55075/param_10920633_0_1.html"
+      ],
+      "sourceEvidence": {
+        "value": "iQOO Neo11",
+        "rawText": "iQOO Neo11参数",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/55075/param_10920633_0_1.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:41.150Z",
+        "sourceSnapshotHash": "d223eed4acb4d2eceeff0ad8214df408a1a94898b6f3a696fec07be82a65bd56"
+      },
+      "listedYearEvidence": {
+        "value": 2025,
+        "rawText": "上市日期 2025年10月30日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/55075/param_10920633_0_1.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:41.150Z",
+        "sourceSnapshotHash": "d223eed4acb4d2eceeff0ad8214df408a1a94898b6f3a696fec07be82a65bd56"
+      },
+      "yearBasis": "目录或参数年份；首售尚未核验",
+      "marketVerification": "尚未核验",
+      "group": "iqoo-neo",
+      "seriesId": "10920633",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/iqooneo11",
+      "officialImporter": true,
+      "releaseFallback": {
+        "sourceUrl": "https://www.ithome.com/0/893/627.htm",
+        "releaseDate": "2025-10-30",
+        "rawPattern": "iQOO Neo11 手机今晚发布[^。]*?现已开售"
+      }
+    },
+    {
+      "id": "vivo-y600-pro-2026",
+      "brand": "vivo",
+      "modelName": "vivo Y600 Pro",
+      "family": "vivo Y Pro",
+      "releaseYear": 2026,
+      "sourceUrl": "https://m.vivo.com.cn/brand/news/detail?id=1355&type=0",
+      "articlePattern": "2026年4月27日，vivo Y600 Pro正式发布",
+      "category": "phone",
+      "series": "vivo Y Pro",
+      "status": "pending",
+      "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+      "sourceUrls": [
+        "https://m.vivo.com.cn/brand/news/detail?id=1355&type=0"
+      ],
+      "sourceEvidence": {
+        "value": "vivo Y600 Pro",
+        "rawText": "2026年4月27日，vivo Y600 Pro正式发布",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://m.vivo.com.cn/brand/news/detail?id=1355&type=0",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:41.656Z",
+        "sourceSnapshotHash": "6ee0cd9e5f4f0b3184812e1b2f40a2ff796e64cf3805b2b21de41aac84047359"
+      },
+      "listedYearEvidence": {
+        "value": 2026,
+        "rawText": "2026年4月27日，vivo Y600 Pro正式发布",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://m.vivo.com.cn/brand/news/detail?id=1355&type=0",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:41.656Z",
+        "sourceSnapshotHash": "6ee0cd9e5f4f0b3184812e1b2f40a2ff796e64cf3805b2b21de41aac84047359"
+      },
+      "yearBasis": "发布报道年份；首售尚未核验",
+      "marketVerification": "尚未核验",
+      "group": "y-pro",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/y600pro",
+      "officialImporter": true,
+      "releaseFallback": {
+        "sourceUrl": "https://www.ithome.com/0/945/295.htm",
+        "releaseDate": "2026-04-30",
+        "rawPattern": "vivo Y600 Pro 手机今日正式开售"
+      }
+    },
+    {
+      "id": "honor-magic-vs2-2023",
+      "brand": "HONOR",
+      "modelName": "荣耀Magic Vs2",
+      "family": "荣耀 Magic Vs",
+      "releaseYear": 2023,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/10814763_1.html",
+      "category": "phone",
+      "series": "荣耀 Magic Vs",
+      "status": "pending",
+      "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+      "sourceUrls": [
+        "https://detail.zol.com.cn/series/57/10814763_1.html"
+      ],
+      "sourceEvidence": {
+        "value": "荣耀Magic Vs2",
+        "rawText": "荣耀Magic Vs2",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10814763_1.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:42.038Z",
+        "sourceSnapshotHash": "b5975d22fca24c6c907c6a9ecae579926e483a42f055b994b83cc04e308d0e43"
+      },
+      "listedYearEvidence": {
+        "value": 2023,
+        "rawText": "系列手机，是荣耀2023年10月17日推出的手机",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/10814763_1.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:42.038Z",
+        "sourceSnapshotHash": "b5975d22fca24c6c907c6a9ecae579926e483a42f055b994b83cc04e308d0e43"
+      },
+      "yearBasis": "目录或参数年份；首售尚未核验",
+      "marketVerification": "尚未核验",
+      "group": "magic-vs",
+      "seriesId": "10814763",
+      "officialSpecUrl": "https://www.honor.com/cn/phones/honor-magic-vs-2/spec/",
+      "releaseFallback": {
+        "sourceUrl": "https://www.ithome.com/0/725/374.htm",
+        "releaseDate": "2023-10-17",
+        "rawPattern": "荣耀 Magic Vs2 折叠屏手机今日正式开售"
+      }
+    },
+    {
+      "id": "honor-magic-vs3-2024",
+      "brand": "HONOR",
+      "modelName": "荣耀Magic Vs3",
+      "family": "荣耀 Magic Vs",
+      "releaseYear": 2024,
+      "sourceUrl": "https://detail.zol.com.cn/series/57/50840/param_10883112_0_1.html",
+      "category": "phone",
+      "series": "荣耀 Magic Vs",
+      "status": "pending",
+      "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+      "sourceUrls": [
+        "https://detail.zol.com.cn/series/57/50840/param_10883112_0_1.html"
+      ],
+      "sourceEvidence": {
+        "value": "荣耀Magic Vs3",
+        "rawText": "荣耀Magic Vs3参数",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/50840/param_10883112_0_1.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:42.304Z",
+        "sourceSnapshotHash": "f8d26eecbad2ccf1ab22e6331355a83393a6f48ba1cc6dee28f212602e787bb4"
+      },
+      "listedYearEvidence": {
+        "value": 2024,
+        "rawText": "上市日期 2024年07月19日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/series/57/50840/param_10883112_0_1.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:42.304Z",
+        "sourceSnapshotHash": "f8d26eecbad2ccf1ab22e6331355a83393a6f48ba1cc6dee28f212602e787bb4"
+      },
+      "yearBasis": "目录或参数年份；首售尚未核验",
+      "marketVerification": "尚未核验",
+      "group": "magic-vs",
+      "seriesId": "10883112",
+      "officialSpecUrl": "https://www.honor.com/cn/phones/honor-magic-vs-3/spec/",
+      "releaseFallback": {
+        "sourceUrl": "https://news.zol.com.cn/885/8852855.html",
+        "releaseDate": "2024-07-19",
+        "rawPattern": "7月19日，荣耀Magic V3、荣耀Magic Vs3双折叠旗舰全渠道正式开售"
+      }
+    },
+    {
+      "id": "honor-magic-v6-2026",
+      "brand": "HONOR",
+      "modelName": "荣耀Magic V6",
+      "family": "荣耀 Magic V",
+      "releaseYear": 2026,
+      "sourceUrl": "https://www.honor.com/cn/news/honor-magic-v6-launch/",
+      "articlePattern": "2026年3月10日，[^。]*荣耀Magic V6\\s*新品发布会",
+      "category": "phone",
+      "series": "荣耀 Magic V",
+      "status": "pending",
+      "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+      "sourceUrls": [
+        "https://www.honor.com/cn/news/honor-magic-v6-launch/"
+      ],
+      "sourceEvidence": {
+        "value": "荣耀Magic V6",
+        "rawText": "2026年3月10日，全球领先的AI终端生态公司荣耀（HONOR）在深圳举办“屏实力 展锋芒” 荣耀Magic V6 新品发布会",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/news/honor-magic-v6-launch/",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:43.250Z",
+        "sourceSnapshotHash": "de3ca3cdcaf92e003a3c264f4abefafd5f670f10decfa7ce74a845f6174bddcc"
+      },
+      "listedYearEvidence": {
+        "value": 2026,
+        "rawText": "2026年3月10日，全球领先的AI终端生态公司荣耀（HONOR）在深圳举办“屏实力 展锋芒” 荣耀Magic V6 新品发布会",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/news/honor-magic-v6-launch/",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:43.250Z",
+        "sourceSnapshotHash": "de3ca3cdcaf92e003a3c264f4abefafd5f670f10decfa7ce74a845f6174bddcc"
+      },
+      "yearBasis": "发布报道年份；首售尚未核验",
+      "marketVerification": "尚未核验",
+      "group": "magic-v",
+      "seriesId": "10924310",
+      "officialSpecUrl": "https://www.honor.com/cn/phones/honor-magic-v6/spec/",
+      "releaseFallback": {
+        "sourceUrl": "https://phone.cnmo.com/news/805404.html",
+        "releaseDate": "2026-03-13",
+        "rawPattern": "3月13日，荣耀新款折叠屏手机Magic V6在荣耀商城、各大授权电商平台及线下门店全面开售"
+      }
+    },
+    {
+      "id": "honor-600-pro-2026",
+      "brand": "HONOR",
+      "modelName": "荣耀600 Pro",
+      "family": "荣耀数字 Pro",
+      "releaseYear": 2026,
+      "sourceUrl": "https://www.honor.com/cn/news/honor-600-launch/",
+      "articlePattern": "2026年5月25日[^]*?荣耀600 Pro",
+      "category": "phone",
+      "series": "荣耀数字 Pro",
+      "status": "pending",
+      "reason": "仅核验候选目录或报道身份年份；国行实际首售、独立SKU与配色本批尚未开展",
+      "sourceUrls": [
+        "https://www.honor.com/cn/news/honor-600-launch/"
+      ],
+      "sourceEvidence": {
+        "value": "荣耀600 Pro",
+        "rawText": "2026年5月25日 新闻 超级4K实况神机，全新“幸运星”荣耀600系列发布，国补价2294.15元起 - - \" title=\"SHARE\">SHARE - - \" title=\"\"> - - \" title=\"\"> 复制到剪切板 微信扫描二维码分享文章 分享给朋友 分享到朋友圈 2026年5月25日，以“4K Live星光毕业歌会”为主题的荣耀600系列新品发布会在厦门举行，新品凭借独特“幸运星”潮流设计、行业唯一全焦段4K Live直出、“教科书级” 护眼、档位超大8600mAh电池四大核心创新，实现体验全方位升级，为年轻人带来好看、好拍、护眼、好用的“超级4K实况神机”！荣耀600系列共推出Pro版、超级版、元气版三款机型，国补价2294.15元起。 独特“幸运星”ID设计，打造数字系列史上最精致外观 手握幸运星，好事自然成！荣耀600系列精准贴合年轻用户对高颜值与美好寓意的双重追求，并延续了数字系列一贯的年轻潮流基因，在颜色、纹理、光影、工艺上进一步探索。 荣耀600 Pro",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/news/honor-600-launch/",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:43.315Z",
+        "sourceSnapshotHash": "7a36e46afba072472a9fdccf7c6857fde334fe64f7abf399d13cb58cd7ff2975"
+      },
+      "listedYearEvidence": {
+        "value": 2026,
+        "rawText": "2026年5月25日 新闻 超级4K实况神机，全新“幸运星”荣耀600系列发布，国补价2294.15元起 - - \" title=\"SHARE\">SHARE - - \" title=\"\"> - - \" title=\"\"> 复制到剪切板 微信扫描二维码分享文章 分享给朋友 分享到朋友圈 2026年5月25日，以“4K Live星光毕业歌会”为主题的荣耀600系列新品发布会在厦门举行，新品凭借独特“幸运星”潮流设计、行业唯一全焦段4K Live直出、“教科书级” 护眼、档位超大8600mAh电池四大核心创新，实现体验全方位升级，为年轻人带来好看、好拍、护眼、好用的“超级4K实况神机”！荣耀600系列共推出Pro版、超级版、元气版三款机型，国补价2294.15元起。 独特“幸运星”ID设计，打造数字系列史上最精致外观 手握幸运星，好事自然成！荣耀600系列精准贴合年轻用户对高颜值与美好寓意的双重追求，并延续了数字系列一贯的年轻潮流基因，在颜色、纹理、光影、工艺上进一步探索。 荣耀600 Pro",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.honor.com/cn/news/honor-600-launch/",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:17:43.315Z",
+        "sourceSnapshotHash": "7a36e46afba072472a9fdccf7c6857fde334fe64f7abf399d13cb58cd7ff2975"
+      },
+      "yearBasis": "发布报道年份；首售尚未核验",
+      "marketVerification": "尚未核验",
+      "group": "number-pro",
+      "seriesId": "10926553",
+      "officialSpecUrl": "https://www.honor.com/cn/phones/honor-600-pro/spec/",
+      "releaseFallback": {
+        "sourceUrl": "https://g.pconline.com.cn/x/2161/21614611.html",
+        "releaseDate": "2026-05-29",
+        "rawPattern": "今日正式开售的机型为荣耀600 超级版和荣耀600 Pro"
+      }
+    }
+  ],
+  "priorBatch": "batch4",
+  "asOf": "2026-10-06",
+  "scope": "仅处理上一批有来源的16项手机差集与指定官方缺项；平板沿用partial目录，不新增未知范围。",
+  "configurationRule": "制造商明确成对价目SKU或RAM+ROM成对清单；或者ZOL逐SKU单值。X100 LPDDR5T限量版独立device，禁止同RAMROM重复行混并。"
+}

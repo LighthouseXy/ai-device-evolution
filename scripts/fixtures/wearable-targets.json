@@ -1,0 +1,4069 @@
+[
+  {
+    "id": "xiaomi-watch-s3-2023",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米 Watch S3 标准版",
+    "sourceName": "小米Watch S3",
+    "family": "小米 Watch S",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1936/1935695/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1935695.shtml",
+    "releaseUrl": "https://www.ithome.com/0/727/918.htm",
+    "releasePattern": "小米手表 S3 正式发布[^。]{0,100}"
+  },
+  {
+    "id": "huawei-watch-fit-3-2024",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为 WATCH FIT 3 幻夜黑氟橡胶版",
+    "sourceName": "华为WATCH FIT 3",
+    "family": "华为 WATCH FIT",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/2006/2005378/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2005378.shtml",
+    "releaseUrl": "https://www.ithome.com/0/768/139.htm",
+    "releasePattern": "华为 WATCH FIT 3 智能手表今日正式在国内发布[^。]{0,120}"
+  },
+  {
+    "id": "honor-watch-fit-2025",
+    "brand": "HONOR",
+    "category": "watch",
+    "modelName": "荣耀手表 Fit 活力版",
+    "sourceName": "荣耀手表Fit 活力版",
+    "family": "荣耀手表 Fit",
+    "year": 2025,
+    "params": "https://detail.zol.com.cn/2130/2129139/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2129139.shtml",
+    "releaseUrl": "https://www.ithome.com/0/856/695.htm",
+    "releasePattern": "荣耀手表 Fit 正式发布",
+    "supplement": {
+      "batteryLife": "长续航模式 23 天，AOD 模式续航 9 天"
+    }
+  },
+  {
+    "id": "xiaomi-band-7-2022",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环7 标准版",
+    "sourceName": "小米手环7",
+    "family": "小米手环",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1410/1409755/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1409755.shtml",
+    "releaseUrl": "https://www.ithome.com/0/620/299.htm",
+    "releasePattern": "小米手环 7 今日晚间正式发布[^。]{0,120}",
+    "supplement": {
+      "displayType": "AMOLED 跑道屏"
+    }
+  },
+  {
+    "id": "xiaomi-band-8-2023",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环8 标准版",
+    "sourceName": "小米手环8",
+    "family": "小米手环",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1512/1511431/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1511431.shtml",
+    "releaseUrl": "https://www.ithome.com/0/687/331.htm",
+    "releasePattern": "小米手环 8 正式发布[^。]{0,120}"
+  },
+  {
+    "id": "huawei-band-9-nfc-2024",
+    "brand": "Huawei",
+    "category": "band",
+    "modelName": "华为手环9 NFC版",
+    "sourceName": "华为手环9",
+    "family": "华为手环",
+    "variant": "nfc",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/1995/1994587/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1994587.shtml",
+    "releaseUrl": "https://www.ithome.com/0/760/471.htm",
+    "releasePattern": "华为手环 9 正式上线[^。]{0,120}"
+  },
+  {
+    "id": "redmi-watch-5-2024",
+    "brand": "Redmi",
+    "category": "watch",
+    "modelName": "Redmi Watch 5 蓝牙版",
+    "sourceName": "Redmi Watch 5 蓝牙版",
+    "family": "Redmi Watch",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/2116/2115338/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2115338.shtml",
+    "releaseUrl": "https://www.ithome.com/0/813/726.htm",
+    "releasePattern": "REDMI Watch 5 智能手表正式发布[^。]{0,100}"
+  },
+  {
+    "id": "xiaomi-watch-s4-2024",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米 Watch S4 标准版",
+    "sourceName": "小米Watch S4 标准",
+    "family": "小米 Watch S",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/2113/2112072/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2112072.shtml",
+    "releaseUrl": "https://www.ithome.com/0/806/306.htm",
+    "releasePattern": "小米手表 S4 今日正式发布[^。]{0,100}"
+  },
+  {
+    "id": "xiaomi-band-10-2025",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环10 标准版",
+    "sourceName": "小米手环10",
+    "family": "小米手环",
+    "year": 2025,
+    "params": "https://detail.zol.com.cn/2132/2131524/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index2131524.shtml",
+    "releaseUrl": "https://www.ithome.com/0/863/950.htm",
+    "releasePattern": "小米手环 10 今日晚正式发布[^。]{0,120}"
+  },
+  {
+    "id": "huawei-watch-5-42-2025",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为 WATCH 5 42mm 幻夜黑不锈钢",
+    "sourceName": "华为WATCH 5",
+    "family": "华为 WATCH",
+    "variant": "42mm-stainless",
+    "year": 2025,
+    "params": "https://detail.zol.com.cn/2131/2130299/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2130299.shtml",
+    "releaseUrl": "https://www.ithome.com/0/860/045.htm",
+    "releasePattern": "2025 年 6 月 11 日[^。]{0,220}正式发布"
+  },
+  {
+    "id": "huawei-band-10-2025",
+    "brand": "Huawei",
+    "category": "band",
+    "modelName": "华为手环10 聚合纤维标准版",
+    "sourceName": "华为手环10",
+    "family": "华为手环",
+    "year": 2025,
+    "params": "https://detail.zol.com.cn/2124/2123962/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index2123962.shtml",
+    "releaseUrl": "https://www.ithome.com/0/839/348.htm",
+    "releasePattern": "华为手环 10 系列正式发布[^。]{0,120}"
+  },
+  {
+    "id": "vivo-watch-3-2023",
+    "brand": "vivo",
+    "category": "watch",
+    "modelName": "vivo WATCH 3 蓝牙软胶版",
+    "sourceName": "vivo WATCH 3",
+    "family": "vivo WATCH",
+    "variant": "bluetooth",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1949/1948990/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1948990.shtml",
+    "releaseUrl": "https://www.ithome.com/0/732/256.htm",
+    "releasePattern": "vivo WATCH 3 手表发布[^。]{0,100}"
+  },
+  {
+    "id": "samsung-galaxy-watch7-40-2024",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星 Galaxy Watch7 40mm 蓝牙版",
+    "sourceName": "三星Galaxy Watch 7 40mm蓝牙版",
+    "family": "Galaxy Watch",
+    "variant": "40mm-bluetooth",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/2082/2081375/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2081375.shtml",
+    "releaseUrl": "https://www.ithome.com/0/782/471.htm",
+    "releasePattern": "Galaxy Watch7 智能手表国行[^。]{0,160}发布"
+  },
+  {
+    "id": "oppo-band-2-2022",
+    "brand": "OPPO",
+    "category": "band",
+    "modelName": "OPPO 手环2 标准版",
+    "sourceName": "OPPO 手环 2 标准版",
+    "family": "OPPO 手环",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1425/1424040/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1424040.shtml",
+    "releaseUrl": "https://www.ithome.com/0/634/379.htm",
+    "releasePattern": "OPPO 手环 2 正式发布[^。]{0,140}"
+  },
+  {
+    "id": "xiaomi-band-9-2024",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环9 标准版",
+    "sourceName": "小米手环9",
+    "family": "小米手环",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/2094/2093871/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index2093871.shtml",
+    "releaseUrl": "https://www.ithome.com/0/783/038.htm",
+    "releasePattern": "小米手环 9 发布[^。]{0,120}",
+    "supplement": {
+      "displayType": "AMOLED 屏幕",
+      "batteryLife": "续航提升至 21 天"
+    }
+  },
+  {
+    "id": "honor-band-9-2024",
+    "brand": "HONOR",
+    "category": "band",
+    "modelName": "荣耀手环9 标准版",
+    "sourceName": "荣耀手环9",
+    "family": "荣耀手环",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/2004/2003753/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index2003753.shtml",
+    "releaseUrl": "https://www.ithome.com/0/756/521.htm",
+    "releasePattern": "荣耀手环 9 发布[^。]{0,120}"
+  },
+  {
+    "id": "redmi-watch-4-2023",
+    "brand": "Redmi",
+    "category": "watch",
+    "modelName": "Redmi Watch 4",
+    "sourceName": "Redmi Watch4",
+    "family": "Redmi Watch",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1961/1960056/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1960056.shtml",
+    "releaseUrl": "https://www.ithome.com/0/735/950.htm",
+    "releasePattern": "Redmi Watch 4 发布[^。]{0,120}"
+  },
+  {
+    "id": "oppo-watch-x-2024",
+    "brand": "OPPO",
+    "category": "watch",
+    "modelName": "OPPO Watch X 星夜飞行",
+    "sourceName": "OPPO Watch X",
+    "family": "OPPO Watch X",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/1991/1990660/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1990660.shtml",
+    "releaseUrl": "https://www.ithome.com/0/757/506.htm",
+    "releasePattern": "OPPO Watch X[^。]{0,120}正式发布"
+  },
+  {
+    "id": "xiaomi-band-3-2018",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环3 标准版",
+    "sourceName": "小米手环3参数",
+    "family": "小米手环",
+    "year": 2018,
+    "params": "https://detail.zol.com.cn/1209/1208316/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1208316.shtml",
+    "releaseUrl": "https://www.ithome.com/0/387/825.htm",
+    "releasePattern": "今年5月31号，小米正式发布了标准版的小米手环3"
+  },
+  {
+    "id": "xiaomi-band-3-nfc-2018",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环3 NFC版",
+    "sourceName": "小米手环3 NFC版",
+    "family": "小米手环",
+    "variant": "nfc",
+    "year": 2018,
+    "params": "https://detail.zol.com.cn/1218/1217595/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1217595.shtml",
+    "releaseUrl": "https://www.ithome.com/0/387/825.htm",
+    "releasePattern": "9月19号，NFC版的小米手环3终于上市了"
+  },
+  {
+    "id": "xiaomi-band-4-2019",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环4 标准版",
+    "sourceName": "小米手环4参数",
+    "family": "小米手环",
+    "year": 2019,
+    "params": "https://detail.zol.com.cn/1280/1279071/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1279071.shtml",
+    "releaseUrl": "https://www.ithome.com/0/428/731.htm",
+    "releasePattern": "会上正式发布了小米手环4"
+  },
+  {
+    "id": "xiaomi-band-4-nfc-2019",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环4 NFC版",
+    "sourceName": "小米手环4 NFC版",
+    "family": "小米手环",
+    "variant": "nfc",
+    "year": 2019,
+    "params": "https://detail.zol.com.cn/1272/1271895/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1271895.shtml",
+    "releaseUrl": "https://www.ithome.com/0/428/731.htm",
+    "releasePattern": "小米手环4 NFC版明天上午10点首卖"
+  },
+  {
+    "id": "xiaomi-band-5-2020",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环5 标准版",
+    "sourceName": "小米手环5参数",
+    "family": "小米手环",
+    "year": 2020,
+    "params": "https://detail.zol.com.cn/1325/1324907/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1324907.shtml",
+    "releaseUrl": "https://www.ithome.com/0/492/073.htm",
+    "releasePattern": "小米手环 5 正式发布"
+  },
+  {
+    "id": "xiaomi-band-5-nfc-2020",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环5 NFC版",
+    "sourceName": "小米手环5 NFC版",
+    "family": "小米手环",
+    "variant": "nfc",
+    "year": 2020,
+    "params": "https://detail.zol.com.cn/1328/1327334/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1327334.shtml",
+    "releaseUrl": "https://www.ithome.com/0/492/073.htm",
+    "releasePattern": "小米手环 5 正式发布"
+  },
+  {
+    "id": "xiaomi-band-6-2021",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环6 标准版",
+    "sourceName": "小米手环6参数",
+    "family": "小米手环",
+    "year": 2021,
+    "params": "https://detail.zol.com.cn/1365/1364081/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1364081.shtml",
+    "releaseUrl": "https://www.ithome.com/0/542/951.htm",
+    "releasePattern": "现在公布了最新的小米手环 6",
+    "supplement": {
+      "batteryLife": "拥有 14 天超长续航"
+    }
+  },
+  {
+    "id": "xiaomi-band-6-nfc-2021",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环6 NFC版",
+    "sourceName": "小米手环6 NFC版",
+    "family": "小米手环",
+    "variant": "nfc",
+    "year": 2021,
+    "params": "https://detail.zol.com.cn/1365/1364839/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1364839.shtml",
+    "releaseUrl": "https://www.ithome.com/0/542/951.htm",
+    "releasePattern": "现在公布了最新的小米手环 6",
+    "supplement": {
+      "batteryLife": "拥有 14 天超长续航"
+    }
+  },
+  {
+    "id": "xiaomi-band-7-nfc-2022",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环7 NFC版",
+    "sourceName": "小米手环7 NFC版",
+    "family": "小米手环",
+    "variant": "nfc",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1410/1409756/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1409756.shtml",
+    "releaseUrl": "https://www.ithome.com/0/620/299.htm",
+    "releasePattern": "小米手环 7 今日晚间正式发布[^。]{0,120}",
+    "supplement": {
+      "displayType": "AMOLED 跑道屏"
+    }
+  },
+  {
+    "id": "xiaomi-band-8-nfc-2023",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环8 NFC版",
+    "sourceName": "小米手环8（NFC版）",
+    "family": "小米手环",
+    "variant": "nfc",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1514/1513521/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1513521.shtml",
+    "releaseUrl": "https://www.ithome.com/0/687/331.htm",
+    "releasePattern": "小米手环 8 正式发布[^。]{0,120}"
+  },
+  {
+    "id": "xiaomi-band-9-nfc-2024",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环9 NFC标准版",
+    "sourceName": "小米9 NFC 标准",
+    "family": "小米手环",
+    "variant": "nfc",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/2099/2098398/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index2098398.shtml",
+    "releaseUrl": "https://www.ithome.com/0/783/038.htm",
+    "releasePattern": "小米手环 9 发布[^。]{0,120}",
+    "supplement": {
+      "batteryLife": "NFC 版为 18 天"
+    }
+  },
+  {
+    "id": "xiaomi-band-7-pro-2022",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环7 Pro",
+    "sourceName": "小米手环7 Pro",
+    "family": "小米手环",
+    "variant": "pro",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1418/1417553/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1417553.shtml",
+    "releaseUrl": "https://www.ithome.com/0/628/453.htm",
+    "releasePattern": "小米手环 7 Pro 正式发布",
+    "supplement": {
+      "batteryLife": "小米手环 7 Pro 最高续航 12 天"
+    }
+  },
+  {
+    "id": "xiaomi-band-8-pro-2023",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环8 Pro TPU腕带版",
+    "sourceName": "小米手环8 Pro TPU腕带",
+    "family": "小米手环",
+    "variant": "pro",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1843/1842774/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1842774.shtml",
+    "releaseUrl": "https://www.ithome.com/0/712/332.htm",
+    "releasePattern": "小米正式推出了全新的小米手环 8 Pro",
+    "supplement": {
+      "batteryLife": "可实现 14 天续航（IT之家注：AOD 模式仅 6 天）"
+    }
+  },
+  {
+    "id": "xiaomi-band-9-pro-2024",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环9 Pro TPU腕带版",
+    "sourceName": "小米手环 9 Pro",
+    "family": "小米手环",
+    "variant": "pro",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/2113/2112071/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index2112071.shtml",
+    "releaseUrl": "https://www.ithome.com/0/806/241.htm",
+    "releasePattern": "小米手环 9 Pro 发布",
+    "supplement": {
+      "strapMaterial": "TPU 腕带款"
+    }
+  },
+  {
+    "id": "xiaomi-watch-s1-2021",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米 Watch S1 曜石黑氟橡胶版",
+    "sourceName": "小米Watch S1（曜石黑+黑色氟橡胶表带）",
+    "family": "小米 Watch S",
+    "year": 2021,
+    "params": "https://detail.zol.com.cn/1397/1396184/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1396184.shtml",
+    "releaseUrl": "https://www.ithome.com/0/595/394.htm",
+    "releasePattern": "小米为商务人士带来了小米 Watch S1 高端智能手表"
+  },
+  {
+    "id": "xiaomi-watch-s1-pro-2022",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米 Watch S1 Pro 真皮版",
+    "sourceName": "Xiaomi Watch S1 Pro（真皮表带）",
+    "family": "小米 Watch S",
+    "variant": "pro",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1425/1424083/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1424083.shtml",
+    "releaseUrl": "https://www.ithome.com/0/634/612.htm",
+    "releasePattern": "小米发布了小米手表 S1 Pro",
+    "supplement": {
+      "batteryLife": "典型续航可达 14 天"
+    }
+  },
+  {
+    "id": "xiaomi-watch-s2-42-2022",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米 Watch S2 42mm 黑色硅胶版",
+    "sourceName": "小米Watch S2（42mm/黑色/黑硅胶表带）",
+    "family": "小米 Watch S",
+    "variant": "42mm",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1435/1434620/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1434620.shtml",
+    "releaseUrl": "https://www.ithome.com/0/660/344.htm",
+    "releasePattern": "正式发布了智能穿戴新品小米 Watch S2",
+    "paramSupplement": {
+      "strapMaterial": "黑硅胶表带",
+      "caseSize": "42mm"
+    },
+    "exclusions": {
+      "wifi": {
+        "url": "https://www.mi.com/ph/support/faq/details/KA-91530/",
+        "model": "Xiaomi Watch S2",
+        "pattern": "WLAN Not support Not support \\(it can be shared and connected via Bluetooth network\\)",
+        "reason": "ZOL 的 Wi-Fi 支持描述与小米官方支持资料冲突；撤下可疑值，未用海外规格替代国行结论"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-watch-s2-46-2022",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米 Watch S2 46mm 黑色硅胶版",
+    "sourceName": "小米Watch S2（46mm/黑色/黑硅胶表带）",
+    "family": "小米 Watch S",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1437/1436279/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1436279.shtml",
+    "releaseUrl": "https://www.ithome.com/0/660/344.htm",
+    "releasePattern": "正式发布了智能穿戴新品小米 Watch S2",
+    "paramSupplement": {
+      "strapMaterial": "黑硅胶表带",
+      "caseSize": "46mm"
+    },
+    "exclusions": {
+      "wifi": {
+        "url": "https://www.mi.com/ph/support/faq/details/KA-91530/",
+        "model": "Xiaomi Watch S2",
+        "pattern": "WLAN Not support Not support \\(it can be shared and connected via Bluetooth network\\)",
+        "reason": "ZOL 的 Wi-Fi 支持描述与小米官方支持资料冲突；撤下可疑值，未用海外规格替代国行结论"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-watch-s3-esim-2023",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米 Watch S3 eSIM版",
+    "sourceName": "小米Watch S3 eSIM版",
+    "family": "小米 Watch S",
+    "variant": "esim",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1936/1935696/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1935696.shtml",
+    "releaseUrl": "https://www.ithome.com/0/727/918.htm",
+    "releasePattern": "小米手表 S3 正式发布[^。]{0,100}"
+  },
+  {
+    "id": "xiaomi-watch-s4-esim-2024",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米 Watch S4 eSIM版",
+    "sourceName": "小米Watch S4 eSIM版",
+    "family": "小米 Watch S",
+    "variant": "esim",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/2113/2112073/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2112073.shtml",
+    "releaseUrl": "https://www.ithome.com/0/806/306.htm",
+    "releasePattern": "小米手表 S4 今日正式发布[^。]{0,100}"
+  },
+  {
+    "id": "xiaomi-watch-color-2019",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米 Watch Color",
+    "sourceName": "小米手表Color参数",
+    "family": "小米 Watch Color",
+    "year": 2019,
+    "params": "https://detail.zol.com.cn/1308/1307147/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1307147.shtml",
+    "releaseUrl": "https://www.ithome.com/0/466/067.htm",
+    "releasePattern": "小米早前正式发布新款小米手表Color"
+  },
+  {
+    "id": "xiaomi-watch-color-2-2021",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米 Watch Color 2",
+    "sourceName": "小米Watch Color 2",
+    "family": "小米 Watch Color",
+    "year": 2021,
+    "params": "https://detail.zol.com.cn/1390/1389560/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1389560.shtml",
+    "releaseUrl": "https://www.ithome.com/0/577/852.htm",
+    "releasePattern": "小米 Watch Color 2 智能手表发布",
+    "supplement": {
+      "batteryLife": "12 天续航"
+    }
+  },
+  {
+    "id": "xiaomi-watch-color-sport-2020",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米 Watch Color 运动版",
+    "sourceName": "小米手表Color 运动版",
+    "family": "小米 Watch Color",
+    "variant": "sport",
+    "year": 2020,
+    "params": "https://detail.zol.com.cn/1344/1343833/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1343833.shtml",
+    "releaseUrl": "https://www.ithome.com/0/514/547.htm",
+    "releasePattern": "小米今天宣布推出小米手表 Color 运动版"
+  },
+  {
+    "id": "redmi-watch-2020",
+    "brand": "Redmi",
+    "category": "watch",
+    "modelName": "Redmi Watch",
+    "sourceName": "Redmi Watch参数",
+    "family": "Redmi Watch",
+    "year": 2020,
+    "params": "https://detail.zol.com.cn/1342/1341372/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1341372.shtml",
+    "releaseUrl": "https://www.ithome.com/0/521/663.htm",
+    "releasePattern": "首款智能手表产品"
+  },
+  {
+    "id": "redmi-watch-2-2021",
+    "brand": "Redmi",
+    "category": "watch",
+    "modelName": "Redmi Watch 2",
+    "sourceName": "Redmi Watch 2参数",
+    "family": "Redmi Watch",
+    "year": 2021,
+    "params": "https://detail.zol.com.cn/1393/1392423/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1392423.shtml",
+    "releaseUrl": "https://www.ithome.com/0/583/464.htm",
+    "releasePattern": "Redmi Watch 2 手表/Redmi Buds 3 青春版耳机发布"
+  },
+  {
+    "id": "redmi-watch-3-2022",
+    "brand": "Redmi",
+    "category": "watch",
+    "modelName": "Redmi Watch 3",
+    "sourceName": "Redmi Watch 3参数",
+    "family": "Redmi Watch",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1439/1438629/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1438629.shtml",
+    "releaseUrl": "https://www.ithome.com/0/663/931.htm",
+    "releasePattern": "Redmi Watch 3 大屏手表正式发布"
+  },
+  {
+    "id": "redmi-watch-5-esim-2024",
+    "brand": "Redmi",
+    "category": "watch",
+    "modelName": "Redmi Watch 5 eSIM版",
+    "sourceName": "Redmi Watch 5 eSIM版",
+    "family": "Redmi Watch",
+    "variant": "esim",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/2116/2115339/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2115339.shtml",
+    "releaseUrl": "https://www.ithome.com/0/813/726.htm",
+    "releasePattern": "REDMI Watch 5 智能手表正式发布[^。]{0,100}",
+    "supplement": {
+      "material": "高质感金属表框",
+      "batteryLife": "eSIM 典型续航模式标称可达 12 天"
+    },
+    "paramSupplement": {
+      "cellular": "eSIM版"
+    }
+  },
+  {
+    "id": "huawei-watch-gt-3-pro-46-2022",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为 WATCH GT 3 Pro 46mm 黑色氟橡胶版",
+    "sourceName": "HUAWEI WATCH GT 3 Pro 46mm（黑色氟橡胶表带）",
+    "family": "华为 WATCH GT",
+    "variant": "pro-46mm",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1407/1406445/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1406445.shtml",
+    "releaseUrl": "https://www.ithome.com/0/615/743.htm",
+    "releasePattern": "华为智能手表 WATCH GT 3 Pro 今晚正式发布"
+  },
+  {
+    "id": "huawei-watch-gt-4-46-2023",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为 WATCH GT 4 46mm 曜石黑氟橡胶版",
+    "sourceName": "华为WATCH GT 4 (46mm) 曜石黑 黑色氟橡胶表带",
+    "family": "华为 WATCH GT",
+    "variant": "46mm",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1917/1916066/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1916066.shtml",
+    "releaseUrl": "https://www.ithome.com/0/721/519.htm",
+    "releasePattern": "华为 WATCH GT 4 系列智能手表今日正式登场",
+    "supplement": {
+      "resolution": "46mm 版本提供 1\\.43 英寸 466×466 AMOLED 屏幕"
+    }
+  },
+  {
+    "id": "huawei-watch-gt-5-41-2024",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为 WATCH GT 5 41mm 魅影黑氟橡胶版",
+    "sourceName": "华为WATCH GT 5(41mm/魅影黑氟橡胶表带)",
+    "family": "华为 WATCH GT",
+    "variant": "41mm",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/2108/2107338/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2107338.shtml",
+    "releaseUrl": "https://www.ithome.com/0/797/000.htm",
+    "releasePattern": "华为 WATCH GT5 智能手表国行版今日已在官网开启全款预售"
+  },
+  {
+    "id": "huawei-watch-gt-6-41-2025",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为 WATCH GT 6 41mm 流光紫氟橡胶版",
+    "sourceName": "HUAWEI WATCH GT 6(流光紫/41mm/氟橡胶表带)",
+    "family": "华为 WATCH GT",
+    "variant": "41mm",
+    "year": 2025,
+    "params": "https://detail.zol.com.cn/2144/2143078/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2143078.shtml",
+    "releaseUrl": "https://www.ithome.com/0/885/417.htm",
+    "releasePattern": "华为 WATCH GT 6 系列正式发布"
+  },
+  {
+    "id": "huawei-watch-gt-6-46-2025",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为 WATCH GT 6 46mm 雅丹黑氟橡胶版",
+    "sourceName": "HUAWEI WATCH GT 6(雅丹黑/46mm/氟橡胶表带)",
+    "family": "华为 WATCH GT",
+    "variant": "46mm",
+    "year": 2025,
+    "params": "https://detail.zol.com.cn/2144/2143082/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2143082.shtml",
+    "releaseUrl": "https://www.ithome.com/0/885/417.htm",
+    "releasePattern": "华为 WATCH GT 6 系列正式发布"
+  },
+  {
+    "id": "huawei-watch-fit-4-2025",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为 WATCH FIT 4 韵律黑氟橡胶版",
+    "sourceName": "华为WATCH FIT 4 韵律黑 氟橡胶表带",
+    "family": "华为 WATCH FIT",
+    "year": 2025,
+    "params": "https://detail.zol.com.cn/2129/2128368/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2128368.shtml",
+    "releaseUrl": "https://www.ithome.com/0/854/272.htm",
+    "releasePattern": "何刚随之带来华为 WATCH FIT 4 系列智能手表",
+    "additionalSpecs": {
+      "url": "https://consumer.huawei.com/cn/wearables/watch-fit4/specs/",
+      "model": "HUAWEI WATCH FIT 4 规格参数",
+      "fields": {
+        "displayType": "AMOLED 彩色屏幕",
+        "dimensions": "43\\.0 × 38\\.0 × 9\\.5 mm",
+        "wearableWeight": "约 27 克（不含表带的重量）",
+        "positioning": "L1：GPS \\+ GLONASS \\+ GALILEO \\+ 北斗 \\+ QZSS L5：GPS \\+ GALILEO \\+ 北斗 \\+ QZSS"
+      }
+    }
+  },
+  {
+    "id": "huawei-watch-fit-4-pro-2025",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为 WATCH FIT 4 Pro 海岛蓝氟橡胶版",
+    "sourceName": "华为WATCH FIT 4 Pro 海岛蓝 氟橡胶表带",
+    "family": "华为 WATCH FIT",
+    "variant": "pro",
+    "year": 2025,
+    "params": "https://detail.zol.com.cn/2129/2128373/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2128373.shtml",
+    "releaseUrl": "https://www.ithome.com/0/854/272.htm",
+    "releasePattern": "何刚随之带来华为 WATCH FIT 4 系列智能手表",
+    "additionalSpecs": {
+      "url": "https://consumer.huawei.com/cn/wearables/watch-fit4-pro/specs/",
+      "model": "HUAWEI WATCH FIT 4 Pro 规格参数",
+      "fields": {
+        "displayType": "AMOLED 彩色屏幕",
+        "dimensions": "44\\.5 × 40\\.0 × 9\\.3 mm",
+        "wearableWeight": "约 30\\.4 克（不含表带的重量）",
+        "material": "中框：铝合金 表圈：钛合金",
+        "positioning": "L1：GPS \\+ GLONASS \\+ GALILEO \\+ 北斗 \\+ QZSS L5：GPS \\+ GALILEO \\+ 北斗 \\+ QZSS"
+      }
+    }
+  },
+  {
+    "id": "huawei-watch-fit-2-2022",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为 WATCH FIT 2 时尚款",
+    "sourceName": "华为Watch Fit 2 时尚款",
+    "family": "华为 WATCH FIT",
+    "variant": "leather",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1417/1416876/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1416876.shtml",
+    "releaseUrl": "https://www.ithome.com/0/627/806.htm",
+    "releasePattern": "华为今日下午发布了 Watch Fit 2 智能手表",
+    "supplement": {
+      "displayType": "1\\.74 英寸 336 x 480 AMOLED 彩屏",
+      "resolution": "336 x 480"
+    }
+  },
+  {
+    "id": "samsung-galaxy-watch-42-2018",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch（42mm）",
+    "sourceName": "三星Galaxy Watch（42mm）",
+    "family": "Galaxy Watch",
+    "variant": "42mm",
+    "year": 2018,
+    "params": "https://detail.zol.com.cn/1228/1227642/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1227642.shtml",
+    "releaseUrl": "https://www.ithome.com/0/377/073.htm",
+    "releasePattern": "正式发布了国行新款智能手表Galaxy Watch"
+  },
+  {
+    "id": "samsung-galaxy-watch-46-lte-2018",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch（独立通话/46mm）",
+    "sourceName": "三星Galaxy Watch（独立通话/46mm）",
+    "family": "Galaxy Watch",
+    "variant": "46mm-lte",
+    "year": 2018,
+    "params": "https://detail.zol.com.cn/1265/1264176/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1264176.shtml",
+    "releaseUrl": "https://www.ithome.com/0/377/073.htm",
+    "releasePattern": "正式发布了国行新款智能手表Galaxy Watch"
+  },
+  {
+    "id": "samsung-galaxy-watch-active-2019",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch Active",
+    "sourceName": "三星Galaxy Watch Active",
+    "family": "Galaxy Watch Active",
+    "variant": "standard",
+    "year": 2019,
+    "params": "https://detail.zol.com.cn/1258/1257408/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1257408.shtml",
+    "releaseUrl": "https://m.ithome.com/mip/html/411550.htm",
+    "releasePattern": "Galaxy Watch Active手表支持睡眠跟踪和压力管理功能"
+  },
+  {
+    "id": "samsung-galaxy-watch3-45-2020",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch3（45mm/蓝牙版）",
+    "sourceName": "三星Galaxy Watch3（45mm/蓝牙版）",
+    "family": "Galaxy Watch",
+    "variant": "45mm-bluetooth",
+    "year": 2020,
+    "params": "https://detail.zol.com.cn/1328/1327408/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1327408.shtml",
+    "releaseUrl": "https://www.ithome.com/0/503/209.htm",
+    "releasePattern": "三星正式发布了 Galaxy Watch 3 国行版"
+  },
+  {
+    "id": "samsung-galaxy-watch4-44-2021",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch4 44mm（蓝牙）",
+    "sourceName": "三星Galaxy Watch4 44mm（蓝牙）",
+    "family": "Galaxy Watch",
+    "variant": "44mm-bluetooth",
+    "year": 2021,
+    "params": "https://detail.zol.com.cn/1380/1379172/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1379172.shtml",
+    "releaseUrl": "https://www.ithome.com/0/572/892.htm",
+    "releasePattern": "现在发布了三星 Galaxy Watch4 和 Galaxy Watch4 Classic"
+  },
+  {
+    "id": "samsung-galaxy-watch4-40-2021",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch4 40mm（蓝牙）",
+    "sourceName": "三星Galaxy Watch4 40mm（蓝牙）",
+    "family": "Galaxy Watch",
+    "variant": "40mm-bluetooth",
+    "year": 2021,
+    "params": "https://detail.zol.com.cn/1383/1382510/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1382510.shtml",
+    "releaseUrl": "https://www.ithome.com/0/572/892.htm",
+    "releasePattern": "现在发布了三星 Galaxy Watch4 和 Galaxy Watch4 Classic",
+    "exclusions": {
+      "screenSize": {
+        "url": "https://detail.zol.com.cn/1383/1382510/param.shtml",
+        "model": "三星Galaxy Watch4 40mm（蓝牙）",
+        "pattern": "1\\.36英寸",
+        "reason": "40mm页的屏幕尺寸与44mm完全相同，疑似混用；待准确版本证据核验，不展示可疑值"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-watch4-classic-46-2021",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch4 Classic 46mm（蓝牙）",
+    "sourceName": "三星Galaxy Watch4 Classic 46mm（蓝牙）",
+    "family": "Galaxy Watch Classic",
+    "variant": "46mm-bluetooth",
+    "year": 2021,
+    "params": "https://detail.zol.com.cn/1380/1379175/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1379175.shtml",
+    "releaseUrl": "https://www.ithome.com/0/572/892.htm",
+    "releasePattern": "现在发布了三星 Galaxy Watch4 和 Galaxy Watch4 Classic"
+  },
+  {
+    "id": "samsung-galaxy-watch4-classic-46-lte-2021",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch4 Classic 46mm（LTE）",
+    "sourceName": "三星Galaxy Watch4 Classic 46mm（LTE）",
+    "family": "Galaxy Watch Classic",
+    "variant": "46mm-lte",
+    "year": 2021,
+    "params": "https://detail.zol.com.cn/1383/1382509/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1382509.shtml",
+    "releaseUrl": "https://www.ithome.com/0/572/892.htm",
+    "releasePattern": "现在发布了三星 Galaxy Watch4 和 Galaxy Watch4 Classic"
+  },
+  {
+    "id": "samsung-galaxy-watch5-40-2022",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch 5 40mm/蓝牙版",
+    "sourceName": "三星Galaxy Watch 5 40mm/蓝牙版",
+    "family": "Galaxy Watch",
+    "variant": "40mm-bluetooth",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1402/1401153/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1401153.shtml",
+    "releaseUrl": "https://www.ithome.com/0/636/504.htm",
+    "releasePattern": "三星 Galaxy Watch 5/5 Pro 智能手表的国行版本于今日发布",
+    "exclusions": {
+      "caseSize": {
+        "url": "https://detail.zol.com.cn/1402/1401153/param.shtml",
+        "model": "三星Galaxy Watch 5 40mm/蓝牙版",
+        "pattern": "30\\.4mm",
+        "reason": "原页将屏幕直径写入表壳直径；型号尺寸已标注，不展示混淆值"
+      },
+      "dimensions": {
+        "url": "https://detail.zol.com.cn/1402/1401153/param.shtml",
+        "model": "三星Galaxy Watch 5 40mm/蓝牙版",
+        "pattern": "43\\.3x44\\.4x9\\.8mm",
+        "reason": "40mm页尺寸与44mm页相同，版本不一致，待补充准确尺寸"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-watch5-44-2022",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch 5 44mm/蓝牙版",
+    "sourceName": "三星Galaxy Watch 5 44mm/蓝牙版",
+    "family": "Galaxy Watch",
+    "variant": "44mm-bluetooth",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1425/1424050/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1424050.shtml",
+    "releaseUrl": "https://www.ithome.com/0/636/504.htm",
+    "releasePattern": "三星 Galaxy Watch 5/5 Pro 智能手表的国行版本于今日发布",
+    "exclusions": {
+      "caseSize": {
+        "url": "https://detail.zol.com.cn/1425/1424050/param.shtml",
+        "model": "三星Galaxy Watch 5 44mm/蓝牙版",
+        "pattern": "34\\.6mm",
+        "reason": "原页将屏幕直径写入表壳直径；型号尺寸已标注，不展示混淆值"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-watch5-44-lte-2022",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch 5 44mm/LTE版",
+    "sourceName": "三星Galaxy Watch 5 44mm/LTE版",
+    "family": "Galaxy Watch",
+    "variant": "44mm-lte",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1426/1425373/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1425373.shtml",
+    "releaseUrl": "https://www.ithome.com/0/636/504.htm",
+    "releasePattern": "三星 Galaxy Watch 5/5 Pro 智能手表的国行版本于今日发布",
+    "exclusions": {
+      "caseSize": {
+        "url": "https://detail.zol.com.cn/1426/1425373/param.shtml",
+        "model": "三星Galaxy Watch 5 44mm/LTE版",
+        "pattern": "34\\.6mm",
+        "reason": "原页将屏幕直径写入表壳直径；型号尺寸已标注，不展示混淆值"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-watch6-40-2023",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch 6 （40mm/星河白）",
+    "sourceName": "三星Galaxy Watch 6 （40mm/星河白）",
+    "family": "Galaxy Watch",
+    "variant": "40mm-bluetooth",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1474/1473809/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1473809.shtml",
+    "releaseUrl": "https://www.ithome.com/0/710/163.htm",
+    "releasePattern": "三星今晚还推出了全新的 Galaxy Watch6 系列智能手表",
+    "exclusions": {
+      "cellular": {
+        "url": "https://detail.zol.com.cn/1474/1473809/param.shtml",
+        "model": "三星Galaxy Watch 6 （40mm/星河白）",
+        "pattern": "支持 ，eSIM卡",
+        "reason": "国行40mm为蓝牙版；参数页混入eSIM版本字段"
+      }
+    },
+    "supplement": {
+      "displayType": "Super AMOLED 屏幕",
+      "batteryLife": "打开 AoD 时电池续航时间可达 30 小时，在关闭 AoD 时可达 40 小时",
+      "waterResistance": "IP68 认证，[^。]+5ATM[^。]+",
+      "wearableChip": "Exynos W930 芯片组[^。]+",
+      "operatingSystem": "基于 Wear OS 4 的 One UI 5 Watch 系统"
+    }
+  },
+  {
+    "id": "samsung-galaxy-watch6-classic-47-2023",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch 6 Classic（47mm/星系银）",
+    "sourceName": "三星Galaxy Watch 6 Classic（47mm/星系银）",
+    "family": "Galaxy Watch Classic",
+    "variant": "47mm-bluetooth",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1474/1473811/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1473811.shtml",
+    "releaseUrl": "https://www.ithome.com/0/710/163.htm",
+    "releasePattern": "三星今晚还推出了全新的 Galaxy Watch6 系列智能手表",
+    "exclusions": {
+      "screenSize": {
+        "url": "https://detail.zol.com.cn/1474/1473811/param.shtml",
+        "model": "三星Galaxy Watch 6 Classic（47mm/星系银）",
+        "pattern": "1\\.47英寸",
+        "reason": "47mm页含疑似旧代或小尺寸参数，撤下冲突值，以本代发布/官方原文补充"
+      },
+      "batteryCapacity": {
+        "url": "https://detail.zol.com.cn/1474/1473811/param.shtml",
+        "model": "三星Galaxy Watch 6 Classic（47mm/星系银）",
+        "pattern": "300mAh",
+        "reason": "47mm页含疑似旧代或小尺寸参数，撤下冲突值，以本代发布/官方原文补充"
+      },
+      "compatibility": {
+        "url": "https://detail.zol.com.cn/1474/1473811/param.shtml",
+        "model": "三星Galaxy Watch 6 Classic（47mm/星系银）",
+        "pattern": "Android 6\\.0及以上",
+        "reason": "47mm页含疑似旧代或小尺寸参数，撤下冲突值，以本代发布/官方原文补充"
+      },
+      "bluetooth": {
+        "url": "https://detail.zol.com.cn/1474/1473811/param.shtml",
+        "model": "三星Galaxy Watch 6 Classic（47mm/星系银）",
+        "pattern": "支持 ，蓝牙5\\.0",
+        "reason": "47mm页含疑似旧代或小尺寸参数，撤下冲突值，以本代发布/官方原文补充"
+      }
+    },
+    "supplement": {
+      "displayType": "Super AMOLED 屏幕",
+      "batteryLife": "打开 AoD 时电池续航时间可达 30 小时，在关闭 AoD 时可达 40 小时",
+      "waterResistance": "IP68 认证，[^。]+5ATM[^。]+",
+      "wearableChip": "Exynos W930 芯片组[^。]+",
+      "operatingSystem": "基于 Wear OS 4 的 One UI 5 Watch 系统",
+      "batteryCapacityDetails": "425 mAh（较大尺寸的 44 毫米普通版或 47 毫米 Classic 版）"
+    }
+  },
+  {
+    "id": "samsung-galaxy-watch7-44-2024",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch 7 44mm蓝牙版",
+    "sourceName": "三星Galaxy Watch 7 44mm蓝牙版",
+    "family": "Galaxy Watch",
+    "variant": "44mm-bluetooth",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/2061/2060735/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2060735.shtml",
+    "releaseUrl": "https://www.ithome.com/0/780/950.htm",
+    "releasePattern": "发布了新款 Galaxy Watch7 与 Galaxy Watch Ultra"
+  },
+  {
+    "id": "samsung-galaxy-watch-ultra-2024",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch Ultra",
+    "sourceName": "三星Galaxy Watch Ultra",
+    "family": "Galaxy Watch Ultra",
+    "variant": "lte",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/2081/2080343/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2080343.shtml",
+    "releaseUrl": "https://www.ithome.com/0/780/950.htm",
+    "releasePattern": "发布了新款 Galaxy Watch7 与 Galaxy Watch Ultra",
+    "exclusions": {
+      "compatibility": {
+        "url": "https://detail.zol.com.cn/2081/2080343/param.shtml",
+        "model": "三星Galaxy Watch Ultra",
+        "pattern": "Android 1\\.1及以上",
+        "reason": "Android 1.1明显异常，未取得准确兼容条件，不展示"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-watch8-40-2025",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch8 40mm蓝牙版",
+    "sourceName": "三星Galaxy Watch8 40mm蓝牙版",
+    "family": "Galaxy Watch",
+    "variant": "40mm-bluetooth",
+    "year": 2025,
+    "params": "https://detail.zol.com.cn/2134/2133002/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2133002.shtml",
+    "releaseUrl": "https://www.ithome.com/0/866/989.htm",
+    "releasePattern": "三星今日正式发布了 Galaxy Watch 8 系列"
+  },
+  {
+    "id": "samsung-galaxy-watch8-44-2025",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch8 44mm 蓝牙版",
+    "sourceName": "三星Galaxy Watch8 44mm 蓝牙版",
+    "family": "Galaxy Watch",
+    "variant": "44mm-bluetooth",
+    "year": 2025,
+    "params": "https://detail.zol.com.cn/2134/2133001/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2133001.shtml",
+    "releaseUrl": "https://www.ithome.com/0/866/989.htm",
+    "releasePattern": "三星今日正式发布了 Galaxy Watch 8 系列",
+    "exclusions": {
+      "batteryCapacity": {
+        "url": "https://detail.zol.com.cn/2134/2133001/param.shtml",
+        "model": "三星Galaxy Watch8 44mm 蓝牙版",
+        "pattern": "325mAh",
+        "reason": "44mm页误用40mm电池容量；以本代发布原文为准"
+      }
+    },
+    "supplement": {
+      "batteryCapacityDetails": "44 毫米版本为 435mAh"
+    }
+  },
+  {
+    "id": "samsung-galaxy-watch8-44-lte-2025",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch8 44mm LTE版",
+    "sourceName": "三星Galaxy Watch8 44mm LTE版",
+    "family": "Galaxy Watch",
+    "variant": "44mm-lte",
+    "year": 2025,
+    "params": "https://detail.zol.com.cn/2134/2133003/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2133003.shtml",
+    "releaseUrl": "https://www.ithome.com/0/866/989.htm",
+    "releasePattern": "三星今日正式发布了 Galaxy Watch 8 系列",
+    "exclusions": {
+      "batteryCapacity": {
+        "url": "https://detail.zol.com.cn/2134/2133003/param.shtml",
+        "model": "三星Galaxy Watch8 44mm LTE版",
+        "pattern": "325mAh",
+        "reason": "44mm页误用40mm电池容量；以本代发布原文为准"
+      }
+    },
+    "supplement": {
+      "batteryCapacityDetails": "44 毫米版本为 435mAh"
+    }
+  },
+  {
+    "id": "samsung-galaxy-watch-ultra-2025",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch Ultra (2025) 钛屿蓝 47mm LTE版",
+    "sourceName": "三星Galaxy Watch Ultra (2025) 钛屿蓝 47mm LTE版",
+    "family": "Galaxy Watch Ultra",
+    "variant": "lte",
+    "year": 2025,
+    "params": "https://detail.zol.com.cn/2134/2133015/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2133015.shtml",
+    "releaseUrl": "https://www.ithome.com/0/866/989.htm",
+    "releasePattern": "略有升级的 2025 款 Galaxy Watch Ultra"
+  },
+  {
+    "id": "samsung-galaxy-watch9-40-2026",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch9 40mm 蓝牙版",
+    "sourceName": "三星Galaxy Watch9 40mm 蓝牙版",
+    "family": "Galaxy Watch",
+    "variant": "40mm-bluetooth",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2174/2173072/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2173072.shtml",
+    "releaseUrl": "https://www.ithome.com/0/980/317.htm",
+    "releasePattern": "三星今晚发布了 Galaxy Watch 9 和 Galaxy Watch Ultra2 手表",
+    "exclusions": {
+      "wearableChip": {
+        "url": "https://detail.zol.com.cn/2174/2173072/param.shtml",
+        "model": "三星Galaxy Watch9 40mm 蓝牙版",
+        "pattern": "2\\.1GHz, 1\\.95GHz，5核",
+        "reason": "参数页处理器与本代发布原文不一致，以发布信息为准"
+      }
+    },
+    "supplement": {
+      "wearableChip": "骁龙至尊版可穿戴处理器 （骁龙 Wear Elite）"
+    }
+  },
+  {
+    "id": "samsung-galaxy-watch9-44-2026",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch9 44mm 蓝牙版",
+    "sourceName": "三星Galaxy Watch9 44mm 蓝牙版",
+    "family": "Galaxy Watch",
+    "variant": "44mm-bluetooth",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2174/2173071/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2173071.shtml",
+    "releaseUrl": "https://www.ithome.com/0/980/317.htm",
+    "releasePattern": "三星今晚发布了 Galaxy Watch 9 和 Galaxy Watch Ultra2 手表",
+    "exclusions": {
+      "wearableChip": {
+        "url": "https://detail.zol.com.cn/2174/2173071/param.shtml",
+        "model": "三星Galaxy Watch9 44mm 蓝牙版",
+        "pattern": "2\\.1GHz, 1\\.95GHz，5核",
+        "reason": "参数页处理器与本代发布原文不一致，以发布信息为准"
+      },
+      "screenSize": {
+        "url": "https://detail.zol.com.cn/2174/2173071/param.shtml",
+        "model": "三星Galaxy Watch9 44mm 蓝牙版",
+        "pattern": "1\\.3英寸",
+        "reason": "44mm页混用了40mm数据，保留发布原文的分尺寸条件，无法明确归属的字段留空"
+      },
+      "batteryCapacity": {
+        "url": "https://detail.zol.com.cn/2174/2173071/param.shtml",
+        "model": "三星Galaxy Watch9 44mm 蓝牙版",
+        "pattern": "390mAh",
+        "reason": "44mm页混用了40mm数据，保留发布原文的分尺寸条件，无法明确归属的字段留空"
+      },
+      "dimensions": {
+        "url": "https://detail.zol.com.cn/2174/2173071/param.shtml",
+        "model": "三星Galaxy Watch9 44mm 蓝牙版",
+        "pattern": "42\\.7\\*40\\.4\\*8\\.6mm",
+        "reason": "44mm页混用了40mm数据，保留发布原文的分尺寸条件，无法明确归属的字段留空"
+      },
+      "wearableWeight": {
+        "url": "https://detail.zol.com.cn/2174/2173071/param.shtml",
+        "model": "三星Galaxy Watch9 44mm 蓝牙版",
+        "pattern": "31\\.5g",
+        "reason": "44mm页混用了40mm数据，保留发布原文的分尺寸条件，无法明确归属的字段留空"
+      },
+      "resolution": {
+        "url": "https://detail.zol.com.cn/2174/2173071/param.shtml",
+        "model": "三星Galaxy Watch9 44mm 蓝牙版",
+        "pattern": "480×480px",
+        "reason": "44mm页混用了40mm数据，保留发布原文的分尺寸条件，无法明确归属的字段留空"
+      }
+    },
+    "supplement": {
+      "wearableChip": "骁龙至尊版可穿戴处理器 （骁龙 Wear Elite）",
+      "displayType": "Galaxy Watch 9 搭载 1.3 英寸 / 1.5 英寸 Super AMOLED 屏幕",
+      "batteryCapacityDetails": "电池容量分别为 390/445mAh",
+      "wearableWeight": "重约 31.5g/34g"
+    }
+  },
+  {
+    "id": "samsung-galaxy-watch9-44-lte-2026",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch9 44mm LTE版",
+    "sourceName": "三星Galaxy Watch9 44mm LTE版",
+    "family": "Galaxy Watch",
+    "variant": "44mm-lte",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2174/2173070/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2173070.shtml",
+    "releaseUrl": "https://www.ithome.com/0/980/317.htm",
+    "releasePattern": "三星今晚发布了 Galaxy Watch 9 和 Galaxy Watch Ultra2 手表",
+    "exclusions": {
+      "wearableChip": {
+        "url": "https://detail.zol.com.cn/2174/2173070/param.shtml",
+        "model": "三星Galaxy Watch9 44mm LTE版",
+        "pattern": "2\\.1GHz, 1\\.95GHz，5核",
+        "reason": "参数页处理器与本代发布原文不一致，以发布信息为准"
+      },
+      "screenSize": {
+        "url": "https://detail.zol.com.cn/2174/2173070/param.shtml",
+        "model": "三星Galaxy Watch9 44mm LTE版",
+        "pattern": "1\\.3英寸",
+        "reason": "44mm页混用了40mm数据，保留发布原文的分尺寸条件，无法明确归属的字段留空"
+      },
+      "batteryCapacity": {
+        "url": "https://detail.zol.com.cn/2174/2173070/param.shtml",
+        "model": "三星Galaxy Watch9 44mm LTE版",
+        "pattern": "390mAh",
+        "reason": "44mm页混用了40mm数据，保留发布原文的分尺寸条件，无法明确归属的字段留空"
+      },
+      "dimensions": {
+        "url": "https://detail.zol.com.cn/2174/2173070/param.shtml",
+        "model": "三星Galaxy Watch9 44mm LTE版",
+        "pattern": "42\\.7\\*40\\.4\\*8\\.6mm",
+        "reason": "44mm页混用了40mm数据，保留发布原文的分尺寸条件，无法明确归属的字段留空"
+      },
+      "wearableWeight": {
+        "url": "https://detail.zol.com.cn/2174/2173070/param.shtml",
+        "model": "三星Galaxy Watch9 44mm LTE版",
+        "pattern": "31\\.5g",
+        "reason": "44mm页混用了40mm数据，保留发布原文的分尺寸条件，无法明确归属的字段留空"
+      },
+      "resolution": {
+        "url": "https://detail.zol.com.cn/2174/2173070/param.shtml",
+        "model": "三星Galaxy Watch9 44mm LTE版",
+        "pattern": "480×480px",
+        "reason": "44mm页混用了40mm数据，保留发布原文的分尺寸条件，无法明确归属的字段留空"
+      }
+    },
+    "supplement": {
+      "wearableChip": "骁龙至尊版可穿戴处理器 （骁龙 Wear Elite）",
+      "displayType": "Galaxy Watch 9 搭载 1.3 英寸 / 1.5 英寸 Super AMOLED 屏幕",
+      "batteryCapacityDetails": "电池容量分别为 390/445mAh",
+      "wearableWeight": "重约 31.5g/34g"
+    }
+  },
+  {
+    "id": "samsung-galaxy-watch-ultra2-2026",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch Ultra2（LTE版）",
+    "sourceName": "三星Galaxy Watch Ultra2（LTE版）",
+    "family": "Galaxy Watch Ultra",
+    "variant": "lte",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2174/2173073/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2173073.shtml",
+    "releaseUrl": "https://www.ithome.com/0/980/317.htm",
+    "releasePattern": "三星今晚发布了 Galaxy Watch 9 和 Galaxy Watch Ultra2 手表",
+    "exclusions": {
+      "screenSize": {
+        "url": "https://detail.zol.com.cn/2174/2173073/param.shtml",
+        "model": "三星Galaxy Watch Ultra2（LTE版）",
+        "pattern": "1\\.5英寸",
+        "reason": "第三方页与本代发布参数不一致，按发布原文补充"
+      },
+      "wearableChip": {
+        "url": "https://detail.zol.com.cn/2174/2173073/param.shtml",
+        "model": "三星Galaxy Watch Ultra2（LTE版）",
+        "pattern": "高通 骁龙至尊版，2\\.1GHz, 1\\.95GHz，五核",
+        "reason": "第三方页与本代发布参数不一致，按发布原文补充"
+      }
+    },
+    "supplement": {
+      "wearableChip": "Galaxy Watch Ultra2 同样搭载 骁龙至尊版可穿戴处理器",
+      "displayType": "1.52 英寸 Super AMOLED 屏幕"
+    }
+  },
+  {
+    "id": "samsung-gear-sport-2017",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Gear Sport",
+    "sourceName": "三星Gear Sport",
+    "family": "Gear Sport",
+    "variant": "standard",
+    "year": 2017,
+    "params": "https://detail.zol.com.cn/1181/1180113/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1180113.shtml",
+    "releaseUrl": "https://www.ithome.com/0/325/573.htm",
+    "releasePattern": "三星新款Gear Sport和Gear Fit2 Pro发布"
+  },
+  {
+    "id": "samsung-gear-fit2-pro-2017",
+    "brand": "Samsung",
+    "category": "band",
+    "modelName": "三星Gear Fit2 Pro",
+    "sourceName": "三星Gear Fit2 Pro",
+    "family": "Gear Fit",
+    "variant": "pro",
+    "year": 2017,
+    "params": "https://detail.zol.com.cn/1181/1180267/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1180267.shtml",
+    "releaseUrl": "https://www.ithome.com/0/325/573.htm",
+    "releasePattern": "三星新款Gear Sport和Gear Fit2 Pro发布"
+  },
+  {
+    "id": "samsung-galaxy-fit3-2024",
+    "brand": "Samsung",
+    "category": "band",
+    "modelName": "三星Galaxy Fit3",
+    "sourceName": "三星Galaxy Fit3",
+    "family": "Galaxy Fit",
+    "variant": "standard",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/1995/1994650/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1994650.shtml",
+    "releaseUrl": "https://www.ithome.com/0/757/425.htm",
+    "releasePattern": "三星 Galaxy Fit3 智能手环现已在京东等平台开售",
+    "exclusions": {
+      "compatibility": {
+        "url": "https://detail.zol.com.cn/1995/1994650/param.shtml",
+        "model": "三星Galaxy Fit3",
+        "pattern": "安卓 ，ios",
+        "reason": "第三方误称支持iOS，与中国官网不支持iOS/鸿蒙的明确要求冲突"
+      }
+    },
+    "additionalSpecs": {
+      "url": "https://www.samsung.com.cn/watches/galaxy-fit/galaxy-fit3-silver-bluetooth-sm-r390nzsachc/",
+      "model": "Galaxy Fit3",
+      "fields": {
+        "compatibility": "适用于安卓10\\.0及以上系统版本且内存大于1\\.5GB的智能手机（不支持基于iOS, 鸿蒙系统的设备）"
+      }
+    }
+  },
+  {
+    "id": "vivo-watch-3-esim-2023",
+    "brand": "vivo",
+    "category": "watch",
+    "modelName": "vivo WATCH 3 （eSIM版+软胶表带）",
+    "sourceName": "vivo WATCH 3 （eSIM版+软胶表带）",
+    "family": "vivo WATCH",
+    "variant": "esim",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1949/1948988/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1948988.shtml",
+    "releaseUrl": "https://www.ithome.com/0/732/256.htm",
+    "releasePattern": "vivo WATCH 3 手表发布"
+  },
+  {
+    "id": "vivo-watch-3-bluetooth-leather-2023",
+    "brand": "vivo",
+    "category": "watch",
+    "modelName": "vivo WATCH 3 （蓝牙版+真皮表带）",
+    "sourceName": "vivo WATCH 3 （蓝牙版+真皮表带）",
+    "family": "vivo WATCH",
+    "variant": "bluetooth-leather",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1949/1948989/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1948989.shtml",
+    "releaseUrl": "https://www.ithome.com/0/732/256.htm",
+    "releasePattern": "vivo WATCH 3 手表发布"
+  },
+  {
+    "id": "vivo-watch-3-esim-leather-2023",
+    "brand": "vivo",
+    "category": "watch",
+    "modelName": "vivo WATCH 3（eSIM版+真皮表带）",
+    "sourceName": "vivo WATCH 3（eSIM版+真皮表带）",
+    "family": "vivo WATCH",
+    "variant": "esim-leather",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1948/1947798/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1947798.shtml",
+    "releaseUrl": "https://www.ithome.com/0/732/256.htm",
+    "releasePattern": "vivo WATCH 3 手表发布"
+  },
+  {
+    "id": "vivo-watch-gt-esim-2024",
+    "brand": "vivo",
+    "category": "watch",
+    "modelName": "vivo WATCH GT eSIM版",
+    "sourceName": "vivo WATCH GT eSIM版",
+    "family": "vivo WATCH GT",
+    "variant": "esim",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/2019/2018260/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2018260.shtml",
+    "releaseUrl": "https://www.ithome.com/0/771/890.htm",
+    "releasePattern": "vivo WATCH GT 方形智能手表发布"
+  },
+  {
+    "id": "vivo-watch-5-2025",
+    "brand": "vivo",
+    "category": "watch",
+    "modelName": "vivo WATCH 5 蓝牙版",
+    "sourceName": "vivo WATCH 5 蓝牙版",
+    "family": "vivo WATCH",
+    "variant": "bluetooth",
+    "year": 2025,
+    "params": "https://detail.zol.com.cn/2127/2126451/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2126451.shtml",
+    "releaseUrl": "https://www.ithome.com/0/847/852.htm",
+    "releasePattern": "vivo WATCH 5 手表今晚正式发布"
+  },
+  {
+    "id": "vivo-watch-5-esim-2025",
+    "brand": "vivo",
+    "category": "watch",
+    "modelName": "vivo WATCH 5 eSIM版",
+    "sourceName": "vivo WATCH 5 eSIM版",
+    "family": "vivo WATCH",
+    "variant": "esim",
+    "year": 2025,
+    "params": "https://detail.zol.com.cn/2132/2131531/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2131531.shtml",
+    "releaseUrl": "https://www.ithome.com/0/863/665.htm",
+    "releasePattern": "vivo WATCH 5 智能手表发布"
+  },
+  {
+    "id": "vivo-watch-gt-2-2025",
+    "brand": "vivo",
+    "category": "watch",
+    "modelName": "vivo WATCH GT 2 蓝牙版",
+    "sourceName": "vivo WATCH GT 2 蓝牙版",
+    "family": "vivo WATCH GT",
+    "variant": "bluetooth",
+    "year": 2025,
+    "params": "https://detail.zol.com.cn/2145/2144483/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2144483.shtml",
+    "releaseUrl": "https://www.ithome.com/0/889/156.htm",
+    "releasePattern": "vivo WATCH GT 2 手表发布"
+  },
+  {
+    "id": "vivo-watch-gt-2-esim-2025",
+    "brand": "vivo",
+    "category": "watch",
+    "modelName": "vivo WATCH GT 2 eSIM版",
+    "sourceName": "vivo WATCH GT 2 eSIM版",
+    "family": "vivo WATCH GT",
+    "variant": "esim",
+    "year": 2025,
+    "params": "https://detail.zol.com.cn/2145/2144484/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2144484.shtml",
+    "releaseUrl": "https://www.ithome.com/0/889/156.htm",
+    "releasePattern": "vivo WATCH GT 2 手表发布"
+  },
+  {
+    "id": "vivo-watch-6-2026",
+    "brand": "vivo",
+    "category": "watch",
+    "modelName": "vivo WATCH 6（蓝牙版/不锈钢）",
+    "sourceName": "vivo WATCH 6（蓝牙版/不锈钢）",
+    "family": "vivo WATCH",
+    "variant": "bluetooth-steel",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2179/2178569/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2178569.shtml",
+    "releaseUrl": "https://www.ithome.com/1/005/440.htm",
+    "releasePattern": "vivo WATCH 6 轻户外智能手表发布"
+  },
+  {
+    "id": "vivo-watch-6-esim-2026",
+    "brand": "vivo",
+    "category": "watch",
+    "modelName": "vivo WATCH 6（eSIM版/不锈钢）",
+    "sourceName": "vivo WATCH 6（eSIM版/不锈钢）",
+    "family": "vivo WATCH",
+    "variant": "esim-steel",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2179/2178570/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2178570.shtml",
+    "releaseUrl": "https://www.ithome.com/1/005/440.htm",
+    "releasePattern": "vivo WATCH 6 轻户外智能手表发布"
+  },
+  {
+    "id": "vivo-watch-6-esim-titanium-2026",
+    "brand": "vivo",
+    "category": "watch",
+    "modelName": "vivo WATCH 6（eSIM版/钛合金）",
+    "sourceName": "vivo WATCH 6（eSIM版/钛合金）",
+    "family": "vivo WATCH",
+    "variant": "esim-titanium",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2179/2178571/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2178571.shtml",
+    "releaseUrl": "https://www.ithome.com/1/005/440.htm",
+    "releasePattern": "vivo WATCH 6 轻户外智能手表发布"
+  },
+  {
+    "id": "oppo-watch-3-2022",
+    "brand": "OPPO",
+    "category": "watch",
+    "modelName": "OPPO Watch 3(氟橡胶表带款)",
+    "sourceName": "OPPO Watch 3(氟橡胶表带款)",
+    "family": "OPPO Watch",
+    "variant": "standard",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1424/1423115/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1423115.shtml",
+    "releaseUrl": "https://www.ithome.com/0/634/383.htm",
+    "releasePattern": "OPPO 为我们带来 OPPO Watch 3 及 OPPO Watch 3 Pro 两款智能手表"
+  },
+  {
+    "id": "oppo-watch-3-pro-2022",
+    "brand": "OPPO",
+    "category": "watch",
+    "modelName": "OPPO Watch 3 Pro 氟橡胶表带款",
+    "sourceName": "OPPO Watch 3 Pro 氟橡胶表带款",
+    "family": "OPPO Watch",
+    "variant": "pro",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1425/1424038/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1424038.shtml",
+    "releaseUrl": "https://www.ithome.com/0/634/383.htm",
+    "releasePattern": "OPPO 为我们带来 OPPO Watch 3 及 OPPO Watch 3 Pro 两款智能手表",
+    "exclusions": {
+      "chargingMethod": {
+        "url": "https://detail.zol.com.cn/1425/1424038/param.shtml",
+        "model": "OPPO Watch 3 Pro 氟橡胶表带款",
+        "pattern": "无线充电",
+        "reason": "原页无线充电描述缺少与本机充电底座匹配的可靠证据，待补充，不当成已确认功能"
+      }
+    }
+  },
+  {
+    "id": "oppo-watch-3-leather-2022",
+    "brand": "OPPO",
+    "category": "watch",
+    "modelName": "OPPO Watch 3(真皮表带款)",
+    "sourceName": "OPPO Watch 3(真皮表带款)",
+    "family": "OPPO Watch",
+    "variant": "leather",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1425/1424037/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1424037.shtml",
+    "releaseUrl": "https://www.ithome.com/0/634/383.htm",
+    "releasePattern": "OPPO 为我们带来 OPPO Watch 3 及 OPPO Watch 3 Pro 两款智能手表"
+  },
+  {
+    "id": "oppo-watch-3-pro-leather-2022",
+    "brand": "OPPO",
+    "category": "watch",
+    "modelName": "OPPO Watch 3 Pro 真皮表带款",
+    "sourceName": "OPPO Watch 3 Pro 真皮表带款",
+    "family": "OPPO Watch",
+    "variant": "pro-leather",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1425/1424039/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1424039.shtml",
+    "releaseUrl": "https://www.ithome.com/0/634/383.htm",
+    "releasePattern": "OPPO 为我们带来 OPPO Watch 3 及 OPPO Watch 3 Pro 两款智能手表",
+    "exclusions": {
+      "chargingMethod": {
+        "url": "https://detail.zol.com.cn/1425/1424039/param.shtml",
+        "model": "OPPO Watch 3 Pro 真皮表带款",
+        "pattern": "无线充电",
+        "reason": "原页无线充电描述缺少与本机充电底座匹配的可靠证据，待补充，不当成已确认功能"
+      }
+    }
+  },
+  {
+    "id": "oppo-watch-se-gray-2022",
+    "brand": "OPPO",
+    "category": "watch",
+    "modelName": "OPPO Watch SE/深云灰",
+    "sourceName": "OPPO Watch SE/深云灰",
+    "family": "OPPO Watch SE",
+    "variant": "standard",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1435/1434483/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1434483.shtml",
+    "releaseUrl": "https://www.ithome.com/0/656/381.htm",
+    "releasePattern": "OPPO Watch SE 深云灰、墨棕配色正式发布"
+  },
+  {
+    "id": "oppo-watch-se-brown-2022",
+    "brand": "OPPO",
+    "category": "watch",
+    "modelName": "OPPO Watch SE/墨棕",
+    "sourceName": "OPPO Watch SE/墨棕",
+    "family": "OPPO Watch SE",
+    "variant": "leather",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1435/1434484/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1434484.shtml",
+    "releaseUrl": "https://www.ithome.com/0/656/381.htm",
+    "releasePattern": "OPPO Watch SE 深云灰、墨棕配色正式发布"
+  },
+  {
+    "id": "oppo-watch-4-pro-2023",
+    "brand": "OPPO",
+    "category": "watch",
+    "modelName": "OPPO Watch 4 Pro 黑色氟橡胶",
+    "sourceName": "OPPO Watch 4 Pro 黑色氟橡胶",
+    "family": "OPPO Watch",
+    "variant": "pro",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1857/1856837/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1856837.shtml",
+    "releaseUrl": "https://www.ithome.com/0/715/534.htm",
+    "releasePattern": "OPPO 发布了新款智能手表 OPPO Watch4 Pro"
+  },
+  {
+    "id": "oppo-watch-4-pro-leather-2023",
+    "brand": "OPPO",
+    "category": "watch",
+    "modelName": "OPPO Watch 4 Pro 棕色牛皮+黑色氟橡胶",
+    "sourceName": "OPPO Watch 4 Pro 棕色牛皮+黑色氟橡胶",
+    "family": "OPPO Watch",
+    "variant": "pro-leather",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1858/1857457/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1857457.shtml",
+    "releaseUrl": "https://www.ithome.com/0/715/534.htm",
+    "releasePattern": "OPPO 发布了新款智能手表 OPPO Watch4 Pro"
+  },
+  {
+    "id": "oppo-watch-x2-2025",
+    "brand": "OPPO",
+    "category": "watch",
+    "modelName": "OPPO Watch X2",
+    "sourceName": "OPPO Watch X2",
+    "family": "OPPO Watch X",
+    "variant": "standard",
+    "year": 2025,
+    "params": "https://detail.zol.com.cn/2122/2121194/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2121194.shtml",
+    "releaseUrl": "https://www.ithome.com/0/832/426.htm",
+    "releasePattern": "OPPO Watch X2 智能手表今晚正式发布"
+  },
+  {
+    "id": "oppo-watch-x3-2026",
+    "brand": "OPPO",
+    "category": "watch",
+    "modelName": "OPPO Watch X3",
+    "sourceName": "OPPO Watch X3",
+    "family": "OPPO Watch X",
+    "variant": "standard",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2161/2160957/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2160957.shtml",
+    "releaseUrl": "https://m.ithome.com/html/930005.htm",
+    "releasePattern": "Watch X3 智能手表也在今晚同台亮相"
+  },
+  {
+    "id": "oppo-watch-s2-2026",
+    "brand": "OPPO",
+    "category": "watch",
+    "modelName": "OPPO Watch S2",
+    "sourceName": "OPPO Watch S2",
+    "family": "OPPO Watch S",
+    "variant": "standard",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2179/2178643/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2178643.shtml",
+    "releaseUrl": "https://www.ithome.com/1/005/947.htm",
+    "releasePattern": "带来了 Watch S2 和 Watch X3 手表"
+  },
+  {
+    "id": "oppo-band-2-nfc-2022",
+    "brand": "OPPO",
+    "category": "band",
+    "modelName": "OPPO 手环 2 NFC版",
+    "sourceName": "OPPO 手环 2 NFC版",
+    "family": "OPPO 手环",
+    "variant": "nfc",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1425/1424041/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1424041.shtml",
+    "releaseUrl": "https://www.ithome.com/0/634/379.htm",
+    "releasePattern": "OPPO 手环 2 正式发布"
+  },
+  {
+    "id": "honor-watch-gs-3-2022",
+    "brand": "HONOR",
+    "category": "watch",
+    "modelName": "荣耀手表 GS 3（竞速先锋）",
+    "sourceName": "荣耀手表 GS 3（竞速先锋）",
+    "family": "荣耀手表 GS",
+    "variant": "standard",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1395/1394395/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1394395.shtml",
+    "releaseUrl": "https://www.ithome.com/0/598/478.htm",
+    "releasePattern": "荣耀首款高端智能手表 GS 3 于 1 月 10 日发布",
+    "exclusions": {
+      "dimensions": {
+        "url": "https://detail.zol.com.cn/1395/1394395/param.shtml",
+        "model": "荣耀手表 GS 3（竞速先锋）",
+        "pattern": "45\\.9\\*5\\.9\\*10\\.5mm",
+        "reason": "45.9*5.9*10.5mm明显缺位，保留原文证据但撤下展示，不猜测修复"
+      }
+    }
+  },
+  {
+    "id": "honor-watch-gs-3-leather-2022",
+    "brand": "HONOR",
+    "category": "watch",
+    "modelName": "荣耀手表 GS 3（环球远航）",
+    "sourceName": "荣耀手表 GS 3（环球远航）",
+    "family": "荣耀手表 GS",
+    "variant": "leather",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1397/1396507/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1396507.shtml",
+    "releaseUrl": "https://www.ithome.com/0/598/478.htm",
+    "releasePattern": "荣耀首款高端智能手表 GS 3 于 1 月 10 日发布",
+    "exclusions": {
+      "wearableChip": {
+        "url": "https://detail.zol.com.cn/1397/1396507/param.shtml",
+        "model": "荣耀手表 GS 3（环球远航）",
+        "pattern": "Apple 4",
+        "reason": "第三方将处理器写作Apple 4，疑似拼写错误；没有本版本补充证据时撤下，不推定为其他芯片"
+      },
+      "dimensions": {
+        "url": "https://detail.zol.com.cn/1397/1396507/param.shtml",
+        "model": "荣耀手表 GS 3（环球远航）",
+        "pattern": "45\\.9\\*5\\.9\\*10\\.5mm",
+        "reason": "45.9*5.9*10.5mm明显缺位，保留原文证据但撤下展示，不猜测修复"
+      }
+    }
+  },
+  {
+    "id": "honor-watch-gs-3i-2023",
+    "brand": "HONOR",
+    "category": "watch",
+    "modelName": "荣耀手表 GS 3i（运动版/黑色氟橡胶表带）",
+    "sourceName": "荣耀手表 GS 3i（运动版/黑色氟橡胶表带）",
+    "family": "荣耀手表 GS",
+    "variant": "standard",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1467/1466626/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1466626.shtml",
+    "releaseUrl": "https://www.ithome.com/0/677/757.htm",
+    "releasePattern": "荣耀手表 GS 3i 于今日正式发布"
+  },
+  {
+    "id": "honor-watch-gs-3i-leather-2023",
+    "brand": "HONOR",
+    "category": "watch",
+    "modelName": "荣耀手表 GS 3i（时尚版/棕色真皮表带）",
+    "sourceName": "荣耀手表 GS 3i（时尚版/棕色真皮表带）",
+    "family": "荣耀手表 GS",
+    "variant": "leather",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1467/1466627/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1466627.shtml",
+    "releaseUrl": "https://www.ithome.com/0/677/757.htm",
+    "releasePattern": "荣耀手表 GS 3i 于今日正式发布"
+  },
+  {
+    "id": "honor-watch-4-2023",
+    "brand": "HONOR",
+    "category": "watch",
+    "modelName": "荣耀手表4",
+    "sourceName": "荣耀手表4",
+    "family": "荣耀手表",
+    "variant": "standard",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1795/1794992/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1794992.shtml",
+    "releaseUrl": "https://www.ithome.com/0/705/443.htm",
+    "releasePattern": "荣耀手表 4 正式发布"
+  },
+  {
+    "id": "honor-watch-4-pro-2023",
+    "brand": "HONOR",
+    "category": "watch",
+    "modelName": "荣耀手表4 Pro",
+    "sourceName": "荣耀手表4 Pro",
+    "family": "荣耀手表",
+    "variant": "pro",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1922/1921031/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1921031.shtml",
+    "releaseUrl": "https://www.ithome.com/0/724/567.htm",
+    "releasePattern": "荣耀正式推出了全新的荣耀手表 4 Pro"
+  },
+  {
+    "id": "honor-watch-5-2024",
+    "brand": "HONOR",
+    "category": "watch",
+    "modelName": "荣耀手表5",
+    "sourceName": "荣耀手表5",
+    "family": "荣耀手表",
+    "variant": "standard",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/2113/2112195/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2112195.shtml",
+    "releaseUrl": "https://www.ithome.com/0/806/544.htm",
+    "releasePattern": "荣耀手表 5 今晚正式发布"
+  },
+  {
+    "id": "honor-watch-6-plus-2026",
+    "brand": "HONOR",
+    "category": "watch",
+    "modelName": "荣耀手表6 Plus(标准版/暗影黑)",
+    "sourceName": "荣耀手表6 Plus(标准版/暗影黑)",
+    "family": "荣耀手表",
+    "variant": "standard",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2168/2167393/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2167393.shtml",
+    "releaseUrl": "https://www.ithome.com/0/955/024.htm",
+    "releasePattern": "荣耀手表 6 Plus 今晚发布",
+    "exclusions": {
+      "displayType": {
+        "url": "https://detail.zol.com.cn/2168/2167393/param.shtml",
+        "model": "荣耀手表6 Plus(标准版/暗影黑)",
+        "pattern": "AMOLED",
+        "reason": "来源之间存在AMOLED/LTPS冲突，未完成官方核验前不展示屏幕类型"
+      }
+    },
+    "colorImages": [
+      {
+        "name": "暗影黑",
+        "url": "https://detail.zol.com.cn/GPSwatch/index2167393.shtml",
+        "sourceName": "荣耀手表6 Plus(标准版/暗影黑)"
+      },
+      {
+        "name": "赛装灰",
+        "url": "https://detail.zol.com.cn/GPSwatch/index2167394.shtml",
+        "sourceName": "荣耀手表6 Plus(标准版/赛装灰)"
+      },
+      {
+        "name": "暮光棕",
+        "url": "https://detail.zol.com.cn/GPSwatch/index2167395.shtml",
+        "sourceName": "荣耀手表6 Plus(标准版/暮光棕)"
+      },
+      {
+        "name": "飞驰蓝",
+        "url": "https://detail.zol.com.cn/GPSwatch/index2167396.shtml",
+        "sourceName": "荣耀手表6 Plus(标准版/飞驰蓝)"
+      }
+    ]
+  },
+  {
+    "id": "honor-watch-6-plus-yuanqi-2026",
+    "brand": "HONOR",
+    "category": "watch",
+    "modelName": "荣耀手表6 Plus(元气版/暗影黑)",
+    "sourceName": "荣耀手表6 Plus(元气版/暗影黑)",
+    "family": "荣耀手表",
+    "variant": "yuanqi",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2168/2167397/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2167397.shtml",
+    "releaseUrl": "https://www.ithome.com/0/955/024.htm",
+    "releasePattern": "荣耀手表 6 Plus 今晚发布",
+    "exclusions": {
+      "displayType": {
+        "url": "https://detail.zol.com.cn/2168/2167397/param.shtml",
+        "model": "荣耀手表6 Plus(元气版/暗影黑)",
+        "pattern": "AMOLED",
+        "reason": "来源之间存在AMOLED/LTPS冲突，未完成官方核验前不展示屏幕类型"
+      }
+    }
+  },
+  {
+    "id": "honor-watch-6-pro-2026",
+    "brand": "HONOR",
+    "category": "watch",
+    "modelName": "荣耀手表6 Pro 标准版",
+    "sourceName": "荣耀手表6 Pro 标准版",
+    "family": "荣耀手表",
+    "variant": "pro",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2180/2179012/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2179012.shtml",
+    "releaseUrl": "https://www.ithome.com/1/007/864.htm",
+    "releasePattern": "荣耀正式发布荣耀手表 6 Pro"
+  },
+  {
+    "id": "honor-band-7-2022",
+    "brand": "HONOR",
+    "category": "band",
+    "modelName": "荣耀手环 7（标准版）",
+    "sourceName": "荣耀手环 7（标准版）",
+    "family": "荣耀手环",
+    "variant": "standard",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1439/1438717/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1438717.shtml",
+    "releaseUrl": "https://www.ithome.com/0/663/671.htm",
+    "releasePattern": "荣耀手环 7 正式发布"
+  },
+  {
+    "id": "honor-band-7-nfc-2023",
+    "brand": "HONOR",
+    "category": "band",
+    "modelName": "荣耀手环 7（NFC版）",
+    "sourceName": "荣耀手环 7（NFC版）",
+    "family": "荣耀手环",
+    "variant": "nfc",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1467/1466628/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1466628.shtml",
+    "releaseUrl": "https://www.ithome.com/0/677/749.htm",
+    "releasePattern": "该手环今日迎来了 NFC 版"
+  },
+  {
+    "id": "honor-band-9-nfc-2024",
+    "brand": "HONOR",
+    "category": "band",
+    "modelName": "荣耀手环9 NFC版",
+    "sourceName": "荣耀手环9 NFC版",
+    "family": "荣耀手环",
+    "variant": "nfc",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/2004/2003754/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index2003754.shtml",
+    "releaseUrl": "https://www.ithome.com/0/756/521.htm",
+    "releasePattern": "荣耀手环 9 发布"
+  },
+  {
+    "id": "honor-band-11-2026",
+    "brand": "HONOR",
+    "category": "band",
+    "modelName": "荣耀手环11 标准版",
+    "sourceName": "荣耀手环11 标准版",
+    "family": "荣耀手环",
+    "variant": "standard",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2180/2179009/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index2179009.shtml",
+    "releaseUrl": "https://www.ithome.com/0/984/943.htm",
+    "releasePattern": "荣耀手环 11 系列现已开启预售"
+  },
+  {
+    "id": "honor-band-11-pro-2026",
+    "brand": "HONOR",
+    "category": "band",
+    "modelName": "荣耀手环11 Pro版 标准",
+    "sourceName": "荣耀手环11 Pro版 标准",
+    "family": "荣耀手环",
+    "variant": "pro",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2180/2179010/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index2179010.shtml",
+    "releaseUrl": "https://www.ithome.com/0/984/943.htm",
+    "releasePattern": "荣耀手环 11 系列现已开启预售"
+  },
+  {
+    "id": "honor-band-11-pro-gps-2026",
+    "brand": "HONOR",
+    "category": "band",
+    "modelName": "荣耀手环11 Pro版 GPS版",
+    "sourceName": "荣耀手环11 Pro版 GPS版",
+    "family": "荣耀手环",
+    "variant": "pro-gps",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2180/2179011/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index2179011.shtml",
+    "releaseUrl": "https://www.ithome.com/0/984/943.htm",
+    "releasePattern": "荣耀手环 11 系列现已开启预售"
+  },
+  {
+    "id": "huawei-watch-3-pro-new-2022",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "HUAWEI WATCH3 Pro new 时尚款",
+    "sourceName": "HUAWEI WATCH3 Pro new 时尚款",
+    "family": "华为 WATCH",
+    "variant": "pro-new",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1422/1421892/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1421892.shtml",
+    "releaseUrl": "https://www.ithome.com/0/631/888.htm",
+    "releasePattern": "华为 WATCH 3 Pro new 正式发布"
+  },
+  {
+    "id": "huawei-watch-buds-2022",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为WATCH Buds",
+    "sourceName": "华为WATCH Buds",
+    "family": "华为 WATCH Buds",
+    "variant": "standard",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1435/1434955/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1434955.shtml",
+    "releaseUrl": "https://www.ithome.com/0/659/898.htm",
+    "releasePattern": "华为 WATCH Buds 正式发布",
+    "exclusions": {
+      "cellular": {
+        "url": "https://detail.zol.com.cn/1435/1434955/param.shtml",
+        "model": "华为WATCH Buds",
+        "pattern": "支持 ，eSIM卡",
+        "reason": "耳机二合一款的eSIM字段疑似混用其他WATCH型号，未获得本机独立通信证据，撤下展示"
+      }
+    }
+  },
+  {
+    "id": "huawei-watch-gt-cyber-2022",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为WATCH GT Cyber 运动机能款/幻夜黑",
+    "sourceName": "华为WATCH GT Cyber 运动机能款/幻夜黑",
+    "family": "华为 WATCH GT",
+    "variant": "cyber",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1433/1432020/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1432020.shtml",
+    "releaseUrl": "https://www.ithome.com/0/650/758.htm",
+    "releasePattern": "华为 WATCH GT Cyber 正式发布"
+  },
+  {
+    "id": "huawei-watch-4-2023",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为Watch 4",
+    "sourceName": "华为Watch 4",
+    "family": "华为 WATCH",
+    "variant": "standard",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1468/1467053/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1467053.shtml",
+    "releaseUrl": "https://www.ithome.com/0/696/109.htm",
+    "releasePattern": "华为 WATCH 4 系列智能手表发布"
+  },
+  {
+    "id": "huawei-watch-ultimate-2023",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为WATCH Ultimate（驰骋山地版）",
+    "sourceName": "华为WATCH Ultimate（驰骋山地版）",
+    "family": "华为 WATCH Ultimate",
+    "variant": "standard",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1468/1467619/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1467619.shtml",
+    "releaseUrl": "https://www.ithome.com/0/681/831.htm",
+    "releasePattern": "华为 WATCH Ultimate 非凡大师智能手表正式发布"
+  },
+  {
+    "id": "huawei-watch-d2-2024",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为WATCH D2",
+    "sourceName": "华为WATCH D2",
+    "family": "华为 WATCH D",
+    "variant": "standard",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/2116/2115266/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2115266.shtml",
+    "releaseUrl": "https://www.ithome.com/0/814/088.htm",
+    "releasePattern": "华为 WATCH D2 腕部动态血压记录仪手表"
+  },
+  {
+    "id": "huawei-watch-gt-5-pro-42-2024",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为WATCH GT 5 Pro(42mm/冰川白 白色氟橡胶表带)",
+    "sourceName": "华为WATCH GT 5 Pro(42mm/冰川白 白色氟橡胶表带)",
+    "family": "华为 WATCH GT",
+    "variant": "pro-42mm",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/2109/2108839/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2108839.shtml",
+    "releaseUrl": "https://www.ithome.com/0/797/999.htm",
+    "releasePattern": "华为 WATCH GT 5 Pro 手表国行版正式发布"
+  },
+  {
+    "id": "huawei-watch-gt-5-pro-46-2024",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为WATCH GT 5 Pro(46mm/曜石黑 黑色氟橡胶表带)",
+    "sourceName": "华为WATCH GT 5 Pro(46mm/曜石黑 黑色氟橡胶表带)",
+    "family": "华为 WATCH GT",
+    "variant": "pro-46mm",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/2109/2108841/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2108841.shtml",
+    "releaseUrl": "https://www.ithome.com/0/797/999.htm",
+    "releasePattern": "华为 WATCH GT 5 Pro 手表国行版正式发布"
+  },
+  {
+    "id": "huawei-watch-gt-6-pro-2025",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为WATCH GT 6 Pro(46mm/曜石黑 黑色氟橡胶表带)",
+    "sourceName": "华为WATCH GT 6 Pro(46mm/曜石黑 黑色氟橡胶表带)",
+    "family": "华为 WATCH GT",
+    "variant": "pro-46mm",
+    "year": 2025,
+    "params": "https://detail.zol.com.cn/2144/2143090/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2143090.shtml",
+    "releaseUrl": "https://www.ithome.com/0/885/417.htm",
+    "releasePattern": "华为 WATCH GT 6 系列正式发布"
+  },
+  {
+    "id": "huawei-watch-fit-5-2026",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为WATCH FIT 5 韵律黑 氟橡胶表带",
+    "sourceName": "华为WATCH FIT 5 韵律黑 氟橡胶表带",
+    "family": "华为 WATCH FIT",
+    "variant": "standard",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2164/2163974/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2163974.shtml",
+    "releaseUrl": "https://www.ithome.com/0/941/247.htm",
+    "releasePattern": "华为 WATCH FIT 5 系列智能手表正式发布"
+  },
+  {
+    "id": "huawei-watch-fit-5-pro-2026",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为WATCH FIT 5 Pro 雅丹黑 氟橡胶表带",
+    "sourceName": "华为WATCH FIT 5 Pro 雅丹黑 氟橡胶表带",
+    "family": "华为 WATCH FIT",
+    "variant": "pro",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2164/2163979/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2163979.shtml",
+    "releaseUrl": "https://www.ithome.com/0/941/247.htm",
+    "releasePattern": "华为 WATCH FIT 5 系列智能手表正式发布"
+  },
+  {
+    "id": "huawei-watch-gt-7-41-2026",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为WATCH GT 7 41mm/樱语粉/氟橡胶表带",
+    "sourceName": "华为WATCH GT 7 41mm/樱语粉/氟橡胶表带",
+    "family": "华为 WATCH GT",
+    "variant": "41mm",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2174/2173962/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2173962.shtml",
+    "releaseUrl": "https://www.ithome.com/0/986/142.htm",
+    "releasePattern": "华为 WATCH GT 7 系列正式发布"
+  },
+  {
+    "id": "huawei-watch-gt-7-46-2026",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为WATCH GT 7 46mm/疾影黑/氟橡胶表带",
+    "sourceName": "华为WATCH GT 7 46mm/疾影黑/氟橡胶表带",
+    "family": "华为 WATCH GT",
+    "variant": "46mm",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2174/2173967/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2173967.shtml",
+    "releaseUrl": "https://www.ithome.com/0/986/142.htm",
+    "releasePattern": "华为 WATCH GT 7 系列正式发布"
+  },
+  {
+    "id": "huawei-watch-gt-7-pro-2026",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为WATCH GT 7 Pro(/碳晶黑 黑色氟橡胶表带)",
+    "sourceName": "华为WATCH GT 7 Pro(/碳晶黑 黑色氟橡胶表带)",
+    "family": "华为 WATCH GT",
+    "variant": "pro",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2174/2173970/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2173970.shtml",
+    "releaseUrl": "https://www.ithome.com/0/986/142.htm",
+    "releasePattern": "华为 WATCH GT 7 系列正式发布"
+  },
+  {
+    "id": "huawei-watch-gt-runner-2-2026",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "HUAWEI WATCH GT Runner 2",
+    "sourceName": "HUAWEI WATCH GT Runner 2",
+    "family": "华为 WATCH GT",
+    "variant": "runner",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2162/2161446/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2161446.shtml",
+    "releaseUrl": "https://www.ithome.com/0/931/819.htm",
+    "releasePattern": "华为 WATCH GT Runner 2 正式发布"
+  },
+  {
+    "id": "huawei-watch-6-42-2026",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为WATCH 6(42mm/幻月黑/氟橡胶表带)",
+    "sourceName": "华为WATCH 6(42mm/幻月黑/氟橡胶表带)",
+    "family": "华为 WATCH",
+    "variant": "42mm",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2178/2177223/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2177223.shtml",
+    "releaseUrl": "https://www.ithome.com/0/999/354.htm",
+    "releasePattern": "华为 WATCH 6 系列 鸿蒙 AI 手表正式发布"
+  },
+  {
+    "id": "huawei-band-7-2022",
+    "brand": "Huawei",
+    "category": "band",
+    "modelName": "华为手环7（标准版）",
+    "sourceName": "华为手环7（标准版）",
+    "family": "华为手环",
+    "variant": "standard",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1407/1406646/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1406646.shtml",
+    "releaseUrl": "https://www.ithome.com/0/615/750.htm",
+    "releasePattern": "华为正式发布了华为手环 7"
+  },
+  {
+    "id": "huawei-band-7-nfc-2022",
+    "brand": "Huawei",
+    "category": "band",
+    "modelName": "华为手环7（NFC版）",
+    "sourceName": "华为手环7（NFC版）",
+    "family": "华为手环",
+    "variant": "nfc",
+    "year": 2022,
+    "params": "https://detail.zol.com.cn/1407/1406647/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1406647.shtml",
+    "releaseUrl": "https://www.ithome.com/0/615/750.htm",
+    "releasePattern": "华为正式发布了华为手环 7"
+  },
+  {
+    "id": "huawei-band-8-2023",
+    "brand": "Huawei",
+    "category": "band",
+    "modelName": "华为手环8（标准版）",
+    "sourceName": "华为手环8（标准版）",
+    "family": "华为手环",
+    "variant": "standard",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1509/1508776/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1508776.shtml",
+    "releaseUrl": "https://www.ithome.com/0/686/970.htm",
+    "releasePattern": "华为手环 8、华为手环 8 NFC 正式发布"
+  },
+  {
+    "id": "huawei-band-8-nfc-2023",
+    "brand": "Huawei",
+    "category": "band",
+    "modelName": "华为手环8（NFC版）",
+    "sourceName": "华为手环8（NFC版）",
+    "family": "华为手环",
+    "variant": "nfc",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1512/1511785/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1511785.shtml",
+    "releaseUrl": "https://www.ithome.com/0/686/970.htm",
+    "releasePattern": "华为手环 8、华为手环 8 NFC 正式发布"
+  },
+  {
+    "id": "huawei-talkband-b7-2023",
+    "brand": "Huawei",
+    "category": "band",
+    "modelName": "华为Band B7",
+    "sourceName": "华为Band B7",
+    "family": "华为通话手环",
+    "variant": "standard",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1468/1467064/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1467064.shtml",
+    "releaseUrl": "https://www.ithome.com/0/681/840.htm",
+    "releasePattern": "华为通话手环 B7 正式发布"
+  },
+  {
+    "id": "huawei-band-9-2024",
+    "brand": "Huawei",
+    "category": "band",
+    "modelName": "华为手环9 标准版",
+    "sourceName": "华为手环9 标准版",
+    "family": "华为手环",
+    "variant": "standard",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/1995/1994586/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1994586.shtml",
+    "releaseUrl": "https://www.ithome.com/0/760/471.htm",
+    "releasePattern": "华为手环 9 正式上线",
+    "exclusions": {
+      "colors": {
+        "url": "https://detail.zol.com.cn/1995/1994586/param.shtml",
+        "model": "华为手环9 标准版",
+        "pattern": "幻夜黑，樱语粉，翡冷翠，活力橙",
+        "reason": "产品颜色与本页腕带颜色及本代名称不一致，疑似混用手环8；以核验图库为准"
+      }
+    }
+  },
+  {
+    "id": "huawei-band-10-aluminum-2025",
+    "brand": "Huawei",
+    "category": "band",
+    "modelName": "华为手环10(标准版/铝合金表壳)",
+    "sourceName": "华为手环10(标准版/铝合金表壳)",
+    "family": "华为手环",
+    "variant": "aluminum",
+    "year": 2025,
+    "params": "https://detail.zol.com.cn/2124/2123963/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index2123963.shtml",
+    "releaseUrl": "https://www.ithome.com/0/839/348.htm",
+    "releasePattern": "华为手环 10 系列正式发布"
+  },
+  {
+    "id": "huawei-band-10-aluminum-nfc-2025",
+    "brand": "Huawei",
+    "category": "band",
+    "modelName": "华为手环10(NFC版/铝合金表壳)",
+    "sourceName": "华为手环10(NFC版/铝合金表壳)",
+    "family": "华为手环",
+    "variant": "aluminum-nfc",
+    "year": 2025,
+    "params": "https://detail.zol.com.cn/2124/2123964/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index2123964.shtml",
+    "releaseUrl": "https://www.ithome.com/0/839/348.htm",
+    "releasePattern": "华为手环 10 系列正式发布"
+  },
+  {
+    "id": "xiaomi-watch-2019",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米手表标准版",
+    "sourceName": "小米手表标准版",
+    "family": "小米 Watch",
+    "variant": "standard",
+    "year": 2019,
+    "params": "https://detail.zol.com.cn/1299/1298301/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1298301.shtml",
+    "releaseUrl": "https://www.ithome.com/0/454/821.htm",
+    "releasePattern": "小米手表采用1.78英寸AMOLED方形大屏"
+  },
+  {
+    "id": "xiaomi-watch-5-2025",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米Watch 5（蓝牙/黑色氟胶表带款）",
+    "sourceName": "小米Watch 5（蓝牙/黑色氟胶表带款）",
+    "family": "小米 Watch",
+    "variant": "bluetooth",
+    "year": 2025,
+    "params": "https://detail.zol.com.cn/2153/2152355/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2152355.shtml",
+    "releaseUrl": "https://www.ithome.com/0/908/029.htm",
+    "releasePattern": "小米手表 5 正式发布"
+  },
+  {
+    "id": "xiaomi-watch-5-esim-2025",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米Watch 5（eSIM/金棕色真皮表带款）",
+    "sourceName": "小米Watch 5（eSIM/金棕色真皮表带款）",
+    "family": "小米 Watch",
+    "variant": "esim",
+    "year": 2025,
+    "params": "https://detail.zol.com.cn/2153/2152357/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2152357.shtml",
+    "releaseUrl": "https://www.ithome.com/0/908/029.htm",
+    "releasePattern": "小米手表 5 正式发布"
+  },
+  {
+    "id": "xiaomi-band-10-pro-2026",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环10 Pro 金属版",
+    "sourceName": "小米手环10 Pro 金属版",
+    "family": "小米手环",
+    "variant": "pro",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2167/2166999/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index2166999.shtml",
+    "releaseUrl": "https://www.ithome.com/0/953/607.htm",
+    "releasePattern": "小米手环 10 Pro 正式发布"
+  },
+  {
+    "id": "xiaomi-band-10-pro-leather-2026",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环10 Pro 真皮版",
+    "sourceName": "小米手环10 Pro 真皮版",
+    "family": "小米手环",
+    "variant": "pro-leather",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2168/2167000/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index2167000.shtml",
+    "releaseUrl": "https://www.ithome.com/0/953/607.htm",
+    "releasePattern": "小米手环 10 Pro 正式发布"
+  },
+  {
+    "id": "xiaomi-band-10-pro-ceramic-2026",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环10 Pro 陶瓷版",
+    "sourceName": "小米手环10 Pro 陶瓷版",
+    "family": "小米手环",
+    "variant": "pro-ceramic",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2168/2167001/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index2167001.shtml",
+    "releaseUrl": "https://www.ithome.com/0/953/607.htm",
+    "releasePattern": "小米手环 10 Pro 正式发布"
+  },
+  {
+    "id": "redmi-watch-6-2025",
+    "brand": "Redmi",
+    "category": "watch",
+    "modelName": "Redmi Watch 6",
+    "sourceName": "Redmi Watch 6",
+    "family": "Redmi Watch",
+    "variant": "standard",
+    "year": 2025,
+    "params": "https://detail.zol.com.cn/2146/2145501/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2145501.shtml",
+    "releaseUrl": "https://www.ithome.com/0/891/884.htm",
+    "releasePattern": "小米今日发布了 REDMI Watch 6 智能手表"
+  },
+  {
+    "id": "samsung-galaxy-watch3-41-2020",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch3（41mm/蓝牙版）",
+    "family": "Galaxy Watch",
+    "variant": "41mm-bluetooth",
+    "year": 2020,
+    "sourceName": "三星Galaxy Watch3（41mm/蓝牙版）",
+    "params": "https://detail.zol.com.cn/1335/1334556/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1334556.shtml",
+    "releaseUrl": "https://www.ithome.com/0/503/209.htm",
+    "releasePattern": "三星正式发布了 Galaxy Watch 3 国行版"
+  },
+  {
+    "id": "samsung-galaxy-watch3-45-lte-2020",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch3（45mm/LTE版）",
+    "family": "Galaxy Watch",
+    "variant": "45mm-lte",
+    "year": 2020,
+    "sourceName": "三星Galaxy Watch3（45mm/LTE版）",
+    "params": "https://detail.zol.com.cn/1335/1334557/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1334557.shtml",
+    "releaseUrl": "https://www.ithome.com/0/503/209.htm",
+    "releasePattern": "三星正式发布了 Galaxy Watch 3 国行版"
+  },
+  {
+    "id": "samsung-galaxy-watch-active2-40-2019",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch Active2 WiFi版（40mm）",
+    "family": "Galaxy Watch Active",
+    "variant": "40mm-bluetooth",
+    "year": 2019,
+    "sourceName": "三星Galaxy Watch Active2 WiFi版（40mm）",
+    "params": "https://detail.zol.com.cn/1288/1287369/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1287369.shtml",
+    "releaseUrl": "https://www.ithome.com/0/444/643.htm",
+    "releasePattern": "三星正式发布了Galaxy Watch Active2智能手表"
+  },
+  {
+    "id": "samsung-galaxy-watch-active2-40-lte-2019",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch Active2 LTE版（40mm）",
+    "family": "Galaxy Watch Active",
+    "variant": "40mm-lte",
+    "year": 2019,
+    "sourceName": "三星Galaxy Watch Active2 LTE版（40mm）",
+    "params": "https://detail.zol.com.cn/1288/1287469/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1287469.shtml",
+    "releaseUrl": "https://www.ithome.com/0/444/643.htm",
+    "releasePattern": "三星正式发布了Galaxy Watch Active2智能手表",
+    "exclusions": {
+      "screenSize": {
+        "url": "https://detail.zol.com.cn/1288/1287469/param.shtml",
+        "model": "三星Galaxy Watch Active2 LTE版（40mm）",
+        "pattern": "1\\.4英寸",
+        "reason": "参数页存在尺寸/版本或类型混用；保留可确认的对应发布原文，未核实部分留空。"
+      },
+      "batteryCapacity": {
+        "url": "https://detail.zol.com.cn/1288/1287469/param.shtml",
+        "model": "三星Galaxy Watch Active2 LTE版（40mm）",
+        "pattern": "340mAh",
+        "reason": "参数页存在尺寸/版本或类型混用；保留可确认的对应发布原文，未核实部分留空。"
+      },
+      "dimensions": {
+        "url": "https://detail.zol.com.cn/1288/1287469/param.shtml",
+        "model": "三星Galaxy Watch Active2 LTE版（40mm）",
+        "pattern": "表带宽度44mm",
+        "reason": "参数页存在尺寸/版本或类型混用；保留可确认的对应发布原文，未核实部分留空。"
+      }
+    },
+    "supplement": {
+      "screenSize": "40mm版本的屏幕为1.2英寸",
+      "displayType": "Super AMOLED屏幕"
+    }
+  },
+  {
+    "id": "samsung-galaxy-watch5-pro-2022",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch5 Pro 45mm 蓝牙版",
+    "family": "Galaxy Watch Pro",
+    "variant": "45mm-bluetooth",
+    "year": 2022,
+    "sourceName": "三星Galaxy Watch5 Pro 45mm 蓝牙版",
+    "params": "https://detail.zol.com.cn/1425/1424051/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1424051.shtml",
+    "releaseUrl": "https://www.ithome.com/0/636/504.htm",
+    "releasePattern": "三星 Galaxy Watch 5/5 Pro 智能手表的国行版本于今日发布"
+  },
+  {
+    "id": "samsung-galaxy-watch8-classic-2025",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch8 Classic 46mm 蓝牙版",
+    "family": "Galaxy Watch Classic",
+    "variant": "46mm-bluetooth",
+    "year": 2025,
+    "sourceName": "三星Galaxy Watch8 Classic 46mm 蓝牙版",
+    "params": "https://detail.zol.com.cn/2133/2132998/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2132998.shtml",
+    "releaseUrl": "https://www.ithome.com/0/866/989.htm",
+    "releasePattern": "三星今日正式发布了 Galaxy Watch 8 系列"
+  },
+  {
+    "id": "samsung-galaxy-watch8-classic-lte-2025",
+    "brand": "Samsung",
+    "category": "watch",
+    "modelName": "三星Galaxy Watch8 Classic 46mm LTE版",
+    "family": "Galaxy Watch Classic",
+    "variant": "46mm-lte",
+    "year": 2025,
+    "sourceName": "三星Galaxy Watch8 Classic 46mm LTE版",
+    "params": "https://detail.zol.com.cn/2133/2132999/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2132999.shtml",
+    "releaseUrl": "https://www.ithome.com/0/866/989.htm",
+    "releasePattern": "三星今日正式发布了 Galaxy Watch 8 系列"
+  },
+  {
+    "id": "huawei-watch-4-pro-2023",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为Watch 4 Pro 木星棕真皮表带",
+    "family": "华为 WATCH",
+    "variant": "pro-leather",
+    "year": 2023,
+    "sourceName": "华为Watch 4 Pro 木星棕真皮表带",
+    "params": "https://detail.zol.com.cn/1468/1467056/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1467056.shtml",
+    "releaseUrl": "https://www.ithome.com/0/696/109.htm",
+    "releasePattern": "华为 WATCH 4 系列智能手表发布"
+  },
+  {
+    "id": "huawei-watch-gt-4-41-2023",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为WATCH GT 4 (41mm) 幻夜黑 黑色氟橡胶表带",
+    "family": "华为 WATCH GT",
+    "variant": "41mm",
+    "year": 2023,
+    "sourceName": "华为WATCH GT 4 (41mm) 幻夜黑 黑色氟橡胶表带",
+    "params": "https://detail.zol.com.cn/1917/1916069/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1916069.shtml",
+    "releaseUrl": "https://www.ithome.com/0/721/519.htm",
+    "releasePattern": "华为 WATCH GT 4 系列智能手表今日正式登场"
+  },
+  {
+    "id": "huawei-watch-6-46-2026",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为WATCH 6(46mm/天青蓝/氟橡胶表带)",
+    "family": "华为 WATCH",
+    "variant": "46mm",
+    "year": 2026,
+    "sourceName": "华为WATCH 6(46mm/天青蓝/氟橡胶表带)",
+    "params": "https://detail.zol.com.cn/2178/2177227/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2177227.shtml",
+    "releaseUrl": "https://www.ithome.com/0/999/354.htm",
+    "releasePattern": "华为 WATCH 6 系列 鸿蒙 AI 手表正式发布"
+  },
+  {
+    "id": "huawei-watch-d3-2026",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为WATCH D3(曜石黑/黑色HNBR表带)",
+    "family": "华为 WATCH D",
+    "variant": "standard",
+    "year": 2026,
+    "sourceName": "华为WATCH D3(曜石黑/黑色HNBR表带)",
+    "params": "https://detail.zol.com.cn/2180/2179269/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2179269.shtml",
+    "releaseUrl": "https://www.ithome.com/1/008/175.htm",
+    "releasePattern": "华为 WATCH D3 腕部动态血压记录仪正式开售"
+  },
+  {
+    "id": "huawei-watch-buds-2-2026",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为WATCH Buds 2 (琥珀棕 棕色素皮氟胶复合表带)",
+    "family": "华为 WATCH Buds",
+    "variant": "standard",
+    "year": 2026,
+    "sourceName": "华为WATCH Buds 2 (琥珀棕 棕色素皮氟胶复合表带)",
+    "params": "https://detail.zol.com.cn/2164/2163934/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2163934.shtml",
+    "releaseUrl": "https://www.ithome.com/0/941/248.htm",
+    "releasePattern": "华为 WATCH[^]{0,10}Buds 2"
+  },
+  {
+    "id": "huawei-kids-watch-5x-pro-2022",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为儿童手表5X Pro",
+    "family": "华为儿童手表",
+    "variant": "5x-pro",
+    "year": 2022,
+    "sourceName": "华为儿童手表5X Pro",
+    "params": "https://detail.zol.com.cn/1437/1436263/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1436263.shtml",
+    "releaseUrl": "https://www.ithome.com/0/659/950.htm",
+    "releasePattern": "华为儿童手表 5X 系列",
+    "additionalSpecs": {
+      "url": "https://consumer.huawei.com/cn/wearables/kids-watch-5x-pro/specs/",
+      "model": "华为儿童手表 5X Pro",
+      "fields": {
+        "screenSize": "1.6 英寸",
+        "displayType": "主屏 1.6 英寸 AMOLED 触摸屏 360 × 320 像素 副屏 1.52 英寸段码屏",
+        "resolution": "360 × 320 像素",
+        "dimensions": "长 × 宽 × 高（不含腕托） 56.3 mm × 43.58 mm × 14.9 mm",
+        "wearableWeight": "78.7 克（含表带）",
+        "wearableCamera": "前置 500 万像素，后置 800 万像素",
+        "compatibility": "HarmonyOS 2 及以上，Android 7.0 及以上或 iOS 11.0 及以上",
+        "waterResistance": "IPX8 \\*满足 ISO 22810:2010 标准 2 ATM 防护等级要求[^。]{0,120}持续 10 分钟",
+        "batteryLife": "典型使用场景下，2 天一充"
+      }
+    }
+  },
+  {
+    "id": "huawei-kids-watch-5-2023",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为儿童手表 5",
+    "family": "华为儿童手表",
+    "variant": "standard",
+    "year": 2023,
+    "sourceName": "华为儿童手表 5",
+    "params": "https://detail.zol.com.cn/1614/1613776/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1613776.shtml",
+    "releaseUrl": "https://www.ithome.com/0/693/574.htm",
+    "releasePattern": "华为发布了华为儿童手表 5"
+  },
+  {
+    "id": "huawei-kids-watch-5-active-2023",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为儿童手表 5活力款",
+    "family": "华为儿童手表",
+    "variant": "active",
+    "year": 2023,
+    "sourceName": "华为儿童手表 5活力款",
+    "params": "https://detail.zol.com.cn/1839/1838314/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1838314.shtml",
+    "releaseUrl": "https://www.ithome.com/0/709/711.htm",
+    "releasePattern": "华为儿童手表 5 活力款"
+  },
+  {
+    "id": "huawei-kids-watch-5-pro-2024",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为儿童手表 5 Pro",
+    "family": "华为儿童手表",
+    "variant": "pro",
+    "year": 2024,
+    "sourceName": "华为儿童手表 5 Pro",
+    "params": "https://detail.zol.com.cn/2010/2009731/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2009731.shtml",
+    "releaseUrl": "https://www.ithome.com/0/768/143.htm",
+    "releasePattern": "华为儿童手表 5 Pro"
+  },
+  {
+    "id": "xiaomi-watch-s5-2026",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米Watch S5 黑色",
+    "family": "小米 Watch S",
+    "variant": "bluetooth",
+    "year": 2026,
+    "sourceName": "小米Watch S5 黑色",
+    "params": "https://detail.zol.com.cn/2162/2161252/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2161252.shtml",
+    "releaseUrl": "https://www.ithome.com/0/930/777.htm",
+    "releasePattern": "Xiaomi Watch S5 智能手表正式发布",
+    "colorImages": [
+      {
+        "name": "黑色",
+        "url": "https://detail.zol.com.cn/GPSwatch/index2161252.shtml",
+        "sourceName": "小米Watch S5 黑色"
+      },
+      {
+        "name": "银色",
+        "url": "https://detail.zol.com.cn/GPSwatch/index2161253.shtml",
+        "sourceName": "小米Watch S5 银色"
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-watch-s5-esim-2026",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米Watch S5 eSIM版",
+    "family": "小米 Watch S",
+    "variant": "esim",
+    "year": 2026,
+    "sourceName": "小米Watch S5 eSIM版",
+    "params": "https://detail.zol.com.cn/2162/2161256/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2161256.shtml",
+    "releaseUrl": "https://www.ithome.com/0/930/777.htm",
+    "releasePattern": "Xiaomi Watch S5 智能手表正式发布"
+  },
+  {
+    "id": "xiaomi-watch-s5-41-2026",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米Watch S5 41mm(陶瓷白)",
+    "family": "小米 Watch S",
+    "variant": "41mm",
+    "year": 2026,
+    "sourceName": "小米Watch S5 41mm(陶瓷白)",
+    "params": "https://detail.zol.com.cn/2179/2178822/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2178822.shtml",
+    "releaseUrl": "https://www.ithome.com/1/006/432.htm",
+    "releasePattern": "小米 Watch S5 41mm 智能手表正式发布"
+  },
+  {
+    "id": "xiaomi-watch-s4-sport-2024",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米Watch S4 Sport 灰色氟橡胶表带",
+    "family": "小米 Watch S",
+    "variant": "sport",
+    "year": 2024,
+    "sourceName": "小米Watch S4 Sport 灰色氟橡胶表带",
+    "params": "https://detail.zol.com.cn/2094/2093848/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2093848.shtml",
+    "releaseUrl": "https://www.ithome.com/0/783/041.htm",
+    "releasePattern": "小米 Watch S4 Sport"
+  },
+  {
+    "id": "xiaomi-watch-s4-anniversary-2025",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米Watch S4 15周年纪念版",
+    "family": "小米 Watch S",
+    "variant": "anniversary",
+    "year": 2025,
+    "sourceName": "小米Watch S4 15周年纪念版",
+    "params": "https://detail.zol.com.cn/2129/2128649/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2128649.shtml",
+    "releaseUrl": "https://www.ithome.com/0/855/242.htm",
+    "releasePattern": "小米 Watch S4 eSIM 15 周年纪念版发布"
+  },
+  {
+    "id": "xiaomi-wrist-ecg-bp-2023",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米腕部心电血压记录仪",
+    "family": "小米腕部记录仪",
+    "variant": "standard",
+    "year": 2023,
+    "sourceName": "小米腕部心电血压记录仪",
+    "params": "https://detail.zol.com.cn/1936/1935699/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1935699.shtml",
+    "releaseUrl": "https://www.ithome.com/0/727/920.htm",
+    "releasePattern": "小米腕部心电血压记录仪",
+    "exclusions": {
+      "cellular": {
+        "url": "https://detail.zol.com.cn/1936/1935699/param.shtml",
+        "model": "小米腕部心电血压记录仪",
+        "pattern": "支持 ，eSIM卡",
+        "reason": "参数页存在尺寸/版本或类型混用；保留可确认的对应发布原文，未核实部分留空。"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-mitu-watch-2-2017",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米米兔儿童电话手表2",
+    "family": "米兔儿童手表",
+    "variant": "standard",
+    "year": 2017,
+    "sourceName": "小米米兔儿童电话手表2",
+    "params": "https://detail.zol.com.cn/1178/1177728/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1177728.shtml",
+    "releaseUrl": "https://www.ithome.com/0/314/608.htm",
+    "releasePattern": "米兔儿童电话手表2",
+    "exclusions": {
+      "batteryLife": {
+        "url": "https://detail.zol.com.cn/1178/1177728/param.shtml",
+        "model": "小米米兔儿童电话手表2",
+        "pattern": "10天",
+        "reason": "参数页存在尺寸/版本或类型混用；保留可确认的对应发布原文，未核实部分留空。"
+      },
+      "displayType": {
+        "url": "https://detail.zol.com.cn/1178/1177728/param.shtml",
+        "model": "小米米兔儿童电话手表2",
+        "pattern": "LED显示屏，AMOLED方屏",
+        "reason": "参数页存在尺寸/版本或类型混用；保留可确认的对应发布原文，未核实部分留空。"
+      }
+    },
+    "supplement": {
+      "displayType": "AMOLED",
+      "batteryLife": "(?:续航|待机)[^。]{0,40}6天"
+    }
+  },
+  {
+    "id": "xiaomi-mitu-watch-3-2018",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米米兔儿童电话手表3（4G）",
+    "family": "米兔儿童手表",
+    "variant": "standard",
+    "year": 2018,
+    "sourceName": "小米米兔儿童电话手表3（4G）",
+    "params": "https://detail.zol.com.cn/1264/1263637/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1263637.shtml",
+    "releaseUrl": "https://www.ithome.com/0/372/193.htm",
+    "releasePattern": "米兔儿童电话手表3"
+  },
+  {
+    "id": "xiaomi-mitu-watch-2c-2018",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米米兔儿童电话手表2c",
+    "family": "米兔儿童手表",
+    "variant": "c",
+    "year": 2018,
+    "sourceName": "小米米兔儿童电话手表2c",
+    "params": "https://detail.zol.com.cn/1264/1263641/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1263641.shtml",
+    "releaseUrl": "https://www.ithome.com/0/359/698.htm",
+    "releasePattern": "米兔儿童电话手表2C"
+  },
+  {
+    "id": "xiaomi-mitu-watch-3c-2019",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米米兔儿童电话手表3C（4G）",
+    "family": "米兔儿童手表",
+    "variant": "c",
+    "year": 2019,
+    "sourceName": "小米米兔儿童电话手表3C（4G）",
+    "params": "https://detail.zol.com.cn/1291/1290450/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1290450.shtml",
+    "releaseUrl": "https://m.cnmo.com/news/667323.html",
+    "releasePattern": "米兔儿童电话手表3C正式上架"
+  },
+  {
+    "id": "xiaomi-mitu-watch-4-pro-2020",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米米兔儿童学习手表 4Pro",
+    "family": "米兔儿童手表",
+    "variant": "pro",
+    "year": 2020,
+    "sourceName": "小米米兔儿童学习手表 4Pro",
+    "params": "https://detail.zol.com.cn/1309/1308178/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1308178.shtml",
+    "releaseUrl": "https://m.ithome.com/html/534602.htm",
+    "releasePattern": "米兔儿童手表 4 Pro 于 2020 年 1 月 10 日正式发售",
+    "exclusions": {
+      "compatibility": {
+        "url": "https://detail.zol.com.cn/1309/1308178/param.shtml",
+        "model": "小米米兔儿童学习手表 4Pro",
+        "pattern": "Android 8\\.1",
+        "reason": "Android 8.1为设备自身系统，未给出手机兼容范围，撤下歧义字段。"
+      },
+      "resolution": {
+        "url": "https://detail.zol.com.cn/1309/1308178/param.shtml",
+        "model": "小米米兔儿童学习手表 4Pro",
+        "pattern": "326\\*326像素",
+        "reason": "来源将326ppi误写成屏幕分辨率，未取得正确像素原文前留空。"
+      }
+    },
+    "supplement": {
+      "wearableCamera": "侧方 800 万像素变焦摄像头 \\+ 前置 500 万像素大广角摄像头"
+    }
+  },
+  {
+    "id": "xiaomi-mitu-watch-4-2020",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米米兔儿童学习手表4",
+    "family": "米兔儿童手表",
+    "variant": "standard",
+    "year": 2020,
+    "sourceName": "小米米兔儿童学习手表4",
+    "params": "https://detail.zol.com.cn/1318/1317687/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1317687.shtml",
+    "releaseUrl": "https://news.mydrivers.com/1/681/681300.htm",
+    "releasePattern": "米兔儿童学习手表4今日发布",
+    "exclusions": {
+      "compatibility": {
+        "url": "https://detail.zol.com.cn/1318/1317687/param.shtml",
+        "model": "小米米兔儿童学习手表4",
+        "pattern": "Android 8\\.1",
+        "reason": "Android 8.1为设备自身系统，未给出手机兼容范围，撤下歧义字段。"
+      },
+      "resolution": {
+        "url": "https://detail.zol.com.cn/1318/1317687/param.shtml",
+        "model": "小米米兔儿童学习手表4",
+        "pattern": "326\\*326像素",
+        "reason": "来源将326ppi误写成屏幕分辨率，未取得正确像素原文前留空。"
+      }
+    },
+    "supplement": {
+      "wearableCamera": "前置500万像素高清摄像头[^。]{0,50}侧置500万像素摄像头"
+    }
+  },
+  {
+    "id": "xiaomi-mitu-watch-4c-2020",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米米兔儿童电话手表4C",
+    "family": "米兔儿童手表",
+    "variant": "c",
+    "year": 2020,
+    "sourceName": "小米米兔儿童电话手表4C",
+    "params": "https://detail.zol.com.cn/1329/1328947/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1328947.shtml",
+    "releaseUrl": "https://www.ithome.com/0/494/282.htm",
+    "releasePattern": "米兔儿童电话手表4C"
+  },
+  {
+    "id": "xiaomi-mitu-watch-4x-2020",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米米兔儿童电话手表4X",
+    "family": "米兔儿童手表",
+    "variant": "x",
+    "year": 2020,
+    "sourceName": "小米米兔儿童电话手表4X",
+    "params": "https://detail.zol.com.cn/1335/1334865/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1334865.shtml",
+    "releaseUrl": "https://www.ithome.com/0/502/478.htm",
+    "releasePattern": "小米今天发布了米兔儿童学习手表 4X"
+  },
+  {
+    "id": "xiaomi-mitu-watch-5c-2021",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米米兔儿童电话手表5C",
+    "family": "米兔儿童手表",
+    "variant": "c",
+    "year": 2021,
+    "sourceName": "小米米兔儿童电话手表5C",
+    "params": "https://detail.zol.com.cn/1376/1375626/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1375626.shtml",
+    "releaseUrl": "https://www.ithome.com/0/558/634.htm",
+    "releasePattern": "米兔儿童电话手表 5C"
+  },
+  {
+    "id": "xiaomi-mitu-watch-5x-2021",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米米兔儿童手表5X",
+    "family": "米兔儿童手表",
+    "variant": "x",
+    "year": 2021,
+    "sourceName": "小米米兔儿童手表5X",
+    "params": "https://detail.zol.com.cn/1382/1381400/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1381400.shtml",
+    "releaseUrl": "https://news.mydrivers.com/1/770/770741.htm",
+    "releasePattern": "全新米兔儿童学习手表5X正式发布"
+  },
+  {
+    "id": "xiaomi-mitu-watch-5-pro-2021",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米米兔儿童学习手表 5Pro",
+    "family": "米兔儿童手表",
+    "variant": "pro",
+    "year": 2021,
+    "sourceName": "小米米兔儿童学习手表 5Pro",
+    "params": "https://detail.zol.com.cn/1395/1394390/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1394390.shtml",
+    "releaseUrl": "https://www.ithome.com/0/584/790.htm",
+    "releasePattern": "今日小米正式发布了米兔儿童学习手表 5Pro"
+  },
+  {
+    "id": "xiaomi-mitu-watch-6-2022",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米米兔儿童电话手表 6",
+    "family": "米兔儿童手表",
+    "variant": "standard",
+    "year": 2022,
+    "sourceName": "小米米兔儿童电话手表 6",
+    "params": "https://detail.zol.com.cn/1427/1426383/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1426383.shtml",
+    "releaseUrl": "https://smartwear.zol.com.cn/798/7989943.html",
+    "releasePattern": "米兔儿童手表6全新发布",
+    "exclusions": {
+      "onboardStorage": {
+        "url": "https://detail.zol.com.cn/1427/1426383/param.shtml",
+        "model": "小米米兔儿童电话手表 6",
+        "pattern": "512MB",
+        "reason": "存储字段与运行内存混用或复制其他型号，待明确机身存储证据后再恢复。"
+      },
+      "screenSize": {
+        "url": "https://detail.zol.com.cn/1427/1426383/param.shtml",
+        "model": "小米米兔儿童电话手表 6",
+        "pattern": "1\\.4英寸",
+        "reason": "参数页存在尺寸/版本或类型混用；保留可确认的对应发布原文，未核实部分留空。"
+      }
+    },
+    "supplement": {
+      "screenSize": "1.52英寸的视网膜屏幕",
+      "resolution": "分辨率为360\\*400"
+    }
+  },
+  {
+    "id": "xiaomi-mitu-watch-6c-2022",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米米兔儿童手表6C",
+    "family": "米兔儿童手表",
+    "variant": "c",
+    "year": 2022,
+    "sourceName": "小米米兔儿童手表6C",
+    "params": "https://detail.zol.com.cn/1512/1511685/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index1511685.shtml",
+    "releaseUrl": "https://www.ithome.com/0/620/980.htm",
+    "releasePattern": "米兔儿童手表 6C"
+  },
+  {
+    "id": "redmi-band-2-2022",
+    "brand": "Redmi",
+    "category": "band",
+    "modelName": "Redmi 手环 2",
+    "family": "Redmi 手环",
+    "variant": "standard",
+    "year": 2022,
+    "sourceName": "Redmi 手环 2",
+    "params": "https://detail.zol.com.cn/1439/1438631/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1438631.shtml",
+    "releaseUrl": "https://www.ithome.com/0/663/932.htm",
+    "releasePattern": "Redmi 手环 2 今晚正式发布",
+    "exclusions": {
+      "onboardStorage": {
+        "url": "https://detail.zol.com.cn/1439/1438631/param.shtml",
+        "model": "Redmi 手环 2",
+        "pattern": "8MB\\+512KB",
+        "reason": "存储字段与运行内存混用或复制其他型号，待明确机身存储证据后再恢复。"
+      },
+      "screenSize": {
+        "url": "https://detail.zol.com.cn/1439/1438631/param.shtml",
+        "model": "Redmi 手环 2",
+        "pattern": "1\\.08英寸",
+        "reason": "参数页存在尺寸/版本或类型混用；保留可确认的对应发布原文，未核实部分留空。"
+      },
+      "resolution": {
+        "url": "https://detail.zol.com.cn/1439/1438631/param.shtml",
+        "model": "Redmi 手环 2",
+        "pattern": "128\\*220像素",
+        "reason": "参数页存在尺寸/版本或类型混用；保留可确认的对应发布原文，未核实部分留空。"
+      },
+      "dimensions": {
+        "url": "https://detail.zol.com.cn/1439/1438631/param.shtml",
+        "model": "Redmi 手环 2",
+        "pattern": "20\\.72\\*58\\.69\\*58\\.69mm",
+        "reason": "参数页存在尺寸/版本或类型混用；保留可确认的对应发布原文，未核实部分留空。"
+      },
+      "compatibility": {
+        "url": "https://detail.zol.com.cn/1439/1438631/param.shtml",
+        "model": "Redmi 手环 2",
+        "pattern": "Android 4\\.4及以上版本",
+        "reason": "参数页存在尺寸/版本或类型混用；保留可确认的对应发布原文，未核实部分留空。"
+      }
+    },
+    "supplement": {
+      "screenSize": "1.47 英寸屏幕",
+      "batteryLife": "典型续航 14 天，重度使用续航 6 天"
+    }
+  },
+  {
+    "id": "redmi-band-3-2024",
+    "brand": "Redmi",
+    "category": "band",
+    "modelName": "Redmi 手环3",
+    "family": "Redmi 手环",
+    "variant": "standard",
+    "year": 2024,
+    "sourceName": "Redmi 手环3",
+    "params": "https://detail.zol.com.cn/2112/2111640/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index2111640.shtml",
+    "releaseUrl": "https://www.ithome.com/0/806/079.htm",
+    "releasePattern": "Redmi 手环 3",
+    "exclusions": {
+      "onboardStorage": {
+        "url": "https://detail.zol.com.cn/2112/2111640/param.shtml",
+        "model": "Redmi 手环3",
+        "pattern": "8MB\\+512KB",
+        "reason": "存储字段与运行内存混用或复制其他型号，待明确机身存储证据后再恢复。"
+      },
+      "screenSize": {
+        "url": "https://detail.zol.com.cn/2112/2111640/param.shtml",
+        "model": "Redmi 手环3",
+        "pattern": "1\\.08英寸",
+        "reason": "参数页存在尺寸/版本或类型混用；保留可确认的对应发布原文，未核实部分留空。"
+      },
+      "resolution": {
+        "url": "https://detail.zol.com.cn/2112/2111640/param.shtml",
+        "model": "Redmi 手环3",
+        "pattern": "128\\*220px",
+        "reason": "参数页存在尺寸/版本或类型混用；保留可确认的对应发布原文，未核实部分留空。"
+      },
+      "dimensions": {
+        "url": "https://detail.zol.com.cn/2112/2111640/param.shtml",
+        "model": "Redmi 手环3",
+        "pattern": "20\\.72\\*58\\.69\\*58\\.69mm",
+        "reason": "参数页存在尺寸/版本或类型混用；保留可确认的对应发布原文，未核实部分留空。"
+      },
+      "compatibility": {
+        "url": "https://detail.zol.com.cn/2112/2111640/param.shtml",
+        "model": "Redmi 手环3",
+        "pattern": "Android 4\\.4及以上版本",
+        "reason": "参数页存在尺寸/版本或类型混用；保留可确认的对应发布原文，未核实部分留空。"
+      },
+      "batteryLife": {
+        "url": "https://detail.zol.com.cn/2112/2111640/param.shtml",
+        "model": "Redmi 手环3",
+        "pattern": "14天",
+        "reason": "参数页存在尺寸/版本或类型混用；保留可确认的对应发布原文，未核实部分留空。"
+      },
+      "colors": {
+        "url": "https://detail.zol.com.cn/2112/2111640/param.shtml",
+        "model": "Redmi 手环3",
+        "pattern": "深空蓝，活力橙，石墨黑，橄榄绿",
+        "reason": "复制第一代配色，国行第三代仅黑色、米色。"
+      },
+      "wearableWeight": {
+        "url": "https://detail.zol.com.cn/2112/2111640/param.shtml",
+        "model": "Redmi 手环3",
+        "pattern": "13g",
+        "reason": "复制第一代重量，第三代发布报道为约16.5g。"
+      },
+      "chargingMethod": {
+        "url": "https://detail.zol.com.cn/2112/2111640/param.shtml",
+        "model": "Redmi 手环3",
+        "pattern": "自带USB充电",
+        "reason": "第一代采用拔下米粒USB直充，此行不能代表第三代充电方式。"
+      }
+    },
+    "supplement": {
+      "screenSize": "1.47 英寸",
+      "resolution": "172[^。]{0,10}320",
+      "batteryLife": "18 天",
+      "displayType": "TFT",
+      "colors": "黑色、米色",
+      "dimensions": "45.90\\*26.94\\*9.99 mm",
+      "wearableWeight": "16.5g",
+      "batteryCapacityDetails": "300mAh",
+      "bluetooth": "蓝牙 5.3",
+      "chargingTime": "充电时间小于 2 小时"
+    }
+  },
+  {
+    "id": "oppo-watch-s-2025",
+    "brand": "OPPO",
+    "category": "watch",
+    "modelName": "OPPO Watch S",
+    "family": "OPPO Watch S",
+    "variant": "standard",
+    "year": 2025,
+    "sourceName": "OPPO Watch S",
+    "params": "https://detail.zol.com.cn/2145/2144808/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2144808.shtml",
+    "releaseUrl": "https://www.ithome.com/0/890/055.htm",
+    "releasePattern": "OPPO Watch S"
+  },
+  {
+    "id": "oppo-watch-x2-mini-2025",
+    "brand": "OPPO",
+    "category": "watch",
+    "modelName": "OPPO Watch X2 Mini",
+    "family": "OPPO Watch X",
+    "variant": "mini",
+    "year": 2025,
+    "sourceName": "OPPO Watch X2 Mini",
+    "params": "https://detail.zol.com.cn/2126/2125526/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2125526.shtml",
+    "releaseUrl": "https://www.ithome.com/0/845/596.htm",
+    "releasePattern": "OPPO Watch X2 Mini"
+  },
+  {
+    "id": "oppo-watch-x3-mini-esim-2026",
+    "brand": "OPPO",
+    "category": "watch",
+    "modelName": "OPPO Watch X3 Mini（eSIM版）",
+    "family": "OPPO Watch X",
+    "variant": "mini-esim",
+    "year": 2026,
+    "sourceName": "OPPO Watch X3 Mini（eSIM版）",
+    "params": "https://detail.zol.com.cn/2165/2164101/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2164101.shtml",
+    "releaseUrl": "https://www.ithome.com/0/941/822.htm",
+    "releasePattern": "Watch X3 Mini 智能手表"
+  },
+  {
+    "id": "oppo-watch-x3-mini-bluetooth-2026",
+    "brand": "OPPO",
+    "category": "watch",
+    "modelName": "OPPO Watch X3 Mini（蓝牙版）",
+    "family": "OPPO Watch X",
+    "variant": "mini-bluetooth",
+    "year": 2026,
+    "sourceName": "OPPO Watch X3 Mini（蓝牙版）",
+    "params": "https://detail.zol.com.cn/2165/2164102/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2164102.shtml",
+    "releaseUrl": "https://www.ithome.com/0/941/822.htm",
+    "releasePattern": "Watch X3 Mini 智能手表"
+  },
+  {
+    "id": "honor-watch-5-pro-bluetooth-2025",
+    "brand": "HONOR",
+    "category": "watch",
+    "modelName": "荣耀手表5 Pro 蓝牙版",
+    "family": "荣耀手表",
+    "variant": "pro-bluetooth",
+    "year": 2025,
+    "sourceName": "荣耀手表5 Pro 蓝牙版",
+    "params": "https://detail.zol.com.cn/2145/2144663/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2144663.shtml",
+    "releaseUrl": "https://www.ithome.com/0/889/760.htm",
+    "releasePattern": "推出荣耀手表 5 Pro",
+    "exclusions": {
+      "cellular": {
+        "url": "https://detail.zol.com.cn/2145/2144663/param.shtml",
+        "model": "荣耀手表5 Pro 蓝牙版",
+        "pattern": "支持 ，eSIM卡",
+        "reason": "参数页存在尺寸/版本或类型混用；保留可确认的对应发布原文，未核实部分留空。"
+      }
+    },
+    "supplement": {
+      "batteryLife": "蓝牙版最长续航可达 15 天"
+    },
+    "additionalSpecs": {
+      "url": "https://www.honor.com/cn/wearables/honor-watch-5-pro/spec/",
+      "model": "荣耀手表5 Pro",
+      "fields": {
+        "dimensions": "蓝牙版：46.3mm×46.3mm×11.6mm",
+        "wearableWeight": "蓝牙版：约50.7g（不含表带重量）",
+        "compatibility": "Android 9.0\\+，iOS 13.0\\+"
+      }
+    }
+  },
+  {
+    "id": "huawei-band-11-2026",
+    "brand": "Huawei",
+    "category": "band",
+    "modelName": "华为手环 11",
+    "sourceName": "华为手环 11",
+    "family": "华为手环",
+    "variant": "standard",
+    "year": 2026,
+    "params": "https://consumer.huawei.com/cn/wearables/band11/specs/",
+    "releaseUrl": "https://www.ithome.com/0/931/898.htm",
+    "releasePattern": "华为手环 11 系列",
+    "paramSupplement": {
+      "screenSize": "1.62 英寸",
+      "displayType": "AMOLED 彩色屏幕",
+      "resolution": "286 × 482，PPI 347",
+      "dimensions": "42.6 × 28.2 × 8.99 mm",
+      "wearableWeight": "约 16 g（增强型聚合纤维）/ 17 g（铝合金）（均不含表带）",
+      "compatibility": "HarmonyOS 2 及以上 Android 9.0 及以上 iOS 13.0 及以上",
+      "batteryLife": "最长使用场景续航可达 14 天[^]{0,400}常规使用场景续航可达 8 天",
+      "bluetooth": "2.4 GHz，BT 6.0，支持 BR/BLE",
+      "connectivity": "NFC 仅华为手环 11 NFC 版支持",
+      "waterResistance": "5 ATM \\*满足 ISO 22810:2010 标准[^。]{0,120}并非是实际 50 米水下的防水能力",
+      "chargingMethod": "磁吸顶针充电口"
+    }
+  },
+  {
+    "id": "huawei-watch-ultimate-2-2025",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "HUAWEI WATCH Ultimate 2",
+    "sourceName": "HUAWEI WATCH Ultimate 2",
+    "family": "华为 WATCH Ultimate",
+    "variant": "standard",
+    "year": 2025,
+    "params": "https://consumer.huawei.com/cn/wearables/watch-ultimate-2/specs/",
+    "releaseUrl": "https://www.ithome.com/0/895/549.htm",
+    "releasePattern": "华为 WATCH Ultimate 2 于今日 10:08 正式在华为商城开启预售",
+    "paramSupplement": {
+      "screenSize": "1.5 英寸",
+      "displayType": "LTPO 2.0 AMOLED 彩屏",
+      "resolution": "466 × 466 pixels, PPI 310",
+      "wearableWeight": "约 80.5 g（不含表带）",
+      "wearableChip": "麒麟W80",
+      "compatibility": "HarmonyOS 2.0 及以上，Android 9.0 及以上 ，iOS 13.0 及以上",
+      "waterResistance": "防水：20 ATM \\+ IP68 \\+ IP69，潜水（最大深度 150 米） 防尘：IP6X",
+      "batteryLife": "全能模式常规使用：4.5 天 全能模式开启 AOD：3 天 省电模式轻度使用：11 天 省电模式常规使用：7 天 省电模式开启 AOD：4 天",
+      "chargingMethod": "充电接口类型 无线充电",
+      "bluetooth": "蓝牙 5.2",
+      "wifi": "WLAN 2.4 GHz \\+ 5 GHz",
+      "positioning": "GPS（L1 \\+ L5 双频）/GLONASS/北斗（B1I \\+ B1C \\+ B2a）/GALILEO（E1 \\+ E5a）/QZSS（L1 \\+ L5 双频）"
+    }
+  },
+  {
+    "id": "honor-watch-5-ultra-2025",
+    "brand": "HONOR",
+    "category": "watch",
+    "modelName": "荣耀手表5 Ultra",
+    "sourceName": "荣耀手表5 Ultra",
+    "family": "荣耀手表",
+    "variant": "ultra",
+    "year": 2025,
+    "params": "https://www.honor.com/cn/wearables/honor-watch-5-ultra/spec/",
+    "releaseUrl": "https://www.ithome.com/0/865/368.htm",
+    "releasePattern": "荣耀手表 5 Ultra 今日晚正式发布",
+    "paramSupplement": {
+      "screenSize": "1.5英寸",
+      "displayType": "AMOLED 彩色圆屏",
+      "resolution": "466\\*466，PPI 310",
+      "dimensions": "46.3mm × 46.3mm × 11.4mm",
+      "wearableWeight": "约51.8g（不含表带）",
+      "onboardStorage": "8GB",
+      "compatibility": "Android 9.0\\+，iOS 13.0\\+",
+      "waterResistance": "5ATM，IP68",
+      "batteryLife": "手表配合荣耀手机使用， eSIM典型场景下，续航可达 10 天；开启AOD常显最长可使用5.5天； 独立eSIM典型场景下，续航可达3天；开启AOD常显最长可使用2天； 未开通eSIM典型场景下，续航可达 15 天；开启AOD常显最长可使用7天；",
+      "chargingMethod": "无线充电",
+      "positioning": "GPS\\+GLONASS\\+GALILEO\\+北斗\\+QZSS"
+    }
+  },
+  {
+    "id": "samsung-galaxy-fit2-2021",
+    "brand": "Samsung",
+    "category": "band",
+    "modelName": "三星 Galaxy Fit2",
+    "sourceName": "三星Galaxy Fit 2",
+    "family": "Galaxy Fit",
+    "year": 2021,
+    "params": "https://detail.zol.com.cn/1339/1338407/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1338407.shtml",
+    "releaseUrl": "https://www.ithome.com/0/530/771.htm",
+    "releasePattern": "三星还推出了一款智能手环产品 Galaxy Fit2",
+    "supplement": {
+      "compatibility": "可兼容安卓 5.0 或更高版本、RAM 1.5GB 以上、iOS 10 及更高版本、iPhone7 及更高版本的手机。iOS 设备可能不支持部分功能"
+    }
+  },
+  {
+    "id": "redmi-band-2020",
+    "brand": "Redmi",
+    "category": "band",
+    "modelName": "Redmi 手环",
+    "sourceName": "Redmi 手环",
+    "family": "Redmi 手环",
+    "year": 2020,
+    "params": "https://detail.zol.com.cn/1318/1317719/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1317719.shtml",
+    "releaseUrl": "https://www.ithome.com/0/481/059.htm",
+    "releasePattern": "小米还带来了 Redmi 首款可穿戴设备",
+    "exclusions": {
+      "dimensions": {
+        "url": "https://detail.zol.com.cn/1318/1317719/param.shtml",
+        "model": "Redmi 手环",
+        "pattern": "20\\.72\\*58\\.69\\*58\\.69mm",
+        "reason": "尺寸数据明显排版错误，未核实前留空。"
+      },
+      "onboardStorage": {
+        "url": "https://detail.zol.com.cn/1318/1317719/param.shtml",
+        "model": "Redmi 手环",
+        "pattern": "8MB\\+512KB",
+        "reason": "机身存储与运行内存混用，不作为独立存储参数。"
+      },
+      "colors": {
+        "url": "https://detail.zol.com.cn/1318/1317719/param.shtml",
+        "model": "Redmi 手环",
+        "pattern": "深空蓝，活力橙，石墨黑，橄榄绿",
+        "reason": "颜色名称与国行发布介绍不一致，保留发布报道的实际腕带配色。"
+      }
+    },
+    "supplement": {
+      "colors": "黑、蓝、红、棕"
+    }
+  },
+  {
+    "id": "huawei-band-11-pro-2026",
+    "brand": "Huawei",
+    "category": "band",
+    "modelName": "华为手环 11 Pro",
+    "sourceName": "华为手环 11 Pro",
+    "family": "华为手环",
+    "variant": "pro",
+    "year": 2026,
+    "params": "https://consumer.huawei.com/cn/wearables/band11-pro/specs/",
+    "releaseUrl": "https://www.ithome.com/0/931/898.htm",
+    "releasePattern": "华为手环 11 系列",
+    "paramSupplement": {
+      "screenSize": "1.62 英寸",
+      "displayType": "AMOLED 彩色屏幕",
+      "resolution": "286 × 482，PPI 347",
+      "dimensions": "43.5 × 28.2 × 8.99 mm",
+      "wearableWeight": "约 18 g （铝合金）（不含表带）",
+      "compatibility": "HarmonyOS 2 及以上 Android 9.0 及以上 iOS 13.0 及以上",
+      "batteryLife": "最长使用场景续航可达 14 天[^]{0,400}常规使用场景续航可达 8 天",
+      "bluetooth": "2.4 GHz，BT 6.0，支持 BLE",
+      "waterResistance": "5 ATM \\*满足 ISO 22810:2010 标准[^。]{0,120}并非是实际 50 米水下的防水能力",
+      "chargingMethod": "磁吸顶针充电口"
+    }
+  },
+  {
+    "id": "honor-watch-x5i-2026",
+    "brand": "HONOR",
+    "category": "watch",
+    "modelName": "荣耀手表 X5i",
+    "sourceName": "荣耀手表 X5i",
+    "family": "荣耀手表 X",
+    "variant": "i",
+    "year": 2026,
+    "params": "https://www.honor.com/cn/wearables/honor-watch-x5i/spec/",
+    "releaseUrl": "https://www.ithome.com/0/927/721.htm",
+    "releasePattern": "荣耀手表 X5i 今日开启预售",
+    "paramSupplement": {
+      "screenSize": "1.97英寸",
+      "displayType": "AMOLED 彩色大屏",
+      "resolution": "390\\*450，PPI 302",
+      "dimensions": "46.73mm\\*40.54mm\\*10.9mm",
+      "wearableWeight": "约28g（不含表带的重量）",
+      "waterResistance": "1ATM级防水",
+      "compatibility": "Android 9.0及以上，iOS 15.1及以上，鸿蒙 6.0及以上[^]{0,100}鸿蒙系统后续应用市场版本更新支持",
+      "batteryLife": "配对荣耀手机使用，最长使用场景续航21天；常规使用场景续航15天；AOD模式续航6天",
+      "bluetooth": "2.4 GHz，BT5.4",
+      "chargingMethod": "磁极顶针充电口"
+    }
+  },
+  {
+    "id": "honor-watch-gs5-2026",
+    "brand": "HONOR",
+    "category": "watch",
+    "modelName": "荣耀手表 GS 5",
+    "sourceName": "荣耀手表 GS 5",
+    "family": "荣耀手表 GS",
+    "year": 2026,
+    "params": "https://www.honor.com/cn/wearables/honor-watch-gs-5/spec/",
+    "releaseUrl": "https://club.honor.com/cn/thread-29997051-1-1.html",
+    "releasePattern": "全新\\s*荣耀\\s*手表 GS 5 正式发布",
+    "paramSupplement": {
+      "screenSize": "1.32英寸",
+      "displayType": "AMOLED彩色屏",
+      "resolution": "466x466，PPI 352",
+      "dimensions": "44mm×44mm×9.9mm",
+      "wearableWeight": "约26g （不含表带的重量）",
+      "waterResistance": "5ATM,IP68",
+      "compatibility": "Android 9.0及以上，iOS 13.0及以上",
+      "batteryLife": "23天：长续航模式场景续航[^]{0,600}9天：AOD模式场景续航",
+      "bluetooth": "BT5.4，支持BLE/BR/EDR，2.4 GHz",
+      "positioning": "5大系统（北斗\\+GPS\\+GLONASS\\+GALILEO\\+QZSS）"
+    }
+  },
+  {
+    "id": "honor-band-10-2025",
+    "brand": "HONOR",
+    "category": "band",
+    "modelName": "荣耀手环10",
+    "sourceName": "荣耀手环10",
+    "family": "荣耀手环",
+    "year": 2025,
+    "params": "https://www.honor.com/cn/wearables/honor-band-10/spec/",
+    "releaseUrl": "https://www.ithome.com/0/848/379.htm",
+    "releasePattern": "荣耀手环 10 今日正式发布",
+    "paramSupplement": {
+      "screenSize": "1.57英寸",
+      "displayType": "AMOLED 彩色大屏",
+      "resolution": "256\\*402，PPI 302",
+      "dimensions": "43.2mm×28.2mm×8.99mm",
+      "wearableWeight": "约14.7g （不含表带的重量）[^]{0,80}NFC版本为15.0g",
+      "waterResistance": "5ATM级防水",
+      "compatibility": "Android 9.0及以上，iOS 13.0及以上",
+      "batteryLife": "最长使用场景续航14天；常规使用场景续航10天；AOD模式续航3天",
+      "bluetooth": "2.4 GHz，BLE5.3",
+      "connectivity": "仅NFC版本支持",
+      "chargingMethod": "磁极顶针充电口"
+    }
+  },
+  {
+    "id": "xiaomi-band-11-ceramic-2026",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环11 特别版 陶瓷版 白色",
+    "sourceName": "小米手环11 特别版 陶瓷版 白色",
+    "family": "小米手环",
+    "variant": "ceramic",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2179/2178816/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index2178816.shtml",
+    "releaseUrl": "https://www.ithome.com/0/999/076.htm",
+    "releasePattern": "全新小米手环 11 将在今天上午 10 点开售"
+  },
+  {
+    "id": "xiaomi-band-11-metal-2026",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环11 特别版 全金属版 薰衣草紫",
+    "sourceName": "小米手环11 特别版 全金属版 薰衣草紫",
+    "family": "小米手环",
+    "variant": "metal",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2179/2178815/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index2178815.shtml",
+    "releaseUrl": "https://www.ithome.com/0/999/076.htm",
+    "releasePattern": "全新小米手环 11 将在今天上午 10 点开售"
+  },
+  {
+    "id": "xiaomi-band-11-nfc-2026",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环11 NFC版",
+    "sourceName": "小米手环11 NFC版",
+    "family": "小米手环",
+    "variant": "nfc",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2179/2178813/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index2178813.shtml",
+    "releaseUrl": "https://www.ithome.com/0/999/076.htm",
+    "releasePattern": "全新小米手环 11 将在今天上午 10 点开售"
+  },
+  {
+    "id": "xiaomi-band-11-2026",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环11（标准版）",
+    "sourceName": "小米手环11（标准版）",
+    "family": "小米手环",
+    "variant": "standard",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2179/2178811/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index2178811.shtml",
+    "releaseUrl": "https://www.ithome.com/0/999/076.htm",
+    "releasePattern": "全新小米手环 11 将在今天上午 10 点开售"
+  },
+  {
+    "id": "huawei-kids-watch-5x-2022",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为儿童手表 5X",
+    "sourceName": "华为儿童手表 5X",
+    "family": "华为儿童手表",
+    "variant": "x",
+    "year": 2022,
+    "params": "https://consumer.huawei.com/cn/wearables/kids-watch-5x/specs/",
+    "releaseUrl": "https://www.ithome.com/0/659/950.htm",
+    "releasePattern": "华为发布了儿童手表 5X、5X Pro",
+    "paramSupplement": {
+      "screenSize": "1.6 英寸",
+      "displayType": "AMOLED 触摸屏",
+      "resolution": "360 × 320 像素",
+      "dimensions": "长 × 宽 × 高（不含腕托） 56.3 mm × 43.58 mm × 14.45 mm",
+      "wearableWeight": "76.9 克（含表带）",
+      "wearableCamera": "前置 500 万像素，后置 800 万像素",
+      "material": "塑胶 \\+ 喷漆",
+      "strapMaterial": "硅胶",
+      "sensors": "加速度传感器、陀螺仪传感器、地磁传感器、霍尔传感器",
+      "compatibility": "HarmonyOS 2 及以上，Android 7.0 及以上或 iOS 11.0 及以上",
+      "waterResistance": "IPX8 \\*满足 ISO 22810:2010 标准 2 ATM 防护等级要求[^。]{0,120}持续 10 分钟",
+      "connectivity": "WLAN 蓝牙 蜂窝网络 NFC 不支持",
+      "chargingMethod": "Pogo PIN 有线充电",
+      "batteryLife": "典型使用场景下，2 天一充"
+    }
+  },
+  {
+    "id": "xiaomi-mitu-watch-7-2024",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "米兔儿童学习手表7",
+    "sourceName": "米兔儿童学习手表7",
+    "family": "米兔儿童手表",
+    "variant": "standard",
+    "year": 2024,
+    "params": "https://product.pconline.com.cn/smartwatch/xiaomi/2166979_detail.html",
+    "overview": "https://g.pconline.com.cn/product/smartwatch/xiaomi/2166979.html",
+    "releaseUrl": "https://www.ithome.com/0/758/573.htm",
+    "releasePattern": "米兔学习手表 7 将于今日 10 点开售，售价 799 元",
+    "paramSupplement": { "wearableCamera": "800万像素\\+500万像素双摄" },
+    "supplement": {
+      "displayType": "1.68 英寸 IPS TFT 显示屏",
+      "waterResistance": "20 米防水",
+      "wearableCamera": "前置 500 万 \\+ 侧置 800 万像素摄像头",
+      "healthFeatures": "实时心率监测 \\+ 心率过高提醒、情绪 \\+ 压力 \\+ 脑疲劳 \\+ 视疲劳监测"
+    }
+  },
+  {
+    "id": "xiaomi-mitu-watch-7x-2024",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "米兔儿童学习手表7X",
+    "sourceName": "米兔儿童 电话手表7X",
+    "family": "米兔儿童手表",
+    "variant": "x",
+    "year": 2024,
+    "params": "https://g.pconline.com.cn/product/smartwatch/xiaomi/2157479_detail.html",
+    "overview": "https://g.pconline.com.cn/product/smartwatch/xiaomi/2157479.html",
+    "releaseUrl": "https://www.ithome.com/0/757/206.htm",
+    "releasePattern": "米兔儿童学习手表 7X 现已上架并开启预售，首发价 599 元",
+    "paramSupplement": {
+      "screenSize": "1.68英寸",
+      "resolution": "360×390像素，315PPI",
+      "onboardStorage": "4GB",
+      "chargingMethod": "磁吸充电",
+      "positioning": "GPS,GLONASS,北斗,Galileo,QZSS",
+      "colors": "粉色，蓝色"
+    },
+    "supplement": {
+      "displayType": "1.68 英寸 IPS TFT 屏幕",
+      "waterResistance": "20 米防水",
+      "sportsModes": "18 项运动 \\+ 5 项体测",
+      "wearableCamera": "8MP\\+5MP 双摄",
+      "wearableFeatures": "支持微信（儿童手表版）和 QQ"
+    }
+  },
+  {
+    "id": "xiaomi-mitu-watch-7a-2024",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "米兔儿童电话手表7A",
+    "sourceName": "米兔儿童电话手表7A",
+    "family": "米兔儿童手表",
+    "variant": "a",
+    "year": 2024,
+    "params": "https://product.pconline.com.cn/smartwatch/xiaomi/2275139_detail.html",
+    "overview": "https://g.pconline.com.cn/product/smartwatch/xiaomi/2275139.html",
+    "releaseUrl": "https://www.ithome.com/0/778/135.htm",
+    "releasePattern": "小米米兔儿童电话手表 7A （C7A 升级款）现已上架京东等电商平台",
+    "supplement": {
+      "colors": "蓝色、绿色、粉色",
+      "waterResistance": "20 米深度防水",
+      "wearableCamera": "前置 200 万像素超广角摄像头",
+      "cellular": "4G 全网通，中国移动、中国联通、中国电信三大运营商均适配",
+      "wearableFeatures": "QQ、微信儿童版暂不支持",
+      "sportsModes": "跳绳、跑步、立定跳远等 9 个系统共 100 \\+ 课程"
+    }
+  },
+  {
+    "id": "huawei-watch-6-pro-43-white-2026",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "HUAWEI WATCH 6 Pro 43mm 星芒白",
+    "sourceName": "HUAWEI WATCH 6 Pro",
+    "family": "华为 WATCH",
+    "variant": "pro-43mm-composite",
+    "year": 2026,
+    "params": "https://consumer.huawei.com/cn/wearables/watch-6-pro/specs/",
+    "primaryColor": "星芒白",
+    "galleryColors": [
+      "星芒白"
+    ],
+    "releaseUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16113994/",
+    "releasePattern": "星芒白 2026/9/7 17:08:00 2026/9/23 10:08 3499",
+    "paramSupplement": {
+      "compatibility": "HarmonyOS 2\\.0 及以上，Android 9\\.0 及以上 ，iOS 13\\.0 及以上",
+      "sensors": "加速度传感器 陀螺传感器 地磁传感器 光学心率传感器 气压传感器 环境光传感器 温度传感器 心电传感器 深度计 X-TAP 智感窗",
+      "chargingMethod": "无线充电 HUAWEI WATCH 无线超级快充底座（第二代 USB-C）",
+      "waterResistance": "5 ATM：满足 ISO 22810:2010 标准 5 ATM 防护等级要求",
+      "bluetooth": "支持蓝牙 5\\.2",
+      "wifi": "2\\.4 GHz \\+ 5 GHz",
+      "positioning": "支持 GPS（L1 \\+ L5 双频）/GLONASS/北斗（B1I \\+ B1C \\+ B2a）/GALILEO（E1 \\+ E5a）/QZSS（L1 \\+ L5 双频）",
+      "screenSize": "1\\.38 英寸",
+      "displayType": "1\\.38 英寸 LTPO 2\\.0 AMOLED",
+      "resolution": "466 × 466 pixels，PPI 338",
+      "dimensions": "43\\.5 mm × 43\\.5 mm × 10\\.2 mm",
+      "wearableWeight": "约 50 g （不含表带）",
+      "material": "HUAWEI WATCH 6 Pro 43 mm 前壳：陶瓷 后壳：陶瓷",
+      "strapMaterial": "星芒白：星芒白素皮复合表带",
+      "colors": "星芒白",
+      "batteryLife": "全能模式 常规使用 3 天；AOD 使用 2 天 省电模式 最长使用 7 天；常规使用 5 天；AOD 使用 3 天"
+    }
+  },
+  {
+    "id": "huawei-watch-6-pro-43-ceramic-2026",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "HUAWEI WATCH 6 Pro 43mm 陶瓷白",
+    "sourceName": "HUAWEI WATCH 6 Pro",
+    "family": "华为 WATCH",
+    "variant": "pro-43mm-ceramic",
+    "year": 2026,
+    "params": "https://consumer.huawei.com/cn/wearables/watch-6-pro/specs/",
+    "primaryColor": "陶瓷白",
+    "galleryColors": [
+      "陶瓷白"
+    ],
+    "releaseUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16113994/",
+    "releasePattern": "陶瓷白 2026/9/7 17:08:00 2026/9/23 10:08 4899",
+    "paramSupplement": {
+      "compatibility": "HarmonyOS 2\\.0 及以上，Android 9\\.0 及以上 ，iOS 13\\.0 及以上",
+      "sensors": "加速度传感器 陀螺传感器 地磁传感器 光学心率传感器 气压传感器 环境光传感器 温度传感器 心电传感器 深度计 X-TAP 智感窗",
+      "chargingMethod": "无线充电 HUAWEI WATCH 无线超级快充底座（第二代 USB-C）",
+      "waterResistance": "5 ATM：满足 ISO 22810:2010 标准 5 ATM 防护等级要求",
+      "bluetooth": "支持蓝牙 5\\.2",
+      "wifi": "2\\.4 GHz \\+ 5 GHz",
+      "positioning": "支持 GPS（L1 \\+ L5 双频）/GLONASS/北斗（B1I \\+ B1C \\+ B2a）/GALILEO（E1 \\+ E5a）/QZSS（L1 \\+ L5 双频）",
+      "screenSize": "1\\.38 英寸",
+      "displayType": "1\\.38 英寸 LTPO 2\\.0 AMOLED",
+      "resolution": "466 × 466 pixels，PPI 338",
+      "dimensions": "43\\.5 mm × 43\\.5 mm × 10\\.2 mm",
+      "wearableWeight": "约 50 g （不含表带）",
+      "material": "HUAWEI WATCH 6 Pro 43 mm 前壳：陶瓷 后壳：陶瓷",
+      "strapMaterial": "陶瓷白：白色陶瓷表带",
+      "colors": "陶瓷白",
+      "batteryLife": "全能模式 常规使用 3 天；AOD 使用 2 天 省电模式 最长使用 7 天；常规使用 5 天；AOD 使用 3 天"
+    }
+  },
+  {
+    "id": "huawei-watch-6-pro-46-brown-2026",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "HUAWEI WATCH 6 Pro 46mm 木星棕",
+    "sourceName": "HUAWEI WATCH 6 Pro",
+    "family": "华为 WATCH",
+    "variant": "pro-46mm-composite",
+    "year": 2026,
+    "params": "https://consumer.huawei.com/cn/wearables/watch-6-pro/specs/",
+    "primaryColor": "木星棕",
+    "galleryColors": [
+      "木星棕"
+    ],
+    "releaseUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16113994/",
+    "releasePattern": "木星棕 2026/9/7 17:08:00 2026/9/23 10:08 3599",
+    "paramSupplement": {
+      "compatibility": "HarmonyOS 2\\.0 及以上，Android 9\\.0 及以上 ，iOS 13\\.0 及以上",
+      "sensors": "加速度传感器 陀螺传感器 地磁传感器 光学心率传感器 气压传感器 环境光传感器 温度传感器 心电传感器 深度计 X-TAP 智感窗",
+      "chargingMethod": "无线充电 HUAWEI WATCH 无线超级快充底座（第二代 USB-C）",
+      "waterResistance": "5 ATM：满足 ISO 22810:2010 标准 5 ATM 防护等级要求",
+      "bluetooth": "支持蓝牙 5\\.2",
+      "wifi": "2\\.4 GHz \\+ 5 GHz",
+      "positioning": "支持 GPS（L1 \\+ L5 双频）/GLONASS/北斗（B1I \\+ B1C \\+ B2a）/GALILEO（E1 \\+ E5a）/QZSS（L1 \\+ L5 双频）",
+      "screenSize": "1\\.5 英寸",
+      "displayType": "1\\.5 英寸 LTPO 2\\.0 AMOLED",
+      "resolution": "466 × 466 pixels，PPI 310",
+      "dimensions": "46 mm：46\\.4 mm × 46\\.4 mm × 10\\.9 mm",
+      "wearableWeight": "46 mm：约 57 g （不含表带）",
+      "material": "HUAWEI WATCH 6 Pro 46 mm 前壳：钛合金 后壳：陶瓷",
+      "strapMaterial": "木星棕：棕色素皮复合表带",
+      "colors": "木星棕",
+      "batteryLife": "全能模式 常规使用 4\\.5 天；AOD 使用 3 天 省电模式 最长使用 11 天；常规使用 7 天；AOD 使用 4\\.5 天"
+    }
+  },
+  {
+    "id": "huawei-watch-6-pro-46-silver-2026",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "HUAWEI WATCH 6 Pro 46mm 钛空银",
+    "sourceName": "HUAWEI WATCH 6 Pro",
+    "family": "华为 WATCH",
+    "variant": "pro-46mm-titanium",
+    "year": 2026,
+    "params": "https://consumer.huawei.com/cn/wearables/watch-6-pro/specs/",
+    "primaryColor": "钛空银",
+    "galleryColors": [
+      "钛空银"
+    ],
+    "releaseUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16113994/",
+    "releasePattern": "钛空银 2026/9/7 17:08:00 2026/9/23 10:08 3999",
+    "paramSupplement": {
+      "compatibility": "HarmonyOS 2\\.0 及以上，Android 9\\.0 及以上 ，iOS 13\\.0 及以上",
+      "sensors": "加速度传感器 陀螺传感器 地磁传感器 光学心率传感器 气压传感器 环境光传感器 温度传感器 心电传感器 深度计 X-TAP 智感窗",
+      "chargingMethod": "无线充电 HUAWEI WATCH 无线超级快充底座（第二代 USB-C）",
+      "waterResistance": "5 ATM：满足 ISO 22810:2010 标准 5 ATM 防护等级要求",
+      "bluetooth": "支持蓝牙 5\\.2",
+      "wifi": "2\\.4 GHz \\+ 5 GHz",
+      "positioning": "支持 GPS（L1 \\+ L5 双频）/GLONASS/北斗（B1I \\+ B1C \\+ B2a）/GALILEO（E1 \\+ E5a）/QZSS（L1 \\+ L5 双频）",
+      "screenSize": "1\\.5 英寸",
+      "displayType": "1\\.5 英寸 LTPO 2\\.0 AMOLED",
+      "resolution": "466 × 466 pixels，PPI 310",
+      "dimensions": "46 mm：46\\.4 mm × 46\\.4 mm × 10\\.9 mm",
+      "wearableWeight": "46 mm：约 57 g （不含表带）",
+      "material": "HUAWEI WATCH 6 Pro 46 mm 前壳：钛合金 后壳：陶瓷",
+      "strapMaterial": "钛空银：钛金属表带",
+      "colors": "钛空银",
+      "batteryLife": "全能模式 常规使用 4\\.5 天；AOD 使用 3 天 省电模式 最长使用 11 天；常规使用 7 天；AOD 使用 4\\.5 天"
+    }
+  },
+  {
+    "id": "huawei-watch-6-pro-46-space-2026",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "HUAWEI WATCH 6 Pro 46mm 太空探索",
+    "sourceName": "HUAWEI WATCH 6 Pro",
+    "family": "华为 WATCH",
+    "variant": "pro-46mm-space",
+    "year": 2026,
+    "params": "https://consumer.huawei.com/cn/wearables/watch-6-pro/specs/",
+    "primaryColor": "太空探索",
+    "galleryColors": [
+      "太空探索"
+    ],
+    "releaseUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16113994/",
+    "releasePattern": "太空探索 2026/9/7 17:08:00 2026/9/23 10:08 4999",
+    "paramSupplement": {
+      "compatibility": "HarmonyOS 2\\.0 及以上，Android 9\\.0 及以上 ，iOS 13\\.0 及以上",
+      "sensors": "加速度传感器 陀螺传感器 地磁传感器 光学心率传感器 气压传感器 环境光传感器 温度传感器 心电传感器 深度计 X-TAP 智感窗",
+      "chargingMethod": "无线充电 HUAWEI WATCH 无线超级快充底座（第二代 USB-C）",
+      "waterResistance": "5 ATM：满足 ISO 22810:2010 标准 5 ATM 防护等级要求",
+      "bluetooth": "支持蓝牙 5\\.2",
+      "wifi": "2\\.4 GHz \\+ 5 GHz",
+      "positioning": "支持 GPS（L1 \\+ L5 双频）/GLONASS/北斗（B1I \\+ B1C \\+ B2a）/GALILEO（E1 \\+ E5a）/QZSS（L1 \\+ L5 双频）",
+      "screenSize": "1\\.5 英寸",
+      "displayType": "1\\.5 英寸 LTPO 2\\.0 AMOLED",
+      "resolution": "466 × 466 pixels，PPI 310",
+      "dimensions": "太空探索：46\\.4 mm × 46\\.4mm × 11\\.4 mm",
+      "wearableWeight": "太空探索：约 60 g （不含表带）",
+      "material": "HUAWEI WATCH 6 Pro 46 mm 前壳：钛合金 后壳：陶瓷",
+      "strapMaterial": "太空探索：深锖色钛金属表带",
+      "colors": "太空探索",
+      "batteryLife": "全能模式 常规使用 4\\.5 天；AOD 使用 3 天 省电模式 最长使用 11 天；常规使用 7 天；AOD 使用 4\\.5 天"
+    }
+  },
+  {
+    "id": "huawei-kids-watch-x1-2026",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为超新星手表 X1",
+    "sourceName": "华为超新星手表 X1",
+    "family": "华为儿童手表",
+    "variant": "standard",
+    "year": 2026,
+    "params": "https://consumer.huawei.com/cn/wearables/watch-kids-x1/specs/",
+    "releaseUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16097870/",
+    "releasePattern": "华为超新星手表 X1 星际蓝 2026/5/15 2026/5/29 1598",
+    "paramSupplement": {
+      "screenSize": "1\\.82 英寸",
+      "displayType": "AMOLED 触摸屏",
+      "resolution": "480 × 408 像素",
+      "dimensions": "47\\.4 mm × 41\\.1 mm × 13\\.4 mm",
+      "wearableWeight": "70 克（含表带）",
+      "onboardStorage": "32 GB ROM",
+      "wearableCamera": "500 万像素 \\+ 1300 万像素",
+      "compatibility": "Android 8\\.0 及以上、HarmonyOS 2\\.0 及以上、iOS 13\\.0 及以上",
+      "waterResistance": "2 ATM、IP68/IP69",
+      "chargingMethod": "Pogo PIN 有线充电",
+      "batteryLife": "常规使用 1 天",
+      "sensors": "气压传感器 陀螺仪传感器 加速度传感器 光学心率传感器 地磁传感器 霍尔效应传感器",
+      "cellular": "FDD-LTE B1/B2/B3/B4/B5/B7/B8/B9/B18/B19/B20/B26/B28/B66 TDD-LTE B34/B38/B39/B40/B41",
+      "connectivity": "WLAN 蓝牙 GNSS 星闪 蜂窝网络",
+      "colors": "星际蓝、星云粉",
+      "strapMaterial": "硅胶表带"
+    },
+    "additionalSpecs": {
+      "url": "https://consumer.huawei.com/cn/wearables/watch-kids-x1/",
+      "model": "华为超新星手表 X1",
+      "fields": {
+        "batteryCapacityDetails": "850 mAh 大电池",
+        "healthFeatures": "情绪监测配合萌宠表盘，轻松了解孩子心情； 动态监测心率，生成全天曲线"
+      }
+    }
+  },
+  {
+    "id": "huawei-kids-watch-x1-pro-2026",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为超新星手表 X1 Pro",
+    "sourceName": "华为超新星手表 X1 Pro",
+    "family": "华为儿童手表",
+    "variant": "pro",
+    "year": 2026,
+    "params": "https://consumer.huawei.com/cn/wearables/watch-kids-x1-pro/specs/",
+    "releaseUrl": "https://consumer.huawei.com/cn/support/content/zh-cn16097870/",
+    "releasePattern": "华为超新星手表 X1 Pro 幻夜黑 2026/5/15 2026/5/29 2298",
+    "paramSupplement": {
+      "screenSize": "1\\.82 英寸",
+      "displayType": "AMOLED 触摸屏",
+      "resolution": "480 × 408 像素",
+      "dimensions": "47\\.4 mm × 41\\.1 mm × 13\\.4 mm",
+      "wearableWeight": "72 克（含表带）",
+      "onboardStorage": "64 GB ROM",
+      "wearableCamera": "500 万像素 \\+ 1300 万像素",
+      "compatibility": "Android 8\\.0 及以上、HarmonyOS 2\\.0 及以上、iOS 13\\.0 及以上",
+      "waterResistance": "2 ATM、IP68/IP69",
+      "chargingMethod": "Pogo PIN 有线充电",
+      "batteryLife": "常规使用 1 天",
+      "sensors": "气压传感器 陀螺仪传感器 加速度传感器 光学心率传感器 地磁传感器 霍尔效应传感器",
+      "cellular": "FDD-LTE B1/B2/B3/B4/B5/B7/B8/B9/B18/B19/B20/B26/B28/B66 TDD-LTE B34/B38/B39/B40/B41",
+      "connectivity": "NFC WLAN 蓝牙 GNSS 星闪 蜂窝网络",
+      "colors": "幻夜黑、梦幻紫",
+      "strapMaterial": "硬胶表带"
+    },
+    "additionalSpecs": {
+      "url": "https://consumer.huawei.com/cn/wearables/watch-kids-x1-pro/",
+      "model": "华为超新星手表 X1 Pro",
+      "fields": {
+        "batteryCapacityDetails": "850 mAh 大电池",
+        "healthFeatures": "情绪监测配合萌宠表盘，轻松了解孩子心情； 动态监测心率，生成全天曲线"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-band-11-tricolor-ceramic-2026",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环11 三彩釉陶瓷版",
+    "sourceName": "小米手环11 特别版 陶瓷版 三彩釉",
+    "family": "小米手环",
+    "variant": "ceramic-tricolor",
+    "year": 2026,
+    "params": "https://detail.zol.com.cn/2179/2178814/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index2178814.shtml",
+    "releaseUrl": "https://www.ithome.com/1/006/431.htm",
+    "releasePattern": "小米手环 11 三彩釉陶瓷版发布， 售价 499 元",
+    "supplement": {
+      "strapMaterial": "精密复合编织表带"
+    }
+  },
+  {
+    "id": "xiaomi-band-9-ceramic-2024",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环9 NFC陶瓷特别版",
+    "sourceName": "小米9 NFC 陶瓷特别版",
+    "family": "小米手环",
+    "variant": "ceramic",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/2099/2098399/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index2098399.shtml",
+    "releaseUrl": "https://www.ithome.com/0/783/038.htm",
+    "releasePattern": "陶瓷特别版 NFC 349 元",
+    "supplement": {
+      "batteryLife": "NFC 版为 18 天"
+    }
+  },
+  {
+    "id": "xiaomi-band-8-pro-leather-2023",
+    "brand": "Xiaomi",
+    "category": "band",
+    "modelName": "小米手环8 Pro 真皮腕带版",
+    "sourceName": "小米手环8 Pro 真皮腕带",
+    "family": "小米手环",
+    "variant": "pro-leather",
+    "year": 2023,
+    "params": "https://detail.zol.com.cn/1843/1842775/param.shtml",
+    "overview": "https://detail.zol.com.cn/IntelligentBracelet/index1842775.shtml",
+    "releaseUrl": "https://www.ithome.com/0/712/332.htm",
+    "releasePattern": "真皮腕带版 449 元",
+    "supplement": {
+      "batteryLife": "可实现 14 天续航（IT之家注：AOD 模式仅 6 天）"
+    }
+  },
+  {
+    "id": "huawei-kids-watch-5-pro-photochromic-2024",
+    "brand": "Huawei",
+    "category": "watch",
+    "modelName": "华为儿童手表 5 Pro 感光炫彩版",
+    "sourceName": "华为儿童手表 5 Pro 感光炫彩版",
+    "family": "华为儿童手表",
+    "variant": "pro-photochromic",
+    "year": 2024,
+    "params": "https://detail.zol.com.cn/2102/2101228/param.shtml",
+    "overview": "https://detail.zol.com.cn/GPSwatch/index2101228.shtml",
+    "releaseUrl": "https://www.ithome.com/0/785/763.htm",
+    "releasePattern": "华为儿童手表 5 Pro 感光炫彩版将于今日 10：08 开售",
+    "supplement": {
+      "wearableCamera": "前置 200 万像素摄像头，侧置 500 万像素摄像头",
+      "wearableFeatures": "表圈支持变色， 在阳光下将由银色变为金色"
+    },
+    "paramSupplement": {
+      "waterResistance": "IPX8"
+    }
+  },
+  {
+    "id": "xiaomi-watch-s4-41-2025",
+    "brand": "Xiaomi",
+    "category": "watch",
+    "modelName": "小米 Watch S4 41mm",
+    "sourceName": "Xiaomi Watch S4 41mm",
+    "family": "小米 Watch S",
+    "variant": "41mm",
+    "year": 2025,
+    "params": "https://product.pconline.com.cn/smartwatch/xiaomi/2678839_detail.html",
+    "overview": "https://product.pconline.com.cn/smartwatch/xiaomi/2678839_detail.html",
+    "releaseUrl": "https://www.ithome.com/0/863/949.htm",
+    "releasePattern": "小米 Watch S4 智能手表 41mm 正式亮相",
+    "supplement": {
+      "screenSize": "1.32 英寸"
+    }
+  }
+]

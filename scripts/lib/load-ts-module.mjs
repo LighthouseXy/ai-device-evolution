@@ -75,6 +75,8 @@ function loadModule(resolvedPath) {
   moduleCache.set(resolvedPath, compiledModule);
 
   const localRequire = (request) => {
+    // Next 在构建时检查 server-only；此加载器只在 Node 回归/采集脚本中运行。
+    if (request === "server-only") return {};
     const resolved = resolveCandidate(request, path.dirname(resolvedPath));
     if (resolved) return loadModule(resolved);
     return nativeRequire(request);

@@ -1,0 +1,1018 @@
+{
+  "phone": [
+    {
+      "id": "vivo-x80-2022",
+      "modelName": "vivo X80",
+      "generation": "X80",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/38339_1.html",
+        "https://detail.zol.com.cn/series/57/1795/param_38339_0_1.html",
+        "https://detail.zol.com.cn/1393/1392791/param.shtml",
+        "https://detail.zol.com.cn/1406/1405719/param.shtml",
+        "https://detail.zol.com.cn/1406/1405718/param.shtml",
+        "https://detail.zol.com.cn/1406/1405722/param.shtml",
+        "https://www.vivo.com.cn/brand/news/detail?id=1055&type=3",
+        "https://detail.zol.com.cn/picture_index_2216/index22154540_0_p1392791.shtml",
+        "https://detail.zol.com.cn/picture_index_2216/index22154555_0_p1392791.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-04-29",
+        "rawText": "X80、X80 Pro将于4月29日正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/brand/news/detail?id=1055&type=3",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:53:01.827Z",
+        "sourceSnapshotHash": "6c057d6ed2e0bc0d013715de0b3c5bfe52251aeb47f18927eae4e4865ff9e81a"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 仅登记本批实际核验的SKU，不代表全部配置、配色或五年全型号覆盖；图片授权状态未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2022年04月25日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1393/1392791/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:50:19.739Z",
+        "sourceSnapshotHash": "e1a2f0bfd7530b85ec8fe61a7ae80dd9aa35d34c53b9e6073b974e17095b2331"
+      },
+      "productImages": {
+        "modelName": "vivo X80",
+        "seriesId": "38339",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2216/index22154540_0_p1392791.shtml",
+        "sourceSnapshotHash": "bbbc9bc83d91b9042043f02990d51afd4171cb4690db32a23f0c56e988ceedea",
+        "fetchedAt": "2026-10-05T18:50:20.304Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2f.zol-img.com.cn/product/221_320x240/561/cerBTzeyG5WJA.jpg",
+          "alt": "vivo X80",
+          "modelName": "vivo X80",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/38339_1.html",
+          "sourceSnapshotHash": "41bb88ed06c477f2fcf1d793cb17e0c05b7b62580a93fe73cc1edfe7fee91add",
+          "fetchedAt": "2026-10-05T18:50:19.484Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "至黑",
+            "url": "https://2c.zol-img.com.cn/product/221/540/ceunaPmpWZSY.jpg",
+            "modelName": "vivo X80",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2216/index22154540_0_p1392791.shtml",
+            "sourceSnapshotHash": "bbbc9bc83d91b9042043f02990d51afd4171cb4690db32a23f0c56e988ceedea",
+            "fetchedAt": "2026-10-05T18:50:20.304Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "旅程",
+            "url": "https://2f.zol-img.com.cn/product/221/543/ceWb8J7lzenJQ.jpg",
+            "modelName": "vivo X80",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2216/index22154540_0_p1392791.shtml",
+            "sourceSnapshotHash": "bbbc9bc83d91b9042043f02990d51afd4171cb4690db32a23f0c56e988ceedea",
+            "fetchedAt": "2026-10-05T18:50:20.304Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "假日",
+            "url": "https://2f.zol-img.com.cn/product/221/561/cerBTzeyG5WJA.jpg",
+            "modelName": "vivo X80",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2216/index22154540_0_p1392791.shtml",
+            "sourceSnapshotHash": "bbbc9bc83d91b9042043f02990d51afd4171cb4690db32a23f0c56e988ceedea",
+            "fetchedAt": "2026-10-05T18:50:20.304Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2216/index22154540_0_p1392791.shtml",
+          "https://detail.zol.com.cn/picture_index_2216/index22154555_0_p1392791.shtml"
+        ],
+        "gaps": []
+      },
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/x80"
+    },
+    {
+      "id": "vivo-x80-pro-2022",
+      "modelName": "vivo X80 Pro",
+      "generation": "X80 Pro",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/38338_1.html",
+        "https://detail.zol.com.cn/series/57/1795/param_38338_0_1.html",
+        "https://detail.zol.com.cn/1393/1392797/param.shtml",
+        "https://detail.zol.com.cn/1406/1405720/param.shtml",
+        "https://detail.zol.com.cn/1406/1405721/param.shtml",
+        "https://www.vivo.com.cn/brand/news/detail?id=1055&type=3",
+        "https://detail.zol.com.cn/picture_index_2217/index22162699_0_p1392797.shtml",
+        "https://detail.zol.com.cn/picture_index_2217/index22162691_0_p1392798.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-04-29",
+        "rawText": "X80、X80 Pro将于4月29日正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/brand/news/detail?id=1055&type=3",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:53:01.827Z",
+        "sourceSnapshotHash": "6c057d6ed2e0bc0d013715de0b3c5bfe52251aeb47f18927eae4e4865ff9e81a"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。不混入 X80 Pro 天玑版，标准配置为该独立系列读取的高通版；高通版4月29日首售，天玑版另于5月5日首售。 仅登记本批实际核验的SKU，不代表全部配置、配色或五年全型号覆盖；图片授权状态未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2022年04月25日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1393/1392797/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:50:21.458Z",
+        "sourceSnapshotHash": "98d95080f7bfc7d854c8708b587b900f737ffaeedd08b74cb65a73869bed8c43"
+      },
+      "productImages": {
+        "modelName": "vivo X80 Pro",
+        "seriesId": "38338",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2217/index22162699_0_p1392797.shtml",
+        "sourceSnapshotHash": "44f94c7e0e627087d16e58c8481cf8132284a020b04f35b8ee2abcb61128729c",
+        "fetchedAt": "2026-10-05T18:50:21.701Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2b.zol-img.com.cn/product/221_320x240/705/ceMrwvUHEjc.jpg",
+          "alt": "vivo X80 Pro",
+          "modelName": "vivo X80 Pro",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/38338_1.html",
+          "sourceSnapshotHash": "3f47e965374d27313e0720d5ff5903d97d230af0c004af514ee54074f1562300",
+          "fetchedAt": "2026-10-05T18:50:21.050Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "至黑",
+            "url": "https://2b.zol-img.com.cn/product/221/705/ceMrwvUHEjc.jpg",
+            "modelName": "vivo X80 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2217/index22162699_0_p1392797.shtml",
+            "sourceSnapshotHash": "44f94c7e0e627087d16e58c8481cf8132284a020b04f35b8ee2abcb61128729c",
+            "fetchedAt": "2026-10-05T18:50:21.701Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "旅程",
+            "url": "https://2b.zol-img.com.cn/product/221/699/cewD3IGutceyw.jpg",
+            "modelName": "vivo X80 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2217/index22162699_0_p1392797.shtml",
+            "sourceSnapshotHash": "44f94c7e0e627087d16e58c8481cf8132284a020b04f35b8ee2abcb61128729c",
+            "fetchedAt": "2026-10-05T18:50:21.701Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "假日",
+            "url": "https://2d.zol-img.com.cn/product/221/713/ceLEvGv1XSs.jpg",
+            "modelName": "vivo X80 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2217/index22162699_0_p1392797.shtml",
+            "sourceSnapshotHash": "44f94c7e0e627087d16e58c8481cf8132284a020b04f35b8ee2abcb61128729c",
+            "fetchedAt": "2026-10-05T18:50:21.701Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2217/index22162699_0_p1392797.shtml",
+          "https://detail.zol.com.cn/picture_index_2217/index22162691_0_p1392798.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "vivo-x90-2022",
+      "modelName": "vivo X90",
+      "generation": "X90",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10716267_1.html",
+        "https://detail.zol.com.cn/series/57/1795/param_10716267_0_1.html",
+        "https://detail.zol.com.cn/1435/1434230/param.shtml",
+        "https://detail.zol.com.cn/1426/1425422/param.shtml",
+        "https://detail.zol.com.cn/1435/1434229/param.shtml",
+        "https://detail.zol.com.cn/1435/1434231/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2250/index22499314_0_p1434230.shtml",
+        "https://detail.zol.com.cn/picture_index_2250/index22499318_0_p1434231.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-11-30",
+        "rawText": "上市日期 2022年11月30日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1435/1434230/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:50:22.685Z",
+        "sourceSnapshotHash": "7dde99983f99e7a243d88bd8554c1683ad971cecdc4fe14208e44768a7aca9c7"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 仅登记本批实际核验的SKU，不代表全部配置、配色或五年全型号覆盖；图片授权状态未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2022年11月22日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1435/1434230/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:50:22.685Z",
+        "sourceSnapshotHash": "7dde99983f99e7a243d88bd8554c1683ad971cecdc4fe14208e44768a7aca9c7"
+      },
+      "productImages": {
+        "modelName": "vivo X90",
+        "seriesId": "10716267",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2250/index22499314_0_p1434230.shtml",
+        "sourceSnapshotHash": "1ae70ed18aa29a57ad702d3b25971853fed25b6a6c392e03ae70cbe83f2793b7",
+        "fetchedAt": "2026-10-05T18:50:23.296Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2e.zol-img.com.cn/product/224_320x240/356/ce1dz1mWoQyFE.jpg",
+          "alt": "vivo X90",
+          "modelName": "vivo X90",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10716267_1.html",
+          "sourceSnapshotHash": "c96dee4bd52af79dc7f71c9628080a5205455964ab7560e0649bcfd6a4fb030d",
+          "fetchedAt": "2026-10-05T18:50:22.439Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "华夏红",
+            "url": "https://2e.zol-img.com.cn/product/224/356/ce1dz1mWoQyFE.jpg",
+            "modelName": "vivo X90",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2250/index22499314_0_p1434230.shtml",
+            "sourceSnapshotHash": "1ae70ed18aa29a57ad702d3b25971853fed25b6a6c392e03ae70cbe83f2793b7",
+            "fetchedAt": "2026-10-05T18:50:23.296Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "冰蓝",
+            "url": "https://2e.zol-img.com.cn/product/224/314/ce99K9YDT1fWA.jpg",
+            "modelName": "vivo X90",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2250/index22499314_0_p1434230.shtml",
+            "sourceSnapshotHash": "1ae70ed18aa29a57ad702d3b25971853fed25b6a6c392e03ae70cbe83f2793b7",
+            "fetchedAt": "2026-10-05T18:50:23.296Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "至黑",
+            "url": "https://2c.zol-img.com.cn/product/224/348/ceh1kwVTlfHkE.jpg",
+            "modelName": "vivo X90",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2250/index22499314_0_p1434230.shtml",
+            "sourceSnapshotHash": "1ae70ed18aa29a57ad702d3b25971853fed25b6a6c392e03ae70cbe83f2793b7",
+            "fetchedAt": "2026-10-05T18:50:23.296Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "告白",
+            "url": "https://2e.zol-img.com.cn/product/227/28/ceSwLoSWF8WuI.jpg",
+            "modelName": "vivo X90",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2250/index22499314_0_p1434230.shtml",
+            "sourceSnapshotHash": "1ae70ed18aa29a57ad702d3b25971853fed25b6a6c392e03ae70cbe83f2793b7",
+            "fetchedAt": "2026-10-05T18:50:23.296Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2250/index22499314_0_p1434230.shtml",
+          "https://detail.zol.com.cn/picture_index_2250/index22499318_0_p1434231.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "vivo-x90-pro-2022",
+      "modelName": "vivo X90 Pro",
+      "generation": "X90 Pro",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10717690_1.html",
+        "https://detail.zol.com.cn/series/57/1795/param_10717690_0_1.html",
+        "https://detail.zol.com.cn/1435/1434232/param.shtml",
+        "https://detail.zol.com.cn/1429/1428478/param.shtml",
+        "https://detail.zol.com.cn/1435/1434233/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2250/index22499550_0_p1434232.shtml",
+        "https://detail.zol.com.cn/picture_index_2250/index22499517_0_p1434232.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-12-06",
+        "rawText": "上市日期 2022年12月06日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1435/1434232/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:50:23.567Z",
+        "sourceSnapshotHash": "63847d943f0cc8afd80f3c7a32d4f76585323d224192eb66289bc58d193e9a8f"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 仅登记本批实际核验的SKU，不代表全部配置、配色或五年全型号覆盖；图片授权状态未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2022年11月22日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1435/1434232/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:50:23.567Z",
+        "sourceSnapshotHash": "63847d943f0cc8afd80f3c7a32d4f76585323d224192eb66289bc58d193e9a8f"
+      },
+      "productImages": {
+        "modelName": "vivo X90 Pro",
+        "seriesId": "10717690",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2250/index22499550_0_p1434232.shtml",
+        "sourceSnapshotHash": "888d71b834bf6445b05ff34af3c34663327634dc82d6d8e96a3a44fd1cc8bd82",
+        "fetchedAt": "2026-10-05T18:53:02.440Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2b.zol-img.com.cn/product/224_320x240/521/ceOqvGTZCmcM.jpg",
+          "alt": "vivo X90 Pro",
+          "modelName": "vivo X90 Pro",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10717690_1.html",
+          "sourceSnapshotHash": "298cac4274dc19ef8b796114340c1ccd183da412c047da61945cac065b247c49",
+          "fetchedAt": "2026-10-05T18:50:23.400Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "华夏红",
+            "url": "https://2b.zol-img.com.cn/product/224/521/ceOqvGTZCmcM.jpg",
+            "modelName": "vivo X90 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2250/index22499550_0_p1434232.shtml",
+            "sourceSnapshotHash": "888d71b834bf6445b05ff34af3c34663327634dc82d6d8e96a3a44fd1cc8bd82",
+            "fetchedAt": "2026-10-05T18:53:02.440Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "原黑",
+            "url": "https://2d.zol-img.com.cn/product/224/517/ceYquhRvLsMIE.jpg",
+            "modelName": "vivo X90 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2250/index22499550_0_p1434232.shtml",
+            "sourceSnapshotHash": "888d71b834bf6445b05ff34af3c34663327634dc82d6d8e96a3a44fd1cc8bd82",
+            "fetchedAt": "2026-10-05T18:53:02.440Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2250/index22499550_0_p1434232.shtml",
+          "https://detail.zol.com.cn/picture_index_2250/index22499517_0_p1434232.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "vivo-s15-2022",
+      "modelName": "vivo S15",
+      "generation": "S15",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/38890_1.html",
+        "https://detail.zol.com.cn/series/57/1795/param_38890_0_1.html",
+        "https://detail.zol.com.cn/1403/1402543/param.shtml",
+        "https://detail.zol.com.cn/1410/1409694/param.shtml",
+        "https://detail.zol.com.cn/1410/1409693/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2198/index21974936_0_p1402543.shtml",
+        "https://detail.zol.com.cn/picture_index_2198/index21974937_0_p1409694.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-05-27",
+        "rawText": "上市日期 2022年05月27日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1403/1402543/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:50:25.552Z",
+        "sourceSnapshotHash": "4c1c39e6705497fda25f888057e47e964867f317e1cc07f47be82797fe890ca6"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 仅登记本批实际核验的SKU，不代表全部配置、配色或五年全型号覆盖；图片授权状态未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2022年05月19日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1403/1402543/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:50:25.552Z",
+        "sourceSnapshotHash": "4c1c39e6705497fda25f888057e47e964867f317e1cc07f47be82797fe890ca6"
+      },
+      "productImages": {
+        "modelName": "vivo S15",
+        "seriesId": "38890",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2198/index21974936_0_p1402543.shtml",
+        "sourceSnapshotHash": "bc73953a3dfcd8edbdb22c609abfd2987e286127fef62753e820a44abd3dd8b0",
+        "fetchedAt": "2026-10-05T18:50:25.954Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2f.zol-img.com.cn/product/219_320x240/945/ceqp7EGHh05A.jpg",
+          "alt": "vivo S15",
+          "modelName": "vivo S15",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/38890_1.html",
+          "sourceSnapshotHash": "a377aaf8c000478d21dd006e33ef2773d338483ed5640bb106efe9f24145a3b8",
+          "fetchedAt": "2026-10-05T18:50:25.237Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "盛夏",
+            "url": "https://2f.zol-img.com.cn/product/219/945/ceqp7EGHh05A.jpg",
+            "modelName": "vivo S15",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2198/index21974936_0_p1402543.shtml",
+            "sourceSnapshotHash": "bc73953a3dfcd8edbdb22c609abfd2987e286127fef62753e820a44abd3dd8b0",
+            "fetchedAt": "2026-10-05T18:50:25.954Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "浅金",
+            "url": "https://2c.zol-img.com.cn/product/219/936/ce5iz3S9CmEY2.jpg",
+            "modelName": "vivo S15",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2198/index21974936_0_p1402543.shtml",
+            "sourceSnapshotHash": "bc73953a3dfcd8edbdb22c609abfd2987e286127fef62753e820a44abd3dd8b0",
+            "fetchedAt": "2026-10-05T18:50:25.954Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "耀黑",
+            "url": "https://2b.zol-img.com.cn/product/219/947/ceWD4tUFMpMk.jpg",
+            "modelName": "vivo S15",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2198/index21974936_0_p1402543.shtml",
+            "sourceSnapshotHash": "bc73953a3dfcd8edbdb22c609abfd2987e286127fef62753e820a44abd3dd8b0",
+            "fetchedAt": "2026-10-05T18:50:25.954Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2198/index21974936_0_p1402543.shtml",
+          "https://detail.zol.com.cn/picture_index_2198/index21974937_0_p1409694.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "vivo-s15-pro-2022",
+      "modelName": "vivo S15 Pro",
+      "generation": "S15 Pro",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/38891_1.html",
+        "https://detail.zol.com.cn/series/57/1795/param_38891_0_1.html",
+        "https://detail.zol.com.cn/1403/1402545/param.shtml",
+        "https://detail.zol.com.cn/1410/1409695/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2198/index21975010_0_p1402545.shtml",
+        "https://detail.zol.com.cn/picture_index_2198/index21975009_0_p1402545.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-05-27",
+        "rawText": "上市日期 2022年05月27日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1403/1402545/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:50:27.158Z",
+        "sourceSnapshotHash": "076f325e9725cf379d67af21ae6a6dfdcfea762ccc0d2313c29bbbdb872e40c9"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 仅登记本批实际核验的SKU，不代表全部配置、配色或五年全型号覆盖；图片授权状态未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2022年05月19日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1403/1402545/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:50:27.158Z",
+        "sourceSnapshotHash": "076f325e9725cf379d67af21ae6a6dfdcfea762ccc0d2313c29bbbdb872e40c9"
+      },
+      "productImages": {
+        "modelName": "vivo S15 Pro",
+        "seriesId": "38891",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2198/index21975010_0_p1402545.shtml",
+        "sourceSnapshotHash": "46efcd4da6847f41beee281914d863b4555739316cc1631f033c5be54e4c97cf",
+        "fetchedAt": "2026-10-05T18:50:27.450Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2a.zol-img.com.cn/product/219_320x240/6/ceyulU4oJGSA.jpg",
+          "alt": "vivo S15 Pro",
+          "modelName": "vivo S15 Pro",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/38891_1.html",
+          "sourceSnapshotHash": "7fbe6391a3f2b1615aaf7d7d672e5ca7b4fe7211013834e7253cdf8284257fc8",
+          "fetchedAt": "2026-10-05T18:50:26.689Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "盛夏",
+            "url": "https://2a.zol-img.com.cn/product/219/6/ceyulU4oJGSA.jpg",
+            "modelName": "vivo S15 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2198/index21975010_0_p1402545.shtml",
+            "sourceSnapshotHash": "46efcd4da6847f41beee281914d863b4555739316cc1631f033c5be54e4c97cf",
+            "fetchedAt": "2026-10-05T18:50:27.450Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "耀黑",
+            "url": "https://2e.zol-img.com.cn/product/219/10/cec1t8AY4NJos.jpg",
+            "modelName": "vivo S15 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2198/index21975010_0_p1402545.shtml",
+            "sourceSnapshotHash": "46efcd4da6847f41beee281914d863b4555739316cc1631f033c5be54e4c97cf",
+            "fetchedAt": "2026-10-05T18:50:27.450Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2198/index21975010_0_p1402545.shtml",
+          "https://detail.zol.com.cn/picture_index_2198/index21975009_0_p1402545.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "vivo-s16-2022",
+      "modelName": "vivo S16",
+      "generation": "S16",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10718404_1.html",
+        "https://detail.zol.com.cn/series/57/1795/param_10718404_0_1.html",
+        "https://detail.zol.com.cn/1430/1429771/param.shtml",
+        "https://detail.zol.com.cn/1439/1438555/param.shtml",
+        "https://detail.zol.com.cn/1439/1438556/param.shtml",
+        "https://detail.zol.com.cn/1439/1438554/param.shtml",
+        "https://www.ithome.com/0/664/500.htm",
+        "https://detail.zol.com.cn/picture_index_2258/index22576940_0_p1429771.shtml",
+        "https://detail.zol.com.cn/picture_index_2297/index22962435_0_p1429771.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-12-30",
+        "rawText": "12 月 30 日消息，上周，vivo 正式推出了 vivo S16 系列手机，首发价 2499 元起，今日正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/664/500.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:53:02.924Z",
+        "sourceSnapshotHash": "c30a5fba632fd428b18122615e0f513757ad074c6eb2733299601f6b7310b62a"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 仅登记本批实际核验的SKU，不代表全部配置、配色或五年全型号覆盖；图片授权状态未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2022年12月22日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1430/1429771/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:50:28.716Z",
+        "sourceSnapshotHash": "42dc4f03b245264778b6517b853478943ddd09552af5dba7265da3fbf6f6d124"
+      },
+      "productImages": {
+        "modelName": "vivo S16",
+        "seriesId": "10718404",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2258/index22576940_0_p1429771.shtml",
+        "sourceSnapshotHash": "c593a64f0b28ca40fa930d2325a58b64656a3e471c8db45beaf8a303e38094ff",
+        "fetchedAt": "2026-10-05T18:50:29.364Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2a.zol-img.com.cn/product/225_320x240/944/ceU9ZSKePLA.jpg",
+          "alt": "vivo S16",
+          "modelName": "vivo S16",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10718404_1.html",
+          "sourceSnapshotHash": "64dd35af663d38b04a7c9a7680fc044b3b50116aec9ae93307c5dad2e1dba5e1",
+          "fetchedAt": "2026-10-05T18:50:28.245Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "颜如玉",
+            "url": "https://2a.zol-img.com.cn/product/225/944/ceU9ZSKePLA.jpg",
+            "modelName": "vivo S16",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2258/index22576940_0_p1429771.shtml",
+            "sourceSnapshotHash": "c593a64f0b28ca40fa930d2325a58b64656a3e471c8db45beaf8a303e38094ff",
+            "fetchedAt": "2026-10-05T18:50:29.364Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "玄黑",
+            "url": "https://2c.zol-img.com.cn/product/225/952/cewwLJvzDdPPQ.jpg",
+            "modelName": "vivo S16",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2258/index22576940_0_p1429771.shtml",
+            "sourceSnapshotHash": "c593a64f0b28ca40fa930d2325a58b64656a3e471c8db45beaf8a303e38094ff",
+            "fetchedAt": "2026-10-05T18:50:29.364Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "烟花",
+            "url": "https://2a.zol-img.com.cn/product/225/950/cenHSRnh5iM0M.jpg",
+            "modelName": "vivo S16",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2258/index22576940_0_p1429771.shtml",
+            "sourceSnapshotHash": "c593a64f0b28ca40fa930d2325a58b64656a3e471c8db45beaf8a303e38094ff",
+            "fetchedAt": "2026-10-05T18:50:29.364Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "春日悠蓝",
+            "url": "https://2d.zol-img.com.cn/product/229/435/cefStwinEKog.jpg",
+            "modelName": "vivo S16",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2258/index22576940_0_p1429771.shtml",
+            "sourceSnapshotHash": "c593a64f0b28ca40fa930d2325a58b64656a3e471c8db45beaf8a303e38094ff",
+            "fetchedAt": "2026-10-05T18:50:29.364Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2258/index22576940_0_p1429771.shtml",
+          "https://detail.zol.com.cn/picture_index_2297/index22962435_0_p1429771.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "vivo-s16-pro-2022",
+      "modelName": "vivo S16 Pro",
+      "generation": "S16 Pro",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10718407_1.html",
+        "https://detail.zol.com.cn/series/57/1795/param_10718407_0_1.html",
+        "https://detail.zol.com.cn/1430/1429777/param.shtml",
+        "https://detail.zol.com.cn/1439/1438558/param.shtml",
+        "https://www.ithome.com/0/664/500.htm",
+        "https://detail.zol.com.cn/picture_index_2258/index22576997_0_p1429777.shtml",
+        "https://detail.zol.com.cn/picture_index_2258/index22576981_0_p1429777.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-12-30",
+        "rawText": "12 月 30 日消息，上周，vivo 正式推出了 vivo S16 系列手机，首发价 2499 元起，今日正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/664/500.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:53:02.924Z",
+        "sourceSnapshotHash": "c30a5fba632fd428b18122615e0f513757ad074c6eb2733299601f6b7310b62a"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 仅登记本批实际核验的SKU，不代表全部配置、配色或五年全型号覆盖；图片授权状态未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2022年12月22日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1430/1429777/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:50:30.368Z",
+        "sourceSnapshotHash": "b19f8fd613e2b6f0e1641619f196bc957bd798fcfa00799902d1dc8206bec83e"
+      },
+      "productImages": {
+        "modelName": "vivo S16 Pro",
+        "seriesId": "10718407",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2258/index22576997_0_p1429777.shtml",
+        "sourceSnapshotHash": "8cc8c6368302de75cb5814632c276c397b0d9a54d67fbbb8e633549dba14449c",
+        "fetchedAt": "2026-10-05T18:50:30.704Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2c.zol-img.com.cn/product/225_320x240/982/ceR21ogHD0SWg.jpg",
+          "alt": "vivo S16 Pro",
+          "modelName": "vivo S16 Pro",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10718407_1.html",
+          "sourceSnapshotHash": "a1fb2448ebf2f512027911cec2d3353c29d69f4a3af1d0a797042e5f42cef4cd",
+          "fetchedAt": "2026-10-05T18:50:30.094Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "颜如玉",
+            "url": "https://2c.zol-img.com.cn/product/225/982/ceR21ogHD0SWg.jpg",
+            "modelName": "vivo S16 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2258/index22576997_0_p1429777.shtml",
+            "sourceSnapshotHash": "8cc8c6368302de75cb5814632c276c397b0d9a54d67fbbb8e633549dba14449c",
+            "fetchedAt": "2026-10-05T18:50:30.704Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "玄黑",
+            "url": "https://2b.zol-img.com.cn/product/225/981/ce1I2Q7o4kLAc.jpg",
+            "modelName": "vivo S16 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2258/index22576997_0_p1429777.shtml",
+            "sourceSnapshotHash": "8cc8c6368302de75cb5814632c276c397b0d9a54d67fbbb8e633549dba14449c",
+            "fetchedAt": "2026-10-05T18:50:30.704Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2258/index22576997_0_p1429777.shtml",
+          "https://detail.zol.com.cn/picture_index_2258/index22576981_0_p1429777.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "iqoo-neo7-2022",
+      "modelName": "iQOO Neo7",
+      "generation": "iQOO Neo7",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10592901_1.html",
+        "https://detail.zol.com.cn/series/57/55075/param_10592901_0_1.html",
+        "https://detail.zol.com.cn/1432/1431600/param.shtml",
+        "https://detail.zol.com.cn/1432/1431601/param.shtml",
+        "https://detail.zol.com.cn/1432/1431602/param.shtml",
+        "https://detail.zol.com.cn/1360/1359372/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2233/index22323685_0_p1431600.shtml",
+        "https://detail.zol.com.cn/picture_index_2233/index22323693_0_p1431600.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-10-31",
+        "rawText": "上市日期 2022年10月31日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1432/1431600/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:50:31.315Z",
+        "sourceSnapshotHash": "fb2571bf72043f614dc98c8d85f723d0ebca027ace7f27847ae4fa72ff2a45c2"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。Neo7 SE、竞速版另列，标准版不并入不同芯片的附加款。 仅登记本批实际核验的SKU，不代表全部配置、配色或五年全型号覆盖；图片授权状态未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2022年10月20日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1432/1431600/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:50:31.315Z",
+        "sourceSnapshotHash": "fb2571bf72043f614dc98c8d85f723d0ebca027ace7f27847ae4fa72ff2a45c2"
+      },
+      "productImages": {
+        "modelName": "iQOO Neo7",
+        "seriesId": "10592901",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2233/index22323685_0_p1431600.shtml",
+        "sourceSnapshotHash": "8d015aeac8b006693038918b83a2c0afd0b2885998bc4a49706c258b5ad2f741",
+        "fetchedAt": "2026-10-05T18:50:31.803Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2d.zol-img.com.cn/product/223_320x240/687/ce1EZPa66tVf2.jpg",
+          "alt": "iQOO Neo7",
+          "modelName": "iQOO Neo7",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10592901_1.html",
+          "sourceSnapshotHash": "a322bd7bb247556765a6b61c86f86dcdc8fd64bf59ad25f163715788f28af058",
+          "fetchedAt": "2026-10-05T18:50:30.819Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "几何黑",
+            "url": "https://2d.zol-img.com.cn/product/223/687/ce1EZPa66tVf2.jpg",
+            "modelName": "iQOO Neo7",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2233/index22323685_0_p1431600.shtml",
+            "sourceSnapshotHash": "8d015aeac8b006693038918b83a2c0afd0b2885998bc4a49706c258b5ad2f741",
+            "fetchedAt": "2026-10-05T18:50:31.803Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "印象蓝",
+            "url": "https://2c.zol-img.com.cn/product/223/884/ceFQw909JLX6A.jpg",
+            "modelName": "iQOO Neo7",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2233/index22323685_0_p1431600.shtml",
+            "sourceSnapshotHash": "8d015aeac8b006693038918b83a2c0afd0b2885998bc4a49706c258b5ad2f741",
+            "fetchedAt": "2026-10-05T18:50:31.803Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "波普橙",
+            "url": "https://2d.zol-img.com.cn/product/223/693/ceiqlq8kE5Fk.jpg",
+            "modelName": "iQOO Neo7",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2233/index22323685_0_p1431600.shtml",
+            "sourceSnapshotHash": "8d015aeac8b006693038918b83a2c0afd0b2885998bc4a49706c258b5ad2f741",
+            "fetchedAt": "2026-10-05T18:50:31.803Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2233/index22323685_0_p1431600.shtml",
+          "https://detail.zol.com.cn/picture_index_2233/index22323693_0_p1431600.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "iqoo-neo8-2023",
+      "modelName": "iQOO Neo8",
+      "generation": "iQOO Neo8",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10734528_1.html",
+        "https://detail.zol.com.cn/series/57/55075/param_10734528_0_1.html",
+        "https://detail.zol.com.cn/1461/1460901/param.shtml",
+        "https://detail.zol.com.cn/1628/1627566/param.shtml",
+        "https://detail.zol.com.cn/1628/1627567/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2389/index23880808_0_p1460901.shtml",
+        "https://detail.zol.com.cn/picture_index_2389/index23880812_0_p1460901.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-05-31",
+        "rawText": "上市日期 2023年05月31日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1461/1460901/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:50:33.147Z",
+        "sourceSnapshotHash": "cc7e513bea891c0a30ca60732e846b9eb109c091e9a72c41e98cd0d8fd2f6572"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 仅登记本批实际核验的SKU，不代表全部配置、配色或五年全型号覆盖；图片授权状态未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2023年05月23日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1461/1460901/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T18:50:33.147Z",
+        "sourceSnapshotHash": "cc7e513bea891c0a30ca60732e846b9eb109c091e9a72c41e98cd0d8fd2f6572"
+      },
+      "productImages": {
+        "modelName": "iQOO Neo8",
+        "seriesId": "10734528",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2389/index23880808_0_p1460901.shtml",
+        "sourceSnapshotHash": "19db407980a4ca2ee089f7b210f143b11f5493261be09e9933a427928ce197c1",
+        "fetchedAt": "2026-10-05T18:50:33.309Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2c.zol-img.com.cn/product/238_320x240/812/ce8uzrI9TYw.jpg",
+          "alt": "iQOO Neo8",
+          "modelName": "iQOO Neo8",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10734528_1.html",
+          "sourceSnapshotHash": "7bd06e86f59a5982c51d9e2b72285d37f0d89b1083d27759ee4a2a87930d526b",
+          "fetchedAt": "2026-10-05T18:50:32.718Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "赛点"
+          },
+          {
+            "name": "夜岩",
+            "url": "https://2e.zol-img.com.cn/product/238/808/ceuoga6wpspE.jpg",
+            "modelName": "iQOO Neo8",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2389/index23880808_0_p1460901.shtml",
+            "sourceSnapshotHash": "19db407980a4ca2ee089f7b210f143b11f5493261be09e9933a427928ce197c1",
+            "fetchedAt": "2026-10-05T18:50:33.309Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "冲浪",
+            "url": "https://2d.zol-img.com.cn/product/238/819/cehNVOUsESoY.jpg",
+            "modelName": "iQOO Neo8",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2389/index23880808_0_p1460901.shtml",
+            "sourceSnapshotHash": "19db407980a4ca2ee089f7b210f143b11f5493261be09e9933a427928ce197c1",
+            "fetchedAt": "2026-10-05T18:50:33.309Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号对应和公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2389/index23880808_0_p1460901.shtml",
+          "https://detail.zol.com.cn/picture_index_2389/index23880812_0_p1460901.shtml"
+        ],
+        "gaps": [
+          "赛点配色图片未核实"
+        ]
+      }
+    }
+  ],
+  "tablet": [],
+  "laptop": []
+}

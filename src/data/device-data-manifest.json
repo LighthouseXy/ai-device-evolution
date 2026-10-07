@@ -1,6 +1,262 @@
 {
   "version": 1,
   "datasets": [
+    { "id": "apple-wearable-cn", "brand": "Apple", "market": "CN", "devices": "apple-wearable-devices-db.json", "sources": "apple-wearable-sources.json", "normalizeGenerationOrder": true },
+    { "id": "xiaomi-wearable-cn", "brand": "Xiaomi", "market": "CN", "devices": "xiaomi-wearable-devices-db.json", "sources": "xiaomi-wearable-sources.json", "normalizeGenerationOrder": true },
+    { "id": "redmi-wearable-cn", "brand": "Redmi", "market": "CN", "devices": "redmi-wearable-devices-db.json", "sources": "redmi-wearable-sources.json", "normalizeGenerationOrder": true },
+    { "id": "samsung-wearable-cn", "brand": "Samsung", "market": "CN", "devices": "samsung-wearable-devices-db.json", "sources": "samsung-wearable-sources.json", "normalizeGenerationOrder": true },
+    { "id": "huawei-wearable-cn", "brand": "Huawei", "market": "CN", "devices": "huawei-wearable-devices-db.json", "sources": "huawei-wearable-sources.json", "normalizeGenerationOrder": true },
+    { "id": "oppo-wearable-cn", "brand": "OPPO", "market": "CN", "devices": "oppo-wearable-devices-db.json", "sources": "oppo-wearable-sources.json", "normalizeGenerationOrder": true },
+    { "id": "vivo-wearable-cn", "brand": "vivo", "market": "CN", "devices": "vivo-wearable-devices-db.json", "sources": "vivo-wearable-sources.json", "normalizeGenerationOrder": true },
+    { "id": "honor-wearable-cn", "brand": "HONOR", "market": "CN", "devices": "honor-wearable-devices-db.json", "sources": "honor-wearable-sources.json", "normalizeGenerationOrder": true },
+    {
+      "id": "oppo-five-year-batch6-cn",
+      "brand": "OPPO",
+      "market": "CN",
+      "devices": "oppo-five-year-batch6-devices-db.json",
+      "sources": "oppo-five-year-batch6-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "vivo-five-year-batch6-cn",
+      "brand": "vivo",
+      "market": "CN",
+      "devices": "vivo-five-year-batch6-devices-db.json",
+      "sources": "vivo-five-year-batch6-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "honor-five-year-batch6-cn",
+      "brand": "HONOR",
+      "market": "CN",
+      "devices": "honor-five-year-batch6-devices-db.json",
+      "sources": "honor-five-year-batch6-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "huawei-tablet-official-cn",
+      "brand": "Huawei",
+      "market": "CN",
+      "devices": "huawei-tablet-official-devices-db.json",
+      "sources": "huawei-tablet-official-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "samsung-batch5-cn",
+      "brand": "Samsung",
+      "market": "CN",
+      "devices": "samsung-batch5-devices-db.json",
+      "sources": "samsung-batch5-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "oppo-five-year-batch5-cn",
+      "brand": "OPPO",
+      "market": "CN",
+      "devices": "oppo-five-year-batch5-devices-db.json",
+      "sources": "oppo-five-year-batch5-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "vivo-five-year-batch5-cn",
+      "brand": "vivo",
+      "market": "CN",
+      "devices": "vivo-five-year-batch5-devices-db.json",
+      "sources": "vivo-five-year-batch5-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "honor-five-year-batch5-cn",
+      "brand": "HONOR",
+      "market": "CN",
+      "devices": "honor-five-year-batch5-devices-db.json",
+      "sources": "honor-five-year-batch5-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "samsung-batch4-cn",
+      "brand": "Samsung",
+      "market": "CN",
+      "devices": "samsung-batch4-devices-db.json",
+      "sources": "samsung-batch4-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "xiaomi-history-batch5-cn",
+      "brand": "Xiaomi",
+      "market": "CN",
+      "devices": "xiaomi-history-batch5-devices-db.json",
+      "sources": "xiaomi-history-batch5-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "oppo-five-year-batch4-cn",
+      "brand": "OPPO",
+      "market": "CN",
+      "devices": "oppo-five-year-batch4-devices-db.json",
+      "sources": "oppo-five-year-batch4-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "vivo-five-year-batch4-cn",
+      "brand": "vivo",
+      "market": "CN",
+      "devices": "vivo-five-year-batch4-devices-db.json",
+      "sources": "vivo-five-year-batch4-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "honor-five-year-batch4-cn",
+      "brand": "HONOR",
+      "market": "CN",
+      "devices": "honor-five-year-batch4-devices-db.json",
+      "sources": "honor-five-year-batch4-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "xiaomi-history-batch4-cn",
+      "brand": "Xiaomi",
+      "market": "CN",
+      "devices": "xiaomi-history-batch4-devices-db.json",
+      "sources": "xiaomi-history-batch4-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "samsung-batch3-cn",
+      "brand": "Samsung",
+      "market": "CN",
+      "devices": "samsung-batch3-devices-db.json",
+      "sources": "samsung-batch3-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "xiaomi-history-batch3-cn",
+      "brand": "Xiaomi",
+      "market": "CN",
+      "devices": "xiaomi-history-batch3-devices-db.json",
+      "sources": "xiaomi-history-batch3-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "huawei-five-year-batch2-cn",
+      "brand": "Huawei",
+      "market": "CN",
+      "devices": "huawei-five-year-batch2-devices-db.json",
+      "sources": "huawei-five-year-batch2-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "oppo-five-year-batch3-cn",
+      "brand": "OPPO",
+      "market": "CN",
+      "devices": "oppo-five-year-batch3-devices-db.json",
+      "sources": "oppo-five-year-batch3-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "vivo-five-year-batch3-cn",
+      "brand": "vivo",
+      "market": "CN",
+      "devices": "vivo-five-year-batch3-devices-db.json",
+      "sources": "vivo-five-year-batch3-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "honor-five-year-batch3-cn",
+      "brand": "HONOR",
+      "market": "CN",
+      "devices": "honor-five-year-batch3-devices-db.json",
+      "sources": "honor-five-year-batch3-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "xiaomi-history-batch2-cn",
+      "brand": "Xiaomi",
+      "market": "CN",
+      "devices": "xiaomi-history-batch2-devices-db.json",
+      "sources": "xiaomi-history-batch2-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "samsung-batch2-cn",
+      "brand": "Samsung",
+      "market": "CN",
+      "devices": "samsung-batch2-devices-db.json",
+      "sources": "samsung-batch2-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "oppo-five-year-batch2-cn",
+      "brand": "OPPO",
+      "market": "CN",
+      "devices": "oppo-five-year-batch2-devices-db.json",
+      "sources": "oppo-five-year-batch2-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "vivo-five-year-batch2-cn",
+      "brand": "vivo",
+      "market": "CN",
+      "devices": "vivo-five-year-batch2-devices-db.json",
+      "sources": "vivo-five-year-batch2-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "honor-five-year-batch2-cn",
+      "brand": "HONOR",
+      "market": "CN",
+      "devices": "honor-five-year-batch2-devices-db.json",
+      "sources": "honor-five-year-batch2-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "huawei-five-year-cn",
+      "brand": "Huawei",
+      "market": "CN",
+      "devices": "huawei-five-year-devices-db.json",
+      "sources": "huawei-five-year-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "samsung-history-cn",
+      "brand": "Samsung",
+      "market": "CN",
+      "devices": "samsung-history-devices-db.json",
+      "sources": "samsung-history-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "oppo-five-year-cn",
+      "brand": "OPPO",
+      "market": "CN",
+      "devices": "oppo-five-year-devices-db.json",
+      "sources": "oppo-five-year-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "vivo-five-year-cn",
+      "brand": "vivo",
+      "market": "CN",
+      "devices": "vivo-five-year-devices-db.json",
+      "sources": "vivo-five-year-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "honor-five-year-cn",
+      "brand": "HONOR",
+      "market": "CN",
+      "devices": "honor-five-year-devices-db.json",
+      "sources": "honor-five-year-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "xiaomi-history-cn",
+      "brand": "Xiaomi",
+      "market": "CN",
+      "devices": "xiaomi-history-devices-db.json",
+      "sources": "xiaomi-history-sources.json",
+      "normalizeGenerationOrder": true
+    },
     {
       "id": "apple-cn",
       "brand": "Apple",
@@ -49,6 +305,65 @@
       "market": "CN",
       "devices": "samsung-devices-db.json",
       "sources": "samsung-sources.json"
+    },
+    {
+      "id": "huawei-mate-pro-cn",
+      "brand": "Huawei",
+      "market": "CN",
+      "devices": "huawei-mate-devices-db.json",
+      "sources": "huawei-mate-sources.json"
+    },
+    {
+      "id": "xiaomi-pad-cn",
+      "brand": "Xiaomi",
+      "market": "CN",
+      "devices": "xiaomi-pad-devices-db.json",
+      "sources": "xiaomi-pad-sources.json"
+    },
+    {
+      "id": "huawei-matebook-cn",
+      "brand": "Huawei",
+      "market": "CN",
+      "devices": "huawei-matebook-devices-db.json",
+      "sources": "huawei-matebook-sources.json"
+    },
+    {
+      "id": "huawei-matepad-cn",
+      "brand": "Huawei",
+      "market": "CN",
+      "devices": "huawei-matepad-devices-db.json",
+      "sources": "huawei-matepad-sources.json"
+    },
+    {
+      "id": "redmi-book-14-cn",
+      "brand": "Xiaomi",
+      "market": "CN",
+      "devices": "redmi-book-devices-db.json",
+      "sources": "redmi-book-sources.json"
+    },
+    {
+      "id": "xiaomi-phone-expansion-cn",
+      "brand": "Xiaomi",
+      "market": "CN",
+      "devices": "xiaomi-phone-expansion-devices-db.json",
+      "sources": "xiaomi-phone-expansion-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "xiaomi-computing-expansion-cn",
+      "brand": "Xiaomi",
+      "market": "CN",
+      "devices": "xiaomi-computing-expansion-devices-db.json",
+      "sources": "xiaomi-computing-expansion-sources.json",
+      "normalizeGenerationOrder": true
+    },
+    {
+      "id": "huawei-expansion-cn",
+      "brand": "Huawei",
+      "market": "CN",
+      "devices": "huawei-expansion-devices-db.json",
+      "sources": "huawei-expansion-sources.json",
+      "normalizeGenerationOrder": true
     }
   ],
   "publishers": [
@@ -65,21 +380,52 @@
       "hosts": [
         "tc.people.com.cn",
         "mobile.zol.com.cn",
+        "smartwear.zol.com.cn",
+        "club.honor.com",
+        "nb.zol.com.cn",
         "detail.zol.com.cn",
         "wap.zol.com.cn",
         "www.ithome.com",
+        "ku.ithome.com",
         "m.ithome.com",
         "news.mydrivers.com",
+        "www.gamersky.com",
+        "phone.cnmo.com",
+        "m.cnmo.com",
+        "www.cnmo.com",
+        "finance.sina.cn",
+        "pad.zol.com.cn",
+        "news.zol.com.cn",
+        "www.ifanr.com",
+        "www.3elife.net",
+        "www.sohu.com",
+        "m.jiemian.com",
+        "www.suning.com",
+        "h5.ifeng.com",
         "tech.sina.cn",
         "www.smzdm.com",
         "www.shihuo.cn",
         "pro.m.jd.com",
         "item.jd.com",
         "item.m.jd.com",
+        "item.taobao.com",
+        "h5.m.taobao.com",
+        "detail.tmall.com",
+        "mobile.yangkeduo.com",
+        "mobile.pinduoduo.com",
+        "goods.pinduoduo.com",
         "m2.9ji.com",
         "iosref.com",
-        "www.dxomark.com"
+        "www.ifixit.com",
+        "www.dxomark.com",
+        "everymac.com"
       ]
+    },
+    {
+      "id": "pconline",
+      "name": "太平洋产品库",
+      "sourceType": "reference",
+      "hosts": ["g.pconline.com.cn", "product.pconline.com.cn"]
     },
     {
       "id": "xiaomi",
@@ -91,13 +437,13 @@
       "id": "oppo",
       "name": "OPPO",
       "sourceType": "official",
-      "hosts": ["www.oppo.com"]
+      "hosts": ["www.oppo.com", "www.opposhop.cn"]
     },
     {
       "id": "vivo",
       "name": "vivo",
       "sourceType": "official",
-      "hosts": ["www.vivo.com.cn"]
+      "hosts": ["www.vivo.com.cn", "m.vivo.com.cn", "shop.vivo.com.cn"]
     },
     {
       "id": "huawei",
@@ -115,7 +461,7 @@
       "id": "samsung",
       "name": "Samsung",
       "sourceType": "official",
-      "hosts": ["www.samsung.com.cn"]
+      "hosts": ["www.samsung.com.cn", "searchapi.samsung.com.cn", "support-cn.samsung.com.cn"]
     }
   ]
 }

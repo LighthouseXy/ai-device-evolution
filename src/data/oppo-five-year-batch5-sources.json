@@ -1,0 +1,652 @@
+{
+  "phone": [
+    {
+      "id": "oppo-find-x7-2024",
+      "modelName": "OPPO Find X7",
+      "generation": "Find X7",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "officialSpecUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+      "officialSpecEvidence": {
+        "value": "OPPO Find X7",
+        "rawText": "OPPO Find X7 产品参数 | OPPO 官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:08:47.971Z",
+        "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "入网型号：PHZ110",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:08:47.971Z",
+        "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+      },
+      "releaseEvidence": {
+        "value": "2024-01-12",
+        "rawText": "OPPO Find X7 、Find X7 Ultra 今日正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://m.ithome.com/html/744795.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:24.575Z",
+        "sourceSnapshotHash": "394440e096c1639b83c225d3bcca8e2dcae43d9984591512801ee0f440ab988f"
+      },
+      "releaseDatePrecision": "day",
+      "configurationMethod": "中国官网明确成对价目SKU或运行内存+机身存储成对清单，不以聚合RAMROM交叉推导",
+      "configurationEvidence": [
+        {
+          "value": "12GB + 256GB",
+          "rawText": "12GB+256GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        },
+        {
+          "value": "16GB + 256GB",
+          "rawText": "16GB+256GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        },
+        {
+          "value": "16GB + 512GB",
+          "rawText": "16GB+512GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        },
+        {
+          "value": "16GB + 1TB",
+          "rawText": "16GB+1TB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe"
+        }
+      ],
+      "referenceUrls": [
+        "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+        "https://m.ithome.com/html/744795.htm",
+        "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/",
+        "https://detail.zol.com.cn/series/57/10844009_1.html"
+      ],
+      "fieldGaps": [],
+      "notes": "官网静态实际规格与独立中国大陆SKU；真实首售证据优先于发布日，不声称完整五年覆盖。",
+      "productImages": {
+        "modelName": "OPPO Find X7",
+        "seriesId": "10844009",
+        "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+        "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe",
+        "fetchedAt": "2026-10-05T20:08:47.971Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。",
+        "primary": {
+          "url": "https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x7-series-cn/specs/find-x7-5color-860_720px.png",
+          "alt": "Find X7",
+          "modelName": "OPPO Find X7",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-find-x/find-x7/specs/",
+          "sourceSnapshotHash": "6b0a7177c2bfc05f99cad4792b18de9db4125b42881f0ef9502381fae960b3fe",
+          "fetchedAt": "2026-10-05T20:08:47.971Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "星空黑"
+          },
+          {
+            "name": "烟云紫"
+          },
+          {
+            "name": "白日梦想家"
+          },
+          {
+            "name": "大漠银月"
+          },
+          {
+            "name": "海阔天空"
+          }
+        ],
+        "gaps": [
+          "星空黑配色图未核实",
+          "烟云紫配色图未核实",
+          "白日梦想家配色图未核实",
+          "大漠银月配色图未核实",
+          "海阔天空配色图未核实"
+        ]
+      }
+    },
+    {
+      "id": "oppo-k12s-2025",
+      "modelName": "OPPO K12s",
+      "generation": "K12s",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10912778_1.html",
+        "https://detail.zol.com.cn/series/57/1673/param_10912778_0_1.html",
+        "https://detail.zol.com.cn/2127/2126307/param.shtml",
+        "https://detail.zol.com.cn/2127/2126309/param.shtml",
+        "https://detail.zol.com.cn/2127/2126310/param.shtml",
+        "https://detail.zol.com.cn/2127/2126308/param.shtml",
+        "https://mobile.zol.com.cn/977/9775638.html",
+        "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+        "https://www.oppo.com/cn/smartphones/series-k/k12s/"
+      ],
+      "releaseEvidence": {
+        "value": "2025-04-25",
+        "rawText": "这款手机于4月25日上午10点正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://mobile.zol.com.cn/977/9775638.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:25.564Z",
+        "sourceSnapshotHash": "4478ccc1570d7b4e0eee2fe505fe06c6cef7c48841bf8cecb485b640d2746c8f"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "当前官网建议零售价/参考报价可能调整，不自动当首发价；本配置独立发布定价原文尚未登记"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 核心参数优先采用中国官网实际静态值；官网成对SKU与ZOL逐SKU矩阵完全一致，缺失官方字段才保留独立ZOL事实。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2025年04月22日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2127/2126307/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:25.250Z",
+        "sourceSnapshotHash": "c6049e99e6e5de5d4e866262c03f21965a81c5108cd9f9244f66da2c4e21904f"
+      },
+      "officialSpecUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+      "officialSpecEvidence": {
+        "value": "OPPO K12s",
+        "rawText": "OPPO K12s 产品参数 | OPPO 官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:12:57.041Z",
+        "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+      },
+      "configurationEvidence": [
+        {
+          "value": "8GB + 128GB",
+          "rawText": "8GB+128GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+        },
+        {
+          "value": "8GB + 256GB",
+          "rawText": "8GB+256GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+        },
+        {
+          "value": "12GB + 256GB",
+          "rawText": "12GB+256GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+        },
+        {
+          "value": "12GB + 512GB",
+          "rawText": "12GB+512GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6"
+        }
+      ],
+      "productImages": {
+        "modelName": "OPPO K12s",
+        "seriesId": "10912778",
+        "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+        "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6",
+        "fetchedAt": "2026-10-05T20:12:57.041Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。",
+        "primary": {
+          "url": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/k12s-cn/specs/860-720.png",
+          "alt": "OPPO K12s",
+          "modelName": "OPPO K12s",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k12s/specs/",
+          "sourceSnapshotHash": "185998afe2523f98c43ec3fc516ef578a2eeb9600bac530437b6aaa492cf81a6",
+          "fetchedAt": "2026-10-05T20:12:57.041Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "玫瑰紫"
+          },
+          {
+            "name": "棱镜黑"
+          },
+          {
+            "name": "星芒白"
+          }
+        ],
+        "gaps": [
+          "玫瑰紫配色图未核实",
+          "棱镜黑配色图未核实",
+          "星芒白配色图未核实"
+        ]
+      }
+    },
+    {
+      "id": "oppo-k13s-2025",
+      "modelName": "OPPO K13s",
+      "generation": "K13s",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10920401_1.html",
+        "https://detail.zol.com.cn/series/57/1673/param_10920401_0_1.html",
+        "https://detail.zol.com.cn/2146/2145348/param.shtml",
+        "https://detail.zol.com.cn/2146/2145350/param.shtml",
+        "https://detail.zol.com.cn/2146/2145349/param.shtml",
+        "https://www.ithome.com/0/883/682.htm",
+        "https://detail.zol.com.cn/picture_index_2738/index27371908_0_p2145348.shtml",
+        "https://detail.zol.com.cn/picture_index_2738/index27371923_0_p2145350.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2025-09-17",
+        "rawText": "OPPO K13s /K13x 手机现已开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/883/682.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:26.513Z",
+        "sourceSnapshotHash": "db8e11c43d28a42900a96db10b679fb0adf625fb1c74f9cba83991fdea88afea"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "当前官网建议零售价/参考报价可能调整，不自动当首发价；本配置独立发布定价原文尚未登记"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2025年9月17日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2146/2145348/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:26.059Z",
+        "sourceSnapshotHash": "9b2f815991491cfd2655ebbc60d5b0e8c78135c4902c5e08a193d4f33293ed03"
+      },
+      "productImages": {
+        "modelName": "OPPO K13s",
+        "seriesId": "10920401",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2738/index27371908_0_p2145348.shtml",
+        "sourceSnapshotHash": "8c247a55174820e23b0b63351d5f0fe7e362491e55fbca3a3eefd17d9ee8bd89",
+        "fetchedAt": "2026-10-05T20:21:30.139Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。",
+        "primary": {
+          "url": "https://2e.zol-img.com.cn/product/273_320x240/920/cegG9A2SD6S2.jpg",
+          "alt": "OPPO K13s",
+          "modelName": "OPPO K13s",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10920401_1.html",
+          "sourceSnapshotHash": "2f9f6b3c685af985a4dc225ae725ea6988e7d8160162927b75d8563fa932687a",
+          "fetchedAt": "2026-10-05T19:17:37.178Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "超能白",
+            "url": "https://2e.zol-img.com.cn/product/273/920/cegG9A2SD6S2.jpg",
+            "modelName": "OPPO K13s",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2738/index27371908_0_p2145348.shtml",
+            "sourceSnapshotHash": "8c247a55174820e23b0b63351d5f0fe7e362491e55fbca3a3eefd17d9ee8bd89",
+            "fetchedAt": "2026-10-05T20:21:30.139Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "聚能蓝",
+            "url": "https://2e.zol-img.com.cn/product/273/908/ceKXkceWDvU.jpg",
+            "modelName": "OPPO K13s",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2738/index27371908_0_p2145348.shtml",
+            "sourceSnapshotHash": "8c247a55174820e23b0b63351d5f0fe7e362491e55fbca3a3eefd17d9ee8bd89",
+            "fetchedAt": "2026-10-05T20:21:30.139Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "oppo-k15-pro-2026",
+      "modelName": "OPPO K15 Pro",
+      "generation": "K15 Pro",
+      "releaseYear": 2026,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10925333_1.html",
+        "https://detail.zol.com.cn/series/57/1673/param_10925333_0_1.html",
+        "https://detail.zol.com.cn/2162/2161710/param.shtml",
+        "https://detail.zol.com.cn/2162/2161711/param.shtml",
+        "https://phone.cnmo.com/news/806677.html",
+        "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+        "https://www.oppo.com/cn/smartphones/series-k/k15-pro/",
+        "https://detail.zol.com.cn/picture_index_2751/index27504347_0_p2161710.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2026-04-03",
+        "rawText": "4月3日上午10点，OPPO官方宣布，OPPO K15 Pro及OPPO K15 Pro＋开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://phone.cnmo.com/news/806677.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:28.160Z",
+        "sourceSnapshotHash": "54214becdceadef518feb8e37c844aa32c9077c2633c7a0d874eca7dba079b83"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "当前官网建议零售价/参考报价可能调整，不自动当首发价；本配置独立发布定价原文尚未登记"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 核心参数优先采用中国官网实际静态值；官网成对SKU与ZOL逐SKU矩阵完全一致，缺失官方字段才保留独立ZOL事实。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2026年4月1日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2162/2161710/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:27.945Z",
+        "sourceSnapshotHash": "bddd7d885130432fc5d7e1aaf1de697e55120b0216d03913ea0f203402be4bc8"
+      },
+      "officialSpecUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+      "officialSpecEvidence": {
+        "value": "OPPO K15 Pro",
+        "rawText": "OPPO K15 Pro 产品参数 | OPPO 官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:14:33.939Z",
+        "sourceSnapshotHash": "ccff94bedaa9095726ff5ff16bfe9e3fe4c83d38aa0b029d8c2197e50888df4f"
+      },
+      "configurationEvidence": [
+        {
+          "value": "12GB + 256GB",
+          "rawText": "12GB+256GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:14:33.939Z",
+          "sourceSnapshotHash": "ccff94bedaa9095726ff5ff16bfe9e3fe4c83d38aa0b029d8c2197e50888df4f"
+        },
+        {
+          "value": "12GB + 512GB",
+          "rawText": "12GB+512GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:14:33.939Z",
+          "sourceSnapshotHash": "ccff94bedaa9095726ff5ff16bfe9e3fe4c83d38aa0b029d8c2197e50888df4f"
+        }
+      ],
+      "productImages": {
+        "modelName": "OPPO K15 Pro",
+        "seriesId": "10925333",
+        "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+        "sourceSnapshotHash": "ccff94bedaa9095726ff5ff16bfe9e3fe4c83d38aa0b029d8c2197e50888df4f",
+        "fetchedAt": "2026-10-05T20:14:33.939Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。",
+        "primary": {
+          "url": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-k15-series-cn/oppo-k15-pro/product/specs.png",
+          "alt": "OPPO K15 Pro",
+          "modelName": "OPPO K15 Pro",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro/specs/",
+          "sourceSnapshotHash": "ccff94bedaa9095726ff5ff16bfe9e3fe4c83d38aa0b029d8c2197e50888df4f",
+          "fetchedAt": "2026-10-05T20:14:33.939Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "金色传说（锻造碳）"
+          },
+          {
+            "name": "光尘粉",
+            "url": "https://2f.zol-img.com.cn/product/275/347/ce3YnnuDOXQ.jpg",
+            "modelName": "OPPO K15 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2751/index27504347_0_p2161710.shtml",
+            "sourceSnapshotHash": "f4664076debdc2b08325cb7ccd9c08a91ed71c7c3bb8984435d7ce3232329f48",
+            "fetchedAt": "2026-10-05T20:25:18.141Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "起源灰",
+            "url": "https://2f.zol-img.com.cn/product/275/353/ceBKBKz3BrrVg.jpg",
+            "modelName": "OPPO K15 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2751/index27504347_0_p2161710.shtml",
+            "sourceSnapshotHash": "f4664076debdc2b08325cb7ccd9c08a91ed71c7c3bb8984435d7ce3232329f48",
+            "fetchedAt": "2026-10-05T20:25:18.141Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "赛博光翼",
+            "url": "https://2a.zol-img.com.cn/product/275/348/ceH4eTM8YCVo.jpg",
+            "modelName": "OPPO K15 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2751/index27504347_0_p2161710.shtml",
+            "sourceSnapshotHash": "f4664076debdc2b08325cb7ccd9c08a91ed71c7c3bb8984435d7ce3232329f48",
+            "fetchedAt": "2026-10-05T20:25:18.141Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          }
+        ],
+        "gaps": [
+          "金色传说（锻造碳）配色图未核实"
+        ]
+      }
+    },
+    {
+      "id": "oppo-k15-pro-plus-2026",
+      "modelName": "OPPO K15 Pro+",
+      "generation": "K15 Pro+",
+      "releaseYear": 2026,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10925334_1.html",
+        "https://detail.zol.com.cn/series/57/1673/param_10925334_0_1.html",
+        "https://detail.zol.com.cn/2162/2161712/param.shtml",
+        "https://detail.zol.com.cn/2162/2161713/param.shtml",
+        "https://phone.cnmo.com/news/806677.html",
+        "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+        "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/",
+        "https://detail.zol.com.cn/picture_index_2751/index27504377_0_p2161712.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2026-04-03",
+        "rawText": "4月3日上午10点，OPPO官方宣布，OPPO K15 Pro及OPPO K15 Pro＋开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://phone.cnmo.com/news/806677.html",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:28.160Z",
+        "sourceSnapshotHash": "54214becdceadef518feb8e37c844aa32c9077c2633c7a0d874eca7dba079b83"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "当前官网建议零售价/参考报价可能调整，不自动当首发价；本配置独立发布定价原文尚未登记"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 核心参数优先采用中国官网实际静态值；官网成对SKU与ZOL逐SKU矩阵完全一致，缺失官方字段才保留独立ZOL事实。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2026年4月1日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2162/2161712/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:29.710Z",
+        "sourceSnapshotHash": "c5904ec4450671f7d4582a6d78aee80e9af8e97e2f94e5ab3dbc6dfa184b9a71"
+      },
+      "officialSpecUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+      "officialSpecEvidence": {
+        "value": "OPPO K15 Pro+",
+        "rawText": "OPPO K15 Pro+ 产品参数 | OPPO 官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T20:19:28.425Z",
+        "sourceSnapshotHash": "eac317f5cdb83931609934042367a831c50efcfc976083b4fbe13a753ea923a9"
+      },
+      "configurationEvidence": [
+        {
+          "value": "12GB + 256GB",
+          "rawText": "12GB+256GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:28.425Z",
+          "sourceSnapshotHash": "eac317f5cdb83931609934042367a831c50efcfc976083b4fbe13a753ea923a9"
+        },
+        {
+          "value": "12GB + 512GB",
+          "rawText": "12GB+512GB",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T20:19:28.425Z",
+          "sourceSnapshotHash": "eac317f5cdb83931609934042367a831c50efcfc976083b4fbe13a753ea923a9"
+        }
+      ],
+      "productImages": {
+        "modelName": "OPPO K15 Pro+",
+        "seriesId": "10925334",
+        "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+        "sourceSnapshotHash": "eac317f5cdb83931609934042367a831c50efcfc976083b4fbe13a753ea923a9",
+        "fetchedAt": "2026-10-05T20:19:28.425Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。",
+        "primary": {
+          "url": "https://www.oppo.com/content/dam/oppo_com/common/mkt/v2-2/oppo-k15-series-cn/oppo-k15-pro-plus/product/specs.png",
+          "alt": "OPPO K15 Pro+",
+          "modelName": "OPPO K15 Pro+",
+          "sourceUrl": "https://www.oppo.com/cn/smartphones/series-k/k15-pro-plus/specs/",
+          "sourceSnapshotHash": "eac317f5cdb83931609934042367a831c50efcfc976083b4fbe13a753ea923a9",
+          "fetchedAt": "2026-10-05T20:19:28.425Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+        },
+        "colors": [
+          {
+            "name": "光尘粉",
+            "url": "https://2f.zol-img.com.cn/product/275/377/cezpt1DOSwom6.jpg",
+            "modelName": "OPPO K15 Pro+",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2751/index27504377_0_p2161712.shtml",
+            "sourceSnapshotHash": "697ed288ec689bc2ee991c70dc5bea356bc1dcbf32c272b6656632b5da8a6812",
+            "fetchedAt": "2026-10-05T20:25:18.371Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "起源灰",
+            "url": "https://2e.zol-img.com.cn/product/275/388/ceekbz1NQ8OY.jpg",
+            "modelName": "OPPO K15 Pro+",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2751/index27504377_0_p2161712.shtml",
+            "sourceSnapshotHash": "697ed288ec689bc2ee991c70dc5bea356bc1dcbf32c272b6656632b5da8a6812",
+            "fetchedAt": "2026-10-05T20:25:18.371Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          },
+          {
+            "name": "赛博光翼",
+            "url": "https://2c.zol-img.com.cn/product/275/380/ce95fpPN1XELc.jpg",
+            "modelName": "OPPO K15 Pro+",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2751/index27504377_0_p2161712.shtml",
+            "sourceSnapshotHash": "697ed288ec689bc2ee991c70dc5bea356bc1dcbf32c272b6656632b5da8a6812",
+            "fetchedAt": "2026-10-05T20:25:18.371Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "公开URL与产品身份已核验；未取得图片版权授权或商业转载许可。"
+          }
+        ],
+        "gaps": []
+      }
+    }
+  ],
+  "tablet": [],
+  "laptop": []
+}

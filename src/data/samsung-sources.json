@@ -1,49 +1,160 @@
 {
   "phone": [
     {
+      "id": "samsung-galaxy-s24-2024",
+      "modelName": "Samsung Galaxy S24",
+      "generation": "S24",
+      "releaseYear": 2024,
+      "sourcePageType": "official_spec_reference_launch_and_benchmark",
+      "officialSpecUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/specs/",
+      "supportUrl": null,
+      "newsroomUrl": "https://www.samsung.com.cn/news/product/samsung-galaxy-s24-series-in-china/",
+      "referenceUrls": [
+        "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9210ZAGCHC&specAnnotationYN=Y",
+        "https://www.samsung.com.cn/smartphones/galaxy-s24/",
+        "https://www.ithome.com/0/747/278.htm"
+      ],
+      "sourceStatus": "verified",
+      "notes": "规格与配置取自三星中国官网，并绑定 CHC 国行型号；首发价为明确的8GB+256GB基础配置指导价，不含升杯或限时优惠；发布日期按国行发布信息登记；未核验的评测分数与当前价留空。"
+    },
+    {
+      "id": "samsung-galaxy-s24-plus-2024",
+      "modelName": "Samsung Galaxy S24+",
+      "generation": "S24+",
+      "releaseYear": 2024,
+      "sourcePageType": "official_spec_reference_launch_and_benchmark",
+      "officialSpecUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/specs/",
+      "supportUrl": null,
+      "newsroomUrl": "https://www.samsung.com.cn/news/product/samsung-galaxy-s24-series-in-china/",
+      "referenceUrls": [
+        "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9260ZYDCHC&specAnnotationYN=Y",
+        "https://www.samsung.com.cn/smartphones/galaxy-s24/",
+        "https://www.ithome.com/0/747/278.htm"
+      ],
+      "sourceStatus": "verified",
+      "notes": "规格与配置取自三星中国官网，并绑定 CHC 国行型号；首发价为明确的12GB+256GB基础配置指导价，不含升杯或限时优惠；发布日期按国行发布信息登记；未核验的评测分数与当前价留空。"
+    },
+    {
+      "id": "samsung-galaxy-s25-2025",
+      "modelName": "Samsung Galaxy S25",
+      "generation": "S25",
+      "releaseYear": 2025,
+      "sourcePageType": "official_spec_reference_launch_and_benchmark",
+      "officialSpecUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/specs/",
+      "supportUrl": null,
+      "newsroomUrl": "https://www.samsung.com.cn/news/product/galaxy-s25-ai/",
+      "referenceUrls": [
+        "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9310LBGCHC&specAnnotationYN=Y",
+        "https://www.samsung.com.cn/smartphones/galaxy-s25/",
+        "https://www.samsung.com.cn/news/product/galaxy-s25-ai/"
+      ],
+      "sourceStatus": "verified",
+      "notes": "规格与配置取自三星中国官网，并绑定 CHC 国行型号；首发价为明确的12GB+256GB基础配置指导价，不含升杯或限时优惠；发布日期按国行发布信息登记；未核验的评测分数与当前价留空。"
+    },
+    {
+      "id": "samsung-galaxy-s25-plus-2025",
+      "modelName": "Samsung Galaxy S25+",
+      "generation": "S25+",
+      "releaseYear": 2025,
+      "sourcePageType": "official_spec_reference_launch_and_benchmark",
+      "officialSpecUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/specs/",
+      "supportUrl": null,
+      "newsroomUrl": "https://www.samsung.com.cn/news/product/galaxy-s25-ai/",
+      "referenceUrls": [
+        "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9360LBDCHC&specAnnotationYN=Y",
+        "https://www.samsung.com.cn/smartphones/galaxy-s25/",
+        "https://www.samsung.com.cn/news/product/galaxy-s25-ai/"
+      ],
+      "sourceStatus": "verified",
+      "notes": "规格与配置取自三星中国官网，并绑定 CHC 国行型号；首发价为明确的12GB+256GB基础配置指导价，不含升杯或限时优惠；发布日期按国行发布信息登记；未核验的评测分数与当前价留空。"
+    },
+    {
+      "id": "samsung-galaxy-s26-2026",
+      "modelName": "Samsung Galaxy S26",
+      "generation": "S26",
+      "releaseYear": 2026,
+      "sourcePageType": "official_spec_reference_launch_and_benchmark",
+      "officialSpecUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/specs/",
+      "supportUrl": null,
+      "newsroomUrl": "https://www.samsung.com.cn/news/product/galaxy-s26/",
+      "referenceUrls": [
+        "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9420ZVGCHC&specAnnotationYN=Y",
+        "https://www.samsung.com.cn/smartphones/galaxy-s26/",
+        "https://www.ithome.com/0/923/676.htm"
+      ],
+      "sourceStatus": "verified",
+      "notes": "规格与配置取自三星中国官网，并绑定 CHC 国行型号；首发价为明确的12GB+256GB基础配置指导价，不含升杯或限时优惠；发布日期按国行发布信息登记；未核验的评测分数与当前价留空。"
+    },
+    {
+      "id": "samsung-galaxy-s26-plus-2026",
+      "modelName": "Samsung Galaxy S26+",
+      "generation": "S26+",
+      "releaseYear": 2026,
+      "sourcePageType": "official_spec_reference_launch_and_benchmark",
+      "officialSpecUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/specs/",
+      "supportUrl": null,
+      "newsroomUrl": "https://www.samsung.com.cn/news/product/galaxy-s26/",
+      "referenceUrls": [
+        "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9470ZVDCHC&specAnnotationYN=Y",
+        "https://www.samsung.com.cn/smartphones/galaxy-s26/",
+        "https://www.ithome.com/0/923/676.htm"
+      ],
+      "sourceStatus": "verified",
+      "notes": "规格与配置取自三星中国官网，并绑定 CHC 国行型号；首发价为明确的12GB+256GB基础配置指导价，不含升杯或限时优惠；发布日期按国行发布信息登记；未核验的评测分数与当前价留空。"
+    },
+    {
       "id": "samsung-galaxy-s24-ultra-2024",
       "modelName": "Samsung Galaxy S24 Ultra",
       "generation": "S24 Ultra",
       "releaseYear": 2024,
-      "sourcePageType": "official_spec_price_and_reference_benchmark",
+      "sourcePageType": "official_spec_reference_launch_and_benchmark",
       "officialSpecUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/specs/",
       "supportUrl": null,
       "newsroomUrl": "https://www.samsung.com.cn/news/product/samsung-galaxy-s24-series-in-china/",
       "referenceUrls": [
-        "https://www.dxomark.com/samsung-galaxy-s24-ultra-camera-test/"
+        "https://www.dxomark.com/samsung-galaxy-s24-ultra-camera-test/",
+        "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9280ZTGCHC&specAnnotationYN=Y",
+        "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/",
+        "https://www.ithome.com/0/747/278.htm"
       ],
       "sourceStatus": "verified",
-      "notes": "规格、国行配置与中国大陆首发指导价取自三星中国官网；相机评分取自 DXOMARK Camera v5。"
+      "notes": "规格与国行配置取自三星中国官网；中国大陆首发指导价按IT之家发布报道中的12GB+256GB配置核验，不含升杯优惠或尝鲜价；相机评分取自 DXOMARK Camera v5。"
     },
     {
       "id": "samsung-galaxy-s25-ultra-2025",
       "modelName": "Samsung Galaxy S25 Ultra",
       "generation": "S25 Ultra",
       "releaseYear": 2025,
-      "sourcePageType": "official_spec_price_and_reference_benchmark",
+      "sourcePageType": "official_spec_reference_launch_and_benchmark",
       "officialSpecUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/specs/",
       "supportUrl": null,
       "newsroomUrl": "https://www.samsung.com.cn/news/product/galaxy-s25-ai/",
       "referenceUrls": [
-        "https://www.dxomark.com/samsung-galaxy-s25-ultra-camera-test/"
+        "https://www.dxomark.com/samsung-galaxy-s25-ultra-camera-test/",
+        "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9380ZBDCHC&specAnnotationYN=Y",
+        "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/",
+        "https://www.ithome.com/0/830/095.htm"
       ],
       "sourceStatus": "verified",
-      "notes": "规格、国行配置与中国大陆首发指导价取自三星中国官网；相机评分取自 DXOMARK Camera v5。"
+      "notes": "规格与国行配置取自三星中国官网；中国大陆首发指导价按IT之家发布报道中的12GB+256GB配置核验，不含升杯优惠或尝鲜价；相机评分取自 DXOMARK Camera v5。"
     },
     {
       "id": "samsung-galaxy-s26-ultra-2026",
       "modelName": "Samsung Galaxy S26 Ultra",
       "generation": "S26 Ultra",
       "releaseYear": 2026,
-      "sourcePageType": "official_spec_price_and_reference_benchmark",
+      "sourcePageType": "official_spec_reference_launch_and_benchmark",
       "officialSpecUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/specs/",
       "supportUrl": null,
       "newsroomUrl": "https://www.samsung.com.cn/news/product/galaxy-s26/",
       "referenceUrls": [
-        "https://www.dxomark.com/samsung-galaxy-s26-ultra-camera-test/"
+        "https://www.dxomark.com/samsung-galaxy-s26-ultra-camera-test/",
+        "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9480ZVDCHC&specAnnotationYN=Y",
+        "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/",
+        "https://m.ithome.com/html/923675.htm"
       ],
       "sourceStatus": "verified",
-      "notes": "规格、国行配置与中国大陆首发指导价取自三星中国官网；相机评分取自 DXOMARK Camera v6。"
+      "notes": "规格与国行配置取自三星中国官网；中国大陆首发指导价按IT之家发布报道中的12GB+256GB配置核验，不含升杯优惠或尝鲜价；相机评分取自 DXOMARK Camera v6。"
     }
   ]
 }

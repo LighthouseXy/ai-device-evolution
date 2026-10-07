@@ -1,0 +1,916 @@
+{
+  "tablet": [
+    {
+      "id": "xiaomi-pad-5-pro-12-4-2022",
+      "modelName": "小米平板 5 Pro 12.4",
+      "generation": "2022",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/35149_1.html",
+        "https://detail.zol.com.cn/series/702/34645/param_35149_0_1.html",
+        "https://detail.zol.com.cn/1383/1382330/param.shtml",
+        "https://detail.zol.com.cn/1383/1382329/param.shtml",
+        "https://detail.zol.com.cn/1428/1427199/param.shtml",
+        "https://detail.zol.com.cn/1397/1396275/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-08-16",
+        "rawText": "上市时间 2022年08月16日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1383/1382330/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:07.925Z",
+        "sourceSnapshotHash": "d1560a0c4acbde6943b906b17fb4bb2fef74229c09b58b12a6970e293f3069ad"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。"
+    },
+    {
+      "id": "xiaomi-pad-6-max-14-2023",
+      "modelName": "小米平板 6 Max 14",
+      "generation": "2023",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10803578_1.html",
+        "https://detail.zol.com.cn/series/702/34645/param_10803578_0_1.html",
+        "https://detail.zol.com.cn/1795/1794380/param.shtml",
+        "https://detail.zol.com.cn/1843/1842773/param.shtml",
+        "https://detail.zol.com.cn/1843/1842772/param.shtml",
+        "https://detail.zol.com.cn/1843/1842771/param.shtml",
+        "https://www.ithome.com/0/712/330.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2023",
+        "rawText": "上市时间 2023年",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1795/1794380/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:08.020Z",
+        "sourceSnapshotHash": "d97609f938b675987b65a67fa7a44ad5109cf3f8900c7aa42e1e90930b7b0501"
+      },
+      "fieldGaps": [],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。"
+    },
+    {
+      "id": "xiaomi-pad-6s-pro-12-4-2024",
+      "modelName": "小米平板 6S Pro 12.4",
+      "generation": "2024",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10853920_1.html",
+        "https://detail.zol.com.cn/series/702/34645/param_10853920_0_1.html",
+        "https://detail.zol.com.cn/1983/1982656/param.shtml",
+        "https://detail.zol.com.cn/2019/2018259/param.shtml",
+        "https://detail.zol.com.cn/1983/1982928/param.shtml",
+        "https://detail.zol.com.cn/1983/1982926/param.shtml",
+        "https://detail.zol.com.cn/1983/1982927/param.shtml",
+        "https://www.ithome.com/0/751/487.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2024-02",
+        "rawText": "上市时间 2024年2月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1983/1982656/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:08.202Z",
+        "sourceSnapshotHash": "842e608ac7bed25fd696987645dd448bb68d00ac0ca5a58636aeb90e2cfa3ab3"
+      },
+      "fieldGaps": [],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 5 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。"
+    },
+    {
+      "id": "xiaomi-pad-7-ultra-2025",
+      "modelName": "小米平板 7 Ultra",
+      "generation": "2025",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10913895_1.html",
+        "https://detail.zol.com.cn/series/702/34645/param_10913895_0_1.html",
+        "https://detail.zol.com.cn/2129/2128637/param.shtml",
+        "https://detail.zol.com.cn/2129/2128636/param.shtml",
+        "https://detail.zol.com.cn/2129/2128638/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2025-05-22",
+        "rawText": "上市时间 2025年05月22日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2129/2128637/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:08.403Z",
+        "sourceSnapshotHash": "1738e1db10588638704c665f053a2c8af3aca7fc63d3ec1c8e5188d4747c9a20"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。"
+    },
+    {
+      "id": "xiaomi-pad-7s-pro-2025",
+      "modelName": "小米平板 7S Pro",
+      "generation": "2025",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10914828_1.html",
+        "https://detail.zol.com.cn/series/702/34645/param_10914828_0_1.html",
+        "https://detail.zol.com.cn/2132/2131054/param.shtml",
+        "https://detail.zol.com.cn/2132/2131591/param.shtml",
+        "https://detail.zol.com.cn/2132/2131590/param.shtml",
+        "https://detail.zol.com.cn/2132/2131592/param.shtml",
+        "https://detail.zol.com.cn/2132/2131593/param.shtml",
+        "https://m.ithome.com/html/863944.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2025-06",
+        "rawText": "上市时间 2025年06月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2132/2131054/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:08.565Z",
+        "sourceSnapshotHash": "d8eb8b9e0a9c30fe574af3648cc0dabfaa8600f536c7e124be53dc0ec65efac2"
+      },
+      "fieldGaps": [],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 5 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。"
+    },
+    {
+      "id": "redmi-pad-2022",
+      "modelName": "REDMI Pad",
+      "generation": "2022",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10717016_1.html",
+        "https://detail.zol.com.cn/series/702/55731/param_10717016_0_1.html",
+        "https://detail.zol.com.cn/1427/1426973/param.shtml",
+        "https://detail.zol.com.cn/1433/1432232/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-10-31",
+        "rawText": "上市时间 2022年10月31日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1427/1426973/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:08.737Z",
+        "sourceSnapshotHash": "ee06e3c6733ddea62652cd3925b0252e785f1c3cd09c61fe3e96b72c5fa36a8d"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。"
+    },
+    {
+      "id": "redmi-pad-se-2023",
+      "modelName": "REDMI Pad SE",
+      "generation": "2023",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10823855_1.html",
+        "https://detail.zol.com.cn/series/702/55731/param_10823855_0_1.html",
+        "https://detail.zol.com.cn/1904/1903035/param.shtml",
+        "https://detail.zol.com.cn/1914/1913352/param.shtml",
+        "https://detail.zol.com.cn/1914/1913353/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023",
+        "rawText": "上市时间 2023年",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1904/1903035/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:08.749Z",
+        "sourceSnapshotHash": "0c1ad36c9c99fddb9ef4ecc636e6ee7146b0b0e5928dba68b9919e5d7d9dd1e8"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。"
+    },
+    {
+      "id": "redmi-pad-pro-2024",
+      "modelName": "REDMI Pad Pro",
+      "generation": "2024",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10858312_1.html",
+        "https://detail.zol.com.cn/series/702/55731/param_10858312_0_1.html",
+        "https://detail.zol.com.cn/1995/1994772/param.shtml",
+        "https://detail.zol.com.cn/1995/1994887/param.shtml",
+        "https://detail.zol.com.cn/1995/1994888/param.shtml",
+        "https://detail.zol.com.cn/2110/2109133/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2024-04-10",
+        "rawText": "上市时间 2024年4月10日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1995/1994772/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:08.819Z",
+        "sourceSnapshotHash": "a54d17ba80a8bbcc0a1d8306bf5c8dbfea1c2d08ea59b7361713061b44fc0e6b"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。"
+    },
+    {
+      "id": "redmi-pad-2-2025",
+      "modelName": "REDMI Pad 2",
+      "generation": "2025",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10803982_1.html",
+        "https://detail.zol.com.cn/series/702/55731/param_10803982_0_1.html",
+        "https://detail.zol.com.cn/1797/1796103/param.shtml",
+        "https://detail.zol.com.cn/2140/2139073/param.shtml",
+        "https://detail.zol.com.cn/2140/2139074/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2025-08",
+        "rawText": "上市时间 2025年8月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1797/1796103/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:09.047Z",
+        "sourceSnapshotHash": "d59f14e14c0f49d57addc24bc78b2829ba653884b01d210d827346ffd14f1c00"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。"
+    },
+    {
+      "id": "redmi-k-pad-2025",
+      "modelName": "REDMI K Pad",
+      "generation": "2025",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10914826_1.html",
+        "https://detail.zol.com.cn/series/702/55731/param_10914826_0_1.html",
+        "https://detail.zol.com.cn/2132/2131052/param.shtml",
+        "https://detail.zol.com.cn/2132/2131599/param.shtml",
+        "https://detail.zol.com.cn/2132/2131601/param.shtml",
+        "https://detail.zol.com.cn/2132/2131598/param.shtml",
+        "https://detail.zol.com.cn/2132/2131600/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2025-06",
+        "rawText": "上市时间 2025年6月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2132/2131052/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:09.070Z",
+        "sourceSnapshotHash": "7d262b8b60f348013c6b848415adf5d48d164c9545f2163a9fe1e0b4497cb960"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 5 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。"
+    },
+    {
+      "id": "redmi-pad-2-pro-2026",
+      "modelName": "REDMI Pad 2 Pro",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10923385_1.html",
+        "https://detail.zol.com.cn/series/702/55731/param_10923385_0_1.html",
+        "https://detail.zol.com.cn/2156/2155788/param.shtml",
+        "https://detail.zol.com.cn/2156/2155789/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2026-01-29",
+        "rawText": "上市时间 2026年01月29日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2156/2155788/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:10.940Z",
+        "sourceSnapshotHash": "36971c299a6fac12f383fecad501c3319e1e2d733b551bd9d619c0283f58a2a8"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。"
+    }
+  ],
+  "laptop": [
+    {
+      "id": "xiaomi-book-pro-14-2022",
+      "modelName": "小米 Book Pro 14 (2022)",
+      "generation": "2022",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/10712873_1.html",
+        "https://detail.zol.com.cn/series/16/34645/param_10712873_0_1.html",
+        "https://detail.zol.com.cn/1419/1418088/param.shtml",
+        "https://detail.zol.com.cn/1419/1418090/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-07",
+        "rawText": "上市时间 2022年07月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1419/1418088/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:09.335Z",
+        "sourceSnapshotHash": "90798c46e1abf294d5dc8cc9f3a4988983f65b8f2846ab2a939b122822b1533d"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 1 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。"
+    },
+    {
+      "id": "xiaomi-book-pro-16-2022",
+      "modelName": "小米 Book Pro 16 (2022)",
+      "generation": "2022",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/10712401_1.html",
+        "https://detail.zol.com.cn/series/16/34645/param_10712401_0_1.html",
+        "https://detail.zol.com.cn/1418/1417188/param.shtml",
+        "https://detail.zol.com.cn/1419/1418087/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-07",
+        "rawText": "上市时间 2022年07月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1418/1417188/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:09.552Z",
+        "sourceSnapshotHash": "117842d2cb18561c48f67e866ce0c50b079f92c2abf439f9b2ade55bbc14238b"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 1 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。"
+    },
+    {
+      "id": "xiaomi-book-air-13-2022",
+      "modelName": "小米 Book Air 13",
+      "generation": "2022",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/10719616_1.html",
+        "https://detail.zol.com.cn/series/16/34645/param_10719616_0_1.html",
+        "https://detail.zol.com.cn/1433/1432120/param.shtml",
+        "https://detail.zol.com.cn/1433/1432121/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-10-31",
+        "rawText": "上市时间 2022年10月31日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1433/1432120/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:09.626Z",
+        "sourceSnapshotHash": "0d42c80405f4fe236f6eaffe3fb72dbb7509c2139af09989954d3e03cbc1b0a0"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。"
+    },
+    {
+      "id": "redmi-book-pro-15-2022",
+      "modelName": "REDMI Book Pro 15 (2022)",
+      "generation": "2022",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/37876_1.html",
+        "https://detail.zol.com.cn/series/16/55731/param_37876_0_1.html",
+        "https://detail.zol.com.cn/1402/1401337/param.shtml",
+        "https://detail.zol.com.cn/1402/1401729/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-03",
+        "rawText": "上市时间 2022年03月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1402/1401337/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:10.064Z",
+        "sourceSnapshotHash": "8e78fb5e8ef9de759446fc454e9809ff2e18017c3dc58c372d476fb67b8edcbd"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        },
+        {
+          "field": "displayType",
+          "reason": "对应具体配置参数页未提供可核验的字段原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。"
+    },
+    {
+      "id": "redmi-book-pro-14-2022",
+      "modelName": "REDMI Book Pro 14 锐龙版 (2022)",
+      "generation": "2022",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/10709756_1.html",
+        "https://detail.zol.com.cn/series/16/55731/param_10709756_0_1.html",
+        "https://detail.zol.com.cn/1411/1410621/param.shtml",
+        "https://detail.zol.com.cn/1411/1410622/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-05",
+        "rawText": "上市时间 2022年05月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1411/1410621/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:09.918Z",
+        "sourceSnapshotHash": "623f4b87ac0e339c46b1e72f16082b4ec6e98c5c185dd7cd8c5216afcbcecbec"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。"
+    },
+    {
+      "id": "redmi-book-pro-15-2023",
+      "modelName": "REDMI Book Pro 15 锐龙版 (2023)",
+      "generation": "2023",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/10810523_1.html",
+        "https://detail.zol.com.cn/series/16/55731/param_10810523_0_1.html",
+        "https://detail.zol.com.cn/1831/1830793/param.shtml",
+        "https://detail.zol.com.cn/1831/1830794/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-07-21",
+        "rawText": "上市时间 2023年07月21日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1831/1830793/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:09.995Z",
+        "sourceSnapshotHash": "5505db25ba7cd52997f3ec92cdbe0f41d339a0c04034cbc14f1e691a7daed627"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。"
+    },
+    {
+      "id": "redmi-book-pro-14-2024",
+      "modelName": "REDMI Book Pro 14 (2024)",
+      "generation": "2024",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/10853918_1.html",
+        "https://detail.zol.com.cn/series/16/55731/param_10853918_0_1.html",
+        "https://detail.zol.com.cn/1983/1982652/param.shtml",
+        "https://detail.zol.com.cn/1983/1982654/param.shtml",
+        "https://detail.zol.com.cn/1983/1982653/param.shtml",
+        "https://www.ithome.com/0/751/490.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2024-02-22",
+        "rawText": "上市时间 2024年2月22日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1983/1982652/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:09.985Z",
+        "sourceSnapshotHash": "8671a9273bfd3cefdca3a36242cba0544f79dcee36a405c410221586e0af31ed"
+      },
+      "fieldGaps": [
+        {
+          "field": "displayType",
+          "reason": "对应具体配置参数页未提供可核验的字段原文"
+        },
+        {
+          "field": "gpu",
+          "reason": "ZOL 显卡行写为 Iris Xe / Xe Graphics eligible，与 Intel 125H/155H 官方规格存在冲突；发布报道未明确本机型逐配置 GPU，暂不展示显卡型号或核心数。"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。ZOL 显卡行写为 Iris Xe / Xe Graphics eligible，与 Intel 125H/155H 官方规格存在冲突；发布报道未明确本机型逐配置 GPU，暂不展示显卡型号或核心数。"
+    },
+    {
+      "id": "redmi-book-pro-16-2024",
+      "modelName": "REDMI Book Pro 16 (2024)",
+      "generation": "2024",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/10853988_1.html",
+        "https://detail.zol.com.cn/series/16/55731/param_10853988_0_1.html",
+        "https://detail.zol.com.cn/1983/1982933/param.shtml",
+        "https://detail.zol.com.cn/1983/1982934/param.shtml",
+        "https://www.ithome.com/0/751/490.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2024-02-22",
+        "rawText": "2024/2/22 21:19:13",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/751/490.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-02",
+        "fetchedAt": "2026-10-02T16:14:29.451Z",
+        "sourceSnapshotHash": "b33a92d8b32de6001d65c9ee838fbfe58725ab04d4eaabe8fdc68e4867aea249"
+      },
+      "fieldGaps": [
+        {
+          "field": "displayType",
+          "reason": "对应具体配置参数页未提供可核验的字段原文"
+        },
+        {
+          "field": "gpu",
+          "reason": "ZOL 显卡行写为 Iris Xe / Xe Graphics eligible，与 Intel 125H/155H 官方规格存在冲突；发布报道未明确本机型逐配置 GPU，暂不展示显卡型号或核心数。"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。ZOL 显卡行写为 Iris Xe / Xe Graphics eligible，与 Intel 125H/155H 官方规格存在冲突；发布报道未明确本机型逐配置 GPU，暂不展示显卡型号或核心数。"
+    },
+    {
+      "id": "redmi-book-16-2024",
+      "modelName": "REDMI Book 16 (2024)",
+      "generation": "2023",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/10845183_1.html",
+        "https://detail.zol.com.cn/series/16/55731/param_10845183_0_1.html",
+        "https://detail.zol.com.cn/1961/1960067/param.shtml",
+        "https://detail.zol.com.cn/1961/1960068/param.shtml",
+        "https://www.ithome.com/0/735/954.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2023-12-01",
+        "rawText": "上市时间 2023年12月1日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1961/1960067/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:10.120Z",
+        "sourceSnapshotHash": "3878b8760a79e2d132611f6926c23d4e6a83c446cd0e99e21ccaefe819d9e2e7"
+      },
+      "fieldGaps": [],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。"
+    },
+    {
+      "id": "redmi-book-16-2025",
+      "modelName": "REDMI Book 16 (2025)",
+      "generation": "2025",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/10909137_1.html",
+        "https://detail.zol.com.cn/series/16/55731/param_10909137_0_1.html",
+        "https://detail.zol.com.cn/2118/2117751/param.shtml",
+        "https://detail.zol.com.cn/2118/2117753/param.shtml",
+        "https://detail.zol.com.cn/2118/2117752/param.shtml",
+        "https://www.ithome.com/0/821/829.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2025-01",
+        "rawText": "上市时间 2025年01月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2118/2117751/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:10.152Z",
+        "sourceSnapshotHash": "2f69790f0f90684d9b779f566d265f800d51f7bb331b8d359165531e85c3f937"
+      },
+      "fieldGaps": [
+        {
+          "field": "displayType",
+          "reason": "对应具体配置参数页未提供可核验的字段原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。"
+    },
+    {
+      "id": "redmi-book-pro-14-2025",
+      "modelName": "REDMI Book Pro 14 (2025)",
+      "generation": "2025",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/10910845_1.html",
+        "https://detail.zol.com.cn/series/16/55731/param_10910845_0_1.html",
+        "https://detail.zol.com.cn/2123/2122107/param.shtml",
+        "https://detail.zol.com.cn/2123/2122108/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2025-02",
+        "rawText": "上市时间 2025年02月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2123/2122107/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:10.242Z",
+        "sourceSnapshotHash": "565a614cb51013f95203172feb4d450b7591acdf7f0ec684216df15a8086879a"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        },
+        {
+          "field": "displayType",
+          "reason": "对应具体配置参数页未提供可核验的字段原文"
+        }
+      ],
+      "excludedConfigurations": [
+        {
+          "name": "Redmi Book Pro 14 2025(Ultra7-255H/32GB/1TB)",
+          "sourceUrl": "https://detail.zol.com.cn/2123/2122109/param.shtml",
+          "reason": "型号标题与参数行中的内存或存储冲突"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。"
+    },
+    {
+      "id": "redmi-book-pro-16-2025",
+      "modelName": "REDMI Book Pro 16 (2025，3.1K屏)",
+      "generation": "2025",
+      "releaseYear": 2025,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/10910846_1.html",
+        "https://detail.zol.com.cn/series/16/55731/param_10910846_0_1.html",
+        "https://detail.zol.com.cn/2123/2122110/param.shtml",
+        "https://detail.zol.com.cn/2123/2122111/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2025-02",
+        "rawText": "上市时间 2025年02月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2123/2122110/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:10.600Z",
+        "sourceSnapshotHash": "aa9c843fffcbda5728eb33cb880c58dc7dc82636d73ee91160bf0b7d87271cd7"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        },
+        {
+          "field": "displayType",
+          "reason": "对应具体配置参数页未提供可核验的字段原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。"
+    },
+    {
+      "id": "redmi-book-14-2023",
+      "modelName": "REDMI Book 14 (2023)",
+      "generation": "2023",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/10771101_1.html",
+        "https://detail.zol.com.cn/series/16/55731/param_10771101_0_1.html",
+        "https://detail.zol.com.cn/1611/1610835/param.shtml",
+        "https://detail.zol.com.cn/1628/1627141/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-05-23",
+        "rawText": "上市时间 2023年05月23日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1611/1610835/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:10.734Z",
+        "sourceSnapshotHash": "92513900e009d01d645a807b42c3512e0eb08753f7cf2f0d09603e62beca0b7e"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。"
+    },
+    {
+      "id": "xiaomi-book-pro-14-2026",
+      "modelName": "小米 Book Pro 14 (2026)",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/10924937_1.html",
+        "https://detail.zol.com.cn/series/16/34645/param_10924937_0_1.html",
+        "https://detail.zol.com.cn/2162/2161147/param.shtml",
+        "https://detail.zol.com.cn/2162/2161146/param.shtml",
+        "https://detail.zol.com.cn/2161/2160947/param.shtml",
+        "https://www.ithome.com/0/931/172.htm"
+      ],
+      "releaseEvidence": {
+        "value": "2026-03",
+        "rawText": "上市时间 2026年3月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2162/2161147/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:10.685Z",
+        "sourceSnapshotHash": "4e2ef1ba1457999365851f364bd61e4e393eb38c5a86db49a58c2f17d36c1e66"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。"
+    },
+    {
+      "id": "redmi-book-pro-14-2026",
+      "modelName": "REDMI Book Pro 14 (2026)",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/10925967_1.html",
+        "https://detail.zol.com.cn/series/16/55731/param_10925967_0_1.html",
+        "https://detail.zol.com.cn/2165/2164087/param.shtml",
+        "https://detail.zol.com.cn/2165/2164089/param.shtml",
+        "https://detail.zol.com.cn/2165/2164088/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2026-04",
+        "rawText": "上市时间 2026年04月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2165/2164087/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:10.715Z",
+        "sourceSnapshotHash": "8178698bd23d2bfac05894503b4020b8faee3c871f7db236b99a2cde0ae58313"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        },
+        {
+          "field": "displayType",
+          "reason": "对应具体配置参数页未提供可核验的字段原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。"
+    },
+    {
+      "id": "redmi-book-pro-16-2026",
+      "modelName": "REDMI Book Pro 16 (2026)",
+      "generation": "2026",
+      "releaseYear": 2026,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/16/10925966_1.html",
+        "https://detail.zol.com.cn/series/16/55731/param_10925966_0_1.html",
+        "https://detail.zol.com.cn/2165/2164084/param.shtml",
+        "https://detail.zol.com.cn/2165/2164085/param.shtml",
+        "https://detail.zol.com.cn/2165/2164086/param.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2026-04",
+        "rawText": "上市时间 2026年04月",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2165/2164084/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-03",
+        "fetchedAt": "2026-10-03T00:54:10.806Z",
+        "sourceSnapshotHash": "bbb252a9341df161ec1fda17de5bd10366a2f6bdd0c2ae12b6695b544830a4a9"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        },
+        {
+          "field": "displayType",
+          "reason": "对应具体配置参数页未提供可核验的字段原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。不同屏幕和显卡版本分别筛选，CPU 与内存、存储逐 SKU 绑定。"
+    }
+  ]
+}

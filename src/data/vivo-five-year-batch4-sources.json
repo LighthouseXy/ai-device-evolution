@@ -1,0 +1,1063 @@
+{
+  "phone": [
+    {
+      "id": "vivo-y77-2022",
+      "modelName": "vivo Y77",
+      "generation": "Y77",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/57/10713285_1.html",
+        "https://detail.zol.com.cn/series/57/1795/param_10713285_0_1.html",
+        "https://detail.zol.com.cn/1419/1418991/param.shtml",
+        "https://detail.zol.com.cn/1420/1419243/param.shtml",
+        "https://detail.zol.com.cn/1420/1419241/param.shtml",
+        "https://detail.zol.com.cn/1420/1419242/param.shtml",
+        "https://www.vivo.com.cn/vivo/param/y77",
+        "https://detail.zol.com.cn/picture_index_2220/index22197669_0_p1418991.shtml",
+        "https://detail.zol.com.cn/picture_index_2220/index22197673_0_p1419243.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-07-11",
+        "rawText": "上市日期 2022年07月11日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1419/1418991/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:53.210Z",
+        "sourceSnapshotHash": "1312da1128971cb893942b8690a71da8a467c3339a341a19db91f4c481e2df1a"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "国内发布时间 2022年07月07日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1419/1418991/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:53.210Z",
+        "sourceSnapshotHash": "1312da1128971cb893942b8690a71da8a467c3339a341a19db91f4c481e2df1a"
+      },
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/y77",
+      "officialSpecEvidence": {
+        "value": "vivo Y77",
+        "rawText": "vivo Y77 - vivo智能手机官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/y77",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:53.777Z",
+        "sourceSnapshotHash": "39a5922d3d7403a151ec087d5e47cfe07ed90163e5d493cbe29355f19c3a165d"
+      },
+      "versionVerification": {
+        "variant": "standard",
+        "checkedSkuTitles": [
+          {
+            "title": "vivo Y77（12GB/256GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/1419/1418991/param.shtml",
+            "sourceSnapshotHash": "1312da1128971cb893942b8690a71da8a467c3339a341a19db91f4c481e2df1a"
+          },
+          {
+            "title": "vivo Y77（8GB/256GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/1420/1419243/param.shtml",
+            "sourceSnapshotHash": "c6a0296849216e0d2770d7e97733dd0989e8d2ff06696cb8a8131d4952eedb66"
+          },
+          {
+            "title": "vivo Y77（6GB/128GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/1420/1419241/param.shtml",
+            "sourceSnapshotHash": "ce214918a67299ce957e3f369d48b59cc425986eae769773e86cb81ae269d7e4"
+          },
+          {
+            "title": "vivo Y77（8GB/128GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/1420/1419242/param.shtml",
+            "sourceSnapshotHash": "07135911a7d857aa3a1d43c27cdb630ec9ff3ab8a390f7aa5c8a55a45f7f46e0"
+          }
+        ],
+        "excludedTitleTerms": [
+          "柔光",
+          "悦享",
+          "限定",
+          "限量",
+          "蜂窝",
+          "LTE",
+          "5G版",
+          "全网通版",
+          "艺术"
+        ],
+        "note": "独立SKU标题逐条核验，柔光/艺术/超轻/蜂窝等特殊版不并入标准；未明确网络类型的条目不推断WiFi-only。"
+      },
+      "productImages": {
+        "modelName": "vivo Y77",
+        "seriesId": "10713285",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2220/index22197669_0_p1418991.shtml",
+        "sourceSnapshotHash": "7940172d21fcada9d5d3df11e6153309b94658499ba0573d9d97ba373f7dd6a3",
+        "fetchedAt": "2026-10-05T19:27:53.885Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2e.zol-img.com.cn/product/221_320x240/658/cexkTndUymhqE.jpg",
+          "alt": "vivo Y77",
+          "modelName": "vivo Y77",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/10713285_1.html",
+          "sourceSnapshotHash": "7d38377cda209da1ae95fd65a5575fd21488b1639205bb819edbadfccac8c1b5",
+          "fetchedAt": "2026-10-05T19:27:53.885Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "夏日听海",
+            "url": "https://2e.zol-img.com.cn/product/221/658/cexkTndUymhqE.jpg",
+            "modelName": "vivo Y77",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2220/index22197669_0_p1418991.shtml",
+            "sourceSnapshotHash": "7940172d21fcada9d5d3df11e6153309b94658499ba0573d9d97ba373f7dd6a3",
+            "fetchedAt": "2026-10-05T19:27:53.885Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "晶钻粉",
+            "url": "https://2d.zol-img.com.cn/product/221/669/ceW3ePqwXncew.jpg",
+            "modelName": "vivo Y77",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2220/index22197669_0_p1418991.shtml",
+            "sourceSnapshotHash": "7940172d21fcada9d5d3df11e6153309b94658499ba0573d9d97ba373f7dd6a3",
+            "fetchedAt": "2026-10-05T19:27:53.885Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "晶岩黑",
+            "url": "https://2e.zol-img.com.cn/product/221/698/ceZqVoL7tNO6U.jpg",
+            "modelName": "vivo Y77",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2220/index22197669_0_p1418991.shtml",
+            "sourceSnapshotHash": "7940172d21fcada9d5d3df11e6153309b94658499ba0573d9d97ba373f7dd6a3",
+            "fetchedAt": "2026-10-05T19:27:53.885Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2220/index22197669_0_p1418991.shtml",
+          "https://detail.zol.com.cn/picture_index_2220/index22197673_0_p1419243.shtml"
+        ],
+        "gaps": []
+      }
+    }
+  ],
+  "tablet": [
+    {
+      "id": "vivo-pad-2022",
+      "modelName": "vivo Pad",
+      "generation": "Pad",
+      "releaseYear": 2022,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/38004_1.html",
+        "https://detail.zol.com.cn/series/702/1795/param_38004_0_1.html",
+        "https://detail.zol.com.cn/1401/1400500/param.shtml",
+        "https://detail.zol.com.cn/1404/1403277/param.shtml",
+        "https://detail.zol.com.cn/1435/1434234/param.shtml",
+        "https://detail.zol.com.cn/1404/1403281/param.shtml",
+        "https://detail.zol.com.cn/1434/1433979/param.shtml",
+        "https://detail.zol.com.cn/1404/1403280/param.shtml",
+        "https://detail.zol.com.cn/1404/1403279/param.shtml",
+        "https://detail.zol.com.cn/1404/1403278/param.shtml",
+        "https://www.ithome.com/0/613/096.htm",
+        "https://www.vivo.com.cn/vivo/param/vivopad",
+        "https://detail.zol.com.cn/picture_index_2188/index21877875_0_p1400500.shtml",
+        "https://detail.zol.com.cn/picture_index_2188/index21877876_0_p1400500.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2022-04-15",
+        "rawText": "今天上午 10 点，vivo Pad 正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/613/096.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:26.179Z",
+        "sourceSnapshotHash": "276df35ad2e09febfa20b06200d59f0ba65be56321e0f1104f3ec2d17f7652f8"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 2 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "officialSpecGap": {
+        "attemptedUrl": "https://www.vivo.com.cn/vivo/param/vivopad",
+        "reason": "官网不是该型号可用规格页"
+      },
+      "officialProductUrl": "https://www.vivo.com.cn/vivo/param/vivopad",
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "vivo Pad 平板电脑 - vivo智能手机官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:26.363Z",
+        "sourceSnapshotHash": "4b4ab8f95e4f8de8c99cad209af7e2115b8eea4b054b80360b6186a3539bc169",
+        "note": "制造商中国区域产品/官方商城身份，结合实际首售报道和逐SKU参数核实国行；此页不具完整规格，不登记officialSpecUrl。"
+      },
+      "versionVerification": {
+        "variant": "standard",
+        "checkedSkuTitles": [
+          {
+            "title": "vivo Pad(8GB/128GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/1401/1400500/param.shtml",
+            "sourceSnapshotHash": "3fb0e86940e592d8d40a88b1ef91cce4f2116875dd1efb0a1e196274a76dc030"
+          },
+          {
+            "title": "vivo Pad(8GB/256GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/1404/1403277/param.shtml",
+            "sourceSnapshotHash": "f926307bec6bf8d390724cce710061b9cb801f28f1ea205dfeddcef2dfa5009b"
+          }
+        ],
+        "excludedTitleTerms": [
+          "柔光",
+          "悦享",
+          "限定",
+          "限量",
+          "蜂窝",
+          "LTE",
+          "5G版",
+          "全网通版",
+          "艺术"
+        ],
+        "note": "独立SKU标题逐条核验，柔光/艺术/超轻/蜂窝等特殊版不并入标准；未明确网络类型的条目不推断WiFi-only。",
+        "excludedVersionSkus": []
+      },
+      "productImages": {
+        "modelName": "vivo Pad",
+        "seriesId": "38004",
+        "sourceUrl": "https://detail.zol.com.cn/series/702/38004_1.html",
+        "sourceSnapshotHash": "60b9aa07434c8ee5c969cd2f1698d87befb54a707a08b45637e173874975f56f",
+        "fetchedAt": "2026-10-05T19:27:24.841Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2a.zol-img.com.cn/product/221_320x240/388/ceVmFGvDXCrU.jpg",
+          "alt": "vivo Pad",
+          "modelName": "vivo Pad",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/38004_1.html",
+          "sourceSnapshotHash": "60b9aa07434c8ee5c969cd2f1698d87befb54a707a08b45637e173874975f56f",
+          "fetchedAt": "2026-10-05T19:27:24.841Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "天蓝色"
+          },
+          {
+            "name": "深空灰"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2188/index21877875_0_p1400500.shtml",
+          "https://detail.zol.com.cn/picture_index_2188/index21877876_0_p1400500.shtml"
+        ],
+        "gaps": [
+          "天蓝色配色图未核实",
+          "深空灰配色图未核实"
+        ]
+      }
+    },
+    {
+      "id": "vivo-pad-air-2023",
+      "modelName": "vivo Pad Air",
+      "generation": "Pad Air",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10812028_1.html",
+        "https://detail.zol.com.cn/series/702/1795/param_10812028_0_1.html",
+        "https://detail.zol.com.cn/1842/1841992/param.shtml",
+        "https://detail.zol.com.cn/1842/1841995/param.shtml",
+        "https://detail.zol.com.cn/1842/1841994/param.shtml",
+        "https://detail.zol.com.cn/1842/1841993/param.shtml",
+        "https://m.ithome.com/html/712174.htm",
+        "https://www.vivo.com.cn/vivo/param/vivopadair",
+        "https://detail.zol.com.cn/picture_index_2497/index24965451_0_p1841992.shtml",
+        "https://detail.zol.com.cn/picture_index_2497/index24965436_0_p1841992.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-08-14",
+        "rawText": "8 月 14 日线上限时先享开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://m.ithome.com/html/712174.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:27.591Z",
+        "sourceSnapshotHash": "1d9a193f3bc13238f1910ebbc8d085f294e4f9fc2857b168858648b2bd1cfb9c"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/vivopadair",
+      "officialSpecEvidence": {
+        "value": "vivo Pad Air",
+        "rawText": "vivo Pad Air 平板电脑 - vivo智能手机官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopadair",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:27.837Z",
+        "sourceSnapshotHash": "5c8e9019b9028eb0e7f2c7f87f6e32e2f0f88f4ad4f39375fc04f0e3d73f730c"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "vivo Pad Air 平板电脑 - vivo智能手机官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopadair",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:27.837Z",
+        "sourceSnapshotHash": "5c8e9019b9028eb0e7f2c7f87f6e32e2f0f88f4ad4f39375fc04f0e3d73f730c",
+        "note": "制造商中国区域官方网站的型号规格页，并有独立SKU和实际已售日期；不是仅凭网页为中文认定国行。"
+      },
+      "versionVerification": {
+        "variant": "standard",
+        "checkedSkuTitles": [
+          {
+            "title": "vivo Pad Air（8GB/128GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/1842/1841992/param.shtml",
+            "sourceSnapshotHash": "24dfa84144c70e6110d64224b05f2351490b8f9e3c95666dc81163ad9e309ea0"
+          },
+          {
+            "title": "vivo Pad Air（12GB/512GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/1842/1841995/param.shtml",
+            "sourceSnapshotHash": "cfbd33a27b4d6813088c86c76323d02705e71384ef5c53f8df04e71ebf456df6"
+          },
+          {
+            "title": "vivo Pad Air（12GB/256GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/1842/1841994/param.shtml",
+            "sourceSnapshotHash": "6e9d1444cbed48c7e8fd73f646a2d3396d4cd88a33a03538597fd016f52ab7b2"
+          },
+          {
+            "title": "vivo Pad Air（8GB/256GB）参数",
+            "sourceUrl": "https://detail.zol.com.cn/1842/1841993/param.shtml",
+            "sourceSnapshotHash": "8bb82a67c7e46a0a48f1f928366a66934acaa3abfca98dab6af519b3297d08e6"
+          }
+        ],
+        "excludedTitleTerms": [
+          "柔光",
+          "悦享",
+          "限定",
+          "限量",
+          "蜂窝",
+          "LTE",
+          "5G版",
+          "全网通版",
+          "艺术"
+        ],
+        "note": "独立SKU标题逐条核验，柔光/艺术/超轻/蜂窝等特殊版不并入标准；未明确网络类型的条目不推断WiFi-only。",
+        "excludedVersionSkus": []
+      },
+      "productImages": {
+        "modelName": "vivo Pad Air",
+        "seriesId": "10812028",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2497/index24965451_0_p1841992.shtml",
+        "sourceSnapshotHash": "2d1114b9e0b9e9b9100c3b29b7f9334d3c24996622a25fa23959ddf54b0f667f",
+        "fetchedAt": "2026-10-05T19:27:27.962Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2b.zol-img.com.cn/product/249_320x240/419/ce7zEFMT4pcc.jpg",
+          "alt": "vivo Pad Air",
+          "modelName": "vivo Pad Air",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/10812028_1.html",
+          "sourceSnapshotHash": "433016f5e7a5a29a72a14d4911a649a8de65a01c032b039500781951f5c25434",
+          "fetchedAt": "2026-10-05T19:27:27.962Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "自在蓝",
+            "url": "https://2b.zol-img.com.cn/product/249/419/ce7zEFMT4pcc.jpg",
+            "modelName": "vivo Pad Air",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2497/index24965451_0_p1841992.shtml",
+            "sourceSnapshotHash": "2d1114b9e0b9e9b9100c3b29b7f9334d3c24996622a25fa23959ddf54b0f667f",
+            "fetchedAt": "2026-10-05T19:27:27.962Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "轻松银",
+            "url": "https://2a.zol-img.com.cn/product/249/460/ceAxoxpqAUiM.jpg",
+            "modelName": "vivo Pad Air",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2497/index24965451_0_p1841992.shtml",
+            "sourceSnapshotHash": "2d1114b9e0b9e9b9100c3b29b7f9334d3c24996622a25fa23959ddf54b0f667f",
+            "fetchedAt": "2026-10-05T19:27:27.962Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "勇敢粉",
+            "url": "https://2c.zol-img.com.cn/product/249/432/cewwA4GKeU2Q.jpg",
+            "modelName": "vivo Pad Air",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2497/index24965451_0_p1841992.shtml",
+            "sourceSnapshotHash": "2d1114b9e0b9e9b9100c3b29b7f9334d3c24996622a25fa23959ddf54b0f667f",
+            "fetchedAt": "2026-10-05T19:27:27.962Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2497/index24965451_0_p1841992.shtml",
+          "https://detail.zol.com.cn/picture_index_2497/index24965436_0_p1841992.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "vivo-pad3-pro-2024",
+      "modelName": "vivo Pad3 Pro",
+      "generation": "Pad3 Pro",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10854182_1.html",
+        "https://detail.zol.com.cn/series/702/1795/param_10854182_0_1.html",
+        "https://detail.zol.com.cn/1984/1983715/param.shtml",
+        "https://detail.zol.com.cn/1994/1993037/param.shtml",
+        "https://detail.zol.com.cn/1994/1993036/param.shtml",
+        "https://detail.zol.com.cn/1994/1993035/param.shtml",
+        "https://www.ithome.com/0/759/806.htm",
+        "https://www.vivo.com.cn/vivo/param/vivopad3pro",
+        "https://detail.zol.com.cn/picture_index_2633/index26325730_0_p1983715.shtml",
+        "https://detail.zol.com.cn/picture_index_2633/index26325729_0_p1983715.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2024-04-03",
+        "rawText": "vivo Pad3 Pro 平板电脑今日正式开售",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.ithome.com/0/759/806.htm",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:39:19.526Z",
+        "sourceSnapshotHash": "c89a77e751ef9819582c824edd90f697e08c8936b2cf1b99fdbffa9311232e48"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/vivopad3pro",
+      "officialSpecEvidence": {
+        "value": "vivo Pad3 Pro",
+        "rawText": "vivo Pad3 Pro 平板电脑 - vivo智能手机官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad3pro",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:29.565Z",
+        "sourceSnapshotHash": "db6155658dcd163c3683e713a105fc359c3c8d1fa04cb286ea2a42aeb8f8f7c1"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "vivo Pad3 Pro 平板电脑 - vivo智能手机官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/vivopad3pro",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:29.565Z",
+        "sourceSnapshotHash": "db6155658dcd163c3683e713a105fc359c3c8d1fa04cb286ea2a42aeb8f8f7c1",
+        "note": "制造商中国区域官方网站的型号规格页，并有独立SKU和实际已售日期；不是仅凭网页为中文认定国行。"
+      },
+      "versionVerification": {
+        "variant": "standard",
+        "checkedSkuTitles": [
+          {
+            "title": "vivo Pad3 Pro(8GB+128GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/1984/1983715/param.shtml",
+            "sourceSnapshotHash": "878da060902b43e8afcc3f35067fb0382b234f40a4e1e777277d578e8a241bfd"
+          },
+          {
+            "title": "vivo Pad3 Pro(16GB+512GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/1994/1993037/param.shtml",
+            "sourceSnapshotHash": "44350905ef69ad64f69028d4d83b0c4c58159971c7cd0ec96d590ee29ed8c606"
+          },
+          {
+            "title": "vivo Pad3 Pro(12GB+256GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/1994/1993036/param.shtml",
+            "sourceSnapshotHash": "d1bb9c8f98302adbfd794602d90ed69a40aa9c124f29bf034d25eedeb3a91628"
+          },
+          {
+            "title": "vivo Pad3 Pro(8GB+256GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/1994/1993035/param.shtml",
+            "sourceSnapshotHash": "6b146d3c124653925e15d7e94a534dc05d81acd761c5c6508e8e69cdf736fb3c"
+          }
+        ],
+        "excludedTitleTerms": [
+          "柔光",
+          "悦享",
+          "限定",
+          "限量",
+          "蜂窝",
+          "LTE",
+          "5G版",
+          "全网通版",
+          "艺术"
+        ],
+        "note": "独立SKU标题逐条核验，柔光/艺术/超轻/蜂窝等特殊版不并入标准；未明确网络类型的条目不推断WiFi-only。",
+        "excludedVersionSkus": []
+      },
+      "productImages": {
+        "modelName": "vivo Pad3 Pro",
+        "seriesId": "10854182",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2633/index26325730_0_p1983715.shtml",
+        "sourceSnapshotHash": "b4c41dca0b308e7082ea65e5217fba6045236b87dd5b426df4204afc6f9a51d9",
+        "fetchedAt": "2026-10-05T19:27:29.811Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2e.zol-img.com.cn/product/263_320x240/718/cedqjvySPddbs.png",
+          "alt": "vivo Pad3 Pro",
+          "modelName": "vivo Pad3 Pro",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/10854182_1.html",
+          "sourceSnapshotHash": "8ebda5a4e6d666f827e7edb40415ebbedd2b85fcde1d9b4d3a468b269bc091a1",
+          "fetchedAt": "2026-10-05T19:27:29.811Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "春潮蓝",
+            "url": "https://2e.zol-img.com.cn/product/263/718/cedqjvySPddbs.png",
+            "modelName": "vivo Pad3 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2633/index26325730_0_p1983715.shtml",
+            "sourceSnapshotHash": "b4c41dca0b308e7082ea65e5217fba6045236b87dd5b426df4204afc6f9a51d9",
+            "fetchedAt": "2026-10-05T19:27:29.811Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "寒星灰",
+            "url": "https://2b.zol-img.com.cn/product/263/721/ceXEegnkMpPE.png",
+            "modelName": "vivo Pad3 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2633/index26325730_0_p1983715.shtml",
+            "sourceSnapshotHash": "b4c41dca0b308e7082ea65e5217fba6045236b87dd5b426df4204afc6f9a51d9",
+            "fetchedAt": "2026-10-05T19:27:29.811Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "薄霞紫",
+            "url": "https://2c.zol-img.com.cn/product/263/728/ceA8uybSX0luw.png",
+            "modelName": "vivo Pad3 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2633/index26325730_0_p1983715.shtml",
+            "sourceSnapshotHash": "b4c41dca0b308e7082ea65e5217fba6045236b87dd5b426df4204afc6f9a51d9",
+            "fetchedAt": "2026-10-05T19:27:29.811Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2633/index26325730_0_p1983715.shtml",
+          "https://detail.zol.com.cn/picture_index_2633/index26325729_0_p1983715.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "iqoo-pad-2023",
+      "modelName": "iQOO Pad",
+      "generation": "iQOO Pad",
+      "releaseYear": 2023,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10771004_1.html",
+        "https://detail.zol.com.cn/series/702/55075/param_10771004_0_1.html",
+        "https://detail.zol.com.cn/1611/1610676/param.shtml",
+        "https://detail.zol.com.cn/1628/1627570/param.shtml",
+        "https://detail.zol.com.cn/1628/1627571/param.shtml",
+        "https://detail.zol.com.cn/1628/1627569/param.shtml",
+        "https://www.vivo.com.cn/vivo/param/iqoopad",
+        "https://detail.zol.com.cn/picture_index_2474/index24738082_0_p1610676.shtml",
+        "https://detail.zol.com.cn/picture_index_2474/index24738048_0_p1610676.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2023-05-31",
+        "rawText": "上市时间 2023年05月31日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/1611/1610676/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:33.303Z",
+        "sourceSnapshotHash": "c904afa4257fbb5e4e6eed547990857f6a9e6fa26c91cb1fcdf2ac7b5d22e311"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/iqoopad",
+      "officialSpecEvidence": {
+        "value": "iQOO Pad",
+        "rawText": "iQOO Pad - vivo智能手机官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:33.909Z",
+        "sourceSnapshotHash": "c9c68394295b0eab4a561a8dd0121e62cfb639c0db836029800e3d7d35e6d5b8"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "iQOO Pad - vivo智能手机官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:33.909Z",
+        "sourceSnapshotHash": "c9c68394295b0eab4a561a8dd0121e62cfb639c0db836029800e3d7d35e6d5b8",
+        "note": "制造商中国区域官方网站的型号规格页，并有独立SKU和实际已售日期；不是仅凭网页为中文认定国行。"
+      },
+      "versionVerification": {
+        "variant": "standard",
+        "checkedSkuTitles": [
+          {
+            "title": "iQOO Pad(8GB/128GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/1611/1610676/param.shtml",
+            "sourceSnapshotHash": "c904afa4257fbb5e4e6eed547990857f6a9e6fa26c91cb1fcdf2ac7b5d22e311"
+          },
+          {
+            "title": "iQOO Pad(12GB/256GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/1628/1627570/param.shtml",
+            "sourceSnapshotHash": "1e032f01d83124be7b86ab6bb160402866be9ead2200823b5ced47c6ca5c7ae3"
+          },
+          {
+            "title": "iQOO Pad(12GB/512GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/1628/1627571/param.shtml",
+            "sourceSnapshotHash": "b9703ca375d321208ce2b35b8cb15d9f791d498f3b835747f5aecb66ca750ff4"
+          },
+          {
+            "title": "iQOO Pad(8GB/256GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/1628/1627569/param.shtml",
+            "sourceSnapshotHash": "69911a904c4208e0292e81e1715138889a8b029027263e8ce1b158c60d4e0a5e"
+          }
+        ],
+        "excludedTitleTerms": [
+          "柔光",
+          "悦享",
+          "限定",
+          "限量",
+          "蜂窝",
+          "LTE",
+          "5G版",
+          "全网通版",
+          "艺术"
+        ],
+        "note": "独立SKU标题逐条核验，柔光/艺术/超轻/蜂窝等特殊版不并入标准；未明确网络类型的条目不推断WiFi-only。",
+        "excludedVersionSkus": []
+      },
+      "productImages": {
+        "modelName": "iQOO Pad",
+        "seriesId": "10771004",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad",
+        "sourceSnapshotHash": "c9c68394295b0eab4a561a8dd0121e62cfb639c0db836029800e3d7d35e6d5b8",
+        "fetchedAt": "2026-10-05T19:27:34.046Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "name": "星海漫航",
+          "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20230704/63fa55bd105a95f3ecf62f0676e23aa7.jpg",
+          "alt": "vivo  (星海漫航)",
+          "modelName": "iQOO Pad",
+          "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad",
+          "sourceSnapshotHash": "c9c68394295b0eab4a561a8dd0121e62cfb639c0db836029800e3d7d35e6d5b8",
+          "fetchedAt": "2026-10-05T19:27:33.909Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "星海漫航",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20230704/63fa55bd105a95f3ecf62f0676e23aa7.jpg",
+            "alt": "vivo  (星海漫航)",
+            "modelName": "iQOO Pad",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad",
+            "sourceSnapshotHash": "c9c68394295b0eab4a561a8dd0121e62cfb639c0db836029800e3d7d35e6d5b8",
+            "fetchedAt": "2026-10-05T19:27:33.909Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "星际灰",
+            "url": "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20230521/c2e9090a471523cf3f14555b751eb3fc.jpg",
+            "alt": "vivo  (星际灰)",
+            "modelName": "iQOO Pad",
+            "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad",
+            "sourceSnapshotHash": "c9c68394295b0eab4a561a8dd0121e62cfb639c0db836029800e3d7d35e6d5b8",
+            "fetchedAt": "2026-10-05T19:27:33.909Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2474/index24738082_0_p1610676.shtml",
+          "https://detail.zol.com.cn/picture_index_2474/index24738048_0_p1610676.shtml"
+        ],
+        "excludedColors": [
+          {
+            "name": "银翼",
+            "reason": "该国行型号官网仅确认星际灰/星海漫航；此图库银翼版型归属未核实，不纳入已验证标准配色",
+            "candidateImageUrl": "https://2f.zol-img.com.cn/product/256/715/ceTP5NrSTxYtA.jpg",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2474/index24738082_0_p1610676.shtml",
+            "sourceSnapshotHash": "586eaf60fc2ec7230b9870ab2e544c9c529f16fe1310425438beff5627c2fb50",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "iqoo-pad2-2024",
+      "modelName": "iQOO Pad2",
+      "generation": "iQOO Pad2",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10864203_1.html",
+        "https://detail.zol.com.cn/series/702/55075/param_10864203_0_1.html",
+        "https://detail.zol.com.cn/2018/2017642/param.shtml",
+        "https://detail.zol.com.cn/2018/2017644/param.shtml",
+        "https://detail.zol.com.cn/2018/2017645/param.shtml",
+        "https://detail.zol.com.cn/2018/2017643/param.shtml",
+        "https://www.vivo.com.cn/vivo/param/iqoopad2",
+        "https://detail.zol.com.cn/picture_index_2639/index26383701_0_p2017642.shtml",
+        "https://detail.zol.com.cn/picture_index_2639/index26383697_0_p2017642.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2024-05-31",
+        "rawText": "上市时间 2024年05月31日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2018/2017642/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:35.047Z",
+        "sourceSnapshotHash": "a84778c68d4a3cc7b0eca983a5bd080b2af32b92823fa8017bd637c7d511654b"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/iqoopad2",
+      "officialSpecEvidence": {
+        "value": "iQOO Pad2",
+        "rawText": "iQOO Pad2 - vivo智能手机官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad2",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:35.428Z",
+        "sourceSnapshotHash": "255b84ee34bea902d0f78601d253aaf9ae03d305deead9ab9f5ffd909c0eb6c7"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "iQOO Pad2 - vivo智能手机官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad2",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:35.428Z",
+        "sourceSnapshotHash": "255b84ee34bea902d0f78601d253aaf9ae03d305deead9ab9f5ffd909c0eb6c7",
+        "note": "制造商中国区域官方网站的型号规格页，并有独立SKU和实际已售日期；不是仅凭网页为中文认定国行。"
+      },
+      "versionVerification": {
+        "variant": "standard",
+        "checkedSkuTitles": [
+          {
+            "title": "iQOO Pad2(8GB+128GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/2018/2017642/param.shtml",
+            "sourceSnapshotHash": "a84778c68d4a3cc7b0eca983a5bd080b2af32b92823fa8017bd637c7d511654b"
+          },
+          {
+            "title": "iQOO Pad2(12GB+256GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/2018/2017644/param.shtml",
+            "sourceSnapshotHash": "cb329aaf977959897bfc5b43076104eb7cdbcffbddb802c3445f4698f25e19f5"
+          },
+          {
+            "title": "iQOO Pad2(12GB+512GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/2018/2017645/param.shtml",
+            "sourceSnapshotHash": "d6a018d63b516496777101b73c77280de3f5e3c0f54c3bd2081a9c330f5c9955"
+          },
+          {
+            "title": "iQOO Pad2(8GB+256GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/2018/2017643/param.shtml",
+            "sourceSnapshotHash": "333bb6cb36b461ce3cba23242c6aa766edcadb7802956b0f0295e685b8f14b82"
+          }
+        ],
+        "excludedTitleTerms": [
+          "柔光",
+          "悦享",
+          "限定",
+          "限量",
+          "蜂窝",
+          "LTE",
+          "5G版",
+          "全网通版",
+          "艺术"
+        ],
+        "note": "独立SKU标题逐条核验，柔光/艺术/超轻/蜂窝等特殊版不并入标准；未明确网络类型的条目不推断WiFi-only。",
+        "excludedVersionSkus": []
+      },
+      "productImages": {
+        "modelName": "iQOO Pad2",
+        "seriesId": "10864203",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2639/index26383701_0_p2017642.shtml",
+        "sourceSnapshotHash": "eac8fae1b1aff69a5b095a3956c6bcdc88de27a7c6eb8b8bfbf28566b7d9e850",
+        "fetchedAt": "2026-10-05T19:27:35.602Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2b.zol-img.com.cn/product/263_320x240/723/cewEPJ3JouDc.jpg",
+          "alt": "iQOO Pad2",
+          "modelName": "iQOO Pad2",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/10864203_1.html",
+          "sourceSnapshotHash": "1038d28f28e73ffb162b1fa6e56c1ab281e1a02aaa110f6e708b1caf287ca970",
+          "fetchedAt": "2026-10-05T19:27:35.602Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "银翼",
+            "url": "https://2b.zol-img.com.cn/product/263/693/cewUzKPJVVTE.jpg",
+            "modelName": "iQOO Pad2",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2639/index26383701_0_p2017642.shtml",
+            "sourceSnapshotHash": "eac8fae1b1aff69a5b095a3956c6bcdc88de27a7c6eb8b8bfbf28566b7d9e850",
+            "fetchedAt": "2026-10-05T19:27:35.602Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "灰晶",
+            "url": "https://2b.zol-img.com.cn/product/263/723/cewEPJ3JouDc.jpg",
+            "modelName": "iQOO Pad2",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2639/index26383701_0_p2017642.shtml",
+            "sourceSnapshotHash": "eac8fae1b1aff69a5b095a3956c6bcdc88de27a7c6eb8b8bfbf28566b7d9e850",
+            "fetchedAt": "2026-10-05T19:27:35.602Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "蓝霆",
+            "url": "https://2d.zol-img.com.cn/product/263/689/ceRO5NTUPdQHY.jpg",
+            "modelName": "iQOO Pad2",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2639/index26383701_0_p2017642.shtml",
+            "sourceSnapshotHash": "eac8fae1b1aff69a5b095a3956c6bcdc88de27a7c6eb8b8bfbf28566b7d9e850",
+            "fetchedAt": "2026-10-05T19:27:35.602Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2639/index26383701_0_p2017642.shtml",
+          "https://detail.zol.com.cn/picture_index_2639/index26383697_0_p2017642.shtml"
+        ],
+        "gaps": []
+      }
+    },
+    {
+      "id": "iqoo-pad2-pro-2024",
+      "modelName": "iQOO Pad2 Pro",
+      "generation": "iQOO Pad2 Pro",
+      "releaseYear": 2024,
+      "sourcePageType": "expanded_core_spec_snapshots",
+      "sourceStatus": "verified",
+      "referenceUrls": [
+        "https://detail.zol.com.cn/series/702/10864204_1.html",
+        "https://detail.zol.com.cn/series/702/55075/param_10864204_0_1.html",
+        "https://detail.zol.com.cn/2018/2017646/param.shtml",
+        "https://detail.zol.com.cn/2018/2017648/param.shtml",
+        "https://detail.zol.com.cn/2082/2081484/param.shtml",
+        "https://detail.zol.com.cn/2018/2017647/param.shtml",
+        "https://www.vivo.com.cn/vivo/param/iqoopad2pro",
+        "https://detail.zol.com.cn/picture_index_2639/index26383646_0_p2017646.shtml",
+        "https://detail.zol.com.cn/picture_index_2639/index26383644_0_p2017646.shtml"
+      ],
+      "releaseEvidence": {
+        "value": "2024-05-31",
+        "rawText": "上市时间 2024年5月31日",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://detail.zol.com.cn/2018/2017646/param.shtml",
+        "sourceType": "reference",
+        "confidence": 0.8,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:36.463Z",
+        "sourceSnapshotHash": "8fb00be8898414e797bc68b4eab82dd5849df27520ae2b8170873ad68014335a"
+      },
+      "fieldGaps": [
+        {
+          "field": "launchPrice",
+          "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
+        }
+      ],
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 本批只收实际核验SKU，未推导配置组合；五年目录仍为持续扩展的有来源已知候选，图片版权许可未知。",
+      "officialSpecUrl": "https://www.vivo.com.cn/vivo/param/iqoopad2pro",
+      "officialSpecEvidence": {
+        "value": "iQOO Pad2 Pro",
+        "rawText": "iQOO Pad2 Pro - vivo智能手机官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad2pro",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:36.975Z",
+        "sourceSnapshotHash": "c8415cf6cf3740c7f489e25037e2dbec19a04a2f32ba9162642ea38eedd176d9"
+      },
+      "marketEvidence": {
+        "value": "中国大陆",
+        "rawText": "iQOO Pad2 Pro - vivo智能手机官方网站",
+        "evidenceKind": "excerpt",
+        "sourceUrl": "https://www.vivo.com.cn/vivo/param/iqoopad2pro",
+        "sourceType": "official",
+        "confidence": 1,
+        "verifiedAt": "2026-10-05",
+        "fetchedAt": "2026-10-05T19:27:36.975Z",
+        "sourceSnapshotHash": "c8415cf6cf3740c7f489e25037e2dbec19a04a2f32ba9162642ea38eedd176d9",
+        "note": "制造商中国区域官方网站的型号规格页，并有独立SKU和实际已售日期；不是仅凭网页为中文认定国行。"
+      },
+      "versionVerification": {
+        "variant": "standard",
+        "checkedSkuTitles": [
+          {
+            "title": "iQOO Pad2 Pro(8GB+256GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/2018/2017646/param.shtml",
+            "sourceSnapshotHash": "8fb00be8898414e797bc68b4eab82dd5849df27520ae2b8170873ad68014335a"
+          },
+          {
+            "title": "iQOO Pad2 Pro(16GB+512GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/2018/2017648/param.shtml",
+            "sourceSnapshotHash": "11b12d91b2c8845724c6ec5255a1800defaf19b7fce96a347ac72fb433893284"
+          },
+          {
+            "title": "iQOO Pad2 Pro(16GB+1TB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/2082/2081484/param.shtml",
+            "sourceSnapshotHash": "4872fe45aa3f0a3703af5c7a1a194fe58fc101760b4d9c6bebae7dc35434f5d4"
+          },
+          {
+            "title": "iQOO Pad2 Pro(12GB+256GB)参数",
+            "sourceUrl": "https://detail.zol.com.cn/2018/2017647/param.shtml",
+            "sourceSnapshotHash": "56f7303a3aab5f7305a22666e546744f3e744fc6a0c4bb31a19274612416967b"
+          }
+        ],
+        "excludedTitleTerms": [
+          "柔光",
+          "悦享",
+          "限定",
+          "限量",
+          "蜂窝",
+          "LTE",
+          "5G版",
+          "全网通版",
+          "艺术"
+        ],
+        "note": "独立SKU标题逐条核验，柔光/艺术/超轻/蜂窝等特殊版不并入标准；未明确网络类型的条目不推断WiFi-only。",
+        "excludedVersionSkus": []
+      },
+      "productImages": {
+        "modelName": "iQOO Pad2 Pro",
+        "seriesId": "10864204",
+        "sourceUrl": "https://detail.zol.com.cn/picture_index_2639/index26383646_0_p2017646.shtml",
+        "sourceSnapshotHash": "1523c598daa4c837f6c4ffcd006ddc6870ede80a73448edd0cfdd0b31ca98cc7",
+        "fetchedAt": "2026-10-05T19:39:20.022Z",
+        "licenseStatus": "unknown",
+        "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。",
+        "primary": {
+          "url": "https://2e.zol-img.com.cn/product/263_320x240/666/cegNUltF1UAlU.jpg",
+          "alt": "iQOO Pad2 Pro",
+          "modelName": "iQOO Pad2 Pro",
+          "sourceUrl": "https://detail.zol.com.cn/series/702/10864204_1.html",
+          "sourceSnapshotHash": "93290eacfc45bf77d8406f538a2d45a00a887bc5d172f0c553654cb62e0a17aa",
+          "fetchedAt": "2026-10-05T19:39:20.022Z",
+          "licenseStatus": "unknown",
+          "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+        },
+        "colors": [
+          {
+            "name": "银翼",
+            "url": "https://2a.zol-img.com.cn/product/263/674/celeKKVvhZAkY.jpg",
+            "modelName": "iQOO Pad2 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2639/index26383646_0_p2017646.shtml",
+            "sourceSnapshotHash": "1523c598daa4c837f6c4ffcd006ddc6870ede80a73448edd0cfdd0b31ca98cc7",
+            "fetchedAt": "2026-10-05T19:39:20.022Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "灰晶",
+            "url": "https://2e.zol-img.com.cn/product/263/666/cegNUltF1UAlU.jpg",
+            "modelName": "iQOO Pad2 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2639/index26383646_0_p2017646.shtml",
+            "sourceSnapshotHash": "1523c598daa4c837f6c4ffcd006ddc6870ede80a73448edd0cfdd0b31ca98cc7",
+            "fetchedAt": "2026-10-05T19:39:20.022Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          },
+          {
+            "name": "蓝霆",
+            "url": "https://2b.zol-img.com.cn/product/263/639/ceYJqpZm4TbeU.jpg",
+            "modelName": "iQOO Pad2 Pro",
+            "sourceUrl": "https://detail.zol.com.cn/picture_index_2639/index26383646_0_p2017646.shtml",
+            "sourceSnapshotHash": "1523c598daa4c837f6c4ffcd006ddc6870ede80a73448edd0cfdd0b31ca98cc7",
+            "fetchedAt": "2026-10-05T19:39:20.022Z",
+            "licenseStatus": "unknown",
+            "licenseNote": "仅核验型号与公开图片URL；未取得版权授权或核验商业使用许可，不默认具有转载许可。"
+          }
+        ],
+        "galleryUrls": [
+          "https://detail.zol.com.cn/picture_index_2639/index26383646_0_p2017646.shtml",
+          "https://detail.zol.com.cn/picture_index_2639/index26383644_0_p2017646.shtml"
+        ],
+        "gaps": []
+      }
+    }
+  ],
+  "laptop": []
+}
