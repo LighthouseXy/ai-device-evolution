@@ -1,168 +1,78 @@
-# 数码观察站 / DeviceScope
+# 数码观察站 / DeviceScope 技术说明
 
-DeviceScope 是一个电子设备代际演进分析平台。当前第一阶段以 Apple 设备作为样本范围，围绕 iPhone、iPad、MacBook 的本地结构化数据模型，提供首页浏览、设备库、设备详情、代际对比、趋势观察、AI 顾问和评测闭环能力。
+更新日期：2026-10-07。当前规模和发布证据见 [项目计划](PROJECT_PLAN.md) 与 [本次日志](logs/2026-10-07.md)。
 
-项目目标不是做一张静态参数表，而是把“官方来源数据 -> 结构化设备库 -> 前端可视化 -> AI 观察 / 设备顾问”串成一条可验证、可扩展的产品链路。
+## 产品能力
 
-## 已实现功能
+八品牌五品类设备库；同品牌/跨品牌统一产品对比；品牌、类别和产品族筛选；配色/款式图片切换与放大；完整参数分区；具体配置价格逐项列示；本地趋势观察；自然语言 AI 顾问与设备索引。
 
-- **本地结构化 JSON 数据模型**：覆盖 2016 年以来的 iPhone / iPad / MacBook，共 129 台 Apple 设备、3917 个规格字段；默认读取中文主数据，英文官网数据以独立快照保留。
-- **价格批处理**：可批量生成价格缺口和搜索词、检查单个商品页、验证 JSON 批次并导入观察文件；宽泛搜索可用 `--pages` 读取更多库存并去重，再用 `--products-only` 列出唯一产品名并按精确产品过滤。搜索与详情请求会对瞬时网络失败自动重试一次，动态检查可用 `--compact` 隐藏关联商品列表并保留当前库存的关键验机证据，正式同步和数据门禁继续负责最终写入。
-- **首页 / 设备库 / 设备详情**：已完成 v2 前端重构，统一了首页、设备库和设备详情页的导航、层级和展示风格。
-- **代际趋势观察**：支持按类别、系列、分析维度和对比范围筛选，展示芯片、屏幕、重量、价格等变化趋势。
-- **详细参数对比**：对相邻代际变化做标记，14 / 16 英寸 MacBook Pro 的 Pro、Max 芯片档位可独立比较；价格区位于性能之前，当前价与二手价按运行内存 + 存储组合匹配，避免跨配置误比。
-- **AI 观察引擎**：提供代际总结、趋势预测、购买建议、字段解释等分析模式；无模型 key 时使用 rules fallback 保证可用。
-- **AI 设备顾问**：支持预算、设备类型、性能偏好、使用场景、成色偏好、续航优先级、接口/生态需求等输入；本地只负责标准化、候选筛选、官方事实整理和简单 fallback，模型负责场景化推荐与权衡。
-- **DeepSeek 接入**：DeepSeek V4 使用紧凑返回协议、显式关闭 thinking、900 token 输出上限和 15 秒超时；6 个真实样例已全部一次生成 AI 结果，但不把小样本复测表述为长期稳定承诺。
-- **AI eval 闭环**：设备顾问评测结果可写入 `.eval-results/`，并由 dev-only 看板读取、切换和展示 KPI、样本明细与失败原因。
-- **回归测试脚本**：覆盖设备顾问 fallback 场景、API 错误路径、`maxResults` 边界和脚本帮助输出。
-- **本地预览修复**：开发服务使用 Webpack + polling，规避当前环境下的 `EMFILE: too many open files, watch` 问题。
+公开目录为 970 个型号（手机 477、平板 160、笔记本 115、手表 170、手环 48），源数据保留 991 条。小米与红米分开显示；17 个已确认同款组保留原款式参数和图片，但不重复占用设备卡片和 AI 候选席位。不同尺寸、NFC/蜂窝及芯片不随意合并。
 
-## 技术亮点
+## 数据链路
 
-### 可追溯数据结构
+`device-data-manifest.json` 的 54 个数据集 → 构建合并 `devices-db.json` / `device-sources.json` → 来源型对象 `allDevices` → 展平来源 `allDevicesFlat` → 人工确认映射整理 `catalogDevicesFlat` → 首页、库、详情、对比与趋势。
 
-设备参数通过 `SpecField<T>` 保存来源 URL、来源类型、置信度和验证时间；计算字段使用 `sourceType: "computed"`，避免把推断数据混作采集事实。技术规格优先来自 Apple Support 中国简体中文页面，中国大陆首发价优先来自 Apple 中国 Newsroom；新闻稿未单列的 13 条 MacBook 配置价由同期受信第三方页面补齐。Apple 未公开的 iPhone / iPad 运行内存由 iOS Ref 补齐，当前价与二手价保存为带配置、成色和采集日期的静态参考快照。
+JSON 是本地结构化数据源，不是 SQL 数据库。分类门禁、来源字段与原始快照分别承担配置合法性、证据归属与可复现性，不能把门禁通过宣称为所有参数完整正确。原英文 Apple 快照独立保留，不默认回填。
 
-```ts
-type SpecField<T> = {
-  value: T;
-  unit?: string;
-  rawText?: string;
-  sourceUrl: string;
-  sourceType: "apple" | "reference";
-  confidence: number;
-  verifiedAt: string;
-};
-```
+- `SpecField`：值、单位、原文/整理说明、实际 URL、official/reference、历史核验日期；可附真实采集时间和内容哈希。
+- `DeviceConfiguration`：有证据的内存/存储和芯片/CPU/GPU 组合，不是各容量任意交叉。
+- `PriceField`：中国大陆具体配置/款式、价格类型、成色、观察日期和来源；首发/当前/二手分别保存。
+- `device-model-groups.json`：人工确认同款映射，展示层的 editions 保留原款式对象与报价；旧路径继续可用。
+- `device-images.json` / `device-image-galleries.json`：实际型号主图与配色项；无图留空，来源不是许可证明。
+- `computed`：与采集事实分离，40 条直接前代升级评分不表示全部历史代际已有评分。
 
-### AI 与 rules fallback 分层
+完整契约见 [字段字典](field-dictionary.md)。八个缺失主图和其他规格/配色/历史型号缺口保留在目录审计中，覆盖仍 partial。
 
-AI 分析与设备顾问都保留本地 rules fallback。设备顾问不再把 AI 部分结果与规则结果拼接：合法完整输出统一标记为 `ai`；模型不可用、15 秒超时，或重试后仍无法形成有效主推荐和备选时，完整回退为 `rules`。
+## 参数和对比
 
-设备顾问的 rules fallback 只按设备类型、预算和发布时间排序，并明确提示这是基础排序结果，不代表已分析性能、续航、屏幕、便携、存储或相机等完整需求。
+`device-spec-fields.ts` 按品牌/品类挑选适用字段并说明配置差异。价格置于性能前，首发/当前/二手逐配置显示；取消内存与存储的选择控件，不取消真实性约束。
 
-### 设备顾问推荐链路
+同品牌/跨品牌都用 `ProductCompareTable`：卡片与参数列同容器同步横向滑动。跨品牌先选类别，再逐台选品牌/系列/型号，2–3 台；不生成无依据综合胜负分。系列筛选比原严格比较组宽，不改写原始代际关系。
 
-`/api/device-advisor` 先归一化输入并按品类过滤，再按预算内、预算接近度和发布时间稳定排序，最多整理 8 个带官方事实的候选。OpenAI / DeepSeek 只返回候选 `deviceId`、匹配分、理由与权衡等生成内容；型号、系列、类别、年份和价格由服务端候选真值补齐，未知 ID 会被过滤。DeepSeek 的紧凑输出上限为 900 token，并显式使用非思考模式；OpenAI 与 DeepSeek 都使用 15 秒超时及候选真值校验。
+详情 `DeviceSpecGrid` 使用 ResizeObserver 分配独立双列，固定首两张卡片、其余放入较短列，后续高度变化不跨列迁移。手机单列。短值保留标签/数值布局，长说明按原文条目完整显示、统一正文字重、不折叠；镜头分项已覆盖时消除重复总述展示。
 
-### 面向产品的前端状态
+`/compare`、`/trends` 当前文字洞察来自本地 rules，不是实时模型调用。`/api/ai-analysis` 有通用接口基础，真实产品对比 AI 未上线。
 
-`DeviceAdvisorPanel` 不直接暴露技术字段，而是把用户输入、提交状态、错误提示、推荐结果和权衡点整理成可读的操作体验。
+## AI 顾问
 
-### 趋势与对比边界
+`/api/device-advisor` 归一化预算、类别、明确接口/配置下限和新旧偏好；新机仅用有效当前价，接受二手时比较当前价/二手价，首发价不参与预算。有限价位/品牌覆盖最多 12 候选，每机最多两笔代表报价；同款配色去重但原始报价归属保持。
 
-`/compare` 和 `/trends` 页面展示的洞察来自本地 `rules fallback`，用于稳定输出代际对比和趋势观察，不代表真实模型在线调用。
+按需求精简模型事实，不引入复杂多维权重。模型返回 `answer`、`recommendedDeviceIds`、对应 `recommendedQuoteIds` 和内部 confidence，最多 3 台。服务端补齐身份及报价真值；错误归属、超额或冲突选择拒绝整份结果。正文有有限型号/配置/价格一致性拦截，不能当作完整语义核验。
 
-### 评测看板
+AI 完整输出与规则完整回退分层，不拼接残缺 AI。回退明确告知仅做基础排序，不分析完整体验。OpenAI/DeepSeek 输出上限 900 token、每次 15 秒；DeepSeek 显式 thinking disabled，最多一次重试，OpenAI 无该重试流程。含重试时整体请求可超过 15 秒。
 
-`/dev/device-advisor-eval` 是 dev-only 的 AI eval 看板，用于查看 `.eval-results/*.json` 中的评测闭环结果，不会在生产环境开放。
+当前阶段未新增真实模型调用；现版本准确性、Token/延迟/回退率应授权后实测，旧版样例和模拟 API 不替代事实验收。
 
-### 轻量回归保护
-
-项目使用脚本级回归覆盖关键路径：
-
-- `npm run test:device-advisor`：25 个候选排序、价格快照与 rules fallback 场景。
-- `npm run test:device-advisor-api`：13 个 API 协议、候选真值、重试和 fallback 边界场景。
-
-## 技术栈
-
-| 类别 | 技术 |
-| --- | --- |
-| 框架 | Next.js 16 + React 19 |
-| 语言 | TypeScript |
-| 样式 | Tailwind CSS 4 |
-| 路由 | Next.js App Router |
-| 数据 | 本地结构化 JSON 数据源 + SpecField 来源追踪 |
-| AI | OpenAI / DeepSeek 调用框架 + rules fallback |
-| 测试 | Node 脚本回归测试 |
-
-## 本地运行
+## 数据更新与验证
 
 ```bash
 npm install
 npm run dev
-```
-
-默认访问：
-
-```text
-http://localhost:3000
-```
-
-常用检查：
-
-```bash
-npm run lint
-./node_modules/.bin/tsc --noEmit --incremental false
-npm run sync:apple-zh-cn
-npm run prices -- plan --type current --limit 20
-npm run prices -- search 'iPad Pro 2020' --limit 100 --product 'Apple iPad Pro 2020款 12.9英寸 wifi版' --require '256G 国行 WiFi版' --exclude '外版 资源机 官换机 展示机' --available # 搜索并过滤九机二手候选
-npm run prices -- inspect 'https://商品页' # 识货多规格页附带 skuId
-npm run prices -- inspect 'https://m2.9ji.com/secondHand/detail/...' --render # 用本机 Chrome 检查受信动态页
-npm run test:price-workflow
+npm run build:data
 npm run check
 npm run build
-npm run test:device-advisor
-npm run test:device-advisor-api
+npm run test:wearable
+node scripts/audit-catalog-coverage.mjs --output /tmp/catalog-audit.json
+npm run prices -- plan --type current --limit 20
+npm run eval:device-advisor -- --provider=offline
 ```
 
-## 环境变量
+价格工具复用目标计划、搜索、精确商品页检查、缓存、批次校验和导入，不作无目标全库重复抓取。二手价为 P3 轻量参考。快照复用不刷新实际采集日期，刷新失败不编造新证据。
 
-未配置模型 key 时，系统会使用本地 rules fallback。
+完整 check 包括类型、lint、分类/来源、价格与快照、配置、穿戴/同款、AI analysis、顾问与 20 个模拟 API 场景。2026-10-07 检查及构建通过，1002 个静态页面；桌面 1280px / 手机 390px 核验。穿戴 400 份参数/发布来源、239 份主图、51 份配色图快照离线回放通过，不代表在线刷新。
 
-```bash
-OPENAI_API_KEY=...
-DEEPSEEK_API_KEY=...
-AI_PROVIDER=openai # 或 deepseek
-```
+模型密钥使用环境配置，不入 Git/上传包；未配置时规则回退。真实评测需明确授权，仅指定 `--out` 才写本地文件。dev-only 评测页在生产不可访问。
 
-## 项目结构
+## 发布
 
-```text
-src/
-├── app/
-│   ├── api/
-│   │   ├── ai-analysis/route.ts       # AI 观察 API
-│   │   └── device-advisor/route.ts    # 设备顾问 API
-│   ├── advisor/page.tsx               # AI 顾问
-│   ├── compare/page.tsx               # 代际对比
-│   ├── dev/device-advisor-eval/page.tsx # dev-only 评测看板
-│   ├── layout.tsx
-│   ├── devices/[id]/page.tsx          # 设备详情
-│   ├── devices/page.tsx               # 设备库
-│   ├── page.tsx
-│   ├── trends/page.tsx                # 趋势观察
-│   └── globals.css
-├── components/
-│   ├── DeviceAdvisorPanel.tsx         # 设备顾问面板
-│   ├── DeviceSeriesTrendExplorer.tsx  # 同系列趋势图
-│   └── DeviceAdvisorEvalDashboard.tsx # dev-only 评测看板
-├── lib/
-│   ├── ai-analysis.ts                 # AI 观察引擎与 fallback
-│   ├── device-advisor.ts              # 设备顾问推荐逻辑
-│   └── devices-db.ts                  # 设备数据适配
-└── data/
-    ├── apple-devices-db.json          # 主结构化中文数据源
-    ├── apple-sources.json             # 中文来源审计登记
-    ├── price-observations.json        # 经批处理审核的新增价格快照
-    ├── apple-devices-db.en-us.json    # 英文官网原始快照
-    ├── apple-sources.en-us.json       # 英文来源原始快照
-    └── archive/                       # 历史批次与旧版快照，运行时不读取
+复用现有 GitHub 和 Vercel 项目。先预览、后按功能提交及推送、再生产发布。本机 localhost 只供当前电脑使用，手机远程使用 Vercel URL。`.vercelignore` 排除环境文件、来源缓存、评测结果及私有目录；用户既有无关改动不提交。
 
-scripts/
-├── sync-apple-zh-cn-data.mjs          # 中文官网数据同步
-├── price-snapshot-workflow.mjs        # 价格缺口、检查、验证与导入
-├── device-advisor-regression.mjs      # fallback 回归
-├── device-advisor-api-regression.mjs  # API 错误路径回归
-└── device-advisor-ai-eval.mjs         # offline / DeepSeek 真实模型评测
-```
+云端构建 READY、授权 curl 和真实手机匿名访问是不同证据；不为了预览擅自关闭访问保护。发布地址、Git 提交与验证结果见日志。图片许可未知与数据未全量覆盖保留为真实边界；3D 已取消。
 
-## 当前阶段
-
-项目已完成中文官网数据切换、2016 年以来 129 台设备扩容、MacBook Pro Pro / Max 独立配置拆分、配置化价格对比、首页 / 设备库 / 设备详情、代际对比、趋势观察、AI 顾问、DeepSeek 接入、AI eval 闭环、dev-only 评测看板和 v2 前端重构。设备顾问已收敛为轻量候选层、候选真值校验与完整 AI / rules 分层，并可通过 `npm run eval:device-advisor` 执行 offline 或真实 DeepSeek 样例评测；数据主线下一步是在统一配置口径下继续扩充中国大陆当前价与二手价快照。
-
-## 相关文档
+## 文档
 
 - [项目计划](PROJECT_PLAN.md)
-- [最新开发日志](logs/2026-08-31.md)
+- [字段字典](field-dictionary.md)
+- [Apple 来源](apple-official-sources.md)
+- [最新日志](logs/2026-10-07.md)
+- [未来建议](FUTURE_FEATURES.md)

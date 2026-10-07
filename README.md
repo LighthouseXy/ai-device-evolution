@@ -1,71 +1,68 @@
 # 数码观察站 / DeviceScope
 
-DeviceScope 是一个电子设备代际演进分析平台，用可追溯的结构化设备资料、可视化观察和 AI 辅助建议，帮助用户理解设备规格变化、代际差异与选购权衡。
-
-第一阶段以 Apple 设备作为样本范围，覆盖 iPhone、iPad 和 MacBook；这不代表项目已支持多品牌。
+DeviceScope 是一个电子设备参数、产品对比与选购建议平台，以可追溯的结构化资料展示规格变化和配置差异，并提供 AI 辅助建议。
 
 - 在线演示：[ai-device-evolution.vercel.app](https://ai-device-evolution.vercel.app/)
-- GitHub 代码：[LighthouseXy/ai-device-evolution](https://github.com/LighthouseXy/ai-device-evolution)
+- GitHub：[LighthouseXy/ai-device-evolution](https://github.com/LighthouseXy/ai-device-evolution)
 
 ## 核心能力
 
-- 首页、设备库和设备详情：基于真实本地结构化数据模型展示设备信息与来源追踪。
-- 趋势观察：按类别、系列和指标查看 SVG 折线趋势。
-- 代际对比：横向对比参数变化，突出相邻代际差异与缺失状态。
-- AI 顾问：本地先按品类、预算接近度和发布时间整理最多 8 个候选，模型基于候选官方事实生成推荐与权衡。
-- AI eval：设备顾问评测结果可由 dev-only 看板查看，形成可复查的评测闭环。
+- 设备库：苹果、小米、红米、三星、华为、OPPO、vivo、荣耀八个品牌；手机、平板电脑、笔记本电脑、手表、手环五个品类。
+- 产品对比：统一入口选择同品牌或跨品牌，支持 2–3 台同品类设备自选；同品牌支持代际范围，卡片与参数列同步横向滚动。
+- 分层筛选：品牌 → 设备种类 → 产品系列；小米与红米分开，细碎系列归入产品族，旗舰/主力产品靠前。
+- 参数与报价：不提供内存/存储配置选择器；具体配置价格直接逐项列示，影响芯片、CPU/GPU 等参数的配置差异在相应字段说明。
+- 图片与详情：设备主图、已记录的配色/款式切换及放大；参数分区使用独立双列卡片，正文统一字重，长文本按原文条目完整展示，不使用折叠详情。
+- 同款整理：确认同一型号的颜色、表带及材质款合并展示，保留原始证据、款式图片与价格/重量差异；不同尺寸、NFC、蜂窝网络和芯片版本不随意合并。
+- 趋势观察：按品牌、品类、产品系列及指标观察数据；不同价格类型不混为实时行情。
+- AI 顾问：最多 12 个候选、每机最多两笔代表报价、最多推荐 3 台；自然语言建议加设备索引，设备与报价由服务端绑定校验；不可用时明确显示规则回退。
 
-## 技术栈
+## 当前数据与边界（2026-10-07）
 
-| 类别 | 技术 |
+| 指标 | 数量与口径 |
 | --- | --- |
-| 应用 | Next.js 16、React 19、TypeScript、Tailwind CSS 4 |
-| 数据 | 结构化 JSON 数据源、本地结构化数据模型、SpecField 来源追踪 |
-| AI | OpenAI / DeepSeek provider、rules fallback |
-| 验证 | TypeScript、ESLint、Node 脚本回归测试 |
+| 来源记录 / 公开目录型号 | 991 / 970 |
+| 手机 / 平板 / 笔记本 / 手表 / 手环 | 477 / 160 / 115 / 170 / 48，目录口径 |
+| 原始严格比较组 / 规格字段 | 421 / 19,267 |
+| 已整理同款组 | 17 组，38 条款式记录归为 17 个型号 |
+| 默认图片 / 尚缺主图 | 983 / 8，原始记录口径 |
+| 有至少一笔有效当前价 / 二手价 | 68 / 97 个型号，不代表全部配置覆盖 |
 
-## 数据与 AI 边界
+数据保存为本地 JSON 分库，经清单构建合并；不是已迁移到 SQL 数据库。Apple 原英文官网快照独立保留，不用于默认回填。官方和主流第三方规格如实标注来源；报价采用中国大陆公开商品页的日期快照，不是实时最低价。二手价仅作轻量参考。
 
-- 当前数据层是 129 台 Apple 设备的结构化 JSON 数据源，不是已建成的数据库系统；Apple 中国页面为规格与首发价第一来源，受信第三方补充 Apple 未公开的运行内存、可精确对应配置的历史首发价及特定日期的中国大陆价格快照。
-- 当前价与二手价按具体运行内存、存储、成色和采集日期保存，仅供参考，不代表实时全网最低价。
-- `/compare` 和 `/trends` 使用本地规则分析真实结构化数据，不是实时模型调用。
-- AI 顾问只接受候选集中的设备 ID，型号、系列、年份和价格由服务端本地真值补齐；模型不可用、超时或完整输出不合规时使用 rules fallback。
-- rules fallback 仅按设备类型、预算和发布时间排序，不代表完整需求分析；DeepSeek 有真实复测证据，但不承诺长期稳定。
-- 缺失字段按实际缺失状态展示，不伪造参数或把推断包装成官方事实。
+近十年小米/红米/三星按 2017–2026、近五年华为/OPPO/vivo/荣耀按 2022–2026 整理，Apple 延续 2016 年起的范围。已完成多批扩容，但目录审计仍标记 partial，不能声称已覆盖期间所有产品、配置和颜色。缺失字段保持空值；照片来源可追溯不等于获得商业使用许可，当前图片许可状态未明确。3D 产品展示已取消。
 
-## 快速开始
+`/compare` 和 `/trends` 的文字洞察来自本地规则，不是联网模型。`/api/ai-analysis` 有接口基础，但产品对比未接入真实 AI。顾问的 ID/报价绑定与有限正文一致性检查不能证明全部自然语言事实正确。
+
+## 技术与验收
+
+Next.js 16、React 19、TypeScript、Tailwind CSS 4；本地 JSON、来源元数据及 Node 回归脚本；OpenAI / DeepSeek 与 rules fallback。
+
+2026-10-07 完整 `npm run check` 与生产构建通过（1002 个静态页面，保留原详情链接）；桌面 1280px、手机 390px 的同款归并、配色切换、跨品牌选择与详情布局已检查。400 份穿戴参数/发布来源快照及图片快照通过离线回放。当前阶段未新增付费模型调用，不能据模拟 API 通过率宣称推荐准确率或模型稳定性。
+
+DeepSeek 顾问显式关闭 thinking，输出上限 900 token、每次请求 15 秒超时，最多一次重试；15 秒不是含重试的整体耗时上限。现版本真实 Token、耗时、回退及文字事实仍需授权后的代表样例验收。
+
+## 本地运行与检查
 
 ```bash
 npm install
 npm run dev
-```
-
-本地访问 `http://localhost:3000`。常用验证命令：
-
-```bash
-npm run typecheck
-npm run lint
-npm run prices -- plan --type current --limit 20
-npm run prices -- search 'iPad Pro 2020' --limit 100 --product 'Apple iPad Pro 2020款 12.9英寸 wifi版' --require '256G 国行 WiFi版' --exclude '外版 资源机 官换机 展示机' --available
-npm run prices -- inspect 'https://www.shihuo.cn/...' --all-styles --match '256GB WLAN' --available
-npm run prices -- inspect 'https://www.shihuo.cn/...&skuId=明确规格ID' --match '256GB WLAN'
-npm run prices -- inspect 'https://m2.9ji.com/secondHand/detail/...' --render
-npm run test:price-workflow
+npm run check
 npm run build
-npm run test:device-advisor
-npm run test:device-advisor-api
-npm run eval:ai-analysis -- --provider=offline
-npm run eval:ai-analysis -- --provider=openai
-npm run eval:device-advisor -- --provider=offline --limit=2
-npm run eval:device-advisor -- --provider=deepseek --limit=6
+npm run test:wearable
+node scripts/audit-catalog-coverage.mjs --output /tmp/catalog-audit.json
+npm run prices -- plan --type current --limit 20
+npm run eval:device-advisor -- --provider=offline
 ```
 
-AI 观察和设备顾问评测默认只输出到终端；需要保留本地结果时，再显式增加 `--out=.eval-results/<文件名>.json`。AI 观察真实模型评测从 `.env.local` 读取 `OPENAI_API_KEY`，设备顾问读取 `DEEPSEEK_API_KEY`；结果只代表本次样例，不承诺长期稳定。
+本地默认 `http://localhost:3000` 只在运行电脑可访问，手机远程查看使用 Vercel 地址。开发服务使用 Webpack + polling。
 
-识货商品检查会列出页面可选配色和 SKU；`--all-styles` 可并行合并全部配色，`--match` 可按容量、版本或内存关键词过滤规格，并自动把 `0.5TB` 等页面写法换算为对应 GB 容量，`--available` 只保留有规格列示价的 SKU，最终价格仍以带明确 `skuId` 的商品页为准。
+模型密钥仅保存在环境配置中，缺密钥时使用规则回退。真实评测需明确授权；只有指定 `--out` 才保存本地评测结果。部署复用既有 Vercel 项目；`.vercelignore` 排除环境文件、私有工具目录、来源缓存与评测结果，生产评测看板不开放。
 
 ## 文档
 
-- [详细项目计划](docs/PROJECT_PLAN.md)
-- [文档索引与技术说明](docs/README.md)
-- [最新开发日志](docs/logs/2026-08-31.md)
+- [项目计划与具体阶段](docs/PROJECT_PLAN.md)
+- [技术说明](docs/README.md)
+- [字段字典](docs/field-dictionary.md)
+- [来源管理](docs/apple-official-sources.md)
+- [本次变更与验收](docs/logs/2026-10-07.md)
+- [后续建议及已取消范围](docs/FUTURE_FEATURES.md)
