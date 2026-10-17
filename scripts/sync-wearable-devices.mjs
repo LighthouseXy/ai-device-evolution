@@ -153,6 +153,7 @@ const targets = JSON.parse(await fs.readFile("scripts/fixtures/wearable-targets.
 const launchPrices = JSON.parse(await fs.readFile("scripts/fixtures/wearable-launch-prices.json", "utf8"));
 const images = JSON.parse(await fs.readFile("src/data/device-images.json", "utf8"));
 const galleries = JSON.parse(await fs.readFile("src/data/device-image-galleries.json", "utf8"));
+const previousSources = new Map(JSON.parse(await fs.readFile("src/data/device-sources.json", "utf8")).devices.map(source => [source.id, source]));
 const devices = [], sources = [], inventory = [], blocked = [];
 const cache = new Map();
 const page = url => { if (!cache.has(url)) cache.set(url, getSourceSnapshot(url, { ...options, validate(html) {
@@ -222,6 +223,16 @@ async function add(target, p, releasePage, rawRelease, year) {
     fieldGaps: required[target.category].filter(key => specs[key]?.value == null).map(field => ({ field, reason: "本型号原页未提供可明确归属的参数；不借同系列或其他版本填补" })),
     ...(excludedFields.length ? { excludedFields } : {}),
     notes: "尺寸、网络、材质版本条件保留；健康记录不用于医疗诊断。首发价、当前价、二手价无明确对应证据时留空。" };
+  const previous = previousSources.get(device.id);
+  if (previous?.colorVersionVerification) {
+    const verification = previous.colorVersionVerification, origin = await page(verification.sourceUrl);
+    assert.equal(origin.sha256, verification.sourceSnapshotHash);
+    assert.ok(plainText(origin.html).includes(verification.rawText));
+    assert.deepEqual(specs.colors?.value, verification.allowedColors, "再次采集不能恢复已拒绝的原配颜色组合");
+    source.colorVersionVerification = verification;
+    source.rejectedColorNames = previous.rejectedColorNames;
+    if (galleries[device.id]) galleries[device.id].colors = galleries[device.id].colors.filter(color => !source.rejectedColorNames.includes(color.name));
+  }
   let image, imagePage = p;
   if (target.brand === "Apple") image = readAppleProductImage(p.html, device);
   else if (target.overview) {

@@ -10,6 +10,7 @@ import {
   getCatalogSeriesOptions,
   formatMaybeCurrency,
   getDevicesByComparisonGroupKeyFlat,
+  resolveCatalogComparisonGroupKey,
 } from "@/lib/devices-db";
 import {
   formatConfiguration,
@@ -21,7 +22,8 @@ import TickDivider from "@/components/layout/TickDivider";
 import CompareSeriesSelect from "@/components/CompareSeriesSelect";
 import { CustomCompareContent } from "@/components/CustomCompareContent";
 import ProductCompareTable, { type ComparisonField } from "@/components/ProductCompareTable";
-import { formatDeviceSpec, getDeviceSpecFields } from "@/lib/device-spec-fields";
+import { formatDeviceSpec, getDeviceSpecFields, getDeviceSpecNote } from "@/lib/device-spec-fields";
+import { getCatalogBrandFilter, matchesCatalogBrand } from "@/lib/catalog-order";
 
 type SearchParams = Record<string, string | string[] | undefined>;
 
@@ -40,7 +42,10 @@ function getComparisonSpecFields(devices: (typeof allDevicesFlat)[number][]): Co
     ...getDeviceSpecFields(devices).map((field) => ({
       group: field.group, label: field.label,
       getValue: (device: (typeof allDevicesFlat)[number]) => formatDeviceSpec(device, field),
-      getMeta: (device: (typeof allDevicesFlat)[number]) => device.specs?.[`${field.key}Note`] ? [String(device.specs[`${field.key}Note`])] : null,
+      getMeta: (device: (typeof allDevicesFlat)[number]) => {
+        const note = getDeviceSpecNote(device, field.key);
+        return note ? [String(note)] : null;
+      },
       isNumeric: ["screenSize", "refreshRate", "weight"].includes(field.key),
       showChange: field.key !== "batteryCapacity",
     })),
@@ -59,7 +64,7 @@ function buildComparisonFields(devices: (typeof allDevicesFlat)[number][]): Comp
   const priceValue = (device: (typeof allDevicesFlat)[number], priceType: "current" | "used") => {
     const prices = getPricesForComparison(device, priceType);
     return prices.length > 0
-      ? prices.map((price) => `${formatConfiguration(price.configuration)} · ${formatMaybeCurrency(price.value)}${price.estimated ? "（预估）" : ""}`).join("\n")
+      ? prices.map((price) => `${formatConfiguration(price.configuration)} · ${formatMaybeCurrency(price.value)}${price.estimated ? "（预估）" : ""}${price.availabilityNote ? `（${price.availabilityNote}）` : ""}`).join("\n")
       : "待补充";
   };
   return [
@@ -128,7 +133,8 @@ function buildChangedFields(
 }
 
 function buildSeriesOptions() {
-  return getCatalogSeriesOptions(2).map((group) => ({ ...group, series: group.key }));
+  return getCatalogSeriesOptions(2).map(({ key, label, brand, category, catalogKey, catalogLabel }) =>
+    ({ series: key, label, brand, category, catalogKey, catalogLabel }));
 }
 
 function CompareInsight({ analysis }: { analysis: AiAnalysisOutput }) {
@@ -161,19 +167,19 @@ export default async function ComparePage({
     ?? seriesOptions[0]?.series
     ?? "";
   const requestedSeries = normalizeSeries(resolvedSearchParams.series);
-  const requestedGroupId = getDevicesByComparisonGroupKeyFlat(requestedSeries)[0]?.comparisonGroupId;
+  const requestedGroupId = resolveCatalogComparisonGroupKey(requestedSeries);
   const requestedBrand = normalizeSeries(resolvedSearchParams.brand) === "Xiaomi"
     && seriesOptions.some((item) => item.series === requestedGroupId && item.brand === "Redmi")
     ? "Redmi" : normalizeSeries(resolvedSearchParams.brand);
-  const selectedBrand = seriesOptions.some((item) => item.brand === requestedBrand)
-    ? requestedBrand
-    : seriesOptions.find((item) => item.series === requestedGroupId)?.brand ?? "Apple";
+  const selectedBrand = seriesOptions.some((item) => matchesCatalogBrand(item.brand, requestedBrand))
+    ? getCatalogBrandFilter(requestedBrand)
+    : getCatalogBrandFilter(seriesOptions.find((item) => item.series === requestedGroupId)?.brand ?? "Apple");
   const requestedCategory = normalizeSeries(resolvedSearchParams.category);
-  const categorySeries = seriesOptions.filter((item) => item.brand === selectedBrand && (!requestedCategory || item.category === requestedCategory));
-  const selectedSeries = seriesOptions.some((item) => item.series === requestedGroupId && item.brand === selectedBrand && (!requestedCategory || item.category === requestedCategory))
+  const categorySeries = seriesOptions.filter((item) => matchesCatalogBrand(item.brand, selectedBrand) && (!requestedCategory || item.category === requestedCategory));
+  const selectedSeries = seriesOptions.some((item) => item.series === requestedGroupId && matchesCatalogBrand(item.brand, selectedBrand) && (!requestedCategory || item.category === requestedCategory))
     ? requestedGroupId
     : categorySeries.find((item) => item.series === defaultSeries)?.series ?? categorySeries[0]?.series
-      ?? seriesOptions.find((item) => item.brand === selectedBrand)?.series ?? defaultSeries;
+      ?? seriesOptions.find((item) => matchesCatalogBrand(item.brand, selectedBrand))?.series ?? defaultSeries;
   const selectedSeriesOption = seriesOptions.find((item) => item.series === selectedSeries) ?? null;
   const selectedCategory = selectedSeriesOption?.category ?? "phone";
   const selectedWindow = normalizeWindow(resolvedSearchParams.window);

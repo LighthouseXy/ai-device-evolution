@@ -108,7 +108,7 @@ const diverse = buildDeviceAdvisorContext(diverseInput).candidateShortlist;
 assert.equal(diverse.length, 12);
 assert.equal(new Set(diverse.map((candidate) => candidate.deviceId)).size, 12);
 assert.deepEqual([...new Set(diverse.map((candidate) => candidate.brand))].sort(),
-  ["Apple", "HONOR", "Huawei", "OPPO", "Samsung", "Xiaomi", "vivo"].sort());
+  ["Apple", "HONOR", "Huawei", "OPPO", "Redmi", "Samsung", "Xiaomi", "vivo"].sort());
 assert.ok(diverse.some((candidate) => candidate.referencePrice <= 4000), "retain an economical alternative");
 assert.ok(diverse.some((candidate) => candidate.referencePrice >= 10000), "retain an upper-price alternative");
 assert.ok(diverse.every((candidate) => candidate.referencePrice !== null && candidate.referencePrice <= 16000));
@@ -341,10 +341,16 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
-      assertSimpleFallback(output, "phone", 2);
-      assert.deepEqual(pickRecommendationTitles(output), ["小米 15 Ultra", "Samsung Galaxy S24 Ultra"]);
+      assertSimpleFallback(output, "phone", 3);
+      assert.deepEqual(pickRecommendationTitles(output), ["小米 15 Ultra", "Samsung Galaxy S24 Ultra", "小米 15"]);
       assert.match(output.devices[1]?.priceText ?? "", /二手价 ¥3,629（九机二手，2026-09-07）/);
       assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥3,619（九机二手，2026-09-07）/);
+      assert.match(output.devices[2]?.priceText ?? "", /缺货标价，仅供参考/);
+      const xiaomi15 = buildDeviceAdvisorContext({ category: "phone", budget: { min: 3599, max: 3599 }, conditionPreference: "new_only" })
+        .candidateShortlist.find((candidate) => candidate.deviceId === "xiaomi-15-2024");
+      assert.equal(xiaomi15?.facts.memory, "12GB");
+      assert.equal(xiaomi15?.facts.storage, "256GB");
+      assert.match(xiaomi15?.facts.priceCondition ?? "", /暂时缺货/);
     },
   },
   {
@@ -709,11 +715,13 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
-      assertSimpleFallback(output, "phone", 2);
-      assert.equal(output.devices[1]?.deviceId, "iphone-13-pro-max");
-      assert.match(output.devices[1]?.priceText ?? "", /二手价 ¥2,388（京东 NFC 二手手机热卖榜，2026-08-25）/);
-      assert.equal(output.devices[0]?.deviceId, "iphone-14-plus");
-      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥2,359（九机二手良品，2026-08-31）/);
+      assertSimpleFallback(output, "phone", 3);
+      assert.equal(output.devices[2]?.deviceId, "iphone-13-pro-max");
+      assert.match(output.devices[2]?.priceText ?? "", /二手价 ¥2,388（京东 NFC 二手手机热卖榜，2026-08-25）/);
+      assert.equal(output.devices[1]?.deviceId, "iphone-14-plus");
+      assert.match(output.devices[1]?.priceText ?? "", /二手价 ¥2,359（九机二手良品，2026-08-31）/);
+      assert.equal(output.devices[0]?.deviceId, "redmi-k80-2024");
+      assert.match(output.devices[0]?.priceText ?? "", /¥2,399.*缺货标价/);
     },
   },
   {
@@ -726,11 +734,13 @@ const scenarios = [
       maxResults: 3,
     },
     expect(output) {
-      assertSimpleFallback(output, "phone", 2);
-      assert.equal(output.devices[1]?.deviceId, "iphone-13");
-      assert.match(output.devices[1]?.priceText ?? "", /二手价 ¥1,949（京东苹果二手手机热卖榜，2026-08-25）/);
-      assert.equal(output.devices[0]?.deviceId, "xiaomi-13-ultra-2023");
-      assert.match(output.devices[0]?.priceText ?? "", /二手价 ¥1,809（九机二手，2026-09-07）/);
+      assertSimpleFallback(output, "phone", 3);
+      assert.equal(output.devices[2]?.deviceId, "iphone-13");
+      assert.match(output.devices[2]?.priceText ?? "", /二手价 ¥1,949（京东苹果二手手机热卖榜，2026-08-25）/);
+      assert.equal(output.devices[1]?.deviceId, "xiaomi-13-ultra-2023");
+      assert.match(output.devices[1]?.priceText ?? "", /二手价 ¥1,809（九机二手，2026-09-07）/);
+      assert.equal(output.devices[0]?.deviceId, "redmi-k80-2024");
+      assert.match(output.devices[0]?.priceText ?? "", /¥1,999.*缺货标价/);
     },
   },
   {

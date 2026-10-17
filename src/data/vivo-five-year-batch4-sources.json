@@ -176,7 +176,8 @@
         "https://www.ithome.com/0/613/096.htm",
         "https://www.vivo.com.cn/vivo/param/vivopad",
         "https://detail.zol.com.cn/picture_index_2188/index21877875_0_p1400500.shtml",
-        "https://detail.zol.com.cn/picture_index_2188/index21877876_0_p1400500.shtml"
+        "https://detail.zol.com.cn/picture_index_2188/index21877876_0_p1400500.shtml",
+        "https://www.ithome.com/0/611/060.htm"
       ],
       "releaseEvidence": {
         "value": "2022-04-15",
@@ -275,7 +276,30 @@
           "天蓝色配色图未核实",
           "深空灰配色图未核实"
         ]
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "vivo-pad-2022"
+          ],
+          "sourceUrl": "https://www.ithome.com/0/611/060.htm",
+          "sourceSnapshotHash": "e01eef9c9212ed91c5cbb10603efa28900833fd4516728f08730d192f065bb62",
+          "sourceName": "IT之家刊载产品原图（已逐图核验）",
+          "url": "https://img.ithome.com/newsuploadfiles/2022/4/533b8665-a602-4fe6-bdc5-8e74c748f522.jpg",
+          "anchor": "<img src=\"//img.ithome.com/images/v2/t.png\" w=\"690\" h=\"518\" alt=\"vivo Pad\" class=\"lazy\" title=\"4 月 11 日发布，vivo 首款旗舰平板 vivo Pad 官方照公布：直角边框 + 全金属机身\" data-original=\"https://img.ithome.com/newsuploadfiles/2022/4/533b8665-a602-4fe6-bdc5-8e74c748f522.jpg\" width=\"690\" height=\"518\">",
+          "modelAnchor": "<title>4 月 11 日发布，vivo 首款旗舰平板 vivo Pad 官方照公布：直角边框 + 全金属机身 - IT之家</title>",
+          "sha256": "d5eea89649fd878e415c35ec7ac95996988e142c4aa9f8f6b6b9c5771fa072f0",
+          "width": 690,
+          "height": 518,
+          "licenseStatus": "unknown",
+          "imageScope": "specific_color",
+          "note": "官方产品原图包含键盘、触控笔；两块平板呈正反面，不将附件颜色计入机身颜色。",
+          "color": "天蓝色",
+          "colorAnchor": "<p data-vmark=\"3345\">今日，vivo 官方公布了&nbsp;vivo Pad 的官方照，展示了新机的外观设计。官方照显示，<strong>vivo Pad 采用直角边框、全金属一体化设计</strong>，拥有天蓝色、深空灰两款配色，<strong>后置双摄，支持触控笔</strong>。</p>",
+          "viewScope": "front_back"
+        }
+      ]
     },
     {
       "id": "vivo-pad-air-2023",

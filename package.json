@@ -27,7 +27,7 @@
     "test:device-data-quality": "node scripts/audit-device-data-quality.mjs",
     "test:price-workflow": "node scripts/price-snapshot-workflow-regression.mjs && node scripts/source-snapshot-regression.mjs",
     "test:compare-configuration": "node scripts/compare-configuration-regression.mjs",
-    "test:wearable": "node scripts/wearable-regression.mjs && node scripts/device-model-regression.mjs",
+    "test:wearable": "node scripts/wearable-regression.mjs && node scripts/device-model-regression.mjs && node scripts/catalog-list-regression.mjs",
     "sync:wearable": "node scripts/sync-wearable-devices.mjs",
     "test:device-advisor": "node scripts/device-advisor-regression.mjs",
     "test:device-advisor-api": "node scripts/device-advisor-api-regression.mjs",

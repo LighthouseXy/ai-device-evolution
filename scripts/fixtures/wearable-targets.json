@@ -162,7 +162,14 @@
     "params": "https://detail.zol.com.cn/1949/1948990/param.shtml",
     "overview": "https://detail.zol.com.cn/GPSwatch/index1948990.shtml",
     "releaseUrl": "https://www.ithome.com/0/732/256.htm",
-    "releasePattern": "vivo WATCH 3 手表发布[^。]{0,100}"
+    "releasePattern": "vivo WATCH 3 手表发布[^。]{0,100}",
+    "additionalSpecs": {
+      "url": "https://www.vivo.com.cn/vivo/vivowatch3/",
+      "model": "vivo WATCH 3",
+      "fields": {
+        "colors": "辰夜黑、月光白"
+      }
+    }
   },
   {
     "id": "samsung-galaxy-watch7-40-2024",
@@ -219,7 +226,10 @@
     "params": "https://detail.zol.com.cn/2004/2003753/param.shtml",
     "overview": "https://detail.zol.com.cn/IntelligentBracelet/index2003753.shtml",
     "releaseUrl": "https://www.ithome.com/0/756/521.htm",
-    "releasePattern": "荣耀手环 9 发布[^。]{0,120}"
+    "releasePattern": "荣耀手环 9 发布[^。]{0,120}",
+    "supplement": {
+      "colors": "曜石黑、云水蓝、晨辉紫"
+    }
   },
   {
     "id": "redmi-watch-4-2023",
@@ -957,6 +967,13 @@
         "pattern": "43\\.3x44\\.4x9\\.8mm",
         "reason": "40mm页尺寸与44mm页相同，版本不一致，待补充准确尺寸"
       }
+    },
+    "additionalSpecs": {
+      "url": "https://www.samsung.com.cn/watches/galaxy-watch/galaxy-watch5-44mm-silver-bluetooth-sm-r910nzsachc/",
+      "model": "Galaxy Watch5",
+      "fields": {
+        "colors": "哥特太空、繁樱花园、幽紫秘境"
+      }
     }
   },
   {
@@ -1436,7 +1453,14 @@
     "params": "https://detail.zol.com.cn/1949/1948988/param.shtml",
     "overview": "https://detail.zol.com.cn/GPSwatch/index1948988.shtml",
     "releaseUrl": "https://www.ithome.com/0/732/256.htm",
-    "releasePattern": "vivo WATCH 3 手表发布"
+    "releasePattern": "vivo WATCH 3 手表发布",
+    "additionalSpecs": {
+      "url": "https://www.vivo.com.cn/vivo/vivowatch3/",
+      "model": "vivo WATCH 3",
+      "fields": {
+        "colors": "辰夜黑、月光白"
+      }
+    }
   },
   {
     "id": "vivo-watch-3-bluetooth-leather-2023",
@@ -1450,7 +1474,14 @@
     "params": "https://detail.zol.com.cn/1949/1948989/param.shtml",
     "overview": "https://detail.zol.com.cn/GPSwatch/index1948989.shtml",
     "releaseUrl": "https://www.ithome.com/0/732/256.htm",
-    "releasePattern": "vivo WATCH 3 手表发布"
+    "releasePattern": "vivo WATCH 3 手表发布",
+    "additionalSpecs": {
+      "url": "https://www.vivo.com.cn/vivo/vivowatch3/",
+      "model": "vivo WATCH 3",
+      "fields": {
+        "colors": "皓月、星辉"
+      }
+    }
   },
   {
     "id": "vivo-watch-3-esim-leather-2023",
@@ -1464,7 +1495,14 @@
     "params": "https://detail.zol.com.cn/1948/1947798/param.shtml",
     "overview": "https://detail.zol.com.cn/GPSwatch/index1947798.shtml",
     "releaseUrl": "https://www.ithome.com/0/732/256.htm",
-    "releasePattern": "vivo WATCH 3 手表发布"
+    "releasePattern": "vivo WATCH 3 手表发布",
+    "additionalSpecs": {
+      "url": "https://www.vivo.com.cn/vivo/vivowatch3/",
+      "model": "vivo WATCH 3",
+      "fields": {
+        "colors": "皓月、星辉"
+      }
+    }
   },
   {
     "id": "vivo-watch-gt-esim-2024",

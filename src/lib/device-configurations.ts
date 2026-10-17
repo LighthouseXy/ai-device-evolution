@@ -120,10 +120,16 @@ export function getPriceConfiguration(device: FlattenedDevice, price: PriceField
   if (price.unit && price.unit !== "CNY") return null;
   if (/美版|港版|日版|韩版|台版|海外版|国际版|欧版|外版|非国行/.test(rawConfiguration)) return null;
   if (device.editions) {
-    // 报价始终验证原款式，不把陶瓷/真皮款的价格套到其他颜色或表带。
+    // 非穿戴版本可能有相同容量但不同芯片/内存制式，先按原报价记录找所属版本。
     for (const edition of device.editions) {
+      if (device.category !== "watch" && device.category !== "band"
+        && ![...(edition.device.launchPrices ?? []), ...(edition.device.currentPrices ?? []), ...(edition.device.usedPrices ?? [])]
+          .some(original => original.sourceUrl === price.sourceUrl && original.configuration === rawConfiguration
+            && original.value === price.value && original.condition === price.condition
+            && original.observedAt === price.observedAt)) continue;
       const configuration = getPriceConfiguration(edition.device, price);
-      if (configuration) return { ...configuration, description: device.editions.length > 1 ? edition.label : configuration.description };
+      if (configuration) return { ...configuration, key: device.editions.length > 1 ? `${edition.device.id}|${configuration.key}` : configuration.key,
+        description: device.editions.length > 1 ? `${edition.label}${configuration.storage ? ` · ${formatConfiguration(configuration)}` : ""}` : configuration.description };
     }
     return null;
   }
@@ -262,6 +268,7 @@ export function getPricesForComparison(device: FlattenedDevice, priceType: "curr
   const entries = getValidPriceFields(device, priceType).map((price) => ({
     value: price.value,
     estimated: /预估到手价/.test(price.condition ?? ""),
+    availabilityNote: /暂时缺货|无货|售罄/.test(price.condition ?? "") ? "缺货标价" : undefined,
     configuration: getPriceConfiguration(device, price)!,
     description: `${price.configuration}${price.condition ? `；${price.condition}` : ""}`,
   }));
@@ -275,6 +282,7 @@ export function getPricesForComparison(device: FlattenedDevice, priceType: "curr
     return {
       value: entry.value,
       estimated: entry.estimated,
+      availabilityNote: entry.availabilityNote,
       configuration: siblings.length > 1 || hasVariants ? { ...entry.configuration, description } : entry.configuration,
     };
   }).sort(
@@ -290,7 +298,9 @@ export function getLaunchPriceRows(device: FlattenedDevice) {
     const prices = edition.device.launchPrices ?? [];
     if (!prices.length) return [{ configuration: edition.label, amount: "待补充" }];
     return prices.map(price => ({
-      configuration: device.editions && device.editions.length > 1 ? edition.label : price.configuration ?? "",
+      configuration: device.editions && device.editions.length > 1
+        ? `${edition.label}${edition.device.category === "watch" || edition.device.category === "band" ? "" : ` · ${price.configuration ?? "配置待补充"}`}`
+        : price.configuration ?? "",
       amount: `${formatMaybeCurrency(price.value ?? undefined)}${price.condition && price.condition !== "首发全新" ? `（${price.condition}）` : ""}`,
     }));
   });

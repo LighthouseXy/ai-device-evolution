@@ -286,8 +286,8 @@ export function parseCameraMegapixels(value: string): number | undefined {
   const mp = value.match(/(\d+(?:\.\d+)?)\s*MP/i);
   if (mp) return Number(mp[1]);
 
-  const chinese = value.match(/(\d+(?:\.\d+)?)\s*万像素/);
-  return chinese ? Number(chinese[1]) / 100 : undefined;
+  const chinese = value.match(/(\d+(?:\.\d+)?)\s*(万|亿)像素/);
+  return chinese ? Number(chinese[1]) * (chinese[2] === "亿" ? 100 : 0.01) : undefined;
 }
 
 // 从 ComputedField 中取值
@@ -425,39 +425,35 @@ export const getComparisonGroupKey = (family: string, variant: string, tier?: st
   [family, variant, tier].filter(Boolean).join("::");
 
 const devicesByComparisonGroupFlat = new Map<string, FlattenedDevice[]>();
-const legacyComparisonGroupAliases = new Map<string, string>();
+const legacyComparisonGroups = new Map<string, FlattenedDevice[]>();
 for (const device of catalogDevicesFlat) {
   const key = device.comparisonGroupId;
   const group = devicesByComparisonGroupFlat.get(key) ?? [];
   group.push(device);
   devicesByComparisonGroupFlat.set(key, group);
-  const legacyKey = getComparisonGroupKey(device.family, device.variant, device.tier);
-  if (!legacyComparisonGroupAliases.has(legacyKey)) {
-    legacyComparisonGroupAliases.set(legacyKey, device.comparisonGroupId);
-  }
 }
-// 旧配色/表带链接仍定位到对应机型，不能变成另一条独立代际。
+for (const [key, devices] of devicesByComparisonGroupFlat) legacyComparisonGroups.set(key, [...devices]);
+// 一个旧分支可对应多个归并型号，不能被最后一条映射覆盖；尺寸/芯片分支仍不混入。
 for (const device of allDevicesFlat) {
   const model = getCatalogDevice(device.id)!;
-  legacyComparisonGroupAliases.set(device.comparisonGroupId, model.comparisonGroupId);
-  legacyComparisonGroupAliases.set(getComparisonGroupKey(device.family, device.variant, device.tier), model.comparisonGroupId);
+  for (const key of [device.comparisonGroupId, getComparisonGroupKey(device.family, device.variant, device.tier)]) {
+    const group = legacyComparisonGroups.get(key) ?? [];
+    if (!group.includes(model)) group.push(model);
+    legacyComparisonGroups.set(key, group);
+  }
 }
-for (const group of devicesByComparisonGroupFlat.values()) {
+for (const group of [...devicesByComparisonGroupFlat.values(), ...legacyComparisonGroups.values()]) {
   group.sort((left, right) => left.releaseYear - right.releaseYear || left.generationOrder - right.generationOrder);
 }
 
-const tieredComparisonGroups = new Set(
-  catalogDevicesFlat
-    .filter((device) =>
-      catalogDevicesFlat.some(
-        (other) =>
-          other.family === device.family &&
-          other.variant === device.variant &&
-          other.tier !== device.tier,
-      ),
-    )
-    .map((device) => `${device.family}::${device.variant}`),
-);
+const tiersByFamilyVariant = new Map<string, Set<string | undefined>>();
+for (const device of catalogDevicesFlat) {
+  const key = `${device.family}::${device.variant}`;
+  const tiers = tiersByFamilyVariant.get(key) ?? new Set<string | undefined>();
+  tiers.add(device.tier);
+  tiersByFamilyVariant.set(key, tiers);
+}
+const tieredComparisonGroups = new Set([...tiersByFamilyVariant].filter(([, tiers]) => tiers.size > 1).map(([key]) => key));
 
 /** 生成面向用户的比较组名称；芯片档位只作为必要的附加维度，不混入产品族。 */
 export function getComparisonGroupLabelFlat(family: string, variant: string, tier?: string) {
@@ -507,13 +503,29 @@ export function getCatalogSeriesOptions(minimumDevices = 1) {
 
 /** 浏览系列合并版本后缀；严格比较组仍独立，不能用于推断直接前代。 */
 export function getCatalogFamilyOptions() {
-  const families = new Map<string, ReturnType<typeof getCatalogSeriesOptions>[number] & { groupKeys: string[] }>();
+  const families = new Map<string, ReturnType<typeof getCatalogSeriesOptions>[number] & { groupKeys: string[]; aliases: string[] }>();
+  const familyByGroup = new Map<string, string>();
   for (const group of getCatalogSeriesOptions()) {
+    familyByGroup.set(group.key, group.catalogKey);
     const family = families.get(group.catalogKey);
     if (family) { family.count += group.count; family.groupKeys.push(group.key); }
-    else families.set(group.catalogKey, { ...group, key: group.catalogKey, label: group.catalogLabel, groupKeys: [group.key] });
+    else families.set(group.catalogKey, { ...group, key: group.catalogKey, label: group.catalogLabel, groupKeys: [group.key], aliases: [] });
+  }
+  for (const [key, models] of legacyComparisonGroups) {
+    if (devicesByComparisonGroupFlat.has(key)) continue;
+    const familyKeys = new Set(models.map(model => familyByGroup.get(model.comparisonGroupId)));
+    if (familyKeys.size === 1) {
+      const family = families.get([...familyKeys][0]!);
+      if (family) family.aliases.push(key);
+    }
   }
   return [...families.values()];
+}
+
+export function resolveCatalogComparisonGroupKey(key: string) {
+  const models = legacyComparisonGroups.get(key);
+  return models?.length && models.every(model => model.comparisonGroupId === models[0].comparisonGroupId)
+    ? models[0].comparisonGroupId : key;
 }
 
 const seriesByCategoryFlat = new Map<DeviceCategory, string[]>(
@@ -544,9 +556,7 @@ export const getDevicesByComparisonGroupFlat = (family: string, variant: string,
   getDevicesByComparisonGroupKeyFlat(getComparisonGroupKey(family, variant, tier));
 
 export const getDevicesByComparisonGroupKeyFlat = (key: string) =>
-  devicesByComparisonGroupFlat.get(key) ??
-  devicesByComparisonGroupFlat.get(legacyComparisonGroupAliases.get(key) ?? "") ??
-  [];
+  legacyComparisonGroups.get(key) ?? [];
 
 export const getComparisonGroupsByCategoryFlat = (category: DeviceCategory) =>
   comparisonGroupsFlat.filter((group) => group.category === category);

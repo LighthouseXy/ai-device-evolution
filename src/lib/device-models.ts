@@ -10,13 +10,18 @@ export const getDeviceModelId = (id: string) => groupsByRecord.get(id)?.id ?? id
 export const getDeviceModelGroup = (id: string) => groupsByRecord.get(id);
 export const getDeviceModelName = (id: string) => groupsByRecord.get(id)?.model ?? names[id];
 
-// 来源记录不改写；目录只按人工确认的同款映射归并，不靠名字相似度猜型号。
+// 来源记录不改写；目录按已检查的同型号映射归并，版本差异逐项保留，不靠名字相似度猜。
 export function organizeDeviceModels(records: FlattenedDevice[]) {
   const byId = new Map(records.map(device => [device.id, device]));
   return records.filter(device => getDeviceModelId(device.id) === device.id).map(device => {
     const group = groupsByRecord.get(device.id);
     const model = group?.model ?? names[device.id];
-    if (!model) return device;
+    // 单一联网版本的三星手表也沿用同尺寸代际，避免归并后将早期蓝牙款拆出时间线。
+    const variant = group?.variant ?? (device.brand === "Samsung" && device.category === "watch"
+      ? device.variant.replace(/-(bluetooth|lte)$/, "") : device.variant);
+    const comparisonGroupId = variant !== device.variant
+      ? `${device.comparisonGroupId.slice(0, -device.variant.length)}${variant}` : device.comparisonGroupId;
+    if (!model) return variant === device.variant ? device : { ...device, variant, comparisonGroupId };
     const editions = Object.entries(group?.editions ?? { [device.id]: device.model }).map(([id, label]) => {
       const original = byId.get(id);
       if (!original) throw new Error(`${id}: 同款整理缺少来源记录`);
@@ -31,12 +36,10 @@ export function organizeDeviceModels(records: FlattenedDevice[]) {
       else specs[key] = editions.flatMap((edition, index) => key.endsWith("Note") && values[index] == null ? []
         : [`${edition.label}：${typeof values[index] === "boolean" ? values[index] ? "支持" : "不支持" : values[index] ?? "待补充"}`]).join("\n");
     }
-    const variant = group?.variant ?? device.variant;
     const shared = <K extends "chip" | "screenSize" | "refreshRate" | "weight" | "aiFeatureLevel">(key: K) =>
       editions.every(edition => edition.device[key] === device[key]) ? device[key] : undefined;
     const prices = editions.map(edition => edition.device.launchPrice).filter((price): price is number => typeof price === "number");
-    return { ...device, model, variant, specs, editions,
-      ...(variant !== device.variant ? { comparisonGroupId: `${device.comparisonGroupId.slice(0, -device.variant.length)}${variant}` } : {}),
+    return { ...device, model, variant, comparisonGroupId, specs, editions,
       chip: shared("chip") ?? "", screenSize: shared("screenSize"), refreshRate: shared("refreshRate"), weight: shared("weight"),
       aiFeatureLevel: shared("aiFeatureLevel"), launchPrice: prices.length ? Math.min(...prices) : undefined,
       launchPrices: editions.flatMap(edition => edition.device.launchPrices ?? []),

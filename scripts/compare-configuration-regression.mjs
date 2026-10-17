@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 import { loadTsModule } from "./lib/load-ts-module.mjs";
 
 const { transformPhoto } = loadTsModule("./src/lib/photo-zoom.ts");
@@ -59,9 +60,13 @@ for (const [group, earlier, later] of [
   assert.ok(ids.indexOf(earlier) < ids.indexOf(later), "同年设备应使用已核验月份顺序，不能把只有年份的记录一律放在年初");
 }
 const { brandOrder, sortBrands, getCatalogProductSeries } = loadTsModule("./src/lib/catalog-order.ts");
-assert.deepEqual(sortBrands(["HONOR", "Apple", "Huawei", "vivo", "Samsung", "Xiaomi", "Redmi", "OPPO", "Apple"]), brandOrder);
+const existingBrandOrder = ["Apple", "Xiaomi", "Redmi", "Samsung", "Huawei", "OPPO", "vivo", "HONOR"];
+assert.deepEqual(brandOrder, [...existingBrandOrder, "Google", "Other"], "预留品牌顺序不代表已收录设备");
+assert.deepEqual(sortBrands(["HONOR", "Apple", "Huawei", "vivo", "Samsung", "Xiaomi", "Redmi", "OPPO", "Apple"]), existingBrandOrder);
+assert.deepEqual(sortBrands(["Other", "Google", ...existingBrandOrder.toReversed(), "Google"]), brandOrder);
 const catalog = getCatalogSeriesOptions();
-assert.deepEqual([...new Set(catalog.map((group) => group.brand))], brandOrder);
+const recordedBrands = [...new Set(allDevicesFlat.map((device) => device.brand))];
+assert.deepEqual([...new Set(catalog.map((group) => group.brand))], sortBrands(recordedBrands), "目录只包含实际收录的品牌，并保持已批准顺序");
 assert.equal(devices.get("redmi-book-pro-16-2024").brand, "Redmi");
 assert.equal(devices.get("redmi-k20-2019").brand, "Redmi");
 assert.equal(devices.get("xiaomi-17-2025").brand, "Xiaomi");
@@ -97,7 +102,10 @@ for (const [brand, category, label, strictKeys] of [
   ["HONOR", "tablet", "荣耀平板 V 系列", ["honor.tablet.pad-v.standard", "honor.tablet.pad-v-pro.standard"]],
 ]) {
   const family = catalogFamilies.find(group => group.brand === brand && group.category === category && group.label === label);
-  assert.ok(family && strictKeys.every(key => family.groupKeys.includes(key)), `${brand} ${label} 应合并尺寸、版本或档位分支`);
+  assert.ok(family && strictKeys.every(key => {
+    const models = getDevicesByComparisonGroupKeyFlat(key);
+    return models.length && models.every(device => family.groupKeys.includes(device.comparisonGroupId));
+  }), `${brand} ${label} 的现有及旧版本分支均应定位到同一浏览系列`);
 }
 for (const family of catalogFamilies) {
   assert.ok(family.groupKeys.every(key => getDevicesByComparisonGroupKeyFlat(key).every(device =>
@@ -184,7 +192,8 @@ assert.ok(!seriesSelect.includes("Pro Premium") && !seriesSelect.includes("High 
 assert.ok(!redmiCatalogFilters.includes("型号分支"), "设备库没有额外版本选择器");
 const redmiCompareFilters = renderPage(createElement(DeviceCatalogFilters, { path: "/compare", groups: getCatalogSeriesOptions(2),
   brand: "Redmi", category: "phone", series: "xiaomi.phone.redmi-k-pro.standard" }));
-assert.ok(redmiCompareFilters.includes("型号分支") && /catalog-k[^>]*selected/.test(redmiCompareFilters), "比较页定位合并系列，具体分支仍独立");
+assert.ok(!redmiCompareFilters.includes("型号分支") && redmiCompareFilters.includes("产品型号")
+  && /value="xiaomi.phone.redmi-k-pro.standard" selected/.test(redmiCompareFilters), "比较页直接选择严格型号，不再拆成系列与分支");
 for (const brand of ["Apple", "Samsung", "Huawei", "OPPO", "vivo", "HONOR"]) {
   const family = catalogFamilies.find(group => group.brand === brand && group.category === "phone");
   const libraryFilters = renderPage(createElement(DeviceCatalogFilters, { path: "/devices", groups: catalogFamilies,
@@ -195,7 +204,7 @@ for (const brand of ["Apple", "Samsung", "Huawei", "OPPO", "vivo", "HONOR"]) {
     const groups = getCatalogSeriesOptions(2);
     const selected = groups.find(group => group.catalogKey === family.key);
     const filters = renderPage(createElement(DeviceCatalogFilters, { path, groups, brand, category: "phone", series: selected.key }));
-    assert.ok(filters.includes(`value="${family.key}" selected=""`), "对比与趋势的旧严格组链接应定位到合并系列");
+    assert.ok(filters.includes("产品型号") && !filters.includes("型号分支"), "对比与趋势仅保留一个型号选择器");
     assert.ok(filters.includes(`value="${selected.key}" selected=""`), "具体分支不能在系列合并时丢失");
   }
 }
@@ -255,26 +264,82 @@ assert.ok(detailMarkup.includes(renderToStaticMarkup(createElement("dd", { class
   createElement("span", null, "说明"), detailDevice.specs.memoryNote))),
   "备注不能在布局调整时被删除或改写");
 const { getCameraDetailPresentation } = loadTsModule("./src/lib/device-spec-fields.ts");
+const referenceCameraIds = JSON.parse(readFileSync("scripts/fixtures/xiaomi-camera-targets.json", "utf8"));
+const samsungCameraIds = [24, 25, 26].flatMap(generation => ["", "-plus", "-ultra"].map(tier => `samsung-galaxy-s${generation}${tier}-${generation + 2000}`));
+for (const id of [...referenceCameraIds, ...samsungCameraIds]) {
+  const device = devices.get(id), presentation = getCameraDetailPresentation(device);
+  assert.equal(presentation.values.rearCamera, "", `${id}: 总述不重复显示`);
+  assert.deepEqual(presentation.notes, {}, `${id}: 影像内容已经归入具体镜头`);
+  for (const key of ["mainCamera", "ultraWide", "telephoto", "macroCamera", "depthCamera"]) {
+    if (device.specs[key]) assert.equal(presentation.values[key], device.specs[key], `${id}.${key}: 展示不能重复拼接像素或光圈`);
+  }
+}
+for (const id of ["huawei-pura-80-2025", "huawei-pura-80-pro-2025", "huawei-pura-80-pro-plus-2025",
+  "huawei-pura-80-ultra-2025", "oppo-find-x8-2024", "oppo-find-x8-pro-2024", "oppo-find-x8-ultra-2025",
+  "vivo-x200-2024", "vivo-x200-pro-2024", "vivo-x200-pro-mini-2024", "vivo-x200-ultra-2025"]) {
+  const device = devices.get(id), presentation = getCameraDetailPresentation(device);
+  assert.equal(presentation.values.rearCamera, "", `${id}: 明确镜头补证后不再重复后置总述`);
+  assert.deepEqual(presentation.notes, {}, `${id}: 已归入镜头的数据不能重新变成补充段`);
+  for (const key of ["mainCamera", "ultraWide", "telephoto"]) assert.equal(presentation.values[key], device.specs[key]);
+  assert.ok(getDeviceSpecFields([device]).some(field => field.key === "videoRecording"));
+}
 const cameraPresentation = getCameraDetailPresentation(detailDevice);
-assert.ok(!detailMarkup.includes('<dt class="device-spec-label">后置摄像头</dt>') && detailMarkup.includes('<dt class="device-spec-label">影像补充</dt>'),
-  "已有镜头分项时去掉重复总述，只显示未覆盖的影像补充");
-for (const key of ["mainCamera", "ultraWide", "telephoto"]) assert.ok(!cameraPresentation.supplement.includes(detailDevice.specs[key]), "影像补充不能再重复分项");
-assert.ok(cameraPresentation.supplement.includes("同时支持 1200 万像素光学品质的 2 倍长焦功能"), "总述中特有的 2 倍长焦说明不丢失");
-for (const part of cameraPresentation.supplement.split("；")) assert.ok(detailMarkup.includes(renderToStaticMarkup(createElement("li", null, part))), "未重复的原文完整保留");
+assert.ok(!detailMarkup.includes('<dt class="device-spec-label">后置摄像头</dt>') && !detailMarkup.includes('影像补充'),
+  "可归入镜头的总述不再单列补充字段");
+assert.ok(cameraPresentation.values.mainCamera.includes("同时支持 1200 万像素光学品质的 2 倍长焦功能"),
+  "主摄裁切的光学品质长焦归入主摄，不丢失原文也不混成独立长焦镜头");
+assert.equal(cameraPresentation.values.telephoto, detailDevice.specs.telephoto);
 const cameraFixture = { ...detailDevice, specs: {mainCamera:"50MP 主摄", ultraWide:"12MP 超广角", rearCamera:"50MP 主摄；12MP 超广角"} };
-assert.equal(getCameraDetailPresentation(cameraFixture).supplement, "", "完全重复的总述无需补充行");
-assert.equal(getCameraDetailPresentation({...cameraFixture, specs:{rearCamera:"双摄系统", mainCamera:"50MP 主摄"}}).supplement, undefined,
-  "镜头分项不足时保留总述，不假装完整");
-assert.ok(getCameraDetailPresentation(devices.get("oppo-find-x9-2025")).supplement.includes("5000 万像素超广角摄像头"),
-  "安卓机未建立分项的镜头仍保留原文，不因去重而丢失");
+assert.equal(getCameraDetailPresentation(cameraFixture).values.rearCamera, "", "完全重复的总述无需补充行");
+assert.match(getCameraDetailPresentation({...cameraFixture, specs:{rearCamera:"双摄系统", mainCamera:"50MP 主摄"}}).notes.mainCamera, /双摄系统/,
+  "未明确分项的系统说明保留在组合备注中，不伪造第二个镜头");
+assert.equal(getCameraDetailPresentation(devices.get("oppo-find-x9-2025")).values.ultraWide, "5000 万像素超广角摄像头",
+  "安卓总述中的超广角建立分项，不再只是把原文移到补充行");
 const legacyCamera = getCameraDetailPresentation(devices.get("iphone-13"));
-assert.deepEqual(legacyCamera.omittedLensKeys, ["mainCamera", "ultraWide"]);
-assert.equal(legacyCamera.supplement, undefined, "历史双摄总述不能伪装成两条独立镜头规格");
-assert.deepEqual(getCameraDetailPresentation({...detailDevice, specs:{mainCamera:"主摄及超广角",ultraWide:"主摄及超广角"}}).omittedLensKeys, [],
-  "总述缺失时不能删除唯一已知的镜头信息");
+assert.match(legacyCamera.values.mainCamera, /ƒ\/1\.6/);
+assert.match(legacyCamera.values.ultraWide, /ƒ\/2\.4/);
+assert.ok(!legacyCamera.values.ultraWide.includes("主摄"), "历史重复总述按明确标签拆分，不能把主摄规格写进超广角");
+assert.match(legacyCamera.notes.mainCamera, /1200 万像素双摄系统/, "无法独立归属的组合像素口径保留原文");
 const legacyCameraMarkup = renderPage(await DeviceDetailPage({ params: Promise.resolve({id:"iphone-13"}) }));
-assert.ok(legacyCameraMarkup.includes('<dt class="device-spec-label">后置摄像头</dt>') && !legacyCameraMarkup.includes('<dt class="device-spec-label">主摄</dt>'),
-  "重复且未细分的镜头改为保留一条完整总述");
+assert.ok(!legacyCameraMarkup.includes('<dt class="device-spec-label">后置摄像头</dt>') && legacyCameraMarkup.includes('<dt class="device-spec-label">主摄</dt>'),
+  "历史镜头已有明确分项时同样归入对应字段");
+const screenshotCamera = devices.get("xiaomi-18-pro-2026");
+const screenshotSpecsBefore = JSON.stringify(screenshotCamera.specs);
+const screenshotFields = getDeviceSpecFields([screenshotCamera]);
+assert.ok(screenshotFields.some(field => field.key === "ultraWide") && !screenshotFields.some(field => field.key === "rearCamera"));
+const screenshotCameraValues = getCameraDetailPresentation(screenshotCamera).values;
+assert.equal(screenshotCameraValues.mainCamera, "2亿像素,主摄，光影猎人960，F1.67");
+assert.equal(screenshotCameraValues.ultraWide, "5000万像素,超广角摄像头，F2.4");
+assert.equal(screenshotCameraValues.telephoto, "2亿像素,潜望长焦摄像头，F2.4");
+assert.equal(JSON.stringify(screenshotCamera.specs), screenshotSpecsBefore, "展示整理不能改写原始参数及 AI 输入事实");
+const screenshotMarkup = renderPage(await DeviceDetailPage({params:Promise.resolve({id:screenshotCamera.id})}));
+assert.ok(screenshotMarkup.includes('超广角') && screenshotMarkup.includes('光影猎人960') && !screenshotMarkup.includes('影像补充'));
+const cameraCases = [
+  { specs:{rearCamera:"5000万像素主摄+1200万像素超广角+1000万像素长焦"}, key:"ultraWide", value:"1200万像素超广角" },
+  { specs:{rearCamera:"5000万像素蔡司主摄 2亿像素蔡司长焦 5000万像素超广角"}, key:"telephoto", value:"2亿像素蔡司长焦" },
+  { specs:{rearCamera:"主摄：5000万像素（条件A；条件B）；超广角：1200万像素"}, key:"mainCamera", value:"主摄：5000万像素（条件A；条件B）" },
+  { specs:{rearCamera:"5000万像素超广角，5cm微距，AF自动对焦"}, key:"ultraWide", value:"5000万像素超广角，5cm微距，AF自动对焦" },
+  { specs:{rearCamera:"5000万像素主摄+200万像素景深镜头+200万像素微距镜头"}, key:"depthCamera", value:"200万像素景深镜头" },
+  { specs:{rearCamera:"5000万像素主摄+红枫原色摄像头"}, key:"colorCamera", value:"红枫原色摄像头" },
+  { specs:{rearCamera:"5000万像素主摄",rearCameraNote:"另有200万像素丹霞原彩镜头"}, key:"colorCamera", value:"另有200万像素丹霞原彩镜头" },
+  { specs:{rearCamera:"后置摄像头1：5000万像素 后置摄像头2：800万像素"}, key:"rearCamera", value:"后置摄像头1：5000万像素 后置摄像头2：800万像素" },
+  { specs:{rearCamera:"5000万像素+800万像素+200万像素"}, key:"rearCamera", value:"5000万像素+800万像素+200万像素" },
+  { specs:{rearCamera:"1300万像素高清摄像头+800万像素广角摄像头，f/1.8+f/2.2光圈"}, key:"rearCamera", value:"1300万像素高清摄像头+800万像素广角摄像头，f/1.8+f/2.2光圈" },
+  { specs:{mainCamera:"5000万像素主摄",rearCamera:"5400万像素主摄+1200万像素超广角"}, key:"mainCamera", value:"5000万像素主摄" },
+];
+for (const {specs, key, value} of cameraCases) {
+  const device = {...detailDevice, specs};
+  const presentation = getCameraDetailPresentation(device);
+  assert.equal(presentation.values[key], value);
+  assert.equal(formatDeviceSpec(device, {key,label:key,group:"影像"}), value);
+}
+const croppedMain = getCameraDetailPresentation(devices.get("iphone-17"));
+assert.equal(croppedMain.values.telephoto, "", "主摄裁切不能显示为独立长焦镜头");
+assert.match(croppedMain.values.mainCamera, /光学品质的 2 倍长焦/);
+assert.ok(!getDeviceSpecFields([devices.get("iphone-17")]).some(field=>field.key==="telephoto"));
+const cameraCompareMarkup = renderPage(await loadTsModule("./src/components/CustomCompareContent.tsx").CustomCompareContent({query:{mode:"cross",device1:screenshotCamera.id,device2:"oppo-find-x9-2025"}}));
+assert.ok(cameraCompareMarkup.includes('超广角') && cameraCompareMarkup.includes('光影猎人960') && !cameraCompareMarkup.includes('影像补充'));
+assert.ok(!cameraCompareMarkup.includes('后置摄像头'), "跨品牌对比同步使用镜头分项，不重复展示总述");
 assert.ok(!detailMarkup.includes("<details") && !detailMarkup.includes("<summary") && !detailMarkup.includes("device-spec-preview"),
   "参数完整显示，不使用详情折叠或截断摘要");
 for (const field of getDeviceSpecFields([detailDevice]).filter(field => ["mainCamera", "ultraWide", "telephoto", "displayType", "port"].includes(field.key))) {
@@ -316,7 +381,31 @@ assert.ok(androidDetail.includes('<dt class="device-spec-label">电池容量</dt
 const { CustomCompareContent } = loadTsModule("./src/components/CustomCompareContent.tsx");
 const crossQuery = { device1: "iphone-17", device2: "xiaomi-17-2025", device3: "" };
 const crossMarkup = renderPage(createElement(CustomCompareContent, { query: crossQuery }));
-assert.ok(crossMarkup.includes('aria-label="品牌 1"') && crossMarkup.includes('aria-label="产品系列 1"') && crossMarkup.includes('aria-label="具体型号 1"'));
+const { getComparisonCount, normalizeComparisonCount, resizeComparisonSelection } = loadTsModule("@/lib/comparison-selection");
+assert.equal(getComparisonCount({}), 2);
+assert.equal(getComparisonCount(crossQuery), 3, "兼容已有三栏网址");
+for (const value of ["", "NaN", "Infinity", "2.5", "1", "11", "99999", "2e1", "-1"]) assert.equal(normalizeComparisonCount(value), 2);
+assert.equal(getComparisonCount({ count: "10" }), 10);
+assert.equal(getComparisonCount({ count: ["10", "3"] }), 2);
+assert.deepEqual(resizeComparisonSelection(["one", "two"], 4), ["one", "two", "", ""]);
+assert.deepEqual(resizeComparisonSelection(["one", "two", "three"], 2), ["one", "two"]);
+const multiQuery = { ...crossQuery, count: "4", device3: "iphone-16", device4: "iphone-17" };
+const multiMarkup = renderPage(createElement(CustomCompareContent, { query: multiQuery }));
+assert.equal((multiMarkup.match(/class="custom-device-slot"/g) ?? []).length, 4);
+assert.equal((multiMarkup.match(/class="compare-overview-card/g) ?? []).length, 3, "不同栏不能选重复机型");
+const defaultCrossMarkup = renderPage(createElement(CustomCompareContent, { query: {} }));
+assert.equal((defaultCrossMarkup.match(/class="custom-device-slot"/g) ?? []).length, 2);
+assert.ok(!defaultCrossMarkup.includes("3 台</button>") && defaultCrossMarkup.includes('max="10"'), "数量仅提供默认两台及2–10台自定义");
+const tenMarkup = renderPage(createElement(CustomCompareContent, { query: { count: "10", device1: "iphone-17", device2: "xiaomi-17-2025" } }));
+assert.equal((tenMarkup.match(/class="custom-device-slot"/g) ?? []).length, 10);
+assert.equal((tenMarkup.match(/class="compare-overview-card/g) ?? []).length, 2, "空栏不填充虚构或默认机型");
+const wrongCategory = renderPage(createElement(CustomCompareContent, { query: { ...crossQuery, count: "2", device2: "ipad-a16-2025" } }));
+assert.ok(wrongCategory.includes("请至少选择两台") && !wrongCategory.includes("compare-overview-card"));
+const { rememberedPageHref } = loadTsModule("@/lib/page-navigation");
+assert.equal(rememberedPageHref("/compare", "/compare?mode=cross&count=4"), "/compare?mode=cross&count=4");
+for (const href of ["https://other.test/compare", "//other.test/compare", "/devices?category=phone", "/compare/other", "javascript:alert(1)"])
+  assert.equal(rememberedPageHref("/compare", href), "/compare", "导航恢复只能使用同站点同一页面");
+assert.ok(crossMarkup.includes('aria-label="品牌 1"') && crossMarkup.includes('aria-label="产品型号 1"') && crossMarkup.includes('aria-label="具体型号 1"'));
 assert.ok(!crossMarkup.includes("配置 1") && !crossMarkup.includes("所选配置"));
 for (const amount of [5099, 5199, 5499]) assert.ok(crossMarkup.includes(formatMaybeCurrency(amount)), "跨品牌对比不得只保留第一配置或前两笔价格");
 assert.equal(renderPage(createElement(CustomCompareContent, { query: { ...crossQuery, config1: "2GB|64GB", config2: "12GB|256GB" } })), crossMarkup,
@@ -330,6 +419,28 @@ assert.ok(!sameMarkup.includes('id="compare-storage"') && sameMarkup.includes("�
 assert.equal(renderPage(await ComparePage({ searchParams: Promise.resolve({ ...sameQuery, storage: "64GB" }) })), sameMarkup);
 const AdvisorPanel = loadTsModule("./src/components/DeviceAdvisorPanel.tsx").default;
 const advisorMarkup = renderPage(createElement(AdvisorPanel, { initialCategory: "phone", categories: ["phone", "tablet", "laptop"] }));
+const { useSessionState } = loadTsModule("@/lib/use-session-state");
+let writeSession;
+let writeLoading;
+function SessionProbe() {
+  [, writeSession] = useSessionState("regression:advisor-state", 2);
+  [, writeLoading] = useSessionState("regression:advisor-loading", false, { persist: false });
+  return null;
+}
+renderPage(createElement(SessionProbe));
+const previousWindow = globalThis.window;
+const savedSession = new Map();
+globalThis.window = { sessionStorage: { getItem: key => savedSession.get(key), setItem: (key, value) => savedSession.set(key, value) }, dispatchEvent() {} };
+try {
+  writeSession(4); writeSession(value => value + 1);
+  assert.equal(savedSession.get("regression:advisor-state"), "5", "表单变更同步写入当前标签页，不触发模型请求");
+  writeLoading(true);
+  writeLoading(value => { assert.equal(value, true, "导航期间保留进行中的请求，避免重复调用模型"); return false; });
+  assert.ok(!savedSession.has("regression:advisor-loading"), "刷新不恢复已失效的请求状态");
+  window.sessionStorage.setItem = () => { throw new Error("storage unavailable"); };
+  writeSession(7); writeSession(value => value + 1);
+  assert.equal(savedSession.get("regression:advisor-state"), "5", "存储禁用时保留内存状态，不错误改写旧记录");
+} finally { if (previousWindow === undefined) delete globalThis.window; else globalThis.window = previousWindow; }
 assert.ok(!advisorMarkup.includes("最低运行内存") && !advisorMarkup.includes("最低存储空间") && !advisorMarkup.includes("配置要求（可选）"));
 for (const id of ["ipad-pro-m4-11-2024", "ipad-pro-m5-11-2025"]) {
   assert.match(devices.get(id).specs.cpuNote, /256GB 或 512GB 存储容量机型：9 核/);
@@ -1044,5 +1155,16 @@ assert.deepEqual(["redmi-book-14-2023", "redmi-book-14-2024", "redmi-book-14-202
   [undefined, 4199, 4599], "Redmi Book 14 launch prices must follow the named mainland configurations; missing prices stay missing");
 assert.deepEqual(getDeviceConfigurations(devices.get("redmi-book-14-2025")).map((item) => item.key),
   ["16GB|512GB", "16GB|1TB", "32GB|1TB"], "do not synthesize a 32GB+512GB Redmi Book 14 offer");
+
+for (const [id, expected] of [
+  ["xiaomi-15-2024", [["12GB|256GB", 3599], ["12GB|512GB", 3899], ["16GB|512GB", 4099], ["16GB|1TB", 4599]]],
+  ["redmi-k80-2024", [["12GB|256GB", 1999], ["16GB|256GB", 2199], ["12GB|512GB", 2399], ["16GB|512GB", 2699], ["16GB|1TB", 3199]]],
+]) {
+  const prices = getPricesForComparison(devices.get(id), "current");
+  assert.deepEqual(prices.map((price) => [price.configuration.key, price.value]), expected);
+  assert.ok(prices.every((price) => price.availabilityNote === "缺货标价"), "reference prices must not imply local availability");
+}
+assert.equal(getPricesForComparison(devices.get("iphone-17"), "current")[0]?.availabilityNote, undefined,
+  "do not infer a stock status when the source does not provide it");
 
 console.log("Passed compare configuration scenarios: shared_storage_options, latest_configuration_label, memory_table_value, mainstream_cap, latest_device_options, legacy_highest_only, legacy_price_visible, multi_configuration_prices, ipad_memory_tiers, macbook_independent_options, explicit_second_brand_configurations, xiaomi_used_prices, oppo_official_configurations, vivo_official_configurations, domestic_ultra_used_prices, huawei_pura_ultra_pilot, huawei_pura_prices, honor_magic_pro_pilot, honor_magic_prices, samsung_galaxy_s_ultra_prices");

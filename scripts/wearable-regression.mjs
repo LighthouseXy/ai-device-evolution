@@ -22,10 +22,17 @@ assert.ok(targets.every(target => wearable.some(device => device.id === target.i
 assert.deepEqual([...new Set(wearable.map(device => device.brand))].sort(), Object.keys(minYears).sort());
 assert.deepEqual(Object.fromEntries(["phone", "tablet", "laptop"].map(category =>
   [category, db.devices.filter(device => device.category === category).length])), { phone: 477, tablet: 160, laptop: 115 });
-assert.equal(createHash("sha256").update(await fs.readFile("src/data/apple-devices-db.json")).digest("hex"),
+// 仅还原已验收的两个颜色数组拆分，继续锁住其他所有非穿戴数据。
+const beforeColorSplit = device => ["iphone-18-pro", "iphone-18-pro-max"].includes(device.id)
+  ? { ...device, specs: { ...device.specs, colors: { ...device.specs.colors, value: [device.specs.colors.value.join("、")] } } }
+  : device;
+const appleBeforeColorSplit = await read("src/data/apple-devices-db.json");
+appleBeforeColorSplit.devices = appleBeforeColorSplit.devices.map(beforeColorSplit);
+assert.equal(createHash("sha256").update(JSON.stringify(appleBeforeColorSplit, null, 2) + "\n").digest("hex"),
   "8b05cd2513d7bbbf2675f9f6a6269012cf77daf2f7bc03417d0b3f9785ca1edc", "Apple既有数据未被穿戴采集改写");
-assert.equal(createHash("sha256").update(JSON.stringify(db.devices.filter(device => !["watch", "band"].includes(device.category)))).digest("hex"),
-  "6c1a9e8c1cde3e444aa00962c0b430c1d00c483ceca5ed3580a491e758fd4ffc", "不得改写现有手机、平板、笔记本");
+assert.equal(createHash("sha256").update(JSON.stringify(db.devices.filter(device => !["watch", "band"].includes(device.category)).map(beforeColorSplit))).digest("hex"),
+  // 中文影像补证与小米15发布配色补证后的基线；新增配色另有逐字快照回放。
+  "a62597b8c6e8c50efd65e9c903ce25afa2378ae97c5fd15cd37d1611a93af449", "穿戴采集不得改写现有手机、平板、笔记本");
 for (const device of wearable) {
   assert.ok(device.releaseYear >= minYears[device.brand] && device.releaseYear <= 2026);
   assert.equal(device.market, "CN");
@@ -95,6 +102,37 @@ assert.equal(readWearableRows({ ...sample, html: rows([["防护级别", "IP68防
 assert.equal(evidence({ ...sample, url: "https://consumer.huawei.com/cn/wearables/watch-fit4/specs/" }, "AMOLED", "AMOLED").sourceType, "official");
 assert.equal(evidence({ ...sample, url: "https://consumer.huawei.com.example.com/cn/wearables/" }, "AMOLED", "AMOLED").sourceType, "reference");
 const findWearable = id => wearable.find(device => device.id === id);
+{
+  const id = "samsung-galaxy-watch5-40-2022", expected = ["哥特太空", "繁樱花园", "幽紫秘境"];
+  const device = findWearable(id), source = registry.get(id), verification = source.colorVersionVerification;
+  assert.deepEqual(device.specs.colors.value, expected, "44毫米款配色不能套入40毫米款");
+  assert.deepEqual(verification.allowedColors, expected);
+  assert.deepEqual(source.rejectedColorNames, ["晴空海岸", "云雾冰川"]);
+  assert.equal(verification.rejectedEvidence.value.length, 5, "保留误混颜色的原始证据，不能算作新增图片");
+  const page = await getSourceSnapshot(verification.sourceUrl, { offline: true });
+  assert.equal(page.sha256, verification.sourceSnapshotHash);
+  assert.ok(plainText(page.html).includes(verification.rawText));
+  assert.match(verification.rawText, /40mm可选颜色为哥特太空、繁樱花园、幽紫秘境/);
+  const target = targets.find(target => target.id === id);
+  assert.deepEqual(plainText(page.html).match(new RegExp(target.additionalSpecs.fields.colors))?.[0].split("、"), expected);
+}
+for (const id of ["vivo-watch-3-2023", "vivo-watch-3-esim-2023", "vivo-watch-3-bluetooth-leather-2023", "vivo-watch-3-esim-leather-2023"]) {
+  const expected = id.includes("leather") ? ["皓月", "星辉"] : ["辰夜黑", "月光白"];
+  const device = findWearable(id), source = registry.get(id), verification = source.colorVersionVerification;
+  assert.deepEqual(device.specs.colors.value, expected, "原配表带颜色不能笛卡尔组合");
+  assert.deepEqual(verification.allowedColors, expected);
+  const page = await getSourceSnapshot(verification.sourceUrl, { offline: true });
+  assert.equal(page.sha256, verification.sourceSnapshotHash);
+  assert.ok(plainText(page.html).includes(verification.rawText));
+  assert.match(verification.rawText, /皓月、星辉配色采用真皮表带材质，辰夜黑、月光白配色采用软胶表带材质/);
+  assert.equal(verification.rejectedEvidence.value.length, 4, "错误来源证据保留，不把真实性修正统计成补图");
+  assert.ok(source.rejectedColorNames.every(color => !device.specs.colors.value.includes(color)));
+  const gallery = (await read("src/data/device-image-galleries.json"))[id];
+  assert.ok(gallery.colors.every(color => expected.includes(color.name)), "图片入口与原配版本保持一致");
+  const target = targets.find(target => target.id === id);
+  const excerpt = plainText(page.html).match(new RegExp(target.additionalSpecs.fields.colors))?.[0];
+  assert.deepEqual(excerpt?.split("、"), expected, "重复采集仍使用准确原配颜色");
+}
 assert.equal(findWearable("huawei-kids-watch-5-pro-2024").specs.waterResistance.value, "IPX8");
 for (const id of ["vivo-watch-3-2023", "vivo-watch-3-bluetooth-leather-2023"]) {
   assert.equal(findWearable(id).specs.batteryLife.value, bluetoothOnly.batteryLife.value);
@@ -130,6 +168,28 @@ assert.match(s4small.specs.compatibility.value, /iOS 14/);
 assert.equal(s4small.specs.wearableWeight.value, '约 32g（不含表带）');
 assert.equal(s4small.specs.launchPrice, undefined, '不同表带报价不能在未绑定具体版型时取最低价冒充所有版本');
 const galleries = await read("src/data/device-image-galleries.json");
+{
+  const id = "honor-band-9-2024", expected = ["曜石黑", "云水蓝", "晨辉紫"];
+  const device = findWearable(id), source = registry.get(id), verification = source.colorVersionVerification;
+  assert.deepEqual(device.specs.colors.value, expected, "不能把旧图库空标签当作荣耀手环9真实配色");
+  assert.deepEqual(verification.allowedColors, expected);
+  const official = await getSourceSnapshot(verification.sourceUrl, { offline: true });
+  assert.equal(official.sha256, verification.sourceSnapshotHash);
+  assert.ok(plainText(official.html).includes(verification.rawText));
+  const release = await getSourceSnapshot(device.specs.colors.sourceUrl, { offline: true });
+  assert.equal(release.sha256, device.specs.colors.sourceSnapshotHash);
+  assert.ok(plainText(release.html).includes(device.specs.colors.rawText));
+  assert.deepEqual(targets.find(target => target.id === id).supplement.colors.split("、"), expected);
+  assert.deepEqual(source.rejectedColorNames, ["晨晖金", "幻夜黑", "星空蓝"]);
+  assert.equal(verification.rejectedEvidence.origin, "legacy_gallery_placeholder");
+  assert.ok(galleries[id].colors.every(color => !source.rejectedColorNames.includes(color.name)));
+  const { getDeviceImageGallery } = loadTsModule("./src/lib/device-images.ts");
+  const publicColors = getDeviceImageGallery(id).colors.filter(color => color.name.startsWith("标准版 · "));
+  assert.deepEqual(publicColors.map(color => color.name.replace("标准版 · ", "")).sort(), [...expected].sort());
+  assert.ok(publicColors.every(color => color.image && color.image.viewScope !== "front_back"), "原有单面图不冒充正反同框");
+  assert.equal(images[id].colorScope, "all_colors", "原有已核验三色宣传图继续保留，不计新增合集");
+  assert.equal(images[id].url, "https://www-file.honor.com/content/dam/honor/cn/product/wear/honor-band-9/imgs/sec1/kv-pc.jpg");
+}
 assert.equal(findWearable("huawei-watch-fit-4-pro-2025").specs.cellular, undefined);
 assert.equal(findWearable("huawei-watch-fit-4-pro-2025").specs.connectivity.value, "支持蓝牙通话");
 for (const [id, count] of [["huawei-watch-fit-4-2025", 5], ["huawei-watch-fit-4-pro-2025", 3]]) {

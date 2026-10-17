@@ -97,6 +97,45 @@ export function readZolOptionalSpecs(page) {
   return specs;
 }
 
+// 只合并同一编号明确标注的镜头属性；未分镜头的防抖、光圈、传感器不猜归属。
+export function readZolCameraSpecs(page) {
+  const rows = zolRows(page.html), specs = {};
+  const numbered = (text = "") => new Map([...text.matchAll(/((?:后置|前置)摄像头\d+)：(.+?)(?= (?:后置|前置)摄像头\d+：|$)/g)]
+    .map((match) => [match[1], match[2]]));
+  const names = numbered(rows.get("摄像头名称")), pixels = numbered(rows.get("像素"));
+  const attributes = ["光圈", "防抖功能"].map((label) => [label, numbered(rows.get(label))]);
+  const rear = [];
+  for (const [number, name] of names) {
+    const key = number.startsWith("前置") ? (names.has("前置摄像头2") ? null : "frontCamera")
+      : /超广角/.test(name) ? "ultraWide" : /长焦/.test(name) ? "telephoto"
+        : /微距/.test(name) ? "macroCamera" : /景深/.test(name) ? "depthCamera"
+          : /主摄/.test(name) ? "mainCamera" : null;
+    if (!key || !pixels.has(number)) continue;
+    const parts = [pixels.get(number), name];
+    for (const [, values] of attributes) if (values.has(number)) parts.push(values.get(number));
+    const value = [...new Set(parts)].join("；");
+    // 全段原文保留编号，可离线复核跨属性的准确绑定。
+    const labels = ["摄像头名称", "像素", ...attributes.filter(([, values]) => values.has(number)).map(([label]) => label)];
+    const rawText = labels.map((label) => `${label} ${rows.get(label)}`).join("；");
+    const prior = specs[key];
+    specs[key] = evidence(page, prior ? `${prior.value}；${value}` : value, rawText);
+    if (number.startsWith("后置")) rear.push(value);
+  }
+  const rearCount = [...names.keys()].filter((key) => key.startsWith("后置")).length;
+  if (rearCount && rear.length === rearCount) specs.rearCamera = evidence(page, rear.join("；"),
+    `摄像头名称 ${rows.get("摄像头名称")}；像素 ${rows.get("像素")}`);
+  const videos = ["后置视频拍摄", "前置视频拍摄"].filter((label) => rows.has(label));
+  if (videos.length) specs.videoRecording = evidence(page,
+    videos.map((label) => `${label}：${rows.get(label)}`).join("；"), videos.map((label) => `${label} ${rows.get(label)}`).join("；"));
+  if (rows.has("变焦倍数")) specs.opticalZoom = evidence(page, rows.get("变焦倍数"), `变焦倍数 ${rows.get("变焦倍数")}`);
+  return specs;
+}
+
+export function assertZolModel(page, modelName) {
+  const heading = plainText(page.html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i)?.[1] ?? "");
+  assert.equal(identity(heading), identity(modelName), `参数页面型号不匹配：${heading} / ${modelName}`);
+}
+
 export function readRelease(rows, { minYear = 2022, asOf = "2026-10-06" } = {}) {
   const entry = pick(rows, ["上市日期", "上市时间", "发布时间"]);
   const match = entry?.value.match(/(20\d{2})\s*年(?:\s*(\d{1,2})(?:\s*月)?(?:\s*(\d{1,2})\s*日?)?)?/);

@@ -422,7 +422,8 @@
       "referenceUrls": [
         "https://detail.zol.com.cn/2113/2112195/param.shtml",
         "https://www.ithome.com/0/806/544.htm",
-        "https://detail.zol.com.cn/GPSwatch/index2112195.shtml"
+        "https://detail.zol.com.cn/GPSwatch/index2112195.shtml",
+        "https://www.ithome.com/0/808/826.htm"
       ],
       "fieldGaps": [
         {
@@ -1041,6 +1042,7 @@
       },
       "referenceUrls": [
         "https://detail.zol.com.cn/2004/2003753/param.shtml",
+        "https://www.honor.com/cn/wearables/honor-band-9/",
         "https://www.ithome.com/0/756/521.htm",
         "https://detail.zol.com.cn/IntelligentBracelet/index2003753.shtml"
       ],
@@ -1059,7 +1061,33 @@
         },
         "licenseStatus": "unknown"
       },
-      "category": "band"
+      "category": "band",
+      "colorVersionVerification": {
+        "sourceUrl": "https://www.honor.com/cn/wearables/honor-band-9/",
+        "sourceSnapshotHash": "4656f2cae64c05c148f58fc147bf4696b7113f566bda1b8d43e313191980cd1e",
+        "rawText": "曜石黑 暗影叠光，坚毅内敛。 晨辉紫 色彩碰撞，活力绽放。 云水蓝 纯净素雅，宁静平和。",
+        "allowedColors": [
+          "曜石黑",
+          "云水蓝",
+          "晨辉紫"
+        ],
+        "rejectedEvidence": {
+          "value": [
+            "晨晖金",
+            "幻夜黑",
+            "星空蓝"
+          ],
+          "origin": "legacy_gallery_placeholder",
+          "gallerySourceUrl": "https://detail.zol.com.cn/picture_index_2626/index26253418_0_p2003753.shtml",
+          "gallerySourceSnapshotHash": "38c321b1be1e637a972e44b6a2824c3793f5b2f16c2b3d8bf0b053a1cc8f9f1e",
+          "note": "旧图库空标签没有逐色原文，不将旧标签冒充来源原文；以当前官网具名颜色纠正。"
+        }
+      },
+      "rejectedColorNames": [
+        "晨晖金",
+        "幻夜黑",
+        "星空蓝"
+      ]
     },
     {
       "id": "honor-band-7-2022",
@@ -1346,6 +1374,7 @@
       },
       "referenceUrls": [
         "https://www.honor.com/cn/wearables/honor-band-10/spec/",
+        "https://www.honor.com/cn/wearables/honor-band-10/",
         "https://www.ithome.com/0/848/379.htm"
       ],
       "fieldGaps": [],

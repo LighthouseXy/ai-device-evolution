@@ -1,11 +1,12 @@
 "use client";
 
-import { useState, type FormEvent, type ReactNode } from "react";
+import { type FormEvent, type ReactNode } from "react";
 import {
   categoryLabels,
   type DeviceCategory,
 } from "@/lib/device-categories";
 import DeviceAdvisorResult from "@/components/DeviceAdvisorResult";
+import { useSessionState } from "@/lib/use-session-state";
 import type {
   DeviceAdvisorCategory,
   DeviceAdvisorOutput,
@@ -110,16 +111,17 @@ function getReadableAdvisorError(status: number, payload: { error?: string } | n
 }
 
 export default function DeviceAdvisorPanel({ initialCategory, categories }: DeviceAdvisorPanelProps) {
-  const [budgetMin, setBudgetMin] = useState(3000);
-  const [budgetMax, setBudgetMax] = useState(10000);
-  const [category, setCategory] = useState<DeviceAdvisorCategory>(initialCategory);
-  const [conditionPreference, setConditionPreference] = useState<(typeof conditionPreferenceOptions)[number]["value"]>("new_only");
-  const [batteryPriority, setBatteryPriority] = useState<(typeof batteryPriorityOptions)[number]["value"]>("balanced");
-  const [useCasesText, setUseCasesText] = useState("办公 / 追剧");
-  const [intent, setIntent] = useState("");
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState("");
-  const [result, setResult] = useState<DeviceAdvisorOutput | null>(null);
+  const [budgetMin, setBudgetMin] = useSessionState("advisor:v1:budgetMin", 3000);
+  const [budgetMax, setBudgetMax] = useSessionState("advisor:v1:budgetMax", 10000);
+  const [category, setCategory] = useSessionState<DeviceAdvisorCategory>("advisor:v1:category", initialCategory);
+  const [conditionPreference, setConditionPreference] = useSessionState<(typeof conditionPreferenceOptions)[number]["value"]>("advisor:v1:condition", "new_only");
+  const [batteryPriority, setBatteryPriority] = useSessionState<(typeof batteryPriorityOptions)[number]["value"]>("advisor:v1:battery", "balanced");
+  const [useCasesText, setUseCasesText] = useSessionState("advisor:v1:useCases", "办公 / 追剧");
+  const [intent, setIntent] = useSessionState("advisor:v1:intent", "");
+  // 导航切换保留进行中的请求状态，但刷新后不能恢复一个已失效的请求。
+  const [loading, setLoading] = useSessionState("advisor:v1:loading", false, { persist: false });
+  const [error, setError] = useSessionState("advisor:v1:error", "");
+  const [result, setResult] = useSessionState<DeviceAdvisorOutput | null>("advisor:v1:result", null);
 
   const budgetPreview = `¥${formatBudgetAmount(budgetMin)} - ¥${formatBudgetAmount(budgetMax)}`;
   const clearError = () => {

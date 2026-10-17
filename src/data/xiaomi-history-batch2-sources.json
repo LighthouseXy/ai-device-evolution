@@ -318,7 +318,28 @@
         "sourceSnapshotHash": "b5221a5c2dbc5f824e5e413a3189d67711808db7c64b08261e70d4ab3557707e",
         "license": "unknown",
         "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-8-screen-fingerprint-2018"
+          ],
+          "sourceName": "小米中国官网历史产品图库",
+          "sourceUrl": "https://www.mi.com/mi8ud/specs",
+          "sourceSnapshotHash": "6682415cdea503746cd1064b04020c408ebc84c8adcdf5bb531e1497ac71896e",
+          "anchor": "<img data-src=\"//i1.mifile.cn/f/i/2018/mi8ud/specs-banner-img1.jpg\" class=\"active\"/>",
+          "url": "https://i1.mifile.cn/f/i/2018/mi8ud/specs-banner-img1.jpg",
+          "color": "暮光金",
+          "viewScope": "front_back",
+          "xiaomiLegacyNativeImage": true,
+          "sha256": "9c4e6807b52fc9bcec740cabcddd0c2ceb3c150c46773fb2ebe032c91675ef39",
+          "width": 439,
+          "height": 623,
+          "licenseStatus": "unknown",
+          "note": "完整439×623官方原图逐张审阅：暮光金正反同框，双摄、刘海屏与渐变机身准确；原页初始选中的暮光金控件与active图片共同绑定，不按文件名猜颜色。原图分辨率有限，不声称高清。"
+        }
+      ]
     },
     {
       "id": "xiaomi-6x-2018",
@@ -644,7 +665,8 @@
         "https://detail.zol.com.cn/series/57/21808_1.html",
         "https://detail.zol.com.cn/series/57/34645/param_21808_0_1.html",
         "https://detail.zol.com.cn/1164/1163122/param.shtml",
-        "https://www.mi.com/redminote4x/specs"
+        "https://www.mi.com/redminote4x/specs",
+        "https://detail.zol.com.cn/picture_index_1807/index18065545_0_p1163122.shtml"
       ],
       "releaseEvidence": {
         "value": "2017-02",
@@ -707,7 +729,26 @@
         "status": "not_attempted",
         "reason": null,
         "resolution": "独立发布/官方原文逐SKU补证"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "redmi-note-4x-2017"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_1807/index18065545_0_p1163122.shtml",
+          "sourceSnapshotHash": "bff44ea3091dfbbcd9a583e83602bf04408580cd0914a6cd45fec7df7b449ec1",
+          "sourceName": "中关村在线",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ceQtIecxT0Ok6\",\"classId3\":\"13424\",\"classId4\":\"14506\",\"proId\":1163122,\"sequence\":\"190\",\"sid\":\"21808\",\"orderSort\":\"190\",\"sizeInfo\":{\"source\":[\"800\",\"600\"],\"pic\":[\"800\",\"600\"]},\"picId\":18065545,\"groupId\":0,\"name\":\"\\u5b98\\u65b9\\u56fe\",\"curClassId\":3,\"classNum\":47,\"classPicPos\":1,\"picPos\":29,\"className\":\"\\u5b98\\u65b9\\u56fe\",\"classId\":13424,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2b.zol-img.com.cn\\/product\\/180_100x75\\/545\\/ceQtIecxT0Ok6.jpg\",\"imgWidth\":\"800\",\"imgHeight\":\"600\",\"brief\":\"\"}",
+          "url": "https://2b.zol-img.com.cn/product/180/545/ceQtIecxT0Ok6.jpg",
+          "color": "蓝绿色",
+          "viewScope": "front_back",
+          "zolProductId": "1163122",
+          "zolPicId": 18065545,
+          "zolHash": "ceQtIecxT0Ok6",
+          "note": "现有原生产品图已逐图核验：同型号具名配色，正反同框。"
+        }
+      ]
     },
     {
       "id": "redmi-4x-2017",
@@ -1483,7 +1524,8 @@
         "https://detail.zol.com.cn/1276/1275176/param.shtml",
         "https://detail.zol.com.cn/1278/1277036/param.shtml",
         "https://detail.zol.com.cn/1278/1277037/param.shtml",
-        "https://www.mi.com/redmi7a/specs"
+        "https://www.mi.com/redmi7a/specs",
+        "https://www.mi.com/redmi7a"
       ],
       "releaseEvidence": {
         "value": "2019-05-28",
@@ -1542,7 +1584,45 @@
         "sourceSnapshotHash": "7ce01eff7b90b9dc426de97d568d100748d593a81338be4e8139f26a4d8a3a3b",
         "license": "unknown",
         "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "redmi-7a-2019"
+          ],
+          "sourceUrl": "https://www.mi.com/redmi7a",
+          "sourceSnapshotHash": "97bc4267b50a9b8e2b02ba746c6d83286749f2b672805bce8eb4dbf2df642d9a",
+          "url": "https://i1.mifile.cn/f/i/2019/redmi7a/hand1.jpg?",
+          "anchor": "<img data-src=\"//i1.mifile.cn/f/i/2019/redmi7a/hand1.jpg?\">",
+          "color": "磨砂黑",
+          "viewScope": "front_back",
+          "colorAnchor": "<div class=\"text webfont\">磨砂黑</div>",
+          "modelAnchor": "<title>Redmi 7A-小米商城</title>",
+          "licenseStatus": "unknown",
+          "sourceName": "小米官网",
+          "imageScope": "model_shared",
+          "note": "同型号具名配色原生产品图，正反同框。"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "redmi-7a-2019"
+          ],
+          "sourceUrl": "https://www.mi.com/redmi7a",
+          "sourceSnapshotHash": "97bc4267b50a9b8e2b02ba746c6d83286749f2b672805bce8eb4dbf2df642d9a",
+          "url": "https://i1.mifile.cn/f/i/2019/redmi7a/hand2.png?",
+          "anchor": "<img data-src=\"//i1.mifile.cn/f/i/2019/redmi7a/hand2.png?\" class=\"hide\">",
+          "color": "晨曦蓝",
+          "viewScope": "front_back",
+          "colorAnchor": "<div class=\"text webfont\">晨曦蓝</div>",
+          "modelAnchor": "<title>Redmi 7A-小米商城</title>",
+          "licenseStatus": "unknown",
+          "sourceName": "小米官网",
+          "imageScope": "model_shared",
+          "note": "同型号具名配色原生产品图，正反同框。"
+        }
+      ]
     },
     {
       "id": "redmi-8-2019",
@@ -1627,7 +1707,8 @@
         "https://detail.zol.com.cn/series/57/27973_1.html",
         "https://detail.zol.com.cn/series/57/55731/param_27973_0_1.html",
         "https://detail.zol.com.cn/1289/1288897/param.shtml",
-        "https://detail.zol.com.cn/1297/1296328/param.shtml"
+        "https://detail.zol.com.cn/1297/1296328/param.shtml",
+        "https://product.suning.com/0000000000/11344612553.html"
       ],
       "releaseEvidence": {
         "value": "2019-10-15",
@@ -1686,7 +1767,27 @@
         "sourceSnapshotHash": "352a85e390113fd0bd256cf346d23aebd3eb523c8048c43d3dbbf06dab60c1ae",
         "license": "unknown",
         "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "redmi-8a-2019"
+          ],
+          "sourceUrl": "https://product.suning.com/0000000000/11344612553.html",
+          "sourceSnapshotHash": "e878ae98a19c9986454d0e1a2b3d26118487f1d4be90500ee508f497f9e39c21",
+          "url": "https://imgservice.suning.cn/uimg1/b2c/image/kbm28G2U4lozQVazLQBIpA.png_800w_800h_4e",
+          "anchor": "<img onerror=\"this.src='//res.suning.cn/project/pdsWeb/images/blank_pic_800.jpg'\" alt=\"小米 (MI) Redmi 8A 4+64GB 珊瑚橙 5000mAh 大字体大音量骁龙八核处理器 AI人脸解锁拍照游戏智能双卡双待老年人红米移动联通电信全网通4G手机\" src=\"//imgservice.suning.cn/uimg1/b2c/image/kbm28G2U4lozQVazLQBIpA.png_800w_800h_4e\">",
+          "color": "珊瑚橙",
+          "viewScope": "front_back",
+          "colorAnchor": "<title>【小米(mi)手机Redmi 8A】 小米 (MI) Redmi 8A 4+64GB 珊瑚橙 5000mAh 大字体大音量骁龙八核处理器 AI人脸解锁拍照游戏智能双卡双待老年人红米移动联通电信全网通4G手机【价格 图片 品牌 报价】-苏宁易购小米苏宁自营旗舰店</title>",
+          "modelAnchor": "<title>【小米(mi)手机Redmi 8A】 小米 (MI) Redmi 8A 4+64GB 珊瑚橙 5000mAh 大字体大音量骁龙八核处理器 AI人脸解锁拍照游戏智能双卡双待老年人红米移动联通电信全网通4G手机【价格 图片 品牌 报价】-苏宁易购小米苏宁自营旗舰店</title>",
+          "licenseStatus": "unknown",
+          "sourceName": "苏宁易购",
+          "imageScope": "model_shared",
+          "note": "同型号具名配色原生产品图，正反同框。"
+        }
+      ]
     },
     {
       "id": "redmi-9-2020",
@@ -1919,7 +2020,8 @@
         "https://detail.zol.com.cn/series/57/22669_1.html",
         "https://detail.zol.com.cn/series/57/34645/param_22669_0_1.html",
         "https://detail.zol.com.cn/1161/1160797/param.shtml",
-        "https://mobile.zol.com.cn/655/6552128_all.html"
+        "https://mobile.zol.com.cn/655/6552128_all.html",
+        "https://www.mi.com/mix2/specs"
       ],
       "releaseEvidence": {
         "value": "2017-09-15",
@@ -1982,7 +2084,38 @@
         "status": "attempted_blocked",
         "reason": "缺少明确绑定的内存/存储SKU",
         "resolution": "独立发布/官方原文逐SKU补证"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-mix-2-2017"
+          ],
+          "sourceName": "小米中国官网历史规格页",
+          "sourceUrl": "https://www.mi.com/mix2/specs",
+          "sourceSnapshotHash": "7a17959ef96c29e2d9034048c69f0578395c43ae21205aef2c382727abea0314",
+          "url": "https://i1.mifile.cn/f/i/17/mix2/specs-version-b.png?v4",
+          "color": "黑色",
+          "viewScope": "front_back",
+          "imageScope": "model_shared",
+          "sha256": "f1e1fa09daa4e5355c4d3da1f94965689d52c99f07c6a12a31f6fd33d0a8542a",
+          "width": 614,
+          "height": 711,
+          "licenseStatus": "unknown",
+          "anchor": "<div class=\"tab-title\">黑色陶瓷版</div>\n                    <div class=\"tab tab-b current\" data-ver=\"b\"><span><i></i></span>黑色</div>",
+          "colorAnchor": "<div class=\"tab-title\">黑色陶瓷版</div>\n                    <div class=\"tab tab-b current\" data-ver=\"b\"><span><i></i></span>黑色</div>",
+          "xiaomiLegacyNativeImage": true,
+          "resourceChain": [
+            {
+              "sourceUrl": "https://s01.mifile.cn/css/product/mix2/specs.min.css?74fe35",
+              "sourceSnapshotHash": "2163be6ee540ef8d58637ac0a671d87b9f44df3cdd6ff36ae62767095d38c2bf",
+              "anchors": [
+                ".mix2-specs .section-intro.preload .version-pic .pic-b{background-image:url(\"//i1.mifile.cn/f/i/17/mix2/specs-version-b.png?v4\")}"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "xiaomi-mix-2s-2018",
@@ -1994,7 +2127,8 @@
         "https://detail.zol.com.cn/series/57/23291_1.html",
         "https://detail.zol.com.cn/series/57/34645/param_23291_0_1.html",
         "https://detail.zol.com.cn/1203/1202983/param.shtml",
-        "https://www.mi.com/mix2s/specs"
+        "https://www.mi.com/mix2s/specs",
+        "https://detail.zol.com.cn/picture_index_1924/index19232707_0_p1202983.shtml"
       ],
       "releaseEvidence": {
         "value": "2018-03",
@@ -2057,7 +2191,26 @@
         "status": "attempted_blocked",
         "reason": "缺少中国大陆发布或具体型号行货证据，暂不把中文页面默认作国行",
         "resolution": "独立发布/官方原文逐SKU补证"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-mix-2s-2018"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_1924/index19232707_0_p1202983.shtml",
+          "sourceSnapshotHash": "575d7256d29ff515f823432136ee37482d405b23a50fcc3f8db416dd096ac677",
+          "sourceName": "中关村在线",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ceAxbWw7Kc1z2\",\"classId3\":\"13424\",\"classId4\":\"15534\",\"proId\":1202983,\"sequence\":\"199\",\"sid\":\"23291\",\"orderSort\":\"199\",\"sizeInfo\":{\"source\":[\"800\",\"600\"],\"pic\":[\"800\",\"600\"]},\"picId\":19246567,\"groupId\":0,\"name\":\"\\u5b98\\u65b9\\u56fe\",\"curClassId\":3,\"classNum\":16,\"classPicPos\":1,\"picPos\":201,\"className\":\"\\u5b98\\u65b9\\u56fe\",\"classId\":13424,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2b.zol-img.com.cn\\/product\\/192_100x75\\/567\\/ceAxbWw7Kc1z2.jpg\",\"imgWidth\":\"800\",\"imgHeight\":\"600\",\"brief\":\"\"}",
+          "url": "https://2b.zol-img.com.cn/product/192/567/ceAxbWw7Kc1z2.jpg",
+          "color": "翡翠色",
+          "viewScope": "front_back",
+          "zolProductId": "1202983",
+          "zolPicId": 19246567,
+          "zolHash": "ceAxbWw7Kc1z2",
+          "note": "现有原生产品图已逐图核验：同型号具名配色，正反同框。"
+        }
+      ]
     },
     {
       "id": "xiaomi-mix-3-2018",

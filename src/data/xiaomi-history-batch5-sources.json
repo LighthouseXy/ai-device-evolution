@@ -277,15 +277,26 @@
         "licenseStatus": "unknown",
         "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
       },
-      "imageFieldGaps": [
+      "imageFieldGaps": [],
+      "colorImageCandidates": [
         {
-          "field": "primaryImage",
-          "reason": "仅有具体型号来源候选，尚无下载及视觉核验；不标为已获取产品照片"
-        },
-        {
-          "field": "colorImage",
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-9-transparent-2019"
+          ],
+          "sourceName": "小米中国官网历史产品图库",
+          "sourceUrl": "https://www.mi.com/mi9tr",
+          "sourceSnapshotHash": "70f892a58d9dfcb8a39365ee107b676b29a899dc8bf0b21169511c0784b86c88",
+          "anchor": "<img data-src=\"//i1.mifile.cn/f/i/2019/mi9tr/gallery3.jpg\">",
+          "url": "https://i1.mifile.cn/f/i/2019/mi9tr/gallery3.jpg",
           "color": "透明",
-          "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
+          "viewScope": "front_back",
+          "xiaomiLegacyNativeImage": true,
+          "sha256": "322b67a49456ef295a9e0700d9d13b51da5f584597e389b063db97c98ea44aab",
+          "width": 2560,
+          "height": 992,
+          "licenseStatus": "unknown",
+          "note": "完整2560×992官方原图逐张审阅：透明尊享版正反两台完整同框，三摄、透明背板及前置水滴屏版型准确，无人物、价格广告或现场翻拍；保留原生宣传壁纸，不自行拼接。"
         }
       ]
     },

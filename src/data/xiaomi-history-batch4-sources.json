@@ -112,7 +112,8 @@
         "https://detail.zol.com.cn/1396/1395588/param.shtml",
         "https://detail.zol.com.cn/1425/1424177/param.shtml",
         "https://detail.zol.com.cn/1425/1424178/param.shtml",
-        "https://detail.zol.com.cn/1425/1424179/param.shtml"
+        "https://detail.zol.com.cn/1425/1424179/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2218/index22173655_0_p1395588.shtml"
       ],
       "releaseEvidence": {
         "value": "2022-08-16",
@@ -185,13 +186,42 @@
       },
       "colorImageCandidates": [
         {
-          "color": "月银黑",
-          "url": "https://2d.zol-img.com.cn/product/221_320x240/657/ceOkGQFPDHfE2.jpg",
-          "sha256": "eca78d5c28ce5153d34cfdeb0479ba4026be8774efc8b6155f87e2977f978602",
-          "sourceUrl": "https://detail.zol.com.cn/series/57/10700703_1.html",
-          "sourceSnapshotHash": "efcb4551ee02ef004d97382657b53684eb8f41c3c6ac61142f1554bfe38a5680",
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-mix-fold-2-2022"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2218/index22173655_0_p1395588.shtml",
+          "sourceSnapshotHash": "3b71f107a161428e751b60ace40e87e0f9075b622310e1165f33bfece4991290",
+          "sourceName": "中关村在线",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ceOkGQFPDHfE2\",\"classId3\":\"15549\",\"classId4\":\"23155\",\"proId\":1395588,\"sequence\":\"5\",\"sid\":\"10700703\",\"orderSort\":\"5\",\"sizeInfo\":{\"source\":[\"701\",\"526\"],\"pic\":[\"701\",\"526\"]},\"picId\":22173657,\"groupId\":0,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":16,\"classPicPos\":2,\"picPos\":2,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2d.zol-img.com.cn\\/product\\/221_100x75\\/657\\/ceOkGQFPDHfE2.jpg\",\"imgWidth\":\"701\",\"imgHeight\":\"526\",\"brief\":\"\"}",
+          "url": "https://2d.zol-img.com.cn/product/221/657/ceOkGQFPDHfE2.jpg",
+          "viewScope": "front_back",
+          "zolProductId": "1395588",
+          "zolPicId": 22173657,
+          "zolHash": "ceOkGQFPDHfE2",
           "licenseStatus": "unknown",
-          "status": "downloaded_and_visually_reviewed"
+          "note": "逐图核验同型号原生高清图片，正反同框；不复用跨型号或配色图。",
+          "color": "月银黑",
+          "colorScope": "single_color"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-mix-fold-2-2022"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2218/index22173655_0_p1395588.shtml",
+          "sourceSnapshotHash": "3b71f107a161428e751b60ace40e87e0f9075b622310e1165f33bfece4991290",
+          "sourceName": "中关村在线",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ce3DzoO1LdVY\",\"classId3\":\"15549\",\"classId4\":\"23156\",\"proId\":1395588,\"sequence\":\"5\",\"sid\":\"10700703\",\"orderSort\":\"5\",\"sizeInfo\":{\"source\":[\"683\",\"512\"],\"pic\":[\"683\",\"512\"]},\"picId\":22173655,\"groupId\":0,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":16,\"classPicPos\":1,\"picPos\":1,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2b.zol-img.com.cn\\/product\\/221_100x75\\/655\\/ce3DzoO1LdVY.jpg\",\"imgWidth\":\"683\",\"imgHeight\":\"512\",\"brief\":\"\"}",
+          "url": "https://2b.zol-img.com.cn/product/221/655/ce3DzoO1LdVY.jpg",
+          "viewScope": "front_back",
+          "zolProductId": "1395588",
+          "zolPicId": 22173655,
+          "zolHash": "ce3DzoO1LdVY",
+          "licenseStatus": "unknown",
+          "note": "逐图核验同型号原生高清图片，正反同框；不复用跨型号或配色图。",
+          "color": "星耀金",
+          "colorScope": "single_color"
         }
       ],
       "imageFieldGaps": [
@@ -214,7 +244,8 @@
         "https://detail.zol.com.cn/series/57/34645/param_10734524_0_1.html",
         "https://detail.zol.com.cn/1461/1460897/param.shtml",
         "https://detail.zol.com.cn/1843/1842766/param.shtml",
-        "https://detail.zol.com.cn/1843/1842765/param.shtml"
+        "https://detail.zol.com.cn/1843/1842765/param.shtml",
+        "https://www.ithome.com/0/712/328.htm"
       ],
       "releaseEvidence": {
         "value": "2023-08-16",
@@ -290,6 +321,23 @@
           "color": "星耀金",
           "reason": "尚无该具体型号标准色的真实图片字节哈希和视觉核验；留空"
         }
+      ],
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-mix-fold-3-2023"
+          ],
+          "sourceUrl": "https://www.ithome.com/0/712/328.htm",
+          "sourceSnapshotHash": "5a9a754a40eb103befc141adaf631f9b6fa11ec5238cd7f1d41b7be200aef55f",
+          "sourceName": "IT之家转载官方/零售原生海报",
+          "anchor": "<img src=\"//img.ithome.com/images/v2/t.png\" class=\"lazy\" title=\"小米 MIX Fold 3 折叠屏手机正式发布：搭载高通骁龙 8 Gen 2 领先版 + 潜望长焦镜头，8999 元起\" data-original=\"https://img14.360buyimg.com/pop/jfs/t1/109978/31/43134/81783/64da280eF71494b18/86b598af891e6278.jpg\">",
+          "url": "https://img14.360buyimg.com/pop/jfs/t1/109978/31/43134/81783/64da280eF71494b18/86b598af891e6278.jpg",
+          "color": "月影黑",
+          "viewScope": "front_back",
+          "note": "原生零售海报同时呈现同色背面与外屏正面；不把内屏展开图当另一颜色。",
+          "colorAnchor": "<span class=\"card-name\"> Xiaomi MIX Fold 3 小米龙骨转轴 徕卡光学全焦段四摄 双 E6 旗舰屏幕 12GB+256GB 月影黑 小米手机 5g 手机</span>"
+        }
       ]
     },
     {
@@ -304,7 +352,8 @@
         "https://detail.zol.com.cn/series/57/34645/param_10890027_0_1.html",
         "https://detail.zol.com.cn/2087/2086684/param.shtml",
         "https://detail.zol.com.cn/2099/2098173/param.shtml",
-        "https://detail.zol.com.cn/2099/2098172/param.shtml"
+        "https://detail.zol.com.cn/2099/2098172/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2689/index26889464_0_p2086684.shtml"
       ],
       "releaseEvidence": {
         "value": "2024-07-19",
@@ -378,13 +427,61 @@
       },
       "colorImageCandidates": [
         {
-          "color": "黑色",
-          "url": "https://2a.zol-img.com.cn/product/268_320x240/486/ceIxiDcI0DloY.jpg",
-          "sha256": "0ae0e1ca10387c4c4c2c1105137e3c168d6480097efd3bb1604cfb09c818a7e5",
-          "sourceUrl": "https://detail.zol.com.cn/series/57/10890027_1.html",
-          "sourceSnapshotHash": "69a260f39cfbb401a7e14179c297b347f2181de121529c956cf181da24fcf2af",
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-mix-fold-4-2024"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2689/index26889464_0_p2086684.shtml",
+          "sourceSnapshotHash": "00ebbafbdc30319400893a7201cb25caf20f94c2aefbfd09d659062b6bfd626b",
+          "sourceName": "中关村在线",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ceIxiDcI0DloY\",\"classId3\":\"15549\",\"classId4\":\"392\",\"proId\":2086684,\"sequence\":\"2\",\"sid\":\"10890027\",\"orderSort\":\"2\",\"sizeInfo\":{\"source\":[\"1067\",\"800\"],\"pic\":[\"800\",\"600\"]},\"picId\":26889486,\"groupId\":0,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":7,\"classPicPos\":6,\"picPos\":6,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2a.zol-img.com.cn\\/product\\/268_100x75\\/486\\/ceIxiDcI0DloY.jpg\",\"imgWidth\":\"1067\",\"imgHeight\":\"800\",\"brief\":\"\"}",
+          "url": "https://2a.zol-img.com.cn/product/268/486/ceIxiDcI0DloY.jpg",
+          "viewScope": "front_back",
+          "zolProductId": "2086684",
+          "zolPicId": 26889486,
+          "zolHash": "ceIxiDcI0DloY",
           "licenseStatus": "unknown",
-          "status": "downloaded_and_visually_reviewed"
+          "note": "逐图核验同型号原生高清图片，正反同框；不复用跨型号或配色图。",
+          "color": "黑色",
+          "colorScope": "single_color"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-mix-fold-4-2024"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2689/index26889464_0_p2086684.shtml",
+          "sourceSnapshotHash": "00ebbafbdc30319400893a7201cb25caf20f94c2aefbfd09d659062b6bfd626b",
+          "sourceName": "中关村在线",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ce9zNfBUIfzJA\",\"classId3\":\"15549\",\"classId4\":\"398\",\"proId\":2086684,\"sequence\":\"3\",\"sid\":\"10890027\",\"orderSort\":\"3\",\"sizeInfo\":{\"source\":[\"1067\",\"800\"],\"pic\":[\"800\",\"600\"]},\"picId\":26889464,\"groupId\":0,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":7,\"classPicPos\":1,\"picPos\":1,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2c.zol-img.com.cn\\/product\\/268_100x75\\/464\\/ce9zNfBUIfzJA.jpg\",\"imgWidth\":\"1067\",\"imgHeight\":\"800\",\"brief\":\"\"}",
+          "url": "https://2c.zol-img.com.cn/product/268/464/ce9zNfBUIfzJA.jpg",
+          "viewScope": "front_back",
+          "zolProductId": "2086684",
+          "zolPicId": 26889464,
+          "zolHash": "ce9zNfBUIfzJA",
+          "licenseStatus": "unknown",
+          "note": "逐图核验同型号原生高清图片，正反同框；不复用跨型号或配色图。",
+          "color": "白色",
+          "colorScope": "single_color"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-mix-fold-4-2024"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2689/index26889464_0_p2086684.shtml",
+          "sourceSnapshotHash": "00ebbafbdc30319400893a7201cb25caf20f94c2aefbfd09d659062b6bfd626b",
+          "sourceName": "中关村在线",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ceu2WKTa7ASkU\",\"classId3\":\"15549\",\"classId4\":\"36893\",\"proId\":2086684,\"sequence\":\"3\",\"sid\":\"10890027\",\"orderSort\":\"3\",\"sizeInfo\":{\"source\":[\"1067\",\"800\"],\"pic\":[\"800\",\"600\"]},\"picId\":26889488,\"groupId\":0,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":7,\"classPicPos\":2,\"picPos\":2,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2c.zol-img.com.cn\\/product\\/268_100x75\\/488\\/ceu2WKTa7ASkU.jpg\",\"imgWidth\":\"1067\",\"imgHeight\":\"800\",\"brief\":\"\"}",
+          "url": "https://2c.zol-img.com.cn/product/268/488/ceu2WKTa7ASkU.jpg",
+          "viewScope": "front_back",
+          "zolProductId": "2086684",
+          "zolPicId": 26889488,
+          "zolHash": "ceu2WKTa7ASkU",
+          "licenseStatus": "unknown",
+          "note": "逐图核验同型号原生高清图片，正反同框；不复用跨型号或配色图。",
+          "color": "龙胆蓝",
+          "colorScope": "single_color"
         }
       ],
       "imageFieldGaps": [
@@ -412,7 +509,8 @@
         "https://detail.zol.com.cn/series/57/34645/param_10867279_0_1.html",
         "https://detail.zol.com.cn/2031/2030412/param.shtml",
         "https://detail.zol.com.cn/2099/2098193/param.shtml",
-        "https://detail.zol.com.cn/2099/2098194/param.shtml"
+        "https://detail.zol.com.cn/2099/2098194/param.shtml",
+        "https://www.ithome.com/0/783/030.htm"
       ],
       "releaseEvidence": {
         "value": "2024-07-23",
@@ -507,7 +605,9 @@
         "https://detail.zol.com.cn/series/57/34645/param_10915080_0_1.html",
         "https://detail.zol.com.cn/2132/2131401/param.shtml",
         "https://detail.zol.com.cn/2132/2131588/param.shtml",
-        "https://detail.zol.com.cn/2132/2131589/param.shtml"
+        "https://detail.zol.com.cn/2132/2131589/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2726/index27254387_0_p2131401.shtml",
+        "https://www.ithome.com/0/863/940.htm"
       ],
       "releaseEvidence": {
         "value": "2025-06-26",
@@ -580,13 +680,80 @@
       },
       "colorImageCandidates": [
         {
-          "color": "星云紫",
-          "url": "https://2d.zol-img.com.cn/product/272_320x240/385/ceqYHrTvhj3Vg.jpg",
-          "sha256": "17df5fc89bc9d6d0a8f925cad59aa9c6cc59adec935da66a5a2c6ef9fafe8d27",
-          "sourceUrl": "https://detail.zol.com.cn/series/57/10915080_1.html",
-          "sourceSnapshotHash": "ff40ead0ebff3c041277765b498ebf692658b18a57f352527a42deecf7348908",
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-mix-flip-2-2025"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2726/index27254387_0_p2131401.shtml",
+          "sourceSnapshotHash": "85ebc90e72fb383c5bd8742c77f0d352a96d7e9180b155549f606ae09715ff67",
+          "sourceName": "中关村在线",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ceqYHrTvhj3Vg\",\"classId3\":\"15549\",\"classId4\":\"15377\",\"proId\":2131401,\"sequence\":\"2\",\"sid\":\"10915080\",\"orderSort\":\"2\",\"sizeInfo\":{\"source\":[\"1067\",\"800\"],\"pic\":[\"800\",\"600\"]},\"picId\":27254385,\"groupId\":0,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":8,\"classPicPos\":1,\"picPos\":1,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2d.zol-img.com.cn\\/product\\/272_100x75\\/385\\/ceqYHrTvhj3Vg.jpg\",\"imgWidth\":\"1067\",\"imgHeight\":\"800\",\"brief\":\"\"}",
+          "url": "https://2d.zol-img.com.cn/product/272/385/ceqYHrTvhj3Vg.jpg",
+          "viewScope": "front_back",
+          "zolProductId": "2131401",
+          "zolPicId": 27254385,
+          "zolHash": "ceqYHrTvhj3Vg",
           "licenseStatus": "unknown",
-          "status": "downloaded_and_visually_reviewed"
+          "note": "逐图核验同型号原生高清图片，正反同框；不复用跨型号或配色图。",
+          "color": "星云紫",
+          "colorScope": "single_color"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-mix-flip-2-2025"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2726/index27254387_0_p2131401.shtml",
+          "sourceSnapshotHash": "85ebc90e72fb383c5bd8742c77f0d352a96d7e9180b155549f606ae09715ff67",
+          "sourceName": "中关村在线",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"cefyT2G9A47w6\",\"classId3\":\"15549\",\"classId4\":\"39285\",\"proId\":2131401,\"sequence\":\"2\",\"sid\":\"10915080\",\"orderSort\":\"2\",\"sizeInfo\":{\"source\":[\"1067\",\"800\"],\"pic\":[\"800\",\"600\"]},\"picId\":27254871,\"groupId\":0,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":8,\"classPicPos\":3,\"picPos\":3,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2d.zol-img.com.cn\\/product\\/272_100x75\\/871\\/cefyT2G9A47w6.jpg\",\"imgWidth\":\"1067\",\"imgHeight\":\"800\",\"brief\":\"\"}",
+          "url": "https://2d.zol-img.com.cn/product/272/871/cefyT2G9A47w6.jpg",
+          "viewScope": "front_back",
+          "zolProductId": "2131401",
+          "zolPicId": 27254871,
+          "zolHash": "cefyT2G9A47w6",
+          "licenseStatus": "unknown",
+          "note": "逐图核验同型号原生高清图片，正反同框；不复用跨型号或配色图。",
+          "color": "格子金",
+          "colorScope": "single_color"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-mix-flip-2-2025"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2726/index27254387_0_p2131401.shtml",
+          "sourceSnapshotHash": "85ebc90e72fb383c5bd8742c77f0d352a96d7e9180b155549f606ae09715ff67",
+          "sourceName": "中关村在线",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"cecButZZf8xc\",\"classId3\":\"15549\",\"classId4\":\"39286\",\"proId\":2131401,\"sequence\":\"2\",\"sid\":\"10915080\",\"orderSort\":\"2\",\"sizeInfo\":{\"source\":[\"1067\",\"800\"],\"pic\":[\"800\",\"600\"]},\"picId\":27254387,\"groupId\":0,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":8,\"classPicPos\":2,\"picPos\":2,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2f.zol-img.com.cn\\/product\\/272_100x75\\/387\\/cecButZZf8xc.jpg\",\"imgWidth\":\"1067\",\"imgHeight\":\"800\",\"brief\":\"\"}",
+          "url": "https://2f.zol-img.com.cn/product/272/387/cecButZZf8xc.jpg",
+          "viewScope": "front_back",
+          "zolProductId": "2131401",
+          "zolPicId": 27254387,
+          "zolHash": "cecButZZf8xc",
+          "licenseStatus": "unknown",
+          "note": "逐图核验同型号原生高清图片，正反同框；不复用跨型号或配色图。",
+          "color": "贝壳白",
+          "colorScope": "single_color"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-mix-flip-2-2025"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2726/index27254387_0_p2131401.shtml",
+          "sourceSnapshotHash": "85ebc90e72fb383c5bd8742c77f0d352a96d7e9180b155549f606ae09715ff67",
+          "sourceName": "中关村在线",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"cePeQvgayyI\",\"classId3\":\"15549\",\"classId4\":\"39287\",\"proId\":2131401,\"sequence\":\"2\",\"sid\":\"10915080\",\"orderSort\":\"2\",\"sizeInfo\":{\"source\":[\"1067\",\"800\"],\"pic\":[\"800\",\"600\"]},\"picId\":27254880,\"groupId\":0,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":8,\"classPicPos\":4,\"picPos\":4,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2a.zol-img.com.cn\\/product\\/272_100x75\\/880\\/cePeQvgayyI.jpg\",\"imgWidth\":\"1067\",\"imgHeight\":\"800\",\"brief\":\"\"}",
+          "url": "https://2a.zol-img.com.cn/product/272/880/cePeQvgayyI.jpg",
+          "viewScope": "front_back",
+          "zolProductId": "2131401",
+          "zolPicId": 27254880,
+          "zolHash": "cePeQvgayyI",
+          "licenseStatus": "unknown",
+          "note": "逐图核验同型号原生高清图片，正反同框；不复用跨型号或配色图。",
+          "color": "梅子青",
+          "colorScope": "single_color"
         }
       ],
       "imageFieldGaps": [
@@ -1151,7 +1318,8 @@
         "https://detail.zol.com.cn/1972/1971146/param.shtml",
         "https://detail.zol.com.cn/1972/1971147/param.shtml",
         "https://detail.zol.com.cn/1972/1971148/param.shtml",
-        "https://www.ithome.com/0/742/320.htm"
+        "https://www.ithome.com/0/742/320.htm",
+        "https://detail.zol.com.cn/picture_index_2585/index25846438_0_p1971146.shtml"
       ],
       "releaseEvidence": {
         "value": "2023-12-30",
@@ -1224,13 +1392,42 @@
       },
       "colorImageCandidates": [
         {
-          "color": "彩虹星纱",
-          "url": "https://2b.zol-img.com.cn/product/258_320x240/441/ceebuTcdX1nk.jpg",
-          "sha256": "9f7eba5c639c57966b4f789b6d186b8a07c9d22a78674015445b035be1f27af5",
-          "sourceUrl": "https://detail.zol.com.cn/series/57/10849282_1.html",
-          "sourceSnapshotHash": "4cf91dbfeda93fe0cc866d4c0394b0d1dbad97eb7da0f0ec0fae81a6a73f0d78",
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "redmi-13c-5g-2023"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2585/index25846438_0_p1971146.shtml",
+          "sourceSnapshotHash": "cdabdee72dc96a755d18e26eede48948026fa8c3367978105e54d752bbf2bb9a",
+          "sourceName": "中关村在线",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ceebuTcdX1nk\",\"classId3\":\"15549\",\"classId4\":\"35127\",\"proId\":1971146,\"sequence\":\"1\",\"sid\":\"10849282\",\"orderSort\":\"1\",\"sizeInfo\":{\"source\":[\"1067\",\"800\"],\"pic\":[\"800\",\"600\"]},\"picId\":25846441,\"groupId\":0,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":2,\"classPicPos\":2,\"picPos\":2,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2b.zol-img.com.cn\\/product\\/258_100x75\\/441\\/ceebuTcdX1nk.jpg\",\"imgWidth\":\"1067\",\"imgHeight\":\"800\",\"brief\":\"\"}",
+          "url": "https://2b.zol-img.com.cn/product/258/441/ceebuTcdX1nk.jpg",
+          "viewScope": "front_back",
+          "zolProductId": "1971146",
+          "zolPicId": 25846441,
+          "zolHash": "ceebuTcdX1nk",
           "licenseStatus": "unknown",
-          "status": "downloaded_and_visually_reviewed"
+          "note": "逐图核验同型号原生高清图片，正反同框；不复用跨型号或配色图。",
+          "color": "彩虹星纱",
+          "colorScope": "single_color"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "redmi-13c-5g-2023"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2585/index25846438_0_p1971146.shtml",
+          "sourceSnapshotHash": "cdabdee72dc96a755d18e26eede48948026fa8c3367978105e54d752bbf2bb9a",
+          "sourceName": "中关村在线",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ceIMbGS4Vsaw\",\"classId3\":\"15549\",\"classId4\":\"35128\",\"proId\":1971146,\"sequence\":\"1\",\"sid\":\"10849282\",\"orderSort\":\"1\",\"sizeInfo\":{\"source\":[\"1067\",\"800\"],\"pic\":[\"800\",\"600\"]},\"picId\":25846438,\"groupId\":0,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":2,\"classPicPos\":1,\"picPos\":1,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2e.zol-img.com.cn\\/product\\/258_100x75\\/438\\/ceIMbGS4Vsaw.jpg\",\"imgWidth\":\"1067\",\"imgHeight\":\"800\",\"brief\":\"\"}",
+          "url": "https://2e.zol-img.com.cn/product/258/438/ceIMbGS4Vsaw.jpg",
+          "viewScope": "front_back",
+          "zolProductId": "1971146",
+          "zolPicId": 25846438,
+          "zolHash": "ceIMbGS4Vsaw",
+          "licenseStatus": "unknown",
+          "note": "逐图核验同型号原生高清图片，正反同框；不复用跨型号或配色图。",
+          "color": "星岩黑",
+          "colorScope": "single_color"
         }
       ],
       "imageFieldGaps": [
@@ -1253,7 +1450,8 @@
         "https://detail.zol.com.cn/series/57/55731/param_10718260_0_1.html",
         "https://detail.zol.com.cn/1430/1429555/param.shtml",
         "https://detail.zol.com.cn/1430/1429556/param.shtml",
-        "https://detail.zol.com.cn/1430/1429554/param.shtml"
+        "https://detail.zol.com.cn/1430/1429554/param.shtml",
+        "https://www.ithome.com/0/643/951.htm"
       ],
       "releaseEvidence": {
         "value": "2022-09-30",
@@ -1724,7 +1922,8 @@
         "https://detail.zol.com.cn/2019/2018470/param.shtml",
         "https://detail.zol.com.cn/2019/2018469/param.shtml",
         "https://detail.zol.com.cn/2019/2018468/param.shtml",
-        "https://detail.zol.com.cn/2019/2018467/param.shtml"
+        "https://detail.zol.com.cn/2019/2018467/param.shtml",
+        "https://www.ithome.com/0/771/896.htm"
       ],
       "releaseEvidence": {
         "value": "2024-05-30",

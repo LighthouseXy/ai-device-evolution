@@ -160,19 +160,19 @@
           "sourceSnapshotHash": "8ecd3dbc6ea5d9473d528205cc4c6761bfa6701b0446be874cb2c33f3dba33a4"
         },
         "rearCamera": {
-          "value": "5000 万像素 + 1000 万像素 + 1200 万像素",
-          "rawText": "5000万像素+1000万像素+1200万像素",
+          "value": "1000万像素 3倍光学变焦；5000万像素 广角摄像头 2倍光学品质变焦；1200万像素 超广角摄像头",
+          "rawText": "1000万像素 3倍光学变焦 5000万像素 广角摄像头 2倍光学品质变焦 1200万像素 超广角摄像头",
           "evidenceKind": "excerpt",
-          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9210ZAGCHC&specAnnotationYN=Y",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/",
           "sourceType": "official",
           "confidence": 1,
           "verifiedAt": "2026-09-30",
-          "fetchedAt": "2026-09-30T18:08:20.430Z",
-          "sourceSnapshotHash": "69e4d84b1e24567b0319c0322f0fe6ec35d31fd3d88d31b3d97021c920283bd7"
+          "fetchedAt": "2026-09-30T18:19:11.867Z",
+          "sourceSnapshotHash": "4ead23502ff151d34df4e232b5fd1cd272c8a8e652cda8e268766767a9faf852"
         },
         "mainCamera": {
-          "value": "50MP（5000 万像素）主摄",
-          "rawText": "5000万像素 广角摄像头",
+          "value": "5000万像素 广角摄像头 2倍光学品质变焦",
+          "rawText": "1000万像素 3倍光学变焦 5000万像素 广角摄像头 2倍光学品质变焦 1200万像素 超广角摄像头",
           "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/",
           "sourceType": "official",
@@ -182,8 +182,8 @@
           "sourceSnapshotHash": "4ead23502ff151d34df4e232b5fd1cd272c8a8e652cda8e268766767a9faf852"
         },
         "telephoto": {
-          "value": "1000 万像素 3 倍光学长焦",
-          "rawText": "1000万像素 3倍光学变焦",
+          "value": "1000万像素 3倍光学变焦",
+          "rawText": "1000万像素 3倍光学变焦 5000万像素 广角摄像头 2倍光学品质变焦 1200万像素 超广角摄像头",
           "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/",
           "sourceType": "official",
@@ -241,6 +241,17 @@
           "market": "中国大陆",
           "configuration": "8GB 运行内存 + 256GB 存储，国行版本",
           "condition": "中国大陆首发厂商建议零售价，不含限时升杯或预售尝鲜价"
+        },
+        "ultraWide": {
+          "value": "1200万像素 超广角摄像头",
+          "rawText": "1000万像素 3倍光学变焦 5000万像素 广角摄像头 2倍光学品质变焦 1200万像素 超广角摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:19:11.867Z",
+          "sourceSnapshotHash": "4ead23502ff151d34df4e232b5fd1cd272c8a8e652cda8e268766767a9faf852"
         }
       },
       "computed": {
@@ -396,19 +407,19 @@
           "sourceSnapshotHash": "8ecd3dbc6ea5d9473d528205cc4c6761bfa6701b0446be874cb2c33f3dba33a4"
         },
         "rearCamera": {
-          "value": "5000 万像素 + 1000 万像素 + 1200 万像素",
-          "rawText": "5000万像素+1000万像素+1200万像素",
+          "value": "1000万像素 3倍光学变焦；5000万像素 广角摄像头 2倍光学品质变焦；1200万像素 超广角摄像头",
+          "rawText": "1000万像素 3倍光学变焦 5000万像素 广角摄像头 2倍光学品质变焦 1200万像素 超广角摄像头",
           "evidenceKind": "excerpt",
-          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9260ZYDCHC&specAnnotationYN=Y",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/",
           "sourceType": "official",
           "confidence": 1,
           "verifiedAt": "2026-09-30",
-          "fetchedAt": "2026-09-30T18:08:20.845Z",
-          "sourceSnapshotHash": "49e2718b59902b48ea214c8a469e47738cebe560463af2700a1d4aeaed06a0b5"
+          "fetchedAt": "2026-09-30T18:19:11.867Z",
+          "sourceSnapshotHash": "4ead23502ff151d34df4e232b5fd1cd272c8a8e652cda8e268766767a9faf852"
         },
         "mainCamera": {
-          "value": "50MP（5000 万像素）主摄",
-          "rawText": "5000万像素 广角摄像头",
+          "value": "5000万像素 广角摄像头 2倍光学品质变焦",
+          "rawText": "1000万像素 3倍光学变焦 5000万像素 广角摄像头 2倍光学品质变焦 1200万像素 超广角摄像头",
           "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/",
           "sourceType": "official",
@@ -418,8 +429,8 @@
           "sourceSnapshotHash": "4ead23502ff151d34df4e232b5fd1cd272c8a8e652cda8e268766767a9faf852"
         },
         "telephoto": {
-          "value": "1000 万像素 3 倍光学长焦",
-          "rawText": "1000万像素 3倍光学变焦",
+          "value": "1000万像素 3倍光学变焦",
+          "rawText": "1000万像素 3倍光学变焦 5000万像素 广角摄像头 2倍光学品质变焦 1200万像素 超广角摄像头",
           "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/",
           "sourceType": "official",
@@ -477,6 +488,17 @@
           "market": "中国大陆",
           "configuration": "12GB 运行内存 + 256GB 存储，国行版本",
           "condition": "中国大陆首发厂商建议零售价，不含限时升杯或预售尝鲜价"
+        },
+        "ultraWide": {
+          "value": "1200万像素 超广角摄像头",
+          "rawText": "1000万像素 3倍光学变焦 5000万像素 广角摄像头 2倍光学品质变焦 1200万像素 超广角摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:19:11.867Z",
+          "sourceSnapshotHash": "4ead23502ff151d34df4e232b5fd1cd272c8a8e652cda8e268766767a9faf852"
         }
       },
       "computed": {
@@ -632,19 +654,19 @@
           "sourceSnapshotHash": "78a763d9263d00e0665d8d1ee668fafe634ccc535bd94f8dbe78ee97f96d1b5b"
         },
         "rearCamera": {
-          "value": "5000 万像素 + 1000 万像素 + 1200 万像素",
-          "rawText": "5000万像素+1000万像素+1200万像素",
+          "value": "1200万像素 超广角摄像头；5000万像素 广角摄像头 2倍光学品质变焦；1000万像素 长焦摄像头 3倍光学变焦",
+          "rawText": "1200万像素 超广角摄像头 5000万像素 广角摄像头 2倍光学品质变焦 1000万像素 长焦摄像头 3倍光学变焦",
           "evidenceKind": "excerpt",
-          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9310LBGCHC&specAnnotationYN=Y",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/",
           "sourceType": "official",
           "confidence": 1,
           "verifiedAt": "2026-09-30",
-          "fetchedAt": "2026-09-30T18:08:21.230Z",
-          "sourceSnapshotHash": "eab968f2e7594cf3345a90d37c1c967cfe11abdfede5517523df438eb84f8785"
+          "fetchedAt": "2026-09-30T18:19:12.435Z",
+          "sourceSnapshotHash": "f04eb1a73edf653d68b558e519fa0cb31468c724f838cb500064e4fd572a4aa2"
         },
         "mainCamera": {
-          "value": "50MP（5000 万像素）主摄",
-          "rawText": "5000万像素 广角摄像头",
+          "value": "5000万像素 广角摄像头 2倍光学品质变焦",
+          "rawText": "1200万像素 超广角摄像头 5000万像素 广角摄像头 2倍光学品质变焦 1000万像素 长焦摄像头 3倍光学变焦",
           "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/",
           "sourceType": "official",
@@ -654,8 +676,8 @@
           "sourceSnapshotHash": "f04eb1a73edf653d68b558e519fa0cb31468c724f838cb500064e4fd572a4aa2"
         },
         "telephoto": {
-          "value": "1000 万像素 3 倍光学长焦",
-          "rawText": "1000万像素 长焦摄像头 3倍光学变焦",
+          "value": "1000万像素 长焦摄像头 3倍光学变焦",
+          "rawText": "1200万像素 超广角摄像头 5000万像素 广角摄像头 2倍光学品质变焦 1000万像素 长焦摄像头 3倍光学变焦",
           "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/",
           "sourceType": "official",
@@ -713,6 +735,17 @@
           "market": "中国大陆",
           "configuration": "12GB 运行内存 + 256GB 存储，国行版本",
           "condition": "中国大陆首发厂商建议零售价，不含限时升杯或预售尝鲜价"
+        },
+        "ultraWide": {
+          "value": "1200万像素 超广角摄像头",
+          "rawText": "1200万像素 超广角摄像头 5000万像素 广角摄像头 2倍光学品质变焦 1000万像素 长焦摄像头 3倍光学变焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:19:12.435Z",
+          "sourceSnapshotHash": "f04eb1a73edf653d68b558e519fa0cb31468c724f838cb500064e4fd572a4aa2"
         }
       },
       "computed": {}
@@ -857,19 +890,19 @@
           "sourceSnapshotHash": "78a763d9263d00e0665d8d1ee668fafe634ccc535bd94f8dbe78ee97f96d1b5b"
         },
         "rearCamera": {
-          "value": "5000 万像素 + 1000 万像素 + 1200 万像素",
-          "rawText": "5000万像素+1000万像素+1200万像素",
+          "value": "1200万像素 超广角摄像头；5000万像素 广角摄像头 2倍光学品质变焦；1000万像素 长焦摄像头 3倍光学变焦",
+          "rawText": "1200万像素 超广角摄像头 5000万像素 广角摄像头 2倍光学品质变焦 1000万像素 长焦摄像头 3倍光学变焦",
           "evidenceKind": "excerpt",
-          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9360LBDCHC&specAnnotationYN=Y",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/",
           "sourceType": "official",
           "confidence": 1,
           "verifiedAt": "2026-09-30",
-          "fetchedAt": "2026-09-30T18:08:21.564Z",
-          "sourceSnapshotHash": "cad9a1ee8536974d985953f7352097f3fd5cff092b4571d53ed7238a59fe6bed"
+          "fetchedAt": "2026-09-30T18:19:12.435Z",
+          "sourceSnapshotHash": "f04eb1a73edf653d68b558e519fa0cb31468c724f838cb500064e4fd572a4aa2"
         },
         "mainCamera": {
-          "value": "50MP（5000 万像素）主摄",
-          "rawText": "5000万像素 广角摄像头",
+          "value": "5000万像素 广角摄像头 2倍光学品质变焦",
+          "rawText": "1200万像素 超广角摄像头 5000万像素 广角摄像头 2倍光学品质变焦 1000万像素 长焦摄像头 3倍光学变焦",
           "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/",
           "sourceType": "official",
@@ -879,8 +912,8 @@
           "sourceSnapshotHash": "f04eb1a73edf653d68b558e519fa0cb31468c724f838cb500064e4fd572a4aa2"
         },
         "telephoto": {
-          "value": "1000 万像素 3 倍光学长焦",
-          "rawText": "1000万像素 长焦摄像头 3倍光学变焦",
+          "value": "1000万像素 长焦摄像头 3倍光学变焦",
+          "rawText": "1200万像素 超广角摄像头 5000万像素 广角摄像头 2倍光学品质变焦 1000万像素 长焦摄像头 3倍光学变焦",
           "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/",
           "sourceType": "official",
@@ -938,6 +971,17 @@
           "market": "中国大陆",
           "configuration": "12GB 运行内存 + 256GB 存储，国行版本",
           "condition": "中国大陆首发厂商建议零售价，不含限时升杯或预售尝鲜价"
+        },
+        "ultraWide": {
+          "value": "1200万像素 超广角摄像头",
+          "rawText": "1200万像素 超广角摄像头 5000万像素 广角摄像头 2倍光学品质变焦 1000万像素 长焦摄像头 3倍光学变焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:19:12.435Z",
+          "sourceSnapshotHash": "f04eb1a73edf653d68b558e519fa0cb31468c724f838cb500064e4fd572a4aa2"
         }
       },
       "computed": {}
@@ -1067,19 +1111,19 @@
           "sourceSnapshotHash": "357b56cff419d467d9c68d1d787968725131220131b3778fd53adb7550c7d015"
         },
         "rearCamera": {
-          "value": "5000 万像素 + 1000 万像素 + 1200 万像素",
-          "rawText": "5000万像素+1000万像素+1200万像素",
+          "value": "1200万像素超广角摄像头，F2.2；5000万像素广角摄像头，F1.8；1000万像素长焦摄像头，F2.4",
+          "rawText": "1,200万像素超广角摄像头，F2.2 5,000万像素广角摄像头，F1.8 1,000万像素长焦摄像头，F2.4",
           "evidenceKind": "excerpt",
-          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9420ZVGCHC&specAnnotationYN=Y",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/",
           "sourceType": "official",
           "confidence": 1,
           "verifiedAt": "2026-09-30",
-          "fetchedAt": "2026-09-30T18:08:21.937Z",
-          "sourceSnapshotHash": "8ea19b65920cf0ee62f160de15f31b79eb27580d6fb7dcad38b010cd31c34ee8"
+          "fetchedAt": "2026-09-30T18:19:12.885Z",
+          "sourceSnapshotHash": "bb58ff4c56e0ec5a4c46f0096b337297fdcd823c5208674fd6f22a2d0978c62b"
         },
         "mainCamera": {
-          "value": "50MP（5000 万像素）主摄",
-          "rawText": "5000万像素 F1.8 广角摄像头",
+          "value": "5000万像素广角摄像头，F1.8",
+          "rawText": "1,200万像素超广角摄像头，F2.2 5,000万像素广角摄像头，F1.8 1,000万像素长焦摄像头，F2.4",
           "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/",
           "sourceType": "official",
@@ -1089,8 +1133,8 @@
           "sourceSnapshotHash": "bb58ff4c56e0ec5a4c46f0096b337297fdcd823c5208674fd6f22a2d0978c62b"
         },
         "telephoto": {
-          "value": "1000 万像素 3 倍光学长焦",
-          "rawText": "1000万像素 F2.4 长焦摄像头 3倍光学变焦",
+          "value": "1000万像素长焦摄像头，F2.4",
+          "rawText": "1,200万像素超广角摄像头，F2.2 5,000万像素广角摄像头，F1.8 1,000万像素长焦摄像头，F2.4",
           "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/",
           "sourceType": "official",
@@ -1148,6 +1192,17 @@
           "market": "中国大陆",
           "configuration": "12GB 运行内存 + 256GB 存储，国行版本",
           "condition": "中国大陆首发厂商建议零售价，不含限时升杯或预售尝鲜价"
+        },
+        "ultraWide": {
+          "value": "1200万像素超广角摄像头，F2.2",
+          "rawText": "1,200万像素超广角摄像头，F2.2 5,000万像素广角摄像头，F1.8 1,000万像素长焦摄像头，F2.4",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:19:12.885Z",
+          "sourceSnapshotHash": "bb58ff4c56e0ec5a4c46f0096b337297fdcd823c5208674fd6f22a2d0978c62b"
         }
       },
       "computed": {}
@@ -1292,19 +1347,19 @@
           "sourceSnapshotHash": "357b56cff419d467d9c68d1d787968725131220131b3778fd53adb7550c7d015"
         },
         "rearCamera": {
-          "value": "5000 万像素 + 1000 万像素 + 1200 万像素",
-          "rawText": "5000万像素+1000万像素+1200万像素",
+          "value": "1200万像素超广角摄像头，F2.2；5000万像素广角摄像头，F1.8；1000万像素长焦摄像头，F2.4",
+          "rawText": "1,200万像素超广角摄像头，F2.2 5,000万像素广角摄像头，F1.8 1,000万像素长焦摄像头，F2.4",
           "evidenceKind": "excerpt",
-          "sourceUrl": "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9470ZVDCHC&specAnnotationYN=Y",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/",
           "sourceType": "official",
           "confidence": 1,
           "verifiedAt": "2026-09-30",
-          "fetchedAt": "2026-09-30T18:08:22.216Z",
-          "sourceSnapshotHash": "c876a9e273c60058ca2e7f590016f2f13148ec8fdb21cadead4b491e3b14fd6a"
+          "fetchedAt": "2026-09-30T18:19:12.885Z",
+          "sourceSnapshotHash": "bb58ff4c56e0ec5a4c46f0096b337297fdcd823c5208674fd6f22a2d0978c62b"
         },
         "mainCamera": {
-          "value": "50MP（5000 万像素）主摄",
-          "rawText": "5000万像素 F1.8 广角摄像头",
+          "value": "5000万像素广角摄像头，F1.8",
+          "rawText": "1,200万像素超广角摄像头，F2.2 5,000万像素广角摄像头，F1.8 1,000万像素长焦摄像头，F2.4",
           "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/",
           "sourceType": "official",
@@ -1314,8 +1369,8 @@
           "sourceSnapshotHash": "bb58ff4c56e0ec5a4c46f0096b337297fdcd823c5208674fd6f22a2d0978c62b"
         },
         "telephoto": {
-          "value": "1000 万像素 3 倍光学长焦",
-          "rawText": "1000万像素 F2.4 长焦摄像头 3倍光学变焦",
+          "value": "1000万像素长焦摄像头，F2.4",
+          "rawText": "1,200万像素超广角摄像头，F2.2 5,000万像素广角摄像头，F1.8 1,000万像素长焦摄像头，F2.4",
           "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/",
           "sourceType": "official",
@@ -1373,6 +1428,17 @@
           "market": "中国大陆",
           "configuration": "12GB 运行内存 + 256GB 存储，国行版本",
           "condition": "中国大陆首发厂商建议零售价，不含限时升杯或预售尝鲜价"
+        },
+        "ultraWide": {
+          "value": "1200万像素超广角摄像头，F2.2",
+          "rawText": "1,200万像素超广角摄像头，F2.2 5,000万像素广角摄像头，F1.8 1,000万像素长焦摄像头，F2.4",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-30",
+          "fetchedAt": "2026-09-30T18:19:12.885Z",
+          "sourceSnapshotHash": "bb58ff4c56e0ec5a4c46f0096b337297fdcd823c5208674fd6f22a2d0978c62b"
         }
       },
       "computed": {}
@@ -1546,8 +1612,8 @@
           "sourceSnapshotHash": "10fa668fcea07b49fa676d1682b7d1ad7d6447a5e2d66ca8e56e803e16440380"
         },
         "rearCamera": {
-          "value": "2 亿像素主摄 + 1200 万像素超广角 + 5000 万像素长焦 + 1000 万像素长焦",
-          "rawText": "后置摄像头 2亿像素 广角摄像头 2倍光学品质变焦 1200万像素 超广角摄像头 5000万像素 5倍光学变焦 &amp; 10倍光学品质变焦 1000万像素 3倍光学变焦",
+          "value": "2亿像素 广角摄像头 2倍光学品质变焦；1200万像素 超广角摄像头；5000万像素 5倍光学变焦 & 10倍光学品质变焦；1000万像素 3倍光学变焦",
+          "rawText": "2亿像素 广角摄像头 2倍光学品质变焦 1200万像素 超广角摄像头 5000万像素 5倍光学变焦 & 10倍光学品质变焦 1000万像素 3倍光学变焦",
           "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/",
           "sourceType": "official",
@@ -1557,8 +1623,8 @@
           "sourceSnapshotHash": "b8b787b24cfac0d9efc5c9e8e27e03773e26f1320e7271dbc9417eaee2b51c27"
         },
         "mainCamera": {
-          "value": "200MP（2 亿像素）主摄",
-          "rawText": "2亿像素 广角摄像头",
+          "value": "2亿像素 广角摄像头 2倍光学品质变焦",
+          "rawText": "2亿像素 广角摄像头 2倍光学品质变焦 1200万像素 超广角摄像头 5000万像素 5倍光学变焦 & 10倍光学品质变焦 1000万像素 3倍光学变焦",
           "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/",
           "sourceType": "official",
@@ -1568,8 +1634,8 @@
           "sourceSnapshotHash": "b8b787b24cfac0d9efc5c9e8e27e03773e26f1320e7271dbc9417eaee2b51c27"
         },
         "telephoto": {
-          "value": "5000 万像素 5 倍长焦 + 1000 万像素 3 倍长焦",
-          "rawText": "5000万像素 5倍光学变焦 &amp; 10倍光学品质变焦 1000万像素 3倍光学变焦",
+          "value": "5000万像素 5倍光学变焦 & 10倍光学品质变焦；1000万像素 3倍光学变焦",
+          "rawText": "2亿像素 广角摄像头 2倍光学品质变焦 1200万像素 超广角摄像头 5000万像素 5倍光学变焦 & 10倍光学品质变焦 1000万像素 3倍光学变焦",
           "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/",
           "sourceType": "official",
@@ -1627,6 +1693,17 @@
           "market": "中国大陆",
           "configuration": "12GB 运行内存 + 256GB 存储，国行版本",
           "condition": "中国大陆首发厂商建议零售价，不含限时升杯或预售尝鲜价"
+        },
+        "ultraWide": {
+          "value": "1200万像素 超广角摄像头",
+          "rawText": "2亿像素 广角摄像头 2倍光学品质变焦 1200万像素 超广角摄像头 5000万像素 5倍光学变焦 & 10倍光学品质变焦 1000万像素 3倍光学变焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:06:58.216Z",
+          "sourceSnapshotHash": "b8b787b24cfac0d9efc5c9e8e27e03773e26f1320e7271dbc9417eaee2b51c27"
         }
       },
       "computed": {
@@ -1811,8 +1888,8 @@
           "sourceSnapshotHash": "5c39a30f6a934db9acd67205cabfbfdfd5cd26c48cbc417528fc1f95ae822c35"
         },
         "rearCamera": {
-          "value": "2 亿像素主摄 + 5000 万像素超广角 + 5000 万像素长焦 + 1000 万像素长焦",
-          "rawText": "后置摄像头 5000万像素 超广角摄像头 2亿像素 广角摄像头 2倍光学品质变焦 5000万像素 长焦摄像头 5倍光学变焦&amp;10倍光学品质变焦 1000万像素 长焦摄像头 3倍光学变焦",
+          "value": "5000万像素 超广角摄像头；2亿像素 广角摄像头 2倍光学品质变焦；5000万像素 长焦摄像头 5倍光学变焦&10倍光学品质变焦；1000万像素 长焦摄像头 3倍光学变焦",
+          "rawText": "5000万像素 超广角摄像头 2亿像素 广角摄像头 2倍光学品质变焦 5000万像素 长焦摄像头 5倍光学变焦&10倍光学品质变焦 1000万像素 长焦摄像头 3倍光学变焦",
           "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/",
           "sourceType": "official",
@@ -1822,8 +1899,8 @@
           "sourceSnapshotHash": "a8e8b7fed08de657a807da3efafc4ac8bc65ec699d9aa081b1886c38148d8bcd"
         },
         "mainCamera": {
-          "value": "200MP（2 亿像素）主摄",
-          "rawText": "2亿像素 广角摄像头",
+          "value": "2亿像素 广角摄像头 2倍光学品质变焦",
+          "rawText": "5000万像素 超广角摄像头 2亿像素 广角摄像头 2倍光学品质变焦 5000万像素 长焦摄像头 5倍光学变焦&10倍光学品质变焦 1000万像素 长焦摄像头 3倍光学变焦",
           "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/",
           "sourceType": "official",
@@ -1833,8 +1910,8 @@
           "sourceSnapshotHash": "a8e8b7fed08de657a807da3efafc4ac8bc65ec699d9aa081b1886c38148d8bcd"
         },
         "telephoto": {
-          "value": "5000 万像素 5 倍长焦 + 1000 万像素 3 倍长焦",
-          "rawText": "5000万像素 长焦摄像头 5倍光学变焦&amp;10倍光学品质变焦 1000万像素 长焦摄像头 3倍光学变焦",
+          "value": "5000万像素 长焦摄像头 5倍光学变焦&10倍光学品质变焦；1000万像素 长焦摄像头 3倍光学变焦",
+          "rawText": "5000万像素 超广角摄像头 2亿像素 广角摄像头 2倍光学品质变焦 5000万像素 长焦摄像头 5倍光学变焦&10倍光学品质变焦 1000万像素 长焦摄像头 3倍光学变焦",
           "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/",
           "sourceType": "official",
@@ -1892,6 +1969,17 @@
           "market": "中国大陆",
           "configuration": "12GB 运行内存 + 256GB 存储，国行版本",
           "condition": "中国大陆首发厂商建议零售价，不含限时升杯或预售尝鲜价"
+        },
+        "ultraWide": {
+          "value": "5000万像素 超广角摄像头",
+          "rawText": "5000万像素 超广角摄像头 2亿像素 广角摄像头 2倍光学品质变焦 5000万像素 长焦摄像头 5倍光学变焦&10倍光学品质变焦 1000万像素 长焦摄像头 3倍光学变焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25-ultra/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:06:58.351Z",
+          "sourceSnapshotHash": "a8e8b7fed08de657a807da3efafc4ac8bc65ec699d9aa081b1886c38148d8bcd"
         }
       },
       "computed": {}
@@ -2065,8 +2153,8 @@
           "sourceSnapshotHash": "68d6fc19a2d27767a1c96197c70ac95ecb5bc058fdce1700a85b7e70659fa012"
         },
         "rearCamera": {
-          "value": "2 亿像素主摄 + 5000 万像素超广角 + 5000 万像素长焦 + 1000 万像素长焦",
-          "rawText": "后置摄像头 5000万像素 F1.9 超广角摄像头 2亿像素 F1.4 广角摄像头 2倍光学品质变焦 5000万像素 F2.9 长焦摄像头 5倍光学变焦&amp;10倍光学品质变焦 1000万像素 F2.4 长焦摄像头 3倍光学变焦",
+          "value": "5000万像素 F1.9 超广角摄像头；2亿像素 F1.4 广角摄像头 2倍光学品质变焦；5000万像素 F2.9 长焦摄像头 5倍光学变焦&10倍光学品质变焦；1000万像素 F2.4 长焦摄像头 3倍光学变焦",
+          "rawText": "5000万像素 F1.9 超广角摄像头 2亿像素 F1.4 广角摄像头 2倍光学品质变焦 5000万像素 F2.9 长焦摄像头 5倍光学变焦&10倍光学品质变焦 1000万像素 F2.4 长焦摄像头 3倍光学变焦",
           "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/",
           "sourceType": "official",
@@ -2076,8 +2164,8 @@
           "sourceSnapshotHash": "c15bf0c8f6a67915bf5247c5ddbcad1bec1fdb1bb94744600d5a62191938c17a"
         },
         "mainCamera": {
-          "value": "200MP（2 亿像素）主摄",
-          "rawText": "2亿像素 F1.4 广角摄像头",
+          "value": "2亿像素 F1.4 广角摄像头 2倍光学品质变焦",
+          "rawText": "5000万像素 F1.9 超广角摄像头 2亿像素 F1.4 广角摄像头 2倍光学品质变焦 5000万像素 F2.9 长焦摄像头 5倍光学变焦&10倍光学品质变焦 1000万像素 F2.4 长焦摄像头 3倍光学变焦",
           "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/",
           "sourceType": "official",
@@ -2087,8 +2175,8 @@
           "sourceSnapshotHash": "c15bf0c8f6a67915bf5247c5ddbcad1bec1fdb1bb94744600d5a62191938c17a"
         },
         "telephoto": {
-          "value": "5000 万像素 5 倍长焦 + 1000 万像素 3 倍长焦",
-          "rawText": "5000万像素 F2.9 长焦摄像头 5倍光学变焦&amp;10倍光学品质变焦 1000万像素 F2.4 长焦摄像头 3倍光学变焦",
+          "value": "5000万像素 F2.9 长焦摄像头 5倍光学变焦&10倍光学品质变焦；1000万像素 F2.4 长焦摄像头 3倍光学变焦",
+          "rawText": "5000万像素 F1.9 超广角摄像头 2亿像素 F1.4 广角摄像头 2倍光学品质变焦 5000万像素 F2.9 长焦摄像头 5倍光学变焦&10倍光学品质变焦 1000万像素 F2.4 长焦摄像头 3倍光学变焦",
           "evidenceKind": "excerpt",
           "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/",
           "sourceType": "official",
@@ -2146,6 +2234,17 @@
           "market": "中国大陆",
           "configuration": "12GB 运行内存 + 256GB 存储，国行版本",
           "condition": "中国大陆首发厂商建议零售价，不含限时升杯或预售尝鲜价"
+        },
+        "ultraWide": {
+          "value": "5000万像素 F1.9 超广角摄像头",
+          "rawText": "5000万像素 F1.9 超广角摄像头 2亿像素 F1.4 广角摄像头 2倍光学品质变焦 5000万像素 F2.9 长焦摄像头 5倍光学变焦&10倍光学品质变焦 1000万像素 F2.4 长焦摄像头 3倍光学变焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s26-ultra/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-09-22",
+          "fetchedAt": "2026-09-22T11:06:58.536Z",
+          "sourceSnapshotHash": "c15bf0c8f6a67915bf5247c5ddbcad1bec1fdb1bb94744600d5a62191938c17a"
         }
       },
       "computed": {}

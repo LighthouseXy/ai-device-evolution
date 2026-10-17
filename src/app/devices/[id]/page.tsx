@@ -16,7 +16,7 @@ import DeviceImage from "@/components/DeviceImage";
 import DeviceSpecGrid from "@/components/DeviceSpecGrid";
 import { getDeviceImage, getDeviceImageGallery } from "@/lib/device-images";
 import { formatConfiguration, getPricesForComparison, getLaunchPriceRows } from "@/lib/device-configurations";
-import { formatDeviceSpec, getDeviceSpecFields, getCameraDetailPresentation, splitDeviceSpecDescription } from "@/lib/device-spec-fields";
+import { formatDeviceSpec, getDeviceSpecFields, getDeviceSpecNote, splitDeviceSpecDescription } from "@/lib/device-spec-fields";
 import { brandLabels } from "@/lib/catalog-order";
 
 function buildSourceRows(devices: (typeof allDevices)) {
@@ -81,16 +81,15 @@ type DetailRow = {
   value: string;
   note?: string;
   preserveLines?: boolean;
-  supplementary?: boolean;
   quotes?: Array<{ configuration: string; amount: string }>;
 };
 
-function InfoRow({ label, value, note, preserveLines, supplementary, quotes }: DetailRow) {
+function InfoRow({ label, value, note, preserveLines, quotes }: DetailRow) {
   const lines = value.split("\n");
   // 仅按原文分项，不生成摘要；配置条件保留原有行，避免拆散对应关系。
   const parts = splitDeviceSpecDescription(value);
   const hasIntroduction = !preserveLines && parts.length > 1 && /[:：]$/.test(parts[0]);
-  const detailed = supplementary || hasIntroduction || value.length > 80 || parts.length > 2 || lines.length > 1 || Boolean(quotes?.length);
+  const detailed = hasIntroduction || value.length > 80 || parts.length > 2 || lines.length > 1 || Boolean(quotes?.length);
   return (
     <div className={`device-spec-row${detailed ? " is-detailed" : ""}`}>
       <dt className="device-spec-label">{label}</dt>
@@ -128,7 +127,7 @@ function SpecGroup({
     <section className="card device-spec-group" aria-label={`${title}参数`}>
       <h3>{title}</h3>
       <dl>
-        {[...rows.filter(row => !row.supplementary), ...rows.filter(row => row.supplementary)].map((row) => (
+        {rows.map((row) => (
           <InfoRow key={row.label} {...row} />
         ))}
       </dl>
@@ -173,19 +172,13 @@ export default async function DeviceDetailPage({
   const comparisonGroupLabel = getComparisonGroupLabelFlat(device.family, device.variant, device.tier);
   const specGroups = new Map<string, DetailRow[]>();
   const specFields = getDeviceSpecFields([device]);
-  const cameraPresentation = getCameraDetailPresentation(device);
   for (const field of specFields) {
-    if (cameraPresentation.omittedLensKeys.includes(field.key)) continue;
-    const cameraSupplement = field.key === "rearCamera" ? cameraPresentation.supplement : undefined;
-    const note = device.specs?.[`${field.key}Note`];
-    if (cameraSupplement === "" && !note) continue;
-    const noteAsValue = cameraSupplement === "" && Boolean(note);
+    const note = getDeviceSpecNote(device, field.key);
     const row = {
-      label: cameraSupplement !== undefined ? "影像补充" : field.label,
-      value: noteAsValue ? String(note) : cameraSupplement ?? formatDeviceSpec(device, field),
-      note: note && !noteAsValue ? String(note) : undefined,
+      label: field.label,
+      value: formatDeviceSpec(device, field),
+      note: note ? String(note) : undefined,
       preserveLines: ["chip", "memory", "storage", "cpu", "gpu"].includes(field.key),
-      supplementary: cameraSupplement !== undefined,
     };
     specGroups.set(field.group, [...(specGroups.get(field.group) ?? []), row]);
   }
@@ -196,7 +189,7 @@ export default async function DeviceDetailPage({
       value: "待补充",
       quotes: prices.map(price => ({
         configuration: formatConfiguration(price.configuration),
-        amount: `${formatMaybeCurrency(price.value)}${price.estimated ? "（预估）" : ""}`,
+        amount: `${formatMaybeCurrency(price.value)}${price.estimated ? "（预估）" : ""}${price.availabilityNote ? `（${price.availabilityNote}）` : ""}`,
       })),
     };
   });

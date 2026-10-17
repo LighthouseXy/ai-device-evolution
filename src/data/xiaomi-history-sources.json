@@ -13,7 +13,9 @@
         "https://detail.zol.com.cn/1162/1161066/param.shtml",
         "https://detail.zol.com.cn/1203/1202665/param.shtml",
         "https://mobile.zol.com.cn/639/6390845.html",
-        "https://mobile.zol.com.cn/636/6364283_all.html"
+        "https://mobile.zol.com.cn/636/6364283_all.html",
+        "https://www.mi.com/mi6/specs",
+        "https://www.mi.com/mi6"
       ],
       "releaseEvidence": {
         "value": "2017-04-28",
@@ -70,7 +72,41 @@
         "verifiedAt": "2026-10-05",
         "fetchedAt": "2026-10-05T18:20:40.757Z",
         "sourceSnapshotHash": "b57c026933ae2eb89c44a3d18338ff8b4e98406afdc51b9dbdc7a89306477043"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "color": "亮蓝色",
+          "url": "https://c1.mifile.cn/f/i/17/mi6/index/kind-blue.png",
+          "sourceUrl": "https://www.mi.com/mi6",
+          "sourceName": "小米中国官网历史产品页",
+          "targetIds": [
+            "xiaomi-6-2017"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "1d415ec3dca33dfa084600df2d4ff47ec47b78aeb1a97796b8cf7b8e03dab7ce",
+          "anchor": "<ul class=\"kind-list\">\n                    <li class=\"item01 item-pic J_itemPic\"></li>\n                    <li class=\"item02 item-pic J_itemPic\"></li>\n                    <li class=\"item03 item-pic J_itemPic\"></li>\n                    <li class=\"item04 item-pic J_itemPic\"></li>\n                </ul>\n                <ul class=\"dot-list clearfix\">\n                    <li class=\"dot dot01 J_dotItem active\"></li>\n                    <li class=\"dot dot02 J_dotItem\"></li>\n                    <li class=\"dot dot03 J_dotItem\"></li>\n                    <li class=\"dot dot04 J_dotItem\"></li>\n                </ul>\n                <ul class=\"text-list\">\n                    <li class=\"text J_textItem\">亮黑</li>\n                    <li class=\"text J_textItem\">亮蓝</li>\n                    <li class=\"text J_textItem\">亮白</li>\n                    <li class=\"text J_textItem\">陶瓷黑</li>\n                </ul>",
+          "xiaomiLegacyNativeImage": true,
+          "resourceChain": [
+            {
+              "sourceUrl": "https://s01.mifile.cn/css/product/mi6/index.min.css?5b4ae6",
+              "sourceSnapshotHash": "e6964b0d47dfee43d3934bed017cf3e4f87c0a7e88407c82b9cf65e4b88beb70",
+              "anchors": [
+                ".mi6-index .section-kinds.preload .item02{background:url(\"//c1.mifile.cn/f/i/17/mi6/index/kind-blue.png\") no-repeat center center}"
+              ]
+            }
+          ],
+          "colorScope": "single_color",
+          "imageScope": "single_model",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "c685543810a4d30446ab03adb6d2c292661debb808ae02acde8a2d6ad305d753",
+            "width": 909,
+            "height": 652,
+            "notes": "官网第二配色标签与item02样式表绑定，原生完整正背侧三视图；未裁切合成。"
+          }
+        }
+      ]
     },
     {
       "id": "xiaomi-mix-4-2021",
@@ -211,7 +247,9 @@
         "https://detail.zol.com.cn/series/57/34645/param_32510_0_1.html",
         "https://detail.zol.com.cn/1343/1342500/param.shtml",
         "https://detail.zol.com.cn/1354/1353679/param.shtml",
-        "https://detail.zol.com.cn/1354/1353680/param.shtml"
+        "https://detail.zol.com.cn/1354/1353680/param.shtml",
+        "https://www.ithome.com/0/530/160.htm",
+        "https://detail.zol.com.cn/picture_index_2101/index21004735_0_p1342500.shtml"
       ],
       "releaseEvidence": {
         "value": "2021-01-01",
@@ -257,7 +295,52 @@
         "verifiedAt": "2026-10-05",
         "fetchedAt": "2026-10-05T18:20:46.510Z",
         "sourceSnapshotHash": "169544c5a8b5c1e1cd245ae6fdc095e67b28e8ae1e3033baf20b347842798843"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-11-2021"
+          ],
+          "sourceUrl": "https://www.ithome.com/0/530/160.htm",
+          "sourceSnapshotHash": "d88d1afbab554f8eb3e26eb5ff5e0516d7e7fe2b094d5b5c8910b89ddb9920ac",
+          "url": "https://img14.360buyimg.com/pop/jfs/t1/153021/14/11977/67298/5fe949d2E2a2e2cbc/f726437882607c3e.jpg",
+          "anchor": "<img src=\"//img.ithome.com/images/v2/t.png\" class=\"lazy\" title=\"4699 元，小米 11 雷军签名版今天上午 10 点再限量发售\" data-original=\"https://img14.360buyimg.com/pop/jfs/t1/153021/14/11977/67298/5fe949d2E2a2e2cbc/f726437882607c3e.jpg\">",
+          "color": "蓝色",
+          "viewScope": "front_back",
+          "colorAnchor": "<span class=\"card-name\">小米11 &nbsp;8GB+128GB 蓝色 </span>",
+          "modelAnchor": "<span class=\"card-name\">小米11 &nbsp;8GB+128GB 蓝色 </span>",
+          "licenseStatus": "unknown",
+          "sourceName": "IT之家",
+          "imageScope": "model_shared",
+          "note": "同型号具名配色原生产品图，正反同框。"
+        },
+        {
+          "color": "卡其",
+          "url": "https://2f.zol-img.com.cn/product/214/395/cet93iXmy1Yvs.jpg",
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2101/index21004735_0_p1342500.shtml",
+          "sourceName": "中关村在线具名颜色产品图库",
+          "targetIds": [
+            "xiaomi-11-2021"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "40b914a0ec718fe75eaaa7504c0077b019e2f2ae4bacb61b07bddcfc2bb50833",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"cet93iXmy1Yvs\",\"classId3\":\"15549\",\"classId4\":\"17993\",\"proId\":1342500,\"sid\":\"32510\",\"groupId\":\"64639\",\"sizeInfo\":{\"source\":[\"874\",\"656\"],\"pic\":[\"799\",\"600\"]},\"picId\":21483395,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":27,\"classPicPos\":27,\"picPos\":27,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2f.zol-img.com.cn\\/product\\/214_100x75\\/395\\/cet93iXmy1Yvs.jpg\",\"imgWidth\":\"874\",\"imgHeight\":\"656\",\"brief\":\"\"}",
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 874,
+            "height": 656,
+            "sha256": "d1a992c98c9481626ab97a0d01e10d128ab078316c1bfcd10d7ea172f888d585",
+            "notes": "逐图核验原生正反同框，准确型号及具名颜色；未裁剪、合成或增强。"
+          },
+          "zolProductId": "1342500",
+          "zolPicId": 21483395,
+          "zolHash": "cet93iXmy1Yvs"
+        }
+      ]
     },
     {
       "id": "xiaomi-11-pro-2021",
@@ -271,7 +354,8 @@
         "https://detail.zol.com.cn/series/57/34645/param_33480_0_1.html",
         "https://detail.zol.com.cn/1348/1347136/param.shtml",
         "https://detail.zol.com.cn/1365/1364834/param.shtml",
-        "https://detail.zol.com.cn/1365/1364833/param.shtml"
+        "https://detail.zol.com.cn/1365/1364833/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2120/index21191659_0_p1347136.shtml"
       ],
       "releaseEvidence": {
         "value": "2021-04-02",
@@ -317,7 +401,34 @@
         "verifiedAt": "2026-10-05",
         "fetchedAt": "2026-10-05T18:20:47.230Z",
         "sourceSnapshotHash": "a27166396f0f394839a0a8b6393527636dd05fc4594318c6d93b40f604181007"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "color": "黑色",
+          "url": "https://2a.zol-img.com.cn/product/211/670/ceIMWhUpcvKdg.jpg",
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2120/index21191659_0_p1347136.shtml",
+          "sourceName": "中关村在线具名颜色产品图库",
+          "targetIds": [
+            "xiaomi-11-pro-2021"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "6a74928f4f3a9dcf62d745281a278ee27a74649fb5eeed4e05cacbae316254e7",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ceIMWhUpcvKdg\",\"classId3\":\"15549\",\"classId4\":\"392\",\"proId\":1347136,\"groupId\":\"71714\",\"sizeInfo\":{\"source\":[\"936\",\"702\"],\"pic\":[\"800\",\"600\"]},\"picId\":21191670,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":15,\"classPicPos\":15,\"picPos\":15,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2a.zol-img.com.cn\\/product\\/211_100x75\\/670\\/ceIMWhUpcvKdg.jpg\",\"imgWidth\":\"936\",\"imgHeight\":\"702\",\"brief\":\"\"}",
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 936,
+            "height": 702,
+            "sha256": "1cd92b142d46bc884c34e2d4dc3afcdbfce53a1f69188f73d4033e29b03c8310",
+            "notes": "逐图核验原生正反同框，准确型号及具名颜色；未裁剪、合成或增强。"
+          },
+          "zolProductId": "1347136",
+          "zolPicId": 21191670,
+          "zolHash": "ceIMWhUpcvKdg"
+        }
+      ]
     },
     {
       "id": "xiaomi-11-lite-2021",
@@ -330,7 +441,9 @@
         "https://detail.zol.com.cn/series/57/33482_1.html",
         "https://detail.zol.com.cn/series/57/34645/param_33482_0_1.html",
         "https://detail.zol.com.cn/1357/1356946/param.shtml",
-        "https://detail.zol.com.cn/1365/1364838/param.shtml"
+        "https://detail.zol.com.cn/1365/1364838/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2120/index21191817_0_p1356946.shtml",
+        "https://m.suning.com/product/0000000000/000000012265208373.html?src=2203557881&srcPoint=2203557881"
       ],
       "releaseEvidence": {
         "value": "2021-04-16",
@@ -376,7 +489,56 @@
         "verifiedAt": "2026-10-05",
         "fetchedAt": "2026-10-05T18:20:47.923Z",
         "sourceSnapshotHash": "95a8e13d748ebe11921322e59ac76315a8785e6b6819149b8f8804594c5ab0ad"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "color": "冰峰黑提",
+          "url": "https://2d.zol-img.com.cn/product/211/811/ceec6bqg0KPLA.jpg",
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2120/index21191817_0_p1356946.shtml",
+          "sourceName": "中关村在线具名颜色产品图库",
+          "targetIds": [
+            "xiaomi-11-lite-2021"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "af36b69e23d76115963355d2383162190836c308ae7868560863566adcef2853",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ceec6bqg0KPLA\",\"classId3\":\"15549\",\"classId4\":\"18134\",\"proId\":1356946,\"groupId\":\"71719\",\"sizeInfo\":{\"source\":[\"917\",\"688\"],\"pic\":[\"800\",\"600\"]},\"picId\":21191811,\"name\":\"\\u51b0\\u5cf0\\u9ed1\\u63d0\",\"curClassId\":4,\"classNum\":5,\"classPicPos\":1,\"picPos\":57,\"className\":\"\\u51b0\\u5cf0\\u9ed1\\u63d0\",\"classId\":18134,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2d.zol-img.com.cn\\/product\\/211_100x75\\/811\\/ceec6bqg0KPLA.jpg\",\"imgWidth\":\"917\",\"imgHeight\":\"688\",\"brief\":\"\"}",
+          "zolProductId": "1356946",
+          "zolPicId": 21191811,
+          "zolHash": "ceec6bqg0KPLA",
+          "colorScope": "single_color",
+          "imageScope": "single_model",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "f9117c38ccd888c6fcd152647e8d1d7b52687e8af47a1754113a2097e781b499",
+            "width": 917,
+            "height": 688,
+            "notes": "原生完整正反同框，实际原图核验；普通清晰度，保留来源水印。"
+          }
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-11-lite-2021"
+          ],
+          "sourceName": "苏宁易购小米苏宁自营旗舰店",
+          "sourceUrl": "https://m.suning.com/product/0000000000/000000012265208373.html?src=2203557881&srcPoint=2203557881",
+          "sourceSnapshotHash": "7f3ba981f1c8710b3b51ff96ea9f47c1cc181c5f06d5257f6c316ab4980714c4",
+          "url": "https://imgservice.suning.cn/uimg1/b2c/image/phqH85AOw6xOG1uNFaDrpA.jpg_800w_800h_4e_80Q_is",
+          "color": "夏日柠檬",
+          "viewScope": "front_back",
+          "imageScope": "model_shared",
+          "sha256": "0ddccf61b9170bff1b24e6a691499b2c22d48654f22d4f8fdfdc6f0991dcfd31",
+          "width": 800,
+          "height": 800,
+          "licenseStatus": "unknown",
+          "anchor": "<img src=\"//imgservice.suning.cn/uimg1/b2c/image/phqH85AOw6xOG1uNFaDrpA.jpg_800w_800h_4e_80Q_is\" alt=\"小米(MI)小米11青春版 8+256GB 夏日柠檬 骁龙780G 4250mAh大电量 6400万AI三摄 专业原色屏 5G手机 小米游戏手机大屏手机图片\" onerror=\"this.src=&quot;https://res.suning.cn/project/pdnode/nuxt-dist/dist/client/nuxt/assets/images/error/blank.png?v=1789644771823&quot;\" data-v-5f47c2a6>",
+          "colorAnchor": "<title>小米(MI)小米11青春版 8+256GB 夏日柠檬 骁龙780G 4250mAh大电量 6400万AI三摄 专业原色屏 5G手机 小米游戏手机大屏手机【价格 图片 品牌 报价】-苏宁易购</title>",
+          "modelAnchor": "<title>小米(MI)小米11青春版 8+256GB 夏日柠檬 骁龙780G 4250mAh大电量 6400万AI三摄 专业原色屏 5G手机 小米游戏手机大屏手机【价格 图片 品牌 报价】-苏宁易购</title>",
+          "imageRendition": "suning_large",
+          "parameterAnchor": "<li data-v-1996712a data-v-f0411aac><div data-v-1996712a data-v-f0411aac>CPU型号</div> <div data-v-1996712a data-v-f0411aac>780G</div></li>"
+        }
+      ]
     },
     {
       "id": "xiaomi-11-lite-ne-2021",
@@ -449,7 +611,8 @@
         "https://detail.zol.com.cn/series/57/34645/param_33310_0_1.html",
         "https://detail.zol.com.cn/1363/1362006/param.shtml",
         "https://detail.zol.com.cn/1363/1362410/param.shtml",
-        "https://detail.zol.com.cn/1363/1362408/param.shtml"
+        "https://detail.zol.com.cn/1363/1362408/param.shtml",
+        "https://product.suning.com/0070739933/12390115555.html"
       ],
       "releaseEvidence": {
         "value": "2021-03-12",
@@ -495,7 +658,34 @@
         "verifiedAt": "2026-10-05",
         "fetchedAt": "2026-10-05T18:20:49.254Z",
         "sourceSnapshotHash": "85c559dbb427b5ab079993ee95e05b91d9e99e02c060174bc4b11c52b3b6c8b4"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "color": "黑色",
+          "url": "https://imgservice.suning.cn/uimg1/b2c/image/v1YSBH4wzL_G2bhMmmx1kw.png_800w_800h_4e",
+          "sourceUrl": "https://product.suning.com/0070739933/12390115555.html",
+          "sourceName": "苏宁易购",
+          "targetIds": [
+            "xiaomi-10s-2021"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "ed4e8e38cb7ffb6d642de857d7afdf10e1e55b2d6d6026480b8cd2affc14a545",
+          "anchor": "<img onerror=\"javascript:$('.imgzoom-thumb-main li[data-index=2]').remove();\" alt=\"[二手95新]小米10S 5G 黑色 8G+128G 全网通安卓手机 6.67英寸曲面屏骁龙870 双卡拍照备用5G手机\" src-large=\"//imgservice.suning.cn/uimg1/b2c/image/v1YSBH4wzL_G2bhMmmx1kw.png_800w_800h_4e\" src-medium=\"//imgservice.suning.cn/uimg1/b2c/image/v1YSBH4wzL_G2bhMmmx1kw.png_800w_800h_4e\" src=\"//imgservice.suning.cn/uimg1/b2c/image/v1YSBH4wzL_G2bhMmmx1kw.png_60w_60h_4e\">",
+          "modelAnchor": "<title>【小米(mi)二手手机】 [二手95新]小米10S 5G 黑色 8G+128G 全网通安卓手机 6.67英寸曲面屏骁龙870 双卡拍照备用5G手机【价格 图片 品牌 报价】-苏宁易购禧运二手靓品专营店</title>",
+          "colorAnchor": "<title>【小米(mi)二手手机】 [二手95新]小米10S 5G 黑色 8G+128G 全网通安卓手机 6.67英寸曲面屏骁龙870 双卡拍照备用5G手机【价格 图片 品牌 报价】-苏宁易购禧运二手靓品专营店</title>",
+          "imageRendition": "suning_large",
+          "colorScope": "single_color",
+          "imageScope": "single_model",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "93c091b22124030fdc8d67d14efaebe828441e5203e8f2183e1805a264d0cedd",
+            "width": 800,
+            "height": 800,
+            "notes": "同一10S黑色商品页第二张干净正反图；仅采用图片，不导入二手状态及报价。"
+          }
+        }
+      ]
     },
     {
       "id": "xiaomi-10-2020",
@@ -569,7 +759,8 @@
         "https://detail.zol.com.cn/series/57/34645/param_29260_0_1.html",
         "https://detail.zol.com.cn/1312/1311008/param.shtml",
         "https://detail.zol.com.cn/1312/1311010/param.shtml",
-        "https://detail.zol.com.cn/1312/1311009/param.shtml"
+        "https://detail.zol.com.cn/1312/1311009/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2042/index20411752_15549_p1311008.shtml"
       ],
       "releaseEvidence": {
         "value": "2020-02-18",
@@ -615,7 +806,29 @@
         "verifiedAt": "2026-10-05",
         "fetchedAt": "2026-10-05T18:20:50.501Z",
         "sourceSnapshotHash": "47a6a7c641ad6833e4830aacb8e510d28196e5ffcca82aefe5ed0b3be4ce9cdb"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-10-pro-2020"
+          ],
+          "color": "珍珠白",
+          "viewScope": "front_back",
+          "url": "https://2e.zol-img.com.cn/product/204/752/ce1tQJL7hbzH.jpg",
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2042/index20411752_15549_p1311008.shtml",
+          "sourceName": "中关村在线",
+          "sourceSnapshotHash": "50b0721dcd96132b5c01d09269dd7b3ceffd9cb1676bd6d973d221de09511fd5",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ce1tQJL7hbzH\",\"classId3\":\"15549\",\"classId4\":\"14631\",\"proId\":1311008,\"groupId\":\"52500\",\"sizeInfo\":{\"source\":[\"864\",\"648\"],\"pic\":[\"800\",\"600\"]},\"picId\":20411752,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":10,\"classPicPos\":1,\"picPos\":1,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2e.zol-img.com.cn\\/product\\/204_100x75\\/752\\/ce1tQJL7hbzH.jpg\",\"imgWidth\":\"864\",\"imgHeight\":\"648\",\"brief\":\"\"}",
+          "zolProductId": "1311008",
+          "zolPicId": 20411752,
+          "zolHash": "ce1tQJL7hbzH",
+          "imageSha256": "f0a766a790d58a937afcda51d608ecfdb962de58428ea75ffb455ded213ca305",
+          "width": 864,
+          "height": 648,
+          "note": "逐张复核原图：完整屏幕面与背板同框；原页型号和具名颜色分类绑定，不据图片推断配置。"
+        }
+      ]
     },
     {
       "id": "xiaomi-10-lite-2020",
@@ -691,7 +904,8 @@
         "https://detail.zol.com.cn/1292/1291958/param.shtml",
         "https://detail.zol.com.cn/1295/1294436/param.shtml",
         "https://detail.zol.com.cn/1295/1294434/param.shtml",
-        "https://detail.zol.com.cn/1295/1294435/param.shtml"
+        "https://detail.zol.com.cn/1295/1294435/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2018/index20175170_0_p1291958.shtml"
       ],
       "releaseEvidence": {
         "value": "2019-09-27",
@@ -737,7 +951,26 @@
         "verifiedAt": "2026-10-05",
         "fetchedAt": "2026-10-05T18:20:55.489Z",
         "sourceSnapshotHash": "5de1f0a8faded87cc65e6d630861c7d0b7cbe0e55190ff46649c8ef52b4a706f"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-9-pro-2019"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2018/index20175170_0_p1291958.shtml",
+          "sourceSnapshotHash": "8622ed0eb2947dc915105d8ffa00be6ab9976191f174c52f11946aa49ca18368",
+          "sourceName": "中关村在线",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ce2WnvMVJUKng\",\"classId3\":\"15549\",\"classId4\":\"17056\",\"proId\":1291958,\"sequence\":\"6\",\"sid\":\"27841\",\"groupId\":\"51924\",\"orderSort\":\"6\",\"sizeInfo\":{\"source\":[\"1067\",\"800\"],\"pic\":[\"800\",\"600\"]},\"picId\":20175171,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":11,\"classPicPos\":2,\"picPos\":2,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2d.zol-img.com.cn\\/product\\/201_100x75\\/171\\/ce2WnvMVJUKng.jpg\",\"imgWidth\":\"1067\",\"imgHeight\":\"800\",\"brief\":\"\"}",
+          "url": "https://2d.zol-img.com.cn/product/201/171/ce2WnvMVJUKng.jpg",
+          "color": "梦之白",
+          "viewScope": "front_back",
+          "zolProductId": "1291958",
+          "zolPicId": 20175171,
+          "zolHash": "ce2WnvMVJUKng",
+          "note": "现有原生产品图已逐图核验：同型号具名配色，正反同框。"
+        }
+      ]
     },
     {
       "id": "xiaomi-cc9-pro-2019",
@@ -931,7 +1164,8 @@
         "https://detail.zol.com.cn/series/57/34645/param_37394_0_1.html",
         "https://detail.zol.com.cn/1372/1371912/param.shtml",
         "https://detail.zol.com.cn/1397/1396279/param.shtml",
-        "https://detail.zol.com.cn/1397/1396281/param.shtml"
+        "https://detail.zol.com.cn/1397/1396281/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2232/index22311058_0_p1371912.shtml"
       ],
       "releaseEvidence": {
         "value": "2021-12-31",
@@ -977,7 +1211,34 @@
         "verifiedAt": "2026-10-05",
         "fetchedAt": "2026-10-05T18:21:05.451Z",
         "sourceSnapshotHash": "4d6c131a64e57c54a54c56095a639acca9d81b0965d4524954cabeafa631aa65"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "color": "紫色",
+          "url": "https://2c.zol-img.com.cn/product/223/80/ceBdVu5R8x8co.jpg",
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2232/index22311058_0_p1371912.shtml",
+          "sourceName": "中关村在线具名颜色产品图库",
+          "targetIds": [
+            "xiaomi-12-pro-2021"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "1882ee674737a99927d8a2db55127164e97baa9976a5a3c16fba2cea9361515e",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ceBdVu5R8x8co\",\"classId3\":\"15549\",\"classId4\":\"14184\",\"proId\":1371912,\"sequence\":\"1\",\"sid\":\"37394\",\"orderSort\":\"1\",\"sizeInfo\":{\"source\":[\"1145\",\"859\"],\"pic\":[\"800\",\"600\"]},\"picId\":22311080,\"groupId\":0,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":20,\"classPicPos\":20,\"picPos\":20,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2c.zol-img.com.cn\\/product\\/223_100x75\\/80\\/ceBdVu5R8x8co.jpg\",\"imgWidth\":\"1145\",\"imgHeight\":\"859\",\"brief\":\"\"}",
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 1145,
+            "height": 859,
+            "sha256": "175721585b686f441c8b028ddca01bc3049dc39b0ab45aca7fb6ae04f9c5d9b2",
+            "notes": "逐图核验原生正反同框，准确型号及具名颜色；未裁剪、合成或增强。"
+          },
+          "zolProductId": "1371912",
+          "zolPicId": 22311080,
+          "zolHash": "ceBdVu5R8x8co"
+        }
+      ]
     },
     {
       "id": "xiaomi-12x-2021",
@@ -1233,7 +1494,8 @@
         "https://detail.zol.com.cn/series/57/31928_1.html",
         "https://detail.zol.com.cn/series/57/55731/param_31928_0_1.html",
         "https://detail.zol.com.cn/1344/1343436/param.shtml",
-        "https://detail.zol.com.cn/1345/1344752/param.shtml"
+        "https://detail.zol.com.cn/1345/1344752/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2086/index20857628_0_p1343436.shtml"
       ],
       "releaseEvidence": {
         "value": "2020-11-01",
@@ -1279,7 +1541,34 @@
         "verifiedAt": "2026-10-05",
         "fetchedAt": "2026-10-05T18:21:08.467Z",
         "sourceSnapshotHash": "76ee34a3f756a3672f50799394905bc21829ff34d777a9c3480c84b172de4268"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "color": "星际黑",
+          "url": "https://2f.zol-img.com.cn/product/208/577/ceZMNsseWXgZo.jpg",
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2086/index20857628_0_p1343436.shtml",
+          "sourceName": "中关村在线具名颜色产品图库",
+          "targetIds": [
+            "redmi-k30s-ultra-2020"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "37ccaaf11f8f1a58245b73daf890db69e49148292d0d7d968702b9e8381a9588",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ceZMNsseWXgZo\",\"classId3\":\"15549\",\"classId4\":\"13813\",\"proId\":1343436,\"groupId\":\"59023\",\"sizeInfo\":{\"source\":[\"918\",\"688\"],\"pic\":[\"800\",\"600\"]},\"picId\":20857577,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":10,\"classPicPos\":1,\"picPos\":1,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2f.zol-img.com.cn\\/product\\/208_100x75\\/577\\/ceZMNsseWXgZo.jpg\",\"imgWidth\":\"918\",\"imgHeight\":\"688\",\"brief\":\"\"}",
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 918,
+            "height": 688,
+            "sha256": "5c68d5d36e779ae1060df172e18d1c306693082e42a287968a8e998065d90ceb",
+            "notes": "逐图核验原生正反同框，准确型号及具名颜色；未裁剪、合成或增强。"
+          },
+          "zolProductId": "1343436",
+          "zolPicId": 20857577,
+          "zolHash": "ceZMNsseWXgZo"
+        }
+      ]
     },
     {
       "id": "redmi-k30-ultra-2020",
@@ -1355,7 +1644,8 @@
         "https://detail.zol.com.cn/1314/1313067/param.shtml",
         "https://detail.zol.com.cn/1318/1317839/param.shtml",
         "https://detail.zol.com.cn/1328/1327214/param.shtml",
-        "https://detail.zol.com.cn/1317/1316224/param.shtml"
+        "https://detail.zol.com.cn/1317/1316224/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2047/index20466466_0_p1313067.shtml"
       ],
       "releaseEvidence": {
         "value": "2020-03-27",
@@ -1401,7 +1691,34 @@
         "verifiedAt": "2026-10-05",
         "fetchedAt": "2026-10-05T18:21:09.507Z",
         "sourceSnapshotHash": "99d1b9199b94dedea482221660ade44fa57e085f5cacf6d754acc34945675b18"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "color": "水色天光",
+          "url": "https://2e.zol-img.com.cn/product/206/588/cewgAID2yqt2k.jpg",
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2047/index20466466_0_p1313067.shtml",
+          "sourceName": "中关村在线具名颜色产品图库",
+          "targetIds": [
+            "redmi-k30-pro-2020"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "08f866a71874f3f74d2bafc8d22ff678772e56a5b03222ffd2ce52cef16e0c58",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"cewgAID2yqt2k\",\"classId3\":\"15549\",\"classId4\":\"17720\",\"proId\":1313067,\"sid\":\"29513\",\"groupId\":\"53326\",\"sizeInfo\":{\"source\":[\"926\",\"695\"],\"pic\":[\"799\",\"600\"]},\"picId\":20665588,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":20,\"classPicPos\":15,\"picPos\":15,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2e.zol-img.com.cn\\/product\\/206_100x75\\/588\\/cewgAID2yqt2k.jpg\",\"imgWidth\":\"926\",\"imgHeight\":\"695\",\"brief\":\"\"}",
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 926,
+            "height": 695,
+            "sha256": "68b387f6632982085ff4eb36115fb3e1ee04097443bd16c1c41f6e3b959919e4",
+            "notes": "逐图核验原生正反同框，准确型号及具名颜色；未裁剪、合成或增强。"
+          },
+          "zolProductId": "1313067",
+          "zolPicId": 20665588,
+          "zolHash": "cewgAID2yqt2k"
+        }
+      ]
     },
     {
       "id": "redmi-k30-pro-zoom-2020",
@@ -1473,7 +1790,8 @@
         "https://detail.zol.com.cn/1291/1290070/param.shtml",
         "https://detail.zol.com.cn/1305/1304146/param.shtml",
         "https://detail.zol.com.cn/1305/1304147/param.shtml",
-        "https://detail.zol.com.cn/1305/1304149/param.shtml"
+        "https://detail.zol.com.cn/1305/1304149/param.shtml",
+        "https://product.suning.com/0000000000/11379531485.html"
       ],
       "releaseEvidence": {
         "value": "2019-12",
@@ -1519,7 +1837,27 @@
         "verifiedAt": "2026-10-05",
         "fetchedAt": "2026-10-05T18:21:24.766Z",
         "sourceSnapshotHash": "cd222ca203ef151137d199c43fd6b6b7065735d74799f0e5a70f7a19f3b1be8c"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "redmi-k30-5g-2019"
+          ],
+          "sourceUrl": "https://product.suning.com/0000000000/11379531485.html",
+          "sourceSnapshotHash": "8f6e4578fe9be4ecabbb2d80c316e8d701edfb58fa481a45d69dc66eb5af7d88",
+          "url": "https://imgservice.suning.cn/uimg1/b2c/image/QxLlHu8HYMf0c7UsAPOvVg.jpg_800w_800h_4e",
+          "anchor": "<img onerror=\"this.src='//res.suning.cn/project/pdsWeb/images/blank_pic_800.jpg'\" alt=\"小米(MI) Redmi K30 5G版本 紫玉幻境 6GB内存128GB存储全面屏索尼6400万后置四摄 4500mAh超长续航 30W快充 5G游戏学生拍照手机\" src=\"//imgservice.suning.cn/uimg1/b2c/image/QxLlHu8HYMf0c7UsAPOvVg.jpg_800w_800h_4e\">",
+          "color": "紫玉幻境",
+          "viewScope": "front_back",
+          "colorAnchor": "<title>【小米(mi)手机Redmi K30 5G 】 小米(MI) Redmi K30 5G版本 紫玉幻境 6GB内存128GB存储全面屏索尼6400万后置四摄 4500mAh超长续航 30W快充 5G游戏学生拍照手机【价格 图片 品牌 报价】-苏宁易购小米苏宁自营旗舰店</title>",
+          "modelAnchor": "<title>【小米(mi)手机Redmi K30 5G 】 小米(MI) Redmi K30 5G版本 紫玉幻境 6GB内存128GB存储全面屏索尼6400万后置四摄 4500mAh超长续航 30W快充 5G游戏学生拍照手机【价格 图片 品牌 报价】-苏宁易购小米苏宁自营旗舰店</title>",
+          "licenseStatus": "unknown",
+          "sourceName": "苏宁易购",
+          "imageScope": "model_shared",
+          "note": "同型号具名配色原生产品图，正反同框。"
+        }
+      ]
     },
     {
       "id": "redmi-k30-4g-2019",
@@ -1594,7 +1932,8 @@
         "https://detail.zol.com.cn/series/57/55731/param_27795_0_1.html",
         "https://detail.zol.com.cn/1294/1293377/param.shtml",
         "https://detail.zol.com.cn/1294/1293852/param.shtml",
-        "https://detail.zol.com.cn/1294/1293853/param.shtml"
+        "https://detail.zol.com.cn/1294/1293853/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2017/index20167018_0_p1293377.shtml"
       ],
       "releaseEvidence": {
         "value": "2019-09-19",
@@ -1640,7 +1979,59 @@
         "verifiedAt": "2026-10-05",
         "fetchedAt": "2026-10-05T18:21:27.134Z",
         "sourceSnapshotHash": "4dc0ec5cb27ec3c4b43dfedb29bbe8c154527fd4e7e32ca9ad09db9e9e6969ad"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "color": "冰川蓝",
+          "url": "https://2e.zol-img.com.cn/product/201/18/ceo31tWUHUYjQ.jpg",
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2017/index20167018_0_p1293377.shtml",
+          "sourceName": "中关村在线尊享版具名颜色图库",
+          "targetIds": [
+            "redmi-k20-pro-premium-2019"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "a8d3e7831ceea3026270581124078dbb53537cb1ac35079744f9257485ee9687",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ceo31tWUHUYjQ\",\"classId3\":\"15549\",\"classId4\":\"16852\",\"proId\":1293377,\"sequence\":\"200\",\"groupId\":\"51877\",\"orderSort\":\"200\",\"sizeInfo\":{\"source\":[\"1067\",\"800\"],\"pic\":[\"800\",\"600\"]},\"picId\":20167018,\"name\":\"\\u51b0\\u5ddd\\u84dd\",\"curClassId\":4,\"classNum\":5,\"classPicPos\":1,\"picPos\":82,\"className\":\"\\u51b0\\u5ddd\\u84dd\",\"classId\":16852,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2e.zol-img.com.cn\\/product\\/201_100x75\\/18\\/ceo31tWUHUYjQ.jpg\",\"imgWidth\":\"1067\",\"imgHeight\":\"800\",\"brief\":\"\"}",
+          "zolProductId": "1293377",
+          "zolPicId": 20167018,
+          "zolHash": "ceo31tWUHUYjQ",
+          "colorScope": "single_color",
+          "imageScope": "single_model",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "62df13b6007df8dc9ad4a74d73fc739ee08eb30536552b8bf017d1c225ad00a5",
+            "width": 1067,
+            "height": 800,
+            "notes": "原生完整正反同框，准确尊享版图库归属；机身图不用于推断处理器配置。"
+          }
+        },
+        {
+          "color": "酷黑机甲",
+          "url": "https://2a.zol-img.com.cn/product/202/916/ceUXUGhmuUm2.jpg",
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2017/index20167018_0_p1293377.shtml",
+          "sourceName": "中关村在线尊享版具名颜色图库",
+          "targetIds": [
+            "redmi-k20-pro-premium-2019"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "a8d3e7831ceea3026270581124078dbb53537cb1ac35079744f9257485ee9687",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ceUXUGhmuUm2\",\"classId3\":\"15549\",\"classId4\":\"17095\",\"proId\":1293377,\"groupId\":\"51877\",\"sizeInfo\":{\"source\":[\"1022\",\"766\"],\"pic\":[\"800\",\"600\"]},\"picId\":20213916,\"name\":\"\\u9177\\u9ed1\\u673a\\u7532\",\"curClassId\":4,\"classNum\":8,\"classPicPos\":1,\"picPos\":92,\"className\":\"\\u9177\\u9ed1\\u673a\\u7532\",\"classId\":17095,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2a.zol-img.com.cn\\/product\\/202_100x75\\/916\\/ceUXUGhmuUm2.jpg\",\"imgWidth\":\"1022\",\"imgHeight\":\"766\",\"brief\":\"\"}",
+          "zolProductId": "1293377",
+          "zolPicId": 20213916,
+          "zolHash": "ceUXUGhmuUm2",
+          "colorScope": "single_color",
+          "imageScope": "single_model",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "086562a38fca76253b5600320b8a0cb8c6abce9ee0a670238bbf47fc1338b404",
+            "width": 1022,
+            "height": 766,
+            "notes": "原生完整正反同框，准确尊享版图库归属；机身图不用于推断处理器配置。"
+          }
+        }
+      ]
     },
     {
       "id": "redmi-note-8-2019",
@@ -1836,7 +2227,8 @@
         "https://detail.zol.com.cn/series/57/55731/param_34125_0_1.html",
         "https://detail.zol.com.cn/1359/1358240/param.shtml",
         "https://detail.zol.com.cn/1373/1372058/param.shtml",
-        "https://detail.zol.com.cn/1373/1372060/param.shtml"
+        "https://detail.zol.com.cn/1373/1372060/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2130/index21297708_0_p1358240.shtml"
       ],
       "releaseEvidence": {
         "value": "2021-06-01",
@@ -1882,7 +2274,34 @@
         "verifiedAt": "2026-10-05",
         "fetchedAt": "2026-10-05T18:21:34.645Z",
         "sourceSnapshotHash": "06076b9ede57a6d185f57e0dade75149291d754f31fd69b4c2eb7992b01c46a3"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "color": "月魄",
+          "url": "https://2e.zol-img.com.cn/product/212/682/ceKN7q8BYRm92.jpg",
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2130/index21297708_0_p1358240.shtml",
+          "sourceName": "中关村在线具名颜色产品图库",
+          "targetIds": [
+            "redmi-note-10-pro-2021"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "c70affba39ca446646fac489dc34993a7cc3b6f92be3ca47aa1c6a4380565763",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ceKN7q8BYRm92\",\"classId3\":\"15549\",\"classId4\":\"18223\",\"proId\":1358240,\"groupId\":\"69872\",\"sizeInfo\":{\"source\":[\"859\",\"644\"],\"pic\":[\"800\",\"600\"]},\"picId\":21297682,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":15,\"classPicPos\":1,\"picPos\":1,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2e.zol-img.com.cn\\/product\\/212_100x75\\/682\\/ceKN7q8BYRm92.jpg\",\"imgWidth\":\"859\",\"imgHeight\":\"644\",\"brief\":\"\"}",
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 859,
+            "height": 644,
+            "sha256": "9045e8593e5e5e35d1631ee9ec1a4285778b0eda512e8a4a7ae823fb2e8e7f5f",
+            "notes": "逐图核验原生正反同框，准确型号及具名颜色；未裁剪、合成或增强。"
+          },
+          "zolProductId": "1358240",
+          "zolPicId": 21297682,
+          "zolHash": "ceKN7q8BYRm92"
+        }
+      ]
     },
     {
       "id": "redmi-note-9-5g-2020",
@@ -1956,7 +2375,8 @@
         "https://detail.zol.com.cn/series/57/55731/param_32172_0_1.html",
         "https://detail.zol.com.cn/1315/1314862/param.shtml",
         "https://detail.zol.com.cn/1350/1349523/param.shtml",
-        "https://detail.zol.com.cn/1350/1349522/param.shtml"
+        "https://detail.zol.com.cn/1350/1349522/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2094/index20935066_0_p1314862.shtml"
       ],
       "releaseEvidence": {
         "value": "2020-12-01",
@@ -2002,7 +2422,34 @@
         "verifiedAt": "2026-10-05",
         "fetchedAt": "2026-10-05T18:21:35.475Z",
         "sourceSnapshotHash": "3fad366955f23f5f75968e9de197d6aa4ea59e8ff8f80f3dd939b6ebb323d044"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "color": "湖光秋色",
+          "url": "https://2f.zol-img.com.cn/product/209/85/cetgypXuVQlJ6.jpg",
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2094/index20935066_0_p1314862.shtml",
+          "sourceName": "中关村在线具名颜色产品图库",
+          "targetIds": [
+            "redmi-note-9-pro-2020"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "1b731baae7e11c765303dfa144c78d530d18060bbc562cccc54304b4deb8dbb2",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"cetgypXuVQlJ6\",\"classId3\":\"15549\",\"classId4\":\"17933\",\"proId\":1314862,\"groupId\":\"52573\",\"sizeInfo\":{\"source\":[\"876\",\"657\"],\"pic\":[\"800\",\"600\"]},\"picId\":20941085,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":15,\"classPicPos\":15,\"picPos\":15,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2f.zol-img.com.cn\\/product\\/209_100x75\\/85\\/cetgypXuVQlJ6.jpg\",\"imgWidth\":\"876\",\"imgHeight\":\"657\",\"brief\":\"\"}",
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 876,
+            "height": 657,
+            "sha256": "1f08a5618daae0f7eb8b56be315e716d65cb0098792fb225f5727413f2df58a5",
+            "notes": "逐图核验原生正反同框，准确型号及具名颜色；未裁剪、合成或增强。"
+          },
+          "zolProductId": "1314862",
+          "zolPicId": 20941085,
+          "zolHash": "cetgypXuVQlJ6"
+        }
+      ]
     },
     {
       "id": "redmi-note-9-4g-2020",
@@ -2078,7 +2525,8 @@
         "https://detail.zol.com.cn/1393/1392178/param.shtml",
         "https://detail.zol.com.cn/1394/1393590/param.shtml",
         "https://detail.zol.com.cn/1394/1393589/param.shtml",
-        "https://detail.zol.com.cn/1394/1393591/param.shtml"
+        "https://detail.zol.com.cn/1394/1393591/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2216/index22159861_0_p1392178.shtml"
       ],
       "releaseEvidence": {
         "value": "2021-11-01",
@@ -2124,7 +2572,34 @@
         "verifiedAt": "2026-10-05",
         "fetchedAt": "2026-10-05T18:21:36.932Z",
         "sourceSnapshotHash": "ce218ea89f154ed3d2b30c3c4444e396b87d73b557d807bd59d84830b489d157"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "color": "浅梦星河",
+          "url": "https://2d.zol-img.com.cn/product/221/869/ce0HcRC97awdE.jpg",
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2216/index22159861_0_p1392178.shtml",
+          "sourceName": "中关村在线具名颜色产品图库",
+          "targetIds": [
+            "redmi-note-11-2021"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "992a469f59491ae25397aabe8c7c435a5bfa93c897292c5666db4b10a745e2e7",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ce0HcRC97awdE\",\"classId3\":\"15549\",\"classId4\":\"18426\",\"proId\":1392178,\"sequence\":\"1\",\"sid\":\"36324\",\"orderSort\":\"1\",\"sizeInfo\":{\"source\":[\"1423\",\"1067\"],\"pic\":[\"800\",\"600\"]},\"picId\":22159869,\"groupId\":0,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":15,\"classPicPos\":15,\"picPos\":15,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2d.zol-img.com.cn\\/product\\/221_100x75\\/869\\/ce0HcRC97awdE.jpg\",\"imgWidth\":\"1423\",\"imgHeight\":\"1067\",\"brief\":\"\"}",
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 1423,
+            "height": 1067,
+            "sha256": "32c4258648744c654147af0b62fac224fff97e5433562a9a32e1cad3afefc9b5",
+            "notes": "逐图核验原生正反同框，准确型号及具名颜色；未裁剪、合成或增强。"
+          },
+          "zolProductId": "1392178",
+          "zolPicId": 22159869,
+          "zolHash": "ce0HcRC97awdE"
+        }
+      ]
     },
     {
       "id": "redmi-note-11-pro-2021",
@@ -2138,7 +2613,8 @@
         "https://detail.zol.com.cn/series/57/55731/param_36192_0_1.html",
         "https://detail.zol.com.cn/1393/1392181/param.shtml",
         "https://detail.zol.com.cn/1393/1392432/param.shtml",
-        "https://detail.zol.com.cn/1393/1392431/param.shtml"
+        "https://detail.zol.com.cn/1393/1392431/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2295/index22946317_0_p1392181.shtml"
       ],
       "releaseEvidence": {
         "value": "2021",
@@ -2184,7 +2660,34 @@
         "verifiedAt": "2026-10-05",
         "fetchedAt": "2026-10-05T18:21:37.428Z",
         "sourceSnapshotHash": "4acef9f31d4a72f916c9e53f442f4701a9666b11983330f686a66661a5de1218"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "color": "神秘黑境",
+          "url": "https://2c.zol-img.com.cn/product/229/342/ce6Zncrwp9OQ.jpg",
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2295/index22946317_0_p1392181.shtml",
+          "sourceName": "中关村在线具名颜色产品图库",
+          "targetIds": [
+            "redmi-note-11-pro-2021"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "9b83ad7aba23e5476f7e651d4b60b2379af448f335f2fae91a797f3efb2f758c",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ce6Zncrwp9OQ\",\"classId3\":\"15549\",\"classId4\":\"18425\",\"proId\":1392181,\"sequence\":\"1\",\"sid\":\"36192\",\"orderSort\":\"1\",\"sizeInfo\":{\"source\":[\"1423\",\"1067\"],\"pic\":[\"800\",\"600\"]},\"picId\":22946342,\"groupId\":0,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":20,\"classPicPos\":19,\"picPos\":19,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2c.zol-img.com.cn\\/product\\/229_100x75\\/342\\/ce6Zncrwp9OQ.jpg\",\"imgWidth\":\"1423\",\"imgHeight\":\"1067\",\"brief\":\"\"}",
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 1423,
+            "height": 1067,
+            "sha256": "007aa21c2564f80ebe1ab48a13800584c0b391d40250446a3fc190eb9ad06ba0",
+            "notes": "逐图核验原生正反同框，准确型号及具名颜色；未裁剪、合成或增强。"
+          },
+          "zolProductId": "1392181",
+          "zolPicId": 22946342,
+          "zolHash": "ce6Zncrwp9OQ"
+        }
+      ]
     },
     {
       "id": "redmi-note-11-pro-plus-2021",
@@ -2259,7 +2762,8 @@
         "https://detail.zol.com.cn/1321/1320504/param.shtml",
         "https://detail.zol.com.cn/1326/1325126/param.shtml",
         "https://detail.zol.com.cn/1326/1325132/param.shtml",
-        "https://detail.zol.com.cn/1326/1325156/param.shtml"
+        "https://detail.zol.com.cn/1326/1325156/param.shtml",
+        "https://detail.zol.com.cn/picture_index_2237/index22369403_0_p1320504.shtml"
       ],
       "releaseEvidence": {
         "value": "2020-06",
@@ -2305,7 +2809,34 @@
         "verifiedAt": "2026-10-05",
         "fetchedAt": "2026-10-05T18:21:38.736Z",
         "sourceSnapshotHash": "f2701517d83079e2c5b801a4d3b80c7557e7a1adfafd71a9e2b72466de956c65"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "color": "凝夜紫",
+          "url": "https://2c.zol-img.com.cn/product/223/412/ce7aN89QcuBVc.jpg",
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2237/index22369403_0_p1320504.shtml",
+          "sourceName": "中关村在线具名颜色产品图库",
+          "targetIds": [
+            "redmi-10x-5g-2020"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "6ca350f783fdec24c4de0898ccf78c805478934e5608af8c2f8d7bdeb5d1c6d0",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ce7aN89QcuBVc\",\"classId3\":\"15549\",\"classId4\":\"16693\",\"proId\":1320504,\"sequence\":\"1\",\"sid\":\"30209\",\"orderSort\":\"1\",\"sizeInfo\":{\"source\":[\"1168\",\"876\"],\"pic\":[\"800\",\"600\"]},\"picId\":22369412,\"groupId\":0,\"name\":\"\\u51dd\\u591c\\u7d2b\",\"curClassId\":4,\"classNum\":5,\"classPicPos\":5,\"picPos\":171,\"className\":\"\\u51dd\\u591c\\u7d2b\",\"classId\":16693,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2c.zol-img.com.cn\\/product\\/223_100x75\\/412\\/ce7aN89QcuBVc.jpg\",\"imgWidth\":\"1168\",\"imgHeight\":\"876\",\"brief\":\"\"}",
+          "zolProductId": "1320504",
+          "zolPicId": 22369412,
+          "zolHash": "ce7aN89QcuBVc",
+          "colorScope": "single_color",
+          "imageScope": "single_model",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "a10c77f4e90adfb32be824451cc92de31699fa69a12cfe881af5daf2aa78c216",
+            "width": 1168,
+            "height": 876,
+            "notes": "原生完整正反同框，实际原图核验；普通清晰度，保留来源水印。"
+          }
+        }
+      ]
     },
     {
       "id": "redmi-10x-pro-2020",

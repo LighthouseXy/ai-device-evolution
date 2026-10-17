@@ -4840,15 +4840,15 @@
           "sourceSnapshotHash": "7307cd86a00b9f7e326c4aa5540b3799c9849b418ab3ef040a65117dbc17f172"
         },
         "rearCamera": {
-          "value": "后置摄像头1：5000万像素 后置摄像头2：5000万像素 后置摄像头3：1000万像素 后置摄像头4：1200万像素",
-          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：5000万像素 后置摄像头3：1000万像素 后置摄像头4：1200万像素 前置摄像头1：1600万像素 前置摄像头2：1600万像素",
+          "value": "5000万像素；徕卡主摄；f/1.7；OIS光学防抖；5000万像素；徕卡长焦；f/2.0；OIS光学防抖；1000万像素；徕卡潜望长焦；f/2.9；OIS光学防抖；1200万像素；徕卡超广角；f/2.2",
+          "rawText": "摄像头名称 后置摄像头1：徕卡主摄 后置摄像头2：徕卡长焦 后置摄像头3：徕卡潜望长焦 后置摄像头4：徕卡超广角 前置摄像头1：前置内屏1600万高清相机 前置摄像头2：前置外屏1600万高清相机；像素 后置摄像头1：5000万像素 后置摄像头2：5000万像素 后置摄像头3：1000万像素 后置摄像头4：1200万像素 前置摄像头1：1600万像素 前置摄像头2：1600万像素",
           "evidenceKind": "excerpt",
-          "sourceUrl": "https://detail.zol.com.cn/2087/2086684/param.shtml",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10890027_0_1.html",
           "sourceType": "reference",
           "confidence": 0.8,
           "verifiedAt": "2026-10-05",
-          "fetchedAt": "2026-10-05T19:41:25.637Z",
-          "sourceSnapshotHash": "7307cd86a00b9f7e326c4aa5540b3799c9849b418ab3ef040a65117dbc17f172"
+          "fetchedAt": "2026-10-05T19:41:25.549Z",
+          "sourceSnapshotHash": "8e396351ea6ec09cd86416199eb3e74d0df3d36372e8346fc1fd9725bf9cd477"
         },
         "frontCamera": {
           "value": "前置摄像头1：1600万像素 前置摄像头2：1600万像素",
@@ -4860,6 +4860,50 @@
           "verifiedAt": "2026-10-05",
           "fetchedAt": "2026-10-05T19:41:25.637Z",
           "sourceSnapshotHash": "7307cd86a00b9f7e326c4aa5540b3799c9849b418ab3ef040a65117dbc17f172"
+        },
+        "mainCamera": {
+          "value": "5000万像素；徕卡主摄；f/1.7；OIS光学防抖",
+          "rawText": "摄像头名称 后置摄像头1：徕卡主摄 后置摄像头2：徕卡长焦 后置摄像头3：徕卡潜望长焦 后置摄像头4：徕卡超广角 前置摄像头1：前置内屏1600万高清相机 前置摄像头2：前置外屏1600万高清相机；像素 后置摄像头1：5000万像素 后置摄像头2：5000万像素 后置摄像头3：1000万像素 后置摄像头4：1200万像素 前置摄像头1：1600万像素 前置摄像头2：1600万像素；光圈 后置摄像头1：f/1.7 后置摄像头2：f/2.0 后置摄像头3：f/2.9 后置摄像头4：f/2.2；防抖功能 后置摄像头1：OIS光学防抖 后置摄像头2：OIS光学防抖 后置摄像头3：OIS光学防抖",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10890027_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:41:25.549Z",
+          "sourceSnapshotHash": "8e396351ea6ec09cd86416199eb3e74d0df3d36372e8346fc1fd9725bf9cd477"
+        },
+        "telephoto": {
+          "value": "5000万像素；徕卡长焦；f/2.0；OIS光学防抖；1000万像素；徕卡潜望长焦；f/2.9；OIS光学防抖",
+          "rawText": "摄像头名称 后置摄像头1：徕卡主摄 后置摄像头2：徕卡长焦 后置摄像头3：徕卡潜望长焦 后置摄像头4：徕卡超广角 前置摄像头1：前置内屏1600万高清相机 前置摄像头2：前置外屏1600万高清相机；像素 后置摄像头1：5000万像素 后置摄像头2：5000万像素 后置摄像头3：1000万像素 后置摄像头4：1200万像素 前置摄像头1：1600万像素 前置摄像头2：1600万像素；光圈 后置摄像头1：f/1.7 后置摄像头2：f/2.0 后置摄像头3：f/2.9 后置摄像头4：f/2.2；防抖功能 后置摄像头1：OIS光学防抖 后置摄像头2：OIS光学防抖 后置摄像头3：OIS光学防抖",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10890027_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:41:25.549Z",
+          "sourceSnapshotHash": "8e396351ea6ec09cd86416199eb3e74d0df3d36372e8346fc1fd9725bf9cd477"
+        },
+        "ultraWide": {
+          "value": "1200万像素；徕卡超广角；f/2.2",
+          "rawText": "摄像头名称 后置摄像头1：徕卡主摄 后置摄像头2：徕卡长焦 后置摄像头3：徕卡潜望长焦 后置摄像头4：徕卡超广角 前置摄像头1：前置内屏1600万高清相机 前置摄像头2：前置外屏1600万高清相机；像素 后置摄像头1：5000万像素 后置摄像头2：5000万像素 后置摄像头3：1000万像素 后置摄像头4：1200万像素 前置摄像头1：1600万像素 前置摄像头2：1600万像素；光圈 后置摄像头1：f/1.7 后置摄像头2：f/2.0 后置摄像头3：f/2.9 后置摄像头4：f/2.2",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10890027_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:41:25.549Z",
+          "sourceSnapshotHash": "8e396351ea6ec09cd86416199eb3e74d0df3d36372e8346fc1fd9725bf9cd477"
+        },
+        "videoRecording": {
+          "value": "后置视频拍摄：录像后置视频主摄 8K视频拍摄 24fps 4K视频拍摄 24/30/60fps 1080P视频拍摄 30/60fps 720P视频拍摄 30fps 录像后置视频超广角 4K视频拍摄 24/30fps 1080P视频拍摄30/60fps 720P视频拍摄30fps 录像后置视频长焦 4K视频拍摄 24/30/60fps 1080P视频拍摄 30/60fps 720P视频拍摄 30fps 录像后置视频超长焦 1080P视频拍摄 30fps 720P视频拍摄 30fps 慢动作后置视频主摄 1080P视频拍摄 120/240/960fps 720P视频拍摄 120/240/480/960/1920fps 慢动作后置视频超广角 720P视频拍摄 120fps 慢动作后置视频长焦 1080P视频拍摄 120fps/240fps/960fps 720P视频拍摄 120fps/240fps/960fps；前置视频拍摄：前置视频拍摄帧率 720P 视频拍摄 30fps 1080P 视频拍摄 30fps/60fps",
+          "rawText": "后置视频拍摄 录像后置视频主摄 8K视频拍摄 24fps 4K视频拍摄 24/30/60fps 1080P视频拍摄 30/60fps 720P视频拍摄 30fps 录像后置视频超广角 4K视频拍摄 24/30fps 1080P视频拍摄30/60fps 720P视频拍摄30fps 录像后置视频长焦 4K视频拍摄 24/30/60fps 1080P视频拍摄 30/60fps 720P视频拍摄 30fps 录像后置视频超长焦 1080P视频拍摄 30fps 720P视频拍摄 30fps 慢动作后置视频主摄 1080P视频拍摄 120/240/960fps 720P视频拍摄 120/240/480/960/1920fps 慢动作后置视频超广角 720P视频拍摄 120fps 慢动作后置视频长焦 1080P视频拍摄 120fps/240fps/960fps 720P视频拍摄 120fps/240fps/960fps；前置视频拍摄 前置视频拍摄帧率 720P 视频拍摄 30fps 1080P 视频拍摄 30fps/60fps",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10890027_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:41:25.549Z",
+          "sourceSnapshotHash": "8e396351ea6ec09cd86416199eb3e74d0df3d36372e8346fc1fd9725bf9cd477"
         }
       },
       "computed": {}
@@ -5132,26 +5176,59 @@
           "sourceSnapshotHash": "efb6c75a98973de9234a7fb0e05ee66398393dcc1af5b16352b06fe760e135d3"
         },
         "rearCamera": {
-          "value": "后置摄像头1：5000万像素 后置摄像头2：5000万像素",
-          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：5000万像素 前置摄像头1：3200万像素",
+          "value": "5000万像素；徕卡超动态主摄；f/1.7；5000万像素；徕卡浮动长焦；f/2.0",
+          "rawText": "摄像头名称 后置摄像头1：徕卡超动态主摄 后置摄像头2：徕卡浮动长焦 前置摄像头1：主摄；像素 后置摄像头1：5000万像素 后置摄像头2：5000万像素 前置摄像头1：3200万像素",
           "evidenceKind": "excerpt",
-          "sourceUrl": "https://detail.zol.com.cn/2031/2030412/param.shtml",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10867279_0_1.html",
           "sourceType": "reference",
           "confidence": 0.8,
           "verifiedAt": "2026-10-05",
-          "fetchedAt": "2026-10-05T19:41:27.471Z",
-          "sourceSnapshotHash": "efb6c75a98973de9234a7fb0e05ee66398393dcc1af5b16352b06fe760e135d3"
+          "fetchedAt": "2026-10-05T19:41:27.090Z",
+          "sourceSnapshotHash": "2c7c704ad4436524833b3ed4d1d5d9d3e70dd682e5e39f3963428f3820ead3db"
         },
         "frontCamera": {
-          "value": "前置摄像头1：3200万像素",
-          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：5000万像素 前置摄像头1：3200万像素",
+          "value": "3200万像素；主摄；f/2.0",
+          "rawText": "摄像头名称 后置摄像头1：徕卡超动态主摄 后置摄像头2：徕卡浮动长焦 前置摄像头1：主摄；像素 后置摄像头1：5000万像素 后置摄像头2：5000万像素 前置摄像头1：3200万像素；光圈 后置摄像头1：f/1.7 后置摄像头2：f/2.0 前置摄像头1：f/2.0",
           "evidenceKind": "excerpt",
-          "sourceUrl": "https://detail.zol.com.cn/2031/2030412/param.shtml",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10867279_0_1.html",
           "sourceType": "reference",
           "confidence": 0.8,
           "verifiedAt": "2026-10-05",
-          "fetchedAt": "2026-10-05T19:41:27.471Z",
-          "sourceSnapshotHash": "efb6c75a98973de9234a7fb0e05ee66398393dcc1af5b16352b06fe760e135d3"
+          "fetchedAt": "2026-10-05T19:41:27.090Z",
+          "sourceSnapshotHash": "2c7c704ad4436524833b3ed4d1d5d9d3e70dd682e5e39f3963428f3820ead3db"
+        },
+        "mainCamera": {
+          "value": "5000万像素；徕卡超动态主摄；f/1.7",
+          "rawText": "摄像头名称 后置摄像头1：徕卡超动态主摄 后置摄像头2：徕卡浮动长焦 前置摄像头1：主摄；像素 后置摄像头1：5000万像素 后置摄像头2：5000万像素 前置摄像头1：3200万像素；光圈 后置摄像头1：f/1.7 后置摄像头2：f/2.0 前置摄像头1：f/2.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10867279_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:41:27.090Z",
+          "sourceSnapshotHash": "2c7c704ad4436524833b3ed4d1d5d9d3e70dd682e5e39f3963428f3820ead3db"
+        },
+        "telephoto": {
+          "value": "5000万像素；徕卡浮动长焦；f/2.0",
+          "rawText": "摄像头名称 后置摄像头1：徕卡超动态主摄 后置摄像头2：徕卡浮动长焦 前置摄像头1：主摄；像素 后置摄像头1：5000万像素 后置摄像头2：5000万像素 前置摄像头1：3200万像素；光圈 后置摄像头1：f/1.7 后置摄像头2：f/2.0 前置摄像头1：f/2.0",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10867279_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:41:27.090Z",
+          "sourceSnapshotHash": "2c7c704ad4436524833b3ed4d1d5d9d3e70dd682e5e39f3963428f3820ead3db"
+        },
+        "videoRecording": {
+          "value": "后置视频拍摄：录像后置主摄： 8K视频拍摄：24fps 4K视频拍摄：24/30/60fps 1080P视频拍摄：30/60fps 720P视频拍摄：30fps 录像后置长焦镜头： 4K视频拍摄：24/30/60fps 1080P视频拍摄：30/60fps 720P视频拍摄：30fps 延时摄影后置镜头： 4K视频拍摄：30fps 1080P视频拍摄：30fps 720P视频拍摄：30fps 慢动作后置主摄： 1080P慢动作视频拍摄：120/240/960fps 720P慢动作视频拍摄：120/240/480/960/1920fps 慢动作后置长焦镜头： 1080P慢动作视频拍摄：120/240/960fps 720P慢动作视频拍摄：120/240/960fps；前置视频拍摄：录像前置摄像头 4K视频拍摄：30/60fps 1080P视频拍摄：30/60fps 720P视频拍摄：30fps",
+          "rawText": "后置视频拍摄 录像后置主摄： 8K视频拍摄：24fps 4K视频拍摄：24/30/60fps 1080P视频拍摄：30/60fps 720P视频拍摄：30fps 录像后置长焦镜头： 4K视频拍摄：24/30/60fps 1080P视频拍摄：30/60fps 720P视频拍摄：30fps 延时摄影后置镜头： 4K视频拍摄：30fps 1080P视频拍摄：30fps 720P视频拍摄：30fps 慢动作后置主摄： 1080P慢动作视频拍摄：120/240/960fps 720P慢动作视频拍摄：120/240/480/960/1920fps 慢动作后置长焦镜头： 1080P慢动作视频拍摄：120/240/960fps 720P慢动作视频拍摄：120/240/960fps；前置视频拍摄 录像前置摄像头 4K视频拍摄：30/60fps 1080P视频拍摄：30/60fps 720P视频拍摄：30fps",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10867279_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:41:27.090Z",
+          "sourceSnapshotHash": "2c7c704ad4436524833b3ed4d1d5d9d3e70dd682e5e39f3963428f3820ead3db"
         }
       },
       "computed": {}
@@ -5446,26 +5523,59 @@
           "sourceSnapshotHash": "193c10ae324b4a8ae71f5937bc8f693a0f9e5e46a36505509047962b3b205280"
         },
         "rearCamera": {
-          "value": "后置摄像头1：5000万像素 后置摄像头2：5000万像素",
-          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：5000万像素 前置摄像头1：3200万像素",
+          "value": "5000万像素；徕卡高动态主摄；f/1.7；5000万像素；徕卡超广角；f/2.2",
+          "rawText": "摄像头名称 后置摄像头1：徕卡高动态主摄 后置摄像头2：徕卡超广角 前置摄像头1：主摄；像素 后置摄像头1：5000万像素 后置摄像头2：5000万像素 前置摄像头1：3200万像素",
           "evidenceKind": "excerpt",
-          "sourceUrl": "https://detail.zol.com.cn/2132/2131401/param.shtml",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10915080_0_1.html",
           "sourceType": "reference",
           "confidence": 0.8,
           "verifiedAt": "2026-10-05",
-          "fetchedAt": "2026-10-05T19:41:28.497Z",
-          "sourceSnapshotHash": "193c10ae324b4a8ae71f5937bc8f693a0f9e5e46a36505509047962b3b205280"
+          "fetchedAt": "2026-10-05T19:41:28.396Z",
+          "sourceSnapshotHash": "00c50efc35099f310eab26feafd637928fc815a4b3901d9e7c4d34d601f5274f"
         },
         "frontCamera": {
-          "value": "前置摄像头1：3200万像素",
-          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：5000万像素 前置摄像头1：3200万像素",
+          "value": "3200万像素；主摄",
+          "rawText": "摄像头名称 后置摄像头1：徕卡高动态主摄 后置摄像头2：徕卡超广角 前置摄像头1：主摄；像素 后置摄像头1：5000万像素 后置摄像头2：5000万像素 前置摄像头1：3200万像素",
           "evidenceKind": "excerpt",
-          "sourceUrl": "https://detail.zol.com.cn/2132/2131401/param.shtml",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10915080_0_1.html",
           "sourceType": "reference",
           "confidence": 0.8,
           "verifiedAt": "2026-10-05",
-          "fetchedAt": "2026-10-05T19:41:28.497Z",
-          "sourceSnapshotHash": "193c10ae324b4a8ae71f5937bc8f693a0f9e5e46a36505509047962b3b205280"
+          "fetchedAt": "2026-10-05T19:41:28.396Z",
+          "sourceSnapshotHash": "00c50efc35099f310eab26feafd637928fc815a4b3901d9e7c4d34d601f5274f"
+        },
+        "mainCamera": {
+          "value": "5000万像素；徕卡高动态主摄；f/1.7",
+          "rawText": "摄像头名称 后置摄像头1：徕卡高动态主摄 后置摄像头2：徕卡超广角 前置摄像头1：主摄；像素 后置摄像头1：5000万像素 后置摄像头2：5000万像素 前置摄像头1：3200万像素；光圈 后置摄像头1：f/1.7 后置摄像头2：f/2.2",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10915080_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:41:28.396Z",
+          "sourceSnapshotHash": "00c50efc35099f310eab26feafd637928fc815a4b3901d9e7c4d34d601f5274f"
+        },
+        "ultraWide": {
+          "value": "5000万像素；徕卡超广角；f/2.2",
+          "rawText": "摄像头名称 后置摄像头1：徕卡高动态主摄 后置摄像头2：徕卡超广角 前置摄像头1：主摄；像素 后置摄像头1：5000万像素 后置摄像头2：5000万像素 前置摄像头1：3200万像素；光圈 后置摄像头1：f/1.7 后置摄像头2：f/2.2",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10915080_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:41:28.396Z",
+          "sourceSnapshotHash": "00c50efc35099f310eab26feafd637928fc815a4b3901d9e7c4d34d601f5274f"
+        },
+        "videoRecording": {
+          "value": "后置视频拍摄：录像后置主摄 8K 视频拍摄：24fps 4K 视频拍摄：0/60fps 1080P 视频拍摄：30/60fps 720P 视频拍摄：30fps,录像后置超广角 4K 视频拍摄：30/60fps 1080P 视频拍摄：30/60fps 720P 视频拍摄：30fps；前置视频拍摄：4K 视频拍摄：30/60fps 1080P 视频拍摄：30/60fps 720P 视频拍摄：30fps",
+          "rawText": "后置视频拍摄 录像后置主摄 8K 视频拍摄：24fps 4K 视频拍摄：0/60fps 1080P 视频拍摄：30/60fps 720P 视频拍摄：30fps,录像后置超广角 4K 视频拍摄：30/60fps 1080P 视频拍摄：30/60fps 720P 视频拍摄：30fps；前置视频拍摄 4K 视频拍摄：30/60fps 1080P 视频拍摄：30/60fps 720P 视频拍摄：30fps",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/series/57/34645/param_10915080_0_1.html",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-05",
+          "fetchedAt": "2026-10-05T19:41:28.396Z",
+          "sourceSnapshotHash": "00c50efc35099f310eab26feafd637928fc815a4b3901d9e7c4d34d601f5274f"
         }
       },
       "computed": {}

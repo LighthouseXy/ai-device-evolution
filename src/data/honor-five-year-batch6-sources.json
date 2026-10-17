@@ -16,7 +16,8 @@
         "https://detail.zol.com.cn/2117/2116595/param.shtml",
         "https://detail.zol.com.cn/2117/2116597/param.shtml",
         "https://www.ithome.com/0/819/707.htm",
-        "https://www.honor.com/cn/tablets/honor-pad-v9/spec/"
+        "https://www.honor.com/cn/tablets/honor-pad-v9/spec/",
+        "https://www.honor.com/cn/shop/product/10086471154772.html?cid=132369"
       ],
       "releaseEvidence": {
         "value": "2024-12-24",
@@ -119,7 +120,138 @@
           }
         ],
         "gaps": []
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "color": "庐烟紫",
+          "url": "https://hshop.honorfile.com/pimages//product/6936520859467/800_800_85061E9C77B299F8791A94671EB47111FAA967F4C26A6AD7mp.png",
+          "sourceUrl": "https://www.honor.com/cn/shop/product/10086471154772.html?cid=132369",
+          "sourceName": "荣耀中国官方商城",
+          "targetIds": [
+            "honor-pad-v9-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "5d4ba5ea509e3b1851cbba72a3a04c398b00757fbd04dbd9ee3503bbb69c7751",
+          "anchor": "_pro_sbomList.push({sbomCode:\"10002030003207\",name:\"&#x8363;&#x8000;&#x5e73;&#x677f;V9&#x20;11.5&#x82f1;&#x5bf8;&#x20;WIFI&#x20;12GB&#x2b;256GB&#x20;&#x5e90;&#x70df;&#x7d2b;\",photoName:\"85061E9C77B299F8791A94671EB47111FAA967F4C26A6AD7mp.png\",photoPath:\"&#x2f;product&#x2f;6936520859467&#x2f;\",sbomPackageList:_sbomPackageList,gbomCode:\"6936520859467\"});",
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 800,
+            "height": 800,
+            "sha256": "f80e5be2c194182b707c4eb6fd16f1b9890084e878106105149691a712cae35b",
+            "notes": "逐图核验原生正反同框，准确型号及具名颜色；未裁剪、合成或增强。"
+          },
+          "honorShopSkuBinding": {
+            "releaseYear": 2024,
+            "sbomCode": "10002030003207",
+            "name": "荣耀平板V9 11.5英寸 WIFI 12GB+256GB 庐烟紫",
+            "photoName": "85061E9C77B299F8791A94671EB47111FAA967F4C26A6AD7mp.png",
+            "photoPath": "/product/6936520859467/",
+            "scriptAnchor": "<script src=\"https://hshop.honorfile.com/2026092209/js/product2/detail.js\" namespace=\"ec\">",
+            "mediaPathAnchor": "ec.mediaPath = \"https://hshop.honorfile.com/pimages/\";"
+          },
+          "resourceChain": [
+            {
+              "sourceUrl": "https://hshop.honorfile.com/2026092209/js/product2/detail.js",
+              "sourceSnapshotHash": "fb0172b4be1e5d33d10745538efc689996a71ff023cce531a73167dc2d2ecaaf",
+              "anchors": [
+                "var r=ec.product.getSkuInfo(ec.product.getSku()),e=[],o=1;",
+                "ec.mediaPath+r.photoPath+\"78_78_\"+r.photoName",
+                "$(\"#product-img\").attr(\"href\",s.replace(\"78_78\",\"800_800\")).find(\"img\").attr(\"src\",s.replace(\"78_78\",\"800_800\"))",
+                "var e=r.attr(\"src\").replace(\"78_78\",\"800_800\");"
+              ]
+            }
+          ]
+        },
+        {
+          "color": "玉龙雪",
+          "url": "https://hshop.honorfile.com/pimages//product/6936520859450/800_800_9A99B197E4B0C43E1484A50EDD872B6211C14CA84CB64DE8mp.png",
+          "sourceUrl": "https://www.honor.com/cn/shop/product/10086471154772.html?cid=132369",
+          "sourceName": "荣耀中国官方商城",
+          "targetIds": [
+            "honor-pad-v9-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "5d4ba5ea509e3b1851cbba72a3a04c398b00757fbd04dbd9ee3503bbb69c7751",
+          "anchor": "_pro_sbomList.push({sbomCode:\"10002030003208\",name:\"&#x8363;&#x8000;&#x5e73;&#x677f;V9&#x20;11.5&#x82f1;&#x5bf8;&#x20;WIFI&#x20;12GB&#x2b;256GB&#x20;&#x7389;&#x9f99;&#x96ea;\",photoName:\"9A99B197E4B0C43E1484A50EDD872B6211C14CA84CB64DE8mp.png\",photoPath:\"&#x2f;product&#x2f;6936520859450&#x2f;\",sbomPackageList:_sbomPackageList,gbomCode:\"6936520859450\"});",
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 800,
+            "height": 800,
+            "sha256": "1ada01b298d913b6ea2e67f64c1df34232b9b2a3751fb4c14cca661435f5e7e0",
+            "notes": "逐图核验原生正反同框，准确型号及具名颜色；未裁剪、合成或增强。"
+          },
+          "honorShopSkuBinding": {
+            "releaseYear": 2024,
+            "sbomCode": "10002030003208",
+            "name": "荣耀平板V9 11.5英寸 WIFI 12GB+256GB 玉龙雪",
+            "photoName": "9A99B197E4B0C43E1484A50EDD872B6211C14CA84CB64DE8mp.png",
+            "photoPath": "/product/6936520859450/",
+            "scriptAnchor": "<script src=\"https://hshop.honorfile.com/2026092209/js/product2/detail.js\" namespace=\"ec\">",
+            "mediaPathAnchor": "ec.mediaPath = \"https://hshop.honorfile.com/pimages/\";"
+          },
+          "resourceChain": [
+            {
+              "sourceUrl": "https://hshop.honorfile.com/2026092209/js/product2/detail.js",
+              "sourceSnapshotHash": "fb0172b4be1e5d33d10745538efc689996a71ff023cce531a73167dc2d2ecaaf",
+              "anchors": [
+                "var r=ec.product.getSkuInfo(ec.product.getSku()),e=[],o=1;",
+                "ec.mediaPath+r.photoPath+\"78_78_\"+r.photoName",
+                "$(\"#product-img\").attr(\"href\",s.replace(\"78_78\",\"800_800\")).find(\"img\").attr(\"src\",s.replace(\"78_78\",\"800_800\"))",
+                "var e=r.attr(\"src\").replace(\"78_78\",\"800_800\");"
+              ]
+            }
+          ]
+        },
+        {
+          "color": "苍山灰",
+          "url": "https://hshop.honorfile.com/pimages//product/6936520859443/800_800_F8506440324D98686D20942619FED000139FBBC6761F4D17mp.png",
+          "sourceUrl": "https://www.honor.com/cn/shop/product/10086471154772.html?cid=132369",
+          "sourceName": "荣耀中国官方商城",
+          "targetIds": [
+            "honor-pad-v9-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "5d4ba5ea509e3b1851cbba72a3a04c398b00757fbd04dbd9ee3503bbb69c7751",
+          "anchor": "_pro_sbomList.push({sbomCode:\"10002030003209\",name:\"&#x8363;&#x8000;&#x5e73;&#x677f;V9&#x20;11.5&#x82f1;&#x5bf8;&#x20;WIFI&#x20;12GB&#x2b;256GB&#x20;&#x82cd;&#x5c71;&#x7070;\",photoName:\"F8506440324D98686D20942619FED000139FBBC6761F4D17mp.png\",photoPath:\"&#x2f;product&#x2f;6936520859443&#x2f;\",sbomPackageList:_sbomPackageList,gbomCode:\"6936520859443\"});",
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 800,
+            "height": 800,
+            "sha256": "01a6f614c8022d1feb29ba6f540a5f82ef14152db5616bc44341846153f22d47",
+            "notes": "逐图核验原生正反同框，准确型号及具名颜色；未裁剪、合成或增强。"
+          },
+          "honorShopSkuBinding": {
+            "releaseYear": 2024,
+            "sbomCode": "10002030003209",
+            "name": "荣耀平板V9 11.5英寸 WIFI 12GB+256GB 苍山灰",
+            "photoName": "F8506440324D98686D20942619FED000139FBBC6761F4D17mp.png",
+            "photoPath": "/product/6936520859443/",
+            "scriptAnchor": "<script src=\"https://hshop.honorfile.com/2026092209/js/product2/detail.js\" namespace=\"ec\">",
+            "mediaPathAnchor": "ec.mediaPath = \"https://hshop.honorfile.com/pimages/\";"
+          },
+          "resourceChain": [
+            {
+              "sourceUrl": "https://hshop.honorfile.com/2026092209/js/product2/detail.js",
+              "sourceSnapshotHash": "fb0172b4be1e5d33d10745538efc689996a71ff023cce531a73167dc2d2ecaaf",
+              "anchors": [
+                "var r=ec.product.getSkuInfo(ec.product.getSku()),e=[],o=1;",
+                "ec.mediaPath+r.photoPath+\"78_78_\"+r.photoName",
+                "$(\"#product-img\").attr(\"href\",s.replace(\"78_78\",\"800_800\")).find(\"img\").attr(\"src\",s.replace(\"78_78\",\"800_800\"))",
+                "var e=r.attr(\"src\").replace(\"78_78\",\"800_800\");"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "laptop": []

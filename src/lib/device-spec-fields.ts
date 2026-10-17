@@ -7,6 +7,8 @@ type SpecField = {
   categories?: DeviceCategory[]; brands?: string[];
 };
 
+const cameraKeys = ["rearCamera", "mainCamera", "ultraWide", "telephoto", "wideCamera", "macroCamera", "depthCamera", "colorCamera", "opticalZoom"];
+
 // 通用核心参数保留缺口；品牌专有功能和扩展参数仅在有实际记录时展示。
 const fields: SpecField[] = [
   { group: "性能", key: "chip", label: "芯片", core: true, categories: ["phone", "tablet", "laptop"] },
@@ -30,6 +32,10 @@ const fields: SpecField[] = [
   { group: "影像", key: "mainCamera", label: "主摄", categories: ["phone", "tablet"] },
   { group: "影像", key: "ultraWide", label: "超广角", categories: ["phone", "tablet"] },
   { group: "影像", key: "telephoto", label: "长焦", categories: ["phone", "tablet"] },
+  { group: "影像", key: "wideCamera", label: "广角", categories: ["phone", "tablet"] },
+  { group: "影像", key: "macroCamera", label: "微距", categories: ["phone", "tablet"] },
+  { group: "影像", key: "depthCamera", label: "景深 / 深感", categories: ["phone", "tablet"] },
+  { group: "影像", key: "colorCamera", label: "色彩镜头", categories: ["phone", "tablet"] },
   { group: "影像", key: "opticalZoom", label: "光学变焦", categories: ["phone", "tablet"] },
   { group: "影像", key: "frontCamera", label: "前置摄像头", categories: ["phone", "tablet"], core: true },
   { group: "影像", key: "videoRecording", label: "视频拍摄", categories: ["phone", "tablet"] },
@@ -107,10 +113,12 @@ function configurationSpec(device: FlattenedDevice, key: string) {
 }
 
 export function getDeviceSpecFields(devices: FlattenedDevice[]) {
+  const cameras = new Map(devices.map(device => [device, getCameraDetailPresentation(device)]));
   return fields.filter((field) => devices.some((device) =>
     (!field.categories || field.categories.includes(device.category))
     && (!field.brands || field.brands.includes(device.brand))
-    && (field.core || hasValue(device, field.key))));
+    && (field.key in cameras.get(device)!.values ? Boolean(cameras.get(device)!.values[field.key])
+      : field.core || hasValue(device, field.key))));
 }
 
 export function splitDeviceSpecDescription(value: string) {
@@ -132,30 +140,90 @@ export function splitDeviceSpecDescription(value: string) {
 }
 
 export function getCameraDetailPresentation(device: FlattenedDevice) {
-  const lensFields = fields.filter(field => ["mainCamera", "ultraWide", "telephoto"].includes(field.key));
-  const rearCamera = device.specs?.rearCamera;
-  // 有些历史数据把同一双摄总述写进两个镜头字段，不能把它当成独立镜头规格。
-  const omittedLensKeys = lensFields.filter(field => {
-    const value = device.specs?.[field.key];
-    return typeof value === "string" && typeof rearCamera === "string" && rearCamera.includes(value)
-      && !device.specs?.[`${field.key}Note`] && lensFields.filter(lens => value.includes(lens.label)).length > 1
-      && lensFields.some(lens => lens.key !== field.key && device.specs?.[lens.key] === value);
-  }).map(field => field.key);
-  const lenses = lensFields.filter(field => !omittedLensKeys.includes(field.key)
-    && typeof device.specs?.[field.key] === "string" && String(device.specs[field.key]).trim());
-  if (lenses.length < 2) return { omittedLensKeys, supplement: undefined };
-  if (rearCamera == null || rearCamera === "") return { omittedLensKeys, supplement: "" };
-  if (typeof rearCamera !== "string") return { omittedLensKeys, supplement: undefined };
-  const normalize = (value: string) => value.replace(/[\s，,:：()（）]/g, "").toLowerCase();
-  const represented = lenses.flatMap(field => {
-    const value = String(device.specs?.[field.key]);
-    return [value, `${field.label}${value}`, `${value}${field.label}`].map(normalize);
-  });
-  if (typeof device.specs?.opticalZoom === "string") represented.push(normalize(device.specs.opticalZoom));
-  // 仅去掉可确认已在分项中出现的原文段落；不进行语义猜测，也不删除未覆盖的镜头信息。
-  const supplement = rearCamera.split(/[；;\n]+|\s+\+\s+/).map(part => part.trim()).filter(Boolean)
-    .filter(part => !represented.some(value => value.includes(normalize(part)))).join("；");
-  return { omittedLensKeys, supplement };
+  const keys = cameraKeys;
+  const lensKeys = keys.slice(1, -1);
+  const mainCrop = /光学品质[^；;]*长焦|同时支持[^；;]*长焦功能|长焦[^；;]*通过四合一像素传感器实现/;
+  const values: Record<string, string> = {};
+  const notes: Record<string, string> = {};
+  const rear = String(device.specs?.rearCamera ?? "").trim();
+  const normalize = (value: string) => value.toLowerCase()
+    .replace(/(\d+(?:\.\d+)?)\s*(万|亿)像素/g, (_, number, unit) => `${Number(number) * (unit === "亿" ? 100 : .01)}mp`)
+    .replace(/(?:超广角|广角|主摄|长焦|摄像头|镜头)|[\s，,:：;；()（）]/g, "")
+    .replace(/(\d+(?:\.\d+)?mp)\1/g, "$1");
+  const add = (target: Record<string, string>, key: string, part: string) => {
+    const current = target[key];
+    if (!current) target[key] = part;
+    else if (normalize(current) === normalize(part)) return;
+    else if (normalize(part).includes(normalize(current))) target[key] = part;
+    else if (!normalize(current).includes(normalize(part))) target[key] += `；${part}`;
+  };
+  for (const key of keys) {
+    const value = String(device.specs?.[key] ?? "").trim();
+    // 系统总述不能冒充某一个镜头的参数，但原文会保留在组合说明中。
+    values[key] = key !== "rearCamera" && /(?:摄像头|双摄|三摄|四摄).*系统/.test(value) ? "" : value;
+    if (device.specs?.[`${key}Note`]) notes[key] = String(device.specs[`${key}Note`]);
+  }
+  const croppedTelephoto = mainCrop.test(values.telephoto) ? values.telephoto : "";
+  if (croppedTelephoto) values.telephoto = "";
+  const unassigned: string[] = [];
+  const chunks = splitDeviceSpecDescription(rear.replace(/后置摄像头\d+\s*[:：]?\s*/g, "；"));
+  const parts = chunks.flatMap(chunk => {
+    // 多镜头共用的光圈列表未建立逐镜头对应，不能把整组光圈归给一个镜头。
+    if (/f\/?\d+(?:\.\d+)?\s*\+\s*f\/?\d/i.test(chunk)) return [chunk];
+    // 仅在括号外拆镜头组合；光圈 f/1.8+f/2.2 和括号内配置条件保持完整。
+    const pieces: string[] = [];
+    let depth = 0, start = 0;
+    for (let index = 0; index < chunk.length; index++) {
+      if ("(（[【".includes(chunk[index])) depth++;
+      else if (")）]】".includes(chunk[index])) depth = Math.max(0, depth - 1);
+      else if (!depth && chunk[index] === "+" && /^\s*(?:\d+(?:\.\d+)?\s*(?:万|亿)像素|\d+(?:\.\d+)?MP|主摄|超广角|广角|长焦|微距|景深|3D|红枫)/i.test(chunk.slice(index + 1))) {
+        pieces.push(chunk.slice(start, index).trim()); start = index + 1;
+      }
+    }
+    pieces.push(chunk.slice(start).trim());
+    return pieces.flatMap(part => /[，,:：()（）]/.test(part) ? [part]
+      : part.split(/\s+(?=\d+(?:\.\d+)?\s*(?:万|亿)像素\S*(?:主摄|超广角|长焦))/));
+  }).filter(Boolean);
+  if (/^另有/.test(notes.rearCamera ?? "")) parts.push(notes.rearCamera);
+  for (const part of parts) {
+    if (/(?:摄像头|双摄|三摄|四摄).*系统/.test(part)
+      || /f\/?\d+(?:\.\d+)?\s*\+\s*f\/?\d/i.test(part)
+      || (/主摄|主镜头/.test(part) && /超广角/.test(part))
+      || /(?:广角|长焦|超广角)(?:和|及|、)(?:广角|长焦|超广角)/.test(part)) { unassigned.push(part); continue; }
+    // 主摄裁切的“光学品质长焦”不是独立长焦镜头，按原文归入主摄。
+    const key = mainCrop.test(part) ? "mainCamera"
+      : /超广角/.test(part) ? "ultraWide"
+      : /长焦/.test(part) ? "telephoto"
+      : /主摄|主镜头/.test(part) ? "mainCamera"
+      : /景深|深感/.test(part) ? "depthCamera"
+      : /红枫|丹霞|原色摄像头|色彩.*镜头/.test(part) ? "colorCamera"
+      : /微距/.test(part) ? "macroCamera"
+      : /广角/.test(part) ? (/广角/.test(String(device.specs?.mainCamera ?? "")) ? "mainCamera" : "wideCamera")
+      : "";
+    if (!key) {
+      // 已明确对应某镜头的原文（如哈苏人像、连续光学变焦）可以去重，不依靠编号猜镜头。
+      if (!keys.slice(1).some(key => values[key] && normalize(values[key]).includes(normalize(part)))) unassigned.push(part);
+      continue;
+    }
+    const currentMp = normalize(values[key]).match(/\d+(?:\.\d+)?mp/)?.[0];
+    const incomingMp = normalize(part).match(/\d+(?:\.\d+)?mp/)?.[0];
+    if (key === "mainCamera" && currentMp && incomingMp && currentMp !== incomingMp
+      && !mainCrop.test(part) && !mainCrop.test(values[key])) add(notes, key, `原始总述另记：${part}`);
+    else add(values, key, part);
+    if (part === notes.rearCamera) delete notes.rearCamera;
+  }
+  if (croppedTelephoto) add(values, "mainCamera", croppedTelephoto);
+  if (lensKeys.some(key => values[key])) {
+    values.rearCamera = "";
+    const target = values.mainCamera ? "mainCamera" : lensKeys.find(key => values[key])!;
+    if (unassigned.length) add(notes, target, `后置镜头组合原文：${unassigned.join("；")}`);
+    if (notes.rearCamera) add(notes, target, notes.rearCamera);
+  }
+  return { values, notes };
+}
+
+export function getDeviceSpecNote(device: FlattenedDevice, key: string) {
+  return (cameraKeys.includes(key) ? getCameraDetailPresentation(device).notes[key] : undefined) ?? device.specs?.[`${key}Note`];
 }
 
 export function formatDeviceSpec(device: FlattenedDevice, field: SpecField): string {
@@ -172,6 +240,7 @@ export function formatDeviceSpec(device: FlattenedDevice, field: SpecField): str
         : `${edition.label}：${value}`;
     }).join("\n");
   }
+  if (cameraKeys.includes(field.key)) return getCameraDetailPresentation(device).values[field.key] || (field.key === "rearCamera" ? "—" : "待补充");
   if (!hasValue(device, field.key)) return "待补充";
   const configurationValue = configurationSpec(device, field.key);
   const value = field.key === "screenSize" && device.specs?.screenSizeDetails ? device.specs.screenSizeDetails : device.specs?.[field.key];

@@ -1,9 +1,17 @@
 import type { DeviceCategory } from "@/lib/device-categories";
 
-export const brandOrder = ["Apple", "Xiaomi", "Redmi", "Samsung", "Huawei", "OPPO", "vivo", "HONOR"];
+export const brandOrder = ["Apple", "Xiaomi", "Redmi", "Samsung", "Huawei", "OPPO", "vivo", "HONOR", "Google", "Other"];
 export const brandLabels: Record<string, string> = {
   Apple: "苹果", Xiaomi: "小米", Redmi: "红米", Samsung: "三星", Huawei: "华为", OPPO: "OPPO", vivo: "vivo", HONOR: "荣耀",
+  Google: "Google", Sony: "索尼", Meizu: "魅族", ZUK: "ZUK", Smartisan: "锤子", Nut: "坚果", Other: "其他",
 };
+// “其他”只是筛选组，设备、来源和严格对比组仍保留真实品牌。
+export function getCatalogBrandFilter(brand: string) {
+  return ["Sony", "Meizu", "ZUK", "Smartisan", "Nut"].includes(brand) ? "Other" : brand;
+}
+export function matchesCatalogBrand(brand: string, filter: string) {
+  return filter === "all" || brand === filter || getCatalogBrandFilter(brand) === filter;
+}
 // 历史来源按小米集团归档；运行时按产品品牌展示，不改写来源或设备 ID。
 export function getCatalogBrand(device: { brand: string; family: string }) {
   return device.brand === "Xiaomi" && /^REDMI\b/i.test(device.family) ? "Redmi" : device.brand;
@@ -11,6 +19,17 @@ export function getCatalogBrand(device: { brand: string; family: string }) {
 
 // 浏览时合并尺寸、Pro/Ultra、网络制式和特别版；比较仍使用原始严格分组。
 const catalogRoots: Record<string, [RegExp, string, string][]> = {
+  Google: [
+    [/^Pixel$/i, "pixel", "Pixel 系列"],
+    [/^Pixel Fold$/i, "pixel-fold", "Pixel Fold 系列"],
+    [/^Pixel Tablet$/i, "pixel-tablet", "Pixel Tablet 系列"],
+    [/^Pixel Slate$/i, "pixel-slate", "Pixel Slate 系列"],
+    [/^Pixelbook(?: Go)?$/i, "pixelbook", "Pixelbook 系列"],
+  ],
+  Sony: [[/^Xperia/i, "xperia", "索尼 Xperia 系列"]],
+  Meizu: [[/^魅族$/i, "number", "魅族数字系列"], [/^魅蓝/i, "meilan", "魅蓝系列"]],
+  Smartisan: [[/^坚果/i, "nut", "坚果系列"], [/^锤子/i, "smartisan", "锤子系列"]],
+  Nut: [[/^坚果/i, "nut", "坚果系列"]],
   Apple: [
     [/^iPhone$/i, "iphone", "iPhone 系列"],
     [/^iPad Pro$/i, "ipad-pro", "iPad Pro 系列"],

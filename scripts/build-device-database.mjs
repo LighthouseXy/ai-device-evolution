@@ -81,6 +81,11 @@ for (const dataset of manifest.datasets) {
 
 // 少量旧型号的官方外观补证；采集器仍保留自己的参数来源，构建时仅补图片页面登记。
 const imageRecovery = JSON.parse(fs.readFileSync("scripts/fixtures/xiaomi-image-recovery.json", "utf8"));
+for (const source of sources) {
+  if (source.brand === "Apple" && devices.find(device => device.id === source.id)?.category === "phone") {
+    source.referenceUrls = [...new Set([...source.referenceUrls ?? [], "https://support.apple.com/zh-cn/108044"])];
+  }
+}
 for (const candidate of imageRecovery.candidates) {
   const source = sources.find((row) => row.id === candidate.deviceId);
   const device = devices.find((row) => row.id === candidate.deviceId);

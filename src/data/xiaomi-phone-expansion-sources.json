@@ -293,7 +293,9 @@
         "https://detail.zol.com.cn/1839/1838409/param.shtml",
         "https://detail.zol.com.cn/1843/1842770/param.shtml",
         "https://detail.zol.com.cn/1843/1842767/param.shtml",
-        "https://detail.zol.com.cn/1843/1842769/param.shtml"
+        "https://detail.zol.com.cn/1843/1842769/param.shtml",
+        "https://m.suning.com/product/0030000649/000000012417703219.html?src=4065423897&srcPoint=4065423897",
+        "https://detail.zol.com.cn/picture_index_2497/index24965794_0_p1838409.shtml"
       ],
       "releaseEvidence": {
         "value": "2023-08-16",
@@ -316,7 +318,27 @@
           "reason": "对应具体配置参数页未提供可核验的字段原文"
         }
       ],
-      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 原始参数页出现缺失或矛盾，暂不导入 12GB/512GB 配置，等待独立来源核实。"
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。 原始参数页出现缺失或矛盾，暂不导入 12GB/512GB 配置，等待独立来源核实。",
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "redmi-k60-ultra-2023"
+          ],
+          "sourceUrl": "https://m.suning.com/product/0030000649/000000012417703219.html?src=4065423897&srcPoint=4065423897",
+          "sourceSnapshotHash": "957cb04b6d127ddfdb110bd805d7211a7a501ed0d4e8675b7137796580c86e5d",
+          "url": "https://imgservice.suning.cn/uimg1/b2c/image/zPiXB3DhaP3DO5jNFqEA0Q.png_800w_800h_4e_80Q_is",
+          "anchor": "<img src=\"//imgservice.suning.cn/uimg1/b2c/image/zPiXB3DhaP3DO5jNFqEA0Q.png_800w_800h_4e_80Q_is\" alt=\"Redmi K60 至尊版 墨羽色 16GB内存 1024GB存储 天玑9200+ 独显芯片X7 1.5K直屏 索尼IMX800 光学防抖 小米智能手机图片\" onerror=\"this.src=&quot;https://res.suning.cn/project/pdnode/nuxt-dist/dist/client/nuxt/assets/images/error/blank.png?v=1789644771823&quot;\" data-v-5f47c2a6>",
+          "color": "墨羽",
+          "viewScope": "front_back",
+          "colorAnchor": "<title>Redmi K60 至尊版 墨羽色 16GB内存 1024GB存储 天玑9200+ 独显芯片X7 1.5K直屏 索尼IMX800 光学防抖 小米智能手机【价格 图片 品牌 报价】-苏宁易购</title>",
+          "modelAnchor": "<title>Redmi K60 至尊版 墨羽色 16GB内存 1024GB存储 天玑9200+ 独显芯片X7 1.5K直屏 索尼IMX800 光学防抖 小米智能手机【价格 图片 品牌 报价】-苏宁易购</title>",
+          "licenseStatus": "unknown",
+          "sourceName": "苏宁易购",
+          "imageScope": "model_shared",
+          "note": "同型号具名配色原生产品图，正反同框。 配色清单另由同型号参数原文核对。"
+        }
+      ]
     },
     {
       "id": "redmi-k70-2023",
@@ -510,7 +532,8 @@
         "https://detail.zol.com.cn/2116/2115334/param.shtml",
         "https://detail.zol.com.cn/2116/2115335/param.shtml",
         "https://detail.zol.com.cn/2116/2115349/param.shtml",
-        "https://www.ithome.com/0/813/722.htm"
+        "https://www.ithome.com/0/813/722.htm",
+        "https://www.ithome.com/0/813/723.htm"
       ],
       "releaseEvidence": {
         "value": "2024-11-27",
@@ -524,7 +547,29 @@
         "sourceSnapshotHash": "d4562126a95ecc7d83832d474ff259b6196de1e847684568d16b93d698add0dd"
       },
       "fieldGaps": [],
-      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。"
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。",
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "redmi-k80-pro-2024"
+          ],
+          "sourceUrl": "https://www.ithome.com/0/813/723.htm",
+          "sourceSnapshotHash": "6477af590093090bd0a30def75812faee77f64c20f613fd6334ea90cc9485b86",
+          "sourceName": "IT之家转载官方/零售原生海报",
+          "anchor": "<img src=\"//img.ithome.com/images/v2/t.png\" w=\"800\" h=\"800\" class=\"lazy\" title=\"小米 REDMI K80 Pro 冠军版手机发布：赛道勇者灵感设计，4999 元\" data-original=\"https://img14.360buyimg.com/pop/jfs/t1/222926/25/50341/41502/67468fb4F732a427b/1a741673eedd2a8c.jpg\" width=\"800\" height=\"800\">",
+          "url": "https://img14.360buyimg.com/pop/jfs/t1/222926/25/50341/41502/67468fb4F732a427b/1a741673eedd2a8c.jpg",
+          "color": "冠军版深灰色",
+          "viewScope": "front_back",
+          "note": "原生冠军版深灰色正反同框，不适用于冠军版绿色。",
+          "colorAnchor": "<p data-vmark=\"624c\"><a class=\"s_tag\" href=\"https://www.ithome.com/\" target=\"_blank\">IT之家</a> 11 月 27 日消息，在今晚举行的 REDMI K80 大满贯双旗舰新品发布会上，REDMI K80 Pro 冠军版正式发布，灵感源自兰博基尼 Huracán GT3 EVO2，有深灰色、绿色两个版本，<strong>16GB+1TB 版本</strong><strong>售价 4999 元</strong>。</p>",
+          "editionColorBinding": {
+            "edition": "冠军版",
+            "sourceColor": "深灰色",
+            "modelAnchor": "<span class=\"card-name\"> REDMI K80 Pro 冠军版</span>"
+          }
+        }
+      ]
     },
     {
       "id": "redmi-k80-ultra-2025",
@@ -680,7 +725,8 @@
         "https://detail.zol.com.cn/2118/2117749/param.shtml",
         "https://detail.zol.com.cn/2118/2117748/param.shtml",
         "https://detail.zol.com.cn/2118/2117750/param.shtml",
-        "https://www.ithome.com/0/821/822.htm"
+        "https://www.ithome.com/0/821/822.htm",
+        "https://www.ithome.com/0/821/741.htm"
       ],
       "releaseEvidence": {
         "value": "2025-01-02",
@@ -1199,7 +1245,8 @@
         "https://detail.zol.com.cn/2102/2101023/param.shtml",
         "https://detail.zol.com.cn/2109/2108978/param.shtml",
         "https://detail.zol.com.cn/2109/2108979/param.shtml",
-        "https://detail.zol.com.cn/2109/2108980/param.shtml"
+        "https://detail.zol.com.cn/2109/2108980/param.shtml",
+        "https://m.ithome.com/html/798667.htm"
       ],
       "releaseEvidence": {
         "value": "2024-09-26",
@@ -1412,7 +1459,8 @@
         "https://detail.zol.com.cn/1412/1411903/param.shtml",
         "https://detail.zol.com.cn/1419/1418077/param.shtml",
         "https://detail.zol.com.cn/1419/1418078/param.shtml",
-        "https://detail.zol.com.cn/1419/1418076/param.shtml"
+        "https://detail.zol.com.cn/1419/1418076/param.shtml",
+        "https://shop.10086.cn/goods/100_100_1087750_1080058.html"
       ],
       "releaseEvidence": {
         "value": "2022-07-06",
@@ -1431,7 +1479,97 @@
           "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
         }
       ],
-      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。"
+      "notes": "中文具体型号参数快照；仅登记实际读取的 4 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。",
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-12s-2022"
+          ],
+          "sourceUrl": "https://shop.10086.cn/goods/100_100_1087750_1080058.html",
+          "sourceSnapshotHash": "8467d4f9fdaee81bfe96d495b58faf84f0510915d5603eaa3c981f67ac6080af",
+          "url": "https://img1.shop.10086.cn/file/tc4zyx7fkxhz9err.png",
+          "anchor": "<img src=\"//img1.shop.10086.cn/goods/tc4zyx7fkxhz9err_90x90.png\" />",
+          "color": "白色",
+          "chinaMobileOriginalBinding": true,
+          "viewScope": "front_back",
+          "sourceName": "中国移动商城",
+          "imageScope": "model_shared",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "1ec19dcfbf3227e0bc3e5c4490b06d50da0a7b82ad280cb7e2c1ed577e737434",
+            "width": 800,
+            "height": 800
+          },
+          "note": "逐张核对原始800×800产品渲染图，完整正背同框、无促销叠字；商品JSON、年份和原始图库资源固定绑定。 未将当前选择的原野绿SKU误用于图库内其他配色；不表示图片具有公开再分发许可。"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-12s-2022"
+          ],
+          "sourceUrl": "https://shop.10086.cn/goods/100_100_1087750_1080058.html",
+          "sourceSnapshotHash": "8467d4f9fdaee81bfe96d495b58faf84f0510915d5603eaa3c981f67ac6080af",
+          "url": "https://img1.shop.10086.cn/file/tc4zyzheb5k42zsd.png",
+          "anchor": "<img src=\"//img1.shop.10086.cn/goods/tc4zyzheb5k42zsd_90x90.png\" />",
+          "color": "原野绿",
+          "chinaMobileOriginalBinding": true,
+          "viewScope": "front_back",
+          "sourceName": "中国移动商城",
+          "imageScope": "model_shared",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "0bb2bd20e621d5578f0382bb0dcf677ccc5a455fc3af31ee8bbfbeacd03082a1",
+            "width": 800,
+            "height": 800
+          },
+          "note": "逐张核对原始800×800产品渲染图，完整正背同框、无促销叠字；商品JSON、年份和原始图库资源固定绑定。 未将当前选择的原野绿SKU误用于图库内其他配色；不表示图片具有公开再分发许可。"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-12s-2022"
+          ],
+          "sourceUrl": "https://shop.10086.cn/goods/100_100_1087750_1080058.html",
+          "sourceSnapshotHash": "8467d4f9fdaee81bfe96d495b58faf84f0510915d5603eaa3c981f67ac6080af",
+          "url": "https://img1.shop.10086.cn/file/tc4zgtu52kz45kgt.png",
+          "anchor": "<img src=\"//img1.shop.10086.cn/goods/tc4zgtu52kz45kgt_90x90.png\" />",
+          "color": "紫色",
+          "chinaMobileOriginalBinding": true,
+          "viewScope": "front_back",
+          "sourceName": "中国移动商城",
+          "imageScope": "model_shared",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "08218902bdc3392243c53bb5aea7e832d84b86cf038d11e338bbc53d493b8d04",
+            "width": 800,
+            "height": 800
+          },
+          "note": "逐张核对原始800×800产品渲染图，完整正背同框、无促销叠字；商品JSON、年份和原始图库资源固定绑定。 未将当前选择的原野绿SKU误用于图库内其他配色；不表示图片具有公开再分发许可。"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-12s-2022"
+          ],
+          "sourceUrl": "https://shop.10086.cn/goods/100_100_1087750_1080058.html",
+          "sourceSnapshotHash": "8467d4f9fdaee81bfe96d495b58faf84f0510915d5603eaa3c981f67ac6080af",
+          "url": "https://img1.shop.10086.cn/file/tc4zgtdstysttukaq.png",
+          "anchor": "<img src=\"//img1.shop.10086.cn/goods/tc4zgtdstysttukaq_90x90.png\" />",
+          "color": "黑色",
+          "chinaMobileOriginalBinding": true,
+          "viewScope": "front_back",
+          "sourceName": "中国移动商城",
+          "imageScope": "model_shared",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "373c59ef77ee2104461eceb7b06c367361c244511170b62619ed3b2b500a1fbd",
+            "width": 800,
+            "height": 800
+          },
+          "note": "逐张核对原始800×800产品渲染图，完整正背同框、无促销叠字；商品JSON、年份和原始图库资源固定绑定。 未将当前选择的原野绿SKU误用于图库内其他配色；不表示图片具有公开再分发许可。"
+        }
+      ]
     },
     {
       "id": "xiaomi-12s-pro-2022",

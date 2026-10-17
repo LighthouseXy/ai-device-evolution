@@ -12,10 +12,188 @@
       "referenceUrls": [
         "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9210ZAGCHC&specAnnotationYN=Y",
         "https://www.samsung.com.cn/smartphones/galaxy-s24/",
-        "https://www.ithome.com/0/747/278.htm"
+        "https://www.ithome.com/0/747/278.htm",
+        "https://www.samsung.com.cn/smartphones/galaxy-s24/buy/"
       ],
       "sourceStatus": "verified",
-      "notes": "规格与配置取自三星中国官网，并绑定 CHC 国行型号；首发价为明确的8GB+256GB基础配置指导价，不含升杯或限时优惠；发布日期按国行发布信息登记；未核验的评测分数与当前价留空。"
+      "notes": "规格与配置取自三星中国官网，并绑定 CHC 国行型号；首发价为明确的8GB+256GB基础配置指导价，不含升杯或限时优惠；发布日期按国行发布信息登记；未核验的评测分数与当前价留空。",
+      "colorImageCandidates": [
+        {
+          "color": "秘矿紫",
+          "url": "https://images.samsung.com.cn/is/image/samsung/assets/cn/buy/galaxy-s24/S24ColorCobalt_Violet_PC.jpg",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s24-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "1bfb989034a5734e729fc1b3f04a262330e23b80c22bd61cf16a650942341392",
+          "anchor": "\"SM-S9210ZVPCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9210ZVPCHC"
+          },
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "eff91545fe59d2c1e33b9d3f683c37cb5bf7a1c4450dcdfa72a68411ab77cd1c",
+            "width": 1600,
+            "height": 864,
+            "notes": "Official model-specific SKU gallery resource and description; no cross-model reuse inferred."
+          }
+        },
+        {
+          "color": "浅珀黄",
+          "url": "https://images.samsung.com.cn/is/image/samsung/assets/cn/buy/galaxy-s24/S24ColorAmber_Yellow_PC.jpg",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s24-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "1bfb989034a5734e729fc1b3f04a262330e23b80c22bd61cf16a650942341392",
+          "anchor": "\"SM-S9210ZYPCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9210ZYPCHC"
+          },
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "0128b554f884ccb72cdd2804441a2247d90a1d7485d7ad04371478f2209e6090",
+            "width": 1600,
+            "height": 864,
+            "notes": "Official model-specific SKU gallery resource and description; no cross-model reuse inferred."
+          }
+        },
+        {
+          "color": "水墨黑",
+          "url": "https://images.samsung.com.cn/is/image/samsung/assets/cn/buy/galaxy-s24/S24ColorOnyx_Black_PC.jpg",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s24-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "1bfb989034a5734e729fc1b3f04a262330e23b80c22bd61cf16a650942341392",
+          "anchor": "\"SM-S9210ZKPCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9210ZKPCHC"
+          },
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "9d3feae28ed9982e59630fbc52beab4635e233db811f00498d74ccc04fc138c3",
+            "width": 1600,
+            "height": 864,
+            "notes": "Official model-specific SKU gallery resource and description; no cross-model reuse inferred."
+          }
+        },
+        {
+          "color": "雅岩灰",
+          "url": "https://images.samsung.com.cn/is/image/samsung/assets/cn/buy/galaxy-s24/S24ColorMarble_Grey_PC.jpg",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s24-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "1bfb989034a5734e729fc1b3f04a262330e23b80c22bd61cf16a650942341392",
+          "anchor": "\"SM-S9210ZAPCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9210ZAPCHC"
+          },
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "e7aa1bd9d5a90182c04c32fd9213e4e69f2c22acb6ac37d96ce14217f3510f83",
+            "width": 1600,
+            "height": 864,
+            "notes": "Official model-specific SKU gallery resource and description; no cross-model reuse inferred."
+          }
+        },
+        {
+          "color": "冷玉蓝",
+          "url": "https://images.samsung.com.cn/is/image/samsung/assets/cn/buy/galaxy-s24/S24ColorSapphire_Blue_PC.jpg",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s24-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "1bfb989034a5734e729fc1b3f04a262330e23b80c22bd61cf16a650942341392",
+          "anchor": "\"SM-S9210LBPCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9210LBPCHC"
+          },
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "6dd722ab7383520e34f98fa575cb3c299d6e51654f5c3a92a3b7fdb06d6e3466",
+            "width": 1600,
+            "height": 864,
+            "notes": "Official model-specific SKU gallery resource and description; no cross-model reuse inferred."
+          }
+        },
+        {
+          "color": "碧石绿",
+          "url": "https://images.samsung.com.cn/is/image/samsung/assets/cn/buy/galaxy-s24/S24ColorJade_Green_PC.jpg",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s24-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "1bfb989034a5734e729fc1b3f04a262330e23b80c22bd61cf16a650942341392",
+          "anchor": "\"SM-S9210LGPCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9210LGPCHC"
+          },
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "50045130bd3ee9f847ae89e5b50c312350c1be1e18acf9ba7b8b63ec0ac0c77a",
+            "width": 1600,
+            "height": 864,
+            "notes": "Official model-specific SKU gallery resource and description; no cross-model reuse inferred."
+          }
+        },
+        {
+          "color": "柔砂橙",
+          "url": "https://images.samsung.com.cn/is/image/samsung/assets/cn/buy/galaxy-s24/S24ColorSandstone_Orange_PC.jpg",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s24-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "1bfb989034a5734e729fc1b3f04a262330e23b80c22bd61cf16a650942341392",
+          "anchor": "\"SM-S9210ZOPCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9210ZOPCHC"
+          },
+          "colorScope": "single_color",
+          "imageScope": "single_model",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "3292190ba2e6b30410e6a870a2903aab1f80feaad4988071e02a801fd99a1ddf",
+            "width": 1600,
+            "height": 864,
+            "notes": "官网独立型号 SKU 声明；原生完整正反图，逐张核验。"
+          }
+        }
+      ]
     },
     {
       "id": "samsung-galaxy-s24-plus-2024",
@@ -29,10 +207,188 @@
       "referenceUrls": [
         "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9260ZYDCHC&specAnnotationYN=Y",
         "https://www.samsung.com.cn/smartphones/galaxy-s24/",
-        "https://www.ithome.com/0/747/278.htm"
+        "https://www.ithome.com/0/747/278.htm",
+        "https://www.samsung.com.cn/smartphones/galaxy-s24/buy/"
       ],
       "sourceStatus": "verified",
-      "notes": "规格与配置取自三星中国官网，并绑定 CHC 国行型号；首发价为明确的12GB+256GB基础配置指导价，不含升杯或限时优惠；发布日期按国行发布信息登记；未核验的评测分数与当前价留空。"
+      "notes": "规格与配置取自三星中国官网，并绑定 CHC 国行型号；首发价为明确的12GB+256GB基础配置指导价，不含升杯或限时优惠；发布日期按国行发布信息登记；未核验的评测分数与当前价留空。",
+      "colorImageCandidates": [
+        {
+          "color": "秘矿紫",
+          "url": "https://images.samsung.com.cn/is/image/samsung/assets/cn/buy/galaxy-s24/S24PlusColorCobalt_Violet_PC.jpg",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s24-plus-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "1bfb989034a5734e729fc1b3f04a262330e23b80c22bd61cf16a650942341392",
+          "anchor": "\"SM-S9260ZVDCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9260ZVDCHC"
+          },
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "9fb69e8340509718c0f314b73a3425ce27a286dbca0bd2dae02f72b38ce87a56",
+            "width": 1600,
+            "height": 864,
+            "notes": "Official model-specific SKU gallery resource and description; no cross-model reuse inferred."
+          }
+        },
+        {
+          "color": "浅珀黄",
+          "url": "https://images.samsung.com.cn/is/image/samsung/assets/cn/buy/galaxy-s24/S24PlusColorAmber_Yellow_PC.jpg",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s24-plus-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "1bfb989034a5734e729fc1b3f04a262330e23b80c22bd61cf16a650942341392",
+          "anchor": "\"SM-S9260ZYDCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9260ZYDCHC"
+          },
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "773bde44f2b5262e07fb1b3a73afeb4f81fe8dd7ab3ebfa4de753f95d5a09b46",
+            "width": 1600,
+            "height": 864,
+            "notes": "Official model-specific SKU gallery resource and description; no cross-model reuse inferred."
+          }
+        },
+        {
+          "color": "水墨黑",
+          "url": "https://images.samsung.com.cn/is/image/samsung/assets/cn/buy/galaxy-s24/S24PlusColorOnyx_Black_PC.jpg",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s24-plus-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "1bfb989034a5734e729fc1b3f04a262330e23b80c22bd61cf16a650942341392",
+          "anchor": "\"SM-S9260ZKDCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9260ZKDCHC"
+          },
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "5ff532ea9d4e2b7e4c477f54cf5b8c9e20ac0a7d47b53f303610d081b24128cf",
+            "width": 1600,
+            "height": 864,
+            "notes": "Official model-specific SKU gallery resource and description; no cross-model reuse inferred."
+          }
+        },
+        {
+          "color": "雅岩灰",
+          "url": "https://images.samsung.com.cn/is/image/samsung/assets/cn/buy/galaxy-s24/S24PlusColorMarble_Grey_PC.jpg",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s24-plus-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "1bfb989034a5734e729fc1b3f04a262330e23b80c22bd61cf16a650942341392",
+          "anchor": "\"SM-S9260ZADCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9260ZADCHC"
+          },
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "5aee7b260be6f7e4fda3229a5b00b5f1a0e3ecb3789f360915fd2a66671880f6",
+            "width": 1600,
+            "height": 864,
+            "notes": "Official model-specific SKU gallery resource and description; no cross-model reuse inferred."
+          }
+        },
+        {
+          "color": "冷玉蓝",
+          "url": "https://images.samsung.com.cn/is/image/samsung/assets/cn/buy/galaxy-s24/S24PlusColorSapphire_Blue_PC.jpg",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s24-plus-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "1bfb989034a5734e729fc1b3f04a262330e23b80c22bd61cf16a650942341392",
+          "anchor": "\"SM-S9260LBDCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9260LBDCHC"
+          },
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "40e61869dae149802a62334a1af37bb703e4d5d66e90e2e7d7f7600d1855656d",
+            "width": 1600,
+            "height": 864,
+            "notes": "Official model-specific SKU gallery resource and description; no cross-model reuse inferred."
+          }
+        },
+        {
+          "color": "碧石绿",
+          "url": "https://images.samsung.com.cn/is/image/samsung/assets/cn/buy/galaxy-s24/S24PlusColorJade_Green_PC.jpg",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s24-plus-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "1bfb989034a5734e729fc1b3f04a262330e23b80c22bd61cf16a650942341392",
+          "anchor": "\"SM-S9260LGDCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9260LGDCHC"
+          },
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "8489e1780eee15e1f42a167d32e6152577b6b3cc6b6ce9dcfe40883f7d657a19",
+            "width": 1600,
+            "height": 864,
+            "notes": "Official model-specific SKU gallery resource and description; no cross-model reuse inferred."
+          }
+        },
+        {
+          "color": "柔砂橙",
+          "url": "https://images.samsung.com.cn/is/image/samsung/assets/cn/buy/galaxy-s24/S24PlusColorSandstone_Orange_PC.jpg",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s24-plus-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "1bfb989034a5734e729fc1b3f04a262330e23b80c22bd61cf16a650942341392",
+          "anchor": "\"SM-S9260ZODCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9260ZODCHC"
+          },
+          "colorScope": "single_color",
+          "imageScope": "single_model",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "1ae64713278b374b99462dab027a2c4537269f987051e256338d6c8f7a007d7c",
+            "width": 1600,
+            "height": 864,
+            "notes": "官网独立型号 SKU 声明；原生完整正反图，逐张核验。"
+          }
+        }
+      ]
     },
     {
       "id": "samsung-galaxy-s25-2025",
@@ -46,10 +402,184 @@
       "referenceUrls": [
         "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9310LBGCHC&specAnnotationYN=Y",
         "https://www.samsung.com.cn/smartphones/galaxy-s25/",
-        "https://www.samsung.com.cn/news/product/galaxy-s25-ai/"
+        "https://www.samsung.com.cn/news/product/galaxy-s25-ai/",
+        "https://product.suning.com/0000000000/12440314674.html",
+        "https://www.samsung.com.cn/smartphones/galaxy-s25/buy/"
       ],
       "sourceStatus": "verified",
-      "notes": "规格与配置取自三星中国官网，并绑定 CHC 国行型号；首发价为明确的12GB+256GB基础配置指导价，不含升杯或限时优惠；发布日期按国行发布信息登记；未核验的评测分数与当前价留空。"
+      "notes": "规格与配置取自三星中国官网，并绑定 CHC 国行型号；首发价为明确的12GB+256GB基础配置指导价，不含升杯或限时优惠；发布日期按国行发布信息登记；未核验的评测分数与当前价留空。",
+      "colorImageCandidates": [
+        {
+          "targetIds": [
+            "samsung-galaxy-s25-2025"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceUrl": "https://product.suning.com/0000000000/12440314674.html",
+          "sourceName": "苏宁易购具名商品图库",
+          "sourceSnapshotHash": "ea20a8981bef12cb9e195b17fc5bc67dca153ddffabc9c4b4480c8e37661bc4a",
+          "fetchedAt": "2026-10-10T04:14:41.839Z",
+          "url": "https://imgservice.suning.cn/uimg1/b2c/image/nN5C4aNqkWYgmYDbR1zkRg.jpg_800w_800h_4e",
+          "anchor": "<img onerror=\"this.src='//res.suning.cn/project/pdsWeb/images/blank_pic_800.jpg'\" alt=\"[手机]三星 Galaxy S25(SM-S9310)12GB+256GB 远海蓝 超拟人AI助理 骁龙8至尊版 AI拍照手机\" src=\"//imgservice.suning.cn/uimg1/b2c/image/nN5C4aNqkWYgmYDbR1zkRg.jpg_800w_800h_4e\">",
+          "color": "远海蓝",
+          "colorAnchor": "<h1 id=\"itemDisplayName\"> <span class=\"zy\" id=\"itemNameZy\"><li tabindex=\"0\">自营</li></span> <li tabindex=\"0\" class=\"line\">[手机]三星 Galaxy S25(SM-S9310)12GB+256GB 远海蓝 超拟人AI助理 骁龙8至尊版 AI拍照手机</li></h1>",
+          "modelAnchor": "<h1 id=\"itemDisplayName\"> <span class=\"zy\" id=\"itemNameZy\"><li tabindex=\"0\">自营</li></span> <li tabindex=\"0\" class=\"line\">[手机]三星 Galaxy S25(SM-S9310)12GB+256GB 远海蓝 超拟人AI助理 骁龙8至尊版 AI拍照手机</li></h1>",
+          "titleAnchor": "<title>【三星(SAMSUNG)手机S25 12GB+256GB】 [手机]三星 Galaxy S25(SM-S9310)12GB+256GB 远海蓝 超拟人AI助理 骁龙8至尊版 AI拍照手机【价格 图片 品牌 报价】-苏宁易购三星手机苏宁自营旗舰店</title>",
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageHash": "c58dbb3876431398e93bc4d31b82e4da1f2f818b71318f5309ef16dac0a9c881"
+        },
+        {
+          "color": "清霜绿",
+          "url": "https://images.samsung.com.cn/cn/smartphones/galaxy-s25/buy/Color_Selection_Global_Mint_PC.png",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s25-2025"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "51183aefd9abcaf91bb74cab285d218020ed963d8b4910bb0bdc0a06cd0b7ff1",
+          "anchor": "\"SM-S9310LGGCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9310LGGCHC"
+          },
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "5fc7c0edb6b7405dd8b1e2258b80116c6f35514433748823133665a01949e13c",
+            "width": 1600,
+            "height": 864,
+            "notes": "Official exact SM-S9310 SKU directly declares this optionGallery asset; identical color-selection image also used by official SM-S9360 S25+ SKU. Shared official marketing asset, not independently size-distinguishable; root acceptance required."
+          }
+        },
+        {
+          "color": "冷川蓝",
+          "url": "https://images.samsung.com.cn/cn/smartphones/galaxy-s25/buy/Color_Selection_Global_Icyblue_PC.png",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s25-2025"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "51183aefd9abcaf91bb74cab285d218020ed963d8b4910bb0bdc0a06cd0b7ff1",
+          "anchor": "\"SM-S9310LBGCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9310LBGCHC"
+          },
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "ec05978fe901f3985868cec879aae6000db70b06b4ff1e2b7d295b36bd1d4075",
+            "width": 1600,
+            "height": 864,
+            "notes": "Official exact SM-S9310 SKU directly declares this optionGallery asset; identical color-selection image also used by official SM-S9360 S25+ SKU. Shared official marketing asset, not independently size-distinguishable; root acceptance required."
+          }
+        },
+        {
+          "color": "幽蓝黑",
+          "url": "https://images.samsung.com.cn/cn/smartphones/galaxy-s25/buy/Color_Selection_Samsung_com_only_Blueblack_PC.png",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s25-2025"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "51183aefd9abcaf91bb74cab285d218020ed963d8b4910bb0bdc0a06cd0b7ff1",
+          "anchor": "\"SM-S9310ZKGCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9310ZKGCHC"
+          },
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "5dc9c1b76d648d62ce59a6c688b499da0b0344f3b3f7408902ea9ad6d3dbcb7c",
+            "width": 1600,
+            "height": 864,
+            "notes": "Official exact SM-S9310 SKU directly declares this optionGallery asset; identical color-selection image also used by official SM-S9360 S25+ SKU. Shared official marketing asset, not independently size-distinguishable; root acceptance required."
+          }
+        },
+        {
+          "color": "暖珊红",
+          "url": "https://images.samsung.com.cn/cn/smartphones/galaxy-s25/buy/Color_Selection_Samsung_com_only_Coralred_PC_0108.png",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s25-2025"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "51183aefd9abcaf91bb74cab285d218020ed963d8b4910bb0bdc0a06cd0b7ff1",
+          "anchor": "\"SM-S9310ZRGCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9310ZRGCHC"
+          },
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "82d60074b2a9e12bd2010f597b6fc7f8853f66165773efd439a1d3e1e291d8bb",
+            "width": 1600,
+            "height": 864,
+            "notes": "Official exact SM-S9310 SKU directly declares this optionGallery asset; identical color-selection image also used by official SM-S9360 S25+ SKU. Shared official marketing asset, not independently size-distinguishable; root acceptance required."
+          }
+        },
+        {
+          "color": "柔粉金",
+          "url": "https://images.samsung.com.cn/cn/smartphones/galaxy-s25/buy/Color_Selection_Samsung_com_only_Pinkgold_PC.png",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s25-2025"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "51183aefd9abcaf91bb74cab285d218020ed963d8b4910bb0bdc0a06cd0b7ff1",
+          "anchor": "\"SM-S9310ZDGCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9310ZDGCHC"
+          },
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "24dc4025d728adc6069d07a448e89d1bfe4bcac43648b94fbb1ee7137dfc09d4",
+            "width": 1600,
+            "height": 864,
+            "notes": "Official exact SM-S9310 SKU directly declares this optionGallery asset; identical color-selection image also used by official SM-S9360 S25+ SKU. Shared official marketing asset, not independently size-distinguishable; root acceptance required."
+          }
+        },
+        {
+          "color": "暮河银",
+          "url": "https://images.samsung.com.cn/cn/smartphones/galaxy-s25/buy/Color_Selection_Global_Silver_Shadow_PC.png",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s25/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s25-2025"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "51183aefd9abcaf91bb74cab285d218020ed963d8b4910bb0bdc0a06cd0b7ff1",
+          "anchor": "\"SM-S9310ZSGCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9310ZSGCHC"
+          },
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "ebc0b583bd59e14a30a04012ddb80b2e8d5a0ae7c00c8ddab1e36b3239debebe",
+            "width": 1600,
+            "height": 864,
+            "notes": "Official exact SM-S9310 SKU directly declares this optionGallery asset; identical color-selection image also used by official SM-S9360 S25+ SKU. Shared official marketing asset, not independently size-distinguishable; root acceptance required."
+          }
+        }
+      ]
     },
     {
       "id": "samsung-galaxy-s25-plus-2025",
@@ -63,10 +593,33 @@
       "referenceUrls": [
         "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9360LBDCHC&specAnnotationYN=Y",
         "https://www.samsung.com.cn/smartphones/galaxy-s25/",
-        "https://www.samsung.com.cn/news/product/galaxy-s25-ai/"
+        "https://www.samsung.com.cn/news/product/galaxy-s25-ai/",
+        "https://product.suning.com/0000000000/12440314675.html"
       ],
       "sourceStatus": "verified",
-      "notes": "规格与配置取自三星中国官网，并绑定 CHC 国行型号；首发价为明确的12GB+256GB基础配置指导价，不含升杯或限时优惠；发布日期按国行发布信息登记；未核验的评测分数与当前价留空。"
+      "notes": "规格与配置取自三星中国官网，并绑定 CHC 国行型号；首发价为明确的12GB+256GB基础配置指导价，不含升杯或限时优惠；发布日期按国行发布信息登记；未核验的评测分数与当前价留空。",
+      "colorImageCandidates": [
+        {
+          "targetIds": [
+            "samsung-galaxy-s25-plus-2025"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceUrl": "https://product.suning.com/0000000000/12440314675.html",
+          "sourceName": "苏宁易购具名商品图库",
+          "sourceSnapshotHash": "0a4189fdc3ba84e306295ac96e7bbf9597c1e30c9a918395f203ccd07ba5b4aa",
+          "fetchedAt": "2026-10-10T04:14:41.796Z",
+          "url": "https://imgservice.suning.cn/uimg1/b2c/image/6I49g8bczasi08N837qgoQ.jpg_800w_800h_4e",
+          "anchor": "<img onerror=\"this.src='//res.suning.cn/project/pdsWeb/images/blank_pic_800.jpg'\" alt=\"[手机]三星 Galaxy S25+(SM-S9360)12GB+256GB 冷川蓝 超拟人AI助理 骁龙8至尊版 AI拍照手机\" src=\"//imgservice.suning.cn/uimg1/b2c/image/6I49g8bczasi08N837qgoQ.jpg_800w_800h_4e\">",
+          "color": "冷川蓝",
+          "colorAnchor": "<h1 id=\"itemDisplayName\"> <span class=\"zy\" id=\"itemNameZy\"><li tabindex=\"0\">自营</li></span> <li tabindex=\"0\" class=\"line\">[手机]三星 Galaxy S25+(SM-S9360)12GB+256GB 冷川蓝 超拟人AI助理 骁龙8至尊版 AI拍照手机</li></h1>",
+          "modelAnchor": "<h1 id=\"itemDisplayName\"> <span class=\"zy\" id=\"itemNameZy\"><li tabindex=\"0\">自营</li></span> <li tabindex=\"0\" class=\"line\">[手机]三星 Galaxy S25+(SM-S9360)12GB+256GB 冷川蓝 超拟人AI助理 骁龙8至尊版 AI拍照手机</li></h1>",
+          "titleAnchor": "<title>【三星(SAMSUNG)手机S25+ 12GB+256GB】 [手机]三星 Galaxy S25+(SM-S9360)12GB+256GB 冷川蓝 超拟人AI助理 骁龙8至尊版 AI拍照手机【价格 图片 品牌 报价】-苏宁易购三星手机苏宁自营旗舰店</title>",
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageHash": "4f6bf8147e32290ebd8e3037a9c341e55a58c70617a65be49fa8c0d45bcff452"
+        }
+      ]
     },
     {
       "id": "samsung-galaxy-s26-2026",
@@ -115,10 +668,180 @@
         "https://www.dxomark.com/samsung-galaxy-s24-ultra-camera-test/",
         "https://searchapi.samsung.com.cn/v6/front/b2c/product/spec/detail?siteCode=cn&modelList=SM-S9280ZTGCHC&specAnnotationYN=Y",
         "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/",
-        "https://www.ithome.com/0/747/278.htm"
+        "https://www.ithome.com/0/747/278.htm",
+        "https://product.suning.com/0000000000/12427720089.html",
+        "https://product.suning.com/0030001578/12427720071.html",
+        "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/buy/"
       ],
       "sourceStatus": "verified",
-      "notes": "规格与国行配置取自三星中国官网；中国大陆首发指导价按IT之家发布报道中的12GB+256GB配置核验，不含升杯优惠或尝鲜价；相机评分取自 DXOMARK Camera v5。"
+      "notes": "规格与国行配置取自三星中国官网；中国大陆首发指导价按IT之家发布报道中的12GB+256GB配置核验，不含升杯优惠或尝鲜价；相机评分取自 DXOMARK Camera v5。",
+      "colorImageCandidates": [
+        {
+          "targetIds": [
+            "samsung-galaxy-s24-ultra-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceUrl": "https://product.suning.com/0000000000/12427720089.html",
+          "sourceName": "苏宁易购具名商品图库",
+          "sourceSnapshotHash": "1865d0d1bccac915cf19d01c194767d1490be4a28e6ba5352455287131ab7577",
+          "fetchedAt": "2026-10-10T04:14:41.767Z",
+          "url": "https://imgservice.suning.cn/uimg1/b2c/image/Zs4Mx-6xy2X4AjB6398BuQ.png_800w_800h_4e",
+          "anchor": "<img onerror=\"this.src='//res.suning.cn/project/pdsWeb/images/blank_pic_800.jpg'\" alt=\"三星 Galaxy S24 Ultra (SM-S9280) 12GB+512GB 钛黑5G手机\" src=\"//imgservice.suning.cn/uimg1/b2c/image/Zs4Mx-6xy2X4AjB6398BuQ.png_800w_800h_4e\">",
+          "color": "钛黑",
+          "colorAnchor": "<h1 id=\"itemDisplayName\"> <span class=\"zy\" id=\"itemNameZy\"><li tabindex=\"0\">自营</li></span> <li tabindex=\"0\" class=\"line\">三星 Galaxy S24 Ultra (SM-S9280) 12GB+512GB 钛黑5G手机</li></h1>",
+          "modelAnchor": "<h1 id=\"itemDisplayName\"> <span class=\"zy\" id=\"itemNameZy\"><li tabindex=\"0\">自营</li></span> <li tabindex=\"0\" class=\"line\">三星 Galaxy S24 Ultra (SM-S9280) 12GB+512GB 钛黑5G手机</li></h1>",
+          "titleAnchor": "<title>【三星(SAMSUNG)手机SM-S9280】 三星 Galaxy S24 Ultra (SM-S9280) 12GB+512GB 钛黑5G手机【价格 图片 品牌 报价】-苏宁易购三星手机苏宁自营旗舰店</title>",
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageHash": "900e5716a5f1e21fa10ab7c492fb1e76be658952c37340bb3530c7fde3c84d8c"
+        },
+        {
+          "targetIds": [
+            "samsung-galaxy-s24-ultra-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceUrl": "https://product.suning.com/0030001578/12427720071.html",
+          "sourceName": "苏宁易购具名商品图库",
+          "sourceSnapshotHash": "a4934c2055f9869f239469534459c83453a373107be0ebd9ff29cf9500b8872c",
+          "fetchedAt": "2026-10-10T04:14:41.821Z",
+          "url": "https://imgservice.suning.cn/uimg1/b2c/image/q4WZ3JqCajrFifXHx2s04w.png_800w_800h_4e",
+          "anchor": "<img onerror=\"this.src='//res.suning.cn/project/pdsWeb/images/blank_pic_800.jpg'\" alt=\"三星 Galaxy S24 Ultra (SM-S9280) 12GB+1TB 钛暮紫5G手机\" src=\"//imgservice.suning.cn/uimg1/b2c/image/q4WZ3JqCajrFifXHx2s04w.png_800w_800h_4e\">",
+          "color": "钛暮紫",
+          "colorAnchor": "<h1 id=\"itemDisplayName\"> <span class=\"zy\" id=\"itemNameZy\"><li tabindex=\"0\">自营</li></span> <li tabindex=\"0\" class=\"line\">三星 Galaxy S24 Ultra (SM-S9280) 12GB+1TB 钛暮紫5G手机</li></h1>",
+          "modelAnchor": "<h1 id=\"itemDisplayName\"> <span class=\"zy\" id=\"itemNameZy\"><li tabindex=\"0\">自营</li></span> <li tabindex=\"0\" class=\"line\">三星 Galaxy S24 Ultra (SM-S9280) 12GB+1TB 钛暮紫5G手机</li></h1>",
+          "titleAnchor": "<title>【三星(SAMSUNG)手机SM-S9280】 三星 Galaxy S24 Ultra (SM-S9280) 12GB+1TB 钛暮紫5G手机【价格 图片 品牌 报价】-苏宁易购三星手机苏宁自营旗舰店</title>",
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageHash": "6b1b64cba31560c0b89153345be259ff5cc0ba344665987c5b3ca3ca5fd58ee0"
+        },
+        {
+          "color": "钛羽黄",
+          "url": "https://images.samsung.com.cn/is/image/samsung/assets/cn/buy/galaxy-s24-ultra/S24UltraColorTitanium_Yellow_PC1.jpg",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s24-ultra-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "5b5bb8b46ee18419311063d612496227e2db2552d096ee03a9b0ce6ed51b172c",
+          "anchor": "\"SM-S9280ZYGCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9280ZYGCHC"
+          },
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "11157a5232e65418743780cebe8bf8bc31c2729a487db70afcf1c4d54ae2a4de",
+            "width": 1600,
+            "height": 864,
+            "notes": "Official model-specific SKU gallery resource and description; no cross-model reuse inferred."
+          }
+        },
+        {
+          "color": "钛川蓝",
+          "url": "https://images.samsung.com.cn/is/image/samsung/assets/cn/buy/galaxy-s24-ultra/S24UltraColorTitanium_Blue_PC.jpg",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s24-ultra-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "5b5bb8b46ee18419311063d612496227e2db2552d096ee03a9b0ce6ed51b172c",
+          "anchor": "\"SM-S9280LBGCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9280LBGCHC"
+          },
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "4ff13f545e835e83ac3337e4fd8c6d59433c18e1b388f47e60d7684b60828a92",
+            "width": 1600,
+            "height": 864,
+            "notes": "Official model-specific SKU gallery resource and description; no cross-model reuse inferred."
+          }
+        },
+        {
+          "color": "钛岭绿",
+          "url": "https://images.samsung.com.cn/is/image/samsung/assets/cn/buy/galaxy-s24-ultra/S24UltraColorTitanium_Green_PC.jpg",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s24-ultra-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "5b5bb8b46ee18419311063d612496227e2db2552d096ee03a9b0ce6ed51b172c",
+          "anchor": "\"SM-S9280LGGCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9280LGGCHC"
+          },
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "96c57ff9a484025fbc1dd653355766bbe9d1dbac94accbedbc54251ea2330094",
+            "width": 1600,
+            "height": 864,
+            "notes": "Official model-specific SKU gallery resource and description; no cross-model reuse inferred."
+          }
+        },
+        {
+          "color": "钛霞橙",
+          "url": "https://images.samsung.com.cn/is/image/samsung/assets/cn/buy/galaxy-s24-ultra/S24UltraColorTitanium_Orange_PC1.jpg",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s24-ultra-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "5b5bb8b46ee18419311063d612496227e2db2552d096ee03a9b0ce6ed51b172c",
+          "anchor": "\"SM-S9280ZOGCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9280ZOGCHC"
+          },
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "b02b4c7e82de91bf9203a0f9cd3a9c8b23a436dd56be520d964c9a88511a5e84",
+            "width": 1600,
+            "height": 864,
+            "notes": "Official model-specific SKU gallery resource and description; no cross-model reuse inferred."
+          }
+        },
+        {
+          "color": "钛灰",
+          "url": "https://images.samsung.com.cn/is/image/samsung/assets/cn/buy/galaxy-s24-ultra/S24UltraColorTitanium_Grey_PC1.jpg",
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s24-ultra/buy/",
+          "sourceName": "三星中国官方商城",
+          "targetIds": [
+            "samsung-galaxy-s24-ultra-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "5b5bb8b46ee18419311063d612496227e2db2552d096ee03a9b0ce6ed51b172c",
+          "anchor": "\"SM-S9280ZTGCHC\":{",
+          "samsungBuyingOptionBinding": {
+            "modelCode": "SM-S9280ZTGCHC"
+          },
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "sha256": "a493c6654c0813e16f741ca44f8b0eefcc2fea82d3283545114a2ecb40142f82",
+            "width": 1600,
+            "height": 864,
+            "notes": "Official model-specific SKU gallery resource and description; no cross-model reuse inferred."
+          }
+        }
+      ]
     },
     {
       "id": "samsung-galaxy-s25-ultra-2025",

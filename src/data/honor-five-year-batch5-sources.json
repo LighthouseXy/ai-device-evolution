@@ -112,7 +112,74 @@
           }
         ],
         "gaps": []
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-magic-vs2-2023"
+          ],
+          "sourceUrl": "https://www.ithome.com/0/725/374.htm",
+          "sourceSnapshotHash": "9ad0ea97faa1d7600afffe7f617a338b7f4612c433fa9a1d0a95508bb47fb990",
+          "sourceName": "IT之家刊载产品原图（已逐图核验）",
+          "url": "https://img14.360buyimg.com/pop/jfs/t1/188524/23/40260/54574/6527c28dFe227a803/8fe49aa3620243e3.jpg",
+          "anchor": "<img src=\"//img.ithome.com/images/v2/t.png\" class=\"lazy\" title=\"荣耀 Magic Vs2 折叠机今日开售：5000mAh 电池、骁龙 8 + 芯片，6999 元起\" data-original=\"https://img14.360buyimg.com/pop/jfs/t1/188524/23/40260/54574/6527c28dFe227a803/8fe49aa3620243e3.jpg\">",
+          "modelAnchor": "<title>荣耀 Magic Vs2 折叠机今日开售：5000mAh 电池、骁龙 8 + 芯片，6999 元起 - IT之家</title>",
+          "sha256": "a0d7213a4cf27ddc5f961d2e2214559364698415e3b0961052adcc42757ef212",
+          "width": 800,
+          "height": 800,
+          "licenseStatus": "unknown",
+          "imageScope": "specific_color",
+          "note": "仅本型号原版产品渲染/海报，不采用发布会现场或屏幕翻拍；保留原生尺寸，不声称超高清。",
+          "color": "绒黑色",
+          "colorAnchor": "<p data-vmark=\"6d0d\">IT之家注意到，该机提供绒黑色（羽纤）、冰川蓝（羽纤）、珊瑚紫（素皮）3 款配色，选用金属稀土镁合金，<strong>重量 229g，厚度 10.7mm</strong>。</p>",
+          "viewScope": "front_back"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-magic-vs2-2023"
+          ],
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-vs-2/spec/",
+          "sourceSnapshotHash": "0584c088a793addd501db41808a4e4d7532d3715d3495d0054954b9743dd70e5",
+          "sourceName": "已核对型号配色图",
+          "url": "https://www-file.honor.com/content/dam/honor/cn/specs/smartphone/honor-magic-vs-2/honor-magic-vs-2-spec-blue.png",
+          "color": "冰川蓝",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageScope": "product_render",
+          "sha256": "cb77ec87d291f6bd104bd8d640547acbe518676e6425c75376c607ba2cd1ecb4",
+          "width": 401,
+          "height": 571,
+          "modelAnchor": "<title>荣耀Magic Vs2-手机参数-配置-怎么样 | 荣耀官方网站</title>",
+          "licenseStatus": "unknown",
+          "note": "人工逐图核验正面完整屏幕与同色背板同框；沿用当前已登记准确型号来源，不从观感补颜色别名或改设备参数。",
+          "anchor": "<img class=\"exterior\" style=\"display:none;margin:0 10px;max-width:148px; z-index:calc(3 - 0);\" src=\"https://www-file.honor.com/content/dam/honor/cn/specs/smartphone/honor-magic-vs-2/honor-magic-vs-2-spec-blue.png\" alt=\"荣耀Magic Vs2 冰川蓝\"/>",
+          "colorBindingMethod": "同型号官方规格页 img alt 同时具型号与准确中文颜色；不虚构正文 finishAnchor"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-magic-vs2-2023"
+          ],
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-vs-2/spec/",
+          "sourceSnapshotHash": "0584c088a793addd501db41808a4e4d7532d3715d3495d0054954b9743dd70e5",
+          "sourceName": "已核对型号配色图",
+          "url": "https://www-file.honor.com/content/dam/honor/cn/specs/smartphone/honor-magic-vs-2/honor-magic-vs-2-spec-purple.png",
+          "color": "珊瑚紫",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageScope": "product_render",
+          "sha256": "a2417ea5126fbbf208a01e5faeef7407b0af891b947252f692bac29eb7703b46",
+          "width": 401,
+          "height": 571,
+          "modelAnchor": "<title>荣耀Magic Vs2-手机参数-配置-怎么样 | 荣耀官方网站</title>",
+          "licenseStatus": "unknown",
+          "note": "人工逐图核验正面完整屏幕与同色背板同框；沿用当前已登记准确型号来源，不从观感补颜色别名或改设备参数。",
+          "anchor": "<img class=\"exterior\" style=\"display:none;margin:0 10px;max-width:148px; z-index:calc(3 - 1);\" src=\"https://www-file.honor.com/content/dam/honor/cn/specs/smartphone/honor-magic-vs-2/honor-magic-vs-2-spec-purple.png\" alt=\"荣耀Magic Vs2 珊瑚紫\"/>",
+          "colorBindingMethod": "同型号官方规格页 img alt 同时具型号与准确中文颜色；不虚构正文 finishAnchor"
+        }
+      ]
     },
     {
       "id": "honor-magic-vs3-2024",
@@ -227,7 +294,75 @@
           }
         ],
         "gaps": []
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-magic-vs3-2024"
+          ],
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-vs-3/spec/",
+          "sourceSnapshotHash": "c2890bc337581336a8194e3e545a9bb1d140b66a6fa5b5eb6517b938a5190be5",
+          "sourceName": "已核对型号配色图",
+          "url": "https://www-file.honor.com/content/dam/honor/cn/specs/smartphone/honor-magic-vs-3/honor-magic-vs-3-id-white.png",
+          "color": "祁连雪",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageScope": "product_render",
+          "sha256": "9833fee61f6cbcca92e37f2f8120d22fc9d4ceeb35e5a8c6261a87d13b8f4df6",
+          "width": 411,
+          "height": 532,
+          "modelAnchor": "<title>荣耀Magic Vs3-手机参数-配置-怎么样 | 荣耀官方网站</title>",
+          "licenseStatus": "unknown",
+          "note": "人工逐图核验正面完整屏幕与同色背板同框；沿用当前已登记准确型号来源，不从观感补颜色别名或改设备参数。",
+          "anchor": "<img class=\"exterior\" style=\"display:none;margin:0 10px;max-width:148px; z-index:calc(3 - 0);\" src=\"https://www-file.honor.com/content/dam/honor/cn/specs/smartphone/honor-magic-vs-3/honor-magic-vs-3-id-white.png\" alt=\"祁连雪\"/>",
+          "colorBindingMethod": "同型号官方规格页 img alt 同时具型号与准确中文颜色；不虚构正文 finishAnchor"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-magic-vs3-2024"
+          ],
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-vs-3/spec/",
+          "sourceSnapshotHash": "c2890bc337581336a8194e3e545a9bb1d140b66a6fa5b5eb6517b938a5190be5",
+          "sourceName": "已核对型号配色图",
+          "url": "https://www-file.honor.com/content/dam/honor/cn/specs/smartphone/honor-magic-vs-3/honor-magic-vs-3-id-black.png",
+          "color": "绒黑色",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageScope": "product_render",
+          "sha256": "a6375dbb1bc02f971145f033b8dc23c086724f3d9586c193748ca020d6781a8b",
+          "width": 411,
+          "height": 532,
+          "modelAnchor": "<title>荣耀Magic Vs3-手机参数-配置-怎么样 | 荣耀官方网站</title>",
+          "licenseStatus": "unknown",
+          "note": "人工逐图核验正面完整屏幕与同色背板同框；沿用当前已登记准确型号来源，不从观感补颜色别名或改设备参数。",
+          "anchor": "<img class=\"exterior\" style=\"display:none;margin:0 10px;max-width:148px; z-index:calc(3 - 2);\" src=\"https://www-file.honor.com/content/dam/honor/cn/specs/smartphone/honor-magic-vs-3/honor-magic-vs-3-id-black.png\" alt=\"绒黑色\"/>",
+          "colorBindingMethod": "同型号官方规格页 img alt 同时具型号与准确中文颜色；不虚构正文 finishAnchor"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-magic-vs3-2024"
+          ],
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-vs-3/spec/",
+          "sourceSnapshotHash": "c2890bc337581336a8194e3e545a9bb1d140b66a6fa5b5eb6517b938a5190be5",
+          "sourceName": "已核对型号配色图",
+          "url": "https://www-file.honor.com/content/dam/honor/cn/specs/smartphone/honor-magic-vs-3/honor-magic-vs-3-id-green.png",
+          "color": "苔原绿",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageScope": "product_render",
+          "sha256": "2cdb6ec312910a2916a5d8796514daca4018ad54c5dc969b4ae7d9dbe8948a32",
+          "width": 411,
+          "height": 532,
+          "modelAnchor": "<title>荣耀Magic Vs3-手机参数-配置-怎么样 | 荣耀官方网站</title>",
+          "licenseStatus": "unknown",
+          "note": "人工逐图核验正面完整屏幕与同色背板同框；沿用当前已登记准确型号来源，不从观感补颜色别名或改设备参数。",
+          "anchor": "<img class=\"exterior\" style=\"display:none;margin:0 10px;max-width:148px; z-index:calc(3 - 1);\" src=\"https://www-file.honor.com/content/dam/honor/cn/specs/smartphone/honor-magic-vs-3/honor-magic-vs-3-id-green.png\" alt=\"苔原绿\"/>",
+          "colorBindingMethod": "同型号官方规格页 img alt 同时具型号与准确中文颜色；不虚构正文 finishAnchor"
+        }
+      ]
     },
     {
       "id": "honor-magic-v6-2026",
@@ -354,7 +489,93 @@
           }
         ],
         "gaps": []
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-magic-v6-2026"
+          ],
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-v6/spec/",
+          "sourceSnapshotHash": "8601b924b457fa944856492f0660014f6a2d4e490f236ad45a93dea430f8be33",
+          "sourceName": "荣耀中国官网",
+          "url": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-magic-v6/honor-magic-v5-id-red.png",
+          "color": "赤兔红",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageScope": "product_render",
+          "sha256": "73b0a3d5c824d5999e813e27b0a323e355ee9334ce327b4ba93395aafa0cf38b",
+          "width": 412,
+          "height": 532,
+          "anchor": "<img draggable=\"false\" class=\"product-img_center lazyload\" data-src=\"https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-magic-v6/honor-magic-v5-id-red.png\" alt=\"荣耀Magic V6\" src=\"/etc/designs/honor-site/assets/lazyload/placeholder.png\" aria-hidden=\"true\"/>",
+          "officialColorGalleryBinding": true,
+          "licenseStatus": "unknown",
+          "note": "已查看原图：完整正面与同色背面同框。以官方规格页 input 色名和相邻 picture 精确绑定；保留官方原始文件名，不据文件名推断代际。官方原图宽度约412像素，不标为高清素材。"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-magic-v6-2026"
+          ],
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-v6/spec/",
+          "sourceSnapshotHash": "8601b924b457fa944856492f0660014f6a2d4e490f236ad45a93dea430f8be33",
+          "sourceName": "荣耀中国官网",
+          "url": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-magic-v6/honor-magic-v5-id-gold.png",
+          "color": "旭日金",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageScope": "product_render",
+          "sha256": "39246922458042f6453813f9a1fca4bd2522bdab31be8fc0be56f2a33746b15a",
+          "width": 412,
+          "height": 532,
+          "anchor": "<img class=\"exterior\" style=\"display:none;margin:0 10px;max-width:148px; z-index:calc(4 - 1);\" src=\"https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-magic-v6/honor-magic-v5-id-gold.png\" alt=\"荣耀Magic V6\"/>",
+          "officialColorGalleryBinding": true,
+          "licenseStatus": "unknown",
+          "note": "已查看原图：完整正面与同色背面同框。以官方规格页 input 色名和相邻 picture 精确绑定；保留官方原始文件名，不据文件名推断代际。官方原图宽度约412像素，不标为高清素材。"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-magic-v6-2026"
+          ],
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-v6/spec/",
+          "sourceSnapshotHash": "8601b924b457fa944856492f0660014f6a2d4e490f236ad45a93dea430f8be33",
+          "sourceName": "荣耀中国官网",
+          "url": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-magic-v6/honor-magic-v5-id-white.png",
+          "color": "雪域白",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageScope": "product_render",
+          "sha256": "3efbb484143b6e87e89deae9a0fb1579af14db37173df6847eb47c6978dee837",
+          "width": 412,
+          "height": 532,
+          "anchor": "<img class=\"exterior\" style=\"display:none;margin:0 10px;max-width:148px; z-index:calc(4 - 2);\" src=\"https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-magic-v6/honor-magic-v5-id-white.png\" alt=\"荣耀Magic V6\"/>",
+          "officialColorGalleryBinding": true,
+          "licenseStatus": "unknown",
+          "note": "已查看原图：完整正面与同色背面同框。以官方规格页 input 色名和相邻 picture 精确绑定；保留官方原始文件名，不据文件名推断代际。官方原图宽度约412像素，不标为高清素材。"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-magic-v6-2026"
+          ],
+          "sourceUrl": "https://www.honor.com/cn/phones/honor-magic-v6/spec/",
+          "sourceSnapshotHash": "8601b924b457fa944856492f0660014f6a2d4e490f236ad45a93dea430f8be33",
+          "sourceName": "荣耀中国官网",
+          "url": "https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-magic-v6/honor-magic-v5-id-black.png",
+          "color": "绒黑色",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageScope": "product_render",
+          "sha256": "e1edfec6cba91bae3422797cd01c99583a205c902822111d82131e6757b0b097",
+          "width": 412,
+          "height": 532,
+          "anchor": "<img class=\"exterior\" style=\"display:none;margin:0 10px;max-width:148px; z-index:calc(4 - 3);\" src=\"https://www-file.honor.com/content/dam/honor/common/product-list/product-series/honor-magic-v6/honor-magic-v5-id-black.png\" alt=\"荣耀Magic V6\"/>",
+          "officialColorGalleryBinding": true,
+          "licenseStatus": "unknown",
+          "note": "已查看原图：完整正面与同色背面同框。以官方规格页 input 色名和相邻 picture 精确绑定；保留官方原始文件名，不据文件名推断代际。官方原图宽度约412像素，不标为高清素材。"
+        }
+      ]
     },
     {
       "id": "honor-600-pro-2026",
@@ -370,7 +591,8 @@
         "https://detail.zol.com.cn/2167/2166090/param.shtml",
         "https://detail.zol.com.cn/2167/2166091/param.shtml",
         "https://g.pconline.com.cn/x/2161/21614611.html",
-        "https://www.honor.com/cn/phones/honor-600-pro/spec/"
+        "https://www.honor.com/cn/phones/honor-600-pro/spec/",
+        "https://www.honor.com/cn/shop/product/10086897898403.html?cid=132359"
       ],
       "releaseEvidence": {
         "value": "2026-05-29",
@@ -480,7 +702,181 @@
           }
         ],
         "gaps": []
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "color": "青苹果",
+          "url": "https://hshop.honorfile.com/pimages//product/6942785103498/800_800_8E965661ABE30B052A8C8B5EF639FD37C89BED09A5F47443mp.png",
+          "sourceUrl": "https://www.honor.com/cn/shop/product/10086897898403.html?cid=132359",
+          "sourceName": "荣耀中国官方商城",
+          "targetIds": [
+            "honor-600-pro-2026"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "a275b9f982f80420531b23792c39c3be4ed512fce28ee6ce348232c56866fb5e",
+          "anchor": "_pro_sbomList.push({sbomCode:\"10001030032107\",name:\"&#x8363;&#x8000;600&#x20;Pro&#x20;12GB&#x2b;512GB&#x20;&#x9752;&#x82f9;&#x679c;&#x20;&#x53cc;&#x5361;&#x20;&#x5168;&#x7f51;&#x901a;&#x7248;\",photoName:\"8E965661ABE30B052A8C8B5EF639FD37C89BED09A5F47443mp.png\",photoPath:\"&#x2f;product&#x2f;6942785103498&#x2f;\",sbomPackageList:_sbomPackageList,gbomCode:\"6942785103498\"});",
+          "honorShopSkuBinding": {
+            "releaseYear": 2026,
+            "sbomCode": "10001030032107",
+            "name": "荣耀600 Pro 12GB+512GB 青苹果 双卡 全网通版",
+            "photoName": "8E965661ABE30B052A8C8B5EF639FD37C89BED09A5F47443mp.png",
+            "photoPath": "/product/6942785103498/",
+            "scriptAnchor": "<script src=\"https://hshop.honorfile.com/2026092209/js/product2/detail.js\" namespace=\"ec\">",
+            "mediaPathAnchor": "ec.mediaPath = \"https://hshop.honorfile.com/pimages/\";"
+          },
+          "resourceChain": [
+            {
+              "sourceUrl": "https://hshop.honorfile.com/2026092209/js/product2/detail.js",
+              "sourceSnapshotHash": "fb0172b4be1e5d33d10745538efc689996a71ff023cce531a73167dc2d2ecaaf",
+              "anchors": [
+                "var r=ec.product.getSkuInfo(ec.product.getSku()),e=[],o=1;",
+                "ec.mediaPath+r.photoPath+\"78_78_\"+r.photoName",
+                "$(\"#product-img\").attr(\"href\",s.replace(\"78_78\",\"800_800\")).find(\"img\").attr(\"src\",s.replace(\"78_78\",\"800_800\"))",
+                "var e=r.attr(\"src\").replace(\"78_78\",\"800_800\");"
+              ]
+            }
+          ],
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 800,
+            "height": 800,
+            "sha256": "6a7d82e0d05e93fbc72c3fa370765e384cbbd21c57651bb4ceedba414bc9d2cc",
+            "notes": "原生正反同框，实际800×800原图核验；仅采用图片，不导入商城配置或处理机销售状态。"
+          }
+        },
+        {
+          "color": "曜石黑",
+          "url": "https://hshop.honorfile.com/pimages//product/6942785103474/800_800_E27AFB407B4E41170F878CB384C472E4851B174742B036A7mp.png",
+          "sourceUrl": "https://www.honor.com/cn/shop/product/10086897898403.html?cid=132359",
+          "sourceName": "荣耀中国官方商城",
+          "targetIds": [
+            "honor-600-pro-2026"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "a275b9f982f80420531b23792c39c3be4ed512fce28ee6ce348232c56866fb5e",
+          "anchor": "_pro_sbomList.push({sbomCode:\"10001030032105\",name:\"&#x8363;&#x8000;600&#x20;Pro&#x20;12GB&#x2b;512GB&#x20;&#x66dc;&#x77f3;&#x9ed1;&#x20;&#x53cc;&#x5361;&#x20;&#x5168;&#x7f51;&#x901a;&#x7248;\",photoName:\"E27AFB407B4E41170F878CB384C472E4851B174742B036A7mp.png\",photoPath:\"&#x2f;product&#x2f;6942785103474&#x2f;\",sbomPackageList:_sbomPackageList,gbomCode:\"6942785103474\"});",
+          "honorShopSkuBinding": {
+            "releaseYear": 2026,
+            "sbomCode": "10001030032105",
+            "name": "荣耀600 Pro 12GB+512GB 曜石黑 双卡 全网通版",
+            "photoName": "E27AFB407B4E41170F878CB384C472E4851B174742B036A7mp.png",
+            "photoPath": "/product/6942785103474/",
+            "scriptAnchor": "<script src=\"https://hshop.honorfile.com/2026092209/js/product2/detail.js\" namespace=\"ec\">",
+            "mediaPathAnchor": "ec.mediaPath = \"https://hshop.honorfile.com/pimages/\";"
+          },
+          "resourceChain": [
+            {
+              "sourceUrl": "https://hshop.honorfile.com/2026092209/js/product2/detail.js",
+              "sourceSnapshotHash": "fb0172b4be1e5d33d10745538efc689996a71ff023cce531a73167dc2d2ecaaf",
+              "anchors": [
+                "var r=ec.product.getSkuInfo(ec.product.getSku()),e=[],o=1;",
+                "ec.mediaPath+r.photoPath+\"78_78_\"+r.photoName",
+                "$(\"#product-img\").attr(\"href\",s.replace(\"78_78\",\"800_800\")).find(\"img\").attr(\"src\",s.replace(\"78_78\",\"800_800\"))",
+                "var e=r.attr(\"src\").replace(\"78_78\",\"800_800\");"
+              ]
+            }
+          ],
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 800,
+            "height": 800,
+            "sha256": "cb7382076c9cd60b4219dc2a2d49a73a170969357c233733024bc097db1544fa",
+            "notes": "原生正反同框，实际800×800原图核验；仅采用图片，不导入商城配置或处理机销售状态。"
+          }
+        },
+        {
+          "color": "光羽蓝",
+          "url": "https://hshop.honorfile.com/pimages//product/6942785103504/800_800_10EB8551EACEFE6F66BCC1AA9FA7D62F015907ACD7579C3Dmp.png",
+          "sourceUrl": "https://www.honor.com/cn/shop/product/10086897898403.html?cid=132359",
+          "sourceName": "荣耀中国官方商城",
+          "targetIds": [
+            "honor-600-pro-2026"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "a275b9f982f80420531b23792c39c3be4ed512fce28ee6ce348232c56866fb5e",
+          "anchor": "_pro_sbomList.push({sbomCode:\"10001030032108\",name:\"&#x8363;&#x8000;600&#x20;Pro&#x20;12GB&#x2b;512GB&#x20;&#x5149;&#x7fbd;&#x84dd;&#x20;&#x53cc;&#x5361;&#x20;&#x5168;&#x7f51;&#x901a;&#x7248;\",photoName:\"10EB8551EACEFE6F66BCC1AA9FA7D62F015907ACD7579C3Dmp.png\",photoPath:\"&#x2f;product&#x2f;6942785103504&#x2f;\",sbomPackageList:_sbomPackageList,gbomCode:\"6942785103504\"});",
+          "honorShopSkuBinding": {
+            "releaseYear": 2026,
+            "sbomCode": "10001030032108",
+            "name": "荣耀600 Pro 12GB+512GB 光羽蓝 双卡 全网通版",
+            "photoName": "10EB8551EACEFE6F66BCC1AA9FA7D62F015907ACD7579C3Dmp.png",
+            "photoPath": "/product/6942785103504/",
+            "scriptAnchor": "<script src=\"https://hshop.honorfile.com/2026092209/js/product2/detail.js\" namespace=\"ec\">",
+            "mediaPathAnchor": "ec.mediaPath = \"https://hshop.honorfile.com/pimages/\";"
+          },
+          "resourceChain": [
+            {
+              "sourceUrl": "https://hshop.honorfile.com/2026092209/js/product2/detail.js",
+              "sourceSnapshotHash": "fb0172b4be1e5d33d10745538efc689996a71ff023cce531a73167dc2d2ecaaf",
+              "anchors": [
+                "var r=ec.product.getSkuInfo(ec.product.getSku()),e=[],o=1;",
+                "ec.mediaPath+r.photoPath+\"78_78_\"+r.photoName",
+                "$(\"#product-img\").attr(\"href\",s.replace(\"78_78\",\"800_800\")).find(\"img\").attr(\"src\",s.replace(\"78_78\",\"800_800\"))",
+                "var e=r.attr(\"src\").replace(\"78_78\",\"800_800\");"
+              ]
+            }
+          ],
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 800,
+            "height": 800,
+            "sha256": "440ceee95d051c9d32fcd2acbf31c20e9fc8a20aa5300663030eb6e9a065d8ad",
+            "notes": "原生正反同框，实际800×800原图核验；仅采用图片，不导入商城配置或处理机销售状态。"
+          }
+        },
+        {
+          "color": "幸运星",
+          "url": "https://hshop.honorfile.com/pimages//product/6942785103481/800_800_EA236E1FEEABC02EE6B9E97E31F4168F1697A897AE06AD40mp.png",
+          "sourceUrl": "https://www.honor.com/cn/shop/product/10086897898403.html?cid=132359",
+          "sourceName": "荣耀中国官方商城",
+          "targetIds": [
+            "honor-600-pro-2026"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "a275b9f982f80420531b23792c39c3be4ed512fce28ee6ce348232c56866fb5e",
+          "anchor": "_pro_sbomList.push({sbomCode:\"10001030032106\",name:\"&#x8363;&#x8000;600&#x20;Pro&#x20;12GB&#x2b;512GB&#x20;&#x5e78;&#x8fd0;&#x661f;&#x20;&#x53cc;&#x5361;&#x20;&#x5168;&#x7f51;&#x901a;&#x7248;\",photoName:\"EA236E1FEEABC02EE6B9E97E31F4168F1697A897AE06AD40mp.png\",photoPath:\"&#x2f;product&#x2f;6942785103481&#x2f;\",sbomPackageList:_sbomPackageList,gbomCode:\"6942785103481\"});",
+          "honorShopSkuBinding": {
+            "releaseYear": 2026,
+            "sbomCode": "10001030032106",
+            "name": "荣耀600 Pro 12GB+512GB 幸运星 双卡 全网通版",
+            "photoName": "EA236E1FEEABC02EE6B9E97E31F4168F1697A897AE06AD40mp.png",
+            "photoPath": "/product/6942785103481/",
+            "scriptAnchor": "<script src=\"https://hshop.honorfile.com/2026092209/js/product2/detail.js\" namespace=\"ec\">",
+            "mediaPathAnchor": "ec.mediaPath = \"https://hshop.honorfile.com/pimages/\";"
+          },
+          "resourceChain": [
+            {
+              "sourceUrl": "https://hshop.honorfile.com/2026092209/js/product2/detail.js",
+              "sourceSnapshotHash": "fb0172b4be1e5d33d10745538efc689996a71ff023cce531a73167dc2d2ecaaf",
+              "anchors": [
+                "var r=ec.product.getSkuInfo(ec.product.getSku()),e=[],o=1;",
+                "ec.mediaPath+r.photoPath+\"78_78_\"+r.photoName",
+                "$(\"#product-img\").attr(\"href\",s.replace(\"78_78\",\"800_800\")).find(\"img\").attr(\"src\",s.replace(\"78_78\",\"800_800\"))",
+                "var e=r.attr(\"src\").replace(\"78_78\",\"800_800\");"
+              ]
+            }
+          ],
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 800,
+            "height": 800,
+            "sha256": "3d432b42550e1025b3e83ed80e578f431af0b9356f9130a256c52fa70f35b213",
+            "notes": "原生正反同框，实际800×800原图核验；仅采用图片，不导入商城配置或处理机销售状态。"
+          }
+        }
+      ]
     }
   ],
   "tablet": [],

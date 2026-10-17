@@ -497,7 +497,8 @@
       "referenceUrls": [
         "https://detail.zol.com.cn/1402/1401153/param.shtml",
         "https://www.ithome.com/0/636/504.htm",
-        "https://detail.zol.com.cn/GPSwatch/index1401153.shtml"
+        "https://detail.zol.com.cn/GPSwatch/index1401153.shtml",
+        "https://www.samsung.com.cn/watches/galaxy-watch/galaxy-watch5-44mm-silver-bluetooth-sm-r910nzsachc/"
       ],
       "fieldGaps": [
         {
@@ -573,7 +574,40 @@
         },
         "licenseStatus": "unknown"
       },
-      "category": "watch"
+      "category": "watch",
+      "rejectedColorNames": [
+        "晴空海岸",
+        "云雾冰川"
+      ],
+      "colorVersionVerification": {
+        "sourceUrl": "https://www.samsung.com.cn/watches/galaxy-watch/galaxy-watch5-44mm-silver-bluetooth-sm-r910nzsachc/",
+        "sourceSnapshotHash": "0027b0965cc51cd1e35f30b7b4202d380d195d15f411d83726d113dcd86f88e4",
+        "rawText": "Galaxy Watch5 蓝牙版 44mm可选颜色为哥特太空、晴空海岸、云雾冰川；Galaxy Watch5 蓝牙版 40mm可选颜色为哥特太空、繁樱花园、幽紫秘境",
+        "allowedColors": [
+          "哥特太空",
+          "繁樱花园",
+          "幽紫秘境"
+        ],
+        "boundary": "仅40毫米蓝牙版原配表壳配色；44毫米款颜色不套用到40毫米。",
+        "rejectedEvidence": {
+          "value": [
+            "幽紫秘境",
+            "繁樱花园",
+            "哥特太空",
+            "晴空海岸",
+            "云雾冰川"
+          ],
+          "rawText": "幽紫秘境，繁樱花园，哥特太空，晴空海岸，云雾冰川",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1402/1401153/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-07",
+          "fetchedAt": "2026-10-07T07:26:00.275Z",
+          "sourceSnapshotHash": "695f22121ddc03c8445c7732bf7a8402ae99f44e9d587b32c294bbec51433436"
+        },
+        "reason": "第三方通用列表混入了两项44毫米专属配色，按官网带尺寸限制的明确说明纠正。"
+      }
     },
     {
       "id": "samsung-galaxy-watch5-44-2022",
@@ -597,7 +631,8 @@
       "referenceUrls": [
         "https://detail.zol.com.cn/1425/1424050/param.shtml",
         "https://www.ithome.com/0/636/504.htm",
-        "https://detail.zol.com.cn/GPSwatch/index1424050.shtml"
+        "https://detail.zol.com.cn/GPSwatch/index1424050.shtml",
+        "https://www.samsung.com.cn/watches/galaxy-watch/galaxy-watch5-44mm-silver-bluetooth-sm-r910nzsachc/"
       ],
       "fieldGaps": [
         {
@@ -671,7 +706,8 @@
       "referenceUrls": [
         "https://detail.zol.com.cn/1426/1425373/param.shtml",
         "https://www.ithome.com/0/636/504.htm",
-        "https://detail.zol.com.cn/GPSwatch/index1425373.shtml"
+        "https://detail.zol.com.cn/GPSwatch/index1425373.shtml",
+        "https://www.samsung.com.cn/watches/galaxy-watch/galaxy-watch5-44mm-graphite-lte-sm-r9150zaachc/buy/"
       ],
       "fieldGaps": [
         {
@@ -1359,7 +1395,8 @@
       "referenceUrls": [
         "https://detail.zol.com.cn/2174/2173072/param.shtml",
         "https://www.ithome.com/0/980/317.htm",
-        "https://detail.zol.com.cn/GPSwatch/index2173072.shtml"
+        "https://detail.zol.com.cn/GPSwatch/index2173072.shtml",
+        "https://www.samsung.com.cn/watches/galaxy-watch9/buy/?modelCode=SM-L340NZKACHC"
       ],
       "fieldGaps": [
         {
@@ -1433,7 +1470,8 @@
       "referenceUrls": [
         "https://detail.zol.com.cn/2174/2173071/param.shtml",
         "https://www.ithome.com/0/980/317.htm",
-        "https://detail.zol.com.cn/GPSwatch/index2173071.shtml"
+        "https://detail.zol.com.cn/GPSwatch/index2173071.shtml",
+        "https://www.samsung.com.cn/watches/galaxy-watch9/buy/?modelCode=SM-L350NZKACHC"
       ],
       "fieldGaps": [
         {
@@ -1643,7 +1681,8 @@
       "referenceUrls": [
         "https://detail.zol.com.cn/2174/2173070/param.shtml",
         "https://www.ithome.com/0/980/317.htm",
-        "https://detail.zol.com.cn/GPSwatch/index2173070.shtml"
+        "https://detail.zol.com.cn/GPSwatch/index2173070.shtml",
+        "https://www.samsung.com.cn/watches/galaxy-watch9/buy/?modelCode=SM-L3550ZKACHC"
       ],
       "fieldGaps": [
         {
@@ -2314,7 +2353,8 @@
       "referenceUrls": [
         "https://detail.zol.com.cn/1425/1424051/param.shtml",
         "https://www.ithome.com/0/636/504.htm",
-        "https://detail.zol.com.cn/GPSwatch/index1424051.shtml"
+        "https://detail.zol.com.cn/GPSwatch/index1424051.shtml",
+        "https://www.samsung.com.cn/watches/galaxy-watch/galaxy-watch5-pro-black-titanium-bluetooth-sm-r920nzkachc/"
       ],
       "fieldGaps": [
         {

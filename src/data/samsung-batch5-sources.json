@@ -639,7 +639,8 @@
         "https://detail.zol.com.cn/1185/1184217/param.shtml",
         "https://www.sohu.com/a/207824053_115565",
         "https://detail.zol.com.cn/cell_phone/index1184217.shtml",
-        "https://detail.zol.com.cn/picture_index_1887/index18869024_0_p1184217.shtml"
+        "https://detail.zol.com.cn/picture_index_1887/index18869024_0_p1184217.shtml",
+        "https://product.suning.com/0070147903/10059574706.html"
       ],
       "releaseEvidence": {
         "value": "2017",
@@ -755,7 +756,26 @@
           }
         ]
       },
-      "sourceInputKind": "cn_launch_configuration_and_selected_parameter_rows"
+      "sourceInputKind": "cn_launch_configuration_and_selected_parameter_rows",
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "samsung-w2018-2017"
+          ],
+          "sourceUrl": "https://product.suning.com/0070147903/10059574706.html",
+          "sourceSnapshotHash": "4b7327ad4e0c03de59df426a50ceb526d465045f565c24043c968721b7f8c7f6",
+          "sourceName": "苏宁易购亨通达数码官方旗舰店",
+          "anchor": "<img onerror=\"this.src='//res.suning.cn/project/pdsWeb/images/blank_pic_800.jpg'\" alt=\"三星(SAMSUNG) W2018 6GB+64GB 雅金 移动联通电信 全网通4G手机\" src=\"//imgservice.suning.cn/uimg1/b2c/image/GNhmBe2I1LsxaLyGLtMoUA.jpg_800w_800h_4e\">",
+          "url": "https://imgservice.suning.cn/uimg1/b2c/image/GNhmBe2I1LsxaLyGLtMoUA.jpg_800w_800h_4e",
+          "licenseStatus": "unknown",
+          "color": "雅金",
+          "colorAnchor": "<title>【三星(SAMSUNG)手机W2018】 三星(SAMSUNG) W2018 6GB+64GB 雅金 移动联通电信 全网通4G手机【价格 图片 品牌 报价】-苏宁易购亨通达数码官方旗舰店</title>",
+          "modelAnchor": "<title>【三星(SAMSUNG)手机W2018】 三星(SAMSUNG) W2018 6GB+64GB 雅金 移动联通电信 全网通4G手机【价格 图片 品牌 报价】-苏宁易购亨通达数码官方旗舰店</title>",
+          "viewScope": "front_back",
+          "note": "800×800雅金正反同框，绑定W2018全网通4G商品；不导入商品价格或成色，不冒充全配色集合。"
+        }
+      ]
     },
     {
       "id": "samsung-w2019-2018",
@@ -2317,7 +2337,26 @@
         "sourceSnapshotHash": "7a63438e9db7f89f0e540409a18622d2194dd8ec2e8004ca03ba8f667bc7e818"
       },
       "imageLicense": "unknown",
-      "sourceInputKind": "official_cn_single_sku_and_launch_configuration_snapshots"
+      "sourceInputKind": "official_cn_single_sku_and_launch_configuration_snapshots",
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "samsung-galaxy-tab-s10-lite-2025"
+          ],
+          "sourceUrl": "https://www.samsung.com.cn/business/tablets/galaxy-tab-s/galaxy-tab-s10-lite-sm-x400nzagchn/",
+          "sourceSnapshotHash": "3882ee735c347b85910251e7b7f3ede98e244780d693d03de5b148dac8a0289d",
+          "sourceName": "三星中国官网",
+          "anchor": "<img class=\"image__main lazy-load-man responsive-img\" data-desktop-src=\"//images.samsung.com.cn/is/image/samsung/p6pim/cn/sm-x400nzagchn/gallery/cn-galaxy-tab-s10-lite-sm-x406-sm-x400nzagchn-548606238?$Q90_684_547_JPG$\" data-mobile-src=\"//images.samsung.com.cn/is/image/samsung/p6pim/cn/sm-x400nzagchn/gallery/cn-galaxy-tab-s10-lite-sm-x406-sm-x400nzagchn-548606238?$720_576_JPG$\" alt=\"Galaxy Tab S10 Lite Combo Gray , Galaxy Tab S10 Lite\" role=\"img\"/>",
+          "url": "https://images.samsung.com.cn/is/image/samsung/p6pim/cn/sm-x400nzagchn/gallery/cn-galaxy-tab-s10-lite-sm-x406-sm-x400nzagchn-548606238?$Q90_684_547_JPG$",
+          "licenseStatus": "unknown",
+          "color": "星空灰",
+          "colorAnchor": "<label class=\"pd-option-selector__label\" for=\"pd-color-0\">\n                                    <span class=\"pd-option-selector__color\" style=\"background:#75787b;\"></span>\n                                    <span class=\"pd-option-selector__text-wrap\">\n                                        <span class=\"pd-option-selector__text\">星空灰</span>\n                                    </span>\n                                </label>",
+          "modelAnchor": "<input type=\"hidden\" name=\"modelCode\" id=\"modelCode\" value=\"SM-X400NZAGCHN\"/>",
+          "viewScope": "front_back",
+          "note": "官网SM-X400NZAGCHN Wi-Fi星空灰SKU，684×547正反同框含S Pen；不以文件名中的X406推断网络版本。"
+        }
+      ]
     }
   ],
   "laptop": []

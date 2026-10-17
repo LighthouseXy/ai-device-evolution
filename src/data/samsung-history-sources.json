@@ -187,7 +187,9 @@
         "https://detail.zol.com.cn/1185/1184309/param.shtml",
         "https://detail.zol.com.cn/1228/1227640/param.shtml",
         "https://mobile.zol.com.cn/696/6964194.html",
-        "https://detail.zol.com.cn/picture_index_1945/index19440112_0_p1184309.shtml"
+        "https://detail.zol.com.cn/picture_index_1945/index19440112_0_p1184309.shtml",
+        "https://product.suning.com/0000000000/10583204066.html",
+        "https://shop.dixintong.com/products-6259-288.html"
       ],
       "releaseEvidence": {
         "value": "2018-08",
@@ -254,7 +256,54 @@
             "url": "https://2a.zol-img.com.cn/product/192/14/cefjPEQzIaOsc.jpg"
           }
         ]
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "targetIds": [
+            "samsung-galaxy-note9-2018"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceUrl": "https://product.suning.com/0000000000/10583204066.html",
+          "sourceName": "苏宁易购具名商品图库",
+          "sourceSnapshotHash": "28830c5ea5c7ccb841cc27a6ee5fc159e49bd8119e4d1cb3dc766eb817302239",
+          "fetchedAt": "2026-10-10T04:14:41.777Z",
+          "url": "https://imgservice.suning.cn/uimg1/b2c/image/eL2LF89wFt4ivMjUuwav2Q.jpg_800w_800h_4e",
+          "anchor": "<img onerror=\"javascript:$('.imgzoom-thumb-main li[data-index=3]').remove();\" alt=\"三星(SAMSUNG) Galaxy Note9(SM-N9600)6GB+128GB 玄镜铜 移动联通电信全网通4G手机\" src-large=\"//imgservice.suning.cn/uimg1/b2c/image/eL2LF89wFt4ivMjUuwav2Q.jpg_800w_800h_4e\" src-medium=\"//imgservice.suning.cn/uimg1/b2c/image/eL2LF89wFt4ivMjUuwav2Q.jpg_800w_800h_4e\" src=\"//imgservice.suning.cn/uimg1/b2c/image/eL2LF89wFt4ivMjUuwav2Q.jpg_60w_60h_4e\">",
+          "color": "玄镜铜",
+          "colorAnchor": "<h1 id=\"itemDisplayName\"> <span class=\"zy\" id=\"itemNameZy\"><li tabindex=\"0\">自营</li></span> <li tabindex=\"0\" class=\"line\">三星(SAMSUNG) Galaxy Note9(SM-N9600)6GB+128GB 玄镜铜 移动联通电信全网通4G手机</li></h1>",
+          "modelAnchor": "<h1 id=\"itemDisplayName\"> <span class=\"zy\" id=\"itemNameZy\"><li tabindex=\"0\">自营</li></span> <li tabindex=\"0\" class=\"line\">三星(SAMSUNG) Galaxy Note9(SM-N9600)6GB+128GB 玄镜铜 移动联通电信全网通4G手机</li></h1>",
+          "titleAnchor": "<title>【三星(SAMSUNG)手机Note9】 三星(SAMSUNG) Galaxy Note9(SM-N9600)6GB+128GB 玄镜铜 移动联通电信全网通4G手机【价格 图片 品牌 报价】-苏宁易购三星手机苏宁自营旗舰店</title>",
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageHash": "021e6f27e8d8ab0f8afde0b7260f18b4be264afc092c369dff3c716fdb96c434",
+          "imageRendition": "suning_large"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "samsung-galaxy-note9-2018"
+          ],
+          "color": "寒霜蓝",
+          "sourceUrl": "https://shop.dixintong.com/products-6259-288.html",
+          "sourceSnapshotHash": "4a4b14830c8aecea8fc969df9af39f097401c338c363dd449fa540a58ba4e299",
+          "sourceName": "迪信通具名商品页",
+          "anchor": "<img src=\"http://img.dixintong.com/InUpImg/ProImg/2018-08-29/180829102908255921.jpg\" alt=\"\" />",
+          "modelAnchor": "<h3 style=\"margin-left: 10px;\">三星 Galaxy Note9 8GB+512GB 移动联通电信4G手机双卡双待    寒霜蓝 &nbsp;&nbsp;  </h3>",
+          "colorAnchor": "<span data-colorid=\"寒霜蓝\" class=\"color01 border-cur\">寒霜蓝</span>",
+          "url": "https://img.dixintong.com/InUpImg/ProImg/2018-08-29/180829102908255921.jpg",
+          "viewScope": "front_back",
+          "colorScope": "single_color",
+          "imageReview": {
+            "status": "downloaded_and_visually_reviewed",
+            "sha256": "40f2d028cb3f5e198567b06c2428a6c4b746091bb938d4bf58b1df60e1422078",
+            "width": 800,
+            "height": 800
+          },
+          "dixintongOriginalBinding": true,
+          "note": "已查看完整原生图片：准确型号、具名配色，主要前屏和机背摄像头均清晰；不导入商品容量或报价。"
+        }
+      ]
     },
     {
       "id": "samsung-galaxy-note10-2019",
@@ -934,7 +983,8 @@
         "https://detail.zol.com.cn/series/57/98/param_32749_0_1.html",
         "https://detail.zol.com.cn/1349/1348063/param.shtml",
         "https://phone.cnmo.com/news/702042.html",
-        "https://detail.zol.com.cn/picture_index_2105/index21041898_0_p1348063.shtml"
+        "https://detail.zol.com.cn/picture_index_2105/index21041898_0_p1348063.shtml",
+        "https://product.suning.com/0070739933/12450887257.html"
       ],
       "releaseEvidence": {
         "value": "2021-01-29",
@@ -1012,7 +1062,26 @@
             "url": "https://2f.zol-img.com.cn/product/210/915/ceV1ICAleLhnY.jpg"
           }
         ]
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "samsung-galaxy-s21-plus-2021"
+          ],
+          "sourceUrl": "https://product.suning.com/0070739933/12450887257.html",
+          "sourceSnapshotHash": "c7d2052aa052c23819ba5ec116636198407d41f9d5ba952f9d4d3ef4e71e31de",
+          "sourceName": "苏宁易购禧运二手靓品专营店",
+          "anchor": "<img onerror=\"javascript:$('.imgzoom-thumb-main li[data-index=2]').remove();\" alt=\"[二手95新]三星S21+ G9960 梵梦紫 8G+128G全网通安卓手机6.7英寸屏双卡双待拍照娱乐商务备用5G手机\" src-large=\"//imgservice.suning.cn/uimg1/b2c/image/A8SZID1TVt-CHpOVrVwhLg.png_800w_800h_4e\" src-medium=\"//imgservice.suning.cn/uimg1/b2c/image/A8SZID1TVt-CHpOVrVwhLg.png_800w_800h_4e\" src=\"//imgservice.suning.cn/uimg1/b2c/image/A8SZID1TVt-CHpOVrVwhLg.png_60w_60h_4e\">",
+          "modelAnchor": "<title>【三星(SAMSUNG)二手手机】 [二手95新]三星S21+ G9960 梵梦紫 8G+128G全网通安卓手机6.7英寸屏双卡双待拍照娱乐商务备用5G手机【价格 图片 品牌 报价】-苏宁易购禧运二手靓品专营店</title>",
+          "colorAnchor": "<title>【三星(SAMSUNG)二手手机】 [二手95新]三星S21+ G9960 梵梦紫 8G+128G全网通安卓手机6.7英寸屏双卡双待拍照娱乐商务备用5G手机【价格 图片 品牌 报价】-苏宁易购禧运二手靓品专营店</title>",
+          "color": "梵梦紫",
+          "imageRendition": "suning_large",
+          "url": "https://imgservice.suning.cn/uimg1/b2c/image/A8SZID1TVt-CHpOVrVwhLg.png_800w_800h_4e",
+          "viewScope": "front_back",
+          "note": "具体商品标题和图片标签绑定国行G9960与梵梦紫；原版800px正反同框，仅作外观参考，不导入成色或价格。"
+        }
+      ]
     },
     {
       "id": "samsung-galaxy-s21-ultra-2021",
@@ -1386,7 +1455,8 @@
         "https://detail.zol.com.cn/1449/1448934/param.shtml",
         "https://detail.zol.com.cn/1449/1448933/param.shtml",
         "https://mobile.zol.com.cn/812/8120473_all.html",
-        "https://detail.zol.com.cn/picture_index_2270/index22693158_0_p1403115.shtml"
+        "https://detail.zol.com.cn/picture_index_2270/index22693158_0_p1403115.shtml",
+        "https://www.samsung.com.cn/smartphones/galaxy-s/galaxy-s23-lime-128gb-sm-s9110lgdchc/buy/"
       ],
       "releaseEvidence": {
         "value": "2023-02-24",
@@ -1468,7 +1538,29 @@
             "url": "https://2c.zol-img.com.cn/product/226/0/cePFX8pHaA91A.jpg"
           }
         ]
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "samsung-galaxy-s23-2023"
+          ],
+          "sourceUrl": "https://www.samsung.com.cn/smartphones/galaxy-s/galaxy-s23-lime-128gb-sm-s9110lgdchc/buy/",
+          "sourceSnapshotHash": "707fa4773a3f2790979dc28a43a4263302086c82dfa242924f7be98027f0b285",
+          "url": "https://images.samsung.com.cn/is/image/samsung/p6pim/cn/2302/gallery/cn-galaxy-s23-s911-445573-sm-s9110lgdchc-534745557?$Q90_1368_1094_F_JPG$",
+          "anchor": "<img class=\"image__main lazy-load-man\" data-src=\"https://images.samsung.com.cn/is/image/samsung/p6pim/cn/2302/gallery/cn-galaxy-s23-s911-445573-sm-s9110lgdchc-534745557?$Q90_1368_1094_F_JPG$\" alt=\"front Lime\" role=\"img\" data-comp-name=\"image\"/>",
+          "color": "鲜柠绿",
+          "samsungSingleSkuBinding": true,
+          "sourceName": "三星中国官方单SKU购买页",
+          "viewScope": "front_back",
+          "imageScope": "product_render",
+          "licenseStatus": "unknown",
+          "width": 1368,
+          "height": 1094,
+          "sha256": "2b6644ed113884c9431b0e51402f571f0ac82478b913806c5d7d7a5d1770970f",
+          "note": "完整原图人工核验鲜柠绿正反同框；国行选中SM-S9110LGDCHC及具名配色绑定，不采用之前黑绿混色图库图。"
+        }
+      ]
     },
     {
       "id": "samsung-galaxy-s23-plus-2023",
@@ -1483,7 +1575,8 @@
         "https://detail.zol.com.cn/1404/1403118/param.shtml",
         "https://detail.zol.com.cn/1449/1448977/param.shtml",
         "https://mobile.zol.com.cn/812/8120473_all.html",
-        "https://detail.zol.com.cn/picture_index_2270/index22693877_0_p1403118.shtml"
+        "https://detail.zol.com.cn/picture_index_2270/index22693877_0_p1403118.shtml",
+        "https://www.samsungmobilepress.com/articles/infographic-galaxy-s23-s23-plus-the-essential-smartphone-tailored-to-you"
       ],
       "releaseEvidence": {
         "value": "2023-02-24",
@@ -1569,7 +1662,30 @@
             "url": "https://2a.zol-img.com.cn/product/227/512/ceaLsp6BBX3cg.jpg"
           }
         ]
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "samsung-galaxy-s23-plus-2023"
+          ],
+          "sourceUrl": "https://www.samsungmobilepress.com/articles/infographic-galaxy-s23-s23-plus-the-essential-smartphone-tailored-to-you",
+          "sourceSnapshotHash": "ccf5cd319e933e912602cc23e071210b0a35215e42f1598ecba0338f59ce35d0",
+          "sourceName": "Samsung Mobile Press 官方图片",
+          "url": "https://api.samsungmobilepress.com/api/v1/file/DF891757399C82C9CC0CF9B98EE9BC9568F416604A3E3FD5CB9DEC9FDC9A259300B89890B5EBC8AFA6AD9D58BED873F844CF4EA43F672EDAD3EF15678CBC48110485B4392DCD52BD17F92086A29B77A1205A62AE020640D1AFBC86F9B3CB91984BF2390CD43F9288B9ECDDD46777DA46A559FECD7A176DFC6655AD63B6662FFC",
+          "anchor": "<img src=\"https://api.samsungmobilepress.com/api/v1/file/DF891757399C82C9CC0CF9B98EE9BC9568F416604A3E3FD5CB9DEC9FDC9A259300B89890B5EBC8AFA6AD9D58BED873F844CF4EA43F672EDAD3EF15678CBC48110485B4392DCD52BD17F92086A29B77A1205A62AE020640D1AFBC86F9B3CB91984BF2390CD43F9288B9ECDDD46777DA46A559FECD7A176DFC6655AD63B6662FFC\" alt=\"Galaxy S23+\" crossorigin=\"use-credentials\" class=\"w-full h-full object-center object-cover\"/>",
+          "color": "悠雾紫",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageScope": "product_render",
+          "sha256": "f2edb8a9070b2cdcd5bcb17985d03c198f1db8295f972b3c094c67bc3352e77f",
+          "width": 800,
+          "height": 533,
+          "licenseStatus": "unknown",
+          "samsungPressAltBinding": true,
+          "note": "逐张查看原图：S23+ 悠雾紫完整屏幕面与背板同框；官方原页图片 alt 明确 Galaxy S23+，不把同页 S23、Ultra 或推荐阅读图片归给此型号。颜色与已登记国行悠雾紫外观核对；仅展示外观，不从图片推断网络或存储配置。"
+        }
+      ]
     },
     {
       "id": "samsung-galaxy-s23-ultra-2023",
@@ -2458,7 +2574,8 @@
         "https://detail.zol.com.cn/1408/1407694/param.shtml",
         "https://detail.zol.com.cn/1425/1424046/param.shtml",
         "https://www.ithome.com/0/636/500.htm",
-        "https://detail.zol.com.cn/picture_index_2218/index22174770_0_p1407694.shtml"
+        "https://detail.zol.com.cn/picture_index_2218/index22174770_0_p1407694.shtml",
+        "https://www.ithome.com/0/634/396.htm"
       ],
       "releaseEvidence": {
         "value": "2022-09-02",

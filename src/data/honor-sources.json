@@ -10,10 +10,228 @@
       "supportUrl": null,
       "newsroomUrl": "https://www.honor.com/cn/news/honor-magic6-launch/",
       "referenceUrls": [
-        "https://www.dxomark.com/honor-magic6-pro-camera-test/"
+        "https://www.dxomark.com/honor-magic6-pro-camera-test/",
+        "https://www.honor.com/cn/shop/product/10086425779081.html"
       ],
       "sourceStatus": "verified",
-      "notes": "规格与配置取自荣耀中国官网；首发价取自荣耀中国官网；相机评分取自 DXOMARK Camera v5。"
+      "notes": "规格与配置取自荣耀中国官网；首发价取自荣耀中国官网；相机评分取自 DXOMARK Camera v5。",
+      "colorImageCandidates": [
+        {
+          "color": "祁连雪",
+          "url": "https://hshop.honorfile.com/pimages//product/6936520837502/800_800_A87B158AC0F7EB2A56A7C5CD97129958255371A349CBC152mp.png",
+          "sourceUrl": "https://www.honor.com/cn/shop/product/10086425779081.html",
+          "sourceName": "荣耀中国官方商城",
+          "targetIds": [
+            "honor-magic6-pro-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "a0763584e29fe09ca5e7d7adec996f34b88c58f98062fc6271cb6ea5b4346cb9",
+          "anchor": "_pro_sbomList.push({sbomCode:\"10001010021712\",name:\"&#x3010;&#x6d3b;&#x52a8;&#x4e13;&#x4eab;&#x3011;&#x8363;&#x8000;Magic6&#x20;Pro&#x20;16GB&#x2b;1TB&#x20;&#x7941;&#x8fde;&#x96ea;&#x20;&#x53cc;&#x5361;&#x20;&#x5168;&#x7f51;&#x901a;&#x7248;\",photoName:\"A87B158AC0F7EB2A56A7C5CD97129958255371A349CBC152mp.png\",photoPath:\"&#x2f;product&#x2f;6936520837502&#x2f;\",sbomPackageList:_sbomPackageList,gbomCode:\"6936520837601\"});",
+          "honorShopSkuBinding": {
+            "releaseYear": 2024,
+            "sbomCode": "10001010021712",
+            "name": "【活动专享】荣耀Magic6 Pro 16GB+1TB 祁连雪 双卡 全网通版",
+            "photoName": "A87B158AC0F7EB2A56A7C5CD97129958255371A349CBC152mp.png",
+            "photoPath": "/product/6936520837502/",
+            "scriptAnchor": "<script src=\"https://hshop.honorfile.com/2026092209/js/product2/detail.js\" namespace=\"ec\">",
+            "mediaPathAnchor": "ec.mediaPath = \"https://hshop.honorfile.com/pimages/\";"
+          },
+          "resourceChain": [
+            {
+              "sourceUrl": "https://hshop.honorfile.com/2026092209/js/product2/detail.js",
+              "sourceSnapshotHash": "fb0172b4be1e5d33d10745538efc689996a71ff023cce531a73167dc2d2ecaaf",
+              "anchors": [
+                "var r=ec.product.getSkuInfo(ec.product.getSku()),e=[],o=1;",
+                "ec.mediaPath+r.photoPath+\"78_78_\"+r.photoName",
+                "$(\"#product-img\").attr(\"href\",s.replace(\"78_78\",\"800_800\")).find(\"img\").attr(\"src\",s.replace(\"78_78\",\"800_800\"))",
+                "var e=r.attr(\"src\").replace(\"78_78\",\"800_800\");"
+              ]
+            }
+          ],
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 800,
+            "height": 800,
+            "sha256": "bf9b014df6c7a17c356e03dea7cff80708d2432400faf85e4bf0bb9f204540f4",
+            "notes": "原生正反同框，实际800×800原图核验；仅采用图片，不导入商城配置或处理机销售状态。"
+          }
+        },
+        {
+          "color": "流云紫",
+          "url": "https://hshop.honorfile.com/pimages//product/6936520837533/800_800_48D1F4D089655F6D16EC74F20140CF79B045D57313509C4Cmp.png",
+          "sourceUrl": "https://www.honor.com/cn/shop/product/10086425779081.html",
+          "sourceName": "荣耀中国官方商城",
+          "targetIds": [
+            "honor-magic6-pro-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "a0763584e29fe09ca5e7d7adec996f34b88c58f98062fc6271cb6ea5b4346cb9",
+          "anchor": "_pro_sbomList.push({sbomCode:\"10001010021705\",name:\"&#x3010;&#x6d3b;&#x52a8;&#x4e13;&#x4eab;&#x3011;&#x8363;&#x8000;Magic6&#x20;Pro&#x20;12GB&#x2b;256GB&#x20;&#x6d41;&#x4e91;&#x7d2b;&#x20;&#x53cc;&#x5361;&#x20;&#x5168;&#x7f51;&#x901a;&#x7248;\",photoName:\"48D1F4D089655F6D16EC74F20140CF79B045D57313509C4Cmp.png\",photoPath:\"&#x2f;product&#x2f;6936520837533&#x2f;\",sbomPackageList:_sbomPackageList,gbomCode:\"6936520837533\"});",
+          "honorShopSkuBinding": {
+            "releaseYear": 2024,
+            "sbomCode": "10001010021705",
+            "name": "【活动专享】荣耀Magic6 Pro 12GB+256GB 流云紫 双卡 全网通版",
+            "photoName": "48D1F4D089655F6D16EC74F20140CF79B045D57313509C4Cmp.png",
+            "photoPath": "/product/6936520837533/",
+            "scriptAnchor": "<script src=\"https://hshop.honorfile.com/2026092209/js/product2/detail.js\" namespace=\"ec\">",
+            "mediaPathAnchor": "ec.mediaPath = \"https://hshop.honorfile.com/pimages/\";"
+          },
+          "resourceChain": [
+            {
+              "sourceUrl": "https://hshop.honorfile.com/2026092209/js/product2/detail.js",
+              "sourceSnapshotHash": "fb0172b4be1e5d33d10745538efc689996a71ff023cce531a73167dc2d2ecaaf",
+              "anchors": [
+                "var r=ec.product.getSkuInfo(ec.product.getSku()),e=[],o=1;",
+                "ec.mediaPath+r.photoPath+\"78_78_\"+r.photoName",
+                "$(\"#product-img\").attr(\"href\",s.replace(\"78_78\",\"800_800\")).find(\"img\").attr(\"src\",s.replace(\"78_78\",\"800_800\"))",
+                "var e=r.attr(\"src\").replace(\"78_78\",\"800_800\");"
+              ]
+            }
+          ],
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 800,
+            "height": 800,
+            "sha256": "826cfbd2066442ce64fd84bfe2409a1a4c59afe326667b3a8eb30369e3a1bf11",
+            "notes": "原生正反同框，实际800×800原图核验；仅采用图片，不导入商城配置或处理机销售状态。"
+          }
+        },
+        {
+          "color": "海湖青",
+          "url": "https://hshop.honorfile.com/pimages//product/6936520837519/800_800_86D43A327B66F7686091F2725AF650D7CB4AB97613CB9638mp.png",
+          "sourceUrl": "https://www.honor.com/cn/shop/product/10086425779081.html",
+          "sourceName": "荣耀中国官方商城",
+          "targetIds": [
+            "honor-magic6-pro-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "a0763584e29fe09ca5e7d7adec996f34b88c58f98062fc6271cb6ea5b4346cb9",
+          "anchor": "_pro_sbomList.push({sbomCode:\"10001010021703\",name:\"&#x3010;&#x6d3b;&#x52a8;&#x4e13;&#x4eab;&#x3011;&#x8363;&#x8000;Magic6&#x20;Pro&#x20;12GB&#x2b;256GB&#x20;&#x6d77;&#x6e56;&#x9752;&#x20;&#x53cc;&#x5361;&#x20;&#x5168;&#x7f51;&#x901a;&#x7248;\",photoName:\"86D43A327B66F7686091F2725AF650D7CB4AB97613CB9638mp.png\",photoPath:\"&#x2f;product&#x2f;6936520837519&#x2f;\",sbomPackageList:_sbomPackageList,gbomCode:\"6936520837519\"});",
+          "honorShopSkuBinding": {
+            "releaseYear": 2024,
+            "sbomCode": "10001010021703",
+            "name": "【活动专享】荣耀Magic6 Pro 12GB+256GB 海湖青 双卡 全网通版",
+            "photoName": "86D43A327B66F7686091F2725AF650D7CB4AB97613CB9638mp.png",
+            "photoPath": "/product/6936520837519/",
+            "scriptAnchor": "<script src=\"https://hshop.honorfile.com/2026092209/js/product2/detail.js\" namespace=\"ec\">",
+            "mediaPathAnchor": "ec.mediaPath = \"https://hshop.honorfile.com/pimages/\";"
+          },
+          "resourceChain": [
+            {
+              "sourceUrl": "https://hshop.honorfile.com/2026092209/js/product2/detail.js",
+              "sourceSnapshotHash": "fb0172b4be1e5d33d10745538efc689996a71ff023cce531a73167dc2d2ecaaf",
+              "anchors": [
+                "var r=ec.product.getSkuInfo(ec.product.getSku()),e=[],o=1;",
+                "ec.mediaPath+r.photoPath+\"78_78_\"+r.photoName",
+                "$(\"#product-img\").attr(\"href\",s.replace(\"78_78\",\"800_800\")).find(\"img\").attr(\"src\",s.replace(\"78_78\",\"800_800\"))",
+                "var e=r.attr(\"src\").replace(\"78_78\",\"800_800\");"
+              ]
+            }
+          ],
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 800,
+            "height": 800,
+            "sha256": "65b0d0b22c95407c6163b869fe4c3a64de364b6d9af01c3ec2fff556a1b7d8b2",
+            "notes": "原生正反同框，实际800×800原图核验；仅采用图片，不导入商城配置或处理机销售状态。"
+          }
+        },
+        {
+          "color": "麦浪绿",
+          "url": "https://hshop.honorfile.com/pimages//product/6936520837526/800_800_6ABFB5E90D13A3D10CD4A8FE7A163B082C2935B2FA4C581Bmp.png",
+          "sourceUrl": "https://www.honor.com/cn/shop/product/10086425779081.html",
+          "sourceName": "荣耀中国官方商城",
+          "targetIds": [
+            "honor-magic6-pro-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "a0763584e29fe09ca5e7d7adec996f34b88c58f98062fc6271cb6ea5b4346cb9",
+          "anchor": "_pro_sbomList.push({sbomCode:\"10001010021704\",name:\"&#x3010;&#x6d3b;&#x52a8;&#x4e13;&#x4eab;&#x3011;&#x8363;&#x8000;Magic6&#x20;Pro&#x20;12GB&#x2b;256GB&#x20;&#x9ea6;&#x6d6a;&#x7eff;&#x20;&#x53cc;&#x5361;&#x20;&#x5168;&#x7f51;&#x901a;&#x7248;\",photoName:\"6ABFB5E90D13A3D10CD4A8FE7A163B082C2935B2FA4C581Bmp.png\",photoPath:\"&#x2f;product&#x2f;6936520837526&#x2f;\",sbomPackageList:_sbomPackageList,gbomCode:\"6936520837526\"});",
+          "honorShopSkuBinding": {
+            "releaseYear": 2024,
+            "sbomCode": "10001010021704",
+            "name": "【活动专享】荣耀Magic6 Pro 12GB+256GB 麦浪绿 双卡 全网通版",
+            "photoName": "6ABFB5E90D13A3D10CD4A8FE7A163B082C2935B2FA4C581Bmp.png",
+            "photoPath": "/product/6936520837526/",
+            "scriptAnchor": "<script src=\"https://hshop.honorfile.com/2026092209/js/product2/detail.js\" namespace=\"ec\">",
+            "mediaPathAnchor": "ec.mediaPath = \"https://hshop.honorfile.com/pimages/\";"
+          },
+          "resourceChain": [
+            {
+              "sourceUrl": "https://hshop.honorfile.com/2026092209/js/product2/detail.js",
+              "sourceSnapshotHash": "fb0172b4be1e5d33d10745538efc689996a71ff023cce531a73167dc2d2ecaaf",
+              "anchors": [
+                "var r=ec.product.getSkuInfo(ec.product.getSku()),e=[],o=1;",
+                "ec.mediaPath+r.photoPath+\"78_78_\"+r.photoName",
+                "$(\"#product-img\").attr(\"href\",s.replace(\"78_78\",\"800_800\")).find(\"img\").attr(\"src\",s.replace(\"78_78\",\"800_800\"))",
+                "var e=r.attr(\"src\").replace(\"78_78\",\"800_800\");"
+              ]
+            }
+          ],
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 800,
+            "height": 800,
+            "sha256": "ae475f21dd5e056041fc65d940926baa6f8955e5c5f41792a8af622cd5ceb78d",
+            "notes": "原生正反同框，实际800×800原图核验；仅采用图片，不导入商城配置或处理机销售状态。"
+          }
+        },
+        {
+          "color": "绒黑色",
+          "url": "https://hshop.honorfile.com/pimages//product/6936520837496/800_800_83A7FB7D8716CA68F23BE2F7BEB4294BA03AB292705FED03mp.png",
+          "sourceUrl": "https://www.honor.com/cn/shop/product/10086425779081.html",
+          "sourceName": "荣耀中国官方商城",
+          "targetIds": [
+            "honor-magic6-pro-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "a0763584e29fe09ca5e7d7adec996f34b88c58f98062fc6271cb6ea5b4346cb9",
+          "anchor": "_pro_sbomList.push({sbomCode:\"10001010021711\",name:\"&#x3010;&#x6d3b;&#x52a8;&#x4e13;&#x4eab;&#x3011;&#x8363;&#x8000;Magic6&#x20;Pro&#x20;16GB&#x2b;1TB&#x20;&#x7ed2;&#x9ed1;&#x8272;&#x20;&#x53cc;&#x5361;&#x20;&#x5168;&#x7f51;&#x901a;&#x7248;\",photoName:\"83A7FB7D8716CA68F23BE2F7BEB4294BA03AB292705FED03mp.png\",photoPath:\"&#x2f;product&#x2f;6936520837496&#x2f;\",sbomPackageList:_sbomPackageList,gbomCode:\"6936520837595\"});",
+          "honorShopSkuBinding": {
+            "releaseYear": 2024,
+            "sbomCode": "10001010021711",
+            "name": "【活动专享】荣耀Magic6 Pro 16GB+1TB 绒黑色 双卡 全网通版",
+            "photoName": "83A7FB7D8716CA68F23BE2F7BEB4294BA03AB292705FED03mp.png",
+            "photoPath": "/product/6936520837496/",
+            "scriptAnchor": "<script src=\"https://hshop.honorfile.com/2026092209/js/product2/detail.js\" namespace=\"ec\">",
+            "mediaPathAnchor": "ec.mediaPath = \"https://hshop.honorfile.com/pimages/\";"
+          },
+          "resourceChain": [
+            {
+              "sourceUrl": "https://hshop.honorfile.com/2026092209/js/product2/detail.js",
+              "sourceSnapshotHash": "fb0172b4be1e5d33d10745538efc689996a71ff023cce531a73167dc2d2ecaaf",
+              "anchors": [
+                "var r=ec.product.getSkuInfo(ec.product.getSku()),e=[],o=1;",
+                "ec.mediaPath+r.photoPath+\"78_78_\"+r.photoName",
+                "$(\"#product-img\").attr(\"href\",s.replace(\"78_78\",\"800_800\")).find(\"img\").attr(\"src\",s.replace(\"78_78\",\"800_800\"))",
+                "var e=r.attr(\"src\").replace(\"78_78\",\"800_800\");"
+              ]
+            }
+          ],
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 800,
+            "height": 800,
+            "sha256": "c43bae12bd98beb58c93029f655870aebcb90ec9dcddd9d515bb8699c7c6c2eb",
+            "notes": "原生正反同框，实际800×800原图核验；仅采用图片，不导入商城配置或处理机销售状态。"
+          }
+        }
+      ]
     },
     {
       "id": "honor-magic7-pro-2024",
@@ -25,10 +243,36 @@
       "supportUrl": null,
       "newsroomUrl": "https://www.honor.com/cn/news/honor-magic7-launch/",
       "referenceUrls": [
-        "https://www.dxomark.com/honor-magic7-pro-camera-test-retested/"
+        "https://www.dxomark.com/honor-magic7-pro-camera-test-retested/",
+        "https://mobile.zol.com.cn/962/9624302.html"
       ],
       "sourceStatus": "verified",
-      "notes": "规格与配置取自荣耀中国官网；首发价取自荣耀中国官网；相机评分取自 DXOMARK Camera v6。"
+      "notes": "规格与配置取自荣耀中国官网；首发价取自荣耀中国官网；相机评分取自 DXOMARK Camera v6。",
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-magic7-pro-2024"
+          ],
+          "sourceUrl": "https://mobile.zol.com.cn/962/9624302.html",
+          "sourceSnapshotHash": "edd065a4d30cbc3750ad29afc3f4d82e9b1c4f93d7d42de931b27f689aedb79a",
+          "sourceName": "中关村在线具名零售原海报",
+          "url": "https://doc-fd.zol-img.com.cn/t_s2000x2000/g7/M00/06/08/ChMkK2fcot6If6DsAAEqWvfmuEcAAqPWADIJukAASpy940.jpg",
+          "anchor": "<img loading=\"lazy\" src=\"https://doc-fd.zol-img.com.cn/t_s2000x2000/g7/M00/06/08/ChMkK2fcot6If6DsAAEqWvfmuEcAAqPWADIJukAASpy940.jpg\" alt=\"荣耀Magic7 Pro 5G手机促销：雪域白配色，到手仅5009元！\">",
+          "modelAnchor": "<title>荣耀Magic7 Pro 5G手机促销：雪域白配色，到手仅5009元！_荣耀 Magic7 Pro_手机市场-中关村在线</title>",
+          "sha256": "21072d273237808f686b136dfe59ab43406f5cf40128d45d3f9789fab0c201e7",
+          "width": 800,
+          "height": 800,
+          "imageScope": "product_render",
+          "licenseStatus": "unknown",
+          "note": "京东具名商品信息与原图说明均为 Magic7 Pro 雪域白；采用原生800×800正反同框海报，不引入海报中的促销价格。",
+          "color": "雪域白",
+          "colorAnchor": "<p class=\"reason\"><a href=\"//detail.zol.com.cn/cell_phone/index2111294.shtml\" class=\"hui14_line\">荣耀Magic7 Pro</a> 5G<a href=\"//detail.zol.com.cn/cell_phone_index/subcate57_list_1.html\" class=\"hui14_line\">手机</a>，2024年旗舰之作，正式开启促销！这款16GB+512GB的雪域白配色版本，原价5999元，现在参与满3000减100活动，并享受首购抵300、国补抵500优惠，评价还返50京豆，到手价低至5009元！<a href=\"//detail.zol.com.cn/cell_phone/index2105342.shtml\" class=\"hui14_line\">荣耀Magic7</a> Pro采用“方圆宇宙”设计语言，搭配月影灰、天际蓝、雪域白、绒黑色四种时尚配色，整机轻至223g，厚度仅8.8mm。其6.8英寸OLED悬浮流线四曲屏支持120Hz刷新率，峰值亮度高达5000nit，并通过德国莱茵T?V全局护眼4.0认证。性能上搭载骁龙8至尊版处理器，配合LPDDR5X内存与UFS 4.0闪存，散热面积达30000mm&#178;+，续航方面内置5850mAh电池，支持100W快充和80W无线充电。影像系统更是亮点，前置50MP+TOF深感摄像头，后置三摄包括50MP主摄、50MP超广角及两亿像素潜望长焦，全焦段支持雅顾人像拍摄。同时预装Magic OS 9.0系统，支持天通卫星通信、北斗卫星短信以及IP68/IP69级防尘防水功能，全方位满足你的需求！抓住机会，入手这款高端旗舰吧！</p>",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "colorBindingMethod": "正文京东具名商品条与img alt严格为Magic7Pro雪域白；原生800x800正反促销海报，不把文中其他颜色列举套给该图。现有safeImageUrl不支持doc-fd.zol，仅建议精确此原图URL白名单，未允许前held。"
+        }
+      ]
     },
     {
       "id": "honor-magic8-pro-2025",
@@ -41,10 +285,185 @@
       "newsroomUrl": "https://www.honor.com/cn/news/honor-magic8-launch/",
       "referenceUrls": [
         "https://www.dxomark.com/honor-magic8-pro-camera-test/",
-        "https://m.ithome.com/html/889748.htm"
+        "https://m.ithome.com/html/889748.htm",
+        "https://www.honor.com/cn/shop/product/10086048644581.html?cid=132349"
       ],
       "sourceStatus": "verified",
-      "notes": "规格与配置取自荣耀中国官网；首发价配置对应关系取自IT之家发布会报道；相机评分取自 DXOMARK Camera v6。"
+      "notes": "规格与配置取自荣耀中国官网；首发价配置对应关系取自IT之家发布会报道；相机评分取自 DXOMARK Camera v6。",
+      "colorImageCandidates": [
+        {
+          "color": "雪域白",
+          "url": "https://hshop.honorfile.com/pimages//product/6936520882090/800_800_F2A51848671A9727E02C631DA64193804FFB8FF34D2797E9mp.png",
+          "sourceUrl": "https://www.honor.com/cn/shop/product/10086048644581.html?cid=132349",
+          "sourceName": "荣耀中国官方商城",
+          "targetIds": [
+            "honor-magic8-pro-2025"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "166c231ca943024ecf8069ce3993492bab44b2b0683ab6893c372476f0d809fa",
+          "anchor": "_pro_sbomList.push({sbomCode:\"10001010051806\",name:\"&#x8363;&#x8000;Magic8&#x20;Pro&#x20;12GB&#x2b;512GB&#x20;&#x96ea;&#x57df;&#x767d;&#x20;&#x53cc;&#x5361;&#x20;&#x5168;&#x7f51;&#x901a;&#x7248;\",photoName:\"F2A51848671A9727E02C631DA64193804FFB8FF34D2797E9mp.png\",photoPath:\"&#x2f;product&#x2f;6936520882090&#x2f;\",sbomPackageList:_sbomPackageList,gbomCode:\"6936520882090\"});",
+          "honorShopSkuBinding": {
+            "releaseYear": 2025,
+            "sbomCode": "10001010051806",
+            "name": "荣耀Magic8 Pro 12GB+512GB 雪域白 双卡 全网通版",
+            "photoName": "F2A51848671A9727E02C631DA64193804FFB8FF34D2797E9mp.png",
+            "photoPath": "/product/6936520882090/",
+            "scriptAnchor": "<script src=\"https://hshop.honorfile.com/2026092209/js/product2/detail.js\" namespace=\"ec\">",
+            "mediaPathAnchor": "ec.mediaPath = \"https://hshop.honorfile.com/pimages/\";"
+          },
+          "resourceChain": [
+            {
+              "sourceUrl": "https://hshop.honorfile.com/2026092209/js/product2/detail.js",
+              "sourceSnapshotHash": "fb0172b4be1e5d33d10745538efc689996a71ff023cce531a73167dc2d2ecaaf",
+              "anchors": [
+                "var r=ec.product.getSkuInfo(ec.product.getSku()),e=[],o=1;",
+                "ec.mediaPath+r.photoPath+\"78_78_\"+r.photoName",
+                "$(\"#product-img\").attr(\"href\",s.replace(\"78_78\",\"800_800\")).find(\"img\").attr(\"src\",s.replace(\"78_78\",\"800_800\"))",
+                "var e=r.attr(\"src\").replace(\"78_78\",\"800_800\");"
+              ]
+            }
+          ],
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 800,
+            "height": 800,
+            "sha256": "7fae990aed9e5ce091abc3bb56e6ccab34caeedf41698837a13bfbad9f1d653e",
+            "notes": "原生正反同框，实际800×800原图核验；仅采用图片，不导入商城配置或处理机销售状态。"
+          }
+        },
+        {
+          "color": "旭日金砂",
+          "url": "https://hshop.honorfile.com/pimages//product/6936520882106/800_800_3A8440C2EB7C2C9621ABE446FF075E361B488E866B4E7C24mp.png",
+          "sourceUrl": "https://www.honor.com/cn/shop/product/10086048644581.html?cid=132349",
+          "sourceName": "荣耀中国官方商城",
+          "targetIds": [
+            "honor-magic8-pro-2025"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "166c231ca943024ecf8069ce3993492bab44b2b0683ab6893c372476f0d809fa",
+          "anchor": "_pro_sbomList.push({sbomCode:\"10001010051807\",name:\"&#x8363;&#x8000;Magic8&#x20;Pro&#x20;12GB&#x2b;512GB&#x20;&#x65ed;&#x65e5;&#x91d1;&#x7802;&#x20;&#x53cc;&#x5361;&#x20;&#x5168;&#x7f51;&#x901a;&#x7248;\",photoName:\"3A8440C2EB7C2C9621ABE446FF075E361B488E866B4E7C24mp.png\",photoPath:\"&#x2f;product&#x2f;6936520882106&#x2f;\",sbomPackageList:_sbomPackageList,gbomCode:\"6936520882106\"});",
+          "honorShopSkuBinding": {
+            "releaseYear": 2025,
+            "sbomCode": "10001010051807",
+            "name": "荣耀Magic8 Pro 12GB+512GB 旭日金砂 双卡 全网通版",
+            "photoName": "3A8440C2EB7C2C9621ABE446FF075E361B488E866B4E7C24mp.png",
+            "photoPath": "/product/6936520882106/",
+            "scriptAnchor": "<script src=\"https://hshop.honorfile.com/2026092209/js/product2/detail.js\" namespace=\"ec\">",
+            "mediaPathAnchor": "ec.mediaPath = \"https://hshop.honorfile.com/pimages/\";"
+          },
+          "resourceChain": [
+            {
+              "sourceUrl": "https://hshop.honorfile.com/2026092209/js/product2/detail.js",
+              "sourceSnapshotHash": "fb0172b4be1e5d33d10745538efc689996a71ff023cce531a73167dc2d2ecaaf",
+              "anchors": [
+                "var r=ec.product.getSkuInfo(ec.product.getSku()),e=[],o=1;",
+                "ec.mediaPath+r.photoPath+\"78_78_\"+r.photoName",
+                "$(\"#product-img\").attr(\"href\",s.replace(\"78_78\",\"800_800\")).find(\"img\").attr(\"src\",s.replace(\"78_78\",\"800_800\"))",
+                "var e=r.attr(\"src\").replace(\"78_78\",\"800_800\");"
+              ]
+            }
+          ],
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 800,
+            "height": 800,
+            "sha256": "c5ad8cc7748f004652f53ccadcd69719bb49399176226e1ded24b439b764de13",
+            "notes": "原生正反同框，实际800×800原图核验；仅采用图片，不导入商城配置或处理机销售状态。"
+          }
+        },
+        {
+          "color": "绒黑色",
+          "url": "https://hshop.honorfile.com/pimages//product/6936520882083/800_800_92E0607CC2131950023782799BE5BE77835EE241390C253Cmp.png",
+          "sourceUrl": "https://www.honor.com/cn/shop/product/10086048644581.html?cid=132349",
+          "sourceName": "荣耀中国官方商城",
+          "targetIds": [
+            "honor-magic8-pro-2025"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "166c231ca943024ecf8069ce3993492bab44b2b0683ab6893c372476f0d809fa",
+          "anchor": "_pro_sbomList.push({sbomCode:\"10001010051805\",name:\"&#x8363;&#x8000;Magic8&#x20;Pro&#x20;12GB&#x2b;512GB&#x20;&#x7ed2;&#x9ed1;&#x8272;&#x20;&#x53cc;&#x5361;&#x20;&#x5168;&#x7f51;&#x901a;&#x7248;\",photoName:\"92E0607CC2131950023782799BE5BE77835EE241390C253Cmp.png\",photoPath:\"&#x2f;product&#x2f;6936520882083&#x2f;\",sbomPackageList:_sbomPackageList,gbomCode:\"6936520882083\"});",
+          "honorShopSkuBinding": {
+            "releaseYear": 2025,
+            "sbomCode": "10001010051805",
+            "name": "荣耀Magic8 Pro 12GB+512GB 绒黑色 双卡 全网通版",
+            "photoName": "92E0607CC2131950023782799BE5BE77835EE241390C253Cmp.png",
+            "photoPath": "/product/6936520882083/",
+            "scriptAnchor": "<script src=\"https://hshop.honorfile.com/2026092209/js/product2/detail.js\" namespace=\"ec\">",
+            "mediaPathAnchor": "ec.mediaPath = \"https://hshop.honorfile.com/pimages/\";"
+          },
+          "resourceChain": [
+            {
+              "sourceUrl": "https://hshop.honorfile.com/2026092209/js/product2/detail.js",
+              "sourceSnapshotHash": "fb0172b4be1e5d33d10745538efc689996a71ff023cce531a73167dc2d2ecaaf",
+              "anchors": [
+                "var r=ec.product.getSkuInfo(ec.product.getSku()),e=[],o=1;",
+                "ec.mediaPath+r.photoPath+\"78_78_\"+r.photoName",
+                "$(\"#product-img\").attr(\"href\",s.replace(\"78_78\",\"800_800\")).find(\"img\").attr(\"src\",s.replace(\"78_78\",\"800_800\"))",
+                "var e=r.attr(\"src\").replace(\"78_78\",\"800_800\");"
+              ]
+            }
+          ],
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 800,
+            "height": 800,
+            "sha256": "cbb91dc510f44d8fd36d4331ffd998513dc7f3cd668b69c5f7b59be7bc7e20a2",
+            "notes": "原生正反同框，实际800×800原图核验；仅采用图片，不导入商城配置或处理机销售状态。"
+          }
+        },
+        {
+          "color": "天青色",
+          "url": "https://hshop.honorfile.com/pimages//product/6936520882120/800_800_291E0BBE46DC79A41DE1CB22177E97BB569BA95730C78850mp.png",
+          "sourceUrl": "https://www.honor.com/cn/shop/product/10086048644581.html?cid=132349",
+          "sourceName": "荣耀中国官方商城",
+          "targetIds": [
+            "honor-magic8-pro-2025"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "166c231ca943024ecf8069ce3993492bab44b2b0683ab6893c372476f0d809fa",
+          "anchor": "_pro_sbomList.push({sbomCode:\"10001010051808\",name:\"&#x8363;&#x8000;Magic8&#x20;Pro&#x20;12GB&#x2b;512GB&#x20;&#x5929;&#x9752;&#x8272;&#x20;&#x53cc;&#x5361;&#x20;&#x5168;&#x7f51;&#x901a;&#x7248;\",photoName:\"291E0BBE46DC79A41DE1CB22177E97BB569BA95730C78850mp.png\",photoPath:\"&#x2f;product&#x2f;6936520882120&#x2f;\",sbomPackageList:_sbomPackageList,gbomCode:\"6936520882120\"});",
+          "honorShopSkuBinding": {
+            "releaseYear": 2025,
+            "sbomCode": "10001010051808",
+            "name": "荣耀Magic8 Pro 12GB+512GB 天青色 双卡 全网通版",
+            "photoName": "291E0BBE46DC79A41DE1CB22177E97BB569BA95730C78850mp.png",
+            "photoPath": "/product/6936520882120/",
+            "scriptAnchor": "<script src=\"https://hshop.honorfile.com/2026092209/js/product2/detail.js\" namespace=\"ec\">",
+            "mediaPathAnchor": "ec.mediaPath = \"https://hshop.honorfile.com/pimages/\";"
+          },
+          "resourceChain": [
+            {
+              "sourceUrl": "https://hshop.honorfile.com/2026092209/js/product2/detail.js",
+              "sourceSnapshotHash": "fb0172b4be1e5d33d10745538efc689996a71ff023cce531a73167dc2d2ecaaf",
+              "anchors": [
+                "var r=ec.product.getSkuInfo(ec.product.getSku()),e=[],o=1;",
+                "ec.mediaPath+r.photoPath+\"78_78_\"+r.photoName",
+                "$(\"#product-img\").attr(\"href\",s.replace(\"78_78\",\"800_800\")).find(\"img\").attr(\"src\",s.replace(\"78_78\",\"800_800\"))",
+                "var e=r.attr(\"src\").replace(\"78_78\",\"800_800\");"
+              ]
+            }
+          ],
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 800,
+            "height": 800,
+            "sha256": "31b101b6592cf552f9cc646bf3f1e6841ef374f4f260f6f24ca6a1f54c2e1d0e",
+            "notes": "原生正反同框，实际800×800原图核验；仅采用图片，不导入商城配置或处理机销售状态。"
+          }
+        }
+      ]
     }
   ]
 }

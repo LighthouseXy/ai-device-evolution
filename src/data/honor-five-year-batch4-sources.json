@@ -16,7 +16,8 @@
         "https://www.ithome.com/0/815/726.htm",
         "https://www.honor.com/cn/phones/honor-300-pro/spec/",
         "https://detail.zol.com.cn/picture_index_2706/index27057299_0_p2113674.shtml",
-        "https://detail.zol.com.cn/picture_index_2706/index27057296_0_p2113674.shtml"
+        "https://detail.zol.com.cn/picture_index_2706/index27057296_0_p2113674.shtml",
+        "https://www.ithome.com/0/812/430.htm"
       ],
       "releaseEvidence": {
         "value": "2024-12-06",
@@ -148,7 +149,33 @@
           "https://detail.zol.com.cn/picture_index_2706/index27057296_0_p2113674.shtml"
         ],
         "gaps": []
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-300-pro-2024"
+          ],
+          "sourceUrl": "https://www.ithome.com/0/812/430.htm",
+          "sourceSnapshotHash": "138887c1e8588aaa4436ec992027d3f5a4bab7c268d62fb2c27887e4dbecdfdd",
+          "sourceName": "IT之家刊载官方/具名零售原产品图",
+          "url": "https://img.ithome.com/newsuploadfiles/2024/11/c8345351-a91c-486a-a40f-b81f163da5f7.png?x-bce-process=image/format,f_auto",
+          "anchor": "<img src=\"//img.ithome.com/images/v2/t.png\" w=\"530\" h=\"466\" class=\"lazy\" title=\"荣耀 300 Pro 手机外观公布，提供墨岩黑、茶卡青、星光沙配色\" data-original=\"https://img.ithome.com/newsuploadfiles/2024/11/c8345351-a91c-486a-a40f-b81f163da5f7.png?x-bce-process=image/format,f_auto\" width=\"530\" height=\"466\">",
+          "modelAnchor": "<title>荣耀 300 Pro 手机外观公布，提供墨岩黑、茶卡青、星光沙配色 - IT之家</title>",
+          "sha256": "e95175628b70b5be6d7b0f9e138b5de3ca5a28a33275f2f1f7bcf0f1acf32cd8",
+          "width": 530,
+          "height": 466,
+          "imageScope": "product_render",
+          "licenseStatus": "unknown",
+          "note": "原页Pro专属figcaption与官方商城三色段落；原图为奶白浅金星光沙，三摄且双前置开孔，与下一图标准版紫色/单孔明确区分。",
+          "color": "星光沙",
+          "colorAnchor": "<p data-vmark=\"73be\"><a class=\"s_tag\" href=\"https://www.ithome.com/\" target=\"_blank\">IT之家</a> 11 月 22 日消息，荣耀 300 Pro 手机现已上架官方商城并公布三款外观配色，分别为墨岩黑、茶卡青、星光沙，新机采用曲面屏设计。提供 12GB+256GB、12GB+512GB、16GB+512GB 三个存储版本。</p>",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "colorBindingMethod": "原页Pro专属figcaption与官方商城三色段落；原图为奶白浅金星光沙，三摄且双前置开孔，与下一图标准版紫色/单孔明确区分。",
+          "modelSectionBindingAnchor": "<figcaption>▲&nbsp;荣耀 300 Pro</figcaption>"
+        }
+      ]
     }
   ],
   "tablet": [
@@ -169,7 +196,8 @@
         "https://www.ithome.com/0/632/202.htm",
         "https://www.honor.com/cn/tablets/honor-pad-8/spec/",
         "https://detail.zol.com.cn/picture_index_2258/index22579595_0_p1420061.shtml",
-        "https://detail.zol.com.cn/picture_index_2258/index22579598_0_p1420061.shtml"
+        "https://detail.zol.com.cn/picture_index_2258/index22579598_0_p1420061.shtml",
+        "https://www.honor.com/cn/shop/product/10086962049240.html?cid=132369"
       ],
       "releaseEvidence": {
         "value": "2022-07-29",
@@ -308,7 +336,138 @@
           "https://detail.zol.com.cn/picture_index_2258/index22579598_0_p1420061.shtml"
         ],
         "gaps": []
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "color": "薄荷绿",
+          "url": "https://hshop.honorfile.com/pimages//product/6936520811762/800_800_0F04C65E427A446DAE21214AECF36DCDE731F0EFDD36F503mp.png",
+          "sourceUrl": "https://www.honor.com/cn/shop/product/10086962049240.html?cid=132369",
+          "sourceName": "荣耀中国官方商城",
+          "targetIds": [
+            "honor-pad8-2022"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "341dd16daa539da6dc4f35cd3be40373848abadf02f4122392eed66fbdce5887",
+          "anchor": "_pro_sbomList.push({sbomCode:\"10002060000125\",name:\"&#x8363;&#x8000;&#x5e73;&#x677f;8&#x20;12&#x82f1;&#x5bf8;&#x20;WIFI&#x20;8GB&#x2b;128GB&#x20;&#x8584;&#x8377;&#x7eff;\",photoName:\"0F04C65E427A446DAE21214AECF36DCDE731F0EFDD36F503mp.png\",photoPath:\"&#x2f;product&#x2f;6936520811762&#x2f;\",sbomPackageList:_sbomPackageList,gbomCode:\"6936520842223\"});",
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 800,
+            "height": 800,
+            "sha256": "a58ed1105b688473ba38672f1ef3e5cad10b39ccfbeee4d160f38487bf0aaf52",
+            "notes": "逐图核验原生正反同框，准确型号及具名颜色；未裁剪、合成或增强。"
+          },
+          "honorShopSkuBinding": {
+            "releaseYear": 2022,
+            "sbomCode": "10002060000125",
+            "name": "荣耀平板8 12英寸 WIFI 8GB+128GB 薄荷绿",
+            "photoName": "0F04C65E427A446DAE21214AECF36DCDE731F0EFDD36F503mp.png",
+            "photoPath": "/product/6936520811762/",
+            "scriptAnchor": "<script src=\"https://hshop.honorfile.com/2026092209/js/product2/detail.js\" namespace=\"ec\">",
+            "mediaPathAnchor": "ec.mediaPath = \"https://hshop.honorfile.com/pimages/\";"
+          },
+          "resourceChain": [
+            {
+              "sourceUrl": "https://hshop.honorfile.com/2026092209/js/product2/detail.js",
+              "sourceSnapshotHash": "fb0172b4be1e5d33d10745538efc689996a71ff023cce531a73167dc2d2ecaaf",
+              "anchors": [
+                "var r=ec.product.getSkuInfo(ec.product.getSku()),e=[],o=1;",
+                "ec.mediaPath+r.photoPath+\"78_78_\"+r.photoName",
+                "$(\"#product-img\").attr(\"href\",s.replace(\"78_78\",\"800_800\")).find(\"img\").attr(\"src\",s.replace(\"78_78\",\"800_800\"))",
+                "var e=r.attr(\"src\").replace(\"78_78\",\"800_800\");"
+              ]
+            }
+          ]
+        },
+        {
+          "color": "晨曦金",
+          "url": "https://hshop.honorfile.com/pimages//product/6936520824618/800_800_10DB3892E9489701AE616EC012D251451E69CCA4DF915FB1mp.png",
+          "sourceUrl": "https://www.honor.com/cn/shop/product/10086962049240.html?cid=132369",
+          "sourceName": "荣耀中国官方商城",
+          "targetIds": [
+            "honor-pad8-2022"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "341dd16daa539da6dc4f35cd3be40373848abadf02f4122392eed66fbdce5887",
+          "anchor": "_pro_sbomList.push({sbomCode:\"10002060000120\",name:\"&#x8363;&#x8000;&#x5e73;&#x677f;8&#x20;12&#x82f1;&#x5bf8;&#x20;WIFI&#x20;8GB&#x2b;256GB&#x20;&#x6668;&#x66e6;&#x91d1;\",photoName:\"10DB3892E9489701AE616EC012D251451E69CCA4DF915FB1mp.png\",photoPath:\"&#x2f;product&#x2f;6936520824618&#x2f;\",sbomPackageList:_sbomPackageList,gbomCode:\"6936520824618\"});",
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 800,
+            "height": 800,
+            "sha256": "b2e9e6410f8b5d3f269023a7af2d8d33fb32629fdbd25d5cef6b01ac48bdcc2c",
+            "notes": "逐图核验原生正反同框，准确型号及具名颜色；未裁剪、合成或增强。"
+          },
+          "honorShopSkuBinding": {
+            "releaseYear": 2022,
+            "sbomCode": "10002060000120",
+            "name": "荣耀平板8 12英寸 WIFI 8GB+256GB 晨曦金",
+            "photoName": "10DB3892E9489701AE616EC012D251451E69CCA4DF915FB1mp.png",
+            "photoPath": "/product/6936520824618/",
+            "scriptAnchor": "<script src=\"https://hshop.honorfile.com/2026092209/js/product2/detail.js\" namespace=\"ec\">",
+            "mediaPathAnchor": "ec.mediaPath = \"https://hshop.honorfile.com/pimages/\";"
+          },
+          "resourceChain": [
+            {
+              "sourceUrl": "https://hshop.honorfile.com/2026092209/js/product2/detail.js",
+              "sourceSnapshotHash": "fb0172b4be1e5d33d10745538efc689996a71ff023cce531a73167dc2d2ecaaf",
+              "anchors": [
+                "var r=ec.product.getSkuInfo(ec.product.getSku()),e=[],o=1;",
+                "ec.mediaPath+r.photoPath+\"78_78_\"+r.photoName",
+                "$(\"#product-img\").attr(\"href\",s.replace(\"78_78\",\"800_800\")).find(\"img\").attr(\"src\",s.replace(\"78_78\",\"800_800\"))",
+                "var e=r.attr(\"src\").replace(\"78_78\",\"800_800\");"
+              ]
+            }
+          ]
+        },
+        {
+          "color": "曙光蓝",
+          "url": "https://hshop.honorfile.com/pimages//product/6936520824595/800_800_0C7A1FEB85A077411596D059751C782BA57CAB9F8442318Fmp.png",
+          "sourceUrl": "https://www.honor.com/cn/shop/product/10086962049240.html?cid=132369",
+          "sourceName": "荣耀中国官方商城",
+          "targetIds": [
+            "honor-pad8-2022"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "341dd16daa539da6dc4f35cd3be40373848abadf02f4122392eed66fbdce5887",
+          "anchor": "_pro_sbomList.push({sbomCode:\"10002060000118\",name:\"&#x8363;&#x8000;&#x5e73;&#x677f;8&#x20;12&#x82f1;&#x5bf8;&#x20;WIFI&#x20;8GB&#x2b;256GB&#x20;&#x66d9;&#x5149;&#x84dd;\",photoName:\"0C7A1FEB85A077411596D059751C782BA57CAB9F8442318Fmp.png\",photoPath:\"&#x2f;product&#x2f;6936520824595&#x2f;\",sbomPackageList:_sbomPackageList,gbomCode:\"6936520824595\"});",
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 800,
+            "height": 800,
+            "sha256": "410909a5f0e4d4d3e8bb50621b5100886f1c4e1af9e8ef997d25601366dd3336",
+            "notes": "逐图核验原生正反同框，准确型号及具名颜色；未裁剪、合成或增强。"
+          },
+          "honorShopSkuBinding": {
+            "releaseYear": 2022,
+            "sbomCode": "10002060000118",
+            "name": "荣耀平板8 12英寸 WIFI 8GB+256GB 曙光蓝",
+            "photoName": "0C7A1FEB85A077411596D059751C782BA57CAB9F8442318Fmp.png",
+            "photoPath": "/product/6936520824595/",
+            "scriptAnchor": "<script src=\"https://hshop.honorfile.com/2026092209/js/product2/detail.js\" namespace=\"ec\">",
+            "mediaPathAnchor": "ec.mediaPath = \"https://hshop.honorfile.com/pimages/\";"
+          },
+          "resourceChain": [
+            {
+              "sourceUrl": "https://hshop.honorfile.com/2026092209/js/product2/detail.js",
+              "sourceSnapshotHash": "fb0172b4be1e5d33d10745538efc689996a71ff023cce531a73167dc2d2ecaaf",
+              "anchors": [
+                "var r=ec.product.getSkuInfo(ec.product.getSku()),e=[],o=1;",
+                "ec.mediaPath+r.photoPath+\"78_78_\"+r.photoName",
+                "$(\"#product-img\").attr(\"href\",s.replace(\"78_78\",\"800_800\")).find(\"img\").attr(\"src\",s.replace(\"78_78\",\"800_800\"))",
+                "var e=r.attr(\"src\").replace(\"78_78\",\"800_800\");"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "honor-pad-x8-2022",
@@ -463,7 +622,8 @@
         "https://h5.ifeng.com/c/vivoArticle/v002ds8VtRisDufz79A-_gtUvJFEpnw1TXh2Xgjk-_878UO7w__?isNews=1&showComments=0",
         "https://www.honor.com/cn/tablets/honor-pad-x9/spec/",
         "https://detail.zol.com.cn/picture_index_2701/index27004826_0_p1637717.shtml",
-        "https://detail.zol.com.cn/picture_index_2701/index27004824_0_p1637717.shtml"
+        "https://detail.zol.com.cn/picture_index_2701/index27004824_0_p1637717.shtml",
+        "https://www.ithome.com/0/800/846.htm"
       ],
       "releaseEvidence": {
         "value": "2024",
@@ -612,7 +772,30 @@
           "https://detail.zol.com.cn/picture_index_2701/index27004824_0_p1637717.shtml"
         ],
         "gaps": []
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-pad-x9-2024"
+          ],
+          "sourceUrl": "https://www.ithome.com/0/800/846.htm",
+          "sourceSnapshotHash": "db0c7d903e8a60ce0062b1b06453b28af9a9a1422124860b4ded07446e80508a",
+          "sourceName": "IT之家刊载产品原图（已逐图核验）",
+          "url": "https://img.ithome.com/newsuploadfiles/2024/10/c27649a1-7153-4b4a-8b56-6c770339d6c2.jpg?x-bce-process=image/format,f_auto",
+          "anchor": "<img src=\"//img.ithome.com/images/v2/t.png\" w=\"514\" h=\"1000\" class=\"lazy\" title=\"荣耀平板 X9 官宣，10 月 16 日发布\" data-original=\"https://img.ithome.com/newsuploadfiles/2024/10/c27649a1-7153-4b4a-8b56-6c770339d6c2.jpg?x-bce-process=image/format,f_auto\" width=\"514\" height=\"1000\">",
+          "modelAnchor": "<title>荣耀平板 X9 官宣，10 月 16 日发布 - IT之家</title>",
+          "sha256": "06c323b6f123b87dda1d8fe69b18d2a224193a60e2d26a2bd8e6d74ac503af50",
+          "width": 514,
+          "height": 1000,
+          "licenseStatus": "unknown",
+          "imageScope": "specific_color",
+          "note": "仅本型号原版产品渲染/海报，不采用发布会现场或屏幕翻拍；保留原生尺寸，不声称超高清。",
+          "color": "天青色",
+          "colorAnchor": "<p data-vmark=\"722e\">根据官方信息，荣耀平板 X9 的正面采用窄边框设计，后置摄像头采用竖形矩阵模组。该平板有天青色和星空灰两种颜色可选，内存配置包括 WiFi 6GB+128GB、WiFi 8GB+256GB 和 WiFi 8GB+128GB 三种版本。</p>",
+          "viewScope": "front_back"
+        }
+      ]
     },
     {
       "id": "honor-pad-v8-2023",
@@ -628,7 +811,8 @@
         "https://detail.zol.com.cn/1555/1554756/param.shtml",
         "https://www.honor.com/cn/tablets/honor-pad-v8/spec/",
         "https://detail.zol.com.cn/picture_index_2356/index23555344_0_p1554755.shtml",
-        "https://detail.zol.com.cn/picture_index_2356/index23555366_0_p1554755.shtml"
+        "https://detail.zol.com.cn/picture_index_2356/index23555366_0_p1554755.shtml",
+        "https://www.honor.com/cn/tablets/honor-pad-v8/"
       ],
       "releaseEvidence": {
         "value": "2023-05-08",
@@ -764,7 +948,8 @@
         "https://detail.zol.com.cn/1816/1815129/param.shtml",
         "https://www.honor.com/cn/tablets/honor-magicpad-13/spec/",
         "https://detail.zol.com.cn/picture_index_2488/index24871229_0_p1447710.shtml",
-        "https://detail.zol.com.cn/picture_index_2488/index24871230_0_p1447710.shtml"
+        "https://detail.zol.com.cn/picture_index_2488/index24871230_0_p1447710.shtml",
+        "https://www.honor.com/cn/tablets/honor-magicpad-13/"
       ],
       "releaseEvidence": {
         "value": "2023-07-20",
@@ -917,7 +1102,8 @@
         "https://news.zol.com.cn/885/8852902.html",
         "https://www.honor.com/cn/tablets/honor-magicpad-2/spec/",
         "https://detail.zol.com.cn/picture_index_2682/index26815384_0_p2070529.shtml",
-        "https://detail.zol.com.cn/picture_index_2682/index26815407_0_p2070529.shtml"
+        "https://detail.zol.com.cn/picture_index_2682/index26815407_0_p2070529.shtml",
+        "https://www.honor.com/cn/shop/product/10086044877569.html?cid=132369"
       ],
       "releaseEvidence": {
         "value": "2024-07-19",
@@ -1056,7 +1242,138 @@
           "https://detail.zol.com.cn/picture_index_2682/index26815407_0_p2070529.shtml"
         ],
         "gaps": []
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "color": "星空黑",
+          "url": "https://hshop.honorfile.com/pimages//product/6936520847709/800_800_B760E9BED2FC4CEE2735A4F773E6B18919ADC0149FCA7E15mp.png",
+          "sourceUrl": "https://www.honor.com/cn/shop/product/10086044877569.html?cid=132369",
+          "sourceName": "荣耀中国官方商城",
+          "targetIds": [
+            "honor-magicpad2-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "34e7ba6c3eccdcbfa551578becf119f9d1a0d365faca2513c6c6b1471d15e37d",
+          "anchor": "_pro_sbomList.push({sbomCode:\"10002070000303\",name:\"&#x8363;&#x8000;&#x5e73;&#x677f;MagicPad2&#x20;12.3&#x82f1;&#x5bf8;&#x20;WIFI&#x20;8GB&#x2b;256GB&#x20;&#x661f;&#x7a7a;&#x9ed1;\",photoName:\"B760E9BED2FC4CEE2735A4F773E6B18919ADC0149FCA7E15mp.png\",photoPath:\"&#x2f;product&#x2f;6936520847709&#x2f;\",sbomPackageList:_sbomPackageList,gbomCode:\"6936520847709\"});",
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 800,
+            "height": 800,
+            "sha256": "dc1711d9628a8070e4f579822b0893c5d6f87e2749b5473aa18128eed5371d8c",
+            "notes": "逐图核验原生正反同框，准确型号及具名颜色；未裁剪、合成或增强。"
+          },
+          "honorShopSkuBinding": {
+            "releaseYear": 2024,
+            "sbomCode": "10002070000303",
+            "name": "荣耀平板MagicPad2 12.3英寸 WIFI 8GB+256GB 星空黑",
+            "photoName": "B760E9BED2FC4CEE2735A4F773E6B18919ADC0149FCA7E15mp.png",
+            "photoPath": "/product/6936520847709/",
+            "scriptAnchor": "<script src=\"https://hshop.honorfile.com/2026092209/js/product2/detail.js\" namespace=\"ec\">",
+            "mediaPathAnchor": "ec.mediaPath = \"https://hshop.honorfile.com/pimages/\";"
+          },
+          "resourceChain": [
+            {
+              "sourceUrl": "https://hshop.honorfile.com/2026092209/js/product2/detail.js",
+              "sourceSnapshotHash": "fb0172b4be1e5d33d10745538efc689996a71ff023cce531a73167dc2d2ecaaf",
+              "anchors": [
+                "var r=ec.product.getSkuInfo(ec.product.getSku()),e=[],o=1;",
+                "ec.mediaPath+r.photoPath+\"78_78_\"+r.photoName",
+                "$(\"#product-img\").attr(\"href\",s.replace(\"78_78\",\"800_800\")).find(\"img\").attr(\"src\",s.replace(\"78_78\",\"800_800\"))",
+                "var e=r.attr(\"src\").replace(\"78_78\",\"800_800\");"
+              ]
+            }
+          ]
+        },
+        {
+          "color": "月影白",
+          "url": "https://hshop.honorfile.com/pimages//product/6936520847716/800_800_B2B5B42272F843249DE7460D8B354C37265635ED343B20CFmp.png",
+          "sourceUrl": "https://www.honor.com/cn/shop/product/10086044877569.html?cid=132369",
+          "sourceName": "荣耀中国官方商城",
+          "targetIds": [
+            "honor-magicpad2-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "34e7ba6c3eccdcbfa551578becf119f9d1a0d365faca2513c6c6b1471d15e37d",
+          "anchor": "_pro_sbomList.push({sbomCode:\"10002070000302\",name:\"&#x8363;&#x8000;&#x5e73;&#x677f;MagicPad2&#x20;12.3&#x82f1;&#x5bf8;&#x20;WIFI&#x20;8GB&#x2b;256GB&#x20;&#x6708;&#x5f71;&#x767d;\",photoName:\"B2B5B42272F843249DE7460D8B354C37265635ED343B20CFmp.png\",photoPath:\"&#x2f;product&#x2f;6936520847716&#x2f;\",sbomPackageList:_sbomPackageList,gbomCode:\"6936520847716\"});",
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 800,
+            "height": 800,
+            "sha256": "06db3441778b4e221eb7672117dce6f4c4942c9813c36b14dfd640e7404e2a40",
+            "notes": "逐图核验原生正反同框，准确型号及具名颜色；未裁剪、合成或增强。"
+          },
+          "honorShopSkuBinding": {
+            "releaseYear": 2024,
+            "sbomCode": "10002070000302",
+            "name": "荣耀平板MagicPad2 12.3英寸 WIFI 8GB+256GB 月影白",
+            "photoName": "B2B5B42272F843249DE7460D8B354C37265635ED343B20CFmp.png",
+            "photoPath": "/product/6936520847716/",
+            "scriptAnchor": "<script src=\"https://hshop.honorfile.com/2026092209/js/product2/detail.js\" namespace=\"ec\">",
+            "mediaPathAnchor": "ec.mediaPath = \"https://hshop.honorfile.com/pimages/\";"
+          },
+          "resourceChain": [
+            {
+              "sourceUrl": "https://hshop.honorfile.com/2026092209/js/product2/detail.js",
+              "sourceSnapshotHash": "fb0172b4be1e5d33d10745538efc689996a71ff023cce531a73167dc2d2ecaaf",
+              "anchors": [
+                "var r=ec.product.getSkuInfo(ec.product.getSku()),e=[],o=1;",
+                "ec.mediaPath+r.photoPath+\"78_78_\"+r.photoName",
+                "$(\"#product-img\").attr(\"href\",s.replace(\"78_78\",\"800_800\")).find(\"img\").attr(\"src\",s.replace(\"78_78\",\"800_800\"))",
+                "var e=r.attr(\"src\").replace(\"78_78\",\"800_800\");"
+              ]
+            }
+          ]
+        },
+        {
+          "color": "天海青",
+          "url": "https://hshop.honorfile.com/pimages//product/6936520847723/800_800_06FACE76C89159501EA32673064A3BECAF9CCA0992BF75D1mp.png",
+          "sourceUrl": "https://www.honor.com/cn/shop/product/10086044877569.html?cid=132369",
+          "sourceName": "荣耀中国官方商城",
+          "targetIds": [
+            "honor-magicpad2-2024"
+          ],
+          "status": "downloaded_and_visually_reviewed",
+          "sourceSnapshotHash": "34e7ba6c3eccdcbfa551578becf119f9d1a0d365faca2513c6c6b1471d15e37d",
+          "anchor": "_pro_sbomList.push({sbomCode:\"10002070000301\",name:\"&#x8363;&#x8000;&#x5e73;&#x677f;MagicPad2&#x20;12.3&#x82f1;&#x5bf8;&#x20;WIFI&#x20;8GB&#x2b;256GB&#x20;&#x5929;&#x6d77;&#x9752;\",photoName:\"06FACE76C89159501EA32673064A3BECAF9CCA0992BF75D1mp.png\",photoPath:\"&#x2f;product&#x2f;6936520847723&#x2f;\",sbomPackageList:_sbomPackageList,gbomCode:\"6936520847723\"});",
+          "imageScope": "single_model",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "licenseStatus": "unknown",
+          "imageReview": {
+            "width": 800,
+            "height": 800,
+            "sha256": "3090a5b010da61af7f8259221077bf9151e51c35645877fe3bdd46ab696bc894",
+            "notes": "逐图核验原生正反同框，准确型号及具名颜色；未裁剪、合成或增强。"
+          },
+          "honorShopSkuBinding": {
+            "releaseYear": 2024,
+            "sbomCode": "10002070000301",
+            "name": "荣耀平板MagicPad2 12.3英寸 WIFI 8GB+256GB 天海青",
+            "photoName": "06FACE76C89159501EA32673064A3BECAF9CCA0992BF75D1mp.png",
+            "photoPath": "/product/6936520847723/",
+            "scriptAnchor": "<script src=\"https://hshop.honorfile.com/2026092209/js/product2/detail.js\" namespace=\"ec\">",
+            "mediaPathAnchor": "ec.mediaPath = \"https://hshop.honorfile.com/pimages/\";"
+          },
+          "resourceChain": [
+            {
+              "sourceUrl": "https://hshop.honorfile.com/2026092209/js/product2/detail.js",
+              "sourceSnapshotHash": "fb0172b4be1e5d33d10745538efc689996a71ff023cce531a73167dc2d2ecaaf",
+              "anchors": [
+                "var r=ec.product.getSkuInfo(ec.product.getSku()),e=[],o=1;",
+                "ec.mediaPath+r.photoPath+\"78_78_\"+r.photoName",
+                "$(\"#product-img\").attr(\"href\",s.replace(\"78_78\",\"800_800\")).find(\"img\").attr(\"src\",s.replace(\"78_78\",\"800_800\"))",
+                "var e=r.attr(\"src\").replace(\"78_78\",\"800_800\");"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "honor-magicpad3-2025",
@@ -1072,7 +1389,8 @@
         "https://detail.zol.com.cn/2133/2132094/param.shtml",
         "https://www.honor.com/cn/tablets/honor-magicpad-3/spec/",
         "https://detail.zol.com.cn/picture_index_2726/index27259997_0_p2132093.shtml",
-        "https://detail.zol.com.cn/picture_index_2726/index27259998_0_p2132093.shtml"
+        "https://detail.zol.com.cn/picture_index_2726/index27259998_0_p2132093.shtml",
+        "https://www.ithome.com/0/865/362.htm"
       ],
       "releaseEvidence": {
         "value": "2025-07-02",

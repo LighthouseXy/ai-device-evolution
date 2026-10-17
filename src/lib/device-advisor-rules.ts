@@ -120,7 +120,8 @@ function getPriceText(
   if (selected) {
     const { field, type } = selected;
     const snapshot = [field.sourceName, field.observedAt].filter(Boolean).join("，");
-    return `${type === "used" ? "二手价" : "当前价"} ${formatMaybeCurrency(field.value)}${snapshot ? `（${snapshot}）` : ""} · ${field.configuration}`;
+    const availabilityNote = /暂时缺货|无货|售罄/.test(field.condition ?? "") ? "（缺货标价，仅供参考）" : "";
+    return `${type === "used" ? "二手价" : "当前价"} ${formatMaybeCurrency(field.value)}${snapshot ? `（${snapshot}）` : ""}${availabilityNote} · ${field.configuration}`;
   }
   const missingLabel = conditionPreference === "used_ok" ? "当前价与二手价待补充" : "当前价待补充";
   return launchPrice === undefined

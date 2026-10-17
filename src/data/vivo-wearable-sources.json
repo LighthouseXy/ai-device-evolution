@@ -22,7 +22,8 @@
       "referenceUrls": [
         "https://detail.zol.com.cn/1949/1948990/param.shtml",
         "https://www.ithome.com/0/732/256.htm",
-        "https://detail.zol.com.cn/GPSwatch/index1948990.shtml"
+        "https://detail.zol.com.cn/GPSwatch/index1948990.shtml",
+        "https://www.vivo.com.cn/vivo/vivowatch3/"
       ],
       "fieldGaps": [
         {
@@ -56,7 +57,38 @@
         },
         "licenseStatus": "unknown"
       },
-      "category": "watch"
+      "category": "watch",
+      "rejectedColorNames": [
+        "星辉",
+        "皓月"
+      ],
+      "colorVersionVerification": {
+        "sourceUrl": "https://www.vivo.com.cn/vivo/vivowatch3/",
+        "sourceSnapshotHash": "d0f973fc968ecd171741dc267f67c888ca0009e03585276bd7247a01f8ad984a",
+        "rawText": "皓月、星辉配色采用真皮表带材质，辰夜黑、月光白配色采用软胶表带材质。",
+        "allowedColors": [
+          "辰夜黑",
+          "月光白"
+        ],
+        "boundary": "官网原配表带与具名配色；自行更换表带不属于本款原配配置。",
+        "rejectedEvidence": {
+          "value": [
+            "辰夜黑",
+            "月光白",
+            "星辉",
+            "皓月"
+          ],
+          "rawText": "辰夜黑，月光白，星辉，皓月",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1949/1948990/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-06",
+          "fetchedAt": "2026-10-06T15:32:56.991Z",
+          "sourceSnapshotHash": "ae2047de7a711a2dea2169c10710170701ac806ab13552cc96d2523c73c384a4"
+        },
+        "reason": "第三方通用四色列表混入了不属于本款原配表带的配色，按官网明确材质说明修正。"
+      }
     },
     {
       "id": "vivo-watch-3-esim-2023",
@@ -80,7 +112,8 @@
       "referenceUrls": [
         "https://detail.zol.com.cn/1949/1948988/param.shtml",
         "https://www.ithome.com/0/732/256.htm",
-        "https://detail.zol.com.cn/GPSwatch/index1948988.shtml"
+        "https://detail.zol.com.cn/GPSwatch/index1948988.shtml",
+        "https://www.vivo.com.cn/vivo/vivowatch3/"
       ],
       "fieldGaps": [
         {
@@ -114,7 +147,38 @@
         },
         "licenseStatus": "unknown"
       },
-      "category": "watch"
+      "category": "watch",
+      "rejectedColorNames": [
+        "星辉",
+        "皓月"
+      ],
+      "colorVersionVerification": {
+        "sourceUrl": "https://www.vivo.com.cn/vivo/vivowatch3/",
+        "sourceSnapshotHash": "d0f973fc968ecd171741dc267f67c888ca0009e03585276bd7247a01f8ad984a",
+        "rawText": "皓月、星辉配色采用真皮表带材质，辰夜黑、月光白配色采用软胶表带材质。",
+        "allowedColors": [
+          "辰夜黑",
+          "月光白"
+        ],
+        "boundary": "官网原配表带与具名配色；自行更换表带不属于本款原配配置。",
+        "rejectedEvidence": {
+          "value": [
+            "辰夜黑",
+            "月光白",
+            "星辉",
+            "皓月"
+          ],
+          "rawText": "辰夜黑，月光白，星辉，皓月",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1949/1948988/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-07",
+          "fetchedAt": "2026-10-07T07:45:09.826Z",
+          "sourceSnapshotHash": "17742935c7263954f0e74b10b2c4e84e5a6db82afb6769c34cd9d7ebfb29e7a8"
+        },
+        "reason": "第三方通用四色列表混入了不属于本款原配表带的配色，按官网明确材质说明修正。"
+      }
     },
     {
       "id": "vivo-watch-3-bluetooth-leather-2023",
@@ -138,7 +202,8 @@
       "referenceUrls": [
         "https://detail.zol.com.cn/1949/1948989/param.shtml",
         "https://www.ithome.com/0/732/256.htm",
-        "https://detail.zol.com.cn/GPSwatch/index1948989.shtml"
+        "https://detail.zol.com.cn/GPSwatch/index1948989.shtml",
+        "https://www.vivo.com.cn/vivo/vivowatch3/"
       ],
       "fieldGaps": [
         {
@@ -172,7 +237,38 @@
         },
         "licenseStatus": "unknown"
       },
-      "category": "watch"
+      "category": "watch",
+      "rejectedColorNames": [
+        "辰夜黑",
+        "月光白"
+      ],
+      "colorVersionVerification": {
+        "sourceUrl": "https://www.vivo.com.cn/vivo/vivowatch3/",
+        "sourceSnapshotHash": "d0f973fc968ecd171741dc267f67c888ca0009e03585276bd7247a01f8ad984a",
+        "rawText": "皓月、星辉配色采用真皮表带材质，辰夜黑、月光白配色采用软胶表带材质。",
+        "allowedColors": [
+          "皓月",
+          "星辉"
+        ],
+        "boundary": "官网原配表带与具名配色；自行更换表带不属于本款原配配置。",
+        "rejectedEvidence": {
+          "value": [
+            "辰夜黑",
+            "月光白",
+            "星辉",
+            "皓月"
+          ],
+          "rawText": "辰夜黑，月光白，星辉，皓月",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1949/1948989/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-07",
+          "fetchedAt": "2026-10-07T07:45:09.756Z",
+          "sourceSnapshotHash": "d97b2e65758dcffd32333455a5e3de2b0d75bce770138669539cef831c90bb70"
+        },
+        "reason": "第三方通用四色列表混入了不属于本款原配表带的配色，按官网明确材质说明修正。"
+      }
     },
     {
       "id": "vivo-watch-3-esim-leather-2023",
@@ -196,7 +292,8 @@
       "referenceUrls": [
         "https://detail.zol.com.cn/1948/1947798/param.shtml",
         "https://www.ithome.com/0/732/256.htm",
-        "https://detail.zol.com.cn/GPSwatch/index1947798.shtml"
+        "https://detail.zol.com.cn/GPSwatch/index1947798.shtml",
+        "https://www.vivo.com.cn/vivo/vivowatch3/"
       ],
       "fieldGaps": [
         {
@@ -230,7 +327,38 @@
         },
         "licenseStatus": "unknown"
       },
-      "category": "watch"
+      "category": "watch",
+      "rejectedColorNames": [
+        "辰夜黑",
+        "月光白"
+      ],
+      "colorVersionVerification": {
+        "sourceUrl": "https://www.vivo.com.cn/vivo/vivowatch3/",
+        "sourceSnapshotHash": "d0f973fc968ecd171741dc267f67c888ca0009e03585276bd7247a01f8ad984a",
+        "rawText": "皓月、星辉配色采用真皮表带材质，辰夜黑、月光白配色采用软胶表带材质。",
+        "allowedColors": [
+          "皓月",
+          "星辉"
+        ],
+        "boundary": "官网原配表带与具名配色；自行更换表带不属于本款原配配置。",
+        "rejectedEvidence": {
+          "value": [
+            "辰夜黑",
+            "月光白",
+            "星辉",
+            "皓月"
+          ],
+          "rawText": "辰夜黑，月光白，星辉，皓月",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://detail.zol.com.cn/1948/1947798/param.shtml",
+          "sourceType": "reference",
+          "confidence": 0.8,
+          "verifiedAt": "2026-10-07",
+          "fetchedAt": "2026-10-07T07:45:09.910Z",
+          "sourceSnapshotHash": "5078ac2083d5e0dd8f9368e5c1282eae54ad1951d7402f4497766ece43c6c359"
+        },
+        "reason": "第三方通用四色列表混入了不属于本款原配表带的配色，按官网明确材质说明修正。"
+      }
     },
     {
       "id": "vivo-watch-gt-esim-2024",

@@ -15,7 +15,8 @@
         "https://detail.zol.com.cn/1448/1447870/param.shtml",
         "https://detail.zol.com.cn/1448/1447871/param.shtml",
         "https://detail.zol.com.cn/picture_index_2296/index22959728_0_p1426635.shtml",
-        "https://detail.zol.com.cn/picture_index_2296/index22959949_0_p1426635.shtml"
+        "https://detail.zol.com.cn/picture_index_2296/index22959949_0_p1426635.shtml",
+        "https://www.ha.10086.cn/shop/release/goods/65915/index.html"
       ],
       "releaseEvidence": {
         "value": "2023-03-10",
@@ -100,7 +101,130 @@
           "珊瑚紫配色图片未核实",
           "燃橙色配色图片未核实"
         ]
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-magic5-2023"
+          ],
+          "sourceUrl": "https://www.ha.10086.cn/shop/release/goods/65915/index.html",
+          "sourceSnapshotHash": "3ff3309d8a14f52c23bd3be014ec3148444975ac286de5d1d81481c799350963",
+          "sourceName": "中国移动河南商城",
+          "url": "https://www.ha.10086.cn/v1/tfs/T17WYTBydT1R4cSCrK.png",
+          "color": "珊瑚紫",
+          "henanMobileColorBinding": true,
+          "anchor": "<img src=\"https://www.ha.10086.cn/v1/tfs/T17WYTBydT1R4cSCrK.png\">",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageScope": "product_render",
+          "imageReview": {
+            "sha256": "28224a038e0f7120917c1544100c968b289c64ee824d56b307f80296d4c20acb",
+            "width": 750,
+            "height": 750
+          },
+          "licenseStatus": "unknown",
+          "note": "逐图核查750×750完整正反同框原图，型号、配色SKU和原图绑定；无裁切合成，不导入商城报价，转载许可未知。"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-magic5-2023"
+          ],
+          "sourceUrl": "https://www.ha.10086.cn/shop/release/goods/65915/index.html",
+          "sourceSnapshotHash": "3ff3309d8a14f52c23bd3be014ec3148444975ac286de5d1d81481c799350963",
+          "sourceName": "中国移动河南商城",
+          "url": "https://www.ha.10086.cn/v1/tfs/T19WKTByKT1R4cSCrK.png",
+          "color": "燃橙色",
+          "henanMobileColorBinding": true,
+          "anchor": "<img src=\"https://www.ha.10086.cn/v1/tfs/T19WKTByKT1R4cSCrK.png\">",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageScope": "product_render",
+          "imageReview": {
+            "sha256": "787aeb13123a5ca00e2aace98264428b71d46a0012766ced0d65b0583616db26",
+            "width": 750,
+            "height": 750
+          },
+          "licenseStatus": "unknown",
+          "note": "原文燃橙色（素皮）对应已登记燃橙色；逐图核查750×750完整正反同框，无裁切合成，不导入商城报价，转载许可未知。"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-magic5-2023"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2296/index22959728_0_p1426635.shtml",
+          "sourceSnapshotHash": "29a3ccd4ff8165ae6c3e07cb50d40fbc9b94b9b5609cd0e4d32c77247263289d",
+          "sourceName": "已核对型号配色图",
+          "url": "https://2c.zol-img.com.cn/product/229/950/ceLIAyscFswXo.png",
+          "color": "亮黑色",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageScope": "product_render",
+          "sha256": "d20288a1b6d4a86754866b2bf554f18ccc215b77e860d68543dcfea3d68c520c",
+          "width": 912,
+          "height": 684,
+          "modelAnchor": "<title>【高清图】荣耀(honor)Magic5（8GB/256GB）外观图 图6-ZOL中关村在线</title>",
+          "licenseStatus": "unknown",
+          "note": "人工逐图核验正面完整屏幕与同色背板同框；沿用当前已登记准确型号来源，不从观感补颜色别名或改设备参数。",
+          "zolProductId": "1426635",
+          "anchor": "{\"extName\":\"png\",\"hash\":\"ceLIAyscFswXo\",\"classId3\":\"15549\",\"classId4\":\"13998\",\"proId\":1426635,\"sequence\":\"9\",\"sid\":\"10716894\",\"orderSort\":\"9\",\"sizeInfo\":{\"source\":[\"912\",\"684\"],\"pic\":[\"800\",\"600\"]},\"picId\":22959950,\"groupId\":0,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":26,\"classPicPos\":2,\"picPos\":2,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2c.zol-img.com.cn\\/product\\/229_100x75\\/950\\/ceLIAyscFswXo.png\",\"imgWidth\":\"912\",\"imgHeight\":\"684\",\"brief\":\"\"}",
+          "zolPicId": 22959950,
+          "zolHash": "ceLIAyscFswXo",
+          "colorBindingMethod": "同型号 picList 原文对象、picId/hash、具名 classId4 分类严格绑定"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-magic5-2023"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2296/index22959728_0_p1426635.shtml",
+          "sourceSnapshotHash": "29a3ccd4ff8165ae6c3e07cb50d40fbc9b94b9b5609cd0e4d32c77247263289d",
+          "sourceName": "已核对型号配色图",
+          "url": "https://2b.zol-img.com.cn/product/229/949/cesvPmeVRfY.png",
+          "color": "勃朗蓝",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageScope": "product_render",
+          "sha256": "852939175bc6d12ec0b73cae3edff1c5fae82f8c2f1828ea831563ad0207d825",
+          "width": 900,
+          "height": 675,
+          "modelAnchor": "<title>【高清图】荣耀(honor)Magic5（8GB/256GB）外观图 图6-ZOL中关村在线</title>",
+          "licenseStatus": "unknown",
+          "note": "人工逐图核验正面完整屏幕与同色背板同框；沿用当前已登记准确型号来源，不从观感补颜色别名或改设备参数。",
+          "zolProductId": "1426635",
+          "anchor": "{\"extName\":\"png\",\"hash\":\"cesvPmeVRfY\",\"classId3\":\"15549\",\"classId4\":\"27288\",\"proId\":1426635,\"sequence\":\"9\",\"sid\":\"10716894\",\"orderSort\":\"9\",\"sizeInfo\":{\"source\":[\"900\",\"675\"],\"pic\":[\"800\",\"600\"]},\"picId\":22959949,\"groupId\":0,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":26,\"classPicPos\":1,\"picPos\":1,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2b.zol-img.com.cn\\/product\\/229_100x75\\/949\\/cesvPmeVRfY.png\",\"imgWidth\":\"900\",\"imgHeight\":\"675\",\"brief\":\"\"}",
+          "zolPicId": 22959949,
+          "zolHash": "cesvPmeVRfY",
+          "colorBindingMethod": "同型号 picList 原文对象、picId/hash、具名 classId4 分类严格绑定"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-magic5-2023"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2296/index22959728_0_p1426635.shtml",
+          "sourceSnapshotHash": "29a3ccd4ff8165ae6c3e07cb50d40fbc9b94b9b5609cd0e4d32c77247263289d",
+          "sourceName": "已核对型号配色图",
+          "url": "https://2d.zol-img.com.cn/product/229/951/ce0jyeHMCHcPU.png",
+          "color": "苔原绿",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageScope": "product_render",
+          "sha256": "451a20c7dbed577b451b2959e5ee7b8e273e15caff089210680aa004bcdf09c3",
+          "width": 896,
+          "height": 672,
+          "modelAnchor": "<title>【高清图】荣耀(honor)Magic5（8GB/256GB）外观图 图6-ZOL中关村在线</title>",
+          "licenseStatus": "unknown",
+          "note": "人工逐图核验正面完整屏幕与同色背板同框；沿用当前已登记准确型号来源，不从观感补颜色别名或改设备参数。",
+          "zolProductId": "1426635",
+          "anchor": "{\"extName\":\"png\",\"hash\":\"ce0jyeHMCHcPU\",\"classId3\":\"15549\",\"classId4\":\"27289\",\"proId\":1426635,\"sequence\":\"8\",\"sid\":\"10716894\",\"orderSort\":\"8\",\"sizeInfo\":{\"source\":[\"896\",\"672\"],\"pic\":[\"800\",\"600\"]},\"picId\":22959951,\"groupId\":0,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":26,\"classPicPos\":5,\"picPos\":5,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2d.zol-img.com.cn\\/product\\/229_100x75\\/951\\/ce0jyeHMCHcPU.png\",\"imgWidth\":\"896\",\"imgHeight\":\"672\",\"brief\":\"\"}",
+          "zolPicId": 22959951,
+          "zolHash": "ce0jyeHMCHcPU",
+          "colorBindingMethod": "同型号 picList 原文对象、picId/hash、具名 classId4 分类严格绑定"
+        }
+      ]
     },
     {
       "id": "honor-magic6-2024",
@@ -334,7 +458,8 @@
         "https://detail.zol.com.cn/1958/1957926/param.shtml",
         "https://detail.zol.com.cn/1958/1957927/param.shtml",
         "https://detail.zol.com.cn/picture_index_2570/index25696118_0_p1948397.shtml",
-        "https://detail.zol.com.cn/picture_index_2570/index25696121_0_p1948397.shtml"
+        "https://detail.zol.com.cn/picture_index_2570/index25696121_0_p1948397.shtml",
+        "https://www.ithome.com/0/734/575.htm"
       ],
       "releaseEvidence": {
         "value": "2023-12-01",
@@ -418,7 +543,97 @@
           }
         ],
         "gaps": []
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-100-2023"
+          ],
+          "sourceUrl": "https://www.ithome.com/0/734/575.htm",
+          "sourceSnapshotHash": "18876043cf22832a65ab721f46285ba4463922a0e3d204ddbc04f4a570a1c39d",
+          "sourceName": "IT之家刊载产品原图（已逐图核验）",
+          "url": "https://img.ithome.com/newsuploadfiles/2023/11/0414b67b-6290-48ec-99c4-3458a09f88b6.png?x-bce-process=image/format,f_auto",
+          "anchor": "<img src=\"//img.ithome.com/images/v2/t.png\" w=\"507\" h=\"575\" alt=\"图片 1\" class=\"lazy\" title=\"荣耀 100 / Pro 手机配色公布：12GB 内存起步，今晚正式发布\" data-original=\"https://img.ithome.com/newsuploadfiles/2023/11/0414b67b-6290-48ec-99c4-3458a09f88b6.png?x-bce-process=image/format,f_auto\" width=\"507\" height=\"575\">",
+          "modelAnchor": "<p style=\"text-align: left;\" data-vmark=\"181f\"><span class=\"accentTextColor\">荣耀 100 外观：</span></p><p style=\"text-align: center;\" data-vmark=\"33d5\"><img src=\"//img.ithome.com/images/v2/t.png\" w=\"507\" h=\"575\" alt=\"图片 1\" class=\"lazy\" title=\"荣耀 100 / Pro 手机配色公布：12GB 内存起步，今晚正式发布\" data-original=\"https://img.ithome.com/newsuploadfiles/2023/11/0414b67b-6290-48ec-99c4-3458a09f88b6.png?x-bce-process=image/format,f_auto\" width=\"507\" height=\"575\">",
+          "sha256": "cb29f3d2413ea4c539b610c390e3baf59ab28e5a6ede87e9d6382c571e5a3480",
+          "width": 507,
+          "height": 575,
+          "licenseStatus": "unknown",
+          "imageScope": "specific_color",
+          "note": "仅本型号原版产品渲染/海报，不采用发布会现场或屏幕翻拍；保留原生尺寸，不声称超高清。",
+          "color": "月影白",
+          "colorAnchor": "<p data-vmark=\"e53a\">从商品信息可以看到，荣耀 100 / Pro 都将提供月影白、莫奈紫、亮黑色、迷迭蓝四款配色。其中，荣耀 100 机型提供 12GB+256GB、16GB+256GB、16GB+512GB 三种版本，<span class=\"accentTextColor\">荣耀 100 Pro 则在以上版本的基础上增加一个 16GB+1TB 版本。</span></p>",
+          "viewScope": "front_back"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-100-2023"
+          ],
+          "sourceUrl": "https://www.ithome.com/0/734/575.htm",
+          "sourceSnapshotHash": "18876043cf22832a65ab721f46285ba4463922a0e3d204ddbc04f4a570a1c39d",
+          "sourceName": "IT之家刊载产品原图（已逐图核验）",
+          "url": "https://img.ithome.com/newsuploadfiles/2023/11/b84d9c86-baa4-48f6-a598-e52c8d09fdb9.png?x-bce-process=image/format,f_auto",
+          "anchor": "<img src=\"//img.ithome.com/images/v2/t.png\" w=\"456\" h=\"571\" alt=\"图片 1\" class=\"lazy\" title=\"荣耀 100 / Pro 手机配色公布：12GB 内存起步，今晚正式发布\" data-original=\"https://img.ithome.com/newsuploadfiles/2023/11/b84d9c86-baa4-48f6-a598-e52c8d09fdb9.png?x-bce-process=image/format,f_auto\" width=\"456\" height=\"571\">",
+          "modelAnchor": "<p style=\"text-align: left;\" data-vmark=\"181f\"><span class=\"accentTextColor\">荣耀 100 外观：</span></p><p style=\"text-align: center;\" data-vmark=\"33d5\"><img src=\"//img.ithome.com/images/v2/t.png\" w=\"507\" h=\"575\" alt=\"图片 1\" class=\"lazy\" title=\"荣耀 100 / Pro 手机配色公布：12GB 内存起步，今晚正式发布\" data-original=\"https://img.ithome.com/newsuploadfiles/2023/11/0414b67b-6290-48ec-99c4-3458a09f88b6.png?x-bce-process=image/format,f_auto\" width=\"507\" height=\"575\"></p><p style=\"text-align: center;\" data-vmark=\"9e80\"><img src=\"//img.ithome.com/images/v2/t.png\" w=\"456\" h=\"571\" alt=\"图片 1\" class=\"lazy\" title=\"荣耀 100 / Pro 手机配色公布：12GB 内存起步，今晚正式发布\" data-original=\"https://img.ithome.com/newsuploadfiles/2023/11/b84d9c86-baa4-48f6-a598-e52c8d09fdb9.png?x-bce-process=image/format,f_auto\" width=\"456\" height=\"571\">",
+          "sha256": "03cbdeb75a0de3b7a9125cf3ce52628da5ac336a4e44634f6869f34237e9085f",
+          "width": 456,
+          "height": 571,
+          "licenseStatus": "unknown",
+          "imageScope": "specific_color",
+          "note": "仅本型号原版产品渲染/海报，不采用发布会现场或屏幕翻拍；保留原生尺寸，不声称超高清。",
+          "color": "亮黑色",
+          "colorAnchor": "<p data-vmark=\"e53a\">从商品信息可以看到，荣耀 100 / Pro 都将提供月影白、莫奈紫、亮黑色、迷迭蓝四款配色。其中，荣耀 100 机型提供 12GB+256GB、16GB+256GB、16GB+512GB 三种版本，<span class=\"accentTextColor\">荣耀 100 Pro 则在以上版本的基础上增加一个 16GB+1TB 版本。</span></p>",
+          "viewScope": "front_back"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-100-2023"
+          ],
+          "sourceUrl": "https://www.ithome.com/0/734/575.htm",
+          "sourceSnapshotHash": "18876043cf22832a65ab721f46285ba4463922a0e3d204ddbc04f4a570a1c39d",
+          "sourceName": "IT之家刊载产品原图（已逐图核验）",
+          "url": "https://img.ithome.com/newsuploadfiles/2023/11/2b8db879-2c77-4dea-9a59-2596d94fa786.png?x-bce-process=image/format,f_auto",
+          "anchor": "<img src=\"//img.ithome.com/images/v2/t.png\" w=\"534\" h=\"572\" alt=\"图片 1\" class=\"lazy\" title=\"荣耀 100 / Pro 手机配色公布：12GB 内存起步，今晚正式发布\" data-original=\"https://img.ithome.com/newsuploadfiles/2023/11/2b8db879-2c77-4dea-9a59-2596d94fa786.png?x-bce-process=image/format,f_auto\" width=\"534\" height=\"572\">",
+          "modelAnchor": "<p style=\"text-align: left;\" data-vmark=\"181f\"><span class=\"accentTextColor\">荣耀 100 外观：</span></p><p style=\"text-align: center;\" data-vmark=\"33d5\"><img src=\"//img.ithome.com/images/v2/t.png\" w=\"507\" h=\"575\" alt=\"图片 1\" class=\"lazy\" title=\"荣耀 100 / Pro 手机配色公布：12GB 内存起步，今晚正式发布\" data-original=\"https://img.ithome.com/newsuploadfiles/2023/11/0414b67b-6290-48ec-99c4-3458a09f88b6.png?x-bce-process=image/format,f_auto\" width=\"507\" height=\"575\"></p><p style=\"text-align: center;\" data-vmark=\"9e80\"><img src=\"//img.ithome.com/images/v2/t.png\" w=\"456\" h=\"571\" alt=\"图片 1\" class=\"lazy\" title=\"荣耀 100 / Pro 手机配色公布：12GB 内存起步，今晚正式发布\" data-original=\"https://img.ithome.com/newsuploadfiles/2023/11/b84d9c86-baa4-48f6-a598-e52c8d09fdb9.png?x-bce-process=image/format,f_auto\" width=\"456\" height=\"571\"></p><p style=\"text-align: center;\" data-vmark=\"f108\"><img src=\"//img.ithome.com/images/v2/t.png\" w=\"534\" h=\"572\" alt=\"图片 1\" class=\"lazy\" title=\"荣耀 100 / Pro 手机配色公布：12GB 内存起步，今晚正式发布\" data-original=\"https://img.ithome.com/newsuploadfiles/2023/11/2b8db879-2c77-4dea-9a59-2596d94fa786.png?x-bce-process=image/format,f_auto\" width=\"534\" height=\"572\">",
+          "sha256": "3b93a42d865c2cd3cbff824f209a3a6d04cf151d478075313e017db8801978b6",
+          "width": 534,
+          "height": 572,
+          "licenseStatus": "unknown",
+          "imageScope": "specific_color",
+          "note": "仅本型号原版产品渲染/海报，不采用发布会现场或屏幕翻拍；保留原生尺寸，不声称超高清。",
+          "color": "莫奈紫",
+          "colorAnchor": "<p data-vmark=\"e53a\">从商品信息可以看到，荣耀 100 / Pro 都将提供月影白、莫奈紫、亮黑色、迷迭蓝四款配色。其中，荣耀 100 机型提供 12GB+256GB、16GB+256GB、16GB+512GB 三种版本，<span class=\"accentTextColor\">荣耀 100 Pro 则在以上版本的基础上增加一个 16GB+1TB 版本。</span></p>",
+          "viewScope": "front_back"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-100-2023"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2570/index25696118_0_p1948397.shtml",
+          "sourceSnapshotHash": "4ccc8fada2b8c2cd32b09141f599f880ce9c5d092c5a0093a03cdb436a319582",
+          "sourceName": "已核对型号配色图",
+          "url": "https://2e.zol-img.com.cn/product/256/138/ceZzIWcA4tNg.jpg",
+          "color": "迷蝶蓝",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageScope": "product_render",
+          "sha256": "207616ecb86dd5953ec70fec65c58cff66aa75ce5bd324c5128cd791544e35c0",
+          "width": 1067,
+          "height": 800,
+          "modelAnchor": "<title>【高清图】荣耀(honor)100(12GB/256GB)外观图 图1-ZOL中关村在线</title>",
+          "licenseStatus": "unknown",
+          "note": "人工逐图核验正面完整屏幕与同色背板同框；沿用当前已登记准确型号来源，不从观感补颜色别名或改设备参数。",
+          "zolProductId": "1948397",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ceZzIWcA4tNg\",\"classId3\":\"15549\",\"classId4\":\"31857\",\"proId\":1948397,\"sequence\":\"1\",\"sid\":\"10841840\",\"orderSort\":\"1\",\"sizeInfo\":{\"source\":[\"1067\",\"800\"],\"pic\":[\"800\",\"600\"]},\"picId\":25696138,\"groupId\":0,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":4,\"classPicPos\":4,\"picPos\":4,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2e.zol-img.com.cn\\/product\\/256_100x75\\/138\\/ceZzIWcA4tNg.jpg\",\"imgWidth\":\"1067\",\"imgHeight\":\"800\",\"brief\":\"\"}",
+          "zolPicId": 25696138,
+          "zolHash": "ceZzIWcA4tNg",
+          "colorBindingMethod": "同型号 picList 原文对象、picId/hash、具名 classId4 分类严格绑定"
+        }
+      ]
     },
     {
       "id": "honor-200-2024",
@@ -537,7 +752,8 @@
         "https://detail.zol.com.cn/1797/1796413/param.shtml",
         "https://detail.zol.com.cn/1797/1796411/param.shtml",
         "https://detail.zol.com.cn/picture_index_2475/index24742526_0_p1494544.shtml",
-        "https://detail.zol.com.cn/picture_index_2475/index24742538_0_p1494544.shtml"
+        "https://detail.zol.com.cn/picture_index_2475/index24742538_0_p1494544.shtml",
+        "https://www.honor.com/cn/phones/honor-x50/"
       ],
       "releaseEvidence": {
         "value": "2023-07-14",
@@ -621,7 +837,109 @@
           }
         ],
         "gaps": []
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-x50-2023"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2475/index24742526_0_p1494544.shtml",
+          "sourceSnapshotHash": "661bec459ba6ef3640eff8ca27154be2fd350c48ca55a08c0f7dbe44b273e6d7",
+          "sourceName": "已核对型号配色图",
+          "url": "https://2e.zol-img.com.cn/product/247/522/ce5v7PV72uhS6.jpg",
+          "color": "典雅黑",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageScope": "product_render",
+          "sha256": "9c2e183654315bc2031751a05a0513a8eaf1bc8118275d6dea2143e355a0ea05",
+          "width": 1067,
+          "height": 800,
+          "modelAnchor": "<title>【高清图】荣耀(honor)X50（8GB/128GB）外观图 图1-ZOL中关村在线</title>",
+          "licenseStatus": "unknown",
+          "note": "人工逐图核验正面完整屏幕与同色背板同框；沿用当前已登记准确型号来源，不从观感补颜色别名或改设备参数。",
+          "zolProductId": "1494544",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ce5v7PV72uhS6\",\"classId3\":\"15549\",\"classId4\":\"16296\",\"proId\":1494544,\"sequence\":\"8\",\"sid\":\"10747530\",\"orderSort\":\"8\",\"sizeInfo\":{\"source\":[\"1067\",\"800\"],\"pic\":[\"800\",\"600\"]},\"picId\":24742522,\"groupId\":0,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":49,\"classPicPos\":2,\"picPos\":2,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2e.zol-img.com.cn\\/product\\/247_100x75\\/522\\/ce5v7PV72uhS6.jpg\",\"imgWidth\":\"1067\",\"imgHeight\":\"800\",\"brief\":\"\"}",
+          "zolPicId": 24742522,
+          "zolHash": "ce5v7PV72uhS6",
+          "colorBindingMethod": "同型号 picList 原文对象、picId/hash、具名 classId4 分类严格绑定"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-x50-2023"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2475/index24742526_0_p1494544.shtml",
+          "sourceSnapshotHash": "661bec459ba6ef3640eff8ca27154be2fd350c48ca55a08c0f7dbe44b273e6d7",
+          "sourceName": "已核对型号配色图",
+          "url": "https://2c.zol-img.com.cn/product/247/526/ceIo56eugBVgw.jpg",
+          "color": "雨后初晴",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageScope": "product_render",
+          "sha256": "ad459f7b82c0a51ec53dad87f95e5f036875bbc374a9b8978c7ab7fef7ff4287",
+          "width": 1067,
+          "height": 800,
+          "modelAnchor": "<title>【高清图】荣耀(honor)X50（8GB/128GB）外观图 图1-ZOL中关村在线</title>",
+          "licenseStatus": "unknown",
+          "note": "人工逐图核验正面完整屏幕与同色背板同框；沿用当前已登记准确型号来源，不从观感补颜色别名或改设备参数。",
+          "zolProductId": "1494544",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ceIo56eugBVgw\",\"classId3\":\"15549\",\"classId4\":\"31278\",\"proId\":1494544,\"sequence\":\"9\",\"sid\":\"10747530\",\"orderSort\":\"9\",\"sizeInfo\":{\"source\":[\"1067\",\"800\"],\"pic\":[\"800\",\"600\"]},\"picId\":24742526,\"groupId\":0,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":49,\"classPicPos\":1,\"picPos\":1,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2c.zol-img.com.cn\\/product\\/247_100x75\\/526\\/ceIo56eugBVgw.jpg\",\"imgWidth\":\"1067\",\"imgHeight\":\"800\",\"brief\":\"\"}",
+          "zolPicId": 24742526,
+          "zolHash": "ceIo56eugBVgw",
+          "colorBindingMethod": "同型号 picList 原文对象、picId/hash、具名 classId4 分类严格绑定"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-x50-2023"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2475/index24742526_0_p1494544.shtml",
+          "sourceSnapshotHash": "661bec459ba6ef3640eff8ca27154be2fd350c48ca55a08c0f7dbe44b273e6d7",
+          "sourceName": "已核对型号配色图",
+          "url": "https://2b.zol-img.com.cn/product/247/257/ceYVArbFlXug.jpg",
+          "color": "勃朗蓝",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageScope": "product_render",
+          "sha256": "43f63ea1f7f35857011f17ee557d0fef5fe7f9ad79b2866b100d9fc560e768af",
+          "width": 1067,
+          "height": 800,
+          "modelAnchor": "<title>【高清图】荣耀(honor)X50（8GB/128GB）外观图 图1-ZOL中关村在线</title>",
+          "licenseStatus": "unknown",
+          "note": "人工逐图核验正面完整屏幕与同色背板同框；沿用当前已登记准确型号来源，不从观感补颜色别名或改设备参数。",
+          "zolProductId": "1494544",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ceYVArbFlXug\",\"classId3\":\"15549\",\"classId4\":\"27288\",\"proId\":1494544,\"sequence\":\"8\",\"sid\":\"10747530\",\"orderSort\":\"8\",\"sizeInfo\":{\"source\":[\"1067\",\"800\"],\"pic\":[\"800\",\"600\"]},\"picId\":24758257,\"groupId\":0,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":49,\"classPicPos\":5,\"picPos\":5,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2b.zol-img.com.cn\\/product\\/247_100x75\\/257\\/ceYVArbFlXug.jpg\",\"imgWidth\":\"1067\",\"imgHeight\":\"800\",\"brief\":\"\"}",
+          "zolPicId": 24758257,
+          "zolHash": "ceYVArbFlXug",
+          "colorBindingMethod": "同型号 picList 原文对象、picId/hash、具名 classId4 分类严格绑定"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "honor-x50-2023"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2475/index24742526_0_p1494544.shtml",
+          "sourceSnapshotHash": "661bec459ba6ef3640eff8ca27154be2fd350c48ca55a08c0f7dbe44b273e6d7",
+          "sourceName": "已核对型号配色图",
+          "url": "https://2e.zol-img.com.cn/product/247/254/ceEGmATyDfxEM.jpg",
+          "color": "燃橙色",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageScope": "product_render",
+          "sha256": "799bcb4df8be9ea2215798b00ac07c243cf7be75249fdcefaef7e183a05e2bae",
+          "width": 1067,
+          "height": 800,
+          "modelAnchor": "<title>【高清图】荣耀(honor)X50（8GB/128GB）外观图 图1-ZOL中关村在线</title>",
+          "licenseStatus": "unknown",
+          "note": "人工逐图核验正面完整屏幕与同色背板同框；沿用当前已登记准确型号来源，不从观感补颜色别名或改设备参数。",
+          "zolProductId": "1494544",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ceEGmATyDfxEM\",\"classId3\":\"15549\",\"classId4\":\"18533\",\"proId\":1494544,\"sequence\":\"8\",\"sid\":\"10747530\",\"orderSort\":\"8\",\"sizeInfo\":{\"source\":[\"1067\",\"800\"],\"pic\":[\"800\",\"600\"]},\"picId\":24758254,\"groupId\":0,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":49,\"classPicPos\":4,\"picPos\":4,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2e.zol-img.com.cn\\/product\\/247_100x75\\/254\\/ceEGmATyDfxEM.jpg\",\"imgWidth\":\"1067\",\"imgHeight\":\"800\",\"brief\":\"\"}",
+          "zolPicId": 24758254,
+          "zolHash": "ceEGmATyDfxEM",
+          "colorBindingMethod": "同型号 picList 原文对象、picId/hash、具名 classId4 分类严格绑定"
+        }
+      ]
     }
   ],
   "tablet": [

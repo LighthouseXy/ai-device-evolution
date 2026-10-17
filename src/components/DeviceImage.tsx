@@ -3,10 +3,15 @@
 import Image from "next/image";
 import { useState } from "react";
 import type { DeviceImageGallery, DeviceProductImage } from "@/lib/device-images";
+
+type PreviewImage = Pick<DeviceProductImage, "url" | "previewFocus">;
+function hasImageEvidence(photo: DeviceProductImage | PreviewImage): photo is DeviceProductImage {
+  return "sourceUrl" in photo;
+}
 import DevicePhotoZoom from "@/components/DevicePhotoZoom";
 
 export default function DeviceImage({ image, gallery, showColors = false, model, className = "" }: {
-  image?: DeviceProductImage;
+  image?: DeviceProductImage | PreviewImage;
   gallery?: DeviceImageGallery;
   showColors?: boolean;
   model: string;
@@ -36,7 +41,7 @@ export default function DeviceImage({ image, gallery, showColors = false, model,
           className="absolute inset-0 cursor-zoom-in rounded-2xl focus-visible:outline-2 focus-visible:outline-[var(--primary)]"
           onClick={() => setZoomUrl(photo.url)}><span className="absolute bottom-2 right-3 rounded-full bg-white/90 px-3 py-1 text-xs text-[var(--primary)]">放大查看</span></button>}
       </div>
-      {photo && zoomUrl === photo.url && <DevicePhotoZoom image={photo} model={model} onClose={() => setZoomUrl(undefined)} />}
+      {photo && hasImageEvidence(photo) && zoomUrl === photo.url && <DevicePhotoZoom image={photo} model={model} onClose={() => setZoomUrl(undefined)} />}
       {showColors && gallery && (
         <div className="mt-3">
           <div className="mb-2 flex flex-wrap items-center justify-between gap-2 text-xs text-[var(--text-muted)]">
@@ -44,7 +49,7 @@ export default function DeviceImage({ image, gallery, showColors = false, model,
           </div>
           <div className="flex flex-wrap gap-2" role="group" aria-label={`${model}颜色图片`}>
             {image && <button type="button" className={`tag ${!selected ? "tag-green" : "tag-neutral"}`}
-              aria-pressed={!selected} onClick={() => setColorName(undefined)}>外观参考</button>}
+              aria-pressed={!selected} onClick={() => setColorName(undefined)}>{hasImageEvidence(image) && image.colorScope === "all_colors" ? "多色宣传图" : "外观参考"}</button>}
             {gallery.colors.map((color) => <button key={color.name} type="button"
               className={`tag ${selected?.name === color.name ? "tag-green" : "tag-neutral"}`}
               aria-pressed={selected?.name === color.name} onClick={() => setColorName(color.name)}>
@@ -54,12 +59,12 @@ export default function DeviceImage({ image, gallery, showColors = false, model,
           <p className="mt-2 text-xs leading-5 text-[var(--text-soft)]">仅切换外观图片；各款式价格和参数差异见下方，不代表当前有货。</p>
         </div>
       )}
-      {showColors && source && <p className="mt-2 text-center text-xs leading-5 text-[var(--text-soft)]">
-        外观参考{selected ? ` · ${selected.name}` : " · 可能展示多个配色"} · <a href={source.sourceUrl}
+      {showColors && source && "sourceUrl" in source && <p className="mt-2 text-center text-xs leading-5 text-[var(--text-soft)]">
+        外观参考{selected ? ` · ${selected.name}` : photo && hasImageEvidence(photo) && photo.colorScope === "all_colors" ? " · 全配色宣传图" : ""} · <a href={source.sourceUrl}
           target="_blank" rel="noopener noreferrer" className="text-[var(--primary)]">{source.sourceName}</a>
       </p>}
-      {showColors && photo?.imageScope === "model_shared" && <p className="mt-2 text-center text-xs leading-5 text-[var(--text-soft)]">
-        {photo.note}；画面中的键盘、手写笔等配件不代表标配。
+      {showColors && photo && hasImageEvidence(photo) && photo.note && <p className="mt-2 text-center text-xs leading-5 text-[var(--text-soft)]">
+        {photo.note}{photo.imageScope === "model_shared" ? "；画面中的键盘、手写笔等配件不代表标配。" : ""}
       </p>}
     </div>
   );

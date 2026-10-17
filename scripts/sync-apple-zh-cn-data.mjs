@@ -1293,7 +1293,8 @@ function extractField(device, fieldName, sections, oldField, sourceUrl) {
   const blocks = allBlocks(sections);
 
   if (fieldName === "colors") {
-    const values = finish.filter((block) => !/设计|面板|背板|机身|外壳|玻璃|铝金属|钛金属设计/.test(block));
+    const values = finish.filter((block) => !/设计|面板|背板|机身|外壳|玻璃|铝金属|钛金属设计/.test(block))
+      .flatMap(block => block.split(/[、，,]/).map(value => value.trim()).filter(Boolean));
     return spec(values.length ? values : null, values.join("、"), oldField, sourceUrl);
   }
   if (fieldName === "material") {

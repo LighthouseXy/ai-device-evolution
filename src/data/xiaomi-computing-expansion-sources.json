@@ -203,7 +203,8 @@
         "https://detail.zol.com.cn/series/702/55731/param_10823855_0_1.html",
         "https://detail.zol.com.cn/1904/1903035/param.shtml",
         "https://detail.zol.com.cn/1914/1913352/param.shtml",
-        "https://detail.zol.com.cn/1914/1913353/param.shtml"
+        "https://detail.zol.com.cn/1914/1913353/param.shtml",
+        "https://product.suning.com/0000000000/12439747488.html"
       ],
       "releaseEvidence": {
         "value": "2023",
@@ -222,7 +223,30 @@
           "reason": "参数页参考报价不等于首发价；尚未取得该配置的中国大陆发布定价原文"
         }
       ],
-      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。"
+      "notes": "中文具体型号参数快照；仅登记实际读取的 3 个配置，不表示全部配置已覆盖。附加屏幕、蜂窝或套装版本不混用。",
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "redmi-pad-se-2023"
+          ],
+          "sourceName": "苏宁易购小米苏宁自营旗舰店",
+          "sourceUrl": "https://product.suning.com/0000000000/12439747488.html",
+          "sourceSnapshotHash": "131a6e3a9477379aa1ecc110840fa2e846f81d6c84554d9a274834364d5d718d",
+          "url": "https://imgservice.suning.cn/uimg1/b2c/image/g3jbKUh6q6QnqbRqhxyzDQ.jpg_800w_800h_4e",
+          "color": "深灰色",
+          "viewScope": "front_back",
+          "imageScope": "model_shared",
+          "sha256": "f3ec197075d448f3a88dd9673e2a5fe14ce797ce42ccf347e0f48d6e725cde1e",
+          "width": 800,
+          "height": 800,
+          "licenseStatus": "unknown",
+          "anchor": "<img onerror=\"this.src='//res.suning.cn/project/pdsWeb/images/blank_pic_800.jpg'\" alt=\"小米(MI) 平板 Redmi Pad SE 11英寸 8GB 128GB 平板电脑 90Hz高刷 娱乐影音办公学习平板 深灰色\" src=\"//imgservice.suning.cn/uimg1/b2c/image/g3jbKUh6q6QnqbRqhxyzDQ.jpg_800w_800h_4e\">",
+          "colorAnchor": "<title>【小米(mi)平板电脑Redmi Pad SE】 小米(MI) 平板 Redmi Pad SE 11英寸 8GB 128GB 平板电脑 90Hz高刷 娱乐影音办公学习平板 深灰色【价格 图片 品牌 报价】-苏宁易购小米苏宁自营旗舰店</title>",
+          "modelAnchor": "<title>【小米(mi)平板电脑Redmi Pad SE】 小米(MI) 平板 Redmi Pad SE 11英寸 8GB 128GB 平板电脑 90Hz高刷 娱乐影音办公学习平板 深灰色【价格 图片 品牌 报价】-苏宁易购小米苏宁自营旗舰店</title>",
+          "imageRendition": "suning_large"
+        }
+      ]
     },
     {
       "id": "redmi-pad-pro-2024",

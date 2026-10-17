@@ -6,6 +6,7 @@ import {
   formatMaybeCurrency,
   getCatalogSeriesOptions,
   getDevicesByComparisonGroupKeyFlat,
+  resolveCatalogComparisonGroupKey,
 } from "@/lib/devices-db";
 import {
   formatSignedZhNumber,
@@ -14,7 +15,7 @@ import {
 import PageHeader from "@/components/layout/PageHeader";
 import TickDivider from "@/components/layout/TickDivider";
 import DeviceCatalogFilters from "@/components/DeviceCatalogFilters";
-import { brandLabels } from "@/lib/catalog-order";
+import { brandLabels, getCatalogBrandFilter, matchesCatalogBrand } from "@/lib/catalog-order";
 
 type SearchParams = {
   brand?: string | string[];
@@ -271,13 +272,13 @@ export default async function TrendsPage({
   const resolvedSearchParams = await searchParams;
   const catalogGroups = getCatalogSeriesOptions(2);
   const requestedSeries = normalizeSeries(resolvedSearchParams.series);
-  const requestedGroupId = getDevicesByComparisonGroupKeyFlat(requestedSeries)[0]?.comparisonGroupId;
+  const requestedGroupId = resolveCatalogComparisonGroupKey(requestedSeries);
   const requestedBrand = normalizeSeries(resolvedSearchParams.brand) === "Xiaomi"
     && catalogGroups.some((group) => group.key === requestedGroupId && group.brand === "Redmi")
     ? "Redmi" : normalizeSeries(resolvedSearchParams.brand);
-  const selectedBrand = catalogGroups.some((group) => group.brand === requestedBrand) ? requestedBrand
-    : catalogGroups.find((group) => group.key === requestedGroupId)?.brand ?? "Apple";
-  const brandGroups = catalogGroups.filter((group) => group.brand === selectedBrand);
+  const selectedBrand = catalogGroups.some((group) => matchesCatalogBrand(group.brand, requestedBrand)) ? getCatalogBrandFilter(requestedBrand)
+    : getCatalogBrandFilter(catalogGroups.find((group) => group.key === requestedGroupId)?.brand ?? "Apple");
+  const brandGroups = catalogGroups.filter((group) => matchesCatalogBrand(group.brand, selectedBrand));
   const requestedCategory = normalizeCategory(resolvedSearchParams.category);
   const selectedCategory = brandGroups.some((group) => group.category === requestedCategory) ? requestedCategory
     : brandGroups[0]?.category ?? "phone";

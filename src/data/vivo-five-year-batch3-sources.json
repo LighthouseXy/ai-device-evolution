@@ -832,7 +832,34 @@
           "https://detail.zol.com.cn/picture_index_2706/index27056456_0_p2113676.shtml"
         ],
         "gaps": []
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "iqoo-neo10-2024"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_2706/index27056454_0_p2113676.shtml",
+          "sourceSnapshotHash": "1ba662f72d7dd858374c5bf9323ffca2a5e15e8d38539aa6e41645b0233c01a5",
+          "sourceName": "已核对型号配色图",
+          "url": "https://2b.zol-img.com.cn/product/270/455/ceGr0BoTFAvs.jpg",
+          "color": "疾彩黑",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "imageScope": "product_render",
+          "sha256": "adcb8f557a93cad419696c955fd29dc1a5adba09247bda30483cdee21fe73d97",
+          "width": 1067,
+          "height": 800,
+          "modelAnchor": "<title>【高清图】iQOO(iQOO)Neo10(12GB/256GB)外观图 图2-ZOL中关村在线</title>",
+          "licenseStatus": "unknown",
+          "note": "人工逐图核验正面完整屏幕与同色背板同框；沿用当前已登记准确型号来源，不从观感补颜色别名或改设备参数。",
+          "zolProductId": "2113676",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ceGr0BoTFAvs\",\"classId3\":\"15549\",\"classId4\":\"37889\",\"proId\":2113676,\"sequence\":\"3\",\"sid\":\"10907848\",\"orderSort\":\"3\",\"sizeInfo\":{\"source\":[\"1067\",\"800\"],\"pic\":[\"800\",\"600\"]},\"picId\":27056455,\"groupId\":0,\"name\":\"\\u5916\\u89c2\\u56fe\",\"curClassId\":3,\"classNum\":19,\"classPicPos\":3,\"picPos\":3,\"className\":\"\\u5916\\u89c2\\u56fe\",\"classId\":15549,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2b.zol-img.com.cn\\/product\\/270_100x75\\/455\\/ceGr0BoTFAvs.jpg\",\"imgWidth\":\"1067\",\"imgHeight\":\"800\",\"brief\":\"\"}",
+          "zolPicId": 27056455,
+          "zolHash": "ceGr0BoTFAvs",
+          "colorBindingMethod": "同型号 picList 原文对象、picId/hash、具名 classId4 分类严格绑定"
+        }
+      ]
     },
     {
       "id": "iqoo-neo10-pro-2024",

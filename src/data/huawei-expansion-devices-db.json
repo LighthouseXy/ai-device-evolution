@@ -3956,26 +3956,26 @@
           "sourceSnapshotHash": "9a6c73f0d47e969707841b68adc9fe39e76f2ac386382dc683cadb0f16860c87"
         },
         "rearCamera": {
-          "value": "后置摄像头1：5000万像素 后置摄像头2：1200万像素 后置摄像头3：1300万像素 后置摄像头4：500万像素",
-          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：1200万像素 后置摄像头3：1300万像素 后置摄像头4：500万像素 前置摄像头1：1300万像素",
+          "value": "5000 万像素超聚光摄像头（F1.4-F4.0 光圈，OIS 光学防抖）；1200 万像素潜望式长焦摄像头（F3.4 光圈，OIS 光学防抖）；1300 万像素超广角摄像头（F2.2 光圈）；150 万多光谱通道红枫原色摄像头",
+          "rawText": "5000 万像素超聚光摄像头（F1.4-F4.0 光圈，OIS 光学防抖） 1200 万像素潜望式长焦摄像头（F3.4 光圈，OIS 光学防抖） 1300 万像素超广角摄像头（F2.2 光圈） 150 万多光谱通道红枫原色摄像头",
           "evidenceKind": "excerpt",
-          "sourceUrl": "https://detail.zol.com.cn/2130/2129355/param.shtml",
-          "sourceType": "reference",
-          "confidence": 0.8,
-          "verifiedAt": "2026-10-03",
-          "fetchedAt": "2026-10-03T00:57:36.099Z",
-          "sourceSnapshotHash": "9a6c73f0d47e969707841b68adc9fe39e76f2ac386382dc683cadb0f16860c87"
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-09",
+          "fetchedAt": "2026-10-09T08:58:47.908Z",
+          "sourceSnapshotHash": "31ba4d583de3198caae4e980ac9e1017688ca84af71bfd0091342287073b62f2"
         },
         "frontCamera": {
-          "value": "前置摄像头1：1300万像素",
-          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：1200万像素 后置摄像头3：1300万像素 后置摄像头4：500万像素 前置摄像头1：1300万像素",
+          "value": "1300 万像素超广角摄像头（F2.0 光圈，自动对焦）",
+          "rawText": "1300 万像素超广角摄像头（F2.0 光圈，自动对焦）",
           "evidenceKind": "excerpt",
-          "sourceUrl": "https://detail.zol.com.cn/2130/2129355/param.shtml",
-          "sourceType": "reference",
-          "confidence": 0.8,
-          "verifiedAt": "2026-10-03",
-          "fetchedAt": "2026-10-03T00:57:36.099Z",
-          "sourceSnapshotHash": "9a6c73f0d47e969707841b68adc9fe39e76f2ac386382dc683cadb0f16860c87"
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-09",
+          "fetchedAt": "2026-10-09T08:58:47.908Z",
+          "sourceSnapshotHash": "31ba4d583de3198caae4e980ac9e1017688ca84af71bfd0091342287073b62f2"
         },
         "operatingSystem": {
           "value": "HarmonyOS 5.1",
@@ -4042,6 +4042,72 @@
           "verifiedAt": "2026-10-03",
           "fetchedAt": "2026-10-03T00:57:36.099Z",
           "sourceSnapshotHash": "9a6c73f0d47e969707841b68adc9fe39e76f2ac386382dc683cadb0f16860c87"
+        },
+        "mainCamera": {
+          "value": "5000 万像素超聚光摄像头（F1.4-F4.0 光圈，OIS 光学防抖）",
+          "rawText": "5000 万像素超聚光摄像头（F1.4-F4.0 光圈，OIS 光学防抖）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-09",
+          "fetchedAt": "2026-10-09T08:58:47.908Z",
+          "sourceSnapshotHash": "31ba4d583de3198caae4e980ac9e1017688ca84af71bfd0091342287073b62f2"
+        },
+        "telephoto": {
+          "value": "1200 万像素潜望式长焦摄像头（F3.4 光圈，OIS 光学防抖）",
+          "rawText": "1200 万像素潜望式长焦摄像头（F3.4 光圈，OIS 光学防抖）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-09",
+          "fetchedAt": "2026-10-09T08:58:47.908Z",
+          "sourceSnapshotHash": "31ba4d583de3198caae4e980ac9e1017688ca84af71bfd0091342287073b62f2"
+        },
+        "ultraWide": {
+          "value": "1300 万像素超广角摄像头（F2.2 光圈）",
+          "rawText": "1300 万像素超广角摄像头（F2.2 光圈）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-09",
+          "fetchedAt": "2026-10-09T08:58:47.908Z",
+          "sourceSnapshotHash": "31ba4d583de3198caae4e980ac9e1017688ca84af71bfd0091342287073b62f2"
+        },
+        "colorCamera": {
+          "value": "150 万多光谱通道红枫原色摄像头",
+          "rawText": "150 万多光谱通道红枫原色摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-09",
+          "fetchedAt": "2026-10-09T08:58:47.908Z",
+          "sourceSnapshotHash": "31ba4d583de3198caae4e980ac9e1017688ca84af71bfd0091342287073b62f2"
+        },
+        "opticalZoom": {
+          "value": "支持 5.5 倍光学变焦（5.5 倍变焦为近似值，镜头焦段分别为 13 mm，24 mm，125 mm）、50 倍数字变焦",
+          "rawText": "支持 5.5 倍光学变焦（5.5 倍变焦为近似值，镜头焦段分别为 13 mm，24 mm，125 mm）、50 倍数字变焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-09",
+          "fetchedAt": "2026-10-09T08:58:47.908Z",
+          "sourceSnapshotHash": "31ba4d583de3198caae4e980ac9e1017688ca84af71bfd0091342287073b62f2"
+        },
+        "videoRecording": {
+          "value": "后置：最大支持 4K（3840 × 2160）视频录制，支持 AIS 防抖；支持 1080p@480fps 超级慢动作视频；不同拍摄模式的视频像素可能有差异，请以实际为准。；1080p@480fps 基于 AI 插帧算法技术实现。",
+          "rawText": "最大支持 4K（3840 × 2160）视频录制，支持 AIS 防抖；支持 1080p@480fps 超级慢动作视频 *不同拍摄模式的视频像素可能有差异，请以实际为准。 **1080p@480fps 基于 AI 插帧算法技术实现。",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-09",
+          "fetchedAt": "2026-10-09T08:58:47.908Z",
+          "sourceSnapshotHash": "31ba4d583de3198caae4e980ac9e1017688ca84af71bfd0091342287073b62f2"
         }
       },
       "computed": {}
@@ -4236,26 +4302,26 @@
           "sourceSnapshotHash": "889512d44585010fd3e7d2c613ba84a0c70c3fd1960e783b3bcf375966e9655e"
         },
         "rearCamera": {
-          "value": "后置摄像头1：5000万像素 后置摄像头2：4800万像素 后置摄像头3：4000万像素 后置摄像头4：150万像素",
-          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：4800万像素 后置摄像头3：4000万像素 后置摄像头4：150万像素 前置摄像头1：1300万像素",
+          "value": "5000 万像素一英寸摄像头（F1.6-F4.0 光圈，OIS 光学防抖）；4800 万像素超聚光微距长焦摄像头（F2.1 光圈，OIS 光学防抖）；4000 万像素超广角摄像头（F2.2 光圈）；150 万多光谱通道红枫原色摄像头",
+          "rawText": "5000 万像素一英寸摄像头（F1.6-F4.0 光圈，OIS 光学防抖） 4800 万像素超聚光微距长焦摄像头（F2.1 光圈，OIS 光学防抖） 4000 万像素超广角摄像头（F2.2 光圈） 150 万多光谱通道红枫原色摄像头",
           "evidenceKind": "excerpt",
-          "sourceUrl": "https://detail.zol.com.cn/2130/2129587/param.shtml",
-          "sourceType": "reference",
-          "confidence": 0.8,
-          "verifiedAt": "2026-10-03",
-          "fetchedAt": "2026-10-03T00:57:36.071Z",
-          "sourceSnapshotHash": "889512d44585010fd3e7d2c613ba84a0c70c3fd1960e783b3bcf375966e9655e"
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-09",
+          "fetchedAt": "2026-10-09T08:58:47.899Z",
+          "sourceSnapshotHash": "9ede663d87bb8c5db25c4c34d291b80ec4e1b1b15497096b7588a03b417226bd"
         },
         "frontCamera": {
-          "value": "前置摄像头1：1300万像素",
-          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：4800万像素 后置摄像头3：4000万像素 后置摄像头4：150万像素 前置摄像头1：1300万像素",
+          "value": "1300 万像素超广角摄像头（F2.0 光圈，自动对焦）",
+          "rawText": "1300 万像素超广角摄像头（F2.0 光圈，自动对焦）",
           "evidenceKind": "excerpt",
-          "sourceUrl": "https://detail.zol.com.cn/2130/2129587/param.shtml",
-          "sourceType": "reference",
-          "confidence": 0.8,
-          "verifiedAt": "2026-10-03",
-          "fetchedAt": "2026-10-03T00:57:36.071Z",
-          "sourceSnapshotHash": "889512d44585010fd3e7d2c613ba84a0c70c3fd1960e783b3bcf375966e9655e"
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-09",
+          "fetchedAt": "2026-10-09T08:58:47.899Z",
+          "sourceSnapshotHash": "9ede663d87bb8c5db25c4c34d291b80ec4e1b1b15497096b7588a03b417226bd"
         },
         "operatingSystem": {
           "value": "HarmonyOS 5.1",
@@ -4322,6 +4388,72 @@
           "verifiedAt": "2026-10-03",
           "fetchedAt": "2026-10-03T00:57:36.071Z",
           "sourceSnapshotHash": "889512d44585010fd3e7d2c613ba84a0c70c3fd1960e783b3bcf375966e9655e"
+        },
+        "mainCamera": {
+          "value": "5000 万像素一英寸摄像头（F1.6-F4.0 光圈，OIS 光学防抖）",
+          "rawText": "5000 万像素一英寸摄像头（F1.6-F4.0 光圈，OIS 光学防抖）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-09",
+          "fetchedAt": "2026-10-09T08:58:47.899Z",
+          "sourceSnapshotHash": "9ede663d87bb8c5db25c4c34d291b80ec4e1b1b15497096b7588a03b417226bd"
+        },
+        "telephoto": {
+          "value": "4800 万像素超聚光微距长焦摄像头（F2.1 光圈，OIS 光学防抖）",
+          "rawText": "4800 万像素超聚光微距长焦摄像头（F2.1 光圈，OIS 光学防抖）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-09",
+          "fetchedAt": "2026-10-09T08:58:47.899Z",
+          "sourceSnapshotHash": "9ede663d87bb8c5db25c4c34d291b80ec4e1b1b15497096b7588a03b417226bd"
+        },
+        "ultraWide": {
+          "value": "4000 万像素超广角摄像头（F2.2 光圈）",
+          "rawText": "4000 万像素超广角摄像头（F2.2 光圈）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-09",
+          "fetchedAt": "2026-10-09T08:58:47.899Z",
+          "sourceSnapshotHash": "9ede663d87bb8c5db25c4c34d291b80ec4e1b1b15497096b7588a03b417226bd"
+        },
+        "colorCamera": {
+          "value": "150 万多光谱通道红枫原色摄像头",
+          "rawText": "150 万多光谱通道红枫原色摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-09",
+          "fetchedAt": "2026-10-09T08:58:47.899Z",
+          "sourceSnapshotHash": "9ede663d87bb8c5db25c4c34d291b80ec4e1b1b15497096b7588a03b417226bd"
+        },
+        "opticalZoom": {
+          "value": "支持 4 倍光学变焦（4 倍变焦为近似值，镜头焦段分别为 13 mm，22.5 mm，92.5 mm）、100 倍数字变焦",
+          "rawText": "支持 4 倍光学变焦（4 倍变焦为近似值，镜头焦段分别为 13 mm，22.5 mm，92.5 mm）、100 倍数字变焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-09",
+          "fetchedAt": "2026-10-09T08:58:47.899Z",
+          "sourceSnapshotHash": "9ede663d87bb8c5db25c4c34d291b80ec4e1b1b15497096b7588a03b417226bd"
+        },
+        "videoRecording": {
+          "value": "后置：最大支持 4K（3840 × 2160）视频录制，支持 AIS 防抖；支持 1080p@960fps 超级慢动作视频；不同拍摄模式的视频像素可能有差异，请以实际为准。；1080p@960fps 基于 AI 插帧算法技术实现。",
+          "rawText": "最大支持 4K（3840 × 2160）视频录制，支持 AIS 防抖；支持 1080p@960fps 超级慢动作视频 *不同拍摄模式的视频像素可能有差异，请以实际为准。 **1080p@960fps 基于 AI 插帧算法技术实现。",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-pro/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-09",
+          "fetchedAt": "2026-10-09T08:58:47.899Z",
+          "sourceSnapshotHash": "9ede663d87bb8c5db25c4c34d291b80ec4e1b1b15497096b7588a03b417226bd"
         }
       },
       "computed": {}
@@ -4501,26 +4633,26 @@
           "sourceSnapshotHash": "281e3249ff38313a0b1263dbb7b9c6ed948dba7c1a4843517253301f505e20a5"
         },
         "rearCamera": {
-          "value": "后置摄像头1：5000万像素 后置摄像头2：4800万像素 后置摄像头3：4800万像素 后置摄像头4：150万像素",
-          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：4800万像素 后置摄像头3：4800万像素 后置摄像头4：150万像素 前置摄像头1：1300万像素",
+          "value": "5000 万像素一英寸高动态摄像头（F1.6-F4.0 光圈，OIS 光学防抖）；4800 万像素超聚光微距长焦摄像头（F2.1 光圈，OIS 光学防抖）；4000 万像素超广角摄像头（F2.2 光圈）；150 万多光谱通道红枫原色摄像头",
+          "rawText": "5000 万像素一英寸高动态摄像头（F1.6-F4.0 光圈，OIS 光学防抖） 4800 万像素超聚光微距长焦摄像头（F2.1 光圈，OIS 光学防抖） 4000 万像素超广角摄像头（F2.2 光圈） 150 万多光谱通道红枫原色摄像头",
           "evidenceKind": "excerpt",
-          "sourceUrl": "https://detail.zol.com.cn/2130/2129586/param.shtml",
-          "sourceType": "reference",
-          "confidence": 0.8,
-          "verifiedAt": "2026-10-03",
-          "fetchedAt": "2026-10-03T00:57:36.182Z",
-          "sourceSnapshotHash": "281e3249ff38313a0b1263dbb7b9c6ed948dba7c1a4843517253301f505e20a5"
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-09",
+          "fetchedAt": "2026-10-09T08:58:47.888Z",
+          "sourceSnapshotHash": "25079230d032f29eb6f98e503dfd7d2bd050407aedcb1aa58227b08938d8b248"
         },
         "frontCamera": {
-          "value": "前置摄像头1：1300万像素",
-          "rawText": "像素 后置摄像头1：5000万像素 后置摄像头2：4800万像素 后置摄像头3：4800万像素 后置摄像头4：150万像素 前置摄像头1：1300万像素",
+          "value": "1300 万像素超广角摄像头（F2.0 光圈，自动对焦）",
+          "rawText": "1300 万像素超广角摄像头（F2.0 光圈，自动对焦）",
           "evidenceKind": "excerpt",
-          "sourceUrl": "https://detail.zol.com.cn/2130/2129586/param.shtml",
-          "sourceType": "reference",
-          "confidence": 0.8,
-          "verifiedAt": "2026-10-03",
-          "fetchedAt": "2026-10-03T00:57:36.182Z",
-          "sourceSnapshotHash": "281e3249ff38313a0b1263dbb7b9c6ed948dba7c1a4843517253301f505e20a5"
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-09",
+          "fetchedAt": "2026-10-09T08:58:47.888Z",
+          "sourceSnapshotHash": "25079230d032f29eb6f98e503dfd7d2bd050407aedcb1aa58227b08938d8b248"
         },
         "operatingSystem": {
           "value": "HarmonyOS 5.1",
@@ -4587,6 +4719,72 @@
           "verifiedAt": "2026-10-03",
           "fetchedAt": "2026-10-03T00:57:36.182Z",
           "sourceSnapshotHash": "281e3249ff38313a0b1263dbb7b9c6ed948dba7c1a4843517253301f505e20a5"
+        },
+        "mainCamera": {
+          "value": "5000 万像素一英寸高动态摄像头（F1.6-F4.0 光圈，OIS 光学防抖）",
+          "rawText": "5000 万像素一英寸高动态摄像头（F1.6-F4.0 光圈，OIS 光学防抖）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-09",
+          "fetchedAt": "2026-10-09T08:58:47.888Z",
+          "sourceSnapshotHash": "25079230d032f29eb6f98e503dfd7d2bd050407aedcb1aa58227b08938d8b248"
+        },
+        "telephoto": {
+          "value": "4800 万像素超聚光微距长焦摄像头（F2.1 光圈，OIS 光学防抖）",
+          "rawText": "4800 万像素超聚光微距长焦摄像头（F2.1 光圈，OIS 光学防抖）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-09",
+          "fetchedAt": "2026-10-09T08:58:47.888Z",
+          "sourceSnapshotHash": "25079230d032f29eb6f98e503dfd7d2bd050407aedcb1aa58227b08938d8b248"
+        },
+        "ultraWide": {
+          "value": "4000 万像素超广角摄像头（F2.2 光圈）",
+          "rawText": "4000 万像素超广角摄像头（F2.2 光圈）",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-09",
+          "fetchedAt": "2026-10-09T08:58:47.888Z",
+          "sourceSnapshotHash": "25079230d032f29eb6f98e503dfd7d2bd050407aedcb1aa58227b08938d8b248"
+        },
+        "colorCamera": {
+          "value": "150 万多光谱通道红枫原色摄像头",
+          "rawText": "150 万多光谱通道红枫原色摄像头",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-09",
+          "fetchedAt": "2026-10-09T08:58:47.888Z",
+          "sourceSnapshotHash": "25079230d032f29eb6f98e503dfd7d2bd050407aedcb1aa58227b08938d8b248"
+        },
+        "opticalZoom": {
+          "value": "支持 4 倍光学变焦（4 倍变焦为近似值，镜头焦段分别为 13 mm，22.5 mm，92.5 mm）、100 倍数字变焦",
+          "rawText": "支持 4 倍光学变焦（4 倍变焦为近似值，镜头焦段分别为 13 mm，22.5 mm，92.5 mm）、100 倍数字变焦",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-09",
+          "fetchedAt": "2026-10-09T08:58:47.888Z",
+          "sourceSnapshotHash": "25079230d032f29eb6f98e503dfd7d2bd050407aedcb1aa58227b08938d8b248"
+        },
+        "videoRecording": {
+          "value": "后置：最大支持 4K（3840 × 2160）视频录制，支持 AIS 防抖；支持 1080p@960fps 超级慢动作视频；不同拍摄模式的视频像素可能有差异，请以实际为准。；1080p@960fps 基于 AI 插帧算法技术实现。",
+          "rawText": "最大支持 4K（3840 × 2160）视频录制，支持 AIS 防抖；支持 1080p@960fps 超级慢动作视频 *不同拍摄模式的视频像素可能有差异，请以实际为准。 **1080p@960fps 基于 AI 插帧算法技术实现。",
+          "evidenceKind": "excerpt",
+          "sourceUrl": "https://consumer.huawei.com/cn/phones/pura80-pro-plus/specs/",
+          "sourceType": "official",
+          "confidence": 1,
+          "verifiedAt": "2026-10-09",
+          "fetchedAt": "2026-10-09T08:58:47.888Z",
+          "sourceSnapshotHash": "25079230d032f29eb6f98e503dfd7d2bd050407aedcb1aa58227b08938d8b248"
         }
       },
       "computed": {}

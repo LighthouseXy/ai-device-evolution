@@ -95,6 +95,19 @@ assert.ok(plan.every((row) => row.category === "phone" && row.priceType === "cur
 assert.ok(plan.every((row) => row.configuration && row.searchQuery.includes("国行")));
 const devicesById = new Map(JSON.parse(fs.readFileSync("src/data/devices-db.json", "utf8")).devices.map((device) => [device.id, device]));
 const observations = JSON.parse(fs.readFileSync("src/data/price-observations.json", "utf8"));
+const currentXiaomiBatch = JSON.parse(fs.readFileSync("scripts/fixtures/xiaomi-current-prices-2026-10-09.json", "utf8"));
+const currentXiaomiValidation = run(["validate", "scripts/fixtures/xiaomi-current-prices-2026-10-09.json"]);
+assert.equal(currentXiaomiValidation.status, 0, currentXiaomiValidation.stderr);
+assert.equal(currentXiaomiBatch.length, 9);
+for (const row of currentXiaomiBatch) {
+  const imported = [observations.current[row.deviceId]].flat().find((entry) =>
+    entry.configuration === row.configuration && entry.observedAt === row.observedAt);
+  assert.ok(imported, `${row.deviceId}: preserve the exact observed configuration`);
+  assert.equal(imported.value, row.value, "use the selected sale price, not a crossed-out price");
+  assert.match(imported.condition, /暂时缺货/);
+  assert.match(imported.condition, /不代表可立即购买/);
+  assert.equal(imported.sourceType, "official");
+}
 for (const prices of Object.values(observations.current)) {
   for (const price of [prices].flat()) {
     if (/中国大陆电商渠道参考/.test(price.configuration) && !/国行/.test(price.configuration)) {

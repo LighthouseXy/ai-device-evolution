@@ -86,7 +86,10 @@
         "https://detail.zol.com.cn/1282/1281891/param.shtml",
         "https://detail.zol.com.cn/1283/1282210/param.shtml",
         "https://detail.zol.com.cn/1283/1282211/param.shtml",
-        "https://www.mi.com/micc9e/specs"
+        "https://www.mi.com/micc9e/specs",
+        "https://product.suning.com/0070768200/11222819249.html",
+        "https://product.suning.com/0070768200/11222783432.html",
+        "https://m.suning.com/product/0000000000/000000011210569546.html?src=8614483028&srcPoint=8614483028"
       ],
       "releaseEvidence": {
         "value": "2019-07-02",
@@ -145,7 +148,57 @@
         "sourceSnapshotHash": "71d78ba67bd030a9c510369ed37338e1fe59cab1a0fb799d4a564a9f25b6c556",
         "licenseStatus": "unknown",
         "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-cc9e-2019"
+          ],
+          "sourceUrl": "https://product.suning.com/0070768200/11222819249.html",
+          "sourceSnapshotHash": "f5a4edeab105ec2bc4d95285fa64d3a8224923d310d47b03c497e024c661c40e",
+          "sourceName": "苏宁易购具体SKU",
+          "anchor": "<img onerror=\"this.src='//res.suning.cn/project/pdsWeb/images/blank_pic_800.jpg'\" alt=\"小米(MI)小米CC9e 6GB+128GB 白色恋人 屏幕指纹 3200万美颜自拍 4800万超广角三摄 全网通 水滴全面屏拍照游戏手机/小米cc9e\" src=\"//imgservice.suning.cn/uimg1/b2c/image/EUhMfoz2o4KJJ93XDwPrGQ.jpg_800w_800h_4e\">",
+          "url": "https://imgservice.suning.cn/uimg1/b2c/image/EUhMfoz2o4KJJ93XDwPrGQ.jpg_800w_800h_4e",
+          "color": "白色恋人",
+          "viewScope": "front_back",
+          "note": "零售标题明确CC9e和白色恋人；原生800主图正反同框，非现场照片。",
+          "colorAnchor": "<title>【小米(mi)手机CC9e】 小米(MI)小米CC9e 6GB+128GB 白色恋人 屏幕指纹 3200万美颜自拍 4800万超广角三摄 全网通 水滴全面屏拍照游戏手机/小米cc9e【价格 图片 品牌 报价】-苏宁易购旭远手机专营店</title>"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-cc9e-2019"
+          ],
+          "sourceUrl": "https://product.suning.com/0070768200/11222783432.html",
+          "sourceSnapshotHash": "bbb7eae9e35c3ab7fc0f345c7a4ff9653657870f7e32aeb300ff48779be4932d",
+          "sourceName": "苏宁易购具体SKU",
+          "anchor": "<img onerror=\"this.src='//res.suning.cn/project/pdsWeb/images/blank_pic_800.jpg'\" alt=\"小米(MI)小米CC9e 6GB+64GB 暗夜王子 屏幕指纹 3200万美颜自拍 4800万超广角三摄 全网通 水滴全面屏拍照游戏手机/小米cc9e\" src=\"//imgservice.suning.cn/uimg1/b2c/image/N9xx_bbNfYIzC-CJBt5ujA.jpg_800w_800h_4e\">",
+          "url": "https://imgservice.suning.cn/uimg1/b2c/image/N9xx_bbNfYIzC-CJBt5ujA.jpg_800w_800h_4e",
+          "color": "暗夜王子",
+          "viewScope": "front_back",
+          "note": "独立零售SKU标题明确CC9e和暗夜王子；原生800主图正反同框。",
+          "colorAnchor": "<title>【小米(mi)手机CC9e】 小米(MI)小米CC9e 6GB+64GB 暗夜王子 屏幕指纹 3200万美颜自拍 4800万超广角三摄 全网通 水滴全面屏拍照游戏手机/小米cc9e【价格 图片 品牌 报价】-苏宁易购旭远手机专营店</title>"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-cc9e-2019"
+          ],
+          "sourceUrl": "https://m.suning.com/product/0000000000/000000011210569546.html?src=8614483028&srcPoint=8614483028",
+          "sourceSnapshotHash": "f53d7a2675b1658181432f2046070e1c605cadebff96fc3ff9cb53557b2ac4c9",
+          "url": "https://imgservice.suning.cn/uimg1/b2c/image/tlGNunYApNfFiU0vJkVD9A.jpg_800w_800h_4e_80Q_is",
+          "anchor": "<img src=\"//imgservice.suning.cn/uimg1/b2c/image/tlGNunYApNfFiU0vJkVD9A.jpg_800w_800h_4e_80Q_is\" alt=\"小米 (MI) 小米CC9e 屏幕指纹 3200万美颜自拍 4800万超广角三摄 6GB+64GB 深蓝星球 全面屏拍照游戏智能手机双卡双待移动联通电信全网通4G手机图片\" onerror=\"this.src=&quot;https://res.suning.cn/project/pdnode/nuxt-dist/dist/client/nuxt/assets/images/error/blank.png?v=1789644771823&quot;\" data-v-5f47c2a6>",
+          "color": "深蓝星球",
+          "viewScope": "front_back",
+          "colorAnchor": "<title>小米 (MI) 小米CC9e 屏幕指纹 3200万美颜自拍 4800万超广角三摄 6GB+64GB 深蓝星球 全面屏拍照游戏智能手机双卡双待移动联通电信全网通4G手机【价格 图片 品牌 报价】-苏宁易购</title>",
+          "modelAnchor": "<title>小米 (MI) 小米CC9e 屏幕指纹 3200万美颜自拍 4800万超广角三摄 6GB+64GB 深蓝星球 全面屏拍照游戏智能手机双卡双待移动联通电信全网通4G手机【价格 图片 品牌 报价】-苏宁易购</title>",
+          "licenseStatus": "unknown",
+          "sourceName": "苏宁易购",
+          "imageScope": "model_shared",
+          "note": "同型号具名配色原生产品图，正反同框。 配色清单另由同型号参数原文核对。"
+        }
+      ]
     },
     {
       "id": "redmi-k20-pro-2019",
@@ -161,7 +214,8 @@
         "https://detail.zol.com.cn/1278/1277020/param.shtml",
         "https://detail.zol.com.cn/1278/1277015/param.shtml",
         "https://detail.zol.com.cn/1278/1277019/param.shtml",
-        "https://www.mi.com/redmik20pro/specs"
+        "https://www.mi.com/redmik20pro/specs",
+        "https://www.mi.com/redmik20pro"
       ],
       "releaseEvidence": {
         "value": "2019-05-28",
@@ -220,7 +274,24 @@
         "sourceSnapshotHash": "5e525e23a09070d4f69be0b4c820a63475538f723423a20f880fb21a0c36d4e8",
         "licenseStatus": "unknown",
         "status": "model_alt_and_primary_meta_verified_not_visually_reviewed"
-      }
+      },
+      "colorImageCandidates": [
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "redmi-k20-pro-2019"
+          ],
+          "sourceName": "小米中国官网历史产品页",
+          "sourceUrl": "https://www.mi.com/redmik20pro",
+          "sourceSnapshotHash": "bda740b37f6f59062a51982cf4b8b5b0c8700359b2fd1a2a473ee44dce111402",
+          "url": "https://i1.mifile.cn/f/i/2019/redmik20pro/section27_img3.jpg",
+          "anchor": "<img data-src=\"//i1.mifile.cn/f/i/2019/redmik20pro/section27_img3.jpg\" ?>",
+          "color": "碳纤黑",
+          "colorScope": "single_color",
+          "viewScope": "front_back",
+          "note": "已实际下载并观看，官网 K20 Pro 碳纤黑正反同框宣传图。型号由精确官网产品路径绑定，黑色碳纤纹与官网正文及规格页碳纤黑名称交叉核对，不借 K20 或尊享版图片。"
+        }
+      ]
     },
     {
       "id": "redmi-k20-2019",
@@ -545,7 +616,8 @@
       "referenceUrls": [
         "https://detail.zol.com.cn/cell_phone/index1175015.shtml",
         "https://detail.zol.com.cn/1176/1175015/param.shtml",
-        "https://www.mi.com/mi5x/specs"
+        "https://www.mi.com/mi5x/specs",
+        "https://detail.zol.com.cn/picture_index_1946/index19450593_0_p1175015.shtml"
       ],
       "releaseEvidence": {
         "value": "2017-07-26",
@@ -631,6 +703,23 @@
           "sourceSnapshotHash": "d4e93fc64412e7ba8b3d3ccd1cb20856bc97d8949c66074108366aea3ffab146",
           "licenseStatus": "unknown",
           "status": "downloaded_and_visually_reviewed"
+        },
+        {
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-5x-2017"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_1946/index19450593_0_p1175015.shtml",
+          "sourceSnapshotHash": "915a81c8c6a1a3dcbeaadcc30e17f460a0f0ff2baa40fcf3cd2662785f501b8d",
+          "sourceName": "中关村在线",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"ce5bhbLSbrW\",\"classId3\":\"13424\",\"classId4\":\"7177\",\"proId\":1175015,\"sequence\":\"199\",\"orderSort\":\"199\",\"sizeInfo\":{\"source\":[\"800\",\"600\"],\"pic\":[\"800\",\"600\"]},\"picId\":18713128,\"groupId\":0,\"name\":\"\\u5b98\\u65b9\\u56fe\",\"curClassId\":3,\"classNum\":65,\"classPicPos\":2,\"picPos\":154,\"className\":\"\\u5b98\\u65b9\\u56fe\",\"classId\":13424,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2e.zol-img.com.cn\\/product\\/187_100x75\\/128\\/ce5bhbLSbrW.jpg\",\"imgWidth\":\"800\",\"imgHeight\":\"600\",\"brief\":\"\"}",
+          "url": "https://2e.zol-img.com.cn/product/187/128/ce5bhbLSbrW.jpg",
+          "color": "红色",
+          "viewScope": "front_back",
+          "zolProductId": "1175015",
+          "zolPicId": 18713128,
+          "zolHash": "ce5bhbLSbrW",
+          "note": "现有原生产品图已逐图核验：同型号具名配色，正反同框。"
         }
       ]
     },
@@ -863,7 +952,8 @@
       "referenceUrls": [
         "https://detail.zol.com.cn/cell_phone/index1216973.shtml",
         "https://detail.zol.com.cn/1217/1216973/param.shtml",
-        "https://www.mi.com/mi8/specs"
+        "https://www.mi.com/mi8/specs",
+        "https://detail.zol.com.cn/picture_index_1926/index19256691_0_p1216973.shtml"
       ],
       "releaseEvidence": {
         "value": "2018-07",
@@ -933,13 +1023,23 @@
       },
       "colorImageCandidates": [
         {
-          "color": "黑色",
-          "url": "https://2d.zol-img.com.cn/product/192_320x240/691/cehidUnCe9zE.jpg",
-          "sha256": "5d5f2c2d6a59b240234aec790a91d8d70b43f50304a6589fe9f3e90ca925c0d0",
-          "sourceUrl": "https://detail.zol.com.cn/cell_phone/index1216973.shtml",
-          "sourceSnapshotHash": "077c9538313806d76dbe8cba84445f38528d948a30ae87627a8050c11b08ff9f",
+          "status": "downloaded_and_visually_reviewed",
+          "targetIds": [
+            "xiaomi-8-explorer-2018"
+          ],
+          "sourceUrl": "https://detail.zol.com.cn/picture_index_1926/index19256691_0_p1216973.shtml",
+          "sourceSnapshotHash": "b17707faddcfa69becf3cd49a78c366beeb2ce63d57c8f035eb5d5b096ff3480",
+          "sourceName": "中关村在线",
+          "anchor": "{\"extName\":\"jpg\",\"hash\":\"cehidUnCe9zE\",\"classId3\":\"13424\",\"classId4\":\"392\",\"proId\":1216973,\"sequence\":\"199\",\"orderSort\":\"199\",\"sizeInfo\":{\"source\":[\"800\",\"600\"],\"pic\":[\"800\",\"600\"]},\"picId\":19256691,\"groupId\":0,\"name\":\"\\u5b98\\u65b9\\u56fe\",\"curClassId\":3,\"classNum\":12,\"classPicPos\":1,\"picPos\":1,\"className\":\"\\u5b98\\u65b9\\u56fe\",\"classId\":13424,\"good\":0,\"liked\":0,\"looked\":0,\"picSrc\":\"https:\\/\\/2d.zol-img.com.cn\\/product\\/192_100x75\\/691\\/cehidUnCe9zE.jpg\",\"imgWidth\":\"800\",\"imgHeight\":\"600\",\"brief\":\"\"}",
+          "url": "https://2d.zol-img.com.cn/product/192/691/cehidUnCe9zE.jpg",
+          "viewScope": "front_back",
+          "zolProductId": "1216973",
+          "zolPicId": 19256691,
+          "zolHash": "cehidUnCe9zE",
           "licenseStatus": "unknown",
-          "status": "downloaded_and_visually_reviewed"
+          "note": "逐图核验同型号原生高清图片，正反同框；不复用跨型号或配色图。",
+          "color": "黑色",
+          "colorScope": "single_color"
         }
       ]
     },
