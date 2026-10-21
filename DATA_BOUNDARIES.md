@@ -39,6 +39,6 @@ These locations identify review work, not proven infringement. Recorded third-pa
 
 Original software and technical documentation use MIT within the documented scope. Production databases and third-party expression, images, fonts and marks retain their own rights. This classification does not relicense production data.
 
-本地未提交的图片/证据扩展与远端内容不同，未当作已发布内容列入上表。完整合成演示的可合入补丁另行交付，尚未推送：它将原应用复制到隔离目录，由原创虚构数据运行，不替换生产数据，也不清理可达历史。复现状态见[复现记录](REPRODUCIBILITY.md)。
+本地未提交的图片/证据扩展与远端内容不同，未当作已发布内容列入上表。完整合成演示导出器及原创样例现已纳入源码（见 [DEMO.md](DEMO.md)）：它将原应用复制到隔离目录，由原创虚构数据运行，不替换生产数据，也不清理可达历史。复现状态见[复现记录](REPRODUCIBILITY.md)。
 
-Local uncommitted additions differ from this remote baseline and are excluded from the published counts above. A separately delivered, unpushed demo patch copies the original application into an isolated directory with original fictional data; it does not replace production data or remove reachable history. See [reproducibility](REPRODUCIBILITY.md).
+Local uncommitted additions differ from this remote baseline and are excluded from the published counts above. The included original demo addon copies the original application into an isolated directory with original fictional data; it does not replace production data or remove reachable history. See [reproducibility](REPRODUCIBILITY.md).

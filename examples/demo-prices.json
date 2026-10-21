@@ -1,0 +1,606 @@
+{
+  "current": {
+    "example-phone-1": {
+      "value": 1200,
+      "sourceUrl": "https://example.invalid/fictional/example-phone-1",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-phone-2": {
+      "value": 1500,
+      "sourceUrl": "https://example.invalid/fictional/example-phone-2",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-phone-3": {
+      "value": 1800,
+      "sourceUrl": "https://example.invalid/fictional/example-phone-3",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-tablet-1": {
+      "value": 1600,
+      "sourceUrl": "https://example.invalid/fictional/example-tablet-1",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-tablet-2": {
+      "value": 1900,
+      "sourceUrl": "https://example.invalid/fictional/example-tablet-2",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-tablet-3": {
+      "value": 2200,
+      "sourceUrl": "https://example.invalid/fictional/example-tablet-3",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-laptop-1": {
+      "value": 2000,
+      "sourceUrl": "https://example.invalid/fictional/example-laptop-1",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-laptop-2": {
+      "value": 2300,
+      "sourceUrl": "https://example.invalid/fictional/example-laptop-2",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-laptop-3": {
+      "value": 2600,
+      "sourceUrl": "https://example.invalid/fictional/example-laptop-3",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-watch-1": {
+      "value": 2400,
+      "sourceUrl": "https://example.invalid/fictional/example-watch-1",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "国行 Example Watch 1",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-watch-2": {
+      "value": 2700,
+      "sourceUrl": "https://example.invalid/fictional/example-watch-2",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "国行 Example Watch 2",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-watch-3": {
+      "value": 3000,
+      "sourceUrl": "https://example.invalid/fictional/example-watch-3",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "国行 Example Watch 3",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-band-1": {
+      "value": 2800,
+      "sourceUrl": "https://example.invalid/fictional/example-band-1",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "国行 Example Band 1",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-band-2": {
+      "value": 3100,
+      "sourceUrl": "https://example.invalid/fictional/example-band-2",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "国行 Example Band 2",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-band-3": {
+      "value": 3400,
+      "sourceUrl": "https://example.invalid/fictional/example-band-3",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "国行 Example Band 3",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-phone-1": {
+      "value": 1400,
+      "sourceUrl": "https://example.invalid/fictional/demo-phone-1",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-phone-2": {
+      "value": 1700,
+      "sourceUrl": "https://example.invalid/fictional/demo-phone-2",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-phone-3": {
+      "value": 2000,
+      "sourceUrl": "https://example.invalid/fictional/demo-phone-3",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-tablet-1": {
+      "value": 1800,
+      "sourceUrl": "https://example.invalid/fictional/demo-tablet-1",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-tablet-2": {
+      "value": 2100,
+      "sourceUrl": "https://example.invalid/fictional/demo-tablet-2",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-tablet-3": {
+      "value": 2400,
+      "sourceUrl": "https://example.invalid/fictional/demo-tablet-3",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-laptop-1": {
+      "value": 2200,
+      "sourceUrl": "https://example.invalid/fictional/demo-laptop-1",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-laptop-2": {
+      "value": 2500,
+      "sourceUrl": "https://example.invalid/fictional/demo-laptop-2",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-laptop-3": {
+      "value": 2800,
+      "sourceUrl": "https://example.invalid/fictional/demo-laptop-3",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-watch-1": {
+      "value": 2600,
+      "sourceUrl": "https://example.invalid/fictional/demo-watch-1",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "国行 Demo Watch 1",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-watch-2": {
+      "value": 2900,
+      "sourceUrl": "https://example.invalid/fictional/demo-watch-2",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "国行 Demo Watch 2",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-watch-3": {
+      "value": 3200,
+      "sourceUrl": "https://example.invalid/fictional/demo-watch-3",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "国行 Demo Watch 3",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-band-1": {
+      "value": 3000,
+      "sourceUrl": "https://example.invalid/fictional/demo-band-1",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "国行 Demo Band 1",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-band-2": {
+      "value": 3300,
+      "sourceUrl": "https://example.invalid/fictional/demo-band-2",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "国行 Demo Band 2",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-band-3": {
+      "value": 3600,
+      "sourceUrl": "https://example.invalid/fictional/demo-band-3",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "国行 Demo Band 3",
+      "condition": "全新",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    }
+  },
+  "used": {
+    "example-phone-1": {
+      "value": 1000,
+      "sourceUrl": "https://example.invalid/fictional/example-phone-1",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-phone-2": {
+      "value": 1300,
+      "sourceUrl": "https://example.invalid/fictional/example-phone-2",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-phone-3": {
+      "value": 1600,
+      "sourceUrl": "https://example.invalid/fictional/example-phone-3",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-tablet-1": {
+      "value": 1400,
+      "sourceUrl": "https://example.invalid/fictional/example-tablet-1",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-tablet-2": {
+      "value": 1700,
+      "sourceUrl": "https://example.invalid/fictional/example-tablet-2",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-tablet-3": {
+      "value": 2000,
+      "sourceUrl": "https://example.invalid/fictional/example-tablet-3",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-laptop-1": {
+      "value": 1800,
+      "sourceUrl": "https://example.invalid/fictional/example-laptop-1",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-laptop-2": {
+      "value": 2100,
+      "sourceUrl": "https://example.invalid/fictional/example-laptop-2",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-laptop-3": {
+      "value": 2400,
+      "sourceUrl": "https://example.invalid/fictional/example-laptop-3",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-watch-1": {
+      "value": 2200,
+      "sourceUrl": "https://example.invalid/fictional/example-watch-1",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "国行 Example Watch 1",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-watch-2": {
+      "value": 2500,
+      "sourceUrl": "https://example.invalid/fictional/example-watch-2",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "国行 Example Watch 2",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-watch-3": {
+      "value": 2800,
+      "sourceUrl": "https://example.invalid/fictional/example-watch-3",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "国行 Example Watch 3",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-band-1": {
+      "value": 2600,
+      "sourceUrl": "https://example.invalid/fictional/example-band-1",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "国行 Example Band 1",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-band-2": {
+      "value": 2900,
+      "sourceUrl": "https://example.invalid/fictional/example-band-2",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "国行 Example Band 2",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "example-band-3": {
+      "value": 3200,
+      "sourceUrl": "https://example.invalid/fictional/example-band-3",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "国行 Example Band 3",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-phone-1": {
+      "value": 1200,
+      "sourceUrl": "https://example.invalid/fictional/demo-phone-1",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-phone-2": {
+      "value": 1500,
+      "sourceUrl": "https://example.invalid/fictional/demo-phone-2",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-phone-3": {
+      "value": 1800,
+      "sourceUrl": "https://example.invalid/fictional/demo-phone-3",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-tablet-1": {
+      "value": 1600,
+      "sourceUrl": "https://example.invalid/fictional/demo-tablet-1",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-tablet-2": {
+      "value": 1900,
+      "sourceUrl": "https://example.invalid/fictional/demo-tablet-2",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-tablet-3": {
+      "value": 2200,
+      "sourceUrl": "https://example.invalid/fictional/demo-tablet-3",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-laptop-1": {
+      "value": 2000,
+      "sourceUrl": "https://example.invalid/fictional/demo-laptop-1",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-laptop-2": {
+      "value": 2300,
+      "sourceUrl": "https://example.invalid/fictional/demo-laptop-2",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-laptop-3": {
+      "value": 2600,
+      "sourceUrl": "https://example.invalid/fictional/demo-laptop-3",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "8GB + 128GB",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-watch-1": {
+      "value": 2400,
+      "sourceUrl": "https://example.invalid/fictional/demo-watch-1",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "国行 Demo Watch 1",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-watch-2": {
+      "value": 2700,
+      "sourceUrl": "https://example.invalid/fictional/demo-watch-2",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "国行 Demo Watch 2",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-watch-3": {
+      "value": 3000,
+      "sourceUrl": "https://example.invalid/fictional/demo-watch-3",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "国行 Demo Watch 3",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-band-1": {
+      "value": 2800,
+      "sourceUrl": "https://example.invalid/fictional/demo-band-1",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "国行 Demo Band 1",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-band-2": {
+      "value": 3100,
+      "sourceUrl": "https://example.invalid/fictional/demo-band-2",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "国行 Demo Band 2",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    },
+    "demo-band-3": {
+      "value": 3400,
+      "sourceUrl": "https://example.invalid/fictional/demo-band-3",
+      "sourceName": "Self-authored synthetic data",
+      "rawText": "虚构演示报价，不是真实商品价格",
+      "configuration": "国行 Demo Band 3",
+      "condition": "二手；虚构演示",
+      "observedAt": "2026-10-21",
+      "sourceType": "reference"
+    }
+  }
+}

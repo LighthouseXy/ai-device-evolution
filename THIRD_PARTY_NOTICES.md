@@ -29,3 +29,8 @@ The existing UI may request third-party web fonts through its unchanged styleshe
 Production data, image mappings, product photos, logos, screenshots, source-page excerpts, audiovisual resources and hardware are separately governed. In particular, the seven showcase screenshots retain the source and rights descriptions in [their documentation](docs/screenshots/ai-device/README.md); product-photo rights are not transferred by screenshot authorization. Unknown media rights remain unknown.
 
 See [LICENSE_SCOPE.md](LICENSE_SCOPE.md) and [LICENSE_SCOPE.json](LICENSE_SCOPE.json) for the version-bound software/document scope and excluded actual paths. This is not a blanket clearance of all website assets.
+
+
+## Full-application synthetic demonstration
+
+The original `examples/demo-devices.json`, `examples/demo-prices.json`, demo scripts and generated geometric icon use project MIT. The exporter does not copy production JSON, product photos, screenshots, long source extracts, fonts or real environment files. It retains package-lock dependency declarations, and dependency installation retains upstream LICENSE/NOTICE files. Exporting a demo does not remove or relicense third-party contents already in this repository or its history.

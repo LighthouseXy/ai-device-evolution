@@ -25,13 +25,13 @@ The actual clean install used the `--offline` form with a populated cache. Insta
 
 The full check exited 1 at a missing offline source snapshot. Later chained checks were not reached. No external evidence was downloaded or fabricated. Historical local evidence caches are not supplied by a clean clone.
 
-## 单独交付、尚未合入的完整应用演示补丁 / Separate unmerged full-app demo patch
+## 已纳入源码的完整应用演示 / Included full-app synthetic demo
 
-该补丁保留原应用路由、组件与默认生产脚本，仅增加导出器、原创合成输入、验证器与离线回归脚本；工具忽略规则避免生成目录进入 Git/lint。导出器只创建新的 `.demo-app`，拒绝覆盖已有目录，不复制生产 JSON、产品图片、来源长文或真实配置；默认构建路径不变。公开 README 不把补丁命令当作当前默认分支已有能力。
+该补丁保留原应用路由、组件与默认生产脚本，仅增加导出器、原创合成输入、验证器与离线回归脚本；工具忽略规则避免生成目录进入 Git/lint。导出器只创建新的 `.demo-app`，拒绝覆盖已有目录，不复制生产 JSON、产品图片、来源长文或真实配置；默认构建路径不变。导出入口已包含在本版本：`node scripts/export-demo.mjs`，运行步骤见 [DEMO.md](DEMO.md)。
 
 在隔离副本应用补丁后，完整演示的 30 条虚构设备、2 品牌、5 品类、10 个三代系列验证通过；重复生成、重复 ID 负例、目录分组及真实顾问路由的离线规则回退通过，网络 fetch 由测试拒绝。干净安装、typecheck、lint 与生产 build 通过。当前本地较新的未提交源码也通过了相同导出器的数据/API 回归与 typecheck；没有将它冒充远端已发布代码。
 
-The unmerged patch exports the original full application with 30 fictional devices into a fresh `.demo-app`. Production inputs and scripts are unchanged. Data/API regressions, deterministic generation, clean install, typecheck, lint and production build passed in the isolated default-branch copy. A copy of the newer uncommitted local source also passed data/API regressions and typecheck; it remains unpublished.
+The included addon exports the original full application with 30 fictional devices into a fresh `.demo-app`. Production inputs and scripts are unchanged. Data/API regressions, deterministic generation, clean install, typecheck, lint and production build passed in the isolated default-branch copy. A copy of the newer uncommitted local source also passed data/API regressions and typecheck; it remains unpublished.
 
 本轮 `npm run test:http` 未通过：绑定 `127.0.0.1:3197` 返回 `listen EPERM`，服务器尚未启动。已停止此项，不换端口或绕过权限；没有据此归咎应用，也没有宣称 HTTP、浏览器或视觉验收通过。
 

@@ -6,3 +6,6 @@ node_modules
 tsconfig.tsbuildinfo
 .eval-results/
 .source-cache/
+
+# Generated synthetic app; production inputs stay in src/data.
+.demo-app/

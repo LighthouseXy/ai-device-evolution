@@ -1,0 +1,5515 @@
+{
+  "metadata": {
+    "kind": "self-authored synthetic fixtures; no actual product claims"
+  },
+  "devices": [
+    {
+      "id": "example-phone-1",
+      "brand": "Example",
+      "market": "CN",
+      "category": "phone",
+      "series": "Example Phone",
+      "family": "Example Phone",
+      "variant": "standard",
+      "modelName": "Example Phone 1",
+      "generation": "1",
+      "generationOrder": 1,
+      "releaseYear": 2021,
+      "releaseDate": "2021-01-01",
+      "comparisonGroupId": "example.phone.standard",
+      "specs": {
+        "chip": {
+          "value": "Example Demo Chip 1",
+          "rawText": "自建合成演示字段：Example Demo Chip 1；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 1300,
+          "rawText": "自建合成演示字段：1300；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "8GB + 128GB",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.1,
+          "rawText": "自建合成演示字段：6.1；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 185,
+          "rawText": "自建合成演示字段：185；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 70,
+          "rawText": "自建合成演示字段：70；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "6 小时（合成）",
+          "rawText": "自建合成演示字段：6 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": false,
+          "rawText": "自建合成演示字段：False；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {},
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "chip": "Example Demo Chip 1",
+          "evidence": {
+            "value": "Self-authored synthetic combination",
+            "rawText": "自建合成演示字段：Self-authored synthetic combination；不是实际产品资料",
+            "sourceUrl": "https://example.invalid/fictional/example-phone-1",
+            "sourceType": "reference",
+            "confidence": 1,
+            "verifiedAt": "2026-10-21"
+          }
+        }
+      ]
+    },
+    {
+      "id": "example-phone-2",
+      "brand": "Example",
+      "market": "CN",
+      "category": "phone",
+      "series": "Example Phone",
+      "family": "Example Phone",
+      "variant": "standard",
+      "modelName": "Example Phone 2",
+      "generation": "2",
+      "generationOrder": 2,
+      "releaseYear": 2022,
+      "releaseDate": "2022-01-01",
+      "comparisonGroupId": "example.phone.standard",
+      "specs": {
+        "chip": {
+          "value": "Example Demo Chip 2",
+          "rawText": "自建合成演示字段：Example Demo Chip 2；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 1600,
+          "rawText": "自建合成演示字段：1600；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "8GB + 128GB",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.2,
+          "rawText": "自建合成演示字段：6.2；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 190,
+          "rawText": "自建合成演示字段：190；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 80,
+          "rawText": "自建合成演示字段：80；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "7 小时（合成）",
+          "rawText": "自建合成演示字段：7 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "自建合成演示字段：True；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {},
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "chip": "Example Demo Chip 2",
+          "evidence": {
+            "value": "Self-authored synthetic combination",
+            "rawText": "自建合成演示字段：Self-authored synthetic combination；不是实际产品资料",
+            "sourceUrl": "https://example.invalid/fictional/example-phone-2",
+            "sourceType": "reference",
+            "confidence": 1,
+            "verifiedAt": "2026-10-21"
+          }
+        }
+      ]
+    },
+    {
+      "id": "example-phone-3",
+      "brand": "Example",
+      "market": "CN",
+      "category": "phone",
+      "series": "Example Phone",
+      "family": "Example Phone",
+      "variant": "standard",
+      "modelName": "Example Phone 3",
+      "generation": "3",
+      "generationOrder": 3,
+      "releaseYear": 2023,
+      "releaseDate": "2023-01-01",
+      "comparisonGroupId": "example.phone.standard",
+      "specs": {
+        "chip": {
+          "value": "Example Demo Chip 3",
+          "rawText": "自建合成演示字段：Example Demo Chip 3；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 1900,
+          "rawText": "自建合成演示字段：1900；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "8GB + 128GB",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.3,
+          "rawText": "自建合成演示字段：6.3；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 195,
+          "rawText": "自建合成演示字段：195；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 90,
+          "rawText": "自建合成演示字段：90；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "8 小时（合成）",
+          "rawText": "自建合成演示字段：8 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "自建合成演示字段：True；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {},
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "chip": "Example Demo Chip 3",
+          "evidence": {
+            "value": "Self-authored synthetic combination",
+            "rawText": "自建合成演示字段：Self-authored synthetic combination；不是实际产品资料",
+            "sourceUrl": "https://example.invalid/fictional/example-phone-3",
+            "sourceType": "reference",
+            "confidence": 1,
+            "verifiedAt": "2026-10-21"
+          }
+        }
+      ]
+    },
+    {
+      "id": "example-tablet-1",
+      "brand": "Example",
+      "market": "CN",
+      "category": "tablet",
+      "series": "Example Tablet",
+      "family": "Example Tablet",
+      "variant": "standard",
+      "modelName": "Example Tablet 1",
+      "generation": "1",
+      "generationOrder": 1,
+      "releaseYear": 2021,
+      "releaseDate": "2021-01-01",
+      "comparisonGroupId": "example.tablet.standard",
+      "specs": {
+        "chip": {
+          "value": "Example Demo Chip 1",
+          "rawText": "自建合成演示字段：Example Demo Chip 1；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 1700,
+          "rawText": "自建合成演示字段：1700；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "8GB + 128GB",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.1,
+          "rawText": "自建合成演示字段：6.1；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 185,
+          "rawText": "自建合成演示字段：185；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 70,
+          "rawText": "自建合成演示字段：70；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "6 小时（合成）",
+          "rawText": "自建合成演示字段：6 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": false,
+          "rawText": "自建合成演示字段：False；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {},
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "chip": "Example Demo Chip 1",
+          "evidence": {
+            "value": "Self-authored synthetic combination",
+            "rawText": "自建合成演示字段：Self-authored synthetic combination；不是实际产品资料",
+            "sourceUrl": "https://example.invalid/fictional/example-tablet-1",
+            "sourceType": "reference",
+            "confidence": 1,
+            "verifiedAt": "2026-10-21"
+          }
+        }
+      ]
+    },
+    {
+      "id": "example-tablet-2",
+      "brand": "Example",
+      "market": "CN",
+      "category": "tablet",
+      "series": "Example Tablet",
+      "family": "Example Tablet",
+      "variant": "standard",
+      "modelName": "Example Tablet 2",
+      "generation": "2",
+      "generationOrder": 2,
+      "releaseYear": 2022,
+      "releaseDate": "2022-01-01",
+      "comparisonGroupId": "example.tablet.standard",
+      "specs": {
+        "chip": {
+          "value": "Example Demo Chip 2",
+          "rawText": "自建合成演示字段：Example Demo Chip 2；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 2000,
+          "rawText": "自建合成演示字段：2000；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "8GB + 128GB",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.2,
+          "rawText": "自建合成演示字段：6.2；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 190,
+          "rawText": "自建合成演示字段：190；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 80,
+          "rawText": "自建合成演示字段：80；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "7 小时（合成）",
+          "rawText": "自建合成演示字段：7 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "自建合成演示字段：True；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {},
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "chip": "Example Demo Chip 2",
+          "evidence": {
+            "value": "Self-authored synthetic combination",
+            "rawText": "自建合成演示字段：Self-authored synthetic combination；不是实际产品资料",
+            "sourceUrl": "https://example.invalid/fictional/example-tablet-2",
+            "sourceType": "reference",
+            "confidence": 1,
+            "verifiedAt": "2026-10-21"
+          }
+        }
+      ]
+    },
+    {
+      "id": "example-tablet-3",
+      "brand": "Example",
+      "market": "CN",
+      "category": "tablet",
+      "series": "Example Tablet",
+      "family": "Example Tablet",
+      "variant": "standard",
+      "modelName": "Example Tablet 3",
+      "generation": "3",
+      "generationOrder": 3,
+      "releaseYear": 2023,
+      "releaseDate": "2023-01-01",
+      "comparisonGroupId": "example.tablet.standard",
+      "specs": {
+        "chip": {
+          "value": "Example Demo Chip 3",
+          "rawText": "自建合成演示字段：Example Demo Chip 3；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 2300,
+          "rawText": "自建合成演示字段：2300；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "8GB + 128GB",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.3,
+          "rawText": "自建合成演示字段：6.3；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 195,
+          "rawText": "自建合成演示字段：195；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 90,
+          "rawText": "自建合成演示字段：90；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "8 小时（合成）",
+          "rawText": "自建合成演示字段：8 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "自建合成演示字段：True；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {},
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "chip": "Example Demo Chip 3",
+          "evidence": {
+            "value": "Self-authored synthetic combination",
+            "rawText": "自建合成演示字段：Self-authored synthetic combination；不是实际产品资料",
+            "sourceUrl": "https://example.invalid/fictional/example-tablet-3",
+            "sourceType": "reference",
+            "confidence": 1,
+            "verifiedAt": "2026-10-21"
+          }
+        }
+      ]
+    },
+    {
+      "id": "example-laptop-1",
+      "brand": "Example",
+      "market": "CN",
+      "category": "laptop",
+      "series": "Example Laptop",
+      "family": "Example Laptop",
+      "variant": "standard",
+      "modelName": "Example Laptop 1",
+      "generation": "1",
+      "generationOrder": 1,
+      "releaseYear": 2021,
+      "releaseDate": "2021-01-01",
+      "comparisonGroupId": "example.laptop.standard",
+      "specs": {
+        "chip": {
+          "value": "Example Demo Chip 1",
+          "rawText": "自建合成演示字段：Example Demo Chip 1；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 2100,
+          "rawText": "自建合成演示字段：2100；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "8GB + 128GB",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.1,
+          "rawText": "自建合成演示字段：6.1；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 185,
+          "rawText": "自建合成演示字段：185；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 70,
+          "rawText": "自建合成演示字段：70；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "6 小时（合成）",
+          "rawText": "自建合成演示字段：6 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": false,
+          "rawText": "自建合成演示字段：False；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {},
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "chip": "Example Demo Chip 1",
+          "evidence": {
+            "value": "Self-authored synthetic combination",
+            "rawText": "自建合成演示字段：Self-authored synthetic combination；不是实际产品资料",
+            "sourceUrl": "https://example.invalid/fictional/example-laptop-1",
+            "sourceType": "reference",
+            "confidence": 1,
+            "verifiedAt": "2026-10-21"
+          }
+        }
+      ]
+    },
+    {
+      "id": "example-laptop-2",
+      "brand": "Example",
+      "market": "CN",
+      "category": "laptop",
+      "series": "Example Laptop",
+      "family": "Example Laptop",
+      "variant": "standard",
+      "modelName": "Example Laptop 2",
+      "generation": "2",
+      "generationOrder": 2,
+      "releaseYear": 2022,
+      "releaseDate": "2022-01-01",
+      "comparisonGroupId": "example.laptop.standard",
+      "specs": {
+        "chip": {
+          "value": "Example Demo Chip 2",
+          "rawText": "自建合成演示字段：Example Demo Chip 2；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 2400,
+          "rawText": "自建合成演示字段：2400；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "8GB + 128GB",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.2,
+          "rawText": "自建合成演示字段：6.2；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 190,
+          "rawText": "自建合成演示字段：190；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 80,
+          "rawText": "自建合成演示字段：80；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "7 小时（合成）",
+          "rawText": "自建合成演示字段：7 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "自建合成演示字段：True；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {},
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "chip": "Example Demo Chip 2",
+          "evidence": {
+            "value": "Self-authored synthetic combination",
+            "rawText": "自建合成演示字段：Self-authored synthetic combination；不是实际产品资料",
+            "sourceUrl": "https://example.invalid/fictional/example-laptop-2",
+            "sourceType": "reference",
+            "confidence": 1,
+            "verifiedAt": "2026-10-21"
+          }
+        }
+      ]
+    },
+    {
+      "id": "example-laptop-3",
+      "brand": "Example",
+      "market": "CN",
+      "category": "laptop",
+      "series": "Example Laptop",
+      "family": "Example Laptop",
+      "variant": "standard",
+      "modelName": "Example Laptop 3",
+      "generation": "3",
+      "generationOrder": 3,
+      "releaseYear": 2023,
+      "releaseDate": "2023-01-01",
+      "comparisonGroupId": "example.laptop.standard",
+      "specs": {
+        "chip": {
+          "value": "Example Demo Chip 3",
+          "rawText": "自建合成演示字段：Example Demo Chip 3；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 2700,
+          "rawText": "自建合成演示字段：2700；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "8GB + 128GB",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.3,
+          "rawText": "自建合成演示字段：6.3；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 195,
+          "rawText": "自建合成演示字段：195；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 90,
+          "rawText": "自建合成演示字段：90；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "8 小时（合成）",
+          "rawText": "自建合成演示字段：8 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "自建合成演示字段：True；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {},
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "chip": "Example Demo Chip 3",
+          "evidence": {
+            "value": "Self-authored synthetic combination",
+            "rawText": "自建合成演示字段：Self-authored synthetic combination；不是实际产品资料",
+            "sourceUrl": "https://example.invalid/fictional/example-laptop-3",
+            "sourceType": "reference",
+            "confidence": 1,
+            "verifiedAt": "2026-10-21"
+          }
+        }
+      ]
+    },
+    {
+      "id": "example-watch-1",
+      "brand": "Example",
+      "market": "CN",
+      "category": "watch",
+      "series": "Example Watch",
+      "family": "Example Watch",
+      "variant": "standard",
+      "modelName": "Example Watch 1",
+      "generation": "1",
+      "generationOrder": 1,
+      "releaseYear": 2021,
+      "releaseDate": "2021-01-01",
+      "comparisonGroupId": "example.watch.standard",
+      "specs": {
+        "chip": {
+          "value": "Example Demo Chip 1",
+          "rawText": "自建合成演示字段：Example Demo Chip 1；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 2500,
+          "rawText": "自建合成演示字段：2500；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "国行 Example Watch 1",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.1,
+          "rawText": "自建合成演示字段：6.1；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 185,
+          "rawText": "自建合成演示字段：185；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 70,
+          "rawText": "自建合成演示字段：70；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "6 小时（合成）",
+          "rawText": "自建合成演示字段：6 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": false,
+          "rawText": "自建合成演示字段：False；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "caseSize": {
+          "value": "40 mm",
+          "rawText": "自建合成演示字段：40 mm；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "wearableChip": {
+          "value": "Example Demo Wearable 1",
+          "rawText": "自建合成演示字段：Example Demo Wearable 1；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasESIM": {
+          "value": false,
+          "rawText": "自建合成演示字段：False；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "example-watch-2",
+      "brand": "Example",
+      "market": "CN",
+      "category": "watch",
+      "series": "Example Watch",
+      "family": "Example Watch",
+      "variant": "standard",
+      "modelName": "Example Watch 2",
+      "generation": "2",
+      "generationOrder": 2,
+      "releaseYear": 2022,
+      "releaseDate": "2022-01-01",
+      "comparisonGroupId": "example.watch.standard",
+      "specs": {
+        "chip": {
+          "value": "Example Demo Chip 2",
+          "rawText": "自建合成演示字段：Example Demo Chip 2；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 2800,
+          "rawText": "自建合成演示字段：2800；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "国行 Example Watch 2",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.2,
+          "rawText": "自建合成演示字段：6.2；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 190,
+          "rawText": "自建合成演示字段：190；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 80,
+          "rawText": "自建合成演示字段：80；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "7 小时（合成）",
+          "rawText": "自建合成演示字段：7 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "自建合成演示字段：True；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "caseSize": {
+          "value": "40 mm",
+          "rawText": "自建合成演示字段：40 mm；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "wearableChip": {
+          "value": "Example Demo Wearable 2",
+          "rawText": "自建合成演示字段：Example Demo Wearable 2；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasESIM": {
+          "value": false,
+          "rawText": "自建合成演示字段：False；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "example-watch-3",
+      "brand": "Example",
+      "market": "CN",
+      "category": "watch",
+      "series": "Example Watch",
+      "family": "Example Watch",
+      "variant": "standard",
+      "modelName": "Example Watch 3",
+      "generation": "3",
+      "generationOrder": 3,
+      "releaseYear": 2023,
+      "releaseDate": "2023-01-01",
+      "comparisonGroupId": "example.watch.standard",
+      "specs": {
+        "chip": {
+          "value": "Example Demo Chip 3",
+          "rawText": "自建合成演示字段：Example Demo Chip 3；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 3100,
+          "rawText": "自建合成演示字段：3100；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "国行 Example Watch 3",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.3,
+          "rawText": "自建合成演示字段：6.3；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 195,
+          "rawText": "自建合成演示字段：195；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 90,
+          "rawText": "自建合成演示字段：90；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "8 小时（合成）",
+          "rawText": "自建合成演示字段：8 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "自建合成演示字段：True；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "caseSize": {
+          "value": "40 mm",
+          "rawText": "自建合成演示字段：40 mm；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "wearableChip": {
+          "value": "Example Demo Wearable 3",
+          "rawText": "自建合成演示字段：Example Demo Wearable 3；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasESIM": {
+          "value": true,
+          "rawText": "自建合成演示字段：True；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "example-band-1",
+      "brand": "Example",
+      "market": "CN",
+      "category": "band",
+      "series": "Example Band",
+      "family": "Example Band",
+      "variant": "standard",
+      "modelName": "Example Band 1",
+      "generation": "1",
+      "generationOrder": 1,
+      "releaseYear": 2021,
+      "releaseDate": "2021-01-01",
+      "comparisonGroupId": "example.band.standard",
+      "specs": {
+        "chip": {
+          "value": "Example Demo Chip 1",
+          "rawText": "自建合成演示字段：Example Demo Chip 1；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 2900,
+          "rawText": "自建合成演示字段：2900；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "国行 Example Band 1",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.1,
+          "rawText": "自建合成演示字段：6.1；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 185,
+          "rawText": "自建合成演示字段：185；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 70,
+          "rawText": "自建合成演示字段：70；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "6 小时（合成）",
+          "rawText": "自建合成演示字段：6 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": false,
+          "rawText": "自建合成演示字段：False；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "caseSize": {
+          "value": "40 mm",
+          "rawText": "自建合成演示字段：40 mm；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "wearableChip": {
+          "value": "Example Demo Wearable 1",
+          "rawText": "自建合成演示字段：Example Demo Wearable 1；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasESIM": {
+          "value": false,
+          "rawText": "自建合成演示字段：False；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "example-band-2",
+      "brand": "Example",
+      "market": "CN",
+      "category": "band",
+      "series": "Example Band",
+      "family": "Example Band",
+      "variant": "standard",
+      "modelName": "Example Band 2",
+      "generation": "2",
+      "generationOrder": 2,
+      "releaseYear": 2022,
+      "releaseDate": "2022-01-01",
+      "comparisonGroupId": "example.band.standard",
+      "specs": {
+        "chip": {
+          "value": "Example Demo Chip 2",
+          "rawText": "自建合成演示字段：Example Demo Chip 2；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 3200,
+          "rawText": "自建合成演示字段：3200；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "国行 Example Band 2",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.2,
+          "rawText": "自建合成演示字段：6.2；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 190,
+          "rawText": "自建合成演示字段：190；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 80,
+          "rawText": "自建合成演示字段：80；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "7 小时（合成）",
+          "rawText": "自建合成演示字段：7 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "自建合成演示字段：True；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "caseSize": {
+          "value": "40 mm",
+          "rawText": "自建合成演示字段：40 mm；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "wearableChip": {
+          "value": "Example Demo Wearable 2",
+          "rawText": "自建合成演示字段：Example Demo Wearable 2；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasESIM": {
+          "value": false,
+          "rawText": "自建合成演示字段：False；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "example-band-3",
+      "brand": "Example",
+      "market": "CN",
+      "category": "band",
+      "series": "Example Band",
+      "family": "Example Band",
+      "variant": "standard",
+      "modelName": "Example Band 3",
+      "generation": "3",
+      "generationOrder": 3,
+      "releaseYear": 2023,
+      "releaseDate": "2023-01-01",
+      "comparisonGroupId": "example.band.standard",
+      "specs": {
+        "chip": {
+          "value": "Example Demo Chip 3",
+          "rawText": "自建合成演示字段：Example Demo Chip 3；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 3500,
+          "rawText": "自建合成演示字段：3500；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "国行 Example Band 3",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.3,
+          "rawText": "自建合成演示字段：6.3；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 195,
+          "rawText": "自建合成演示字段：195；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 90,
+          "rawText": "自建合成演示字段：90；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "8 小时（合成）",
+          "rawText": "自建合成演示字段：8 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "自建合成演示字段：True；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "caseSize": {
+          "value": "40 mm",
+          "rawText": "自建合成演示字段：40 mm；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "wearableChip": {
+          "value": "Example Demo Wearable 3",
+          "rawText": "自建合成演示字段：Example Demo Wearable 3；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasESIM": {
+          "value": true,
+          "rawText": "自建合成演示字段：True；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/example-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "demo-phone-1",
+      "brand": "Demo",
+      "market": "CN",
+      "category": "phone",
+      "series": "Demo Phone",
+      "family": "Demo Phone",
+      "variant": "standard",
+      "modelName": "Demo Phone 1",
+      "generation": "1",
+      "generationOrder": 1,
+      "releaseYear": 2021,
+      "releaseDate": "2021-01-01",
+      "comparisonGroupId": "demo.phone.standard",
+      "specs": {
+        "chip": {
+          "value": "Demo Demo Chip 1",
+          "rawText": "自建合成演示字段：Demo Demo Chip 1；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 1500,
+          "rawText": "自建合成演示字段：1500；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "8GB + 128GB",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.1,
+          "rawText": "自建合成演示字段：6.1；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 185,
+          "rawText": "自建合成演示字段：185；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 70,
+          "rawText": "自建合成演示字段：70；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "6 小时（合成）",
+          "rawText": "自建合成演示字段：6 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": false,
+          "rawText": "自建合成演示字段：False；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {},
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "chip": "Demo Demo Chip 1",
+          "evidence": {
+            "value": "Self-authored synthetic combination",
+            "rawText": "自建合成演示字段：Self-authored synthetic combination；不是实际产品资料",
+            "sourceUrl": "https://example.invalid/fictional/demo-phone-1",
+            "sourceType": "reference",
+            "confidence": 1,
+            "verifiedAt": "2026-10-21"
+          }
+        }
+      ]
+    },
+    {
+      "id": "demo-phone-2",
+      "brand": "Demo",
+      "market": "CN",
+      "category": "phone",
+      "series": "Demo Phone",
+      "family": "Demo Phone",
+      "variant": "standard",
+      "modelName": "Demo Phone 2",
+      "generation": "2",
+      "generationOrder": 2,
+      "releaseYear": 2022,
+      "releaseDate": "2022-01-01",
+      "comparisonGroupId": "demo.phone.standard",
+      "specs": {
+        "chip": {
+          "value": "Demo Demo Chip 2",
+          "rawText": "自建合成演示字段：Demo Demo Chip 2；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 1800,
+          "rawText": "自建合成演示字段：1800；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "8GB + 128GB",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.2,
+          "rawText": "自建合成演示字段：6.2；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 190,
+          "rawText": "自建合成演示字段：190；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 80,
+          "rawText": "自建合成演示字段：80；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "7 小时（合成）",
+          "rawText": "自建合成演示字段：7 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "自建合成演示字段：True；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {},
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "chip": "Demo Demo Chip 2",
+          "evidence": {
+            "value": "Self-authored synthetic combination",
+            "rawText": "自建合成演示字段：Self-authored synthetic combination；不是实际产品资料",
+            "sourceUrl": "https://example.invalid/fictional/demo-phone-2",
+            "sourceType": "reference",
+            "confidence": 1,
+            "verifiedAt": "2026-10-21"
+          }
+        }
+      ]
+    },
+    {
+      "id": "demo-phone-3",
+      "brand": "Demo",
+      "market": "CN",
+      "category": "phone",
+      "series": "Demo Phone",
+      "family": "Demo Phone",
+      "variant": "standard",
+      "modelName": "Demo Phone 3",
+      "generation": "3",
+      "generationOrder": 3,
+      "releaseYear": 2023,
+      "releaseDate": "2023-01-01",
+      "comparisonGroupId": "demo.phone.standard",
+      "specs": {
+        "chip": {
+          "value": "Demo Demo Chip 3",
+          "rawText": "自建合成演示字段：Demo Demo Chip 3；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 2100,
+          "rawText": "自建合成演示字段：2100；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "8GB + 128GB",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.3,
+          "rawText": "自建合成演示字段：6.3；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 195,
+          "rawText": "自建合成演示字段：195；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 90,
+          "rawText": "自建合成演示字段：90；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "8 小时（合成）",
+          "rawText": "自建合成演示字段：8 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "自建合成演示字段：True；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-phone-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {},
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "chip": "Demo Demo Chip 3",
+          "evidence": {
+            "value": "Self-authored synthetic combination",
+            "rawText": "自建合成演示字段：Self-authored synthetic combination；不是实际产品资料",
+            "sourceUrl": "https://example.invalid/fictional/demo-phone-3",
+            "sourceType": "reference",
+            "confidence": 1,
+            "verifiedAt": "2026-10-21"
+          }
+        }
+      ]
+    },
+    {
+      "id": "demo-tablet-1",
+      "brand": "Demo",
+      "market": "CN",
+      "category": "tablet",
+      "series": "Demo Tablet",
+      "family": "Demo Tablet",
+      "variant": "standard",
+      "modelName": "Demo Tablet 1",
+      "generation": "1",
+      "generationOrder": 1,
+      "releaseYear": 2021,
+      "releaseDate": "2021-01-01",
+      "comparisonGroupId": "demo.tablet.standard",
+      "specs": {
+        "chip": {
+          "value": "Demo Demo Chip 1",
+          "rawText": "自建合成演示字段：Demo Demo Chip 1；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 1900,
+          "rawText": "自建合成演示字段：1900；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "8GB + 128GB",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.1,
+          "rawText": "自建合成演示字段：6.1；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 185,
+          "rawText": "自建合成演示字段：185；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 70,
+          "rawText": "自建合成演示字段：70；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "6 小时（合成）",
+          "rawText": "自建合成演示字段：6 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": false,
+          "rawText": "自建合成演示字段：False；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {},
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "chip": "Demo Demo Chip 1",
+          "evidence": {
+            "value": "Self-authored synthetic combination",
+            "rawText": "自建合成演示字段：Self-authored synthetic combination；不是实际产品资料",
+            "sourceUrl": "https://example.invalid/fictional/demo-tablet-1",
+            "sourceType": "reference",
+            "confidence": 1,
+            "verifiedAt": "2026-10-21"
+          }
+        }
+      ]
+    },
+    {
+      "id": "demo-tablet-2",
+      "brand": "Demo",
+      "market": "CN",
+      "category": "tablet",
+      "series": "Demo Tablet",
+      "family": "Demo Tablet",
+      "variant": "standard",
+      "modelName": "Demo Tablet 2",
+      "generation": "2",
+      "generationOrder": 2,
+      "releaseYear": 2022,
+      "releaseDate": "2022-01-01",
+      "comparisonGroupId": "demo.tablet.standard",
+      "specs": {
+        "chip": {
+          "value": "Demo Demo Chip 2",
+          "rawText": "自建合成演示字段：Demo Demo Chip 2；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 2200,
+          "rawText": "自建合成演示字段：2200；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "8GB + 128GB",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.2,
+          "rawText": "自建合成演示字段：6.2；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 190,
+          "rawText": "自建合成演示字段：190；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 80,
+          "rawText": "自建合成演示字段：80；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "7 小时（合成）",
+          "rawText": "自建合成演示字段：7 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "自建合成演示字段：True；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {},
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "chip": "Demo Demo Chip 2",
+          "evidence": {
+            "value": "Self-authored synthetic combination",
+            "rawText": "自建合成演示字段：Self-authored synthetic combination；不是实际产品资料",
+            "sourceUrl": "https://example.invalid/fictional/demo-tablet-2",
+            "sourceType": "reference",
+            "confidence": 1,
+            "verifiedAt": "2026-10-21"
+          }
+        }
+      ]
+    },
+    {
+      "id": "demo-tablet-3",
+      "brand": "Demo",
+      "market": "CN",
+      "category": "tablet",
+      "series": "Demo Tablet",
+      "family": "Demo Tablet",
+      "variant": "standard",
+      "modelName": "Demo Tablet 3",
+      "generation": "3",
+      "generationOrder": 3,
+      "releaseYear": 2023,
+      "releaseDate": "2023-01-01",
+      "comparisonGroupId": "demo.tablet.standard",
+      "specs": {
+        "chip": {
+          "value": "Demo Demo Chip 3",
+          "rawText": "自建合成演示字段：Demo Demo Chip 3；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 2500,
+          "rawText": "自建合成演示字段：2500；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "8GB + 128GB",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.3,
+          "rawText": "自建合成演示字段：6.3；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 195,
+          "rawText": "自建合成演示字段：195；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 90,
+          "rawText": "自建合成演示字段：90；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "8 小时（合成）",
+          "rawText": "自建合成演示字段：8 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "自建合成演示字段：True；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-tablet-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {},
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "chip": "Demo Demo Chip 3",
+          "evidence": {
+            "value": "Self-authored synthetic combination",
+            "rawText": "自建合成演示字段：Self-authored synthetic combination；不是实际产品资料",
+            "sourceUrl": "https://example.invalid/fictional/demo-tablet-3",
+            "sourceType": "reference",
+            "confidence": 1,
+            "verifiedAt": "2026-10-21"
+          }
+        }
+      ]
+    },
+    {
+      "id": "demo-laptop-1",
+      "brand": "Demo",
+      "market": "CN",
+      "category": "laptop",
+      "series": "Demo Laptop",
+      "family": "Demo Laptop",
+      "variant": "standard",
+      "modelName": "Demo Laptop 1",
+      "generation": "1",
+      "generationOrder": 1,
+      "releaseYear": 2021,
+      "releaseDate": "2021-01-01",
+      "comparisonGroupId": "demo.laptop.standard",
+      "specs": {
+        "chip": {
+          "value": "Demo Demo Chip 1",
+          "rawText": "自建合成演示字段：Demo Demo Chip 1；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 2300,
+          "rawText": "自建合成演示字段：2300；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "8GB + 128GB",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.1,
+          "rawText": "自建合成演示字段：6.1；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 185,
+          "rawText": "自建合成演示字段：185；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 70,
+          "rawText": "自建合成演示字段：70；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "6 小时（合成）",
+          "rawText": "自建合成演示字段：6 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": false,
+          "rawText": "自建合成演示字段：False；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {},
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "chip": "Demo Demo Chip 1",
+          "evidence": {
+            "value": "Self-authored synthetic combination",
+            "rawText": "自建合成演示字段：Self-authored synthetic combination；不是实际产品资料",
+            "sourceUrl": "https://example.invalid/fictional/demo-laptop-1",
+            "sourceType": "reference",
+            "confidence": 1,
+            "verifiedAt": "2026-10-21"
+          }
+        }
+      ]
+    },
+    {
+      "id": "demo-laptop-2",
+      "brand": "Demo",
+      "market": "CN",
+      "category": "laptop",
+      "series": "Demo Laptop",
+      "family": "Demo Laptop",
+      "variant": "standard",
+      "modelName": "Demo Laptop 2",
+      "generation": "2",
+      "generationOrder": 2,
+      "releaseYear": 2022,
+      "releaseDate": "2022-01-01",
+      "comparisonGroupId": "demo.laptop.standard",
+      "specs": {
+        "chip": {
+          "value": "Demo Demo Chip 2",
+          "rawText": "自建合成演示字段：Demo Demo Chip 2；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 2600,
+          "rawText": "自建合成演示字段：2600；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "8GB + 128GB",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.2,
+          "rawText": "自建合成演示字段：6.2；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 190,
+          "rawText": "自建合成演示字段：190；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 80,
+          "rawText": "自建合成演示字段：80；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "7 小时（合成）",
+          "rawText": "自建合成演示字段：7 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "自建合成演示字段：True；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {},
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "chip": "Demo Demo Chip 2",
+          "evidence": {
+            "value": "Self-authored synthetic combination",
+            "rawText": "自建合成演示字段：Self-authored synthetic combination；不是实际产品资料",
+            "sourceUrl": "https://example.invalid/fictional/demo-laptop-2",
+            "sourceType": "reference",
+            "confidence": 1,
+            "verifiedAt": "2026-10-21"
+          }
+        }
+      ]
+    },
+    {
+      "id": "demo-laptop-3",
+      "brand": "Demo",
+      "market": "CN",
+      "category": "laptop",
+      "series": "Demo Laptop",
+      "family": "Demo Laptop",
+      "variant": "standard",
+      "modelName": "Demo Laptop 3",
+      "generation": "3",
+      "generationOrder": 3,
+      "releaseYear": 2023,
+      "releaseDate": "2023-01-01",
+      "comparisonGroupId": "demo.laptop.standard",
+      "specs": {
+        "chip": {
+          "value": "Demo Demo Chip 3",
+          "rawText": "自建合成演示字段：Demo Demo Chip 3；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 2900,
+          "rawText": "自建合成演示字段：2900；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "8GB + 128GB",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.3,
+          "rawText": "自建合成演示字段：6.3；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 195,
+          "rawText": "自建合成演示字段：195；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 90,
+          "rawText": "自建合成演示字段：90；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "8 小时（合成）",
+          "rawText": "自建合成演示字段：8 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "自建合成演示字段：True；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-laptop-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {},
+      "configurations": [
+        {
+          "memory": "8GB",
+          "storage": "128GB",
+          "chip": "Demo Demo Chip 3",
+          "evidence": {
+            "value": "Self-authored synthetic combination",
+            "rawText": "自建合成演示字段：Self-authored synthetic combination；不是实际产品资料",
+            "sourceUrl": "https://example.invalid/fictional/demo-laptop-3",
+            "sourceType": "reference",
+            "confidence": 1,
+            "verifiedAt": "2026-10-21"
+          }
+        }
+      ]
+    },
+    {
+      "id": "demo-watch-1",
+      "brand": "Demo",
+      "market": "CN",
+      "category": "watch",
+      "series": "Demo Watch",
+      "family": "Demo Watch",
+      "variant": "standard",
+      "modelName": "Demo Watch 1",
+      "generation": "1",
+      "generationOrder": 1,
+      "releaseYear": 2021,
+      "releaseDate": "2021-01-01",
+      "comparisonGroupId": "demo.watch.standard",
+      "specs": {
+        "chip": {
+          "value": "Demo Demo Chip 1",
+          "rawText": "自建合成演示字段：Demo Demo Chip 1；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 2700,
+          "rawText": "自建合成演示字段：2700；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "国行 Demo Watch 1",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.1,
+          "rawText": "自建合成演示字段：6.1；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 185,
+          "rawText": "自建合成演示字段：185；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 70,
+          "rawText": "自建合成演示字段：70；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "6 小时（合成）",
+          "rawText": "自建合成演示字段：6 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": false,
+          "rawText": "自建合成演示字段：False；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "caseSize": {
+          "value": "40 mm",
+          "rawText": "自建合成演示字段：40 mm；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "wearableChip": {
+          "value": "Demo Demo Wearable 1",
+          "rawText": "自建合成演示字段：Demo Demo Wearable 1；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasESIM": {
+          "value": false,
+          "rawText": "自建合成演示字段：False；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "demo-watch-2",
+      "brand": "Demo",
+      "market": "CN",
+      "category": "watch",
+      "series": "Demo Watch",
+      "family": "Demo Watch",
+      "variant": "standard",
+      "modelName": "Demo Watch 2",
+      "generation": "2",
+      "generationOrder": 2,
+      "releaseYear": 2022,
+      "releaseDate": "2022-01-01",
+      "comparisonGroupId": "demo.watch.standard",
+      "specs": {
+        "chip": {
+          "value": "Demo Demo Chip 2",
+          "rawText": "自建合成演示字段：Demo Demo Chip 2；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 3000,
+          "rawText": "自建合成演示字段：3000；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "国行 Demo Watch 2",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.2,
+          "rawText": "自建合成演示字段：6.2；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 190,
+          "rawText": "自建合成演示字段：190；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 80,
+          "rawText": "自建合成演示字段：80；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "7 小时（合成）",
+          "rawText": "自建合成演示字段：7 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "自建合成演示字段：True；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "caseSize": {
+          "value": "40 mm",
+          "rawText": "自建合成演示字段：40 mm；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "wearableChip": {
+          "value": "Demo Demo Wearable 2",
+          "rawText": "自建合成演示字段：Demo Demo Wearable 2；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasESIM": {
+          "value": false,
+          "rawText": "自建合成演示字段：False；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "demo-watch-3",
+      "brand": "Demo",
+      "market": "CN",
+      "category": "watch",
+      "series": "Demo Watch",
+      "family": "Demo Watch",
+      "variant": "standard",
+      "modelName": "Demo Watch 3",
+      "generation": "3",
+      "generationOrder": 3,
+      "releaseYear": 2023,
+      "releaseDate": "2023-01-01",
+      "comparisonGroupId": "demo.watch.standard",
+      "specs": {
+        "chip": {
+          "value": "Demo Demo Chip 3",
+          "rawText": "自建合成演示字段：Demo Demo Chip 3；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 3300,
+          "rawText": "自建合成演示字段：3300；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "国行 Demo Watch 3",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.3,
+          "rawText": "自建合成演示字段：6.3；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 195,
+          "rawText": "自建合成演示字段：195；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 90,
+          "rawText": "自建合成演示字段：90；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "8 小时（合成）",
+          "rawText": "自建合成演示字段：8 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "自建合成演示字段：True；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "caseSize": {
+          "value": "40 mm",
+          "rawText": "自建合成演示字段：40 mm；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "wearableChip": {
+          "value": "Demo Demo Wearable 3",
+          "rawText": "自建合成演示字段：Demo Demo Wearable 3；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasESIM": {
+          "value": true,
+          "rawText": "自建合成演示字段：True；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-watch-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "demo-band-1",
+      "brand": "Demo",
+      "market": "CN",
+      "category": "band",
+      "series": "Demo Band",
+      "family": "Demo Band",
+      "variant": "standard",
+      "modelName": "Demo Band 1",
+      "generation": "1",
+      "generationOrder": 1,
+      "releaseYear": 2021,
+      "releaseDate": "2021-01-01",
+      "comparisonGroupId": "demo.band.standard",
+      "specs": {
+        "chip": {
+          "value": "Demo Demo Chip 1",
+          "rawText": "自建合成演示字段：Demo Demo Chip 1；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 3100,
+          "rawText": "自建合成演示字段：3100；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "国行 Demo Band 1",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.1,
+          "rawText": "自建合成演示字段：6.1；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 185,
+          "rawText": "自建合成演示字段：185；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 70,
+          "rawText": "自建合成演示字段：70；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "6 小时（合成）",
+          "rawText": "自建合成演示字段：6 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": false,
+          "rawText": "自建合成演示字段：False；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "caseSize": {
+          "value": "40 mm",
+          "rawText": "自建合成演示字段：40 mm；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "wearableChip": {
+          "value": "Demo Demo Wearable 1",
+          "rawText": "自建合成演示字段：Demo Demo Wearable 1；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasESIM": {
+          "value": false,
+          "rawText": "自建合成演示字段：False；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-1",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "demo-band-2",
+      "brand": "Demo",
+      "market": "CN",
+      "category": "band",
+      "series": "Demo Band",
+      "family": "Demo Band",
+      "variant": "standard",
+      "modelName": "Demo Band 2",
+      "generation": "2",
+      "generationOrder": 2,
+      "releaseYear": 2022,
+      "releaseDate": "2022-01-01",
+      "comparisonGroupId": "demo.band.standard",
+      "specs": {
+        "chip": {
+          "value": "Demo Demo Chip 2",
+          "rawText": "自建合成演示字段：Demo Demo Chip 2；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 3400,
+          "rawText": "自建合成演示字段：3400；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "国行 Demo Band 2",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.2,
+          "rawText": "自建合成演示字段：6.2；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 190,
+          "rawText": "自建合成演示字段：190；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 80,
+          "rawText": "自建合成演示字段：80；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "7 小时（合成）",
+          "rawText": "自建合成演示字段：7 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "自建合成演示字段：True；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "caseSize": {
+          "value": "40 mm",
+          "rawText": "自建合成演示字段：40 mm；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "wearableChip": {
+          "value": "Demo Demo Wearable 2",
+          "rawText": "自建合成演示字段：Demo Demo Wearable 2；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasESIM": {
+          "value": false,
+          "rawText": "自建合成演示字段：False；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-2",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {}
+    },
+    {
+      "id": "demo-band-3",
+      "brand": "Demo",
+      "market": "CN",
+      "category": "band",
+      "series": "Demo Band",
+      "family": "Demo Band",
+      "variant": "standard",
+      "modelName": "Demo Band 3",
+      "generation": "3",
+      "generationOrder": 3,
+      "releaseYear": 2023,
+      "releaseDate": "2023-01-01",
+      "comparisonGroupId": "demo.band.standard",
+      "specs": {
+        "chip": {
+          "value": "Demo Demo Chip 3",
+          "rawText": "自建合成演示字段：Demo Demo Chip 3；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "memory": {
+          "value": "8GB",
+          "rawText": "自建合成演示字段：8GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "storage": {
+          "value": "128GB",
+          "rawText": "自建合成演示字段：128GB；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "launchPrice": {
+          "value": 3700,
+          "rawText": "自建合成演示字段：3700；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "CNY",
+          "priceType": "launch",
+          "configuration": "国行 Demo Band 3",
+          "condition": "全新；虚构演示",
+          "observedAt": "2026-10-21"
+        },
+        "screenSize": {
+          "value": 6.3,
+          "rawText": "自建合成演示字段：6.3；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "inch"
+        },
+        "weight": {
+          "value": 195,
+          "rawText": "自建合成演示字段：195；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "g"
+        },
+        "refreshRate": {
+          "value": 90,
+          "rawText": "自建合成演示字段：90；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21",
+          "unit": "Hz"
+        },
+        "displayType": {
+          "value": "Demo Display",
+          "rawText": "自建合成演示字段：Demo Display；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "resolution": {
+          "value": "1000 x 2000 (synthetic)",
+          "rawText": "自建合成演示字段：1000 x 2000 (synthetic)；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "colors": {
+          "value": [
+            "Demo Blue",
+            "Demo White"
+          ],
+          "rawText": "自建合成演示字段：['Demo Blue', 'Demo White']；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "batteryLife": {
+          "value": "8 小时（合成）",
+          "rawText": "自建合成演示字段：8 小时（合成）；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "waterResistance": {
+          "value": "Demo rating; not a real safety claim",
+          "rawText": "自建合成演示字段：Demo rating; not a real safety claim；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "compatibility": {
+          "value": "Demo OS",
+          "rawText": "自建合成演示字段：Demo OS；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasNFC": {
+          "value": true,
+          "rawText": "自建合成演示字段：True；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "port": {
+          "value": "Demo USB-C",
+          "rawText": "自建合成演示字段：Demo USB-C；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "rearCamera": {
+          "value": "Demo 12 MP",
+          "rawText": "自建合成演示字段：Demo 12 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "frontCamera": {
+          "value": "Demo 8 MP",
+          "rawText": "自建合成演示字段：Demo 8 MP；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "caseSize": {
+          "value": "40 mm",
+          "rawText": "自建合成演示字段：40 mm；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "wearableChip": {
+          "value": "Demo Demo Wearable 3",
+          "rawText": "自建合成演示字段：Demo Demo Wearable 3；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        },
+        "hasESIM": {
+          "value": true,
+          "rawText": "自建合成演示字段：True；不是实际产品资料",
+          "sourceUrl": "https://example.invalid/fictional/demo-band-3",
+          "sourceType": "reference",
+          "confidence": 1,
+          "verifiedAt": "2026-10-21"
+        }
+      },
+      "computed": {}
+    }
+  ]
+}

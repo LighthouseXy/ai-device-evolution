@@ -6,7 +6,7 @@ Original project software and original technical-document portions are MIT licen
 
 ## Exact version and paths
 
-This path inventory was checked against remote default-branch baseline `27658bed7ebe1712e4996aa8cc8428e047947202`, plus the four legal files introduced by this commit. It lists actual remote paths, not unpublished local application-demo files. See [LICENSE_SCOPE.json](LICENSE_SCOPE.json) for machine-readable categories.
+This inventory was checked against default-branch baseline `2a44a9f1927dbc3d0a827a54f6845c3028df270a`, plus the demo addon and scope/doc updates introduced together. Only original portions are granted under MIT. See [LICENSE_SCOPE.json](LICENSE_SCOPE.json) for exact categories.
 
 ### First-party software
 
@@ -193,8 +193,30 @@ This path inventory was checked against remote default-branch baseline `27658bed
 - Dependencies and any external fonts retain their upstream licenses and copyrights. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). No dependency license entry or existing media/font notice is overwritten.
 - No hardware-design file is identified in this baseline. Future or separately supplied hardware, audio/video, firmware resources and other third-party assets are not automatically brought under this software grant.
 
-## Separate synthetic application candidate
+## Other local review materials
 
-The independently prepared synthetic full-application candidate has its own license and exact file manifest. Its maintainer-authored synthetic data and original placeholder artwork are MIT there. Those local-only files are not uploaded by this commit and are not required links or commands for this branch.
+Local review bundles, caches, environment files and research/media additions are not included by this commit. The original full-application exporter, fictional fixtures and validation scripts listed below are included in this repository version.
 
 这次提交仅增加许可与范围/第三方说明、更新中英文 README 许可段落和第一方包许可字段。源码、数据库、媒体、CI、运行行为和仓库可见性不变，不提交申请。
+
+
+## Included full-application demo addon
+
+The following original software, technical documents and synthetic fixtures are explicitly MIT, in addition to the existing original-software scope:
+
+- `DATA_BOUNDARIES.md`
+- `DEMO.md`
+- `DEVELOPMENT_HISTORY.en.md`
+- `DEVELOPMENT_HISTORY.md`
+- `REPRODUCIBILITY.md`
+- `examples/demo-devices.json`
+- `examples/demo-prices.json`
+- `scripts/demo-data-regression.mjs`
+- `scripts/demo-http-regression.mjs`
+- `scripts/export-demo.mjs`
+- `scripts/lib/validate-device-records.mjs`
+- `scripts/prepare-demo-data.mjs`
+- `scripts/run-demo.mjs`
+- `scripts/validate-data.mjs`
+
+`node scripts/export-demo.mjs` creates a separate `.demo-app` containing the original application with fictional inputs. Its self-authored generated JSON and geometric icon are MIT. Installed dependencies and their LICENSE/NOTICE files retain upstream terms. Production `src/data` records, image metadata, photos, screenshots, source quotations and historical third-party materials remain outside the project MIT grant. Nothing is removed from existing reachable history.

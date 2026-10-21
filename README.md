@@ -106,7 +106,7 @@ NEXT_TELEMETRY_DISABLED=1 OPENAI_API_KEY= DEEPSEEK_API_KEY= npm run build -- --w
 NEXT_TELEMETRY_DISABLED=1 OPENAI_API_KEY= DEEPSEEK_API_KEY= npm start -- --hostname 127.0.0.1
 ```
 
-依赖安装需要 npm registry 或完整本地缓存；本轮实际使用 `npm ci --offline`。开发可用 `npm run dev`。完整 `npm run check` 包含历史来源证据检查，干净克隆缺少相关缓存时不能视为通过。独立合成应用补丁尚未合入，新增演示命令目前不属于默认分支能力。
+依赖安装需要 npm registry 或完整本地缓存；本轮实际使用 `npm ci --offline`。开发可用 `npm run dev`。完整 `npm run check` 包含历史来源证据检查，干净克隆缺少相关缓存时不能视为通过。完整应用合成演示已随源码提供：安装依赖后运行 `node scripts/export-demo.mjs`，再按[演示步骤](DEMO.md)进入新的 `.demo-app`；不覆盖生产数据。演示无需模型密钥，HTTP 验收仍因监听权限未完成。
 
 本地默认 `http://localhost:3000` 只在运行电脑可访问，手机远程查看使用 Vercel 地址。开发服务使用 Webpack + polling。
 
