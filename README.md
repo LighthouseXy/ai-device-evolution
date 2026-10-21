@@ -1,101 +1,66 @@
-# 数码观察站 / DeviceScope
+# DeviceScope
 
-[简体中文](README.md) | [English](README.en.md)
+[English](README.md) | [简体中文](README.zh-CN.md)
 
-[开发记录](DEVELOPMENT_HISTORY.md)：依据真实提交与差异整理的功能、维护及文档进度。
+[Development history](DEVELOPMENT_HISTORY.en.md): feature, maintenance and documentation progress grounded in actual commits and diffs.
 
-> 原创软件代码及原创技术文档采用 [MIT](LICENSE)；第三方代码、依赖、字体、图片、数据库、影音和硬件保留各自权利。详见 [许可范围](LICENSE_SCOPE.md)。
+> **License:** Original software and original technical documentation are [MIT licensed](LICENSE). Third-party code, dependencies, fonts, images, databases, audiovisual materials and hardware retain their own rights. See [license scope](LICENSE_SCOPE.md).
 
-DeviceScope 是一个电子设备参数、产品对比与选购建议平台，以可追溯的结构化资料展示规格变化和配置差异，并提供 AI 辅助建议。
+DeviceScope is a web application for browsing device specifications, comparing products, viewing historical price and specification trends, and exploring AI-assisted device suggestions. It presents structured records with source metadata; it is not a real-time price tracker, benchmark suite, or guarantee of product suitability.
 
-- 在线演示：[ai-device-evolution.vercel.app](https://ai-device-evolution.vercel.app/)
-- GitHub：[LighthouseXy/ai-device-evolution](https://github.com/LighthouseXy/ai-device-evolution)
+- Existing project demo: [ai-device-evolution.vercel.app](https://ai-device-evolution.vercel.app/). The deployed site may not match this source candidate.
+- Existing repository reference: [LighthouseXy/ai-device-evolution](https://github.com/LighthouseXy/ai-device-evolution). Check its current release and licensing status before relying on it.
 
-## 项目展示
+## What the candidate does
 
-以下五张 PNG 截图由用户于 2026-10-21 提供；未提供精确拍摄时间或页面 URL。AI 顾问输入页和趋势观察两张 JPG 为此前保留的云端截图。本节引用已存原图，不修改图片内容。截图内含第三方产品图片、商标及资料，截图使用授权不改变其独立权利，详见[截图来源说明](docs/screenshots/ai-device/README.md)。
+- Browses Apple, Xiaomi, Redmi, Samsung, Huawei, OPPO, vivo, and HONOR devices across phones, tablets, laptops, watches, and bands.
+- Filters from brand to device type to product series, then compares two or three devices in the same category. Comparisons can be within or across brands.
+- Displays specifications, recorded configurations, prices, sources, and available product imagery. Missing fields are not meant to be inferred from similar models.
+- Records same-model feature configurations such as NFC or eSIM in device details rather than automatically splitting them into separate model entries. Physical size, generation, and other model distinctions follow the available source data; this does not imply a blanket normalization rule.
+- Shows historical trends for selected brands, categories, series, and measures. Different price types are not presented as live market prices.
+- Provides an AI-assisted advisor that evaluates a limited candidate set and can return up to three suggestions. The server checks device and price references and can fall back to rules when a model is unavailable; these checks do not establish that every generated statement is correct.
 
-### 首页概览
+The comparison and trend-page text insights are local rules, not live model output. An AI-analysis API exists, but product comparisons are not connected to a live AI analysis flow in this candidate.
 
-![数码观察站首页概览与设备时间线](docs/screenshots/ai-device/ai-device-home-overview-user-20261021.png)
+## Screenshots
 
-用户提供，2026-10-21。图中首页系列摘要存在已登记显示问题：标题与时间线节点可能来自不同品牌或系列，待后续修复；本次未修复。详见[已知问题](docs/OPEN_SOURCE_KNOWN_ISSUES.md)。
+Five images below were provided by the user on 2026-10-21; their exact capture times and page URLs were not supplied. The advisor input and trends images are retained cloud captures with separate provenance. Original bytes are preserved. These images do not establish rights to third-party product photos, logos, specifications, or prices. See [image provenance](docs/screenshots/ai-device/README.md).
 
-### AI 顾问
+![DeviceScope home overview with the device timeline](docs/screenshots/ai-device/ai-device-home-overview-user-20261021.png)
+*User-provided capture dated 2026-10-21. The home timeline/series mismatch shown here is a known issue and has not been fixed in this candidate.*
 
-![AI 顾问的预算与选购需求输入界面](docs/screenshots/ai-device/ai-device-advisor-input-2026-10-21-1179x756.jpg)
+![DeviceScope AI advisor input form](docs/screenshots/ai-device/ai-device-advisor-input-2026-10-21-1179x756.jpg)
+*Candidate UI capture of the idle input form; no recommendation has been generated.*
 
-云端保留截图，展示闲置输入表单，尚未生成推荐结果；截图过程未调用付费模型。
+![Device comparison for iPhone Pro models](docs/screenshots/ai-device/ai-device-compare-iphone-pro-user-20261021.png)
+*User-provided capture dated 2026-10-21.*
 
-### 产品对比
+![Historical launch-price trend for iPhone Pro Max](docs/screenshots/ai-device/ai-device-trends-iphone-pro-max-launch-price-2026-10-21-1179x756.jpg)
+*Candidate trends-page capture. It shows one annual sample for each year from 2018 to 2026; it is not a forecast or independent market analysis.*
 
-![iPhone Pro 三代设备的参数与配置对比表](docs/screenshots/ai-device/ai-device-compare-iphone-pro-user-20261021.png)
+![Apple device catalog in DeviceScope](docs/screenshots/ai-device/ai-device-apple-catalog-user-20261021.png)
+*User-provided capture dated 2026-10-21.*
 
-用户提供，2026-10-21。展示 iPhone Pro 三代设备的并列对比。
+![iPhone 17 product gallery in DeviceScope](docs/screenshots/ai-device/ai-device-iphone17-gallery-user-20261021.png)
+*User-provided capture dated 2026-10-21.*
 
-### 趋势观察
+![iPhone 17 specifications page in DeviceScope](docs/screenshots/ai-device/ai-device-iphone17-specifications-user-20261021.png)
+*User-provided capture dated 2026-10-21.*
 
-![iPhone Pro Max 同系列 2018 至 2026 年起售价趋势](docs/screenshots/ai-device/ai-device-trends-iphone-pro-max-launch-price-2026-10-21-1179x756.jpg)
+## Language
 
-云端保留截图，展示同系列 2018–2026 年各年样本的历史起售价，不是价格预测。
+The interface is primarily Chinese. English field keys or a separately retained Apple en-US source snapshot do not amount to an English UI or complete English localization. This README is English-language documentation only.
 
-### 设备库
+## Technology
 
-![苹果设备库中的设备卡片与筛选入口](docs/screenshots/ai-device/ai-device-apple-catalog-user-20261021.png)
+- Next.js 16, React 19, TypeScript, and Tailwind CSS 4
+- Local JSON datasets and source metadata; a build script assembles the device database
+- Node-based validation and regression scripts
+- Optional OpenAI / DeepSeek-backed advisor configuration, with a rules fallback
 
-用户提供，2026-10-21。展示苹果设备卡片及设备库筛选。
+## Run locally
 
-### 设备详情与图库
-
-![iPhone 17 详情页的产品图库与尺寸趋势](docs/screenshots/ai-device/ai-device-iphone17-gallery-user-20261021.png)
-
-用户提供，2026-10-21。展示 iPhone 17 详情页的图库与尺寸趋势。
-
-### 设备详细参数
-
-![iPhone 17 详情页的分区规格参数](docs/screenshots/ai-device/ai-device-iphone17-specifications-user-20261021.png)
-
-用户提供，2026-10-21。展示 iPhone 17 的详细参数分区。
-
-## 核心能力
-
-- 设备库：苹果、小米、红米、三星、华为、OPPO、vivo、荣耀八个品牌；手机、平板电脑、笔记本电脑、手表、手环五个品类。
-- 产品对比：统一入口选择同品牌或跨品牌，支持 2–3 台同品类设备自选；同品牌支持代际范围，卡片与参数列同步横向滚动。
-- 分层筛选：品牌 → 设备种类 → 产品系列；小米与红米分开，细碎系列归入产品族，旗舰/主力产品靠前。
-- 参数与报价：不提供内存/存储配置选择器；具体配置价格直接逐项列示，影响芯片、CPU/GPU 等参数的配置差异在相应字段说明。
-- 图片与详情：设备主图、已记录的配色/款式切换及放大；参数分区使用独立双列卡片，正文统一字重，长文本按原文条目完整展示，不使用折叠详情。
-- 同款整理：确认同一型号的颜色、表带及材质款合并展示，保留原始证据、款式图片与价格/重量差异；不同尺寸、NFC、蜂窝网络和芯片版本不随意合并。
-- 趋势观察：按品牌、品类、产品系列及指标观察数据；不同价格类型不混为实时行情。
-- AI 顾问：最多 12 个候选、每机最多两笔代表报价、最多推荐 3 台；自然语言建议加设备索引，设备与报价由服务端绑定校验；不可用时明确显示规则回退。
-
-## 当前数据与边界（2026-10-21 核对默认分支生成结果）
-
-| 指标 | 数量与口径 |
-| --- | --- |
-| 来源记录 / 公开目录型号 | 991 / 926 |
-| 手机 / 平板 / 笔记本 / 手表 / 手环 | 475 / 152 / 115 / 152 / 32，目录口径 |
-| 原始严格比较组 / 规格字段对象 | 378 / 19,395 |
-| 品牌 / 品类 | 8 / 5 |
-
-字段级事实、来源 URL、图片和证据文本分开说明，见[数据与素材边界](DATA_BOUNDARIES.md)。这些计数不证明数据完整、全部准确或素材已清权。
-
-数据保存为本地 JSON 分库，经清单构建合并；不是已迁移到 SQL 数据库。Apple 原英文官网快照独立保留，不用于默认回填。官方和主流第三方规格如实标注来源；报价采用中国大陆公开商品页的日期快照，不是实时最低价。二手价仅作轻量参考。
-
-近十年小米/红米/三星按 2017–2026、近五年华为/OPPO/vivo/荣耀按 2022–2026 整理，Apple 延续 2016 年起的范围。已完成多批扩容，但目录审计仍标记 partial，不能声称已覆盖期间所有产品、配置和颜色。缺失字段保持空值；照片来源可追溯不等于获得商业使用许可，当前图片许可状态未明确。3D 产品展示已取消。
-
-`/compare` 和 `/trends` 的文字洞察来自本地规则，不是联网模型。`/api/ai-analysis` 有接口基础，但产品对比未接入真实 AI。顾问的 ID/报价绑定与有限正文一致性检查不能证明全部自然语言事实正确。
-
-## 技术与验收
-
-Next.js 16、React 19、TypeScript、Tailwind CSS 4；本地 JSON、来源元数据及 Node 回归脚本；OpenAI / DeepSeek 与 rules fallback。
-
-本轮干净副本的安装、数据生成、TypeScript、lint 与生产构建通过；完整 `npm run check` 因历史离线来源快照缺失而未通过。HTTP 监听被环境权限拒绝，未做浏览器或视觉验收。准确版本、命令与未验项见[复现记录](REPRODUCIBILITY.md)。
-
-DeepSeek 顾问显式关闭 thinking，输出上限 900 token、每次请求 15 秒超时，最多一次重试；15 秒不是含重试的整体耗时上限。现版本真实 Token、耗时、回退及文字事实仍需授权后的代表样例验收。
-
-## 本地运行与检查
-
-使用 Node 24、npm 11 及现有锁文件：
+Use Node.js 24 and npm 11 with the existing `package-lock.json`. These commands match the current default branch:
 
 ```sh
 npm ci --ignore-scripts --no-audit --no-fund
@@ -106,21 +71,32 @@ NEXT_TELEMETRY_DISABLED=1 OPENAI_API_KEY= DEEPSEEK_API_KEY= npm run build -- --w
 NEXT_TELEMETRY_DISABLED=1 OPENAI_API_KEY= DEEPSEEK_API_KEY= npm start -- --hostname 127.0.0.1
 ```
 
-依赖安装需要 npm registry 或完整本地缓存；本轮实际使用 `npm ci --offline`。开发可用 `npm run dev`。完整 `npm run check` 包含历史来源证据检查，干净克隆缺少相关缓存时不能视为通过。完整应用合成演示已随源码提供：安装依赖后运行 `node scripts/export-demo.mjs`，再按[演示步骤](DEMO.md)进入新的 `.demo-app`；不覆盖生产数据。演示无需模型密钥，HTTP 验收仍因监听权限未完成。
+For development, run `npm run dev` and open `http://localhost:3000`. Dependency installation requires the npm registry or a complete local cache.
 
-本地默认 `http://localhost:3000` 只在运行电脑可访问，手机远程查看使用 Vercel 地址。开发服务使用 Webpack + polling。
+The clean-copy install, data generation, typecheck, lint and production build passed. The full `npm run check` failed at a missing offline source snapshot; later chained checks were not reached. HTTP verification was blocked by loopback `EPERM`, so no HTTP or visual acceptance is claimed. See [reproducibility](REPRODUCIBILITY.md). The complete synthetic application demo is now included: after installing dependencies, run `node scripts/export-demo.mjs` and follow [the demo steps](DEMO.md) in the new `.demo-app` directory. Production inputs are unchanged. The demo needs no model keys; HTTP verification remains blocked by loopback permissions.
 
-模型密钥仅保存在环境配置中，缺密钥时使用规则回退。真实评测需明确授权；只有指定 `--out` 才保存本地评测结果。部署复用既有 Vercel 项目；`.vercelignore` 排除环境文件、私有工具目录、来源缓存与评测结果，生产评测看板不开放。
+## Configuration and safety
 
-## 文档
+The build and offline checks do not need model credentials. If an authorized deployment uses the optional model-backed advisor, configure its provider key only in a private local or deployment environment (for example, an untracked `.env.local`); never commit secrets, `.env` files, user data, or paid evaluation results. With no model key, the advisor can use its rules fallback.
 
-- [项目计划与具体阶段](docs/PROJECT_PLAN.md)
-- [技术说明](docs/README.md)
-- [字段字典](docs/field-dictionary.md)
-- [来源管理](docs/apple-official-sources.md)
-- [本次变更与验收](docs/logs/2026-10-07.md)
-- [后续建议及已取消范围](docs/FUTURE_FEATURES.md)
+Production data includes dated public-price snapshots rather than live offers. Do not run collection or synchronization scripts against external services without reviewing their scope and obtaining the required authorization. Source URLs and hashes help trace records but do not prove factual accuracy or publication rights.
 
-## 许可证与材料范围
+## Data and known limitations
 
-根 [LICENSE](LICENSE) 为标准 MIT，适用于范围清单中的原创软件及原创技术文档；允许按 MIT 商业使用、修改和再分发，须保留版权及许可声明。第三方材料与真实产品数据库不受根许可统一覆盖，原许可及版权继续适用。详见 [LICENSE_SCOPE.md](LICENSE_SCOPE.md) 与 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+At the reviewed default-branch baseline, generation yields 991 source records and 926 catalog models, with 19,395 specification-field objects. See [data and material boundaries](DATA_BOUNDARIES.md) for field-level counts and review locations. The production catalog and image metadata remain partial. It does not claim every model, configuration, color, or year is covered. Price records are dated snapshots, primarily from publicly listed mainland China offers; second-hand prices are lightweight references, not current valuations. Missing values may remain blank.
+
+The home page has a known timeline issue: its heading can identify one product series while the timeline entries include devices from other brands or series. The issue is deferred and was not fixed in this candidate. The home screenshot above shows this mismatch; it is not fixed in the candidate.
+
+The advisor's candidate limits and reference checks do not verify all natural-language claims. The trends view is descriptive and should not be used as a price forecast or investment advice. Product imagery, trademarks, data, quotations, external text, and dependencies may each have separate rights or notice requirements.
+
+## Tests, maintenance, and contributions
+
+Available checks include `npm run typecheck`, `npm run lint`, `npm run test:device-advisor`, and `npm run test:device-advisor-api`. These are code and mock/regression checks, not real-model quality measurements. Ensure the required historical evidence is available before running the broader `npm run check` suite.
+
+Project-owned software and original technical documents in the scope list use MIT. Before contributing, confirm the maintainers' current contribution workflow and that you have rights to the material you provide. Data changes should include source, date, region, and configuration context; preserve unknowns rather than extrapolating. Image contributions need asset-specific author, source, and license evidence. Do not submit credentials, personal data, uncleared third-party originals, or paid API outputs.
+
+## License and rights
+
+The root [LICENSE](LICENSE) contains standard MIT with Copyright (c) 2026 LighthouseXy for project-owned software and original technical-document portions. It permits commercial use, modification and redistribution subject to its copyright/permission notice; no additional noncommercial condition is imposed on that scope.
+
+Third-party code, dependencies, fonts, photographs, screenshots, logos, production databases, quotations, audiovisual material and hardware retain their separate rights and notices. They are not automatically covered by project MIT. See [LICENSE_SCOPE.md](LICENSE_SCOPE.md), [LICENSE_SCOPE.json](LICENSE_SCOPE.json) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for actual remote paths and boundaries. The included original demo fixtures and scripts are explicitly MIT; see the updated scope inventory. Production databases and third-party materials retain separate rights.

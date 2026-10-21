@@ -1,6 +1,6 @@
 # DeviceScope
 
-[简体中文](README.md) | [English](README.en.md)
+[English](README.md) | [简体中文](README.zh-CN.md)
 
 [Development history](DEVELOPMENT_HISTORY.en.md): feature, maintenance and documentation progress grounded in actual commits and diffs.
 
