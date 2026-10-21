@@ -68,12 +68,12 @@ npm run build:data
 npm run typecheck
 npm run lint
 NEXT_TELEMETRY_DISABLED=1 OPENAI_API_KEY= DEEPSEEK_API_KEY= npm run build -- --webpack
-npm start
+NEXT_TELEMETRY_DISABLED=1 OPENAI_API_KEY= DEEPSEEK_API_KEY= npm start -- --hostname 127.0.0.1
 ```
 
 For development, run `npm run dev` and open `http://localhost:3000`. Dependency installation requires the npm registry or a complete local cache.
 
-The full `npm run check` suite includes historical source/image evidence checks that may require private local caches. Missing evidence is not a passing test. The standalone validator and complete synthetic-data application are separate preparation candidates; their new scripts are not added by this documentation commit and are not presented here as available on the default branch.
+The clean-copy install, data generation, typecheck, lint and production build passed. The full `npm run check` failed at a missing offline source snapshot; later chained checks were not reached. HTTP verification was blocked by loopback `EPERM`, so no HTTP or visual acceptance is claimed. See [reproducibility](REPRODUCIBILITY.md). The standalone validator and complete synthetic-data application are separate preparation candidates; their new scripts are not added by this documentation commit and are not presented here as available on the default branch.
 
 ## Configuration and safety
 
@@ -83,7 +83,7 @@ Production data includes dated public-price snapshots rather than live offers. D
 
 ## Data and known limitations
 
-The candidate contains a substantial production catalog and image metadata, but its own audits mark coverage as partial. It does not claim every model, configuration, color, or year is covered. Price records are dated snapshots, primarily from publicly listed mainland China offers; second-hand prices are lightweight references, not current valuations. Missing values may remain blank.
+At the reviewed default-branch baseline, generation yields 991 source records and 926 catalog models, with 19,395 specification-field objects. See [data and material boundaries](DATA_BOUNDARIES.md) for field-level counts and review locations. The production catalog and image metadata remain partial. It does not claim every model, configuration, color, or year is covered. Price records are dated snapshots, primarily from publicly listed mainland China offers; second-hand prices are lightweight references, not current valuations. Missing values may remain blank.
 
 The home page has a known timeline issue: its heading can identify one product series while the timeline entries include devices from other brands or series. The issue is deferred and was not fixed in this candidate. The home screenshot above shows this mismatch; it is not fixed in the candidate.
 

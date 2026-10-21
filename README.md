@@ -22,16 +22,16 @@ DeviceScope 是一个电子设备参数、产品对比与选购建议平台，�
 - 趋势观察：按品牌、品类、产品系列及指标观察数据；不同价格类型不混为实时行情。
 - AI 顾问：最多 12 个候选、每机最多两笔代表报价、最多推荐 3 台；自然语言建议加设备索引，设备与报价由服务端绑定校验；不可用时明确显示规则回退。
 
-## 当前数据与边界（2026-10-07）
+## 当前数据与边界（2026-10-21 核对默认分支生成结果）
 
 | 指标 | 数量与口径 |
 | --- | --- |
-| 来源记录 / 公开目录型号 | 991 / 970 |
-| 手机 / 平板 / 笔记本 / 手表 / 手环 | 477 / 160 / 115 / 170 / 48，目录口径 |
-| 原始严格比较组 / 规格字段 | 421 / 19,267 |
-| 已整理同款组 | 17 组，38 条款式记录归为 17 个型号 |
-| 默认图片 / 尚缺主图 | 983 / 8，原始记录口径 |
-| 有至少一笔有效当前价 / 二手价 | 68 / 97 个型号，不代表全部配置覆盖 |
+| 来源记录 / 公开目录型号 | 991 / 926 |
+| 手机 / 平板 / 笔记本 / 手表 / 手环 | 475 / 152 / 115 / 152 / 32，目录口径 |
+| 原始严格比较组 / 规格字段对象 | 378 / 19,395 |
+| 品牌 / 品类 | 8 / 5 |
+
+字段级事实、来源 URL、图片和证据文本分开说明，见[数据与素材边界](DATA_BOUNDARIES.md)。这些计数不证明数据完整、全部准确或素材已清权。
 
 数据保存为本地 JSON 分库，经清单构建合并；不是已迁移到 SQL 数据库。Apple 原英文官网快照独立保留，不用于默认回填。官方和主流第三方规格如实标注来源；报价采用中国大陆公开商品页的日期快照，不是实时最低价。二手价仅作轻量参考。
 
@@ -43,22 +43,24 @@ DeviceScope 是一个电子设备参数、产品对比与选购建议平台，�
 
 Next.js 16、React 19、TypeScript、Tailwind CSS 4；本地 JSON、来源元数据及 Node 回归脚本；OpenAI / DeepSeek 与 rules fallback。
 
-2026-10-07 完整 `npm run check` 与生产构建通过（1002 个静态页面，保留原详情链接）；桌面 1280px、手机 390px 的同款归并、配色切换、跨品牌选择与详情布局已检查。400 份穿戴参数/发布来源快照及图片快照通过离线回放。当前阶段未新增付费模型调用，不能据模拟 API 通过率宣称推荐准确率或模型稳定性。
+本轮干净副本的安装、数据生成、TypeScript、lint 与生产构建通过；完整 `npm run check` 因历史离线来源快照缺失而未通过。HTTP 监听被环境权限拒绝，未做浏览器或视觉验收。准确版本、命令与未验项见[复现记录](REPRODUCIBILITY.md)。
 
 DeepSeek 顾问显式关闭 thinking，输出上限 900 token、每次请求 15 秒超时，最多一次重试；15 秒不是含重试的整体耗时上限。现版本真实 Token、耗时、回退及文字事实仍需授权后的代表样例验收。
 
 ## 本地运行与检查
 
-```bash
-npm install
-npm run dev
-npm run check
-npm run build
-npm run test:wearable
-node scripts/audit-catalog-coverage.mjs --output /tmp/catalog-audit.json
-npm run prices -- plan --type current --limit 20
-npm run eval:device-advisor -- --provider=offline
+使用 Node 24、npm 11 及现有锁文件：
+
+```sh
+npm ci --ignore-scripts --no-audit --no-fund
+npm run build:data
+npm run typecheck
+npm run lint
+NEXT_TELEMETRY_DISABLED=1 OPENAI_API_KEY= DEEPSEEK_API_KEY= npm run build -- --webpack
+NEXT_TELEMETRY_DISABLED=1 OPENAI_API_KEY= DEEPSEEK_API_KEY= npm start -- --hostname 127.0.0.1
 ```
+
+依赖安装需要 npm registry 或完整本地缓存；本轮实际使用 `npm ci --offline`。开发可用 `npm run dev`。完整 `npm run check` 包含历史来源证据检查，干净克隆缺少相关缓存时不能视为通过。独立合成应用补丁尚未合入，新增演示命令目前不属于默认分支能力。
 
 本地默认 `http://localhost:3000` 只在运行电脑可访问，手机远程查看使用 Vercel 地址。开发服务使用 Webpack + polling。
 
