@@ -2,6 +2,8 @@
 
 [简体中文](README.md) | [English](README.en.md)
 
+[Development history](DEVELOPMENT_HISTORY.en.md): feature, maintenance and documentation progress grounded in actual commits and diffs.
+
 > **License:** Original software and original technical documentation are [MIT licensed](LICENSE). Third-party code, dependencies, fonts, images, databases, audiovisual materials and hardware retain their own rights. See [license scope](LICENSE_SCOPE.md).
 
 DeviceScope is a web application for browsing device specifications, comparing products, viewing historical price and specification trends, and exploring AI-assisted device suggestions. It presents structured records with source metadata; it is not a real-time price tracker, benchmark suite, or guarantee of product suitability.

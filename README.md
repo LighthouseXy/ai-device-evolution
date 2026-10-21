@@ -2,6 +2,8 @@
 
 [简体中文](README.md) | [English](README.en.md)
 
+[开发记录](DEVELOPMENT_HISTORY.md)：依据真实提交与差异整理的功能、维护及文档进度。
+
 > 原创软件代码及原创技术文档采用 [MIT](LICENSE)；第三方代码、依赖、字体、图片、数据库、影音和硬件保留各自权利。详见 [许可范围](LICENSE_SCOPE.md)。
 
 DeviceScope 是一个电子设备参数、产品对比与选购建议平台，以可追溯的结构化资料展示规格变化和配置差异，并提供 AI 辅助建议。
