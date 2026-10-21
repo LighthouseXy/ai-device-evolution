@@ -1,5 +1,7 @@
 # 数码观察站 / DeviceScope
 
+[简体中文](README.md) | [English](README.en.md)
+
 DeviceScope 是一个电子设备参数、产品对比与选购建议平台，以可追溯的结构化资料展示规格变化和配置差异，并提供 AI 辅助建议。
 
 - 在线演示：[ai-device-evolution.vercel.app](https://ai-device-evolution.vercel.app/)
