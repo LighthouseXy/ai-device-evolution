@@ -11,6 +11,52 @@ DeviceScope 是一个电子设备参数、产品对比与选购建议平台，�
 - 在线演示：[ai-device-evolution.vercel.app](https://ai-device-evolution.vercel.app/)
 - GitHub：[LighthouseXy/ai-device-evolution](https://github.com/LighthouseXy/ai-device-evolution)
 
+## 项目展示
+
+以下五张 PNG 截图由用户于 2026-10-21 提供；未提供精确拍摄时间或页面 URL。AI 顾问输入页和趋势观察两张 JPG 为此前保留的云端截图。本节引用已存原图，不修改图片内容。截图内含第三方产品图片、商标及资料，截图使用授权不改变其独立权利，详见[截图来源说明](docs/screenshots/ai-device/README.md)。
+
+### 首页概览
+
+![数码观察站首页概览与设备时间线](docs/screenshots/ai-device/ai-device-home-overview-user-20261021.png)
+
+用户提供，2026-10-21。图中首页系列摘要存在已登记显示问题：标题与时间线节点可能来自不同品牌或系列，待后续修复；本次未修复。详见[已知问题](docs/OPEN_SOURCE_KNOWN_ISSUES.md)。
+
+### AI 顾问
+
+![AI 顾问的预算与选购需求输入界面](docs/screenshots/ai-device/ai-device-advisor-input-2026-10-21-1179x756.jpg)
+
+云端保留截图，展示闲置输入表单，尚未生成推荐结果；截图过程未调用付费模型。
+
+### 产品对比
+
+![iPhone Pro 三代设备的参数与配置对比表](docs/screenshots/ai-device/ai-device-compare-iphone-pro-user-20261021.png)
+
+用户提供，2026-10-21。展示 iPhone Pro 三代设备的并列对比。
+
+### 趋势观察
+
+![iPhone Pro Max 同系列 2018 至 2026 年起售价趋势](docs/screenshots/ai-device/ai-device-trends-iphone-pro-max-launch-price-2026-10-21-1179x756.jpg)
+
+云端保留截图，展示同系列 2018–2026 年各年样本的历史起售价，不是价格预测。
+
+### 设备库
+
+![苹果设备库中的设备卡片与筛选入口](docs/screenshots/ai-device/ai-device-apple-catalog-user-20261021.png)
+
+用户提供，2026-10-21。展示苹果设备卡片及设备库筛选。
+
+### 设备详情与图库
+
+![iPhone 17 详情页的产品图库与尺寸趋势](docs/screenshots/ai-device/ai-device-iphone17-gallery-user-20261021.png)
+
+用户提供，2026-10-21。展示 iPhone 17 详情页的图库与尺寸趋势。
+
+### 设备详细参数
+
+![iPhone 17 详情页的分区规格参数](docs/screenshots/ai-device/ai-device-iphone17-specifications-user-20261021.png)
+
+用户提供，2026-10-21。展示 iPhone 17 的详细参数分区。
+
 ## 核心能力
 
 - 设备库：苹果、小米、红米、三星、华为、OPPO、vivo、荣耀八个品牌；手机、平板电脑、笔记本电脑、手表、手环五个品类。
