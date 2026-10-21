@@ -2,6 +2,8 @@
 
 [简体中文](README.md) | [English](README.en.md)
 
+> 原创软件代码及原创技术文档采用 [MIT](LICENSE)；第三方代码、依赖、字体、图片、数据库、影音和硬件保留各自权利。详见 [许可范围](LICENSE_SCOPE.md)。
+
 DeviceScope 是一个电子设备参数、产品对比与选购建议平台，以可追溯的结构化资料展示规格变化和配置差异，并提供 AI 辅助建议。
 
 - 在线演示：[ai-device-evolution.vercel.app](https://ai-device-evolution.vercel.app/)
@@ -68,3 +70,7 @@ npm run eval:device-advisor -- --provider=offline
 - [来源管理](docs/apple-official-sources.md)
 - [本次变更与验收](docs/logs/2026-10-07.md)
 - [后续建议及已取消范围](docs/FUTURE_FEATURES.md)
+
+## 许可证与材料范围
+
+根 [LICENSE](LICENSE) 为标准 MIT，适用于范围清单中的原创软件及原创技术文档；允许按 MIT 商业使用、修改和再分发，须保留版权及许可声明。第三方材料与真实产品数据库不受根许可统一覆盖，原许可及版权继续适用。详见 [LICENSE_SCOPE.md](LICENSE_SCOPE.md) 与 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。

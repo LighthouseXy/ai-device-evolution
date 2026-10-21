@@ -2,7 +2,7 @@
 
 [简体中文](README.md) | [English](README.en.md)
 
-> **Release status:** This source snapshot has not been approved for public release. The final software license and rights to publish the production data, images, and some documentation have not been settled. Do not assume that this candidate grants permission to use, modify, redistribute, or commercially deploy it.
+> **License:** Original software and original technical documentation are [MIT licensed](LICENSE). Third-party code, dependencies, fonts, images, databases, audiovisual materials and hardware retain their own rights. See [license scope](LICENSE_SCOPE.md).
 
 DeviceScope is a web application for browsing device specifications, comparing products, viewing historical price and specification trends, and exploring AI-assisted device suggestions. It presents structured records with source metadata; it is not a real-time price tracker, benchmark suite, or guarantee of product suitability.
 
@@ -91,8 +91,10 @@ The advisor's candidate limits and reference checks do not verify all natural-la
 
 Available checks include `npm run typecheck`, `npm run lint`, `npm run test:device-advisor`, and `npm run test:device-advisor-api`. These are code and mock/regression checks, not real-model quality measurements. Ensure the required historical evidence is available before running the broader `npm run check` suite.
 
-The contribution process and final terms have not been approved for a public project. Before contributing, confirm the maintainers' current policy. Data changes should include source, date, region, and configuration context; preserve unknowns rather than extrapolating. Image contributions need asset-specific author, source, and license evidence. Do not submit credentials, personal data, uncleared third-party originals, or paid API outputs.
+Project-owned software and original technical documents in the scope list use MIT. Before contributing, confirm the maintainers' current contribution workflow and that you have rights to the material you provide. Data changes should include source, date, region, and configuration context; preserve unknowns rather than extrapolating. Image contributions need asset-specific author, source, and license evidence. Do not submit credentials, personal data, uncleared third-party originals, or paid API outputs.
 
 ## License and rights
 
-No final root `LICENSE` is included, and ownership and contribution authority have not been fully audited. The software license selection is pending; no proposed license (including MIT) has been approved, and there is no grant here to use, modify, redistribute, or commercially deploy the code. Production data, images, logos, quotations, documentation, and dependencies require separate rights and notice review; they are not automatically covered by a future software license. Do not publish those materials unless their rights and applicable notices have been independently confirmed.
+The root [LICENSE](LICENSE) contains standard MIT with Copyright (c) 2026 LighthouseXy for project-owned software and original technical-document portions. It permits commercial use, modification and redistribution subject to its copyright/permission notice; no additional noncommercial condition is imposed on that scope.
+
+Third-party code, dependencies, fonts, photographs, screenshots, logos, production databases, quotations, audiovisual material and hardware retain their separate rights and notices. They are not automatically covered by project MIT. See [LICENSE_SCOPE.md](LICENSE_SCOPE.md), [LICENSE_SCOPE.json](LICENSE_SCOPE.json) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for actual remote paths and boundaries. The separately prepared synthetic application candidate is not published by this license-only commit, and its local-only scripts/data are not required by this README.
