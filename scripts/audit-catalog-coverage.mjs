@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import { loadTsModule } from "./lib/load-ts-module.mjs";
 
-// 清单差集不是全量证明：只统计已登记目标，未建立完整目录的品牌必须保持 partial。
+// 差集只统计已登记目标；未建立完整目录的品牌必须保持 partial。
 const read = async (file) => JSON.parse(await fs.readFile(file, "utf8"));
 const manifest = await read("src/data/device-data-manifest.json");
 const { getCatalogBrand } = loadTsModule("./src/lib/catalog-order.ts");
@@ -47,7 +47,7 @@ for (const dataset of manifest.datasets) {
       && (!year || device.releaseYear === year) && identity(device.modelName) === identity(name));
     if (match) continue;
     auditEntries.push({ status, ...entry, brand,
-      reason: entry.reason ?? (status === "pending" ? "尚未开展核验，不是已证实不存在" : "证据未通过当前校验"),
+      reason: entry.reason ?? (status === "pending" ? "尚未开展核验，型号是否存在仍待确认" : "证据未通过当前校验"),
       catalogSources: audit.catalogSources ?? [] });
   }
 }
@@ -81,7 +81,7 @@ const perBrand = Object.fromEntries(Object.entries(scope).map(([brand, minYear])
     modelInventoryRegistered: hasInventory,
     explicitInventoryEntries: hasInventory ? [...knownInventory.values()].filter((entry) => entry.brand === brand).length : null,
     knownScopeDeviceEntries: rows.length + gaps.length,
-    inventoryNote: "显式目标条目只统计已登记的局部清单，不是品牌全部产品数；年度/品类为0仅表示未收录，不能解释为不适用。",
+    inventoryNote: "显式目标条目按已登记的局部清单统计；品牌完整产品数仍待核实，年度/品类为0表示尚未收录，适用性另行核验。",
     catalogSources: [...new Set(inventoryEvidence[brand]?.sources ?? [])],
     unenumeratedScopeGaps: [...new Set(inventoryEvidence[brand]?.scopeGaps ?? [])],
     missingDefaultImage: rows.filter((device) => !images[device.id]).map((device) => device.id),
@@ -107,8 +107,8 @@ for (const device of devices) for (const field of Object.values(device.specs)) {
   sourceTypes[type] = (sourceTypes[type] ?? 0) + 1;
 }
 const report = { asOf, allRequestedProductsComplete: false,
-  scopeAssumptions: ["近10年按2017–2026、近5年按2022–2026解释；Apple延续2016起的范围", "截至日已发售的中国大陆手机、平板、笔记本、手表、手环", "穿戴设备首批为已核验样本，不等于全量历史型号或配色已覆盖"],
-  caveat: "已知目标清单仍不完整；pending/blocked数量不能当作全部剩余产品数。没有收录不等于该品牌未发布。",
+  scopeAssumptions: ["近10年按2017–2026、近5年按2022–2026解释；Apple延续2016起的范围", "截至日已发售的中国大陆手机、平板、笔记本、手表、手环", "穿戴设备首批为已核验样本，历史型号与配色覆盖仍有缺口"],
+  caveat: "已知目标清单仍不完整；pending/blocked数量按已登记目标统计。未收录型号的发布情况需继续核实。",
   totals: { devices: devices.length, defaultImages: Object.keys(images).length,
     missingDefaultImages: devices.filter((device) => !images[device.id]).map((device) => device.id),
     palettes: Object.keys(galleries).length,

@@ -190,7 +190,7 @@ export function getCameraDetailPresentation(device: FlattenedDevice) {
       || /f\/?\d+(?:\.\d+)?\s*\+\s*f\/?\d/i.test(part)
       || (/主摄|主镜头/.test(part) && /超广角/.test(part))
       || /(?:广角|长焦|超广角)(?:和|及|、)(?:广角|长焦|超广角)/.test(part)) { unassigned.push(part); continue; }
-    // 主摄裁切的“光学品质长焦”不是独立长焦镜头，按原文归入主摄。
+    // 主摄裁切实现的“光学品质长焦”按原文归入主摄，独立长焦镜头另行归类。
     const key = mainCrop.test(part) ? "mainCamera"
       : /超广角/.test(part) ? "ultraWide"
       : /长焦/.test(part) ? "telephoto"

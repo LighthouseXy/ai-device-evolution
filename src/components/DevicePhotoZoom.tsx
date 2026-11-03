@@ -69,6 +69,6 @@ export default function DevicePhotoZoom({ image, model, onClose }: {
         width={2400} height={1800} unoptimized referrerPolicy="no-referrer" draggable={false}
         style={{ transform: `translate(${view.x}px, ${view.y}px) scale(${view.scale})` }} onError={() => setFailed(true)} />}
     </div>
-    <p className="px-3 py-2 text-center text-xs text-[var(--text-muted)]">滚轮或双指缩放，拖动查看细节；方向键移动，Esc 关闭。外观图不代表配置、附件标配或现货。</p>
+    <p className="px-3 py-2 text-center text-xs text-[var(--text-muted)]">滚轮或双指缩放，拖动查看细节；方向键移动，Esc 关闭。具体配置、附件标配与库存请核对销售页面。</p>
   </dialog>;
 }

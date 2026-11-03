@@ -23,7 +23,7 @@ export type SpecField<T> = {
   value: T | null;
   unit?: string | null;
   rawText?: string | null;
-  // 整理描述不是逐字原文；历史记录未标注时也不能默认当成原文快照。
+  // 整理描述与逐字原文分别标注；历史未标注记录的证据类型需核实。
   summaryText?: string;
   note?: string;
   evidenceKind?: "excerpt" | "summary";

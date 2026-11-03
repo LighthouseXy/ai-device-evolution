@@ -1,4 +1,4 @@
-// Triage only: absence of flags never certifies natural-language accuracy.
+// Flags identify claims for review; unflagged natural-language claims still need verification.
 export function reviewAdvisorFacts(data, modelInput) {
   if (data?.source !== "ai") return { status: "not_applicable", flags: [] };
   const quotes = (data.devices ?? []).flatMap((device) => {

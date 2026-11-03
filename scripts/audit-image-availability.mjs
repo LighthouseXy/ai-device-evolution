@@ -56,5 +56,5 @@ const rows = [...results.values()];
 const summary = { totalUniqueUrls: urls.size, checked: rows.length, decoded: rows.filter((row) => row.status === "decoded").length,
   unverified: rows.filter((row) => row.status !== "decoded").length, unchecked: urls.size - rows.length };
 await fs.writeFile(output, `${JSON.stringify({ asOf: new Date().toISOString(), summary,
-  caveat: "HTTP与解码通过不等于型号/配色人工核实，也不等于获得图片使用许可；未验证和超时不能计为可用。", results: rows }, null, 2)}\n`);
+  caveat: "HTTP与解码只验证响应和图片读取；型号/配色与使用许可仍需分别核实。未验证和超时不能计为可用。", results: rows }, null, 2)}\n`);
 console.log(JSON.stringify({ output, ...summary }));

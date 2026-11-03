@@ -54,7 +54,7 @@ export function readSingleCapacity(value) {
   const first = capacity(value);
   if (!first) return null;
   let invalidModules = false;
-  // 16GB（8GB×2）是同一个总容量，不是 8GB/16GB 两个 SKU。
+  // 16GB（8GB×2）按同一 SKU 的 16GB 总容量记录。
   const normalized = value.replace(/[（(](\d+(?:\.\d+)?)\s*GB\s*[×x*]\s*(\d+)[）)]/gi,
     (text, size, count) => {
       if (`${Number(size) * Number(count)}GB` !== first) invalidModules = true;

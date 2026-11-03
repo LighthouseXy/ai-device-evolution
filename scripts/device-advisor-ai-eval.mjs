@@ -446,7 +446,7 @@ async function main() {
       usageReportedAttempts: results.flatMap((result) => result.usage).length,
       totalTokens: results.some((result) => result.usage.length)
         ? results.flatMap((result) => result.usage).reduce((sum, usage) => sum + usage.totalTokens, 0) : null,
-      note: "Binding checks and numeric/configuration triage are not factual approval. AI prose requires manual review against saved modelInput; aliases, per-device attribution, derived amounts, negation and qualitative claims are not fully checked.",
+      note: "Binding checks and numeric/configuration triage cover limited consistency checks. AI prose requires manual review against saved modelInput, including aliases, per-device attribution, derived amounts, negation and qualitative claims beyond the automated checks.",
     },
     byGroup: Object.fromEntries(
       Array.from(byGroup.entries()).map(([group, summary]) => [group, finalizeSummary(summary)]),

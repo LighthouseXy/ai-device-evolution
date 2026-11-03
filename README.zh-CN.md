@@ -19,7 +19,7 @@ DeviceScope 是一个电子设备参数、产品对比与选购建议平台，�
 
 ![数码观察站首页概览与设备时间线](docs/screenshots/ai-device/ai-device-home-overview-user-20261021.png)
 
-用户提供，2026-10-21。图中首页系列摘要存在已登记显示问题：标题与时间线节点可能来自不同品牌或系列，待后续修复；本次未修复。详见[已知问题](docs/OPEN_SOURCE_KNOWN_ISSUES.md)。
+用户提供，2026-10-21。图中首页系列摘要存在已登记显示问题：标题与时间线节点可能来自不同品牌或系列，此版本中仍待修复。详见[已知问题](docs/OPEN_SOURCE_KNOWN_ISSUES.md)。
 
 ### AI 顾问
 
@@ -37,7 +37,7 @@ DeviceScope 是一个电子设备参数、产品对比与选购建议平台，�
 
 ![iPhone Pro Max 同系列 2018 至 2026 年起售价趋势](docs/screenshots/ai-device/ai-device-trends-iphone-pro-max-launch-price-2026-10-21-1179x756.jpg)
 
-云端保留截图，展示同系列 2018–2026 年各年样本的历史起售价，不是价格预测。
+云端保留截图，仅展示同系列 2018–2026 年各年样本的历史起售价；价格预测和独立市场分析需另行开展。
 
 ### 设备库
 
@@ -77,13 +77,13 @@ DeviceScope 是一个电子设备参数、产品对比与选购建议平台，�
 | 原始严格比较组 / 规格字段对象 | 378 / 19,395 |
 | 品牌 / 品类 | 8 / 5 |
 
-字段级事实、来源 URL、图片和证据文本分开说明，见[数据与素材边界](DATA_BOUNDARIES.md)。这些计数不证明数据完整、全部准确或素材已清权。
+字段级事实、来源 URL、图片和证据文本分开说明，见[数据与素材边界](DATA_BOUNDARIES.md)。覆盖完整性、字段准确性与素材许可仍需分别核实。
 
-数据保存为本地 JSON 分库，经清单构建合并；不是已迁移到 SQL 数据库。Apple 原英文官网快照独立保留，不用于默认回填。官方和主流第三方规格如实标注来源；报价采用中国大陆公开商品页的日期快照，不是实时最低价。二手价仅作轻量参考。
+数据保存为本地 JSON 分库，经清单构建合并，运行时使用 JSON 文件。Apple 原英文官网快照独立保留，不用于默认回填。官方和主流第三方规格如实标注来源；报价采用中国大陆公开商品页的日期快照，实时最低价需另行查询。二手价仅作轻量参考。
 
-近十年小米/红米/三星按 2017–2026、近五年华为/OPPO/vivo/荣耀按 2022–2026 整理，Apple 延续 2016 年起的范围。已完成多批扩容，但目录审计仍标记 partial，不能声称已覆盖期间所有产品、配置和颜色。缺失字段保持空值；照片来源可追溯不等于获得商业使用许可，当前图片许可状态未明确。3D 产品展示已取消。
+近十年小米/红米/三星按 2017–2026、近五年华为/OPPO/vivo/荣耀按 2022–2026 整理，Apple 延续 2016 年起的范围。已完成多批扩容，目录审计仍标记 partial，期间产品、配置和颜色的覆盖仍有缺口。缺失字段保持空值；照片来源可追溯，商业使用许可仍待核实。3D 产品展示已取消。
 
-`/compare` 和 `/trends` 的文字洞察来自本地规则，不是联网模型。`/api/ai-analysis` 有接口基础，但产品对比未接入真实 AI。顾问的 ID/报价绑定与有限正文一致性检查不能证明全部自然语言事实正确。
+`/compare` 和 `/trends` 的文字洞察由本地规则生成。`/api/ai-analysis` 有接口基础，但产品对比未接入真实 AI。顾问进行 ID/报价绑定与有限正文一致性检查，完整自然语言事实仍需核验。
 
 ## 技术与验收
 
@@ -91,7 +91,7 @@ Next.js 16、React 19、TypeScript、Tailwind CSS 4；本地 JSON、来源元数
 
 本轮干净副本的安装、数据生成、TypeScript、lint 与生产构建通过；完整 `npm run check` 因历史离线来源快照缺失而未通过。HTTP 监听被环境权限拒绝，未做浏览器或视觉验收。准确版本、命令与未验项见[复现记录](REPRODUCIBILITY.md)。
 
-DeepSeek 顾问显式关闭 thinking，输出上限 900 token、每次请求 15 秒超时，最多一次重试；15 秒不是含重试的整体耗时上限。现版本真实 Token、耗时、回退及文字事实仍需授权后的代表样例验收。
+DeepSeek 顾问显式关闭 thinking，输出上限 900 token、每次请求 15 秒超时，最多一次重试；含重试的整体耗时可超过 15 秒。现版本真实 Token、耗时、回退及文字事实仍需授权后的代表样例验收。
 
 ## 本地运行与检查
 
@@ -106,7 +106,9 @@ NEXT_TELEMETRY_DISABLED=1 OPENAI_API_KEY= DEEPSEEK_API_KEY= npm run build -- --w
 NEXT_TELEMETRY_DISABLED=1 OPENAI_API_KEY= DEEPSEEK_API_KEY= npm start -- --hostname 127.0.0.1
 ```
 
-依赖安装需要 npm registry 或完整本地缓存；本轮实际使用 `npm ci --offline`。开发可用 `npm run dev`。完整 `npm run check` 包含历史来源证据检查，干净克隆缺少相关缓存时不能视为通过。完整应用合成演示已随源码提供：安装依赖后运行 `node scripts/export-demo.mjs`，再按[演示步骤](DEMO.md)进入新的 `.demo-app`；不覆盖生产数据。演示无需模型密钥，HTTP 验收仍因监听权限未完成。
+依赖安装需要 npm registry 或完整本地缓存；本轮实际使用 `npm ci --offline`。开发可用 `npm run dev`。完整 `npm run check` 包含历史来源证据检查，干净克隆缺少相关缓存时不能视为通过。
+
+完整应用合成演示已随源码提供：安装依赖后运行 `node scripts/export-demo.mjs`，再按[演示步骤](DEMO.md)进入新的 `.demo-app`；不覆盖生产数据。演示无需模型密钥，HTTP 验收仍因监听权限未完成。
 
 本地默认 `http://localhost:3000` 只在运行电脑可访问，手机远程查看使用 Vercel 地址。开发服务使用 Webpack + polling。
 

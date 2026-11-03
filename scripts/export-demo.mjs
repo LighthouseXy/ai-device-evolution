@@ -43,7 +43,7 @@ const edit = (relative, transform) => {
 edit("src/app/globals.css", s => s.replace(/^@import url\("https:\/\/fonts\.googleapis\.com\/[^\n]+\n/, ""));
 edit("src/lib/catalog-order.ts", s => s.replace('export const brandOrder = [', 'export const brandOrder = ["Example", "Demo", ').replace('export const brandLabels: Record<string, string> = {', 'export const brandLabels: Record<string, string> = {\n  Example: "Example（合成演示）", Demo: "Demo（合成演示）",'));
 for (const [file, variable] of [["src/app/compare/page.tsx", "seriesOptions"], ["src/app/trends/page.tsx", "catalogGroups"]]) edit(file, s => s.replace('?.brand ?? "Apple"', `?.brand ?? ${variable}[0]?.brand ?? "Apple"`));
-edit("src/app/page.tsx", s => s.replace('基于真实本地数据库，串联设备库、产品对比、趋势观察和 AI 顾问；现已接入苹果、小米、红米、三星、华为、OPPO、vivo 与荣耀中国大陆设备数据。', '此发行演示使用自建 Example / Demo 合成设备、参数和报价，串联设备库、对比、趋势与离线规则顾问；不代表真实产品或线上数据。').replaceAll('真实样本', '合成样本').replaceAll('真实设备', '演示设备'));
+edit("src/app/page.tsx", s => s.replace('使用真实的本地设备资料，提供设备库、产品对比、趋势观察和 AI 顾问；已收录苹果、小米、红米、三星、华为、OPPO、vivo 与荣耀中国大陆设备数据。', '此发行演示使用自建 Example / Demo 合成设备、参数和报价，提供设备库、对比、趋势与离线规则顾问；不代表真实产品或线上数据。').replaceAll('真实样本', '合成样本').replaceAll('真实设备', '演示设备'));
 edit("src/lib/device-display-images.ts", s => s.replace('references.filter(', '(references as { modelId: string; scope: string; image: DeviceProductImage }[]).filter('));
 edit("src/lib/device-image-byte-cache.ts", s => s.replace('cached.map(', '(cached as { modelName: string; sourceUrl: string; originalUrl: string; localUrl: string }[]).map('));
 edit("next.config.ts", s => s.replace('modelIdentity.groups.flatMap(', '(modelIdentity.groups as { id: string; editions: Record<string, string> }[]).flatMap('));

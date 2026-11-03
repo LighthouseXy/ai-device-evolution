@@ -191,15 +191,15 @@ function buildInsights(input: AiAnalysisInput): string[] {
       addUnique(
         insights,
         delta > 0
-          ? "价格上行会影响购买门槛，后续预测应优先考虑价值感而不是只看参数。"
+          ? "价格上行会影响购买门槛，后续预测应结合参数，优先考虑价值感。"
           : "价格未明显上升时，升级体验更可能被性能和功能变化放大。",
       );
     }
   } else if (analysisType === "buying_advice") {
     if (input.changedFields.length >= 4) {
-      addUnique(insights, "变化面较广，说明新旧代际差异更值得认真对比。");
+      addUnique(insights, "变化涉及多个维度，可结合具体参数比较新旧代际。");
     } else if (input.changedFields.length > 0) {
-      addUnique(insights, "存在可感知升级，但是否值得买单仍取决于预算与现有设备状态。");
+      addUnique(insights, "已有可感知的升级，是否购买仍取决于预算与现有设备状态。");
     } else {
       addUnique(insights, "变化有限时，购买决策更应回到价格、库存和真实需求。");
     }
@@ -211,7 +211,7 @@ function buildInsights(input: AiAnalysisInput): string[] {
   }
 
   if (!insights.length && previous) {
-    addUnique(insights, "当前信息更适合做保守观察，而不是下结论。");
+    addUnique(insights, "当前信息适合做保守观察，进一步结论仍需更多证据。");
   }
 
   return insights.slice(0, MAX_HIGHLIGHTS);
@@ -265,7 +265,7 @@ function buildFallbackOutput(input: AiAnalysisInput): AiAnalysisOutput {
           : analysisType === "comparison_explanation"
             ? `此维度适合帮助理解 ${input.categoryLabel} 的差异如何影响判断。`
             : input.changedFields.length > 0
-              ? "变化已经足以构成代际观察，但是否购买仍要结合预算。"
+              ? "当前变化可用于代际观察，购买时仍需结合预算。"
               : "当前数据不足时，先观察价格和补充信息更稳妥。",
     prediction:
       analysisType === "trend_prediction"
@@ -273,7 +273,7 @@ function buildFallbackOutput(input: AiAnalysisInput): AiAnalysisOutput {
           ? `按现有节奏，下一代可能继续围绕 ${nextChip} 做渐进式优化。`
           : "当前数据不足，无法可靠预测下一代方向。"
         : analysisType === "comparison_explanation"
-          ? "比较本维度的意义在于帮助识别哪些变化会真正影响使用体验。"
+          ? "比较此维度可帮助判断具体变化对使用体验的影响。"
           : nextChip
             ? `下一代大概率仍会沿着 ${nextChip} 的方向做稳健升级。`
             : "当前数据不足，无法可靠预测下一代芯片代际。",
