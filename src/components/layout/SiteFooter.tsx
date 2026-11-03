@@ -12,7 +12,7 @@ export default function SiteFooter() {
             </Link>
             <p className="site-footer-desc">
               聚焦电子设备代际演进、规格对比与 AI 辅助分析的研究平台，
-              已覆盖苹果、小米、红米、三星、华为、OPPO、vivo 与荣耀中国大陆产品线。
+              已收录苹果、小米、红米、三星、华为、OPPO、vivo 与荣耀中国大陆设备资料。
             </p>
           </div>
 

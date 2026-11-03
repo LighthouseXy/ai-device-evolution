@@ -8,8 +8,8 @@
 
 DeviceScope is a web application for browsing device specifications, comparing products, viewing historical price and specification trends, and exploring AI-assisted device suggestions. It presents structured records with source metadata and dated price snapshots. Performance testing and suitability for a particular use require separate evaluation.
 
-- Existing project demo: [ai-device-evolution.vercel.app](https://ai-device-evolution.vercel.app/). The deployed site and this source candidate may be different versions.
-- Existing repository reference: [LighthouseXy/ai-device-evolution](https://github.com/LighthouseXy/ai-device-evolution). Check its current release and licensing status before relying on it.
+- Project demo: [ai-device-evolution.vercel.app](https://ai-device-evolution.vercel.app/). The deployed site and this source candidate may be different versions.
+- Repository: [LighthouseXy/ai-device-evolution](https://github.com/LighthouseXy/ai-device-evolution). Check its current release and licensing status before relying on it.
 
 ## What the candidate does
 
@@ -36,7 +36,7 @@ Five images below were provided by the user on 2026-10-21; their exact capture t
 *User-provided capture dated 2026-10-21.*
 
 ![Historical launch-price trend for iPhone Pro Max](docs/screenshots/ai-device/ai-device-trends-iphone-pro-max-launch-price-2026-10-21-1179x756.jpg)
-*Candidate trends-page capture. It shows one annual sample for each year from 2018 to 2026; it documents historical samples shown by the site. Forecasting and independent market analysis require separate work.*
+*Trends-page capture showing one historical sample per year from 2018 to 2026. Forecasting and independent market analysis require separate work.*
 
 ![Apple device catalog in DeviceScope](docs/screenshots/ai-device/ai-device-apple-catalog-user-20261021.png)
 *User-provided capture dated 2026-10-21.*
@@ -73,7 +73,9 @@ NEXT_TELEMETRY_DISABLED=1 OPENAI_API_KEY= DEEPSEEK_API_KEY= npm start -- --hostn
 
 For development, run `npm run dev` and open `http://localhost:3000`. Dependency installation requires the npm registry or a complete local cache.
 
-The clean-copy install, data generation, typecheck, lint and production build passed. The full `npm run check` failed at a missing offline source snapshot; later chained checks were not reached. HTTP verification was blocked by loopback `EPERM`, so no HTTP or visual acceptance is claimed. See [reproducibility](REPRODUCIBILITY.md). The complete synthetic application demo is now included: after installing dependencies, run `node scripts/export-demo.mjs` and follow [the demo steps](DEMO.md) in the new `.demo-app` directory. Production inputs are unchanged. The demo needs no model keys; HTTP verification remains blocked by loopback permissions.
+The clean-copy install, data generation, typecheck, lint and production build passed. The full `npm run check` failed at a missing offline source snapshot; later chained checks were not reached. HTTP verification was blocked by loopback `EPERM`, so no HTTP or visual acceptance is claimed. See [reproducibility](REPRODUCIBILITY.md).
+
+The complete synthetic application demo is included: after installing dependencies, run `node scripts/export-demo.mjs` and follow [the demo steps](DEMO.md) in the new `.demo-app` directory. Production inputs are unchanged. The demo needs no model keys; HTTP verification remains blocked by loopback permissions.
 
 ## Configuration and safety
 

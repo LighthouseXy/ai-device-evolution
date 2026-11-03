@@ -29,7 +29,7 @@ The full check exited 1 at a missing offline source snapshot. Later chained chec
 
 该补丁保留原应用路由、组件与默认生产脚本，仅增加导出器、原创合成输入、验证器与离线回归脚本；工具忽略规则避免生成目录进入 Git/lint。导出器只创建新的 `.demo-app`，拒绝覆盖已有目录，不复制生产 JSON、产品图片、来源长文或真实配置；默认构建路径不变。导出入口已包含在本版本：`node scripts/export-demo.mjs`，运行步骤见 [DEMO.md](DEMO.md)。
 
-在隔离副本应用补丁后，完整演示的 30 条虚构设备、2 品牌、5 品类、10 个三代系列验证通过；重复生成、重复 ID 负例、目录分组及真实顾问路由的离线规则回退通过，网络 fetch 由测试拒绝。干净安装、typecheck、lint 与生产 build 通过。当前本地较新的未提交源码也通过了相同导出器的数据/API 回归与 typecheck；没有将它冒充远端已发布代码。
+在隔离副本应用补丁后，完整演示的 30 条虚构设备、2 品牌、5 品类、10 个三代系列验证通过；重复生成、重复 ID 负例、目录分组及真实顾问路由的离线规则回退通过，网络 fetch 由测试拒绝。干净安装、typecheck、lint 与生产 build 通过。当前本地较新的未提交源码也通过了相同导出器的数据/API 回归与 typecheck；该版本尚未发布。
 
 The included addon exports the original full application with 30 fictional devices into a fresh `.demo-app`. Production inputs and scripts are unchanged. Data/API regressions, deterministic generation, clean install, typecheck, lint and production build passed in the isolated default-branch copy. A copy of the newer uncommitted local source also passed data/API regressions and typecheck; it remains unpublished.
 

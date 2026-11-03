@@ -297,7 +297,7 @@ export default function DeviceSeriesTrendExplorer({
               </div>
             ))}
           </div>
-          <p className="mt-2 text-xs text-[var(--text-soft)]">型号仅用于展示代际更替，不代表性能分数。</p>
+          <p className="mt-2 text-xs text-[var(--text-soft)]">型号仅用于展示代际更替，性能分数需另行评测。</p>
         </div>
       ) : null}
     </div>

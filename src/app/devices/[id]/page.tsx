@@ -267,7 +267,7 @@ export default async function DeviceDetailPage({
                   <div className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--text-soft)]">数据口径</div>
                   <p className="mt-2 text-sm leading-7 text-[var(--text-muted)]">
                     该页面优先展示本地数据库中已收录字段，数组或布尔型字段会按实际值展开，缺失项保留“待补充”。
-                    参数图仅使用同一产品族、款式与芯片档位的真实样本，不引入原型假统计数字。
+                    参数图仅使用同一产品族、款式与芯片档位的真实样本，数值以已收录记录为准。
                   </p>
                 </div>
               </div>
@@ -304,7 +304,7 @@ export default async function DeviceDetailPage({
           <SectionHeader
             eyebrow="数据来源"
             title="已收录字段的证据入口"
-            description="相同页面只列一次；第三方资料是可追溯参考，不冒充品牌官方数据。"
+            description="相同页面只列一次；第三方资料作为可追溯参考，保留第三方来源标注。"
           />
           <div className="grid gap-3 md:grid-cols-2">
             {sourceRows.map((source) => (
