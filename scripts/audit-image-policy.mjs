@@ -61,5 +61,5 @@ summary.colorBindingRequiresReview = bindingIssues.filter(issue => issue.status 
 summary.colorBindingUnverified = bindingIssues.filter(issue => issue.status === "unverified").length;
 const output = "/tmp/device-image-policy-audit.json";
 await fs.writeFile(output, `${JSON.stringify({ summary,
-  caveat: "recorded 表示已有视角证据；unverified 不代表图片一定错误。字段缺口仅待人工判断适用性，不自动填值。", rows, bindingIssues }, null, 2)}\n`);
+  caveat: "recorded 表示已有视角证据；unverified 表示仍待核验。字段缺口由人工判断适用性，保留缺失状态。", rows, bindingIssues }, null, 2)}\n`);
 console.log(JSON.stringify({ output, ...summary }));

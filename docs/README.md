@@ -12,13 +12,13 @@
 
 `device-data-manifest.json` 的 54 个数据集 → 构建合并 `devices-db.json` / `device-sources.json` → 来源型对象 `allDevices` → 展平来源 `allDevicesFlat` → 人工确认映射整理 `catalogDevicesFlat` → 首页、库、详情、对比与趋势。
 
-JSON 是本地结构化数据源，不是 SQL 数据库。分类门禁、来源字段与原始快照分别承担配置合法性、证据归属与可复现性，不能把门禁通过宣称为所有参数完整正确。原英文 Apple 快照独立保留，不默认回填。
+数据保存在本地结构化 JSON 中。分类门禁、来源字段与原始快照分别承担配置合法性、证据归属与可复现性，不能把门禁通过宣称为所有参数完整正确。原英文 Apple 快照独立保留，不默认回填。
 
 - `SpecField`：值、单位、原文/整理说明、实际 URL、official/reference、历史核验日期；可附真实采集时间和内容哈希。
-- `DeviceConfiguration`：有证据的内存/存储和芯片/CPU/GPU 组合，不是各容量任意交叉。
+- `DeviceConfiguration`：由证据确认的内存/存储和芯片/CPU/GPU 组合，按实际配置逐项登记。
 - `PriceField`：中国大陆具体配置/款式、价格类型、成色、观察日期和来源；首发/当前/二手分别保存。
 - `device-model-groups.json`：人工确认同款映射，展示层的 editions 保留原款式对象与报价；旧路径继续可用。
-- `device-images.json` / `device-image-galleries.json`：实际型号主图与配色项；无图留空，来源不是许可证明。
+- `device-images.json` / `device-image-galleries.json`：实际型号主图与配色项；无图留空，许可需独立核实。
 - `computed`：与采集事实分离，40 条直接前代升级评分不表示全部历史代际已有评分。
 
 完整契约见 [字段字典](field-dictionary.md)。八个缺失主图和其他规格/配色/历史型号缺口保留在目录审计中，覆盖仍 partial。
@@ -31,7 +31,7 @@ JSON 是本地结构化数据源，不是 SQL 数据库。分类门禁、来源�
 
 详情 `DeviceSpecGrid` 使用 ResizeObserver 分配独立双列，固定首两张卡片、其余放入较短列，后续高度变化不跨列迁移。手机单列。短值保留标签/数值布局，长说明按原文条目完整显示、统一正文字重、不折叠；镜头分项已覆盖时消除重复总述展示。
 
-`/compare`、`/trends` 当前文字洞察来自本地 rules，不是实时模型调用。`/api/ai-analysis` 有通用接口基础，真实产品对比 AI 未上线。
+`/compare`、`/trends` 当前文字洞察由本地 rules 生成。`/api/ai-analysis` 有通用接口基础，真实产品对比 AI 未上线。
 
 ## AI 顾问
 
@@ -59,7 +59,7 @@ npm run eval:device-advisor -- --provider=offline
 
 价格工具复用目标计划、搜索、精确商品页检查、缓存、批次校验和导入，不作无目标全库重复抓取。二手价为 P3 轻量参考。快照复用不刷新实际采集日期，刷新失败不编造新证据。
 
-完整 check 包括类型、lint、分类/来源、价格与快照、配置、穿戴/同款、AI analysis、顾问与 20 个模拟 API 场景。2026-10-07 检查及构建通过，1002 个静态页面；桌面 1280px / 手机 390px 核验。穿戴 400 份参数/发布来源、239 份主图、51 份配色图快照离线回放通过，不代表在线刷新。
+完整 check 包括类型、lint、分类/来源、价格与快照、配置、穿戴/同款、AI analysis、顾问与 20 个模拟 API 场景。2026-10-07 检查及构建通过，1002 个静态页面；桌面 1280px / 手机 390px 核验。穿戴 400 份参数/发布来源、239 份主图、51 份配色图快照离线回放通过；在线刷新需另行验证。
 
 模型密钥使用环境配置，不入 Git/上传包；未配置时规则回退。真实评测需明确授权，仅指定 `--out` 才写本地文件。dev-only 评测页在生产不可访问。
 

@@ -191,7 +191,7 @@ function buildInsights(input: AiAnalysisInput): string[] {
       addUnique(
         insights,
         delta > 0
-          ? "价格上行会影响购买门槛，后续预测应优先考虑价值感而不是只看参数。"
+          ? "价格上行会影响购买门槛，后续预测应结合参数，优先考虑价值感。"
           : "价格未明显上升时，升级体验更可能被性能和功能变化放大。",
       );
     }
@@ -211,7 +211,7 @@ function buildInsights(input: AiAnalysisInput): string[] {
   }
 
   if (!insights.length && previous) {
-    addUnique(insights, "当前信息更适合做保守观察，而不是下结论。");
+    addUnique(insights, "当前信息适合做保守观察，进一步结论仍需更多证据。");
   }
 
   return insights.slice(0, MAX_HIGHLIGHTS);

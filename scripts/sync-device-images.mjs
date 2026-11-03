@@ -107,7 +107,7 @@ async function sync(source) {
       const pictureLinks = (html) => [...new Set([...html.matchAll(/href=["']([^"']*\/picture_index_\d+\/index\d+_\d+_p(\d+)\.shtml)["']/g)]
         .filter((match) => !productId || match[2] === productId).map((match) => match[1]))].slice(0, 2);
       let hrefs = pictureLinks(page.html);
-      // 已有色名不等于已有图片；只沿参数页直接提供的同产品 ID 图库补缺。
+      // 色名和图片分别核验；只沿参数页直接提供的同产品 ID 图库补缺。
       if (!hrefs.length && productId && (!images[device.id] || galleries[device.id]?.colors.some((color) => !color.image))) {
         const overviewHref = [...page.html.matchAll(/href=["']([^"']+)["']/g)].map((match) => match[1])
           .find((href) => new RegExp(`^/\\d+/${productId}/pic\\.shtml$`).test(href));

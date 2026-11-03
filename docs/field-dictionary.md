@@ -5,7 +5,7 @@
 
 ## 数据边界
 
-- `device-data-manifest.json` 登记分品牌数据，构建后合并为唯一运行时主库 `devices-db.json` 及来源登记 `device-sources.json`；`apple-devices-db.json` 是 Apple 分库，不是当前全项目主库。
+- `device-data-manifest.json` 登记分品牌数据，构建后合并为唯一运行时主库 `devices-db.json` 及来源登记 `device-sources.json`；`apple-devices-db.json` 负责保存 Apple 分库。
 - 当前保存 991 条来源记录、421 个原始严格比较组、19,267 个规格字段；公开目录为 970 个型号，八品牌、五品类。来源统计和展示统计不能混用。
 - `device-model-groups.json` 保存人工确认的同款映射：38 条颜色/表带/材质记录归为 17 个型号。原始证据、报价和旧路由保留；尺寸、蜂窝/NFC、芯片及真实代际不同的设备不按颜色合并。
 - `specs` 保存采集事实及来源；`computed` 保存派生结果，二者不得混用。
@@ -29,7 +29,7 @@
 | `releaseYear` | `number` | 发布年份 |
 | `releaseDate` | `string \| null?` | 可选发布日期 |
 | `comparisonGroupId` | `string` | 严格比较组的稳定标识 |
-| `configurations` | `DeviceConfiguration[]?` | 有证据的配置组合；不是内存与存储的任意笛卡尔积 |
+| `configurations` | `DeviceConfiguration[]?` | 由证据确认的配置组合，按实际内存与存储搭配登记 |
 | `benchmarks` | `DeviceBenchmark[]?` | 带评测机构、协议版本和来源的评测记录 |
 | `specs` | `Record<string, SpecField>` | 带来源的规格字段 |
 | `computed` | `Record<string, ComputedField>` | 派生字段 |
@@ -72,7 +72,7 @@ type SpecField<T> = {
 - 价格：`launchPrice`、`currentPrice`、`usedPrice`。
 - 穿戴与版本细节：`caseSize`、`cellular`、`chargingTime`、`compatibility`、`connectivity`、`healthFeatures`、`onboardStorage`、`positioning`、`sensors`、`sportsModes`、`strapMaterial`、`wearableCamera`、`wearableChip`、`wearableFeatures`、`wearableWeight`、`batteryCapacityDetails`、`screenSizeDetails`。
 
-字段并非每个类别都必须具备。禁止用占位字符串写入 `value`；缺失保持为空。`batteryCapacity` 为容量（mAh），不得当作续航时长；`magicKeyboard` 虽为类型可选字段，当前主库未存储，不计入上述 75 键。穿戴兼容性、独立通信与续航必须绑定真实网络版本；IPX8 不能改写成防尘等级。
+各类别使用其适用字段。禁止用占位字符串写入 `value`；缺失保持为空。`batteryCapacity` 为容量（mAh），不得当作续航时长；`magicKeyboard` 虽为类型可选字段，当前主库未存储，不计入上述 75 键。穿戴兼容性、独立通信与续航必须绑定真实网络版本；IPX8 不能改写成防尘等级。
 
 价格字段可额外保存以下快照元数据：
 
@@ -88,7 +88,7 @@ type PriceField = SpecField<number> & {
 };
 ```
 
-`currentPrice` 与 `usedPrice` 是特定日期、配置和成色的中国大陆公开价格快照，不代表实时全网最低价。`price-observations.json` 中同设备同价格类型允许保存多笔报价；运行时读取观察值及主库回退值，只有通过配置、地区、价格类型和状态校验的报价才参与正常展示/预算。`excludedReason` 保留被排除报价的证据，不能作为预算依据。
+`currentPrice` 与 `usedPrice` 记录特定日期、配置和成色的中国大陆公开价格快照；实时全网最低价需另行查询。`price-observations.json` 中同设备同价格类型允许保存多笔报价；运行时读取观察值及主库回退值，只有通过配置、地区、价格类型和状态校验的报价才参与正常展示/预算。`excludedReason` 保留被排除报价的证据，不能作为预算依据。
 
 同配置以较新的采集日期为准，不能用旧的低价覆盖新报价。页面取消内存/存储选择器，各型号在价格字段逐项列出配置报价，并保留 CPU/GPU、网络版本、面板及成色等差异，不把同容量当作完全同配置。穿戴报价按具体尺寸、网络、材质及表带款式绑定。无法确认的价格留空，缺失不计为涨跌。首发价用于历史展示，不替代新机/二手预算；优惠券、积分、以旧换新等未核实资格的优惠不视为所有人可用。二手价仅作轻量参考，不要求全库实时或精确估价。
 
@@ -123,7 +123,7 @@ type DeviceBenchmark = {
 
 ## 产品图与展示
 
-`device-images.json` 登记主图 URL、准确型号、来源、采集时间及快照哈希；`device-image-galleries.json` 登记颜色/款式与可选图片。无准确配色图保持为空；共享主图需标明范围，不给通用图猜颜色。983 条来源记录有主图、8 条缺主图；720 份配色记录、2370 个颜色/款式项，其中 1972 项有图，URL 重用不算独立授权素材。图片许可目前未知，来源可追溯不是商业使用许可。
+`device-images.json` 登记主图 URL、准确型号、来源、采集时间及快照哈希；`device-image-galleries.json` 登记颜色/款式与可选图片。无准确配色图保持为空；共享主图需标明范围，不给通用图猜颜色。983 条来源记录有主图、8 条缺主图；720 份配色记录、2370 个颜色/款式项，其中 1972 项有图，URL 重用不算独立授权素材。图片来源可追溯，商业使用许可仍待核实。
 
 同款归并后图库合并款式与准确图片，旧 ID 仍指向整理后的型号。详情按类别分区、统一正文字重、短值保留标签/数值布局，长文本按原文条目正常显示，无“详情”折叠；镜头分项完整覆盖后置总述时仅去重展示，不删除原证据。
 
@@ -158,8 +158,8 @@ type ComputedField = {
 
 - 输入可带 `minMemoryGb`、`minStorageGb`；文本仅识别部分明确的独立容量表达，不能宣称任意自然语言都可解析。新机只用有效当前价，接受二手时比较当前价和二手价，首发价不参与预算。
 - 模型最多收到 12 台候选、每机最多两笔代表报价，返回 `answer`、`recommendedDeviceIds`、逐项对应的 `recommendedQuoteIds` 和内部 `confidence`，最多推荐 3 台。
-- `quoteId` 是本次候选请求内的标识（形如 `<deviceId>:q<index>`），不是跨请求稳定的商城 SKU；设备/报价绑定失败、超额或冲突选择拒绝整份结果。
-- 服务端补齐型号、年份和选中报价，页面显示推荐文字及设备索引；`confidence` 不是已核验的准确率。绑定校验和有限正文一致性检查不能代替完整自然语言事实核验。
+- `quoteId` 是本次候选请求内的临时标识（形如 `<deviceId>:q<index>`），有效范围限于本次请求；设备/报价绑定失败、超额或冲突选择拒绝整份结果。
+- 服务端补齐型号、年份和选中报价，页面显示推荐文字及设备索引；`confidence` 为内部置信度。绑定校验和有限正文一致性检查之外，完整自然语言事实仍需核验，准确率仍需独立评测。
 
 ## 校验
 
@@ -184,6 +184,6 @@ node scripts/audit-catalog-coverage.mjs --output /tmp/catalog-audit.json
 - 页面核心字段不得从当前完整覆盖状态回退；
 - 输出各品类关键字段覆盖率、来源地区分布和待复核设备清单。
 
-截至 2026-10-07，原始记录为 991 条 / 421 组 / 19,267 字段：`official=5931`、`reference=13336`、`needsReview=[]`；公开目录 970 个型号。有效当前价覆盖 68 个型号、二手价 97 个，不是全配置覆盖。新增报价先验证后进入 `price-observations.json`，分品牌同步与构建合并主库。扩容后字段缺口仍存在，目录审计保持 partial。
+截至 2026-10-07，原始记录为 991 条 / 421 组 / 19,267 字段：`official=5931`、`reference=13336`、`needsReview=[]`；公开目录 970 个型号。有效当前价覆盖 68 个型号、二手价 97 个，各型号仍有配置覆盖缺口。新增报价先验证后进入 `price-observations.json`，分品牌同步与构建合并主库。扩容后字段缺口仍存在，目录审计保持 partial。
 
 Apple 子集增加 19 条手表，现为 150 条 / 31 组 / 4284 字段：`official=4087`、`reference=197`。原手机/平板/笔记本子集仍为 131 条 / 28 组 / 3984 字段，有效当前价 34 台、二手价 75 台。内存中 59 条来自 iOS Ref、2 条来自 iFixit；13 条 MacBook 和 2 条历史 iPhone 首发价使用已登记第三方证据。手表没有公开运行内存或首发价时不套用手机字段补齐；未明确写出的刷新率及 HDMI / SDXC 否定项保持缺失。

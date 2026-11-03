@@ -56,7 +56,7 @@ export default function DeviceImage({ image, gallery, showColors = false, model,
               {color.name}{!color.image ? " · 待补图" : ""}
             </button>)}
           </div>
-          <p className="mt-2 text-xs leading-5 text-[var(--text-soft)]">仅切换外观图片；各款式价格和参数差异见下方，不代表当前有货。</p>
+          <p className="mt-2 text-xs leading-5 text-[var(--text-soft)]">仅切换外观图片；各款式价格和参数差异见下方，当前库存需向销售渠道确认。</p>
         </div>
       )}
       {showColors && source && "sourceUrl" in source && <p className="mt-2 text-center text-xs leading-5 text-[var(--text-soft)]">
@@ -64,7 +64,7 @@ export default function DeviceImage({ image, gallery, showColors = false, model,
           target="_blank" rel="noopener noreferrer" className="text-[var(--primary)]">{source.sourceName}</a>
       </p>}
       {showColors && photo && hasImageEvidence(photo) && photo.note && <p className="mt-2 text-center text-xs leading-5 text-[var(--text-soft)]">
-        {photo.note}{photo.imageScope === "model_shared" ? "；画面中的键盘、手写笔等配件不代表标配。" : ""}
+        {photo.note}{photo.imageScope === "model_shared" ? "；键盘、手写笔等配件是否标配，请核对具体销售配置。" : ""}
       </p>}
     </div>
   );

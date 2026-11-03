@@ -107,7 +107,7 @@ export function readAppleWearable(p) {
     specs.displayType = { ...specs.displayType, value };
   }
   const sizes = [];
-  // 表壳毫米不是屏幕英寸；只记录原页明确给出的表壳选项。
+  // 表壳毫米按原页明确给出的选项记录，须与屏幕英寸区分。
   sizes.push(...[...new Set([display, dimensions].flatMap(raw => parts(raw).filter(part => /^\d+\s*(?:毫米|mm)$/.test(part)))) ]);
   if (sizes.length) specs.caseSize = evidence(p, sizes.join(" / "), sizes.join("；"));
   const connection = sections.get("连接方式") ?? sections.get("连接") ?? "";

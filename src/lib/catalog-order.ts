@@ -166,7 +166,7 @@ function seriesRank(series: Series) {
   const patterns = families[series.brand] ?? [];
   const family = patterns.findIndex((pattern) => pattern.test(series.family));
   const name = `${series.family} ${series.variant} ${series.tier ?? ""}`;
-  // 这是展示顺序，不是销量或热度评分；同档位按名称稳定排序。
+  // 按展示档位排序，同档位按名称稳定排序；销量与热度需独立数据评估。
   const tier = /Ultra|至尊|Pro Max|Pro\+|Max 芯片/i.test(name) ? 0 : /Pro|\bmax\b|Plus/i.test(name) ? 1
     : /SE|\bFE\b|mini|\be\b|Lite|青春/i.test(name) ? 3 : 2;
   return (family < 0 ? patterns.length : family) * 10 + tier;

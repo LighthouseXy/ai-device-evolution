@@ -63,7 +63,7 @@ export function getDeviceImage(id: string): DeviceProductImage | undefined {
   const group = getDeviceModelGroup(id);
   const reference = group && Object.keys(group.editions).map(recordId => photos[recordId]
     ?? stored[recordId]?.colors.find(color => color.image)?.image).find(Boolean);
-  return reference ? { ...reference, colorScope: undefined, imageScope: "model_shared", note: "同型号其他版本的参考图；不代表当前版本外观或全部配色。" } : undefined;
+  return reference ? { ...reference, colorScope: undefined, imageScope: "model_shared", note: "参考图来自同型号其他版本；当前版本外观与可选配色需另行核实。" } : undefined;
 }
 
 export function chooseDefaultDeviceImage(candidates: DeviceProductImage[]) {

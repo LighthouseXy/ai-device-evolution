@@ -237,7 +237,7 @@ function normalizeCandidate(
       facts.priceConfiguration = selected.field.configuration!;
       facts.priceCondition = selected.field.condition ?? "待补充";
       delete facts.configurations;
-      // CPU/GPU 字段可能是该机型的多个可选档位，不代表此报价包含最高档。
+      // CPU/GPU 字段可能列出多个可选档位；此报价的具体档位以对应配置证据为准。
       for (const [key, cores] of [["cpu", configuration.cpuCores], ["gpu", configuration.gpuCores]] as const) {
         if (cores !== undefined) facts[key] = `${cores} 核`;
         else if (facts[key]) facts[key] = `机型可选规格，报价档位以 priceConfiguration 为准：${facts[key]}`;
@@ -341,7 +341,7 @@ export function buildDeviceAdvisorContext(input: DeviceAdvisorInput) {
     seenModels.add(id); return true;
   });
   const selected = new Set(sorted.slice(0, MAX_RECOMMENDATIONS));
-  // ponytail: bounded coverage, not a quality score; revisit only if evaluations show missed choices.
+  // ponytail: bounded coverage; evaluate quality separately and revisit if evaluations show missed choices.
   if (sorted.length > MAX_SHORTLIST && (!budget || budgetMatches.length)) {
     const priced = sorted.filter((candidate) => candidate.referencePrice !== null)
       .sort((a, b) => a.referencePrice! - b.referencePrice!);
@@ -472,7 +472,7 @@ export function groundDeviceAdvisorOutput(
   const otherPrices = new Set(context.candidateShortlist.flatMap((candidate) => candidate.quotes)
     .map((quote) => quote.referencePrice).filter((price) => price !== null && !selectedPrices.has(price)));
   const budget = context.userProfile.budget;
-  // Explicit yuan amounts only; this is not a general natural-language fact checker.
+  // Checks explicit yuan amounts only; other natural-language claims require separate fact checking.
   for (const match of output.answer.matchAll(/[¥￥]\s*(\d[\d,]*(?:\.\d+)?)|(\d[\d,]*(?:\.\d+)?)\s*元/g)) {
     const amount = Number((match[1] ?? match[2]).replaceAll(",", ""));
     if (otherPrices.has(amount) && amount !== budget?.min && amount !== budget?.max) return reject(`unselected_price: ${amount}`);

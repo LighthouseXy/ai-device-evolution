@@ -15,13 +15,13 @@ NEXT_TELEMETRY_DISABLED=1 OPENAI_API_KEY= DEEPSEEK_API_KEY= npm start -- --hostn
 
 本轮实际安装使用 `npm ci --offline --ignore-scripts --no-audit --no-fund`，退出码为 0；数据生成、typecheck、lint 与生产 build 均退出 0。`build:data` 未改变已入库生成 JSON 的字节。空缓存断网不能安装依赖；上面的普通安装命令需要 npm registry 或可用缓存。最后的服务启动命令是使用步骤，本轮监听被环境拒绝，未标为已通过。
 
-The actual clean install used the `--offline` form with a populated cache. Installation, data generation, typecheck, lint and production build exited successfully. Generated JSON remained byte-identical. Empty offline caches cannot install dependencies. The final server-start command is an instruction, not a passing result from this run: loopback listening was denied by the execution environment.
+The actual clean install used the `--offline` form with a populated cache. Installation, data generation, typecheck, lint and production build exited successfully. Generated JSON remained byte-identical. Empty offline caches cannot install dependencies. The final server-start command documents how to run the server. In this run, loopback listening was denied by the execution environment.
 
 `npm run dev` 使用已有 Webpack/polling 开发入口。页面可能请求原有外链图片与字体；基础构建通过不表示完整运行界面完全离线。
 
 ## 完整 check 的缺口 / Full check gap
 
-`npm run check` 本轮退出 1：前面的 typecheck、lint、分类/数据审计与价格工作流回归完成，随后 `scripts/source-snapshot-regression.mjs` 在 `scripts/lib/source-snapshot.mjs` 的离线来源快照检查中报缺失。本轮未下载外部来源或伪造缓存。后续链式检查没有运行，不能称整套 check 通过。私有历史缓存不是干净克隆的默认组成部分。
+`npm run check` 本轮退出 1：前面的 typecheck、lint、分类/数据审计与价格工作流回归完成，随后 `scripts/source-snapshot-regression.mjs` 在 `scripts/lib/source-snapshot.mjs` 的离线来源快照检查中报缺失。本轮未下载外部来源或伪造缓存。后续链式检查没有运行，不能称整套 check 通过。私有历史缓存需单独提供。
 
 The full check exited 1 at a missing offline source snapshot. Later chained checks were not reached. No external evidence was downloaded or fabricated. Historical local evidence caches are not supplied by a clean clone.
 

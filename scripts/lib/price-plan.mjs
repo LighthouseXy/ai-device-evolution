@@ -41,7 +41,7 @@ export function buildPricePlan(devices, observations, { category, priceType, lim
     }
     if (incompleteMatrix) rows.push({ ...base, priority: "P1", status: "verify_configuration", configurationKey: null,
       configuration: null, searchQuery: `${device.modelName} 国行 原始配置表 CPU GPU 运行内存 存储`,
-      reason: "缺少完整配置矩阵；已知报价不代表所有配置齐全，旧设备最高配置也需证据确认" });
+      reason: "配置矩阵仍有缺口；已知报价按对应配置记录，旧设备最高配置也需证据确认" });
   }
   return rows.sort((a, b) => a.priority.localeCompare(b.priority)).slice(0, limit);
 }
